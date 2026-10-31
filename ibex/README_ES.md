@@ -15,7 +15,10 @@ No incorpora credenciales de bróker, cuentas personales ni funciones de compra/
 - Alta de Google AI Studio completada por el titular. Comprobado en la cuenta:
   «No hay una cuenta de facturación» y nivel gratuito. Gemini 3.1 Flash Lite
   muestra 15 solicitudes/minuto, 250.000 tokens/minuto y 500 solicitudes/día.
-  La clave todavía no está conectada a GitHub. No se han contratado servicios de pago.
+  Gemini 3.5 Flash Lite muestra los mismos límites y también tiene tarifa gratuita.
+  Clave conectada como secreto cifrado de GitHub el 01/11/2026, con autorización
+  del titular. IA habilitada; primera ejecución completa en comprobación.
+  No se han contratado servicios de pago.
 
 ## Qué se ha preparado
 
@@ -48,11 +51,19 @@ en el nivel gratuito y sin facturación. No basta con que una clave funcione:
 hay que comprobar el estado de facturación de ese proyecto. No se contrata ni
 se activa ningún servicio de pago automáticamente.
 
-Se ha verificado `gemini-3.1-flash-lite` en la cuenta el 31/10/2026. La adaptación
+Se han verificado `gemini-3.1-flash-lite` y `gemini-3.5-flash-lite` en la cuenta.
+Los valores se reparten de forma alterna entre ambos modelos; cada empresa
+ejecuta el grafo completo con un solo modelo, identificado en el JSON. Se mantienen
+los tres analistas, los debates y los gestores; se permiten dos rondas de
+herramientas por analista, apoyadas en los datos ya descargados.
+La adaptación
 espacia las solicitudes al menos 5,1 segundos, comparte el control entre los
 analistas paralelos y limita las estimaciones conservadoras de entrada/salida
-a 200.000 por ventana de 61 segundos. El tope es de 450 solicitudes por ejecución,
-con margen respecto a las 500 diarias observadas. Otras aplicaciones o ejecuciones
+a 200.000 por ventana de 61 segundos y modelo. El tope es de 450 solicitudes por
+modelo y ejecución, con margen respecto a las 500 diarias observadas por modelo.
+Los informes completos se conservan para reanudar sin nuevas llamadas si siguen
+siendo del mismo día y no han cambiado precios, fundamentales ni noticias.
+Otras aplicaciones o ejecuciones
 el mismo día comparten la cuota: los topes locales no la reservan.
 La cuota gratuita no garantiza 35 ejecuciones
 completas del grafo cada día. Si se agota, se detiene la IA y el informe conserva

@@ -1,12 +1,17 @@
 """Opt-in execution of the REAL TradingAgents graph, without order execution."""
 
 import copy
+import hashlib
+import json
 import os
+import shutil
 import threading
 import time
 from collections import deque
 from datetime import datetime
 from pathlib import Path
+
+FREE_MODELS = ("gemini-3.1-flash-lite", "gemini-3.5-flash-lite")
 
 
 class BudgetExceeded(RuntimeError):
@@ -58,14 +63,80 @@ def validate_llm_policy(environ=None):
         raise ValueError("IA desactivada: falta verificar un proyecto de Gemini sin facturación.")
     if not env.get("GOOGLE_API_KEY"):
         raise ValueError("Falta GOOGLE_API_KEY en los secretos de GitHub.")
-    if env.get("IBEX_LLM_MODEL", "gemini-3.1-flash-lite") != "gemini-3.1-flash-lite":
+    models = tuple(part.strip() for part in env.get("IBEX_LLM_MODELS", env.get(
+        "IBEX_LLM_MODEL", ",".join(FREE_MODELS))).split(","))
+    if not models or len(models) != len(set(models)) or any(model not in FREE_MODELS for model in models):
         raise ValueError("Modelo fuera de la lista revisada para el nivel gratuito.")
     # This flag is a deployment attestation, NOT automatic detection of cloud billing.
     # Never set it merely because an API key exists; inspect account billing first.
+    return models
+
+
+def evidence_fingerprint(report, row):
+    from ibex.data import compact_evidence
+
+    evidence = json.loads(compact_evidence(row))
+    evidence.pop("retrieved_at", None)
+    payload = {"date": report["date"], "company": evidence, "macro_news": report.get("macro_news", [])}
+    return hashlib.sha256(json.dumps(payload, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
+
+
+def reuse_completed(report, row, output, state_root):
+    """Reuse only same-date results with identical evidence and existing reports."""
+    fingerprint = evidence_fingerprint(report, row)
+    cache = state_root / "completed" / report["date"] / row["ticker"]
+    try:
+        record = json.loads((cache / "record.json").read_text(encoding="utf-8"))
+        source = cache / "reports"
+        if record["fingerprint"] != fingerprint or record["agents"]["status"] != "completed":
+            return False
+        if not (source / "complete_report.html").is_file():
+            return False
+        target = Path(output) / "agents" / row["ticker"]
+        shutil.copytree(source, target, dirs_exist_ok=True)
+        row["agents"] = record["agents"]
+        row["agents"]["reused"] = True
+        return True
+    except (OSError, ValueError, KeyError):
+        return False
+
+
+def cache_completed(report, row, output, state_root):
+    cache = state_root / "completed" / report["date"] / row["ticker"]
+    cache.mkdir(parents=True, exist_ok=True)
+    # Invalidate the metadata before replacing files, so cancellation cannot
+    # leave a new report paired with an older evidence fingerprint.
+    (cache / "record.json").unlink(missing_ok=True)
+    shutil.copytree(Path(output) / "agents" / row["ticker"], cache / "reports", dirs_exist_ok=True)
+    record = {"fingerprint": evidence_fingerprint(report, row), "agents": row["agents"]}
+    temporary = cache / "record.tmp"
+    temporary.write_text(json.dumps(record, ensure_ascii=False), encoding="utf-8")
+    temporary.replace(cache / "record.json")
+
+
+def import_previous_report(report, state_root):
+    """Recover public reports from a cancelled job, never from another date."""
+    previous_root = state_root / "previous-report" / "latest"
+    try:
+        previous = json.loads((previous_root / "datos.json").read_text(encoding="utf-8"))
+        if previous["date"] != report["date"]:
+            return
+        for row in previous["companies"]:
+            if row.get("agents", {}).get("status") != "completed":
+                continue
+            if row["ticker"] not in {item["ticker"] for item in report["companies"]}:
+                continue
+            if not (previous_root / "agents" / row["ticker"] / "complete_report.html").is_file():
+                continue
+            row["agents"].setdefault("model", "gemini-3.1-flash-lite")
+            cache_completed(previous, row, previous_root, state_root)
+    except (OSError, ValueError, KeyError):
+        # The normal analysis continues if no usable old report exists.
+        return
 
 
 def run_agents(report, output, state_root):
-    validate_llm_policy()
+    models = validate_llm_policy()
     if not report["universe"]["verified"]:
         raise ValueError("No se ejecuta IA con una composición sin verificar.")
 
@@ -96,7 +167,9 @@ def run_agents(report, output, state_root):
             size = sum(len(str(message.content)) for batch in messages for message in batch)
             self.budget.reserve(size)
 
-    guard = Guard()
+    guards = {model: Guard() for model in models}
+    graphs = {}
+    import_previous_report(report, state_root)
     snapshots = {row["ticker"]: row for row in report["companies"]}
     for row in report["companies"]:
         row["agents"] = {"status": "pending", "note": "Esperando ejecución de TradingAgents."}
@@ -148,7 +221,7 @@ def run_agents(report, output, state_root):
                    "deep_think_llm": "gemini-3.1-flash-lite",
                    "quick_think_llm": "gemini-3.1-flash-lite", "output_language": "Spanish",
                    "benchmark_ticker": "^IBEX", "max_debate_rounds": 1,
-                   "max_risk_discuss_rounds": 1, "max_tool_rounds": 4,
+                   "max_risk_discuss_rounds": 1, "max_tool_rounds": 2,
                    "llm_max_retries": 0, "max_tokens": 1800, "google_thinking_level": "minimal",
                    "results_dir": str(state_root / "logs"),
                    "data_cache_dir": str(state_root / "cache"),
@@ -159,26 +232,41 @@ def run_agents(report, output, state_root):
     config["data_vendors"] = {"core_stock_apis": "yfinance", "technical_indicators": "yfinance",
                               "fundamental_data": "yfinance", "news_data": "yfinance",
                               "macro_data": "fred", "prediction_markets": "polymarket"}
-    graph = IbexGraph(selected_analysts=("market", "news", "fundamentals"), config=config, callbacks=[guard])
     stopped = False
-    for row in report["companies"]:
+    for index, row in enumerate(report["companies"]):
+        model = models[index % len(models)]
         if stopped:
             row["agents"] = {"status": "pending", "note": "Cuota, presupuesto o proveedor agotado; sin sustitución de pago."}
         elif row.get("screen", {}).get("label") == "Datos insuficientes":
             row["agents"] = {"status": "skipped", "note": "Datos insuficientes para ejecutar IA."}
+        elif reuse_completed(report, row, output, state_root):
+            print(f"IA [{index + 1}/35] {row['ticker']}: informe conservado, sin nuevas llamadas.", flush=True)
         else:
             try:
+                if model not in graphs:
+                    model_config = copy.deepcopy(config)
+                    model_config.update({"deep_think_llm": model, "quick_think_llm": model})
+                    graphs[model] = IbexGraph(selected_analysts=("market", "news", "fundamentals"),
+                                               config=model_config, callbacks=[guards[model]])
+                graph = graphs[model]
+                print(f"IA [{index + 1}/35] {row['ticker']}: inicio ({model}).", flush=True)
                 state, rating = graph.propagate(row["ticker"], report["date"])
                 path = Path(output) / "agents" / row["ticker"]
                 graph.save_reports(state, row["ticker"], save_path=path)
-                row["agents"] = {"status": "completed", "rating": str(rating),
+                row["agents"] = {"status": "completed", "rating": str(rating), "model": model,
                                  "decision": str(state.get("final_trade_decision") or "REVIEW"),
                                  "report": f"agents/{row['ticker']}/complete_report.html"}
+                cache_completed(report, row, output, state_root)
             except Exception as exc:
                 # Do not persist an exception string: SDK errors may contain credentials.
                 row["agents"] = {"status": "failed", "note": f"Análisis interrumpido ({type(exc).__name__})."}
                 # Stop on any provider error. Repeated full-graph retries burn free quota.
                 stopped = True
-        report["llm_usage"] = {"calls": guard.calls, "conservative_token_budget_used": guard.estimated_tokens,
+            print(f"IA [{index + 1}/35] {row['ticker']}: {row['agents']['status']}; "
+                  f"llamadas {model}={guards[model].calls}.", flush=True)
+        report["llm_usage"] = {"calls": sum(guard.calls for guard in guards.values()),
+                               "conservative_token_budget_used": sum(guard.estimated_tokens for guard in guards.values()),
+                               "per_model": {model: {"calls": guard.calls, "preventive_limit": guard.budget.call_limit}
+                                             for model, guard in guards.items()},
                                "completed": sum(r.get("agents", {}).get("status") == "completed" for r in report["companies"])}
         save_report(report, output)

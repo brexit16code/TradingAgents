@@ -167,6 +167,9 @@ def test_no_llm_calls_without_verified_free_tier_and_secret():
     with pytest.raises(ValueError):
         validate_llm_policy({"IBEX_FREE_TIER_VERIFIED": "true", "GOOGLE_API_KEY": "dummy",
                              "IBEX_LLM_MODEL": "paid-model"})
+    with pytest.raises(ValueError):
+        validate_llm_policy({"IBEX_FREE_TIER_VERIFIED": "true", "GOOGLE_API_KEY": "dummy",
+                             "IBEX_LLM_MODELS": "gemini-3.1-flash-lite,paid-model"})
 
 
 @pytest.mark.parametrize("characters", [100, 80_000])
@@ -206,6 +209,26 @@ def test_free_tier_budget_rejects_calls_before_consuming_more_quota():
     assert small.calls == 0
 
 
+def test_completed_research_is_reused_only_with_same_date_and_evidence(tmp_path):
+    from ibex.agents import cache_completed, reuse_completed
+
+    row = {**copy.deepcopy(valid_row()), "ticker": "IBE.MC", "retrieved_at": "2026-11-01T00:01:00+01:00",
+           "agents": {"status": "completed", "model": "gemini-3.1-flash-lite"}}
+    report = {"date": "2026-11-01", "companies": [row], "macro_news": []}
+    output = tmp_path / "original"
+    saved = output / "agents" / "IBE.MC"
+    saved.mkdir(parents=True)
+    (saved / "complete_report.html").write_text("Research from verified evidence")
+    cache_completed(report, row, output, tmp_path / "state")
+    fresh = copy.deepcopy(row)
+    fresh["retrieved_at"] = "2026-11-01T00:15:00+01:00"
+    assert reuse_completed(report, fresh, tmp_path / "resumed", tmp_path / "state")
+    assert (tmp_path / "resumed" / "agents" / "IBE.MC" / "complete_report.html").is_file()
+    fresh["news"] = [{"title": "New results require a new analysis"}]
+    assert not reuse_completed(report, fresh, tmp_path / "changed", tmp_path / "state")
+    assert not reuse_completed({**report, "date": "2026-11-02"}, row, tmp_path / "tomorrow", tmp_path / "state")
+
+
 def test_35_company_report_escapes_provider_html_and_is_strict_json(tmp_path):
     rows = []
     for company in load_universe()["companies"]:
@@ -238,7 +261,8 @@ def test_real_graph_adapter_keeps_completed_reports_and_stops_on_provider_failur
         captured["analysts"] = selected_analysts
         captured["config"] = config
         captured["callbacks"] = callbacks
-        captured["calls"] = 0
+        captured.setdefault("calls", 0)
+        captured.setdefault("models", set()).add(config["quick_think_llm"])
 
     def propagate(self, ticker, date):
         captured["calls"] += 1
@@ -266,6 +290,11 @@ def test_real_graph_adapter_keeps_completed_reports_and_stops_on_provider_failur
     assert captured["analysts"] == ("market", "news", "fundamentals")
     assert captured["config"]["benchmark_ticker"] == "^IBEX"
     assert captured["config"]["llm_max_retries"] == 0
+    assert captured["models"] == {"gemini-3.1-flash-lite", "gemini-3.5-flash-lite"}
     saved = (tmp_path / "report" / "datos.json").read_text()
     assert "dummy-test-key" not in saved
     assert report["companies"][4]["agents"]["status"] == "pending"
+    run_agents(report, tmp_path / "report", tmp_path / "state")
+    assert captured["calls"] == 36  # Four first attempts + 32 unfinished companies.
+    assert report["llm_usage"]["completed"] == 35
+    assert all(row["agents"].get("reused") for row in report["companies"][:3])

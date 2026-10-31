@@ -46,6 +46,14 @@ jobs:
           path: .ibex-state
           key: ibex-state-${{ github.run_id }}
           restore-keys: ibex-state-
+      - name: Recuperar informes terminados del mismo día
+        if: vars.IBEX_FREE_TIER_VERIFIED == 'true'
+        run: |
+          mkdir -p .ibex-state/previous-report
+          if git ls-remote --exit-code --heads origin ibex-reports > /dev/null 2>&1; then
+            git fetch origin ibex-reports
+            git archive FETCH_HEAD latest | tar -x -C .ibex-state/previous-report
+          fi
       - name: Analizar con TradingAgents, solo nivel gratuito
         if: vars.IBEX_FREE_TIER_VERIFIED == 'true'
         timeout-minutes: 120
