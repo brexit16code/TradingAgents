@@ -221,3 +221,7 @@ __marimo__/
 # Enterprise env file (secrets) and generated run reports
 .env.enterprise
 reports/
+
+# IBEX generated data and persistent agent state (never credentials).
+ibex-output/
+.ibex-state/

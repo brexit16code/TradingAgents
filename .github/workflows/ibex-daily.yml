@@ -1,0 +1,102 @@
+name: IBEX 35 diario
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 19 * * *'
+      timezone: Europe/Madrid
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ibex-daily
+  cancel-in-progress: false
+
+jobs:
+  report:
+    # Public forks on standard Linux runners: no paid compute or new subscription.
+    # A private repository is deliberately skipped until its quota is reviewed.
+    if: github.repository != 'TauricResearch/TradingAgents' && github.event.repository.fork == true && github.event.repository.private == false
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    env:
+      TZ: Europe/Madrid
+      TRADINGAGENTS_NO_UPDATE_CHECK: '1'
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: ibex/requirements.txt
+      - name: Instalar datos gratuitos
+        run: python -m pip install -r ibex/requirements.txt
+      - name: Analizar los 35 valores sin coste de IA
+        id: baseline
+        timeout-minutes: 35
+        run: python -m ibex.run
+      - name: Instalar TradingAgents solo si la cuota gratuita está verificada
+        if: vars.IBEX_FREE_TIER_VERIFIED == 'true'
+        run: python -m pip install .
+      - name: Recuperar memoria y puntos de reanudación
+        if: vars.IBEX_FREE_TIER_VERIFIED == 'true'
+        uses: actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
+        with:
+          path: .ibex-state
+          key: ibex-state-${{ github.run_id }}
+          restore-keys: ibex-state-
+      - name: Analizar con TradingAgents, solo nivel gratuito
+        if: vars.IBEX_FREE_TIER_VERIFIED == 'true'
+        timeout-minutes: 120
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          IBEX_FREE_TIER_VERIFIED: ${{ vars.IBEX_FREE_TIER_VERIFIED }}
+          IBEX_MAX_LLM_CALLS: '300'
+          IBEX_MAX_LLM_TOKENS: '750000'
+        run: python -m ibex.run --resume-baseline --with-agents
+      - name: Guardar memoria sin credenciales
+        if: always() && vars.IBEX_FREE_TIER_VERIFIED == 'true'
+        uses: actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
+        with:
+          path: .ibex-state
+          key: ibex-state-${{ github.run_id }}
+      - name: Conservar informes descargables siete días
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: IBEX35-informes-${{ github.run_id }}
+          path: ibex-output/
+          retention-days: 7
+          if-no-files-found: warn
+      - name: Actualizar el informe legible desde Android
+        if: always() && steps.baseline.outcome != 'skipped'
+        env:
+          GH_REPO: ${{ github.repository }}
+        run: |
+          test -f ibex-output/latest/Informe.md
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if git ls-remote --exit-code --heads origin ibex-reports > /dev/null 2>&1; then
+            git fetch origin ibex-reports
+            git worktree add /tmp/ibex-publish FETCH_HEAD
+          else
+            git worktree add --detach /tmp/ibex-publish
+            git -C /tmp/ibex-publish checkout --orphan ibex-reports
+            git -C /tmp/ibex-publish rm -rf .
+          fi
+          mkdir -p /tmp/ibex-publish/latest
+          rsync -a --delete ibex-output/latest/ /tmp/ibex-publish/latest/
+          python - <<'PY'
+          from pathlib import Path
+          Path('/tmp/ibex-publish/README.md').write_text(
+              '# Informes diarios IBEX 35\n\n[Leer el último informe](latest/Informe.md)\n\n'
+              'Investigación con datos públicos, sin posiciones personales ni operaciones reales.\n',
+              encoding='utf-8')
+          PY
+          git -C /tmp/ibex-publish add latest README.md
+          if ! git -C /tmp/ibex-publish diff --cached --quiet; then
+            git -C /tmp/ibex-publish commit -m 'Actualizar informe diario IBEX 35'
+            git -C /tmp/ibex-publish push origin HEAD:ibex-reports
+          fi
+          echo "[Abrir informe en el móvil](https://github.com/${GH_REPO}/blob/ibex-reports/latest/Informe.md)" >> "$GITHUB_STEP_SUMMARY"
