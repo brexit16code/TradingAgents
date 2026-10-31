@@ -15,7 +15,9 @@ No incorpora credenciales de bróker, cuentas personales ni funciones de compra/
 - Ratios, resumen de estados financieros y comparación de PER estimado con los
   valores del mismo sector y tipo cuando hay al menos tres comparables.
 - Titulares fechados y enlazados de los últimos siete días y contexto macro de
-  España/eurozona. Son muestras de búsqueda; se debe comprobar la relevancia.
+  España/eurozona. Los titulares de empresa deben mencionar su nombre o un alias;
+  no basta con que el nombre aparezca como editor del artículo. Son muestras de
+  búsqueda; se debe comprobar la relevancia.
 - Informe HTML independiente, JSON e informe Markdown legible desde GitHub en
   Android, con justificación de señales, riesgos, fuentes y datos faltantes.
 - Integración optativa con el **grafo real de TradingAgents**, sus analistas
@@ -79,6 +81,10 @@ También se pueden ver los resultados en **Actions → IBEX 35 diario → últim
 ejecución** y descargar el paquete de informes durante siete días. `index.html`
 incluye buscador, filtros y gráficos sin servicios externos de gráficos.
 Los informes completos de agentes quedan enlazados cuando se han podido generar.
+
+El workflow **Publicar informe IBEX** publica el HTML en GitHub Pages cuando
+termina correctamente el análisis diario. Pages usa únicamente la carpeta de
+informes ya pública de la rama `ibex-reports`; no publica credenciales ni cartera.
 
 ## Reglas y límites de datos
 

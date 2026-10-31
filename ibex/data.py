@@ -1,7 +1,9 @@
 """Public market data and dated headline samples; never brokerage APIs."""
 
 import json
+import re
 import time
+import unicodedata
 import xml.etree.ElementTree as ET
 from datetime import UTC, datetime, time as datetime_time, timedelta
 from email.utils import parsedate_to_datetime
@@ -12,6 +14,32 @@ from zoneinfo import ZoneInfo
 from ibex.metrics import fundamentals, relative_return, technical
 
 MADRID = ZoneInfo("Europe/Madrid")
+
+NEWS_ALIASES = {
+    "Banco Santander": ("santander",), "Banco Sabadell": ("sabadell",),
+    "ArcelorMittal": ("arcelormittal", "arcelor mittal"),
+    "IAG": ("iag", "iberia", "british airways", "vueling"),
+    "Inmobiliaria Colonial": ("colonial",), "Laboratorios Rovi": ("rovi",),
+    "Merlin Properties": ("merlin",), "Redeia": ("redeia", "red electrica"),
+}
+
+
+def company_headlines(articles, company):
+    """Require the company's name in the headline, excluding the publisher suffix.
+
+    Search matches may occur only in a site's sidebar or publisher name. Such
+    matches must not be presented to the agents as verified company events.
+    """
+    def normalize(value):
+        return "".join(ch for ch in unicodedata.normalize("NFKD", value.casefold())
+                       if not unicodedata.combining(ch))
+
+    aliases = NEWS_ALIASES.get(company["name"], (company["name"],))
+    patterns = [re.compile(r"(?<!\w)" + re.escape(normalize(alias)) + r"(?!\w)")
+                for alias in aliases]
+    return [article for article in articles if any(
+        pattern.search(normalize(article["title"].rsplit(" - ", 1)[0]))
+        for pattern in patterns)]
 
 
 def safe_url(url):
@@ -142,7 +170,8 @@ def collect(company, benchmark, now):
     except Exception as exc:
         row["warnings"].append(f"Precios no disponibles ({type(exc).__name__}).")
     try:
-        row["news"] = rss_news(f'"{company["name"]}" bolsa resultados', now)
+        candidates = rss_news(f'"{company["name"]}" bolsa resultados', now, limit=20)
+        row["news"] = company_headlines(candidates, company)[:6]
         if not row["news"]:
             row["warnings"].append("La muestra de titulares no cubre esta empresa en los últimos siete días.")
     except Exception as exc:

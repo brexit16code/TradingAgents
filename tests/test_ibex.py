@@ -10,7 +10,7 @@ import pandas as pd
 import pytest
 
 from ibex.agents import validate_llm_policy
-from ibex.data import closed_history, rss_news, safe_url
+from ibex.data import closed_history, company_headlines, rss_news, safe_url
 from ibex.metrics import add_peer_valuations, fundamentals, relative_return, screen, technical
 from ibex.render import save_report
 from ibex.universe import load_universe, parse_revisions, verify_universe
@@ -143,6 +143,17 @@ def test_news_excludes_future_undated_and_old_articles(monkeypatch):
     assert [a["title"] for a in rss_news("Empresa", NOW)] == ["Actual"]
     assert safe_url("javascript:alert(1)") == ""
     assert safe_url("https://secret@example.org") == ""
+
+
+def test_headline_relevance_excludes_publisher_matches_and_partial_names():
+    articles = [{"title": "BBVA presenta resultados - Bankinter"},
+                {"title": "Bankinter presenta resultados - Otro medio"},
+                {"title": "Diageo sube - Otro medio"},
+                {"title": "IAG presenta resultados - Otro medio"},
+                {"title": "Red Eléctrica presenta resultados - Otro medio"}]
+    assert company_headlines(articles, {"name": "Bankinter"}) == [articles[1]]
+    assert company_headlines(articles, {"name": "IAG"}) == [articles[3]]
+    assert company_headlines(articles, {"name": "Redeia"}) == [articles[4]]
 
 
 def test_no_llm_calls_without_verified_free_tier_and_secret():
