@@ -1,13 +1,13 @@
 {
-  "date": "2026-10-31",
-  "generated_at": "2026-10-31T23:37:05.480083+01:00",
+  "date": "2026-11-01",
+  "generated_at": "2026-11-01T00:06:42.096865+01:00",
   "timezone": "Europe/Madrid",
   "mode": "read_only_research",
   "universe": {
     "verified": true,
     "source": "https://www.bolsasymercados.es/dam/descargas/indices/composicion-ibex-35-es-en.pdf",
     "revision_date": "2026-09-21",
-    "checked_at": "2026-10-31T23:37:05.480083+01:00",
+    "checked_at": "2026-11-01T00:06:42.096865+01:00",
     "note": "Lista contrastada con el histórico de revisiones de BME."
   },
   "companies": [
@@ -32,9 +32,15 @@
         },
         {
           "title": "El Ibex cae por debajo de los 18.900 puntos lastrado por Santander y Acciona Energía mientras el mercado espera a la Fed - El Conciso",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcGhNZnVpOG4zb2pldVdxRDRaZnNPUTNTX1Jtd1NScnFNNlVSNko0RVZpcDVPX29lZ2M2V3E4VFRWN0d3dENfOWk0UTVHRnpRMU9DY1V3UTlhMHpxV01yR1lseDdnUG1iaGRHN1lwVUlVV1RTNzM2RzcxNzdyemhSR3JOcDhkZ3hjaDFsTWJjV3HSAZYBQVVfeXFMUGxQNGZFcHpwNlhaa3RUTXhxUFJCNmdEakRfWUlTWTRtSnZHVnYzN0lyTEltQXNCdXhuYzRuZVhXRld4dW4yX0xzMjBGUlk5S0hXVFJmeVhCZzVuUG9CZFdtSU00WGdnWnM2UUUzU2d4b0gxUUdXQ3hQR1FSbjE1el80aV96N2phaTR5N0FHc2hCNlZlYTJR?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbFA0ZkVwenA2WFprdFRNeHFQUkI2Z0RqRF9ZSVNZNG1KdkdWdjM3SXJMSW1Bc0J1eG5jNG5lWFdGV3h1bjJfTHMyMEZSWTlLSFdUUmZ5WEJnNW5Qb0JkV21JTTRYZ2daczZRRTNTZ3hvSDFRR1dDeFBHUVJuMTV6XzRpX3o3amFpNHk3QUdzaEI2VmVhMlHSAZYBQVVfeXFMUGxQNGZFcHpwNlhaa3RUTXhxUFJCNmdEakRfWUlTWTRtSnZHVnYzN0lyTEltQXNCdXhuYzRuZVhXRld4dW4yX0xzMjBGUlk5S0hXVFJmeVhCZzVuUG9CZFdtSU00WGdnWnM2UUUzU2d4b0gxUUdXQ3hQR1FSbjE1el80aV96N2phaTR5N0FHc2hCNlZlYTJR?oc=5",
           "publisher": "El Conciso",
           "published_at": "2026-10-28T17:47:33+00:00"
+        },
+        {
+          "title": "El Ibex 35 retrocede un 1,45% y se deja los 18.900 puntos lastrado por Acciona Energía y Santander - Demócrata",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQbkt3anR0Z2NIeDk5RUJHSEU3RjZXUEhnOHQ1RmY4UGVnOExqbncwMkljaFhnbEIxdlhhQ1FjUVhBTmZUcVE4NFlNNXRERUNsZ1llZmV2aS1TbnJvTThpUlAtX1FOWVMySUFPc0FueTNOM3pSS0pBYm42eVdVYlFCNk0xbTNTc1FZcTVLX29VR1lzTWE3WWJ0eFZISkJSb1U1WDhCUXA1S1hTS2FxTFJXR1NTRFZGZGdyM1pLejgwRXNmbWtJOFprYTdOWkLSAdIBQVVfeXFMUEVRUF9fOW9rdGdwTVVQSDNxelp2UDdKTktGUGRQcGpoc0VSMXhjSHFubHFyeVNhcXdPbVhGd0dfekxfdFBZRGp6NjBJR1A2UzdnLVI4dXFEc0s5eDE0aGZRRXhSR3FFV0tkTlgxVDRCd2E4ZUp5cGxheG1sLW9Cdm5YaHpIbk44UE53SmdMX2trZ3dNZXp1QjRIcnBpYzg3TGkwSDcyNTZHNkp0bUpDckE3VEl3RG4zWWRDRl9kLTdlUzVLSkRJdGxacF9CUVVfeGFn?oc=5",
+          "publisher": "Demócrata",
+          "published_at": "2026-10-28T17:06:44+00:00"
         },
         {
           "title": "El Ibex 35 cae un 1,45% lastrado por Santander y Acciona - El Boletín",
@@ -43,19 +49,13 @@
           "published_at": "2026-10-28T17:06:41+00:00"
         },
         {
-          "title": "El Ibex 35 cede un 1,45% y pierde los 18.900 puntos arrastrado por Acciona Energía y Santander - PressDigital",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxONGM0UHpSRVVsc3VQcXd4Zkw5c2VRRGpPQmEwZTc0VmdGTk9Nakt4X19yYVZMeGtMQjMxOVUzRFlNU2VmRzRLV29DVm91cWVjYlpuRkh3bzE4czRMQ3lfQmVEcnNWWmwwLUxLVUJ6eDNfYm5QX2k2Vmtvb2pwY3l1TzZqbk96VmprRjYyY1BvQ2MwLUVGb3h6bkVDNkhQWXphUmpQSTczS2ZuN1FpVnkwS3NNbzdNXzg5QjNnYlBnZ1NwLUdXYW1HZGprNktqT2VSMGN2Qg?oc=5",
-          "publisher": "PressDigital",
-          "published_at": "2026-10-28T17:05:00+00:00"
-        },
-        {
-          "title": "Acciones de Acciona Energía: Análisis fundamental y recomendaciones - Bankinter",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5SdmNDbmpSc0Z2dVpLU1hHN3dkNjk2akpWN1lqSnNvZGFKZnhhNTNWT19HSTRvaGw4THNSYUJoTm9DUy10ZVJKcWd0Vmk1VVhWbHgwSU1TcGlzbkx2RVUydk1sdy0zWjFvUTJhR18ydTFacTEzQ2tiUmh2MDE?oc=5",
-          "publisher": "Bankinter",
-          "published_at": "2026-10-28T16:44:36+00:00"
+          "title": "El Ibex pierde los 19.000 lastrado por Santander y Acciona en un día trágico - MarketScreener España",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOT3V5UHg4aHRNS3BhaUpXM19DenlZUmpRS3BRdTJ1bVJ4UTBaendXb2ZaMTNLcUZaV3kteXhqWlJJUHJPQVZBdVYzY1ZvTzdpNnN1V0pfSnBBWkFKQV9yZDNySXZZaU1LVy1qbEdqTGR5NzV3OWhCN283TnBDczU5NDBCYk5Zb1RkcVlnUU1uUWVycm5RRFY3d0U1UDAxQVVWSDJ4U0xpQk53ejFaakJOTlYxYTZtd0UySmZ6Xzk3enhYQm80ZHVVZlBobFc?oc=5",
+          "publisher": "MarketScreener España",
+          "published_at": "2026-10-28T17:05:48+00:00"
         }
       ],
-      "retrieved_at": "2026-10-31T23:37:05.480083+01:00",
+      "retrieved_at": "2026-11-01T00:06:42.096865+01:00",
       "technical": {
         "close": 203.60000610351562,
         "adjusted_close": 203.60000610351562,
@@ -1240,6 +1240,12 @@
           "Deuda neta/EBITDA superior a 4; revisar su sostenibilidad y el sector."
         ],
         "method": "Filtro de reglas sin IA; noticias sin interpretación semántica."
+      },
+      "agents": {
+        "status": "completed",
+        "rating": "Underweight",
+        "decision": "**Rating**: Underweight\n\n**Executive Summary**: Reduzca su exposición en ANA.MC en un 25% para mitigar riesgos ante la debilidad fundamental y la tendencia técnica bajista. Mantenga el resto de la posición esperando una consolidación clara por encima del soporte crítico de los 200 EUR antes de considerar cualquier reinversión. El enfoque prioritario es la preservación del capital dada la fragilidad de los estados financieros.\n\n**Investment Thesis**: La tesis se inclina hacia el análisis conservador debido a la alarmante estructura de balance: un ratio Deuda Neta/EBITDA de 6,14x y un flujo de caja libre negativo de 722 millones de EUR, factores que son insostenibles bajo el actual entorno de tipos de interés restrictivos. Aunque el analista agresivo argumenta una infravaloración basada en proyecciones de BPA (Forward EPS de 10,47 EUR), estas proyecciones carecen de respaldo en la liquidez operativa real. La debilidad técnica es evidente con el precio cotizando por debajo de la media móvil de 200 días (222,76 EUR) y un RSI de 43,44 que refleja una presión vendedora persistente. La decisión de reducir exposición se fundamenta en que el riesgo de perforar el soporte psicológico de los 200 EUR supera el beneficio potencial de una reversión especulativa. Cambiaría esta visión si la empresa logra un flujo de caja libre positivo, reduce el apalancamiento significativamente, o si el precio confirma una recuperación consistente por encima de la SMA de 200 días con volumen comprador.\n\n**Price Target**: 218.31\n\n**Time Horizon**: 3-6 meses",
+        "report": "agents/ANA.MC/complete_report.html"
       }
     },
     {
@@ -1262,6 +1268,12 @@
           "published_at": "2026-10-28T17:47:33+00:00"
         },
         {
+          "title": "El Ibex 35 retrocede un 1,45% y se deja los 18.900 puntos lastrado por Acciona Energía y Santander - Demócrata",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQbkt3anR0Z2NIeDk5RUJHSEU3RjZXUEhnOHQ1RmY4UGVnOExqbncwMkljaFhnbEIxdlhhQ1FjUVhBTmZUcVE4NFlNNXRERUNsZ1llZmV2aS1TbnJvTThpUlAtX1FOWVMySUFPc0FueTNOM3pSS0pBYm42eVdVYlFCNk0xbTNTc1FZcTVLX29VR1lzTWE3WWJ0eFZISkJSb1U1WDhCUXA1S1hTS2FxTFJXR1NTRFZGZGdyM1pLejgwRXNmbWtJOFprYTdOWkLSAdIBQVVfeXFMUEVRUF9fOW9rdGdwTVVQSDNxelp2UDdKTktGUGRQcGpoc0VSMXhjSHFubHFyeVNhcXdPbVhGd0dfekxfdFBZRGp6NjBJR1A2UzdnLVI4dXFEc0s5eDE0aGZRRXhSR3FFV0tkTlgxVDRCd2E4ZUp5cGxheG1sLW9Cdm5YaHpIbk44UE53SmdMX2trZ3dNZXp1QjRIcnBpYzg3TGkwSDcyNTZHNkp0bUpDckE3VEl3RG4zWWRDRl9kLTdlUzVLSkRJdGxacF9CUVVfeGFn?oc=5",
+          "publisher": "Demócrata",
+          "published_at": "2026-10-28T17:06:44+00:00"
+        },
+        {
           "title": "El Ibex 35 cede un 1,45% y pierde los 18.900 puntos arrastrado por Acciona Energía y Santander - PressDigital",
           "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxONGM0UHpSRVVsc3VQcXd4Zkw5c2VRRGpPQmEwZTc0VmdGTk9Nakt4X19yYVZMeGtMQjMxOVUzRFlNU2VmRzRLV29DVm91cWVjYlpuRkh3bzE4czRMQ3lfQmVEcnNWWmwwLUxLVUJ6eDNfYm5QX2k2Vmtvb2pwY3l1TzZqbk96VmprRjYyY1BvQ2MwLUVGb3h6bkVDNkhQWXphUmpQSTczS2ZuN1FpVnkwS3NNbzdNXzg5QjNnYlBnZ1NwLUdXYW1HZGprNktqT2VSMGN2Qg?oc=5",
           "publisher": "PressDigital",
@@ -1274,19 +1286,13 @@
           "published_at": "2026-10-28T16:44:36+00:00"
         },
         {
-          "title": "Acciona y Acciona Energía caen ante las complicaciones para vender la filial renovable - Bolsamania",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQdHNqUmRyMXp0Smd6QmxUb2l5SEJLWlVubndsLWJhRUNZSFBmZWJpTlh1SmJWSnFxSkd3N0I1ZWlDd2gyRUhFUkZ5bklTejExdWJzY1VEbVBpQnhUa05WOE1ZR210RDlGNF9jSlhSUFYwRlJyVExEblJocmRMSzBHTDNtTjhPNk5EbGY0U0kxcEx5enprNFFIS3BDdnJDZERJbEhuUTNhZl9qYUxCZHNhM1V6WTdmQzNUOWI2QWtGbGg3OWszZmNuM245NmlsQVNCeXVXUUlLeXhKNjhzWVA3WVlhb3dpN2FwcF9sQtIB8gFBVV95cUxQMm5PeHA5anBhRnM2SjZtUlpLX1ZzNDlIRzVzSVhCRTgzOXVQaUtPYmotZUpvcVJfSnY5QlVTeW5Hb3k0bEtkSWx5R3dFaWNVOURSLS14R25faTMtNm40c0NQQVNDbVVyYnZYb3E5QV9OUzN1MlhaY1diYjBvYUdMelNLR0xwMEh2N2NuVVczX0dZb0RKZ0Fla1Q2blplVWRtV0tYQ2N0cFhHSVdwbzFrZ29BYzB0R21tZGpSOUI3Mjk1V2NZY0VBd1RJa0VDZVdhSm9DM25yZE9QUTBpb0tYTGhWT193bmZzQmV6RDRucGFZQQ?oc=5",
-          "publisher": "Bolsamania",
-          "published_at": "2026-10-28T08:54:34+00:00"
-        },
-        {
-          "title": "Horos AM invierte en Rovi, se refuerza en Acciona Energía y previene del riesgo inflacionista y el aumento ... - Estrategias de Inversión",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON0JEOXNhMjRReVJ1dGpFamkxTXp0UDkyd0hPSWowb0toaEsxY3N2WU5BblhMUDY5LUJib0dXVkhxUWE0UzNQbVk4eWRwMVZKNVhjSnB6TndGUF9POGJ0LU1yQjhaUnVwTFVsd25CVXJrMkFFcGVEYm5rbWhqTE1IYUNyVjdqbXBONEM1S3VEakhWYjRpempuelZrd2NXV1N6YllVbDV30gGiAUFVX3lxTE1PajY2YUN6S24tcFNEQjE1aE1iUlh5dG1DYVhTY1pQcWdrclNnc1hZcHl4UFQwVFFNdGpNWV9VYjNNZXRkY0x3VWVfYzlMMVAzV05wN0dIaDNMdVRZRk51cGVVNDFwNkJhWjJVSDZkZko3U2xjS0dKdllFR2Z6NW1sQUxNU0hHMHdGR1BDb293d1hObUV4dmktQktvQ3ZJTF9ZUQ?oc=5",
-          "publisher": "Estrategias de Inversión",
-          "published_at": "2026-10-27T08:30:00+00:00"
+          "title": "Acciona se hunde ante el fracaso de la venta de Acciona Energía - XTB.com",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRjkyMlRpN29CTGcwNUZ6czktVHNnN3l0eDNXNlZoR0E5RVBuT3hZRVUzYUgyTTV2dTJZZ0l5cjBIaDg0a3paRWVDYUx4NS1rRmF1ZVVBdmE1SFZ5N0thcEdlQ2YxbFZZZFRuRFJ4NGRkTjIzcXpOQzcyNnRUcnk2OGo4YUxEOTJjUURDVU5BNjFnRmpT?oc=5",
+          "publisher": "XTB.com",
+          "published_at": "2026-10-28T13:48:17+00:00"
         }
       ],
-      "retrieved_at": "2026-10-31T23:37:05.480083+01:00",
+      "retrieved_at": "2026-11-01T00:06:42.096865+01:00",
       "technical": {
         "close": 20.979999542236328,
         "adjusted_close": 20.979999542236328,
@@ -2473,6 +2479,10 @@
           "Deuda neta/EBITDA superior a 4; revisar su sostenibilidad y el sector."
         ],
         "method": "Filtro de reglas sin IA; noticias sin interpretación semántica."
+      },
+      "agents": {
+        "status": "pending",
+        "note": "Esperando ejecución de TradingAgents."
       }
     },
     {
@@ -2487,18 +2497,6 @@
           "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPMGtreS0ySjVKUnJUZmhKdVRYdTJMNHZTUXcxQldIbkJJZ3dmOHJZbmU5LWlocFFMaDI3cVhOWkpFbi1aZVBpVjJOWG9hb2ItTzhMeUlUc0ZIbnd6VjFMWlRiUkxrNEtqdmdaNlpMTVZKWG03ZXM3RndpanZlVVZaell1b1hHV2tVRGpZaEo0ajVUOUkzYmw0UjdCQjNyTWY1MXJiY29yaVpjQS15a3VoTkZ3VzFZTE1TTGdIbVhqWFlDSkZFTkY3UE9FbV9QdkJtX3hsRGI1ZWNFR3FjcFZsOFVGWGd5SlFab0E?oc=5",
           "publisher": "MarketScreener España",
           "published_at": "2026-10-30T22:42:38+00:00"
-        },
-        {
-          "title": "Acerinox lidera las caídas en Bolsa pese a multiplicar por 23 su beneficio hasta septiembre - El Boletín",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeEpjZi1UVTl6dlY2d3NDa2VjczktUVYwUFlZZjd5TWNWNUZMVTBPQTNsZm5wTnNzRE16TXhQbVNRMkdmUXRRUHBnc2ZLRFlqenlpZE0wczNkQ2RpYUJTUXU1ZzRSQk5JcE9KN2VieUZOTVF4aEtnNm95bFhoRDJzNDZ5ZlVJQjlYZ3VQMWprQ2V6UFE5RlgtWGpnaVFlX2xDVzdzaXNMcWQ2eTkyd0ZGRmZ4M3hkUEpra2fSAb8BQVVfeXFMTnpRM2tkdW5HY0FydkJZMEdYcWp6aGNjbFhUZWg0U3MydTlRNUNYQ3QwcDJETS1RVWJKNjhQcEYzdGptYk90aDlXNVFiazVsanQ5VXZCYS03T1YzN1VEVWJNdy1UYXlabmZxRC1EUHZoVVdJX3RONWp6RGQwSkJZQnc1ZVR1MGQyNlU3WW5sSTJlOUNYRGlNcnRYYnAyV1FjVDNiTUM3Vk9McGo3TXBXWlR6Yk45cmJVQlJaQnppekU?oc=5",
-          "publisher": "El Boletín",
-          "published_at": "2026-10-30T16:54:46+00:00"
-        },
-        {
-          "title": "Acerinox (ACX) se desploma pese a disparar sus beneficios - Benzinga España",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPekNQR05tY1BNNkNDR3M4OTNtVGZFWGRFQjNxUXpGV1RpT2RYYmM1bnhqZ1dwd01WUXB0MHNhVXk5b2hmTHp5VDF0QWdyeFAtVTFIRGNad3pYTVc4cGl6bzlOUnRsakhLbFhOeUZsWTJ1N3Q4Z2ZoN0MzNHJCRzJOWFNsWGNIUmNIenRHNkNvZGhUelV0S3o5Q3p3?oc=5",
-          "publisher": "Benzinga España",
-          "published_at": "2026-10-30T14:47:07+00:00"
         },
         {
           "title": "El IBEX 35 cae con Acerinox a la cola y CaixaBank remonta tras resultados - Benzinga España",
@@ -2517,24 +2515,36 @@
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMnNRWGxxSDBkRktIcV81UWhuT0s2VmFLNkcxb0lXWTdHZkJkaDVUQWFFaE1ZSHdQWEQ1Ul9oTVlUNm5HRFlibVFGWXZkRjQwd0VCcXZyQ3pPQmRmN25iSVJmZFp5eTV1d185MVV1VnozWkkwLVhBcTZSOEI2ODhVM3dUQkk0Z0RGcEl6VXJXVGhvbFBzckZhaF9CZXFxNHFQT1lWMWpNZ2RFZ3VpbHVB0gG0AUFVX3lxTE9qVWpsRjhKMTdXX3lvR01obEJQTXRMY2lZTkRNRW9LSWpqN2hZeHg1c1AzR1g1bnVEMXdmUHVIcmo4angzT0lxYnFTMUc3cGYwdldMaEdsenduTldKSUgzOGVuTWJ4MEVXbVdfYVd0TjlrNk45NDQ0bDlDampnTFc4Q0ZISGItYjZWbmlYX2x5amxZZ2N3ZUdpVzNUMjFJUTV3eEF0SEtIaE1vVzZINXlVeWxuYQ?oc=5",
           "publisher": "Radio Intereconomía",
           "published_at": "2026-10-30T09:45:00+00:00"
+        },
+        {
+          "title": "Acerinox multiplica su beneficio por 23 gracias a su robustez en EE.UU. pero cae en Bolsa tras aumentar su ... - OkDiario",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQLXBvUThxWFVvT0thUFpkYlFYem1aSWJtclJQVE9HWFc0MzZPX0lBWXN3UFFiZDIwQXZTUTFNaFNEMEY3eDJtcnoxLTBZRHg2YTNmem8yLUFSbnJNOFMwc1Vtdy1mdmxTS1Z1b1hpUGM2VnlrTWU0YmxMbEdlTUt6XzNjaGlhbjVkYXZOdERCdWhSZ1pncG1FdjluYU5ibU1yREoyS2ZtYkRiYThuSnQydkRyRGprX0pUOXE3WVJFWi1IZ9IBxwFBVV95cUxPbm5PMm9Hb05jTFFpLTBydGVfRWdtb0NGXzlOQTk4VGFsclhoa1QzVVlwcmZXdllaZm03VjgtWlM0eWhhRmFWS0dFNUp6WkVlcFR1dVloYUhSX2FLWmlnelI2b3NHUUdudU9Mb3BFRS1xRmt4cmFVeTA5YUEtZlRCZUpMY3RDVncwSWNUOVZKV004eURiZW5HSHlUakhpblhaTDFJMW1KRFA5bDVQWlhjNDZCOFBRMzhwVEdyMVRFNnBCVXdDN1N3?oc=5",
+          "publisher": "OkDiario",
+          "published_at": "2026-10-30T09:25:34+00:00"
+        },
+        {
+          "title": "Acerinox: la presión bajista reaparece tras sus resultados poniendo en riesgo los 16,40 euros - El Español",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbjQ3S3R1dHd5N0sxakNzWEFIelN0dFhxNHRlc0gyc3BoWHpLY0xQRUx2OUR3WmtLXzd4d3FqcXpNYktjaXRLVk80a09vS1NvRlVYbm1vMzRGUXV6TzRFaVAyVVNyM2V4WWh0QXBTRllMV3BUM0g3dXpuSzE3YXRhSHpCVVI1VFlkMEktbFpKU3ZKRUM0NHNoZ2xhc0JLVlRKQmpQb2xLWGdQV0Fyc1ZrOWpQQ2diS0lmdnhmcG1fY2l6d0NZSUR3Z0thQTBlQU1IY3lwWU9fczPSAd4BQVVfeXFMT3RvbXVSQmlVZjItdEI5Sm56Q2xpbWVDU3A0QzdpYkY0R2J1NlRlT05CY2NIdDJNUl82MXRvbng1NktWR3hqREVvRHhQaUJLVzBnM3dZSEJsZFFMcVZtcUVNYTVQWVJUM3dwU0xaWHhsbnBaOW9RWUxydE9vb0JfZzBxTnVCQlJKWXJQb1lHMEFXZ3kwd2xQLU1TcFlXVHV5cDlnbE5zU21abUg2LTlsbU0tY0N4V2RXWnNLa3lBUC1yQzdPQm1MN0VKTUVjc1p2RUt4NVZFei1sSUNkVzR3?oc=5",
+          "publisher": "El Español",
+          "published_at": "2026-10-30T08:58:22+00:00"
         }
       ],
-      "retrieved_at": "2026-10-31T23:37:05.480083+01:00",
+      "retrieved_at": "2026-11-01T00:06:42.096865+01:00",
       "technical": {
         "close": 16.06999969482422,
         "adjusted_close": 16.06999969482422,
         "price_date": "2026-10-30",
         "sessions": 511,
         "change_pct": -5.470590030445777,
-        "rsi14": 37.369117281737005,
-        "macd": -0.16541679305590762,
-        "macd_signal": -0.1550068217960948,
+        "rsi14": 37.36911728173866,
+        "macd": -0.16541679305588275,
+        "macd_signal": -0.15500682179605418,
         "volatility_pct": 25.744366285292724,
         "drawdown_pct": -13.04112503847209,
         "chart": [
           {
             "date": "2025-11-05",
-            "value": 10.67796516418457
+            "value": 10.677964210510254
           },
           {
             "date": "2025-11-06",
@@ -2554,7 +2564,7 @@
           },
           {
             "date": "2025-11-12",
-            "value": 11.013148307800293
+            "value": 11.013147354125977
           },
           {
             "date": "2025-11-13",
@@ -2586,7 +2596,7 @@
           },
           {
             "date": "2025-11-24",
-            "value": 11.252564430236816
+            "value": 11.2525634765625
           },
           {
             "date": "2025-11-25",
@@ -2598,7 +2608,7 @@
           },
           {
             "date": "2025-11-27",
-            "value": 11.530287742614746
+            "value": 11.53028678894043
           },
           {
             "date": "2025-11-28",
@@ -2618,7 +2628,7 @@
           },
           {
             "date": "2025-12-04",
-            "value": 11.300448417663574
+            "value": 11.300447463989258
           },
           {
             "date": "2025-12-05",
@@ -2634,7 +2644,7 @@
           },
           {
             "date": "2025-12-10",
-            "value": 11.252564430236816
+            "value": 11.2525634765625
           },
           {
             "date": "2025-12-11",
@@ -2646,7 +2656,7 @@
           },
           {
             "date": "2025-12-15",
-            "value": 11.568593978881836
+            "value": 11.56859302520752
           },
           {
             "date": "2025-12-16",
@@ -2658,7 +2668,7 @@
           },
           {
             "date": "2025-12-18",
-            "value": 11.49198055267334
+            "value": 11.491981506347656
           },
           {
             "date": "2025-12-19",
@@ -2666,7 +2676,7 @@
           },
           {
             "date": "2025-12-22",
-            "value": 11.501558303833008
+            "value": 11.501557350158691
           },
           {
             "date": "2025-12-23",
@@ -2690,11 +2700,11 @@
           },
           {
             "date": "2026-01-02",
-            "value": 12.449645042419434
+            "value": 12.44964599609375
           },
           {
             "date": "2026-01-05",
-            "value": 12.516682624816895
+            "value": 12.516681671142578
           },
           {
             "date": "2026-01-06",
@@ -2702,11 +2712,11 @@
           },
           {
             "date": "2026-01-07",
-            "value": 12.736945152282715
+            "value": 12.736946105957031
           },
           {
             "date": "2026-01-08",
-            "value": 12.574142456054688
+            "value": 12.574141502380371
           },
           {
             "date": "2026-01-09",
@@ -2714,11 +2724,11 @@
           },
           {
             "date": "2026-01-12",
-            "value": 12.66990852355957
+            "value": 12.669907569885254
           },
           {
             "date": "2026-01-13",
-            "value": 12.775252342224121
+            "value": 12.775251388549805
           },
           {
             "date": "2026-01-14",
@@ -3692,6 +3702,10 @@
           "Queda 5.0 puntos por detrás del IBEX en 63 sesiones."
         ],
         "method": "Filtro de reglas sin IA; noticias sin interpretación semántica."
+      },
+      "agents": {
+        "status": "pending",
+        "note": "Esperando ejecución de TradingAgents."
       }
     },
     {
@@ -3726,16 +3740,16 @@
           "published_at": "2026-10-26T10:01:00+00:00"
         }
       ],
-      "retrieved_at": "2026-10-31T23:37:05.480083+01:00",
+      "retrieved_at": "2026-11-01T00:06:42.096865+01:00",
       "technical": {
         "close": 90.6500015258789,
         "adjusted_close": 90.6500015258789,
         "price_date": "2026-10-30",
         "sessions": 511,
         "change_pct": -1.6277807652328113,
-        "rsi14": 45.94262583541656,
-        "macd": -1.2635067521878938,
-        "macd_signal": -1.786814748465082,
+        "rsi14": 45.94262583541568,
+        "macd": -1.2635067521878511,
+        "macd_signal": -1.7868147484649977,
         "volatility_pct": 28.769332562720805,
         "drawdown_pct": -34.47854155260851,
         "chart": [
@@ -3745,7 +3759,7 @@
           },
           {
             "date": "2025-11-06",
-            "value": 73.64319610595703
+            "value": 73.6431884765625
           },
           {
             "date": "2025-11-07",
@@ -3781,7 +3795,7 @@
           },
           {
             "date": "2025-11-19",
-            "value": 75.40827941894531
+            "value": 75.40827178955078
           },
           {
             "date": "2025-11-20",
@@ -3789,7 +3803,7 @@
           },
           {
             "date": "2025-11-21",
-            "value": 70.89750671386719
+            "value": 70.89751434326172
           },
           {
             "date": "2025-11-24",
@@ -3809,7 +3823,7 @@
           },
           {
             "date": "2025-11-28",
-            "value": 78.10493469238281
+            "value": 78.10492706298828
           },
           {
             "date": "2025-12-01",
@@ -3857,7 +3871,7 @@
           },
           {
             "date": "2025-12-16",
-            "value": 83.59629821777344
+            "value": 83.59630584716797
           },
           {
             "date": "2025-12-17",
@@ -3865,7 +3879,7 @@
           },
           {
             "date": "2025-12-18",
-            "value": 83.40017700195312
+            "value": 83.40018463134766
           },
           {
             "date": "2025-12-19",
@@ -3877,7 +3891,7 @@
           },
           {
             "date": "2025-12-23",
-            "value": 82.95890808105469
+            "value": 82.95890045166016
           },
           {
             "date": "2025-12-24",
@@ -3909,23 +3923,23 @@
           },
           {
             "date": "2026-01-07",
-            "value": 90.80372619628906
+            "value": 90.80371856689453
           },
           {
             "date": "2026-01-08",
-            "value": 90.60760498046875
+            "value": 90.60759735107422
           },
           {
             "date": "2026-01-09",
-            "value": 89.87214660644531
+            "value": 89.87215423583984
           },
           {
             "date": "2026-01-12",
-            "value": 91.2449951171875
+            "value": 91.24500274658203
           },
           {
             "date": "2026-01-13",
-            "value": 91.9314193725586
+            "value": 91.93141174316406
           },
           {
             "date": "2026-01-14",
@@ -4753,7 +4767,7 @@
         "sma200": 108.84861698150635,
         "return21_pct": -1.5209141547683713,
         "return63_pct": -18.185921453870602,
-        "return252_pct": 26.374885409153805,
+        "return252_pct": 26.374898850533633,
         "relative63_pp": -11.340502820408505
       },
       "fundamentals": {
@@ -4911,6 +4925,10 @@
           "Queda 11.3 puntos por detrás del IBEX en 63 sesiones."
         ],
         "method": "Filtro de reglas sin IA; noticias sin interpretación semántica."
+      },
+      "agents": {
+        "status": "pending",
+        "note": "Esperando ejecución de TradingAgents."
       }
     },
     {
@@ -4921,9 +4939,9 @@
       "warnings": [],
       "news": [
         {
-          "title": "Sabadell prevé una reacción neutra a las cuentas de Aena pese a quedar por debajo de lo esperado - Noticias de Gipuzkoa",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbEJ4M0I4WWhLdjZOdXBGbEphWF9HMmdSbloyTC13cTQ2ZzBYSXpBUk9uSFZwVkJ0aWpWdkh0T0N6SEZ0VldMbnNDZGI3UHZUWThuY1ZVakJERGYxdnpvbDVCak1MSGprVUV3Z1UwNXBkaGRhVmZJWC03NVdYVEpLaTdDUFRPbmhPTlBVbi0teUJfcUQyQ2s2SlBwX24xMTktUHJ1UDctWFRYeDjSAbABQVVfeXFMUHBuUEtmWGhrTjlFXzRhV21uQWVlVmpyUmlOd0ZqZ1ZMTlZFRjdDWV9DaXNRd1RxSDM1aEprRkZVUjFZMmZLOXlWWXIzV1hjZUpPdGlKdmtCSVdOM3R0OWZfWFlPNW0xRVdSdTVGdW1WSXc1b2xQZVdvRTYtNi1hbHRTZW52Y0VtMVBiUGwtelJPZW5kUjhFTWd1QkVxZzZ1U3JNd2VsbGJvOEQ1UF8xT0s?oc=5",
-          "publisher": "Noticias de Gipuzkoa",
+          "title": "Sabadell prevé una reacción neutra a las cuentas de Aena pese a quedar por debajo de lo esperado - Deia",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPS0ZSTmxBN0tiQUMzaFBjYThkWTlLeTgxNFBfa09xdTkxcFVCRnZqNHRuTG1sa2s2M3FJTG54ZkhLdDROTWpIZW1KYkpfbzMzRUU5eWRTeDR2X2dDX0JxMGRfRzQ2NzBuWGJRdVlycW56ZGZUODlzYW9WMzZqVTh1cjlhbXhNSThzYnFCcXVTVHlaT0RrNnpXeNIBngFBVV95cUxON1FoUEhLcVFxRi1TTzNnakhsTjJSSUhwSWl1QmFTTmVWaEpGV1RVYldJbVo2MS03Q2dvbTUwNHM3b1ZNR3lEcVJyWXk4czNPaEd6ekhqN0pRbnJRYWxxQ3dYdGIxa3VqdFRaTnlmd281QTNXTjBkczRxSVZpLWljYW52VFFwbG9MUFNSdVNPS1htbGx2MzZsTFFPTWJqQQ?oc=5",
+          "publisher": "Deia",
           "published_at": "2026-10-28T13:09:52+00:00"
         },
         {
@@ -4957,7 +4975,7 @@
           "published_at": "2026-10-27T09:10:00+00:00"
         }
       ],
-      "retrieved_at": "2026-10-31T23:37:05.480083+01:00",
+      "retrieved_at": "2026-11-01T00:06:42.096865+01:00",
       "technical": {
         "close": 27.079999923706055,
         "adjusted_close": 27.079999923706055,
@@ -6141,6 +6159,10 @@
         ],
         "risks": [],
         "method": "Filtro de reglas sin IA; noticias sin interpretación semántica."
+      },
+      "agents": {
+        "status": "pending",
+        "note": "Esperando ejecución de TradingAgents."
       }
     },
     {
@@ -6169,7 +6191,7 @@
           "published_at": "2026-10-28T14:20:00+00:00"
         }
       ],
-      "retrieved_at": "2026-10-31T23:37:05.480083+01:00",
+      "retrieved_at": "2026-11-01T00:06:42.096865+01:00",
       "technical": {
         "close": 56.7599983215332,
         "adjusted_close": 56.7599983215332,
@@ -7342,6 +7364,10 @@
         ],
         "risks": [],
         "method": "Filtro de reglas sin IA; noticias sin interpretación semántica."
+      },
+      "agents": {
+        "status": "pending",
+        "note": "Esperando ejecución de TradingAgents."
       }
     },
     {
@@ -7364,22 +7390,22 @@
           "published_at": "2026-10-28T10:50:00+00:00"
         }
       ],
-      "retrieved_at": "2026-10-31T23:37:05.480083+01:00",
+      "retrieved_at": "2026-11-01T00:06:42.096865+01:00",
       "technical": {
         "close": 53.58000183105469,
         "adjusted_close": 53.58000183105469,
         "price_date": "2026-10-30",
         "sessions": 511,
         "change_pct": -2.154851217397691,
-        "rsi14": 37.49310132782292,
-        "macd": -1.7573549791466903,
-        "macd_signal": -1.7919248390814793,
+        "rsi14": 37.49310132783495,
+        "macd": -1.757354979146676,
+        "macd_signal": -1.7919248390814637,
         "volatility_pct": 29.794370846240547,
         "drawdown_pct": -20.692712008188607,
         "chart": [
           {
             "date": "2025-11-05",
-            "value": 31.987058639526367
+            "value": 31.987062454223633
           },
           {
             "date": "2025-11-06",
@@ -7411,7 +7437,7 @@
           },
           {
             "date": "2025-11-17",
-            "value": 33.97101593017578
+            "value": 33.971012115478516
           },
           {
             "date": "2025-11-18",
@@ -7419,7 +7445,7 @@
           },
           {
             "date": "2025-11-19",
-            "value": 34.58613586425781
+            "value": 34.58613967895508
           },
           {
             "date": "2025-11-20",
@@ -7427,7 +7453,7 @@
           },
           {
             "date": "2025-11-21",
-            "value": 33.762657165527344
+            "value": 33.76266098022461
           },
           {
             "date": "2025-11-24",
@@ -7435,7 +7461,7 @@
           },
           {
             "date": "2025-11-25",
-            "value": 36.13387680053711
+            "value": 36.133880615234375
           },
           {
             "date": "2025-11-26",
@@ -7455,7 +7481,7 @@
           },
           {
             "date": "2025-12-02",
-            "value": 37.036739349365234
+            "value": 37.03673553466797
           },
           {
             "date": "2025-12-03",
@@ -7495,7 +7521,7 @@
           },
           {
             "date": "2025-12-16",
-            "value": 38.45549392700195
+            "value": 38.45549774169922
           },
           {
             "date": "2025-12-17",
@@ -7503,7 +7529,7 @@
           },
           {
             "date": "2025-12-18",
-            "value": 38.356285095214844
+            "value": 38.35628890991211
           },
           {
             "date": "2025-12-19",
@@ -7523,7 +7549,7 @@
           },
           {
             "date": "2025-12-29",
-            "value": 38.44557571411133
+            "value": 38.445579528808594
           },
           {
             "date": "2025-12-30",
@@ -7555,7 +7581,7 @@
           },
           {
             "date": "2026-01-09",
-            "value": 40.08261489868164
+            "value": 40.082618713378906
           },
           {
             "date": "2026-01-12",
@@ -7571,7 +7597,7 @@
           },
           {
             "date": "2026-01-15",
-            "value": 41.779178619384766
+            "value": 41.77918243408203
           },
           {
             "date": "2026-01-16",
@@ -7591,7 +7617,7 @@
           },
           {
             "date": "2026-01-22",
-            "value": 45.956111907958984
+            "value": 45.95610809326172
           },
           {
             "date": "2026-01-23",
@@ -7603,23 +7629,23 @@
           },
           {
             "date": "2026-01-27",
-            "value": 45.886661529541016
+            "value": 45.88665771484375
           },
           {
             "date": "2026-01-28",
-            "value": 46.42241287231445
+            "value": 46.42241668701172
           },
           {
             "date": "2026-01-29",
-            "value": 45.37074661254883
+            "value": 45.37074279785156
           },
           {
             "date": "2026-01-30",
-            "value": 45.608856201171875
+            "value": 45.60886001586914
           },
           {
             "date": "2026-02-02",
-            "value": 47.394718170166016
+            "value": 47.39471435546875
           },
           {
             "date": "2026-02-03",
@@ -7627,7 +7653,7 @@
           },
           {
             "date": "2026-02-04",
-            "value": 47.18636703491211
+            "value": 47.186363220214844
           },
           {
             "date": "2026-02-05",
@@ -7635,15 +7661,15 @@
           },
           {
             "date": "2026-02-06",
-            "value": 50.79777145385742
+            "value": 50.79777526855469
           },
           {
             "date": "2026-02-09",
-            "value": 51.27400207519531
+            "value": 51.27399826049805
           },
           {
             "date": "2026-02-10",
-            "value": 52.3256721496582
+            "value": 52.32567596435547
           },
           {
             "date": "2026-02-11",
@@ -8388,7 +8414,7 @@
         ],
         "sma20": 55.567000007629396,
         "sma50": 60.25319976806641,
-        "sma200": 55.277041301727294,
+        "sma200": 55.27704126358032,
         "return21_pct": -5.669009593762276,
         "return63_pct": -16.63355119349843,
         "return252_pct": 68.126024889474,
@@ -8537,6 +8563,10 @@
           "Queda 9.8 puntos por detrás del IBEX en 63 sesiones."
         ],
         "method": "Filtro de reglas sin IA; noticias sin interpretación semántica."
+      },
+      "agents": {
+        "status": "pending",
+        "note": "Esperando ejecución de TradingAgents."
       }
     },
     {
@@ -8559,31 +8589,31 @@
           "published_at": "2026-10-29T15:49:39+00:00"
         },
         {
+          "title": "Resultados del Banco Sabadell: gana 1.376 millones pese a TSB y anuncia un dividendo de 325 millones - Merca2.es",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQlU1N0I3aVQtOFBVQU1lTWV1X0k0Q2l4WjZGV1N0OXVLOEhQVzhNSUxpdGFDOVEtSFUzdFUyemZhLUx2Y0dWVHFjaGNubjZvUXFWek1vdFZfTTlRY3JRVVE2VXFXZURmcmxUQWtCTE11Yk53M0Y1N0hDMnJaeC1Tb1hqbmlNcXQyd2lYQQ?oc=5",
+          "publisher": "Merca2.es",
+          "published_at": "2026-10-29T13:57:16+00:00"
+        },
+        {
+          "title": "El Sabadell pide al futuro Gobierno ‘visión de largo plazo’ para el problema de la vivienda - Radio Intereconomía",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNQndhZzJmUVVGNVUwelBObkJ5UXh3aHZkNHFYd2NIaTBjd1dfbTIzUWh4NnZFOWtQb3ktUDlKcXZLRVNWUUkwd28tZ0xFM01lT1pERnJOQXVWYzRtUXdtNzBpekIyQ1RVX2MyWkZXd2poeHcyNkRhT1VWVEFuQWxOUGJtTWlKSnp4cnMwMXVyMmhzZ1N4ZFhPRlRwazRlUi1zZkpBdHpwNlRndkpEYTVjaVREZkZmcWtTMGhRYVBfY01EUjVWdWZDSVNiUV9raGdsTlNsMXpMRGMxczlxNlRabNIB5gFBVV95cUxQQXAwYWwxWGU4anJsZnppaDRBQmpPVUFMSzVFakZFMFI0VHVVaU0wa1BHUDY2Y1UwSHZaT0kySnhEcXFoQjlJdFJwYVU2MkZBUW5pcXotQ1Nyc3lZd2ZzUTNpMkt4NndDU05VTDZHaTVJREdFU3FnMXNKRExyR1prdWJoZ0xsY2FzWWs2V21RdWRsNzAyaW15cmZfdW52RlJfZjRidFRBbnhMSUxoUHVzUllWbFNrb0VMM3poZ215b213akdLRWQtR2pqMTQ5bVVVNXY0ekR2UGJkRWJwM2RGNXdybm9EQQ?oc=5",
+          "publisher": "Radio Intereconomía",
+          "published_at": "2026-10-29T12:05:03+00:00"
+        },
+        {
           "title": "Las acciones de Sabadell resisten a sus resultados - XTB.com",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPV01OUERXRXFRdklRYUd5MTVCaENGSC1LdG5jTlVpWnFLZnZCcUZEUXo4STNMZ2tqOGdfQXdtRU5OZC1xdWlfRi1aWlRtRHlzQk80aFJ6QUhXOFZERUFPVTVEeGlFZXV6MkFEYklPOTFoSW9KU3doT2Y0SFlmQkpSakczNFQzVGZsS3RXOHd4bGRNa3pTU0RaU2NLWjc0OHk5bDdjX2JhbkVLTnNtRk0ySUR1TzR4MjA1OVhvaHQySVpSVDR6VGZv?oc=5",
           "publisher": "XTB.com",
           "published_at": "2026-10-29T10:59:44+00:00"
         },
         {
-          "title": "El Ibex 35 cae más de un 1% lastrado por BBVA y Sabadell antes del BCE - El Boletín",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMG90V0lpYnA4dWQtaUE3MW5CQUN0blg5amxnOVFYc2VidW85UXRSYk03ZUlKS3BzQW4xb3M1bHMzdzMybzZYMmNCc2F4dUJXRlVDSlNHZFZfTlFoYXFRR2RLSmdmR2ZOZUUxZWNzekVlakhRek43UW9TVi1KTXdSMC1HRFhmdTlHeXZOSExOUWJRU0J2b3piemZ3Wk3SAaIBQVVfeXFMTU5EQjBRUlhUXzJYTEpSRXdINVNua1FxcHFaV1dLbmtVZGcyVkFnNU9HejNVcDdZbTk5Sl95Y2FsSzlxaUNFeGhoQkR2M1FLeC14dUZ5MXMzZU9KTTlBTzdzLTdoczIxM2lhRjlqbkcwenJZVGNPU0FxTW5rRDVlanhXcHpZYkE3UjdUN01OdERKbU4xdUtBUXowYkkyVTRjdlF3?oc=5",
-          "publisher": "El Boletín",
-          "published_at": "2026-10-29T08:45:52+00:00"
-        },
-        {
-          "title": "El Ibex 35 cae por debajo de los 18.700 puntos ante el castigo a BBVA y Banco Sabadell - Estrategias de Inversión",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQN3FUWEhMN09mQ3JHcTVwZGVXZWF4VDJJbVVjVjBMUkI5dV9Jang4M1B3dENqMElXTkozVUVMY3JWRlNyRzVwWW54LTM5NTU0WGltZ3RPaU9abGxwWnFqREFqVllfUEt6QU9uWnRsaTFjMUlMX1M1V3hoRFU0N0FBOGN4STEzMDNicmxzWEJ5MzljOWluVjB2ZDZSVU9QQdIBngFBVV95cUxQN3FUWEhMN09mQ3JHcTVwZGVXZWF4VDJJbVVjVjBMUkI5dV9Jang4M1B3dENqMElXTkozVUVMY3JWRlNyRzVwWW54LTM5NTU0WGltZ3RPaU9abGxwWnFqREFqVllfUEt6QU9uWnRsaTFjMUlMX1M1V3hoRFU0N0FBOGN4STEzMDNicmxzWEJ5MzljOWluVjB2ZDZSVU9QQQ?oc=5",
-          "publisher": "Estrategias de Inversión",
-          "published_at": "2026-10-29T08:10:00+00:00"
-        },
-        {
-          "title": "Banco Sabadell gana 1.376 millones hasta septiembre y pagará dividendo a final de año - Estrategias de Inversión",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOMG1LZ0NDZWJ1bmJwZjlNdzFDRHE4UnNsWndfUWs0d3M5MHpHc0c0M1J6dTBVbnEyT29CMUxPWGlUSzlfVXpLR3E2Sm1paUx6dTFTTmpadlNPRXdFNEk0SHdubHg0V0otZEtpR0dTelNpTEg2d251UW1vQnZWTWhqNmNYaXVoeXZjaFhyYm1Rdm5iaFQ5aGJSRkRVc3ByUHhKVWIzWkhrZlFTaXh1Qy14b3JFQm9yWHQ2S0dPaWw0bXBLMmw0akhjRVZvZ9IBpAFBVV95cUxOVkx1azlYaG0wY1Z5U1hGUWwzNFNNY19rY3pmUzhmZF9vLVBHd2VNT2pVUTVDVXFnLU5EV0NmcXBOTDZzMTJsMjUwd0prdUI3Z0s1MFE1VTRuX0FMUFlQN1JKbXlqa09BWjd6Q2NTUWV4N2ZyUm9zWkc3YngxQ1VWR0tNZG9BNVM1YkI3djRoaUZCeTVjRzkwWXlMQjExTERJcGpNdA?oc=5",
-          "publisher": "Estrategias de Inversión",
-          "published_at": "2026-10-29T06:50:00+00:00"
+          "title": "Sabadell mantiene su nivel de beneficios a septiembre en la etapa posterior a la OPA - CapitalMadrid",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxORHpyak55cjJiN2tFamhGZnM0aHhKYzFwSmY2b1FwTk9zLWV5ekRoLUs5V2JJUzlwaU5TMjYyTmZKLS1YVmgyNFBUSmlrOE82Mlp2WVVwY2lyT1RjLUlNQ3NQTXA1V3NXTXJoTF9FS2oxMDZjVzVaTFVJQVhzZmdjelBHNHdFNEMwT3hJVDg2RDlXWWNmR2RXcHdCOG9sUklPbDBVZjRtVjBoLVl2NC1HRnFKMWZIblFMUkpWMlVlZnkxT1Z3aXJHaDNFYnRZUFE1LWc?oc=5",
+          "publisher": "CapitalMadrid",
+          "published_at": "2026-10-29T09:10:04+00:00"
         }
       ],
-      "retrieved_at": "2026-10-31T23:37:05.480083+01:00",
+      "retrieved_at": "2026-11-01T00:06:42.096865+01:00",
       "technical": {
         "close": 3.434999942779541,
         "adjusted_close": 3.434999942779541,
@@ -9764,6 +9794,10 @@
           "Faltan métricas específicas del sector; no se aplican reglas de deuda industrial."
         ],
         "method": "Filtro de reglas sin IA; noticias sin interpretación semántica."
+      },
+      "agents": {
+        "status": "pending",
+        "note": "Esperando ejecución de TradingAgents."
       }
     },
     {
@@ -9810,22 +9844,22 @@
           "published_at": "2026-10-28T11:25:34+00:00"
         }
       ],
-      "retrieved_at": "2026-10-31T23:37:05.480083+01:00",
+      "retrieved_at": "2026-11-01T00:06:42.096865+01:00",
       "technical": {
         "close": 10.118000030517578,
         "adjusted_close": 10.118000030517578,
         "price_date": "2026-10-30",
         "sessions": 511,
         "change_pct": -3.74809789060343,
-        "rsi14": 23.779912627096365,
-        "macd": -0.452120034854957,
-        "macd_signal": -0.3035811432982747,
+        "rsi14": 23.7799126254952,
+        "macd": -0.4521200348531842,
+        "macd_signal": -0.30358114329566677,
         "volatility_pct": 28.004098052759417,
         "drawdown_pct": -20.93690895460324,
         "chart": [
           {
             "date": "2025-11-05",
-            "value": 8.66634750366211
+            "value": 8.666346549987793
           },
           {
             "date": "2025-11-06",
@@ -9837,7 +9871,7 @@
           },
           {
             "date": "2025-11-10",
-            "value": 8.956298828125
+            "value": 8.956299781799316
           },
           {
             "date": "2025-11-11",
@@ -9845,7 +9879,7 @@
           },
           {
             "date": "2025-11-12",
-            "value": 9.337044715881348
+            "value": 9.337043762207031
           },
           {
             "date": "2025-11-13",
@@ -9857,7 +9891,7 @@
           },
           {
             "date": "2025-11-17",
-            "value": 8.884055137634277
+            "value": 8.884056091308594
           },
           {
             "date": "2025-11-18",
@@ -9865,11 +9899,11 @@
           },
           {
             "date": "2025-11-19",
-            "value": 8.708327293395996
+            "value": 8.70832633972168
           },
           {
             "date": "2025-11-20",
-            "value": 8.71027946472168
+            "value": 8.710278511047363
           },
           {
             "date": "2025-11-21",
@@ -9885,7 +9919,7 @@
           },
           {
             "date": "2025-11-26",
-            "value": 8.99437427520752
+            "value": 8.994373321533203
           },
           {
             "date": "2025-11-27",
@@ -9893,11 +9927,11 @@
           },
           {
             "date": "2025-11-28",
-            "value": 9.023662567138672
+            "value": 9.023661613464355
           },
           {
             "date": "2025-12-01",
-            "value": 9.07442855834961
+            "value": 9.074427604675293
           },
           {
             "date": "2025-12-02",
@@ -9909,15 +9943,15 @@
           },
           {
             "date": "2025-12-04",
-            "value": 9.256991386413574
+            "value": 9.256990432739258
           },
           {
             "date": "2025-12-05",
-            "value": 9.235512733459473
+            "value": 9.235511779785156
           },
           {
             "date": "2025-12-08",
-            "value": 9.264801025390625
+            "value": 9.264800071716309
           },
           {
             "date": "2025-12-09",
@@ -9929,7 +9963,7 @@
           },
           {
             "date": "2025-12-11",
-            "value": 9.545965194702148
+            "value": 9.545966148376465
           },
           {
             "date": "2025-12-12",
@@ -9945,7 +9979,7 @@
           },
           {
             "date": "2025-12-17",
-            "value": 9.636759757995605
+            "value": 9.636758804321289
           },
           {
             "date": "2025-12-18",
@@ -9953,7 +9987,7 @@
           },
           {
             "date": "2025-12-19",
-            "value": 9.733410835266113
+            "value": 9.733409881591797
           },
           {
             "date": "2025-12-22",
@@ -9965,7 +9999,7 @@
           },
           {
             "date": "2025-12-24",
-            "value": 9.751959800720215
+            "value": 9.751958847045898
           },
           {
             "date": "2025-12-29",
@@ -9973,7 +10007,7 @@
           },
           {
             "date": "2025-12-30",
-            "value": 9.885708808898926
+            "value": 9.88570785522461
           },
           {
             "date": "2025-12-31",
@@ -9981,7 +10015,7 @@
           },
           {
             "date": "2026-01-02",
-            "value": 10.008718490600586
+            "value": 10.00871753692627
           },
           {
             "date": "2026-01-05",
@@ -9993,19 +10027,19 @@
           },
           {
             "date": "2026-01-07",
-            "value": 9.88961410522461
+            "value": 9.889613151550293
           },
           {
             "date": "2026-01-08",
-            "value": 9.969666481018066
+            "value": 9.969667434692383
           },
           {
             "date": "2026-01-09",
-            "value": 10.008718490600586
+            "value": 10.00871753692627
           },
           {
             "date": "2026-01-12",
-            "value": 10.09267807006836
+            "value": 10.092677116394043
           },
           {
             "date": "2026-01-13",
@@ -10013,7 +10047,7 @@
           },
           {
             "date": "2026-01-14",
-            "value": 10.241069793701172
+            "value": 10.241070747375488
           },
           {
             "date": "2026-01-15",
@@ -10029,7 +10063,7 @@
           },
           {
             "date": "2026-01-20",
-            "value": 10.082914352416992
+            "value": 10.082915306091309
           },
           {
             "date": "2026-01-21",
@@ -10037,7 +10071,7 @@
           },
           {
             "date": "2026-01-22",
-            "value": 10.37969970703125
+            "value": 10.379700660705566
           },
           {
             "date": "2026-01-23",
@@ -10045,7 +10079,7 @@
           },
           {
             "date": "2026-01-26",
-            "value": 10.401178359985352
+            "value": 10.401179313659668
           },
           {
             "date": "2026-01-27",
@@ -10057,7 +10091,7 @@
           },
           {
             "date": "2026-01-29",
-            "value": 10.373844146728516
+            "value": 10.3738431930542
           },
           {
             "date": "2026-01-30",
@@ -10065,7 +10099,7 @@
           },
           {
             "date": "2026-02-02",
-            "value": 10.785829544067383
+            "value": 10.785828590393066
           },
           {
             "date": "2026-02-03",
@@ -10077,7 +10111,7 @@
           },
           {
             "date": "2026-02-05",
-            "value": 10.217639923095703
+            "value": 10.217638969421387
           },
           {
             "date": "2026-02-06",
@@ -10085,11 +10119,11 @@
           },
           {
             "date": "2026-02-09",
-            "value": 10.567145347595215
+            "value": 10.567144393920898
           },
           {
             "date": "2026-02-10",
-            "value": 10.516379356384277
+            "value": 10.516378402709961
           },
           {
             "date": "2026-02-11",
@@ -10109,7 +10143,7 @@
           },
           {
             "date": "2026-02-17",
-            "value": 10.166873931884766
+            "value": 10.16687297821045
           },
           {
             "date": "2026-02-18",
@@ -10125,11 +10159,11 @@
           },
           {
             "date": "2026-02-23",
-            "value": 10.668676376342773
+            "value": 10.66867733001709
           },
           {
             "date": "2026-02-24",
-            "value": 10.399226188659668
+            "value": 10.399227142333984
           },
           {
             "date": "2026-02-25",
@@ -10157,7 +10191,7 @@
           },
           {
             "date": "2026-03-05",
-            "value": 9.470793724060059
+            "value": 9.470792770385742
           },
           {
             "date": "2026-03-06",
@@ -10165,7 +10199,7 @@
           },
           {
             "date": "2026-03-09",
-            "value": 9.244297981262207
+            "value": 9.244298934936523
           },
           {
             "date": "2026-03-10",
@@ -10177,7 +10211,7 @@
           },
           {
             "date": "2026-03-12",
-            "value": 9.418075561523438
+            "value": 9.418074607849121
           },
           {
             "date": "2026-03-13",
@@ -10185,7 +10219,7 @@
           },
           {
             "date": "2026-03-16",
-            "value": 9.283349990844727
+            "value": 9.28334903717041
           },
           {
             "date": "2026-03-17",
@@ -10197,11 +10231,11 @@
           },
           {
             "date": "2026-03-19",
-            "value": 9.12812328338623
+            "value": 9.128122329711914
           },
           {
             "date": "2026-03-20",
-            "value": 9.025613784790039
+            "value": 9.025614738464355
           },
           {
             "date": "2026-03-23",
@@ -10209,7 +10243,7 @@
           },
           {
             "date": "2026-03-24",
-            "value": 9.25015640258789
+            "value": 9.250157356262207
           },
           {
             "date": "2026-03-25",
@@ -10221,15 +10255,15 @@
           },
           {
             "date": "2026-03-27",
-            "value": 9.178889274597168
+            "value": 9.178888320922852
           },
           {
             "date": "2026-03-30",
-            "value": 9.264801025390625
+            "value": 9.264800071716309
           },
           {
             "date": "2026-03-31",
-            "value": 9.264801025390625
+            "value": 9.264800071716309
           },
           {
             "date": "2026-04-01",
@@ -10257,7 +10291,7 @@
           },
           {
             "date": "2026-04-13",
-            "value": 10.104392051696777
+            "value": 10.104393005371094
           },
           {
             "date": "2026-04-14",
@@ -10265,15 +10299,15 @@
           },
           {
             "date": "2026-04-15",
-            "value": 10.399226188659668
+            "value": 10.399227142333984
           },
           {
             "date": "2026-04-16",
-            "value": 10.276215553283691
+            "value": 10.276216506958008
           },
           {
             "date": "2026-04-17",
-            "value": 10.7799711227417
+            "value": 10.779970169067383
           },
           {
             "date": "2026-04-20",
@@ -10285,7 +10319,7 @@
           },
           {
             "date": "2026-04-22",
-            "value": 10.299647331237793
+            "value": 10.299646377563477
           },
           {
             "date": "2026-04-23",
@@ -10301,11 +10335,11 @@
           },
           {
             "date": "2026-04-28",
-            "value": 10.120012283325195
+            "value": 10.120013236999512
           },
           {
             "date": "2026-04-29",
-            "value": 10.22545051574707
+            "value": 10.225449562072754
           },
           {
             "date": "2026-04-30",
@@ -10834,7 +10868,7 @@
         ],
         "sma20": 11.563249444961547,
         "sma50": 12.109471607208253,
-        "sma200": 11.107551455497742,
+        "sma200": 11.107551431655883,
         "return21_pct": -13.306369042959442,
         "return63_pct": -18.998167789777888,
         "return252_pct": 17.691786062251392,
@@ -10991,6 +11025,10 @@
           "Faltan métricas específicas del sector; no se aplican reglas de deuda industrial."
         ],
         "method": "Filtro de reglas sin IA; noticias sin interpretación semántica."
+      },
+      "agents": {
+        "status": "pending",
+        "note": "Esperando ejecución de TradingAgents."
       }
     },
     {
@@ -11019,16 +11057,16 @@
           "published_at": "2026-10-28T16:44:36+00:00"
         }
       ],
-      "retrieved_at": "2026-10-31T23:37:05.480083+01:00",
+      "retrieved_at": "2026-11-01T00:06:42.096865+01:00",
       "technical": {
         "close": 13.920000076293945,
         "adjusted_close": 13.920000076293945,
         "price_date": "2026-10-30",
         "sessions": 511,
         "change_pct": -1.451326893494187,
-        "rsi14": 28.660760063492035,
+        "rsi14": 28.660760063492106,
         "macd": -0.5352454550324879,
-        "macd_signal": -0.47378475748692445,
+        "macd_signal": -0.47378475748692334,
         "volatility_pct": 24.13282810471256,
         "drawdown_pct": -17.900323568675745,
         "chart": [
@@ -11050,11 +11088,11 @@
           },
           {
             "date": "2025-11-11",
-            "value": 13.139303207397461
+            "value": 13.139302253723145
           },
           {
             "date": "2025-11-12",
-            "value": 13.349761009216309
+            "value": 13.349761962890625
           },
           {
             "date": "2025-11-13",
@@ -11090,15 +11128,15 @@
           },
           {
             "date": "2025-11-25",
-            "value": 13.096253395080566
+            "value": 13.096254348754883
           },
           {
             "date": "2025-11-26",
-            "value": 13.30193042755127
+            "value": 13.301929473876953
           },
           {
             "date": "2025-11-27",
-            "value": 13.263665199279785
+            "value": 13.263664245605469
           },
           {
             "date": "2025-11-28",
@@ -12200,6 +12238,10 @@
           "Faltan métricas específicas del sector; no se aplican reglas de deuda industrial."
         ],
         "method": "Filtro de reglas sin IA; noticias sin interpretación semántica."
+      },
+      "agents": {
+        "status": "pending",
+        "note": "Esperando ejecución de TradingAgents."
       }
     },
     {
@@ -12234,28 +12276,28 @@
           "published_at": "2026-10-29T20:08:11+00:00"
         },
         {
-          "title": "BBVA se desploma en Bolsa pese a ganar 9.066 millones - El Boletín",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVC1NX3ZZUDRBTko2VTZ3QmZFZ2FFUjk0bkRObUJMM0pnU0ZXb1hJSF9TM213VHJ0SUNBaDE3MkxMcTk3aE55S1JxUzEyeUswOHEwb25Fbmk4ZmhkTHFCd29qZzh1X00wYk8tSDczWV9sMUNlZTRsdkQwa0I4ZmhrOG5EZGhZcFXSAYwBQVVfeXFMTmhoTU4zaDU4UmNJRFkzN2YwUWxVSGJ2MDVFV2RRNzJabVJvdWgyQzJDaFo1eE9ZT3l1eVhOWnlrZGtGcUVHOTJoeWFhZGxaUW5rWVJ6eTdyYkdKT0VsQ2p5NEJMM3k3cUo1bW56S0tyN3ZLMTRwVVJSWnpMX0RjMGJrNlc2Rk83U2xQOFQ?oc=5",
-          "publisher": "El Boletín",
-          "published_at": "2026-10-29T16:54:31+00:00"
+          "title": "Los bancos no remontan en bolsa: ¿Es momento de entrar en BBVA? - Capital Radio",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRUo2LWM5LS1sX190QVBTOGw4RnhKZWlIanVRdmQtdHc0UlFRYkNjWVZabllNOHhrSG1SenRwRzNpUXU1OUZUZGtFaDRKVGdxdFZUbklweTBMeFhCQW55dkZNSnlPdHYxMmJ1b0NWVnkxVDR3YkJnWTFLMnBJVWMzNDdnYmt2cXN3R1FxZlVKRUJFQUVSN2ZIYjcwT3p1emZOc2kyWGkyakzSAagBQVVfeXFMUEVKNi1jOS0tbF9fdEFQUzhsOEZ4SmVpSGp1UXZkLXR3NFJRUWJDY1lWWm5ZTTh4a0htUnp0cEczaVF1NTlGVGRrRWg0SlRncXRWVG5JcHkwTHhYQkFueXZGTUp5T3R2MTJidW9DVlZ5MVQ0d2JCZ1kxSzJwSVVjMzQ3Z2JrdnFzd0dRcWZVSkVCRUFFUjdmSGI3ME96dXpmTnNpMlhpMmpM?oc=5",
+          "publisher": "Capital Radio",
+          "published_at": "2026-10-29T18:36:33+00:00"
         },
         {
-          "title": "La Bolsa castiga los flojos resultados del BBVA en España - Hispanidad",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQa2VTN0Q5a2lVanItUnc2NGI3S2FLOFdOVWVYempsX1oxME14Nk81Vm10M1k0S19maVRpT3pnX0tYcl9BR3NmQ1NIcUJCV3pPWmwxTDBHMDdwTHFCSkl4ck9iYURSNjc0N2poUlQzU1A5blFIa2NVMngxT1cwc3JQcU5UY2hGQ1NGU2hOQWprSXctcVJUMmxJdWlCU0VocV9VcFE?oc=5",
-          "publisher": "Hispanidad",
-          "published_at": "2026-10-29T15:03:00+00:00"
+          "title": "El BBVA gana 9.066 millones hasta septiembre, un 13,6 % más, por los ingresos recurrentes - HolaNews",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNFRjX041WHUtNlk1NDdjb1JYV2lHdmJacVVoWW1ydFNhRXBDWS1DbjBQOERCRFpITkFZTkNCMmZSZkdCSlA3QkQweTVMTU00S3EtOFZmMHNzQzBUTkJxTXBBbkk5dW0wYnpfeDJ3el9udFlKMzRjQVNQdThHajItNjh2MVVwZVB6WU8xZVhRWjJFWUNHXzh5NklRT0hsS255VzYxeDhzMWNzQQ?oc=5",
+          "publisher": "HolaNews",
+          "published_at": "2026-10-29T17:00:56+00:00"
         }
       ],
-      "retrieved_at": "2026-10-31T23:37:05.480083+01:00",
+      "retrieved_at": "2026-11-01T00:06:42.096865+01:00",
       "technical": {
         "close": 21.059999465942383,
         "adjusted_close": 21.059999465942383,
         "price_date": "2026-10-30",
         "sessions": 511,
         "change_pct": -3.7037098409156144,
-        "rsi14": 28.172407200602294,
+        "rsi14": 28.172407200602308,
         "macd": -0.5507080903557124,
-        "macd_signal": -0.44132190845793107,
+        "macd_signal": -0.441321908457931,
         "volatility_pct": 22.441360639189707,
         "drawdown_pct": -15.795727535947613,
         "chart": [
@@ -13273,7 +13315,7 @@
         "sma200": 21.00703435897827,
         "return21_pct": -10.137310843051871,
         "return63_pct": -13.023149782315746,
-        "return252_pct": 28.32871149501166,
+        "return252_pct": 28.328726409880712,
         "relative63_pp": -6.177731148853649
       },
       "fundamentals": {
@@ -13427,6 +13469,10 @@
           "Faltan métricas específicas del sector; no se aplican reglas de deuda industrial."
         ],
         "method": "Filtro de reglas sin IA; noticias sin interpretación semántica."
+      },
+      "agents": {
+        "status": "pending",
+        "note": "Esperando ejecución de TradingAgents."
       }
     },
     {
@@ -13473,7 +13519,7 @@
           "published_at": "2026-10-30T08:53:33+00:00"
         }
       ],
-      "retrieved_at": "2026-10-31T23:37:05.480083+01:00",
+      "retrieved_at": "2026-11-01T00:06:42.096865+01:00",
       "technical": {
         "close": 11.199999809265137,
         "adjusted_close": 11.199999809265137,
@@ -14654,6 +14700,10 @@
           "Faltan métricas específicas del sector; no se aplican reglas de deuda industrial."
         ],
         "method": "Filtro de reglas sin IA; noticias sin interpretación semántica."
+      },
+      "agents": {
+        "status": "pending",
+        "note": "Esperando ejecución de TradingAgents."
       }
     },
     {
@@ -14665,16 +14715,16 @@
         "La muestra de titulares no cubre esta empresa en los últimos siete días."
       ],
       "news": [],
-      "retrieved_at": "2026-10-31T23:37:05.480083+01:00",
+      "retrieved_at": "2026-11-01T00:06:42.096865+01:00",
       "technical": {
         "close": 26.030000686645508,
         "adjusted_close": 26.030000686645508,
         "price_date": "2026-10-30",
         "sessions": 511,
         "change_pct": 1.3234727346040698,
-        "rsi14": 59.72929721382386,
-        "macd": 0.3483614820092811,
-        "macd_signal": 0.2258209252815606,
+        "rsi14": 59.72929721382245,
+        "macd": 0.3483614820092704,
+        "macd_signal": 0.22582092528153846,
         "volatility_pct": 29.66114314732618,
         "drawdown_pct": -18.64066190048147,
         "chart": [
@@ -14688,11 +14738,11 @@
           },
           {
             "date": "2025-11-07",
-            "value": 25.843822479248047
+            "value": 25.84382438659668
           },
           {
             "date": "2025-11-10",
-            "value": 25.4551944732666
+            "value": 25.455196380615234
           },
           {
             "date": "2025-11-11",
@@ -14708,7 +14758,7 @@
           },
           {
             "date": "2025-11-14",
-            "value": 25.338605880737305
+            "value": 25.338603973388672
           },
           {
             "date": "2025-11-17",
@@ -14720,7 +14770,7 @@
           },
           {
             "date": "2025-11-19",
-            "value": 24.34760284423828
+            "value": 24.34760093688965
           },
           {
             "date": "2025-11-20",
@@ -14744,7 +14794,7 @@
           },
           {
             "date": "2025-11-27",
-            "value": 25.21230125427246
+            "value": 25.212303161621094
           },
           {
             "date": "2025-11-28",
@@ -14768,11 +14818,11 @@
           },
           {
             "date": "2025-12-05",
-            "value": 24.77509307861328
+            "value": 24.775094985961914
           },
           {
             "date": "2025-12-08",
-            "value": 24.5030517578125
+            "value": 24.503053665161133
           },
           {
             "date": "2025-12-09",
@@ -14804,7 +14854,7 @@
           },
           {
             "date": "2025-12-18",
-            "value": 25.882686614990234
+            "value": 25.8826847076416
           },
           {
             "date": "2025-12-19",
@@ -14824,11 +14874,11 @@
           },
           {
             "date": "2025-12-29",
-            "value": 26.57250213623047
+            "value": 26.5725040435791
           },
           {
             "date": "2025-12-30",
-            "value": 26.795963287353516
+            "value": 26.79596519470215
           },
           {
             "date": "2025-12-31",
@@ -15841,6 +15891,10 @@
           "Cobertura de noticias insuficiente; no equivale a ausencia de acontecimientos."
         ],
         "method": "Filtro de reglas sin IA; noticias sin interpretación semántica."
+      },
+      "agents": {
+        "status": "pending",
+        "note": "Esperando ejecución de TradingAgents."
       }
     },
     {
@@ -15857,7 +15911,7 @@
           "published_at": "2026-10-29T17:53:25+00:00"
         }
       ],
-      "retrieved_at": "2026-10-31T23:37:05.480083+01:00",
+      "retrieved_at": "2026-11-01T00:06:42.096865+01:00",
       "technical": {
         "close": 17.68000030517578,
         "adjusted_close": 17.68000030517578,
@@ -17044,6 +17098,10 @@
           "RSI superior a 70: posible extensión del movimiento."
         ],
         "method": "Filtro de reglas sin IA; noticias sin interpretación semántica."
+      },
+      "agents": {
+        "status": "pending",
+        "note": "Esperando ejecución de TradingAgents."
       }
     },
     {
@@ -17053,24 +17111,6 @@
       "status": "ok",
       "warnings": [],
       "news": [
-        {
-          "title": "Endesa logra un beneficio de 1.962 millones de euros hasta… - Uruguay Al Día",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNWkFSMXpXdVdvZ2RXejNjZVliTWdWNDEtaW1QREFlckluUnA5YjVhNUl3aGI4cERFZHhFTVFLaUJERm5wSWZFOU5MczZxY29VUkJ5UDJsU1pIek15ajZvR095UjFObjRZOTlkTHc0eTJhYzBjRzhGWVRFT1lhc2Q5eHREYmcwUzBZa2JmQzVPTEtqd1lGSzc5QzB1WTFzQlVoZHhPM2NPaWNGa2x1ZG93VTJXLWJnaU9WUzlZZjM0QXY5d2VtcS1Ia2JGX1g5ZzV4U3F5a2RaNkt2YlNGdldyM19EejU1QQ?oc=5",
-          "publisher": "Uruguay Al Día",
-          "published_at": "2026-10-29T10:44:16+00:00"
-        },
-        {
-          "title": "Endesa, cada vez más italiana y menos española. El equipo directivo, pendiente de los intereses de Giorgia Meloni - Hispanidad",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQ3FNWlBPVmNXNHpFeE5IYkhGTkVqYXl1RXdQYjY5NHJwNUlWVDNUYzVtc1N5R0g1RXhMVDFCZnBEcHg3ZHZ6c3JhQjBTc1l0RmdxblYzc2lqRzdVR1F3cnhZVGtMX3UwZU9tUkZVOWtvYVhPYkl2OGxLVjU3MWFIeVBjWWtvTHVBNUJhMzA2bTlnTndRYW5IdUx3WmVHazcxOFRCdDBwaUxLQXRCUzFvdEpJQ3VCc1l4WDJLYkxKMjdwdw?oc=5",
-          "publisher": "Hispanidad",
-          "published_at": "2026-10-29T06:12:08+00:00"
-        },
-        {
-          "title": "Endesa gana 1.962 millones y abre la puerta a revisar el cierre nuclear con Almaraz hasta 2030 - Merca2.es",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMG9xMGNrQ0ktOEY0RktxRVUyNUlNeV9NdlVfWGc2eVhVS1NjRmVvV3VNeTdIRHdCdmJlcVlwTGNDa1FrV2ctX3VMdzhuc3NwMXdaMHVKQkdwbUVpX1dueGJhQ1JqQV9YcmRGMEw4Z0NJampldDREZElOc0Itakl3b3Fn?oc=5",
-          "publisher": "Merca2.es",
-          "published_at": "2026-10-28T22:55:35+00:00"
-        },
         {
           "title": "Repsol, Iberdrola y Endesa disparan la bolsa energética española - Benzinga España",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQYkhmTnZZSkJ5V20yckN4NS0tYlRVSmdPbjR4bi01U1llMURCZGo5STdhN3pTZFRTaE5PSTdzeVdjdHFBUzZlWUlyS2JRdlRsZHBaODFaak1BMFBfOEVzN2tickR3eWlCVUF6ZHo5OXlZbzhyMVh4eVAxZnZVMXdlZzVlTDJibUdDeUVXYkp2VVVUYURBdTBhd3BpZ1ZUQQ?oc=5",
@@ -17084,22 +17124,40 @@
           "published_at": "2026-10-28T14:50:08+00:00"
         },
         {
-          "title": "Endesa gana 2.000 millones hasta septiembre, ratifica objetivos y eleva la inversión en redes - Merca2.es",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTmFJZVFYTjdnZU1kN3c2VFdqT1VnVm9PSXZiel9sTTVoV1dtR3hXQk5MN1NyY3EwcGl3UTF0Slc1T2lBUjVfMjQwNG9ycnZINndJUjdJam16MnRXXzZGWmlVTE9EQ09lU1U0c1V2VFltWGJ1TDFLdEtoNlpZb0RRWnlaSXVEZFI5RE44dEtQVQ?oc=5",
-          "publisher": "Merca2.es",
-          "published_at": "2026-10-28T14:08:04+00:00"
+          "title": "Endesa presenta sus resultados de los nueve primeros meses cerrados a 30 de septiembre de 2026 - MarketScreener España",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNRTFscUptWklrNGtiVm9KaE8zMkhia3gtMHlqSEt4d25sVFJGZHdIWTc1eERjRmRSbFZTWDN6VVk1RDhHR3JoeHEwLXVPOWhJU0VNQ0lXUHB0ajlHYTJscTFnemVwQ3RKbTZqc2lKaWNWaDdHNkZFRUp3d045cUNuZzNaS3FtQ1hwNVE1b2dhUkI0S2lobGh0S2g5UWFTYVVhdDU0dlFlNXR1aHpEWHd0Q0dRY05ud05CMEVMcjluOXZ5aEhmc0lfYzdZMVpJdkZucGduSXhndVh5RzUxRzF2ZFBKczM?oc=5",
+          "publisher": "MarketScreener España",
+          "published_at": "2026-10-28T11:25:42+00:00"
+        },
+        {
+          "title": "Endesa convence con sus resultados, pero los analistas ven la valoración exigente - MarketScreener España",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVWVDcXBLczE3TmU4Rzk5ZTV2YTc0WERPZXNLM1ZYM0lIZUZXbVJSSVItZE5iMzlmc1g2VncwSGtEWG4tOV80bThtVlZGYjZHR1hjSldfTlk1dVJUcVpXOW9aclQ4VU1tbXdvWHhwN1NGX1pTX2dnNG11emNvOTczWlNWUXFDS2hFTmpIQzhoUUNoSVNOc3RsZFptYkI0QnZoMUI4ZDRpOGU5UUZISl95YkFVbHVSS1ZnSDRJVnoxUDU1NzJyYWFjOGpReVpBNVNfNlE?oc=5",
+          "publisher": "MarketScreener España",
+          "published_at": "2026-10-28T11:08:27+00:00"
+        },
+        {
+          "title": "Endesa convence con sus resultados, pero los analistas ven la valoración exigente - Bolsamania",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYWJvX0FzRGVkSlZkSHNhUWhGdGduaXZXYXJOWVpJYW1SNk9DOG5KNFdUbmRNQVZFVW9vVDZBbi1KeUk1X0k4Q0puR0ZlZk9sdmVpa0hLUzVMNVppNnFUbk5kT2tHNU03RFhtc1FjczI3dVNmNGhVTzRXOGwwU2tSY2x3T1pWbDc0UjdTNnBxWFctcE8yTEYzSl9DYUR0ajlhNXN1VnRGTGpwUEJ2WUMxWk5reVlDVENkOEo2TtIBwgFBVV95cUxNdTNTVTBvb1J3VWRoRU9UcFIwMzZ4Y2RnNXlMXzJuNExhMUN6b1lMZ2l6LTRLcC1DOWRSazhfNEJIV1o0NEVkaGM3M05UVHZEeXpjYlRrQVRSUkdEOWc5WTVEYzJNMVlkMDBkZ3hHcktzRmUxNEpaVE9mdEZrNll0SUhkUXpKS2ZpTlpzWWF1NWx6T0dYNUhHTWdhTXFkNWJMSnk0X1ZZSl9wc18xSzNobWdEXzBsc1c3RS1wRGd4TUFoUQ?oc=5",
+          "publisher": "Bolsamania",
+          "published_at": "2026-10-28T11:01:58+00:00"
+        },
+        {
+          "title": "Endesa cumple previsiones y mantiene su meta de ganar más de 2.400 millones - Bolsamania",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOQS1JOWtOekJjN0NoMDRRZURsTlZUTUlodzNEU1lrbUlGb1FoZkZzSzkzRU1qS2xxVFEyMTd2dHdXaUd2NDRZNl8zR2Jxc3RsWDZFVnF4V0VmWTJ5OVVvQXg3SGZkQkU2SHNWRzNiQ0pGTDd2SmFLWGxjSDllakwyYk9wVjhPWGtZOW9Fek9mT3ZVelk0NW1HUjFmalNjT1M2SFJPQlN2dlp3WGlYUjR3WkVBcE42bWtHQWxyMHBxRVd1aDlUTXNKNkl3UXh5aE1iN2kzYy1kbjlXX3ZJd1MtUdIB5gFBVV95cUxNd1J0a1RMVldyOXlCa0NZTkJMZ25PWF94WFVSNUY2d3YxMGc4bWl6N2xPRVJWaG1WZkY1bklNaW1rZEZrdjRDWHlBSVpCZEVZVXlKdm1FMjZpNW9sWUFGaG4wVWtkUzFqd3p5b1pMQzlDcmtiQUVJU0kxc2N3RTBBTXpCUlZGVG84T3JpMU5sbWU1OGdfZklEdmZfbzFvU3dLcXozMGw1M0dNNGVJMG1XdWp3dEgzT2dBV3BYVS1BdTZRdXZSRk43VC1vd3FSQzc4Wko1R0dQZmZjaGhiX25MOWc0SF9Rdw?oc=5",
+          "publisher": "Bolsamania",
+          "published_at": "2026-10-28T09:50:40+00:00"
         }
       ],
-      "retrieved_at": "2026-10-31T23:37:05.480083+01:00",
+      "retrieved_at": "2026-11-01T00:06:42.096865+01:00",
       "technical": {
         "close": 43.810001373291016,
         "adjusted_close": 43.810001373291016,
         "price_date": "2026-10-30",
         "sessions": 511,
         "change_pct": 0.8053435255211738,
-        "rsi14": 59.58502539351845,
-        "macd": 0.4247257846411898,
-        "macd_signal": 0.32999129538006033,
+        "rsi14": 59.58502539352012,
+        "macd": 0.4247257846411685,
+        "macd_signal": 0.3299912953800302,
         "volatility_pct": 17.612516555127776,
         "drawdown_pct": -0.837480600563556,
         "chart": [
@@ -17117,11 +17175,11 @@
           },
           {
             "date": "2025-11-10",
-            "value": 30.34645652770996
+            "value": 30.346458435058594
           },
           {
             "date": "2025-11-11",
-            "value": 30.55699920654297
+            "value": 30.556997299194336
           },
           {
             "date": "2025-11-12",
@@ -17129,11 +17187,11 @@
           },
           {
             "date": "2025-11-13",
-            "value": 30.65269660949707
+            "value": 30.652698516845703
           },
           {
             "date": "2025-11-14",
-            "value": 30.757966995239258
+            "value": 30.75796890258789
           },
           {
             "date": "2025-11-17",
@@ -17145,7 +17203,7 @@
           },
           {
             "date": "2025-11-19",
-            "value": 29.360750198364258
+            "value": 29.360748291015625
           },
           {
             "date": "2025-11-20",
@@ -17153,7 +17211,7 @@
           },
           {
             "date": "2025-11-21",
-            "value": 29.552146911621094
+            "value": 29.552148818969727
           },
           {
             "date": "2025-11-24",
@@ -17169,11 +17227,11 @@
           },
           {
             "date": "2025-11-27",
-            "value": 29.89666748046875
+            "value": 29.896669387817383
           },
           {
             "date": "2025-11-28",
-            "value": 29.915809631347656
+            "value": 29.915807723999023
           },
           {
             "date": "2025-12-01",
@@ -17185,15 +17243,15 @@
           },
           {
             "date": "2025-12-03",
-            "value": 29.44687843322754
+            "value": 29.446880340576172
           },
           {
             "date": "2025-12-04",
-            "value": 29.293760299682617
+            "value": 29.293758392333984
           },
           {
             "date": "2025-12-05",
-            "value": 29.293760299682617
+            "value": 29.293758392333984
           },
           {
             "date": "2025-12-08",
@@ -17205,7 +17263,7 @@
           },
           {
             "date": "2025-12-10",
-            "value": 29.12150001525879
+            "value": 29.121498107910156
           },
           {
             "date": "2025-12-11",
@@ -17213,7 +17271,7 @@
           },
           {
             "date": "2025-12-12",
-            "value": 29.15977668762207
+            "value": 29.159778594970703
           },
           {
             "date": "2025-12-15",
@@ -17221,7 +17279,7 @@
           },
           {
             "date": "2025-12-16",
-            "value": 29.3798885345459
+            "value": 29.37989044189453
           },
           {
             "date": "2025-12-17",
@@ -17229,7 +17287,7 @@
           },
           {
             "date": "2025-12-18",
-            "value": 29.360750198364258
+            "value": 29.360748291015625
           },
           {
             "date": "2025-12-19",
@@ -17237,11 +17295,11 @@
           },
           {
             "date": "2025-12-22",
-            "value": 29.4277400970459
+            "value": 29.427738189697266
           },
           {
             "date": "2025-12-23",
-            "value": 29.3320369720459
+            "value": 29.33203887939453
           },
           {
             "date": "2025-12-24",
@@ -17249,7 +17307,7 @@
           },
           {
             "date": "2025-12-29",
-            "value": 29.3798885345459
+            "value": 29.37989044189453
           },
           {
             "date": "2025-12-30",
@@ -17257,11 +17315,11 @@
           },
           {
             "date": "2025-12-31",
-            "value": 29.312896728515625
+            "value": 29.312898635864258
           },
           {
             "date": "2026-01-02",
-            "value": 29.791397094726562
+            "value": 29.791399002075195
           },
           {
             "date": "2026-01-05",
@@ -17273,7 +17331,7 @@
           },
           {
             "date": "2026-01-07",
-            "value": 30.38473892211914
+            "value": 30.384737014770508
           },
           {
             "date": "2026-01-08",
@@ -18274,6 +18332,10 @@
         ],
         "risks": [],
         "method": "Filtro de reglas sin IA; noticias sin interpretación semántica."
+      },
+      "agents": {
+        "status": "pending",
+        "note": "Esperando ejecución de TradingAgents."
       }
     },
     {
@@ -18320,26 +18382,26 @@
           "published_at": "2026-10-29T03:55:00+00:00"
         }
       ],
-      "retrieved_at": "2026-10-31T23:37:05.480083+01:00",
+      "retrieved_at": "2026-11-01T00:06:42.096865+01:00",
       "technical": {
         "close": 50.70000076293945,
         "adjusted_close": 50.70000076293945,
         "price_date": "2026-10-30",
         "sessions": 511,
         "change_pct": -0.23612540851114527,
-        "rsi14": 68.00820404098553,
-        "macd": 0.3416960720733755,
-        "macd_signal": -0.6125916445317704,
+        "rsi14": 68.00820404098494,
+        "macd": 0.3416960720733897,
+        "macd_signal": -0.6125916445317482,
         "volatility_pct": 29.281254673033008,
         "drawdown_pct": -18.94899404175413,
         "chart": [
           {
             "date": "2025-11-05",
-            "value": 54.55625915527344
+            "value": 54.5562629699707
           },
           {
             "date": "2025-11-06",
-            "value": 54.02217102050781
+            "value": 54.02217483520508
           },
           {
             "date": "2025-11-07",
@@ -18355,19 +18417,19 @@
           },
           {
             "date": "2025-11-12",
-            "value": 54.93210220336914
+            "value": 54.932106018066406
           },
           {
             "date": "2025-11-13",
-            "value": 54.813411712646484
+            "value": 54.81341552734375
           },
           {
             "date": "2025-11-14",
-            "value": 54.55625915527344
+            "value": 54.5562629699707
           },
           {
             "date": "2025-11-17",
-            "value": 54.02217102050781
+            "value": 54.02217483520508
           },
           {
             "date": "2025-11-18",
@@ -18379,7 +18441,7 @@
           },
           {
             "date": "2025-11-20",
-            "value": 54.457359313964844
+            "value": 54.45735549926758
           },
           {
             "date": "2025-11-21",
@@ -18391,31 +18453,31 @@
           },
           {
             "date": "2025-11-25",
-            "value": 55.426631927490234
+            "value": 55.42662811279297
           },
           {
             "date": "2025-11-26",
-            "value": 55.84203338623047
+            "value": 55.8420295715332
           },
           {
             "date": "2025-11-27",
-            "value": 55.70356750488281
+            "value": 55.70356369018555
           },
           {
             "date": "2025-11-28",
-            "value": 55.84203338623047
+            "value": 55.8420295715332
           },
           {
             "date": "2025-12-01",
-            "value": 55.426631927490234
+            "value": 55.42662811279297
           },
           {
             "date": "2025-12-02",
-            "value": 55.644222259521484
+            "value": 55.64421844482422
           },
           {
             "date": "2025-12-03",
-            "value": 56.376121520996094
+            "value": 56.37612533569336
           },
           {
             "date": "2025-12-04",
@@ -19506,6 +19568,10 @@
           "Deuda neta/EBITDA superior a 4; revisar su sostenibilidad y el sector."
         ],
         "method": "Filtro de reglas sin IA; noticias sin interpretación semántica."
+      },
+      "agents": {
+        "status": "pending",
+        "note": "Esperando ejecución de TradingAgents."
       }
     },
     {
@@ -19515,6 +19581,18 @@
       "status": "ok",
       "warnings": [],
       "news": [
+        {
+          "title": "Fluidra recorta un 6% sus beneficios y cerrará el año en el rango bajo de lo prometido - El Economista",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPY054cFFLZ1loNTkwNllYNmFSdFRWQW5xTkIxMXh2RnlpVHRYYUJUTVpCRWltalNJTU5VQ01DMUE4VGZETXU0d0MwZ1JMM0xmUnpsUkNXTjVYVTdlejcyVWp5ZGZnZ0xLVU0xYjA5cGlOaEtVbGRQQmVGN0hRaFRQNHJ5RnI1REdDZ2p4VFU4Z2wyemdsRDhOYXAwTEhiOHo5cmtwWVBVaVZMRnowek1IdnphaUI0MXo0RzdrREtVTHNqUWZEanpFcWcwaWo4ckZLQUHSAdIBQVVfeXFMT2NOeHBRS2dZaDU5MDZZWDZhUnRUVkFucU5CMTF4dkZ5aVR0WGFCVE1aQkVpbWpTSU1OVUNNQzFBOFRmRE11NHdDMGdSTDNMZlJ6bFJDV041WFU3ZXo3MlVqeWRmZ2dMS1VNMWIwOXBpTmhLVWxkUEJlRjdIUWhUUDRyeUZyNURHQ2dqeFRVOGdsMnpnbEQ4TmFwMExIYjh6OXJrcFlQVWlWTEZ6MHpNSHZ6YWlCNDF6NEc3a0RLVUxzalFmRGp6RXFnMGlqOHJGS0FB?oc=5",
+          "publisher": "El Economista",
+          "published_at": "2026-10-29T15:57:12+00:00"
+        },
+        {
+          "title": "Fluidra (FDR) eleva sus beneficios y sorprende con sus márgenes - Benzinga España",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNa1VPMXhVbnB4MnVReUlwVlRsZjJSTzg2ZWZHVDJQU3ZycGpvVWpYZ1B4VEFtM0RZR0xwa2QzQS1yNzVPU2ZxN09zN2x5SlV1ZWNYSGViZXVlSDg1ZnpZbXI3a21vTkRxR3h6YmY5RXFCXzVvNXBzQ1dOSEtoejBzX0g1WW9mU1hkVFppOTc3cVdSeVVDbVFJ?oc=5",
+          "publisher": "Benzinga España",
+          "published_at": "2026-10-29T15:24:09+00:00"
+        },
         {
           "title": "Fluidra, S.A. presenta sus resultados de los nueve primeros meses cerrados el 30 de septiembre de 2026 - MarketScreener España",
           "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPUWFJTkd5MjJ4MjB3Y0tRd3VydEJyTmlxU2xCOWNUVTNhYVpQRkhuQmVMYlBlVEo3YVJEMDItVTQzSGxZMDJPWGZVOG5jb3JxeTAwVVl1YlVQdWVaMWI4NjNyaGdIZHV3UVljSVgyR2tvTWVRbVpKZ0FEbnZBdlN0eFJVSHhvS3hCUzRBTlRpVEpuRC1CTTU2eTNQNUphSlVkSnhaRDBiQ21ZS3NnOFllQ05wb1NjWHp0U05seUlRUjdNRnl0T1VWcm41OVpnM3hZUmhrd2s4ajV5cDc3Y1RkUHVwUEN1VEExY3c?oc=5",
@@ -19528,40 +19606,28 @@
           "published_at": "2026-10-29T10:07:00+00:00"
         },
         {
-          "title": "Fluidra ajusta su guía para 2026 tras los resultados del tercer trimestre - Investing.com España",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNG5hS1UwUk1GQVgyNVVDZjFsRnRoU0U1b3JzX3FWTmVFVUNqb09aTHJEY3pmcHU4QkROSXJCa0FEYmNId2NCalFJdUZMalZidF8tQnA4MXZRSHBUVTh3U3ZZZVJJTUJQU0R5SnM0NDZqWUtxbEtuVUZ0YVJrbXBMa0Z4c09mellrSVpkWDd5U3dwV2lvT3YwVVNfajQ3TDM3M1J3ZUJyWDhrd2dlaFJsWllSZ0Ixb1JlTXJIUjhJX0lMV2VsZFRzM0ZQbGxRXzQ?oc=5",
-          "publisher": "Investing.com España",
-          "published_at": "2026-10-29T08:24:00+00:00"
+          "title": "Fluidra gana más de 220 millones de euros en los nueve primeros meses de 2026 - Palco23",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZDhZM0kzYTcteVFfMnkxSmtJZDdJaHlEREpZazhla0g1MWo0bnVweGxhb0dpd2NLSC1uNGNvemZ6QnVwa055U1V3U1JqSUdnSUtOblN6bjdZYjdmX2IxN09PcmdRdkUwQnFJdTlsWXVVVDVrS1lkUGdyd2o5Z3I4YUdpUmhfbUxTVmVENkpFTFFTMUMycE9ySVlDZHZ6blJCVmI5blNZZDliWFVQbEFqUndzNTctUEcwNEVvajZ4d2NkckXSAcgBQVVfeXFMTk1PRDBVWTVYWTlndHgwVUxUV181UV9SWlpfZHFjLU96Qm5nZU1SRUk2NUMtT0M1cGc2S3BqeUllbktxQUVtaWphV3dDRW9KS0UyM2pBOEp0RXNZOEtvMy1VaW5JX3lQNUtWbVM0eVVyR2hmVXhSbkpEd012OHg0cE9QdGZHZ2szVHh6NG9Ici1tZE96Sm5lR21QNjE3Z0Q4NWNicnRYS3E5MUdYX1hIWWMxRlVVbS1jTTFVa2EzUk1RUHhDa1YyTkU?oc=5",
+          "publisher": "Palco23",
+          "published_at": "2026-10-29T08:50:34+00:00"
         },
         {
-          "title": "El beneficio ajustado de Fluidra crece un 6%, hasta 221 millones de euros - El Boletín",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObjBYZTR0LVlSQmhrLVJqQ0R2UDZpTEd0Ynl6VXp5YTN0NnNUbXFnczMzaUg0bFBTckdNTXRjNUR5SmVTUkhkSzVzODZFeVoxdHR1d2FtcjYwRlZVRF9rNTA4M1VyZGxHVjg0bW1DTG5YOUNaSzFPaXdsY0FTNzcxdzkwSjNrc1F0OFVmVUJMOUYyZGhNR2Fyal93bFRGR3PSAaQBQVVfeXFMTUtsb0p3Um5uR1pjSVptRUljT1ZoLTg0cXh3dkxsZ3N3OFlGV2FPTllvMGJoNm5JeXhXQ0hKSEtVRzh6eThnSWdUQkE0M2hlU2tpYXR0SWVSNGljd2V2QlhORmVZeVV1NTRoTUNTQTVyajFrVG42OG01Z3hHeDFkcEFHWHFmZ1E1UXdCQm5KZG91YVh1QVRlNE52Z3ZFRlk4bmNqUlY?oc=5",
-          "publisher": "El Boletín",
-          "published_at": "2026-10-29T07:58:18+00:00"
-        },
-        {
-          "title": "Fluidra gana 154 millones hasta septiembre, un 5,9% menos, y acota sus previsiones para 2026 - Bolsamania",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPVVQ0c0lBNkJySjJaTDJsY0oya0J2QVhfX1VBOWQtNXNDVHo1bEM1ZmVLUzNKV3JrcElDaEFJUHdjSGNTSEJ5LUZlNGw4Wml3LVlUVEY3WGpGY0VfMTd4SW9VLUwxbXphWUMzbEJpSENOQU1QU3k0YVg4MS1hRlhaYnRRbUJUNE53U01abEpYXzZRZ0ZoTWc2MVVsSXAzV2tSMjQydGpiYi1kYTZvX0UzMXNPM0RSWFFXVFlycVhvcG5VaUg4aG12LXdka2t0LWRBVl9UajFrLUVXVTFKUHd3ci1FYnhES0ViVkV4OFZCQ3fSAfYBQVVfeXFMTWNEVWdTaUpXaVJibDJXcERlU0RaX3RJTTFjbEpNekFWVm11V1JPUlIxd2h5UUdpSzdrc0NiR0htcEN2TlNjaDlrb0Jibm1kR3pFbWF2eEoxaGs2NW1iOTV0QWkwZW90VnBMZ0RQVlV1NDhpcWkyNC1ydDFjR0RIeVBTczhxbjFwcW1sNWplOWtWRVFRU2JSYXBtZHFZV00tbGF4X0xFR3gxRXkwX2JiMkxrOGNvSHNsaElvWmZQckk2ZFA2TE1lMjd0QnFBSVk2WTdkYUNDU3EySGJzUllsT3NaUGk4em9mZU1TNXQ0ajMxSG5hZnFB?oc=5",
-          "publisher": "Bolsamania",
-          "published_at": "2026-10-29T07:27:01+00:00"
-        },
-        {
-          "title": "Fluidra gana un 6% más hasta septiembre y confirma sus previsiones para el año - Estrategias de Inversión",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQ0RnQk9ic2hPMmNOMFpqdGtkWW1nb2FmQ3BtcmhvRjhRU2duWGpkblYyY2JIU3ZTamlrNm92SFBpOW42Uk4yUU51MXVpZFJnTEd2SDNtN1NubG5sTDl3NEMzUEpLRm1jNjd0RHVzMS1sM2dESzdNWkJjbnVmSUszMVIzazdWTXgxZ0R2R1AtSWwzZkdISHFjdDhVdU9yOGg1RnJV0gGjAUFVX3lxTE9DRGdCT2JzaE8yY04wWmp0a2RZbWdvYWZDcG1yaG9GOFFTZ25YamRuVjJjYkhTdlNqaWs2b3ZIUGk5bjZSTjJRTnUxdWlkUmdMR3ZIM203U25sbmxMOXc0QzNQSktGbWM2N3REdXMxLWwzZ0RLN01aQmNudWZJSzMxUjNrN1ZNeDFnRHZHUC1JbDNmR0hIcWN0OFV1T3I4aDVGclU?oc=5",
-          "publisher": "Estrategias de Inversión",
-          "published_at": "2026-10-29T07:20:00+00:00"
+          "title": "Fluidra ajusta su guía 2026 tras resultados del tercer trimestre - Investing.com México - Finanzas, Bolsa y Forex",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVlJIcVJDejB4V21GbTdKN1hCR0pobXBIcEJLYjMtWjZTQTFybE5ORG5DYU92ZTdXM1FtTmtnb0t5V2NUZWtaRE9SYXVFd3NDOFZyVUNoX0pMT1ZadTBXYzUwREFfc0FRVXB4blFET0xvVk43WUFwTklQRDVjOFFxWUVJZ2FQdTVxV0ZXYW1na2d3VjlCZzJralg5UWFpSS1ZWFFoLUdRWlFPR28tNWZsbmFvc2wzODN1ZkFSM1pDRUVUeG8?oc=5",
+          "publisher": "Investing.com México - Finanzas, Bolsa y Forex",
+          "published_at": "2026-10-29T08:26:06+00:00"
         }
       ],
-      "retrieved_at": "2026-10-31T23:37:05.480083+01:00",
+      "retrieved_at": "2026-11-01T00:06:42.096865+01:00",
       "technical": {
         "close": 18.700000762939453,
         "adjusted_close": 18.700000762939453,
         "price_date": "2026-10-30",
         "sessions": 511,
         "change_pct": -1.1105186999850525,
-        "rsi14": 64.03577775690566,
-        "macd": 0.19538476619334588,
-        "macd_signal": 0.015229152330401893,
+        "rsi14": 64.03577775690582,
+        "macd": 0.19538476619334233,
+        "macd_signal": 0.01522915233039697,
         "volatility_pct": 19.808956376447124,
         "drawdown_pct": -26.728802014725407,
         "chart": [
@@ -19571,7 +19637,7 @@
           },
           {
             "date": "2025-11-06",
-            "value": 22.444276809692383
+            "value": 22.44427490234375
           },
           {
             "date": "2025-11-07",
@@ -19579,11 +19645,11 @@
           },
           {
             "date": "2025-11-10",
-            "value": 22.793750762939453
+            "value": 22.793752670288086
           },
           {
             "date": "2025-11-11",
-            "value": 23.046152114868164
+            "value": 23.046154022216797
           },
           {
             "date": "2025-11-12",
@@ -19619,7 +19685,7 @@
           },
           {
             "date": "2025-11-24",
-            "value": 22.89082908630371
+            "value": 22.890830993652344
           },
           {
             "date": "2025-11-25",
@@ -19627,11 +19693,11 @@
           },
           {
             "date": "2025-11-26",
-            "value": 23.43446159362793
+            "value": 23.434463500976562
           },
           {
             "date": "2025-11-27",
-            "value": 23.57037353515625
+            "value": 23.570371627807617
           },
           {
             "date": "2025-11-28",
@@ -20723,6 +20789,10 @@
         ],
         "risks": [],
         "method": "Filtro de reglas sin IA; noticias sin interpretación semántica."
+      },
+      "agents": {
+        "status": "pending",
+        "note": "Esperando ejecución de TradingAgents."
       }
     },
     {
@@ -20751,9 +20821,9 @@
           "published_at": "2026-10-27T22:15:52+00:00"
         },
         {
-          "title": "Una política histórica, el covid y muchas compras: así terminó Grifols con una deuda de más de 9.000 millones de euros - Faro de Vigo",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTnBjTHJXa0lNQ041bVUybmRvSlhCWWxONmlUOEpyWXRyOXJ0T2RBUGhpWFJ0SjYzd1hDd1BEa2xhcTdGSF9MSExGQUdjeEdMS0pzTUhiMnRCY01INDlvQUNwVzRxaXhNajF5VzJYUmxHZFVqYlNBSzg2Vmc3NmtIY2lieUdBLWxQZlJwNFZWdkFrMlFPRlVXWDAzUGFrd25TZXNIaWNXVGI0RThIUzdLVzlEYkZOR21ObEtpT2pic2JacDRhNGfSAcsBQVVfeXFMTWZjaVZjT0p3Y2YwM0RSU0EyclAySHBvUWk5NUxoTmhWQlhkRWxORV9sV1B1dFE5T0dWT2IwOWR6anJPb2ZOMVVJOHVkeEpRdFZwWU1oY2dCOFVIZFQycW9lU3BhRDlITldURURYM19VOGhWd1lUOERxT0JGNWhEZW1xdVFUVjBHakt4bm94MlBSYmZ1bVJMeTA3Ti1zek9NNGRIeTM5b3pjNXRZVjdtSXpSSS1BYktjNFVZSnh3YlQxNm81R0dYMmNLaFE?oc=5",
-          "publisher": "Faro de Vigo",
+          "title": "Una política histórica, el covid y muchas compras: así terminó Grifols con una deuda de más de 9.000 millones de euros - El Periódico de Aragón",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcWNmaGpvWUszbFZwMFN6MzJFQUFYTllGeGIySUxJWjJsUEluRmFjWEVxbjU1X2ViUi1oTDNmVU1JajJGc1A3RjRRdWY0NFRfVjlSUnMxVDhXQmY1WWpQSEZCT1ZfMTNoVWpocHRncTJZM092cWFac2prdU1RTEhGeGttSzJVSVNzcS1kV19HUDU3Ukdnd2hnTkhEcnFyZ0k5LW1BcThMNExxamVfUS13OVZtNUlJTjhMMXYxQ0tWb1VST3ZOZ1c1dldaVWFka2JqOGFN0gHYAUFVX3lxTE1tZ01KU2hvY0V6SFlVcE84UmRzZU8wWmE5WjhnbEJ0SWVDT0JOQlh5a21rcG5oT3oyc1hHZWxCTDFDZlJJbENVc1YtVGd6NFJXZUxQVENwOWsxVGd3YzYzYmR5cDNTZFo0YldfeUNVWW8wbElycU9IRWpqN0dMZzZkaVN0THZtTGdqdkxMR1NvYS1jTmtkWUR0dHlEZFZ3UkxTSXk5TUxuS29oQ3I2dmdmODBnNVJvMkltQUlzOGRqa1FLUVhkVHRUWDUyLVdCLU9VQ1doWVc4Tw?oc=5",
+          "publisher": "El Periódico de Aragón",
           "published_at": "2026-10-25T05:00:15+00:00"
         },
         {
@@ -20763,14 +20833,14 @@
           "published_at": "2026-10-25T05:00:14+00:00"
         }
       ],
-      "retrieved_at": "2026-10-31T23:37:05.480083+01:00",
+      "retrieved_at": "2026-11-01T00:06:42.096865+01:00",
       "technical": {
         "close": 10.975000381469727,
         "adjusted_close": 10.975000381469727,
         "price_date": "2026-10-30",
         "sessions": 511,
         "change_pct": 2.81030618617919,
-        "rsi14": 72.72313716416825,
+        "rsi14": 72.72313716416826,
         "macd": 0.2638767534267714,
         "macd_signal": 0.17435796204039766,
         "volatility_pct": 24.65070047660137,
@@ -21938,6 +22008,10 @@
           "RSI superior a 70: posible extensión del movimiento."
         ],
         "method": "Filtro de reglas sin IA; noticias sin interpretación semántica."
+      },
+      "agents": {
+        "status": "pending",
+        "note": "Esperando ejecución de TradingAgents."
       }
     },
     {
@@ -21972,7 +22046,7 @@
           "published_at": "2026-10-26T04:40:00+00:00"
         }
       ],
-      "retrieved_at": "2026-10-31T23:37:05.480083+01:00",
+      "retrieved_at": "2026-11-01T00:06:42.096865+01:00",
       "technical": {
         "close": 4.833000183105469,
         "adjusted_close": 4.833000183105469,
@@ -23155,6 +23229,10 @@
         ],
         "risks": [],
         "method": "Filtro de reglas sin IA; noticias sin interpretación semántica."
+      },
+      "agents": {
+        "status": "pending",
+        "note": "Esperando ejecución de TradingAgents."
       }
     },
     {
@@ -23165,10 +23243,28 @@
       "warnings": [],
       "news": [
         {
+          "title": "El presidente de Iberdrola, Ignacio Galán, traslada las condolencias a la familia de Fátima Báñez y a las de todos los fallecidos en la tragedia ferroviaria - La Razón",
+          "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNMHN4SFNTMGNWaW4xYW9HRnl1UTVoYlFDMU5JRVRXXzdKRkhGSDBQeE82LUlsWm4zT2RhVEdodG83OG5kQVI5WmZjbnB4RGZMZmQxcHBHaThvVHo1V201clduNG5Vc0UtQm93dmxIQjlDNnZJamVELWYwZjJmci1vUFFUX1pTTUpaSzF3NmxRSjJGMTRjeGVwVVdCbVg0R21GZGdXaEl4aDd6aDBzbGhEWXpDSEFBWG1EUENLN2M4TUpPTTZ6N0RmVE4zM1hZNlZoMk51QmtKMlBFVTNqNmxIM09wNkUzVFpsTDBqeGxDbUZxbVF4bkNYNU5wY1VHTWs1RTdlZkRKUUFBSFJQdkZfNC1VYWk3OExlS01CR1ZtM1lJX3UyQkFr0gGnAkFVX3lxTE0wc3hIU1MwY1ZpbjFhb0dGeXVRNWhiUUMxTklFVFdfN0pGSEZIMFB4TzYtSWxabjNPZGFUR2h0bzc4bmRBUjlaZmNucHhEZkxmZDFwcEdpOG9UejVXbTVyV240blVzRS1Cb3d2bEhCOUM2dklqZUQtZjBmMmZyLW9QUVRfWlNNSlpLMXc2bFFKMkYxNGN4ZXBVV0JtWDRHbUZkZ1doSXhoN3poMHNsaERZekNIQUFYbURQQ0s3YzhNSk9NNno3RGZUTjMzWFk2VmgyTnVCa0oyUEVVM2o2bEgzT3A2RTNUWmxMMGp4bENtRnFtUXhuQ1g1TnBjVUdNazVFN2VmREpRQUFIUlB2Rl80LVVhaTc4TGVLTUJHVm0zWUlfdTJCQWs?oc=5",
+          "publisher": "La Razón",
+          "published_at": "2026-10-29T20:29:00+00:00"
+        },
+        {
+          "title": "El PNV no hará realidad el deseo de Galán (Iberdrola): un nuevo impuestazo, sólo para petroleras y gaseras - Hispanidad",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOci1oVHhpYm15S19Gc1NlNzlJdENKMXczbmFkd0VfWU1SaDRGeGYtOGFGWWJPZzlRMTlXWHY5TVRTOHphbUdSTTcyaUpzZXFmNG9pTmh1LV9VUUhSZDE0aENyWmhjcVlhMFEyTkdHM2RrMXJjV1IwVEJ1OE1KcmJEOU0zazlyZUtPVW5KYlM5MXV2eVZFdXd4azRIUEM1ZV8ybS12UzZLVDBSUnJYUFRBUlhZWGpzYzVOMHc?oc=5",
+          "publisher": "Hispanidad",
+          "published_at": "2026-10-29T18:31:34+00:00"
+        },
+        {
           "title": "Repsol, Iberdrola y Endesa disparan la bolsa energética española - Benzinga España",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQYkhmTnZZSkJ5V20yckN4NS0tYlRVSmdPbjR4bi01U1llMURCZGo5STdhN3pTZFRTaE5PSTdzeVdjdHFBUzZlWUlyS2JRdlRsZHBaODFaak1BMFBfOEVzN2tickR3eWlCVUF6ZHo5OXlZbzhyMVh4eVAxZnZVMXdlZzVlTDJibUdDeUVXYkp2VVVUYURBdTBhd3BpZ1ZUQQ?oc=5",
           "publisher": "Benzinga España",
           "published_at": "2026-10-28T15:24:03+00:00"
+        },
+        {
+          "title": "Iberdrola capta 1.600 millones de dólares en bonos verdes para financiar proyectos en Estados Unidos - Bolsa Digital",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOMjRiTEVabmEzeGxCeGE2VnhkY0YwZGl1SE93c1lPOWNUekFPbktaaThhX1JIT0p3d3pFbU5YV0hiVk1LdVVvdV9qVkN6Ni1ham16ZkRaTDJYUXJrUFFyU1lsa3lkUjZlb0xFWVVMSTZOSHZXNk1JSFhoTk41MEpSRU5lV0hURnhfbm1helFkOFRKWW5Mblhac214YUNiUmtuOXd0MjctaGg5TnVEeGlWUnYwZzVRclM2SDBuN1lMVGdiUC1EQ3lpa3hlaWFydEV6NzZJ?oc=5",
+          "publisher": "Bolsa Digital",
+          "published_at": "2026-10-27T12:36:56+00:00"
         },
         {
           "title": "Iberdrola lanza una emisión de bonos verdes por más de 1.400 millones de euros para financiar proyectos sos... - Estrategias de Inversión",
@@ -23183,22 +23279,22 @@
           "published_at": "2026-10-26T13:26:08+00:00"
         }
       ],
-      "retrieved_at": "2026-10-31T23:37:05.480083+01:00",
+      "retrieved_at": "2026-11-01T00:06:42.096865+01:00",
       "technical": {
         "close": 22.18000030517578,
         "adjusted_close": 22.18000030517578,
         "price_date": "2026-10-30",
         "sessions": 511,
         "change_pct": 0.36199059875643425,
-        "rsi14": 72.12889842270366,
+        "rsi14": 72.12889842269578,
         "macd": 0.3863828294343712,
-        "macd_signal": 0.3540801048549642,
+        "macd_signal": 0.35408010485496494,
         "volatility_pct": 13.05462738696225,
         "drawdown_pct": 0.0,
         "chart": [
           {
             "date": "2025-11-05",
-            "value": 17.193378448486328
+            "value": 17.193376541137695
           },
           {
             "date": "2025-11-06",
@@ -23214,7 +23310,7 @@
           },
           {
             "date": "2025-11-11",
-            "value": 17.140193939208984
+            "value": 17.14019203186035
           },
           {
             "date": "2025-11-12",
@@ -23222,11 +23318,11 @@
           },
           {
             "date": "2025-11-13",
-            "value": 17.38194465637207
+            "value": 17.381942749023438
           },
           {
             "date": "2025-11-14",
-            "value": 17.439964294433594
+            "value": 17.43996238708496
           },
           {
             "date": "2025-11-17",
@@ -23234,7 +23330,7 @@
           },
           {
             "date": "2025-11-18",
-            "value": 17.40128517150879
+            "value": 17.401283264160156
           },
           {
             "date": "2025-11-19",
@@ -23246,7 +23342,7 @@
           },
           {
             "date": "2025-11-21",
-            "value": 17.343263626098633
+            "value": 17.34326171875
           },
           {
             "date": "2025-11-24",
@@ -23254,7 +23350,7 @@
           },
           {
             "date": "2025-11-25",
-            "value": 17.439964294433594
+            "value": 17.43996238708496
           },
           {
             "date": "2025-11-26",
@@ -23262,15 +23358,15 @@
           },
           {
             "date": "2025-11-27",
-            "value": 17.614025115966797
+            "value": 17.614023208618164
           },
           {
             "date": "2025-11-28",
-            "value": 17.58501434326172
+            "value": 17.585012435913086
           },
           {
             "date": "2025-12-01",
-            "value": 17.352933883666992
+            "value": 17.35293197631836
           },
           {
             "date": "2025-12-02",
@@ -23286,7 +23382,7 @@
           },
           {
             "date": "2025-12-05",
-            "value": 17.377107620239258
+            "value": 17.377105712890625
           },
           {
             "date": "2025-12-08",
@@ -23310,19 +23406,19 @@
           },
           {
             "date": "2025-12-15",
-            "value": 17.512489318847656
+            "value": 17.512487411499023
           },
           {
             "date": "2025-12-16",
-            "value": 17.38194465637207
+            "value": 17.381942749023438
           },
           {
             "date": "2025-12-17",
-            "value": 17.352933883666992
+            "value": 17.35293197631836
           },
           {
             "date": "2025-12-18",
-            "value": 17.352933883666992
+            "value": 17.35293197631836
           },
           {
             "date": "2025-12-19",
@@ -23342,7 +23438,7 @@
           },
           {
             "date": "2025-12-29",
-            "value": 17.725229263305664
+            "value": 17.725231170654297
           },
           {
             "date": "2025-12-30",
@@ -23362,11 +23458,11 @@
           },
           {
             "date": "2026-01-06",
-            "value": 18.131372451782227
+            "value": 18.13137435913086
           },
           {
             "date": "2026-01-07",
-            "value": 18.368289947509766
+            "value": 18.3682918548584
           },
           {
             "date": "2026-01-08",
@@ -24210,7 +24306,7 @@
         "sma200": 19.993358030319214,
         "return21_pct": 6.994697515478232,
         "return63_pct": 7.826935509175859,
-        "return252_pct": 28.894424070532487,
+        "return252_pct": 28.89443835739427,
         "relative63_pp": 14.672354142637955
       },
       "fundamentals": {
@@ -24370,6 +24466,10 @@
           "RSI superior a 70: posible extensión del movimiento."
         ],
         "method": "Filtro de reglas sin IA; noticias sin interpretación semántica."
+      },
+      "agents": {
+        "status": "pending",
+        "note": "Esperando ejecución de TradingAgents."
       }
     },
     {
@@ -24416,7 +24516,7 @@
           "published_at": "2026-10-29T12:00:58+00:00"
         }
       ],
-      "retrieved_at": "2026-10-31T23:37:05.480083+01:00",
+      "retrieved_at": "2026-11-01T00:06:42.096865+01:00",
       "technical": {
         "close": 63.880001068115234,
         "adjusted_close": 63.880001068115234,
@@ -25589,6 +25689,10 @@
         ],
         "risks": [],
         "method": "Filtro de reglas sin IA; noticias sin interpretación semántica."
+      },
+      "agents": {
+        "status": "pending",
+        "note": "Esperando ejecución de TradingAgents."
       }
     },
     {
@@ -25629,16 +25733,16 @@
           "published_at": "2026-10-27T23:47:00+00:00"
         }
       ],
-      "retrieved_at": "2026-10-31T23:37:05.480083+01:00",
+      "retrieved_at": "2026-11-01T00:06:42.096865+01:00",
       "technical": {
         "close": 56.13999938964844,
         "adjusted_close": 56.13999938964844,
         "price_date": "2026-10-30",
         "sessions": 511,
         "change_pct": -0.2487551398098753,
-        "rsi14": 63.00883189592861,
+        "rsi14": 63.00883189592877,
         "macd": 0.7722932241693528,
-        "macd_signal": 0.5540766158908137,
+        "macd_signal": 0.5540766158908139,
         "volatility_pct": 18.87093900673263,
         "drawdown_pct": -3.5296318629882473,
         "chart": [
@@ -26802,6 +26906,10 @@
         ],
         "risks": [],
         "method": "Filtro de reglas sin IA; noticias sin interpretación semántica."
+      },
+      "agents": {
+        "status": "pending",
+        "note": "Esperando ejecución de TradingAgents."
       }
     },
     {
@@ -26813,7 +26921,7 @@
         "La muestra de titulares no cubre esta empresa en los últimos siete días."
       ],
       "news": [],
-      "retrieved_at": "2026-10-31T23:37:05.480083+01:00",
+      "retrieved_at": "2026-11-01T00:06:42.096865+01:00",
       "technical": {
         "close": 5.090000152587891,
         "adjusted_close": 5.090000152587891,
@@ -27988,6 +28096,10 @@
           "Faltan métricas específicas del sector; no se aplican reglas de deuda industrial."
         ],
         "method": "Filtro de reglas sin IA; noticias sin interpretación semántica."
+      },
+      "agents": {
+        "status": "pending",
+        "note": "Esperando ejecución de TradingAgents."
       }
     },
     {
@@ -28022,7 +28134,7 @@
           "published_at": "2026-10-26T09:53:42+00:00"
         }
       ],
-      "retrieved_at": "2026-10-31T23:37:05.480083+01:00",
+      "retrieved_at": "2026-11-01T00:06:42.096865+01:00",
       "technical": {
         "close": 62.54999923706055,
         "adjusted_close": 62.54999923706055,
@@ -29194,6 +29306,10 @@
         ],
         "risks": [],
         "method": "Filtro de reglas sin IA; noticias sin interpretación semántica."
+      },
+      "agents": {
+        "status": "pending",
+        "note": "Esperando ejecución de TradingAgents."
       }
     },
     {
@@ -29222,16 +29338,16 @@
           "published_at": "2026-10-28T13:00:00+00:00"
         }
       ],
-      "retrieved_at": "2026-10-31T23:37:05.480083+01:00",
+      "retrieved_at": "2026-11-01T00:06:42.096865+01:00",
       "technical": {
         "close": 36.36000061035156,
         "adjusted_close": 36.36000061035156,
         "price_date": "2026-10-30",
         "sessions": 511,
         "change_pct": 0.4975132771074975,
-        "rsi14": 52.66762368740412,
-        "macd": 0.340314144034771,
-        "macd_signal": 0.38562624014291974,
+        "rsi14": 52.66762368741039,
+        "macd": 0.34031414403507654,
+        "macd_signal": 0.3856262401433656,
         "volatility_pct": 14.577763685970046,
         "drawdown_pct": -2.9882575922196453,
         "chart": [
@@ -29257,11 +29373,11 @@
           },
           {
             "date": "2025-11-12",
-            "value": 28.418895721435547
+            "value": 28.418893814086914
           },
           {
             "date": "2025-11-13",
-            "value": 28.475242614746094
+            "value": 28.475244522094727
           },
           {
             "date": "2025-11-14",
@@ -29269,7 +29385,7 @@
           },
           {
             "date": "2025-11-17",
-            "value": 27.83661651611328
+            "value": 27.836618423461914
           },
           {
             "date": "2025-11-18",
@@ -29281,7 +29397,7 @@
           },
           {
             "date": "2025-11-20",
-            "value": 27.479736328125
+            "value": 27.479738235473633
           },
           {
             "date": "2025-11-21",
@@ -29317,7 +29433,7 @@
           },
           {
             "date": "2025-12-03",
-            "value": 27.83661651611328
+            "value": 27.836618423461914
           },
           {
             "date": "2025-12-04",
@@ -29353,11 +29469,11 @@
           },
           {
             "date": "2025-12-16",
-            "value": 27.028942108154297
+            "value": 27.02894401550293
           },
           {
             "date": "2025-12-17",
-            "value": 27.291906356811523
+            "value": 27.29190444946289
           },
           {
             "date": "2025-12-18",
@@ -29373,7 +29489,7 @@
           },
           {
             "date": "2025-12-23",
-            "value": 27.83661651611328
+            "value": 27.836618423461914
           },
           {
             "date": "2025-12-24",
@@ -29385,7 +29501,7 @@
           },
           {
             "date": "2025-12-30",
-            "value": 28.231061935424805
+            "value": 28.231063842773438
           },
           {
             "date": "2025-12-31",
@@ -29413,7 +29529,7 @@
           },
           {
             "date": "2026-01-09",
-            "value": 29.11387062072754
+            "value": 29.113872528076172
           },
           {
             "date": "2026-01-12",
@@ -29429,19 +29545,19 @@
           },
           {
             "date": "2026-01-15",
-            "value": 29.28291893005371
+            "value": 29.282920837402344
           },
           {
             "date": "2026-01-16",
-            "value": 29.489532470703125
+            "value": 29.489534378051758
           },
           {
             "date": "2026-01-19",
-            "value": 29.508316040039062
+            "value": 29.508317947387695
           },
           {
             "date": "2026-01-20",
-            "value": 29.13265609741211
+            "value": 29.132654190063477
           },
           {
             "date": "2026-01-21",
@@ -29453,7 +29569,7 @@
           },
           {
             "date": "2026-01-23",
-            "value": 29.28291893005371
+            "value": 29.282920837402344
           },
           {
             "date": "2026-01-26",
@@ -29489,11 +29605,11 @@
           },
           {
             "date": "2026-02-05",
-            "value": 31.2739315032959
+            "value": 31.27393341064453
           },
           {
             "date": "2026-02-06",
-            "value": 31.480546951293945
+            "value": 31.480545043945312
           },
           {
             "date": "2026-02-09",
@@ -29509,7 +29625,7 @@
           },
           {
             "date": "2026-02-12",
-            "value": 31.38663101196289
+            "value": 31.386629104614258
           },
           {
             "date": "2026-02-13",
@@ -29517,7 +29633,7 @@
           },
           {
             "date": "2026-02-16",
-            "value": 31.08609962463379
+            "value": 31.086097717285156
           },
           {
             "date": "2026-02-17",
@@ -29537,7 +29653,7 @@
           },
           {
             "date": "2026-02-23",
-            "value": 31.593246459960938
+            "value": 31.593244552612305
           },
           {
             "date": "2026-02-24",
@@ -30246,7 +30362,7 @@
         ],
         "sma20": 36.15499992370606,
         "sma50": 35.70279991149902,
-        "sma200": 33.25545920372009,
+        "sma200": 33.255459184646604,
         "return21_pct": 6.377999665628065,
         "return63_pct": 1.1349778754277784,
         "return252_pct": 34.3357683882586,
@@ -30406,6 +30522,10 @@
         ],
         "risks": [],
         "method": "Filtro de reglas sin IA; noticias sin interpretación semántica."
+      },
+      "agents": {
+        "status": "pending",
+        "note": "Esperando ejecución de TradingAgents."
       }
     },
     {
@@ -30415,6 +30535,12 @@
       "status": "ok",
       "warnings": [],
       "news": [
+        {
+          "title": "Los dividendos vuelven al Ibex 35 en noviembre: Inditex, Santander, Naturgy, CaixaBank y Mapfre pagan - Finect",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWlY1YUpkYUR3WmdKT2pvUXBUZWtTc3BYeEhrSTNsT0pKSWowRjNJOEJqRU84cHg2dGpiRDFvMEd2em9RTjFTWDc2ZlFTWXlBTTRKeTVuM1ZtbmpPYUdfXzdEdFJudWRIQjRoSDVvcUd0SVcwZlB5cGZ0UWJZQVA4Rl9ZWHNMTkVJQ09nVVdkRnVvcllhb0s1Ulp1ZVVsRnJSQXpoRENBcFM2S19IVFdBRA?oc=5",
+          "publisher": "Finect",
+          "published_at": "2026-10-30T09:13:59+00:00"
+        },
         {
           "title": "Mapfre mantiene el beneficio neto gracias al negocio de Vida pese a la presión en Brasil - Merca2.es",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5zR0l3eHpkdHNldldlNmxNbk9DSWg5dGxrRjdtQk9vck1xbUo2UVRqdVZuTVdTa3dud0w0Zkx1V1AxdGNneklscGYxNDFrNm9WVjB4OTEzYTc4Uk9sVGNsU3BxbGJGdlRDd1JUVU5FV2Zpc0NrV0lQU2V3?oc=5",
@@ -30428,31 +30554,25 @@
           "published_at": "2026-10-29T16:30:00+00:00"
         },
         {
-          "title": "Mapfre pagará un dividendo de 0,08 euros por acción el 26 de noviembre - Finect",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNeTYwSU9QSldqUDhKZzF6dDJGel9CSXJRU1YtS3hLQUs0LTV2LU1RUzEtT2hvcHd5REhoaGRoai1GTlAxTnhBTXl2aHRQU184R3lmTnZfRGxhNUxTS3BmSHNqT2VQTUhudEFNRk0tVVo3YjNFcUlHWWRrYnpLbnRKRlhOQWQyd0RISlJzSkRjZEItQk1TTHpxNGR0ZVhNcHo0TzNDSFhEYkFOQ1ZhZ1lRUmtaNFE0SlVYRXJZTmJyTmRiUQ?oc=5",
-          "publisher": "Finect",
-          "published_at": "2026-10-28T08:25:30+00:00"
-        },
-        {
-          "title": "Mapfre se encamina hacia un resultado histórico en 2026 con 924 millones de beneficio a septiembre, un 11,5% más - CapitalMadrid",
-          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNLXp2WHZaRTFfNF9xdDJhY1RCaksydWN4UjdxNUN6M3BLZnFjQXJIMW1Qd2VKWFVfdVNlSlRuMHh2UE5YTFl1dkl0bE9sOHd3clM3MmNiNjF6U1JfRzYyaTIxbE02U1hyckJDT1dMNS1Vc2dtUEM5bEJzaDAtc0l0YXE2M2NFbXh5QjNPLTlaU0RlUkVSM0xIVjZEZ0VGb3dwdVgtTlMzel8yaWZmMWlnLWlGR1lWQnVvNlhocklJS094dEY3ckpMcDZzTjlWNVFqZXVzWWN0eF9jRFpFSjZlTW1lelpTUVRFRXdyVHpJQ0luVVpC?oc=5",
-          "publisher": "CapitalMadrid",
-          "published_at": "2026-10-28T07:38:56+00:00"
-        },
-        {
-          "title": "Mapfre gana un 11,5% más hasta septiembre y anuncia dividendo de 0,08 euros - Estrategias de Inversión",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYkFJMUYycEJDc2g5WktEa18zaFVlNWdsMkpUUEFtQ0JnMGdxVEl6QUlvN29HR19pcmIwdWVZTDViZXZkMXFYZE1XRjQwYWkzMTVCMHNVd0VCNWNHZXNWUlBWNGhuOHg0cDM5S1V6cU00VVEzeUMxWXd5ZmVQM2dfSE5XQ2FCR2t5eEF6ZGVrVHI0OHYwbDNtWXFpNVFuSU9Hejc40gGjAUFVX3lxTE1iQUkxRjJwQkNzaDlaS0RrXzNoVWU1Z2wySlRQQW1DQmcwZ3FUSXpBSW83b0dHX2lyYjB1ZVlMNWJldmQxcVhkTVdGNDBhaTMxNUIwc1V3RUI1Y0dlc1ZSUFY0aG44eDRwMzlLVXpxTTRVUTN5QzFZd3lmZVAzZ19ITldDYUJHa3l4QXpkZWtUcjQ4djBsM21ZcWk1UW5JT0d6Nzg?oc=5",
+          "title": "El Ibex 35 vuelve a ser el peor de Europa, lejos de los 19.000, a cuenta de Mapfre y BBVA - Estrategias de Inversión",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPR3FVTV9zbE1CRWpJeEpBdEQ1SUEyQ1ZjTUJUR2J5TktRUDlrVk1GVkdvaEgyUjVkVTBIeWxsWkpUMmxiS08tSWo1dkdPN0lJejNtalJoczF3aE5wUm95TWc4RUdNcWd3M01XUXkyQ2tvM0k2N0UzMlpLSFN1SkhpN3pCcVFzMU1sRG1pTHluNHRnQU05bVNkOFJuaUF6ODhI0gGgAUFVX3lxTE9HcVVNX3NsTUJFakl4SkF0RDVJQTJDVmNNQlRHYnlOS1FQOWtWTUZWR29oSDJSNWRVMEh5bGxaSlQybGJLTy1JajV2R083SUl6M21qUmhzMXdoTnBSb3lNZzhFR01xZ3czTVdReTJDa28zSTY3RTMyWktIU3VKSGk3ekJxUXMxTWxEbWlMeW40dGdBTTltU2Q4Um5pQXo4OEg?oc=5",
           "publisher": "Estrategias de Inversión",
-          "published_at": "2026-10-28T07:00:00+00:00"
+          "published_at": "2026-10-29T16:30:00+00:00"
         },
         {
-          "title": "Inchausti (Mapfre): “La filial de Brasil ha ido bien con Lula y confiamos en que así siga” - Cinco Días",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOaktqZ1l5RzJTdjFLLVhhdGItLU5oSjBsUGdrUzJlakkyUFV1RHotTEwxUTVlNWg5SmNOQmhESTVnR0NzU3R4NUkzZ0IzYlZocjNVUDhENGhxNTEtUDg3ek5ha281b1RjLWZ2S2thSnUyVmtVelJMRTdqem5nS0RTRm80a010RU5VT3hoMmV0bFdZS2dJWFVWNzVZdGozT3RVSzVSWDRLQkVlUkgtWWVadTRfcU5RU3FPZTdjY0FfbE5iUHNheHFQU2tWONIB3wFBVV95cUxNUG84WGV1NTdpOFpCSjlxWlNOQ3FrNEhweWpEYkpIbFU5MC1JZ1pwWDlpY085d202UEQ0Nlp0eVM4VEJNLWkyVkFpVEgtR3hmRG1IUnpzTnRNcERSMXFqYkdNbzVWZFNsTUtDR3dHR2doZk5KRWlHWnNtX09ZanJSMlFFd3p3TGxUZHlYc1ZCa1dSSkhtR2xJUHNJVGdiV2V5VmxVVDNaNGxneHdId1Q5dC1JblI2WWc1SDIyVlIybUtUSkZ1cVc0aUREV1U5ZnVyUUFBSzFtMDlXaHd1c1I4?oc=5",
-          "publisher": "Cinco Días",
-          "published_at": "2026-10-28T06:38:25+00:00"
+          "title": "Mapfre eleva su beneficio gracias a sus mercados principales y compensa las pérdidas de Colombia - El Economista",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNQ3Z2T1V2TG5ZUkFmSl80djZJVllvZjJKZS1jdjRDdDB1WWg3SWI2U2FSU0c1LWF4ZVFNRE5ndHRlVXZfUkRIQzBFcElqTDJDUVZFWmRYb0dyOTVDZ2cxcGtHSWIwVEJjVTZ4Y2luY1JIMFVtWUQyQkhWV1c2Z3IyU2NJd3RTV2FRQkZDa3NxQV9LNG1XcjBMNDhyREhsTWN1dEVzd3JuV3RFS2UySzRzdFF0NjNvSEFZbTlrZk5wSmZ6ZjdYV25qb3I2d0JySEJPTWVibDZ0QdIB3AFBVV95cUxQSjkzYVNTcXBwVTNjdFhRaVBmbUhMOE1GRThBSkxlNW1WSUVrZ2xhVzNjbUZZMTJtN1p3WFAzMVpPNWdBblltcWlOZHNGcWdraTBpWUtHRjhGdGlPdVYteTVlV00wV2JJc0s1MV9obmFMSE1xaGNWd09TSGdOQnhxX2FQdDc3SXRFeVI2S1cyQXZOTUtFbkpRTjFpYkFyaFV2cHlNM2lsZVhtSHdVNlJkdE1vd25yUmpRQ1JRMFRrdlRleXk3VmItQmhxajBiYXV6UlpVY3ZEWDhIaEZM?oc=5",
+          "publisher": "El Economista",
+          "published_at": "2026-10-28T12:30:15+00:00"
+        },
+        {
+          "title": "Mapfre gana 924 millones a septiembre, un 11,5% más que en el año anterior - Radio Intereconomía",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZi1BNnBuSV8yNXdXUEJ4bGF3WWJlbnpCR2p2RGg0MklJbDZlajRLTVJvbHI5cXBrYmJ6dGRNcml6TmJaaFV6NkR2NlVsMmVaR01PbkRnay1RMm1yUnFvQURsdDQ1QWNpaDdwX242X2QwZWFOOUFKZGFfRkNWNk1XNUgydTF6eHJObUlXUXdGenBEWV9DYzl6ZldLSWdKeHpyVHVJVG01cnhWbkNQYU9nNERsT3hmcWFpamF3bk01M3NkZEFGcE0zddIBzgFBVV95cUxNaWx3UXNVeHN3OXlyN1FRdXlmcHV1TjFNRk9QVlR5dVJ4YzhRQTA0UE5VM0N1QzZlR3dYRGh6cXRSMGFOaFpLX2sweVBPVThKeGpjZnVSOTdUMEc3Vmx4a3hXU3NhYlFHX19sYXZlQ0FnSldQNnFVQTViTkRKa0hCYTItQ3hESEJqeE1HcFRzTFpRUWVTUDMwcGNpV2RjUk5xTGJPQllkcnlzNHQ2MVpOZ051QlhEaU9WYWZWV0ZhZi1sUHdtZWE3WnExU2M2UQ?oc=5",
+          "publisher": "Radio Intereconomía",
+          "published_at": "2026-10-28T09:38:19+00:00"
         }
       ],
-      "retrieved_at": "2026-10-31T23:37:05.480083+01:00",
+      "retrieved_at": "2026-11-01T00:06:42.096865+01:00",
       "technical": {
         "close": 3.98799991607666,
         "adjusted_close": 3.98799991607666,
@@ -31619,6 +31739,10 @@
           "Faltan métricas específicas del sector; no se aplican reglas de deuda industrial."
         ],
         "method": "Filtro de reglas sin IA; noticias sin interpretación semántica."
+      },
+      "agents": {
+        "status": "pending",
+        "note": "Esperando ejecución de TradingAgents."
       }
     },
     {
@@ -31635,16 +31759,16 @@
           "published_at": "2026-10-25T04:30:00+00:00"
         }
       ],
-      "retrieved_at": "2026-10-31T23:37:05.480083+01:00",
+      "retrieved_at": "2026-11-01T00:06:42.096865+01:00",
       "technical": {
         "close": 11.470000267028809,
         "adjusted_close": 11.470000267028809,
         "price_date": "2026-10-30",
         "sessions": 511,
         "change_pct": -1.1206906048777832,
-        "rsi14": 39.20496576877896,
+        "rsi14": 39.204965768778905,
         "macd": -0.2914404228298668,
-        "macd_signal": -0.33391977540435647,
+        "macd_signal": -0.33391977540435636,
         "volatility_pct": 23.655335753448302,
         "drawdown_pct": -27.17460147918217,
         "chart": [
@@ -31654,7 +31778,7 @@
           },
           {
             "date": "2025-11-06",
-            "value": 13.173828125
+            "value": 13.173829078674316
           },
           {
             "date": "2025-11-07",
@@ -31674,7 +31798,7 @@
           },
           {
             "date": "2025-11-13",
-            "value": 13.114842414855957
+            "value": 13.11484146118164
           },
           {
             "date": "2025-11-14",
@@ -31682,7 +31806,7 @@
           },
           {
             "date": "2025-11-17",
-            "value": 12.515137672424316
+            "value": 12.51513671875
           },
           {
             "date": "2025-11-18",
@@ -32810,6 +32934,10 @@
           "Faltan métricas específicas del sector; no se aplican reglas de deuda industrial."
         ],
         "method": "Filtro de reglas sin IA; noticias sin interpretación semántica."
+      },
+      "agents": {
+        "status": "pending",
+        "note": "Esperando ejecución de TradingAgents."
       }
     },
     {
@@ -32856,16 +32984,16 @@
           "published_at": "2026-10-29T13:58:23+00:00"
         }
       ],
-      "retrieved_at": "2026-10-31T23:37:05.480083+01:00",
+      "retrieved_at": "2026-11-01T00:06:42.096865+01:00",
       "technical": {
         "close": 29.65999984741211,
         "adjusted_close": 29.65999984741211,
         "price_date": "2026-10-30",
         "sessions": 511,
         "change_pct": -0.46979662158624924,
-        "rsi14": 44.28330882533423,
+        "rsi14": 44.28330882533419,
         "macd": 0.1477271040003778,
-        "macd_signal": 0.26490930855077616,
+        "macd_signal": 0.26490930855077516,
         "volatility_pct": 14.93070541132708,
         "drawdown_pct": -4.630226740818988,
         "chart": [
@@ -34039,6 +34167,10 @@
         ],
         "risks": [],
         "method": "Filtro de reglas sin IA; noticias sin interpretación semántica."
+      },
+      "agents": {
+        "status": "pending",
+        "note": "Esperando ejecución de TradingAgents."
       }
     },
     {
@@ -34079,7 +34211,7 @@
           "published_at": "2026-10-27T06:00:54+00:00"
         }
       ],
-      "retrieved_at": "2026-10-31T23:37:05.480083+01:00",
+      "retrieved_at": "2026-11-01T00:06:42.096865+01:00",
       "technical": {
         "close": 19.260000228881836,
         "adjusted_close": 19.260000228881836,
@@ -35252,6 +35384,10 @@
         ],
         "risks": [],
         "method": "Filtro de reglas sin IA; noticias sin interpretación semántica."
+      },
+      "agents": {
+        "status": "pending",
+        "note": "Esperando ejecución de TradingAgents."
       }
     },
     {
@@ -35286,34 +35422,34 @@
           "published_at": "2026-10-28T08:17:33+00:00"
         },
         {
-          "title": "Redeia gana un 5,3% más hasta septiembre con un 19% más de inversiones en redes - La Razón",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPVkQtVGFscF9Za0xJQjZLQ3lXVlFDZG9JSGlmUkpFd0h4SUpZRk1RYnFNd1BaclA4LWY4bmQ3WlZPbGdZM0d5SlVnNk1tSVhRMzhsODFJYnRLNm5wNVFjNmNBb0xYa2VIOXB6LVd1dnRCUWdDaU9BUEVDbU1RV3dQbllIVWNiMDN6SEdvVWtsVXdROHJuaGRIR1ItQWtEcXFQTW93YUVCdHRmLU1NWTJTY1hGS3NZQ1Z0R3U2UzFXcThTWkdwNUpTZTVvcndFdEJjRGltOTVGZ0ZSY0QxTlHSAfIBQVVfeXFMT0hwMHBpQjVWTDNPcGxrTklLYklsNUcwS04wQ3lOZFMyYjFkWkpIMl85SFZNY01FYzQxanE1S2xvTnhHTnBBWHRiNmJreEM5OW5DVHhlazlHSGhsUlhSUEVKeUlob1AzX1pmRFJiYXctMnVpemZySnd6b3ZnNWVMX2NiMUxBam80bnJOM0Vyd19rLXJjeXhxM1AxcGpvQUs5RHBEYThCMzhiSDFDUTR2THUxaEQ2LUtPSFVZS2dUdk9xX2lFWjFyRTBPbTJYOHNIeENQOVEyWFZrNGR0TEs4ZUdCNl9ZVjVYRjlPVlY1c0UxMnc?oc=5",
-          "publisher": "La Razón",
-          "published_at": "2026-10-28T08:06:29+00:00"
-        },
-        {
           "title": "Redeia gana un 5,3% más hasta septiembre y dispara un 19% sus inversiones en redes - Valencia Plaza",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQN1ptMGF2R183WGw1bW5vVDYxaExlMUFySFhjQUhVSnByNlNpcWpmRG5xTUtZbzhaLTNNN3dlYlV4Nkk2dUNEb1JEQ013bTc2TlBtVTZzYzN4UW5mdXBtWXVFSVo4dFAyZjZSV0h1ODlyOFhlUEsxSzIwa3hwbHNVN0tDeFZSdG1IQ0NSbDYyY3BLM0F4QTltN0xMem9LZWNWdVAzbFYxYU9HWDJ6UEJsN3EtY05QNVhDcXRTYTRHX05NMDlE?oc=5",
           "publisher": "Valencia Plaza",
           "published_at": "2026-10-28T08:01:28+00:00"
+        },
+        {
+          "title": "Redeia acelera la inversión en la red eléctrica hasta los 1.139 millones tras ganar un 5,3% más - El Correo",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQY05HaHZwZ2FyS0pOOVViNUEwRlltcFdneGZtcGtFcFpBN1cyRWNyRE50Wm1oQ3A2Ml91WHNVSlJBb0NEUmVId3FsNFFESk9Bd1drRXc5Wl9DU3Fubm5yc3JGdllsM0p1T2ZOTXpxTV9OSFhodVA2eVVBdVRGdGNYOUhZaVpUTmVQeTlzM0pPbzZMdkNuXzlSQnZsRDhocVNiRnJvY0d6aFlQSUxGRkxPcGg0YnJTdkpiRnFVNtIBwgFBVV95cUxNYXkyRjMtVDlFeGEzQWo0VnVEZ3BWTVE3X1NVRnNySXhmVS0tUUJZZGM1a3BLVGo0LTNRd2xDTUVNS2FrVlhHUkZGR1BVYmRVOXFCTm9YZm03NkZTUHJsT3hFdG1Xa2xGa0UtQXVod2l2Z1FENVRkZ3RqZlJScWk1RG42dTlJUnhQOWNoOXBqTUc4NllTNE1ha3NHNkYxZVViWlRJOVF6MUsxSDNNZjVsSFk5a0tsNjBZaHRQYmlfbk5vUQ?oc=5",
+          "publisher": "El Correo",
+          "published_at": "2026-10-28T07:43:23+00:00"
         }
       ],
-      "retrieved_at": "2026-10-31T23:37:05.480083+01:00",
+      "retrieved_at": "2026-11-01T00:06:42.096865+01:00",
       "technical": {
         "close": 15.420000076293945,
         "adjusted_close": 15.420000076293945,
         "price_date": "2026-10-30",
         "sessions": 511,
         "change_pct": 0.652744017374296,
-        "rsi14": 69.30523555068817,
-        "macd": 0.087007528178626,
-        "macd_signal": 0.006859238006230381,
+        "rsi14": 69.30523555068898,
+        "macd": 0.0870075281785887,
+        "macd_signal": 0.006859238006175279,
         "volatility_pct": 11.439460868140973,
         "drawdown_pct": -1.9083981274738537,
         "chart": [
           {
             "date": "2025-11-05",
-            "value": 14.540529251098633
+            "value": 14.540528297424316
           },
           {
             "date": "2025-11-06",
@@ -35329,7 +35465,7 @@
           },
           {
             "date": "2025-11-11",
-            "value": 14.426709175109863
+            "value": 14.426708221435547
           },
           {
             "date": "2025-11-12",
@@ -35337,31 +35473,31 @@
           },
           {
             "date": "2025-11-13",
-            "value": 14.312888145446777
+            "value": 14.312889099121094
           },
           {
             "date": "2025-11-14",
-            "value": 14.3034029006958
+            "value": 14.303403854370117
           },
           {
             "date": "2025-11-17",
-            "value": 14.3034029006958
+            "value": 14.303403854370117
           },
           {
             "date": "2025-11-18",
-            "value": 14.293917655944824
+            "value": 14.29391860961914
           },
           {
             "date": "2025-11-19",
-            "value": 14.360313415527344
+            "value": 14.36031436920166
           },
           {
             "date": "2025-11-20",
-            "value": 14.237008094787598
+            "value": 14.237009048461914
           },
           {
             "date": "2025-11-21",
-            "value": 14.265462875366211
+            "value": 14.265463829040527
           },
           {
             "date": "2025-11-24",
@@ -35393,31 +35529,31 @@
           },
           {
             "date": "2025-12-03",
-            "value": 14.455163955688477
+            "value": 14.45516300201416
           },
           {
             "date": "2025-12-04",
-            "value": 14.246493339538574
+            "value": 14.24649429321289
           },
           {
             "date": "2025-12-05",
-            "value": 14.41722297668457
+            "value": 14.417223930358887
           },
           {
             "date": "2025-12-08",
-            "value": 14.350828170776367
+            "value": 14.350829124450684
           },
           {
             "date": "2025-12-09",
-            "value": 14.274948120117188
+            "value": 14.274949073791504
           },
           {
             "date": "2025-12-10",
-            "value": 14.142157554626465
+            "value": 14.142158508300781
           },
           {
             "date": "2025-12-11",
-            "value": 13.952458381652832
+            "value": 13.952457427978516
           },
           {
             "date": "2025-12-12",
@@ -35425,11 +35561,11 @@
           },
           {
             "date": "2025-12-15",
-            "value": 14.265462875366211
+            "value": 14.265463829040527
           },
           {
             "date": "2025-12-16",
-            "value": 14.218037605285645
+            "value": 14.218038558959961
           },
           {
             "date": "2025-12-17",
@@ -35437,15 +35573,15 @@
           },
           {
             "date": "2025-12-18",
-            "value": 14.227522850036621
+            "value": 14.227523803710938
           },
           {
             "date": "2025-12-19",
-            "value": 14.274948120117188
+            "value": 14.274949073791504
           },
           {
             "date": "2025-12-22",
-            "value": 14.331857681274414
+            "value": 14.33185863494873
           },
           {
             "date": "2025-12-23",
@@ -35453,23 +35589,23 @@
           },
           {
             "date": "2025-12-24",
-            "value": 14.388768196105957
+            "value": 14.388769149780273
           },
           {
             "date": "2025-12-29",
-            "value": 14.350828170776367
+            "value": 14.350829124450684
           },
           {
             "date": "2025-12-30",
-            "value": 14.407737731933594
+            "value": 14.40773868560791
           },
           {
             "date": "2025-12-31",
-            "value": 14.388768196105957
+            "value": 14.388769149780273
           },
           {
             "date": "2026-01-02",
-            "value": 14.483619689941406
+            "value": 14.48361873626709
           },
           {
             "date": "2026-01-05",
@@ -36484,6 +36620,10 @@
           "Deuda neta/EBITDA superior a 4; revisar su sostenibilidad y el sector."
         ],
         "method": "Filtro de reglas sin IA; noticias sin interpretación semántica."
+      },
+      "agents": {
+        "status": "pending",
+        "note": "Esperando ejecución de TradingAgents."
       }
     },
     {
@@ -36500,37 +36640,37 @@
           "published_at": "2026-10-30T15:23:56+00:00"
         },
         {
+          "title": "Repsol convence a los analistas: elevan sus objetivos tras unos resultados récord - Bolsamania",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOc0kyU1VzUjVjRURkSEd2aFdhQ2EwdXFBOWJPRXZ2a1lLNll4QlFLUHBtSER0andzZU5qNmhsQ0lacXBHOEY0d09xT1RseTNRWGdSSi1qOVlvVXVYMmN6VlJKbkl1bGstUHVXTnRlaTNJZW1YSWowOUU0RE1GeUFZemNId1ZqOE4zWWFKU1lhNlJyZTNJRWk1UWRTVFdzNnBxbS03blJxajlJcWgyR0s2NmRpc0c5SEp2N3d6ZGhxVVhRZEhiS2lpbTVBU2RDcnZoWUtrUE9rbzlFeEFrSGdHNGhPQUFuUk43WHRINmswZEg3QdIB9wFBVV95cUxNcjV3M2pSMmZXNnFENnZSaFRrOS1EM0FCbTl3a1pYSENpUWViQkhrektZUGpJZzNLN0Ywd2RWeUFoZktjYThBcFJ2SGxXR2VFSEN5ZEx0cHozSko1ZEtkbmQ2clJocTFPNG11OUhXd0NsTTh0eWFTN3Y4eHltSnFpWFpwMmV2bm9sT0gxTUZGemdPaVFySVM1Q2hKVlVOak9wUG0xamU3X3hsb196WDc4cm9FcGNIbTVGM3d6MHFselpuSmJSbVNFSjVWaXBZV2YxWkFFeXBWQ0xuclptZkJVZHZfTExralZmbzFZaTRib3BDUGRia2Iw?oc=5",
+          "publisher": "Bolsamania",
+          "published_at": "2026-10-30T15:15:12+00:00"
+        },
+        {
+          "title": "Los analistas elevan el precio objetivo de Repsol tras sus resultados hasta septiembre - Revista Capital",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNSUYzY0xyUmNmSnFiR2xlSE9oWkJVaVNjTkNzSGc5LWh2R2UyLUpyTzh6dFlteTg1eG5ESm93dU8zZ1NJRDVlNWlUSUtROFJ1am82OU8yQWR4VUJVWllPUHZsdmZsTTF2V09HMlIzM0c2b0xaZ1YtNlFQOXJ2NEtmQmJFRmFCLVQzMHBJYmJBeWR5MmtPd0g0emNaSk8zWlh2ekZrd0Z3TUpBejFQdDFYSWc2SVo2VEJ6VmFUb0NWQmk2WWstZzl0QW02S21YSzlMRS1IaHRBWkRPYzQ?oc=5",
+          "publisher": "Revista Capital",
+          "published_at": "2026-10-30T15:14:16+00:00"
+        },
+        {
           "title": "Las acciones de Repsol se disparan y apuntan a máximos - XTB.com",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOM21EdlRHNTBPeTdVaHNMQjhwSlNsWmRBcFlHYi1ka3hnWWxRQk5hakxpRk9wSWNIM29ZckdUWVk1MnVrazhRaDlGVG1pWWVoS1dnUWxnaFJhVFhfenp6ckltWWI2YXBYQjlVUHh5bTFySUY5bDlBZjdsX0tUUE14TDZhQkItT3JMOEhySjBGemloVlZJYV9EdzJ2S3ZORFcxY3B1RU56ck1QdE95THRF?oc=5",
           "publisher": "XTB.com",
           "published_at": "2026-10-30T12:16:10+00:00"
         },
         {
-          "title": "Repsol, cerca de su techo en bolsa - Finanzas.com",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMTlJRmRmRFJXZ3lzZTNnNGQyZi1vUDNfNHpWNHhBRjBqSlc2cUtSRXItNEhsZGFzWEs0NXZCQXNlNDdRQmdPdkZTU2oybmQ0aUhsbEtwSVpPalptNWtLOF83LWNfNWRSMk1GdzFCaHMwbmwyYzlQOHByNktwQ21VWVM1bzNjTy1FaFHSAY8BQVVfeXFMTWFlSlNZVGQ1V1FuT0hOU3lzNWV4MWNYOGtOMUxBbktaRXZtS3E4SXNjSXpjTzlWM0l5OWFLODdQcTJKRGp6My1KZFpnUTZoLWhPdU9Ia2lWRTVOaWRFd0NTSzVic052TEpFa2JIWTY4NWlDWU5TWXBrX3RRdlIzOHU4M21xX0FDRjVXRUlINGs?oc=5",
-          "publisher": "Finanzas.com",
-          "published_at": "2026-10-30T03:55:00+00:00"
+          "title": "Repsol: nuestra opinión tras los resultados - Morningstar",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZDlMOGQ1RTEwOWNHZHZ6Zkx3b1QybW1yNGpBYlVVOEd4MnEzUE5VenozLXZKZ3V6WkVnX280VlNiUXoxUUFlOGNwZXNoQmdUTGFmblBMZDNCQjVJbklwZ3VzXzVaNFNZd0FMMWdWMDFKcUZlT0JJc0ZlYmJtTnBfSlc2a1kwM19kNUtyMw?oc=5",
+          "publisher": "Morningstar",
+          "published_at": "2026-10-30T07:49:35+00:00"
         },
         {
-          "title": "Repsol gana 5.006 millones hasta septiembre, un 325 % más, por la revalorización de existencias - HolaNews",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPaDc0N1NaZUxGLXkxYXJzUDZ2ZURkYzBoZDFPellYSkpXb1drbERGX1oyX2p0cExpWUlwclFhaGlXVnhQQ2RYRzhxb2ZuRmMxdlZzWHFhWW5Ra1NOWDdMRU1rQlFsZ0xxQzZkeVNfS2RhN1pVSkVKQmtoa0t2TUM1V211bFdROVZGRXg5MFJUbzQ5eE42UnpBbnJFMURLUDc4aHI4VWRDUFhjOXRmY1FQTjc2QQ?oc=5",
-          "publisher": "HolaNews",
-          "published_at": "2026-10-29T17:00:45+00:00"
-        },
-        {
-          "title": "Repsol (REP) se dispara en bolsa y anuncia más recompras - Benzinga España",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeEtaRzM4bXNqdmxBYzlfSlBzR0o3RHVrQnZHTlR4V2RraTlYYmtuWkp6RnhRMEFvYWJqcnZqQVhlaHcyYjZnVDdyUC1sVU5Id0E1MzJGNVAxR0EyN1M0bkZnSEZFOG9pdkMxRWdLMnpjSnlzOGNjRmlsVjl1MWhRNG5Tb0Mxa2Z5ZDRMVUNscTl2OE93Zm5WRGtpNUQ5a3V3RlE?oc=5",
-          "publisher": "Benzinga España",
-          "published_at": "2026-10-29T14:40:18+00:00"
-        },
-        {
-          "title": "Repsol se dispara en Bolsa tras sorprender con sus resultados - XTB.com",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQWdnbkx3MHRWZzN4VUF0dkdxZlZidnlFamlMXzVrUGRnSWJDa3lyMEdFcm1KcVgyNllha3dCYWd3R05hZmhqWEpMRVQzdUJPVllkUmlNSVJPSlA2Rk1LMTZ6cjRtUjltbGdDNHVSZ0VMWGZWUExvZUQ5TmVzR01fcFZhSzAyTkVKTkswUnI5VzRFQllKckxPa3hRMkk2eVAyc3o0QWdJYlo2NTA?oc=5",
-          "publisher": "XTB.com",
-          "published_at": "2026-10-29T12:09:58+00:00"
+          "title": "Imaz (Repsol): \"No habrá escasez de diesel en España este invierno pero sí en Europa\" - CapitalMadrid",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNR1VnQU9Dc0cxQkNIb05FUTktcUo5X0hzLVA0emhsSnVYLVJ4YVRuTnZzRUdmZ0RQN1MybkluS2VGeC1peDB2SFU5UTFyUFVSVERUYm53ZW8zN0Rnc21WSF9VY1hXTzhEekFEV09ja0h1REhSNGRLSG1JQzE0Q3o4SXdma0NiSFFhZHd4Y2tocXI3U096Vm5uUXNYR3g5TF9qUXM3ZWRRSExYN3VlcmkxenlRU2Y0LUJnejl0cGhSU3RhdXJ4dDViaXRUeFA?oc=5",
+          "publisher": "CapitalMadrid",
+          "published_at": "2026-10-30T07:01:29+00:00"
         }
       ],
-      "retrieved_at": "2026-10-31T23:37:05.480083+01:00",
+      "retrieved_at": "2026-11-01T00:06:42.096865+01:00",
       "technical": {
         "close": 30.729999542236328,
         "adjusted_close": 30.729999542236328,
@@ -37703,6 +37843,10 @@
         ],
         "risks": [],
         "method": "Filtro de reglas sin IA; noticias sin interpretación semántica."
+      },
+      "agents": {
+        "status": "pending",
+        "note": "Esperando ejecución de TradingAgents."
       }
     },
     {
@@ -37713,22 +37857,10 @@
       "warnings": [],
       "news": [
         {
-          "title": "Sacyr elevará un 5% su EBITDA hasta septiembre impulsado por sus nuevos proyectos en Italia y Chile - Merca2.es",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5tTWN3bUpKb2pCNVBNRnRVdTFtODhRNU5QWC16R2xlUE4tLTVzWlRzMU1mQk5NcC1LbGR1bGdOdVNydThrQjZfMnBFbnU1c2RsMWxlSW1selpLdnhhVGpYU0xkSmhqVmlsMGJFWXhsYTRCb0taWGc?oc=5",
-          "publisher": "Merca2.es",
-          "published_at": "2026-10-30T04:40:00+00:00"
-        },
-        {
           "title": "Previo Sacyr 9M26: Crecimiento de doble dígito en beneficio y caja operativa - Bolsamania",
           "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNZTlDZmk0cUFfZV93Sm13ak0tWjNvUDF3RWN2YzhTazJtaGNhMnJ0eUNGS3pST2Y4aENwYXhXbWd4Nmh5S1ZzMG9BS3VBbHFqU2pUX0xGNEc3WVZOS043a3V5ZDVKZ1N2UUZRb0VoZzRZd083TmpMLUtkaEd4U2I1VXJzd2VqdUpGUEszSXpKMG5QLU0tNFJ4V0JtNzJmLUI3MkU3MXppVlBHUGRWSHpZWTYxUHJwLTNvdWZwSExlSWNhUG8wUVB5VFVaeTMtaS04YnQxUkI2a3ZJbmdCcVduRVRn0gHnAUFVX3lxTFBtMVoyREVrQ0hib2d3cW03SXlZWWhmY1JGMm5oZlE1aUluT0JtbW1uc29EWFc4U05oR1pKeVlZVzZKeDZ6TUtwME9ORXozbkhrN2NJUGVRZUY5TnBQemNjNG4tc2Y0V3dIRll6UjhJN0IyQW4yUlp1ZXFzTWw3a2Y1YXV0Ml9aSEdDMjdYQ0lMeTdfLVNIbllGbXFtNU01cEZNT2NLQmNHVUt0VW5ra0Q5ckd3elZEZUhrblFHWWE2VWZkN01qZk5IYndPSnVMT2xISmVDNXR2eFRfalRhZ2JyZDdjdmlrOA?oc=5",
           "publisher": "Bolsamania",
           "published_at": "2026-10-29T12:45:10+00:00"
-        },
-        {
-          "title": "ACS, Ferrovial, and Sacyr enter the private network plan Trump aims to develop - CapitalMadrid",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWVF0bUstZlA1WXpTZUpRYXRLUjFGclZ4OWdOYWpUOENQNngtVnBLbGdwQk0wa1lseGFWYndOMFFYSjQya05FYk8tQlRvLUwtUFNidlJFSlJQemV1U3dJREQxR294Tmpib1JVNFY4RGFJSWk0NlpvZVVpQzJ4eEF2dE1hOWk1YUU4c3BGX0w0WjltZDBfeXd0R1R2QXE4TTJjVzZSZGdaNEhId0Qwc2lHN0dMaERzUEhqdVZlaEtlQ3Bfbm40ODRz?oc=5",
-          "publisher": "CapitalMadrid",
-          "published_at": "2026-10-27T16:19:52+00:00"
         },
         {
           "title": "Sacyr mejora posiciones en los índices de sostenibilidad S&P Global y MSCI ESG - CapitalMadrid",
@@ -37747,18 +37879,30 @@
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTXNqVnZ1YjNxNWMxWDYtdjRDbVJjbTBnRDRQd1A1bS1ESkN5bk1EREx2elRULUMzWlR5Zk5DbkJDUDMyNGlaTGVPYlVtMXZkNEZyM3FBUTZZVGRLUWZZU1FQTnlmclpjaFJKdXJSeEZWS1pOYjdOR0NfSThKUWhvUXIyZm9Oc0o3RXBsa0JHcWFrdzREMEx3dkNOTnRvcWtyRlNvdGhRQVduU2RGdi02TFh0Z3RsSVJNQXBIaDk2ZlRvN200SnBXTEZsZzZzU1XSAa4BQVVfeXFMTWVFME53MF9yUTk4ak1YbEJJOVA0cm5RdVp6bmxBd2JEb0NfQVFMdkpuM3lFdjdqRmtDT3AyNFYyQ3FOSnQzWVc2QmJCX3lSakMzSzJMYmp5RHBHdkRmTzc5MWwtSFZhTnFhMy1FYlhGMzZOcHRiMW5JQWtjRjU1SUs4ZWtkd01FUWpRX0NVeEVYSURzLXRDTGwyYmcxdHN0eUtWY1ZYSXNMVlM1Nll3?oc=5",
           "publisher": "Estrategias de Inversión",
           "published_at": "2026-10-27T12:50:00+00:00"
+        },
+        {
+          "title": "Sacyr recibe un nuevo espaldarazo en bolsa y apunta a una subida del 26%, según Oddo BHF - Estrategias de Inversión",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWV8yamlyaXVVYXFMX2hVOHNPVlg0T2NqZm1vYm54YWJNVU5BWXFfMWIxTFk5S2JzeTlSVnd1YzRVdDc5Q0VVOENER3J2YkllaEdtOTRudDNRZXJIaFlpNXFsRDFuVmtXWk9XTzRTc2hBcGdURU5rYjhlU3hOSExjcmJNeHFhTFJBcGdkWVJIcmNLM3NXWThLU0xyNDREV0J2N1BhNtIBpAFBVV95cUxQWV8yamlyaXVVYXFMX2hVOHNPVlg0T2NqZm1vYm54YWJNVU5BWXFfMWIxTFk5S2JzeTlSVnd1YzRVdDc5Q0VVOENER3J2YkllaEdtOTRudDNRZXJIaFlpNXFsRDFuVmtXWk9XTzRTc2hBcGdURU5rYjhlU3hOSExjcmJNeHFhTFJBcGdkWVJIcmNLM3NXWThLU0xyNDREV0J2N1BhNg?oc=5",
+          "publisher": "Estrategias de Inversión",
+          "published_at": "2026-10-27T10:54:52+00:00"
+        },
+        {
+          "title": "Sacyr recibe un nuevo espaldarazo en bolsa y apunta a una subida del 26%, según Oddo BHF - Yahoo",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSHdRa2RqaGVmaUVRbWpzMW9ROGdiVTRLZTQ2dF9lc2VxU3BXQ0V2c3NzcGxaUmpjbVFtRjdoMm81aDFlZ1dZZGVDcnJnOGlvcGwwTEx4WEV2U3Zaa0RjYVNMLVlqVHM0WE5mVTlzOUo0dkRIN1lmT0ZiNGhpc2xGT25CcWFEcWxfXzJNdnBLdDBNRGd1?oc=5",
+          "publisher": "Yahoo",
+          "published_at": "2026-10-27T09:50:00+00:00"
         }
       ],
-      "retrieved_at": "2026-10-31T23:37:05.480083+01:00",
+      "retrieved_at": "2026-11-01T00:06:42.096865+01:00",
       "technical": {
         "close": 4.050000190734863,
         "adjusted_close": 4.050000190734863,
         "price_date": "2026-10-30",
         "sessions": 511,
         "change_pct": -1.0263884852449667,
-        "rsi14": 51.13625080741678,
-        "macd": -0.012762965701158535,
-        "macd_signal": -0.03513051560976939,
+        "rsi14": 51.13625080741603,
+        "macd": -0.012762965701162976,
+        "macd_signal": -0.03513051560977631,
         "volatility_pct": 19.95863160024762,
         "drawdown_pct": -17.7497894711562,
         "chart": [
@@ -37788,7 +37932,7 @@
           },
           {
             "date": "2025-11-13",
-            "value": 3.6528830528259277
+            "value": 3.652883291244507
           },
           {
             "date": "2025-11-14",
@@ -37796,7 +37940,7 @@
           },
           {
             "date": "2025-11-17",
-            "value": 3.5929362773895264
+            "value": 3.5929365158081055
           },
           {
             "date": "2025-11-18",
@@ -37804,15 +37948,15 @@
           },
           {
             "date": "2025-11-19",
-            "value": 3.5213871002197266
+            "value": 3.5213868618011475
           },
           {
             "date": "2025-11-20",
-            "value": 3.5832676887512207
+            "value": 3.5832674503326416
           },
           {
             "date": "2025-11-21",
-            "value": 3.550393581390381
+            "value": 3.5503933429718018
           },
           {
             "date": "2025-11-24",
@@ -37828,11 +37972,11 @@
           },
           {
             "date": "2025-11-27",
-            "value": 3.7244324684143066
+            "value": 3.7244322299957275
           },
           {
             "date": "2025-11-28",
-            "value": 3.7205650806427
+            "value": 3.720564842224121
           },
           {
             "date": "2025-12-01",
@@ -37840,15 +37984,15 @@
           },
           {
             "date": "2025-12-02",
-            "value": 3.6857569217681885
+            "value": 3.6857571601867676
           },
           {
             "date": "2025-12-03",
-            "value": 3.71282958984375
+            "value": 3.712829828262329
           },
           {
             "date": "2025-12-04",
-            "value": 3.7515053749084473
+            "value": 3.751505136489868
           },
           {
             "date": "2025-12-05",
@@ -37856,11 +38000,11 @@
           },
           {
             "date": "2025-12-08",
-            "value": 3.8559281826019287
+            "value": 3.855928421020508
           },
           {
             "date": "2025-12-09",
-            "value": 3.8269217014312744
+            "value": 3.8269219398498535
           },
           {
             "date": "2025-12-10",
@@ -37888,7 +38032,7 @@
           },
           {
             "date": "2025-12-18",
-            "value": 3.6722207069396973
+            "value": 3.6722209453582764
           },
           {
             "date": "2025-12-19",
@@ -37912,7 +38056,7 @@
           },
           {
             "date": "2025-12-30",
-            "value": 3.7321672439575195
+            "value": 3.7321674823760986
           },
           {
             "date": "2025-12-31",
@@ -37920,11 +38064,11 @@
           },
           {
             "date": "2026-01-02",
-            "value": 3.7959816455841064
+            "value": 3.7959818840026855
           },
           {
             "date": "2026-01-05",
-            "value": 3.863663673400879
+            "value": 3.8636634349823
           },
           {
             "date": "2026-01-06",
@@ -37932,7 +38076,7 @@
           },
           {
             "date": "2026-01-07",
-            "value": 3.9912915229797363
+            "value": 3.9912917613983154
           },
           {
             "date": "2026-01-08",
@@ -38935,6 +39079,10 @@
           "Deuda neta/EBITDA superior a 4; revisar su sostenibilidad y el sector."
         ],
         "method": "Filtro de reglas sin IA; noticias sin interpretación semántica."
+      },
+      "agents": {
+        "status": "pending",
+        "note": "Esperando ejecución de TradingAgents."
       }
     },
     {
@@ -38981,7 +39129,7 @@
           "published_at": "2026-10-27T11:06:19+00:00"
         }
       ],
-      "retrieved_at": "2026-10-31T23:37:05.480083+01:00",
+      "retrieved_at": "2026-11-01T00:06:42.096865+01:00",
       "technical": {
         "close": 14.595000267028809,
         "adjusted_close": 14.595000267028809,
@@ -40169,6 +40317,10 @@
           "Volatilidad anualizada de 63 sesiones superior al 40%."
         ],
         "method": "Filtro de reglas sin IA; noticias sin interpretación semántica."
+      },
+      "agents": {
+        "status": "pending",
+        "note": "Esperando ejecución de TradingAgents."
       }
     },
     {
@@ -40179,43 +40331,19 @@
       "warnings": [],
       "news": [
         {
-          "title": "Brasil se hunde en Bolsa tras Lula: Telefónica se juega allí 2.215 millones y Santander el 15% de su benefi... - OkDiario",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSXd1NWt0bU5wZWkyYWJZdkRJckUyNHlKMTlvQ0tOTVd1Uk05S1o2MDFiSGZ2SDNCOTdRcjZieG0zbXNMelB2MW9FdUNrTExwNlVxS3ZQY0hJMGppX1BkcG5XbldlcTg5aG1LTkt1N3lHWmNzQkRYLWtOWEViVDlHQkctZDBZakdEZ2VRc1BrWm85a1A5SkpLVHUxcnNGTkNtNWhoOU8xbTdQSUVjTXFyazdMU1M3RmlHbWJ6V2F2LWJaTVdWVW5EMXh4bzDSAdIBQVVfeXFMTXF2NG95VmpFdm1aa2NOOHZ6LTNzX0lxOHVfaGxYY2tsd1ppZkJqclpHTjQyLWJ4b1YxUk9TUG8xR3FKLVUyRWJHcHI2dnFnMXhwemNlOG5rTmpBMXdfWXpuMmRpOXFNWWZIZFFjN2ctMXJvSmRWdG9VRU5NTkNsWmx0R25JMUk1MDF5eHNUT2Y5ckVtOG9vdXEzUmdjbk1pWU4zdG93SnpaTXpiWC1QWmZuRnd5X2pZOEYzNEVjY0JhMHJUYmRvQzMxOVZFMVh4SjF3?oc=5",
-          "publisher": "OkDiario",
-          "published_at": "2026-10-29T04:45:41+00:00"
+          "title": "Telefónica y Minsait (Indra) desarrollarán las comunicaciones seguras para el euro digital - CapitalMadrid",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxONGdqaHhkbXVub3R3eUlNM2pqS2txbzRYLXBKYmlTcTc5V2g3MmRGN0k1UnN6S1ZZTmljNndYVU1wVk92OXlkbkcwZzVYS1hXdU1VX1FiVWl4N05vQnhmTXE3amRPeDZGcDVGYWRhU0xzRmNKMm0ycVI1OF9BZmdzbzA3WktGS1Q1aUdtMmNoU3dtQnl1OHR5dm9ENnJUdGJGVnlSZ0ROSzN0Z0JvRGE5NEh2Y0V2N1VQQ0dFLWtrNDg1VmVEanZDMEpBaWktVHhXTzVKMjRmdw?oc=5",
+          "publisher": "CapitalMadrid",
+          "published_at": "2026-10-30T15:45:50+00:00"
         },
         {
-          "title": "Tras el desplome de Santander y Telefónica, Pablo García advierte de que \"pueden ser oportunidades para invertir\" - Yahoo",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZG0wWnc4N1R1RVA1SVJCVThvblltYVBHZDhKeXRuWm82OHE4QkRnbVZncjU2NmNFWThPR00xUkF2Zkc0N09Ec0x3d0tuZ05aemF1OXB3djZMYURUOGViQjhjUzlTSDY5UWRza0R1LVR6dzZrWDJOeFdJRExZaXptZV95Q1VndC1GTWpNaEp2VExua0lSb2owNms1R1lLNXVZNFBBR3cwbVE?oc=5",
-          "publisher": "Yahoo",
-          "published_at": "2026-10-27T10:40:00+00:00"
-        },
-        {
-          "title": "Tras el desplome de Santander y Telefónica, Pablo García advierte de que \"pueden ser oportunidades para inv... - Estrategias de Inversión",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYy1iOXhVTm40a3doeXlJVnVaMlQ2dEFtRHhyNm8zbjV2bHo5UF9Ucm9SQnBHSUhVeWMzMHBvQzFibDZ3dVhoZXNHTlZsUlVsM1ZkUG5pWmw4dGw4YkpIVGhCS1JJQ2ZnRkw2M2hpYUVRVkdNUEpFWmNUVlZSSzNUTnlVRDVmd3hGQ25BTGxwemR0ZkZjb2VqaUJKQUxFTkRQaGxIRVowa1lGN2sxblVoTUhwdmJoS3VYaUxsdHVleGc1cUZpa2NMWkdIRTd2X3YwUEhPTS1B0gGiAUFVX3lxTE5yUzlpZUhBWTZHUHdzQ05DNE03cWtlcnFlRUJpbGVtWFBucDBjc3ZxUDd4Y1pacnpLb3RfN1NDN3pGay10dm1LTGlQODd6NnhsNGF3X04zTzRiV2VrTHVncTNZQ2xrMTdIVnVNUkgxaTlrNUVfOEtLckZxTjh0RUE2RFE1YjZSSFpJOXdCYnQ2T2p4dGRMM3E3NWFiVzBaa0JHdw?oc=5",
-          "publisher": "Estrategias de Inversión",
-          "published_at": "2026-10-27T10:40:00+00:00"
-        },
-        {
-          "title": "¿Por qué temer a Lula? Telefónica y Santander logran beneficios estables en su legislatura - Estrategias de Inversión",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVEhVdS16eUoxUHhZTHJtckhBbUpERXIzZ20xMkwycUcyREFvMmtOR0RQZzRmbVE4SmNGbk84eFowTldfbjV0ZnRLN2gwYlRQNk50T3lqemJyTDJ0OTlXcUs0X1lPSllBc1F5aGpVSU90RU92dV8zdzJCdTh0cUZQNXFDcFZkeUJnMFotdTlsVWdxT1B6NU11TzY3b1hHMUdlbk40SElEZV9pMG5KOUFXdE5HSUx3WlZ5ZkRGT0tnaUtWTktISHfSAaQBQVVfeXFMTXNPcUxHRnhoOFZFWUFqakc3Z2wzU21ueXloNUZZYlJ4cklqV3NlZm0yVlhpbzJoSTN6bDIxRWxqVjI2ck1nclc1bXJKdFpEVzZJTGNSZ05ORE10dzA2N1l2UElsdDI0RE5lMG81R2ROZ3Z3Z3dsUWlZTG1uZThqOVk5eDNxSk1WT0xJeEU1a0p0c2hKekoxZVVJWnNGb0lwVW8yR3k?oc=5",
-          "publisher": "Estrategias de Inversión",
-          "published_at": "2026-10-27T09:30:00+00:00"
-        },
-        {
-          "title": "El Ibex 35 recupera los 19.000 puntos pese al castigo a Telefónica y Santander por Brasil - El Boletín",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNOEQxZEZwV1hoS295cG1WZm1BX1ZIaFBoMmxfZWcxTVRtUFN1QnlsMUNjZjhoWXNtUjZSZm9YU3ZLQzhHRkFRYWNwQ3ZzQUMweXJPTmprNlNkVC02Y0tpMGYyTGYtaGF3Y05DYUNWUXZLYktfa285cC1aSFZzZXZjUjI4YlVZRklGWGFZUFNJbWtERncweHfSAZsBQVVfeXFMT3NMWXBGSUxfRmNJTjhlc0xxeGp4aDVUN2I1NGtVU3NXSF9VaHRscFJVLU5GSkROeUVlT0tMTW5Oakk4U1pubzBnYkdHUVVjU3Q5cDZTeVBtSDhMMjhKcUJIZUhkekNrWUJ1Wmc1aFJ1WG1xaEJzWDBJelVHczduLUhjX1doVFJCLUg3MVhpbWFVdEU2bUFjRHAxUWs?oc=5",
-          "publisher": "El Boletín",
-          "published_at": "2026-10-26T17:06:58+00:00"
-        },
-        {
-          "title": "La victoria de Lula sorprende al mercado: los ETF de Brasil, Telefónica y Santander sufren en Bolsa - Finect",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNXy1pWkhrOXdHN2FXXzhhMUg2dFdSV052ZDJvYkRvdjlSNmJVSEZJbjdZMXVrVjJXVmw1clVhNDU0Ynd3LXo4c0cxeUE0Q1dyTVU4U21YRnBKZVo1Ym1NcTNXTHd2MFlSLWVpc3MxLXBEME9mdWVxR012RUNYY0pjajZiSUNBUHAtdDJGX20yR0VLTGsxcTI3WTRBVXVMLVRIRzFsTTBhS1RkeXV1eUQwN0FjXzhEU19zSlRSYV8tVnBOVnBXNTlIWnJ0dVNzdjdFZnNhVGJHQ21GdmRvNU5VOXFxR0lxVkJ3?oc=5",
-          "publisher": "Finect",
-          "published_at": "2026-10-26T16:48:53+00:00"
+          "title": "Global Ship Lease Anuncia la Publicación de Resultados del Tercer Trimestre de 2026, Conferencia Telefónica y Webcast - DataPortuaria",
+          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOd19KOWZXa2U2aDBJQXZ5MWR2czlTaHg3RHZGcnRxUTEtbE54Z3ExQ3FhaW40c0NLQ0VXRlJXbVJOOVBxY0xZNkRKODFqVjBuNjFQVU9HbllpZHNQbEp4a01RYlZDRlg1SU9rU0dvM3M0QlFmWXVpTXRGcmU4bVRheC1tLWYxUXpMcG9KZTBpWDQxQm1RNUlFb2hjdWh5Qjk0Nk10MWZXekJLb3dDNVd0SkVnaVJnVDNhck5nOE1tTFlRbm8xT0c4bTFhanJVX2hQdGpvdWxUMkVJZDdnQlh3a0N1bG0zNTJaa2ZHTnExTWs1M0pXV1g1d1dCVWQ0Y2s5VlJjYg?oc=5",
+          "publisher": "DataPortuaria",
+          "published_at": "2026-10-29T23:30:09+00:00"
         }
       ],
-      "retrieved_at": "2026-10-31T23:37:05.480083+01:00",
+      "retrieved_at": "2026-11-01T00:06:42.096865+01:00",
       "technical": {
         "close": 3.374000072479248,
         "adjusted_close": 3.374000072479248,
@@ -41386,6 +41514,10 @@
           "Deuda neta/EBITDA superior a 4; revisar su sostenibilidad y el sector."
         ],
         "method": "Filtro de reglas sin IA; noticias sin interpretación semántica."
+      },
+      "agents": {
+        "status": "pending",
+        "note": "Esperando ejecución de TradingAgents."
       }
     },
     {
@@ -41432,7 +41564,7 @@
           "published_at": "2026-10-30T07:31:40+00:00"
         }
       ],
-      "retrieved_at": "2026-10-31T23:37:05.480083+01:00",
+      "retrieved_at": "2026-11-01T00:06:42.096865+01:00",
       "technical": {
         "close": 3.1700000762939453,
         "adjusted_close": 3.1700000762939453,
@@ -42612,6 +42744,10 @@
           "Faltan métricas específicas del sector; no se aplican reglas de deuda industrial."
         ],
         "method": "Filtro de reglas sin IA; noticias sin interpretación semántica."
+      },
+      "agents": {
+        "status": "pending",
+        "note": "Esperando ejecución de TradingAgents."
       }
     }
   ],
@@ -42664,5 +42800,10 @@
       "publisher": "El Economista",
       "published_at": "2026-10-29T10:11:28+00:00"
     }
-  ]
+  ],
+  "llm_usage": {
+    "calls": 14,
+    "conservative_token_budget_used": 383324,
+    "completed": 1
+  }
 }
