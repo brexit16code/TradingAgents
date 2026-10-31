@@ -1,11 +1,11 @@
-**Action**: Sell
+**Action**: Hold
 
-**Reasoning**: La tendencia técnica es claramente bajista al cotizar por debajo de las medias móviles clave (SMA 50 y 200). La fragilidad fundamental, marcada por un ratio deuda neta/EBITDA elevado (6,14x) y un flujo de caja libre negativo, justifica reducir la exposición ante el riesgo de que el precio perfore el soporte psicológico de los 200 EUR.
+**Reasoning**: La estructura técnica de ANA.MC es bajista, con el precio cotizando por debajo de sus medias móviles clave (SMA 200 en 222,76) y el indicador MACD mostrando un impulso vendedor persistente. Aunque el valor se acerca al soporte técnico de la banda inferior de Bollinger (202,79), la elevada ratio de deuda neta sobre EBITDA (6,14x) y el flujo de caja libre negativo imponen riesgos fundamentales que desaconsejan añadir exposición en este momento. Es prudente esperar a una estabilización del precio y una mejora en la tendencia antes de buscar puntos de entrada.
 
 **Entry Price**: not provided
 
-**Stop Loss**: 210.0
+**Stop Loss**: 200.0
 
-**Position Sizing**: Reducción del 25% de la posición actual según la guía estratégica
+**Position Sizing**: Mantener bajo peso (Underweight) o neutral
 
-FINAL TRANSACTION PROPOSAL: **SELL**
+FINAL TRANSACTION PROPOSAL: **HOLD**
