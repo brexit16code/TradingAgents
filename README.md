@@ -1,6 +1,6 @@
 # Analista diario del IBEX 35
 
-[**Abrir el último informe**](https://github.com/brexit16code/TradingAgents/blob/ibex-reports/latest/Informe.md) · [Ejecuciones automáticas](https://github.com/brexit16code/TradingAgents/actions/workflows/ibex-daily.yml)
+[**Abrir el informe web**](https://brexit16code.github.io/TradingAgents/) · [Versión de texto](https://github.com/brexit16code/TradingAgents/blob/ibex-reports/latest/Informe.md) · [Ejecuciones automáticas](https://github.com/brexit16code/TradingAgents/actions/workflows/ibex-daily.yml)
 
 Informe diario en castellano a las **19:47 (Europe/Madrid)** para consultar desde el móvil. Incluye datos, titulares, análisis técnico, ratios y valoración por reglas. El análisis de IA de TradingAgents está preparado y pendiente de activar con un proveedor gratuito verificado.
 

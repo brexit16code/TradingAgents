@@ -4,6 +4,19 @@ Adaptación de TauricResearch/TradingAgents v0.7.1, base
 `c4544913a14ed3df5f1ed7b9e8483270ce20682a`. Investigación sin operaciones reales.
 No incorpora credenciales de bróker, cuentas personales ni funciones de compra/venta.
 
+## Estado de esta instalación — 31/10/2026
+
+- Fork creado: https://github.com/brexit16code/TradingAgents
+- Informe web publicado: https://brexit16code.github.io/TradingAgents/
+- Análisis de datos de 35 valores y publicación diaria activos a las 19:47.
+- Dos ejecuciones en la nube completadas; la segunda aplica el filtro de nombres
+  para excluir titulares sobre otras empresas. Buscador y filtros web comprobados.
+- Comprobaciones del proyecto completas en Python 3.11, 3.12, 3.13 y 3.14.
+- IA de TradingAgents pendiente: Google ha mostrado la pantalla de alta de AI
+  Studio, con aceptación de condiciones y confirmación del uso profesional o
+  comercial. El titular debe revisar ese paso. No hay clave configurada todavía,
+  no se ha activado facturación y no se han contratado servicios de pago.
+
 ## Qué se ha preparado
 
 - Universo de 35 empresas con símbolos de Madrid, contrastado con el histórico de BME
