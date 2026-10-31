@@ -1,3 +1,13 @@
+# Analista diario del IBEX 35
+
+[**Abrir el último informe**](https://github.com/brexit16code/TradingAgents/blob/ibex-reports/latest/Informe.md) · [Ejecuciones automáticas](https://github.com/brexit16code/TradingAgents/actions/workflows/ibex-daily.yml)
+
+Informe diario en castellano a las **19:47 (Europe/Madrid)** para consultar desde el móvil. Incluye datos, titulares, análisis técnico, ratios y valoración por reglas. El análisis de IA de TradingAgents está preparado y pendiente de activar con un proveedor gratuito verificado.
+
+Investigación sin operaciones reales. [Guía de la adaptación](ibex/README_ES.md).
+
+---
+
 <p align="center">
   <img src="tradingagents/assets/tauric-logo.svg" width="60%" alt="Tauric Research">
 </p>
