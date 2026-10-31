@@ -12,10 +12,10 @@ No incorpora credenciales de bróker, cuentas personales ni funciones de compra/
 - Dos ejecuciones en la nube completadas; la segunda aplica el filtro de nombres
   para excluir titulares sobre otras empresas. Buscador y filtros web comprobados.
 - Comprobaciones del proyecto completas en Python 3.11, 3.12, 3.13 y 3.14.
-- IA de TradingAgents pendiente: Google ha mostrado la pantalla de alta de AI
-  Studio, con aceptación de condiciones y confirmación del uso profesional o
-  comercial. El titular debe revisar ese paso. No hay clave configurada todavía,
-  no se ha activado facturación y no se han contratado servicios de pago.
+- Alta de Google AI Studio completada por el titular. Comprobado en la cuenta:
+  «No hay una cuenta de facturación» y nivel gratuito. Gemini 3.1 Flash Lite
+  muestra 15 solicitudes/minuto, 250.000 tokens/minuto y 500 solicitudes/día.
+  La clave todavía no está conectada a GitHub. No se han contratado servicios de pago.
 
 ## Qué se ha preparado
 
@@ -48,8 +48,13 @@ en el nivel gratuito y sin facturación. No basta con que una clave funcione:
 hay que comprobar el estado de facturación de ese proyecto. No se contrata ni
 se activa ningún servicio de pago automáticamente.
 
-Se ha previsto `gemini-3.1-flash-lite`, cuya disponibilidad y cuota hay que
-comprobar en la cuenta al activar. La cuota gratuita no garantiza 35 ejecuciones
+Se ha verificado `gemini-3.1-flash-lite` en la cuenta el 31/10/2026. La adaptación
+espacia las solicitudes al menos 5,1 segundos, comparte el control entre los
+analistas paralelos y limita las estimaciones conservadoras de entrada/salida
+a 200.000 por ventana de 61 segundos. El tope es de 450 solicitudes por ejecución,
+con margen respecto a las 500 diarias observadas. Otras aplicaciones o ejecuciones
+el mismo día comparten la cuota: los topes locales no la reservan.
+La cuota gratuita no garantiza 35 ejecuciones
 completas del grafo cada día. Si se agota, se detiene la IA y el informe conserva
 los datos de los 35 valores; los análisis incompletos se marcan como tales.
 Los topes locales de llamadas/caracteres son preventivos, no un límite de

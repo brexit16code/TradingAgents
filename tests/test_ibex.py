@@ -169,6 +169,43 @@ def test_no_llm_calls_without_verified_free_tier_and_secret():
                              "IBEX_LLM_MODEL": "paid-model"})
 
 
+@pytest.mark.parametrize("characters", [100, 80_000])
+def test_free_tier_pacing_prevents_request_and_token_bursts(characters):
+    from ibex.agents import FreeTierBudget
+
+    now = [0.0]
+
+    def advance(seconds):
+        now[0] += max(seconds, 1e-8)
+
+    budget = FreeTierBudget(clock=lambda: now[0], sleep=advance)
+    starts = []
+    for _ in range(30):
+        budget.reserve(characters)
+        starts.append(now[0])
+    for started in starts:
+        in_minute = [t for t in starts if started <= t < started + 60]
+        assert len(in_minute) <= 12  # Below the account's 15 RPM.
+        assert len(in_minute) * (characters + 10_000) <= 200_000
+    assert budget.calls == 30
+
+
+def test_free_tier_budget_rejects_calls_before_consuming_more_quota():
+    from ibex.agents import BudgetExceeded, FreeTierBudget
+
+    budget = FreeTierBudget(call_limit=1)
+    budget.reserve(100)
+    with pytest.raises(BudgetExceeded):
+        budget.reserve(100)
+    assert budget.calls == 1
+    small = FreeTierBudget(token_limit=500)
+    with pytest.raises(BudgetExceeded):
+        small.reserve(100)
+    with pytest.raises(BudgetExceeded):
+        small.reserve(200_001)
+    assert small.calls == 0
+
+
 def test_35_company_report_escapes_provider_html_and_is_strict_json(tmp_path):
     rows = []
     for company in load_universe()["companies"]:

@@ -3,12 +3,53 @@
 import copy
 import os
 import threading
+import time
+from collections import deque
 from datetime import datetime
 from pathlib import Path
 
 
 class BudgetExceeded(RuntimeError):
     pass
+
+
+class FreeTierBudget:
+    """Serialize parallel analysts and pace requests below the verified free limits."""
+
+    def __init__(self, call_limit=450, token_limit=20_000_000, *, clock=time.monotonic, sleep=time.sleep):
+        self.lock = threading.Lock()
+        self.calls = 0
+        self.estimated_tokens = 0
+        self.call_limit = max(1, min(int(call_limit), 450))
+        self.token_limit = max(1, min(int(token_limit), 20_000_000))
+        self.window = deque()
+        self.last_start = None
+        self.clock = clock
+        self.sleep = sleep
+
+    def reserve(self, message_characters):
+        # One character per token plus a schema/output allowance is deliberately
+        # conservative. This is pacing, not a provider billing measurement.
+        estimate = message_characters + 10_000
+        if estimate > 200_000:
+            raise BudgetExceeded("Una solicitud supera el límite preventivo por minuto.")
+        with self.lock:
+            if self.calls >= self.call_limit or self.estimated_tokens + estimate > self.token_limit:
+                raise BudgetExceeded("Límite preventivo de llamadas/tokens alcanzado.")
+            while True:
+                now = self.clock()
+                while self.window and now - self.window[0][0] >= 61:
+                    self.window.popleft()
+                pause = max(0, 5.1 - (now - self.last_start)) if self.last_start is not None else 0
+                if sum(size for _, size in self.window) + estimate > 200_000:
+                    pause = max(pause, self.window[0][0] + 61 - now)
+                if pause <= 0:
+                    break
+                self.sleep(pause)
+            self.calls += 1
+            self.estimated_tokens += estimate
+            self.last_start = self.clock()
+            self.window.append((self.last_start, estimate))
 
 
 def validate_llm_policy(environ=None):
@@ -40,20 +81,20 @@ def run_agents(report, output, state_root):
         raise_error = True
 
         def __init__(self):
-            self.lock = threading.Lock()
-            self.calls = 0
-            self.estimated_tokens = 0
-            self.call_limit = min(int(os.environ.get("IBEX_MAX_LLM_CALLS", "300")), 1000)
-            self.token_limit = min(int(os.environ.get("IBEX_MAX_LLM_TOKENS", "750000")), 2_000_000)
+            self.budget = FreeTierBudget(os.environ.get("IBEX_MAX_LLM_CALLS", "450"),
+                                         os.environ.get("IBEX_MAX_LLM_TOKENS", "20000000"))
+
+        @property
+        def calls(self):
+            return self.budget.calls
+
+        @property
+        def estimated_tokens(self):
+            return self.budget.estimated_tokens
 
         def on_chat_model_start(self, serialized, messages, **kwargs):
-            # Conservative character estimate plus reserved maximum output per call.
             size = sum(len(str(message.content)) for batch in messages for message in batch)
-            with self.lock:
-                if self.calls >= self.call_limit or self.estimated_tokens + size + 1800 > self.token_limit:
-                    raise BudgetExceeded("Límite preventivo de llamadas/tokens alcanzado.")
-                self.calls += 1
-                self.estimated_tokens += size + 1800
+            self.budget.reserve(size)
 
     guard = Guard()
     snapshots = {row["ticker"]: row for row in report["companies"]}
@@ -108,7 +149,7 @@ def run_agents(report, output, state_root):
                    "quick_think_llm": "gemini-3.1-flash-lite", "output_language": "Spanish",
                    "benchmark_ticker": "^IBEX", "max_debate_rounds": 1,
                    "max_risk_discuss_rounds": 1, "max_tool_rounds": 4,
-                   "llm_max_retries": 0, "max_tokens": 1800,
+                   "llm_max_retries": 0, "max_tokens": 1800, "google_thinking_level": "minimal",
                    "results_dir": str(state_root / "logs"),
                    "data_cache_dir": str(state_root / "cache"),
                    "memory_log_path": str(state_root / "memory" / "trading_memory.md"),
