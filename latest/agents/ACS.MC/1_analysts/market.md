@@ -1,1 +1,0 @@
-[Called get_verified_market_snapshot({"ticker": "ACS.MC", "date": "2026-11-01"})]
