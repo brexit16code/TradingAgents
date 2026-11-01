@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La acción se encuentra en un proceso de ajuste técnico tras los resultados del tercer trimestre, perdiendo niveles clave como los 16,40 EUR. Aunque existe un potencial de revalorización significativo según el consenso (19,58 EUR), los márgenes de beneficio del 0,95% y la elevada deuda neta/EBITDA (3,52x) justifican cautela frente a la volatilidad macroeconómica actual. Se recomienda esperar a que el precio testee su soporte estructural en la media móvil de 200 días (15,19 EUR) para validar si el suelo técnico se mantiene antes de considerar nuevas compras.
+**Reasoning**: El valor muestra una dicotomía entre sólidos beneficios operativos y una presión técnica bajista persistente que ha situado al precio por debajo de las medias móviles de 20 y 50 días. La fragilidad financiera, evidenciada por el flujo de caja libre negativo y el elevado apalancamiento, sugiere prudencia ante la volatilidad post-resultados. Mantener la posición es la estrategia más adecuada hasta que el mercado muestre estabilización y el precio logre recuperar la SMA 50 para revertir la tendencia negativa a corto plazo.
 
-**Entry Price**: 15.19
+**Entry Price**: not provided
 
-**Stop Loss**: 14.5
+**Stop Loss**: 15.19
 
-**Position Sizing**: Mantener posición actual; no añadir hasta confirmar estabilización.
+**Position Sizing**: Mantener exposición actual; evitar incrementar tamaño hasta superar la SMA 50 (17.27 EUR).
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

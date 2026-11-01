@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: Redeia presenta una sólida base operativa con crecimiento en su beneficio neto a septiembre de 2026 y un atractivo rendimiento por dividendo superior al 5%, respaldado técnicamente por una cotización firme por encima de sus medias móviles. Sin embargo, su elevado nivel de endeudamiento (net debt/EBITDA de 4,96x), el flujo de caja libre negativo y un RSI rozando la sobrecompra (69,31) limitan el potencial alcista frente al precio objetivo de consenso, justificando mantener la posición actual sin realizar nuevas compras.
+**Reasoning**: Redeia (RED.MC) cotiza a 15,42 EUR mostrando una sólida directriz alcista por encima de sus medias móviles y un atractivo dividendo del 5,19%, respaldado por unos resultados estables a septiembre de 2026. Sin embargo, un RSI en 69,31 rozando la sobrecompra, un flujo de caja libre negativo y una elevada ratio de deuda neta sobre EBITDA de 4,96x limitan el potencial alcista inmediato al objetivo de consenso de 16,51 EUR, justificando una postura de mantenimiento neutral.
 
 **Entry Price**: not provided
 
-**Stop Loss**: 14.7
+**Stop Loss**: not provided
 
-**Position Sizing**: 5% of portfolio
+**Position Sizing**: Mantener asignación actual sin ampliaciones
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

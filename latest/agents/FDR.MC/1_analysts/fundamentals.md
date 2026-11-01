@@ -1,48 +1,33 @@
-### Informe de Análisis Fundamental: Fluidra, S.A. (FDR.MC)
+Este informe analiza la situación fundamental de **Fluidra, S.A. (FDR.MC)**, una compañía líder en el sector de la piscina y el bienestar (Consumer Cyclical), cotizada en el mercado español.
 
-**Fecha de análisis:** 1 de noviembre de 2026
-**Ticker:** FDR.MC
-**Mercado:** MCE (Madrid)
+### Análisis de los Resultados Recientes (Q3 2026)
+Según los datos disponibles a fecha de 29 de octubre de 2026, Fluidra ha presentado sus resultados de los nueve primeros meses del año, destacando un **beneficio ajustado de 221 millones de euros**, lo que supone un crecimiento del 6%. A pesar de este desempeño, la compañía ha realizado un **ajuste en su guía para el cierre de 2026** (fuente: *Investing.com España*, 29/10/2026). La dirección ha mostrado cautela, ajustando las expectativas tras el tercer trimestre, aunque manteniendo un crecimiento en ventas.
 
----
+### Salud Financiera y Valoración
+*   **Rentabilidad y Margen:** Con un margen de beneficio del 7,2% y un ROE del 10,5%, Fluidra demuestra capacidad de generación de valor. El EBITDA reportado para 2025 fue de 463,45 millones de euros, frente a los 417,61 millones de 2024, reflejando una tendencia de crecimiento operativo constante.
+*   **Balance:** La empresa mantiene una deuda neta sobre EBITDA de 2,95x. Es un nivel de apalancamiento relevante para el sector, pero dentro de parámetros manejables dado su flujo de caja libre (*Free Cash Flow*) de 271,5 millones de euros en 2025.
+*   **Valoración:** La acción cotiza con un *forward PE* de 12,14x, notablemente inferior a su *trailing PE* de 21,25x, lo que sugiere que el mercado anticipa una mejora en los beneficios futuros o una revalorización por compresión de múltiplos. El dividendo actual (Yield del 3,53%) aporta un componente de retorno atractivo para el accionista.
 
-#### 1. Perfil y Resumen Ejecutivo
-Fluidra, S.A. (FDR.MC) es un líder global en el sector de la piscina y el bienestar (*Leisure*). La compañía opera en un entorno de consumo cíclico y recientemente ha reportado sus resultados financieros correspondientes a los primeros nueve meses de 2026, los cuales han sido el catalizador principal de su actividad bursátil esta semana.
+### Análisis Técnico y Perspectiva de Mercado
+A fecha de 30 de octubre de 2026, FDR.MC cotiza a 18,70 EUR. El precio se sitúa por debajo de su media móvil de 200 sesiones (19,76 EUR), lo que indica una tendencia de largo plazo bajista, aunque muestra recuperación en el corto plazo (SMA20: 17,78 EUR). La volatilidad es moderada (19,8%), y el RSI de 64 indica una zona de fuerza cercana a la sobrecompra, sin haber entrado aún en ella.
 
-#### 2. Análisis de Resultados Recientes (Q3 2026)
-Según los reportes del 29 de octubre de 2026 (MarketScreener, Investing.com, Palco23), Fluidra ha logrado un beneficio superior a los 220 millones de euros en los primeros nueve meses del año. Un punto clave para los inversores es que **la compañía ha ajustado su guía (guidance) para 2026**, manteniendo una tendencia de ventas al alza en el tercer trimestre. El beneficio ajustado mostró un crecimiento interanual del 6%. Este ajuste en la guía sugiere una gestión proactiva ante las presiones macroeconómicas, aunque el mercado muestra una reacción cautelosa, consistente con el comportamiento general del IBEX 35 ante las decisiones de tipos de interés del BCE (2,5%).
+### Perspectiva para el Inversor
+*   **Puntos a favor:** Solidez en el flujo de caja, crecimiento constante de ingresos (15% anual reciente), valoración atractiva según el *forward PE* y un dividendo estable.
+*   **Riesgos:** La revisión de la guía para 2026 introduce incertidumbre. El entorno macroeconómico (decisiones del BCE sobre tipos de interés, 2,5% a finales de octubre de 2026) presiona al sector cíclico.
+*   **Datos faltantes:** No se dispone del desglose detallado de la deuda por vencimientos a corto/largo plazo tras el Q3 2026 ni detalles sobre la composición accionarial exacta más allá de los datos agregados.
 
-#### 3. Salud Financiera y Valoración
-*   **Rentabilidad y Crecimiento:** Con una capitalización de mercado de aproximadamente 3.512 millones de euros, la empresa presenta un PER *trailing* de 21,25, mientras que el PER *forward* desciende significativamente a 12,43, lo que indica expectativas de mejora en las utilidades futuras.
-*   **Endeudamiento:** La ratio de deuda neta sobre EBITDA se sitúa en 2,95x. Es un nivel que requiere vigilancia, aunque se ha mantenido gestionable dentro de sus estados financieros históricos.
-*   **Flujo de Caja:** La compañía continúa generando una fuerte caja operativa (366,9 millones de euros en términos anualizados según datos recientes), manteniendo un flujo de caja libre sólido (221 millones de euros).
-*   **Dividendos:** Con una rentabilidad por dividendo del 3,53% y un *payout ratio* moderado (34,24%), Fluidra ofrece un componente de retorno atractivo para el accionista, permitiendo reinversión mientras sostiene el crecimiento.
+**Rating**: HOLD
 
-#### 4. Análisis Técnico y de Mercado
-El precio a 30 de octubre de 2026 era de 18,70 EUR. La acción se encuentra operando cerca de su media móvil de 50 sesiones (18,15) pero por debajo de la de 200 (19,76), lo cual denota una tendencia correctiva a largo plazo (-20,33% en los últimos 252 días). El RSI de 64,04 indica que el activo no está sobrevendido, acercándose a niveles de interés alcista sin haber entrado aún en zona de sobrecompra.
-
-#### 5. Riesgos y Observaciones
-*   **Sensibilidad Macroeconómica:** Como empresa cíclica, es altamente sensible a los tipos de interés. La política del BCE (mantenimiento de tipos al 2,5% y tono cauteloso respecto a la inflación) impacta directamente en el coste de capital y el gasto discrecional de los consumidores en piscinas.
-*   **Información Faltante:** No se dispone de un desglose detallado de las transacciones con personas con información privilegiada (*insider trading*) para el periodo inmediato posterior a los resultados, lo cual sería útil para medir la confianza interna. Asimismo, la comparación sectorial detallada en el apartado de valoración está ausente.
-
-#### 6. Perspectiva para Traders
-La disparidad entre el PER *trailing* y el *forward* sugiere que, de cumplirse las estimaciones de los 15 analistas que cubren el valor (con una estimación de beneficio por acción futuro de 1,50 EUR), la acción podría presentar una oportunidad de valor, dado que el precio actual está muy por debajo del precio objetivo medio de 25,87 EUR. Sin embargo, la volatilidad reciente del mercado español exige cautela.
-
----
-
-### Resumen de Datos Clave
+FINAL TRANSACTION PROPOSAL: Mantener posiciones existentes mientras se evalúa la capacidad de la empresa para cumplir con la guía ajustada en el cierre del ejercicio 2026, dado el entorno de tipos de interés restrictivos que afecta al consumo cíclico.
 
 | Indicador | Valor |
 | :--- | :--- |
-| **Precio Actual** | 18,70 EUR |
-| **Capitalización Bursátil** | 3.512 M EUR |
-| **PER (Forward)** | 12,43 |
-| **Rentabilidad por Dividendo** | 3,53% |
-| **Deuda Neta / EBITDA** | 2,95x |
-| **Consenso de Analistas (Media)** | 25,87 EUR |
-| **Tendencia 252 días** | -20,33% |
-| **Margen de Beneficio** | 7,21% |
+| **Precio Actual (FDR.MC)** | 18,70 EUR |
+| **Market Cap** | 3.512 M EUR |
+| **Dividend Yield** | 3,53% |
+| **Forward PE** | 12,14x |
+| **Consensus Upside** | 38,35% |
+| **Beneficio 9M 2026** | 221 M EUR |
+| **Net Debt/EBITDA** | 2,95x |
 
-**Rating**: REVIEW
-
-FINAL TRANSACTION PROPOSAL: No trade execution; monitor for consolidation above the 18.00 EUR support level following the Q3 earnings guidance adjustment.
+*Fuentes consultadas: Yahoo Finance (FDR.MC), MarketScreener, Investing.com, Palco23. Retirado el 01-11-2026.*

@@ -1,11 +1,11 @@
-**Action**: Hold
+**Action**: Buy
 
-**Reasoning**: Solaria Energia y Medio Ambiente, S.A. presenta valoraciones fundamentales atractivas con un PER de 7.80x y un fuerte crecimiento de ingresos, pero operando bajo una fuerte presion bajista tecnica con un precio de 14.595 EUR por debajo de su SMA200 de 19.66 EUR. El flujo de caja libre negativo de -437.97 millones de EUR y un apalancamiento de deuda neta a EBITDA de 4.14x en un entorno de tipos del BCE al 2.5% neutralizan el potencial alcista de los analistas, justificando mantener sin realizar nuevas ejecuciones.
+**Reasoning**: A pesar de la tendencia técnica bajista actual, la valoración de Solaria (SLR.MC) es extremadamente atractiva con un Forward PE de 8,57x frente a la mediana del sector de 15,98x. El castigo acumulado del 43% descuenta gran parte de los riesgos operativos, y los catalizadores derivados del aumento de demanda energética por centros de datos ofrecen un margen de seguridad suficiente para iniciar una posición estratégica aprovechando el fuerte descuento fundamental.
 
-**Entry Price**: not provided
+**Entry Price**: 14.595
 
-**Stop Loss**: not provided
+**Stop Loss**: 13.5
 
-**Position Sizing**: 0% of portfolio (Hypothetical monitor stance)
+**Position Sizing**: 0.5% del portafolio
 
-FINAL TRANSACTION PROPOSAL: **HOLD**
+FINAL TRANSACTION PROPOSAL: **BUY**

@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: El valor presenta un descuento patrimonial significativo con un Price-to-Book de 0,76x frente a un valor en libros de 15,00 EUR y un ambicioso plan estratégico de centros de datos, pero la fuerte presión técnica bajista con el precio en 11,47 EUR por debajo de sus medias móviles clave (SMA 200 en 13,94 EUR) y los riesgos de ejecución y apalancamiento recomiendan mantener la postura neutral actual.
+**Reasoning**: La acción se mantiene bajo todas las medias móviles principales, indicando una tendencia bajista técnica persistente. Aunque el ratio P/B de 0,76 sugiere una infravaloración, la incertidumbre sobre la transición estratégica hacia los centros de datos y el entorno macroeconómico incierto del sector inmobiliario aconsejan cautela hasta ver una reversión en la tendencia.
 
-**Entry Price**: not provided
+**Entry Price**: 11.74
 
-**Stop Loss**: not provided
+**Stop Loss**: 10.5
 
-**Position Sizing**: Mantener la asignación actual sin ampliaciones de posición
+**Position Sizing**: 1% - 2% de la cartera total
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

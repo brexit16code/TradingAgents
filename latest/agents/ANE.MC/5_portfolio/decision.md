@@ -1,9 +1,9 @@
-**Rating**: Hold
+**Rating**: Sell
 
-**Executive Summary**: Se recomienda mantener una postura de Hold sobre ANE.MC. La estrategia consiste en conservar la ponderación neutral actual sin realizar nuevas compras, vigilando un rango de soporte técnico entre 18,50 y 19,50 EUR y esperando señales claras de mejora en el flujo de caja libre y reducción de apalancamiento. El horizonte temporal sugerido es de 3 a 6 meses.
+**Executive Summary**: Vender la posición actual en ANE.MC ante el deterioro de los fundamentales financieros, un flujo de caja libre crónicamente negativo y la presión de un apalancamiento superior a 5x en un entorno de tipos de interés restrictivos del BCE. Se recomienda establecer una estrategia de salida o cobertura defensiva con un stop loss en 22,50 EUR, evitando promediar a la baja.
 
-**Investment Thesis**: Tras sopesar los argumentos del debate, la tesis alcista del analista agresivo destaca el atractivo valor patrimonial con un precio sobre valor en libros de 1,10x, un EBITDA normalizado robusto y un potencial de consenso hacia los 23,22 EUR. No obstante, las objeciones del analista conservador y del analista neutral pesan decisivamente: un ratio de Deuda Neta a EBITDA superior a 5x (5,06x) en un entorno de tipos del BCE al 2,5%, un flujo de caja libre profundamente negativo (-596 millones de EUR en 2025) y una debilidad técnica evidente con la cotización por debajo de sus medias móviles (SMA 20, 50 y 200) neutralizan la balanza. Este conflicto fundamental entre el valor de los activos y la quema de caja justifica la decisión de mantener sin arriesgar nuevo capital.
+**Investment Thesis**: El análisis detallado del debate y de las métricas proporcionadas inclina claramente la balanza hacia la postura bajista. Aunque el bando alcista argumenta que el apalancamiento y el flujo de caja libre negativo de -596 millones en 2025 y -408,7 millones recientes son meramente el combustible para la expansión en energías renovables, y se apoyan en un precio objetivo de consenso de 23,22 EUR y un EBITDA recurrente sólido, los riesgos fundamentales superan con creces este potencial teórico. La realidad financiera muestra una ratio de deuda neta sobre EBITDA de 5,06x que se vuelve muy asfixiante con los tipos del BCE anclados en el 2,50%. A esto se suman las complicaciones tangibles en las desinversiones de filiales y una estructura técnica claramente deteriorada por debajo de las medias móviles clave (SMA20 en 21,51 EUR y SMA200 en 21,83 EUR). La falta de un flujo de caja sostenible y los múltiplos elevados anulan la tesis de compra rápida. Un cambio de tendencia requeriría una mejora drástica en la generación de caja operativa, una reducción efectiva del apalancamiento y la resolución satisfactoria de las desinversiones de activos.
 
-**Price Target**: 23.22
+**Price Target**: 17.0
 
-**Time Horizon**: 3-6 meses
+**Time Horizon**: 3-6 months

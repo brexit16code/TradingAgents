@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: Indra muestra unos fundamentales excepcionales con un crecimiento sólido de ingresos, beneficios netos récord y una posición de caja neta inmejorable (-1,45x deuda neta/EBITDA). Sin embargo cotiza en máximos históricos con una valoración exigente (P/E de 21,65x) y un potencial de revalorización limitado al 8,17% frente al precio objetivo de consenso de 69,10 EUR. Ante este equilibrio entre fortaleza operativa y limitación de margen alcista en precios actuales, se recomienda mantener la posición actual sin realizar nuevas compras.
+**Reasoning**: Indra Sistemas (IDR.MC) presenta una tendencia alcista estructural sólida con fundamentales robustos, incluyendo una excelente posición de caja. Sin embargo, la acción cotiza cerca de máximos históricos, lo que genera una zona de resistencia significativa, y el reciente flujo de caja libre negativo sugiere cautela operativa. Dado que el precio actual de 63,88 EUR se sitúa por encima de sus medias móviles clave, la estrategia de 'mantener' es la más adecuada para evitar entrar en niveles de sobreextensión sin una confirmación de soporte más clara en la media de 20 días.
 
 **Entry Price**: not provided
 
-**Stop Loss**: 58.5
+**Stop Loss**: 55.38
 
-**Position Sizing**: 5% of portfolio
+**Position Sizing**: Mantener posición actual, sin incrementar exposición hasta consolidar soporte superior a 61,82 EUR.
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

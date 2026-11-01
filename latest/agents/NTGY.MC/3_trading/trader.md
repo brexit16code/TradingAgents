@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: El valor presenta un equilibrio neutral entre argumentos fundamentales positivos, como su atractiva rentabilidad por dividendo del 5,97% y la solidez de su deuda neta sobre EBITDA de 2,42x, y factores de cautela técnica a corto plazo, con el precio cotizando por debajo de su SMA50 (29,75 EUR) y un potencial de subida limitado frente al precio objetivo de consenso de 31,22 EUR. Dado que los indicadores muestran una consolidación neutral (RSI en 44,28) y un impulso ligeramente bajista en el MACD, se recomienda mantener la postura actual sin incrementar exposición hasta una ruptura clara de la resistencia de corto plazo.
+**Reasoning**: Naturgy Energy Group, S.A. (NTGY.MC) cotiza en un nivel neutral de 29.66 EUR, respaldada por una rentabilidad por dividendo atractiva cercana al 6% y fundamentales sólidos, pero con un recorrido alcista limitado frente al consenso de analistas (31.22 EUR). El momento técnico es neutral con un RSI en 44.28 y el precio por debajo de la SMA de 20 sesiones, lo que justifica mantener la posición actual sin realizar nuevas compras en este momento.
 
 **Entry Price**: not provided
 
-**Stop Loss**: not provided
+**Stop Loss**: 27.49
 
-**Position Sizing**: Asignación estándar neutral en cartera
+**Position Sizing**: Posición neutra estándar de 3% a 5% de la cartera
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

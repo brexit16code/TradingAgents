@@ -1,47 +1,53 @@
-**Rating**: HOLD  
-FINAL TRANSACTION PROPOSAL: Hypothetically, hold existing long positions in `ACS.MC` while awaiting the upcoming third-quarter earnings release and Capital Markets Day (CMD) scheduled for mid-November 2026, keeping stops below recent swing lows given current technical consolidation.
+**Rating**: REVIEW
+
+### Informe de Análisis y Estado de Situación para ACS.MC
+
+A continuación se presenta un análisis exhaustivo y riguroso de la situación de **ACS.MC** (ACS, Actividades de Construcción y Servicios, S.A.), cotizada en la Bolsa de Madrid, fundamentado en los datos y la evidencia pre-cargada recopilada al 1 de noviembre de 2026.
 
 ---
 
-### Informe de Análisis y Coyuntura Macroeconómica para ACS.MC
+### 1. Resumen Ejecutivo y Tesis de Inversión
+* **Identidad y Negocio**: ACS.MC opera en el sector industrial de Ingeniería y Construcción dentro del índice de referencia español ^IBEX.
+* **Situación Bursátil**: Al cierre del 30 de octubre de 2026, la acción cotiza a **90.65 EUR**, registrando un descenso del 1.63% en la sesión y acumulando una caída del 18.19% en los últimos 63 días (restando 11.34 puntos porcentuales de rendimiento relativo frente al índice). No obstante, su rentabilidad a 12 meses (return252_pct) se mantiene positiva en un **+26.37%**.
+* **Valoración y Consenso**: La capitalización de mercado asciende a **23.605 millones de EUR**. El PER histórico (trailing PE) se sitúa en 19.79x, mientras que el PER forward se proyecta en 18.16x. El ratio frente a sus pares se encuentra en 1.05 (PER relativo intermedio). El precio objetivo medio de los analistas (*targetMeanPrice*) se ubica en **131.21 EUR**, lo que sugiere un potencial alcista de consenso (*consensus_upside_pct*) del **44.74%**, respaldado por 16 opiniones de analistas.
+* **Calificación**: **REVIEW**. La evidencia disponible muestra una discrepancia significativa entre el castigo técnico a corto plazo (rsi14 en 45.94, cotizando por debajo de su SMA50 de 94.94 y SMA200 de 108.85) y el elevado precio objetivo de consenso, condicionado además por próximos eventos corporativos cruciales.
 
-#### 1. Resumen Ejecutivo y Estado Actual
-La compañía **ACS, Actividades de Construcción y Servicios, S.A. (`ACS.MC`)** cotiza a un precio de 90,65 EUR al cierre del 30 de octubre de 2026. El valor se encuentra en una fase de consolidación técnica de corto plazo, acumulando una caída del 1,63% en la última sesión y un retroceso de aproximadamente el 18,19% en los últimos tres meses (retorno a 63 días de -18,18%, con un *drawdown* máximo de -34,48% desde máximos recientes). No obstante, el rendimiento a 12 meses (retorno a 252 días) se mantiene positivo en un +26,37%, reflejo de la robustez estructural de su negocio en el sector industrial de ingeniería y construcción.
+---
 
-El contexto inmediato de la compañía está dominado por la expectación ante la publicación de sus resultados del tercer trimestre de 2026 y la celebración de su nueva hoja de ruta (*Capital Markets Day* - CMD), programados para los días 11 y 12 de noviembre de 2026 (según fuentes de prensa como *Investing.com España* y *Radio Intereconomía* del 26 de octubre de 2026). Recientemente, entidades como Deutsche Bank han ajustado su precio objetivo de cara a estas publicaciones (*MarketScreener*, 29 de octubre de 2026).
+### 2. Fundamentos Financieros y Evolución Operativa
+De acuerdo con los estados financieros consolidados:
+* **Ingresos y Crecimiento**: Los ingresos totales alcanzaron los **49.850 millones de EUR** al cierre del ejercicio fiscal 2025, experimentando un crecimiento interanual del 12.2% frente a los 41.633 millones de 2024 y los 35.738 millones de 2023.
+* **Rentabilidad (EBITDA y Beneficio Neto)**: El EBITDA se elevó a **3.388 millones de EUR** en 2025 (por encima de los 2.579 millones en 2024 y 2.258 millones en 2023). El beneficio neto (*Net Income*) se situó en **950.3 millones de EUR** en 2025, frente a los 827.6 millones de 2024. El margen de beneficio neto (*profitMargins*) es ajustado pero estable en el 1.95%, con una rentabilidad sobre los recursos propios (*returnOnEquity*) muy sólida del **24.08%**.
+* **Flujo de Caja y Deuda**: La generación de caja operativo (*Operating Cash Flow*) alcanzó los **3.047 millones de EUR** en 2025, con un flujo de caja libre (*Free Cash Flow*) de **2.303 millones de EUR**. La deuda total se sitúa en 15.334 millones de EUR (frente a 15.833 millones en caja y equivalentes), resultando en un ratio de deuda neta sobre EBITDA (*net_debt_ebitda*) muy conservador de **0.20x**.
+* **Remuneración al Accionista**: ACS.MC ofrece una rentabilidad por dividendo (*dividend_yield_pct*) estimada del **2.56%** (dividendo anual de 2.32 EUR por acción), con un ratio de pago (*payoutRatio*) del 61.02%.
 
-#### 2. Entorno Macroeconómico Global y Sectorial
-El análisis macroeconómico de finales de octubre de 2026 muestra un panorama mixto en los mercados europeos y globales:
-* **Tipos de Interés y Bancos Centrales:** El Banco Central Europeo (BCE) decidió mantener los tipos de interés en el 2,5% en su reunión de finales de octubre de 2026, advirtiendo sobre riesgos inflacionarios persistentes vinculados a la energía y un crecimiento moderado (fuentes: *20Minutos*, *El Economista*, 29 de octubre de 2026).
-* **Dinámica de los Mercados Bursátiles:** El selectivo español Ibex 35 se ha mantenido cotizando en torno a los 18.700–18.800 puntos, presionado por la volatilidad en el sector financiero y las dudas en torno al sector tecnológico y los tipos de interés (fuentes: *El Boletín*, *El Conciso*, 30 de octubre de 2026).
-* **Impacto en el Sector Industrial:** Las empresas de ingeniería y construcción como `ACS.MC` operan en un entorno donde los costes de financiación se estabilizan al 2,5% oficial del BCE, pero la selección de proyectos de infraestructuras globales y concesiones sigue dependiendo estrechamente de la visibilidad de flujo de caja y la disciplina de asignación de capital que se detallará en la próxima hoja de ruta corporativa.
+---
 
-#### 3. Análisis Fundamental y Valoración de `ACS.MC`
-* **Valor de Mercado y Múltiplos:** 
-  * Capitalización bursátil: ~23.600 millones de EUR.
-  * PER histórico (Trailing PE): ~19,79x; PER estimado a futuro (Forward PE): ~18,16x.
-  * Ratio Precio/Valor en Libros (P/B): ~3,99x.
-  * Valor EV/EBITDA: ~10,71x.
-  * Relación de PER relativo intermedio frente a sus comparables (*peers* MCE: `ANA.MC`, `AENA.MC`, `FER.MC`, `IAG.MC`, `LOG.MC`, `SCYR.MC`): 1,05x, situándose muy en línea con la mediana del sector.
-* **Solidez Financiera y Crecimiento:**
-  * Ingresos totales (ejercicio 2025): 49.847,68 millones de EUR (frente a 41.633,12 millones en 2024), lo que muestra un fuerte crecimiento de los ingresos (+12,2%).
-  * Beneficio neto (2025): 950,34 millones de EUR (superior a los 827,58 millones de 2024).
-  * EBITDA (2025): 3.387,89 millones de EUR.
-  * Flujo de caja libre (FCF 2025): 2.303,00 millones de EUR (y un flujo de caja operativo de 3.046,76 millones de EUR).
-  * Deuda neta / EBITDA: ratio muy saneado de aproximadamente 0,20x, respaldado por una sólida posición de caja total de 15.832,86 millones de EUR frente a una deuda total de 15.333,76 millones de EUR.
-* **Retorno al Accionista:**
-  * Rentabilidad por dividendo (*dividend yield*): 2,56% (con un dividendo por acción de 2,32 EUR y un ratio de reparto o *payout* del 61,02%).
-* **Consenso de Analistas:**
-  * El precio objetivo medio de consenso (*targetMeanPrice*) se sitúa en 131,21 EUR (con un rango entre un mínimo de 104,0 EUR y un máximo de 153,10 EUR según 16 opiniones de analistas), lo que implica un potencial de revalorización (*consensus upside*) del **44,74%** desde los 90,65 EUR actuales.
+### 3. Contexto Macroeconómico y Noticias Sectoriales Recientes
+* **Entorno de Tipos de Interés (BCE)**: Hacia finales de octubre de 2026, el Banco Central Europeo (BCE) decidió mantener los tipos de interés oficiales en el **2.5%**, abriendo la puerta a posibles movimientos en diciembre ante la evolución de las perspectivas de inflación. Este entorno monetario afecta de manera transversal a los valores industriales de gran capitalización y concesiones.
+* **Noticias y Catalizadores para ACS.MC**:
+  * **Nueva Hoja de Ruta**: Se ha anunciado que el próximo **12 de noviembre de 2026**, ACS presentará su nueva hoja de ruta estratégica para el grupo (*Radio Intereconomía*, 26 de octubre de 2026).
+  * **Expansión y Grandes Proyectos**: Informes recientes destacan la entrada de ACS, junto a Ferrovial y Sacyr, en el plan de redes privadas que impulsa Estados Unidos (*CapitalMadrid*, 27 de octubre de 2026).
+  * **Revisión de Coberturas**: Firmas de análisis como Deutsche Bank han ajustado recientemente sus precios objetivo antes de la publicación de resultados e hitos estratégicos (*MarketScreener*, 29 de octubre de 2026).
 
-#### 4. Análisis Técnico
-* **Precio de Cierre:** 90,65 EUR (30 de octubre de 2026).
-* **Medias Móviles:** La cotización se encuentra ligeramente por debajo de su media móvil de 20 sesiones (SMA20: 90,98 EUR) y de 50 sesiones (SMA50: 94,94 EUR), así como de la media de 200 sesiones (SMA200: 108,85 EUR), evidenciando la corrección acumulada en el trimestre.
-* **Indicadores de Momento:**
-  * RSI (14 periodos): 45,94 (zona neutral, sin sobreventa ni sobrecompra extrema).
-  * MACD: -1,26 (por debajo de su línea de señal en -1,79), sugiriendo que la presión vendedora previa está desacelerando pero aún no ha completado un cruce alcista definitivo.
-  * Volatilidad anualizada: 28,77%.
+---
 
-#### 5. Evidencia Contraria, Supuestos y Datos Faltantes
-* **Evidencia Contraria / Riesgos:** La corrección del 18,18% en los últimos 3 meses y la caída por debajo de la SMA200 indican que el sentimiento a medio plazo en el valor es de cautela. Si el mercado general sufre correcciones adicionales por la incertidumbre geopolítica o macroeconómica en Europa, `ACS.MC` podría poner a prueba soportes inferiores cercanos a los mínimos del rango de analistas (104 EUR es el objetivo mínimo, pero en el mercado cotiza a 90,65 EUR, lo que significa que el precio actual perfora el suelo estimado por algunos analistas rezagados, o bien que dichos objetivos no han sido rebajados o actualizados tras la caída).
-* **Datos Faltantes:** No se dispone en el dataset de una desagregación detallada en tiempo real de
+### 4. Datos Faltantes y Asuntos a Considerar
+* **Falta de datos**: No se dispone de la transcripción completa de la futura presentación de la hoja de ruta del 12 de noviembre de 2026 ni del desglose detallado de la cartera de pedidos (*backlog*) por divisiones geográficas concretas para el cuarto trimestre de 2026 en la instantánea estática. 
+* *Nota metodológica*: Las estimaciones de analistas (*targetMeanPrice*) reflejan expectativas de consenso y no deben interpretarse como valoraciones intrínsecas cerradas.
+
+---
+
+### 5. Resumen en Tabla Organizada
+
+| Categoría | Métrica / Indicador | Valor Actual / Referencia | Comentario Analítico |
+| :--- | :--- | :--- | :--- |
+| **Precio y Mercado** | Precio de Cierre (`ACS.MC`) | 90.65 EUR (30/10/2026) | Corrección bajista a corto plazo (-1.63% diario, -18.19% a 3 meses). |
+| **Valoración** | PER Trailing / Forward | 19.79x / 18.16x | Valoración intermedia en línea con pares (Ratio PER relativo: 1.05). |
+| **Consenso Analistas** | Precio Objetivo Medio | 131.21 EUR | Margen alcista potencial (*consensus upside*) del **44.74%** (16 analistas). |
+| **Fundamentales (2025)**| Ingresos / EBITDA | 49.850 M EUR / 3.388 M EUR | Sólido crecimiento interanual de ingresos (+19.7% vs 2024). |
+| **Solvencia** | Deuda Neta / EBITDA | 0.20x | Estructura financiera muy saneada y alta conversión de FCF (2.303 M EUR). |
+| **Dividendos** | Rentabilidad por Dividendo | 2.56% (2.32 EUR) | Payout sostenible del 61.02%. |
+| **Catalizador Próximo** | Nueva Hoja de Ruta | 12 de noviembre de 2026 | Evento clave para reevaluar la directriz estratégica y la guía de beneficios. |
+
+FINAL TRANSACTION PROPOSAL: REVIEW

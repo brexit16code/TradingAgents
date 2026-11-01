@@ -1,11 +1,11 @@
-**Action**: Hold
+**Action**: Buy
 
-**Reasoning**: BBVA.MC se encuentra en un estado de sobreventa técnica (RSI 28.17) y cotiza en un soporte crítico cerca de su media móvil de 200 días (21.01 EUR). Aunque la valoración fundamental es atractiva con un Forward PE de 8.96x, el sentimiento del mercado tras los resultados es negativo y la tendencia bajista prevalece. Es prudente mantener la posición actual y esperar a que el precio estabilice este soporte o muestre una señal de reversión antes de comprometer nuevo capital.
+**Reasoning**: BBVA.MC presenta una fuerte divergencia entre sus fundamentales sólidos, con un ROE cercano al 20% y un Forward PE atractivo de 8,96, y un sentimiento de mercado que ha castigado la acción injustificadamente tras sus resultados. La posición técnica de sobreventa (RSI de 28,17) y la proximidad al soporte estructural de la SMA200 en 21,01 EUR ofrecen un punto de entrada con un riesgo a la baja limitado y un potencial de revalorización alineado con el consenso de mercado.
 
-**Entry Price**: not provided
+**Entry Price**: 21.05
 
-**Stop Loss**: 20.5
+**Stop Loss**: 20.1
 
-**Position Sizing**: Mantener sin cambios
+**Position Sizing**: 50% de la asignación estándar para permitir una gestión de riesgo inicial
 
-FINAL TRANSACTION PROPOSAL: **HOLD**
+FINAL TRANSACTION PROPOSAL: **BUY**

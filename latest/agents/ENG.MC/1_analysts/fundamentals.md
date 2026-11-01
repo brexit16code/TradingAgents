@@ -1,66 +1,66 @@
 **Rating**: REVIEW
 
-**FINAL TRANSACTION PROPOSAL**: HOLD
+**Análisis Fundamental y Financiero Integral: Enagás, S.A. (`ENG.MC`)**
+
+El presente informe detalla la situación fundamental, financiera y de mercado de **Enagás, S.A. (`ENG.MC`)**, cotizada en el mercado continuo de Madrid (`MCE`) dentro del sector de *Utilities* (Gas Regulado), tomando como referencia la información financiera e indicadores actualizados al mes de noviembre de 2026.
 
 ---
 
-### Informe Fundamental Integral: Enagás, S.A. (`ENG.MC`)
-
-#### 1. Perfil de la Compañía y Resumen de Negocio
-* **Identidad Resuelta:** Enagás, S.A. (`ENG.MC`) cotiza en la bolsa de Madrid (MCE), clasificada dentro del sector de *Utilities* (Servicios Públicos) y subindustria *Utilities - Regulated Gas* (Gas Regulado). 
-* **Modelo de Negocio:** Actúa como el principal gestor técnico del sistema gasista en España y transportista de gas natural, operando bajo un marco regulado.
-* **Contexto Reciente de Mercado:** Según noticias recientes de la última semana de octubre de 2026 (por ejemplo, *Economía Digital*, 29 de octubre de 2026), el valor bursátil de la compañía sigue estando condicionado por desinversiones pasadas y apuestas de inversores institucionales y grandes magnates (como Amancio Ortega), cotizando con valoraciones atractivas por dividendo pero con múltiplos de endeudamiento a vigilar.
-
-#### 2. Datos Financieros Clave y Valoración Actual
-Los datos cuantitativos basados en el último snapshot disponible de `ENG.MC` son los siguientes:
-* **Precio de Cierre (30 de octubre de 2026):** 17,68 EUR
-* **Capitalización Bursátil:** ~4.602 millones de EUR
-* **PER (Trailing):** 13,0x
-* **PER (Forward):** 15,67x
-* **Precio / Valor en Libros (P/B):** 1,93x
-* **EV / EBITDA:** 16,99x
-* **BPA (Trailing):** 1,36 EUR | **BPA (Forward):** 1,128 EUR
-* **Rentabilidad por Dividendo (*Dividend Yield*):** 5,66% (con un dividendo de 1,00 EUR por acción y un *payout ratio* estimado en torno al 79,96%)
-* **Deuda Neta / EBITDA:** 6,15x (indicador de apalancamiento elevado, típico de infraestructuras reguladas intensivas en capital)
-* **Consenso de Analistas:** Precio objetivo medio de 17,17 EUR (con un rango bajo de 13,0 EUR y alto de 19,8 EUR; número de opiniones: 20). Con el precio actual de 17,68 EUR, la acción cotiza ligeramente por encima del precio objetivo medio del consenso, arrojando una perspectiva de *upside* negativa de -2,88%.
-
-#### 3. Estados Financieros Históricos
-Basado en los informes anuales recopilados para los últimos ejercicios:
-
-* **Cuenta de Resultados (Ingresos, EBITDA y Beneficio Neto):**
-  * *Ejercicio 2025:* Ingresos Totales de 960,40 M€, EBITDA de 762,75 M€ y Beneficio Neto de 339,11 M€.
-  * *Ejercicio 2024:* Ingresos Totales de 905,55 M€, EBITDA deprimido a 80,65 M€ por impactos extraordinarios/provisiones, y un resultado neto negativo de -299,31 M€.
-  * *Ejercicio 2023:* Ingresos Totales de 907,57 M€, EBITDA de 810,84 M€ y Beneficio Neto de 342,53 M€.
-
-* **Balance de Situación (Activos, Deuda y Patrimonio Neto):**
-  * *Ejercicio 2025:* Activos Totales de 6.823,44 M€, Deuda Total de 2.822,89 M€ y Fondos Propios (*Stockholders Equity*) de 2.301,11 M€.
-  * *Ejercicio 2024:* Activos Totales de 7.495,94 M€, Deuda Total de 3.313,73 M€ y Fondos Propios de 2.375,76 M€.
-  * *Ejercicio 2023:* Activos Totales de 8.507,27 M€, Deuda Total de 3.806,16 M€ y Fondos Propios de 2.983,69 M€.
-  * *(Observación de desapalancamiento: La compañía ha reducido progresivamente su deuda total desde los 3.800 M€ en 2023 hasta los ~2.822 M€ al cierre de 2025).*
-
-* **Flujos de Caja (Operativo, Capex y FCF):**
-  * *Ejercicio 2025:* Flujo de Caja Operativo de 212,54 M€, Capex de -118,12 M€ y Flujo de Caja Libre (*Free Cash Flow*) de 94,42 M€.
-  * *Ejercicio 2024:* Flujo de Caja Operativo de 454,99 M€, Capex de -97,89 M€ y FCF de 357,10 M€.
-  * *Ejercicio 2023:* Flujo de Caja Operativo de 568,84 M€, Capex de -156,97 M€ y FCF de 411,87 M€.
-
-#### 4. Análisis Técnico Breve
-* **Tendencia y Medias Móviles:** El precio se sitúa en 17,68 EUR, por encima de su SMA20 (16,99 EUR), SMA50 (16,77 EUR) y SMA200 (16,10 EUR), lo que demuestra un sesgo alcista a medio y largo plazo.
-* **Momentum:** RSI de 14 sesiones en 73,08, lo que indica condiciones de sobrecompra técnica a corto plazo. MACD positivo (0,287) por encima de su línea de señal (0,204).
-* **Rentabilidad Reciente:** Retorno a 21 días del 7,54% y a 252 días del 35,75%, superando al índice de referencia (^IBEX) en el tramo de 63 sesiones por un margen de +11,71 pp.
-
-#### 5. Evidencia Externa y Noticias
-* **Titulares y contexto macroeconómico:** Durante la última semana de octubre de 2026, los mercados europeos y el Ibex 35 han experimentado dudas y volatilidad debido a las decisiones de tipos del Banco Central Europeo (mantenidos en el 2,5% a finales de octubre de 2026) y la atención puesta en los riesgos energéticos e inflacionarios. En el ámbito corporativo específico de `ENG.MC`, la prensa económica destaca la evolución de su cotización frente a grandes inversores y su atractiva retribución al accionista.
-
-#### 6. Datos Faltantes y Limitaciones
-* No se dispone de un desglose detallado de operaciones de *insiders* para la última semana en los datos precargados.
-* Las estimaciones de analistas son de carácter consensual y no representan una valoración intrínseca absoluta.
+### 1. Perfil de la Compañía y Contexto de Mercado
+* **Identidad y Negocio:** Enagás, S.A. es el principal gestor técnico del sistema gasista en España y transportista de gas natural, operando bajo un marco regulado. Asimismo, participa en proyectos internacionales estratégicos y vectores energéticos de transición (hidrógeno verde).
+* **Capitalización Bursátil y Valoración:** La capitalización de mercado asciende a aproximadamente **4.600 millones de EUR** (`4.602.069.504 EUR`). 
+* **Cotización y Ratios Clave:** 
+  * Precio de cierre reciente (30 de octubre de 2026): **17,68 EUR**.
+  * PER (*Trailing P/E*): **13,0x**, mientras que el *Forward P/E* estimado se sitúa en **15,67x**.
+  * Ratio Precio/Valor en Libros (*Price-to-Book*): **1,93x**.
+  * EV/EBITDA: **16,99x**.
+  * Rentabilidad por Dividendo (*Dividend Yield*): Atractiva tasa del **5,66%** (con un *Dividend Rate* de 1,00 EUR por acción y un *payout ratio* aproximado del 79,96%).
+  * Valor de consenso de analistas (*Target Mean Price*): **17,17 EUR** (con un rango entre un mínimo de 13,00 EUR y un máximo de 19,80 EUR, basado en la opinión de 20 analistas, lo que arroja una rentabilidad potencial de consenso de **-2,88%** frente al precio actual).
 
 ---
 
-### Resumen en Tabla (Puntos Clave)
+### 2. Análisis Financiero (Estados Financieros)
+Los datos financieros extraídos de los informes anuales muestran la siguiente evolución:
 
-| Concepto Fundamental / Técnico | Valor / Métrica | Comentarios / Observaciones |
-| :--- | :--- | :--- |
-| **Ticker y Mercado** | `ENG.MC` (MCE) | Enagás, S.A., sector Utilities (Gas Regulado). |
-| **Precio de Cierre** | 17,68 EUR | Cotización a fecha 30/10/2026. |
-| **Capitalización Bursátil** | ~4.6
+* **Cuenta de Resultados (Ingresos y Beneficios):**
+  * *Ingresos Totales:* En el ejercicio 2025 alcanzaron los **960,4 millones de EUR**, recuperándose respecto a los 905,5 millones de 2024 y los 907,5 millones de 2023.
+  * *EBITDA:* Se situó en **762,75 millones de EUR** en 2025, repuntando significativamente frente a la abrupta caída sufrida en 2024 (80,6 millones de EUR afectados por deterioros/ajustes extraordinarios) y acercándose a los niveles de 2023 (810,8 millones de EUR).
+  * *Beneficio Neto (*Net Income*):* En 2025 la compañía volvió a registrar beneficios netos positivos por **339,11 millones de EUR**, revirtiendo las pérdidas de **-299,31 millones de EUR** reportadas en 2024 y recuperando la normalidad operativa frente a los 342,5 millones de EUR de 2023.
+
+* **Balance de Situación:**
+  * *Activos Totales:* Reducción escalonada desde los 8.507 millones de EUR en 2023 hasta los **6.823,4 millones de EUR** al cierre de 2025, reflejando procesos de optimización de activos y desinversiones.
+  * *Deuda Total:* Disminución destacable de la deuda financiera total, pasando de 3.806 millones de EUR en 2023 a **2.822,8 millones de EUR** al cierre de 2025 (la cifra actual consolidada de deuda total según datos recientes se sitúa en torno a los 3.155 millones de EUR, con un efectivo de 537 millones de EUR).
+  * *Ratio de Endeudamiento:* El indicador de Deuda Neta sobre EBITDA se sitúa en **6,15x**, un nivel elevado propio de infraestructuras reguladas intensivas en capital, aunque respaldado por flujos estables.
+  * *Patrimonio Neto (*Stockholders Equity*):* **2.301 millones de EUR** al cierre de 2025.
+
+* **Flujos de Caja (*Cash Flow*):**
+  * *Flujo de Caja Operativo:* 212,5 millones de EUR en 2025 (frente a los 454,9 millones de 2024).
+  * *Inversiones (*CapEx*):* Controladas en **-118,1 millones de EUR** en 2025.
+  * *Flujo de Caja Libre (*Free Cash Flow*):* Positivo en **94,4 millones de EUR** para 2025 (y con estimaciones de FCF recientes a nivel de balance de 192,7 millones de EUR).
+
+---
+
+### 3. Análisis Técnico
+* **Precio actual:** 17,68 EUR (`ENG.MC`).
+* **Medias Móviles:** La cotización se encuentra por encima de sus principales medias móviles de corto y largo plazo (SMA 20 en 16,98 EUR, SMA 50 en 16,77 EUR y SMA 200 en 16,10 EUR), lo que denota una clara tendencia alcista sostenida en los últimos meses.
+* **RSI (14):** En **73,07**, situándose en zona de sobrecompra técnica a corto plazo, lo que sugiere prudencia ante posibles correcciones técnicas o fases de consolidación.
+* **MACD:** Positivo en 0,287, por encima de su línea de señal (0,204), confirmando el impulso alcista actual.
+* **Rentabilidades Históricas:** Retorno a 21 sesiones del +7,54% y a 252 sesiones (anual) del **+35,74%**, superando significativamente el comportamiento relativo frente al mercado general.
+
+---
+
+### 4. Noticias Recientes y Entorno Macroeconómico
+* Las recientes publicaciones de prensa especializada (octubre de 2026) destacan el comportamiento defensivo de Enagás en bolsa, siendo señalada como una de las apuestas destacadas de grandes inversores (como Amancio Ortega), aunque con valoraciones bursátiles aún por debajo de los precios históricos de adquisición de paquetes accionariales significativos.
+* El entorno macroeconómico europeo viene marcado por la pausa en los tipos de interés por parte del Banco Central Europeo (BCE) situada en el 2,5% a finales de octubre de 2026, lo cual favorece a los valores de alta rentabilidad por dividendo (*yield*) como las *utilities* reguladas al estabilizar los costes de financiación de su deuda.
+
+---
+
+### 5. Datos Faltantes y Limitaciones
+* No se dispone de un desglose detallado de las transacciones de iniciados (*insider transactions*) específicas de la última semana en los datos suministrados.
+* Las estimaciones de analistas y precios objetivos constituyen proyecciones de consenso y no deben interpretarse como valoraciones intrínsecas cerradas.
+
+---
+
+### 6. Conclusión e Insights Accionables para Traders
+* **Aspectos Favorables:** Sólida recuperación de la rentabilidad neta en 2025, reducción progresiva de la deuda en el balance comparativo plurianual, tendencia técnica fuertemente alcista y un dividendo muy atractivo del **5,66%** respaldado por flujos regulados.
+* **Riesgos / Puntos de

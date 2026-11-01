@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La cotizacion de GRF.MC a 10,975 EUR muestra un fuerte impulso tecnico reciente con el RSI en sobrecompra (72,72) y una tendencia alcista por encima de sus medias moviles, respaldada por fundamentales en recuperacion y un PER forward atractivo de 9,86x. Sin embargo, el elevado apalancamiento con una deuda neta sobre EBITDA de 5,36x y la proximidad de eventos criticos de deuda y margenes aconsejan mantener la posicion sin realizar nuevas compras hasta que se confirme una consolidacion saludable de los niveles actuales.
+**Reasoning**: La cotizacion de GRF.MC se situa en 10.975 EUR superando resistencias recientes y mostrando un fuerte impulso tecnico con un RSI de 72.72 que sugiere sobrecompra a corto plazo. Aunque los fundamentales muestran una mejora en el beneficio neto y un PER forward atractivo frente al objetivo de consenso, el elevado apalancamiento con una ratio de deuda neta sobre EBITDA de 5.36x justifica mantener una postura prudente.
 
 **Entry Price**: not provided
 
 **Stop Loss**: not provided
 
-**Position Sizing**: not provided
+**Position Sizing**: Mantener posicion actual sin ampliaciones adicionales.
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

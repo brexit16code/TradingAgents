@@ -1,44 +1,69 @@
-**Rating**: REVIEW
+**Rating**: HOLD  
+**FINAL TRANSACTION PROPOSAL**: HOLD  
 
-### Informe de Investigación y Análisis Macroeconómico y Sectorial: Naturgy Energy Group, S.A. (`NTGY.MC`)
+# Informe de Análisis y Estado de Situación para Naturgy Energy Group, S.A. (`NTGY.MC`)
 
-#### 1. Contexto Macroeconómico Global y Sectorial (España / Eurozona)
-A finales de octubre de 2026, el entorno macroeconómico europeo viene marcado por las decisiones y advertencias del Banco Central Europeo (BCE). En sus reuniones de finales de octubre de 2026, el BCE decidió **mantener los tipos de interés en el 2,5%**, aunque advirtió de riesgos al alza para la inflación y la estabilidad del crecimiento económico impulsados principalmente por el comportamiento de los precios de la energía (*20Minutos*, 29-10-2026; *Estrategias de Inversión*, 29-10-2026). 
+## 1. Resumen Ejecutivo y Estado Macrofinanciero
+A fecha de 1 de noviembre de 2026, el entorno macroeconómico europeo muestra dinámicas mixtas. Según la cobertura de noticias financieras de finales de octubre de 2026, el Banco Central Europeo (BCE) ha decidido mantener los tipos de interés en el 2,5%, con la atención de los mercados centrada en las perspectivas inflacionarias y las posibles decisiones de la reunión de diciembre. El índice bursátil de referencia, el IBEX 35, se ha movido en torno a los 18.700 - 18.800 puntos, presionado de forma reciente por el sector bancario y las dudas sobre las tecnológicas, mientras que valores energéticos como Repsol y Naturgy centran la atención por sus planes estratégicos y pagos de dividendos.
 
-Los mercados bursátiles europeos y el Ibex 35 se han mostrado mixtos y volátiles. El selectivo español ha sufrido presiones bajistas recientes lastrado por el sector bancario (que experimentó descensos a pesar de registrar beneficios récord) y por dudas sobre el sector tecnológico y de materias primas (*Cinco Días*, 30-10-2026; *El Conciso*, 30-10-2026). A pesar de este contexto de cautela, las empresas energéticas y cotizadas de servicios públicos (*utilities*) mantienen el foco en su retribución al accionista, destacando que en noviembre de 2026 se abonan nuevos pagos de dividendos en el Ibex 35, entre los que figura **Naturgy** (*Finect*, 30-10-2026).
+Para la empresa bajo análisis, **Naturgy Energy Group, S.A.** (`NTGY.MC`), cotizada en el mercado continuo español (MCE) y perteneciente al sector de *Utilities* (específicamente regulada en gas y electricidad), el contexto reciente viene marcado por la presentación de sus resultados financieros y el anuncio de importantes planes de inversión y retribución al accionista.
 
-#### 2. Análisis Fundamental y Resultados Recientes de `NTGY.MC`
-Naturgy Energy Group, S.A. (`NTGY.MC`) ha presentado recientemente sus resultados financieros y actualización estratégica de finales de octubre de 2026, generando gran atención en los mercados (*Merca2.es*, 29-10-2026):
-* **Resultados y Previsiones:** La compañía ha reportado unos beneficios netos de 1.758 millones de euros y ha elevado sus previsiones de beneficio neto anual hasta los **2.200 millones de euros** (*Merca2.es*, 29-10-2026).
-* **Plan Estratégico y de Inversión:** Naturgy ha reservado un ambicioso plan de **12.000 millones de euros** destinados a crecer fuera de España, con un fuerte foco en el sector eléctrico internacional (*CapitalMadrid*, 30-10-2026; *Merca2.es*, 29-10-2026).
-* **Valoración de Analistas y Perspectivas:** A pesar de la mejora de previsiones, casas de análisis como Renta 4 señalan que el valor muestra un recorrido bursátil limitado a corto plazo (*Bolsamania*, 29-10-2026). Por su parte, Morningstar ha publicado su revisión de opinión tras los resultados (*Morningstar*, 30-10-2026).
-* **Métricas Fundamentales Clave (Datos provistos):**
-  - Capitalización bursátil: ~27.477 millones de EUR.
-  - PER histórico (Trailing PE): ~13,73x | PER adelantado (Forward PE): ~13,78x.
-  - Deuda Neta / EBITDA: ~2,42x (Total de deuda de ~17.313 millones de EUR frente a un EBITDA de ~5.161 millones de EUR).
-  - Rentabilidad por dividendo (*Dividend Yield*): Atractiva, situada en el **5,97%** (con un dividendo ordinario por acción y un *payout ratio* estimado en torno al 75,9%).
-  - Precio objetivo de consenso (*Target Mean Price*): 31,22 EUR (con un rango entre un mínimo de 24,30 EUR y un máximo de 35,00 EUR según 18 analistas), lo que arroja un potencial alcista de consenso (*consensus upside*) del **5,26%** frente al precio de cierre reciente de 29,66 EUR.
+---.
 
-#### 3. Análisis Técnico (`NTGY.MC`)
-* **Precio de Cierre (30-10-2026):** 29,66 EUR (con una variación del -0,47% en la sesión).
-* **Medias Móviles:** La cotización se encuentra muy próxima a su media móvil de 50 sesiones (SMA50 en 29,75 EUR) y por debajo de su media de 20 sesiones (SMA20 en 30,24 EUR), aunque se mantiene claramente por encima de la media de 200 sesiones (SMA200 en 27,49 EUR), evidenciando una tendencia estructural de fondo alcista a medio/largo plazo, pero con consolidación a corto plazo.
-* **Osciladores e Indicadores de Momento:** 
-  - RSI (14) en 44,28, reflejando una zona neutral ligeramente sesgada a la baja o de consolidación.
-  - MACD en 0.147 con la línea de señal en 0.265, mostrando una ligera presión bajista a corto plazo o pausa tras las últimas subidas.
-* **Volatilidad y Retornos:** Volatilidad del 14,93% anualizada. Retorno a 21 sesiones del +2,21% y a 252 sesiones del +15,75%.
+## 2. Análisis Fundamental y Financiero
+Basado en los estados financieros y métricas fundamentales facilitados en el contexto (cierre a diciembre de 2025 y datos de mercado actuales):
 
-#### 4. Evidencia Contaria y de Apoyo, Supuestos y Datos Faltantes
-* **Apoyo:** Sólida generación de caja operativa, mejora en las guías de beneficio (hasta 2.200 millones), ratio de endeudamiento moderado (Deuda Neta/EBITDA de 2,42x) y una generosa retribución vía dividendo (~5,97% de rendimiento) que sostiene el atractivo para inversores defensivos.
-* **Contraria:** Cierto escepticismo de analistas (como Renta 4) sobre el recorrido alcista adicional en bolsa tras las últimas subidas (*Bolsamania*, 29-10-2026); el potencial de subida al precio objetivo de consenso es estrecho (~5,26%). El entorno macroeconómico europeo muestra incertidumbre con los tipos del BCE anclados en el 2,5% y alertas de presiones inflacionistas energéticas.
-* **Datos Faltantes:** No se dispone en la instantánea de datos detallados en tiempo real sobre flujos de caja operativos y libres correspondientes estrictamente al ejercicio en curso (los estados muestran cierres anuales hasta 2025). 
+- **Capitalización de Mercado**: 27.476,83 millones de EUR.
+- **Cotización de Cierre**: 29,66 EUR (a 30 de octubre de 2026).
+- **Rango de Valoración Consenso**: El precio objetivo medio de los analistas (*targetMeanPrice*) se sitúa en **31,22 EUR** (con un rango bajo de 24,30 EUR y alto de 35,00 EUR basado en 18 opiniones de analistas). Esto ofrece un potencial de revalorización (*consensus upside*) del **5,26%**.
+- **Múltiplos de Valoración**: 
+  - *Trailing P/E*: 13,73x
+  - *Forward P/E*: 13,78x
+  - *EV/EBITDA*: 8,17x
+  - *Price to Book*: 3,27x
+- **Dividendos**: Ofrece una rentabilidad por dividendo (*dividend yield*) atractiva del **5,97%** (con un *dividend rate* de 1,77 EUR y un *payout ratio* de aproximadamente el 75,9%). Noticias recientes de fines de octubre e inicios de noviembre de 2026 confirman los calendarios de pago de dividendos, destacando el atractivo de la compañía para inversores orientados a rentas.
+- **Balance y Deuda**: 
+  - Deuda Total: ~16.747 millones de EUR (cierre 2025) / 17.313 millones de EUR (según métricas actuales).
+  - Efectivo Total: ~4.841 millones de EUR.
+  - Deuda Neta / EBITDA: **2,42x**, lo que refleja una estructura de apalancamiento controlada para una utility integrada.
 
----
+En cuanto a su cuenta de resultados histórica reciente:
+- **Ingresos Totales**: 19.455 millones de EUR (2025), frente a los 19.267 millones de EUR (2024) y 22.617 millones de EUR (2023).
+- **EBITDA**: 5.543 millones de EUR en 2025 (superando los 5.471 millones de EUR de 2024 y los 5.192 millones de EUR de 2023).
+- **Beneficio Neto (*Net Income*)**: 2.023 millones de EUR (2025), consolidando la tendencia alcista respecto a 2024 (1.901 millones de EUR).
 
-FINAL TRANSACTION PROPOSAL: REVIEW
+Recientes publicaciones señalan que Naturgy planea inversiones del orden de 12.000 millones de euros orientadas al crecimiento fuera de España en el sector eléctrico, manteniendo al mismo tiempo las expectativas de mejora en sus previsiones, aunque firmas como Renta 4 advierten que el recorrido actual en bolsa podría ser limitado (*Bolsamania*, 29 de octubre de 2026).
 
-| Aspecto Clave | Detalle / Métrica | Implicación para el Trading / Análisis |
-| :--- | :--- | :--- |
-| **Precio Actual (`NTGY.MC`)** | 29,66 EUR (-0,47% a 30-10-2026) | Consolidación técnica alrededor de la SMA50 (29,75 EUR). |
-| **Valoración (PER / EV-EBITDA)** | PER 13,73x / EV-EBITDA 8,17x | Valoración razonable frente a la mediana sectorial (`peer median forward PE`: ~15,98x). |
-| **Dividend Yield** | 5,97% (Con dividendo en noviembre) | Atractivo flujo de rentabilidad para carteras defensivas y por dividendos. |
-| **Catalizador Fundamental** | Beneficios revisados al alza (2.200M€) y plan de 12.000M€ de inversión exterior | Impulso operativo positivo a medio plazo, aunque con dudas de corto recorrido
+---.
+
+## 3. Análisis Técnico
+A fecha de 30 de octubre de 2026, los indicadores técnicos de `NTGY.MC` muestran:
+- **Precio**: 29,66 EUR.
+- **RSI (14)**: 44,28, lo que indica una zona neutral (sin sobrecompra ni sobreventa).
+- **MACD**: 0,147 (con línea de señal en 0,265), sugiriendo un impulso plano a ligeramente bajista en el corto plazo.
+- **Medias Móviles**: 
+  - SMA20: 30,24 EUR
+  - SMA50: 29,75 EUR
+  - SMA200: 27,49 EUR
+  - La cotización se encuentra ligeramente por debajo de su media de 20 sesiones, pero por encima de la media de largo plazo (SMA200), lo que denota una tendencia estructural alcista moderada pero consolidada en el medio plazo.
+- **Volatilidad (14d/anualizada)**: 14,93%, propia del perfil defensivo del sector regulado.
+- **Drawdown**: -4,63% desde máximos recientes, demostrando resiliencia frente a la volatilidad general de los mercados europeos.
+
+---.
+
+## 4. Evidencia, Fuentes y Datos Faltantes
+- **Fuentes citadas**: Yahoo Finance (perfil, datos fundamentales y técnicos de `NTGY.MC`), artículos de prensa financiera (*El Economista*, *Finect*, *Morningstar*, *CapitalMadrid*, *Bolsamania*, *Cinco Días*, *Bankinter*, *Estrategias de Inversión*) fechados entre el 29 de octubre y el 1 de noviembre de 2026.
+- **Datos faltantes**: No se dispone de flujos de caja operativos (*Operating Cashflow*) y libres (*Free Cashflow*) actualizados en tiempo real dentro del resumen de métricas fundamentales actuales (aunque se registran en los estados financieros anuales de 2025 con un FCF de 2.376 millones de EUR). Tampoco se dispone de un desglose detallado de la asignación hipotética de carteras particulares.
+
+---.
+
+## 5. Tabla Resumen de Puntos Clave
+
+| Categoría | Métrica / Indicador | Valor / Condición Actual | Implicación para el Trading / Inversión |
+| :--- | :--- | :--- | :--- |
+| **Valoración** | Precio de Cierre (`NTGY.MC`) | 29,66 EUR (30/10/2026) | Estable, cotizando cerca de sus medias móviles de corto plazo. |
+| **Valoración** | PER Operativo / Forward | ~13,78x | Valoración razonable en comparación con la mediana del sector. |
+| **Consenso** | Precio Objetivo Medio | 31,22 EUR | Potencial alcista limitado al ~5,26% frente al precio actual. |
+| **Rentabilidad** | Dividend Yield | 5,97% | Muy atractivo para estrategias de rentas e inversores defensivos. |
+| **Solvencia** | Deuda Neta / EBITDA | 2,42x | Apalancamiento moderado y manejable para una utility regulada. |
+| **Técnico** | RSI

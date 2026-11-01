@@ -1,49 +1,32 @@
-**Rating**: HOLD  
-FINAL TRANSACTION PROPOSAL: Mantener posición actual en espera de confirmación de ruptura de soportes clave y evolución de catalizadores pendientes (Wizink, Santalucía y presidencia).
+El análisis técnico y fundamental de **Unicaja Banco, S.A. (`UNI.MC`)** al cierre del 30 de octubre de 2026 revela una situación de consolidación dentro de una tendencia alcista a largo plazo, enfrentando una presión vendedora coyuntural en el sector financiero europeo.
 
----
+### Análisis Técnico
+Con un cierre de **3,17 EUR**, el valor cotiza por debajo de su media móvil de 50 sesiones (**3,40 EUR**) y ligeramente por debajo de la de 20 sesiones (**3,22 EUR**), lo que indica una fase de debilidad a corto plazo. Sin embargo, mantiene una estructura de soporte relevante en su media de 200 sesiones (**2,95 EUR**).
 
-### Análisis detallado y nuancido de la tendencia para `UNI.MC` (Unicaja Banco, S.A.)
+*   **Momentum y Volatilidad:** El RSI(14) en **40,07** sugiere una posición neutral, sin entrar aún en territorio de sobreventa, lo que indica que el mercado aún tiene espacio para ajustar. El MACD (**-0,067**) y su señal (**-0,071**) se encuentran en terreno negativo pero convergiendo, lo que podría señalar una estabilización si la línea MACD cruza al alza la señal.
+*   **Tendencia:** A pesar de la caída del 6,7% en los últimos 21 días, el rendimiento a 252 días es positivo (+40,55%), confirmando que la tendencia de fondo sigue siendo alcista.
 
-#### 1. Contexto de Mercado y Entorno Macroeconómico
-A fecha de 1 de noviembre de 2026, el sector bancario europeo y español experimenta episodios de volatilidad y corrección bursátil a pesar de reportar sólidos resultados corporativos. El Banco Central Europeo (BCE) mantuvo recientemente los tipos de interés oficiales en el **2,5%** en su reunión de finales de octubre de 2026, advirtiendo simultáneamente sobre riesgos persistentes en la inflación y el crecimiento vinculados a factores energéticos y tensiones geopolíticas regionales. Esta pausa y la cautela general de los mercados han afectado a la cotización del sector financiero, tal como reflejan las crónicas bursátiles de finales de octubre de 2026 (*Cinco Días*, *El Boletín*).
+### Análisis Fundamental
+Unicaja presenta resultados sólidos: un beneficio de **543 millones de euros** hasta septiembre de 2026 (un aumento del 8,1%). A pesar de esto, el mercado ha reaccionado con cautela, afectado por el sentimiento negativo del sector financiero europeo (*Cinco Días, 2026-10-30*).
 
-#### 2. Desempeño Financiero y Resultados Recientes (Q3 2026)
-Unicaja Banco (`UNI.MC`) presentó a finales de octubre de 2026 sus resultados correspondientes a los primeros nueve meses del año, reportando un **beneficio neto de 543 millones de euros**, lo que representa un incremento del **8,1%** en comparación con el mismo periodo del ejercicio anterior. Este avance estuvo impulsado por el crecimiento general del negocio y la mejora de los márgenes de intermediación, batiendo las previsiones iniciales del consenso de mercado (*20Minutos*, *Radio Intereconomía*, *CLM24*). 
+*   **Valoración:** Con un **PER forward de 11,28** y un **P/B ratio de 1,28**, la entidad cotiza a múltiplos razonables para el sector de banca regional en España.
+*   **Dividendos:** Destaca una rentabilidad por dividendo atractiva cercana al **6%**, lo cual ofrece un soporte psicológico y de valor para los inversores a largo plazo.
+*   **Desafíos:** La entidad enfrenta presiones operativas, incluyendo un incremento de 11 millones de euros en costes laborales (*Economía Digital, 2026-10-31*).
 
-Asimismo, la entidad confirmó la retribución al accionista mediante el pago de un dividendo de **6,42 céntimos de euro** por acción (*Benzinga España*). No obstante, la compañía también asume presiones por el lado de los costes, destacando un incremento de 11 millones de euros en sobrecoste laboral derivado de nuevas contrataciones y de la aplicación del convenio colectivo (*Economía Digital*). Además, el mercado sigue muy pendiente de tres asuntos corporativos clave aún sin resolver: las operaciones o participaciones vinculadas a **Wizink**, **Santalucía**, y la designación definitiva del **nuevo presidente** (*Hispanidad*).
+### Consideraciones Estratégicas
+El sentimiento actual se ve afectado por el entorno de tipos del BCE (2,5%) y las dudas sobre las perspectivas inflacionistas. La discrepancia entre la solidez de los beneficios reportados y la reciente caída en bolsa sugiere que el mercado está descontando posibles riesgos de márgenes futuros, a pesar de que el BPA esperado para el futuro próximo (0,28 EUR) sigue siendo superior al actual (0,26 EUR).
 
-#### 3. Análisis Técnico y Valoración (Datos con soporte verificado)
-Con un precio de cierre de **3,17 EUR** a fecha de 30 de octubre de 2026 y una capitalización bursátil aproximada de **8.145,54 millones de euros**, `UNI.MC` muestra los siguientes indicadores técnicos y fundamentales clave:
-- **RSI (14)**: Situado en **40,07**, reflejaría una zona neutral con sesgo bajista a corto plazo, sin alcanzar todavía condiciones estrictas de sobreventa.
-- **MACD**: Muestra un valor de **-0,067**, con su línea de señal (`macd_signal`) en **-0,071**, sugiriendo una presión de momentum ligeramente negativa pero con una convergencia estrecha.
-- **Medias Móviles**: 
-  - SMA 20: **3,22 EUR**
-  - SMA 50: **3,40 EUR**
-  - SMA 200: **2,95 EUR** (actuando como referencia de soporte a largo plazo).
-- **Valoración y Múltiplos**:
-  - PER histórico (*trailing PE*): **12,19x**
-  - PER estimado (*forward PE*): **11,28x**
-  - Ratio Precio/Valor en Libros (*priceToBook*): **1,29x** (con un valor contable por acción de **2,465 EUR**).
-  - Rentabilidad por dividendo (*dividendYield*): En torno al **6,02%** anual, respaldado por un `payoutRatio` del **73,82%**.
-- **Consenso de Analistas**: El precio objetivo medio fijado por el consenso (*targetMeanPrice*) se sitúa en **3,23 EUR** (con un rango entre 2,80 EUR y 3,90 EUR aportado por 18 analistas), lo que ofrece un potencial de revalorización limitado (*upside*) de aproximadamente el **2,03%** desde el nivel actual de 3,17 EUR.
+**Rating**: Neutral
 
-#### 4. Datos Faltantes y Limitaciones
-Los estados financieros reportan flujos de caja operativos negativos para los ejercicios recientes (ej. -1.420 millones de euros en el cierre de 2025), lo cual es habitual en la contabilidad y presentación de partidas corporativas/bancarias consolidadas bajo normas IFRS en grandes entidades de depósito, pero requiere cautela analítica al no disponer de un desglose detallado de caja operativa equivalente al de empresas industriales. Asimismo, no se cuenta con proyecciones cerradas más allá del consenso de analistas para los ejercicios subsiguientes a 2026.
+**FINAL TRANSACTION PROPOSAL**: El inversor debe observar el soporte en los 2,95 EUR (SMA200). Dada la volatilidad del 21,34% y la presión del sector bancario, no se recomienda una entrada agresiva hasta que el MACD confirme un cruce positivo o el precio recupere la SMA20.
 
----
-
-### Resumen Estructurado (Tabla Clave)
-
-| Categoría / Indicador | Valor / Métrica | Observaciones y Lectura Analítica |
+| Indicador | Valor | Interpretación |
 | :--- | :--- | :--- |
-| **Precio de Cierre** (`UNI.MC`) | 3,17 EUR | Cotización a 30/10/2026, bajo presión correctiva sectorial. |
-| **RSI (14)** | 40,07 | Zona neutral-débil, sin sobreventa extrema. |
-| **MACD / Señal** | -0,067 / -0,071 | Momentum ligeramente negativo pero con convergencia técnica. |
-| **Medias Móviles (SMA 20 / 50 / 200)** | 3,22 EUR / 3,40 EUR / 2,95 EUR | Precio por debajo de SMA 20 y SMA 50; SMA 200 actúa como soporte estructural. |
-| **Beneficio Neto (Q3 2026)** | 543 millones de EUR | Crecimiento interanual del 8,1%, batiendo previsiones del mercado. |
-| **Rentabilidad por Dividendo** | ~6,02% (Dividendo: 0,19 EUR) | Atractivo retorno para el inversor de valor, con `payout` del 73,82%. |
-| **Valoración (PER / P/B)** | PER fwd: 11,28x / P/B: 1,29x | Valoración intermedia en comparación con el sector bancario español. |
-| **Consenso Analistas** | 3,23 EUR (Target Medio) | Potencial alcista limitado a corto plazo (~2,03% sobre el precio actual). |
+| Precio Cierre | 3,17 EUR | Por debajo de SMA20 y SMA50 |
+| SMA 200 | 2,95 EUR | Soporte clave de largo plazo |
+| RSI 14 | 40,07 | Neutral, tendencia bajista a corto plazo |
+| P/B Ratio | 1,28 | Valoración equilibrada sectorial |
+| Div. Yield | 6,02% | Atractivo para retención |
+| Tendencia 252d | +40,55% | Tendencia estructural alcista |
 
-*Fuentes de referencia citadas:* Datos extraídos del snapshot verificado de mercado (`UNI.MC`), comunicados de resultados de Q3 2026 recogidos por *CLM24*, *20Minutos*, *Radio Intereconomía*, y noticias macroeconómicas y corporativas de *Cinco Días*, *Economía Digital* e *Hispanidad* (octubre de 2026).
+*Nota: La información se basa en datos a fecha 2026-11-01. Faltan datos granulares sobre el flujo de caja operativo actual y el impacto exacto de las provisiones futuras de capital, lo que podría alterar el fair value calculado por los analistas (consenso 3,23 EUR).*

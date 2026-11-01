@@ -1,50 +1,73 @@
-**Rating**: HOLD  
-FINAL TRANSACTION PROPOSAL: Mantener posición / Esperar consolidación
+**Análisis Técnico y Fundamental de Iberdrola, S.A. (`IBE.MC`)**
+
+**1. Resumen Ejecutivo e Identidad del Instrumento**
+- **Empresa:** Iberdrola, S.A. (`IBE.MC`)
+- **Clasificación de Negocio:** Utilities / Utilities - Diversified
+- **Bolsa / Moneda:** MCE (Madrid) / EUR
+- **Índice de Referencia:** `^IBEX`
+- **Fecha de Análisis:** 1 de noviembre de 2026 (datos de precio y técnico al cierre del 30 de octubre de 2026).
+- **Precio de Cierre Actual:** 22.18 EUR (`IBE.MC`)
+- **Rating:** HOLD
+- **FINAL TRANSACTION PROPOSAL:** HOLD
 
 ---
 
-### Informe de Análisis Técnico y Fundamental: Iberdrola, S.A. (`IBE.MC`)
-
-#### 1. Contexto de Mercado y Datos Verificados
-A fecha de 1 de noviembre de 2026 (con datos de sesión al 30 de octubre de 2026), el valor cotiza a **22,18 EUR** en la bolsa de Madrid (`IBE.MC`), registrando una ganancia del 0,36% en su última sesión. La compañía se encuentra en una fase alcista sostenida a medio y largo plazo, respaldada por cotizaciones por encima de sus medias móviles clave:
-- **SMA 20**: 21,57 EUR
-- **SMA 50**: 20,73 EUR
-- **SMA 200**: 19,99 EUR
-- **RSI (14)**: 72,13 (zona de sobrecompra técnica).
-- **MACD**: 0,39 frente a una señal (`macd_signal`) de 0,35, lo que muestra un momento positivo continuo aunque con menor aceleración marginal.
-
-#### 2. Análisis Fundamental y Valoración
-Basado en los estados financieros y métricas recientes:
-- **Capitalización de mercado**: ~147.987 millones de EUR.
-- **PER Trailing**: 29,97x | **PER Forward**: 19,91x.
-- **Dividendo**: Ofrece una rentabilidad por dividendo (*dividend yield*) estimada del **3,07%** (con un *dividend rate* de 0,68 EUR y un *payout ratio* del 87,06%). Recientemente se ha confirmado un pago de dividendo de 0,275 euros (*Negocios.com*, 26 de octubre de 2026).
-- **Deuda y Solvencia**: La deuda neta sobre EBITDA se sitúa en torno a 3,95x (Deuda total de 63.837 millones de EUR frente a un EBITDA de 14.494 millones de EUR). 
-- **Noticias recientes**: Iberdrola ha emitido recientemente bonos verdes por valor de 1.600 millones de dólares y más de 1.400 millones de euros para financiar proyectos sostenibles y en Estados Unidos (*Bolsa Digital* y *Estrategias de Inversión*, 27 de octubre de 2026). En el plano fiscal y regulatorio, la compañía sigue navegando entornos complejos de impuestos energéticos autonómicos/locales (*Hispanidad*, 29 de octubre de 2026).
-
-#### 3. Indicadores Seleccionados para el Seguimiento Técnico (Estrategia Recomendada)
-De acuerdo con la metodología de selección de indicadores complementarios y no redundantes para vigilar el comportamiento de `IBE.MC`:
-1. `close_50_sma`: Para identificar la dirección de la tendencia a medio plazo y actuar como soporte dinámico.
-2. `close_200_sma`: Como referencia estructural a largo plazo para confirmar el sesgo alcista general.
-3. `close_10_ema`: Para capturar cambios rápidos de impulso a corto plazo y puntos de entrada tácticos.
-4. `macd`: Para evaluar la divergencia/convergencia de las medias móviles y detectar cambios de ciclo de impulso.
-5. `macds`: Como línea de señal para filtrar cruces de confirmación de operaciones.
-6. `rsi`: Para vigilar los niveles de sobrecompra actuales (RSI de 72,13) ante posibles correcciones técnicas o recortes de consolidación.
-7. `atr`: Para medir la volatilidad histórica reciente (13,05%) y dimensionar adecuadamente los niveles de *stop-loss*.
-8. `boll_ub`: Para supervisar la banda superior de Bollinger y detectar si el precio excede los límites estadísticos en este movimiento alcista.
-
-#### 4. Conclusión y Perspectiva
-Iberdrola (`IBE.MC`) muestra una solidez técnica notable y un comportamiento superior al mercado en el corto y medio plazo. No obstante, el RSI superior a 70 y un PER *forward* cercano a 20x sugieren prudencia frente a nuevas compras masivas en los niveles actuales de 22,18 EUR, aconsejando mantener las posiciones existentes y vigilar posibles tomas de beneficios o recortes hacia la media de 20 sesiones (21,57 EUR).
+**2. Análisis Técnico y Dinámica de Mercado**
+El comportamiento bursátil reciente de `IBE.MC` refleja un momento de fortaleza moderada y tendencia alcista a medio y largo plazo, respaldada por las medias móviles clave:
+- **Cierre (30/10/2026):** 22.18 EUR, con una ligera variación positiva de +0.36%.
+- **Medias Móviles:** El precio se sitúa cómodamente por encima de la SMA20 (21.57 EUR), la SMA50 (20.73 EUR) y la SMA200 (19.99 EUR), lo que confirma una estructura de tendencia alcista consolidada.
+- **RSI (14):** Se encuentra en **72.13**, situándose en la zona de sobrecompra técnica (>70). Esto advierte que, si bien el impulso comprador reciente ha sido fuerte (retorno a 21 días de +6.99% y a 252 días de +28.89%), el valor podría experimentar un movimiento de consolidación o corrección a corto plazo.
+- **MACD:** Muestra un valor de 0.386 frente a una línea de señal de 0.354, manteniendo un sesgo positivo pero con un histograma relativamente estrecho.
+- **Volatilidad:** Registra un valor anualizado del 13.05%, típico de una utility diversificada de gran capitalización.
 
 ---
 
-### Resumen de Datos Clave
+**3. Análisis Fundamental, Valoración y Estados Financieros**
+Basado en los datos suministrados en la instantánea de `IBE.MC`:
+- **Capitalización de Mercado:** ~147.990 millones de EUR.
+- **Valoración (PER):** El *Trailing P/E* se sitúa en 29.97x, mientras que el *Forward P/E* estimado se reduce a 19.91x, reflejando expectativas de mejora en los beneficios por acción futuros (EPS adelantado de 1.11 EUR frente a los 0.74 EUR actuales).
+- **Ratio Sectorial:** El ratio de PER relativo frente a sus pares cotizados (`ANE.MC`, `ENG.MC`, `ELE.MC`, `NTGY.MC`, `RED.MC`, `SLR.MC`) es de **1.25x**, indicando que `IBE.MC` cotiza con una prima de valoración respecto a la mediana del sector de servicios públicos en España.
+- **Deuda y Solvencia:** Presenta una deuda total de 63.840 millones de EUR (frente a 57.231 millones al cierre de 2025 según balance) y un apalancamiento de deuda neta sobre EBITDA de **3.95x**.
+- **Rentabilidad por Dividendo:** Ofrece un rendimiento por dividendo (*dividend yield*) del **3.07%** (dividendo anual de 0.68 EUR / tasa de pago *payout* de aproximadamente 87%).
+- **Consenso de Analistas:** El precio objetivo medio (*target mean price*) de los analistas se sitúa en **21.38 EUR** (con un rango entre 18.00 EUR y 25.00 EUR y 23 opiniones recopiladas). Dado que el precio actual de mercado es de 22.18 EUR, el título opera ligeramente por encima del consenso medio, arrojando una divergencia de **-3.60%** (*consensus upside* negativo).
+
+---
+
+**4. Evidencia de Noticias y Contexto Macroeconómico**
+Entre los acontecimientos recientes reseñados en las fuentes (octubre de 2026):
+- **Financiación Sostenible:** `IBE.MC` ha llevado a cabo emisiones de bonos verdes por valor superior a 1.400 millones de euros y 1.600 millones de dólares destinados a financiar proyectos estratégicos e infraestructuras en Estados Unidos (*Bolsa Digital* / *Estrategias de Inversión*, 27 de octubre de 2026).
+- **Retribución al Accionista:** Confirmación de pagos de dividendo (p. ej., cupón de 0.275 EUR por acción) (*Negocios.com*, 26 de octubre de 2026).
+- **Rotación de Activos:** Rumores de mercado sobre la posible venta o reestructuración del negocio de la compañía en Polonia (*Yahoo*, 26 de octubre de 2026).
+- **Contexto Macroeconómico:** Decisiones recientes del Banco Central Europeo (BCE) de mantener los tipos de interés en el 2.5% a finales de octubre de 2026, en un entorno bursátil mixto para el índice selectivo español `^IBEX`.
+- **URLs y Fuentes de Referencia:** 
+  - Datos de mercado y cotización: [Yahoo Finance IBE.MC](https://finance.yahoo.com/quote/IBE.MC/)
+  - Noticias corporativas y sectoriales recogidas mediante feeds RSS (Bankinter, Estrategias de Inversión, Negocios.com, Yahoo Finance, octubre de 2026).
+
+---
+
+**5. Supuestos, Datos Faltantes y Limitaciones**
+- **Datos faltantes:** No se dispone en la instantánea de los flujos de caja operativos o libres desglosados en métricas trimestrales exactas de 2026 (los estados financieros adjuntos cierran en el ejercicio anual 2025). 
+- **Métodos de valoración:** Las estimaciones de PER adelantado y precio objetivo reflejan el consenso de analistas (con una muestra de 23 analistas). No se han aplicado reglas de deuda industrial a entidades financieras, dado que el modelo de negocio pertenece al sector de Utilities.
+
+---
+
+**6. Selección de Indicadores Técnicos Complementarios**
+De acuerdo con las directrices metodológicas, se seleccionan los siguientes indicadores para el seguimiento operativo de `IBE.MC` sin redundancias:
+1. `close_50_sma`: Tendencia a medio plazo.
+2. `close_200_sma`: Benchmark de tendencia a largo plazo.
+3. `close_10_ema`: Captura de impulsos de corto plazo.
+4. `macd`: Indicador de convergencia/divergencia de impulso.
+5. `rsi`: Medida de condiciones de sobrecompra/sobreventa (actualmente en zona elevada).
+6. `boll_ub`: Banda superior de Bollinger para supervisar zonas de resistencia estocástica.
+7. `boll_lb`: Banda inferior de Bollinger para delimitar soportes dinámicos.
+8. `atr`: Medida de volatilidad para la gestión de riesgo y stops.
+
+---
+
+**7. Tabla Resumen Clave**
 
 | Métrica / Indicador | Valor / Estado | Implicación Analítica |
 | :--- | :--- | :--- |
-| **Precio de Cierre** | 22,18 EUR (30-10-2026) | Cotización estable en máximos recientes. |
-| **RSI (14)** | 72,13 | Zona de sobrecompra; precaución ante posibles correcciones. |
-| **Media Móvil (SMA 200)** | 19,99 EUR | Tendencia alcista estructural a largo plazo confirmada. |
-| **PER Forward** | 19,91x | Valoración exigente en relación con la media sectorial de Utilities. |
-| **Rentabilidad por Dividendo** | 3,07% | Atractivo flujo de rentabilidad para inversores por dividendo. |
-| **Deuda Neta / EBITDA** | 3,95x | Apalancamiento típico de utilities intensivas en capital. |
-| **Indicadores Seleccionados** | SMA 50, SMA 200, EMA 10, MACD, MACD Signal, RSI, ATR, Bollinger Upper | Set óptimo para seguimiento de impulso, tendencia y volatilidad sin redundancias. |
+| **Precio de Cierre (`IBE.MC`)** | 22.18 EUR | Cotiza por encima de todas las medias móviles principales. |
+| **RSI (14)** | 72.13 | Zona de sobrecompra; sugiere cautela ante posibles correcciones. |
+| **

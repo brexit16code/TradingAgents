@@ -1,57 +1,74 @@
-**Rating**: HOLD  
-FINAL TRANSACTION PROPOSAL: Mantener posición en `SAB.MC` (Banco de Sabadell, S.A.), vigilando los soportes clave en torno a la media de 200 sesiones y evaluando la reacción del valor tras la presentación de resultados a septiembre de 2026 y las decisiones de tipos del Banco Central Europeo (BCE).
+**Análisis Financiero y Técnico de Banco de Sabadell, S.A. (`SAB.MC`)**
+
+### 1. Resumen de Identidad y Contexto de Mercado
+* **Empresa**: Banco de Sabadell, S.A. (`SAB.MC`)
+* **Clasificación Sectorial**: Financial Services / Banks - Diversified
+* **Bolsa**: MCE (Madrid) en EUR, benchmark `^IBEX`.
+* **Fecha de referencia / análisis**: 1 de noviembre de 2026 (con datos de sesión al 30 de octubre de 2026).
+* **Fuentes de datos proporcionadas**: Yahoo Finance (`https://finance.yahoo.com/quote/SAB.MC/`, `https://finance.yahoo.com/quote/SAB.MC/financials/`) y noticias agregadas de Google RSS de octubre de 2026.
 
 ---
 
-### Análisis Técnico y de Tendencia para `SAB.MC`
-
-El valor cotiza a un precio de cierre de **3,435 EUR** (según la sesión del 30 de octubre de 2026), registrando una variación diaria del **-2,19%**. El análisis de las medias móviles muestra una estructura mixta:
-* **SMA 20**: 3,536 EUR
-* **SMA 50**: 3,616 EUR
-* **SMA 200**: 3,107 EUR
-
-El precio se encuentra por debajo de su media de 20 y 50 sesiones, reflejando el castigo reciente sufrido por el sector bancario europeo y español a finales de octubre de 2026 (según titulares de *Cinco Días* y *El Boletín* del 29-30 de octubre). No obstante, se mantiene holgadamente por encima de la media de 200 sesiones (**3,107 EUR**), la cual actúa como un referente estructural de tendencia alcista a largo plazo. La rentabilidad a 252 sesiones se sitúa en un **+24,58%**, evidenciando que la perspectiva anual sigue siendo favorable pese al retroceso mensual reciente (**-2,11%** en 21 sesiones y un *drawdown* del **-8,52%**).
-
-### Indicadores de Momentum y Volatilidad Seleccionados
-
-Para evaluar las condiciones operativas de `SAB.MC`, se han seleccionado los siguientes indicadores clave del marco técnico:
-1. **close_50_sma**: Para identificar la tendencia a medio plazo y vigilar la resistencia dinámica actual.
-2. **close_200_sma**: Para confirmar el soporte estructural de largo plazo.
-3. **macd**: Para captar cambios en el impulso alcista o bajista (actualmente con línea MACD en -0,034 y señal en -0,029, reflejando un sesgo de consolidación/corrección a corto plazo).
-4. **macds** (MACD Signal): Utilizada junto con el MACD para la confirmación de cruces operativos.
-5. **macdh** (MACD Histogram): Permite visualizar la pérdida o ganancia de fuerza en el impulso vigente.
-6. **rsi** (RSI de 14 periodos): Registra un valor de **41,00**, lo que indica una situación neutral con ligera inclinación hacia sobreventa, sin alcanzar niveles extremos (<30), sugiriendo ausencia de pánico vendedor generalizado.
-7. **atr**: Para calibrar la volatilidad (volatilidad porcentual anualizada del **22,13%**), clave para la gestión de riesgo y dimensionamiento de posiciones.
-8. **boll_lb** (Banda de Bollinger Inferior): Ayuda a identificar zonas de soporte dinámico a corto plazo y posibles rebotes por sobreventa local.
-
-### Fundamentos, Resultados Financieros y Contexto Macroeconómico
-
-* **Resultados a septiembre de 2026**: Banco Sabadell comunicó un beneficio neto de **1.376 millones de euros** hasta septiembre de 2026 y anunció un dividendo de **325 millones de euros**, demostrando resiliencia operativa y generación de caja a pesar del entorno y los costes asociados a TSB (*Noticias Bancarias*, *Merca2.es*).
-* **Valoración y Fundamentos**: 
-  * Capitalización bursátil: **16.116,67 millones de EUR**.
-  * PER histórico (*trailing PE*): **13,74x**; PER estimado (*forward PE*): **10,41x**.
-  * Precio/Valor en libros (*Price to Book*): **1,22x**.
-  * Beneficio por acción (*trailing EPS*): **0,25 EUR**; estimado (*forward EPS*): **0,33 EUR**.
-  * Rentabilidad por dividendo (*Dividend Yield*): **2,04%** (con un *payout ratio* del **34%** y un dividendo de 0,07 EUR por acción según datos de resumen).
-  * Consenso de analistas: Precio objetivo medio en **3,659 EUR** (con un rango entre 2,30 EUR y 4,50 EUR a partir de 20 opiniones), lo que arroja un potencial alcista de consenso (*consensus upside*) del **6,54%**.
-* **Entorno Macroeconómico**: El Banco Central Europeo (BCE) mantuvo los tipos de interés oficiales en el **2,5%** a finales de octubre de 2026, advirtiendo sobre riesgos inflacionarios persistentes vinculados a la energía y un crecimiento moderado (*Estrategias de Inversión*, *20Minutos*). Esto impacta directamente en el sector financiero europeo, que ha experimentado tomas de beneficios bursátiles tras sus registros de beneficios récord.
-
-### Evidencia y Datos Faltantes
-
-* **Evidencia verificada**: Datos de cotización y técnicos extraídos de la instantánea de `SAB.MC` con fecha de precio del **30/10/2026** (Cierre: 3,435 EUR). Noticias y titulares fechados entre el **29 y el 30 de octubre de 2026**.
-* **Datos faltantes**: No se dispone de flujos de caja operativos y de libre disposición normalizados para los últimos trimestres analíticos en formato desglosado operativo puro (los campos de *operatingCashflow* y *freeCashflow* en el snapshot constan como nulos, aunque se aportan cifras de los estados financieros anuales cerrados a diciembre de 2025). No se ha aportado un cartera de inversión real (toda recomendación de asignación es estrictamente hipotética).
+### 2. Análisis Fundamental y Resultados Financieros
+Según los estados financieros y métricas fundamentales proporcionados:
+* **Capitalización de Mercado**: 16.116.672.512 EUR (~16.11 mil millones).
+* **PER (Trailing)**: 13.74x | **PER Forward**: 10.41x (con un beneficio por acción estimado *forward EPS* de 0.33 EUR frente al *trailing EPS* de 0.25 EUR).
+* **Precio sobre Valor en Libros (Price-to-Book)**: 1.22x (Valor contable por acción de 2.81 EUR).
+* **Rentabilidad por Dividendo (Dividend Yield)**: ~2.04% (con un dividendo anual de 0.07 EUR y un *payout ratio* del 34%).
+* **Rentabilidad sobre Recursos Propios (ROE)**: 8.89%.
+* **Márgenes**: Margen de beneficio neto (*profit margins*) muy elevado, situado en el 41.57%.
+* **Resultados recientes (hasta septiembre de 2026)**: Banco Sabadell reportó un beneficio neto de 1.376 millones de euros hasta septiembre de 2026, anunciando además un pago de dividendo en efectivo de 325 millones de euros (noticia publicada el 30 de octubre de 2026 por *Noticias Bancarias* y *Finanzas.com*). Los analistas destacan la resiliencia del banco a pesar de los desafíos en su filial británica TSB y el entorno macroeconómico general de tipos del Banco Central Europeo (BCE), que mantuvo los tipos en el 2.5% a finales de octubre de 2026.
+* **Consenso de Analistas**: El precio objetivo medio (*target mean price*) se sitúa en 3.66 EUR (con un rango entre 2.30 EUR y 4.50 EUR aportado por 20 analistas), lo que ofrece un potencial alcista (*consensus upside*) del **6.54%** sobre el precio de cierre actual de 3.43 EUR.
 
 ---
 
-### Tabla Resumen de Puntos Clave
+### 3. Análisis Técnico y Dinámica de Precios
+* **Precio de Cierre (30/10/2026)**: 3.435 EUR (descenso del 2.19% en la sesión).
+* **Medias Móviles**:
+  * SMA 20: 3.536 EUR
+  * SMA 50: 3.616 EUR
+  * SMA 200: 3.107 EUR (el precio se mantiene cómodamente por encima de la media de largo plazo, reflejando una estructura alcista estructural de fondo a 252 días, con una rentabilidad anual de +24.58%).
+* **Indicadores de Momento y Volatilidad**:
+  * RSI (14): 41.00 (zona neutral, ligeramente sesgada hacia la debilidad a corto plazo, sin sobreventa extrema).
+  * MACD: -0.034 / Línea de señal (MACDS): -0.029 (señal bajista leve o de consolidación a corto plazo).
+  * Volatilidad anualizada (22.13%).
+  * *Drawdown* actual desde máximos: -8.52%.
+  * Retornos recientes: -2.11% a 21 sesiones, +0.91% a 63 sesiones.
 
-| Categoría | Métrica / Indicador | Valor / Estado | Implicación Analítica |
+---
+
+### 4. Datos Faltantes e Incertidumbres
+* Falta información detallada sobre el desglose completo del flujo de caja operativo intermedio de los últimos trimestres de 2026 (los datos de flujo de caja libre en los estados anuales previos muestran valores negativos por partidas de capital de trabajo y circulante bancario propio de entidades financieras, por lo que no se deben aplicar métricas industriales de FCF).
+* No se dispone de un portfolio de inversión particular del usuario (la recomendación debe entenderse estrictamente genérica e hipotética).
+
+---
+
+### 5. Selección de Indicadores Técnicos (Preseleccionados según Directrices)
+Para un análisis complementario y sin redundancias en las categorías solicitadas, se seleccionan los siguientes 8 parámetros técnicos clave:
+1. `close_50_sma` (Tendencia a medio plazo y soporte dinámico).
+2. `close_200_sma` (Benchmark de tendencia a largo plazo).
+3. `close_10_ema` (Sensibilidad a giros rápidos de corto plazo).
+4. `macd` (Diferencial de momentum mediante EMAs).
+5. `macds` (Línea de señal para cruces operativos).
+6. `rsi` (Índice de fuerza relativa para descartar extremos de sobrecompra/sobreventa).
+7. `atr` (Medida de volatilidad para gestión de stops).
+8. `vwma` (Media móvil ponderada por volumen para confirmar la fortaleza de los movimientos de precio).
+
+---
+
+### 6. Tabla Resumen de Claves
+
+| Categoría | Métrica / Indicador | Valor / Estado Actual | Interpretación Implicada |
 | :--- | :--- | :--- | :--- |
-| **Precio y Técnica** | Cierre `SAB.MC` (30/10/2026) | 3,435 EUR (-2,19%) | Corrección diaria en línea con el castigo general de la banca europea. |
-| **Medias Móviles** | SMA 50 / SMA 200 | 3,616 EUR / 3,107 EUR | Corto plazo bajista pero con soporte estructural intacto en largo plazo. |
-| **Momentum** | RSI (14) | 41,00 | Zona neutral-débil; sin señales extremas de sobreventa. |
-| **MACD** | Línea MACD y Señal | MACD: -0.034 / Señal: -0.029 | Impulso bajista moderado a corto plazo, requiere confirmación de giro. |
-| **Valoración** | Forward PE / P2B | 10,41x / 1,22x | Valoración razonable frente a pares del sector diversificado europeo. |
-| **Consenso** | Target Mean Price | 3,659 EUR (Upside: +6,54%) | Potencial moderado de recuperación según el consenso de 20 analistas. |
-| **Fundamentales** | Beneficio (Sept 2026) | 1.376 millones de EUR | Negocio resiliente que mantiene sólido ritmo de ganancias y retribución al accionista. |
-| **Macro** | Tipos de interés BCE | 2,50% (Mantenido en oct 2026) | Estabilidad en los
+| **Precio y Valoración** | Cierre (`SAB.MC`) | 3.435 EUR (-2.19%) | Corrección técnica de corto plazo en línea con el retroceso del sector bancario europeo. |
+| **Valoración Fundamental** | Forward P/E | 10.41x | Valoración moderada frente a peers del sector europeo (peer median aprox. 9.94x). |
+| **Consenso de Mercado** | Target Mean Price | 3.659 EUR | Potencial alcista estimado del 6.54% sobre el precio actual. |
+| **Beneficios 2026** | Beneficio Neto (9M) | 1.376 Millones EUR | Cifras sólidas comunicadas el 30/10/2026 junto con un dividendo de 325M EUR. |
+| **Tendencia Largo Plazo** | SMA 200 | 3.107 EUR | Soporte estructural alcista a largo plazo intacto. |
+| **Momento Corto Plazo** | RSI (14) | 41.00 | Zona neutral-baja, reflejando pausa o corrección sin llegar a niveles de sobreventa severa. |
+| **Volatilidad y Riesgo** | Drawdown / ATR | -8.52% / Vol: 22.13% | Descenso moderado desde máximos recientes, acorde con la corrección general del selectivo IBEX 35 en octubre. |
+
+---
+
+**Rating**: HOLD  
+FINAL TRANSACTION PROPOSAL: Mantener posiciones existentes. La entidad presenta sólidos resultados fundamentales a septiembre de 2026 (1.376 millones de beneficio) y un dividendo atractivo, cotizando por encima de su media móvil de 200 sesiones (3.107 EUR). Sin embargo

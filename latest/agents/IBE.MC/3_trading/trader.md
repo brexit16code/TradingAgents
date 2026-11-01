@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: Iberdrola muestra una solidez técnica notable con el precio cotizando por encima de sus medias móviles clave y un RSI en 72.13 que denota sobrecompra. Aunque los fundamentales y la generación de caja son robustos, la valoración con un PER forward de 19.91x y un precio actual de 22.18 EUR superior al precio objetivo del consenso (21.38 EUR) aconseja prudencia. Por lo tanto, se recomienda mantener la posición actual y esperar una consolidación o corrección técnica hacia la zona de soporte de la media de 20 sesiones antes de reevaluar nuevas compras.
+**Reasoning**: Iberdrola (`IBE.MC`) cotiza a 22.18 EUR, situándose ligeramente por encima del precio objetivo de consenso de 21.38 EUR y con un RSI de 72.13 que denota sobrecompra técnica. Aunque la tendencia a medio plazo es alcista y el negocio muestra solidez, la elevada valoración (PER de 29.97x y ratio sectorial superior) y la proximidad de resistencias aconsejan mantener la postura actual sin ampliar posiciones.
 
 **Entry Price**: not provided
 
-**Stop Loss**: not provided
+**Stop Loss**: 20.73
 
-**Position Sizing**: Mantener peso neutral actual en cartera
+**Position Sizing**: Mantener posición actual
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

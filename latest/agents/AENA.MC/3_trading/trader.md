@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: AENA.MC muestra una tendencia técnica constructiva por encima de sus medias móviles clave, respaldada por un balance sólido y una rentabilidad por dividendo atractiva del 4%. Sin embargo, el limitado potencial alcista según el consenso actual y la reciente reacción negativa tras los resultados sugieren una consolidación a corto plazo, por lo que es preferible mantener posiciones actuales y esperar a un retroceso hacia niveles de soporte más claros para incrementar exposición.
+**Reasoning**: AENA.MC muestra una estructura técnica resiliente con medias móviles alcistas y fundamentos sólidos, pero el precio actual de 27,08 EUR cotiza prácticamente en línea con el objetivo de consenso de 27,44 EUR, lo que ofrece un potencial alcista limitado. La reciente reacción bajista tras los resultados sugiere que el mercado ya ha incorporado las noticias positivas, justificando una postura de espera para evitar niveles de entrada poco atractivos o identificar una consolidación mayor cerca del soporte estructural en la SMA200.
 
-**Entry Price**: 26.0
+**Entry Price**: 25.5
 
-**Stop Loss**: 25.0
+**Stop Loss**: 24.5
 
-**Position Sizing**: Mantener exposición actual; 2-3% del portafolio sugerido para futuras compras si se alcanza el nivel de entrada.
+**Position Sizing**: Mantener posición actual
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

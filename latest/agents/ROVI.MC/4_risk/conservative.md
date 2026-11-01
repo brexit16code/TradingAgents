@@ -1,12 +1,14 @@
 
-Conservative Analyst: Me sorprende enormemente la ligereza con la que el analista agresivo descarta los riesgos estructurales y macroeconómicos al abogar por una compra desatada en `ROVI.MC`. Calificar de "fantasmas" los avisos del entorno financiero es una actitud imprudente que pone en grave peligro el capital de la firma. Hablar de una oportunidad de oro ignorando que la acción cotiza persistentemente por debajo de su media móvil de 200 sesiones, situada en 65.37 EUR frente a los actuales 62.55 EUR, demuestra una peligrosa ceguera técnica ante la tendencia de fondo. Esa brecha no es un detalle menor; es la prueba evidente de que el mercado institucional sigue exigiendo cautela y no ha validado una ruptura alcista estructural.
-
-Es cierto que Laboratorios Farmaceuticos Rovi, S.A. cuenta con una posición de caja neta y un flujo de caja libre destacable, pero celebrar un Forward P/E de 19.05x como si fuera una ganga es simplemente ignorar la realidad de las valoraciones en un contexto donde el Banco Central Europeo mantiene los tipos de interés en el 2.5% y advierte sobre presiones inflacionarias energéticas. En un escenario macroeconómico tan frágil, pagar múltiplos exigentes por una farmacéutica sin catalizadores operativos inmediatos y a la espera de la guía de 2027 es asumir un riesgo de compresión de múltiplos innecesario. 
-
-Además, apoyarse en un RSI de 66.32 para justificar una entrada enérgicos es flirtear peligrosamente con la zona de sobrecompra, ignorando que una volatilidad anualizada del 18.54% y un retroceso acumulado (*drawdown*) del -25.61% reflejan un activo expuesto a correcciones bruscas. El hecho de que algunas gestoras como Horos AM o que el consenso sitúe un precio objetivo medio en 73.69 EUR no convierte la tesis en una apuesta libre de riesgo; los objetivos de los analistas son meras estimaciones sujetas a revisiones a la baja si los próximos resultados o las guías estratégicas decepcionan. 
-
-La prudencia no es "regalar rentabilidad", como pretende hacer creer la postura agresiva; la verdadera prudencia es proteger el patrimonio de la firma frente a la volatilidad y los espejismos de corto plazo. Mantener una postura de cautela y esperar a catalizadores claros es la única forma sensata de asegurar la sostenibilidad a largo plazo sin exponer nuestros activos a pérdidas evitables.
-
-**Rating**: HOLD
+Conservative Analyst: Rating: HOLD
 
 FINAL TRANSACTION PROPOSAL: **HOLD**
+
+Colegas analistas, permítanme poner los pies en la tierra y frenar este entusiasmo desmedido que pretende ignorar los riesgos reales que afronta `ROVI.MC`. El analista agresivo aboga por lanzarse a una compra precipitada basándose únicamente en la rentabilidad pasada y en un rebote técnico a corto plazo, pero pasa por alto los peligros estructurales que amenazan la estabilidad de nuestros activos. 
+
+Primero, celebremos que la compañía cuenta con una sólida posición de caja neta y un ROE elevado del 28,65%, pero no nos ciegues ante la cruda realidad operativa: los ingresos de `ROVI.MC` se han contraído de manera sostenida desde los máximos de 2023, pasando de 829,5 millones de euros a 743,5 millones al cierre de 2025. El boom extraordinario de la fabricación de vacunas ya quedó atrás, y la empresa se enfrenta a un estancamiento en su cifra de negocio que el analista agresivo prefiere obviar alegremente. 
+
+Segundo, se resta importancia a la incertidumbre sobre la futura guía estratégica para 2027 y a la ausencia total de catalizadores de crecimiento inmediatos. El hecho de que gestoras como Horos AM hayan entrado en su capital no es un cheque en blanco para ignorar que la cotización actual, a 62,55 EUR, sigue navegando por debajo de su media móvil de 200 sesiones (situada en 65,37 EUR) y arrastra un doloroso *drawdown* del -25,61% desde sus máximos. Confiar ciegamente en un precio objetivo de consenso de 73,69 EUR sin un soporte catalizador firme en el horizonte es especular, no analizar con rigor.
+
+Por último, proponer una exposición del 3% con un *stop loss* en 56,5 EUR sobre un valor que experimenta una volatilidad anualizada del 18,54% y un RSI en 66,32 —rozando zonas de sobrecompra a corto plazo— expone a la cartera a un riesgo innecesario de retroceso hacia soportes inferiores si el próximo informe de perspectivas decepciona al mercado. 
+
+Por todo ello, la postura neutral de espera es la única alternativa prudente. No arriesgaremos el capital de la firma en un valor que busca definirse; mantendremos la exposición actual sin incrementar posiciones hasta que se disipen las dudas sobre la estrategia a largo plazo.

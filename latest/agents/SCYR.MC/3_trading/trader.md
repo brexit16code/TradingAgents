@@ -1,11 +1,11 @@
-**Action**: Hold
+**Action**: Buy
 
-**Reasoning**: Sacyr, S.A. (SCYR.MC) cotiza en 4,05 EUR en un entorno de neutralidad técnica (RSI en 51,14 y precio oscilando entre su SMA 20 de 3,99 EUR y su SMA 50 de 4,10 EUR). La sólida generación de caja operativa y el atractivo rendimiento por dividendo del 4,94% contrarrestan el elevado apalancamiento (Deuda Neta/EBITDA de 5,31x) y los estrechos márgenes netos, justificando mantener la posición actual a la espera de la ruptura definitiva de soportes o resistencias.
+**Reasoning**: Sacyr demuestra una sólida operativa con flujos de caja recurrentes y un crecimiento de doble dígito en el 9M26, respaldado por un atractivo dividendo del 4,94% y un potencial de revalorización superior al 31% según el consenso de analistas. Aunque el apalancamiento neto sobre EBITDA es elevado (5,31x) y cotiza bajo sus medias de 50 y 200 sesiones, el descuento en valoración actual y la robustez de su negocio concesional justifican una entrada escalonada en el soporte técnico.
 
-**Entry Price**: 4.05
+**Entry Price**: 3.99
 
-**Stop Loss**: 3.8
+**Stop Loss**: 3.75
 
-**Position Sizing**: 5% of portfolio
+**Position Sizing**: 4% of portfolio
 
-FINAL TRANSACTION PROPOSAL: **HOLD**
+FINAL TRANSACTION PROPOSAL: **BUY**

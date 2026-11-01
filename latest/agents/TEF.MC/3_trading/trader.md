@@ -1,11 +1,11 @@
-**Action**: Hold
+**Action**: Sell
 
-**Reasoning**: La cotización actual de TEF.MC en 3,374 EUR se encuentra equilibrada cerca de su media móvil de 20 sesiones (3,341 EUR), reflejando una neutralidad técnica con un RSI de 49,78 tras las recientes turbulencias asociadas a Brasil. Aunque los fundamentales muestran un atractivo Forward PE de 8,58x y un dividendo del 4,45%, el elevado apalancamiento (Net Debt/EBITDA de 5,27x) y la reciente volatilidad justificar mantener la posición actual a la espera de mayor claridad estructural.
+**Reasoning**: La recomendacion bajista (Underweight) dictada en el plan de investigacion se traduce en una accion de venta, justificada por el grave deterioro contable, la insostenibilidad del dividendo con un payout del 250% y un elevado endeudamiento con una ratio de deuda neta sobre EBITDA de 5,27x que supera los 41.000 millones de euros. Tecnicamente el precio cotiza por debajo de la media movil de 200 periodos (3,576 EUR), confirmando una tendencia de fondo defensiva, mientras que el RSI neutral en 49,77 y el MACD negativo sugieren aprovechar cualquier rebote tecnico hacia la zona de resistencia dinamica para aligerar la posicion y mitigar el riesgo de una trampa de valor estructural.
 
 **Entry Price**: 3.374
 
-**Stop Loss**: 3.0
+**Stop Loss**: 3.576
 
 **Position Sizing**: 3% of portfolio
 
-FINAL TRANSACTION PROPOSAL: **HOLD**
+FINAL TRANSACTION PROPOSAL: **SELL**

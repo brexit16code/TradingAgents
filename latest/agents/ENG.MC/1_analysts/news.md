@@ -1,47 +1,48 @@
-**Rating**: HOLD
+**Rating**: REVIEW
 
-**Informe de Análisis y Coyuntura Macroeconómica para Enagás, S.A. (`ENG.MC`)**
+### Informe de Análisis y Estado Actual para `ENG.MC` (Enagás, S.A.)
 
-### 1. Resumen Ejecutivo y Estado Actual de la Compañía
-Enagás, S.A. (`ENG.MC`) cotiza a fecha de corte de 30 de octubre de 2026 en **17,68 EUR**, mostrando un rendimiento positivo en el corto plazo (+7,54% a 21 sesiones y +35,75% a 1 Archivado anual) respaldado por indicadores técnicos sólidos como un RSI de 14 días en **73,08** y una cotización que se sitúa por encima de sus medias móviles clave (SMA20: 16,99 EUR, SMA50: 16,77 EUR, SMA200: 16,10 EUR). 
-
-Desde la perspectiva fundamental, la compañía operada en el sector de *Utilities - Regulated Gas* en la bolsa de Madrid (MCE) presenta una capitalización de mercado de aproximadamente **4.600 millones de EUR**, un PER *trailing* de **13,0x** y un PER *forward* de **15,67x**. Destaca por una atractiva rentabilidad por dividendo (*dividend yield*) del **5,66%** (con un dividendo de 1,00 EUR por acción y un *payout ratio* del 79,96%). No obstante, el apalancamiento sigue siendo un factor a vigilar estrechamente, con una ratio de deuda neta sobre EBITDA de **6,15x** y una deuda total de 3.155 millones de EUR frente a una caja de 537 millones de EUR.
-
-### 2. Contexto Macroeconómico y Sectorial
-El análisis del entorno macroeconómico relevante para `ENG.MC` durante la última semana de octubre de 2026 refleja los siguientes acontecimientos globales y regionales:
-* **Decisión del BCE (29 de octubre de 2026):** El Banco Central Europeo mantuvo los tipos de interés en el **2,5%**, advirtiendo de riesgos al alza para la inflación y el crecimiento derivados de la energía, y dejando abiertas las expectativas de cara a la reunión de diciembre.
-* **Mercados bursátiles europeos y nacionales:** Las bolsas europeas y el índice de referencia `^IBEX` se han movido en un entorno de cautela (con sesiones oscilando en torno a los 18.700 - 18.800 puntos), lastradas por la volatilidad en el sector bancario y las dudas sobre tecnológicas, a pesar de reportar beneficios corporativos récord en varias entidades.
-* **Noticias corporativas recientes:** Recientemente (29 de octubre de 2026), medios como *Economía Digital* han puesto el foco en la participación de inversores institucionales y figuras de renombre como Amancio Ortega en la compañía, señalando que la valoración actual de Enagás aún se sitúa por debajo de los niveles históricos de adquisición de dicho paquete estratégico, lo que demuestra tanto el potencial de recuperación como la sensibilidad regulatoria y de mercado del valor.
-
-### 3. Valoración y Datos Financieros Clave
-* **Valor razonable / Consenso:** El precio objetivo medio de los analistas se sitúa en **17,17 EUR** (con un rango bajo de 13,00 EUR y alto de 19,80 EUR basándose en 20 opiniones de analistas). Al cotizar actualmente a 17,68 EUR, el título se encuentra ligeramente por encima del precio objetivo de consenso (-2,88% de recorrido implícito o *consensus upside*).
-* **Métricas de Valoración relativas:** El PER relativo intermedio frente a sus pares del sector (`ANE.MC`, `ELE.MC`, `IBE.MC`, `NTGY.MC`, `RED.MC`, `SLR.MC`) arroja una ratio de **0,98**, lo que indica que cotiza en línea con la mediana de sus comparables directos.
-* **Estados Financieros:**
-  * Ingresos totales (2025): 960,40 millones de EUR.
-  * EBITDA (2025): 762,75 millones de EUR.
-  * Beneficio Neto (2025): 339,11 millones de EUR (recuperándose de la pérdida neta de 299,31 millones de EUR registrada en 2024).
-  * Flujo de caja libre (FCF) en 2025: 94,42 millones de EUR (inferior a los 357,10 millones de EUR de 2024 debido a variaciones en el flujo operativo y de capital).
-
-### 4. Evidencia y Fuentes Consultadas
-* **Citas de datos cuantitativos:** Yahoo Finance (`https://finance.yahoo.com/quote/ENG.MC/`, `https://finance.yahoo.com/quote/ENG.MC/financials/`), snapshot recuperado el 2026-11-01.
-* **Titulares de noticias macroeconómicas (fechados el 29-30 de octubre de 2026):**
-  * *Cinco Días* (2026-10-30): "La banca española y europea se despeñan en Bolsa pese a sus beneficios récord".
-  * *El Conciso* (2026-10-30): "El Ibex pierde los 18.700 puntos lastrado por la banca...".
-  * *Estrategias de Inversión* / *El Economista* / *20Minutos* (29 de octubre de 2026): Cobertura sobre la decisión del BCE de mantener tipos al 2,5% y advertencias sobre los riesgos energéticos en la inflación.
-  * *Economía Digital* (2026-10-29): "Enagás, la mejor apuesta de Amancio Ortega en bolsa este año, aún vale 1.300 millones menos que cuando compró el 5%".
-
-### 5. Datos Faltantes o Limitaciones
-No se dispone de proyecciones detalladas de flujos de caja descontados (DCF) más allá del consenso de analistas y las métricas fundamentales suministradas. Las estimaciones de precios objetivos son promedios de mercado y no constituyen valoraciones intrínsecas cerradas.
+A fecha de 1 de noviembre de 2026, se presenta un análisis exhaustivo y estructurado de la situación técnica, fundamental y macroeconómica de **Enagás, S.A. (`ENG.MC`)**, cotizada en el mercado continuo de Madrid (`MCE`) y perteneciente al sector de Utilities (Gas Regulado).
 
 ---
 
-| Concepto / Métrica | Valor Actual / Referencia | Comentario / Implicación |
-| :--- | :--- | :--- |
-| **Cotización (`ENG.MC`)** | 17,68 EUR (30-10-2026) | Por encima de la SMA20, SMA50 y SMA200; tendencia alcista a corto plazo. |
-| **PER / PER Forward** | 13,0x / 15,67x | Valoración moderada en línea con utilities reguladas europeas. |
-| **Rentabilidad por Dividendo** | 5,66% | Atractivo rendimiento para inversores de renta, con un *payout* del ~80%. |
-| **Deuda Neta / EBITDA** | 6,15x | Apalancamiento elevado característico de infraestructuras reguladas de gas. |
-| **Precio Objetivo Consenso** | 17,17 EUR (20 analistas) | Ligeramente inferior al precio de mercado actual (-2,88% de upside). |
-| **Contexto Macro / Tipos BCE** | 2,50% (mantenido el 29-10-2026) | Política monetaria de pausa con atención en riesgos de inflación energética. |
+### 1. Análisis Técnico y Comportamiento Bursátil
+* **Precio de cierre actual:** `17.68 EUR` (según la última sesión del 30 de octubre de 2026).
+* **Medias Móviles:** Las cotizaciones se sitúan por encima de las principales medias móviles, indicando fortaleza a corto y medio plazo. La SMA20 se encuentra en `16.99 EUR`, la SMA50 en `16.77 EUR` y la SMA200 en `16.10 EUR`.
+* **RSI (14 períodos):** Registra un valor de `73.08`, lo que sitúa al valor en una zona técnica de **sobrecompra**, sugiriendo precaución ante posibles correcciones o fases de consolidación a corto plazo.
+* **MACD:** `0.287` frente a una señal de `0.205`, mostrando un sesgo alcista vigente.
+* **Rentabilidades:** El retorno a 21 sesiones es del `+7.54%`, a 63 sesiones del `+4.86%` y a 252 sesiones del `+35.75%`, superando al selectivo de referencia (`^IBEX`) con un diferencial positivo a 63 sesiones (`relative63_pp`) de `+11.71` puntos porcentuales.
 
-FINAL TRANSACTION PROPOSAL: HOLD
+### 2. Fundamentales y Valoración
+* **Capitalización de Mercado:** `4,602.07` millones de EUR.
+* **PER (Trailing / Forward):** El PER histórico o *trailing* se sitúa en `13.0x`, mientras que el PER *forward* estimado asciende a `15.67x`. El ratio relativo frente a peers del sector (`ANE.MC`, `ELE.MC`, `IBE.MC`, `NTGY.MC`, `RED.MC`, `SLR.MC`) se sitúa en `0.98`, catalogándose como un PER relativo intermedio.
+* **Deuda y Solvencia:** La compañía presenta una deuda total de `3,155.80` millones de EUR y un ratio de deuda neta sobre EBITDA (`net_debt_ebitda`) elevado de `6.15x`. 
+* **Rentabilidad por Dividendo:** Ofrece una atractiva rentabilidad por dividendo (*dividend yield*) del `5.66%`, con un dividendo por acción de `1.0 EUR` y un *payout ratio* estimado del `79.96%`.
+* **Consenso de Analistas:** El precio objetivo medio de consenso se sitúa en `17.17 EUR`, con un rango que va desde un mínimo de `13.0 EUR` hasta un máximo de `19.8 EUR` (con la participación de 20 analistas). Dado que el precio de cierre actual es de `17.68 EUR`, el potencial de retorno implícito según la media del consenso es ligeramente negativo (`-2.88%`).
+
+### 3. Contexto Macroeconómico y Sectorial
+* **Política Monetaria del BCE:** En la última reunión de finales de octubre de 2026, el Banco Central Europeo optó por mantener los tipos de interés en el `2.5%`, si bien el mercado vigila de cerca las perspectivas inflacionarias de cara a la reunión de diciembre. 
+* **Entorno Bursátil:** El selectivo Ibex 35 se ha visto presionado recientemente por la volatilidad en el sector bancario y las dudas sobre tecnológicas, cotizando en torno a los 18.700 - 18.800 puntos en un otoño marcado por la cautela macroeconómica europea.
+
+### 4. Datos Faltantes y Advertencias
+* No se dispone de un portfolio de inversión detallado (la asignación debe tratarse de forma estrictamente hipotética).
+* Ciertas partidas de crecimiento de beneficios interanuales se muestran incompletas o no aplicables en los estados financieros reportados (`None`).
+* Las noticias recientes destacan la atención inversora sobre la participación de figuras institucionales clave en el accionariado y la evolución de los títulos frente a los objetivos regulatorios.
+
+---
+
+### Resumen Estructurado (Tabla Clave)
+
+| Métrica / Concepto | Valor / Dato | Comentario Analítico |
+| :--- | :--- | :--- |
+| **Ticker** | `ENG.MC` | Enagás, S.A. (Utilities - Gas Regulado) |
+| **Precio Actual** | `17.68 EUR` | Cierre a 30 de octubre de 2026. |
+| **RSI (14)** | `73.08` | Zona de sobrecompra técnica a corto plazo. |
+| **PER Forward** | `15.67x` | Alineado con la mediana sectorial (`0.98` de ratio relativo). |
+| **Dividend Yield** | `5.66%` | Atractivo retorno por dividendo (`1.0 EUR` por acción). |
+| **Deuda Neta / EBITDA** | `6.15x` | Nivel de apalancamiento elevado característico de la red regulada. |
+| **Consenso de Analistas** | `17.17 EUR` | Precio objetivo medio (potencial de `-2.88%` frente a cotización actual). |
+
+---
+
+FINAL TRANSACTION PROPOSAL: REVIEW

@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: Unicaja Banco (UNI.MC) presenta sólidos resultados operativos a septiembre con un incremento del beneficio neto del 8,1% hasta 543 millones de euros y una atractiva rentabilidad por dividendo del 6,02%. Sin embargo, cotiza con un PER forward de 11,28x que supera la mediana de sus comparables y un potencial alcista de consenso muy limitado (~2,03%) respecto a su cotización de 3,17 EUR, existiendo además incertidumbres sobre su gobernanza corporativa y sobrecostes laborales. Por ello, se recomienda mantener la posición actual sin incrementar la exposición a la espera de mayor claridad estructural.
+**Reasoning**: Unicaja Banco muestra una estructura técnica débil al cotizar por debajo de sus medias móviles de corto plazo (20 y 50 días), lo que justifica una postura de espera a pesar de la solidez fundamental y el atractivo dividendo. El mercado está penalizando el sector bancario europeo y la incertidumbre corporativa propia, lo que limita el potencial alcista inmediato hacia el precio objetivo de consenso de 3,23 EUR.
 
-**Entry Price**: not provided
+**Entry Price**: 2.95
 
-**Stop Loss**: not provided
+**Stop Loss**: 2.75
 
-**Position Sizing**: 0% adicional de la cartera actual
+**Position Sizing**: Mantener exposición actual; no añadir posiciones nuevas.
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

@@ -1,11 +1,11 @@
-**Action**: Hold
+**Action**: Sell
 
-**Reasoning**: La cotizacion de ANE.MC se encuentra bajo presion tecnica cotizando por debajo de sus medias moviles principales (SMA 20, 50 y 200) y con un impulso MACD negativo, reflejando el impacto de recientes noticias corporativas y un entorno de tipos de interes restrictivos. Aunque el precio actual de 20.98 EUR ofrece un descuento moderado frente al precio objetivo de consenso de 23.22 EUR y un ratio P/B atractivo de 1.10x, el elevado apalancamiento financiero (Deuda Neta/EBITDA superior a 5x) y el flujo de caja libre negativo justifican una postura de espera prudente sin realizar nuevas compras.
+**Reasoning**: Corporación Acciona Energías Renovables, S.A. (ANE.MC) cotiza a 20,98 EUR bajo sus medias móviles clave (SMA20 en 21,51 EUR y SMA200 en 21,83 EUR), con un RSI neutral-bajista de 44,79 y un apalancamiento financiero elevado de 5,06x deuda neta/EBITDA. Aunque el consenso sitúa el objetivo en 23,22 EUR, el flujo de caja libre negativo persistente y las recientes complicaciones en desinversiones apoyan una postura bajista.
 
-**Entry Price**: not provided
+**Entry Price**: 20.98
 
-**Stop Loss**: not provided
+**Stop Loss**: 22.5
 
-**Position Sizing**: Mantener ponderacion neutral estandar en cartera hipotetica
+**Position Sizing**: 5% de la cartera
 
-FINAL TRANSACTION PROPOSAL: **HOLD**
+FINAL TRANSACTION PROPOSAL: **SELL**

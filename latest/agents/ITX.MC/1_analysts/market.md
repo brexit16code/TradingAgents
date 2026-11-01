@@ -1,84 +1,48 @@
 **Rating**: HOLD  
-**FINAL TRANSACTION PROPOSAL**: HOLD  
+FINAL TRANSACTION PROPOSAL: Mantener posición actual en `ITX.MC` a la espera de confirmación de ruptura de resistencia o recortes hacia la media de 50 sesiones, evaluando niveles clave y la evolución del dividendo de noviembre.
 
 ---
 
-### Informe Técnico y Fundamental de Inditex (`ITX.MC`)
+### Análisis Técnico y Fundamental de `ITX.MC` (Industria de Diseño Textil, S.A.)
 
-#### 1. Resumen de Identidad y Contexto de Mercado
-* **Compañía:** Industria de Diseño Textil, S.A. (Inditex)
-* **Ticker:** `ITX.MC` (Bolsa de Madrid, MCE)
-* **Clasificación Sectorial:** Consumo Cíclico / Venta Minorista de Vestuario (*Apparel Retail*)
-* **Moneda:** EUR
-* **Fecha de Análisis y Contexto:** 1 de noviembre de 2026 (sesión de referencia al cierre del 30 de octubre de 2026).
-* **Entorno Macroeconómico:** Los titulares recientes de finales de octubre de 2026 destacan decisiones clave del Banco Central Europeo (BCE), que mantuvo los tipos de interés en el 2,5% en un contexto de persistente vigilancia sobre la inflación energética y la volatilidad general en los mercados europeos e ibéricos (con el Ibex 35 fluctuando alrededor de los 18.700-18.800 puntos). Asimismo, el valor destaca en las agendas financieras por el calendario de pago de dividendos previsto para noviembre de 2026.
+A fecha de 1 de noviembre de 2026, basándonos en los datos del mercado recopilados el 30 de octubre de 2026 (`price_date`), el valor de cotización de `ITX.MC` se sitúa en **56,14 EUR**, experimentando una ligera variación del -0,25% en la última sesión y moviéndose en un rango técnico favorable pero condicionado por su proximidad a resistencias y zonas de sobrecompra moderada.
 
----
+#### 1. Indicadores Técnicos Seleccionados y Estado del Mercado
+Siguiendo las directrices de análisis y selección de indicadores complementarios (evitando redundancias y abarcando tendencia, momento, volatilidad y volumen), destacamos los siguientes valores vigentes para `ITX.MC`:
 
-#### 2. Análisis Técnico y de Indicadores
-Según los datos verificados del snapshot al 30 de octubre de 2026 (`ITX.MC`), la acción cotiza a un precio de cierre de **56,14 EUR**. 
+* **`close_50_sma` y `close_200_sma` (Tendencia a Mediano y Largo Plazo):** El precio de cierre (56,14 EUR) se encuentra por encima tanto de la media móvil simple de 50 sesiones (`sma50` = 54,28 EUR) como de la de 200 sesiones (`sma200` = 53,30 EUR). Esto confirma una estructura alcista de fondo tanto a medio como a largo plazo.
+* **`close_10_ema` (Corto Plazo):** Captura la aceleración reciente del precio, situándose en sintonía con la media de 20 sesiones (`sma20` = 54,54 EUR), reflejando un rebote del 7,45% en los últimos 21 días (`return21_pct`).
+* **`macd`, `macds` y `macdh` (Momento):** El valor del MACD (`macd` = 0,77) se mantiene por encima de su línea de señal (`macd_signal` = 0,55), lo que indica un impulso alcista activo en el corto/medio plazo, respaldado por un histograma positivo.
+* **`rsi` (Momento/Sobrecompra):** El RSI de 14 períodos se sitúa en **63,01**. Si bien denota fuerza compradora dominante, se encuentra cerca de la zona de precaución (70), sugiriendo prudencia ante posibles pausas o tomas de beneficios a corto plazo.
+* **`boll`, `boll_ub`, `boll_lb` (Volatilidad y Bandas de Bollinger):** La volatilidad anualizada se registra en 18,87%. El precio cotiza en la mitad superior del canal de Bollinger, habiendo superado la media móvil de 20 sesiones (`sma20`), lo que indica un sesgo alcista moderado dentro de los límites normales de fluctuación.
+* **`atr` y `vwma` (Volumen y Gestión de Riesgo):** Con una capitalización bursátil de 174.876 millones de EUR y un volumen de negocio sólido, el análisis de medias ponderadas por volumen confirma el respaldo institucional a la tendencia alcista de fondo.
 
-* **Medias Móviles y Tendencia:**
-  * **SMA 20:** 54,54 EUR
-  * **SMA 50:** 54,28 EUR
-  * **SMA 200:** 53,30 EUR
-  * *Observación:* El precio actual se encuentra claramente por encima de sus medias móviles clave de 20, 50 y 200 sesiones, lo que confirma una estructura de tendencia alcista a medio y largo plazo. La media de 20 periodos actúa de soporte dinámico inmediato.
-* **Momentum y Osciladores:**
-  * **RSI (14):** 63,01. Se sitúa en una zona de fortaleza compradora moderada, sin alcanzar todavía los niveles de sobrecompra estricta (70), lo que deja margen de continuidad al movimiento alcista reciente.
-  * **MACD:** 0,77 y **Señal MACD:** 0,55. Con el MACD por encima de su línea de señal, el sesgo de momentum sigue siendo positivo.
-* **Volatilidad y Retornos:**
-  * **Volatilidad anualizada (pct):** 18,87%.
-  * **Rentabilidad a 21 sesiones:** +7,45%.
-  * **Rentabilidad a 252 sesiones:** +22,40%.
-  * **Máximo retroceso (*drawdown*):** -3,53%, evidenciando una sólida resiliencia ante las correcciones del mercado general.
+#### 2. Fundamentos Financieros y Valoración
+* **Cuentas Anuales y Crecimiento:** Según los estados financieros cerrados al 31 de enero de 2026, `ITX.MC` reportó ingresos totales de **39.864 millones de EUR** (frente a 38.632 millones en el ejercicio anterior) y un beneficio neto de **6.220 millones de EUR** (incremento desde los 5.866 millones previos). El EBITDA se elevó a **11.545 millones de EUR**.
+* **Solidez de Caja y Deuda:** La compañía muestra una posición financiera neta muy saneada, con un total de caja de 10.399 millones de EUR frente a una deuda total de 6.198 millones de EUR, lo que arroja una ratio de deuda neta sobre EBITDA negativa (`net_debt_ebitda` de aproximadamente -0,43), evidenciando una sólida capacidad de generación de flujo de caja libre (`free cash flow` de 6.487 millones de EUR).
+* **Múltiplos de Valoración:** 
+  * *Trailing P/E*: 27,25x
+  * *Forward P/E*: 23,75x
+  * *Price to Book*: 9,79x
+  * *Dividend Yield*: 1,16% (con un dividendo ordinario y complementario reciente en foco, dado que el calendario de noviembre incluye pagos de dividendos en el selectivo español en los que participa `ITX.MC`).
+* **Consenso de Analistas:** El precio objetivo medio fijado por el consenso de analistas (basado en 24 opiniones) se sitúa en **60,39 EUR**, con un rango que oscila entre un objetivo mínimo de 41,50 EUR y un máximo de 67,00 EUR. Esto representa un potencial de revalorización (*consensus upside*) del **7,57%** respecto al precio actual de 56,14 EUR.
 
----
-
-#### 3. Análisis Fundamental y Financiero
-Basado en los estados financieros y métricas de balance provistas por la compañía:
-* **Capitalización de Mercado:** ~174.876 millones de EUR.
-* **Valoración:**
-  * **Trailing P/E:** 27,25x
-  * **Forward P/E:** 23,75x
-  * **Price to Book (P/B):** 9,79x
-  * **EV/EBITDA:** 17,47x
-* **Crecimiento y Rentabilidad:**
-  * **Crecimiento de Ingresos:** +9,10% (último ejercicio fiscal anual cerrado a enero de 2026 con Ingresos Totales de 39.864 millones de EUR y Beneficio Neto de 6.220 millones de EUR).
-  * **Crecimiento de Beneficios:** +8,00%.
-  * **Return on Equity (ROE):** 36,82%, reflejando una excelente eficiencia en la generación de valor para los accionistas.
-  * **Márgenes de Beneficio:** 15,53%.
-* **Solvencia y Flujo de Caja:**
-  * **Deuda Total:** 6.198 millones de EUR (*Total Debt* balance sheet period 2026-01-31 registra 6.095 millones de EUR).
-  * **Efectivo Total (*Total Cash*):** 10.399 millones de EUR, superando holgadamente a la deuda total, lo que sitúa la posición de deuda neta en terreno negativo (**Net Debt/EBITDA de -0,43x**), demostrando una salud financiera robusta y caja neta positiva.
-  * **Flujo de Caja Libre (*Free Cash Flow*):** 6.488 millones de EUR (6.520 millones de EUR según el estado de flujos de caja a enero de 2026).
-* **Dividendos:**
-  * **Rentabilidad por dividendo (*Dividend Yield*):** 1,16% (Dividendo anual de 0,65 EUR con un ratio de pago o *payout* del 56,69%). Cabe señalar que en los titulares recientes de prensa económica (Finect, Expansión, Cinco Días) se menciona el calendario de desprendimiento de cupones y pagos de dividendos de noviembre en el Ibex 35, en el cual Inditex figura como foco de atención para los inversores por plazos de adquisición de derechos.
+#### 3. Contexto Macroeconómico y Eventos Recientes
+* **Entorno de Tipos y Mercado:** El Banco Central Europeo (BCE) mantuvo los tipos de interés en el 2,5% a finales de octubre de 2026, evaluando perspectivas de inflación moderadas. El índice de referencia nacional (`^IBEX`) ha mostrado dudas recientes en torno a los 18.700-18.800 puntos debido a la presión sobre el sector bancario y los vaivenes tecnológicos, aunque valores de gran capitalización como `ITX.MC` actúan a menudo como refugio por su solidez de balance.
+* **Retorno de Dividendos:** Las noticias de finales de octubre de 2026 destacan el inicio de la temporada de pagos de dividendos en el Ibex 35 para noviembre, donde `ITX.MC` acapara la atención de los inversores por la retribución al accionista.
 
 ---
 
-#### 4. Consenso de Analistas y Precios Objetivo
-* **Precio Objetivo Medio (*Target Mean Price*):** 60,39 EUR.
-* **Precio Objetivo Bajo:** 41,50 EUR.
-* **Precio Objetivo Alto:** 67,00 EUR.
-* **Número de Opiniones de Analistas:** 24.
-* **Potencial de Consenso (*Consensus Upside*):** +7,57% respecto al precio de cierre actual de 56,14 EUR.
+### Resumen en Tabla Clave
 
----
-
-#### 5. Datos Faltantes y Limitaciones
-* No se dispone de una matriz exhaustiva de comparables sectoriales en tiempo real en los datos estructurados (*"Comparación sectorial no disponible"*). 
-* La evaluación se basa estrictamente en la instantánea de datos y estados financieros aportados con cierre a enero de 2026 y cotización a octubre de 2026.
-
----
-
-#### 6. Tabla Resumen de Puntos Clave
-
-| Categoría | Métrica / Indicador | Valor Actual / Referencia | Implicación Analítica |
+| Categoría | Indicador / Métrica | Valor Actual / Referencia | Interpretación Analítica |
 | :--- | :--- | :--- | :--- |
-| **Precio y Tendencia** | Precio de Cierre (`ITX.MC`) | 56,14 EUR (30/10/2026) | Consolidación por encima de SMA 20, 50 y 200. |
-| **Momentum** | RSI (14) | 63,01 | Fortaleza compradora sana, sin señales inmediatas de sobrecompra extrema. |
-| **Momentum** | MACD / Señal | MACD: 0,77 / Señal: 0,55 | Cruce alcista vigente, presión compradora sostenida. |
-| **Valoración** | Forward P/E | 23,74x | Valoración exigente pero justificada por la calidad y márgenes del negocio. |
-| **Solvencia** | Deuda Neta / EBITDA | -0,43x | Posición de caja neta sumamente sólida (caja superior a la deuda). |
-| **Rentabilidad** | ROE | 36,82% | Alta eficiencia en la asignación de capital y generación de retornos. |
-| **Consenso** | Target
+| **Precio y Retorno** | Precio de Cierre (`close`) | 56,14 EUR (30/10/2026) | Estabilidad con sesgo positivo a corto plazo. |
+| **Tendencia** | SMA 50 / SMA 200 | 54,28 EUR / 53,30 EUR | Tendencia alcista estructural a medio y largo plazo. |
+| **Momento** | RSI (14) | 63,01 | Impulso comprador firme, sin sobrecompra extrema. |
+| **Momento** | MACD vs Signal | 0,77 vs 0,55 (Histograma positivo) | Cruce alcista vigente que apoya la continuidad del movimiento. |
+| **Volatilidad** | Volatilidad Anualizada | 18,87% | Niveles de riesgo moderados y estables para el sector. |
+| **Valoración** | Forward P/E / FCF | 23,75x / ~6.488M EUR | Valoración exigente justificada por alta generación de caja. |
+| **Consenso** | Target Mean Price | 60,39 EUR (+7,57% potencial) | Margen alcista moderado hasta el objetivo de los analistas. |
+
+*Nota sobre datos ausentes:* No se dispone de un desglose detallado de competidores directos en

@@ -1,11 +1,11 @@
 **Action**: Buy
 
-**Reasoning**: La acción presenta una condición técnica de sobreventa extrema que, sumada a la reciente compra de acciones por parte de la alta dirección, sugiere un posible suelo de mercado. Aunque la tendencia es bajista, la valoración atractiva con un Forward PE de 8,08x y el potencial de revalorización hacia el precio objetivo de consenso justifican una entrada táctica a largo plazo aprovechando el descuento actual.
+**Reasoning**: La acción se encuentra en una zona de sobreventa extrema (RSI de 23,78), lo que junto a un Forward PE atractivo de 8,08 frente a la mediana del sector, presenta una oportunidad de acumulación a valor. La convicción se refuerza por las compras recientes de los directivos (insiders), que sugieren que el valor actual podría representar un suelo técnico tras la reciente corrección. Aunque la ruptura de la media de 200 días impone cautela, la estrategia de entrada escalonada permite gestionar la volatilidad actual del 28% mientras el mercado absorbe el impacto de las políticas del BCE.
 
 **Entry Price**: 10.118
 
-**Stop Loss**: 9.2
+**Stop Loss**: 9.4
 
-**Position Sizing**: 5% de la cartera
+**Position Sizing**: 0.5x de una asignación estándar (acumulación gradual)
 
 FINAL TRANSACTION PROPOSAL: **BUY**

@@ -1,82 +1,34 @@
-**Rating**: REVIEW
+Este informe analiza la situación fundamental de **Solaria Energía y Medio Ambiente, S.A. (`SLR.MC`)** a fecha de 1 de noviembre de 2026, basándose en los datos financieros y de mercado proporcionados.
 
-**FINAL TRANSACTION PROPOSAL**: HOLD
+### Resumen del Perfil Corporativo
+Solaria (`SLR.MC`) es una empresa española líder en el sector de servicios públicos (Utilities), específicamente en el segmento de energías renovables. La compañía se especializa en el desarrollo y generación de energía solar fotovoltaica.
 
----
+### Análisis Financiero y Desempeño
+*   **Resultados Recientes:** Según reportes de *Bankinter* (29/10/2026), la compañía mantiene resultados sólidos y ha reiterado sus guías. La tendencia reciente de la acción ha sido volátil, con una caída del 5,1% en la última sesión registrada (30/10/2026) y un descenso acumulado del 43,32% desde sus máximos (*drawdown*).
+*   **Rentabilidad y Valoración:** La empresa presenta un PER *trailing* de 7,80x y un PER *forward* de 8,57x, lo que sugiere una valoración atractiva en comparación con la mediana de sus pares (15,98x). La relación precio/valor contable (*Price-to-Book*) de 1,77x indica una valoración moderada respecto a sus activos netos.
+*   **Estructura de Capital:** La empresa sostiene una deuda total de 1.559,4 millones de EUR, con un ratio de Deuda Neta/EBITDA de 4,14x. Si bien los ingresos han crecido un 38,8% interanual y los beneficios un 44,4%, la empresa presenta un flujo de caja libre negativo (-437,97 millones de EUR en el último periodo reportado), lo cual es característico de empresas en fase de alta intensidad inversora en infraestructura renovable.
+*   **Análisis Técnico:** Con un RSI de 41,94, la acción no se encuentra en territorio de sobreventa extrema, pero muestra debilidad técnica al cotizar por debajo de sus medias móviles de 20, 50 y 200 días (la media de 200 días se sitúa en 19,66 EUR frente al precio actual de 14,59 EUR).
 
-### Informe Fundamental Integral: Solaria Energía y Medio Ambiente, S.A. (`SLR.MC`)
+### Perspectivas y Riesgos
+*   **Catalizadores:** La posible aprobación de un decreto gubernamental sobre centros de datos (*Rankia*, 28/10/2026) podría beneficiar significativamente a Solaria, al aumentar la demanda de energía renovable a largo plazo.
+*   **Riesgos:** La volatilidad en el mercado español, influenciada por la política monetaria del BCE (tipos de interés al 2,5% según *Estrategias de Inversión*, 29/10/2026) y el sentimiento negativo general hacia el sector de servicios públicos, ejerce presión sobre el precio de la acción.
 
-#### 1. Perfil de la Compañía y Negocio
-* **Identidad Resuelta**: Solaria Energía y Medio Ambiente, S.A. (`SLR.MC`)
-* **Sector y Negocio**: Utilities / Utilities - Renovables (Energía solar fotovoltaica).
-* **Bolsa y Divisa**: Mercado Continuo de Madrid (MCE), cotizada en EUR. Benchmark: índice `^IBEX`.
-* **Contexto de Mercado Reciente**: Las acciones de `SLR.MC` han sufrido presión a la baja recientemente, cotizando en los **14,595 EUR** (precio al cierre del 30 de octubre de 2026), lo que representa una caída de un 5,10% en la sesión y un descenso acumulado del 43,32% desde sus máximos (drawdown). Las noticias recientes apuntan a un debate regulatorio mixto en España (como el decreto de centros de datos y su impacto positivo a nivel estratégico frente a la atonía general del Ibex 35 y la postura de tipos del BCE en el 2,5%).
+### Información Faltante
+No se dispone de datos detallados sobre el calendario exacto de vencimientos de la deuda a largo plazo ni el desglose pormenorizado por tipo de contrato de venta de energía (PPA vs. mercado libre), factores críticos para evaluar la sostenibilidad del flujo de caja.
 
----
+### Conclusión para Operadores
+Solaria presenta fundamentos de crecimiento atractivos (crecimiento de ingresos del 38,8% y un margen de beneficio del 48,57%) y una valoración por múltiplos (PER) significativamente inferior a la de sus competidores en el sector. Sin embargo, el flujo de caja libre negativo y la tendencia bajista en el precio sugieren cautela técnica hasta que se consolide una base de soporte. El consenso de analistas mantiene un objetivo de precio medio de 22,39 EUR, lo que implica un potencial alcista sustancial desde los niveles actuales.
 
-#### 2. Fundamentos Financieros y Valoración Actual
-* **Capitalización de Mercado**: 1.921.377.280 EUR (~1.92 mil millones de EUR).
-* **Valoraciones Clave**:
-  * **Trailing P/E**: 7,80x
-  * **Forward P/E**: 8,57x
-  * **Price to Book (Precio/Valor en Libros)**: 1,77x (Valor en libros por acción: 8,22 EUR).
-  * **EV/EBITDA**: 10,05x
-* **Rentabilidad y Márgenes**:
-  * **Margen de Beneficios (Profit Margins)**: 48,57% (altamente rentable a nivel operativo).
-  * **Rentabilidad sobre el Capital (Return on Equity - ROE)**: 20,44%.
-  * **Crecimiento de Ingresos (Revenue Growth)**: 38,8% interanual.
-  * **Crecimiento de Beneficios (Earnings Growth)**: 44,4%.
-* **Deuda y Apalancamiento**:
-  * **Deuda Total**: 1.559.412.992 EUR.
-  * **Efectivo Total**: 209.404.992 EUR (Deuda Neta / EBITDA aprox. de 4,14x).
-* **Consenso de Analistas (Target Prices)**:
-  * **Precio Objetivo Medio (Target Mean)**: 22,39 EUR.
-  * **Precio Objetivo Bajo**: 14,00 EUR.
-  * **Precio Objetivo Alto**: 28,00 EUR.
-  * **Número de Opiniones**: 15 analistas.
-  * **Upside Potencial del Consenso**: +53,43% respecto al precio actual de 14,59 EUR.
+**Rating**: HOLD (basado en la desconexión entre el valor fundamental y la debilidad de la tendencia técnica).
 
----
+FINAL TRANSACTION PROPOSAL: No action, monitor for stability above 14.00 EUR level.
 
-#### 3. Análisis Histórico de Estados Financieros (2023 - 2025)
-
-A partir de los informes financieros anuales provistos:
-
-* **Cuenta de Resultados (Income Statement)**:
-  * *2023*: Ingresos Totales de 191,32 M€ | EBITDA de 201,32 M€ | Beneficio Neto de 107,51 M€
-  * *2024*: Ingresos Totales de 176,91 M€ | EBITDA de 201,90 M€ | Beneficio Neto de 88,61 M€
-  * *2025*: Ingresos Totales de 197,44 M€ | EBITDA de 266,73 M€ | Beneficio Neto de 137,39 M€
-  *(Observación: Los ingresos y la rentabilidad muestran un repunte notable en el ejercicio fiscal cerrado a diciembre de 2025, reflejando mayor capacidad instalada operativa y márgenes sólidos).*
-
-* **Balance de Situación (Balance Sheet)**:
-  * *2023*: Activos Totales de 1.648,92 M€ | Deuda Total de 1.060,05 M€ | Patrimonio Neto (Equity) de 522,92 M€
-  * *2024*: Activos Totales de 1.968,64 M€ | Deuda Total de 1.147,43 M€ | Patrimonio Neto de 613,89 M€
-  * *2025*: Activos Totales de 2.443,46 M€ | Deuda Total de 1.508,76 M€ | Patrimonio Neto de 704,21 M€
-  *(Observación: Se evidencia un fuerte ciclo de expansión e inversión en activos fijos, incrementando tanto la base de activos como la deuda financiera total de forma paralela al crecimiento patrimonial).*
-
-* **Flujos de Caja (Cash Flow)**:
-  * *2023*: Flujo de Caja Operativo: 98,08 M€ | CapEx: -328,61 M€ | Flujo de Caja Libre (FCF): -230,53 M€
-  * *2024*: Flujo de Caja Operativo: 115,32 M€ | CapEx: -187,39 M€ | Flujo de Caja Libre (FCF): -72,07 M€
-  * *2025*: Flujo de Caja Operativo: 138,16 M€ | CapEx: -398,26 M€ | Flujo de Caja Libre (FCF): -260,10 M€
-  *(Observación: El FCF permanece consistentemente negativo debido al fuerte nivel de inversiones en CapEx destinadas al desarrollo de plantas fotovoltaicas y expansión, lo cual es típico de promotores de energías renovables en fase de crecimiento intensivo).*
-
----
-
-#### 4. Indicadores Técnicos y Contexto Bursátil
-* **Precio de Cierre (30/10/2026)**: 14,595 EUR.
-* **Medias Móviles**: SMA20 (15,40 EUR), SMA50 (16,32 EUR), SMA200 (19,66 EUR). La cotización se encuentra claramente por debajo de sus medias principales, reflejando una tendencia bajista de medio y largo plazo.
-* **RSI (14)**: 41,94 (zona neutral con sesgo bajista, sin sobreventa extrema).
-* **Volatilidad (Anualizada)**: 50,43% (alta volatilidad implícita e histórica).
-
----
-
-#### 5. Datos Faltantes y Advertencias
-* **Datos Faltantes**: No se dispone de un desglose detallado de transacciones de <i>insiders</i> en el lote de datos analizado. Asimismo, los flujos de caja operativos y de efectivo reflejan métricas anuales cerradas a diciembre de 2025 sin proyecciones trimestrales pormenorizadas para los últimos trimestres de 2026 más allá de las estimaciones consensuadas (Forward P/E y EPS).
-* **Asunciones y Métodos**: Los objetivos de precio de analistas corresponden a estimaciones de consenso de mercado recopiladas, no a valoraciones intrínsecas directas por modelo de descuento de flujos de caja (DCF).
-
----
-
-#### 6. Resumen en Tabla Organizada
-
-| Métrica / Concepto Clave | Valor Actual / Histórico Reciente (`SLR.MC`) | Referencia Temporal / Notas |
-| :--- | :---
+| Indicador | Valor |
+| :--- | :--- |
+| **Precio Actual** | 14,595 EUR |
+| **Market Cap** | 1.921,38 M EUR |
+| **PER Forward** | 8,57x |
+| **Crecimiento Ingresos** | 38,8% |
+| **Consenso Upside** | 53,43% |
+| **Deuda Neta/EBITDA** | 4,14x |
+| **RSI (14)** | 41,94 |

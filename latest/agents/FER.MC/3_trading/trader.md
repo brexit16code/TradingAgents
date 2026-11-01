@@ -1,11 +1,11 @@
-**Action**: Hold
+**Action**: Sell
 
-**Reasoning**: Ferrovial N.V. cotiza a 50.70 EUR, apoyada por un fuerte rebote reciente del 15% impulsado por noticias en sus autopistas en EE.UU. y un sólido crecimiento de ingresos, pero operando con múltiplos muy exigentes como un Forward P/E de 44.13x y un RSI cercano a la sobrecompra (68.01). Dado que los argumentos alcistas (potencial de consenso en 60.10 EUR) y bajistas (caída de beneficios del 12% y apalancamiento de 4.38x Deuda Neta/EBITDA) se equilibran, la postura adecuada es mantener la posición actual sin realizar nuevas compras.
+**Reasoning**: Siguiendo el plan de inversión y la recomendación de subponderar, se propone realizar una venta parcial para asegurar beneficios tras el rebote hasta los 50.70 EUR. La decisión se fundamenta en múltiplos de valoración muy exigentes con un Forward P/E de 44.13x, un apalancamiento elevado (Net Debt/EBITDA de 4.39x) y señales de fatiga en el tráfico de autopistas, a pesar de que el precio cotice por encima de la SMA20 de 45.69 EUR y la SMA50 de 47.75 EUR. Se establece una salida para mitigar el riesgo de valoraciones excesivas frente a la SMA200 situada en 55.29 EUR.
 
-**Entry Price**: not provided
+**Entry Price**: 50.7
 
-**Stop Loss**: not provided
+**Stop Loss**: 55.3
 
-**Position Sizing**: Posición neutra de mantenimiento
+**Position Sizing**: Reducir la exposicion actual a la mitad (bajar la asignacion en 50% respecto al peso objetivo del sector)
 
-FINAL TRANSACTION PROPOSAL: **HOLD**
+FINAL TRANSACTION PROPOSAL: **SELL**

@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La estructura técnica de MTS.MC es débil, con el precio por debajo de la SMA de 50 y 20 sesiones, indicando una tendencia correctiva. Aunque la valoración forward PE de 9.75x y el P/B de 0.83 sugieren valor a largo plazo, la ausencia de un flujo de caja libre positivo y la incertidumbre macroeconómica aconsejan no incrementar posiciones hasta que se consolide una ruptura sobre la resistencia de los 55.50-56.00 EUR.
+**Reasoning**: La acción se encuentra bajo presión técnica al cotizar por debajo de sus medias móviles de 20, 50 y 200 días, lo que confirma una tendencia bajista persistente. Aunque existe un descuento fundamental significativo frente al valor contable, la debilidad en el flujo de caja libre y la falta de un impulso de compra claro en el RSI desaconsejan una entrada inmediata. Se recomienda mantener hasta que el precio supere con consistencia la SMA de 200 días situada en 55,28 EUR.
 
-**Entry Price**: 55.5
+**Entry Price**: not provided
 
 **Stop Loss**: 52.7
 
-**Position Sizing**: 0.5% del portafolio (posición hipotética)
+**Position Sizing**: Mantener posición actual
 
 FINAL TRANSACTION PROPOSAL: **HOLD**
