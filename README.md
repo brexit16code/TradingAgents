@@ -2,7 +2,7 @@
 
 [**Abrir el informe web**](https://brexit16code.github.io/TradingAgents/) · [Versión de texto](https://github.com/brexit16code/TradingAgents/blob/ibex-reports/latest/Informe.md) · [Ejecuciones automáticas](https://github.com/brexit16code/TradingAgents/actions/workflows/ibex-daily.yml)
 
-Informe diario en castellano a las **19:47 (Europe/Madrid)** para consultar desde el móvil. Incluye datos, titulares, análisis técnico, ratios y valoración por reglas. El análisis de IA de TradingAgents está preparado y pendiente de activar con un proveedor gratuito verificado.
+El análisis diario en castellano comienza a las **19:47 (Europe/Madrid)** y publica los resultados al terminar, para consultarlos desde el móvil. Incluye titulares, análisis técnico y fundamental, valoraciones y recomendaciones justificadas del grafo de TradingAgents, con Gemini Lite en su nivel gratuito verificado. La web muestra la cobertura real y los datos que faltan.
 
 Investigación sin operaciones reales. [Guía de la adaptación](ibex/README_ES.md).
 

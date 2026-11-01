@@ -4,20 +4,28 @@ Adaptación de TauricResearch/TradingAgents v0.7.1, base
 `c4544913a14ed3df5f1ed7b9e8483270ce20682a`. Investigación sin operaciones reales.
 No incorpora credenciales de bróker, cuentas personales ni funciones de compra/venta.
 
-## Estado de esta instalación — 31/10/2026
+## Estado de esta instalación — 01/11/2026
 
 - Fork creado: https://github.com/brexit16code/TradingAgents
 - Informe web publicado: https://brexit16code.github.io/TradingAgents/
-- Análisis de datos de 35 valores y publicación diaria activos a las 19:47.
-- Dos ejecuciones en la nube completadas; la segunda aplica el filtro de nombres
-  para excluir titulares sobre otras empresas. Buscador y filtros web comprobados.
+- Inicio automático diario a las 19:47, Europe/Madrid. La web se actualiza cuando
+  termina el análisis; GitHub puede retrasar el inicio.
+- Ejecución de comprobación del 01/11/2026: **35/35 informes completos de
+  TradingAgents**, con precios del último cierre disponible (30/10/2026).
+  Verificación: https://github.com/brexit16code/TradingAgents/actions/runs/41279251665
+- La ejecución usó 400 llamadas: 112 con Gemini 3.1 Flash Lite y 288 con
+  Gemini 3.5 Flash Lite, por debajo del tope preventivo de 450 por modelo.
+- Hay titulares recientes para 33 empresas. Cellnex e Inmobiliaria Colonial
+  indican la falta de titulares propios verificados; no se presenta ese vacío
+  como ausencia de acontecimientos.
+- Buscador, filtros y enlaces a informes completos disponibles desde Android.
 - Comprobaciones del proyecto completas en Python 3.11, 3.12, 3.13 y 3.14.
 - Alta de Google AI Studio completada por el titular. Comprobado en la cuenta:
   «No hay una cuenta de facturación» y nivel gratuito. Gemini 3.1 Flash Lite
   muestra 15 solicitudes/minuto, 250.000 tokens/minuto y 500 solicitudes/día.
   Gemini 3.5 Flash Lite muestra los mismos límites y también tiene tarifa gratuita.
   Clave conectada como secreto cifrado de GitHub el 01/11/2026, con autorización
-  del titular. IA habilitada; primera ejecución completa en comprobación.
+  del titular. IA habilitada con los dos modelos Lite gratuitos verificados.
   No se han contratado servicios de pago.
 
 ## Qué se ha preparado
@@ -46,10 +54,11 @@ TradingAgents ni interpreta semánticamente las noticias**: ambas cosas se
 distinguen en el informe. Sus etiquetas son Vigilar favorable, Neutral,
 Precaución y Datos insuficientes, no órdenes de negociación.
 
-La integración completa está desactivada hasta verificar un proyecto de Gemini
-en el nivel gratuito y sin facturación. No basta con que una clave funcione:
-hay que comprobar el estado de facturación de ese proyecto. No se contrata ni
-se activa ningún servicio de pago automáticamente.
+La integración completa está activada en esta instalación, con un proyecto de
+Gemini cuyo nivel gratuito y ausencia de facturación se han comprobado. En una
+instalación nueva debe verificarse ese estado antes de habilitarla: una clave
+que funcione no acredita por sí sola el nivel gratuito. No se contrata ni activa
+ningún servicio de pago automáticamente.
 
 Se han verificado `gemini-3.1-flash-lite` y `gemini-3.5-flash-lite` en la cuenta.
 Los valores se reparten de forma alterna entre ambos modelos; cada empresa
@@ -86,48 +95,45 @@ Los topes locales de llamadas/caracteres son preventivos, no un límite de
 facturación certificado. Nunca activar facturación para resolver un error de cuota
 sin autorización expresa del titular.
 
-## Aplicación a la cuenta de GitHub
+## Configuración activa en GitHub
 
-Estos pasos están preparados para que el asistente los realice al disponer de
-acceso autenticado; no indican que el fork o la programación estén ya activos.
+El fork público `brexit16code/TradingAgents` tiene Actions y Pages configurados:
 
-1. Crear un fork real de `TauricResearch/TradingAgents` en la cuenta del usuario.
-   Reutilizar un fork previo si existe; no crear copias duplicadas.
-2. Incorporar `ibex/`, `.github/workflows/ibex-daily.yml`,
-   `tests/test_ibex.py` y las dos exclusiones añadidas a `.gitignore`.
-3. Activar Actions y el workflow del fork. GitHub desactiva inicialmente los
-   workflows programados en forks; subir archivos por sí solo no los activa.
-4. Lanzar manualmente **IBEX 35 diario**, esperar a que termine y comprobar
-   cobertura de 35 valores, fechas, enlaces e informe móvil.
-5. Si se quiere activar la IA gratuita, verificar el proyecto de Gemini,
-   introducir `GOOGLE_API_KEY` como **Repository secret** y establecer la
-   variable **Repository variable** `IBEX_FREE_TIER_VERIFIED=true`.
-   Una clave de API nunca debe pegarse en un chat, código o informe.
-6. Probar un día de uso, medir cuántos grafos caben en la cuota y mantener
-   desactivada cualquier opción de pago. Si la cuota no alcanza, explicar las
-   alternativas antes de cambiar el alcance o contratar un servicio.
+- **IBEX 35 diario**: datos y análisis de los 35 valores; también permite iniciar
+  una ejecución manual desde Actions.
+- **Publicar informe IBEX**: publica los informes disponibles cuando termina
+  la ejecución diaria, incluso si alguno ha fallado. La cobertura se muestra
+  explícitamente; una ejecución incompleta no se presenta como completa.
+- **Comprobar Gemini gratuito**: diagnóstico manual de los dos modelos permitidos,
+  con una petición breve por modelo y sin mostrar la clave.
+- `GOOGLE_API_KEY`: secreto cifrado del repositorio.
+- `IBEX_FREE_TIER_VERIFIED=true`: variable que habilita la IA tras la verificación
+  del proyecto gratuito. No modificarla para saltarse una comprobación pendiente.
 
 El workflow solo se ejecuta en forks **públicos**, usando un runner Linux
-estándar. Su rama `ibex-reports` contendrá informes genéricos con datos públicos.
+estándar. La rama `ibex-reports` contiene informes genéricos con datos públicos.
 No incluir cartera real, datos personales, secretos ni cuentas en estos informes.
-Si se desea privacidad de los informes, revisar primero otra configuración y su
-cuota, sin hacer público ningún dato privado.
+Para reutilizar la adaptación en otra cuenta hay que crear su propio fork,
+activar sus workflows y verificar su propio proveedor y cuotas antes de añadir
+una clave. Nunca pegar una clave de API en un chat, código o informe.
 
 ## Consulta desde Android
 
-Una vez desplegado, guardar en Chrome el enlace real que devuelva el asistente:
-`https://github.com/USUARIO/TradingAgents/blob/ibex-reports/latest/Informe.md`.
-La ruta puede variar si el fork tiene otro nombre. No es necesario abrir Codespaces,
-tener un ordenador encendido ni ejecutar Python en el teléfono.
+Abrir https://brexit16code.github.io/TradingAgents/ en Chrome y guardar el enlace
+como marcador. Buscar una empresa y abrir su informe de TradingAgents desde la
+tarjeta correspondiente. No hace falta tener un ordenador encendido ni ejecutar
+Python en el teléfono.
+
+La versión de texto está en:
+https://github.com/brexit16code/TradingAgents/blob/ibex-reports/latest/Informe.md
 
 También se pueden ver los resultados en **Actions → IBEX 35 diario → última
 ejecución** y descargar el paquete de informes durante siete días. `index.html`
 incluye buscador, filtros y gráficos sin servicios externos de gráficos.
 Los informes completos de agentes quedan enlazados cuando se han podido generar.
 
-El workflow **Publicar informe IBEX** publica el HTML en GitHub Pages cuando
-termina correctamente el análisis diario. Pages usa únicamente la carpeta de
-informes ya pública de la rama `ibex-reports`; no publica credenciales ni cartera.
+GitHub Pages publica únicamente la carpeta `latest/` de la rama de informes;
+no publica credenciales ni cartera.
 
 ## Reglas y límites de datos
 
@@ -175,7 +181,7 @@ python -m ibex.run
 La orden con `--with-agents` exige la verificación del nivel gratuito y la clave.
 No hay cambio automático a otro proveedor ni a una tarifa de pago.
 
-Fuentes oficiales revisadas el 31/10/2026:
+Fuentes oficiales revisadas el 31/10 y el 01/11/2026:
 
 - https://github.com/TauricResearch/TradingAgents
 - https://www.bolsasymercados.es/dam/descargas/indices/composicion-ibex-35-es-en.pdf
