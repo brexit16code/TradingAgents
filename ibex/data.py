@@ -63,7 +63,7 @@ def closed_history(history, now):
     return history.loc[[i.date() <= cutoff for i in history.index]]
 
 
-def history_for(ticker, now):
+def history_for(ticker, now, *, include_open_session=False):
     import yfinance as yf
 
     error = None
@@ -71,6 +71,11 @@ def history_for(ticker, now):
         try:
             history = yf.Ticker(ticker).history(period="2y", auto_adjust=False, timeout=20)
             if history is not None and not history.empty:
+                if include_open_session:
+                    # Corporate actions in today's open bar may already have adjusted
+                    # earlier Yahoo prices. The paper ledger needs that split event
+                    # to reconstruct old prices, but never settles the open bar.
+                    return history.loc[[i.date() <= now.astimezone(MADRID).date() for i in history.index]]
                 return closed_history(history, now)
         except Exception as exc:
             error = type(exc).__name__

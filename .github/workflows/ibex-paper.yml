@@ -1,0 +1,56 @@
+name: Actualizar cartera virtual IBEX
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'ibex/paper.py'
+      - 'ibex/paper_render.py'
+      - 'ibex/render.py'
+      - '.github/workflows/ibex-paper.yml'
+
+permissions:
+  contents: write
+
+# Shared with the daily report: never overwrite a newer durable portfolio.
+concurrency:
+  group: ibex-daily
+  cancel-in-progress: false
+
+jobs:
+  portfolio:
+    if: github.repository != 'TauricResearch/TradingAgents' && github.event.repository.fork == true && github.event.repository.private == false
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      TZ: Europe/Madrid
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: ibex/requirements.txt
+      - name: Instalar solo datos gratuitos; sin proveedor de IA
+        run: python -m pip install -r ibex/requirements.txt
+      - name: Recuperar los informes y el historial duradero
+        run: |
+          git fetch origin ibex-reports
+          git worktree add --detach /tmp/ibex-virtual FETCH_HEAD
+      - name: Actualizar la simulación y el acceso desde la web
+        run: >-
+          python -m ibex.paper
+          --report /tmp/ibex-virtual/latest/datos.json
+          --previous /tmp/ibex-virtual/latest/cartera.json
+          --output /tmp/ibex-virtual/latest
+      - name: Conservar las operaciones ficticias y las recomendaciones originales
+        run: |
+          git -C /tmp/ibex-virtual config user.name 'github-actions[bot]'
+          git -C /tmp/ibex-virtual config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git -C /tmp/ibex-virtual add latest
+          if ! git -C /tmp/ibex-virtual diff --cached --quiet; then
+            git -C /tmp/ibex-virtual commit -m 'Actualizar cartera virtual IBEX sin operaciones reales'
+            git -C /tmp/ibex-virtual push origin HEAD:ibex-reports
+          fi
+          echo '[Abrir cartera virtual](https://brexit16code.github.io/TradingAgents/cartera.html)' >> "$GITHUB_STEP_SUMMARY"

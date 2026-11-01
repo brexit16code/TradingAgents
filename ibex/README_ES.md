@@ -2,7 +2,7 @@
 
 Adaptación de TauricResearch/TradingAgents v0.7.1, base
 `c4544913a14ed3df5f1ed7b9e8483270ce20682a`. Investigación sin operaciones reales.
-No incorpora credenciales de bróker, cuentas personales ni funciones de compra/venta.
+No incorpora credenciales de bróker, cuentas personales ni funciones de compra/venta reales.
 
 ## Estado de esta instalación — 01/11/2026
 
@@ -134,6 +134,67 @@ Los informes completos de agentes quedan enlazados cuando se han podido generar.
 
 GitHub Pages publica únicamente la carpeta `latest/` de la rama de informes;
 no publica credenciales ni cartera.
+
+## Cartera virtual y seguimiento de resultados
+
+Abrir https://brexit16code.github.io/TradingAgents/cartera.html desde Android.
+La página principal también enlaza la cartera. El experimento es público y usa
+solo dinero ficticio; no contiene una cartera personal ni ejecuta órdenes reales.
+
+- Capital inicial fijo: **10.000 €**; presupuesto por entrada: **1.000 € con costes**;
+  máximo diez posiciones. Compras de acciones enteras y ventas solo de posiciones
+  existentes; sin crédito ni ventas en corto.
+- Usa la **calificación final de TradingAgents**, con una correspondencia fija:
+  Buy/Strong Buy/Overweight abren una posición si no existe; Hold la conserva sin
+  abrir ni ampliar; Sell/Strong Sell/Underweight la cierra. La reducción completa
+  ante Underweight es una regla simplificada del experimento. Una calificación
+  desconocida o incompleta no se sustituye por el filtro «Vigilar favorable».
+- Se guardan la decisión, su justificación, modelo, fecha, cierre de referencia y
+  huella de las evidencias en `paper-history/`. Ese registro permanece aunque la
+  recomendación del día siguiente sea diferente. No se inventan aciertos anteriores.
+- Se simula la ejecución en la primera **apertura de una sesión posterior al día
+  de registro**, nunca en un precio anterior a la señal. Para poder usar datos
+  diarios completos, la liquidación se actualiza después del cierre. Tampoco se
+  liquidan barras intradía sin terminar.
+- Costes ficticios: **2 € por compra y 2 € por venta**, más **0,1 % de ajuste
+  desfavorable** sobre la apertura en cada sentido. No son comisiones cobradas
+  al usuario ni una estimación de las condiciones de un bróker concreto.
+- Primero se liquidan ventas y después compras; a igual fecha se ordenan por
+  símbolo, sin escoger retrospectivamente los ganadores. La entrada no añade
+  repetidamente otros 1.000 € cuando la posición ya existe. Una nueva señal puede
+  cancelar una orden pendiente; se contempla caducidad de catorce días naturales.
+- Dividendos brutos devengados en exfecha, para quien tenía las acciones al cierre
+  anterior. Se suman al valor total como derecho devengado, separados del efectivo;
+  no se presume cobro inmediato ni se reinvierten. No se calculan impuestos.
+- Se procesan splits y contrasplits conservando el coste de la posición. Se deshace
+  primero el ajuste retrospectivo por splits de Yahoo sobre los precios históricos;
+  no se usa Adj Close para luego volver a sumar dividendos. Las fracciones de
+  acciones de un split se mantienen en el experimento. Otros eventos corporativos,
+  derechos, fusiones y exclusiones requieren revisión.
+- La referencia es `^IBEX`, **índice de precio sin dividendos ni costes**. La cartera
+  incluye costes y dividendos devengados. Se explica la diferencia; no se declara
+  que superar esa línea equivalga a superar un índice de rentabilidad total.
+- Si faltan precios necesarios, se pausa la liquidación en la primera sesión
+  incompleta. No se inventan precios. El saldo inicial no vuelve a crearse por un
+  archivo corrupto, una modificación de reglas ni un historial incompleto.
+
+La web distingue resultado de ventas, resultado pendiente de posiciones abiertas,
+efectivo, dividendos y comisiones ya descontadas. La calculadora **Ensaya una compra
+y una venta** permite variar cantidad, precios de ejecución y comisión para entender
+una operación hipotética. Es un ensayo matemático separado de las operaciones
+registradas automáticamente.
+
+El archivo `latest/cartera.json` y las evidencias se guardan en la rama
+`ibex-reports`. El workflow diario recupera el historial, liquida las instrucciones
+anteriores y registra las recomendaciones nuevas, antes de publicar. Ambos workflows
+comparten un bloqueo de concurrencia para no sobreescribir operaciones más recientes.
+El workflow **Actualizar cartera virtual IBEX** permite refrescar la simulación sin
+repetir el análisis de IA; también se ejecuta al actualizar sus archivos en main.
+Pages publica el resultado después de cualquiera de los dos workflows.
+
+La simulación no consume llamadas de Gemini ni añade servicios de pago. Su resultado
+sirve para observar el experimento desde su inicio, con las limitaciones de datos y
+supuestos indicadas; no garantiza una rentabilidad real ni futura.
 
 ## Reglas y límites de datos
 

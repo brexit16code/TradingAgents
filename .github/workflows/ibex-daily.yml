@@ -47,7 +47,6 @@ jobs:
           key: ibex-state-${{ github.run_id }}
           restore-keys: ibex-state-
       - name: Recuperar informes terminados del mismo día
-        if: vars.IBEX_FREE_TIER_VERIFIED == 'true'
         run: |
           mkdir -p .ibex-state/previous-report
           if git ls-remote --exit-code --heads origin ibex-reports > /dev/null 2>&1; then
@@ -69,6 +68,14 @@ jobs:
         with:
           path: .ibex-state
           key: ibex-state-${{ github.run_id }}
+      - name: Actualizar la cartera virtual sin llamadas adicionales a IA
+        if: always() && steps.baseline.outcome == 'success'
+        timeout-minutes: 15
+        run: >-
+          python -m ibex.paper
+          --report ibex-output/latest/datos.json
+          --previous .ibex-state/previous-report/latest/cartera.json
+          --output ibex-output/latest
       - name: Conservar informes descargables siete días
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4

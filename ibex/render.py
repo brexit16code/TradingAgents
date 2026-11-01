@@ -86,6 +86,7 @@ def write_html(report, output):
 <p>35 empresas · Cierre de mercado · España</p><small>Generado {esc(report['generated_at'])} · Zona Europe/Madrid</small>
 <div class="notice"><strong>{sum(r.get('status') == 'ok' for r in report['companies'])}/35 con precios · {done}/35 con informe de TradingAgents</strong><p>{esc(report['universe']['note'])}</p>
 <small>Última revisión BME contrastada: {esc(report['universe']['revision_date'])}. Los fines de semana y festivos se conserva la fecha del último cierre disponible.</small></div>
+{'<div class="notice"><a href="cartera.html"><strong>Abrir la cartera virtual · 10.000 € ficticios</strong></a><p>Seguimiento de las recomendaciones, compras y ventas simuladas, ganancias y pérdidas.</p></div>' if (output / 'cartera.html').exists() else ''}
 <nav aria-label="Filtrar empresas"><input id="search" type="search" aria-label="Buscar empresa" placeholder="Buscar empresa o símbolo"><select id="signal" aria-label="Filtrar señal"><option value="">Todas las señales</option><option>Vigilar favorable</option><option>Neutral</option><option>Precaución</option><option>Datos insuficientes</option></select></nav>
 <div class="grid">{''.join(cards)}</div><div class="notice method"><strong>Cómo leerlo</strong><p>El filtro gratuito calcula tendencia, fuerza relativa, crecimiento de ingresos, múltiplos de valoración y deuda cuando es aplicable. Las reglas y umbrales no están validados como estrategia rentable. Las señales son hipótesis para investigar.</p>
 <p>Fundamentales y consenso son instantáneas del proveedor. No se calcula un valor intrínseco universal, ni se deduce un resultado histórico con datos actuales. No hay cuenta de bróker conectada ni función de envío de órdenes.</p><p>Datos: Yahoo Finance y Google News. Composición: <a href="{esc(report['universe']['source'])}">BME</a>.</p></div></main>
@@ -104,6 +105,8 @@ def write_markdown(report, output):
              "El filtro de reglas sin IA y el análisis de TradingAgents se muestran por separado.", "",
              "| Empresa | Cierre EUR | Fecha precio | Filtro sin IA | TradingAgents |",
              "|---|---:|---|---|---|"]
+    if (output / "cartera.html").exists():
+        lines[4:4] = ["[Cartera virtual: operaciones y resultados ficticios](cartera.html)", ""]
     for row in report["companies"]:
         t, signal, ai = row.get("technical", {}), row["screen"], row.get("agents", {})
         lines.append(f"| {md(row['name'])} | {fmt(t.get('close'))} | {t.get('price_date', 'N/D')} | "

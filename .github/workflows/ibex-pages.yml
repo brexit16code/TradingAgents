@@ -3,7 +3,7 @@ name: Publicar informe IBEX
 on:
   workflow_dispatch:
   workflow_run:
-    workflows: ['IBEX 35 diario']
+    workflows: ['IBEX 35 diario', 'Actualizar cartera virtual IBEX']
     types: [completed]
 
 permissions:
