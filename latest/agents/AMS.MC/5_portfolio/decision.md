@@ -1,0 +1,9 @@
+**Rating**: Hold
+
+**Executive Summary**: AMS.MC se mantiene en una zona de equilibrio técnico y fundamental, cotizando por encima de sus medias móviles clave (SMA20 en 54,61 EUR y SMA50 en 55,04 EUR) pero frenado por una leve desaceleración en los beneficios netos (-2,6%) y una volatilidad anualizada del 24,28%. Se recomienda mantener la posición actual sin ampliar exposición, vigilando de cerca el soporte crítico de la media de 200 sesiones en 52,22 EUR, a la espera de una confirmación operativa más clara que justifique un cambio de rumbo hacia el objetivo de consenso de 69,58 EUR en un horizonte de 3 a 6 meses.
+
+**Investment Thesis**: Tras sopesar las posturas de los analistas, la evidencia se mantiene equilibrada entre los sólidos fundamentos a largo plazo defendidos por el bando alcista (un ROE del 26,47%, un Forward P/E atractivo de 14,62x, un flujo de caja libre potente y una deuda neta sobre EBITDA contenida en 1,06x) y los riesgos de corto plazo expuestos por el bando conservador (tipos del BCE anclados en el 2,5%, un crecimiento de ingresos frenado al 1,5% y un retroceso anual del -11,44%). Aunque el análisis técnico muestra un sesgo positivo respaldado por un RSI de 59,56 y un MACD alcista, la debilidad actual en las ganancias y la volatilidad del 24,28% neutralizan el ímpetu comprador inmediato. Lo que cambiaría esta tesis hacia una postura de compra firme sería la constatación de una aceleración real en el crecimiento de los beneficios por encima de las estimaciones actuales o una distensión definitiva en el entorno macroeconómico europeo.
+
+**Price Target**: 69.58
+
+**Time Horizon**: 3-6 meses

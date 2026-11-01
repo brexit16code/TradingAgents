@@ -1,0 +1,626 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'">
+<title>IBE.MC 2026-11-01 Hold: TradingAgents report</title>
+<style>
+:root {
+  --paper: #fbfbfa; --ink: #1c2126; --muted: #5d6670; --rule: #e2e5e8; --wash: #f2f4f5;
+  --accent: #087a59; --up: #087a59; --down: #b4372f; --level: #5d6670; --edge: #d3d8dc; --mark: #878f97;
+  --serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #131a1f; --ink: #e4e8eb; --muted: #9aa6af; --rule: #263239; --wash: #1a242a;
+    --accent: #14c290; --up: #14c290; --down: #ef6f63; --level: #9aa6af; --edge: #3d4c55; --mark: #66737c;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .masthead .logo [stroke="#363636"] { stroke: var(--muted); }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font: 17px/1.62 var(--serif); font-kerning: normal;
+}
+.page { max-width: 46rem; margin: 0 auto; padding: 3.5rem 1.5rem 6rem; }
+main h2, main h3 { scroll-margin-top: 1rem; }
+a { color: var(--accent); text-underline-offset: 0.15em; }
+h1, h2, h3, h4 { text-wrap: balance; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.masthead { padding-bottom: 1.75rem; border-bottom: 1px solid var(--rule); }
+/* The logo leads at the top left, where readers look for it, 24px tall (the usual
+   on-screen floor for a wordmark) with at least its height clear below. */
+.masthead .logo { display: block; width: fit-content; margin: 0 0 2.25rem; }
+.masthead .logo svg { display: block; height: 1.5rem; width: auto; }
+.masthead h1 {
+  margin: 0; font: 600 2.6rem/1.1 var(--sans); letter-spacing: -0.02em;
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.2em 0.5em;
+}
+.masthead .rating { font-weight: 500; }
+.rating.up { color: var(--up); } .rating.down { color: var(--down); } .rating.level { color: var(--level); }
+.rating.review { color: var(--muted); font-style: italic; }
+.masthead .date { margin: 0.55rem 0 1.5rem; font: 1rem/1.4 var(--sans); color: var(--muted); }
+.run { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: 0.45rem 1.25rem;
+  font: 0.85rem/1.5 var(--sans); }
+.run > div { display: contents; }
+.run dt { color: var(--muted); }
+.run dd { margin: 0; overflow-wrap: anywhere; }
+.run .note dd { color: var(--down); }
+.field { display: inline-block; margin: 0 0.15rem 0.15rem 0; padding: 0 0.4rem; border: 1px solid var(--edge);
+  border-radius: 4px; background: var(--wash); font: 0.8rem/1.6 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+.run .group { display: inline-block; margin-right: 0.9rem; white-space: nowrap; }
+.run .group > .name { color: var(--muted); margin-right: 0.3rem; }
+.run .then { color: var(--muted); margin: 0 0.2rem; }
+
+/* The sections: listed under the header on narrow screens. On wide ones, a
+   quiet rail centred on the left edge (numerals for the sections, short bars
+   for their agents) that opens into the full list when pointed at or focused. */
+.contents { margin: 2.25rem 0 0; font: 0.9rem/1.45 var(--sans); }
+.contents ul { margin: 0; padding: 0; list-style: none; }
+.contents > ul > li { margin: 0 0 0.75rem; }
+.contents ul ul { margin-top: 0.2rem; padding-left: 1.6rem; font-size: 0.85rem; }
+.contents ul ul li { margin: 0.1rem 0; }
+.contents a { display: flex; align-items: center; gap: 0.6rem; color: var(--muted); text-decoration: none; }
+.contents > ul > li > a { color: var(--ink); }
+.contents .num { min-width: 1.6rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.contents .bar { display: none; }
+.contents a:hover .label, .contents a:focus-visible .label { color: var(--accent); text-decoration: underline; }
+.to-top { position: fixed; right: 1rem; bottom: calc(1rem + env(safe-area-inset-bottom));
+  padding: 0.25rem 0.6rem; border: 1px solid var(--edge); border-radius: 4px; background: var(--paper);
+  color: var(--muted); font: 0.8rem/1.4 var(--sans); text-decoration: none; }
+
+@media (min-width: 60rem) {
+  .contents { position: fixed; left: 1rem; top: 50%; transform: translateY(-50%); z-index: 1;
+    max-height: 86vh; overflow-y: auto; overscroll-behavior: contain; margin: 0;
+    padding: 0.7rem 0.9rem; border: 1px solid transparent; border-radius: 6px;
+    transition: background-color 0.15s, border-color 0.15s, box-shadow 0.15s; }
+  .contents > ul > li { margin: 0 0 0.35rem; }
+  .contents ul ul { margin-top: 0; padding-left: 0; }
+  .contents ul ul li { margin: 0; }
+  /* Marks reach 3:1 contrast and rows 24px, the WCAG 2.2 floors for a control's
+     visual cue and its pointer target. */
+  .contents a { min-height: 1.5rem; }
+  .contents .num { min-width: 1.4rem; }
+  .contents .bar { display: block; flex: none; width: 1.25rem; height: 2px; margin-left: 0.2rem;
+    border-radius: 1px; background: var(--mark); }
+  .contents .label { max-width: 0; opacity: 0; overflow: hidden; white-space: nowrap;
+    transition: opacity 0.15s, max-width 0.2s; }
+  .contents:hover, .contents:focus-within { background: var(--paper); border-color: var(--rule);
+    box-shadow: 0 6px 24px rgb(0 0 0 / 0.08); }
+  .contents:hover .label, .contents:focus-within .label { max-width: 18rem; opacity: 1; }
+  .contents a:hover .bar, .contents a:focus-visible .bar { background: var(--accent); }
+  .to-top { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .contents, .contents .label { transition: none; }
+}
+
+/* The maker's credit: one quiet line at the foot. */
+.credit { margin-top: 4.5rem; padding-top: 1.25rem; border-top: 1px solid var(--rule);
+  color: var(--muted); font: 0.8rem/1.4 var(--sans); }
+.credit a { color: inherit; text-decoration: none; }
+.credit a.brand { color: var(--accent); }
+.credit a:hover, .credit a:focus-visible { text-decoration: underline; }
+
+/* Three levels of separation: the five groups, the agents within a group, and
+   breaks an agent draws inside its own text. */
+main h2 {
+  margin: 4.5rem 0 0.25rem; padding-top: 1.5rem; border-top: 2px solid var(--ink);
+  font: 600 1.45rem/1.3 var(--sans); letter-spacing: -0.01em;
+}
+main section:first-child h2 { margin-top: 3rem; }
+main h3 { margin: 2.75rem 0 0.75rem; padding-top: 1.1rem; border-top: 1px solid var(--rule);
+  font: 600 1.15rem/1.35 var(--sans); color: var(--accent); }
+main h2 + h3 { margin-top: 1.25rem; padding-top: 0; border-top: 0; }
+main h4, main h5, main h6 { margin: 1.75rem 0 0.5rem; font: 600 1rem/1.4 var(--sans); }
+main h5, main h6 { color: var(--muted); }
+main p, main ul, main ol { margin: 0 0 1rem; }
+main li { margin: 0.25rem 0; }
+main strong { font-weight: 650; }
+main blockquote { margin: 1.25rem 0; padding: 0.1rem 0 0.1rem 1rem; border-left: 3px solid var(--rule);
+  color: var(--muted); }
+main code { font: 0.88em/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  background: var(--wash); padding: 0.1em 0.3em; border-radius: 3px; }
+main pre { background: var(--wash); padding: 0.9rem 1rem; border-radius: 4px; overflow-x: auto; }
+main pre code { background: none; padding: 0; }
+main hr { width: 3rem; margin: 2rem auto; border: 0; border-top: 1px solid var(--rule); }
+
+.table { overflow-x: auto; margin: 0 0 1.25rem; }
+table { border-collapse: collapse; width: 100%; font: 0.86rem/1.45 var(--sans);
+  font-variant-numeric: tabular-nums; }
+th, td { padding: 0.45rem 0.7rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--rule); }
+th { font-weight: 600; border-bottom-color: var(--muted); }
+tbody tr:last-child td { border-bottom: 0; }
+
+@media (max-width: 34rem) {
+  body { font-size: 16px; }
+  .page { padding: 2rem 1rem 3rem; }
+  .masthead h1 { font-size: 2rem; }
+  .masthead .logo svg { height: 1.25rem; }
+  .run { grid-template-columns: 1fr; gap: 0 0; }
+  .run dd { margin-bottom: 0.45rem; }
+  .run .group { white-space: normal; }
+}
+@media print {
+  :root { --paper: #fff; --ink: #000; --muted: #444; --rule: #bbb; --accent: #000; --wash: #f2f2f2;
+    --edge: #bbb; --up: #087a59; --down: #b4372f; --level: #444; }
+  body { font-size: 11pt; }
+  .table { overflow: visible; }
+  .page { max-width: none; padding: 0; }
+  .contents, .to-top { display: none; }
+  main h2 { break-before: page; border-top: 0; margin-top: 0; }
+  main section:first-child h2 { break-before: auto; }
+  main h3, main h4 { break-after: avoid; }
+  a { color: inherit; text-decoration: none; }
+  table { break-inside: avoid; }
+}
+</style>
+</head>
+<body>
+<div class="page" id="top">
+<header class="masthead">
+<a class="logo" href="https://tauric.ai" rel="noopener" aria-label="Tauric Research"><svg width="993" height="115" viewBox="0 0 993 115" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M189.86 95.0459V37.9779H165.924V29.9259H223.74V37.9779H199.804V95.0459H189.86ZM251.026 46.4259C256.071 46.4259 260.178 47.0272 263.345 48.2299C266.514 49.4032 268.89 51.3686 270.474 54.1259C272.058 56.8832 272.85 60.6379 272.85 65.3899V95.0459H264.666L263.961 89.8979H263.434C261.644 91.7752 259.386 93.2419 256.657 94.2979C253.929 95.3246 251.025 95.8379 247.946 95.8379C244.426 95.8379 241.419 95.2952 238.925 94.2099C236.432 93.0952 234.54 91.5406 233.249 89.5459C231.959 87.5512 231.313 85.2046 231.313 82.5059C231.313 78.2526 232.897 74.9672 236.065 72.6499C239.263 70.3032 244.337 68.8219 251.29 68.2059L263.258 67.0179V64.7299C263.258 61.9139 262.774 59.7139 261.806 58.1299C260.838 56.5459 259.371 55.4312 257.406 54.7859C255.47 54.1406 252.888 53.8179 249.662 53.8179C247.432 53.8179 245.012 54.0086 242.401 54.3899C239.82 54.7712 237.341 55.3432 234.965 56.1059V48.8019C237.312 48.0392 239.908 47.4526 242.754 47.0419C245.628 46.6312 248.386 46.4259 251.026 46.4259ZM250.541 89.0619C252.888 89.0619 255.162 88.6512 257.362 87.8299C259.562 86.9792 261.527 85.7179 263.258 84.0459V72.8259L252.038 73.9259C248.136 74.3659 245.35 75.2166 243.678 76.4779C242.005 77.7099 241.169 79.4699 241.169 81.7579C241.169 84.0752 241.947 85.8792 243.501 87.1699C245.056 88.4312 247.403 89.0619 250.541 89.0619ZM313.339 95.8379C307.59 95.8379 303.087 94.2979 299.831 91.2179C296.575 88.1086 294.947 83.2686 294.947 76.6979V47.1739H304.715V76.1699C304.715 80.1886 305.624 83.0779 307.443 84.8379C309.291 86.5979 311.916 87.4779 315.319 87.4779C317.871 87.4779 320.379 86.9939 322.843 86.0259C325.336 85.0286 327.492 83.5766 329.311 81.6699V47.1739H339.079V95.0459H330.983L330.367 89.9419H329.883C327.624 91.8486 325.072 93.3152 322.227 94.3419C319.382 95.3392 316.419 95.8379 313.339 95.8379ZM362.371 47.1739H370.423L371.171 53.2899H371.743C373.474 51.2072 375.703 49.5792 378.431 48.4059C381.188 47.2326 384.063 46.6459 387.055 46.6459C388.756 46.6459 390.355 46.7926 391.851 47.0859V55.8419C390.414 55.5779 388.654 55.4459 386.571 55.4459C383.99 55.4459 381.364 55.9446 378.695 56.9419C376.026 57.9392 373.84 59.4206 372.139 61.3859V95.0459H362.371V47.1739ZM409.069 95.0459V47.1739H418.837V95.0459H409.069ZM413.953 37.8459C411.871 37.8459 410.287 37.3912 409.201 36.4819C408.145 35.5726 407.617 34.2672 407.617 32.5659C407.617 30.8352 408.145 29.5152 409.201 28.6059C410.287 27.6672 411.871 27.1979 413.953 27.1979C416.036 27.1979 417.605 27.6672 418.661 28.6059C419.747 29.5152 420.289 30.8352 420.289 32.5659C420.289 34.2672 419.747 35.5726 418.661 36.4819C417.605 37.3912 416.036 37.8459 413.953 37.8459ZM464.85 95.9259C456.607 95.9259 450.315 93.8432 445.974 89.6779C441.662 85.5126 439.506 79.3526 439.506 71.1979C439.506 63.0139 441.779 56.8392 446.326 52.6739C450.902 48.5086 457.575 46.4259 466.346 46.4259C470.716 46.4259 474.735 46.9246 478.402 47.9219V55.7099C476.378 55.2406 474.486 54.8886 472.726 54.6539C470.966 54.4192 469.118 54.3019 467.182 54.3019C461.168 54.3019 456.71 55.6512 453.806 58.3499C450.931 61.0486 449.494 65.2872 449.494 71.0659C449.494 76.8739 450.858 81.1566 453.586 83.9139C456.343 86.6712 460.42 88.0499 465.818 88.0499C467.695 88.0499 469.616 87.8886 471.582 87.5659C473.547 87.2139 475.82 86.6712 478.402 85.9379V93.7259C474.236 95.1926 469.719 95.9259 464.85 95.9259ZM574.428 95.0459L553.704 69.0859C553.176 69.1152 552.37 69.1299 551.284 69.1299C548.38 69.1299 544.978 68.9832 541.076 68.6899V95.0459H531.308V31.4659C537.967 29.9699 544.846 29.2219 551.944 29.2219C561.595 29.2219 568.752 30.8059 573.416 33.9739C578.08 37.1126 580.412 42.1286 580.412 49.0219C580.412 54.0086 579.004 58.0859 576.188 61.2539C573.402 64.4219 569.266 66.6366 563.78 67.8979L585.648 95.0459H574.428ZM541.076 61.2099C543.071 61.4152 544.816 61.5619 546.312 61.6499C547.838 61.7379 549.627 61.7819 551.68 61.7819C558.427 61.7819 563.34 60.7699 566.42 58.7459C569.5 56.6926 571.04 53.4952 571.04 49.1539C571.04 46.0739 570.395 43.6099 569.104 41.7619C567.843 39.9139 565.863 38.5792 563.164 37.7579C560.495 36.9366 556.975 36.5259 552.604 36.5259C550.404 36.5259 548.424 36.6139 546.664 36.7899C544.904 36.9659 543.042 37.2299 541.076 37.5819V61.2099ZM642.947 74.0139H608.231C608.407 77.4752 609.155 80.2766 610.475 82.4179C611.795 84.5299 613.775 86.0846 616.415 87.0819C619.055 88.0792 622.443 88.5779 626.579 88.5779C630.686 88.5779 635.233 87.9472 640.219 86.6859V93.9459C635.027 95.2659 630.026 95.9259 625.215 95.9259C616.298 95.9259 609.61 93.9166 605.151 89.8979C600.722 85.8499 598.507 79.6166 598.507 71.1979C598.507 65.9179 599.402 61.4299 601.191 57.7339C602.981 54.0379 605.562 51.2366 608.935 49.3299C612.338 47.3939 616.43 46.4259 621.211 46.4259C628.251 46.4259 633.634 48.5819 637.359 52.8939C641.085 57.1766 642.947 63.3659 642.947 71.4619V74.0139ZM621.079 52.8939C616.973 52.8939 613.834 54.1406 611.663 56.6339C609.493 59.0979 608.334 62.9259 608.187 68.1179H633.751C633.634 62.9259 632.519 59.0979 630.407 56.6339C628.295 54.1406 625.186 52.8939 621.079 52.8939ZM677.365 95.9259C671.352 95.9259 665.896 95.2219 660.997 93.8139V86.7299C666.248 88.1966 671.718 88.9299 677.409 88.9299C681.809 88.9299 684.977 88.3432 686.913 87.1699C688.849 85.9672 689.817 84.2219 689.817 81.9339C689.817 80.7019 689.597 79.6899 689.157 78.8979C688.717 78.0766 687.969 77.4019 686.913 76.8739C685.857 76.3166 684.405 75.8912 682.557 75.5979L674.065 74.2779C669.137 73.4859 665.573 71.9899 663.373 69.7899C661.202 67.5899 660.117 64.6419 660.117 60.9459C660.117 56.4579 661.965 52.9232 665.661 50.3419C669.386 47.7312 675.062 46.4259 682.689 46.4259C685.094 46.4259 687.485 46.5872 689.861 46.9099C692.266 47.2032 694.481 47.6432 696.505 48.2299V55.2699C692.046 54.0379 687.456 53.4219 682.733 53.4219C677.893 53.4219 674.476 54.0526 672.481 55.3139C670.486 56.5752 669.489 58.3206 669.489 60.5499C669.489 62.2219 670.002 63.5859 671.029 64.6419C672.056 65.6686 673.889 66.4166 676.529 66.8859L685.021 68.2059C689.92 68.9686 693.513 70.3766 695.801 72.4299C698.089 74.4832 699.233 77.4606 699.233 81.3619C699.233 84.3832 698.412 86.9792 696.769 89.1499C695.156 91.3206 692.706 92.9926 689.421 94.1659C686.165 95.3392 682.146 95.9259 677.365 95.9259ZM760.579 74.0139H725.863C726.039 77.4752 726.787 80.2766 728.107 82.4179C729.427 84.5299 731.407 86.0846 734.047 87.0819C736.687 88.0792 740.075 88.5779 744.211 88.5779C748.317 88.5779 752.864 87.9472 757.851 86.6859V93.9459C752.659 95.2659 747.657 95.9259 742.847 95.9259C733.929 95.9259 727.241 93.9166 722.783 89.8979C718.353 85.8499 716.139 79.6166 716.139 71.1979C716.139 65.9179 717.033 61.4299 718.823 57.7339C720.612 54.0379 723.193 51.2366 726.567 49.3299C729.969 47.3939 734.061 46.4259 738.843 46.4259C745.883 46.4259 751.265 48.5819 754.991 52.8939C758.716 57.1766 760.579 63.3659 760.579 71.4619V74.0139ZM738.711 52.8939C734.604 52.8939 731.465 54.1406 729.295 56.6339C727.124 59.0979 725.965 62.9259 725.819 68.1179H751.383C751.265 62.9259 750.151 59.0979 748.039 56.6339C745.927 54.1406 742.817 52.8939 738.711 52.8939ZM796.986 46.4259C802.032 46.4259 806.138 47.0272 809.306 48.2299C812.474 49.4032 814.85 51.3686 816.434 54.1259C818.018 56.8832 818.81 60.6379 818.81 65.3899V95.0459H810.626L809.922 89.8979H809.394C807.605 91.7752 805.346 93.2419 802.618 94.2979C799.89 95.3246 796.986 95.8379 793.906 95.8379C790.386 95.8379 787.38 95.2952 784.886 94.2099C782.393 93.0952 780.501 91.5406 779.21 89.5459C777.92 87.5512 777.274 85.2046 777.274 82.5059C777.274 78.2526 778.858 74.9672 782.026 72.6499C785.224 70.3032 790.298 68.8219 797.25 68.2059L809.218 67.0179V64.7299C809.218 61.9139 808.734 59.7139 807.766 58.1299C806.798 56.5459 805.332 55.4312 803.366 54.7859C801.43 54.1406 798.849 53.8179 795.622 53.8179C793.393 53.8179 790.973 54.0086 788.362 54.3899C785.781 54.7712 783.302 55.3432 780.926 56.1059V48.8019C783.273 48.0392 785.869 47.4526 788.714 47.0419C791.589 46.6312 794.346 46.4259 796.986 46.4259ZM796.502 89.0619C798.849 89.0619 801.122 88.6512 803.322 87.8299C805.522 86.9792 807.488 85.7179 809.218 84.0459V72.8259L797.998 73.9259C794.097 74.3659 791.31 75.2166 789.638 76.4779C787.966 77.7099 787.13 79.4699 787.13 81.7579C787.13 84.0752 787.908 85.8792 789.462 87.1699C791.017 88.4312 793.364 89.0619 796.502 89.0619ZM841.524 47.1739H849.576L850.324 53.2899H850.896C852.627 51.2072 854.856 49.5792 857.584 48.4059C860.341 47.2326 863.216 46.6459 866.208 46.6459C867.909 46.6459 869.508 46.7926 871.004 47.0859V55.8419C869.567 55.5779 867.807 55.4459 865.724 55.4459C863.143 55.4459 860.517 55.9446 857.848 56.9419C855.179 57.9392 852.993 59.4206 851.292 61.3859V95.0459H841.524V47.1739ZM909.164 95.9259C900.921 95.9259 894.629 93.8432 890.288 89.6779C885.976 85.5126 883.82 79.3526 883.82 71.1979C883.82 63.0139 886.093 56.8392 890.64 52.6739C895.216 48.5086 901.889 46.4259 910.66 46.4259C915.03 46.4259 919.049 46.9246 922.716 47.9219V55.7099C920.692 55.2406 918.8 54.8886 917.04 54.6539C915.28 54.4192 913.432 54.3019 911.496 54.3019C905.482 54.3019 901.024 55.6512 898.12 58.3499C895.245 61.0486 893.808 65.2872 893.808 71.0659C893.808 76.8739 895.172 81.1566 897.9 83.9139C900.657 86.6712 904.734 88.0499 910.132 88.0499C912.009 88.0499 913.93 87.8886 915.896 87.5659C917.861 87.2139 920.134 86.6712 922.716 85.9379V93.7259C918.55 95.1926 914.033 95.9259 909.164 95.9259ZM941.796 23.9419H951.564V52.2779H952.048C954.248 50.3712 956.756 48.9192 959.572 47.9219C962.417 46.9246 965.395 46.4259 968.504 46.4259C974.019 46.4259 978.375 47.9952 981.572 51.1339C984.769 54.2432 986.368 59.0686 986.368 65.6099V95.0459H976.6V66.0939C976.6 62.0459 975.661 59.1566 973.784 57.4259C971.936 55.6952 969.237 54.8299 965.688 54.8299C963.048 54.8299 960.481 55.3286 957.988 56.3259C955.524 57.2939 953.383 58.7312 951.564 60.6379V95.0459H941.796V23.9419Z" fill="#14C290"/>
+<rect x="0.205322" y="14.873" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="14.679" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="14.679" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="86.6055" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="86.6055" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="101.284" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="58.7158" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="58.7158" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="87.1592" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="87.1592" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="73.0205" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="73.0205" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="87.3262" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="87.3262" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="101.631" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="101.631" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="101.284" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="15.0187" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.2668" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.2668" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.445" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.7506" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="100.716" y="14.873" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+</svg></a>
+<h1><span class="ticker">IBE.MC</span> <span class="rating level">Hold</span></h1>
+<p class="date">Analysis of 2026-11-01</p>
+<dl class="run"><div class="detail"><dt>Generated</dt><dd>2026-11-01 07:47</dd></div><div class="detail"><dt>Deep model</dt><dd><span class="field">google</span> <span class="field">gemini-3.5-flash-lite</span></dd></div><div class="detail"><dt>Quick model</dt><dd><span class="field">google</span> <span class="field">gemini-3.5-flash-lite</span></dd></div><div class="detail"><dt>Analysts</dt><dd><span class="field">market</span> <span class="field">news</span> <span class="field">fundamentals</span></dd></div><div class="detail"><dt>Debate rounds</dt><dd><span class="group"><span class="name">research</span><span class="field">1</span></span> <span class="group"><span class="name">risk</span><span class="field">1</span></span></dd></div><div class="detail"><dt>Data vendors</dt><dd><span class="group"><span class="name">Prices</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Indicators</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Fundamentals</span><span class="field">yfinance</span></span> <span class="group"><span class="name">News</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Macro</span><span class="field">fred</span></span> <span class="group"><span class="name">Prediction markets</span><span class="field">polymarket</span></span> <span class="group"><span class="name">get_news</span><span class="field">ibex_sample</span></span> <span class="group"><span class="name">get_global_news</span><span class="field">ibex_sample</span></span></dd></div><div class="detail"><dt>Version</dt><dd>TradingAgents 0.7.1</dd></div></dl>
+</header>
+<nav class="contents" aria-label="Sections"><ul><li><a href="#s1"><span class="num">I</span> <span class="label">Analyst Team Reports</span></a><ul><li><a href="#s1-1"><span class="bar"></span> <span class="label">Market Analyst</span></a></li><li><a href="#s1-2"><span class="bar"></span> <span class="label">News Analyst</span></a></li><li><a href="#s1-3"><span class="bar"></span> <span class="label">Fundamentals Analyst</span></a></li></ul></li><li><a href="#s2"><span class="num">II</span> <span class="label">Research Team Decision</span></a><ul><li><a href="#s2-1"><span class="bar"></span> <span class="label">Bull Researcher</span></a></li><li><a href="#s2-2"><span class="bar"></span> <span class="label">Bear Researcher</span></a></li><li><a href="#s2-3"><span class="bar"></span> <span class="label">Research Manager</span></a></li></ul></li><li><a href="#s3"><span class="num">III</span> <span class="label">Trading Team Plan</span></a><ul><li><a href="#s3-1"><span class="bar"></span> <span class="label">Trader</span></a></li></ul></li><li><a href="#s4"><span class="num">IV</span> <span class="label">Risk Management Team Decision</span></a><ul><li><a href="#s4-1"><span class="bar"></span> <span class="label">Aggressive Analyst</span></a></li><li><a href="#s4-2"><span class="bar"></span> <span class="label">Conservative Analyst</span></a></li><li><a href="#s4-3"><span class="bar"></span> <span class="label">Neutral Analyst</span></a></li></ul></li><li><a href="#s5"><span class="num">V</span> <span class="label">Portfolio Manager Decision</span></a><ul><li><a href="#s5-1"><span class="bar"></span> <span class="label">Portfolio Manager</span></a></li></ul></li></ul></nav>
+<main>
+<section id="s1"><h2>I. Analyst Team Reports</h2><h3 id="s1-1">Market Analyst</h3>
+<p><strong>Rating</strong>: HOLD<br />
+FINAL TRANSACTION PROPOSAL: Mantener posición / Esperar consolidación</p>
+<hr />
+<h6>Informe de Análisis Técnico y Fundamental: Iberdrola, S.A. (<code>IBE.MC</code>)</h6>
+<h6>1. Contexto de Mercado y Datos Verificados</h6>
+<p>A fecha de 1 de noviembre de 2026 (con datos de sesión al 30 de octubre de 2026), el valor cotiza a <strong>22,18 EUR</strong> en la bolsa de Madrid (<code>IBE.MC</code>), registrando una ganancia del 0,36% en su última sesión. La compañía se encuentra en una fase alcista sostenida a medio y largo plazo, respaldada por cotizaciones por encima de sus medias móviles clave:</p>
+<ul>
+<li><strong>SMA 20</strong>: 21,57 EUR</li>
+<li><strong>SMA 50</strong>: 20,73 EUR</li>
+<li><strong>SMA 200</strong>: 19,99 EUR</li>
+<li><strong>RSI (14)</strong>: 72,13 (zona de sobrecompra técnica).</li>
+<li><strong>MACD</strong>: 0,39 frente a una señal (<code>macd_signal</code>) de 0,35, lo que muestra un momento positivo continuo aunque con menor aceleración marginal.</li>
+</ul>
+<h6>2. Análisis Fundamental y Valoración</h6>
+<p>Basado en los estados financieros y métricas recientes:</p>
+<ul>
+<li><strong>Capitalización de mercado</strong>: ~147.987 millones de EUR.</li>
+<li><strong>PER Trailing</strong>: 29,97x | <strong>PER Forward</strong>: 19,91x.</li>
+<li><strong>Dividendo</strong>: Ofrece una rentabilidad por dividendo (<em>dividend yield</em>) estimada del <strong>3,07%</strong> (con un <em>dividend rate</em> de 0,68 EUR y un <em>payout ratio</em> del 87,06%). Recientemente se ha confirmado un pago de dividendo de 0,275 euros (<em>Negocios.com</em>, 26 de octubre de 2026).</li>
+<li><strong>Deuda y Solvencia</strong>: La deuda neta sobre EBITDA se sitúa en torno a 3,95x (Deuda total de 63.837 millones de EUR frente a un EBITDA de 14.494 millones de EUR).</li>
+<li><strong>Noticias recientes</strong>: Iberdrola ha emitido recientemente bonos verdes por valor de 1.600 millones de dólares y más de 1.400 millones de euros para financiar proyectos sostenibles y en Estados Unidos (<em>Bolsa Digital</em> y <em>Estrategias de Inversión</em>, 27 de octubre de 2026). En el plano fiscal y regulatorio, la compañía sigue navegando entornos complejos de impuestos energéticos autonómicos/locales (<em>Hispanidad</em>, 29 de octubre de 2026).</li>
+</ul>
+<h6>3. Indicadores Seleccionados para el Seguimiento Técnico (Estrategia Recomendada)</h6>
+<p>De acuerdo con la metodología de selección de indicadores complementarios y no redundantes para vigilar el comportamiento de <code>IBE.MC</code>:</p>
+<ol>
+<li><code>close_50_sma</code>: Para identificar la dirección de la tendencia a medio plazo y actuar como soporte dinámico.</li>
+<li><code>close_200_sma</code>: Como referencia estructural a largo plazo para confirmar el sesgo alcista general.</li>
+<li><code>close_10_ema</code>: Para capturar cambios rápidos de impulso a corto plazo y puntos de entrada tácticos.</li>
+<li><code>macd</code>: Para evaluar la divergencia/convergencia de las medias móviles y detectar cambios de ciclo de impulso.</li>
+<li><code>macds</code>: Como línea de señal para filtrar cruces de confirmación de operaciones.</li>
+<li><code>rsi</code>: Para vigilar los niveles de sobrecompra actuales (RSI de 72,13) ante posibles correcciones técnicas o recortes de consolidación.</li>
+<li><code>atr</code>: Para medir la volatilidad histórica reciente (13,05%) y dimensionar adecuadamente los niveles de <em>stop-loss</em>.</li>
+<li><code>boll_ub</code>: Para supervisar la banda superior de Bollinger y detectar si el precio excede los límites estadísticos en este movimiento alcista.</li>
+</ol>
+<h6>4. Conclusión y Perspectiva</h6>
+<p>Iberdrola (<code>IBE.MC</code>) muestra una solidez técnica notable y un comportamiento superior al mercado en el corto y medio plazo. No obstante, el RSI superior a 70 y un PER <em>forward</em> cercano a 20x sugieren prudencia frente a nuevas compras masivas en los niveles actuales de 22,18 EUR, aconsejando mantener las posiciones existentes y vigilar posibles tomas de beneficios o recortes hacia la media de 20 sesiones (21,57 EUR).</p>
+<hr />
+<h6>Resumen de Datos Clave</h6>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Métrica / Indicador</th>
+<th style="text-align:left">Valor / Estado</th>
+<th style="text-align:left">Implicación Analítica</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Precio de Cierre</strong></td>
+<td style="text-align:left">22,18 EUR (30-10-2026)</td>
+<td style="text-align:left">Cotización estable en máximos recientes.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>RSI (14)</strong></td>
+<td style="text-align:left">72,13</td>
+<td style="text-align:left">Zona de sobrecompra; precaución ante posibles correcciones.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Media Móvil (SMA 200)</strong></td>
+<td style="text-align:left">19,99 EUR</td>
+<td style="text-align:left">Tendencia alcista estructural a largo plazo confirmada.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>PER Forward</strong></td>
+<td style="text-align:left">19,91x</td>
+<td style="text-align:left">Valoración exigente en relación con la media sectorial de Utilities.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Rentabilidad por Dividendo</strong></td>
+<td style="text-align:left">3,07%</td>
+<td style="text-align:left">Atractivo flujo de rentabilidad para inversores por dividendo.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Deuda Neta / EBITDA</strong></td>
+<td style="text-align:left">3,95x</td>
+<td style="text-align:left">Apalancamiento típico de utilities intensivas en capital.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Indicadores Seleccionados</strong></td>
+<td style="text-align:left">SMA 50, SMA 200, EMA 10, MACD, MACD Signal, RSI, ATR, Bollinger Upper</td>
+<td style="text-align:left">Set óptimo para seguimiento de impulso, tendencia y volatilidad sin redundancias.</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="s1-2">News Analyst</h3>
+<p><strong>Rating</strong>: HOLD</p>
+<p><strong>Análisis Fundamental, Técnico y Macroeconómico de Iberdrola, S.A. (<code>IBE.MC</code>)</strong></p>
+<p>A continuación se presenta un informe integral y actualizado basado en los datos proporcionados con fecha de referencia 1 de noviembre de 2026.</p>
+<hr />
+<h6>1. Contexto Macroeconómico y de Mercado</h6>
+<p>El entorno macroeconómico europeo reciente (finales de octubre de 2026) se encuentra marcado por las decisiones del Banco Central Europeo (BCE), que ha mantenido los tipos de interés en el <strong>2,5%</strong>, manteniendo la cautela ante los riesgos inflacionarios y el crecimiento vinculados al sector energético. A pesar de la volatilidad en el selectivo español (con el Ibex 35 oscilando en torno a los 18.700 - 18.800 puntos presionado por el sector bancario), las acciones del sector energético y utilities como <strong><code>IBE.MC</code></strong> han mostrado un comportamiento defensivo sólido y atractivo en bolsa.</p>
+<h6>2. Análisis Fundamental y Financiero</h6>
+<ul>
+<li><strong>Capitalización Bursátil:</strong> ~147.987 millones de euros.</li>
+<li><strong>Valoraciones y Múltiplos:</strong>
+<ul>
+<li>PER Histórico (<em>Trailing P/E</em>): <strong>29.97x</strong></li>
+<li>PER Adelantado (<em>Forward P/E</em>): <strong>19.91x</strong></li>
+<li>Ratio Precio/Valor en Libros (<em>Price-to-Book</em>): <strong>2.87x</strong></li>
+<li>EV/EBITDA: <strong>14.72x</strong></li>
+</ul>
+</li>
+<li><strong>Crecimiento y Rentabilidad:</strong>
+<ul>
+<li>Ingresos totales (FY2025): <strong>44.076 millones de euros</strong> (frente a 42.988 millones en 2024).</li>
+<li>EBITDA (FY2025): <strong>16.763 millones de euros</strong>.</li>
+<li>Beneficio Neto (FY2025): <strong>6.285 millones de euros</strong> (mejora significativa frente a los 5.612 millones de 2024).</li>
+<li>Retorno sobre el Capital (ROE): <strong>9,49%</strong>.</li>
+</ul>
+</li>
+<li><strong>Solvencia y Deuda:</strong>
+<ul>
+<li>Deuda Total (FY2025): <strong>57.231 millones de euros</strong> (los datos operativos más recientes sitúan la deuda total en ~63.837 millones con una caja de 6.634 millones, resultando en una ratio Deuda Neta/EBITDA de <strong>3.95x</strong>).</li>
+</ul>
+</li>
+<li><strong>Dividendos:</strong>
+<ul>
+<li>Ofrece una rentabilidad por dividendo (<em>dividend yield</em>) estimada en el <strong>3,07%</strong> (tasa de dividendo de 0,68 EUR por acción), con un ratio de pago (<em>payout ratio</em>) del <strong>87,06%</strong>, habiéndose confirmado recientemente pagos adicionales a cuenta (ej. 0,275 euros).</li>
+</ul>
+</li>
+</ul>
+<h6>3. Análisis Técnico</h6>
+<ul>
+<li><strong>Precio de Cierre (30/10/2026):</strong> <strong>22,18 EUR</strong>.</li>
+<li><strong>Medias Móviles:</strong>
+<ul>
+<li>SMA de 20 sesiones: <strong>21,57 EUR</strong></li>
+<li>SMA de 50 sesiones: <strong>20,73 EUR</strong></li>
+<li>SMA de 200 sesiones: <strong>19,99 EUR</strong></li>
+<li><em>Interpretación:</em> La cotización se encuentra holgadamente por encima de sus medias clave a corto, medio y largo plazo, confirmando una tendencia alcista estructural bien consolidada.</li>
+</ul>
+</li>
+<li><strong>Momentum y Volatilidad:</strong>
+<ul>
+<li>RSI (14 periodos): <strong>72,13</strong>, lo que sitúa al valor en zona de <strong>sobrecompra técnica</strong>, sugiriendo prudencia ante posibles correcciones o fases de consolidación a corto plazo.</li>
+<li>MACD: <strong>0.39</strong> (por encima de su línea de señal en 0.35), validando el impulso positivo.</li>
+<li>Rentabilidad a 1 año (<em>Return 252d</em>): <strong>+28,89%</strong>.</li>
+</ul>
+</li>
+</ul>
+<h6>4. Noticias Recientes y Catalizadores</h6>
+<ul>
+<li><strong>Financiación Verde:</strong> <code>IBE.MC</code> ha ejecutado emisiones recientes de bonos verdes por valor de más de 1.400 millones de euros y 1.600 millones de dólares para financiar proyectos sostenibles e infraestructura en Estados Unidos.</li>
+<li><strong>Entorno Regulatorio e Impuestos:</strong> Persisten debates fiscales y regulatorios en el ámbito político nacional (como la postura del PNV respecto a tributos extraordinarios a energéticas), aunque el sesgo operativo de la compañía sigue enfocado en la expansión internacional y redes reguladas.</li>
+</ul>
+<h6>5. Consenso de Analistas y Valoración</h6>
+<ul>
+<li><strong>Precio Objetivo Medio:</strong> <strong>21,38 EUR</strong> (con un rango que va desde un mínimo de 18,00 EUR hasta un máximo de 25,00 EUR basado en 23 opiniones de analistas).</li>
+<li><strong>Potencial de Valor (Consensus Upside):</strong> <strong>-3,60%</strong> respecto al precio de cierre actual de 22,18 EUR, lo que indica que el título cotiza actualmente ligeramente por encima de la valoración media de consenso tras sus recientes repuntes.</li>
+</ul>
+<hr />
+<h6>Resumen de Datos Clave</h6>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Métrica / Indicador</th>
+<th style="text-align:left">Valor</th>
+<th style="text-align:left">Comentario / Referencia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Precio Actual (<code>IBE.MC</code>)</strong></td>
+<td style="text-align:left">22,18 EUR</td>
+<td style="text-align:left">Cierre al 30/10/2026</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Capitalización Bursátil</strong></td>
+<td style="text-align:left">~144.939 M€ (EBITDA) / 147.986 M€ (MarketCap)</td>
+<td style="text-align:left">Sólida capitalización de mercado</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Forward P/E</strong></td>
+<td style="text-align:left">19.91x</td>
+<td style="text-align:left">Descuento frente al trailing PER (29.97x)</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Dividend Yield</strong></td>
+<td style="text-align:left">3,07%</td>
+<td style="text-align:left">Retorno por dividendo estable</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>RSI (14)</strong></td>
+<td style="text-align:left">72,13</td>
+<td style="text-align:left">Zona de sobrecompra técnica a corto plazo</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Medias Móviles (SMA 20/50/200)</strong></td>
+<td style="text-align:left">21,57 / 20,73 / 19,99 EUR</td>
+<td style="text-align:left">Tendencia alcista alineada</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Precio Objetivo de Consenso</strong></td>
+<td style="text-align:left">21,38 EUR</td>
+<td style="text-align:left">Ligeramente por debajo de la cotización actual</td>
+</tr>
+</tbody>
+</table></div>
+<h6>Missing Data (Datos Faltantes)</h6>
+<ul>
+<li>No se dispone de flujos de caja operativos y libres desagregados completos en los resúmenes de última hora para el ejercicio en curso, aunque se cuenta con las cifras consolidadas de cierre de 2025.</li>
+<li>No se han suministrado carteras de inversión hipotéticas específicas ni mandatos de asignación de activos propios del usuario.</li>
+</ul>
+<p>FINAL TRANSACTION PROPOSAL: HOLD</p>
+<h3 id="s1-3">Fundamentals Analyst</h3>
+<p><strong>Rating</strong>: HOLD<br />
+FINAL TRANSACTION PROPOSAL: Mantener posición / Esperar corrección para entrada a largo plazo.</p>
+<hr />
+<h6><strong>Informe Fundamental y de Mercado: Iberdrola, S.A. (<code>IBE.MC</code>)</strong></h6>
+<p>El presente informe analiza la situación fundamental, financiera y de mercado de <strong>Iberdrola, S.A. (<code>IBE.MC</code>)</strong>, cotizada en el mercado continuo español (Bolsa de Madrid) y perteneciente al sector de <em>Utilities - Diversified</em> (Servicios Públicos Diversificados). La fecha de corte de los datos es <strong>31 de octubre de 2026</strong>, empleando los registros financieros y la información más reciente de la última semana.</p>
+<hr />
+<h6><strong>1. Perfil de la Compañía y Negocio</strong></h6>
+<p>Iberdrola es uno de los líderes energéticos globales a nivel mundial y la mayor eléctrica de Europa por capitalización bursátil. Su modelo de negocio se centra en:</p>
+<ul>
+<li>Generación de energía limpia y renovable (eólica terrestre, marina, fotovoltaica e hidroeléctrica).</li>
+<li>Redes de transporte y distribución de electricidad, principalmente en mercados estables y regulados como España, Reino Unido (ScottishPower), Estados Unidos (Avangrid) y Brasil (Neoenergia).</li>
+<li>Comercialización de energía a clientes residenciales e industriales.</li>
+</ul>
+<hr />
+<h6><strong>2. Análisis Financiero y Estados Financieros</strong></h6>
+<p>Tomando como base los estados financieros consolidados recientes (con cierre a diciembre de 2025 y comparativa histórica):</p>
+<ul>
+<li>
+<p><strong>Evolución de Ingresos y Resultados:</strong></p>
+<ul>
+<li><strong>Ingresos Totales (Total Revenue):</strong> 44.076 millones de euros en el ejercicio 2025, frente a los 42.988 millones de 2024 y los 49.335 millones de 2023.</li>
+<li><strong>EBITDA:</strong> Registró 16.763 millones de euros en 2025, experimentando un crecimiento sólido en comparación con los 15.192 millones de 2024 y 14.906 millones de 2023.</li>
+<li><strong>Beneficio Neto (Net Income):</strong> Se situó en 6.285 millones de euros en 2025, superando los 5.612 millones de 2024 y los 4.803 millones de 2023, lo que demuestra una senda de crecimiento consistente en la rentabilidad final.</li>
+</ul>
+</li>
+<li>
+<p><strong>Balance y Estructura de Capital:</strong></p>
+<ul>
+<li><strong>Activos Totales:</strong> 160.762 millones de euros (cierre 2025), por encima de los 158.293 millones de 2024 y 150.033 millones de 2023.</li>
+<li><strong>Patrimonio Neto (Stockholders Equity):</strong> 50.068 millones de euros al cierre de 2025 (47.125 millones en 2024 y 43.111 millones en 2023).</li>
+<li><strong>Deuda Total y Neta:</strong> La deuda total al cierre de 2025 se situó en 57.231 millones de euros (57.731 millones en 2024). El <em>snapshot</em> actual sitúa la deuda total en 63.836,99 millones de euros con un efectivo de 6.633,99 millones, arrojando una ratio de <strong>Deuda Neta/EBITDA de 3,95x</strong>, un nivel gestionable y habitual para utilities con planes de inversión intensivos en redes y renovables.</li>
+</ul>
+</li>
+<li>
+<p><strong>Flujos de Caja (Cash Flow):</strong></p>
+<ul>
+<li><strong>Flujo de Caja Operativo:</strong> 11.635 millones de euros en 2025 (11.925 millones en 2024).</li>
+<li><strong>Inversión en CapEx:</strong> -8.318 millones de euros en 2025 (-8.375 millones en 2024).</li>
+<li><strong>Free Cash Flow (Flujo de Caja Libre):</strong> 3.317 millones de euros en 2025 y 3.550 millones en 2024, reflejando la capacidad de la compañía para financiar parte de sus inversiones orgánicas y retribución al accionista con recursos propios.</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h6><strong>3. Valoración y Datos de Mercado</strong></h6>
+<ul>
+<li><strong>Cotización y Valor de Mercado:</strong>
+<ul>
+<li><strong>Precio de Cierre:</strong> 22,18 EUR (al 30 de octubre de 2026).</li>
+<li><strong>Capitalización Bursátil:</strong> ~147.986 millones de euros.</li>
+</ul>
+</li>
+<li><strong>Múltiplos de Valoración:</strong>
+<ul>
+<li><strong>PER Histórico (Trailing P/E):</strong> 29,97x.</li>
+<li><strong>PER Estimado (Forward P/E):</strong> 19,91x (basado en un EPS estimado de 1,11 EUR).</li>
+<li><strong>Precio/Valor en Libros (P/B):</strong> 2,87x.</li>
+<li><strong>EV/EBITDA:</strong> 14,72x.</li>
+<li><em>Nota de valoración:</em> Iberdrola cotiza con una prima respecto a la mediana del sector en métricas de PER adelantado (<em>peer median forward PE</em> de 15,98x, ratio de 1,25x), justificada por su alta exposición a mercados regulados de calidad (EE.UU. y Reino Unido) y su liderazgo en transición energética.</li>
+</ul>
+</li>
+<li><strong>Dividendos:</strong>
+<ul>
+<li><strong>Rentabilidad por Dividendo (Dividend Yield):</strong> ~3,07%, con un dividendo por acción ratificado recientemente (anuncios de octubre de 2026 de retribución complementaria/a cuenta, p. ej. 0,275 EUR). El <em>payout ratio</em> se sitúa en torno al 87%.</li>
+</ul>
+</li>
+<li><strong>Consenso de Analistas:</strong>
+<ul>
+<li>El precio objetivo medio (<em>target mean price</em>) de consenso se sitúa en <strong>21,38 EUR</strong> (con un rango entre 18,00 EUR y 25,00 EUR aportado por 23 analistas). Dado el precio de mercado actual de 22,18 EUR, la acción presenta un potencial nominal ligeramente negativo respecto al consenso estricto (<strong>upside del -3,60%</strong>), lo que sugiere que gran parte del optimismo a corto plazo ya está descontado.</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h6><strong>4. Análisis Técnico y Momentum</strong></h6>
+<ul>
+<li><strong>Indicadores Técnicos:</strong>
+<ul>
+<li><strong>RSI (14):</strong> 72,13, lo que indica condiciones de <strong>sobrecompra técnica</strong> a corto plazo.</li>
+<li><strong>MACD:</strong> 0,39 (señal: 0,35), mostrando sesgo alcista pero con menor pendiente.</li>
+<li><strong>Medias Móviles:</strong> Cotiza holgadamente por encima de su SMA20 (21,57 EUR), SMA50 (20,73 EUR) y SMA200 (19,99 EUR), confirmando una tendencia alcista primaria muy sólida.</li>
+<li><strong>Rentabilidades recientes:</strong> +7,0% a 21 días, +7,8% a 63 días y un destacado +28,9% a 252 días.</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h6><strong>5. Eventos Recientes y Noticias (Última Semana de Octubre de 2026)</strong></h6>
+<ol>
+<li><strong>Emisión de Bonos Verdes:</strong> Iberdrola ha cerrado con éxito una macroemisión de bonos verdes por valor de más de 1.400 millones de euros / 1.600 millones de dólares para financiar proyectos sostenibles y de expansión en Estados Unidos (<em>Bolsa Digital</em>, <em>Estrategias de Inversión</em>, 27 de octubre de 2026).</li>
+<li><strong>Retribución al Accionista:</strong> Confirmación oficial del pago de dividendo (0,275 euros por acción</li>
+</ol>
+</section><section id="s2"><h2>II. Research Team Decision</h2><h3 id="s2-1">Bull Researcher</h3>
+<p>Bull Analyst: ¡Hola, compañero! Entiendo perfectamente que quieras echar el freno ante los números de <code>IBE.MC</code> y mirar con lupa cada métrica, pero creo que estás subestimando por completo el verdadero motor estratégico que tiene Iberdrola entre manos. Me hablas de un PER <em>forward</em> cercano a 20x y de un RSI rozando los 72 puntos como si estuviéramos ante una burbuja pasajera, pero se te olvida lo más importantísimo: <strong>estamos hablando del undisputed líder europeo de la transición energética, con una calidad de activos insuperable y un posicionamiento geográfico envidiable.</strong></p>
+<p>Vamos a debatir punto por punto por qué mi visión alcista tiene mucha más chicha y por qué los osos os estáis perdiendo la foto grande:</p>
+<h6>1. ¿Crecimiento y valoración exigente? No, es el &quot;premio a la calidad&quot;</h6>
+<p>Los osos siempre os ponéis nerviosos con los múltiplos. Sí, un PER <em>forward</em> de 19,91x (y un <em>trailing</em> de 29,97x) está por encima de la mediana del sector utilities (que ronda las 16x). ¿Pero sabes por qué? Porque Iberdrola <strong>no es una utility convencional</strong>.</p>
+<ul>
+<li><strong>Escala y Visibilidad de Ingresos:</strong> Con unos ingresos consolidados en 2025 que escalaron hasta los <strong>44.076 millones de euros</strong> y un EBITDA robusto de <strong>16.763 millones</strong>, la compañía demuestra que su modelo funciona a prueba de bombas macroeconómicas.</li>
+<li><strong>El negocio regulado en mercados 'top':</strong> Una parte masiva del pastel de Iberdrola está blindada en redes de transporte y distribución en geografías con máxima seguridad jurídica y divisa fuerte como EE. UU. (Avangrid), Reino Unido (ScottishPower) y Brasil. Pagar un múltiplo <em>premium</em> por activos ultra-defensivos y regulados que generan flujos de caja previsibles no es caro; es comprar tranquilidad con rentabilidad.</li>
+</ul>
+<h6>2. ¿Preocupación por la deuda y el apalancamiento? Mirad el CapEx con perspectiva verde</h6>
+<p>Sé que sacar a relucir una deuda total de unos 57.200-63.800 millones de euros asusta a cualquiera sobre el papel, situando la ratio de Deuda Neta/EBITDA en torno a <strong>3,95x</strong>. Pero aquí es donde los bajistas os quedáis en la superficie:</p>
+<ul>
+<li>Esta deuda no está financiando gastos operativos ineficientes; está alimentando el <strong>crecimiento futuro y la descarbonización</strong>.</li>
+<li>Fíjate en los hechos de la última semana de octubre de 2026: la compañía acaba de captar <strong>1.600 millones de dólares y más de 1.400 millones de euros en bonos verdes</strong> para financiar proyectos estratégicos precisamente en Estados Unidos. Los mercados de capitales adoran a Iberdrola porque confían ciegamente en su disciplina financiera y en la rentabilidad de sus inversiones en renovables. Tienen un flujo de caja operativo masivo (más de 11.600 millones de euros en 2025) que respalda holgadamente su plan de inversiones (<em>CapEx</em>).</li>
+</ul>
+<h6>3. ¿El argumento técnico del RSI en sobrecompra? Es sinónimo de fuerza compradora imparable</h6>
+<p>Me argumentas que un RSI de 72,13 es una señal de alarma. Yo te digo lo contrario: <strong>en una tendencia alcista estructural sólida, el RSI puede mantenerse en zona de sobrecompra durante largos periodos porque la presión compradora no cesa</strong>.</p>
+<ul>
+<li>Cotizamos a <strong>22,18 EUR</strong>, muy por encima de la media móvil de 200 sesiones (19,99 EUR) y con una rentabilidad a 12 meses (<em>Return 252d</em>) del <strong>+28,89%</strong>.</li>
+<li>Los títulos no paran de subir porque el mercado institucional reconoce que el valor está blindado ante la volatilidad de los tipos de interés (mantenidos por el BCE en el 2,5%) y busca refugios con dividendos atractivos y sólidos, como el <em>yield</em> del <strong>3,07%</strong> que ofrece <code>IBE.MC</code> respaldado por un dividendo constante (como el reciente pago de 0,275 euros confirmado en octubre).</li>
+</ul>
+<p>En resumen, compañero: mientras los osos os quedáis esperando una corrección profunda que los institucionales no van a permitir porque se abalanzan sobre cada mínimo recorte hacia la SMA de 20 (en torno a 21,57 EUR), los alcistas seguimos acumulando un valor que domina el tablero energético global. No se trata de comprar a ciegas en máximos, sino de entender que Iberdrola juega en otra liga.</p>
+<p><strong>Rating</strong>: BUY</p>
+<p>FINAL TRANSACTION PROPOSAL: Comprar en retrocesos / Sobreponderar a largo plazo</p>
+<h3 id="s2-2">Bear Researcher</h3>
+<p>Bear Analyst: ¡Hola, colega! Comprendo perfectamente tu entusiasmo y esa narrativa tan bonita sobre el &quot;líder indiscutible de la transición energética&quot;, pero permíteme decirte que te estás dejando cegar por los cantos de sirena institucionales mientras ignoras los graves desequilibrios financieros y operativos que arrastra <strong><code>IBE.MC</code></strong>. Llamar a esto &quot;comprar tranquilidad&quot; pagando múltiplos inflados es, en el mejor de los casos, un ejercicio de optimismo ingenuo.</p>
+<p>Vamos a desmontar una por una esas falacias alcistas con datos fríos y contundentes:</p>
+<h6>1. ¿Premio a la calidad o sobrevaloración artificial? Los múltiplos no perdonan</h6>
+<p>Me dices que un PER <em>forward</em> de <strong>19,91x</strong> (y un <em>trailing</em> desorbitado de <strong>29,97x</strong>) está justificado porque <code>IBE.MC</code> no es una <em>utility</em> convencional. ¡Cuidado con esa trampa mental! La mediana del sector en el <em>forward P/E</em> ronda las <strong>15,98x</strong>, lo que significa que Iberdrola cotiza con una prima brutal (un ratio de 1,25x sobre sus comparables).</p>
+<ul>
+<li>¿Y sabes qué es lo más alarmante? El <strong>consenso de analistas sitúa el precio objetivo medio en 21,38 EUR</strong>. Con el valor cotizando actualmente a <strong>22,18 EUR</strong>, el <em>upside</em> oficial es <strong>negativo (-3,60%)</strong>. Estás comprando por encima de lo que los expertos consideran su valor razonable, asumiendo todo el riesgo bajista si las expectativas de beneficios no se cumplen milimétricamente.</li>
+</ul>
+<h6>2. ¿Deuda bajo control gracias al &quot;crecimiento verde&quot;? Una losa de casi 64.000 millones</h6>
+<p>Aquí es donde el discurso alcista hace aguas por completo. Hablas de la transición energética y del CapEx como si fueran gratis, pero la realidad contable de <code>IBE.MC</code> muestra una <strong>deuda total de 63.837 millones de euros</strong> frente a un efectivo de apenas 6.634 millones.</p>
+<ul>
+<li>Una ratio de <strong>Deuda Neta/EBITDA de 3,95x</strong> es un nivel de apalancamiento sumamente pesado, especialmente en un entorno macroeconómico donde el Banco Central Europeo mantiene los tipos de interés en el <strong>2,5%</strong> y advierte de constantes riesgos inflacionarios vinculados precisamente a la energía.</li>
+<li>¿Emitir más bonos verdes en EE. UU. y Europa (como los 1.600 millones de dólares y 1.400 millones de euros anunciados recientemente)? Eso no es eliminar deuda, es <strong>seguir refinanciando y aumentando el pasivo</strong> en un mercado de capitales cada vez más exigente con el coste de financiación. Cada repunte de tipos o endurecimiento fiscal (como los debates recurrentes sobre impuestos a energéticas) estrangula el margen de maniobra de la compañía.</li>
+</ul>
+<h6>3. ¿RSI en sobrecompra de 72,13 como &quot;fuerza imparable&quot;? Es una bomba de relojería técnica</h6>
+<p>Afirmas que un RSI de <strong>72,13</strong> puede mantenerse así indefinidamente porque la presión compradora no cesa. Históricamente, ignorar las señales extremas de sobrecompra en máximos de 52 semanas es la forma más rápida de pillarse los dedos.</p>
+<ul>
+<li>El valor acumula una subida anual del <strong>+28,89%</strong> y se encuentra peligrosamente estirado por encima de su media móvil de 20 sesiones (21,57 EUR) y 200 sesiones (19,99 EUR).</li>
+<li>¿Y qué me dices del dividendo? Ofrecer un <em>yield</em> del <strong>3,07%</strong> (con un <em>payout ratio</em> altísimo del <strong>87,06%</strong>) puede sonar bien para el inversor minorista despistado, pero destinar casi el 90% de los beneficios a retribuir al accionista mientras se acumulan decenas de miles de millones de deuda neta es, sencillamente, <strong>hipotecar el crecimiento futuro para mantener contentos a los fondos de corto plazo</strong>.</li>
+</ul>
+<p>En conclusión, amigo alcista: comprar <code>IBE.MC</code> en estos niveles, con un PER inflado, un potencial de retorno negativo según el consenso, sobrecompra técnica evidente y una montaña de deuda en un entorno de tipos restrictivos, no es invertir en calidad; es asumir una posición de máximo riesgo a precio de saldo de oro. ¡Los osos seguiremos esperando agazapados a que la realidad golpee los múltiplos y obligue a una corrección saludable!</p>
+<p><strong>Rating</strong>: SELL</p>
+<p>FINAL TRANSACTION PROPOSAL: Reducir exposición / Esperar corrección profunda estructural</p>
+<h3 id="s2-3">Research Manager</h3>
+<p><strong>Recommendation</strong>: Hold</p>
+<p><strong>Rationale</strong>: El debate entre alcistas y bajistas expone puntos muy sólidos. Por un lado, los alcistas defienden con acierto la calidad superior de los activos regulados de Iberdrola en geografías clave y su sólida generación de caja operativa superior a los 11.600 millones de euros, respaldada por un modelo de negocio líder en la transición energética. Por otro lado, los bajistas advierten de riesgos financieros y de valoración muy reales: un PER forward de 19,91x que supera la mediana del sector (15,98x), una elevada ratio de endeudamiento con una deuda neta sobre EBITDA de 3,95x, un ratio de pago de dividendos del 87,06% y un precio de cotización actual (22,18 EUR) que ya se sitúa por encima del precio objetivo medio del consenso de analistas (21,38 EUR), arrojando un potencial de retorno negativo del -3,60%. Además, técnicamente el valor presenta un RSI en zona de sobrecompra de 72,13. Pesar ambos argumentos nos lleva a un punto de equilibrio: la calidad y el impulso alcista chocan frontalmente contra la sobrevaloración y el apalancamiento en un entorno de tipos del 2,5%, lo que invalida una convicción clara de compra o venta en estos momentos y justifica mantener una postura neutral.</p>
+<p><strong>Strategic Actions</strong>: Mantener la asignación actual en la cartera de manera neutral (peso neutral estándar). No incrementar exposición en estos niveles de sobrecompra técnica ni recortar de forma agresiva dada la fortaleza operativa de la compañía. Se recomienda al trader programar alertas de precio ante posibles correcciones hacia la media móvil de 20 sesiones (en torno a 21,57 EUR) o niveles cercanos al precio objetivo del consenso para reevaluar la tesis de entrada de forma táctica.</p>
+</section><section id="s3"><h2>III. Trading Team Plan</h2><h3 id="s3-1">Trader</h3>
+<p><strong>Action</strong>: Hold</p>
+<p><strong>Reasoning</strong>: Iberdrola muestra una solidez técnica notable con el precio cotizando por encima de sus medias móviles clave y un RSI en 72.13 que denota sobrecompra. Aunque los fundamentales y la generación de caja son robustos, la valoración con un PER forward de 19.91x y un precio actual de 22.18 EUR superior al precio objetivo del consenso (21.38 EUR) aconseja prudencia. Por lo tanto, se recomienda mantener la posición actual y esperar una consolidación o corrección técnica hacia la zona de soporte de la media de 20 sesiones antes de reevaluar nuevas compras.</p>
+<p><strong>Entry Price</strong>: not provided</p>
+<p><strong>Stop Loss</strong>: not provided</p>
+<p><strong>Position Sizing</strong>: Mantener peso neutral actual en cartera</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+</section><section id="s4"><h2>IV. Risk Management Team Decision</h2><h3 id="s4-1">Aggressive Analyst</h3>
+<p>Aggressive Analyst: ¡Atención traders! Mientras la visión conservadora se paraliza ante la sombra de un PER forward de 19.91x y la visión neutral se esconde detrás de un objetivo de consenso de 21.38 EUR, el mercado nos está gritando otra cosa. Nos encontramos ante un gigante indiscutible como Iberdrola (<code>IBE.MC</code>), cotizando con una solidez técnica impecable a 22.18 EUR, impulsada por un momento alcista imparable. ¿Hacer una pausa por miedo a la sobrecompra con un RSI en 72.13? ¡Eso es regalar oportunidades de crecimiento exponencial a los inversores timoratos! Las medias móviles están alineadas al alza de forma estructural (SMA 20 en 21.57 EUR, SMA 50 en 20.73 EUR y una indestructible SMA 200 en 19.99 EUR), demostrando que la fuerza compradora domina el parqué.</p>
+<p>Pretender frenar las compras solo porque el precio actual supera ligeramente la media del consenso de analistas es ignorar por completo el dinamismo de la compañía. ¿De verdad vamos a frenarnos por una diferencia del 3.6% frente a un precio objetivo de consenso estático de 21.38 EUR cuando la empresa acaba de asegurar más de 1.400 millones de euros y 1.600 millones de dólares en bonos verdes para expandir su imperio limpio en Estados Unidos? Esa liquidez y capacidad de captación de capital a gran escala para proyectos verdes son el motor definitivo de crecimiento futuro. Los analistas tradicionales siempre llegan tarde a la fiesta; cuando actualicen al alza sus valoraciones, <code>IBE.MC</code> ya estará volando mucho más alto.</p>
+<p>Además, hablar de riesgo por una ratio de endeudamiento neto sobre EBITDA de 3.95x es aplicar una miopía financiera inaceptable a una <em>utility</em> de primer nivel mundial que genera un EBITDA masivo superior a los 14.490 millones de euros y un beneficio neto de más de 6.200 millones. Esa deuda no es un lastre estéril; es combustible industrial puro invertido en activos regulados altamente rentables y diversificados geográficamente. El mercado premia la excelencia y el liderazgo en la transición energética, no la extrema cautela que se pierde los grandes saltos alcistas. Mantenerse neutral o buscar correcciones milimétricas a la media de 20 sesiones es arriesgarse a quedarse fuera de un tren en marcha que acumula una rentabilidad a un año del 28.89%. ¡Atrévase a mantener y exprimir esta tendencia alcista con audacia, porque el potencial de crecimiento a largo plazo pulveriza cualquier excusa conservadora!</p>
+<p><strong>Rating</strong>: HOLD
+FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+<h3 id="s4-2">Conservative Analyst</h3>
+<p>Conservative Analyst: Estimado colega analista agresivo, su entusiasmo por el dinamismo alcista de Iberdrola en <code>IBE.MC</code> y su desprecio por las métricas de prudencia ignoran por completo los riesgos estructurales y de mercado a los que estamos expuestos. Calificar de timidez la cautela ante un RSI en 72.13 es una temeridad que expone los activos de la firma a una corrección técnica inminente tras una rentabilidad anual acumulada del 28.89%. Ignorar que el precio actual de 22.18 EUR ya supera el precio objetivo del consenso fijado en 21.38 EUR es asumir que el mercado puede descontar indefinidamente un optimismo sin respaldo fundamental a corto plazo.</p>
+<p>Asimismo, restar importancia a una ratio de endeudamiento neto sobre EBITDA de 3.95x y a una deuda total que roza los 63.837 millones de euros, bajo la excusa de que se trata de una <em>utility</em> global, es olvidar que un entorno macroeconómico con tipos de interés del Banco Central Europeo anclados en el 2.5% y presiones inflacionarias energéticas eleva de manera crítica el coste del servicio de dicha deuda. Las recientes macroemisiones de bonos verdes por más de 1.400 millones de euros y 1.600 millones de dólares para financiar proyectos en Estados Unidos incrementan el apalancamiento en un momento de máxima exigencia de valoración (con un PER forward de 19.91x y un PER trailing de casi 30x).</p>
+<p>Defender compras agresivas o ignorar la necesidad de consolidación basándose únicamente en la inercia del impulso alcista es descuidar la gestión de riesgos y la preservación del capital ante cualquier giro imprevisto en el sector regulado o en los mercados de renta fija. Proteger la cartera exige disciplina y espera activa en los niveles de soporte, no subirse a un tren sobrecomprado.</p>
+<p><strong>Rating</strong>: HOLD
+FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+<h3 id="s4-3">Neutral Analyst</h3>
+<p>Neutral Analyst: Ambos extremos de la mesa muestran una visión sesgada que ignora la realidad operativa y técnica de <code>IBE.MC</code>.</p>
+<p>Por un lado, el analista agresivo comete el error de minimizar los riesgos técnicos y macroeconómicos actuales. Descartar un RSI de 72.13 como si fuera un simple detalle y exigir compras aceleradas cuando el título cotiza a 22.18 EUR —por encima del precio objetivo de consenso de 21.38 EUR— es ignorar la ley de la gravedad en los mercados. Apoyarse únicamente en la inercia alcista de una rentabilidad anual del 28.89% sin respetar las zonas de sobrecompra expone a cualquier inversor a una corrección innecesaria que podría erosionar las ganancias recientes de forma abrupta.</p>
+<p>Por otro lado, el analista conservador cae en el extremo opuesto al sobredimensionar los riesgos financieros y de apalancamiento. Asustarse por una deuda total de más de 63.800 millones de euros sin valorar el músculo operativo de un EBITDA de casi 14.500 millones y una ratio de deuda neta sobre EBITDA de 3.95x demuestra una falta de comprensión del sector de las <em>utilities</em> globales e intensivas en capital. Con el tipo de interés del BCE anclado en el 2.5%, la capacidad de Iberdrola para captar con éxito más de 1.400 millones de euros y 1.600 millones de dólares en bonos verdes demuestra una excelente salud financiera y acceso preferencial a liquidez, algo que el bando conservador prefiere pintar como una catástrofe de endeudamiento.</p>
+<p>La verdadera estrategia moderada y sostenible radica en encontrar el equilibrio: ni lanzarse a comprar de forma incontrolada en máximos de sobrecompra, ni paralizarse por miedo a un apalancamiento perfectamente gestionado. Mantener la posición actual (HOLD) con un peso neutral permite capturar los flujos estables y el atractivo dividendo del 3.07% mientras se espera con disciplina una consolidación técnica hacia la zona de soporte de la media móvil de 20 sesiones (21.57 EUR) antes de considerar cualquier ampliación de cartera. Así es como se protege el capital sin renunciar a la calidad fundamental del activo.</p>
+<p><strong>Rating</strong>: HOLD
+FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+</section><section id="s5"><h2>V. Portfolio Manager Decision</h2><h3 id="s5-1">Portfolio Manager</h3>
+<p><strong>Rating</strong>: Hold</p>
+<p><strong>Executive Summary</strong>: Se recomienda mantener una postura neutral (Hold) sobre Iberdrola (IBE.MC). La estrategia de ejecución consiste en conservar la asignación actual en cartera sin realizar nuevas compras ni ventas, evitando la sobrecompra técnica actual y protegiendo el capital a la espera de una corrección hacia la media móvil de 20 sesiones en el entorno de los 21,57 EUR.</p>
+<p><strong>Investment Thesis</strong>: La decisión de mantener se sustenta en el equilibrio demostrado durante el debate de los analistas entre la calidad fundamental y el impulso alcista frente a las señales de sobrevaloración. Por un lado, el analista agresivo destaca con razón la sólida inercia técnica del valor (cotizando por encima de sus medias móviles y con una rentabilidad anual del 28,89%), el excelente músculo operativo respaldado por un EBITDA superior a 14.490 millones de euros y una capacidad probada para captar financiación verde en condiciones favorables (más de 1.400 millones de euros y 1.600 millones de dólares en bonos verdes). Por otro lado, los analistas conservador y neutro advierten fundadamente sobre la existencia de un riesgo técnico inminente debido a un RSI en zona de sobrecompra (72,13) y una cotización actual (22.18 EUR) que ya supera el precio objetivo medio del consenso de analistas (21.38 EUR). Asimismo, aunque el apalancamiento con una ratio de deuda neta sobre EBITDA de 3,95x es manejable para una utility global, el contexto de tipos de interés del BCE en el 2,5% aconseja prudencia. Pesar ambas posturas revela que la fortaleza operativa contrarresta el riesgo de apalancamiento, pero no justifica asumir una sobrevaloración a corto plazo, lo que invalida una convicción clara de compra o venta y justifica plenamente una postura neutral de mantenimiento.</p>
+<p><strong>Price Target</strong>: 21.38</p>
+<p><strong>Time Horizon</strong>: 3-6 months</p>
+</section>
+</main>
+<footer class="credit"><a href="https://github.com/TauricResearch/TradingAgents" rel="noopener">TradingAgents</a> powered by <a class="brand" href="https://github.com/TauricResearch" rel="noopener">Tauric Research</a></footer>
+</div>
+<a class="to-top" href="#top">Top</a>
+</body>
+</html>

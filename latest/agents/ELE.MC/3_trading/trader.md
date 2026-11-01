@@ -1,0 +1,9 @@
+**Action**: Hold
+
+**Reasoning**: La recomendación de mantener responde a la divergencia entre el momentum técnico positivo y una valoración fundamental exigente. `ELE.MC` cotiza por encima de sus medias móviles clave (SMA20, SMA50, SMA200), lo que valida una tendencia alcista estructural. No obstante, los fundamentales muestran una desconexión crítica: un PER forward de 18,07x superior al del sector y un consenso de analistas que sitúa el precio objetivo un 16,25% por debajo del nivel actual (36,69 EUR). Dado que el beneficio ha caído un 26,7%, no hay una justificación clara para comprar por encima de estos niveles, pero la salud de la generación de caja operativa y la rentabilidad por dividendo (3,62%) proporcionan una base de soporte que desaconseja una venta inmediata. La estrategia debe ser la preservación de capital ante una posible reversión a la media.
+
+**Entry Price**: No se recomienda una entrada nueva a los precios actuales (43,81 EUR). Se sugiere esperar un retroceso hacia el soporte técnico más cercano en 42,81 EUR (SMA20) para evaluar la estabilidad del precio.
+
+**Stop Loss**: 37,59 EUR. Este nivel corresponde a la SMA200, que actúa como el soporte estructural más relevante y el último bastión de la tendencia alcista de largo plazo. Perder este nivel invalidaría la tesis de mantenimiento y sugeriría un cambio de tendencia.
+
+**Position Sizing**: Mantener la asignación actual dentro de los límites de riesgo de una cartera diversificada (por ejemplo, entre un 2% y un 5% del valor total de la cartera, dependiendo de la tolerancia al riesgo individual). No se recomienda incrementar la posición ("sobreponderar") mientras el consenso de analistas mantenga un sesgo bajista tan pronunciado (-16,25% de potencial *upside*).

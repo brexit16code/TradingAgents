@@ -1,0 +1,9 @@
+
+Neutral Analyst: Compañeros, analicemos con frialdad los extremos que acaban de plantear. Por un lado, el analista agresivo nos insta a ignorar los múltiplos y a lanzarnos a comprar al grito de que Ferrovial es una máquina de imprimir dinero. Es un error tremendo pasar por alto que cotizamos a un Forward P/E de 44.13x y un EV/EBITDA de 29.09x; pretender que el mercado nos regalará un camino directo a los 60.10 EUR sin turbulencias es pura ingenuidad, sobre todo cuando el RSI está en 68.01, rozando la sobrecompra tras un rebote del 15% en apenas cinco sesiones. Comprar ahora mismo en pleno calentón técnico es exponerse a una corrección inminente.
+
+Pero, por otro lado, el analista conservador se refugia en un pesimismo paralizante que raya en la inacción total. Descartar la gran oportunidad que representan los activos estratégicos de Ferrovial en Norteamérica, los ingresos al alza de 7.402 millones a septiembre y un flujo de caja libre operativo tan sólido solo por mirar el apalancamiento de 4.38x —que, si bien es elevado, es perfectamente sostenible para un gigante de concesiones de esta naturaleza respaldado por un cash flow de casi 2.500 millones— es pecar de exceso de miedo. 
+
+La verdadera estrategia inteligente no es lanzarse a ciegas ni tampoco cruzar de brazos esperando el colapso. La clave reside en un enfoque moderado y táctico: mantener la posición actual (`HOLD`) para capturar el jugoso dividendo de 600 millones de diciembre y beneficiarse de la tendencia alcista de fondo, pero sin arriesgar nuevo capital en máximos locales. Debemos esperar pacientemente a que el indicador RSI respire y el precio consolide soportes más seguros cerca de las medias móviles antes de plantear cualquier ampliación de cartera. Ni euforia ciega ni parálisis defensiva; disciplina y gestión equilibrada del riesgo.
+
+**Rating**: HOLD
+FINAL TRANSACTION PROPOSAL: **HOLD**

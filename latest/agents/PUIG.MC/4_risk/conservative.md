@@ -1,0 +1,11 @@
+
+Conservative Analyst: Compañeros, comprendo perfectamente el entusiasmo del analista agresivo ante los planes a largo plazo presentados en el Investor's Day de `PUIG.MC`, pero la misión de esta mesa no es dejarse deslumbrar por promesas de crecimiento a siete vista, sino proteger el capital de la firma frente a riesgos tangibles y valoraciones que ya rozan los límites de la prudencia.
+
+Apelar a un incremento de ventas del 60% a largo plazo mientras se ignora el presente es una imprudencia analítica. La realidad actual de `PUIG.MC` a 19,26 EUR nos muestra un PER adelantado de 16,07x y un recorrido alcista de consenso sumamente limitado, de apenas un 8% respecto al precio objetivo medio de 20,81 EUR. Esto evidencia con claridad meridiana que gran parte de los catalizadores positivos a corto plazo ya están completamente descontados en el precio. Comprar de manera agresiva en estos niveles, con un RSI en 59,04 que se acerca de forma peligrosa a zonas de sobrecompra operativa y un MACD que muestra signos de compresión, expone a la cartera a un riesgo de corrección innecesario. 
+
+El analista agresivo minimiza el apalancamiento basándose únicamente en una ratio de deuda neta sobre EBITDA de 1,63x, pero olvida que la deuda total asciende a casi 1.800 millones de euros frente a una escasa posición de efectivo de 207 millones. En un entorno macroeconómico donde el Banco Central Europeo mantiene los tipos de interés en el 2,50% y advierte persistentemente sobre riesgos inflacionarios y geopolíticos, asumir que cualquier estructura de financiación corporativa está exenta de vulnerabilidad es ignorar la volatilidad inherente al mercado. Una volatilidad histórica anualizada del 21,98% nos recuerda que los giros bruscos en el sector de consumo defensivo pueden castigar con dureza las valoraciones más ajustadas.
+
+Por todo ello, adoptar una postura puramente impulsiva nos aleja de nuestro objetivo primordial de estabilidad y seguridad. Mantener la exposición actual sin incrementar posiciones a precios inflados y esperar pacientemente una corrección hacia soportes dinámicos es la única alternativa responsable para asegurar el patrimonio de la firma a largo plazo.
+
+**Rating**: HOLD
+FINAL TRANSACTION PROPOSAL: **HOLD**

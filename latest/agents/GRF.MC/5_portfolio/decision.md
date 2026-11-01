@@ -1,0 +1,9 @@
+**Rating**: Hold
+
+**Executive Summary**: Mantener la postura actual sin realizar nuevas compras ni ventas en el tramo actual de GRF.MC. Se recomienda supervisar los niveles técnicos en torno a la zona de resistencia de 10,80-10,98 EUR y el RSI en sobrecompra, esperando una consolidación o un retroceso saludable antes de considerar cambios en la asignación con un horizonte temporal a medio plazo.
+
+**Investment Thesis**: El análisis ponderado de las posturas revela un equilibrio entre fortalezas fundamentales y riesgos estructurales significativos. Por un lado, el bando alcista destaca con acierto la mejora en la línea superior con 7.524 millones de euros en ingresos para 2025, un beneficio neto recuperado hasta los 402 millones, un flujo de caja libre superior a 572 millones y un PER forward atractivo de 9,86x frente a un objetivo de consenso en 14,75 EUR. Adicionalmente, el impulso técnico es sólido con el precio por encima de sus medias móviles y una rentabilidad a 21 sesiones del 14,35%. Por otro lado, la facción conservadora y neutral expone con solidez que la estructura de capital sigue siendo vulnerable debido a una deuda total de 9.356 millones de euros y una ratio de deuda neta sobre EBITDA de 5,36x, a lo que se suma un RSI en 72,72 que denota sobrecompra a corto plazo tras el reciente repunte. Ningún bando anula por completo al otro: los datos operativos y la valoración forward justifican retener la posición, pero el elevado apalancamiento y la tensión técnica impiden justificar una recomendación de compra o sobreponderación agresiva en este momento. El escenario cambiaría positivamente con una reducción efectiva de la deuda o una consolidación técnica que alivie la sobrecompra.
+
+**Price Target**: 14.75833
+
+**Time Horizon**: 3-6 months

@@ -1,0 +1,11 @@
+
+Neutral Analyst: Ambos extremos de la mesa muestran una visión sesgada que ignora la realidad operativa y técnica de `IBE.MC`. 
+
+Por un lado, el analista agresivo comete el error de minimizar los riesgos técnicos y macroeconómicos actuales. Descartar un RSI de 72.13 como si fuera un simple detalle y exigir compras aceleradas cuando el título cotiza a 22.18 EUR —por encima del precio objetivo de consenso de 21.38 EUR— es ignorar la ley de la gravedad en los mercados. Apoyarse únicamente en la inercia alcista de una rentabilidad anual del 28.89% sin respetar las zonas de sobrecompra expone a cualquier inversor a una corrección innecesaria que podría erosionar las ganancias recientes de forma abrupta.
+
+Por otro lado, el analista conservador cae en el extremo opuesto al sobredimensionar los riesgos financieros y de apalancamiento. Asustarse por una deuda total de más de 63.800 millones de euros sin valorar el músculo operativo de un EBITDA de casi 14.500 millones y una ratio de deuda neta sobre EBITDA de 3.95x demuestra una falta de comprensión del sector de las *utilities* globales e intensivas en capital. Con el tipo de interés del BCE anclado en el 2.5%, la capacidad de Iberdrola para captar con éxito más de 1.400 millones de euros y 1.600 millones de dólares en bonos verdes demuestra una excelente salud financiera y acceso preferencial a liquidez, algo que el bando conservador prefiere pintar como una catástrofe de endeudamiento.
+
+La verdadera estrategia moderada y sostenible radica en encontrar el equilibrio: ni lanzarse a comprar de forma incontrolada en máximos de sobrecompra, ni paralizarse por miedo a un apalancamiento perfectamente gestionado. Mantener la posición actual (HOLD) con un peso neutral permite capturar los flujos estables y el atractivo dividendo del 3.07% mientras se espera con disciplina una consolidación técnica hacia la zona de soporte de la media móvil de 20 sesiones (21.57 EUR) antes de considerar cualquier ampliación de cartera. Así es como se protege el capital sin renunciar a la calidad fundamental del activo.
+
+**Rating**: HOLD
+FINAL TRANSACTION PROPOSAL: **HOLD**

@@ -1,0 +1,9 @@
+**Rating**: Hold
+
+**Executive Summary**: Mantener la asignación actual del 3% en ACS.MC dentro de una postura neutral de espera, evitando incrementar posiciones antes del Capital Markets Day y la presentación de resultados a mediados de noviembre de 2026. Proteger la exposición con un stop loss disciplinado en 84.5 EUR para absorber la volatilidad derivada del castigo técnico reciente y el contexto macroeconómico.
+
+**Investment Thesis**: El debate entre los analistas refleja una clara dicotomía entre la solidez fundamental y el deterioro técnico de corto plazo. Por un lado, el bando alcista destaca un crecimiento interanual de ingresos del 12.2% hasta los 49.847 millones de EUR, una sólida generación de flujo de caja libre superior a los 2.300 millones de EUR, un dividendo fiable del 2.56% y un apalancamiento sumamente bajo con una ratio de deuda neta sobre EBITDA de 0.20x, apuntando a un consenso de analistas en 131.21 EUR que implica un potencial alcista del 44.74%. Por otro lado, la faceta bajista y neutral advierte con razón sobre la delicada situación técnica, con el valor cotizando a 90.65 EUR —un -34.48% desde máximos— y por debajo de su SMA de 200 en 108.85 EUR, además del riesgo binario inminente de los resultados del tercer trimestre, el Capital Markets Day de noviembre de 2026 y las revisiones a la baja de entidades como Deutsche Bank en un entorno de tipos del BCE en el 2.5%. Ponderando ambos argumentos, la evidencia sigue equilibrada entre el atractivo fundamental de largo plazo y el riesgo inminente de eventos a corto plazo, lo que justifica una postura firme de mantenimiento (Hold) hasta que la nueva hoja de ruta estratégica aclare la dirección del valor.
+
+**Price Target**: 131.21
+
+**Time Horizon**: 3-6 months

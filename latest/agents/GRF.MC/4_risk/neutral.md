@@ -1,0 +1,10 @@
+
+Neutral Analyst: **Rating**: REVIEW
+
+FINAL TRANSACTION PROPOSAL: **HOLD**
+
+Escuchando las posturas de ambos, queda claro que tanto el analista agresivo como el conservador caen en extremos que no podemos permitirnos en una gestión de riesgos profesional. Por un lado, el analista agresivo descarta con demasiada ligereza un problema estructural real: una deuda neta sobre EBITDA de 5,36x y una deuda total de 9.356 millones de euros frente a una capitalización de 7.469 millones no es un simple "ruido", sino un factor crítico que deja a GRF.MC muy expuesta a cualquier vaivén en los tipos de interés o en sus flujos de caja. Minimizar esto tachando de timorata la prudencia es jugar a la ruleta rusa con el capital.
+
+Ahora bien, el analista conservador tampoco acierta al pintar un escenario de catástrofe inminente y quedarse paralizado. Decir que el RSI en 72,72 y una subida del 14,35% en 21 sesiones son motivos para temer una corrección catastrófica ignora que el valor muestra un impulso técnico real respaldado por medias móviles impecables (con la cotización holgadamente por encima de su SMA20 en 10,16 EUR y SMA200 en 9,65 EUR) y una clara mejora en los fundamentales, como un beneficio neto de 402 millones de euros y un flujo de caja libre positivo de más de 572 millones. Asustarse por la sobrecompra sin valorar la tendencia de fondo nos haría perdernos un movimiento alcista saludable.
+
+La postura verdaderamente inteligente y equilibrada es la de mantener la posición actual sin realizar compras adicionales de forma precipitada. No necesitamos lanzarnos al vacío como propone el sector agresivo, ni tampoco ceder al pánico de perder liquidez que defiende el sector conservador. Mantenernos neutrales nos permite dejar que los beneficios corran apoyados por ese atractivo PER forward de 9,86x y el potencial del consenso hacia los 14,75 EUR, mientras protegemos nuestra cartera de la volatilidad a corto plazo a la espera de que el precio consolide de manera sana los niveles actuales tras la superación de la resistencia de los 10,80 euros.

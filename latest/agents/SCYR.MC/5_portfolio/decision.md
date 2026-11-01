@@ -1,0 +1,9 @@
+**Rating**: Hold
+
+**Executive Summary**: Se recomienda mantener la posición actual en SCYR.MC con una asignación hipotética del 5% del portfolio. Es conveniente establecer un stop loss táctico en 3,80 EUR para mitigar el riesgo de volatilidad a corto plazo y vigilar de cerca la evolución del apalancamiento frente a la generación de caja.
+
+**Investment Thesis**: Tras sopesar los argumentos del debate, la postura neutral y ponderada resulta la más adecuada. Por un lado, el analista agresivo acierta al destacar la robusta capacidad de generación de caja de Sacyr, S.A. (con un flujo de caja operativo superior a 1.374 millones de euros y un flujo de caja libre de más de 682 millones), respaldada por su negocio concesional y complementada por una atractiva rentabilidad por dividendo del 4,94%. Por otro lado, el analista conservador advierte con razón sobre vulnerabilidades estructurales reales, como un elevado apalancamiento que sitúa la Deuda Neta sobre EBITDA en 5,31x en un entorno de tipos estables en el 2,5%, márgenes netos estrechos (2,75%) y un comportamiento técnico donde el valor cotiza por debajo de su media móvil de 200 sesiones (4,35 EUR) con un drawdown del 17,75%. Esta coexistencia de fortalezas de liquidez y debilidades de balance, unida a la neutralidad técnica actual (RSI en 51,14 y precio oscilando entre la SMA 20 de 3,99 EUR y la SMA 50 de 4,10 EUR), justifica mantener la posición sin realizar compras agresivas ni salidas precipitadas. Lo que cambiaría esta tesis hacia una compra sería una reducción efectiva y sostenida del apalancamiento acompañada de la ruptura clara de resistencias técnicas, mientras que un deterioro de los márgenes o un incremento de las tensiones de refinanciación inclinaría la recomendación hacia la venta.
+
+**Price Target**: 5.329
+
+**Time Horizon**: 3-6 months

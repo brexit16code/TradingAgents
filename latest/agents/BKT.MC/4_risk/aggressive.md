@@ -1,0 +1,9 @@
+
+Aggressive Analyst: ¡Basta ya de vacilar ante las pantallas y de temerle a cada pequeño bache del mercado! Mientras el analista conservador y el neutral se paralizan ante una simple corrección y buscan excusas en la volatilidad temporal, nosotros estamos ante una oportunidad de oro con Bankinter (`BKT.MC`) que exige audacia, no cobardía. 
+
+Miren los números fríos que la timidez de nuestros colegas prefiere ignorar: ¡un ROE envidiable del 17.64%, un crecimiento de beneficios sostenido del 10% y una rentabilidad por dividendo del 4.45% que premia nuestra paciencia mientras el mercado recapacita! Nos hablan de que el precio está en 13.92 EUR y que ha perforado la media móvil de 200 sesiones, pero ignoran olímpicamente lo que eso significa para un inversor de gran calado: ¡el RSI está en sobreventa extrema con un 28.66! Esa es la definición exacta de sangre en las calles, el momento preciso en el que los débiles venden por pánico tras unos resultados sólidos de más de 900 millones de euros y los audaces entramos a robar valor con descuento. 
+
+¿Qué nos dice el consenso de 22 analistas con su precio objetivo medio en 16.85 EUR? ¡Un potencial alcista del 21.04% que espera a quienes tengan el valor de aguantar la posición neutral actual y no cedan al ruido cortoplacista del Banco Central Europeo manteniendo los tipos en el 2.5%! La postura neutral de esperar a que cruce resistencias es típica de quien quiere subirse al tren cuando ya es tarde y la rentabilidad se ha esfumado. Bankinter (`BKT.MC`) está sobrevendida, su PER forward es de unos atractivos 9.58x —por debajo de la mediana del sector— y su ratio de payout del 48.96% garantiza un dividendo robusto sin comprometer el crecimiento. Mantener la asignación actual y resistir la tentación de malvender es nuestra mejor arma para capitalizar este rebote inminente. ¡No dejemos que el miedo nos robe la cima del beneficio!
+
+**Rating**: REVIEW
+FINAL TRANSACTION PROPOSAL: **HOLD**

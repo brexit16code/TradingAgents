@@ -1,0 +1,9 @@
+**Rating**: Hold
+
+**Executive Summary**: Mantener la posición actual sin realizar nuevas compras. La estrategia consiste en observar si el nivel de 15,19 EUR (SMA200) actúa como soporte estructural; solo se considerará una acumulación táctica si la acción muestra signos claros de estabilización y consolidación en dicho rango. El horizonte temporal sugerido es de 3 a 6 meses para evaluar la sostenibilidad de los márgenes y la reducción del apalancamiento.
+
+**Investment Thesis**: La decisión de mantener se fundamenta en el equilibrio entre la sólida perspectiva de beneficios proyectados (Forward EPS de 1,57) y los riesgos estructurales identificados en la deuda (ratio neto de 3,52x EBITDA) y los márgenes operativos de apenas 0,95%. Si bien el analista agresivo destaca correctamente el potencial de revalorización respecto al precio objetivo de consenso (19,58 EUR), el analista conservador fundamenta con razón la fragilidad del payout ratio y la debilidad técnica tras haber perdido los niveles de 16,40 EUR. La evidencia actual es insuficiente para justificar una entrada agresiva debido a la alta volatilidad (25,74%) y a un MACD en territorio negativo que sugiere presión vendedora continua. La tesis cambiaría hacia una postura de compra si la empresa logra demostrar una mejora en la generación de flujo de caja libre (actualmente 89,4 millones de EUR) y una estabilización del ratio de apalancamiento en los próximos dos trimestres. Por el contrario, un cierre sostenido y con volumen por debajo de los 15,19 EUR invalidaría la tesis de soporte y obligaría a reducir la exposición.
+
+**Price Target**: 19.58
+
+**Time Horizon**: 3-6 meses

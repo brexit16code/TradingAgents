@@ -1,0 +1,12 @@
+
+Aggressive Analyst: ¡Basta ya de vacilaciones y de ver fantasmas macroeconómicos donde solo hay una oportunidad de oro para generar valor real! Me sorprende ver cómo la prudencia extrema de algunos analistas frena el impulso natural de un activo de la categoría de `ROVI.MC`. Mientras otros se quedan mirando el retrovisor y discuten si el valor está unos céntimos por debajo de su media móvil de 200 sesiones en 65.37 EUR, ignoran por completo los datos fundamentales que gritan compra y crecimiento desatado.
+
+Hablemos claro: tenemos una compañía con una posición de caja neta envidiable, con un ratio de deuda neta sobre EBITDA negativo de -0.115x y un flujo de caja libre que supera los 167 millones de euros. ¿De verdad vamos a frenar una estrategia ganadora por un Forward P/E de 19.05x cuando estamos ante una joya del sector healthcare que genera un retorno sobre el capital contable (ROE) cercano al 28.65%? Esa valoración no es exigente; es el precio justo por la calidad y la resiliencia operativa que Laboratorios Farmaceuticos Rovi, S.A. demuestra trimestre tras trimestre.
+
+Además, los detractores del riesgo olvidan el contexto institucional y el momentum técnico. El RSI se sitúa en un vigoroso 66.32 y el MACD confirma una aceleración alcista limpia, con una rentabilidad a 21 sesiones superior al 9%. El consenso de analistas marca un precio objetivo medio en los 73.69 EUR, lo que arroja un potencial alcista inmediato de más del 17.8%, con techos que rozan los 83 EUR. Gestoras de la talla de Horos AM ya están tomando posiciones fuertes porque entienden que el verdadero riesgo no es asumir una volatilidad anualizada del 18.5%, sino quedarse fuera del tren cuando el mercado descuente por completo la sólida visibilidad estratégica hacia 2027. 
+
+Mantener una postura pasiva a la espera de catálisis perfectas es regalar rentabilidad en bandeja de plata. El perfil conservador se refugia en los tipos del BCE y en miedos inflacionarios infundados, perdiéndose la oportunidad de capitalizar este rebote estructural en `ROVI.MC`. ¡Es momento de ser audaces, de apostar por la fortaleza del balance de la compañía y de exigir una estrategia de crecimiento activa que nos coloque a la cabeza del rendimiento!
+
+**Rating**: BUY
+
+FINAL TRANSACTION PROPOSAL: **BUY**

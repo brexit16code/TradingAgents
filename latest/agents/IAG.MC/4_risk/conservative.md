@@ -1,0 +1,11 @@
+
+Conservative Analyst: **Rating**: HOLD  
+FINAL TRANSACTION PROPOSAL: **HOLD**
+
+Colega, permítame poner los pies en la tierra frente a su discurso desmedidamente optimista. Hablar de un "potencial alcista explosivo" y desestimar las alertas macroeconómicas basándose únicamente en la promesa teórica de un PER forward de 6,37x y en la media móvil de 200 sesiones es un ejercicio de temeridad inadmisible para la protección de nuestros activos. 
+
+Usted tacha de "miedo paralizante" lo que en realidad es una gestión de riesgos rigurosa y profesional. Ignorar los datos duros que demuestran una contracción interanual de beneficios del 30,4% y minimizar el impacto real de las tensiones geopolíticas en Oriente Medio —como la crisis de Irán que ya está forzando a IAG.MC a replantear sus previsiones de vuelo para 2026— es exponer a la firma a sorpresas exógenas devastadoras. En el sector aeronáutico, un repunte abrupto en los costes del combustible o un cierre temporal de rutas espaciales/aéreas pulveriza los márgenes operativos en cuestión de días, por muy saneada que parezca la caja a corto plazo.
+
+Además, fiarse ciegamente de un consenso de analistas que sitúa el precio objetivo en 6,00 EUR (con un *consensus upside* del 24,05%) es olvidar que las estimaciones de los analistas no son valores intrínsecos garantizados, sino proyecciones sujetas a la más absoluta volatilidad. Con una volatilidad anualizada del 23,96% y el precio cotizando peligrosamente al filo de su soporte crítico en los 4,83 EUR, cualquier traspiés en los resultados del tercer trimestre podría romper el suelo técnico y desencadenar pérdidas aceleradas. 
+
+Por esta razón, la decisión de mantener sin realizar nuevas asignaciones de capital (0% de nueva asignación) y blindar la operativa con un *stop-loss* estricto en 4,50 EUR no es ninguna muestra de indecisión; es la única postura sensata para preservar el capital de la firma frente a un entorno macroeconómico tan frágil y saturado de incertidumbres energéticas. No arriesgaremos el patrimonio en busca de un "alfa" ilusorio cuando las amenazas exógenas acechan en cada esquina.

@@ -1,0 +1,11 @@
+
+Aggressive Analyst: Rating: HOLD
+FINAL TRANSACTION PROPOSAL: **HOLD**
+
+¡Despertemos de una vez! Los analistas conservadores y neutrales se quedan atrapados en la mediocridad al obsesionarse con el Forward P/E de 23,75x y dudar sobre el potencial a corto plazo de **ITX.MC**, ignorando por completo la apisonadora operativa que tenemos en marcha. ¡Están viendo fantasmas macroeconómicos donde hay pura excelencia empresarial!
+
+¿Qué nos dice la realidad de los datos de **ITX.MC** a 1 de noviembre de 2026? Un **ROE estratosférico del 36,82%** y una posición neta de caja envidiable con una ratio de **Deuda Neta/EBITDA de -0,43x** (respaldada por más de 10.398 millones de euros en efectivo total frente a una deuda menor). ¿Acaso pretenden ignorar que Inditex genera un **Flujo de Caja Libre (FCF) superior a los 6.488 millones de euros**? Las dudas de los prudentes sobre los tipos de interés del BCE en el 2,5% o el P/B de 9,79x son excusas de libro para perderse el verdadero cohete alcista. 
+
+Desde el punto de vista técnico, la cotización de **ITX.MC** en 56,14 EUR está firmemente anclada por encima de sus medias móviles clave (SMA20 en 54,54 EUR, SMA50 en 54,28 EUR y una sólida SMA200 en 53,30 EUR), con un RSI de 63,01 que muestra una fortaleza compradora limpia y un MACD netamente alcista (0,77 frente a la señal de 0,55). ¿Pretendemos vender o congelar compras justo cuando el momentum técnico y la temporada de dividendos de noviembre impulsan los flujos institucionales en el Ibex 35? El consenso apunta a un precio objetivo medio de 60,39 EUR, pero las marcas líderes con este nivel de eficiencia y márgenes de beneficio del 15,53% pulverizan los techos del consenso sistemáticamente.
+
+Mi postura agressiva de mantener y no ceder capital tontamente ante correcciones menores que tal vez nunca lleguen es la única lógica válida aquí. ¡No estrangulemos el crecimiento y la alta rentabilidad por miedo al ruido macroeconómico! Dejemos correr los beneficios de **ITX.MC** y preparémonos para capturar el verdadero upside.

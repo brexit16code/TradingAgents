@@ -1,0 +1,553 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'">
+<title>UNI.MC 2026-11-01 Hold: TradingAgents report</title>
+<style>
+:root {
+  --paper: #fbfbfa; --ink: #1c2126; --muted: #5d6670; --rule: #e2e5e8; --wash: #f2f4f5;
+  --accent: #087a59; --up: #087a59; --down: #b4372f; --level: #5d6670; --edge: #d3d8dc; --mark: #878f97;
+  --serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #131a1f; --ink: #e4e8eb; --muted: #9aa6af; --rule: #263239; --wash: #1a242a;
+    --accent: #14c290; --up: #14c290; --down: #ef6f63; --level: #9aa6af; --edge: #3d4c55; --mark: #66737c;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .masthead .logo [stroke="#363636"] { stroke: var(--muted); }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font: 17px/1.62 var(--serif); font-kerning: normal;
+}
+.page { max-width: 46rem; margin: 0 auto; padding: 3.5rem 1.5rem 6rem; }
+main h2, main h3 { scroll-margin-top: 1rem; }
+a { color: var(--accent); text-underline-offset: 0.15em; }
+h1, h2, h3, h4 { text-wrap: balance; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.masthead { padding-bottom: 1.75rem; border-bottom: 1px solid var(--rule); }
+/* The logo leads at the top left, where readers look for it, 24px tall (the usual
+   on-screen floor for a wordmark) with at least its height clear below. */
+.masthead .logo { display: block; width: fit-content; margin: 0 0 2.25rem; }
+.masthead .logo svg { display: block; height: 1.5rem; width: auto; }
+.masthead h1 {
+  margin: 0; font: 600 2.6rem/1.1 var(--sans); letter-spacing: -0.02em;
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.2em 0.5em;
+}
+.masthead .rating { font-weight: 500; }
+.rating.up { color: var(--up); } .rating.down { color: var(--down); } .rating.level { color: var(--level); }
+.rating.review { color: var(--muted); font-style: italic; }
+.masthead .date { margin: 0.55rem 0 1.5rem; font: 1rem/1.4 var(--sans); color: var(--muted); }
+.run { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: 0.45rem 1.25rem;
+  font: 0.85rem/1.5 var(--sans); }
+.run > div { display: contents; }
+.run dt { color: var(--muted); }
+.run dd { margin: 0; overflow-wrap: anywhere; }
+.run .note dd { color: var(--down); }
+.field { display: inline-block; margin: 0 0.15rem 0.15rem 0; padding: 0 0.4rem; border: 1px solid var(--edge);
+  border-radius: 4px; background: var(--wash); font: 0.8rem/1.6 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+.run .group { display: inline-block; margin-right: 0.9rem; white-space: nowrap; }
+.run .group > .name { color: var(--muted); margin-right: 0.3rem; }
+.run .then { color: var(--muted); margin: 0 0.2rem; }
+
+/* The sections: listed under the header on narrow screens. On wide ones, a
+   quiet rail centred on the left edge (numerals for the sections, short bars
+   for their agents) that opens into the full list when pointed at or focused. */
+.contents { margin: 2.25rem 0 0; font: 0.9rem/1.45 var(--sans); }
+.contents ul { margin: 0; padding: 0; list-style: none; }
+.contents > ul > li { margin: 0 0 0.75rem; }
+.contents ul ul { margin-top: 0.2rem; padding-left: 1.6rem; font-size: 0.85rem; }
+.contents ul ul li { margin: 0.1rem 0; }
+.contents a { display: flex; align-items: center; gap: 0.6rem; color: var(--muted); text-decoration: none; }
+.contents > ul > li > a { color: var(--ink); }
+.contents .num { min-width: 1.6rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.contents .bar { display: none; }
+.contents a:hover .label, .contents a:focus-visible .label { color: var(--accent); text-decoration: underline; }
+.to-top { position: fixed; right: 1rem; bottom: calc(1rem + env(safe-area-inset-bottom));
+  padding: 0.25rem 0.6rem; border: 1px solid var(--edge); border-radius: 4px; background: var(--paper);
+  color: var(--muted); font: 0.8rem/1.4 var(--sans); text-decoration: none; }
+
+@media (min-width: 60rem) {
+  .contents { position: fixed; left: 1rem; top: 50%; transform: translateY(-50%); z-index: 1;
+    max-height: 86vh; overflow-y: auto; overscroll-behavior: contain; margin: 0;
+    padding: 0.7rem 0.9rem; border: 1px solid transparent; border-radius: 6px;
+    transition: background-color 0.15s, border-color 0.15s, box-shadow 0.15s; }
+  .contents > ul > li { margin: 0 0 0.35rem; }
+  .contents ul ul { margin-top: 0; padding-left: 0; }
+  .contents ul ul li { margin: 0; }
+  /* Marks reach 3:1 contrast and rows 24px, the WCAG 2.2 floors for a control's
+     visual cue and its pointer target. */
+  .contents a { min-height: 1.5rem; }
+  .contents .num { min-width: 1.4rem; }
+  .contents .bar { display: block; flex: none; width: 1.25rem; height: 2px; margin-left: 0.2rem;
+    border-radius: 1px; background: var(--mark); }
+  .contents .label { max-width: 0; opacity: 0; overflow: hidden; white-space: nowrap;
+    transition: opacity 0.15s, max-width 0.2s; }
+  .contents:hover, .contents:focus-within { background: var(--paper); border-color: var(--rule);
+    box-shadow: 0 6px 24px rgb(0 0 0 / 0.08); }
+  .contents:hover .label, .contents:focus-within .label { max-width: 18rem; opacity: 1; }
+  .contents a:hover .bar, .contents a:focus-visible .bar { background: var(--accent); }
+  .to-top { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .contents, .contents .label { transition: none; }
+}
+
+/* The maker's credit: one quiet line at the foot. */
+.credit { margin-top: 4.5rem; padding-top: 1.25rem; border-top: 1px solid var(--rule);
+  color: var(--muted); font: 0.8rem/1.4 var(--sans); }
+.credit a { color: inherit; text-decoration: none; }
+.credit a.brand { color: var(--accent); }
+.credit a:hover, .credit a:focus-visible { text-decoration: underline; }
+
+/* Three levels of separation: the five groups, the agents within a group, and
+   breaks an agent draws inside its own text. */
+main h2 {
+  margin: 4.5rem 0 0.25rem; padding-top: 1.5rem; border-top: 2px solid var(--ink);
+  font: 600 1.45rem/1.3 var(--sans); letter-spacing: -0.01em;
+}
+main section:first-child h2 { margin-top: 3rem; }
+main h3 { margin: 2.75rem 0 0.75rem; padding-top: 1.1rem; border-top: 1px solid var(--rule);
+  font: 600 1.15rem/1.35 var(--sans); color: var(--accent); }
+main h2 + h3 { margin-top: 1.25rem; padding-top: 0; border-top: 0; }
+main h4, main h5, main h6 { margin: 1.75rem 0 0.5rem; font: 600 1rem/1.4 var(--sans); }
+main h5, main h6 { color: var(--muted); }
+main p, main ul, main ol { margin: 0 0 1rem; }
+main li { margin: 0.25rem 0; }
+main strong { font-weight: 650; }
+main blockquote { margin: 1.25rem 0; padding: 0.1rem 0 0.1rem 1rem; border-left: 3px solid var(--rule);
+  color: var(--muted); }
+main code { font: 0.88em/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  background: var(--wash); padding: 0.1em 0.3em; border-radius: 3px; }
+main pre { background: var(--wash); padding: 0.9rem 1rem; border-radius: 4px; overflow-x: auto; }
+main pre code { background: none; padding: 0; }
+main hr { width: 3rem; margin: 2rem auto; border: 0; border-top: 1px solid var(--rule); }
+
+.table { overflow-x: auto; margin: 0 0 1.25rem; }
+table { border-collapse: collapse; width: 100%; font: 0.86rem/1.45 var(--sans);
+  font-variant-numeric: tabular-nums; }
+th, td { padding: 0.45rem 0.7rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--rule); }
+th { font-weight: 600; border-bottom-color: var(--muted); }
+tbody tr:last-child td { border-bottom: 0; }
+
+@media (max-width: 34rem) {
+  body { font-size: 16px; }
+  .page { padding: 2rem 1rem 3rem; }
+  .masthead h1 { font-size: 2rem; }
+  .masthead .logo svg { height: 1.25rem; }
+  .run { grid-template-columns: 1fr; gap: 0 0; }
+  .run dd { margin-bottom: 0.45rem; }
+  .run .group { white-space: normal; }
+}
+@media print {
+  :root { --paper: #fff; --ink: #000; --muted: #444; --rule: #bbb; --accent: #000; --wash: #f2f2f2;
+    --edge: #bbb; --up: #087a59; --down: #b4372f; --level: #444; }
+  body { font-size: 11pt; }
+  .table { overflow: visible; }
+  .page { max-width: none; padding: 0; }
+  .contents, .to-top { display: none; }
+  main h2 { break-before: page; border-top: 0; margin-top: 0; }
+  main section:first-child h2 { break-before: auto; }
+  main h3, main h4 { break-after: avoid; }
+  a { color: inherit; text-decoration: none; }
+  table { break-inside: avoid; }
+}
+</style>
+</head>
+<body>
+<div class="page" id="top">
+<header class="masthead">
+<a class="logo" href="https://tauric.ai" rel="noopener" aria-label="Tauric Research"><svg width="993" height="115" viewBox="0 0 993 115" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M189.86 95.0459V37.9779H165.924V29.9259H223.74V37.9779H199.804V95.0459H189.86ZM251.026 46.4259C256.071 46.4259 260.178 47.0272 263.345 48.2299C266.514 49.4032 268.89 51.3686 270.474 54.1259C272.058 56.8832 272.85 60.6379 272.85 65.3899V95.0459H264.666L263.961 89.8979H263.434C261.644 91.7752 259.386 93.2419 256.657 94.2979C253.929 95.3246 251.025 95.8379 247.946 95.8379C244.426 95.8379 241.419 95.2952 238.925 94.2099C236.432 93.0952 234.54 91.5406 233.249 89.5459C231.959 87.5512 231.313 85.2046 231.313 82.5059C231.313 78.2526 232.897 74.9672 236.065 72.6499C239.263 70.3032 244.337 68.8219 251.29 68.2059L263.258 67.0179V64.7299C263.258 61.9139 262.774 59.7139 261.806 58.1299C260.838 56.5459 259.371 55.4312 257.406 54.7859C255.47 54.1406 252.888 53.8179 249.662 53.8179C247.432 53.8179 245.012 54.0086 242.401 54.3899C239.82 54.7712 237.341 55.3432 234.965 56.1059V48.8019C237.312 48.0392 239.908 47.4526 242.754 47.0419C245.628 46.6312 248.386 46.4259 251.026 46.4259ZM250.541 89.0619C252.888 89.0619 255.162 88.6512 257.362 87.8299C259.562 86.9792 261.527 85.7179 263.258 84.0459V72.8259L252.038 73.9259C248.136 74.3659 245.35 75.2166 243.678 76.4779C242.005 77.7099 241.169 79.4699 241.169 81.7579C241.169 84.0752 241.947 85.8792 243.501 87.1699C245.056 88.4312 247.403 89.0619 250.541 89.0619ZM313.339 95.8379C307.59 95.8379 303.087 94.2979 299.831 91.2179C296.575 88.1086 294.947 83.2686 294.947 76.6979V47.1739H304.715V76.1699C304.715 80.1886 305.624 83.0779 307.443 84.8379C309.291 86.5979 311.916 87.4779 315.319 87.4779C317.871 87.4779 320.379 86.9939 322.843 86.0259C325.336 85.0286 327.492 83.5766 329.311 81.6699V47.1739H339.079V95.0459H330.983L330.367 89.9419H329.883C327.624 91.8486 325.072 93.3152 322.227 94.3419C319.382 95.3392 316.419 95.8379 313.339 95.8379ZM362.371 47.1739H370.423L371.171 53.2899H371.743C373.474 51.2072 375.703 49.5792 378.431 48.4059C381.188 47.2326 384.063 46.6459 387.055 46.6459C388.756 46.6459 390.355 46.7926 391.851 47.0859V55.8419C390.414 55.5779 388.654 55.4459 386.571 55.4459C383.99 55.4459 381.364 55.9446 378.695 56.9419C376.026 57.9392 373.84 59.4206 372.139 61.3859V95.0459H362.371V47.1739ZM409.069 95.0459V47.1739H418.837V95.0459H409.069ZM413.953 37.8459C411.871 37.8459 410.287 37.3912 409.201 36.4819C408.145 35.5726 407.617 34.2672 407.617 32.5659C407.617 30.8352 408.145 29.5152 409.201 28.6059C410.287 27.6672 411.871 27.1979 413.953 27.1979C416.036 27.1979 417.605 27.6672 418.661 28.6059C419.747 29.5152 420.289 30.8352 420.289 32.5659C420.289 34.2672 419.747 35.5726 418.661 36.4819C417.605 37.3912 416.036 37.8459 413.953 37.8459ZM464.85 95.9259C456.607 95.9259 450.315 93.8432 445.974 89.6779C441.662 85.5126 439.506 79.3526 439.506 71.1979C439.506 63.0139 441.779 56.8392 446.326 52.6739C450.902 48.5086 457.575 46.4259 466.346 46.4259C470.716 46.4259 474.735 46.9246 478.402 47.9219V55.7099C476.378 55.2406 474.486 54.8886 472.726 54.6539C470.966 54.4192 469.118 54.3019 467.182 54.3019C461.168 54.3019 456.71 55.6512 453.806 58.3499C450.931 61.0486 449.494 65.2872 449.494 71.0659C449.494 76.8739 450.858 81.1566 453.586 83.9139C456.343 86.6712 460.42 88.0499 465.818 88.0499C467.695 88.0499 469.616 87.8886 471.582 87.5659C473.547 87.2139 475.82 86.6712 478.402 85.9379V93.7259C474.236 95.1926 469.719 95.9259 464.85 95.9259ZM574.428 95.0459L553.704 69.0859C553.176 69.1152 552.37 69.1299 551.284 69.1299C548.38 69.1299 544.978 68.9832 541.076 68.6899V95.0459H531.308V31.4659C537.967 29.9699 544.846 29.2219 551.944 29.2219C561.595 29.2219 568.752 30.8059 573.416 33.9739C578.08 37.1126 580.412 42.1286 580.412 49.0219C580.412 54.0086 579.004 58.0859 576.188 61.2539C573.402 64.4219 569.266 66.6366 563.78 67.8979L585.648 95.0459H574.428ZM541.076 61.2099C543.071 61.4152 544.816 61.5619 546.312 61.6499C547.838 61.7379 549.627 61.7819 551.68 61.7819C558.427 61.7819 563.34 60.7699 566.42 58.7459C569.5 56.6926 571.04 53.4952 571.04 49.1539C571.04 46.0739 570.395 43.6099 569.104 41.7619C567.843 39.9139 565.863 38.5792 563.164 37.7579C560.495 36.9366 556.975 36.5259 552.604 36.5259C550.404 36.5259 548.424 36.6139 546.664 36.7899C544.904 36.9659 543.042 37.2299 541.076 37.5819V61.2099ZM642.947 74.0139H608.231C608.407 77.4752 609.155 80.2766 610.475 82.4179C611.795 84.5299 613.775 86.0846 616.415 87.0819C619.055 88.0792 622.443 88.5779 626.579 88.5779C630.686 88.5779 635.233 87.9472 640.219 86.6859V93.9459C635.027 95.2659 630.026 95.9259 625.215 95.9259C616.298 95.9259 609.61 93.9166 605.151 89.8979C600.722 85.8499 598.507 79.6166 598.507 71.1979C598.507 65.9179 599.402 61.4299 601.191 57.7339C602.981 54.0379 605.562 51.2366 608.935 49.3299C612.338 47.3939 616.43 46.4259 621.211 46.4259C628.251 46.4259 633.634 48.5819 637.359 52.8939C641.085 57.1766 642.947 63.3659 642.947 71.4619V74.0139ZM621.079 52.8939C616.973 52.8939 613.834 54.1406 611.663 56.6339C609.493 59.0979 608.334 62.9259 608.187 68.1179H633.751C633.634 62.9259 632.519 59.0979 630.407 56.6339C628.295 54.1406 625.186 52.8939 621.079 52.8939ZM677.365 95.9259C671.352 95.9259 665.896 95.2219 660.997 93.8139V86.7299C666.248 88.1966 671.718 88.9299 677.409 88.9299C681.809 88.9299 684.977 88.3432 686.913 87.1699C688.849 85.9672 689.817 84.2219 689.817 81.9339C689.817 80.7019 689.597 79.6899 689.157 78.8979C688.717 78.0766 687.969 77.4019 686.913 76.8739C685.857 76.3166 684.405 75.8912 682.557 75.5979L674.065 74.2779C669.137 73.4859 665.573 71.9899 663.373 69.7899C661.202 67.5899 660.117 64.6419 660.117 60.9459C660.117 56.4579 661.965 52.9232 665.661 50.3419C669.386 47.7312 675.062 46.4259 682.689 46.4259C685.094 46.4259 687.485 46.5872 689.861 46.9099C692.266 47.2032 694.481 47.6432 696.505 48.2299V55.2699C692.046 54.0379 687.456 53.4219 682.733 53.4219C677.893 53.4219 674.476 54.0526 672.481 55.3139C670.486 56.5752 669.489 58.3206 669.489 60.5499C669.489 62.2219 670.002 63.5859 671.029 64.6419C672.056 65.6686 673.889 66.4166 676.529 66.8859L685.021 68.2059C689.92 68.9686 693.513 70.3766 695.801 72.4299C698.089 74.4832 699.233 77.4606 699.233 81.3619C699.233 84.3832 698.412 86.9792 696.769 89.1499C695.156 91.3206 692.706 92.9926 689.421 94.1659C686.165 95.3392 682.146 95.9259 677.365 95.9259ZM760.579 74.0139H725.863C726.039 77.4752 726.787 80.2766 728.107 82.4179C729.427 84.5299 731.407 86.0846 734.047 87.0819C736.687 88.0792 740.075 88.5779 744.211 88.5779C748.317 88.5779 752.864 87.9472 757.851 86.6859V93.9459C752.659 95.2659 747.657 95.9259 742.847 95.9259C733.929 95.9259 727.241 93.9166 722.783 89.8979C718.353 85.8499 716.139 79.6166 716.139 71.1979C716.139 65.9179 717.033 61.4299 718.823 57.7339C720.612 54.0379 723.193 51.2366 726.567 49.3299C729.969 47.3939 734.061 46.4259 738.843 46.4259C745.883 46.4259 751.265 48.5819 754.991 52.8939C758.716 57.1766 760.579 63.3659 760.579 71.4619V74.0139ZM738.711 52.8939C734.604 52.8939 731.465 54.1406 729.295 56.6339C727.124 59.0979 725.965 62.9259 725.819 68.1179H751.383C751.265 62.9259 750.151 59.0979 748.039 56.6339C745.927 54.1406 742.817 52.8939 738.711 52.8939ZM796.986 46.4259C802.032 46.4259 806.138 47.0272 809.306 48.2299C812.474 49.4032 814.85 51.3686 816.434 54.1259C818.018 56.8832 818.81 60.6379 818.81 65.3899V95.0459H810.626L809.922 89.8979H809.394C807.605 91.7752 805.346 93.2419 802.618 94.2979C799.89 95.3246 796.986 95.8379 793.906 95.8379C790.386 95.8379 787.38 95.2952 784.886 94.2099C782.393 93.0952 780.501 91.5406 779.21 89.5459C777.92 87.5512 777.274 85.2046 777.274 82.5059C777.274 78.2526 778.858 74.9672 782.026 72.6499C785.224 70.3032 790.298 68.8219 797.25 68.2059L809.218 67.0179V64.7299C809.218 61.9139 808.734 59.7139 807.766 58.1299C806.798 56.5459 805.332 55.4312 803.366 54.7859C801.43 54.1406 798.849 53.8179 795.622 53.8179C793.393 53.8179 790.973 54.0086 788.362 54.3899C785.781 54.7712 783.302 55.3432 780.926 56.1059V48.8019C783.273 48.0392 785.869 47.4526 788.714 47.0419C791.589 46.6312 794.346 46.4259 796.986 46.4259ZM796.502 89.0619C798.849 89.0619 801.122 88.6512 803.322 87.8299C805.522 86.9792 807.488 85.7179 809.218 84.0459V72.8259L797.998 73.9259C794.097 74.3659 791.31 75.2166 789.638 76.4779C787.966 77.7099 787.13 79.4699 787.13 81.7579C787.13 84.0752 787.908 85.8792 789.462 87.1699C791.017 88.4312 793.364 89.0619 796.502 89.0619ZM841.524 47.1739H849.576L850.324 53.2899H850.896C852.627 51.2072 854.856 49.5792 857.584 48.4059C860.341 47.2326 863.216 46.6459 866.208 46.6459C867.909 46.6459 869.508 46.7926 871.004 47.0859V55.8419C869.567 55.5779 867.807 55.4459 865.724 55.4459C863.143 55.4459 860.517 55.9446 857.848 56.9419C855.179 57.9392 852.993 59.4206 851.292 61.3859V95.0459H841.524V47.1739ZM909.164 95.9259C900.921 95.9259 894.629 93.8432 890.288 89.6779C885.976 85.5126 883.82 79.3526 883.82 71.1979C883.82 63.0139 886.093 56.8392 890.64 52.6739C895.216 48.5086 901.889 46.4259 910.66 46.4259C915.03 46.4259 919.049 46.9246 922.716 47.9219V55.7099C920.692 55.2406 918.8 54.8886 917.04 54.6539C915.28 54.4192 913.432 54.3019 911.496 54.3019C905.482 54.3019 901.024 55.6512 898.12 58.3499C895.245 61.0486 893.808 65.2872 893.808 71.0659C893.808 76.8739 895.172 81.1566 897.9 83.9139C900.657 86.6712 904.734 88.0499 910.132 88.0499C912.009 88.0499 913.93 87.8886 915.896 87.5659C917.861 87.2139 920.134 86.6712 922.716 85.9379V93.7259C918.55 95.1926 914.033 95.9259 909.164 95.9259ZM941.796 23.9419H951.564V52.2779H952.048C954.248 50.3712 956.756 48.9192 959.572 47.9219C962.417 46.9246 965.395 46.4259 968.504 46.4259C974.019 46.4259 978.375 47.9952 981.572 51.1339C984.769 54.2432 986.368 59.0686 986.368 65.6099V95.0459H976.6V66.0939C976.6 62.0459 975.661 59.1566 973.784 57.4259C971.936 55.6952 969.237 54.8299 965.688 54.8299C963.048 54.8299 960.481 55.3286 957.988 56.3259C955.524 57.2939 953.383 58.7312 951.564 60.6379V95.0459H941.796V23.9419Z" fill="#14C290"/>
+<rect x="0.205322" y="14.873" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="14.679" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="14.679" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="86.6055" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="86.6055" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="101.284" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="58.7158" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="58.7158" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="87.1592" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="87.1592" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="73.0205" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="73.0205" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="87.3262" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="87.3262" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="101.631" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="101.631" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="101.284" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="15.0187" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.2668" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.2668" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.445" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.7506" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="100.716" y="14.873" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+</svg></a>
+<h1><span class="ticker">UNI.MC</span> <span class="rating level">Hold</span></h1>
+<p class="date">Analysis of 2026-11-01</p>
+<dl class="run"><div class="detail"><dt>Generated</dt><dd>2026-11-01 08:22</dd></div><div class="detail"><dt>Deep model</dt><dd><span class="field">google</span> <span class="field">gemini-3.5-flash-lite</span></dd></div><div class="detail"><dt>Quick model</dt><dd><span class="field">google</span> <span class="field">gemini-3.5-flash-lite</span></dd></div><div class="detail"><dt>Analysts</dt><dd><span class="field">market</span> <span class="field">news</span> <span class="field">fundamentals</span></dd></div><div class="detail"><dt>Debate rounds</dt><dd><span class="group"><span class="name">research</span><span class="field">1</span></span> <span class="group"><span class="name">risk</span><span class="field">1</span></span></dd></div><div class="detail"><dt>Data vendors</dt><dd><span class="group"><span class="name">Prices</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Indicators</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Fundamentals</span><span class="field">yfinance</span></span> <span class="group"><span class="name">News</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Macro</span><span class="field">fred</span></span> <span class="group"><span class="name">Prediction markets</span><span class="field">polymarket</span></span> <span class="group"><span class="name">get_news</span><span class="field">ibex_sample</span></span> <span class="group"><span class="name">get_global_news</span><span class="field">ibex_sample</span></span></dd></div><div class="detail"><dt>Version</dt><dd>TradingAgents 0.7.1</dd></div></dl>
+</header>
+<nav class="contents" aria-label="Sections"><ul><li><a href="#s1"><span class="num">I</span> <span class="label">Analyst Team Reports</span></a><ul><li><a href="#s1-1"><span class="bar"></span> <span class="label">Market Analyst</span></a></li><li><a href="#s1-2"><span class="bar"></span> <span class="label">News Analyst</span></a></li><li><a href="#s1-3"><span class="bar"></span> <span class="label">Fundamentals Analyst</span></a></li></ul></li><li><a href="#s2"><span class="num">II</span> <span class="label">Research Team Decision</span></a><ul><li><a href="#s2-1"><span class="bar"></span> <span class="label">Bull Researcher</span></a></li><li><a href="#s2-2"><span class="bar"></span> <span class="label">Bear Researcher</span></a></li><li><a href="#s2-3"><span class="bar"></span> <span class="label">Research Manager</span></a></li></ul></li><li><a href="#s3"><span class="num">III</span> <span class="label">Trading Team Plan</span></a><ul><li><a href="#s3-1"><span class="bar"></span> <span class="label">Trader</span></a></li></ul></li><li><a href="#s4"><span class="num">IV</span> <span class="label">Risk Management Team Decision</span></a><ul><li><a href="#s4-1"><span class="bar"></span> <span class="label">Aggressive Analyst</span></a></li><li><a href="#s4-2"><span class="bar"></span> <span class="label">Conservative Analyst</span></a></li><li><a href="#s4-3"><span class="bar"></span> <span class="label">Neutral Analyst</span></a></li></ul></li><li><a href="#s5"><span class="num">V</span> <span class="label">Portfolio Manager Decision</span></a><ul><li><a href="#s5-1"><span class="bar"></span> <span class="label">Portfolio Manager</span></a></li></ul></li></ul></nav>
+<main>
+<section id="s1"><h2>I. Analyst Team Reports</h2><h3 id="s1-1">Market Analyst</h3>
+<p><strong>Rating</strong>: HOLD<br />
+FINAL TRANSACTION PROPOSAL: Mantener posición actual en espera de confirmación de ruptura de soportes clave y evolución de catalizadores pendientes (Wizink, Santalucía y presidencia).</p>
+<hr />
+<h6>Análisis detallado y nuancido de la tendencia para <code>UNI.MC</code> (Unicaja Banco, S.A.)</h6>
+<h6>1. Contexto de Mercado y Entorno Macroeconómico</h6>
+<p>A fecha de 1 de noviembre de 2026, el sector bancario europeo y español experimenta episodios de volatilidad y corrección bursátil a pesar de reportar sólidos resultados corporativos. El Banco Central Europeo (BCE) mantuvo recientemente los tipos de interés oficiales en el <strong>2,5%</strong> en su reunión de finales de octubre de 2026, advirtiendo simultáneamente sobre riesgos persistentes en la inflación y el crecimiento vinculados a factores energéticos y tensiones geopolíticas regionales. Esta pausa y la cautela general de los mercados han afectado a la cotización del sector financiero, tal como reflejan las crónicas bursátiles de finales de octubre de 2026 (<em>Cinco Días</em>, <em>El Boletín</em>).</p>
+<h6>2. Desempeño Financiero y Resultados Recientes (Q3 2026)</h6>
+<p>Unicaja Banco (<code>UNI.MC</code>) presentó a finales de octubre de 2026 sus resultados correspondientes a los primeros nueve meses del año, reportando un <strong>beneficio neto de 543 millones de euros</strong>, lo que representa un incremento del <strong>8,1%</strong> en comparación con el mismo periodo del ejercicio anterior. Este avance estuvo impulsado por el crecimiento general del negocio y la mejora de los márgenes de intermediación, batiendo las previsiones iniciales del consenso de mercado (<em>20Minutos</em>, <em>Radio Intereconomía</em>, <em>CLM24</em>).</p>
+<p>Asimismo, la entidad confirmó la retribución al accionista mediante el pago de un dividendo de <strong>6,42 céntimos de euro</strong> por acción (<em>Benzinga España</em>). No obstante, la compañía también asume presiones por el lado de los costes, destacando un incremento de 11 millones de euros en sobrecoste laboral derivado de nuevas contrataciones y de la aplicación del convenio colectivo (<em>Economía Digital</em>). Además, el mercado sigue muy pendiente de tres asuntos corporativos clave aún sin resolver: las operaciones o participaciones vinculadas a <strong>Wizink</strong>, <strong>Santalucía</strong>, y la designación definitiva del <strong>nuevo presidente</strong> (<em>Hispanidad</em>).</p>
+<h6>3. Análisis Técnico y Valoración (Datos con soporte verificado)</h6>
+<p>Con un precio de cierre de <strong>3,17 EUR</strong> a fecha de 30 de octubre de 2026 y una capitalización bursátil aproximada de <strong>8.145,54 millones de euros</strong>, <code>UNI.MC</code> muestra los siguientes indicadores técnicos y fundamentales clave:</p>
+<ul>
+<li><strong>RSI (14)</strong>: Situado en <strong>40,07</strong>, reflejaría una zona neutral con sesgo bajista a corto plazo, sin alcanzar todavía condiciones estrictas de sobreventa.</li>
+<li><strong>MACD</strong>: Muestra un valor de <strong>-0,067</strong>, con su línea de señal (<code>macd_signal</code>) en <strong>-0,071</strong>, sugiriendo una presión de momentum ligeramente negativa pero con una convergencia estrecha.</li>
+<li><strong>Medias Móviles</strong>:
+<ul>
+<li>SMA 20: <strong>3,22 EUR</strong></li>
+<li>SMA 50: <strong>3,40 EUR</strong></li>
+<li>SMA 200: <strong>2,95 EUR</strong> (actuando como referencia de soporte a largo plazo).</li>
+</ul>
+</li>
+<li><strong>Valoración y Múltiplos</strong>:
+<ul>
+<li>PER histórico (<em>trailing PE</em>): <strong>12,19x</strong></li>
+<li>PER estimado (<em>forward PE</em>): <strong>11,28x</strong></li>
+<li>Ratio Precio/Valor en Libros (<em>priceToBook</em>): <strong>1,29x</strong> (con un valor contable por acción de <strong>2,465 EUR</strong>).</li>
+<li>Rentabilidad por dividendo (<em>dividendYield</em>): En torno al <strong>6,02%</strong> anual, respaldado por un <code>payoutRatio</code> del <strong>73,82%</strong>.</li>
+</ul>
+</li>
+<li><strong>Consenso de Analistas</strong>: El precio objetivo medio fijado por el consenso (<em>targetMeanPrice</em>) se sitúa en <strong>3,23 EUR</strong> (con un rango entre 2,80 EUR y 3,90 EUR aportado por 18 analistas), lo que ofrece un potencial de revalorización limitado (<em>upside</em>) de aproximadamente el <strong>2,03%</strong> desde el nivel actual de 3,17 EUR.</li>
+</ul>
+<h6>4. Datos Faltantes y Limitaciones</h6>
+<p>Los estados financieros reportan flujos de caja operativos negativos para los ejercicios recientes (ej. -1.420 millones de euros en el cierre de 2025), lo cual es habitual en la contabilidad y presentación de partidas corporativas/bancarias consolidadas bajo normas IFRS en grandes entidades de depósito, pero requiere cautela analítica al no disponer de un desglose detallado de caja operativa equivalente al de empresas industriales. Asimismo, no se cuenta con proyecciones cerradas más allá del consenso de analistas para los ejercicios subsiguientes a 2026.</p>
+<hr />
+<h6>Resumen Estructurado (Tabla Clave)</h6>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Categoría / Indicador</th>
+<th style="text-align:left">Valor / Métrica</th>
+<th style="text-align:left">Observaciones y Lectura Analítica</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Precio de Cierre</strong> (<code>UNI.MC</code>)</td>
+<td style="text-align:left">3,17 EUR</td>
+<td style="text-align:left">Cotización a 30/10/2026, bajo presión correctiva sectorial.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>RSI (14)</strong></td>
+<td style="text-align:left">40,07</td>
+<td style="text-align:left">Zona neutral-débil, sin sobreventa extrema.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>MACD / Señal</strong></td>
+<td style="text-align:left">-0,067 / -0,071</td>
+<td style="text-align:left">Momentum ligeramente negativo pero con convergencia técnica.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Medias Móviles (SMA 20 / 50 / 200)</strong></td>
+<td style="text-align:left">3,22 EUR / 3,40 EUR / 2,95 EUR</td>
+<td style="text-align:left">Precio por debajo de SMA 20 y SMA 50; SMA 200 actúa como soporte estructural.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Beneficio Neto (Q3 2026)</strong></td>
+<td style="text-align:left">543 millones de EUR</td>
+<td style="text-align:left">Crecimiento interanual del 8,1%, batiendo previsiones del mercado.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Rentabilidad por Dividendo</strong></td>
+<td style="text-align:left">~6,02% (Dividendo: 0,19 EUR)</td>
+<td style="text-align:left">Atractivo retorno para el inversor de valor, con <code>payout</code> del 73,82%.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Valoración (PER / P/B)</strong></td>
+<td style="text-align:left">PER fwd: 11,28x / P/B: 1,29x</td>
+<td style="text-align:left">Valoración intermedia en comparación con el sector bancario español.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Consenso Analistas</strong></td>
+<td style="text-align:left">3,23 EUR (Target Medio)</td>
+<td style="text-align:left">Potencial alcista limitado a corto plazo (~2,03% sobre el precio actual).</td>
+</tr>
+</tbody>
+</table></div>
+<p><em>Fuentes de referencia citadas:</em> Datos extraídos del snapshot verificado de mercado (<code>UNI.MC</code>), comunicados de resultados de Q3 2026 recogidos por <em>CLM24</em>, <em>20Minutos</em>, <em>Radio Intereconomía</em>, y noticias macroeconómicas y corporativas de <em>Cinco Días</em>, <em>Economía Digital</em> e <em>Hispanidad</em> (octubre de 2026).</p>
+<h3 id="s1-2">News Analyst</h3>
+<p><strong>Rating</strong>: HOLD</p>
+<h6>Informe de Análisis y Estado Actual para <code>UNI.MC</code> (Unicaja Banco, S.A.)</h6>
+<h6>1. Resumen Ejecutivo y Rendimiento Reciente</h6>
+<p>A fecha de 1 de noviembre de 2026, la acción de <strong>Unicaja Banco, S.A.</strong> (<code>UNI.MC</code>) cotiza a <strong>3,17 EUR</strong> (precio de cierre al 30 de octubre de 2026). La compañía experimenta una ligera tendencia técnica correctiva a corto plazo, con una caída de 6,71% en los últimos 21 días y un RSI de 14 sesiones en <strong>40,07</strong>, lo que indica proximidad a niveles neutrales/sobreventa pero sin señales claras de rebote alcista inmediato. En el plano fundamental, la entidad ha presentado recientemente sus resultados de los primeros nueve meses de 2026, superando las previsiones del mercado.</p>
+<h6>2. Resultados Financieros y Actualidad Corporativa (T3 2026)</h6>
+<p>De acuerdo con las noticias corporativas de finales de octubre de 2026:</p>
+<ul>
+<li><strong>Beneficio Neto:</strong> Unicaja ganó <strong>543 millones de euros hasta septiembre</strong>, lo que representa un incremento del <strong>8,1%</strong> en comparación con el mismo periodo del año anterior, impulsado por el crecimiento del negocio principal y la mejora de los márgenes de intermediación.</li>
+<li><strong>Retribución al Accionista:</strong> La entidad confirmó el pago de un dividendo de <strong>6,42 céntimos por acción</strong>, respaldando una atractiva rentabilidad por dividendo (<em>dividend yield</em>) que ronda el <strong>5,99% - 6,02%</strong>.</li>
+<li><strong>Costes Laborales y Retos:</strong> El banco asume 11 millones de euros adicionales en sobrecostes laborales derivados de las nuevas contrataciones y la aplicación del convenio colectivo (Economía Digital, 31 de octubre de 2026). Asimismo, el mercado sigue vigilando tres asuntos corporativos pendientes: las resoluciones en torno a Wizink y Santalucía, y la confirmación definitiva sobre la presidencia (Hispanidad, 30 de octubre de 2026).</li>
+</ul>
+<h6>3. Contexto Macroeconómico y Sectorial</h6>
+<p>El sector bancario europeo y español ha mostrado correcciones en bolsa a finales de octubre de 2026 a pesar de registrar beneficios récord (Cinco Días, 30 de octubre de 2026). Esto ocurre en un contexto donde el Banco Central Europeo (BCE) decidió mantener los tipos de interés en el <strong>2,5%</strong> en su reunión de finales de octubre de 2026, advirtiendo sobre riesgos inflacionarios y de crecimiento vinculados a la energía, manteniendo la cautela de cara a las próximas decisiones de diciembre.</p>
+<h6>4. Valoración y Datos Fundamentales</h6>
+<ul>
+<li><strong>Capitalización Bursátil:</strong> ~8.150 millones de EUR.</li>
+<li><strong>PER (Trailing):</strong> 12,19x | <strong>PER (Forward):</strong> 11,28x.</li>
+<li><strong>Precio / Valor en Libros (P/B):</strong> 1,29x (Valor contable por acción de 2,465 EUR).</li>
+<li><strong>Ratio PER Relativo (vs. Peers MCE):</strong> 1,14 (mediana sectorial en PER forward de 9,94x, lo que sitúa a <code>UNI.MC</code> ligeramente por encima de la valoración media de sus comparables directos).</li>
+<li><strong>Consenso de Analistas:</strong> El precio objetivo medio (<em>target mean price</em>) se sitúa en <strong>3,23 EUR</strong> (con un rango entre 2,80 EUR y 3,90 EUR según 18 opiniones de analistas), lo que ofrece un escaso potencial de revalorización a corto plazo (<em>consensus upside</em> del <strong>2,03%</strong> frente a los 3,17 EUR actuales).</li>
+</ul>
+<h6>5. Evidencia y Datos Faltantes</h6>
+<ul>
+<li><strong>Evidencia de Soporte:</strong> Datos de cotización oficiales de Yahoo Finance al 30-10-2026, noticias de prensa económica nacional (Cinco Días, Economía Digital, Hispanidad, 20Minutos) y estados financieros consolidados a cierre de 2025.</li>
+<li><strong>Datos Faltantes:</strong> Faltan métricas detalladas de morosidad en tiempo real del T3 2026 (ratio NPA y tasa de mora) así como el desglose exacto de CET1 al cierre de septiembre, ya que los reportes de prensa se han centrado en el beneficio neto y los dividendos.</li>
+</ul>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Concepto Clave</th>
+<th style="text-align:left">Valor / Dato</th>
+<th style="text-align:left">Fuente / Referencia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Ticker / Instrumento</strong></td>
+<td style="text-align:left"><code>UNI.MC</code> (Unicaja Banco, S.A.)</td>
+<td style="text-align:left">Mercado Continuo Español (MCE)</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Precio de Cierre</strong></td>
+<td style="text-align:left">3.17 EUR (al 30/10/2026)</td>
+<td style="text-align:left">Yahoo Finance</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Beneficio Neto (9M 2026)</strong></td>
+<td style="text-align:left">543 millones de EUR (+8,1% interanual)</td>
+<td style="text-align:left">Prensa Económica (CLM24 / 20Minutos)</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Rentabilidad por Dividendo</strong></td>
+<td style="text-align:left">~5,99% (Dividendo de 6,42 céntimos)</td>
+<td style="text-align:left">Fundamentos / Benzinga España</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>PER Forward</strong></td>
+<td style="text-align:left">11,28x (Ratio vs peers: 1,14)</td>
+<td style="text-align:left">Datos fundamentales</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Precio Objetivo de Consenso</strong></td>
+<td style="text-align:left">3,23 EUR (Upside: +2,03%)</td>
+<td style="text-align:left">Consenso de 18 analistas</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Tipo de Interés BCE</strong></td>
+<td style="text-align:left">2,5% (Mantenido en octubre 2026)</td>
+<td style="text-align:left">Comunicados BCE / Estrategias de Inversión</td>
+</tr>
+</tbody>
+</table></div>
+<p>FINAL TRANSACTION PROPOSAL: HOLD</p>
+<h3 id="s1-3">Fundamentals Analyst</h3>
+<p><strong>Rating</strong>: REVIEW</p>
+<p><strong>Análisis Fundamental y de Negocio — UNI.MC (Unicaja Banco, S.A.)</strong></p>
+<h6>1. Perfil de la Compañía y Contexto de Negocio</h6>
+<ul>
+<li><strong>Identidad Resuelta</strong>: Unicaja Banco, S.A. (<code>UNI.MC</code>), clasificada bajo el sector <em>Financial Services</em> e industria <em>Banks - Regional</em>, cotizando en la Bolsa de Madrid (MCE) en Euros (EUR), referenciada frente al índice general ^IBEX.</li>
+<li><strong>Modelo y Alcance</strong>: Banco regional español con una fuerte presencia tradicional y una capitalización bursátil de aproximadamente 8.150 millones de EUR. Su balance se sitúa cerca de los 98.428 millones de EUR a cierre de 2025.</li>
+</ul>
+<h6>2. Últimos Resultados Financieros y Novedades (Octubre 2026)</h6>
+<p>Según los datos y comunicados recientes publicados a finales de octubre de 2026:</p>
+<ul>
+<li><strong>Resultados a Septiembre de 2026</strong>: Unicaja reportó un beneficio neto de <strong>543 millones de EUR hasta septiembre</strong>, lo que representa un incremento del <strong>8,1%</strong> en comparación con el mismo periodo del ejercicio anterior. El crecimiento estuvo impulsado por la positiva evolución del negocio recurrente y la mejora de márgenes.</li>
+<li><strong>Retorno a Accionistas / Dividendos</strong>: La entidad superó las previsiones del mercado y confirmó la distribución de un dividendo de <strong>6,42 céntimos de euro</strong> por acción (la rentabilidad por dividendo actual se sitúa en torno al <strong>5,99% - 6,02%</strong> con un <em>payout ratio</em> de aproximadamente el <strong>73,8%</strong>).</li>
+<li><strong>Costes Laborales y Convenios</strong>: A finales de octubre de 2026 (noticia del 31 de octubre de <em>Economía Digital</em>), se hizo eco de que Unicaja asume un sobrecoste laboral de 11 millones de EUR derivado de nuevas contrataciones y la aplicación de los convenios colectivos del sector.</li>
+<li><strong>Asuntos Estratégicos Pendientes</strong>: El mercado y los analistas vigilan de cerca tres carpetas corporativas abiertas en la entidad: la evolución de alianzas/negocios como Wizink y Santalucía, y la designación definitiva del nuevo presidente (<em>Hispanidad</em>, 30 de octubre de 2026).</li>
+<li><strong>Entorno Macroeconómico</strong>: El Banco Central Europeo (BCE) mantuvo los tipos de interés en el <strong>2,5%</strong> en su reunión de finales de octubre de 2026, advirtiendo sobre riesgos inflacionarios y energéticos, lo que ha generado episodios de volatilidad e indefinición en el sector bancario europeo y español (<em>Cinco Días</em>, <em>El Economista</em>).</li>
+</ul>
+<h6>3. Estados Financieros e Historial Recurrente</h6>
+<ul>
+<li><strong>Cuenta de Resultados (Ingresos y Beneficios Netos anuales)</strong>:
+<ul>
+<li><em>Ejercicio 2025</em>: Total Ingresos = 2.097,19 millones de EUR; Beneficio Neto = 632,36 millones de EUR.</li>
+<li><em>Ejercicio 2024</em>: Total Ingresos = 2.128,43 millones de EUR; Beneficio Neto = 573,33 millones de EUR.</li>
+<li><em>Ejercicio 2023</em>: Total Ingresos = 1.977,10 millones de EUR; Beneficio Neto = 266,70 millones de EUR.</li>
+<li><em>Observación</em>: Se evidencia una sólida recuperación de la rentabilidad neta tras los mínimos de 2023, consolidando beneficios superiores a los 600 millones en 2025 y manteniendo una trayectoria positiva en los primeros nueve meses de 2026.</li>
+</ul>
+</li>
+<li><strong>Balance de Situación</strong>:
+<ul>
+<li><em>Activos Totales (2025)</em>: 98.427,64 millones de EUR (frente a 97.365,43 millones en 2024).</li>
+<li><em>Patrimonio Neto / Stockholders Equity (2025)</em>: 7.073,41 millones de EUR (crecimiento constante desde los 6.643,63 millones de 2023).</li>
+<li><em>Deuda Total (2025)</em>: 4.113,52 millones de EUR.</li>
+</ul>
+</li>
+<li><strong>Flujos de Caja</strong>:
+<ul>
+<li><em>Flujo de Caja Operativo (2025)</em>: -1.420,55 millones de EUR (nota: los flujos de caja operativos en entidades financieras pueden presentar volatilidad contable metodológica según los criterios de consolidación de activos financieros e interbancarios).</li>
+</ul>
+</li>
+</ul>
+<h6>4. Valoración y Datos Técnicos Clave (<code>UNI.MC</code>)</h6>
+<ul>
+<li><strong>Precio de Cierre (30 de octubre de 2026)</strong>: 3,17 EUR.</li>
+<li><strong>Múltiplos de Valoración</strong>:
+<ul>
+<li><em>Trailing P/E</em>: 12,19x</li>
+<li><em>Forward P/E</em>: 11,28x</li>
+<li><em>Price-to-Book (P/B)</em>: 1.29x (con un valor contable por acción de 2,465 EUR).</li>
+<li><em>Ratio PER Relativo Intermedio</em>: 1,135x respecto a la mediana del sector peer de referencia (peers analizados: <code>SAB.MC</code>, <code>SAN.MC</code>, <code>BKT.MC</code>, <code>BBVA.MC</code>, <code>CABK.MC</code>, <code>UNI.MC</code>).</li>
+</ul>
+</li>
+<li><strong>Consenso de Analistas</strong>:
+<ul>
+<li><em>Precio Objetivo Medio (Target Mean Price)</em>: 3,23 EUR (con rango bajo de 2,80 EUR y alto de 3,90 EUR a partir de 18 opiniones de analistas).</li>
+<li><em>Upside Consenso</em>: ~2,03% sobre el precio actual de 3,17 EUR.</li>
+</ul>
+</li>
+<li><strong>Indicadores Técnicos</strong>:
+<ul>
+<li><em>RSI (14)</em>: 40,07 (zona neutral-baja).</li>
+<li><em>MACD</em>: -0,067 (señal: -0,071), mostrando ligera presión bajista a corto plazo.</li>
+<li><em>Medias Móviles</em>: SMA20 en 3,22 EUR y SMA50 en 3,40 EUR (el precio cotiza ligeramente por debajo de sus medias de corto/medio plazo), mientras que la SMA200 se sitúa en 2,95 EUR (soporte estructural de largo plazo).</li>
+<li><em>Drawdown</em>: -12,58% desde máximos recientes.</li>
+</ul>
+</li>
+</ul>
+<h6>5. Datos Faltantes y Limitaciones</h6>
+<ul>
+<li>No se dispone de detalles granulares sobre el desglose exacto de los créditos dudosos (NPLs) en el informe resumido actual, ni de la totalidad de las actas de gobernanza interna respecto a los asuntos pendientes (Wizink y Santalucía). Al tratarse de una recomendación automatizada sin portafolios provistos, cualquier consideración de asignación de capital es estrictamente hipotética.</li>
+</ul>
+<h6>6. Conclusión y Perspectiva para Traders</h6>
+<p>Unicaja (<code>UNI.MC</code>) demuestra resiliencia operativa y una mejora constante en su cuenta de resultados (beneficio de 543 millones a septiembre, +8,1%), respaldada por una atractiva retribución al accionista (dividendo superior al 5,9%). Sin embargo, cotiza muy cerca del precio objetivo medio de consenso (3,23 EUR), lo que limita el potencial de revalorización a corto plazo según las estimaciones actuales de los analistas. Técnicamente se encuentra en una fase de consolidación por debajo de sus medias de 20 y 50 sesiones, en un contexto sectorial presionado por la pausa y las directrices del BCE. Por tanto, se emite una calificación de cautela.</p>
+<p>FINAL TRANSACTION PROPOSAL: HOLD / WATCHLIST (REVIEW)</p>
+<hr />
+<p>| Métrica / Concepto Clave | Valor / Dato | Fuente / Referencia |
+|</p>
+</section><section id="s2"><h2>II. Research Team Decision</h2><h3 id="s2-1">Bull Researcher</h3>
+<p>Bull Analyst: ¡Hola a todos! Entiendo perfectamente que el analista bajista prefiera la cautela en este momento, especialmente con la reciente decisión del Banco Central Europeo de mantener los tipos en el 2,5% y las dudas generales que sacuden al sector bancario europeo. Pero seamos honestos: <strong>estamos ignorando la impresionante resiliencia operativa y la magnífica salud financiera que demuestra Unicaja Banco (<code>UNI.MC</code>)</strong>.</p>
+<p>Permítanme poner sobre la mesa por qué esta corrección técnica a corto plazo no es más que una ventana de oportunidad fantástica para los inversores de valor:</p>
+<h6>1. ¡Crecimiento de beneficios incuestionable y superación de previsiones!</h6>
+<p>Mientras los osos se centran en el ruido macroeconómico, los datos hablan por sí solos. En los primeros nueve meses de 2026, <code>UNI.MC</code> ha reportado un <strong>beneficio neto de 543 millones de euros, lo que supone un incremento interanual del 8,1%</strong>. ¿Cómo se logra esto? Gracias a una gestión excelente del negocio recurrente y a la mejora constante de los márgenes de intermediación, batiendo holgadamente las previsiones del consenso del mercado. La maquinaria de generar beneficios de Unicaja está más engrasada que nunca.</p>
+<h6>2. Una rentabilidad por dividendo envidiable (¡cerca del 6%!)</h6>
+<p>Hablar de <code>UNI.MC</code> es hablar de compromiso real con el accionista. Con un dividendo confirmado de 6,42 céntimos por acción en su última actualización y una rentabilidad por dividendo (<em>dividend yield</em>) que ronda el <strong>6,02%</strong> respaldada por un <em>payout ratio</em> del 73,82%, pocas opciones en el Ibex 35 ofrecen esta combinación de retribución directa en un entorno donde los inversores buscan ingresos estables y seguros frente a la volatilidad.</p>
+<h6>3. Refutando los temores bajistas: ¿Costes laborales y carpetas pendientes?</h6>
+<p>El bando bajista suele agitar el fantasma de los 11 millones de euros de sobrecoste laboral por las nuevas contrataciones y convenios (<em>Economía Digital</em>), o la incertidumbre sobre Wizink, Santalucía y la presidencia (<em>Hispanidad</em>). Pero analicemos esto con perspectiva fría: un sobrecoste de 11 millones es perfectamente absorbible por un banco que gana más de 500 millones en nueve meses. Es el coste operativo normal de potenciar el talento y cumplir con los convenios sectoriales en un banco en crecimiento. Respecto a los temas corporativos pendientes, estas situaciones suelen actuar como catalizadores alcistas una vez que se disipan las incógnitas de gobernanza y alianzas estratégicas.</p>
+<h6>4. Solidez técnica y colchón de valoración</h6>
+<p>Desde el punto de vista técnico, el título cotiza a <strong>3,17 EUR</strong>, encontrando un soporte estructural muy sólido en su media móvil de 200 sesiones (SMA200 en <strong>2,95 EUR</strong>). Con un ratio de precio sobre valor en libros (<em>price-to-book</em>) de 1,29x y un PER <em>forward</em> de 11,28x, <code>UNI.MC</code> ofrece un perfil equilibrado dentro de la banca regional española. Además, el rango superior de los analistas apunta a objetivos de hasta <strong>3,90 EUR</strong>, lo que demuestra que el potencial alcista subyacente supera con creces el pesimismo de corto plazo.</p>
+<p>En resumen, desestimar a <code>UNI.MC</code> por una ligera corrección estacional y la pausa del BCE es pasar por alto la solidez fundamental de un banco que gana más, paga un dividendo excelente y defiende su posición en el mercado con soltura.</p>
+<p><strong>Rating</strong>: BUY</p>
+<p>FINAL TRANSACTION PROPOSAL: Comprar y acumular en soporte con perspectiva de valor y dividendo.</p>
+<h3 id="s2-2">Bear Researcher</h3>
+<p>Bear Analyst: ¡Hola colega! Entiendo perfectamente el entusiasmo por ese 8,1% de crecimiento en el beneficio neto a septiembre y ese jugoso dividendo del 6%. Sobre el papel, suena como la fiesta perfecta para cualquier inversor de valor. Pero te estás dejando cegar por los titulares optimistas y estás pasando por alto las grietas estructurales muy profundas que amenazan con dejar a <code>UNI.MC</code> atrapada en un callejón sin salida bursátil.</p>
+<p>Vamos a desmontar punto por punto esa visión color de rosa:</p>
+<h6>1. ¿Crecimiento de beneficios sostenible o un espejismo en la cima del ciclo?</h6>
+<p>Celebramos esos 543 millones de euros de beneficio, ¿pero a qué precio y bajo qué condiciones? El Banco Central Europeo ha plantado los tipos de interés en el <strong>2,5%</strong> y ya advierte de nuevos riesgos inflacionarios y energéticos que obligan a la máxima cautela. Pretender que <code>UNI.MC</code> mantenga esa expansión de márgenes de intermediación en un entorno donde los tipos ya han tocado techo y el sector bancario europeo se está despeñando en bolsa es, como mínimo, un ejercicio de ingenuidad. El viento de cola de la política monetaria restrictiva se está esfumando, y cuando los márgenes se compriman, el &quot;crecimiento incuestionable&quot; se evaporará.</p>
+<h6>2. ¿Un dividendo del 6% que compensa el riesgo? Cuidado con la trampa de valor</h6>
+<p>Sí, el <em>dividend yield</em> ronda el <strong>6,02%</strong>, pero mira el <em>payout ratio</em>: <strong>¡73,82%!</strong> Un banco que destina casi tres cuartas partes de sus beneficios a repartir dividendos está hipotecando su capacidad de autofinanciación y su colchón de capital frente a imprevistos macroeconómicos o exigencias regulatorias crecientes. Además, si el precio de la acción sigue bajo presión correctiva —recuerda que el título acumula una caída del 6,7% en los últimos 21 días y cotiza por debajo de su SMA20 (3,22 EUR) y SMA50 (3,40 EUR)—, esa rentabilidad por dividendo se convertirá rápidamente en una clásica trampa de valor (<em>value trap</em>), donde el rendimiento del dividendo no compensa la pérdida de capital acumulada en cartera.</p>
+<h6>3. Minimizando los costes y la opacidad corporativa</h6>
+<p>Le restas importancia a los 11 millones de euros de sobrecoste laboral (<em>Economía Digital</em>) diciendo que son &quot;perfectamente absorbibles&quot;. Pero esos incrementos derivados de nuevas contrataciones y convenios llegan justo cuando la presión sobre la eficiencia operativa arrecia. Y lo que es peor: <strong>ignoras por completo las incertidumbres de gobernanza</strong>. ¿De verdad te da igual que sigan abiertas en canal las carpetas de Wizink, Santalucía y, lo más grave, la <strong>designación definitiva del nuevo presidente</strong> (<em>Hispanidad</em>)? En la banca regional, la gobernanza y la estabilidad institucional lo son todo. Comprar <code>UNI.MC</code> hoy es comprar un cheque en blanco a ciegas, confiando en que se resuelvan unas incógnitas directivas que el mercado aborrece y que penalizan directamente su valoración.</p>
+<h6>4. ¿Potencial alcista? El consenso dice exactamente lo contrario</h6>
+<p>Hablas de objetivos de 3,90 EUR mirando el extremo más optimista del rango de analistas, pero olvidas la realidad fría del <strong>precio objetivo medio (target mean price) que está fijado en apenas 3,23 EUR</strong>. Con un precio actual de <strong>3,17 EUR</strong>, el potencial alcista (<em>upside</em>) que concede el consenso general de mercado es de <strong>un pírrico 2,03%</strong>. ¿De verdad merece la pena asumir toda la volatilidad técnica, el riesgo regulatorio del BCE y la incertidumbre de presidencia por un escuálido 2% de recorrido potencial? Los múltiplos tampoco ayudan: un PER <em>forward</em> de 11,28x y un ratio Precio/Valor en Libros de 1,29x sitúan a <code>UNI.MC</code> con una prima frente a la mediana de sus comparables (<code>peers</code> con PER <em>forward</em> de 9,94x), lo que demuestra que <strong>el valor no está barato</strong>; está pagando de más por un perfil de riesgo elevado.</p>
+<p>En conclusión: comprar <code>UNI.MC</code> hoy basándose únicamente en el beneficio trimestral y el dividendo es ignorar la tormenta perfecta que se cierne sobre su eficiencia, su gobernanza y el ciclo de tipos. La prudencia no es miedo; es supervivencia.</p>
+<p><strong>Rating</strong>: REVIEW</p>
+<p>FINAL TRANSACTION PROPOSAL: Mantener y evitar nuevas compras (REVIEW) ante la falta de catalizadores claros de ruptura y las incertidumbres de gobernanza y costes.</p>
+<h3 id="s2-3">Research Manager</h3>
+<p><strong>Recommendation</strong>: Hold</p>
+<p><strong>Rationale</strong>: El debate ha expuesto una confrontación muy clara entre la sólida resiliencia operativa a corto plazo defendida por el alcista y las dudas estructurales planteadas por el bajista. Por un lado, Unicaja Banco (UNI.MC) ha demostrado un beneficio neto de 543 millones de euros hasta septiembre (un 8,1% más interanual), batiendo previsiones, y ofrece un dividendo atractivo que ronda el 6%. Por otro lado, el analista bajista argumenta de forma convincente que el potencial alcista según el precio objetivo medio del consenso es de apenas un 2,03% (3,23 EUR frente a los 3,17 EUR actuales), cotiza con prima frente a sus comparables (PER forward de 11,28x frente a la mediana de peers de 9,94x), y enfrenta vientos en contra como el techo de tipos del BCE al 2,5%, sobrecostes laborales y la incertidumbre en la gobernanza corporativa (Wizink, Santalucía y la presidencia). Tras sopesar ambos lados, el argumento de que el valor carece de un margen de seguridad suficiente y presenta múltiples incertidumbres de gobernanza contrarresta el buen dato trimestral, inclinando la balanza hacia la prudencia. Sin embargo, dado que los fundamentales operativos siguen siendo sólidos y no hay indicios de deterioro grave, la recomendación de revisión del bajista se traduce en un Hold neutral.</p>
+<p><strong>Strategic Actions</strong>: Mantener la postura actual en UNI.MC sin realizar nuevas compras ni incrementar la exposición. Asignación estándar neutral (0% de adición a la cartera actual). Esperar a que se aclaren las incógnitas de gobernanza corporativa (nuevo presidente y alianzas) y observar si el valor testea con mayor claridad el soporte de la SMA200 (2,95 EUR) antes de reevaluar la tesis alcista.</p>
+</section><section id="s3"><h2>III. Trading Team Plan</h2><h3 id="s3-1">Trader</h3>
+<p><strong>Action</strong>: Hold</p>
+<p><strong>Reasoning</strong>: Unicaja Banco (UNI.MC) presenta sólidos resultados operativos a septiembre con un incremento del beneficio neto del 8,1% hasta 543 millones de euros y una atractiva rentabilidad por dividendo del 6,02%. Sin embargo, cotiza con un PER forward de 11,28x que supera la mediana de sus comparables y un potencial alcista de consenso muy limitado (~2,03%) respecto a su cotización de 3,17 EUR, existiendo además incertidumbres sobre su gobernanza corporativa y sobrecostes laborales. Por ello, se recomienda mantener la posición actual sin incrementar la exposición a la espera de mayor claridad estructural.</p>
+<p><strong>Entry Price</strong>: not provided</p>
+<p><strong>Stop Loss</strong>: not provided</p>
+<p><strong>Position Sizing</strong>: 0% adicional de la cartera actual</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+</section><section id="s4"><h2>IV. Risk Management Team Decision</h2><h3 id="s4-1">Aggressive Analyst</h3>
+<p>Aggressive Analyst: ¡Compañeros, analistas prudentes y moderados, abran los ojos! Están dejando pasar una auténtica apisonadora de rentabilidad y valor por culpa de su miopía ante el riesgo a corto plazo. Nos aferramos a un conservadurismo estéril mientras Unicaja Banco (<code>UNI.MC</code>) demuestra una resiliencia operativa envidiable. ¿Qué me vienen con que el PER forward de 11,28x supera la mediana de sus comparables o que el potencial alcista de consenso se limita a un mero 2,03%? ¡Eso es leer el espejo retrovisor en lugar de mirar hacia el horizonte de crecimiento!</p>
+<p>Analicemos los datos reales que tenemos sobre la mesa: un incremento del beneficio neto del 8,1% hasta alcanzar los 543 millones de euros a septiembre, batiendo con solidez las previsiones del mercado gracias a la vigorosa mejora de márgenes y del negocio principal. ¿Y qué dicen de esa tremenda rentabilidad por dividendo del 6,02% respaldada por un generoso <em>payout</em>? Estamos hablando de un flujo de caja para el accionista excepcional en un entorno macroeconómico donde el Banco Central Europeo ha congelado los tipos en el 2,5%, manteniendo el apetito por activos bancarios de alta retribución.</p>
+<p>¿Que hay incertidumbres sobre la gobernanza, la presidencia o sobrecostes laborales de 11 millones por el nuevo convenio? ¡Por favor! Esos son los clásicos baches tácticos que provocan correcciones temporales injustificadas —como vemos en el RSI de 40,07 y esa ligera compresión técnica hacia los 3,17 EUR—, creando precisamente la ventana de oportunidad perfecta para los inversores audaces. El soporte de la media móvil de 200 sesiones en 2,95 EUR es un suelo de hormigón armado, y el <em>drawdown</em> actual del -12,58% no es más que una compresión de muelles antes de la próxima gran ruptura alcista.</p>
+<p>Esperar a que se despejen todas las dudas corporativas con Wizink y Santalucía significa comprar tarde, cuando el valor ya se haya disparado y el mercado haya descontado el upside. Los grandes beneficios bursátiles se cosechan asumiendo riesgos calculados cuando el resto del rebaño duda. Recomendar un bloqueo absoluto o quedarse de brazos cruzados ignorando este músculo de beneficios e ingresos de más de 2.000 millones anuales es renunciar a la alfa. ¡Mantener con convicción y aprovechar cada latido de volatilidad para posicionarse de cara al despegue estructural de <code>UNI.MC</code>!</p>
+<p><strong>Rating</strong>: BUY</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+<h3 id="s4-2">Conservative Analyst</h3>
+<p>Conservative Analyst: Colega analista agresivo, tu entusiasmo por los beneficios récord y la rentabilidad por dividendo de Unicaja Banco (<code>UNI.MC</code>) te está cegando ante los riesgos estructurales y de valoración muy reales que pesan sobre la entidad. Calificar de &quot;miopía&quot; nuestra prudencia es ignorar que el capital de la firma no está para especular con promesas, sino para protegerse frente a caídas inminentes.</p>
+<p>Veamos por qué tu visión optimista pasa por alto amenazas críticas. Primero, desestimas el PER forward de 11,28x argumentando que el beneficio neto a septiembre subió un 8,1% hasta los 543 millones de euros y que el dividendo rinde un 6,02%. Pero olvidas un dato fundamental de valoración: ese múltiplo ya supera la mediana de sus comparables sectoriales (ubicada en 9,94x), lo que indica que <code>UNI.MC</code> cotiza con prima respecto a sus pares a pesar de tener un potencial alcista de consenso extremadamente limitado de apenas un 2,03% frente a su cotización actual de 3,17 EUR. Comprar por encima del valor que el mercado de analistas le otorga no es buscar alfa, es asumir el riesgo innecesario de pagar de más justo cuando la acción muestra debilidad técnica, cotizando por debajo de sus medias móviles de 20 y 50 sesiones (SMA20 en 3,22 EUR y SMA50 en 3,40 EUR).</p>
+<p>Segundo, restas importancia a las incertidumbres corporativas y a los sobrecostes alegando que son &quot;baches tácticos&quot;. No son minucias. Hablamos de 11 millones de euros en sobrecostes laborales por nuevas contrataciones y la aplicación estricta del convenio colectivo, sumados a una agenda de gobernanza todavía sin resolver que incluye temas tan delicados como la presidencia definitiva, Wizink y Santalucía. En un entorno macroeconómico donde el Banco Central Europeo ha decidido mantener los tipos en el 2,5% advirtiendo sobre riesgos inflacionarios y energéticos, cualquier turbulencia en la cúpula directiva o un incremento imprevisto de costes golpea directamente la estabilidad de los márgenes que tanto celebras.</p>
+<p>Por último, confiar ciegamente en que la media móvil de 200 sesiones en 2,95 EUR es un &quot;suelo de hormigón armado&quot; mientras el RSI marca 40,07 y el valor acumula un <em>drawdown</em> del -12,58% es una apuesta peligrosa para la preservación de activos. Si rompiera ese soporte técnico en un contexto de corrección generalizada de la banca europea —como ya hemos visto reflejado en las recientes sesiones del sector—, el retroceso hacia los niveles más bajos del rango de analistas (situados en 2,80 EUR) dejaría a cualquier posición compradora atrapada en pérdidas inmediatas.</p>
+<p>La decisión de mantener la posición sin incrementar exposición (0% adicional) es la única postura racional y defensiva para proteger el patrimonio de la firma. No arriesgaremos capital en un activo caro, con catalizadores inciertos y un recorrido alcista agotado en el corto plazo. La estabilidad y la seguridad mandan.</p>
+<p><strong>Rating</strong>: HOLD</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+<h3 id="s4-3">Neutral Analyst</h3>
+<p>Neutral Analyst: Escuchando a ambos lados, queda claro que tanto el analista agresivo como el conservador caen en sesgos previsibles por defender posturas extremas.</p>
+<p>Por un lado, mi estimado colega optimista peca de triunfalismo al minimizar los riesgos estructurales. Descartar los sobrecostes laborales de 11 millones de euros o las dudas pendientes sobre la gobernanza y la presidencia como meros &quot;baches tácticos&quot; es ignorar la realidad corporativa de Unicaja Banco (<code>UNI.MC</code>). Además, alegar que el PER forward de 11,28x no importa simplemente porque el beneficio neto a septiembre creció un 8,1% hasta los 543 millones es descuidar que la compañía cotiza con prima frente a la mediana de sus comparables (9,94x), con un potencial alcista de consenso extremadamente ajustado de apenas un 2,03% sobre los 3,17 EUR actuales. Comprar más en este punto sin confirmar la ruptura de resistencias técnicas o la resolución de las carpetas de Wizink y Santalucía sería una imprudencia.</p>
+<p>Pero por el otro lado, el analista conservador se refugia en un inmovilismo excesivo impulsado por el miedo. Alarmarse tanto por la debilidad técnica a corto plazo —con el RSI en 40,07 y la cotización por debajo de las medias de 20 y 50 sesiones— y calificar de &quot;trampa&quot; el atractivo dividendo del 6,02% ignora la solidez fundamental de la entidad. Un banco que genera flujos estables, con un ratio de solvencia y un <em>payout</em> del 73,82% en un entorno donde el BCE mantiene los tipos en el 2,5%, no está al borde del abismo. Dar por sentado que el valor va a desplomarse hacia el soporte de 2,80 EUR ignorando el colchón que ofrece la media móvil de 200 sesiones en 2,95 EUR es caer en un pesimismo injustificado.</p>
+<p>La verdadera vía moderada y sostenible no exige ni lanzarse a comprar de forma temeraria ni paralizarse por completo. La decisión de mantener la posición actual sin incrementar la exposición (0% de capital adicional) es acertada, pero debe entenderse no como un freno absoluto, sino como una pausa estratégica de vigilancia. Debemos permitir que el mercado absorba estos resultados trimestrales, observar cómo evoluciona la convergencia del MACD y esperar a que la directiva despeje las incertidumbres corporativas pendientes. Mantenernos en este punto nos permite cobrar un dividendo muy atractivo mientras filtramos el ruido del mercado, equilibrando la protección del capital con la flexibilidad necesaria para actuar en cuanto surjan señales claras de ruptura técnica.</p>
+<p><strong>Rating</strong>: HOLD</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+</section><section id="s5"><h2>V. Portfolio Manager Decision</h2><h3 id="s5-1">Portfolio Manager</h3>
+<p><strong>Rating</strong>: Hold</p>
+<p><strong>Executive Summary</strong>: Mantener la postura actual en UNI.MC sin realizar nuevas compras ni incrementar la exposición, adoptando una asignación estándar neutral del 0% de capital adicional. Se recomienda mantener un horizonte de inversión a medio plazo de 3-6 meses mientras se espera la resolución de las incógnitas de gobernanza corporativa y una mayor claridad técnica por encima de las medias móviles.</p>
+<p><strong>Investment Thesis</strong>: La decisión de mantener se fundamenta en el equilibrio entre unos sólidos resultados operativos a septiembre (beneficio neto de 543 millones de euros, un 8,1% más interanual) y una atractiva rentabilidad por dividendo del 6,02%, frente a los evidentes riesgos estructurales y de valoración señalados en el debate. Por un lado, el analista agresivo destaca el músculo de ingresos y el soporte técnico del suelo de 2,95 EUR en la SMA200. Por otro lado, los analistas conservador y neutro argumentan de forma convincente que el PER forward de 11,28x cotiza con prima frente a la mediana de comparables (9,94x) y que el potencial alcista de consenso es extremadamente limitado (apenas un 2,03% sobre los 3,17 EUR actuales), a lo que se suman sobrecostes laborales de 11 millones e incertidumbres de gobernanza sin resolver (Wizink, Santalucía y la presidencia). Ante esta balanza equilibrada entre fundamentales sólidos pero un upside agotado y catalizadores pendientes, la opción más prudente y racional es el mantenimiento de la posición sin añadir riesgo adicional.</p>
+<p><strong>Price Target</strong>: 3.23444</p>
+<p><strong>Time Horizon</strong>: 3-6 months</p>
+</section>
+</main>
+<footer class="credit"><a href="https://github.com/TauricResearch/TradingAgents" rel="noopener">TradingAgents</a> powered by <a class="brand" href="https://github.com/TauricResearch" rel="noopener">Tauric Research</a></footer>
+</div>
+<a class="to-top" href="#top">Top</a>
+</body>
+</html>

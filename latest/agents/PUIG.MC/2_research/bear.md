@@ -1,0 +1,26 @@
+
+Bear Analyst: **Rating**: SELL  
+FINAL TRANSACTION PROPOSAL: SELL  
+
+¡Hola colega! Entiendo perfectamente el entusiasmo con el que defiendes a `PUIG.MC` tras su reciente *Investor's Day*, pero me temo que estás comprando el relato publicitario de la directiva sin mirar con lupa los riesgos reales que se esconden bajo la superficie. Nos vendes un crecimiento idílico del 60% a siete años vista, pero en los mercados financieros, promesas a largo plazo y realidades a corto plazo suelen chocar de frente. Vamos a poner los pies en la tierra y a desmontar ese optimismo infundado con los propios datos de la compañía.
+
+### 1. El espejismo del plan a 7 años y la saturación del mercado de lujo
+Hablas de la ambiciosa meta de disparar las ventas un 60% y de su entrada en Amazon en EE. UU. como si fuera un camino de rosas, pero olvidas un factor crítico: **el mercado de la belleza prémium y la perfumería de alta gama está sufriendo una saturación evidente y vientos en contra macroeconómicos**. 
+* **¿Un canal masivo como Amazon para marcas de lujo?** Cuidado con esto. La entrada en plataformas generalistas como Amazon puede diluir el valor aspiracional y el prestigio de marcas de alta gama que Puig tanto le ha costado construir. El consumidor de lujo busca exclusividad, no compras en un "marketplace" masivo.
+* **El muro de la competencia en Asia:** Pretender replicar o acelerar la expansión en Asia en un momento donde el consumo interno en dicha región muestra profundas dudas y una competencia local feroz es una apuesta sumamente costosa y de baja visibilidad. Las proyecciones a siete años son papel mojado frente a la volatilidad macroeconómica actual.
+* **Desaceleración real:** Fíjate en los datos fundamentales que aportas a medias: el crecimiento de los ingresos reportado se desacelera a un modesto **2,4%**, mientras que el beneficio neto muestra incluso un crecimiento negativo de las ganancias (`earningsGrowth` del **-4,4%**). ¡La maquinaria ya está mostrando síntomas claros de fatiga!
+
+### 2. ¿De verdad está barata o estamos ignorando el apalancamiento?
+Intentas restar importancia al perfil financiero apoyándote en el ratio de deuda neta sobre EBITDA de 1,63x, pero hay que leer la letra pequeña de cómo se está moviendo el dinero en la casa:
+* **Ingeniería financiera en el hólding:** Recientemente hemos sabido que la familia promotora ha tenido que recurrir a una financiación a través de su propio hólding por cerca de **900 millones de euros** para esquivar a la banca tradicional (*Crónica Global*, 30-10-2026). Cuando los promotores buscan vías alternativas de liquidez de tal magnitud fuera de los canales habituales de mercado, es una señal de alerta sobre la rigidez de la estructura de capital y los costes de refinanciación reales a los que se enfrentan.
+* **Múltiplos exigentes para un crecimiento tibio:** Un PER *trailing* de **18,70x** y un EV/EBITDA de **12,77x** no son ninguna ganga para una empresa con un crecimiento de ingresos del 2% y beneficios a la baja. Estás pagando múltiplos de crecimiento tecnológico por un valor de consumo defensivo que apenas ofrece una rentabilidad por dividendo del **2,18%** (0,42 EUR por acción). ¡Por ese rendimiento, el inversor prefiere la renta fija o valores bancarios con menor riesgo de revalorización fallida!
+
+### 3. El espejismo técnico y el escaso margen del consenso
+Te aferras a que la acción cotiza por encima de sus medias móviles (SMA de 20, 50 y 200) y que supera al índice. Eso solo demuestra que el valor ha corrido por inercia tras el escaparate del *Investor's Day*, pero nos deja técnicamente vulnerables a una corrección brusca:
+* **Potencial agotado:** El propio consenso de analistas sitúa el precio objetivo medio en **20,81 EUR**. Partiendo de los **19,26 EUR** actuales, el *upside* potencial es de **apenas un 8%**. ¿De verdad vale la pena asumir el riesgo operativo, de ejecución en EE. UU. y los desafíos macroeconómicos globales por un mísero 8% de margen teórico hasta el precio objetivo medio? El riesgo-beneficio está completamente roto.
+* **RSI y Momento:** Con un RSI en 59,04, el valor no está en zona de pánico, pero el histograma del MACD ya muestra signos de compresión. Cualquier pequeño traspié en los próximos resultados trimestrales provocará una recogida de beneficios rápida, rompiendo los soportes recientes.
+
+### Conclusión del Analista Bajista
+`PUIG.MC` es una compañía con marcas excelentes, nadie lo niega, pero **su cotización actual ya ha descontado con creces las buenas noticias**, y el mercado está ignorando los riesgos de ejecución de su plan estratégico a largo plazo, la fatiga en el crecimiento de beneficios y una estructura de financiación familiar opaca y compleja. 
+
+Invertir aquí hoy es subirse tarde a un tren que ofrece un recorrido muy limitado (un 8% de potencial según consenso) a cambio de un riesgo de corrección considerable si la economía europea o el consumo de lujo sufren un tropezón. ¡Mi recomendación firme es de venta o salida (`SELL`)!

@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'">
+<title>CABK.MC 2026-11-01 Overweight: TradingAgents report</title>
+<style>
+:root {
+  --paper: #fbfbfa; --ink: #1c2126; --muted: #5d6670; --rule: #e2e5e8; --wash: #f2f4f5;
+  --accent: #087a59; --up: #087a59; --down: #b4372f; --level: #5d6670; --edge: #d3d8dc; --mark: #878f97;
+  --serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #131a1f; --ink: #e4e8eb; --muted: #9aa6af; --rule: #263239; --wash: #1a242a;
+    --accent: #14c290; --up: #14c290; --down: #ef6f63; --level: #9aa6af; --edge: #3d4c55; --mark: #66737c;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .masthead .logo [stroke="#363636"] { stroke: var(--muted); }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font: 17px/1.62 var(--serif); font-kerning: normal;
+}
+.page { max-width: 46rem; margin: 0 auto; padding: 3.5rem 1.5rem 6rem; }
+main h2, main h3 { scroll-margin-top: 1rem; }
+a { color: var(--accent); text-underline-offset: 0.15em; }
+h1, h2, h3, h4 { text-wrap: balance; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.masthead { padding-bottom: 1.75rem; border-bottom: 1px solid var(--rule); }
+/* The logo leads at the top left, where readers look for it, 24px tall (the usual
+   on-screen floor for a wordmark) with at least its height clear below. */
+.masthead .logo { display: block; width: fit-content; margin: 0 0 2.25rem; }
+.masthead .logo svg { display: block; height: 1.5rem; width: auto; }
+.masthead h1 {
+  margin: 0; font: 600 2.6rem/1.1 var(--sans); letter-spacing: -0.02em;
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.2em 0.5em;
+}
+.masthead .rating { font-weight: 500; }
+.rating.up { color: var(--up); } .rating.down { color: var(--down); } .rating.level { color: var(--level); }
+.rating.review { color: var(--muted); font-style: italic; }
+.masthead .date { margin: 0.55rem 0 1.5rem; font: 1rem/1.4 var(--sans); color: var(--muted); }
+.run { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: 0.45rem 1.25rem;
+  font: 0.85rem/1.5 var(--sans); }
+.run > div { display: contents; }
+.run dt { color: var(--muted); }
+.run dd { margin: 0; overflow-wrap: anywhere; }
+.run .note dd { color: var(--down); }
+.field { display: inline-block; margin: 0 0.15rem 0.15rem 0; padding: 0 0.4rem; border: 1px solid var(--edge);
+  border-radius: 4px; background: var(--wash); font: 0.8rem/1.6 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+.run .group { display: inline-block; margin-right: 0.9rem; white-space: nowrap; }
+.run .group > .name { color: var(--muted); margin-right: 0.3rem; }
+.run .then { color: var(--muted); margin: 0 0.2rem; }
+
+/* The sections: listed under the header on narrow screens. On wide ones, a
+   quiet rail centred on the left edge (numerals for the sections, short bars
+   for their agents) that opens into the full list when pointed at or focused. */
+.contents { margin: 2.25rem 0 0; font: 0.9rem/1.45 var(--sans); }
+.contents ul { margin: 0; padding: 0; list-style: none; }
+.contents > ul > li { margin: 0 0 0.75rem; }
+.contents ul ul { margin-top: 0.2rem; padding-left: 1.6rem; font-size: 0.85rem; }
+.contents ul ul li { margin: 0.1rem 0; }
+.contents a { display: flex; align-items: center; gap: 0.6rem; color: var(--muted); text-decoration: none; }
+.contents > ul > li > a { color: var(--ink); }
+.contents .num { min-width: 1.6rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.contents .bar { display: none; }
+.contents a:hover .label, .contents a:focus-visible .label { color: var(--accent); text-decoration: underline; }
+.to-top { position: fixed; right: 1rem; bottom: calc(1rem + env(safe-area-inset-bottom));
+  padding: 0.25rem 0.6rem; border: 1px solid var(--edge); border-radius: 4px; background: var(--paper);
+  color: var(--muted); font: 0.8rem/1.4 var(--sans); text-decoration: none; }
+
+@media (min-width: 60rem) {
+  .contents { position: fixed; left: 1rem; top: 50%; transform: translateY(-50%); z-index: 1;
+    max-height: 86vh; overflow-y: auto; overscroll-behavior: contain; margin: 0;
+    padding: 0.7rem 0.9rem; border: 1px solid transparent; border-radius: 6px;
+    transition: background-color 0.15s, border-color 0.15s, box-shadow 0.15s; }
+  .contents > ul > li { margin: 0 0 0.35rem; }
+  .contents ul ul { margin-top: 0; padding-left: 0; }
+  .contents ul ul li { margin: 0; }
+  /* Marks reach 3:1 contrast and rows 24px, the WCAG 2.2 floors for a control's
+     visual cue and its pointer target. */
+  .contents a { min-height: 1.5rem; }
+  .contents .num { min-width: 1.4rem; }
+  .contents .bar { display: block; flex: none; width: 1.25rem; height: 2px; margin-left: 0.2rem;
+    border-radius: 1px; background: var(--mark); }
+  .contents .label { max-width: 0; opacity: 0; overflow: hidden; white-space: nowrap;
+    transition: opacity 0.15s, max-width 0.2s; }
+  .contents:hover, .contents:focus-within { background: var(--paper); border-color: var(--rule);
+    box-shadow: 0 6px 24px rgb(0 0 0 / 0.08); }
+  .contents:hover .label, .contents:focus-within .label { max-width: 18rem; opacity: 1; }
+  .contents a:hover .bar, .contents a:focus-visible .bar { background: var(--accent); }
+  .to-top { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .contents, .contents .label { transition: none; }
+}
+
+/* The maker's credit: one quiet line at the foot. */
+.credit { margin-top: 4.5rem; padding-top: 1.25rem; border-top: 1px solid var(--rule);
+  color: var(--muted); font: 0.8rem/1.4 var(--sans); }
+.credit a { color: inherit; text-decoration: none; }
+.credit a.brand { color: var(--accent); }
+.credit a:hover, .credit a:focus-visible { text-decoration: underline; }
+
+/* Three levels of separation: the five groups, the agents within a group, and
+   breaks an agent draws inside its own text. */
+main h2 {
+  margin: 4.5rem 0 0.25rem; padding-top: 1.5rem; border-top: 2px solid var(--ink);
+  font: 600 1.45rem/1.3 var(--sans); letter-spacing: -0.01em;
+}
+main section:first-child h2 { margin-top: 3rem; }
+main h3 { margin: 2.75rem 0 0.75rem; padding-top: 1.1rem; border-top: 1px solid var(--rule);
+  font: 600 1.15rem/1.35 var(--sans); color: var(--accent); }
+main h2 + h3 { margin-top: 1.25rem; padding-top: 0; border-top: 0; }
+main h4, main h5, main h6 { margin: 1.75rem 0 0.5rem; font: 600 1rem/1.4 var(--sans); }
+main h5, main h6 { color: var(--muted); }
+main p, main ul, main ol { margin: 0 0 1rem; }
+main li { margin: 0.25rem 0; }
+main strong { font-weight: 650; }
+main blockquote { margin: 1.25rem 0; padding: 0.1rem 0 0.1rem 1rem; border-left: 3px solid var(--rule);
+  color: var(--muted); }
+main code { font: 0.88em/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  background: var(--wash); padding: 0.1em 0.3em; border-radius: 3px; }
+main pre { background: var(--wash); padding: 0.9rem 1rem; border-radius: 4px; overflow-x: auto; }
+main pre code { background: none; padding: 0; }
+main hr { width: 3rem; margin: 2rem auto; border: 0; border-top: 1px solid var(--rule); }
+
+.table { overflow-x: auto; margin: 0 0 1.25rem; }
+table { border-collapse: collapse; width: 100%; font: 0.86rem/1.45 var(--sans);
+  font-variant-numeric: tabular-nums; }
+th, td { padding: 0.45rem 0.7rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--rule); }
+th { font-weight: 600; border-bottom-color: var(--muted); }
+tbody tr:last-child td { border-bottom: 0; }
+
+@media (max-width: 34rem) {
+  body { font-size: 16px; }
+  .page { padding: 2rem 1rem 3rem; }
+  .masthead h1 { font-size: 2rem; }
+  .masthead .logo svg { height: 1.25rem; }
+  .run { grid-template-columns: 1fr; gap: 0 0; }
+  .run dd { margin-bottom: 0.45rem; }
+  .run .group { white-space: normal; }
+}
+@media print {
+  :root { --paper: #fff; --ink: #000; --muted: #444; --rule: #bbb; --accent: #000; --wash: #f2f2f2;
+    --edge: #bbb; --up: #087a59; --down: #b4372f; --level: #444; }
+  body { font-size: 11pt; }
+  .table { overflow: visible; }
+  .page { max-width: none; padding: 0; }
+  .contents, .to-top { display: none; }
+  main h2 { break-before: page; border-top: 0; margin-top: 0; }
+  main section:first-child h2 { break-before: auto; }
+  main h3, main h4 { break-after: avoid; }
+  a { color: inherit; text-decoration: none; }
+  table { break-inside: avoid; }
+}
+</style>
+</head>
+<body>
+<div class="page" id="top">
+<header class="masthead">
+<a class="logo" href="https://tauric.ai" rel="noopener" aria-label="Tauric Research"><svg width="993" height="115" viewBox="0 0 993 115" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M189.86 95.0459V37.9779H165.924V29.9259H223.74V37.9779H199.804V95.0459H189.86ZM251.026 46.4259C256.071 46.4259 260.178 47.0272 263.345 48.2299C266.514 49.4032 268.89 51.3686 270.474 54.1259C272.058 56.8832 272.85 60.6379 272.85 65.3899V95.0459H264.666L263.961 89.8979H263.434C261.644 91.7752 259.386 93.2419 256.657 94.2979C253.929 95.3246 251.025 95.8379 247.946 95.8379C244.426 95.8379 241.419 95.2952 238.925 94.2099C236.432 93.0952 234.54 91.5406 233.249 89.5459C231.959 87.5512 231.313 85.2046 231.313 82.5059C231.313 78.2526 232.897 74.9672 236.065 72.6499C239.263 70.3032 244.337 68.8219 251.29 68.2059L263.258 67.0179V64.7299C263.258 61.9139 262.774 59.7139 261.806 58.1299C260.838 56.5459 259.371 55.4312 257.406 54.7859C255.47 54.1406 252.888 53.8179 249.662 53.8179C247.432 53.8179 245.012 54.0086 242.401 54.3899C239.82 54.7712 237.341 55.3432 234.965 56.1059V48.8019C237.312 48.0392 239.908 47.4526 242.754 47.0419C245.628 46.6312 248.386 46.4259 251.026 46.4259ZM250.541 89.0619C252.888 89.0619 255.162 88.6512 257.362 87.8299C259.562 86.9792 261.527 85.7179 263.258 84.0459V72.8259L252.038 73.9259C248.136 74.3659 245.35 75.2166 243.678 76.4779C242.005 77.7099 241.169 79.4699 241.169 81.7579C241.169 84.0752 241.947 85.8792 243.501 87.1699C245.056 88.4312 247.403 89.0619 250.541 89.0619ZM313.339 95.8379C307.59 95.8379 303.087 94.2979 299.831 91.2179C296.575 88.1086 294.947 83.2686 294.947 76.6979V47.1739H304.715V76.1699C304.715 80.1886 305.624 83.0779 307.443 84.8379C309.291 86.5979 311.916 87.4779 315.319 87.4779C317.871 87.4779 320.379 86.9939 322.843 86.0259C325.336 85.0286 327.492 83.5766 329.311 81.6699V47.1739H339.079V95.0459H330.983L330.367 89.9419H329.883C327.624 91.8486 325.072 93.3152 322.227 94.3419C319.382 95.3392 316.419 95.8379 313.339 95.8379ZM362.371 47.1739H370.423L371.171 53.2899H371.743C373.474 51.2072 375.703 49.5792 378.431 48.4059C381.188 47.2326 384.063 46.6459 387.055 46.6459C388.756 46.6459 390.355 46.7926 391.851 47.0859V55.8419C390.414 55.5779 388.654 55.4459 386.571 55.4459C383.99 55.4459 381.364 55.9446 378.695 56.9419C376.026 57.9392 373.84 59.4206 372.139 61.3859V95.0459H362.371V47.1739ZM409.069 95.0459V47.1739H418.837V95.0459H409.069ZM413.953 37.8459C411.871 37.8459 410.287 37.3912 409.201 36.4819C408.145 35.5726 407.617 34.2672 407.617 32.5659C407.617 30.8352 408.145 29.5152 409.201 28.6059C410.287 27.6672 411.871 27.1979 413.953 27.1979C416.036 27.1979 417.605 27.6672 418.661 28.6059C419.747 29.5152 420.289 30.8352 420.289 32.5659C420.289 34.2672 419.747 35.5726 418.661 36.4819C417.605 37.3912 416.036 37.8459 413.953 37.8459ZM464.85 95.9259C456.607 95.9259 450.315 93.8432 445.974 89.6779C441.662 85.5126 439.506 79.3526 439.506 71.1979C439.506 63.0139 441.779 56.8392 446.326 52.6739C450.902 48.5086 457.575 46.4259 466.346 46.4259C470.716 46.4259 474.735 46.9246 478.402 47.9219V55.7099C476.378 55.2406 474.486 54.8886 472.726 54.6539C470.966 54.4192 469.118 54.3019 467.182 54.3019C461.168 54.3019 456.71 55.6512 453.806 58.3499C450.931 61.0486 449.494 65.2872 449.494 71.0659C449.494 76.8739 450.858 81.1566 453.586 83.9139C456.343 86.6712 460.42 88.0499 465.818 88.0499C467.695 88.0499 469.616 87.8886 471.582 87.5659C473.547 87.2139 475.82 86.6712 478.402 85.9379V93.7259C474.236 95.1926 469.719 95.9259 464.85 95.9259ZM574.428 95.0459L553.704 69.0859C553.176 69.1152 552.37 69.1299 551.284 69.1299C548.38 69.1299 544.978 68.9832 541.076 68.6899V95.0459H531.308V31.4659C537.967 29.9699 544.846 29.2219 551.944 29.2219C561.595 29.2219 568.752 30.8059 573.416 33.9739C578.08 37.1126 580.412 42.1286 580.412 49.0219C580.412 54.0086 579.004 58.0859 576.188 61.2539C573.402 64.4219 569.266 66.6366 563.78 67.8979L585.648 95.0459H574.428ZM541.076 61.2099C543.071 61.4152 544.816 61.5619 546.312 61.6499C547.838 61.7379 549.627 61.7819 551.68 61.7819C558.427 61.7819 563.34 60.7699 566.42 58.7459C569.5 56.6926 571.04 53.4952 571.04 49.1539C571.04 46.0739 570.395 43.6099 569.104 41.7619C567.843 39.9139 565.863 38.5792 563.164 37.7579C560.495 36.9366 556.975 36.5259 552.604 36.5259C550.404 36.5259 548.424 36.6139 546.664 36.7899C544.904 36.9659 543.042 37.2299 541.076 37.5819V61.2099ZM642.947 74.0139H608.231C608.407 77.4752 609.155 80.2766 610.475 82.4179C611.795 84.5299 613.775 86.0846 616.415 87.0819C619.055 88.0792 622.443 88.5779 626.579 88.5779C630.686 88.5779 635.233 87.9472 640.219 86.6859V93.9459C635.027 95.2659 630.026 95.9259 625.215 95.9259C616.298 95.9259 609.61 93.9166 605.151 89.8979C600.722 85.8499 598.507 79.6166 598.507 71.1979C598.507 65.9179 599.402 61.4299 601.191 57.7339C602.981 54.0379 605.562 51.2366 608.935 49.3299C612.338 47.3939 616.43 46.4259 621.211 46.4259C628.251 46.4259 633.634 48.5819 637.359 52.8939C641.085 57.1766 642.947 63.3659 642.947 71.4619V74.0139ZM621.079 52.8939C616.973 52.8939 613.834 54.1406 611.663 56.6339C609.493 59.0979 608.334 62.9259 608.187 68.1179H633.751C633.634 62.9259 632.519 59.0979 630.407 56.6339C628.295 54.1406 625.186 52.8939 621.079 52.8939ZM677.365 95.9259C671.352 95.9259 665.896 95.2219 660.997 93.8139V86.7299C666.248 88.1966 671.718 88.9299 677.409 88.9299C681.809 88.9299 684.977 88.3432 686.913 87.1699C688.849 85.9672 689.817 84.2219 689.817 81.9339C689.817 80.7019 689.597 79.6899 689.157 78.8979C688.717 78.0766 687.969 77.4019 686.913 76.8739C685.857 76.3166 684.405 75.8912 682.557 75.5979L674.065 74.2779C669.137 73.4859 665.573 71.9899 663.373 69.7899C661.202 67.5899 660.117 64.6419 660.117 60.9459C660.117 56.4579 661.965 52.9232 665.661 50.3419C669.386 47.7312 675.062 46.4259 682.689 46.4259C685.094 46.4259 687.485 46.5872 689.861 46.9099C692.266 47.2032 694.481 47.6432 696.505 48.2299V55.2699C692.046 54.0379 687.456 53.4219 682.733 53.4219C677.893 53.4219 674.476 54.0526 672.481 55.3139C670.486 56.5752 669.489 58.3206 669.489 60.5499C669.489 62.2219 670.002 63.5859 671.029 64.6419C672.056 65.6686 673.889 66.4166 676.529 66.8859L685.021 68.2059C689.92 68.9686 693.513 70.3766 695.801 72.4299C698.089 74.4832 699.233 77.4606 699.233 81.3619C699.233 84.3832 698.412 86.9792 696.769 89.1499C695.156 91.3206 692.706 92.9926 689.421 94.1659C686.165 95.3392 682.146 95.9259 677.365 95.9259ZM760.579 74.0139H725.863C726.039 77.4752 726.787 80.2766 728.107 82.4179C729.427 84.5299 731.407 86.0846 734.047 87.0819C736.687 88.0792 740.075 88.5779 744.211 88.5779C748.317 88.5779 752.864 87.9472 757.851 86.6859V93.9459C752.659 95.2659 747.657 95.9259 742.847 95.9259C733.929 95.9259 727.241 93.9166 722.783 89.8979C718.353 85.8499 716.139 79.6166 716.139 71.1979C716.139 65.9179 717.033 61.4299 718.823 57.7339C720.612 54.0379 723.193 51.2366 726.567 49.3299C729.969 47.3939 734.061 46.4259 738.843 46.4259C745.883 46.4259 751.265 48.5819 754.991 52.8939C758.716 57.1766 760.579 63.3659 760.579 71.4619V74.0139ZM738.711 52.8939C734.604 52.8939 731.465 54.1406 729.295 56.6339C727.124 59.0979 725.965 62.9259 725.819 68.1179H751.383C751.265 62.9259 750.151 59.0979 748.039 56.6339C745.927 54.1406 742.817 52.8939 738.711 52.8939ZM796.986 46.4259C802.032 46.4259 806.138 47.0272 809.306 48.2299C812.474 49.4032 814.85 51.3686 816.434 54.1259C818.018 56.8832 818.81 60.6379 818.81 65.3899V95.0459H810.626L809.922 89.8979H809.394C807.605 91.7752 805.346 93.2419 802.618 94.2979C799.89 95.3246 796.986 95.8379 793.906 95.8379C790.386 95.8379 787.38 95.2952 784.886 94.2099C782.393 93.0952 780.501 91.5406 779.21 89.5459C777.92 87.5512 777.274 85.2046 777.274 82.5059C777.274 78.2526 778.858 74.9672 782.026 72.6499C785.224 70.3032 790.298 68.8219 797.25 68.2059L809.218 67.0179V64.7299C809.218 61.9139 808.734 59.7139 807.766 58.1299C806.798 56.5459 805.332 55.4312 803.366 54.7859C801.43 54.1406 798.849 53.8179 795.622 53.8179C793.393 53.8179 790.973 54.0086 788.362 54.3899C785.781 54.7712 783.302 55.3432 780.926 56.1059V48.8019C783.273 48.0392 785.869 47.4526 788.714 47.0419C791.589 46.6312 794.346 46.4259 796.986 46.4259ZM796.502 89.0619C798.849 89.0619 801.122 88.6512 803.322 87.8299C805.522 86.9792 807.488 85.7179 809.218 84.0459V72.8259L797.998 73.9259C794.097 74.3659 791.31 75.2166 789.638 76.4779C787.966 77.7099 787.13 79.4699 787.13 81.7579C787.13 84.0752 787.908 85.8792 789.462 87.1699C791.017 88.4312 793.364 89.0619 796.502 89.0619ZM841.524 47.1739H849.576L850.324 53.2899H850.896C852.627 51.2072 854.856 49.5792 857.584 48.4059C860.341 47.2326 863.216 46.6459 866.208 46.6459C867.909 46.6459 869.508 46.7926 871.004 47.0859V55.8419C869.567 55.5779 867.807 55.4459 865.724 55.4459C863.143 55.4459 860.517 55.9446 857.848 56.9419C855.179 57.9392 852.993 59.4206 851.292 61.3859V95.0459H841.524V47.1739ZM909.164 95.9259C900.921 95.9259 894.629 93.8432 890.288 89.6779C885.976 85.5126 883.82 79.3526 883.82 71.1979C883.82 63.0139 886.093 56.8392 890.64 52.6739C895.216 48.5086 901.889 46.4259 910.66 46.4259C915.03 46.4259 919.049 46.9246 922.716 47.9219V55.7099C920.692 55.2406 918.8 54.8886 917.04 54.6539C915.28 54.4192 913.432 54.3019 911.496 54.3019C905.482 54.3019 901.024 55.6512 898.12 58.3499C895.245 61.0486 893.808 65.2872 893.808 71.0659C893.808 76.8739 895.172 81.1566 897.9 83.9139C900.657 86.6712 904.734 88.0499 910.132 88.0499C912.009 88.0499 913.93 87.8886 915.896 87.5659C917.861 87.2139 920.134 86.6712 922.716 85.9379V93.7259C918.55 95.1926 914.033 95.9259 909.164 95.9259ZM941.796 23.9419H951.564V52.2779H952.048C954.248 50.3712 956.756 48.9192 959.572 47.9219C962.417 46.9246 965.395 46.4259 968.504 46.4259C974.019 46.4259 978.375 47.9952 981.572 51.1339C984.769 54.2432 986.368 59.0686 986.368 65.6099V95.0459H976.6V66.0939C976.6 62.0459 975.661 59.1566 973.784 57.4259C971.936 55.6952 969.237 54.8299 965.688 54.8299C963.048 54.8299 960.481 55.3286 957.988 56.3259C955.524 57.2939 953.383 58.7312 951.564 60.6379V95.0459H941.796V23.9419Z" fill="#14C290"/>
+<rect x="0.205322" y="14.873" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="14.679" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="14.679" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="86.6055" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="86.6055" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="101.284" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="58.7158" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="58.7158" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="87.1592" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="87.1592" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="73.0205" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="73.0205" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="87.3262" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="87.3262" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="101.631" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="101.631" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="101.284" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="15.0187" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.2668" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.2668" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.445" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.7506" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="100.716" y="14.873" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+</svg></a>
+<h1><span class="ticker">CABK.MC</span> <span class="rating up">Overweight</span></h1>
+<p class="date">Analysis of 2026-11-01</p>
+<dl class="run"><div class="detail"><dt>Generated</dt><dd>2026-11-01 07:29</dd></div><div class="detail"><dt>Deep model</dt><dd><span class="field">google</span> <span class="field">gemini-3.5-flash-lite</span></dd></div><div class="detail"><dt>Quick model</dt><dd><span class="field">google</span> <span class="field">gemini-3.5-flash-lite</span></dd></div><div class="detail"><dt>Analysts</dt><dd><span class="field">market</span> <span class="field">news</span> <span class="field">fundamentals</span></dd></div><div class="detail"><dt>Debate rounds</dt><dd><span class="group"><span class="name">research</span><span class="field">1</span></span> <span class="group"><span class="name">risk</span><span class="field">1</span></span></dd></div><div class="detail"><dt>Data vendors</dt><dd><span class="group"><span class="name">Prices</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Indicators</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Fundamentals</span><span class="field">yfinance</span></span> <span class="group"><span class="name">News</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Macro</span><span class="field">fred</span></span> <span class="group"><span class="name">Prediction markets</span><span class="field">polymarket</span></span> <span class="group"><span class="name">get_news</span><span class="field">ibex_sample</span></span> <span class="group"><span class="name">get_global_news</span><span class="field">ibex_sample</span></span></dd></div><div class="detail"><dt>Version</dt><dd>TradingAgents 0.7.1</dd></div></dl>
+</header>
+<nav class="contents" aria-label="Sections"><ul><li><a href="#s1"><span class="num">I</span> <span class="label">Analyst Team Reports</span></a><ul><li><a href="#s1-1"><span class="bar"></span> <span class="label">Market Analyst</span></a></li><li><a href="#s1-2"><span class="bar"></span> <span class="label">News Analyst</span></a></li><li><a href="#s1-3"><span class="bar"></span> <span class="label">Fundamentals Analyst</span></a></li></ul></li><li><a href="#s2"><span class="num">II</span> <span class="label">Research Team Decision</span></a><ul><li><a href="#s2-1"><span class="bar"></span> <span class="label">Bull Researcher</span></a></li><li><a href="#s2-2"><span class="bar"></span> <span class="label">Bear Researcher</span></a></li><li><a href="#s2-3"><span class="bar"></span> <span class="label">Research Manager</span></a></li></ul></li><li><a href="#s3"><span class="num">III</span> <span class="label">Trading Team Plan</span></a><ul><li><a href="#s3-1"><span class="bar"></span> <span class="label">Trader</span></a></li></ul></li><li><a href="#s4"><span class="num">IV</span> <span class="label">Risk Management Team Decision</span></a><ul><li><a href="#s4-1"><span class="bar"></span> <span class="label">Aggressive Analyst</span></a></li><li><a href="#s4-2"><span class="bar"></span> <span class="label">Conservative Analyst</span></a></li><li><a href="#s4-3"><span class="bar"></span> <span class="label">Neutral Analyst</span></a></li></ul></li><li><a href="#s5"><span class="num">V</span> <span class="label">Portfolio Manager Decision</span></a><ul><li><a href="#s5-1"><span class="bar"></span> <span class="label">Portfolio Manager</span></a></li></ul></li></ul></nav>
+<main>
+<section id="s1"><h2>I. Analyst Team Reports</h2><h3 id="s1-1">Market Analyst</h3>
+<p><strong>Rating</strong>: REVIEW</p>
+<p><strong>FINAL TRANSACTION PROPOSAL:</strong> HOLD</p>
+<hr />
+<h6>Análisis Técnico y Fundamental de CaixaBank, S.A. (<code>CABK.MC</code>)</h6>
+<h6>1. Contexto de Mercado y Datos Recientes</h6>
+<p>A fecha de 1 de noviembre de 2026 (con datos de cierre de sesión al 30 de octubre de 2026), el valor de cotización de <strong>CaixaBank, S.A. (<code>CABK.MC</code>)</strong> en la Bolsa de Madrid se sitúa en <strong>11,20 EUR</strong>, registrando una ligera variación positiva del <strong>+0,31%</strong> en la sesión. El contexto macroeconómico y sectorial reciente viene marcado por la decisión del Banco Central Europeo (BCE) de mantener los tipos de interés en el <strong>2,5%</strong> a finales de octubre de 2026, junto con la publicación de resultados de los nueve primeros meses del año, donde la entidad reportó un beneficio neto de <strong>4.962 millones de euros</strong> (un incremento interanual del 12,9%), aunque con advertencias por parte de la directiva sobre la desaceleración del margen de intereses y la necesidad de impulsar la construcción de vivienda en España. Pese a los sólidos beneficios, el sector bancario europeo y español ha sufrido presiones bajistas en Bolsa en las últimas sesiones (según informes de <em>Cinco Días</em> y <em>El Conciso</em> del 30 de octubre de 2026).</p>
+<h6>2. Análisis Técnico y de Indicadores</h6>
+<p>El análisis técnico de <code>CABK.MC</code> revela un tramo de corrección a corto plazo dentro de una estructura de consolidación:</p>
+<ul>
+<li><strong>Precio y Medias Móviles</strong>: El precio actual de 11,20 EUR se encuentra por debajo de su media móvil de 20 sesiones (SMA20: <strong>11,70 EUR</strong>) y de la media móvil de 50 sesiones (SMA50: <strong>12,51 EUR</strong>), lo que denota presión bajista a corto y medio plazo. Sin embargo, se mantiene muy cerca de su media móvil de 200 sesiones (SMA200: <strong>11,57 EUR</strong>), actuando esta última como referencia clave de largo plazo.</li>
+<li><strong>Momentum y Volatilidad</strong>: El <strong>RSI (14)</strong> se sitúa en <strong>33,63</strong>, rozando la zona de sobreventa (&lt;30), lo que sugiere un agotamiento del movimiento bajista reciente sin haber entrado aún en territorio extremo. El <strong>MACD</strong> se encuentra en terreno negativo (<strong>-0,358</strong>) por debajo de su línea de señal (<strong>-0,343</strong>), confirmando la debilidad del impulso.</li>
+<li><strong>Rentabilidades y Drawdown</strong>: El retroceso a 21 días es del <strong>-6,90%</strong> y a 63 días del <strong>-11,32%</strong>. El <em>drawdown</em> actual desde máximos se sitúa en el <strong>-17,19%</strong>, reflejando la corrección vivida por el valor tras sus máximos anuales. La volatilidad anualizada de 511 sesiones se sitúa en el <strong>23,87%</strong>.</li>
+</ul>
+<h6>3. Análisis Fundamental y Valoración</h6>
+<ul>
+<li><strong>Capitalización y Múltiplos</strong>: CaixaBank ostenta una capitalización bursátil de <strong>77.748 millones de euros</strong>. Opera con un <strong>Trailing P/E</strong> de <strong>13,02x</strong> y un <strong>Forward P/E</strong> de <strong>10,29x</strong>, con un beneficio por acción estimado (<em>forward EPS</em>) de <strong>1,088 EUR</strong> (frente al EPS histórico de <strong>0,86 EUR</strong>). El ratio <strong>Price-to-Book (P/B)</strong> se sitúa en <strong>2,01x</strong>, con un valor contable por acción de <strong>5,559 EUR</strong>.</li>
+<li><strong>Rentabilidad y Dividendos</strong>: La entidad presenta una sólida rentabilidad sobre recursos propios (<strong>ROE</strong>) del <strong>16,52%</strong> y unos márgenes de beneficio neto elevados del <strong>40,33%</strong>. Ofrece una atractiva rentabilidad por dividendo (<em>dividend yield</em>) del <strong>4,46%</strong> (con un dividendo anunciado de 0,1844 EUR a abonar en los primeros días de noviembre de 2026, según <em>Rankia</em> y <em>CapitalMadrid</em>).</li>
+<li><strong>Consenso de Analistas</strong>: El precio objetivo medio fijado por el consenso de analistas (basado en 21 opiniones) es de <strong>13,22 EUR</strong> (con un rango entre 6,80 EUR y 15,30 EUR), lo que representa un potencial de revalorización (<em>consensus upside</em>) del <strong>18,07%</strong> sobre el precio actual de 11,20 EUR.</li>
+</ul>
+<h6>4. Evidencia Cruzada y Datos Faltantes</h6>
+<ul>
+<li><strong>Fuentes consultadas</strong>: Datos de Yahoo Finance integrados en la instantánea de fecha 2026-11-01, combinados con noticias de prensa especializada (<em>CapitalMadrid</em>, <em>Rankia</em>, <em>El Conciso</em>, <em>Cinco Días</em>) fechadas entre el 29 y el 30 de octubre de 2026.</li>
+<li><strong>Datos faltantes</strong>: No se dispone de estimaciones detalladas de flujo de caja libre (<em>free cash flow</em>) consolidadas para el cierre completo del ejercicio en curso debido a la naturaleza dinámica de los estados financieros provisionales de la banca regional europea.</li>
+</ul>
+<hr />
+<h6>Tabla Resumen de Indicadores Clave (<code>CABK.MC</code>)</h6>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Indicador / Métrica</th>
+<th style="text-align:left">Valor Actual / Referencia</th>
+<th style="text-align:left">Categoría / Implicación Técnica o Fundamental</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Precio de Cierre</strong></td>
+<td style="text-align:left">11,20 EUR (30/10/2026)</td>
+<td style="text-align:left">Cotización de referencia en MCE.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>RSI (14)</strong></td>
+<td style="text-align:left">33,63</td>
+<td style="text-align:left">Momentum cercano a sobreventa; vigilar posibles rebotes técnicos.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>MACD / Señal</strong></td>
+<td style="text-align:left">-0,358 / -0,343</td>
+<td style="text-align:left">Impulso bajista predominante a corto plazo.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>SMA 20 / SMA 50 / SMA 200</strong></td>
+<td style="text-align:left">11,70 / 12,52 / 11,57 EUR</td>
+<td style="text-align:left">Medias móviles; cotiza por debajo de SMA20 y SMA50, testando la SMA200.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Volatilidad (23,87%)</strong></td>
+<td style="text-align:left">23,87%</td>
+<td style="text-align:left">Volatilidad moderada-alta característica del sector financiero en fases de ajuste.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Trailing P/E / Forward P/E</strong></td>
+<td style="text-align:left">13,02x / 10,29x</td>
+<td style="text-align:left">Valoración relativa atractiva frente al crecimiento estimado de beneficios.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Price to Book (P/B)</strong></td>
+<td style="text-align:left">2,01x</td>
+<td style="text-align:left">Valoración patrimonial sobre un valor en libros por acción de 5,56 EUR.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Dividend Yield</strong></td>
+<td style="text-align:left">4,46%</td>
+<td style="text-align:left">Retorno por dividendo competitivo en el sector bancario español.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Precio Objetivo Consenso</strong></td>
+<td style="text-align:left">13,22 EUR (+18,07% upside)</td>
+<td style="text-align:left">Expectativa alcista media estimada por analistas (21 opiniones).</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="s1-2">News Analyst</h3>
+<p><strong>Rating</strong>: REVIEW</p>
+<p>FINAL TRANSACTION PROPOSAL: HOLD</p>
+<h6>Informe de Análisis y Estado Actual para CaixaBank, S.A. (<code>CABK.MC</code>)</h6>
+<h6>1. Resumen de Mercado y Contexto Macroeconómico</h6>
+<p>Durante la última semana de octubre de 2026 (con fecha de referencia al 30-31 de octubre de 2026), el entorno macroeconómico europeo se ha visto marcado por la decisión del Banco Central Europeo (BCE) de mantener los tipos de interés en el <strong>2,5%</strong>, alertando sobre riesgos inflacionarios y de crecimiento vinculados a la energía, así como sobre la evolución de la situación en Francia.</p>
+<p>En este contexto, el sector bancario español y europeo ha experimentado correcciones bursátiles importantes (<em>&quot;La banca española y europea se despeñan en Bolsa pese a sus beneficios récord&quot;</em>, Cinco Días, 30 de octubre de 2026), afectando al índice Ibex 35. Las acciones de CaixaBank (<code>CABK.MC</code>) cotizan a <strong>11,20 EUR</strong>, registrando una rentabilidad a 21 días de <strong>-6,90%</strong> y una caída del <strong>-11,32%</strong> a 63 días, situándose su RSI de 14 sesiones en <strong>33,63</strong> (en niveles próximos a sobreventa pero sin señales inequívocas de suelo técnico) y con una cotización por debajo de sus medias móviles de 20 y 50 sesiones (SMA20 en 11,70 EUR y SMA50 en 12,52 EUR).</p>
+<h6>2. Análisis Fundamental y Resultados Financieros</h6>
+<p>CaixaBank ha presentado recientemente sus resultados correspondientes a los primeros nueve meses de 2026, reportando un beneficio neto de <strong>4.962 millones de euros</strong> (un incremento interanual del 12,9%), y anunciando el abono de un dividendo de aproximadamente 18,8 céntimos por acción para la próxima semana (CapitalMadrid, Rankia, 30 de octubre de 2026). Pese a la solidez de las cifras, el mercado ha penalizado al valor debido a la moderación observada en el margen de intereses.</p>
+<p>A nivel de métricas fundamentales disponibles:</p>
+<ul>
+<li><strong>Capitalización de Mercado</strong>: ~77.748 millones de EUR.</li>
+<li><strong>PER Trailing</strong>: 13,02x; <strong>PER Forward</strong>: 10,29x.</li>
+<li><strong>Precio sobre Valor en Libros (P/B)</strong>: 2,01x (con un valor en libros por acción de 5,56 EUR).</li>
+<li><strong>Rentabilidad por Dividendo (Dividend Yield)</strong>: 4,46%.</li>
+<li><strong>Rentabilidad sobre el Patrimonio (ROE)</strong>: 16,52%.</li>
+<li><strong>Precio Objetivo Medio del Consenso</strong>: 13,22 EUR (con un rango entre 6,80 EUR y 15,30 EUR aportado por 21 analistas), lo que implica un potencial alcista de consenso del <strong>18,07%</strong> desde los actuales 11,20 EUR.</li>
+</ul>
+<h6>3. Evidencia y Consideraciones Contarias / de Riesgo</h6>
+<ul>
+<li><strong>Contarias / Soporte</strong>: Los resultados récord del grupo, un ROE elevado del 16,52%, y una rentabilidad por dividendo atractiva cercana al 4,5% sustentan el atractivo a medio plazo y el respaldo del consenso de analistas (con upside del 18%). Asimismo, la directiva ha señalado la robustez del negocio a pesar de advertir sobre el déficit estructural de vivienda en España y su potencial impacto en la financiación hipotecaria futura.</li>
+<li><strong>Riesgos / Contrarias</strong>: El sector bancario europeo sufre presiones bajistas generalizadas en Bolsa ante la pausa y las perspectivas de tipos del BCE (fijados en el 2,5%), lo que presiona el margen de intereses de las entidades. Técnicamente, <code>CABK.MC</code> se encuentra en tendencia bajista a corto plazo (-11,3% trimestral) y por debajo de sus medias rápidas.</li>
+</ul>
+<h6>4. Datos Faltantes</h6>
+<p>No se dispone en el conjunto de datos de estimaciones detalladas sobre morosidad futura desagregada o la evolución exacta del coste de riesgo más allá del beneficio neto consolidado y las ratios generales proporcionadas.</p>
+<hr />
+<h6>Resumen Estructurado (Tabla de Datos Clave)</h6>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Métrica / Concepto</th>
+<th style="text-align:left">Valor / Detalle</th>
+<th style="text-align:left">Fuente / Referencia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Ticker</strong></td>
+<td style="text-align:left"><code>CABK.MC</code> (CaixaBank, S.A.)</td>
+<td style="text-align:left">Yahoo Finance / Snapshot</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Precio Actual</strong></td>
+<td style="text-align:left">11,20 EUR (al 30/10/2026)</td>
+<td style="text-align:left">Yahoo Finance</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Capitalización Bursátil</strong></td>
+<td style="text-align:left">~77.748 millones de EUR</td>
+<td style="text-align:left">Yahoo Finance</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>PER Trailing / Forward</strong></td>
+<td style="text-align:left">13,02x / 10,29x</td>
+<td style="text-align:left">Yahoo Finance</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Rentabilidad por Dividendo</strong></td>
+<td style="text-align:left">4,46%</td>
+<td style="text-align:left">Yahoo Finance</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Beneficio Neto (9M 2026)</strong></td>
+<td style="text-align:left">4.962 millones de EUR (+12,9%)</td>
+<td style="text-align:left">CapitalMadrid / Rankia</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Consenso de Analistas (Precio Medio)</strong></td>
+<td style="text-align:left">13,22 EUR (+18,07% upside)</td>
+<td style="text-align:left">Yahoo Finance (21 analistas)</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Indicadores Técnicos</strong></td>
+<td style="text-align:left">RSI(14): 33,63; SMA20: 11,70 EUR; SMA50: 12,52 EUR</td>
+<td style="text-align:left">Yahoo Finance</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Contexto Macroeconómico</strong></td>
+<td style="text-align:left">Tipos BCE mantenidos en 2,5% (Oct 2026)</td>
+<td style="text-align:left">Cobertura de prensa y agencias</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="s1-3">Fundamentals Analyst</h3>
+<p><strong>Rating</strong>: REVIEW</p>
+<p><strong>FINAL TRANSACTION PROPOSAL</strong>: HOLD</p>
+<hr />
+<h6>Informe Fundamental Integral: CaixaBank, S.A. (<code>CABK.MC</code>)</h6>
+<h6>1. Perfil de la Compañía y Resumen de Negocio</h6>
+<ul>
+<li><strong>Identidad:</strong> CaixaBank, S.A. (<code>CABK.MC</code>), entidad financiera de gran relevancia en España, clasificada bajo Servicios Financieros / Bancos Regionales. Cotiza en el mercado bursátil de Madrid (MCE) y forma parte del selectivo nacional (benchmark <code>^IBEX</code>).</li>
+<li><strong>Modelo operativo y sectorial:</strong> Como banco comercial y minorista, su negocio principal se sustenta en la captación de depósitos, concesión de créditos e hipotecas, gestión de activos y seguros. Al tratarse de una entidad financiera, no aplican los múltiplos industriales tradicionales (como ratios de deuda/EBITDA industriales o PER estándar de manufactura).</li>
+<li><strong>Contexto macroeconómico reciente (Octubre 2026):</strong> Los mercados europeos y la banca española han experimentado correcciones recientes en bolsa a finales de octubre de 2026 (según coberturas de prensa de <em>Cinco Días</em>, <em>El Boletín</em> y <em>Estrategias de Inversión</em>), a pesar de reportar sólidos beneficios. Esto ocurre en un entorno donde el Banco Central Europeo (BCE) mantuvo los tipos de interés oficiales en el 2,5% a finales de octubre de 2026, manteniendo la cautela sobre las perspectivas inflacionarias y el crecimiento económico.</li>
+</ul>
+<hr />
+<h6>2. Análisis de Estados Financieros y Fundamentales Clave</h6>
+<p>Los datos financieros y de mercado extraídos de la instantánea oficial reflejan la solidez patrimonial y de beneficios de la entidad:</p>
+<ul>
+<li><strong>Capitalización de Mercado:</strong> ~77.748 millones de EUR (<code>marketCap</code>: 77.748.084.736 EUR).</li>
+<li><strong>Valor en Bolsa (Precio a fecha 30-10-2026):</strong> 11,20 EUR por acción (<code>CABK.MC</code>).</li>
+<li><strong>Resultados e Ingresos Recientes:</strong>
+<ul>
+<li>Para el ejercicio anual finalizado el 31-12-2024, la compañía reportó ingresos totales (<em>Total Revenue</em>) de 16.951 millones de EUR y un beneficio neto (<em>Net Income</em>) de 5.787 millones de EUR.</li>
+<li>Para el cierre de 2025, el beneficio neto reportado ascendió a 5.891 millones de EUR.</li>
+<li>En cuanto al ejercicio en curso (resultados publicados el 30 de octubre de 2026 correspondientes a los primeros nueve meses del año), CaixaBank comunicó un beneficio neto de 4.962 millones de EUR, lo que representa un incremento interanual del 12,9%, destacando asimismo anuncios de retribución al accionista (como el dividendo de 18,8 céntimos por acción previsto para la primera semana de noviembre de 2026, según <em>CapitalMadrid</em>).</li>
+</ul>
+</li>
+<li><strong>Múltiplos de Valoración:</strong>
+<ul>
+<li><strong>PER Histórico (<em>Trailing P/E</em>):</strong> 13,02x.</li>
+<li><strong>PER Estimado (<em>Forward P/E</em>):</strong> 10,29x (con un beneficio por acción estimado (<em>forward EPS</em>) de 1,088 EUR frente al EPS histórico de 0,86 EUR).</li>
+<li><strong>Precio sobre Valor en Libros (<em>Price-to-Book</em>):</strong> 2,01x (con un valor contable por acción de 5,559 EUR).</li>
+</ul>
+</li>
+<li><strong>Rentabilidad y Dividendos:</strong>
+<ul>
+<li><strong>Rentabilidad sobre Recursos Propios (<em>Return on Equity</em> - ROE):</strong> 16,52%.</li>
+<li><strong>Márgenes de Beneficio (<em>Profit Margins</em>):</strong> 40,33%, lo que evidencia una alta eficiencia operativa y generación de retornos netos sobre su volumen de negocio.</li>
+<li><strong>Rentabilidad por Dividendo (<em>Dividend Yield</em>):</strong> 4,46% (dividendo anual fijado en 0,50 EUR por acción, con un <em>payout ratio</em> del 56,81%).</li>
+</ul>
+</li>
+<li><strong>Estructura de Balance y Liquidez:</strong>
+<ul>
+<li><strong>Total de Activos (cierre 2025):</strong> 664.040 millones de EUR (creciendo desde los 631.003 millones en 2024 y 607.167 millones en 2023).</li>
+<li><strong>Fondos Propios (<em>Stockholders Equity</em>):</strong> 38.510 millones de EUR al cierre de 2025.</li>
+<li><strong>Deuda Total:</strong> 49.488 millones de EUR (cierre 2025).</li>
+<li><strong>Efectivo Total (<em>Total Cash</em>):</strong> 36.865 millones de EUR.</li>
+<li><strong>Flujo de Caja Libre (FCF):</strong> Registró 3.439 millones de EUR al cierre de 2025 (tras un flujo operativo de 4.410 millones de EUR y capex de -971 millones de EUR). <em>Nota: Los flujos de caja de 2024 reflejaban cifras operativas extraordinarias de 16.846 millones de EUR debido a movimientos estacionales o de liquidez interbancaria propios de la contabilidad bancaria.</em></li>
+</ul>
+</li>
+<li><strong>Consenso de Analistas:</strong>
+<ul>
+<li>El precio objetivo medio de consenso (<em>targetMeanPrice</em>) se sitúa en <strong>13,22 EUR</strong>, abarcando un rango desde un mínimo de 6,80 EUR hasta un máximo de 15,30 EUR (basado en la opinión de 21 analistas). Esto implica un potencial de revalorización (<em>consensus upside</em>) del <strong>18,07%</strong> sobre el precio de cierre actual de 11,20 EUR.</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h6>3. Indicadores Técnicos y Situación de Mercado</h6>
+<ul>
+<li><strong>Precio de Cierre (30-10-2026):</strong> 11,20 EUR.</li>
+<li><strong>RSI (14 sesiones):</strong> 33,63 (cercano a la zona de sobreventa, reflejando la presión vendedora reciente en el sector bancario europeo).</li>
+<li><strong>MACD:</strong> -0.358 (con señal en -0.343), indicando un impulso bajista a corto plazo.</li>
+<li><strong>Medias Móviles:</strong>
+<ul>
+<li>SMA de 20 sesiones: 11,70 EUR.</li>
+<li>SMA de 50 sesiones: 12,52 EUR.</li>
+<li>SMA de 200 sesiones: 11,56 EUR.</li>
+</ul>
+</li>
+<li><strong>Drawdown:</strong> -17,19% desde sus máximos recientes, situando a la acción en una corrección moderada, con una volatilidad anualizada del 23,87%.</li>
+</ul>
+<hr />
+<h6>4. Evidencia Reciente y Noticias del Sector (Octubre 2026)</h6>
+<ul>
+<li><em>CapitalMadrid</em> (30-10-2026): Cobertura de los resultados a septiembre de 2026, destacando un beneficio de 4.962 millones de euros (+12,9%) y el abono inminente de un dividendo de 18,8 céntimos por acción.</li>
+<li><em>Rankia</em> y <em>El blog del Euríbor</em> (30-10-2026): Análisis de los resultados trimestrales, señalando que si bien el beneficio neto crece con fuerza, el margen de intereses muestra signos de moderación/freno ante el nuevo contexto de tipos de interés del BCE.</li>
+<li><em>OkDiario</em> / <em>elDiario.es</em> (30-10-2026): Declaraciones de la directiva de CaixaBank advirtiendo sobre el déficit estructural de vivienda en España y su posible impacto en la ralentización futura de la concesión de hipotecas si no se incrementa la oferta de obra nueva.</li>
+<li><em>Cinco Días</em></li>
+</ul>
+</section><section id="s2"><h2>II. Research Team Decision</h2><h3 id="s2-1">Bull Researcher</h3>
+<p>Bull Analyst: <strong>Rating</strong>: REVIEW</p>
+<p>FINAL TRANSACTION PROPOSAL: HOLD</p>
+<p>¡Hola colega! Entiendo perfectamente la cautela que impera en el mercado y las dudas que genera el sector financiero europeo tras las últimas sesiones de ajuste. Es cierto que el Banco Central Europeo ha fijado los tipos en el <strong>2,5%</strong> y que la propia directiva de CaixaBank ha señalado una moderación en el margen de intereses a corto plazo, además del persistente debate sobre el déficit de vivienda y su impacto en la financiación hipotecaria. Sin embargo, mirar exclusivamente la corrección reciente de <code>CABK.MC</code> —que cotiza a <strong>11,20 EUR</strong> con un <em>drawdown</em> del -17,19% y un RSI de 33,63 rozando la sobreventa— es perderse la magnífica salud fundamental y el potencial estructural que justifican una perspectiva claramente alcista a medio plazo.</p>
+<p>Vamos a desglosar por qué la tesis bajista se queda corta frente a los datos reales:</p>
+<h6>1. Crecimiento Real y Solidez de Beneficios</h6>
+<p>Los osos argumentan que el rally de la banca ha tocado techo, pero los números de <code>CABK.MC</code> contradicen esa narrativa pesimiza. En la última presentación de resultados a septiembre de 2026, la entidad reportó un beneficio neto de <strong>4.962 millones de euros</strong>, lo que supone un <strong>crecimiento interanual del 12,9%</strong>. ¿Estamos ante un banco estancado? Para nada. Con un beneficio por acción estimado (<em>forward EPS</em>) que sube hasta los <strong>1,088 EUR</strong> y un <strong>Forward P/E muy atractivo de 10,29x</strong>, el mercado está castigando injustamente a la acción por la incertidumbre macroeconómica general, ignorando la capacidad operativa superior del grupo.</p>
+<h6>2. Rentabilidad y Retornos al Accionista Incomparables</h6>
+<p>Frente a las dudas sobre la sostenibilidad de los retornos, la evidencia es contundente: CaixaBank presenta un <strong>ROE del 16,52%</strong> y unos márgenes de beneficio neto envidiables del <strong>40,33%</strong>. Esto se traduce en valor tangible directo para el inversor. Hablamos de una <strong>rentabilidad por dividendo (<em>dividend yield</em>) del 4,46%</strong>, respaldada por un sólido <em>payout ratio</em> del 56,81% y complementada por pagos recurrentes (como el dividendo de 18,8 céntimos por acción que se abona esta misma semana). Mientras los bajistas debaten sobre si el margen de intereses ha pisado freno, los accionistas siguen cobrando retornos de doble dígito combinados.</p>
+<h6>3. Ventaja Competitiva y Dominio de Mercado</h6>
+<p>Como banco regional líder en España dentro de los Servicios Financieros, <code>CABK.MC</code> cuenta con un balance blindado y una escala inigualable (unos activos totales que superan los <strong>664.000 millones de euros</strong> al cierre del último ejercicio). Su posición de liderazgo en banca minorista, seguros y gestión de activos le otorga una resiliencia operativa que los competidores más pequeños simplemente no pueden replicar. Ante los retos del mercado inmobiliario, la diversificación de sus líneas de negocio le permite capear los ciclos con una solvencia fuera de toda duda.</p>
+<h6>4. ¿Qué dice el Consenso de Analistas?</h6>
+<p>No soy solo yo defendiendo el potencial alcista. El consenso de mercado basado en <strong>21 analistas</strong> sitúa el precio objetivo medio en <strong>13,22 EUR</strong>, lo que representa un <strong>potencial de revalorización (<em>consensus upside</em>) del 18,07%</strong> desde los niveles actuales de 11,20 EUR, con techos que alcanzan los 15,30 EUR. Además, técnicamente nos encontramos en una zona de soporte muy interesante sobre la media móvil de 200 sesiones (SMA200 en 11,57 EUR) y con un RSI en 33 que anticipa un rebote inminente en cuanto la presión vendedora sectorial se disipe.</p>
+<p>En definitiva, reducir a <code>CABK.MC</code> a los temores coyunturales del BCE es ignorar una máquina de generar beneficios con un ROE del 16,5%, un dividendo del 4,5% y un descuento del 18% respecto a su valor objetivo de consenso. ¡Mantener la posición y acumular en este recorte es la jugada inteligente!</p>
+<h3 id="s2-2">Bear Researcher</h3>
+<p>Bear Analyst: <strong>Rating</strong>: REVIEW</p>
+<p>FINAL TRANSACTION PROPOSAL: HOLD</p>
+<p>¡Hola, colega! Comprendo perfectamente tu optimismo y tus ganas de agarrarte a esos 4.962 millones de euros de beneficio neto a septiembre o a ese dividendo de la próxima semana. Suenan de maravilla sobre el papel. Pero seamos sinceros: mirar los resultados pasados de <code>CABK.MC</code> en este momento exacto es como conducir mirando por el espejo retrovisor mientras el coche se acerca directo a una curva muy cerrada.</p>
+<p>Vamos a desmontar poco a poco esa falsa sensación de seguridad que intentas vender:</p>
+<h6>1. El espejismo del beneficio récord y el frenazo del margen de intereses</h6>
+<p>Te agarras con fuerza al crecimiento interanual del 12,9%, pero prefieres pasar de puntillas sobre el titular que realmente debería encender todas nuestras alarmas: <strong>el margen de intereses está frenando en seco</strong>. Las propias noticias del sector de finales de octubre de 2026 lo avisan sin ambages. Con el Banco Central Europeo manteniendo los tipos en el <strong>2,5%</strong> y advirtiendo sobre riesgos inflacionarios y de crecimiento energético, el viento de cola que ha impulsado a la banca en los últimos años se ha agotado. Celebrar un <em>Forward P/E</em> de 10,29x o un BPA estimado de 1,088 EUR ignorando que el principal motor de ingresos de un banco comercial minorista está perdiendo tracción es jugar con fuego. ¿De verdad crees que los márgenes van a seguir escalando con tipos estancados o a la baja?</p>
+<h6>2. Una rentabilidad (ROE) que ya ha tocado techo cíclico</h6>
+<p>Sacar pecho con un ROE del 16,52% y unos márgenes netos del 40,33% está muy bien para los libros de historia reciente, pero en banca el pasado no paga dividendos futuros. Estamos en la cúspide del ciclo económico para el sector financiero, y cuando el ciclo gira, la caída en los retornos sobre recursos propios suele ser rápida y dolorosa. Además, cotizar a un múltiplo <em>Price-to-Book</em> de <strong>2,01x</strong> —pagando más del doble de su valor contable por acción (5,56 EUR)— no es precisamente una ganga; es un precio exigente que descuenta una perfección operativa que sencillamente no se va a mantener en un entorno macroeconómico tan frágil.</p>
+<h6>3. Vulnerabilidades estructurales: El ladrillo y la presión bursátil</h6>
+<p>Me hablas de un balance blindado y de activos superiores a los 664.000 millones de euros, pero olvidas un detalle crítico que la propia directiva de CaixaBank ha puesto sobre la mesa: <strong>el gravísimo déficit estructural de vivienda en España y su impacto directo en la desaceleración de las hipotecas</strong>. Si la construcción de obra nueva no arranca, la concesión de nuevos créditos hipotecarios —el núcleo de su negocio minorista— va a frenarse en seco. A esto súmale la realidad del parqué: el gráfico no miente. Un <em>drawdown</em> del <strong>-17,19%</strong>, un RSI de <strong>33,63</strong> rozando la sobreventa y unas medias móviles (SMA20 en 11,70 EUR y SMA50 en 12,51 EUR) que actúan como claros techos dinámicos demuestran que la presión bajista no es un &quot;simple ruido&quot;, sino una salida de capitales institucional más que evidente. La banca europea y española se está desinflando en Bolsa, y <code>CABK.MC</code> no es inmune a esa sangría.</p>
+<h6>4. ¿Consensus upside del 18%? Cuidado con las trampas del consenso</h6>
+<p>Siempre recurres al comodín de los 21 analistas y su precio objetivo medio de 13,22 EUR para justificar un potencial del 18%. Pero recuerda que el consenso de analistas suele ir siempre por detrás de la curva, recortando objetivos tarde y mal cuando las dinámicas macroeconómicas cambian. Confiar ciegamente en una zanahoria a 13,22 EUR mientras el valor perfora soportes a corto plazo y cotiza por debajo de su media de 20 y 50 sesiones es una receta perfecta para quedar atrapados en una trampa de valor (<em>value trap</em>).</p>
+<p>En resumen: <code>CABK.MC</code> es una gran entidad, nadie lo discute, pero su cotización actual a 11,20 EUR refleja un optimismo injustificado ante un escenario de tipos del BCE congelados en el 2,5%, un margen de intereses debilitado y un mercado hipotecario amenazado por la falta de vivienda. Comprar en este recorte no es &quot;la jugada inteligente&quot;, es intentar atrapar un cuchillo que cae en plena corrección sectorial. ¡Más cautela y menos triunfalismo!</p>
+<h3 id="s2-3">Research Manager</h3>
+<p><strong>Recommendation</strong>: Overweight</p>
+<p><strong>Rationale</strong>: El debate entre el analista alcista y el bajista pone sobre la mesa una divergencia clara: mientras el toro defiende la excepcional fortaleza fundamental de CaixaBank (beneficios netos récord de 4.962 millones de euros, ROE del 16,52%, rentabilidad por dividendo del 4,46% y un atractivo Forward P/E de 10,29x frente a un precio objetivo de consenso de 13,22 EUR), el oso advierte sobre vientos en contra macroeconómicos muy reales, como el frenazo en el margen de intereses tras la fijación de tipos del BCE en el 2,5%, el estancamiento del mercado hipotecario por el déficit de vivienda y un sentimiento bursátil bajista reflejado en un drawdown del -17,19% y un RSI en 33,63. Tras sopesar ambas posturas, el bando alcista se impone gracias a que la solidez operativa y la abrumadora rentabilidad del negocio (respaldadas por un payout del 56,8% y retornos de doble dígito) compensan con creces los temores cíclicos a corto plazo, ofreciendo un margen de seguridad razonable y un descuento considerable frente al potencial de revalorización del 18,07% estimado por el consenso.</p>
+<p><strong>Strategic Actions</strong>: Ejecutar una acumulación progresiva de CABK.MC aprovechando la corrección actual y la proximidad técnica a soportes (zona de 11,20 EUR y media móvil de 200 sesiones en 11,57 EUR). Dado el perfil de volatilidad del 23,87% y la presión bajista sectorial, se recomienda iniciar la posición utilizando el 50% de la asignación estándar destinada al valor, reservando el 50% restante para promediar a la baja en caso de que el valor profundice su corrección a corto plazo.</p>
+</section><section id="s3"><h2>III. Trading Team Plan</h2><h3 id="s3-1">Trader</h3>
+<p><strong>Action</strong>: Buy</p>
+<p><strong>Reasoning</strong>: La valoracion fundamental muestra un atractivo Forward P/E de 10,29x y un ROE del 16,52% que respaldan los sólidos beneficios de la entidad, mientras que el RSI en 33,63 y la cercanía de la media móvil de 200 sesiones en 11,57 EUR ofrecen una oportunidad atractiva de entrada técnica tras la reciente corrección del -17,19% desde máximos.</p>
+<p><strong>Entry Price</strong>: 11.2</p>
+<p><strong>Stop Loss</strong>: 10.35</p>
+<p><strong>Position Sizing</strong>: 5% de cartera</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>BUY</strong></p>
+</section><section id="s4"><h2>IV. Risk Management Team Decision</h2><h3 id="s4-1">Aggressive Analyst</h3>
+<p>Aggressive Analyst: <strong>Rating</strong>: REVIEW</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>BUY</strong></p>
+<p>¡Despertemos de una vez de ese letargo conservador y de esa tibieza analítica que nos paraliza ante el miedo al ruido de corto plazo! Mientras el analista conservador tiembla porque el sector bancario europeo ha sufrido correcciones recientes y el analista neutral se esconde detrás de la pausa de tipos del BCE al 2,5% y la moderación del margen de intereses, los inversores audaces vemos la verdadera oportunidad de oro en <code>CABK.MC</code>.</p>
+<p>¿Qué es lo que nos muestran los datos reales y duros de la compañía? Ignorar la evidencia fundamental es de auténticos pusilánimes. CaixaBank acaba de reportar un beneficio neto de nada menos que <strong>4.962 millones de euros</strong> a septiembre, un <strong>12,9% más</strong> interanual, respaldado por un <strong>ROE envidiable del 16,52%</strong> y unos márgenes de beneficio neto colosales del <strong>40,33%</strong>. ¿Me van a decir que un valor con estas credenciales operativas está caro cotizando a un <strong>Forward P/E de apenas 10,29x</strong>? Esa valoración es una auténtica ganga para una entidad líder en el mercado español que genera semejante rentabilidad. Pretender esperar a que todo el sector se recupere para subirse al carro es llegar tarde y perderse la parte más suculenta del ciclo.</p>
+<p>¿Y qué me dicen del pánico técnico que intentan vendernos? Nos hablan de un retroceso y de que cotiza bajo la SMA20 y la SMA50, ¡pero se olvidan convenientemente de que el <strong>RSI se sitúa en 33,63</strong>, rozando la sobreventa, y que estamos testeando la <strong>media móvil de 200 sesiones en 11,57 EUR</strong> tras un <em>drawdown</em> del <strong>-17,19%</strong> desde máximos! Esta corrección del -17% no es una señal para huir; es una clarísima ventana de entrada táctica para comprar activos de altísima calidad a precio de descuento. El precio objetivo medio del consenso de analistas se alza en <strong>13,22 EUR</strong>, lo que representa un <strong>potencial alcista (<em>upside</em>) del 18,07%</strong> desde los actuales 11,20 EUR. A esto hay que sumarle una jugosa <strong>rentabilidad por dividendo del 4,46%</strong> (con un dividendo de casi 19 céntimos listo para abonarse la próxima semana).</p>
+<p>La postura neutral de &quot;esperar y ver&quot; y la alarma conservadora por la ligera desaceleración del margen de intereses o las advertencias sobre el déficit de vivienda ignoran el músculo financiero y la capacidad de adaptación de un gigante como CaixaBank. El mercado está castigando injustamente a la banca arrastrado por la incertidumbre macroeconómica general, pero los fundamentales de <code>CABK.MC</code> son de hierro. Arriesgar con una posición de un 5% de cartera a un precio de entrada de 11,20 EUR, protegiéndonos con un Stop Loss disciplinado en 10,35 EUR, no es una apuesta imprudente: es una estrategia agresiva, inteligente y altamente rentable para capturar el rebote inminente hacia el consenso de los 13,22 EUR. ¡Dejen de buscar excusas para no ganar dinero y aprovechen esta inmejorable asimetría de riesgo-recompensa!</p>
+<h3 id="s4-2">Conservative Analyst</h3>
+<p>Conservative Analyst: Rating: REVIEW</p>
+<p>FINAL TRANSACTION PROPOSAL: HOLD</p>
+<p>Permítanme intervenir para poner un poco de cordura y rigor financiero ante el entusiasmo desmedido y la temeridad que acabo de escuchar por parte del analista agresivo. Calificar de &quot;pusilánimes&quot; o de &quot;letargo&quot; el análisis prudente no solo demuestra una falta de respeto profesional, sino una peligrosa miopía ante los riesgos reales que acechan a los mercados y a <code>CABK.MC</code> en este preciso momento. Proteger el patrimonio de la firma no es temblar; es gestionar con cabeza fría.</p>
+<p>El analista agresivo nos inunda con titulares grandilocuentes sobre los 4.962 millones de euros de beneficio neto a septiembre y un ROE del 16,52%, exigiendo una compra inmediata con el 5% de la cartera. Sin embargo, ignora deliberadamente las señales de advertencia que la propia directiva de la entidad ha puesto sobre la mesa y el contexto macroeconómico hostil. Se nos olvida que el margen de intereses está frenando, tal como lo señalan los informes recientes del sector a finales de octubre de 2026, y que el Banco Central Europeo ha decidido mantener los tipos de interés en el 2,5%, advirtiendo de claros riesgos inflacionarios y energéticos. Comprar banca regional en plena fase de estancamiento del margen de tipos y con la advertencia explícita de la propia CaixaBank sobre una desaceleración en la concesión de hipotecas debido al déficit de vivienda en España no es una oportunidad de oro; es asumir un riesgo estructural innecesario.</p>
+<p>Desde el punto de vista técnico, el optimismo del analista roza la irresponsabilidad. Nos vende un RSI en 33,63 y un acercamiento a la media móvil de 200 sesiones en 11,57 EUR como una &quot;ganga&quot;, pero omite que el precio de 11,20 EUR ya ha perforado a la baja la SMA20 (11,70 EUR) y la SMA50 (12,52 EUR), con un MACD profundamente en terreno negativo (-0,358). Un valor que acumula un retroceso del -17,19% desde sus máximos y que se encuentra inmerso en una tendencia bajista a corto plazo (un -11,3% en 63 sesiones) no muestra un suelo consolidado; muestra presión vendedora institucional. El mercado bursátil español y europeo no está &quot;castigando injustamente&quot; al sector por capricho; está descontando un entorno macroeconómico complejo donde la banca europea se está despeñando en bolsa a pesar de sus beneficios récord pasados.</p>
+<p>Además, proponer un Stop Loss en 10,35 EUR frente a un precio de entrada de 11,20 EUR implica asumir una pérdida potencial directa de más del 7,5% en busca de un supuesto objetivo de consenso de 13,22 EUR. Arriesgar un 5% de la cartera en un activo con una volatilidad anualizada del 23,87% y bajo un régimen de tipos del BCE estancados en el 2,5% vulnera por completo nuestros principios fundamentales de preservación de capital y mitigación de la volatilidad.</p>
+<p>La recomendación sensata y responsable para <code>CABK.MC</code> es mantenernos al margen de esta compra impulsiva. Exigir una postura de espera (REVIEW y HOLD) hasta que el valor demuestre un soporte técnico real y una estabilización clara de sus márgenes de intereses es la única manera de asegurar que los activos de la firma no queden expuestos a una corrección mayor. No caigamos en la trampa del optimismo ciego.</p>
+<h3 id="s4-3">Neutral Analyst</h3>
+<p>Neutral Analyst: <strong>Rating</strong>: REVIEW</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+<p>Escuchando las posturas de mis colegas, queda claro que ambos extremos pecan de inflexibilidad. Por un lado, el analista agresivo desestima por completo el riesgo macroeconómico y técnico actual de <code>CABK.MC</code>, cegado por unos magníficos beneficios de 4.962 millones de euros a septiembre y un ROE del 16,52%. Pretende comprar de inmediato arriesgando un 5% de la cartera basándose en que el RSI está en 33,63, ignorando que el precio ya ha perforado a la baja la SMA20 y la SMA50, y que el sector bancario europeo arrastra una presión vendedora evidente tras la pausa de tipos del BCE al 2,5%.</p>
+<p>Por otro lado, el analista conservador se refugia en un inmovilismo paralizante, exagerando la caída y tildando de imprudencia cualquier acercamiento a un valor que cotiza a un atractivo Forward P/E de 10,29x y ofrece una rentabilidad por dividendo del 4,46% cercana a su inminente abono. Temer a una corrección del -17,19% desde máximos sin valorar que el precio está probando la media móvil de 200 sesiones en 11,57 EUR frente a un precio de entrada de 11,20 EUR es perder la perspectiva de la relación asimétrica que ofrece el mercado. El analista conservador olvida que las mejores oportunidades de acumulación de calidad ocurren precisamente cuando el mercado general sufre ruidos de corto plazo.</p>
+<p>La postura verdaderamente inteligente y equilibrada no es lanzarse a comprar a ciegas ni tampoco cerrar la puerta y quedarse sentados sobre las manos. La solución intermedia y sostenible pasa por adoptar una estrategia de paciencia táctica y acumulación escalonada. Los fundamentos de CaixaBank son sólidos como una roca y el consenso de analistas sitúa su precio objetivo medio en 13,22 EUR, lo que implica un jugoso potencial de revalorización del 18%. Sin embargo, la debilidad técnica a corto plazo y el MACD negativo exigen prudencia para no sufrir un retroceso adicional antes de encontrar un suelo definitivo.</p>
+<p>Por lo tanto, la recomendación más sensata es mantener la posición en <strong>HOLD</strong>, esperando a que el valor confirme una estabilización real sobre la zona de la media de 200 sesiones o muestre un volumen comprador claro antes de comprometer capital. No es momento de apresurarse, pero tampoco de ignorar el valor excepcional que esconde <code>CABK.MC</code> en su estructura a medio plazo.</p>
+</section><section id="s5"><h2>V. Portfolio Manager Decision</h2><h3 id="s5-1">Portfolio Manager</h3>
+<p><strong>Rating</strong>: Overweight</p>
+<p><strong>Executive Summary</strong>: Se recomienda adoptar una postura de sobreponderación (Overweight) sobre CABK.MC, aprovechando la corrección actual del -17,19% y su proximidad a la media móvil de 200 sesiones (11,57 EUR) para iniciar una acumulación progresiva. Se aconseja utilizar el 50% de la asignación estándar para la entrada actual a 11,20 EUR, reservando el capital restante para mitigar riesgos técnicos a corto plazo, con un horizonte temporal de 6 a 12 meses.</p>
+<p><strong>Investment Thesis</strong>: El análisis de la cartera y el debate de los analistas inclinan la balanza claramente hacia el bando alcista. Aunque el analista conservador y el neutral advierten sobre la presión bajista a corto plazo (RSI en 33,63, MACD negativo, perforación de las medias de 20`, y 50 sesiones) y el freno en el margen de intereses tras la fijación de tipos del BCE en el 2,5%, el argumento fundamental del bando agresivo resulta ser sustancialmente superior. CaixaBank presenta unos beneficios netos récord de 4.962 millones de euros a septiembre (un 12,9% más interanual), un ROE sobresaliente del 16,52%, un atractivo Forward P/E de 10,29x y una rentabilidad por dividendo del 4,46%. Estos sólidos fundamentales respaldan un precio objetivo de consenso de 13,22 EUR, ofreciendo un potencial alcista del 18,07%. La fuerte corrección bursátil responde más al ruido macroeconómico general que a debilidades estructurales de la entidad, creando una asimetría favorable de riesgo-recompensa para inversores con visión a medio plazo. Lo que invalidaría esta tesis sería un deterioro macroeconómico severo que destruyera la calidad crediticia de la cartera o una ruptura sostenida a la baja de los soportes técnicos fundamentales.</p>
+<p><strong>Price Target</strong>: 13.22</p>
+<p><strong>Time Horizon</strong>: 6-12 meses</p>
+</section>
+</main>
+<footer class="credit"><a href="https://github.com/TauricResearch/TradingAgents" rel="noopener">TradingAgents</a> powered by <a class="brand" href="https://github.com/TauricResearch" rel="noopener">Tauric Research</a></footer>
+</div>
+<a class="to-top" href="#top">Top</a>
+</body>
+</html>

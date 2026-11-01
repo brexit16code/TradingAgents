@@ -1,0 +1,9 @@
+**Rating**: Hold
+
+**Executive Summary**: Mantener la asignación actual en PUIG.MC sin realizar nuevas compras ni aperturas de posiciones. Se recomienda esperar a una corrección hacia soportes dinámicos o la media móvil de 20 sesiones en 18,87 EUR para considerar incrementos tácticos.
+
+**Investment Thesis**: Tras sopesar las posturas de los analistas, la evidencia se mantiene equilibrada. El analista agresivo destaca la fortaleza técnica con cotización por encima de las medias móviles de 20, 50 y 200 sesiones, un rendimiento superior al IBEX del +16,16% a 63 sesiones, y los ambiciosos planes estratégicos presentados en su Investor's Day para disparar las ventas un 60% en 7 años gracias a su entrada en Amazon, Asia y dermocosmética. Por otro lado, el analista conservador advierte que gran parte de los catalizadores positivos ya están descontados, señalando un PER adelantado de 16,07x, un potencial alcista de consenso limitado al 8% frente al precio objetivo medio de 20,81 EUR, y una volatilidad anualizada del 21,98% en un entorno de tipos del BCE en el 2,50%. El analista neutral argumenta acertadamente que la deuda neta sobre EBITDA se mantiene manejable en 1,63x, respaldada por un flujo de caja libre superior a 502 millones de euros, lo que impide una recomendación de venta o reducción, pero la valoración actual y el RSI en 59,04 sugieren prudencia y desaconsejan compras agresivas en este nivel. Lo que cambiaría esta tesis sería una corrección técnica significativa hacia soportes que mejore el margen de seguridad o una aceleración en la ejecución de los planes de expansión internacional.
+
+**Price Target**: 20.81
+
+**Time Horizon**: 3-6 months

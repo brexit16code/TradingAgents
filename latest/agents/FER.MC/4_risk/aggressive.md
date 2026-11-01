@@ -1,0 +1,12 @@
+
+Aggressive Analyst: ¡Basta ya de vacilaciones y de ver fantasmas donde solo hay una máquina de imprimir dinero y generar valor excepcional! Mientras los analistas conservadores y neutrales se paralizan mirando múltiplos estáticos o se asustan por una ratio de apalancamiento que es perfectamente natural para un líder mundial en infraestructuras concesionales, están ignorando por completo la auténtica dimensión de la oportunidad que tenemos delante en Ferrovial (`FER.MC`). 
+
+¿Qué es eso de que el Forward P/E de 44.13x o una ratio de Deuda Neta a EBITDA de 4.38x son barreras insalvables? ¡Despierten! Estamos hablando de activos estratégicos irreplicables en Norteamérica y Europa, como lo demuestra el reciente y rotundo repunte del 15% impulsado por el éxito en la gestión de nuestras autopistas en EE. UU., la resolución de la incertidumbre en la I-24 y la búsqueda activa de socios de primer nivel para la I-285 en Georgia. La compañía acaba de reportar unos ingresos sólidos de 7.402 millones de euros a septiembre, lo que representa un crecimiento interanual del 10.8%, respaldado por un flujo de caja operativo masivo de 2.488 millones de euros y un flujo de caja libre que supera los 889 millones. ¡Una generosidad absoluta hacia el accionista refrendada por ese jugoso dividendo de 600 millones que se distribuirá en diciembre! 
+
+Pretender frenar al inversor bajo el pretexto de que el RSI está en 68.01 o de que el beneficio temporalmente registra una contracción menor es perderse el bosque por culpa de una hoja. El MACD nos confirma un claro cruce alcista (0.34 frente a -0.61), y las medias móviles de 20 y 50 sesiones han sido superadas con solvencia, situando la cotización actual en 50.70 EUR muy por encima de sus soportes de corto plazo. Además, el consenso de 20 analistas sitúa el precio objetivo medio en 60.10 EUR, lo que ofrece un potentísimo potencial alcista de doble dígito del 18.55% (con picos que alcanzan los 80 EUR). 
+
+La cautela excesiva nos condena a la mediocridad y a quedarnos sentados mientras el mercado premia a los valientes que entienden el verdadero valor de los monopolios viales. No podemos pestañear ante un líder indiscutible del IBEX 35 que está esculpiendo su futuro en el mercado norteamericano. Mantenerse neutral es sinónimo de perder el tren de la verdadera creación de riqueza. ¡Hay que arriesgar, capitalizar este impulso y mirar hacia la cima de los 60 EUR sin titubeos!
+
+**Rating**: BUY
+
+FINAL TRANSACTION PROPOSAL: **HOLD**

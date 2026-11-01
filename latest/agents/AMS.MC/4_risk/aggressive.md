@@ -1,0 +1,12 @@
+
+Aggressive Analyst: **Rating**: Hold
+
+FINAL TRANSACTION PROPOSAL: **HOLD**
+
+¡Despertemos de una vez de esa parálisis por análisis que frena a los prudentes y a los neutrales! Mientras el analista conservador y el neutral se ahogan en un vaso de agua por una leve desaceleración temporal de los beneficios del -2.6% y miran con miedo la volatilidad del 24.28% o los tipos del BCE anclados en el 2.5%, están ignorando por completo el cuadro general y la auténtica mina de oro que tenemos frente a nosotros en **AMS.MC**. 
+
+¿De verdad vamos a frenarnos por una contracción menor de las ganancias cuando el Forward P/E ha caído a unos atractivos 14.62x frente a su PER histórico de 18.73x? ¡Eso es una oportunidad de oro de valoración para comprar crecimiento a precio de saldo! Los tímidos y los neutrales se obsesionan con los riesgos macroeconómicos a corto plazo, pero olvidan que Amadeus es un gigante tecnológico con un ROE apabullante del 26.47% y márgenes de beneficio neto cercanos al 20%. Con un flujo de caja libre masivo superando los 2.900 millones de euros en métricas amplias y una deuda neta sobre EBITDA sumamente controlada en apenas 1.06x, la compañía tiene una salud de hierro y una capacidad inigualable para autofinanciar su expansión e innovación tecnológica. 
+
+¿Y qué me dicen del análisis técnico? Pretender que la situación es frágil es ignorar la realidad: el precio cotiza con solvencia por encima de su SMA20 en 54.61 EUR, su SMA50 en 55.04 EUR y su sólida media de 200 sesiones en 52.22 EUR. Con un RSI en 59.56 que respira salud y un MACD marcando un claro impulso alcista de 0.84 frente a su línea de señal de 0.50, el mercado ya nos está gritando que el rebote del +8.94% a 21 sesiones tiene un recorrido brutal por delante. El consenso de 22 analistas sitúa el precio objetivo medio en 69.58 EUR, lo que representa un potencial alcista explosivo del 22.58% que los temerosos están dispuestos a dejar sobre la mesa por puro pánico a la volatilidad. 
+
+Mantener la posición actual bajo nuestra estrategia de alta convicción no es dudar; es consolidar fuerzas antes de romper al alza con contundencia. ¡Dejemos que los conservadores sigan contando céntimos mientras nosotros nos preparamos para capturar toda la jugosa rentabilidad que **AMS.MC** tiene preparada!

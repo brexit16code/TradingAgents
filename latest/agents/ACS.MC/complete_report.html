@@ -1,0 +1,605 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'">
+<title>ACS.MC 2026-11-01 Hold: TradingAgents report</title>
+<style>
+:root {
+  --paper: #fbfbfa; --ink: #1c2126; --muted: #5d6670; --rule: #e2e5e8; --wash: #f2f4f5;
+  --accent: #087a59; --up: #087a59; --down: #b4372f; --level: #5d6670; --edge: #d3d8dc; --mark: #878f97;
+  --serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #131a1f; --ink: #e4e8eb; --muted: #9aa6af; --rule: #263239; --wash: #1a242a;
+    --accent: #14c290; --up: #14c290; --down: #ef6f63; --level: #9aa6af; --edge: #3d4c55; --mark: #66737c;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .masthead .logo [stroke="#363636"] { stroke: var(--muted); }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font: 17px/1.62 var(--serif); font-kerning: normal;
+}
+.page { max-width: 46rem; margin: 0 auto; padding: 3.5rem 1.5rem 6rem; }
+main h2, main h3 { scroll-margin-top: 1rem; }
+a { color: var(--accent); text-underline-offset: 0.15em; }
+h1, h2, h3, h4 { text-wrap: balance; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.masthead { padding-bottom: 1.75rem; border-bottom: 1px solid var(--rule); }
+/* The logo leads at the top left, where readers look for it, 24px tall (the usual
+   on-screen floor for a wordmark) with at least its height clear below. */
+.masthead .logo { display: block; width: fit-content; margin: 0 0 2.25rem; }
+.masthead .logo svg { display: block; height: 1.5rem; width: auto; }
+.masthead h1 {
+  margin: 0; font: 600 2.6rem/1.1 var(--sans); letter-spacing: -0.02em;
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.2em 0.5em;
+}
+.masthead .rating { font-weight: 500; }
+.rating.up { color: var(--up); } .rating.down { color: var(--down); } .rating.level { color: var(--level); }
+.rating.review { color: var(--muted); font-style: italic; }
+.masthead .date { margin: 0.55rem 0 1.5rem; font: 1rem/1.4 var(--sans); color: var(--muted); }
+.run { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: 0.45rem 1.25rem;
+  font: 0.85rem/1.5 var(--sans); }
+.run > div { display: contents; }
+.run dt { color: var(--muted); }
+.run dd { margin: 0; overflow-wrap: anywhere; }
+.run .note dd { color: var(--down); }
+.field { display: inline-block; margin: 0 0.15rem 0.15rem 0; padding: 0 0.4rem; border: 1px solid var(--edge);
+  border-radius: 4px; background: var(--wash); font: 0.8rem/1.6 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+.run .group { display: inline-block; margin-right: 0.9rem; white-space: nowrap; }
+.run .group > .name { color: var(--muted); margin-right: 0.3rem; }
+.run .then { color: var(--muted); margin: 0 0.2rem; }
+
+/* The sections: listed under the header on narrow screens. On wide ones, a
+   quiet rail centred on the left edge (numerals for the sections, short bars
+   for their agents) that opens into the full list when pointed at or focused. */
+.contents { margin: 2.25rem 0 0; font: 0.9rem/1.45 var(--sans); }
+.contents ul { margin: 0; padding: 0; list-style: none; }
+.contents > ul > li { margin: 0 0 0.75rem; }
+.contents ul ul { margin-top: 0.2rem; padding-left: 1.6rem; font-size: 0.85rem; }
+.contents ul ul li { margin: 0.1rem 0; }
+.contents a { display: flex; align-items: center; gap: 0.6rem; color: var(--muted); text-decoration: none; }
+.contents > ul > li > a { color: var(--ink); }
+.contents .num { min-width: 1.6rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.contents .bar { display: none; }
+.contents a:hover .label, .contents a:focus-visible .label { color: var(--accent); text-decoration: underline; }
+.to-top { position: fixed; right: 1rem; bottom: calc(1rem + env(safe-area-inset-bottom));
+  padding: 0.25rem 0.6rem; border: 1px solid var(--edge); border-radius: 4px; background: var(--paper);
+  color: var(--muted); font: 0.8rem/1.4 var(--sans); text-decoration: none; }
+
+@media (min-width: 60rem) {
+  .contents { position: fixed; left: 1rem; top: 50%; transform: translateY(-50%); z-index: 1;
+    max-height: 86vh; overflow-y: auto; overscroll-behavior: contain; margin: 0;
+    padding: 0.7rem 0.9rem; border: 1px solid transparent; border-radius: 6px;
+    transition: background-color 0.15s, border-color 0.15s, box-shadow 0.15s; }
+  .contents > ul > li { margin: 0 0 0.35rem; }
+  .contents ul ul { margin-top: 0; padding-left: 0; }
+  .contents ul ul li { margin: 0; }
+  /* Marks reach 3:1 contrast and rows 24px, the WCAG 2.2 floors for a control's
+     visual cue and its pointer target. */
+  .contents a { min-height: 1.5rem; }
+  .contents .num { min-width: 1.4rem; }
+  .contents .bar { display: block; flex: none; width: 1.25rem; height: 2px; margin-left: 0.2rem;
+    border-radius: 1px; background: var(--mark); }
+  .contents .label { max-width: 0; opacity: 0; overflow: hidden; white-space: nowrap;
+    transition: opacity 0.15s, max-width 0.2s; }
+  .contents:hover, .contents:focus-within { background: var(--paper); border-color: var(--rule);
+    box-shadow: 0 6px 24px rgb(0 0 0 / 0.08); }
+  .contents:hover .label, .contents:focus-within .label { max-width: 18rem; opacity: 1; }
+  .contents a:hover .bar, .contents a:focus-visible .bar { background: var(--accent); }
+  .to-top { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .contents, .contents .label { transition: none; }
+}
+
+/* The maker's credit: one quiet line at the foot. */
+.credit { margin-top: 4.5rem; padding-top: 1.25rem; border-top: 1px solid var(--rule);
+  color: var(--muted); font: 0.8rem/1.4 var(--sans); }
+.credit a { color: inherit; text-decoration: none; }
+.credit a.brand { color: var(--accent); }
+.credit a:hover, .credit a:focus-visible { text-decoration: underline; }
+
+/* Three levels of separation: the five groups, the agents within a group, and
+   breaks an agent draws inside its own text. */
+main h2 {
+  margin: 4.5rem 0 0.25rem; padding-top: 1.5rem; border-top: 2px solid var(--ink);
+  font: 600 1.45rem/1.3 var(--sans); letter-spacing: -0.01em;
+}
+main section:first-child h2 { margin-top: 3rem; }
+main h3 { margin: 2.75rem 0 0.75rem; padding-top: 1.1rem; border-top: 1px solid var(--rule);
+  font: 600 1.15rem/1.35 var(--sans); color: var(--accent); }
+main h2 + h3 { margin-top: 1.25rem; padding-top: 0; border-top: 0; }
+main h4, main h5, main h6 { margin: 1.75rem 0 0.5rem; font: 600 1rem/1.4 var(--sans); }
+main h5, main h6 { color: var(--muted); }
+main p, main ul, main ol { margin: 0 0 1rem; }
+main li { margin: 0.25rem 0; }
+main strong { font-weight: 650; }
+main blockquote { margin: 1.25rem 0; padding: 0.1rem 0 0.1rem 1rem; border-left: 3px solid var(--rule);
+  color: var(--muted); }
+main code { font: 0.88em/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  background: var(--wash); padding: 0.1em 0.3em; border-radius: 3px; }
+main pre { background: var(--wash); padding: 0.9rem 1rem; border-radius: 4px; overflow-x: auto; }
+main pre code { background: none; padding: 0; }
+main hr { width: 3rem; margin: 2rem auto; border: 0; border-top: 1px solid var(--rule); }
+
+.table { overflow-x: auto; margin: 0 0 1.25rem; }
+table { border-collapse: collapse; width: 100%; font: 0.86rem/1.45 var(--sans);
+  font-variant-numeric: tabular-nums; }
+th, td { padding: 0.45rem 0.7rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--rule); }
+th { font-weight: 600; border-bottom-color: var(--muted); }
+tbody tr:last-child td { border-bottom: 0; }
+
+@media (max-width: 34rem) {
+  body { font-size: 16px; }
+  .page { padding: 2rem 1rem 3rem; }
+  .masthead h1 { font-size: 2rem; }
+  .masthead .logo svg { height: 1.25rem; }
+  .run { grid-template-columns: 1fr; gap: 0 0; }
+  .run dd { margin-bottom: 0.45rem; }
+  .run .group { white-space: normal; }
+}
+@media print {
+  :root { --paper: #fff; --ink: #000; --muted: #444; --rule: #bbb; --accent: #000; --wash: #f2f2f2;
+    --edge: #bbb; --up: #087a59; --down: #b4372f; --level: #444; }
+  body { font-size: 11pt; }
+  .table { overflow: visible; }
+  .page { max-width: none; padding: 0; }
+  .contents, .to-top { display: none; }
+  main h2 { break-before: page; border-top: 0; margin-top: 0; }
+  main section:first-child h2 { break-before: auto; }
+  main h3, main h4 { break-after: avoid; }
+  a { color: inherit; text-decoration: none; }
+  table { break-inside: avoid; }
+}
+</style>
+</head>
+<body>
+<div class="page" id="top">
+<header class="masthead">
+<a class="logo" href="https://tauric.ai" rel="noopener" aria-label="Tauric Research"><svg width="993" height="115" viewBox="0 0 993 115" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M189.86 95.0459V37.9779H165.924V29.9259H223.74V37.9779H199.804V95.0459H189.86ZM251.026 46.4259C256.071 46.4259 260.178 47.0272 263.345 48.2299C266.514 49.4032 268.89 51.3686 270.474 54.1259C272.058 56.8832 272.85 60.6379 272.85 65.3899V95.0459H264.666L263.961 89.8979H263.434C261.644 91.7752 259.386 93.2419 256.657 94.2979C253.929 95.3246 251.025 95.8379 247.946 95.8379C244.426 95.8379 241.419 95.2952 238.925 94.2099C236.432 93.0952 234.54 91.5406 233.249 89.5459C231.959 87.5512 231.313 85.2046 231.313 82.5059C231.313 78.2526 232.897 74.9672 236.065 72.6499C239.263 70.3032 244.337 68.8219 251.29 68.2059L263.258 67.0179V64.7299C263.258 61.9139 262.774 59.7139 261.806 58.1299C260.838 56.5459 259.371 55.4312 257.406 54.7859C255.47 54.1406 252.888 53.8179 249.662 53.8179C247.432 53.8179 245.012 54.0086 242.401 54.3899C239.82 54.7712 237.341 55.3432 234.965 56.1059V48.8019C237.312 48.0392 239.908 47.4526 242.754 47.0419C245.628 46.6312 248.386 46.4259 251.026 46.4259ZM250.541 89.0619C252.888 89.0619 255.162 88.6512 257.362 87.8299C259.562 86.9792 261.527 85.7179 263.258 84.0459V72.8259L252.038 73.9259C248.136 74.3659 245.35 75.2166 243.678 76.4779C242.005 77.7099 241.169 79.4699 241.169 81.7579C241.169 84.0752 241.947 85.8792 243.501 87.1699C245.056 88.4312 247.403 89.0619 250.541 89.0619ZM313.339 95.8379C307.59 95.8379 303.087 94.2979 299.831 91.2179C296.575 88.1086 294.947 83.2686 294.947 76.6979V47.1739H304.715V76.1699C304.715 80.1886 305.624 83.0779 307.443 84.8379C309.291 86.5979 311.916 87.4779 315.319 87.4779C317.871 87.4779 320.379 86.9939 322.843 86.0259C325.336 85.0286 327.492 83.5766 329.311 81.6699V47.1739H339.079V95.0459H330.983L330.367 89.9419H329.883C327.624 91.8486 325.072 93.3152 322.227 94.3419C319.382 95.3392 316.419 95.8379 313.339 95.8379ZM362.371 47.1739H370.423L371.171 53.2899H371.743C373.474 51.2072 375.703 49.5792 378.431 48.4059C381.188 47.2326 384.063 46.6459 387.055 46.6459C388.756 46.6459 390.355 46.7926 391.851 47.0859V55.8419C390.414 55.5779 388.654 55.4459 386.571 55.4459C383.99 55.4459 381.364 55.9446 378.695 56.9419C376.026 57.9392 373.84 59.4206 372.139 61.3859V95.0459H362.371V47.1739ZM409.069 95.0459V47.1739H418.837V95.0459H409.069ZM413.953 37.8459C411.871 37.8459 410.287 37.3912 409.201 36.4819C408.145 35.5726 407.617 34.2672 407.617 32.5659C407.617 30.8352 408.145 29.5152 409.201 28.6059C410.287 27.6672 411.871 27.1979 413.953 27.1979C416.036 27.1979 417.605 27.6672 418.661 28.6059C419.747 29.5152 420.289 30.8352 420.289 32.5659C420.289 34.2672 419.747 35.5726 418.661 36.4819C417.605 37.3912 416.036 37.8459 413.953 37.8459ZM464.85 95.9259C456.607 95.9259 450.315 93.8432 445.974 89.6779C441.662 85.5126 439.506 79.3526 439.506 71.1979C439.506 63.0139 441.779 56.8392 446.326 52.6739C450.902 48.5086 457.575 46.4259 466.346 46.4259C470.716 46.4259 474.735 46.9246 478.402 47.9219V55.7099C476.378 55.2406 474.486 54.8886 472.726 54.6539C470.966 54.4192 469.118 54.3019 467.182 54.3019C461.168 54.3019 456.71 55.6512 453.806 58.3499C450.931 61.0486 449.494 65.2872 449.494 71.0659C449.494 76.8739 450.858 81.1566 453.586 83.9139C456.343 86.6712 460.42 88.0499 465.818 88.0499C467.695 88.0499 469.616 87.8886 471.582 87.5659C473.547 87.2139 475.82 86.6712 478.402 85.9379V93.7259C474.236 95.1926 469.719 95.9259 464.85 95.9259ZM574.428 95.0459L553.704 69.0859C553.176 69.1152 552.37 69.1299 551.284 69.1299C548.38 69.1299 544.978 68.9832 541.076 68.6899V95.0459H531.308V31.4659C537.967 29.9699 544.846 29.2219 551.944 29.2219C561.595 29.2219 568.752 30.8059 573.416 33.9739C578.08 37.1126 580.412 42.1286 580.412 49.0219C580.412 54.0086 579.004 58.0859 576.188 61.2539C573.402 64.4219 569.266 66.6366 563.78 67.8979L585.648 95.0459H574.428ZM541.076 61.2099C543.071 61.4152 544.816 61.5619 546.312 61.6499C547.838 61.7379 549.627 61.7819 551.68 61.7819C558.427 61.7819 563.34 60.7699 566.42 58.7459C569.5 56.6926 571.04 53.4952 571.04 49.1539C571.04 46.0739 570.395 43.6099 569.104 41.7619C567.843 39.9139 565.863 38.5792 563.164 37.7579C560.495 36.9366 556.975 36.5259 552.604 36.5259C550.404 36.5259 548.424 36.6139 546.664 36.7899C544.904 36.9659 543.042 37.2299 541.076 37.5819V61.2099ZM642.947 74.0139H608.231C608.407 77.4752 609.155 80.2766 610.475 82.4179C611.795 84.5299 613.775 86.0846 616.415 87.0819C619.055 88.0792 622.443 88.5779 626.579 88.5779C630.686 88.5779 635.233 87.9472 640.219 86.6859V93.9459C635.027 95.2659 630.026 95.9259 625.215 95.9259C616.298 95.9259 609.61 93.9166 605.151 89.8979C600.722 85.8499 598.507 79.6166 598.507 71.1979C598.507 65.9179 599.402 61.4299 601.191 57.7339C602.981 54.0379 605.562 51.2366 608.935 49.3299C612.338 47.3939 616.43 46.4259 621.211 46.4259C628.251 46.4259 633.634 48.5819 637.359 52.8939C641.085 57.1766 642.947 63.3659 642.947 71.4619V74.0139ZM621.079 52.8939C616.973 52.8939 613.834 54.1406 611.663 56.6339C609.493 59.0979 608.334 62.9259 608.187 68.1179H633.751C633.634 62.9259 632.519 59.0979 630.407 56.6339C628.295 54.1406 625.186 52.8939 621.079 52.8939ZM677.365 95.9259C671.352 95.9259 665.896 95.2219 660.997 93.8139V86.7299C666.248 88.1966 671.718 88.9299 677.409 88.9299C681.809 88.9299 684.977 88.3432 686.913 87.1699C688.849 85.9672 689.817 84.2219 689.817 81.9339C689.817 80.7019 689.597 79.6899 689.157 78.8979C688.717 78.0766 687.969 77.4019 686.913 76.8739C685.857 76.3166 684.405 75.8912 682.557 75.5979L674.065 74.2779C669.137 73.4859 665.573 71.9899 663.373 69.7899C661.202 67.5899 660.117 64.6419 660.117 60.9459C660.117 56.4579 661.965 52.9232 665.661 50.3419C669.386 47.7312 675.062 46.4259 682.689 46.4259C685.094 46.4259 687.485 46.5872 689.861 46.9099C692.266 47.2032 694.481 47.6432 696.505 48.2299V55.2699C692.046 54.0379 687.456 53.4219 682.733 53.4219C677.893 53.4219 674.476 54.0526 672.481 55.3139C670.486 56.5752 669.489 58.3206 669.489 60.5499C669.489 62.2219 670.002 63.5859 671.029 64.6419C672.056 65.6686 673.889 66.4166 676.529 66.8859L685.021 68.2059C689.92 68.9686 693.513 70.3766 695.801 72.4299C698.089 74.4832 699.233 77.4606 699.233 81.3619C699.233 84.3832 698.412 86.9792 696.769 89.1499C695.156 91.3206 692.706 92.9926 689.421 94.1659C686.165 95.3392 682.146 95.9259 677.365 95.9259ZM760.579 74.0139H725.863C726.039 77.4752 726.787 80.2766 728.107 82.4179C729.427 84.5299 731.407 86.0846 734.047 87.0819C736.687 88.0792 740.075 88.5779 744.211 88.5779C748.317 88.5779 752.864 87.9472 757.851 86.6859V93.9459C752.659 95.2659 747.657 95.9259 742.847 95.9259C733.929 95.9259 727.241 93.9166 722.783 89.8979C718.353 85.8499 716.139 79.6166 716.139 71.1979C716.139 65.9179 717.033 61.4299 718.823 57.7339C720.612 54.0379 723.193 51.2366 726.567 49.3299C729.969 47.3939 734.061 46.4259 738.843 46.4259C745.883 46.4259 751.265 48.5819 754.991 52.8939C758.716 57.1766 760.579 63.3659 760.579 71.4619V74.0139ZM738.711 52.8939C734.604 52.8939 731.465 54.1406 729.295 56.6339C727.124 59.0979 725.965 62.9259 725.819 68.1179H751.383C751.265 62.9259 750.151 59.0979 748.039 56.6339C745.927 54.1406 742.817 52.8939 738.711 52.8939ZM796.986 46.4259C802.032 46.4259 806.138 47.0272 809.306 48.2299C812.474 49.4032 814.85 51.3686 816.434 54.1259C818.018 56.8832 818.81 60.6379 818.81 65.3899V95.0459H810.626L809.922 89.8979H809.394C807.605 91.7752 805.346 93.2419 802.618 94.2979C799.89 95.3246 796.986 95.8379 793.906 95.8379C790.386 95.8379 787.38 95.2952 784.886 94.2099C782.393 93.0952 780.501 91.5406 779.21 89.5459C777.92 87.5512 777.274 85.2046 777.274 82.5059C777.274 78.2526 778.858 74.9672 782.026 72.6499C785.224 70.3032 790.298 68.8219 797.25 68.2059L809.218 67.0179V64.7299C809.218 61.9139 808.734 59.7139 807.766 58.1299C806.798 56.5459 805.332 55.4312 803.366 54.7859C801.43 54.1406 798.849 53.8179 795.622 53.8179C793.393 53.8179 790.973 54.0086 788.362 54.3899C785.781 54.7712 783.302 55.3432 780.926 56.1059V48.8019C783.273 48.0392 785.869 47.4526 788.714 47.0419C791.589 46.6312 794.346 46.4259 796.986 46.4259ZM796.502 89.0619C798.849 89.0619 801.122 88.6512 803.322 87.8299C805.522 86.9792 807.488 85.7179 809.218 84.0459V72.8259L797.998 73.9259C794.097 74.3659 791.31 75.2166 789.638 76.4779C787.966 77.7099 787.13 79.4699 787.13 81.7579C787.13 84.0752 787.908 85.8792 789.462 87.1699C791.017 88.4312 793.364 89.0619 796.502 89.0619ZM841.524 47.1739H849.576L850.324 53.2899H850.896C852.627 51.2072 854.856 49.5792 857.584 48.4059C860.341 47.2326 863.216 46.6459 866.208 46.6459C867.909 46.6459 869.508 46.7926 871.004 47.0859V55.8419C869.567 55.5779 867.807 55.4459 865.724 55.4459C863.143 55.4459 860.517 55.9446 857.848 56.9419C855.179 57.9392 852.993 59.4206 851.292 61.3859V95.0459H841.524V47.1739ZM909.164 95.9259C900.921 95.9259 894.629 93.8432 890.288 89.6779C885.976 85.5126 883.82 79.3526 883.82 71.1979C883.82 63.0139 886.093 56.8392 890.64 52.6739C895.216 48.5086 901.889 46.4259 910.66 46.4259C915.03 46.4259 919.049 46.9246 922.716 47.9219V55.7099C920.692 55.2406 918.8 54.8886 917.04 54.6539C915.28 54.4192 913.432 54.3019 911.496 54.3019C905.482 54.3019 901.024 55.6512 898.12 58.3499C895.245 61.0486 893.808 65.2872 893.808 71.0659C893.808 76.8739 895.172 81.1566 897.9 83.9139C900.657 86.6712 904.734 88.0499 910.132 88.0499C912.009 88.0499 913.93 87.8886 915.896 87.5659C917.861 87.2139 920.134 86.6712 922.716 85.9379V93.7259C918.55 95.1926 914.033 95.9259 909.164 95.9259ZM941.796 23.9419H951.564V52.2779H952.048C954.248 50.3712 956.756 48.9192 959.572 47.9219C962.417 46.9246 965.395 46.4259 968.504 46.4259C974.019 46.4259 978.375 47.9952 981.572 51.1339C984.769 54.2432 986.368 59.0686 986.368 65.6099V95.0459H976.6V66.0939C976.6 62.0459 975.661 59.1566 973.784 57.4259C971.936 55.6952 969.237 54.8299 965.688 54.8299C963.048 54.8299 960.481 55.3286 957.988 56.3259C955.524 57.2939 953.383 58.7312 951.564 60.6379V95.0459H941.796V23.9419Z" fill="#14C290"/>
+<rect x="0.205322" y="14.873" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="14.679" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="14.679" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="86.6055" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="86.6055" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="101.284" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="58.7158" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="58.7158" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="87.1592" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="87.1592" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="73.0205" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="73.0205" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="87.3262" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="87.3262" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="101.631" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="101.631" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="101.284" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="15.0187" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.2668" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.2668" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.445" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.7506" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="100.716" y="14.873" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+</svg></a>
+<h1><span class="ticker">ACS.MC</span> <span class="rating level">Hold</span></h1>
+<p class="date">Analysis of 2026-11-01</p>
+<dl class="run"><div class="detail"><dt>Generated</dt><dd>2026-11-01 07:12</dd></div><div class="detail"><dt>Deep model</dt><dd><span class="field">google</span> <span class="field">gemini-3.5-flash-lite</span></dd></div><div class="detail"><dt>Quick model</dt><dd><span class="field">google</span> <span class="field">gemini-3.5-flash-lite</span></dd></div><div class="detail"><dt>Analysts</dt><dd><span class="field">market</span> <span class="field">news</span> <span class="field">fundamentals</span></dd></div><div class="detail"><dt>Debate rounds</dt><dd><span class="group"><span class="name">research</span><span class="field">1</span></span> <span class="group"><span class="name">risk</span><span class="field">1</span></span></dd></div><div class="detail"><dt>Data vendors</dt><dd><span class="group"><span class="name">Prices</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Indicators</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Fundamentals</span><span class="field">yfinance</span></span> <span class="group"><span class="name">News</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Macro</span><span class="field">fred</span></span> <span class="group"><span class="name">Prediction markets</span><span class="field">polymarket</span></span> <span class="group"><span class="name">get_news</span><span class="field">ibex_sample</span></span> <span class="group"><span class="name">get_global_news</span><span class="field">ibex_sample</span></span></dd></div><div class="detail"><dt>Version</dt><dd>TradingAgents 0.7.1</dd></div></dl>
+</header>
+<nav class="contents" aria-label="Sections"><ul><li><a href="#s1"><span class="num">I</span> <span class="label">Analyst Team Reports</span></a><ul><li><a href="#s1-1"><span class="bar"></span> <span class="label">Market Analyst</span></a></li><li><a href="#s1-2"><span class="bar"></span> <span class="label">News Analyst</span></a></li><li><a href="#s1-3"><span class="bar"></span> <span class="label">Fundamentals Analyst</span></a></li></ul></li><li><a href="#s2"><span class="num">II</span> <span class="label">Research Team Decision</span></a><ul><li><a href="#s2-1"><span class="bar"></span> <span class="label">Bull Researcher</span></a></li><li><a href="#s2-2"><span class="bar"></span> <span class="label">Bear Researcher</span></a></li><li><a href="#s2-3"><span class="bar"></span> <span class="label">Research Manager</span></a></li></ul></li><li><a href="#s3"><span class="num">III</span> <span class="label">Trading Team Plan</span></a><ul><li><a href="#s3-1"><span class="bar"></span> <span class="label">Trader</span></a></li></ul></li><li><a href="#s4"><span class="num">IV</span> <span class="label">Risk Management Team Decision</span></a><ul><li><a href="#s4-1"><span class="bar"></span> <span class="label">Aggressive Analyst</span></a></li><li><a href="#s4-2"><span class="bar"></span> <span class="label">Conservative Analyst</span></a></li><li><a href="#s4-3"><span class="bar"></span> <span class="label">Neutral Analyst</span></a></li></ul></li><li><a href="#s5"><span class="num">V</span> <span class="label">Portfolio Manager Decision</span></a><ul><li><a href="#s5-1"><span class="bar"></span> <span class="label">Portfolio Manager</span></a></li></ul></li></ul></nav>
+<main>
+<section id="s1"><h2>I. Analyst Team Reports</h2><h3 id="s1-1">Market Analyst</h3>
+<p><strong>Rating</strong>: HOLD<br />
+FINAL TRANSACTION PROPOSAL: Mantener posición actual (HOLD) con enfoque de vigilancia sobre la próxima hoja de ruta corporativa y resultados del tercer trimestre de 2026.</p>
+<hr />
+<h6>Análisis Técnico y Fundamental de ACS.MC (ACS, Actividades de Construcción y Servicios, S.A.)</h6>
+<p>A fecha de 1 de noviembre de 2026, analizamos la situación bursátil y financiera de <strong>ACS.MC</strong> (cotizada en el mercado continuo español, MCE, bajo el sector industrial de ingeniería y construcción).</p>
+<h6>1. Contexto de Mercado y Evolución de Precios</h6>
+<p>El valor cerró su última sesión de octubre de 2026 en los <strong>90.65 EUR</strong>, experimentando una corrección reciente del <strong>-1.63%</strong> en la sesión y un descenso del <strong>-1.52%</strong> en los últimos 21 días. A mayor plazo, el retroceso es más acusado, con una caída del <strong>-18.19%</strong> en los últimos 63 días (un rendimiento relativo de <strong>-11.34 pp</strong> frente al índice de referencia ^IBEX) y un <em>drawdown</em> acumulado desde máximos recientes que alcanza el <strong>-34.48%</strong>. No obstante, el rendimiento a 252 sesiones mantiene un tono positivo del <strong>+26.37%</strong>.</p>
+<p>El contexto macroeconómico reciente muestra un Banco Central Europeo (BCE) manteniendo los tipos de interés en el <strong>2.5%</strong> a finales de octubre de 2026, con cautela ante las perspectivas de inflación y los costes energéticos, en una semana en la que los mercados europeos han mostrado comportamiento mixto y cierta presión sobre el sector bancario e industrial.</p>
+<h6>2. Indicadores Técnicos Clave (Datos Verificados)</h6>
+<ul>
+<li><strong>Precio de cierre</strong>: 90.65 EUR (Fecha: 30/10/2026).</li>
+<li><strong>RSI (14)</strong>: <strong>45.94</strong>, situándose en una zona neutral (ligeramente sesgada a la baja, sin alcanzar condiciones de sobreventa extrema, lo que refleja consolidación tras las caídas recientes).</li>
+<li><strong>MACD</strong>: <strong>-1.26</strong> y <strong>MACD Signal</strong>: <strong>-1.78</strong>. Aunque el indicador MACD se encuentra en terreno negativo, la línea de MACD se sitúa ligeramente por encima de su línea de señal, sugiriendo una moderación en la presión vendedora a corto plazo.</li>
+<li><strong>Medias Móviles</strong>:
+<ul>
+<li><strong>SMA 20</strong>: 90.98 EUR (el precio cotiza prácticamente alineado con su media de corto plazo).</li>
+<li><strong>SMA 50</strong>: 94.94 EUR (actúa como resistencia intermedia).</li>
+<li><strong>SMA 200</strong>: 108.85 EUR (confirma la tendencia bajista de fondo a largo plazo).</li>
+</ul>
+</li>
+<li><strong>Volatilidad (28.77%)</strong>: Refleja un riesgo moderado-alto en la fluctuación del título.</li>
+</ul>
+<h6>3. Fundamentos y Valoración Financiera</h6>
+<ul>
+<li><strong>Capitalización de Mercado</strong>: ~23.600 millones de EUR.</li>
+<li><strong>PER (Trailing)</strong>: 19.79x / <strong>PER Forward</strong>: 18.16x.</li>
+<li><strong>Beneficio por Acción (EPS)</strong>: 4.58 EUR (Trailing) y 4.99 EUR (Forward).</li>
+<li><strong>Crecimiento e ingresos</strong>: Los ingresos totales del ejercicio 2025 cerraron en <strong>49.847 millones de EUR</strong> (frente a los 41.633 millones de 2024), mostrando un crecimiento interanual sólido del <strong>12.2%</strong>. El beneficio neto de 2025 ascendió a <strong>950,34 millones de EUR</strong>.</li>
+<li><strong>Solidez y Deuda</strong>: La deuda total se sitúa en 15.333 millones de EUR (con un ratio de deuda neta sobre EBITDA muy contenido de <strong>0.20x</strong>, respaldado por una sólida caja y generación de flujos operativos).</li>
+<li><strong>Flujo de Caja Libre (FCF)</strong>: Los datos de 2025 reflejan un FCF de <strong>2.303 millones de EUR</strong> (y un flujo de caja operativo superior a 3.046 millones de EUR).</li>
+<li><strong>Rentabilidad por Dividendo</strong>: <strong>2.56%</strong> (con un dividendo de 2.32 EUR por acción y un <em>payout</em> del 61.02%).</li>
+<li><strong>Consenso de Analistas</strong>: El precio objetivo medio (<em>targetMeanPrice</em>) se sitúa en <strong>131.21 EUR</strong> (con un rango entre un mínimo de 104.00 EUR y un máximo de 153.10 EUR, basado en 16 opiniones de analistas), lo que representa un <strong>potencial alcista (consensos) del 44.74%</strong>.</li>
+</ul>
+<h6>4. Catalizadores y Noticias Recientes</h6>
+<ul>
+<li><strong>Próximos Eventos</strong>: ACS publicará sus resultados del tercer trimestre de 2026 el <strong>11 de noviembre de 2026</strong> y celebrará un Día del Inversor (CMD) el <strong>12 de noviembre de 2026</strong>, donde presentará la nueva hoja de ruta estratégica del grupo (<em>Radio Intereconomía</em>, <em>Investing.com España</em>).</li>
+<li><strong>Revisiones de analistas</strong>: Deutsche Bank ajustó recientemente su precio objetivo antes de la cita de resultados (<em>MarketScreener</em>, 29/10/2026).</li>
+</ul>
+<h6>5. Evidencia Contaria, Datos Faltantes y Supuestos</h6>
+<ul>
+<li><strong>Evidencia contraria</strong>: La tendencia a medio plazo sigue siendo bajista (cotiza por debajo de la SMA 50 y SMA 200) y el sector industrial se enfrenta a la volatilidad macroeconómica global y la cautela en tipos de interés del BCE.</li>
+<li><strong>Datos faltantes</strong>: Falta la desagregación pormenorizada por geografías (<em>North America vs. APAC vs. Europe</em>) para los márgenes operativos exactos del Q3 2026, los cuales se despejarán en la presentación oficial del 11 de noviembre. No se deben extrapolar valoraciones intrínsecas definitivas basadas puramente en medias de analistas.</li>
+</ul>
+<hr />
+<h6>Resumen Estructurado (Tabla Clave)</h6>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Categoría</th>
+<th style="text-align:left">Métrica / Indicador</th>
+<th style="text-align:left">Valor Actual / Dato</th>
+<th style="text-align:left">Interpretación y Perspectiva</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Precio y Tendencia</strong></td>
+<td style="text-align:left">Precio de Cierre (30/10/2026)</td>
+<td style="text-align:left">90.65 EUR</td>
+<td style="text-align:left">Corrección reciente (-34.48% desde máximos de ciclo, cotizando bajo SMA 200).</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Momentum</strong></td>
+<td style="text-align:left">RSI (14)</td>
+<td style="text-align:left">45.94</td>
+<td style="text-align:left">Zona neutral; ausencia de sobreventa o sobrecompra clara.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Momentum</strong></td>
+<td style="text-align:left">MACD / Señal</td>
+<td style="text-align:left">-1.26 / -1.78</td>
+<td style="text-align:left">Ligera convergencia alcista en el indicador, moderando la presión vendedora.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Fundamentales</strong></td>
+<td style="text-align:left">PER / PER Forward</td>
+<td style="text-align:left">19.79x / 18.16x</td>
+<td style="text-align:left">Valoración razonable frente al crecimiento de ingresos (+12.2%).</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Solidez Financiera</strong></td>
+<td style="text-align:left">Net Debt / EBITDA</td>
+<td style="text-align:left">0.20x</td>
+<td style="text-align:left">Estructura de balance muy saludable y sólida capacidad de generación de caja.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Retorno al Accionista</strong></td>
+<td style="text-align:left">Dividend Yield</td>
+<td style="text-align:left">2.56% (2.32 EUR)</td>
+<td style="text-align:left">Retorno estable respaldado por un <em>payout</em> prudente (~61%).</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Perspectiva de Mercado</strong></td>
+<td style="text-align:left">Consenso Upside</td>
+<td style="text-align:left">+44.74% (131.21 EUR)</td>
+<td style="text-align:left">Potencial alcista estimado por analistas de cara a la nueva hoja de ruta.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Próximo Catalizador</strong></td>
+<td style="text-align:left">Resultados 3T y CMD</td>
+<td style="text-align:left">11-12 Noviembre 202</td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="s1-2">News Analyst</h3>
+<p><strong>Rating</strong>: HOLD<br />
+FINAL TRANSACTION PROPOSAL: Hypothetically, hold existing long positions in <code>ACS.MC</code> while awaiting the upcoming third-quarter earnings release and Capital Markets Day (CMD) scheduled for mid-November 2026, keeping stops below recent swing lows given current technical consolidation.</p>
+<hr />
+<h6>Informe de Análisis y Coyuntura Macroeconómica para ACS.MC</h6>
+<h6>1. Resumen Ejecutivo y Estado Actual</h6>
+<p>La compañía <strong>ACS, Actividades de Construcción y Servicios, S.A. (<code>ACS.MC</code>)</strong> cotiza a un precio de 90,65 EUR al cierre del 30 de octubre de 2026. El valor se encuentra en una fase de consolidación técnica de corto plazo, acumulando una caída del 1,63% en la última sesión y un retroceso de aproximadamente el 18,19% en los últimos tres meses (retorno a 63 días de -18,18%, con un <em>drawdown</em> máximo de -34,48% desde máximos recientes). No obstante, el rendimiento a 12 meses (retorno a 252 días) se mantiene positivo en un +26,37%, reflejo de la robustez estructural de su negocio en el sector industrial de ingeniería y construcción.</p>
+<p>El contexto inmediato de la compañía está dominado por la expectación ante la publicación de sus resultados del tercer trimestre de 2026 y la celebración de su nueva hoja de ruta (<em>Capital Markets Day</em> - CMD), programados para los días 11 y 12 de noviembre de 2026 (según fuentes de prensa como <em>Investing.com España</em> y <em>Radio Intereconomía</em> del 26 de octubre de 2026). Recientemente, entidades como Deutsche Bank han ajustado su precio objetivo de cara a estas publicaciones (<em>MarketScreener</em>, 29 de octubre de 2026).</p>
+<h6>2. Entorno Macroeconómico Global y Sectorial</h6>
+<p>El análisis macroeconómico de finales de octubre de 2026 muestra un panorama mixto en los mercados europeos y globales:</p>
+<ul>
+<li><strong>Tipos de Interés y Bancos Centrales:</strong> El Banco Central Europeo (BCE) decidió mantener los tipos de interés en el 2,5% en su reunión de finales de octubre de 2026, advirtiendo sobre riesgos inflacionarios persistentes vinculados a la energía y un crecimiento moderado (fuentes: <em>20Minutos</em>, <em>El Economista</em>, 29 de octubre de 2026).</li>
+<li><strong>Dinámica de los Mercados Bursátiles:</strong> El selectivo español Ibex 35 se ha mantenido cotizando en torno a los 18.700–18.800 puntos, presionado por la volatilidad en el sector financiero y las dudas en torno al sector tecnológico y los tipos de interés (fuentes: <em>El Boletín</em>, <em>El Conciso</em>, 30 de octubre de 2026).</li>
+<li><strong>Impacto en el Sector Industrial:</strong> Las empresas de ingeniería y construcción como <code>ACS.MC</code> operan en un entorno donde los costes de financiación se estabilizan al 2,5% oficial del BCE, pero la selección de proyectos de infraestructuras globales y concesiones sigue dependiendo estrechamente de la visibilidad de flujo de caja y la disciplina de asignación de capital que se detallará en la próxima hoja de ruta corporativa.</li>
+</ul>
+<h6>3. Análisis Fundamental y Valoración de <code>ACS.MC</code></h6>
+<ul>
+<li><strong>Valor de Mercado y Múltiplos:</strong>
+<ul>
+<li>Capitalización bursátil: ~23.600 millones de EUR.</li>
+<li>PER histórico (Trailing PE): ~19,79x; PER estimado a futuro (Forward PE): ~18,16x.</li>
+<li>Ratio Precio/Valor en Libros (P/B): ~3,99x.</li>
+<li>Valor EV/EBITDA: ~10,71x.</li>
+<li>Relación de PER relativo intermedio frente a sus comparables (<em>peers</em> MCE: <code>ANA.MC</code>, <code>AENA.MC</code>, <code>FER.MC</code>, <code>IAG.MC</code>, <code>LOG.MC</code>, <code>SCYR.MC</code>): 1,05x, situándose muy en línea con la mediana del sector.</li>
+</ul>
+</li>
+<li><strong>Solidez Financiera y Crecimiento:</strong>
+<ul>
+<li>Ingresos totales (ejercicio 2025): 49.847,68 millones de EUR (frente a 41.633,12 millones en 2024), lo que muestra un fuerte crecimiento de los ingresos (+12,2%).</li>
+<li>Beneficio neto (2025): 950,34 millones de EUR (superior a los 827,58 millones de 2024).</li>
+<li>EBITDA (2025): 3.387,89 millones de EUR.</li>
+<li>Flujo de caja libre (FCF 2025): 2.303,00 millones de EUR (y un flujo de caja operativo de 3.046,76 millones de EUR).</li>
+<li>Deuda neta / EBITDA: ratio muy saneado de aproximadamente 0,20x, respaldado por una sólida posición de caja total de 15.832,86 millones de EUR frente a una deuda total de 15.333,76 millones de EUR.</li>
+</ul>
+</li>
+<li><strong>Retorno al Accionista:</strong>
+<ul>
+<li>Rentabilidad por dividendo (<em>dividend yield</em>): 2,56% (con un dividendo por acción de 2,32 EUR y un ratio de reparto o <em>payout</em> del 61,02%).</li>
+</ul>
+</li>
+<li><strong>Consenso de Analistas:</strong>
+<ul>
+<li>El precio objetivo medio de consenso (<em>targetMeanPrice</em>) se sitúa en 131,21 EUR (con un rango entre un mínimo de 104,0 EUR y un máximo de 153,10 EUR según 16 opiniones de analistas), lo que implica un potencial de revalorización (<em>consensus upside</em>) del <strong>44,74%</strong> desde los 90,65 EUR actuales.</li>
+</ul>
+</li>
+</ul>
+<h6>4. Análisis Técnico</h6>
+<ul>
+<li><strong>Precio de Cierre:</strong> 90,65 EUR (30 de octubre de 2026).</li>
+<li><strong>Medias Móviles:</strong> La cotización se encuentra ligeramente por debajo de su media móvil de 20 sesiones (SMA20: 90,98 EUR) y de 50 sesiones (SMA50: 94,94 EUR), así como de la media de 200 sesiones (SMA200: 108,85 EUR), evidenciando la corrección acumulada en el trimestre.</li>
+<li><strong>Indicadores de Momento:</strong>
+<ul>
+<li>RSI (14 periodos): 45,94 (zona neutral, sin sobreventa ni sobrecompra extrema).</li>
+<li>MACD: -1,26 (por debajo de su línea de señal en -1,79), sugiriendo que la presión vendedora previa está desacelerando pero aún no ha completado un cruce alcista definitivo.</li>
+<li>Volatilidad anualizada: 28,77%.</li>
+</ul>
+</li>
+</ul>
+<h6>5. Evidencia Contraria, Supuestos y Datos Faltantes</h6>
+<ul>
+<li><strong>Evidencia Contraria / Riesgos:</strong> La corrección del 18,18% en los últimos 3 meses y la caída por debajo de la SMA200 indican que el sentimiento a medio plazo en el valor es de cautela. Si el mercado general sufre correcciones adicionales por la incertidumbre geopolítica o macroeconómica en Europa, <code>ACS.MC</code> podría poner a prueba soportes inferiores cercanos a los mínimos del rango de analistas (104 EUR es el objetivo mínimo, pero en el mercado cotiza a 90,65 EUR, lo que significa que el precio actual perfora el suelo estimado por algunos analistas rezagados, o bien que dichos objetivos no han sido rebajados o actualizados tras la caída).</li>
+<li><strong>Datos Faltantes:</strong> No se dispone en el dataset de una desagregación detallada en tiempo real de</li>
+</ul>
+<h3 id="s1-3">Fundamentals Analyst</h3>
+<p><strong>Rating</strong>: REVIEW</p>
+<p><strong>Análisis Fundamental Exhaustivo de ACS (ACS.MC)</strong></p>
+<h6>1. Perfil de la Compañía y Negocio</h6>
+<p><strong>ACS, Actividades de Construcción y Servicios, S.A.</strong> (<code>ACS.MC</code>) cotiza en la Bolsa de Madrid (formando parte del índice de referencia <code>^IBEX</code>) y está clasificada dentro del sector industrial, específicamente en <em>Ingeniería y Construcción</em>. La compañía opera a nivel global con una sólida posición en infraestructuras y concesiones.</p>
+<h6>2. Fundamentales y Valoración Actual</h6>
+<p>A fecha de la última instantánea de datos (1 de noviembre de 2026), los principales indicadores financieros de <code>ACS.MC</code> son:</p>
+<ul>
+<li><strong>Precio de cierre técnico</strong>: 90,65 EUR (sesión del 30 de octubre de 2026), con una rentabilidad a 1 año (<code>return252_pct</code>) de +26,37% a pesar de una corrección reciente de corto plazo (caída del 1,52% a 21 sesiones y -18,19% a 63 sesiones).</li>
+<li><strong>Capitalización de mercado</strong>: 23.604,52 millones de EUR.</li>
+<li><strong>PER (Trailing PE)</strong>: 19,79x | <strong>PER Adelantado (Forward PE)</strong>: 18,16x.</li>
+<li><strong>Beneficio por acción (EPS)</strong>: 4,58 EUR (trailing) y 4,99 EUR (forward).</li>
+<li><strong>Valor en libros por acción (Book Value)</strong>: 22,71 EUR, lo que sitúa la ratio Precio/Valor en Libros (<em>Price to Book</em>) en 3,99x.</li>
+<li><strong>Valor de empresa a EBITDA (EV/EBITDA)</strong>: 10,71x.</li>
+<li><strong>Ratio Deuda Neta / EBITDA</strong>: 0,20x (Deuda total de ~15.333 millones de EUR frente a una sólida posición de caja y activos líquidos, con un EBITDA de 2.322 millones de EUR en base anualizada de snapshot).</li>
+<li><strong>Rentabilidad por Dividendo (<em>Dividend Yield</em>)</strong>: 2,56%, con un dividendo de 2,32 EUR y un <em>payout ratio</em> del 61,02%.</li>
+<li><strong>Rentabilidad sobre el capital (<em>Return on Equity</em> - ROE)</strong>: 24,08%.</li>
+<li><strong>Consenso de analistas</strong>: El precio objetivo medio (<em>targetMeanPrice</em>) se sitúa en 131,21 EUR (con un rango entre 104,0 EUR y 153,1 EUR basado en la opinión de 16 analistas), lo que implica un potencial alcista (<em>consensus upside</em>) del <strong>44,74%</strong>.</li>
+</ul>
+<h6>3. Historial Financiero (Estados Financieros Anuales)</h6>
+<ul>
+<li><strong>Ingresos Totales</strong>:
+<ul>
+<li>2023: 35.737,76 millones de EUR</li>
+<li>2024: 41.633,12 millones de EUR</li>
+<li>2025: 49.847,68 millones de EUR (evidenciando un crecimiento sostenido de los ingresos del orden del 12,2%).</li>
+</ul>
+</li>
+<li><strong>EBITDA</strong>:
+<ul>
+<li>2023: 2.258,25 millones de EUR</li>
+<li>2024: 2.578,84 millones de EUR</li>
+<li>2025: 3.387,89 millones de EUR</li>
+</ul>
+</li>
+<li><strong>Beneficio Neto (<em>Net Income</em>)</strong>:
+<ul>
+<li>2023: 780,12 millones de EUR</li>
+<li>2024: 827,58 millones de EUR</li>
+<li>2025: 950,34 millones de EUR</li>
+</ul>
+</li>
+<li><strong>Flujo de Caja Operativo (<em>Operating Cash Flow</em>) y Libre (<em>Free Cash Flow</em>)</strong>:
+<ul>
+<li>2025: OCF de 3.046,76 millones de EUR y FCF de 2.303,00 millones de EUR (demostrando una fuerte capacidad de conversión de caja y un estricto control de CapEx en torno a los 743 millones de EUR).</li>
+</ul>
+</li>
+</ul>
+<h6>4. Noticias Recientes y Catalizadores de Mercado (Octubre/Noviembre de 2026)</h6>
+<p>Durante la última semana de octubre de 2026, las noticias corporativas y macroeconómicas clave para <code>ACS.MC</code> incluyen:</p>
+<ul>
+<li><strong>Próximos Resultados y Capital Markets Day (CMD)</strong>: ACS ha anunciado la publicación de sus resultados del tercer trimestre de 2026 para los días <strong>11 y 12 de noviembre de 2026</strong>, fecha en la cual la compañía presentará además una <strong>nueva hoja de ruta estratégica (<em>roadmap</em>)</strong> para el grupo (Fuentes: <em>Radio Intereconomía</em>, <em>Investing.com</em> - 26 de octubre de 2026).</li>
+<li><strong>Revisiones de analistas</strong>: Entidades como Deutsche Bank han ajustado recientemente el precio objetivo de la compañía de cara a la inminente presentación de resultados (Fuente: <em>MarketScreener España</em> - 29 de octubre de 2026).</li>
+<li><strong>Entorno macroeconómico</strong>: El Banco Central Europeo (BCE) mantuvo los tipos de interés en el 2,5% el 29 de octubre de 2026, con un mercado bursátil español (Ibex 35) manteniéndose en torno a los 18.800 puntos pese a la volatilidad general y el castigo puntual a ciertos sectores como la banca (Fuentes: <em>El Boletín</em>, <em>Estrategias de Inversión</em>).</li>
+</ul>
+<h6>5. Evidencia Contaria y de Apoyo</h6>
+<ul>
+<li><strong>Evidencia de Apoyo</strong>: Sólido crecimiento de ingresos (+12,2%) y beneficios netos históricos, bajo apalancamiento operativo con un ratio Deuda Neta/EBITDA muy conservador (0,20x), fuerte generación de flujo de caja libre superior a los 2.300 millones de EUR en 2025, y un atractivo potencial de subida del consenso de analistas (cercano al 45%).</li>
+<li><strong>Evidencia Contaria</strong>: Corrección técnica reciente a medio plazo con un descenso del 18,18% en los últimos 63 días de negociación, y un RSI en niveles neutrales (45,94) que refleja dudas en el corto plazo a la espera de la nueva hoja de ruta del CMD de noviembre.</li>
+<li><strong>Datos Faltantes</strong>: No se dispone de desglose detallado diario de transacciones de <em>insiders</em> para la semana en curso en el dataset estático actual, ni los estados financieros desglosados del Q3 2026 (pendientes de publicación el 11 de noviembre de 2026).</li>
+</ul>
+<p>FINAL TRANSACTION PROPOSAL: HOLD</p>
+<hr />
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Concepto Clave</th>
+<th style="text-align:left">Valor / Métrica</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Ticker</strong></td>
+<td style="text-align:left"><code>ACS.MC</code> (Bolsa de Madrid, EUR)</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Precio de Cierre (30/10/2026)</strong></td>
+<td style="text-align:left">90,65 EUR</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Capitalización de Mercado</strong></td>
+<td style="text-align:left">23.604,52 millones de EUR</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>PER Adelantado (Forward PE)</strong></td>
+<td style="text-align:left">18,16x</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ingresos Anuales (2025)</strong></td>
+<td style="text-align:left">49.847,68 millones de EUR</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Beneficio Neto Anual (2025)</strong></td>
+<td style="text-align:left">950,34 millones de EUR</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Flujo de Caja Libre (2025)</strong></td>
+<td style="text-align:left">2.303,00 millones de EUR</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Rentabilidad por Dividendo</strong></td>
+<td style="text-align:left">2,56% (2,32 EUR por acción)</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Deuda Neta / EBITDA</strong></td>
+<td style="text-align:left">0,20x</td>
+</tr>
+<tr>
+<td style="text-align:left">**Precio Objetivo</td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table></div>
+</section><section id="s2"><h2>II. Research Team Decision</h2><h3 id="s2-1">Bull Researcher</h3>
+<p>Bull Analyst: ¡Hola a todos! Comprendo perfectamente que el analista bajista mire el gráfico reciente de <strong>ACS.MC</strong> y frunza el ceño. Al fin y al cabo, venimos de una corrección técnica en los últimos meses (-18.19% a 63 sesiones, cotizando actualmente en los <strong>90.65 EUR</strong> tras el cierre de octubre de 2026) y el mercado europeo navega entre las dudas macroeconómicas y los tipos del Banco Central Europeo en el 2.5%. Pero quedarse solo con la foto fija del corto plazo es perderse por completo la película de una de las joyas industriales con mayor músculo financiero del Ibex 35.</p>
+<p>Lejos de asustarme, esta consolidación es el trampolín perfecto antes de los catalizadores clave que tenemos a la vuelta de la esquina: la presentación de resultados del tercer trimestre y, sobre todo, el <strong>Capital Markets Day (CMD)</strong> de mediados de noviembre de 2026, donde la compañía desvelará su nueva hoja de ruta estratégica.</p>
+<p>Vamos a desmontar los argumentos de la prudencia excesiva con datos contundentes, demostrando por qué la tesis alcista sobre <strong>ACS.MC</strong> es infinitamente más sólida:</p>
+<h6>1. Crecimiento Exponencial y Escalabilidad Global</h6>
+<p>El oso dirá que la construcción y la ingeniería son sectores maduros y de bajo margen. Sin embargo, los números de <strong>ACS.MC</strong> desmienten categóricamente ese mito.</p>
+<ul>
+<li>¿Dónde está el estancamiento cuando los ingresos totales cerraron el ejercicio en <strong>49.847 millones de EUR</strong>, lo que representa un espectacular <strong>crecimiento interanual del 12.2%</strong> frente a los 41.633 millones del año anterior?</li>
+<li>El beneficio neto escaló hasta los <strong>950.34 millones de EUR</strong>, y el EBITDA se disparó a <strong>3.387 millones de EUR</strong>. La compañía no solo crece en volumen de negocio, sino que escala de manera muy eficiente en grandes mercados internacionales donde la demanda de infraestructuras críticas y transición energética es insaciable.</li>
+</ul>
+<h6>2. Una Fortaleza Financiera Envidiable (¡Cero Estrés por Deuda!)</h6>
+<p>Uno de los mayores temores de los bajistas en el sector industrial actual es el coste de financiación con unos tipos de interés que se mantienen cautos. ¡Pues bien, con <strong>ACS.MC</strong> ese argumento hace aguas!</p>
+<ul>
+<li>Observa el <strong>ratio de Deuda Neta sobre EBITDA</strong>: se sitúa en un increíblemente saneado <strong>0.20x</strong>. Repito: 0.20x. Con una deuda total de unos 15.333 millones contrarrestada por una brutal posición de caja y activos líquidos cercanos a los 15.832 millones de EUR, la compañía está blindada.</li>
+<li>¿Y qué me dices de la generación de caja? Hablamos de un <strong>Flujo de Caja Libre (FCF) de 2.303 millones de EUR</strong> (sobre un flujo operativo superior a los 3.046 millones). Con semejante capacidad para generar efectivo, <strong>ACS.MC</strong> autofinancia su crecimiento, retribuye al accionista con un dividendo fiable del <strong>2.56%</strong> (2.32 EUR por acción con un <em>payout</em> de solo el 61%) y reduce cualquier vulnerabilidad frente al entorno macroeconómico del BCE.</li>
+</ul>
+<h6>3. Ventaja Competitiva Dominante y Valoración Atractiva</h6>
+<p>¿Por qué <strong>ACS.MC</strong> es líder indiscutible? Su diversificación geográfica, su liderazgo en proyectos complejos de ingeniería y su capacidad para ejecutar concesiones de alto valor añadido le otorgan un foso defensivo (<em>moat</em>) inalcanzable para rivales más pequeños.
+A pesar de esto, cotiza a un <strong>PER Forward de 18.16x</strong>, totalmente alineado con su mediana histórica y sectorial, pero ofreciendo un potencial de revalorización masivo. No lo digo yo: el <strong>consenso de los 16 analistas</strong> sitúa el precio objetivo medio en unos impresionantes <strong>131.21 EUR</strong>, lo que arroja un <strong>potencial alcista (<em>consensus upside</em>) del 44.74%</strong> desde los niveles actuales de 90.65 EUR. El suelo de valoración fijado por el mercado es, simplemente, una oportunidad de compra de libro.</p>
+<p>En resumen, los riesgos que esgrime el bando bajista ya están más que descontados en el retroceso temporal del valor. Las valoraciones fundamentales son excepcionales, la caja rezuma salud y los catalizadores de noviembre están listos para revalorizar el activo. Mantener y acumular de cara al nuevo ciclo estratégico es la jugada ganadora.</p>
+<hr />
+<p><strong>Rating</strong>: HOLD<br />
+FINAL TRANSACTION PROPOSAL: Mantener posición actual (HOLD) en ACS.MC y aprovechar la consolidación técnica previa a la hoja de ruta corporativa de noviembre de 2026 para posicionarse de cara al objetivo de consenso de los analistas.</p>
+<h3 id="s2-2">Bear Researcher</h3>
+<p>Bear Analyst: ¡Hola colega! Comprendo perfectamente tu entusiasmo y esa retórica tan optimista sobre <strong>ACS.MC</strong>, pero me temo que estás viendo la película con lentes de color de rosa y obviando los nubarrones oscuros que se ciernen sobre el valor. Agárrate, porque vamos a poner los pies en la tierra y a desmontar esa tesis alcista basándonos en la realidad del mercado y en la fría letra de los datos.</p>
+<p>Decir que la corrección técnica actual es simplemente &quot;un trampolín&quot; es ignorar la cruda realidad del gráfico. ¿Un trampolín? El valor acumula un castigo brutal del <strong>-34.48%</strong> desde sus máximos recientes y un desplome del <strong>-18.19% en los últimos 63 días</strong>, cotizando actualmente en los <strong>90.65 EUR</strong>, muy por debajo de su media móvil de 200 sesiones (<strong>SMA 200 en 108.85 EUR</strong>). Esto no es una simple pausa para respirar; es una tendencia bajista de fondo consolidada. El mercado le está dando la espalda al valor, y escudarse en que &quot;los riesgos ya están descontados&quot; es un clásico exceso de confianza que suele salir muy caro.</p>
+<p>Vamos a rebatir punto por punto tus argumentos:</p>
+<h6>1. El espejismo del crecimiento de ingresos frente a la realidad de los márgenes</h6>
+<p>Presumes de unos ingresos de <strong>49.847 millones de EUR</strong> y un crecimiento del 12.2%. Suena de maravilla en un titular, pero ¿te has detenido a mirar la rentabilidad real de ese volumen? Estamos hablando de unas <strong>márgenes de beneficio neto exiguos del 1.95%</strong> (con un beneficio neto de 950 millones sobre casi 50.000 millones de facturación).
+La construcción y la ingeniería son industrias hipercompetitivas donde mover volúmenes titánicos no garantiza la creación de valor para el accionista, especialmente cuando la inflación de costes y los cuellos de botella energéticos —advertidos por el propio BCE a finales de octubre de 2026 al mantener los tipos en el 2.5%— erosionan constantemente las contrataciones a precio cerrado. Crecer vendiendo más caro no sirve de nada si cada euro facturado deja céntimos limpios en la caja.</p>
+<h6>2. La trampa del apalancamiento y el espejismo de la liquidez</h6>
+<p>Te llenas la boca hablando de un ratio de deuda neta sobre EBITDA de <strong>0.20x</strong> y de una posición de caja aparentemente colosal. Pero analicemos el balance completo de <strong>ACS.MC</strong>: la compañía arrastra una <strong>deuda total de 15.333 millones de EUR</strong> sobre unos activos totales de 45.189 millones. En un entorno macroeconómico donde la estabilidad de tipos del BCE al 2.5% mantiene el coste del dinero en niveles restrictivos en comparación con la década pasada, refinanciar o sostener estructuras de capital tan pesadas no es un paseo militar.
+Además, un <strong>PER Forward de 18.16x</strong> (y un trailing de 19.79x) para una empresa con márgenes netos inferiores al 2% no es &quot;atractivo&quot;: es <strong>caro</strong>. Estás pagando múltiplos exigentes por un negocio expuesto a la cíclicidad económica más pura, con una volatilidad anualizada cercana al <strong>28.77%</strong>.</p>
+<h6>3. El peligro del &quot;Consenso Ciego&quot; y el riesgo binario del CMD de noviembre</h6>
+<p>Confías ciegamente en que el <strong>Capital Markets Day (CMD)</strong> y los resultados del 11 y 12 de noviembre de 2026 van a ser la panacea que dispare el precio hasta el objetivo de los analistas en <strong>131.21 EUR</strong>. ¡Cuidado con eso! Las expectativas están tan infladas que cualquier desvío milimétrico en la nueva hoja de ruta estratégica, cualquier cautela en las previsiones de flujo de caja para el próximo año o un recorte de guías provocado por la desaceleración europea desencadenará una oleada de ventas masiva. No es casualidad que entidades como Deutsche Bank hayan bajado recientemente sus precios objetivo antes de la cita (<em>MarketScreener</em>, 29 de octubre de 2026). Los grandes bancos de inversión se están curando en salud, y tú deberías hacer lo mismo.</p>
+<p>En resumen: un valor perforando su media de 200 sesiones, con márgenes ridículamente estrechos, atrapado en un entorno de tipos restrictivos y con un riesgo binario enorme a la vuelta de la esquina en noviembre, no es una oportunidad de compra. Es un claro candidato a la prudencia extrema. Mantenerse al margen o recortar exposición es la única jugada sensata.</p>
+<hr />
+<p><strong>Rating</strong>: HOLD<br />
+FINAL TRANSACTION PROPOSAL: Mantener posición neutral (HOLD) en ACS.MC con estricta vigilancia de los soportes técnicos y extrema cautela ante el riesgo de volatilidad que arroje la hoja de ruta corporativa en el CMD de noviembre de 2026.</p>
+<h3 id="s2-3">Research Manager</h3>
+<p><strong>Recommendation</strong>: Hold</p>
+<p><strong>Rationale</strong>: El debate entre el analista alcista y el bajista muestra un escenario complejo para ACS.MC. Por un lado, el bando alcista destaca la solidez fundamental de la compañía, respaldada por un crecimiento interanual de ingresos del 12.2% hasta los 49.847 millones de EUR, un EBITDA de 3.387 millones de EUR, un flujo de caja libre superior a los 2.300 millones y un apalancamiento muy bajo con una ratio de deuda neta sobre EBITDA de 0.20x, además de un dividendo fiable del 2.56%. Por otro lado, el bando bajista advierte con razón sobre la debilidad técnica del valor (cotizando a 90.65 EUR frente a una SMA de 200 en 108.85 EUR, con un castigo del -34.48% desde máximos), márgenes netos reducidos (1.95%), múltiplos exigentes con un PER forward de 18.16x y la incertidumbre a corto plazo ligada al riesgo binario de los resultados y el Capital Markets Day de noviembre de 2026, que ya ha provocado revisiones a la baja por parte de entidades como Deutsche Bank. Ponderando ambos argumentos, el fuerte descuento frente al consenso de analistas (131.21 EUR) y los sólidos fundamentales chocan con el deterioro técnico y la volatilidad macroeconómica actual (tipos del BCE en el 2.5%), lo que justifica una postura neutral de mantenimiento sin sobreexponerse antes de los catalizadores de noviembre.</p>
+<p><strong>Strategic Actions</strong>: Mantener la asignación actual neutral en ACS.MC dentro de la cartera hipotética. Evitar incrementar posiciones hasta después de la publicación de resultados y el Capital Markets Day programados para mediados de noviembre de 2026, sirviéndose de dichos eventos para evaluar la nueva hoja de ruta estratégica. Monitorear de cerca el soporte técnico en torno a los 90.65 EUR y la media móvil de 200 sesiones para ajustar cualquier futura exposición con base en la volatilidad.</p>
+</section><section id="s3"><h2>III. Trading Team Plan</h2><h3 id="s3-1">Trader</h3>
+<p><strong>Action</strong>: Hold</p>
+<p><strong>Reasoning</strong>: ACS.MC cotiza a 90.65 EUR en un entorno de consolidación técnica por debajo de sus medias móviles de largo plazo, reflejando el castigo acumulado del -34.48% desde sus máximos y la cautela macroeconómica del BCE. Aunque los fundamentales muestran fortaleza con un crecimiento de ingresos del 12.2% y una baja ratio de deuda neta sobre EBITDA de 0.20x, el riesgo binario ante la inminente presentación de resultados del tercer trimestre y el Capital Markets Day a mediados de noviembre desaconseja modificar la exposición actual. Por tanto, se adopta una postura de espera para evaluar la nueva hoja de ruta estratégica antes de tomar posiciones adicionales.</p>
+<p><strong>Entry Price</strong>: not provided</p>
+<p><strong>Stop Loss</strong>: 84.5</p>
+<p><strong>Position Sizing</strong>: 3% of portfolio</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+</section><section id="s4"><h2>IV. Risk Management Team Decision</h2><h3 id="s4-1">Aggressive Analyst</h3>
+<p>Aggressive Analyst: <strong>Rating</strong>: HOLD
+FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+<p>¡Venga ya! ¿De verdad vamos a temblar ahora por una simple consolidación técnica mientras el mercado nos está sirviendo ACS.MC en bandeja? Los analistas conservadores y neutrales se anclan en el miedo, utilizando la corrección del -34.48% desde máximos y la pausa del BCE en el 2.5% como excusa para paralizarse. ¡Eso es una miopía táctica inaceptable! Nos están pidiendo que nos quedemos cruzados de brazos frente a un gigante industrial que acaba de reportar unos ingresos escalofriantes de 49.847 millones de EUR en 2025, lo que representa un crecimiento interanual del 12.2% y un flujo de caja libre masivo de más de 2.300 millones de EUR.</p>
+<p>¿Qué me dicen de la deuda? ¿Dónde está el riesgo excesivo cuando la ratio de deuda neta sobre EBITDA de ACS.MC es de unos envidiables y ultraseguros 0.20x? ¡Cero coma veinte! La estructura de balance es un auténtico búnker, respaldada por una caja total de 15.832 millones de EUR. Pretender que nos perdamos la fiesta o que nos deshagamos de posiciones ante la inminente presentación de resultados del 11 de noviembre y el Capital Markets Day del 12 de noviembre de 2026 es regalarle el potencial alcista a los institucionales. El consenso de analistas marca un precio objetivo medio de 131.21 EUR, lo que se traduce en un <strong>consenso alcista del 44.74%</strong> desde los 90.65 EUR actuales.</p>
+<p>¿Van a dejar que la timidez del RSI en 45.94 o el ruido cortoplacista del MACD eclipsen un retorno sobre el capital (ROE) del 24.08% y una expansión brutal en mercados clave? Mantener la posición actual con un stop loss bien medido en los 84.5 EUR y un tamaño de cartera del 3% no es cobardía, es la postura táctica perfecta para aguantar el binomio de resultados y saltar con máxima agresividad en cuanto la nueva hoja de ruta del CMD confirme lo que los fundamentales ya nos están gritando: ACS.MC es un cohete listo para despegar. ¡Menos dudas y más visión de crecimiento!</p>
+<h3 id="s4-2">Conservative Analyst</h3>
+<p>Conservative Analyst: <strong>Rating</strong>: HOLD<br />
+FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+<p>Escucho al analista agresivo hablar de &quot;miopía táctica&quot; y de ver a <code>ACS.MC</code> como un cohete listo para despegar hacia los 131.21 EUR del consenso, pero lo que él llama valentía, en la gestión de riesgos lo llamamos exposición imprudente al peligro. Ignorar los números rojos de la tendencia no es tener visión de crecimiento, es cerrar los ojos ante la realidad del mercado.</p>
+<p>Es muy fácil entusiasmarse con un crecimiento de ingresos del 12.2% y una ratio de deuda neta sobre EBITDA de 0.20x —reconozco que los fundamentales de <code>ACS.MC</code> son sólidos en el papel y que su generación de caja libre supera los 2.300 millones de EUR—, pero el balance perfecto de una compañía no te inmuniza contra la volatilidad del parqué ni contra los eventos de riesgo binario. El título acumula un doloroso descenso del -34.48% desde sus máximos y cotiza claramente por debajo de sus medias móviles clave de largo plazo, incluyendo la SMA 200 en 108.85 EUR y la SMA 50 en 94.94 EUR. Decir que estamos ante una &quot;simple consolidación técnica&quot; mientras el precio perfora estas referencias es minimizar una tendencia bajista de fondo que ya acumula un retroceso del -18.19% en los últimos tres meses.</p>
+<p>Además, el analista pasa por alto el contexto macroeconómico inmediato y el riesgo asimétrico que se avecina. Estamos a pocos días de la publicación de los resultados del tercer trimestre y del Capital Markets Day programado para mediados de noviembre de 2026. En un entorno donde el Banco Central Europeo mantiene los tipos de interés en el 2.5% y advierte sobre presiones inflacionarias y energéticas, lanzarse a ampliar posiciones antes de conocer la nueva hoja de ruta estratégica es jugársela a una carta en la ruleta del mercado. Deutsche Bank ya ha movido ficha recortando el precio objetivo de <code>ACS.MC</code> en la antesala de estas citas, lo que demuestra que los institucionales no comparten el optimismo ciego del analista agresivo.</p>
+<p>Por todo ello, aunque los fundamentales justifican plenamente mantener la estructura actual de la posición sin liquidarla a pérdidas, la prudencia exige absoluta disciplina. El tamaño de cartera asignado del 3% y el nivel de stop loss fijado en los 84.5 EUR son los únicos diques de contención que protegen nuestros activos frente a una posible decepción en los resultados o un giro adverso en el CMD. En tiempos de incertidumbre macro y castigo técnico, proteger el capital prevalece siempre sobre las falsas urgencias de subirse a un cohete que, por ahora, vuela con turbulencias.</p>
+<h3 id="s4-3">Neutral Analyst</h3>
+<p>Neutral Analyst: Rating: HOLD
+FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+<p>Escuchando las posturas de ambos, queda claro que tanto el analista agresivo como el conservador caen en sesgos peligrosos al evaluar a <code>ACS.MC</code>. El analista agresivo peca de un optimismo desmedido y una impaciencia injustificada al calificar al valor de &quot;cohete listo para despegar&quot;, ignorando por completo la realidad técnica. Decir que la caída del -34.48% desde máximos y la pérdida de la media móvil de 200 sesiones situada en 108.85 EUR es simplemente &quot;ruido&quot; es una temeridad que menosprecia el riesgo bajista de corto y medio plazo. Apoyarse únicamente en el potencial alcista del consenso (131.21 EUR) y en unos fundamentales pasados sin respetar la tendencia actual es apostar a ciegas en vísperas de un evento binario crítico como es el Capital Markets Day y la presentación de resultados del 11 de noviembre de 2026.</p>
+<p>Por otro lado, el analista conservador se refugia en un exceso de cautela que roza la parálisis. Aunque acierta al señalar las advertencias del BCE con los tipos en el 2.5% y el reciente recorte de precio objetivo por parte de Deutsche Bank, exagera al plantear la situación como si el balance de la compañía estuviera al borde del abismo. Despreciar la enorme solidez de <code>ACS.MC</code> —respaldada por un crecimiento de ingresos del 12.2%, una caja total de más de 15.800 millones de euros y una ratio de deuda neta sobre EBITDA envidiable de 0.20x— es ignorar que estamos ante un gigante industrial con una capacidad de generación de flujo de caja libre superior a los 2.300 millones de euros que ya ha demostrado su resiliencia.</p>
+<p>La postura verdaderamente inteligente y equilibrada no es lanzarse a comprar de forma imprudente antes de los resultados, ni tampoco adoptar una actitud defensiva alarmista. La decisión de mantener (HOLD) la exposición actual, con una asignación hipotética del 3% y un stop loss disciplinado en 84.5 EUR para proteger el capital frente a cualquier sorpresa en el CMD, es exactamente la estrategia moderada que necesitamos. Nos permite no perdernos la gran calidad fundamental de la compañía ni el retorno por dividendo del 2.56%, a la vez que nos mantiene a salvo de la volatilidad inmediata mientras el mercado aclara su dirección tras la nueva hoja de ruta estratégica de mediados de noviembre. Ni euforia ciega ni miedo paralizante: gestión de riesgos con cabeza fría.</p>
+</section><section id="s5"><h2>V. Portfolio Manager Decision</h2><h3 id="s5-1">Portfolio Manager</h3>
+<p><strong>Rating</strong>: Hold</p>
+<p><strong>Executive Summary</strong>: Mantener la asignación actual del 3% en ACS.MC dentro de una postura neutral de espera, evitando incrementar posiciones antes del Capital Markets Day y la presentación de resultados a mediados de noviembre de 2026. Proteger la exposición con un stop loss disciplinado en 84.5 EUR para absorber la volatilidad derivada del castigo técnico reciente y el contexto macroeconómico.</p>
+<p><strong>Investment Thesis</strong>: El debate entre los analistas refleja una clara dicotomía entre la solidez fundamental y el deterioro técnico de corto plazo. Por un lado, el bando alcista destaca un crecimiento interanual de ingresos del 12.2% hasta los 49.847 millones de EUR, una sólida generación de flujo de caja libre superior a los 2.300 millones de EUR, un dividendo fiable del 2.56% y un apalancamiento sumamente bajo con una ratio de deuda neta sobre EBITDA de 0.20x, apuntando a un consenso de analistas en 131.21 EUR que implica un potencial alcista del 44.74%. Por otro lado, la faceta bajista y neutral advierte con razón sobre la delicada situación técnica, con el valor cotizando a 90.65 EUR —un -34.48% desde máximos— y por debajo de su SMA de 200 en 108.85 EUR, además del riesgo binario inminente de los resultados del tercer trimestre, el Capital Markets Day de noviembre de 2026 y las revisiones a la baja de entidades como Deutsche Bank en un entorno de tipos del BCE en el 2.5%. Ponderando ambos argumentos, la evidencia sigue equilibrada entre el atractivo fundamental de largo plazo y el riesgo inminente de eventos a corto plazo, lo que justifica una postura firme de mantenimiento (Hold) hasta que la nueva hoja de ruta estratégica aclare la dirección del valor.</p>
+<p><strong>Price Target</strong>: 131.21</p>
+<p><strong>Time Horizon</strong>: 3-6 months</p>
+</section>
+</main>
+<footer class="credit"><a href="https://github.com/TauricResearch/TradingAgents" rel="noopener">TradingAgents</a> powered by <a class="brand" href="https://github.com/TauricResearch" rel="noopener">Tauric Research</a></footer>
+</div>
+<a class="to-top" href="#top">Top</a>
+</body>
+</html>

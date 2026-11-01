@@ -1,0 +1,642 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'">
+<title>SAB.MC 2026-11-01 Hold: TradingAgents report</title>
+<style>
+:root {
+  --paper: #fbfbfa; --ink: #1c2126; --muted: #5d6670; --rule: #e2e5e8; --wash: #f2f4f5;
+  --accent: #087a59; --up: #087a59; --down: #b4372f; --level: #5d6670; --edge: #d3d8dc; --mark: #878f97;
+  --serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #131a1f; --ink: #e4e8eb; --muted: #9aa6af; --rule: #263239; --wash: #1a242a;
+    --accent: #14c290; --up: #14c290; --down: #ef6f63; --level: #9aa6af; --edge: #3d4c55; --mark: #66737c;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .masthead .logo [stroke="#363636"] { stroke: var(--muted); }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font: 17px/1.62 var(--serif); font-kerning: normal;
+}
+.page { max-width: 46rem; margin: 0 auto; padding: 3.5rem 1.5rem 6rem; }
+main h2, main h3 { scroll-margin-top: 1rem; }
+a { color: var(--accent); text-underline-offset: 0.15em; }
+h1, h2, h3, h4 { text-wrap: balance; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.masthead { padding-bottom: 1.75rem; border-bottom: 1px solid var(--rule); }
+/* The logo leads at the top left, where readers look for it, 24px tall (the usual
+   on-screen floor for a wordmark) with at least its height clear below. */
+.masthead .logo { display: block; width: fit-content; margin: 0 0 2.25rem; }
+.masthead .logo svg { display: block; height: 1.5rem; width: auto; }
+.masthead h1 {
+  margin: 0; font: 600 2.6rem/1.1 var(--sans); letter-spacing: -0.02em;
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.2em 0.5em;
+}
+.masthead .rating { font-weight: 500; }
+.rating.up { color: var(--up); } .rating.down { color: var(--down); } .rating.level { color: var(--level); }
+.rating.review { color: var(--muted); font-style: italic; }
+.masthead .date { margin: 0.55rem 0 1.5rem; font: 1rem/1.4 var(--sans); color: var(--muted); }
+.run { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: 0.45rem 1.25rem;
+  font: 0.85rem/1.5 var(--sans); }
+.run > div { display: contents; }
+.run dt { color: var(--muted); }
+.run dd { margin: 0; overflow-wrap: anywhere; }
+.run .note dd { color: var(--down); }
+.field { display: inline-block; margin: 0 0.15rem 0.15rem 0; padding: 0 0.4rem; border: 1px solid var(--edge);
+  border-radius: 4px; background: var(--wash); font: 0.8rem/1.6 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+.run .group { display: inline-block; margin-right: 0.9rem; white-space: nowrap; }
+.run .group > .name { color: var(--muted); margin-right: 0.3rem; }
+.run .then { color: var(--muted); margin: 0 0.2rem; }
+
+/* The sections: listed under the header on narrow screens. On wide ones, a
+   quiet rail centred on the left edge (numerals for the sections, short bars
+   for their agents) that opens into the full list when pointed at or focused. */
+.contents { margin: 2.25rem 0 0; font: 0.9rem/1.45 var(--sans); }
+.contents ul { margin: 0; padding: 0; list-style: none; }
+.contents > ul > li { margin: 0 0 0.75rem; }
+.contents ul ul { margin-top: 0.2rem; padding-left: 1.6rem; font-size: 0.85rem; }
+.contents ul ul li { margin: 0.1rem 0; }
+.contents a { display: flex; align-items: center; gap: 0.6rem; color: var(--muted); text-decoration: none; }
+.contents > ul > li > a { color: var(--ink); }
+.contents .num { min-width: 1.6rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.contents .bar { display: none; }
+.contents a:hover .label, .contents a:focus-visible .label { color: var(--accent); text-decoration: underline; }
+.to-top { position: fixed; right: 1rem; bottom: calc(1rem + env(safe-area-inset-bottom));
+  padding: 0.25rem 0.6rem; border: 1px solid var(--edge); border-radius: 4px; background: var(--paper);
+  color: var(--muted); font: 0.8rem/1.4 var(--sans); text-decoration: none; }
+
+@media (min-width: 60rem) {
+  .contents { position: fixed; left: 1rem; top: 50%; transform: translateY(-50%); z-index: 1;
+    max-height: 86vh; overflow-y: auto; overscroll-behavior: contain; margin: 0;
+    padding: 0.7rem 0.9rem; border: 1px solid transparent; border-radius: 6px;
+    transition: background-color 0.15s, border-color 0.15s, box-shadow 0.15s; }
+  .contents > ul > li { margin: 0 0 0.35rem; }
+  .contents ul ul { margin-top: 0; padding-left: 0; }
+  .contents ul ul li { margin: 0; }
+  /* Marks reach 3:1 contrast and rows 24px, the WCAG 2.2 floors for a control's
+     visual cue and its pointer target. */
+  .contents a { min-height: 1.5rem; }
+  .contents .num { min-width: 1.4rem; }
+  .contents .bar { display: block; flex: none; width: 1.25rem; height: 2px; margin-left: 0.2rem;
+    border-radius: 1px; background: var(--mark); }
+  .contents .label { max-width: 0; opacity: 0; overflow: hidden; white-space: nowrap;
+    transition: opacity 0.15s, max-width 0.2s; }
+  .contents:hover, .contents:focus-within { background: var(--paper); border-color: var(--rule);
+    box-shadow: 0 6px 24px rgb(0 0 0 / 0.08); }
+  .contents:hover .label, .contents:focus-within .label { max-width: 18rem; opacity: 1; }
+  .contents a:hover .bar, .contents a:focus-visible .bar { background: var(--accent); }
+  .to-top { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .contents, .contents .label { transition: none; }
+}
+
+/* The maker's credit: one quiet line at the foot. */
+.credit { margin-top: 4.5rem; padding-top: 1.25rem; border-top: 1px solid var(--rule);
+  color: var(--muted); font: 0.8rem/1.4 var(--sans); }
+.credit a { color: inherit; text-decoration: none; }
+.credit a.brand { color: var(--accent); }
+.credit a:hover, .credit a:focus-visible { text-decoration: underline; }
+
+/* Three levels of separation: the five groups, the agents within a group, and
+   breaks an agent draws inside its own text. */
+main h2 {
+  margin: 4.5rem 0 0.25rem; padding-top: 1.5rem; border-top: 2px solid var(--ink);
+  font: 600 1.45rem/1.3 var(--sans); letter-spacing: -0.01em;
+}
+main section:first-child h2 { margin-top: 3rem; }
+main h3 { margin: 2.75rem 0 0.75rem; padding-top: 1.1rem; border-top: 1px solid var(--rule);
+  font: 600 1.15rem/1.35 var(--sans); color: var(--accent); }
+main h2 + h3 { margin-top: 1.25rem; padding-top: 0; border-top: 0; }
+main h4, main h5, main h6 { margin: 1.75rem 0 0.5rem; font: 600 1rem/1.4 var(--sans); }
+main h5, main h6 { color: var(--muted); }
+main p, main ul, main ol { margin: 0 0 1rem; }
+main li { margin: 0.25rem 0; }
+main strong { font-weight: 650; }
+main blockquote { margin: 1.25rem 0; padding: 0.1rem 0 0.1rem 1rem; border-left: 3px solid var(--rule);
+  color: var(--muted); }
+main code { font: 0.88em/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  background: var(--wash); padding: 0.1em 0.3em; border-radius: 3px; }
+main pre { background: var(--wash); padding: 0.9rem 1rem; border-radius: 4px; overflow-x: auto; }
+main pre code { background: none; padding: 0; }
+main hr { width: 3rem; margin: 2rem auto; border: 0; border-top: 1px solid var(--rule); }
+
+.table { overflow-x: auto; margin: 0 0 1.25rem; }
+table { border-collapse: collapse; width: 100%; font: 0.86rem/1.45 var(--sans);
+  font-variant-numeric: tabular-nums; }
+th, td { padding: 0.45rem 0.7rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--rule); }
+th { font-weight: 600; border-bottom-color: var(--muted); }
+tbody tr:last-child td { border-bottom: 0; }
+
+@media (max-width: 34rem) {
+  body { font-size: 16px; }
+  .page { padding: 2rem 1rem 3rem; }
+  .masthead h1 { font-size: 2rem; }
+  .masthead .logo svg { height: 1.25rem; }
+  .run { grid-template-columns: 1fr; gap: 0 0; }
+  .run dd { margin-bottom: 0.45rem; }
+  .run .group { white-space: normal; }
+}
+@media print {
+  :root { --paper: #fff; --ink: #000; --muted: #444; --rule: #bbb; --accent: #000; --wash: #f2f2f2;
+    --edge: #bbb; --up: #087a59; --down: #b4372f; --level: #444; }
+  body { font-size: 11pt; }
+  .table { overflow: visible; }
+  .page { max-width: none; padding: 0; }
+  .contents, .to-top { display: none; }
+  main h2 { break-before: page; border-top: 0; margin-top: 0; }
+  main section:first-child h2 { break-before: auto; }
+  main h3, main h4 { break-after: avoid; }
+  a { color: inherit; text-decoration: none; }
+  table { break-inside: avoid; }
+}
+</style>
+</head>
+<body>
+<div class="page" id="top">
+<header class="masthead">
+<a class="logo" href="https://tauric.ai" rel="noopener" aria-label="Tauric Research"><svg width="993" height="115" viewBox="0 0 993 115" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M189.86 95.0459V37.9779H165.924V29.9259H223.74V37.9779H199.804V95.0459H189.86ZM251.026 46.4259C256.071 46.4259 260.178 47.0272 263.345 48.2299C266.514 49.4032 268.89 51.3686 270.474 54.1259C272.058 56.8832 272.85 60.6379 272.85 65.3899V95.0459H264.666L263.961 89.8979H263.434C261.644 91.7752 259.386 93.2419 256.657 94.2979C253.929 95.3246 251.025 95.8379 247.946 95.8379C244.426 95.8379 241.419 95.2952 238.925 94.2099C236.432 93.0952 234.54 91.5406 233.249 89.5459C231.959 87.5512 231.313 85.2046 231.313 82.5059C231.313 78.2526 232.897 74.9672 236.065 72.6499C239.263 70.3032 244.337 68.8219 251.29 68.2059L263.258 67.0179V64.7299C263.258 61.9139 262.774 59.7139 261.806 58.1299C260.838 56.5459 259.371 55.4312 257.406 54.7859C255.47 54.1406 252.888 53.8179 249.662 53.8179C247.432 53.8179 245.012 54.0086 242.401 54.3899C239.82 54.7712 237.341 55.3432 234.965 56.1059V48.8019C237.312 48.0392 239.908 47.4526 242.754 47.0419C245.628 46.6312 248.386 46.4259 251.026 46.4259ZM250.541 89.0619C252.888 89.0619 255.162 88.6512 257.362 87.8299C259.562 86.9792 261.527 85.7179 263.258 84.0459V72.8259L252.038 73.9259C248.136 74.3659 245.35 75.2166 243.678 76.4779C242.005 77.7099 241.169 79.4699 241.169 81.7579C241.169 84.0752 241.947 85.8792 243.501 87.1699C245.056 88.4312 247.403 89.0619 250.541 89.0619ZM313.339 95.8379C307.59 95.8379 303.087 94.2979 299.831 91.2179C296.575 88.1086 294.947 83.2686 294.947 76.6979V47.1739H304.715V76.1699C304.715 80.1886 305.624 83.0779 307.443 84.8379C309.291 86.5979 311.916 87.4779 315.319 87.4779C317.871 87.4779 320.379 86.9939 322.843 86.0259C325.336 85.0286 327.492 83.5766 329.311 81.6699V47.1739H339.079V95.0459H330.983L330.367 89.9419H329.883C327.624 91.8486 325.072 93.3152 322.227 94.3419C319.382 95.3392 316.419 95.8379 313.339 95.8379ZM362.371 47.1739H370.423L371.171 53.2899H371.743C373.474 51.2072 375.703 49.5792 378.431 48.4059C381.188 47.2326 384.063 46.6459 387.055 46.6459C388.756 46.6459 390.355 46.7926 391.851 47.0859V55.8419C390.414 55.5779 388.654 55.4459 386.571 55.4459C383.99 55.4459 381.364 55.9446 378.695 56.9419C376.026 57.9392 373.84 59.4206 372.139 61.3859V95.0459H362.371V47.1739ZM409.069 95.0459V47.1739H418.837V95.0459H409.069ZM413.953 37.8459C411.871 37.8459 410.287 37.3912 409.201 36.4819C408.145 35.5726 407.617 34.2672 407.617 32.5659C407.617 30.8352 408.145 29.5152 409.201 28.6059C410.287 27.6672 411.871 27.1979 413.953 27.1979C416.036 27.1979 417.605 27.6672 418.661 28.6059C419.747 29.5152 420.289 30.8352 420.289 32.5659C420.289 34.2672 419.747 35.5726 418.661 36.4819C417.605 37.3912 416.036 37.8459 413.953 37.8459ZM464.85 95.9259C456.607 95.9259 450.315 93.8432 445.974 89.6779C441.662 85.5126 439.506 79.3526 439.506 71.1979C439.506 63.0139 441.779 56.8392 446.326 52.6739C450.902 48.5086 457.575 46.4259 466.346 46.4259C470.716 46.4259 474.735 46.9246 478.402 47.9219V55.7099C476.378 55.2406 474.486 54.8886 472.726 54.6539C470.966 54.4192 469.118 54.3019 467.182 54.3019C461.168 54.3019 456.71 55.6512 453.806 58.3499C450.931 61.0486 449.494 65.2872 449.494 71.0659C449.494 76.8739 450.858 81.1566 453.586 83.9139C456.343 86.6712 460.42 88.0499 465.818 88.0499C467.695 88.0499 469.616 87.8886 471.582 87.5659C473.547 87.2139 475.82 86.6712 478.402 85.9379V93.7259C474.236 95.1926 469.719 95.9259 464.85 95.9259ZM574.428 95.0459L553.704 69.0859C553.176 69.1152 552.37 69.1299 551.284 69.1299C548.38 69.1299 544.978 68.9832 541.076 68.6899V95.0459H531.308V31.4659C537.967 29.9699 544.846 29.2219 551.944 29.2219C561.595 29.2219 568.752 30.8059 573.416 33.9739C578.08 37.1126 580.412 42.1286 580.412 49.0219C580.412 54.0086 579.004 58.0859 576.188 61.2539C573.402 64.4219 569.266 66.6366 563.78 67.8979L585.648 95.0459H574.428ZM541.076 61.2099C543.071 61.4152 544.816 61.5619 546.312 61.6499C547.838 61.7379 549.627 61.7819 551.68 61.7819C558.427 61.7819 563.34 60.7699 566.42 58.7459C569.5 56.6926 571.04 53.4952 571.04 49.1539C571.04 46.0739 570.395 43.6099 569.104 41.7619C567.843 39.9139 565.863 38.5792 563.164 37.7579C560.495 36.9366 556.975 36.5259 552.604 36.5259C550.404 36.5259 548.424 36.6139 546.664 36.7899C544.904 36.9659 543.042 37.2299 541.076 37.5819V61.2099ZM642.947 74.0139H608.231C608.407 77.4752 609.155 80.2766 610.475 82.4179C611.795 84.5299 613.775 86.0846 616.415 87.0819C619.055 88.0792 622.443 88.5779 626.579 88.5779C630.686 88.5779 635.233 87.9472 640.219 86.6859V93.9459C635.027 95.2659 630.026 95.9259 625.215 95.9259C616.298 95.9259 609.61 93.9166 605.151 89.8979C600.722 85.8499 598.507 79.6166 598.507 71.1979C598.507 65.9179 599.402 61.4299 601.191 57.7339C602.981 54.0379 605.562 51.2366 608.935 49.3299C612.338 47.3939 616.43 46.4259 621.211 46.4259C628.251 46.4259 633.634 48.5819 637.359 52.8939C641.085 57.1766 642.947 63.3659 642.947 71.4619V74.0139ZM621.079 52.8939C616.973 52.8939 613.834 54.1406 611.663 56.6339C609.493 59.0979 608.334 62.9259 608.187 68.1179H633.751C633.634 62.9259 632.519 59.0979 630.407 56.6339C628.295 54.1406 625.186 52.8939 621.079 52.8939ZM677.365 95.9259C671.352 95.9259 665.896 95.2219 660.997 93.8139V86.7299C666.248 88.1966 671.718 88.9299 677.409 88.9299C681.809 88.9299 684.977 88.3432 686.913 87.1699C688.849 85.9672 689.817 84.2219 689.817 81.9339C689.817 80.7019 689.597 79.6899 689.157 78.8979C688.717 78.0766 687.969 77.4019 686.913 76.8739C685.857 76.3166 684.405 75.8912 682.557 75.5979L674.065 74.2779C669.137 73.4859 665.573 71.9899 663.373 69.7899C661.202 67.5899 660.117 64.6419 660.117 60.9459C660.117 56.4579 661.965 52.9232 665.661 50.3419C669.386 47.7312 675.062 46.4259 682.689 46.4259C685.094 46.4259 687.485 46.5872 689.861 46.9099C692.266 47.2032 694.481 47.6432 696.505 48.2299V55.2699C692.046 54.0379 687.456 53.4219 682.733 53.4219C677.893 53.4219 674.476 54.0526 672.481 55.3139C670.486 56.5752 669.489 58.3206 669.489 60.5499C669.489 62.2219 670.002 63.5859 671.029 64.6419C672.056 65.6686 673.889 66.4166 676.529 66.8859L685.021 68.2059C689.92 68.9686 693.513 70.3766 695.801 72.4299C698.089 74.4832 699.233 77.4606 699.233 81.3619C699.233 84.3832 698.412 86.9792 696.769 89.1499C695.156 91.3206 692.706 92.9926 689.421 94.1659C686.165 95.3392 682.146 95.9259 677.365 95.9259ZM760.579 74.0139H725.863C726.039 77.4752 726.787 80.2766 728.107 82.4179C729.427 84.5299 731.407 86.0846 734.047 87.0819C736.687 88.0792 740.075 88.5779 744.211 88.5779C748.317 88.5779 752.864 87.9472 757.851 86.6859V93.9459C752.659 95.2659 747.657 95.9259 742.847 95.9259C733.929 95.9259 727.241 93.9166 722.783 89.8979C718.353 85.8499 716.139 79.6166 716.139 71.1979C716.139 65.9179 717.033 61.4299 718.823 57.7339C720.612 54.0379 723.193 51.2366 726.567 49.3299C729.969 47.3939 734.061 46.4259 738.843 46.4259C745.883 46.4259 751.265 48.5819 754.991 52.8939C758.716 57.1766 760.579 63.3659 760.579 71.4619V74.0139ZM738.711 52.8939C734.604 52.8939 731.465 54.1406 729.295 56.6339C727.124 59.0979 725.965 62.9259 725.819 68.1179H751.383C751.265 62.9259 750.151 59.0979 748.039 56.6339C745.927 54.1406 742.817 52.8939 738.711 52.8939ZM796.986 46.4259C802.032 46.4259 806.138 47.0272 809.306 48.2299C812.474 49.4032 814.85 51.3686 816.434 54.1259C818.018 56.8832 818.81 60.6379 818.81 65.3899V95.0459H810.626L809.922 89.8979H809.394C807.605 91.7752 805.346 93.2419 802.618 94.2979C799.89 95.3246 796.986 95.8379 793.906 95.8379C790.386 95.8379 787.38 95.2952 784.886 94.2099C782.393 93.0952 780.501 91.5406 779.21 89.5459C777.92 87.5512 777.274 85.2046 777.274 82.5059C777.274 78.2526 778.858 74.9672 782.026 72.6499C785.224 70.3032 790.298 68.8219 797.25 68.2059L809.218 67.0179V64.7299C809.218 61.9139 808.734 59.7139 807.766 58.1299C806.798 56.5459 805.332 55.4312 803.366 54.7859C801.43 54.1406 798.849 53.8179 795.622 53.8179C793.393 53.8179 790.973 54.0086 788.362 54.3899C785.781 54.7712 783.302 55.3432 780.926 56.1059V48.8019C783.273 48.0392 785.869 47.4526 788.714 47.0419C791.589 46.6312 794.346 46.4259 796.986 46.4259ZM796.502 89.0619C798.849 89.0619 801.122 88.6512 803.322 87.8299C805.522 86.9792 807.488 85.7179 809.218 84.0459V72.8259L797.998 73.9259C794.097 74.3659 791.31 75.2166 789.638 76.4779C787.966 77.7099 787.13 79.4699 787.13 81.7579C787.13 84.0752 787.908 85.8792 789.462 87.1699C791.017 88.4312 793.364 89.0619 796.502 89.0619ZM841.524 47.1739H849.576L850.324 53.2899H850.896C852.627 51.2072 854.856 49.5792 857.584 48.4059C860.341 47.2326 863.216 46.6459 866.208 46.6459C867.909 46.6459 869.508 46.7926 871.004 47.0859V55.8419C869.567 55.5779 867.807 55.4459 865.724 55.4459C863.143 55.4459 860.517 55.9446 857.848 56.9419C855.179 57.9392 852.993 59.4206 851.292 61.3859V95.0459H841.524V47.1739ZM909.164 95.9259C900.921 95.9259 894.629 93.8432 890.288 89.6779C885.976 85.5126 883.82 79.3526 883.82 71.1979C883.82 63.0139 886.093 56.8392 890.64 52.6739C895.216 48.5086 901.889 46.4259 910.66 46.4259C915.03 46.4259 919.049 46.9246 922.716 47.9219V55.7099C920.692 55.2406 918.8 54.8886 917.04 54.6539C915.28 54.4192 913.432 54.3019 911.496 54.3019C905.482 54.3019 901.024 55.6512 898.12 58.3499C895.245 61.0486 893.808 65.2872 893.808 71.0659C893.808 76.8739 895.172 81.1566 897.9 83.9139C900.657 86.6712 904.734 88.0499 910.132 88.0499C912.009 88.0499 913.93 87.8886 915.896 87.5659C917.861 87.2139 920.134 86.6712 922.716 85.9379V93.7259C918.55 95.1926 914.033 95.9259 909.164 95.9259ZM941.796 23.9419H951.564V52.2779H952.048C954.248 50.3712 956.756 48.9192 959.572 47.9219C962.417 46.9246 965.395 46.4259 968.504 46.4259C974.019 46.4259 978.375 47.9952 981.572 51.1339C984.769 54.2432 986.368 59.0686 986.368 65.6099V95.0459H976.6V66.0939C976.6 62.0459 975.661 59.1566 973.784 57.4259C971.936 55.6952 969.237 54.8299 965.688 54.8299C963.048 54.8299 960.481 55.3286 957.988 56.3259C955.524 57.2939 953.383 58.7312 951.564 60.6379V95.0459H941.796V23.9419Z" fill="#14C290"/>
+<rect x="0.205322" y="14.873" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="14.679" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="14.679" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="86.6055" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="86.6055" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="101.284" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="58.7158" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="58.7158" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="87.1592" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="87.1592" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="73.0205" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="73.0205" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="87.3262" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="87.3262" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="101.631" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="101.631" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="101.284" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="15.0187" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.2668" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.2668" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.445" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.7506" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="100.716" y="14.873" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+</svg></a>
+<h1><span class="ticker">SAB.MC</span> <span class="rating level">Hold</span></h1>
+<p class="date">Analysis of 2026-11-01</p>
+<dl class="run"><div class="detail"><dt>Generated</dt><dd>2026-11-01 07:22</dd></div><div class="detail"><dt>Deep model</dt><dd><span class="field">google</span> <span class="field">gemini-3.5-flash-lite</span></dd></div><div class="detail"><dt>Quick model</dt><dd><span class="field">google</span> <span class="field">gemini-3.5-flash-lite</span></dd></div><div class="detail"><dt>Analysts</dt><dd><span class="field">market</span> <span class="field">news</span> <span class="field">fundamentals</span></dd></div><div class="detail"><dt>Debate rounds</dt><dd><span class="group"><span class="name">research</span><span class="field">1</span></span> <span class="group"><span class="name">risk</span><span class="field">1</span></span></dd></div><div class="detail"><dt>Data vendors</dt><dd><span class="group"><span class="name">Prices</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Indicators</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Fundamentals</span><span class="field">yfinance</span></span> <span class="group"><span class="name">News</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Macro</span><span class="field">fred</span></span> <span class="group"><span class="name">Prediction markets</span><span class="field">polymarket</span></span> <span class="group"><span class="name">get_news</span><span class="field">ibex_sample</span></span> <span class="group"><span class="name">get_global_news</span><span class="field">ibex_sample</span></span></dd></div><div class="detail"><dt>Version</dt><dd>TradingAgents 0.7.1</dd></div></dl>
+</header>
+<nav class="contents" aria-label="Sections"><ul><li><a href="#s1"><span class="num">I</span> <span class="label">Analyst Team Reports</span></a><ul><li><a href="#s1-1"><span class="bar"></span> <span class="label">Market Analyst</span></a></li><li><a href="#s1-2"><span class="bar"></span> <span class="label">News Analyst</span></a></li><li><a href="#s1-3"><span class="bar"></span> <span class="label">Fundamentals Analyst</span></a></li></ul></li><li><a href="#s2"><span class="num">II</span> <span class="label">Research Team Decision</span></a><ul><li><a href="#s2-1"><span class="bar"></span> <span class="label">Bull Researcher</span></a></li><li><a href="#s2-2"><span class="bar"></span> <span class="label">Bear Researcher</span></a></li><li><a href="#s2-3"><span class="bar"></span> <span class="label">Research Manager</span></a></li></ul></li><li><a href="#s3"><span class="num">III</span> <span class="label">Trading Team Plan</span></a><ul><li><a href="#s3-1"><span class="bar"></span> <span class="label">Trader</span></a></li></ul></li><li><a href="#s4"><span class="num">IV</span> <span class="label">Risk Management Team Decision</span></a><ul><li><a href="#s4-1"><span class="bar"></span> <span class="label">Aggressive Analyst</span></a></li><li><a href="#s4-2"><span class="bar"></span> <span class="label">Conservative Analyst</span></a></li><li><a href="#s4-3"><span class="bar"></span> <span class="label">Neutral Analyst</span></a></li></ul></li><li><a href="#s5"><span class="num">V</span> <span class="label">Portfolio Manager Decision</span></a><ul><li><a href="#s5-1"><span class="bar"></span> <span class="label">Portfolio Manager</span></a></li></ul></li></ul></nav>
+<main>
+<section id="s1"><h2>I. Analyst Team Reports</h2><h3 id="s1-1">Market Analyst</h3>
+<p><strong>Rating</strong>: HOLD<br />
+FINAL TRANSACTION PROPOSAL: Mantener posición en <code>SAB.MC</code> (Banco de Sabadell, S.A.), vigilando los soportes clave en torno a la media de 200 sesiones y evaluando la reacción del valor tras la presentación de resultados a septiembre de 2026 y las decisiones de tipos del Banco Central Europeo (BCE).</p>
+<hr />
+<h6>Análisis Técnico y de Tendencia para <code>SAB.MC</code></h6>
+<p>El valor cotiza a un precio de cierre de <strong>3,435 EUR</strong> (según la sesión del 30 de octubre de 2026), registrando una variación diaria del <strong>-2,19%</strong>. El análisis de las medias móviles muestra una estructura mixta:</p>
+<ul>
+<li><strong>SMA 20</strong>: 3,536 EUR</li>
+<li><strong>SMA 50</strong>: 3,616 EUR</li>
+<li><strong>SMA 200</strong>: 3,107 EUR</li>
+</ul>
+<p>El precio se encuentra por debajo de su media de 20 y 50 sesiones, reflejando el castigo reciente sufrido por el sector bancario europeo y español a finales de octubre de 2026 (según titulares de <em>Cinco Días</em> y <em>El Boletín</em> del 29-30 de octubre). No obstante, se mantiene holgadamente por encima de la media de 200 sesiones (<strong>3,107 EUR</strong>), la cual actúa como un referente estructural de tendencia alcista a largo plazo. La rentabilidad a 252 sesiones se sitúa en un <strong>+24,58%</strong>, evidenciando que la perspectiva anual sigue siendo favorable pese al retroceso mensual reciente (<strong>-2,11%</strong> en 21 sesiones y un <em>drawdown</em> del <strong>-8,52%</strong>).</p>
+<h6>Indicadores de Momentum y Volatilidad Seleccionados</h6>
+<p>Para evaluar las condiciones operativas de <code>SAB.MC</code>, se han seleccionado los siguientes indicadores clave del marco técnico:</p>
+<ol>
+<li><strong>close_50_sma</strong>: Para identificar la tendencia a medio plazo y vigilar la resistencia dinámica actual.</li>
+<li><strong>close_200_sma</strong>: Para confirmar el soporte estructural de largo plazo.</li>
+<li><strong>macd</strong>: Para captar cambios en el impulso alcista o bajista (actualmente con línea MACD en -0,034 y señal en -0,029, reflejando un sesgo de consolidación/corrección a corto plazo).</li>
+<li><strong>macds</strong> (MACD Signal): Utilizada junto con el MACD para la confirmación de cruces operativos.</li>
+<li><strong>macdh</strong> (MACD Histogram): Permite visualizar la pérdida o ganancia de fuerza en el impulso vigente.</li>
+<li><strong>rsi</strong> (RSI de 14 periodos): Registra un valor de <strong>41,00</strong>, lo que indica una situación neutral con ligera inclinación hacia sobreventa, sin alcanzar niveles extremos (&lt;30), sugiriendo ausencia de pánico vendedor generalizado.</li>
+<li><strong>atr</strong>: Para calibrar la volatilidad (volatilidad porcentual anualizada del <strong>22,13%</strong>), clave para la gestión de riesgo y dimensionamiento de posiciones.</li>
+<li><strong>boll_lb</strong> (Banda de Bollinger Inferior): Ayuda a identificar zonas de soporte dinámico a corto plazo y posibles rebotes por sobreventa local.</li>
+</ol>
+<h6>Fundamentos, Resultados Financieros y Contexto Macroeconómico</h6>
+<ul>
+<li><strong>Resultados a septiembre de 2026</strong>: Banco Sabadell comunicó un beneficio neto de <strong>1.376 millones de euros</strong> hasta septiembre de 2026 y anunció un dividendo de <strong>325 millones de euros</strong>, demostrando resiliencia operativa y generación de caja a pesar del entorno y los costes asociados a TSB (<em>Noticias Bancarias</em>, <em>Merca2.es</em>).</li>
+<li><strong>Valoración y Fundamentos</strong>:
+<ul>
+<li>Capitalización bursátil: <strong>16.116,67 millones de EUR</strong>.</li>
+<li>PER histórico (<em>trailing PE</em>): <strong>13,74x</strong>; PER estimado (<em>forward PE</em>): <strong>10,41x</strong>.</li>
+<li>Precio/Valor en libros (<em>Price to Book</em>): <strong>1,22x</strong>.</li>
+<li>Beneficio por acción (<em>trailing EPS</em>): <strong>0,25 EUR</strong>; estimado (<em>forward EPS</em>): <strong>0,33 EUR</strong>.</li>
+<li>Rentabilidad por dividendo (<em>Dividend Yield</em>): <strong>2,04%</strong> (con un <em>payout ratio</em> del <strong>34%</strong> y un dividendo de 0,07 EUR por acción según datos de resumen).</li>
+<li>Consenso de analistas: Precio objetivo medio en <strong>3,659 EUR</strong> (con un rango entre 2,30 EUR y 4,50 EUR a partir de 20 opiniones), lo que arroja un potencial alcista de consenso (<em>consensus upside</em>) del <strong>6,54%</strong>.</li>
+</ul>
+</li>
+<li><strong>Entorno Macroeconómico</strong>: El Banco Central Europeo (BCE) mantuvo los tipos de interés oficiales en el <strong>2,5%</strong> a finales de octubre de 2026, advirtiendo sobre riesgos inflacionarios persistentes vinculados a la energía y un crecimiento moderado (<em>Estrategias de Inversión</em>, <em>20Minutos</em>). Esto impacta directamente en el sector financiero europeo, que ha experimentado tomas de beneficios bursátiles tras sus registros de beneficios récord.</li>
+</ul>
+<h6>Evidencia y Datos Faltantes</h6>
+<ul>
+<li><strong>Evidencia verificada</strong>: Datos de cotización y técnicos extraídos de la instantánea de <code>SAB.MC</code> con fecha de precio del <strong>30/10/2026</strong> (Cierre: 3,435 EUR). Noticias y titulares fechados entre el <strong>29 y el 30 de octubre de 2026</strong>.</li>
+<li><strong>Datos faltantes</strong>: No se dispone de flujos de caja operativos y de libre disposición normalizados para los últimos trimestres analíticos en formato desglosado operativo puro (los campos de <em>operatingCashflow</em> y <em>freeCashflow</em> en el snapshot constan como nulos, aunque se aportan cifras de los estados financieros anuales cerrados a diciembre de 2025). No se ha aportado un cartera de inversión real (toda recomendación de asignación es estrictamente hipotética).</li>
+</ul>
+<hr />
+<h6>Tabla Resumen de Puntos Clave</h6>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Categoría</th>
+<th style="text-align:left">Métrica / Indicador</th>
+<th style="text-align:left">Valor / Estado</th>
+<th style="text-align:left">Implicación Analítica</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Precio y Técnica</strong></td>
+<td style="text-align:left">Cierre <code>SAB.MC</code> (30/10/2026)</td>
+<td style="text-align:left">3,435 EUR (-2,19%)</td>
+<td style="text-align:left">Corrección diaria en línea con el castigo general de la banca europea.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Medias Móviles</strong></td>
+<td style="text-align:left">SMA 50 / SMA 200</td>
+<td style="text-align:left">3,616 EUR / 3,107 EUR</td>
+<td style="text-align:left">Corto plazo bajista pero con soporte estructural intacto en largo plazo.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Momentum</strong></td>
+<td style="text-align:left">RSI (14)</td>
+<td style="text-align:left">41,00</td>
+<td style="text-align:left">Zona neutral-débil; sin señales extremas de sobreventa.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>MACD</strong></td>
+<td style="text-align:left">Línea MACD y Señal</td>
+<td style="text-align:left">MACD: -0.034 / Señal: -0.029</td>
+<td style="text-align:left">Impulso bajista moderado a corto plazo, requiere confirmación de giro.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Valoración</strong></td>
+<td style="text-align:left">Forward PE / P2B</td>
+<td style="text-align:left">10,41x / 1,22x</td>
+<td style="text-align:left">Valoración razonable frente a pares del sector diversificado europeo.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Consenso</strong></td>
+<td style="text-align:left">Target Mean Price</td>
+<td style="text-align:left">3,659 EUR (Upside: +6,54%)</td>
+<td style="text-align:left">Potencial moderado de recuperación según el consenso de 20 analistas.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Fundamentales</strong></td>
+<td style="text-align:left">Beneficio (Sept 2026)</td>
+<td style="text-align:left">1.376 millones de EUR</td>
+<td style="text-align:left">Negocio resiliente que mantiene sólido ritmo de ganancias y retribución al accionista.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Macro</strong></td>
+<td style="text-align:left">Tipos de interés BCE</td>
+<td style="text-align:left">2,50% (Mantenido en oct 2026)</td>
+<td style="text-align:left">Estabilidad en los</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="s1-2">News Analyst</h3>
+<p><strong>Rating</strong>: REVIEW</p>
+<p><strong>FINAL TRANSACTION PROPOSAL:</strong></p>
+<ul>
+<li><strong>Action</strong>: HOLD / REVIEW</li>
+<li><strong>Target Allocation</strong>: 0% (Hypothetical)</li>
+<li><strong>Time Horizon</strong>: Short-to-Medium Term (Tactical)</li>
+<li><strong>Risk Level</strong>: Moderate-High</li>
+</ul>
+<hr />
+<h6>Informe de Análisis y Estado Actual para <code>SAB.MC</code> (Banco Sabadell)</h6>
+<h6>1. Resumen Ejecutivo y Contexto de Mercado</h6>
+<p>A fecha de <strong>1 de noviembre de 2026</strong>, las acciones de <strong>Banco de Sabadell, S.A. (<code>SAB.MC</code>)</strong> cotizan a <strong>3,43 EUR</strong> (según el cierre del 30 de octubre de 2026), experimentando una corrección reciente del <strong>-2,19%</strong> en la última sesión. La entidad se sitúa en un contexto macroeconómico y sectorial marcado por la reciente decisión del Banco Central Europeo (BCE) de mantener los tipos de interés en el <strong>2,5%</strong> (anuncio del 29 de octubre de 2026) y por una presión vendedora generalizada en la banca europea y española («La banca española y europea se despeñan en Bolsa pese a sus beneficios récord», <em>Cinco Días</em>, 30 de octubre de 2026).</p>
+<h6>2. Análisis Fundamental y Resultados Financieros recientes</h6>
+<p>El análisis de los datos fundamentales y las publicaciones de resultados del tercer trimestre de 2026 revela lo siguiente:</p>
+<ul>
+<li><strong>Resultados a septiembre de 2026</strong>: Banco Sabadell reportó un beneficio neto de <strong>1.376 millones de euros</strong> hasta septiembre, manteniendo una sólida senda de rentabilidad a pesar de los desafíos en su filial británica TSB y anunciando un dividendo de <strong>325 millones de euros</strong> (Noticias Bancarias / Merca2.es, 29-30 de octubre de 2026).</li>
+<li><strong>Métricas de Valoración</strong>:
+<ul>
+<li><strong>Trailing P/E</strong>: 13,74x</li>
+<li><strong>Forward P/E</strong>: ~10,41x (con un PER relativo intermedio frente a sus pares del sector cotizados en el índice IBEX: <code>SAN.MC</code>, <code>BKT.MC</code>, <code>BBVA.MC</code>, <code>CABK.MC</code>, <code>UNI.MC</code>, cuya mediana de PER forward se sitúa en <strong>9,94x</strong>).</li>
+<li><strong>Price to Book (P/B)</strong>: 1,22x (Valor contable por acción de <strong>2,81 EUR</strong> frente al precio de mercado de 3,43 EUR).</li>
+<li><strong>Rentabilidad por Dividendo (Dividend Yield)</strong>: ~<strong>2,04%</strong> (con un <em>dividend rate</em> de 0,07 EUR y un <em>payout ratio</em> conservador del 34%).</li>
+</ul>
+</li>
+<li><strong>Cuentas Anuales de referencia (2025)</strong>: Total de ingresos de <strong>4.882,89 millones de euros</strong> y un beneficio neto de <strong>1.775,41 millones de euros</strong>, respaldados por un balance con activos totales de <strong>245.392 millones de euros</strong> y fondos propios de <strong>14.047 millones de euros</strong>.</li>
+</ul>
+<h6>3. Análisis Técnico</h6>
+<ul>
+<li><strong>Precio de cierre</strong>: 3,43 EUR (30/10/2026).</li>
+<li><strong>Medias Móviles</strong>:
+<ul>
+<li>SMA 20: 3,54 EUR</li>
+<li>SMA 50: 3,62 EUR</li>
+<li>SMA 200: 3,11 EUR (el valor se mantiene por encima de la media de largo plazo, reflejando la tendencia alcista anual del +24,58% a 252 sesiones).</li>
+</ul>
+</li>
+<li><strong>Osciladores</strong>:
+<ul>
+<li>RSI (14): <strong>41,00</strong>, indicando una zona neutral con sesgo bajista a corto plazo.</li>
+<li>MACD: -0,034 (por debajo de su línea de señal -0,029), confirmando el impulso correctivo actual.</li>
+</ul>
+</li>
+<li><strong>Volatilidad y Drawdown</strong>: Volatilidad anualizada del <strong>22,13%</strong> y un <em>drawdown</em> desde máximos recientes del <strong>-8,52%</strong>.</li>
+</ul>
+<h6>4. Consenso de Analistas y Precios Objetivo</h6>
+<ul>
+<li><strong>Opiniones analizadas</strong>: 20 analistas.</li>
+<li><strong>Precio Objetivo Medio (Target Mean)</strong>: <strong>3,66 EUR</strong>, lo que representa un potencial de revalorización (<em>consensus upside</em>) del <strong>+6,54%</strong> sobre el precio actual de 3,43 EUR.</li>
+<li><strong>Rango de Estimaciones</strong>:
+<ul>
+<li>Precio objetivo mínimo (<em>Target Low</em>): <strong>2,30 EUR</strong>.</li>
+<li>Precio objetivo máximo (<em>Target High</em>): <strong>4,50 EUR</strong>.</li>
+</ul>
+</li>
+</ul>
+<h6>5. Evidencia Contaria, de Soporte y Datos Faltantes</h6>
+<ul>
+<li><strong>Evidencia de Soporte</strong>: Sólida generación recurrente de beneficios (1.376 millones hasta septiembre), retribución atractiva al accionista vía dividendos, y un colchón patrimonial robusto con un PER forward razonable (10,4x).</li>
+<li><strong>Evidencia Contaria / Riesgos</strong>: Corrección técnica a corto plazo (-2,19% diario, RSI en 41), un entorno de tipos de interés estables por parte del BCE en el 2,5% que limita la expansión de los márgenes de intermediación netos (NII), y volatilidad general en el sector bancario europeo.</li>
+<li><strong>Datos Faltantes</strong>: Cifras detalladas de morosidad (NPL ratio) y CET1 <em>fully loaded</em> exactas para el cierre del tercer trimestre de 2026 no se incluyen en el snapshot resumido, por lo que se recomienda prudencia y la etiqueta <strong>REVIEW</strong> hasta auditar el informe trimestral completo.</li>
+</ul>
+<hr />
+<h6>Resumen Estructurado (Tabla de Puntos Clave)</h6>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Categoría</th>
+<th style="text-align:left">Métrica / Dato Clave</th>
+<th style="text-align:left">Valor Actual / Referencia</th>
+<th style="text-align:left">Comentario / Implicación</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Identificación</strong></td>
+<td style="text-align:left">Ticker / Bolsa / Sector</td>
+<td style="text-align:left"><code>SAB.MC</code> (Madrid) / Banca</td>
+<td style="text-align:left">Banco de Sabadell, S.A.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Precio y Técnica</strong></td>
+<td style="text-align:left">Cotización Actual (30/10/2026)</td>
+<td style="text-align:left">3,43 EUR</td>
+<td style="text-align:left">Corrección reciente (-2,19%); RSI en 41,00 (neutral-bajista).</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Valoración</strong></td>
+<td style="text-align:left">Forward P / E</td>
+<td style="text-align:left">10,41x</td>
+<td style="text-align:left">Ligeramente por encima de la mediana de pares (9,94x).</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Valoración</strong></td>
+<td style="text-align:left">Price to Book (P/B)</td>
+<td style="text-align:left">1,22x</td>
+<td style="text-align:left">Prima moderada sobre su valor contable (2,81 EUR).</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Fundamentales</strong></td>
+<td style="text-align:left">Beneficio Neto (9M 2026)</td>
+<td style="text-align:left">1.376 millones EUR</td>
+<td style="text-align:left">Resistencia operativa en la etapa posterior a la OPA.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Retorno al Accionista</strong></td>
+<td style="text-align:left">Dividend Yield</td>
+<td style="text-align:left">~2,04% (Payout: 34%)</td>
+<td style="text-align:left">Anuncio reciente de dividendo de 325 millones EUR.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Consenso de Mercado</strong></td>
+<td style="text-align:left">Precio Objetivo Medio</td>
+<td style="text-align:left">3,65 EUR (20 analistas)</td>
+<td style="text-align:left">Upside potencial moderado del <strong>+6,54%</strong>.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Macroeconomía</strong></td>
+<td style="text-align:left">Tipos de Interés BCE</td>
+<td style="text-align:left">2,50% (Mantenido el 29/10)</td>
+<td style="text-align:left">Estabilización de tipos que modera el crecimiento del margen de intereses.</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="s1-3">Fundamentals Analyst</h3>
+<p><strong>Rating</strong>: REVIEW</p>
+<p>FINAL TRANSACTION PROPOSAL: REVIEW</p>
+<h6>Informe Fundamental Integral de Banco de Sabadell, S.A. (<code>SAB.MC</code>)</h6>
+<p>A continuación se presenta un análisis fundamental detallado de <strong>Banco de Sabadell, S.A. (<code>SAB.MC</code>)</strong>, entidad cotizada en la Bolsa de Madrid (MCE) y perteneciente al sector financiero (Bancos diversificados), de acuerdo con la información financiera y de mercado disponible en el momento actual (noviembre de 2026).</p>
+<hr />
+<h6>1. Perfil de la Compañía y Contexto Macroeconómico Reciente</h6>
+<ul>
+<li><strong>Identidad:</strong> Banco de Sabadell, S.A. (<code>SAB.MC</code>), integrado en el índice de referencia español <code>^IBEX</code>.</li>
+<li><strong>Clasificación Sectorial:</strong> Financial Services / Banks - Diversified.</li>
+<li><strong>Entorno Macroeconómico (Octubre de 2026):</strong> El sector bancario español y europeo se ha visto sometido a presión compradora/vendedora reciente (&quot;la banca española y europea se despeñan en Bolsa pese a sus beneficios récord&quot;, <em>Cinco Días</em>, 30-10-2026). Esto coincide con la decisión del Banco Central Europeo (BCE) de mantener los tipos de interés en el 2,5% a finales de octubre de 2026, advirtiendo sobre riesgos inflacionarios y de crecimiento vinculados a la energía, manteniendo la expectativa de los inversores puesta en las próximas reuniones de diciembre.</li>
+</ul>
+<hr />
+<h6>2. Análisis de Estados Financieros y Resultados Recientes</h6>
+<p>Tomando como base los datos financieros reportados para los ejercicios anuales cerrados y los hitos informados en el último trimestre de 2026:</p>
+<ul>
+<li><strong>Resultados Recientes (Hasta septiembre de 2026):</strong>
+<ul>
+<li>Según la prensa especializada (<em>Noticias Bancarias</em>, 30-10-2026; <em>Merca2.es</em>, 29-10-2026), Banco Sabadell reportó un beneficio neto de <strong>1.376 millones de euros</strong> hasta el tercer trimestre de 2026, manteniendo el nivel de beneficios en la etapa posterior a la OPA, y anunció un dividendo de 325 millones de euros.</li>
+</ul>
+</li>
+<li><strong>Cuenta de Resultados (Histórico Anual):</strong>
+<ul>
+<li><em>Total Revenue (Ingresos Totales):</em> 6.282,44 M€ (2023) -&gt; 5.141,26 M€ (2024) -&gt; 4.882,89 M€ (2025). Se aprecia una contracción interanual en los ingresos totales del 15,1% (revenueGrowth: -0.151).</li>
+<li><em>Net Income (Beneficio Neto):</em> 1.332,18 M€ (2023) -&gt; 1.826,81 M€ (2024) -&gt; 1.775,41 M€ (2025).</li>
+</ul>
+</li>
+<li><strong>Balance de Situación:</strong>
+<ul>
+<li><em>Total Assets (Activos Totales):</em> 235.172,96 M€ (2023) -&gt; 239.597,93 M€ (2024) -&gt; 245.392,39 M€ (2025). Demuestra una expansión constante del volumen de balance.</li>
+<li><em>Total Debt (Deuda Total):</em> 30.112,20 M€ (2023) -&gt; 32.366,98 M€ (2024) -&gt; 22.534,81 M€ (2025). Nota metodológica: No se aplican reglas industriales de deuda/EBITDA a entidades bancarias.</li>
+<li><em>Stockholders Equity (Patrimonio Neto):</em> 13.844,99 M€ (2023) -&gt; 14.998,14 M€ (2024) -&gt; 14.047,10 M€ (2025).</li>
+</ul>
+</li>
+<li><strong>Flujos de Caja (Cash Flow):</strong>
+<ul>
+<li><em>Operating Cash Flow:</em> -10.523,30 M€ (2023) -&gt; -11.063,73 M€ (2024) -&gt; 1.677,98 M€ (2025). El flujo de caja operativo recuperó terreno positivo en el ejercicio 2025.</li>
+<li><em>Free Cash Flow:</em> -11.055,81 M€ (2023) -&gt; -11.615,92 M€ (2024) -&gt; 1.067,18 M€ (2025).</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h6>3. Métricas Financieras Clave y Valoración</h6>
+<ul>
+<li><strong>Capitalización de Mercado:</strong> ~16.116,67 millones de euros.</li>
+<li><strong>Precio de Acción (al cierre de 30-10-2026):</strong> 3,435 EUR.</li>
+<li><strong>Múltiplos de Valoración:</strong>
+<ul>
+<li><em>Trailing P/E:</em> 13.74x</li>
+<li><em>Forward P/E:</em> 10.41x (Ratio de PER relativo intermedio frente a la mediana de peers del sector bancario español de 9.94x, arrojando un ratio de 1.05).</li>
+<li><em>Price to Book (Precio/Valor en Libros):</em> 1.22x (con un valor en libros por acción de 2,811 EUR).</li>
+</ul>
+</li>
+<li><strong>Rentabilidad y Dividendos:</strong>
+<ul>
+<li><em>Return on Equity (ROE):</em> 8.89% (0.08896).</li>
+<li><em>Profit Margins:</em> 41.57%.</li>
+<li><em>Dividend Yield:</em> 2.04% (con un <em>dividend rate</em> de 0,07 EUR y un <em>payout ratio</em> de 0,34).</li>
+</ul>
+</li>
+<li><strong>Consenso de Analistas:</strong>
+<ul>
+<li><em>Target Mean Price:</em> 3.66 EUR (con un rango que va desde un Target Low de 2.30 EUR hasta un Target High de 4.50 EUR, basado en las opiniones de 20 analistas).</li>
+<li><em>Consensus Upside:</em> +6.54% respecto al precio actual de 3,435 EUR.</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h6>4. Análisis Técnico Breve (Referencia de Soporte)</h6>
+<ul>
+<li><strong>Medias Móviles:</strong> SMA20 en 3.536 EUR, SMA50 en 3.616 EUR y SMA200 en 3.107 EUR. La cotización actual (3,435 EUR) se sitúa por debajo de las medias de corto y medio plazo (SMA20 y SMA50), reflejando una corrección reciente del -2,19% en la última sesión y un RSI(14) en 41.00 (zona neutral-baja).</li>
+</ul>
+<hr />
+<h6>5. Datos Faltantes y Limitaciones</h6>
+<ul>
+<li>No se dispone de las cifras desglosadas completas del cuarto trimestre de 2026, ya que el ejercicio fiscal se encuentra en curso (periodo de cierre estipulado a 1790726400).</li>
+<li>Algunas métricas de EBITDA y flujos de caja operativos e intermedios correspondientes a los informes infra-anuales detallados no se detallan por completo en la instantánea estática, limitando la comparabilidad de flujos trimestrales corrientes.</li>
+</ul>
+<hr />
+<h6>6. Conclusión e Insights Accionables para Traders</h6>
+<p>Banco Sabadell (<code>SAB.MC</code>) demuestra resiliencia operativa con beneficios sólidos estables en el entorno de los 1.376 millones a septiembre de 2026 y una retribución activa al accionista mediante dividendos. No obstante, cotiza con un descuento ajustado frente al objetivo medio de consenso de los</p>
+</section><section id="s2"><h2>II. Research Team Decision</h2><h3 id="s2-1">Bull Researcher</h3>
+<p>Bull Analyst: <strong>Rating</strong>: HOLD<br />
+FINAL TRANSACTION PROPOSAL: Mantener posición en <code>SAB.MC</code> (Banco de Sabadell, S.A.), aprovechando los sólidos fundamentales y la resiliencia operativa demostrada en los resultados de 2026 frente a la reciente volatilidad coyuntural del sector bancario.</p>
+<hr />
+<p>¡Hola a todos! Es momento de poner las cartas sobre la mesa y analizar con perspectiva real lo que está ocurriendo con <strong><code>SAB.MC</code></strong>. Mientras algunos analistas se dejan llevar por el ruido bajista a corto plazo tras las recientes decisiones del BCE y la corrección generalizada en la bolsa europea, los datos fundamentales y operativos de Banco Sabadell cuentan una historia radicalmente distinta: una historia de solidez, resiliencia y creación de valor a largo plazo.</p>
+<p>Vamos a desmontar los argumentos de la prudencia excesiva y a ver por qué la tesis alcista sobre <code>SAB.MC</code> sigue firmemente pie en pared.</p>
+<h6>1. Crecimiento Potencial y Resiliencia en Resultados</h6>
+<p>Seamos claros: los números hablan por sí solos. En un entorno macroeconómico exigente, con los tipos de interés del BCE estabilizados en el 2,5% a finales de octubre de 2026, <strong><code>SAB.MC</code></strong> ha reportado un beneficio neto de <strong>1.376 millones de euros hasta septiembre de 2026</strong>. ¡Esto no es casualidad, es eficiencia pura! La entidad demuestra una capacidad excepcional para mantener su ritmo de ganancias en la etapa posterior a la OPA, respaldada por un margen de beneficios envidiable (<strong>41,57%</strong>).</p>
+<p>¿Y qué hay de los accionistas? La compañía ha anunciado un dividendo de <strong>325 millones de euros</strong>, lo que reafirma su compromiso con la retribución directa al inversor mediante un <em>payout</em> equilibrado del <strong>34%</strong>. No estamos ante un banco estancado; estamos ante una franquicia altamente rentable que genera flujos de caja operativos sólidos (superando los 1.67e9 EUR en su último ejercicio anual auditado) y que protege el patrimonio de sus accionistas.</p>
+<h6>2. Ventajas Competitivas y Posicionamiento de Mercado</h6>
+<p>Frente a las dudas que intentan sembrar los osos sobre la presión en los márgenes de intermediación, la diversificación y el posicionamiento estratégico de <strong><code>SAB.MC</code></strong> actúan como un foso defensivo inexpugnable.</p>
+<ul>
+<li><strong>Estructura de Balance Robusta</strong>: Con un volumen de activos totales que supera los 245.000 millones de euros y un patrimonio neto consolidado por encima de los 14.000 millones, el banco cuenta con la escala necesaria para competir de tú a tú en el mercado ibérico y europeo.</li>
+<li><strong>Valoración Atractiva</strong>: A un precio de cierre de <strong>3,435 EUR</strong>, la acción cotiza con un <em>forward P/E</em> de apenas <strong>10,41x</strong>, lo cual es sumamente razonable frente a la mediana de sus comparables del sector (<em>peers</em> como <code>SAN.MC</code>, <code>BBVA.MC</code> o <code>CABK.MC</code>). Además, el valor contable por acción (<em>book value</em>) se sitúa en <strong>2,81 EUR</strong>, lo que demuestra que pagamos un precio justo por una franquicia de calidad superior respaldada por una tendencia alcista a 252 sesiones del <strong>+24,58%</strong>.</li>
+</ul>
+<h6>3. Indicadores Positivos y Visión del Consenso</h6>
+<p>Los detractores argumentan que la cotización ha sufrido un retroceso reciente (con un descenso diario del -2,19% a finales de octubre de 2026, arrastrada por la corrección sectorial reflejada en <em>Cinco Días</em>). Sin embargo, un análisis técnico sensato nos muestra que <strong><code>SAB.MC</code></strong> se mantiene holgadamente por encima de su media móvil de 200 sesiones (<strong>3,107 EUR</strong>), respetando el soporte estructural de largo plazo. El RSI en <strong>41,00</strong> refleja una zona neutral-saludable, perfecta para consolidar posiciones sin caer en dinámicas de pánico.</p>
+<p>Además, no podemos ignorar la opinión de los expertos: el <strong>precio objetivo medio de consenso de 20 analistas se sitúa en 3,659 EUR</strong>, lo que dibuja un potencial alcista (<em>consensus upside</em>) superior al <strong>6,54%</strong>, con techos estimados de hasta <strong>4,50 EUR</strong>.</p>
+<h6>Contra la Tesis Bajista: ¿Por qué el Toro gana esta partida?</h6>
+<p>Los osos intentan asustar a los inversores señalando la pausa en los tipos del BCE y la volatilidad bursátil. ¡Ese argumento es cortoplacista!</p>
+<ul>
+<li><strong>Primero</strong>, la estabilización de tipos en el 2,5% no es un abismo, sino un entorno de normalización donde los bancos bien gestionados demuestran su disciplina de costes y la calidad de su cartera de crédito.</li>
+<li><strong>Segundo</strong>, los temores sobre la filial TSB en el Reino Unido ya están más que descontados en precio; los resultados recientes demuestran que el grupo absorbe con solvencia cualquier fricción periférica gracias a la fortaleza de su negocio en España.</li>
+<li><strong>Tercero</strong>, un ratio <em>Price to Book</em> de <strong>1,22x</strong> y un beneficio por acción estimado (<em>forward EPS</em>) de <strong>0,33 EUR</strong> garantizan que hay suficiente margen de seguridad para que el valor rebote con fuerza en cuanto el mercado recupere la calma macroeconómica.</li>
+</ul>
+<h6>Conclusión</h6>
+<p>No nos equivoquemos: <strong><code>SAB.MC</code></strong> es un valor refugio por fundamentales, rentabilidad y retribución al accionista. La corrección actual es una oportunidad táctica de oro para mantener y acumular con visión de medio plazo. ¡Los toros seguimos al mando!</p>
+<h3 id="s2-2">Bear Researcher</h3>
+<p>Bear Analyst: <strong>Rating</strong>: SELL<br />
+FINAL TRANSACTION PROPOSAL: Reducir exposición o desinvertir tácticamente en <code>SAB.MC</code> (Banco de Sabadell, S.A.), ante el agotamiento del ciclo de tipos de interés, la contracción interanual de los ingresos y la vulnerabilidad técnica frente a un soporte clave amenazado.</p>
+<hr />
+<p>¡Hola a todos! Es momento de bajar al toro de la nube y mirar los datos fríamente. Mi estimado colega alcista pinta un panorama idílico, hablando de &quot;eficiencia pura&quot; y &quot;fosos defensivos inexpugnables&quot;, pero parece estar mirando los gráficos con anteojeras. La realidad sobre <strong><code>SAB.MC</code></strong> es mucho más incosteable y compleja de lo que nos quieren hacer creer. Vamos a desmontar punto por punto ese optimismo exagerado que ignora los nubarrones macroeconómicos y operativos que se ciernen sobre la entidad.</p>
+<h6>1. El espejismo de los beneficios y la fatiga en los ingresos</h6>
+<p>El colega presume de esos 1.376 millones de euros ganados hasta septiembre de 2026 como si fueran una patente de corso para ignorar el deterioro subyacente. ¡Cuidado con el retrovisor! Si miramos la cuenta de resultados real y consolidada del banco, el panorama cambia drásticamente: <strong>los ingresos totales (<em>Total Revenue</em>) se han contraído de forma alarmante un 15,1%</strong>, pasando de más de 6.280 millones de euros en 2023 a 4.882 millones en 2025.</p>
+<p>¿De qué sirve celebrar una ganancia puntual de capital o una foto fija de nueve meses si la línea superior del negocio se encoge? Esto demuestra que el margen de intereses está tocando techo tras el pico del ciclo monetario. Con el Banco Central Europeo manteniendo los tipos anclados en el <strong>2,5%</strong> y advirtiendo sobre riesgos inflacionarios y de crecimiento (como informaban los medios a finales de octubre de 2026), la banca comercial convencional se enfrenta a una sequía en la expansión de su margen neto. Celebrar un dividendo de 325 millones cuando la capacidad estructural de generar ingresos orgánicos se debilita es, cuando menos, cortoplacista.</p>
+<h6>2. Vulnerabilidades competitivas y el lastre eterno de TSB</h6>
+<p>El colega habla de la escala del balance y de una &quot;franquicia de calidad superior&quot;, pero olvida convenientemente los dolores de cabeza crónicos que arrastra el grupo, empezando por su filial británica TSB. Los propios resultados a septiembre de 2026 admiten textualmente que se gana dinero &quot;pese a TSB&quot;. ¿Hasta cuándo va a tolerar el inversor que un lastre geográfico y operativo coma la rentabilidad que con tanto esfuerzo genera el mercado doméstico?</p>
+<p>Además, si analizamos la valoración, el argumento alcista se cae por su propio peso. <code>SAB.MC</code> cotiza a un <em>Price to Book</em> de <strong>1,22x</strong> y un PER histórico de <strong>13,74x</strong> (con un forward PE de 10,41x que ya está por encima de la mediana de sus comparables del sector en el IBEX, situada en 9,94x). No estamos comprando un chollo; estamos pagando una prima exigente por un banco diversificado de segunda fila que rinde un escueto <strong>2,04%</strong> por dividendo. Un <em>yield</em> del 2% no compensa ni de cerca el riesgo de mercado en un entorno donde los activos libres de riesgo ofrecen alternativas mucho más atractivas.</p>
+<h6>3. La trampa técnica: ¿Soporte o caída libre en potencia?</h6>
+<p>El análisis técnico que hace el bando alcista es, como poco, creativo. Nos dicen que el precio está &quot;holgadamente por encima de la media de 200 sesiones (3,107 EUR)&quot;. ¡Por supuesto! Pero omiten deliberadamente que la acción cotiza a <strong>3,435 EUR</strong>, ya por debajo de su SMA de 20 sesiones (3,536 EUR) y de su SMA de 50 sesiones (3,616 EUR), habiendo sufrido un <strong>drawdown del -8,52%</strong> y una caída diaria del <strong>-2,19%</strong> en la última sesión de octubre.</p>
+<p>El indicador MACD está en terreno negativo (-0,034) por debajo de su línea de señal, y el RSI se desploma hasta el nivel de <strong>41,00</strong>, reflejando una pérdida clara de impulso comprador y un sesgo bajista evidente. El mercado no está &quot;consolidando tranquilamente&quot;; está castigando a un sector financiero europeo que, como bien señalaban las crónicas de <em>Cinco Días</em> del 30 de octubre, se está &quot;despeñando en Bolsa pese a sus supuestos beneficios récord&quot;. Cuando el río suena, agua lleva.</p>
+<h6>4. Rompiendo las falacias del Toro</h6>
+<ul>
+<li><strong>Falacia 1: &quot;La estabilización de tipos al 2,5% es un entorno de normalización saludable&quot;.</strong> ¡Falso! Para los bancos comerciales, el fin de las subidas de tipos significa el fin de la barra libre en el margen de intermediación. Sin tipos al alza, la presión sobre los costes de financiación y la morosidad oculta empiezan a pasar factura real.</li>
+<li><strong>Falacia 2: &quot;Los temores sobre TSB ya están descontados&quot;.</strong> Los problemas estructurales de integración y competitividad en el Reino Unido nunca están del todo descontados; actúan como un freno constante sobre la valoración bursátil de Sabadell en comparación con entidades más puras y eficientes del índice.</li>
+<li><strong>Falacia 3: &quot;El consenso de analistas marca un objetivo de 3,65 EUR&quot;.</strong> Un potencial alcista de apenas un <strong>6,54%</strong> según el objetivo medio no justifica asumir la volatilidad anualizada del <strong>22,13%</strong> que sufre el valor. Es una relación riesgo/recompensa totalmente desequilibrada. Arriesgar más de un 8-10% de caída hasta la media de 200 sesiones para arañar un exiguo 6% de subida teórica es una pésima gestión de riesgo.</li>
+</ul>
+<h6>Conclusión</h6>
+<p><code>SAB.MC</code> no es el valor refugio que nos venden. Es un banco atrapado en un sector maduro, con ingresos a la baja, lastres internacionales persistentes y un momento técnico claramente deteriorado. La corrección actual no es una &quot;oportunidad de oro&quot;, sino la primera advertencia de que el mercado está comenzando a penalizar las debilidades fundamentales de la entidad. ¡Menos triunfalismo alcista y más cautela bajista!</p>
+<h3 id="s2-3">Research Manager</h3>
+<p><strong>Recommendation</strong>: Hold</p>
+<p><strong>Rationale</strong>: El debate entre el analista alcista y el bajista pone de manifiesto una divergencia clara pero equilibrada sobre SAB.MC. Por un lado, la tesis alcista defiende la solidez operativa y los fundamentales recientes, destacando un beneficio neto de 1.376 millones de euros a septiembre de 2026, un dividendo anunciado de 325 millones y una valoración razonable con un forward P/E de 10,41x y un precio objetivo de consenso en 3,65 EUR que ofrece un potencial alcista del 6,54%. Por otro lado, la tesis bajista advierte de la contracción interanual de los ingresos totales (que cayeron desde los 6.280 millones en 2023 hasta los 4.882 millones en 2025), la fatiga esperada en el margen de intermediación ante la estabilización de tipos del BCE en el 2,5%, los persistentes dolores de cabeza de la filial TSB y un deterioro técnico a corto plazo con la acción cotizando por debajo de sus medias móviles de 20 y 50 sesiones y un RSI en 41,00. Tras sopesar ambos argumentos, los aspectos positivos de rentabilidad y retribución al accionista se ven contrarrestados por la atonía de los ingresos y el debilitamiento técnico coyuntural, dejando la balanza en tablas. Por tanto, no existen motivos suficientes para comprar de forma agresiva ni para liquidar la posición, justificando plenamente una recomendación de Hold.</p>
+<p><strong>Strategic Actions</strong>: Mantener la asignación estándar actual en SAB.MC sin realizar adiciones ni recortes tácticos. Instruir al trader para que vigile de cerca la evolución del soporte en la media móvil de 200 sesiones (situada en aproximadamente 3,11 EUR) y la reacción del precio ante el nivel actual de 3,43 EUR, esperando una mayor clarificación macroeconómica del BCE antes de modificar el tamaño de la posición.</p>
+</section><section id="s3"><h2>III. Trading Team Plan</h2><h3 id="s3-1">Trader</h3>
+<p><strong>Action</strong>: Hold</p>
+<p><strong>Reasoning</strong>: El valor SAB.MC cotiza actualmente a 3,435 EUR, situándose por debajo de sus medias móviles de 20 y 50 sesiones, pero conservando un soporte estructural relevante en la media de 200 sesiones situada en 3,107 EUR. A pesar de la solidez de los resultados presentados a septiembre de 2026 (beneficio neto de 1.376 millones de euros) y de un dividendo anunciado de 325 millones, la contracción de ingresos y el entorno de tipos estables del BCE en el 2,5% justifican mantener una postura neutral sin incrementar exposición hasta observar una estabilización técnica definitiva.</p>
+<p><strong>Entry Price</strong>: not provided</p>
+<p><strong>Stop Loss</strong>: 3.107</p>
+<p><strong>Position Sizing</strong>: Mantener posición actual</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+</section><section id="s4"><h2>IV. Risk Management Team Decision</h2><h3 id="s4-1">Aggressive Analyst</h3>
+<p>Aggressive Analyst: ¡Vaya mentalidad defensiva nos rodea! Mientras los analistas conservadores y neutrales se aferran al miedo ante una minúscula corrección técnica y tiemblan porque el Banco Central Europeo mantiene los tipos en el 2,5%, se están perdiendo el auténtico panorama de crecimiento de Banco Sabadell. Nos hablan de que el precio está por debajo de las medias móviles de 20 y 50 sesiones, utilizando esto como pretexto para la parálisis. ¡Eso es una miopía táctica terrible! Olvidan que el soporte estructural en la media de 200 sesiones, situada sólidamente en 3,107 EUR, es un suelo de hormigón armado, y que la rentabilidad anual de un +24,58% a 252 sesiones demuestra que la tendencia de fondo es incuestionablemente alcista.</p>
+<p>¿Y qué me dicen de los fundamentales? La prudencia excesiva de mantener una postura neutral ignora por completo que la entidad acaba de reportar un beneficio neto demoledor de 1.376 millones de euros hasta septiembre de 2026 y un jugoso dividendo anunciado de 325 millones. Con un PER estimado de apenas 10,41x y un potencial alcista de consenso del 6,54% —con objetivos que alcanzan los 4,50 EUR—, quedarse de brazos cruzados esperando una &quot;estabilización definitiva&quot; es sinónimo de comprar tarde y más caro cuando el mercado decida rebotar con fuerza. El RSI en 41 y una volatilidad controlada no son señales de alarma, ¡son oportunidades de oro para acumular activos con descuento antes de que el sector financiero recupere el terreno perdido frente a los beneficios récord!</p>
+<p>No podemos permitir que el miedo al ruido macroeconómico de corto plazo eclipse la fortaleza de un banco diversificado que genera valor real para el accionista. La verdadera gestión de riesgo no consiste en esconderse bajo la cama, sino en aprovechar las ineficiencias del mercado para maximizar el potencial de recompensa.</p>
+<p><strong>Rating</strong>: BUY</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>BUY</strong></p>
+<h3 id="s4-2">Conservative Analyst</h3>
+<p>Conservative Analyst: Estimado colega agresivo, califica de «miopía táctica» nuestra postura prudente, pero lo que usted denomina exceso de celo es, en realidad, una defensa estricta del capital de la firma frente a riesgos evidentes y medibles. Usted descarta la corrección actual y el impacto del mantenimiento de los tipos de interés por parte del BCE en el 2,5%, argumentando que un beneficio de 1.376 millones de euros a septiembre de 2026 lo justifica todo. Sin embargo, ignora que los datos fundamentales muestran una contracción interanual de los ingresos totales de un -15,1% y que el sector bancario europeo y español está sufriendo una presión vendedora muy real, tal como reflejan las caídas recientes generalizadas en bolsa a finales de octubre de 2026.</p>
+<p>Confiar ciegamente en que la media de 200 sesiones situada en 3,107 EUR funcionará como un «suelo de hormigón armado» es una apuesta peligrosa cuando el precio actual cotiza ya por debajo de las medias móviles de 20 y 50 sesiones (3,536 EUR y 3,616 EUR respectivamente), con un indicador MACD en terreno negativo y un RSI de 41 que apunta a una debilidad continuada. Comprar en este escenario basándose en un potencial alcista de consenso del 6,54% o soñando con un objetivo máximo de 4,50 EUR —mientras el precio se encuentra presionado en los 3,435 EUR— expone a la firma a un riesgo de pérdida de capital innecesario si el soporte de largo plazo cede ante un empeoramiento del entorno macroeconómico. La verdadera gestión de riesgo no es esconderse, sino evitar asumir posiciones en activos que muestran un impulso bajista claro y una contracción de ingresos. Por todo ello, la única decisión responsable para proteger los activos de la firma es mantener una postura cauta y esperar una estabilización técnica real.</p>
+<p><strong>Rating</strong>: HOLD</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+<h3 id="s4-3">Neutral Analyst</h3>
+<p>Neutral Analyst: Analista Agresivo, entiendo perfectamente tu entusiasmo y tu lectura de los fundamentales: un beneficio neto de 1.376 millones de euros a septiembre de 2026 y un PER estimado de 10,41x son argumentos de peso que demuestran la solidez operativa de Banco Sabadell. Sin embargo, pecas de optimismo cegador al desestimar el momentum técnico actual. Decir que el precio por debajo de las medias móviles de 20 y 50 sesiones es solo ruido y calificar la situación de &quot;oportunidad de oro&quot; inmediata sin esperar una confirmación de giro es asumir un riesgo de entrada prematura innecesario. Comprar cuando el MACD está en terreno negativo y el RSI apunta a una debilidad continuada en 41 puede hacerte atrapar un cuchillo cayendo, confiando ciegamente en un soporte de 200 sesiones que, si se rompe, dejaría tu tesis alcista muy tocada.</p>
+<p>Por otro lado, Analista Conservador, tu postura de refugio y cautela extrema es comprensible ante la contracción de ingresos del -15,1% y la presión vendedora que sufre el sector tras la decisión del BCE de mantener los tipos en el 2,5%. No obstante, pecas de exceso de conservadurismo al paralizar por completo cualquier visión táctica. Considerar que la única opción responsable es esperar una estabilización técnica real ignorando por completo el atractivo potencial de dividendo y los sólidos beneficios reportados es caer en el inmovilismo. Esperar a que el valor recupere todas sus medias móviles podría significar perder el tren de la recuperación y entrar tarde cuando el mercado ya haya descontado gran parte del rebote.</p>
+<p>Desde una perspectiva neutral y equilibrada, la clave no es lanzarse a comprar de forma agresiva ni tampoco quedarse paralizado bajo la cama esperando la tormenta perfecta. La estrategia más sensata y moderada combina lo mejor de ambos mundos mediante una gestión de la posición basada en niveles. Mantener la posición actual (HOLD) sin incrementar exposición nos permite proteger el capital frente a la debilidad de corto plazo y el impacto de los tipos del BCE, pero con el dedo en el gatillo para aprovechar acumulaciones tácticas si el valor demuestra un respeto sólido por el soporte estructural en torno a la media de 200 sesiones (3,107 EUR) o si genera un cruce alcista en el MACD. Así evitamos tanto el riesgo de una caída precipitada como el coste de oportunidad de un rebote repentino.</p>
+<p><strong>Rating</strong>: HOLD</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+</section><section id="s5"><h2>V. Portfolio Manager Decision</h2><h3 id="s5-1">Portfolio Manager</h3>
+<p><strong>Rating</strong>: Hold</p>
+<p><strong>Executive Summary</strong>: Mantener la asignación actual en SAB.MC sin realizar adiciones ni recortes tácticos. Vigilar de cerca el soporte estructural en la media móvil de 200 sesiones (aprox. 3,11 EUR) y el nivel de cotización en 3,43 EUR, esperando mayor claridad macroeconómica del BCE antes de modificar el tamaño de la posición. El horizonte de inversión recomendado es de 3 a 6 meses.</p>
+<p><strong>Investment Thesis</strong>: Tras sopesar los argumentos del debate entre los analistas, la tesis neutral y prudente resulta ser la más sólida y equilibrada. Por un lado, el analista agresivo destaca fundamentales robustos, con un beneficio neto de 1.376 millones de euros a septiembre de 2026, un dividendo anunciado de 325 millones y un forward P/E atractivo de 10,41x, respaldados por una rentabilidad anual del 24,58% a 252 sesiones y un soporte clave en la media móvil de 200 sesiones situada en 3,107 EUR. Por otro lado, los analistas conservador y neutral advierten acertadamente sobre la debilidad técnica a corto plazo —con el precio cotizando por debajo de las medias móviles de 20 y 50 sesiones (3,536 EUR y 3,616 EUR), un MACD en terreno negativo y un RSI de 41—, además de una contracción interanual de los ingresos totales del -15,1% y un entorno de tipos estables del BCE en el 2,5% que presiona al sector bancario. La evidencia demuestra que, si bien la rentabilidad y los beneficios son sólidos, el momentum técnico y la atonía de los ingresos impiden una compra agresiva. Un enfoque de mantenimiento (Hold) protege el capital frente a caídas adicionales sin incurrir en un inmovilismo absoluto.</p>
+<p><strong>Price Target</strong>: 3.65975</p>
+<p><strong>Time Horizon</strong>: 3-6 months</p>
+</section>
+</main>
+<footer class="credit"><a href="https://github.com/TauricResearch/TradingAgents" rel="noopener">TradingAgents</a> powered by <a class="brand" href="https://github.com/TauricResearch" rel="noopener">Tauric Research</a></footer>
+</div>
+<a class="to-top" href="#top">Top</a>
+</body>
+</html>

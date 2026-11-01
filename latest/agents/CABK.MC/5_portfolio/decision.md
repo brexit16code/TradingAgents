@@ -1,0 +1,9 @@
+**Rating**: Overweight
+
+**Executive Summary**: Se recomienda adoptar una postura de sobreponderación (Overweight) sobre CABK.MC, aprovechando la corrección actual del -17,19% y su proximidad a la media móvil de 200 sesiones (11,57 EUR) para iniciar una acumulación progresiva. Se aconseja utilizar el 50% de la asignación estándar para la entrada actual a 11,20 EUR, reservando el capital restante para mitigar riesgos técnicos a corto plazo, con un horizonte temporal de 6 a 12 meses.
+
+**Investment Thesis**: El análisis de la cartera y el debate de los analistas inclinan la balanza claramente hacia el bando alcista. Aunque el analista conservador y el neutral advierten sobre la presión bajista a corto plazo (RSI en 33,63, MACD negativo, perforación de las medias de 20`, y 50 sesiones) y el freno en el margen de intereses tras la fijación de tipos del BCE en el 2,5%, el argumento fundamental del bando agresivo resulta ser sustancialmente superior. CaixaBank presenta unos beneficios netos récord de 4.962 millones de euros a septiembre (un 12,9% más interanual), un ROE sobresaliente del 16,52%, un atractivo Forward P/E de 10,29x y una rentabilidad por dividendo del 4,46%. Estos sólidos fundamentales respaldan un precio objetivo de consenso de 13,22 EUR, ofreciendo un potencial alcista del 18,07%. La fuerte corrección bursátil responde más al ruido macroeconómico general que a debilidades estructurales de la entidad, creando una asimetría favorable de riesgo-recompensa para inversores con visión a medio plazo. Lo que invalidaría esta tesis sería un deterioro macroeconómico severo que destruyera la calidad crediticia de la cartera o una ruptura sostenida a la baja de los soportes técnicos fundamentales.
+
+**Price Target**: 13.22
+
+**Time Horizon**: 6-12 meses

@@ -1,0 +1,666 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'">
+<title>PUIG.MC 2026-11-01 Hold: TradingAgents report</title>
+<style>
+:root {
+  --paper: #fbfbfa; --ink: #1c2126; --muted: #5d6670; --rule: #e2e5e8; --wash: #f2f4f5;
+  --accent: #087a59; --up: #087a59; --down: #b4372f; --level: #5d6670; --edge: #d3d8dc; --mark: #878f97;
+  --serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #131a1f; --ink: #e4e8eb; --muted: #9aa6af; --rule: #263239; --wash: #1a242a;
+    --accent: #14c290; --up: #14c290; --down: #ef6f63; --level: #9aa6af; --edge: #3d4c55; --mark: #66737c;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .masthead .logo [stroke="#363636"] { stroke: var(--muted); }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font: 17px/1.62 var(--serif); font-kerning: normal;
+}
+.page { max-width: 46rem; margin: 0 auto; padding: 3.5rem 1.5rem 6rem; }
+main h2, main h3 { scroll-margin-top: 1rem; }
+a { color: var(--accent); text-underline-offset: 0.15em; }
+h1, h2, h3, h4 { text-wrap: balance; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.masthead { padding-bottom: 1.75rem; border-bottom: 1px solid var(--rule); }
+/* The logo leads at the top left, where readers look for it, 24px tall (the usual
+   on-screen floor for a wordmark) with at least its height clear below. */
+.masthead .logo { display: block; width: fit-content; margin: 0 0 2.25rem; }
+.masthead .logo svg { display: block; height: 1.5rem; width: auto; }
+.masthead h1 {
+  margin: 0; font: 600 2.6rem/1.1 var(--sans); letter-spacing: -0.02em;
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.2em 0.5em;
+}
+.masthead .rating { font-weight: 500; }
+.rating.up { color: var(--up); } .rating.down { color: var(--down); } .rating.level { color: var(--level); }
+.rating.review { color: var(--muted); font-style: italic; }
+.masthead .date { margin: 0.55rem 0 1.5rem; font: 1rem/1.4 var(--sans); color: var(--muted); }
+.run { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: 0.45rem 1.25rem;
+  font: 0.85rem/1.5 var(--sans); }
+.run > div { display: contents; }
+.run dt { color: var(--muted); }
+.run dd { margin: 0; overflow-wrap: anywhere; }
+.run .note dd { color: var(--down); }
+.field { display: inline-block; margin: 0 0.15rem 0.15rem 0; padding: 0 0.4rem; border: 1px solid var(--edge);
+  border-radius: 4px; background: var(--wash); font: 0.8rem/1.6 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+.run .group { display: inline-block; margin-right: 0.9rem; white-space: nowrap; }
+.run .group > .name { color: var(--muted); margin-right: 0.3rem; }
+.run .then { color: var(--muted); margin: 0 0.2rem; }
+
+/* The sections: listed under the header on narrow screens. On wide ones, a
+   quiet rail centred on the left edge (numerals for the sections, short bars
+   for their agents) that opens into the full list when pointed at or focused. */
+.contents { margin: 2.25rem 0 0; font: 0.9rem/1.45 var(--sans); }
+.contents ul { margin: 0; padding: 0; list-style: none; }
+.contents > ul > li { margin: 0 0 0.75rem; }
+.contents ul ul { margin-top: 0.2rem; padding-left: 1.6rem; font-size: 0.85rem; }
+.contents ul ul li { margin: 0.1rem 0; }
+.contents a { display: flex; align-items: center; gap: 0.6rem; color: var(--muted); text-decoration: none; }
+.contents > ul > li > a { color: var(--ink); }
+.contents .num { min-width: 1.6rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.contents .bar { display: none; }
+.contents a:hover .label, .contents a:focus-visible .label { color: var(--accent); text-decoration: underline; }
+.to-top { position: fixed; right: 1rem; bottom: calc(1rem + env(safe-area-inset-bottom));
+  padding: 0.25rem 0.6rem; border: 1px solid var(--edge); border-radius: 4px; background: var(--paper);
+  color: var(--muted); font: 0.8rem/1.4 var(--sans); text-decoration: none; }
+
+@media (min-width: 60rem) {
+  .contents { position: fixed; left: 1rem; top: 50%; transform: translateY(-50%); z-index: 1;
+    max-height: 86vh; overflow-y: auto; overscroll-behavior: contain; margin: 0;
+    padding: 0.7rem 0.9rem; border: 1px solid transparent; border-radius: 6px;
+    transition: background-color 0.15s, border-color 0.15s, box-shadow 0.15s; }
+  .contents > ul > li { margin: 0 0 0.35rem; }
+  .contents ul ul { margin-top: 0; padding-left: 0; }
+  .contents ul ul li { margin: 0; }
+  /* Marks reach 3:1 contrast and rows 24px, the WCAG 2.2 floors for a control's
+     visual cue and its pointer target. */
+  .contents a { min-height: 1.5rem; }
+  .contents .num { min-width: 1.4rem; }
+  .contents .bar { display: block; flex: none; width: 1.25rem; height: 2px; margin-left: 0.2rem;
+    border-radius: 1px; background: var(--mark); }
+  .contents .label { max-width: 0; opacity: 0; overflow: hidden; white-space: nowrap;
+    transition: opacity 0.15s, max-width 0.2s; }
+  .contents:hover, .contents:focus-within { background: var(--paper); border-color: var(--rule);
+    box-shadow: 0 6px 24px rgb(0 0 0 / 0.08); }
+  .contents:hover .label, .contents:focus-within .label { max-width: 18rem; opacity: 1; }
+  .contents a:hover .bar, .contents a:focus-visible .bar { background: var(--accent); }
+  .to-top { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .contents, .contents .label { transition: none; }
+}
+
+/* The maker's credit: one quiet line at the foot. */
+.credit { margin-top: 4.5rem; padding-top: 1.25rem; border-top: 1px solid var(--rule);
+  color: var(--muted); font: 0.8rem/1.4 var(--sans); }
+.credit a { color: inherit; text-decoration: none; }
+.credit a.brand { color: var(--accent); }
+.credit a:hover, .credit a:focus-visible { text-decoration: underline; }
+
+/* Three levels of separation: the five groups, the agents within a group, and
+   breaks an agent draws inside its own text. */
+main h2 {
+  margin: 4.5rem 0 0.25rem; padding-top: 1.5rem; border-top: 2px solid var(--ink);
+  font: 600 1.45rem/1.3 var(--sans); letter-spacing: -0.01em;
+}
+main section:first-child h2 { margin-top: 3rem; }
+main h3 { margin: 2.75rem 0 0.75rem; padding-top: 1.1rem; border-top: 1px solid var(--rule);
+  font: 600 1.15rem/1.35 var(--sans); color: var(--accent); }
+main h2 + h3 { margin-top: 1.25rem; padding-top: 0; border-top: 0; }
+main h4, main h5, main h6 { margin: 1.75rem 0 0.5rem; font: 600 1rem/1.4 var(--sans); }
+main h5, main h6 { color: var(--muted); }
+main p, main ul, main ol { margin: 0 0 1rem; }
+main li { margin: 0.25rem 0; }
+main strong { font-weight: 650; }
+main blockquote { margin: 1.25rem 0; padding: 0.1rem 0 0.1rem 1rem; border-left: 3px solid var(--rule);
+  color: var(--muted); }
+main code { font: 0.88em/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  background: var(--wash); padding: 0.1em 0.3em; border-radius: 3px; }
+main pre { background: var(--wash); padding: 0.9rem 1rem; border-radius: 4px; overflow-x: auto; }
+main pre code { background: none; padding: 0; }
+main hr { width: 3rem; margin: 2rem auto; border: 0; border-top: 1px solid var(--rule); }
+
+.table { overflow-x: auto; margin: 0 0 1.25rem; }
+table { border-collapse: collapse; width: 100%; font: 0.86rem/1.45 var(--sans);
+  font-variant-numeric: tabular-nums; }
+th, td { padding: 0.45rem 0.7rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--rule); }
+th { font-weight: 600; border-bottom-color: var(--muted); }
+tbody tr:last-child td { border-bottom: 0; }
+
+@media (max-width: 34rem) {
+  body { font-size: 16px; }
+  .page { padding: 2rem 1rem 3rem; }
+  .masthead h1 { font-size: 2rem; }
+  .masthead .logo svg { height: 1.25rem; }
+  .run { grid-template-columns: 1fr; gap: 0 0; }
+  .run dd { margin-bottom: 0.45rem; }
+  .run .group { white-space: normal; }
+}
+@media print {
+  :root { --paper: #fff; --ink: #000; --muted: #444; --rule: #bbb; --accent: #000; --wash: #f2f2f2;
+    --edge: #bbb; --up: #087a59; --down: #b4372f; --level: #444; }
+  body { font-size: 11pt; }
+  .table { overflow: visible; }
+  .page { max-width: none; padding: 0; }
+  .contents, .to-top { display: none; }
+  main h2 { break-before: page; border-top: 0; margin-top: 0; }
+  main section:first-child h2 { break-before: auto; }
+  main h3, main h4 { break-after: avoid; }
+  a { color: inherit; text-decoration: none; }
+  table { break-inside: avoid; }
+}
+</style>
+</head>
+<body>
+<div class="page" id="top">
+<header class="masthead">
+<a class="logo" href="https://tauric.ai" rel="noopener" aria-label="Tauric Research"><svg width="993" height="115" viewBox="0 0 993 115" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M189.86 95.0459V37.9779H165.924V29.9259H223.74V37.9779H199.804V95.0459H189.86ZM251.026 46.4259C256.071 46.4259 260.178 47.0272 263.345 48.2299C266.514 49.4032 268.89 51.3686 270.474 54.1259C272.058 56.8832 272.85 60.6379 272.85 65.3899V95.0459H264.666L263.961 89.8979H263.434C261.644 91.7752 259.386 93.2419 256.657 94.2979C253.929 95.3246 251.025 95.8379 247.946 95.8379C244.426 95.8379 241.419 95.2952 238.925 94.2099C236.432 93.0952 234.54 91.5406 233.249 89.5459C231.959 87.5512 231.313 85.2046 231.313 82.5059C231.313 78.2526 232.897 74.9672 236.065 72.6499C239.263 70.3032 244.337 68.8219 251.29 68.2059L263.258 67.0179V64.7299C263.258 61.9139 262.774 59.7139 261.806 58.1299C260.838 56.5459 259.371 55.4312 257.406 54.7859C255.47 54.1406 252.888 53.8179 249.662 53.8179C247.432 53.8179 245.012 54.0086 242.401 54.3899C239.82 54.7712 237.341 55.3432 234.965 56.1059V48.8019C237.312 48.0392 239.908 47.4526 242.754 47.0419C245.628 46.6312 248.386 46.4259 251.026 46.4259ZM250.541 89.0619C252.888 89.0619 255.162 88.6512 257.362 87.8299C259.562 86.9792 261.527 85.7179 263.258 84.0459V72.8259L252.038 73.9259C248.136 74.3659 245.35 75.2166 243.678 76.4779C242.005 77.7099 241.169 79.4699 241.169 81.7579C241.169 84.0752 241.947 85.8792 243.501 87.1699C245.056 88.4312 247.403 89.0619 250.541 89.0619ZM313.339 95.8379C307.59 95.8379 303.087 94.2979 299.831 91.2179C296.575 88.1086 294.947 83.2686 294.947 76.6979V47.1739H304.715V76.1699C304.715 80.1886 305.624 83.0779 307.443 84.8379C309.291 86.5979 311.916 87.4779 315.319 87.4779C317.871 87.4779 320.379 86.9939 322.843 86.0259C325.336 85.0286 327.492 83.5766 329.311 81.6699V47.1739H339.079V95.0459H330.983L330.367 89.9419H329.883C327.624 91.8486 325.072 93.3152 322.227 94.3419C319.382 95.3392 316.419 95.8379 313.339 95.8379ZM362.371 47.1739H370.423L371.171 53.2899H371.743C373.474 51.2072 375.703 49.5792 378.431 48.4059C381.188 47.2326 384.063 46.6459 387.055 46.6459C388.756 46.6459 390.355 46.7926 391.851 47.0859V55.8419C390.414 55.5779 388.654 55.4459 386.571 55.4459C383.99 55.4459 381.364 55.9446 378.695 56.9419C376.026 57.9392 373.84 59.4206 372.139 61.3859V95.0459H362.371V47.1739ZM409.069 95.0459V47.1739H418.837V95.0459H409.069ZM413.953 37.8459C411.871 37.8459 410.287 37.3912 409.201 36.4819C408.145 35.5726 407.617 34.2672 407.617 32.5659C407.617 30.8352 408.145 29.5152 409.201 28.6059C410.287 27.6672 411.871 27.1979 413.953 27.1979C416.036 27.1979 417.605 27.6672 418.661 28.6059C419.747 29.5152 420.289 30.8352 420.289 32.5659C420.289 34.2672 419.747 35.5726 418.661 36.4819C417.605 37.3912 416.036 37.8459 413.953 37.8459ZM464.85 95.9259C456.607 95.9259 450.315 93.8432 445.974 89.6779C441.662 85.5126 439.506 79.3526 439.506 71.1979C439.506 63.0139 441.779 56.8392 446.326 52.6739C450.902 48.5086 457.575 46.4259 466.346 46.4259C470.716 46.4259 474.735 46.9246 478.402 47.9219V55.7099C476.378 55.2406 474.486 54.8886 472.726 54.6539C470.966 54.4192 469.118 54.3019 467.182 54.3019C461.168 54.3019 456.71 55.6512 453.806 58.3499C450.931 61.0486 449.494 65.2872 449.494 71.0659C449.494 76.8739 450.858 81.1566 453.586 83.9139C456.343 86.6712 460.42 88.0499 465.818 88.0499C467.695 88.0499 469.616 87.8886 471.582 87.5659C473.547 87.2139 475.82 86.6712 478.402 85.9379V93.7259C474.236 95.1926 469.719 95.9259 464.85 95.9259ZM574.428 95.0459L553.704 69.0859C553.176 69.1152 552.37 69.1299 551.284 69.1299C548.38 69.1299 544.978 68.9832 541.076 68.6899V95.0459H531.308V31.4659C537.967 29.9699 544.846 29.2219 551.944 29.2219C561.595 29.2219 568.752 30.8059 573.416 33.9739C578.08 37.1126 580.412 42.1286 580.412 49.0219C580.412 54.0086 579.004 58.0859 576.188 61.2539C573.402 64.4219 569.266 66.6366 563.78 67.8979L585.648 95.0459H574.428ZM541.076 61.2099C543.071 61.4152 544.816 61.5619 546.312 61.6499C547.838 61.7379 549.627 61.7819 551.68 61.7819C558.427 61.7819 563.34 60.7699 566.42 58.7459C569.5 56.6926 571.04 53.4952 571.04 49.1539C571.04 46.0739 570.395 43.6099 569.104 41.7619C567.843 39.9139 565.863 38.5792 563.164 37.7579C560.495 36.9366 556.975 36.5259 552.604 36.5259C550.404 36.5259 548.424 36.6139 546.664 36.7899C544.904 36.9659 543.042 37.2299 541.076 37.5819V61.2099ZM642.947 74.0139H608.231C608.407 77.4752 609.155 80.2766 610.475 82.4179C611.795 84.5299 613.775 86.0846 616.415 87.0819C619.055 88.0792 622.443 88.5779 626.579 88.5779C630.686 88.5779 635.233 87.9472 640.219 86.6859V93.9459C635.027 95.2659 630.026 95.9259 625.215 95.9259C616.298 95.9259 609.61 93.9166 605.151 89.8979C600.722 85.8499 598.507 79.6166 598.507 71.1979C598.507 65.9179 599.402 61.4299 601.191 57.7339C602.981 54.0379 605.562 51.2366 608.935 49.3299C612.338 47.3939 616.43 46.4259 621.211 46.4259C628.251 46.4259 633.634 48.5819 637.359 52.8939C641.085 57.1766 642.947 63.3659 642.947 71.4619V74.0139ZM621.079 52.8939C616.973 52.8939 613.834 54.1406 611.663 56.6339C609.493 59.0979 608.334 62.9259 608.187 68.1179H633.751C633.634 62.9259 632.519 59.0979 630.407 56.6339C628.295 54.1406 625.186 52.8939 621.079 52.8939ZM677.365 95.9259C671.352 95.9259 665.896 95.2219 660.997 93.8139V86.7299C666.248 88.1966 671.718 88.9299 677.409 88.9299C681.809 88.9299 684.977 88.3432 686.913 87.1699C688.849 85.9672 689.817 84.2219 689.817 81.9339C689.817 80.7019 689.597 79.6899 689.157 78.8979C688.717 78.0766 687.969 77.4019 686.913 76.8739C685.857 76.3166 684.405 75.8912 682.557 75.5979L674.065 74.2779C669.137 73.4859 665.573 71.9899 663.373 69.7899C661.202 67.5899 660.117 64.6419 660.117 60.9459C660.117 56.4579 661.965 52.9232 665.661 50.3419C669.386 47.7312 675.062 46.4259 682.689 46.4259C685.094 46.4259 687.485 46.5872 689.861 46.9099C692.266 47.2032 694.481 47.6432 696.505 48.2299V55.2699C692.046 54.0379 687.456 53.4219 682.733 53.4219C677.893 53.4219 674.476 54.0526 672.481 55.3139C670.486 56.5752 669.489 58.3206 669.489 60.5499C669.489 62.2219 670.002 63.5859 671.029 64.6419C672.056 65.6686 673.889 66.4166 676.529 66.8859L685.021 68.2059C689.92 68.9686 693.513 70.3766 695.801 72.4299C698.089 74.4832 699.233 77.4606 699.233 81.3619C699.233 84.3832 698.412 86.9792 696.769 89.1499C695.156 91.3206 692.706 92.9926 689.421 94.1659C686.165 95.3392 682.146 95.9259 677.365 95.9259ZM760.579 74.0139H725.863C726.039 77.4752 726.787 80.2766 728.107 82.4179C729.427 84.5299 731.407 86.0846 734.047 87.0819C736.687 88.0792 740.075 88.5779 744.211 88.5779C748.317 88.5779 752.864 87.9472 757.851 86.6859V93.9459C752.659 95.2659 747.657 95.9259 742.847 95.9259C733.929 95.9259 727.241 93.9166 722.783 89.8979C718.353 85.8499 716.139 79.6166 716.139 71.1979C716.139 65.9179 717.033 61.4299 718.823 57.7339C720.612 54.0379 723.193 51.2366 726.567 49.3299C729.969 47.3939 734.061 46.4259 738.843 46.4259C745.883 46.4259 751.265 48.5819 754.991 52.8939C758.716 57.1766 760.579 63.3659 760.579 71.4619V74.0139ZM738.711 52.8939C734.604 52.8939 731.465 54.1406 729.295 56.6339C727.124 59.0979 725.965 62.9259 725.819 68.1179H751.383C751.265 62.9259 750.151 59.0979 748.039 56.6339C745.927 54.1406 742.817 52.8939 738.711 52.8939ZM796.986 46.4259C802.032 46.4259 806.138 47.0272 809.306 48.2299C812.474 49.4032 814.85 51.3686 816.434 54.1259C818.018 56.8832 818.81 60.6379 818.81 65.3899V95.0459H810.626L809.922 89.8979H809.394C807.605 91.7752 805.346 93.2419 802.618 94.2979C799.89 95.3246 796.986 95.8379 793.906 95.8379C790.386 95.8379 787.38 95.2952 784.886 94.2099C782.393 93.0952 780.501 91.5406 779.21 89.5459C777.92 87.5512 777.274 85.2046 777.274 82.5059C777.274 78.2526 778.858 74.9672 782.026 72.6499C785.224 70.3032 790.298 68.8219 797.25 68.2059L809.218 67.0179V64.7299C809.218 61.9139 808.734 59.7139 807.766 58.1299C806.798 56.5459 805.332 55.4312 803.366 54.7859C801.43 54.1406 798.849 53.8179 795.622 53.8179C793.393 53.8179 790.973 54.0086 788.362 54.3899C785.781 54.7712 783.302 55.3432 780.926 56.1059V48.8019C783.273 48.0392 785.869 47.4526 788.714 47.0419C791.589 46.6312 794.346 46.4259 796.986 46.4259ZM796.502 89.0619C798.849 89.0619 801.122 88.6512 803.322 87.8299C805.522 86.9792 807.488 85.7179 809.218 84.0459V72.8259L797.998 73.9259C794.097 74.3659 791.31 75.2166 789.638 76.4779C787.966 77.7099 787.13 79.4699 787.13 81.7579C787.13 84.0752 787.908 85.8792 789.462 87.1699C791.017 88.4312 793.364 89.0619 796.502 89.0619ZM841.524 47.1739H849.576L850.324 53.2899H850.896C852.627 51.2072 854.856 49.5792 857.584 48.4059C860.341 47.2326 863.216 46.6459 866.208 46.6459C867.909 46.6459 869.508 46.7926 871.004 47.0859V55.8419C869.567 55.5779 867.807 55.4459 865.724 55.4459C863.143 55.4459 860.517 55.9446 857.848 56.9419C855.179 57.9392 852.993 59.4206 851.292 61.3859V95.0459H841.524V47.1739ZM909.164 95.9259C900.921 95.9259 894.629 93.8432 890.288 89.6779C885.976 85.5126 883.82 79.3526 883.82 71.1979C883.82 63.0139 886.093 56.8392 890.64 52.6739C895.216 48.5086 901.889 46.4259 910.66 46.4259C915.03 46.4259 919.049 46.9246 922.716 47.9219V55.7099C920.692 55.2406 918.8 54.8886 917.04 54.6539C915.28 54.4192 913.432 54.3019 911.496 54.3019C905.482 54.3019 901.024 55.6512 898.12 58.3499C895.245 61.0486 893.808 65.2872 893.808 71.0659C893.808 76.8739 895.172 81.1566 897.9 83.9139C900.657 86.6712 904.734 88.0499 910.132 88.0499C912.009 88.0499 913.93 87.8886 915.896 87.5659C917.861 87.2139 920.134 86.6712 922.716 85.9379V93.7259C918.55 95.1926 914.033 95.9259 909.164 95.9259ZM941.796 23.9419H951.564V52.2779H952.048C954.248 50.3712 956.756 48.9192 959.572 47.9219C962.417 46.9246 965.395 46.4259 968.504 46.4259C974.019 46.4259 978.375 47.9952 981.572 51.1339C984.769 54.2432 986.368 59.0686 986.368 65.6099V95.0459H976.6V66.0939C976.6 62.0459 975.661 59.1566 973.784 57.4259C971.936 55.6952 969.237 54.8299 965.688 54.8299C963.048 54.8299 960.481 55.3286 957.988 56.3259C955.524 57.2939 953.383 58.7312 951.564 60.6379V95.0459H941.796V23.9419Z" fill="#14C290"/>
+<rect x="0.205322" y="14.873" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="14.679" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="14.679" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="86.6055" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="86.6055" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="101.284" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="58.7158" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="58.7158" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="87.1592" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="87.1592" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="73.0205" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="73.0205" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="87.3262" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="87.3262" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="101.631" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="101.631" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="101.284" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="15.0187" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.2668" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.2668" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.445" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.7506" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="100.716" y="14.873" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+</svg></a>
+<h1><span class="ticker">PUIG.MC</span> <span class="rating level">Hold</span></h1>
+<p class="date">Analysis of 2026-11-01</p>
+<dl class="run"><div class="detail"><dt>Generated</dt><dd>2026-11-01 08:08</dd></div><div class="detail"><dt>Deep model</dt><dd><span class="field">google</span> <span class="field">gemini-3.5-flash-lite</span></dd></div><div class="detail"><dt>Quick model</dt><dd><span class="field">google</span> <span class="field">gemini-3.5-flash-lite</span></dd></div><div class="detail"><dt>Analysts</dt><dd><span class="field">market</span> <span class="field">news</span> <span class="field">fundamentals</span></dd></div><div class="detail"><dt>Debate rounds</dt><dd><span class="group"><span class="name">research</span><span class="field">1</span></span> <span class="group"><span class="name">risk</span><span class="field">1</span></span></dd></div><div class="detail"><dt>Data vendors</dt><dd><span class="group"><span class="name">Prices</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Indicators</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Fundamentals</span><span class="field">yfinance</span></span> <span class="group"><span class="name">News</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Macro</span><span class="field">fred</span></span> <span class="group"><span class="name">Prediction markets</span><span class="field">polymarket</span></span> <span class="group"><span class="name">get_news</span><span class="field">ibex_sample</span></span> <span class="group"><span class="name">get_global_news</span><span class="field">ibex_sample</span></span></dd></div><div class="detail"><dt>Version</dt><dd>TradingAgents 0.7.1</dd></div></dl>
+</header>
+<nav class="contents" aria-label="Sections"><ul><li><a href="#s1"><span class="num">I</span> <span class="label">Analyst Team Reports</span></a><ul><li><a href="#s1-1"><span class="bar"></span> <span class="label">Market Analyst</span></a></li><li><a href="#s1-2"><span class="bar"></span> <span class="label">News Analyst</span></a></li><li><a href="#s1-3"><span class="bar"></span> <span class="label">Fundamentals Analyst</span></a></li></ul></li><li><a href="#s2"><span class="num">II</span> <span class="label">Research Team Decision</span></a><ul><li><a href="#s2-1"><span class="bar"></span> <span class="label">Bull Researcher</span></a></li><li><a href="#s2-2"><span class="bar"></span> <span class="label">Bear Researcher</span></a></li><li><a href="#s2-3"><span class="bar"></span> <span class="label">Research Manager</span></a></li></ul></li><li><a href="#s3"><span class="num">III</span> <span class="label">Trading Team Plan</span></a><ul><li><a href="#s3-1"><span class="bar"></span> <span class="label">Trader</span></a></li></ul></li><li><a href="#s4"><span class="num">IV</span> <span class="label">Risk Management Team Decision</span></a><ul><li><a href="#s4-1"><span class="bar"></span> <span class="label">Aggressive Analyst</span></a></li><li><a href="#s4-2"><span class="bar"></span> <span class="label">Conservative Analyst</span></a></li><li><a href="#s4-3"><span class="bar"></span> <span class="label">Neutral Analyst</span></a></li></ul></li><li><a href="#s5"><span class="num">V</span> <span class="label">Portfolio Manager Decision</span></a><ul><li><a href="#s5-1"><span class="bar"></span> <span class="label">Portfolio Manager</span></a></li></ul></li></ul></nav>
+<main>
+<section id="s1"><h2>I. Analyst Team Reports</h2><h3 id="s1-1">Market Analyst</h3>
+<p><strong>Análisis Técnico y Fundamental de Puig Brands, S.A. (<code>PUIG.MC</code>)</strong></p>
+<p>El presente informe detalla la situación actual de <strong>Puig Brands, S.A. (<code>PUIG.MC</code>)</strong> cotizada en la Bolsa de Madrid, analizando su evolución bursátil, fundamentales, noticias recientes y contexto de mercado a fecha de <strong>1 de noviembre de 2026</strong> (con datos de cierre al <strong>30 de octubre de 2026</strong>).</p>
+<hr />
+<h6>1. Contexto de Mercado y Evolución de Precios (<code>PUIG.MC</code>)</h6>
+<p>A fecha de 30 de octubre de 2026, las acciones de <code>PUIG.MC</code> cerraron a <strong>19,26 EUR</strong>, lo que representa un avance diario del <strong>1,90%</strong>. El comportamiento técnico a corto y medio plazo muestra un tono constructivo:</p>
+<ul>
+<li><strong>Rentabilidades recientes:</strong> Retorno a 21 sesiones del <strong>+8,20%</strong>, a 63 sesiones del <strong>+16,16%</strong> (superando al índice de referencia ^IBEX en 23,01 puntos porcentuales) y a 252 sesiones del <strong>+33,99%</strong>.</li>
+<li><strong>Medias Móviles:</strong> El precio se sitúa por encima de la SMA de 20 sesiones (18,87 EUR), SMA de 50 sesiones (18,21 EUR) y de la SMA de 200 sesiones (16,83 EUR), lo que confirma una tendencia alcista plenamente consolidada en los distintos horizontes temporales.</li>
+<li><strong>Osciladores de Momento y Volatilidad:</strong> El RSI (14) se encuentra en <strong>59,04</strong>, reflejando un sesgo alcista moderado sin alcanzar todavía condiciones de sobrecompra (&gt;70). El MACD se sitúa en <strong>0,333</strong> con su respectiva línea de señal en <strong>0,384</strong>, dibujando una ligera compresión en el histograma. La volatilidad histórica anualizada se registra en un moderado <strong>21,98%</strong>, con una corrección máxima (<em>drawdown</em>) reciente muy acotada de <strong>-1,68%</strong>.</li>
+</ul>
+<hr />
+<h6>2. Indicadores Seleccionados para el Análisis Estratégico</h6>
+<p>Siguiendo las directrices metodológicas, se han seleccionado los siguientes indicadores complementarios y no redundantes para evaluar la dinámica del valor:</p>
+<ol>
+<li><code>close_50_sma</code>: Para identificar la dirección del soporte dinámico a medio plazo.</li>
+<li><code>close_200_sma</code>: Como referencia estructural de largo plazo.</li>
+<li><code>close_10_ema</code>: Para capturar giros rápidos de momentum a corto plazo.</li>
+<li><code>macd</code>: Para evaluar la convergencia/divergencia de la tendencia de precios.</li>
+<li><code>rsi</code>: Para vigilar zonas de sobrecompra o sobreventa operativa (franja 30-70).</li>
+<li><code>boll_ub</code> / <code>boll_lb</code>: Bandas de Bollinger superior e inferior para medir los límites estadísticos de volatilidad y posibles rupturas de rango.</li>
+<li><code>atr</code>: Para dimensionar el riesgo y adecuar los niveles de stop-loss en base a rangos verdaderos promedio.</li>
+</ol>
+<hr />
+<h6>3. Fundamentales y Situación Financiera</h6>
+<p>Los datos financieros correspondientes a los últimos ejercicios publicados muestran una sólida salud operativa dentro del sector de Consumo Defensivo (<em>Household &amp; Personal Products</em>):</p>
+<ul>
+<li><strong>Capitalización de Mercado:</strong> ~10.849 millones de EUR.</li>
+<li><strong>Cuentas de Resultados (2025):</strong> Ingresos totales de <strong>5.042 millones de EUR</strong> (frente a 4.789 millones en 2024 y 4.304 millones en 2023), con un beneficio neto de <strong>593,7 millones de EUR</strong> (superior a los 530,6 millones de 2024) y un EBITDA de <strong>1.117 millones de EUR</strong>.</li>
+<li><strong>Valoraciones y Múltiplos:</strong> PER histórico (<em>trailing PE</em>) de <strong>18,70x</strong> y PER adelantado (<em>forward PE</em>) de <strong>16,07x</strong>. Ratio Precio/Valor en Libros (<em>priceToBook</em>) de <strong>2,69x</strong>. EV/EBITDA de <strong>12,77x</strong>.</li>
+<li><strong>Solvencia y Deuda:</strong> Deuda total de aproximadamente 1.798,6 millones de EUR frente a un efectivo de 207,2 millones de EUR. El apalancamiento neto se sitúa en un razonable <strong>1.63x</strong> veces EBITDA (<code>net_debt_ebitda</code>).</li>
+<li><strong>Flujos de Caja y Retornos:</strong> Flujo de caja libre (<em>free cash flow</em>) de <strong>502,5 millones de EUR</strong> (con flujos operativos de 786,7 millones). Rentabilidad sobre el capital propio (<em>ROE</em>) del <strong>15,61%</strong>.</li>
+<li><strong>Política de Dividendos:</strong> Ofrece una rentabilidad por dividendo (<em>dividend yield</em>) del <strong>2,19%</strong> con un pago anual de 0,42 EUR por acción y un <em>payout ratio</em> sostenible del <strong>41,07%</strong>.</li>
+<li><strong>Consenso de Analistas:</strong> El precio objetivo medio fijado por el consenso de analistas (16 opiniones) se sitúa en <strong>20,81 EUR</strong> (con un rango entre 16,00 EUR de mínimo y 24,40 EUR de máximo), lo que implica un potencial alcista (<em>consensus upside</em>) aproximado del <strong>8,04%</strong> respecto a los niveles actuales de cotización.</li>
+</ul>
+<hr />
+<h6>4. Noticias Recientes y Catalizadores de Mercado (Octubre 2026)</h6>
+<ul>
+<li><strong>Estrategia a Largo Plazo y Expansión:</strong> Recientemente, durante su Investor's Day, la compañía ha presentado ambiciosos planes de crecimiento, aspirando a disparar sus ventas un 60% en los próximos 7 años impulsando su presencia en Estados Unidos (mediante su entrada en Amazon), reforzando su expansión en Asia y consolidándose como un actor global en dermocosmética (<em>El Mundo</em>, 29-10-2026; <em>Estrategias de Inversión</em>, 28-10-2026).</li>
+<li><strong>Financiación Corporativa:</strong> Se ha informado de operaciones financieras internas donde la familia promotora ha optado por vías alternativas de financiación a través de su hólding por cerca de 900 millones de euros, evitando la dependencia directa de la banca tradicional (<em>Crónica Global</em>, 30-10-2026).</li>
+<li><strong>Expectativas del Mercado:</strong> El mercado esperaba de la compañía una mejora sostenida del beneficio anualizado de al menos un 7%, respaldada por sus guías estratégicas (<em>El Economista</em>, 27-10-2026).</li>
+</ul>
+<hr />
+<h6>5. Resumen de Puntos Clave</h6>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Categoría</th>
+<th style="text-align:left">Métrica / Indicador</th>
+<th style="text-align:left">Valor Actual / Referencia</th>
+<th style="text-align:left">Implicación Operativa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Precio y Tendencia</strong></td>
+<td style="text-align:left">Cierre (30-10-2026)</td>
+<td style="text-align:left">19,26 EUR</td>
+<td style="text-align:left">Tendencia alcista estructurada por encima de las medias móviles de 50 y 200 sesiones.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Momento Técnico</strong></td>
+<td style="text-align:left">RSI (14) / MACD</td>
+<td style="text-align:left">RSI: 59,04 / MACD: 0,333</td>
+<td style="text-align:left">Impulso alcista moderado, sin señales claras de sobrecompra inminente.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Valoración</strong></td>
+<td style="text-align:left">PER Fwd / EV-EBITDA</td>
+<td style="text-align:left">16,07x / 12,77x</td>
+<td style="text-align:left">Valoración razonable acorde al perfil de crecimiento defensivo en el sector de lujo/cosmética.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Solvencia</strong></td>
+<td style="text-align:left">Deuda Neta / EBITDA</td>
+<td style="text-align:left">1,63x</td>
+<td style="text-align:left">Estructura financiera equilibrada y bajo control.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Retorno Accionista</strong></td>
+<td style="text-align:left">Dividend Yield</td>
+<td style="text-align:left">2,18% (</td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="s1-2">News Analyst</h3>
+<p><strong>Rating</strong>: HOLD<br />
+<strong>FINAL TRANSACTION PROPOSAL</strong>: HOLD (Hipotético, sin portafolio ni ejecución de órdenes)</p>
+<h6>Análisis integral de la compañía y el entorno macroeconómico para <code>PUIG.MC</code></h6>
+<h6>1. Resumen Ejecutivo y Estado Actual de <code>PUIG.MC</code></h6>
+<p>Puig Brands, S.A. (<code>PUIG.MC</code>), cotizada en el mercado español (Bolsas y Mercados Españoles - MCE) dentro del sector de consumo defensivo (Hogar y Productos Personales), se sitúa en un precio de cierre de <strong>19,26 EUR</strong> (con fecha de precio 30 de octubre de 2026). La compañía experimentó recientemente una valoración positiva impulsada por su reciente <strong>Investor's Day</strong> (octubre de 2026), donde la directiva expuso ambiciosos planes de crecimiento a largo plazo, buscando disparar sus ventas un 60% en los próximos 7 años mediante la expansión en EE. UU. (con entrada en Amazon), refuerzo en Asia y el desarrollo de un polo global en dermocosmética.</p>
+<h6>2. Fundamentos Financieros y Valoración</h6>
+<ul>
+<li><strong>Capitalización Bursátil</strong>: ~10.850 millones de EUR.</li>
+<li><strong>Múltiplos de Valoración</strong>:
+<ul>
+<li><em>Trailing P/E</em>: 18,70x (con un beneficio por acción histórico <em>Trailing EPS</em> de 1,03 EUR).</li>
+<li><em>Forward P/E</em>: 16,07x (con un <em>Forward EPS</em> estimado en 1,20 EUR).</li>
+<li><em>Price-to-Book (P/B)</em>: 2,69x (sobre un valor contable por acción de 7,16 EUR).</li>
+<li><em>Enterprise Value to EBITDA (EV/EBITDA)</em>: 12,77x.</li>
+</ul>
+</li>
+<li><strong>Crecimiento y Rentabilidad</strong>:
+<ul>
+<li>Crecimiento de ingresos reportado de 2,4% y un margen de beneficio neto en torno al 11,41%.</li>
+<li>ROE (Return on Equity) sólido de 15,6%.</li>
+<li>Deuda neta sobre EBITDA de aproximadamente 1,63x (deuda total de ~1.798 millones frente a un EBITDA de ~975 millones y caja de ~207 millones), evidenciando un apalancamiento manejable. Además, reportes recientes de prensa señalan optimización de su estructura de capital (financiación mediante su hólding por cerca de 900 millones para esquivar condiciones bancarias tradicionales).</li>
+</ul>
+</li>
+<li><strong>Dividendos</strong>: Ofrece una rentabilidad por dividendo (<em>dividend yield</em>) de <strong>2,18%</strong> con un pago anual de 0,42 EUR por acción y un <em>payout ratio</em> conservador de ~41%.</li>
+<li><strong>Consenso de Analistas</strong>: El precio objetivo medio (<em>target mean price</em>) se sitúa en <strong>20,81 EUR</strong> (con un rango entre 16,00 EUR y 24,40 EUR aportado por 16 analistas), lo que ofrece un potencial alcista (<em>consensus upside</em>) del <strong>8,04%</strong> desde los niveles actuales de 19,26 EUR.</li>
+</ul>
+<h6>3. Análisis Técnico y Momentum</h6>
+<ul>
+<li><strong>Indicadores Técnicos</strong>:
+<ul>
+<li>Cotiza por encima de sus medias móviles clave: SMA de 20 sesiones (18,87 EUR), SMA de 50 sesiones (18,21 EUR) y SMA de 200 sesiones (16,83 EUR), lo que confirma una tendencia alcista estructural a medio y largo plazo.</li>
+<li>RSI (14) en <strong>59,04</strong>, reflejando un tono alcista moderado sin entrar en zonas de sobrecompra.</li>
+<li>MACD positivo (0,33) aunque ligeramente por debajo de su línea de señal (0,38).</li>
+<li>Rentabilidades recientes sólidas: +8,20% a 21 sesiones y +16,16% a 63 sesiones, superando al índice de referencia (<code>^IBEX</code>) en 23 puntos porcentuales a 63 días.</li>
+</ul>
+</li>
+</ul>
+<h6>4. Entorno Macroeconómico Global y Sectorial (Octubre de 2026)</h6>
+<ul>
+<li><strong>Tipos de Interés y Bancos Centrales</strong>: El Banco Central Europeo (BCE) mantuvo los tipos de interés en el <strong>2,50%</strong> a finales de octubre de 2026, advirtiendo sobre ciertos riesgos inflacionarios procedentes de la energía y el entorno geopolítico/europeo (Francia). Este nivel de tipos ofrece estabilidad en los costes de financiación corporativa, aunque el mercado mantiene la cautela ante las próximas reuniones de diciembre.</li>
+<li><strong>Clima Bursátil</strong>: El índice IBEX 35 se ha visto presionado en las últimas sesiones (oscilando alrededor de los 18.700 - 18.800 puntos) debido a correcciones en el sector bancario y dudas sobre tecnológicas globales, aunque valores de consumo defensivo como <code>PUIG.MC</code> han demostrado resiliencia gracias a catalizadores corporativos propios.</li>
+</ul>
+<h6>5. Evidencia y Datos Faltantes</h6>
+<ul>
+<li><strong>Datos Faltantes</strong>: No se dispone de estimaciones detalladas de flujo de caja libre descontado más allá de las cifras públicas de EBITDA y FCF reportadas de 502,58 millones de EUR. Las proyecciones de analistas sobre el cumplimiento exacto del plan estratégico a 7 años carecen de desglose trimestral detallado en este conjunto de datos.</li>
+</ul>
+<hr />
+<h6>Tabla Resumen de Puntos Clave</h6>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Categoría</th>
+<th style="text-align:left">Métrica / Indicador</th>
+<th style="text-align:left">Valor / Observación</th>
+<th style="text-align:left">Implicación para el Inversionista</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Precio y Valoración</strong></td>
+<td style="text-align:left">Precio Actual (<code>PUIG.MC</code>)</td>
+<td style="text-align:left">19,26 EUR (30-Oct-2026)</td>
+<td style="text-align:left">Tendencia alcista apoyada sobre medias móviles de 20, 50 y 200 días.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Valoración Relativa</strong></td>
+<td style="text-align:left">Forward P / E</td>
+<td style="text-align:left">16,07x</td>
+<td style="text-align:left">Valoración razonable para un actor global de belleza con crecimiento proyectado.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Consenso de Mercado</strong></td>
+<td style="text-align:left">Target Mean Price</td>
+<td style="text-align:left">20,81 EUR</td>
+<td style="text-align:left">Sugiere un potencial alcista moderado del ~8,04% según analistas.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Salud Financiera</strong></td>
+<td style="text-align:left">Net Debt / EBITDA</td>
+<td style="text-align:left">1,63x</td>
+<td style="text-align:left">Apalancamiento financiero bajo control y capacidad de generación de caja sólida.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Retorno al Accionista</strong></td>
+<td style="text-align:left">Dividend Yield</td>
+<td style="text-align:left">2,18% (0,42 EUR/acción)</td>
+<td style="text-align:left">Atractivo para perfiles defensivos, con un <em>payout</em> sostenible (~41%).</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Catalizadores</strong></td>
+<td style="text-align:left">Investor's Day (Oct 2026)</td>
+<td style="text-align:left">Expansión en EE. UU., Amazon y dermocosmética</td>
+<td style="text-align:left">Apuesta estratégica a largo plazo que respalda el optimismo del mercado.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Macroeconomía</strong></td>
+<td style="text-align:left">Tipos BCE / Entorno</td>
+<td style="text-align:left">2,50% (mantenidos en octubre 2026)</td>
+<td style="text-align:left">Estabilidad monetaria que favorece la planificación de inversiones y refinanciaciones corporativas.</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="s1-3">Fundamentals Analyst</h3>
+<p><strong>Informe de Investigación Fundamental – Puig Brands, S.A. (<code>PUIG.MC</code>)</strong></p>
+<p><strong>Rating</strong>: HOLD<br />
+<strong>FINAL TRANSACTION PROPOSAL</strong>: HYPOTHETICAL HOLD</p>
+<hr />
+<h6>1. Perfil de la Compañía y Contexto de Negocio</h6>
+<p>Puig Brands, S.A. (<code>PUIG.MC</code>) es una empresa multinacional española cotizada en la Bolsa de Madrid (MCE), clasificada dentro del sector de Consumo Defensivo (Bienes de Hogar y Cuidado Personal). Es un actor global destacado en los segmentos de fragancias, moda, maquillaje y dermocosmética.</p>
+<p>Recientemente, con motivo de su primer <em>Investor's Day</em> a finales de octubre de 2026, la compañía ha trazado planes ambiciosos para los próximos 7 años, apuntando a un crecimiento de ventas de hasta el 60% mediante la expansión en Estados Unidos (incluyendo su reciente entrada en Amazon), el refuerzo en Asia y la consolidación de un gigante mundial en dermocosmética. Además, noticias corporativas recientes señalan que la familia fundadora ha canalizado financiación a través de su propio hólding por unos 900 millones de euros para optimizar su estructura de capital (Crónica Global, 30 de octubre de 2026).</p>
+<hr />
+<h6>2. Análisis de Estados Financieros y Fundamentales</h6>
+<p>A partir de los datos financieros consolidados más recientes disponibles:</p>
+<ul>
+<li>
+<p><strong>Cuenta de Resultados (Ingresos y EBITDA):</strong></p>
+<ul>
+<li><strong>Ingresos Totales (2025):</strong> 5.042,03 millones de euros, frente a los 4.789,78 millones de 2024 y los 4.304,07 millones de 2023, lo que demuestra una trayectoria sólida y sostenida de crecimiento orgánico e inorgánico.</li>
+<li><strong>EBITDA (2025):</strong> 1.117,20 millones de euros (superando los 979,81 millones de 2024 y los 876,69 millones de 2023).</li>
+<li><strong>Beneficio Neto (2025):</strong> 593,70 millones de euros, mostrando un incremento frente a los 530,65 millones de 2024.</li>
+</ul>
+</li>
+<li>
+<p><strong>Balance de Situación:</strong></p>
+<ul>
+<li><strong>Activos Totales (2025):</strong> 8.547,61 millones de euros (ligeramente por debajo de los 8.603,20 millones de 2024).</li>
+<li><strong>Deuda Total:</strong> Registrada en 1.429,59 millones de euros en 2025 (y 1.798,57 millones en métricas globales actualizadas), con un ratio de <strong>Deuda Neta sobre EBITDA</strong> moderado de <strong>1.63x</strong>, lo que indica una sólida capacidad de absorción de pasivos.</li>
+<li><strong>Patrimonio Neto (Stockholders Equity):</strong> 3.899,27 millones de euros en 2025, reflejando un fortalecimiento patrimonial sustancial frente a los 949,91 millones de 2023.</li>
+</ul>
+</li>
+<li>
+<p><strong>Flujos de Caja:</strong></p>
+<ul>
+<li><strong>Flujo de Caja Operativo (2025):</strong> 859,05 millones de euros.</li>
+<li><strong>Flujo de Caja Libre (FCF) (2025):</strong> 660,56 millones de euros (frente a los 548,77 millones de 2024 y los 378,56 millones de 2023), confirmando una excelente generación de caja libre.</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h6>3. Métricas de Valoración y Mercado</h6>
+<ul>
+<li><strong>Capitalización Bursátil:</strong> 10.849,01 millones de euros.</li>
+<li><strong>Precio de Cierre (30 de octubre de 2026):</strong> 19,26 EUR.</li>
+<li><strong>PER (Trailing):</strong> 18.70x; <strong>PER Forward:</strong> 16.07x.</li>
+<li><strong>EV/EBITDA:</strong> 12.77x.</li>
+<li><strong>Rentabilidad por Dividendo (Dividend Yield):</strong> 2,18% (con un dividendo anual de 0,42 EUR y un <em>payout ratio</em> conservador del 41,07%).</li>
+<li><strong>Consenso de Analistas:</strong> El precio objetivo medio (<em>target mean price</em>) se sitúa en 20,81 EUR (con un rango entre 16,00 EUR y 24,40 EUR analizado por 16 expertos), lo que otorga un potencial de revalorización (<em>upside</em>) estimado en torno al <strong>8,04%</strong>.</li>
+</ul>
+<hr />
+<h6>4. Análisis Técnico</h6>
+<ul>
+<li><strong>Medias Móviles:</strong> La cotización (19,26 EUR) se encuentra por encima de sus medias móviles clave: SMA20 (18,87 EUR), SMA50 (18,21 EUR) y SMA200 (16,83 EUR), lo que indica una tendencia alcista a medio y largo plazo.</li>
+<li><strong>Indicadores de Moméntum:</strong> RSI de 14 periodos en 59,04 (zona neutral-favorable, sin sobrecompra inmediata). El MACD muestra lecturas positivas recientes (0,33), aunque ligeramente por debajo de su línea de señal (0,38).</li>
+<li><strong>Rentabilidades Recientes:</strong> Retorno a 21 sesiones del +8,20% y a 252 sesiones del +33,99%, superando holgadamente el rendimiento del índice de referencia (<code>^IBEX</code>).</li>
+</ul>
+<hr />
+<h6>5. Datos Faltantes y Limitaciones</h6>
+<ul>
+<li>No se dispone de un desglose detallado diario de transacciones de iniciados (<em>insider transactions</em>) en esta instantánea, limitándose la visibilidad a las notas corporativas de los hóldings familiares.</li>
+<li>Los datos sectoriales comparativos automáticos arrojan la etiqueta &quot;Comparación sectorial no disponible&quot; en el bloque de valoración estricta, por lo que la evaluación se basa en múltiplos absolutos de la compañía y su tendencia histórica.</li>
+</ul>
+<hr />
+<h6>6. Tabla Resumen de Puntos Clave</h6>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Categoría</th>
+<th style="text-align:left">Métrica / Indicador</th>
+<th style="text-align:left">Valor / Detalle</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Identificación</strong></td>
+<td style="text-align:left">Ticker / Bolsa</td>
+<td style="text-align:left"><code>PUIG.MC</code> (MCE, España)</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Precio y Valoración</strong></td>
+<td style="text-align:left">Precio de Cierre (30-Oct-2026)</td>
+<td style="text-align:left">19,26 EUR</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Valoración</strong></td>
+<td style="text-align:left">PER (Trailing / Forward)</td>
+<td style="text-align:left">18.70x / 16.07x</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Valoración</strong></td>
+<td style="text-align:left">EV / EBITDA</td>
+<td style="text-align:left">12.77x</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Rentabilidad</strong></td>
+<td style="text-align:left">Dividend Yield</td>
+<td style="text-align:left">2.18% (0,42 EUR por acción)</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Resultados</strong></td>
+<td style="text-align:left">Ingresos Totales (2025)</td>
+<td style="text-align:left">5.042,03 millones de EUR</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Resultados</strong></td>
+<td style="text-align:left">EBITDA (2025)</td>
+<td style="text-align:left">1.117,20 millones de EUR</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Solvencia</strong></td>
+<td style="text-align:left">Deuda Neta / EBITDA</td>
+<td style="text-align:left">1.63x</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Flujo de Caja</strong></td>
+<td style="text-align:left">Free Cash Flow (2025)</td>
+<td style="text-align:left">660,56 millones de EUR</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Mercado</strong></td>
+<td style="text-align:left">Precio Objetivo Medio (Consenso)</td>
+<td style="text-align:left">20,81 EUR (+8,04% de potencial)</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Técnico</strong></td>
+<td style="text-align:left">SMA20 / SMA50 / SMA200</td>
+<td style="text-align:left">18,87 EUR / 18,21 EUR / 16,83 EUR</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Acción Recomendada</strong></td>
+<td style="text-align:left">Hipótesis Operativa</td>
+<td style="text-align:left">HYPOTHETICAL HOLD</td>
+</tr>
+</tbody>
+</table></div>
+</section><section id="s2"><h2>II. Research Team Decision</h2><h3 id="s2-1">Bull Researcher</h3>
+<p>Bull Analyst: <strong>Rating</strong>: BUY<br />
+FINAL TRANSACTION PROPOSAL: BUY</p>
+<p>¡Hola! Entiendo perfectamente que el analista bajista esté buscando rendijas de duda en el horizonte, especialmente en un entorno macroeconómico donde el Banco Central Europeo mantiene los tipos en el 2,50% y los mercados generales navegan entre la cautela. Sin embargo, argumentar que <code>PUIG.MC</code> carece de catalizadores o que su valoración es exigente es ignorar la absoluta solidez operativa y el momento estratégico tan brillante por el que atraviesa la compañía.</p>
+<p>Vamos a desmontar los argumentos bajistas punto por punto con los datos en la mano, porque la tesis alcista de <code>PUIG.MC</code> no es una mera promesa, es una realidad respaldada por fundamentales sobresalientes.</p>
+<hr />
+<h6>1. Crecimiento Potencial: Una hoja de ruta agresiva pero realista</h6>
+<p>El oso suele argumentar que las proyecciones a largo plazo de las compañías son demasiado ambiciosas. Sin embargo, en el reciente <em>Investor's Day</em> de octubre de 2026, <code>PUIG.MC</code> no lanzó cifras al aire: trazó un plan para disparar sus ventas un <strong>60% en los próximos 7 años</strong>.
+¿Cómo lo van a lograr?</p>
+<ul>
+<li><strong>Expansión en EE. UU. y Amazon:</strong> Su reciente y estratégica entrada en Amazon abre un canal de distribución digital masivo en el mercado estadounidense, complementando su fuerte presencia en el sector del lujo.</li>
+<li><strong>Apuesta por Asia y Dermocosmética:</strong> Están posicionándose para crear un verdadero gigante mundial en dermocosmética, un segmento de alta retención, márgenes elevados y crecimiento secular descorrelacionado de los ciclos económicos tradicionales.</li>
+<li><strong>Tracción Financiera Comprobada:</strong> Mire los números de ingresos: pasaron de 4.304 millones en 2023 a 4.790 millones en 2024, y escalaron hasta los <strong>5.042 millones de euros al cierre de 2025</strong>. El EBITDA acompañó este despegue trepando hasta los <strong>1.117 millones de euros</strong>, con un beneficio neto que rozó los 594 millones. ¡El crecimiento histórico avala la ambición del plan estratégico!</li>
+</ul>
+<h6>2. Ventajas Competitivas y Fortaleza Financiera</h6>
+<p>Los críticos a menudo intentan asustar con la deuda de las empresas de consumo. Pero miremos la realidad de <code>PUIG.MC</code>:</p>
+<ul>
+<li><strong>Apalancamiento bajo control:</strong> Con una deuda neta sobre EBITDA de apenas <strong>1.63x</strong> (respaldada por una sólida generación de flujo de caja libre que alcanzó los <strong>660,56 millones de euros</strong> en 2025), la compañía goza de una salud financiera envidiable.</li>
+<li><strong>Independencia y optimización de capital:</strong> Operaciones recientes demuestran que la compañía optimiza su estructura de capital de forma astuta (como la financiación alternativa a través del hólding familiar por cerca de 900 millones de euros, esquivando las restricciones de la banca tradicional). ¿Cuántas empresas del IBEX pueden presumir de esa flexibilidad corporativa?</li>
+<li><strong>Poder de marca:</strong> En el sector de Consumo Defensivo y perfumería de gama alta, el &quot;pricing power&quot; de las marcas de Puig les permite proteger márgenes frente a cualquier vaivén inflacionario.</li>
+</ul>
+<h6>3. Indicadores Positivos y Momento Técnico Impecable</h6>
+<p>¿Qué nos dice el mercado? No hay peor ciego que el que no quiere ver la tendencia:</p>
+<ul>
+<li><strong>Fuerza en Bolsa:</strong> Las acciones de <code>PUIG.MC</code> cotizan a <strong>19,26 EUR</strong>, situándose holgadamente por encima de su SMA de 20 sesiones (18,87 EUR), su SMA de 50 sesiones (18,21 EUR) y, lo más importante, muy por encima de su soporte estructural a largo plazo en la SMA de 200 sesiones (16,83 EUR).</li>
+<li><strong>Superando al Índice:</strong> Con un rendimiento a 63 sesiones del <strong>+16,16%</strong>, <code>PUIG.MC</code> ha superado al índice de referencia (<code>^IBEX</code>) en más de <strong>23 puntos porcentuales</strong>. Su RSI se encuentra en un saludable <strong>59,04</strong> (impulso alcista moderado sin ningún síntoma de sobrecompra).</li>
+<li><strong>Retorno al Accionista:</strong> Ofrece una atractiva rentabilidad por dividendo (<em>dividend yield</em>) del <strong>2,18%</strong> con un <em>payout</em> sostenible del <strong>41,07%</strong>. Es el equilibrio perfecto entre crecimiento y retribución directa al inversor.</li>
+</ul>
+<hr />
+<h6>¿Por qué el argumento alcista es netamente superior?</h6>
+<p>El analista bajista puede intentar aferrarse a un PER <em>trailing</em> de 18,70x argumentando que no es una &quot;ganga&quot;. Pero es que estamos ante un negocio de calidad excepcional que cotiza a un <strong>PER <em>forward</em> de apenas 16,07x</strong> para el próximo ciclo de beneficios. Además, el consenso de 16 analistas sitúa el precio objetivo medio en <strong>20,81 EUR</strong>, lo que deja un potencial alcista inmediato de más del <strong>8%</strong>, con techos de analistas situándose hasta en los <strong>24,40 EUR</strong>.</p>
+<p>En resumen: <code>PUIG.MC</code> combina un negocio defensivo de marcas globales prémium, un balance saneado, un plan de expansión claro en geografías clave (EE. UU. y Asia) y un momento técnico alcista arrollador. Intentar ponerse bajista frente a este titán del cuidado personal es ir a contracorriente de la historia y de los datos. ¡Mi apuesta clara es de compra (<em>BUY</em>)!</p>
+<h3 id="s2-2">Bear Researcher</h3>
+<p>Bear Analyst: <strong>Rating</strong>: SELL<br />
+FINAL TRANSACTION PROPOSAL: SELL</p>
+<p>¡Hola colega! Entiendo perfectamente el entusiasmo con el que defiendes a <code>PUIG.MC</code> tras su reciente <em>Investor's Day</em>, pero me temo que estás comprando el relato publicitario de la directiva sin mirar con lupa los riesgos reales que se esconden bajo la superficie. Nos vendes un crecimiento idílico del 60% a siete años vista, pero en los mercados financieros, promesas a largo plazo y realidades a corto plazo suelen chocar de frente. Vamos a poner los pies en la tierra y a desmontar ese optimismo infundado con los propios datos de la compañía.</p>
+<h6>1. El espejismo del plan a 7 años y la saturación del mercado de lujo</h6>
+<p>Hablas de la ambiciosa meta de disparar las ventas un 60% y de su entrada en Amazon en EE. UU. como si fuera un camino de rosas, pero olvidas un factor crítico: <strong>el mercado de la belleza prémium y la perfumería de alta gama está sufriendo una saturación evidente y vientos en contra macroeconómicos</strong>.</p>
+<ul>
+<li><strong>¿Un canal masivo como Amazon para marcas de lujo?</strong> Cuidado con esto. La entrada en plataformas generalistas como Amazon puede diluir el valor aspiracional y el prestigio de marcas de alta gama que Puig tanto le ha costado construir. El consumidor de lujo busca exclusividad, no compras en un &quot;marketplace&quot; masivo.</li>
+<li><strong>El muro de la competencia en Asia:</strong> Pretender replicar o acelerar la expansión en Asia en un momento donde el consumo interno en dicha región muestra profundas dudas y una competencia local feroz es una apuesta sumamente costosa y de baja visibilidad. Las proyecciones a siete años son papel mojado frente a la volatilidad macroeconómica actual.</li>
+<li><strong>Desaceleración real:</strong> Fíjate en los datos fundamentales que aportas a medias: el crecimiento de los ingresos reportado se desacelera a un modesto <strong>2,4%</strong>, mientras que el beneficio neto muestra incluso un crecimiento negativo de las ganancias (<code>earningsGrowth</code> del <strong>-4,4%</strong>). ¡La maquinaria ya está mostrando síntomas claros de fatiga!</li>
+</ul>
+<h6>2. ¿De verdad está barata o estamos ignorando el apalancamiento?</h6>
+<p>Intentas restar importancia al perfil financiero apoyándote en el ratio de deuda neta sobre EBITDA de 1,63x, pero hay que leer la letra pequeña de cómo se está moviendo el dinero en la casa:</p>
+<ul>
+<li><strong>Ingeniería financiera en el hólding:</strong> Recientemente hemos sabido que la familia promotora ha tenido que recurrir a una financiación a través de su propio hólding por cerca de <strong>900 millones de euros</strong> para esquivar a la banca tradicional (<em>Crónica Global</em>, 30-10-2026). Cuando los promotores buscan vías alternativas de liquidez de tal magnitud fuera de los canales habituales de mercado, es una señal de alerta sobre la rigidez de la estructura de capital y los costes de refinanciación reales a los que se enfrentan.</li>
+<li><strong>Múltiplos exigentes para un crecimiento tibio:</strong> Un PER <em>trailing</em> de <strong>18,70x</strong> y un EV/EBITDA de <strong>12,77x</strong> no son ninguna ganga para una empresa con un crecimiento de ingresos del 2% y beneficios a la baja. Estás pagando múltiplos de crecimiento tecnológico por un valor de consumo defensivo que apenas ofrece una rentabilidad por dividendo del <strong>2,18%</strong> (0,42 EUR por acción). ¡Por ese rendimiento, el inversor prefiere la renta fija o valores bancarios con menor riesgo de revalorización fallida!</li>
+</ul>
+<h6>3. El espejismo técnico y el escaso margen del consenso</h6>
+<p>Te aferras a que la acción cotiza por encima de sus medias móviles (SMA de 20, 50 y 200) y que supera al índice. Eso solo demuestra que el valor ha corrido por inercia tras el escaparate del <em>Investor's Day</em>, pero nos deja técnicamente vulnerables a una corrección brusca:</p>
+<ul>
+<li><strong>Potencial agotado:</strong> El propio consenso de analistas sitúa el precio objetivo medio en <strong>20,81 EUR</strong>. Partiendo de los <strong>19,26 EUR</strong> actuales, el <em>upside</em> potencial es de <strong>apenas un 8%</strong>. ¿De verdad vale la pena asumir el riesgo operativo, de ejecución en EE. UU. y los desafíos macroeconómicos globales por un mísero 8% de margen teórico hasta el precio objetivo medio? El riesgo-beneficio está completamente roto.</li>
+<li><strong>RSI y Momento:</strong> Con un RSI en 59,04, el valor no está en zona de pánico, pero el histograma del MACD ya muestra signos de compresión. Cualquier pequeño traspié en los próximos resultados trimestrales provocará una recogida de beneficios rápida, rompiendo los soportes recientes.</li>
+</ul>
+<h6>Conclusión del Analista Bajista</h6>
+<p><code>PUIG.MC</code> es una compañía con marcas excelentes, nadie lo niega, pero <strong>su cotización actual ya ha descontado con creces las buenas noticias</strong>, y el mercado está ignorando los riesgos de ejecución de su plan estratégico a largo plazo, la fatiga en el crecimiento de beneficios y una estructura de financiación familiar opaca y compleja.</p>
+<p>Invertir aquí hoy es subirse tarde a un tren que ofrece un recorrido muy limitado (un 8% de potencial según consenso) a cambio de un riesgo de corrección considerable si la economía europea o el consumo de lujo sufren un tropezón. ¡Mi recomendación firme es de venta o salida (<code>SELL</code>)!</p>
+<h3 id="s2-3">Research Manager</h3>
+<p><strong>Recommendation</strong>: Hold</p>
+<p><strong>Rationale</strong>: El analista alcista defiende a PUIG.MC destacando su sólido momento técnico con una cotización de 19,26 EUR por encima de sus medias móviles de 20, 50 y 200 sesiones, un rendimiento superior al ^IBEX del +16,16% a 63 sesiones, y un ambicioso plan estratégico presentado en su Investor's Day de octubre de 2026 para disparar las ventas un 60% en 7 años gracias a su entrada en Amazon en EE. UU., Asia y dermocosmética. Por otro lado, el analista bajista advierte que este crecimiento ya está descontado, señalando una desaceleración en el crecimiento de los ingresos al 2,4%, un beneficio neto con crecimiento negativo (-4,4%), una financiación alternativa del hólding por 900 millones de euros y un PER trailing de 18,70x que deja un potencial de apenas el 8% frente al precio objetivo medio de consenso de 20,81 EUR. Tras sopesar ambas posturas, el potencial alcista del consenso es escaso y existen dudas de ejecución, pero la fortaleza técnica y los fundamentales de flujo de caja libre (660,56 millones de euros en 2025) y deuda controlada (1,63x EBITDA) impiden validar una venta firme; por lo tanto, la evidencia equilibrada inclina la balanza hacia una postura neutral.</p>
+<p><strong>Strategic Actions</strong>: Mantener la asignación actual en PUIG.MC sin realizar nuevas compras ni aperturas de posiciones. Esperar a una corrección hacia la media móvil de 20 sesiones (18,87 EUR) o una mayor visibilidad en la ejecución de los planes en EE. UU. y Asia antes de considerar un incremento de exposición de tamaño estándar.</p>
+</section><section id="s3"><h2>III. Trading Team Plan</h2><h3 id="s3-1">Trader</h3>
+<p><strong>Action</strong>: Hold</p>
+<p><strong>Reasoning</strong>: La cotizacion actual de PUIG.MC se encuentra en 19,26 EUR, mostrando solidez por encima de sus medias móviles de 50 y 200 sesiones y respaldada por un flujo de caja libre positivo y planes de expansión en EE. UU. y dermocosmética. Sin embargo, el PER adelantado de 16,07x y un potencial alcista de consenso ajustado de apenas el 8% frente al precio objetivo medio de 20,81 EUR sugieren que gran parte de los catalizadores positivos a corto plazo ya estan descontados. Por consiguiente, se recomienda mantener la posicion actual y esperar a una correccion hacia soportes dinamicos para buscar nuevas entradas.</p>
+<p><strong>Entry Price</strong>: not provided</p>
+<p><strong>Stop Loss</strong>: not provided</p>
+<p><strong>Position Sizing</strong>: Mantener exposicion actual</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+</section><section id="s4"><h2>IV. Risk Management Team Decision</h2><h3 id="s4-1">Aggressive Analyst</h3>
+<p>Aggressive Analyst: ¡Compañeros, analicemos con auténtica ambición lo que tenemos en la mesa con <code>PUIG.MC</code>! Entiendo perfectamente que el analista conservador y el neutral se muestren timoratos ante un PER adelantado de 16,07x y un potencial alcista de consenso del 8% que fija el precio objetivo medio en 20,81 EUR, recomendando un refugio defensivo de mera espera. Pero permítanme decirles que esa excesiva cautela les está cegando ante una oportunidad de crecimiento colosal.</p>
+<p>¿De verdad van a dejar pasar una compañía que acaba de presentar en su Investor's Day un plan estratégico para disparar sus ventas un 60% en los próximos 7 años? Estamos hablando de una expansión agresiva y disruptiva en EE. UU. mediante su entrada en Amazon, un despliegue sin precedentes en Asia y la consolidación de un gigante mundial en el sector de la dermocosmética. Esperar una corrección hacia soportes dinámicos para buscar nuevas entradas, como propone la postura neutral, es el clásico error de los inversores que se quedan mirando el gráfico desde la barrera mientras el tren del impulso alcista se marcha.</p>
+<p>Miren los datos técnicos y de mercado: la cotización a 19,26 EUR se sitúa de forma insultantemente sólida por encima de sus medias móviles de 20, 50 y 200 sesiones. El RSI se encuentra en un saludable 59,04, lo que demuestra que hay un momento alcista moderado pero firme, sin ningún atisbo real de sobrecompra. Además, los retornos hablan por sí solos: un +8,20% a 21 sesiones y un impresionante +16,16% a 63 sesiones, batiendo con claridad al índice de referencia ^IBEX en más de 23 puntos porcentuales. ¿Preocuparse por una corrección menor cuando la tendencia estructural es claramente alcista y la compañía genera un flujo de caja libre superior a los 502 millones de euros (con flujos operativos de casi 787 millones)?</p>
+<p>Los analistas conservadores siempre temen al apalancamiento, pero la ratio de deuda neta sobre EBITDA de Puig se mantiene en un cómodo y manejable 1,63x, respaldado además por una sólida gestión financiera corporativa donde la propia familia promotora se financia a través de su hólding por cerca de 900 millones para evitar dependencias bancarias tradicionales. Con un ROE del 15,6% y un EBITDA que supera los 1.117 millones de euros en 2025, la salud operativa es impecable.</p>
+<p>Por lo tanto, quedarse bloqueados en un &quot;mantener&quot; timorato por miedo a que los catalizadores a corto plazo estén descontados ignora el valor exponencial de los planes a largo plazo de la compañía. Apoyar una estrategia puramente defensiva nos hace perder el gran potencial de crecimiento. Debemos defender una postura audaz que capitalice la fortaleza actual de <code>PUIG.MC</code> y abrace el riesgo de romper los moldes tradicionales del sector de consumo defensivo.</p>
+<p><strong>Rating</strong>: HOLD
+FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+<h3 id="s4-2">Conservative Analyst</h3>
+<p>Conservative Analyst: Compañeros, comprendo perfectamente el entusiasmo del analista agresivo ante los planes a largo plazo presentados en el Investor's Day de <code>PUIG.MC</code>, pero la misión de esta mesa no es dejarse deslumbrar por promesas de crecimiento a siete vista, sino proteger el capital de la firma frente a riesgos tangibles y valoraciones que ya rozan los límites de la prudencia.</p>
+<p>Apelar a un incremento de ventas del 60% a largo plazo mientras se ignora el presente es una imprudencia analítica. La realidad actual de <code>PUIG.MC</code> a 19,26 EUR nos muestra un PER adelantado de 16,07x y un recorrido alcista de consenso sumamente limitado, de apenas un 8% respecto al precio objetivo medio de 20,81 EUR. Esto evidencia con claridad meridiana que gran parte de los catalizadores positivos a corto plazo ya están completamente descontados en el precio. Comprar de manera agresiva en estos niveles, con un RSI en 59,04 que se acerca de forma peligrosa a zonas de sobrecompra operativa y un MACD que muestra signos de compresión, expone a la cartera a un riesgo de corrección innecesario.</p>
+<p>El analista agresivo minimiza el apalancamiento basándose únicamente en una ratio de deuda neta sobre EBITDA de 1,63x, pero olvida que la deuda total asciende a casi 1.800 millones de euros frente a una escasa posición de efectivo de 207 millones. En un entorno macroeconómico donde el Banco Central Europeo mantiene los tipos de interés en el 2,50% y advierte persistentemente sobre riesgos inflacionarios y geopolíticos, asumir que cualquier estructura de financiación corporativa está exenta de vulnerabilidad es ignorar la volatilidad inherente al mercado. Una volatilidad histórica anualizada del 21,98% nos recuerda que los giros bruscos en el sector de consumo defensivo pueden castigar con dureza las valoraciones más ajustadas.</p>
+<p>Por todo ello, adoptar una postura puramente impulsiva nos aleja de nuestro objetivo primordial de estabilidad y seguridad. Mantener la exposición actual sin incrementar posiciones a precios inflados y esperar pacientemente una corrección hacia soportes dinámicos es la única alternativa responsable para asegurar el patrimonio de la firma a largo plazo.</p>
+<p><strong>Rating</strong>: HOLD
+FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+<h3 id="s4-3">Neutral Analyst</h3>
+<p>Neutral Analyst: Compañeros, he escuchado con atención tanto el eufórico optimismo del analista agresivo como la rigurosa cautela del analista conservador respecto a <code>PUIG.MC</code>, y creo que ambos pecan de caer en extremos que perjudican una gestión de riesgos verdaderamente profesional.</p>
+<p>Por un lado, el analista agresivo desestima con demasiada ligereza la realidad técnica y de valoración. Pretender ignorar que un PER adelantado de 16,07x y un potencial alcista de consenso de apenas el 8% (con un precio objetivo medio de 20,81 EUR frente a los actuales 19,26 EUR) reflejan que una parte muy sustancial de los catalizadores a corto plazo ya está descontada, es un acto de temeridad. Calificar de &quot;timorata&quot; una postura prudente cuando el RSI roza el 60 y el MACD muestra compresión es no querer ver las señales de fatiga en el impulso técnico de corto plazo. Comprar de forma desbocada ahora, solo porque la compañía proyecta crecer un 60% en los próximos siete años gracias a su estrategia en EE. UU., Amazon y dermocosmética, expone a la cartera a un riesgo innecesario de corrección técnica tras las subidas recientes (un +16,16% a 63 sesiones).</p>
+<p>Sin embargo, el analista conservador también se equivoca al adoptar una postura de repliegue tan rígida que raya en la parálisis. Argumentar que la deuda total de casi 1.800 millones de euros frente a los 207 millones de efectivo representa una vulnerabilidad extrema es exagerar la situación financiera de la compañía. Ignora deliberadamente que la ratio de endeudamiento neto sobre EBITDA se sitúa en un cómodo y perfectamente manejable 1.63x, respaldado además por una sólida generación de flujo de caja libre superior a los 502 millones de euros y un margen operativo impecable. El entorno macroeconómico con tipos del BCE en el 2,50% exige atención, sí, pero no justifica renunciar a la participación en una compañía de consumo defensivo que bate sistemáticamente al índice de referencia ^IBEX.</p>
+<p>La clave no es ni lanzarse a comprar sin red ni quedarse esperando inactivo en la barrera. Una postura moderada y sostenible nos enseña que el verdadero equilibrio radica en mantener la exposición actual para seguir disfrutando de la tendencia alcista estructural —sostenida por encima de las medias móviles de 50 y 200 sesiones—, pero utilizando esa misma solidez operativa para planificar entradas tácticas escalonadas ante cualquier corrección hacia soportes dinámicos. De este modo, protegemos el capital frente a la volatilidad histórica del 21,98% sin perder la oportunidad de capturar el valor a largo plazo de sus ambiciosos planes de expansión global.</p>
+<p><strong>Rating</strong>: HOLD
+FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+</section><section id="s5"><h2>V. Portfolio Manager Decision</h2><h3 id="s5-1">Portfolio Manager</h3>
+<p><strong>Rating</strong>: Hold</p>
+<p><strong>Executive Summary</strong>: Mantener la asignación actual en PUIG.MC sin realizar nuevas compras ni aperturas de posiciones. Se recomienda esperar a una corrección hacia soportes dinámicos o la media móvil de 20 sesiones en 18,87 EUR para considerar incrementos tácticos.</p>
+<p><strong>Investment Thesis</strong>: Tras sopesar las posturas de los analistas, la evidencia se mantiene equilibrada. El analista agresivo destaca la fortaleza técnica con cotización por encima de las medias móviles de 20, 50 y 200 sesiones, un rendimiento superior al IBEX del +16,16% a 63 sesiones, y los ambiciosos planes estratégicos presentados en su Investor's Day para disparar las ventas un 60% en 7 años gracias a su entrada en Amazon, Asia y dermocosmética. Por otro lado, el analista conservador advierte que gran parte de los catalizadores positivos ya están descontados, señalando un PER adelantado de 16,07x, un potencial alcista de consenso limitado al 8% frente al precio objetivo medio de 20,81 EUR, y una volatilidad anualizada del 21,98% en un entorno de tipos del BCE en el 2,50%. El analista neutral argumenta acertadamente que la deuda neta sobre EBITDA se mantiene manejable en 1,63x, respaldada por un flujo de caja libre superior a 502 millones de euros, lo que impide una recomendación de venta o reducción, pero la valoración actual y el RSI en 59,04 sugieren prudencia y desaconsejan compras agresivas en este nivel. Lo que cambiaría esta tesis sería una corrección técnica significativa hacia soportes que mejore el margen de seguridad o una aceleración en la ejecución de los planes de expansión internacional.</p>
+<p><strong>Price Target</strong>: 20.81</p>
+<p><strong>Time Horizon</strong>: 3-6 months</p>
+</section>
+</main>
+<footer class="credit"><a href="https://github.com/TauricResearch/TradingAgents" rel="noopener">TradingAgents</a> powered by <a class="brand" href="https://github.com/TauricResearch" rel="noopener">Tauric Research</a></footer>
+</div>
+<a class="to-top" href="#top">Top</a>
+</body>
+</html>

@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'">
+<title>BBVA.MC 2026-11-01 Hold: TradingAgents report</title>
+<style>
+:root {
+  --paper: #fbfbfa; --ink: #1c2126; --muted: #5d6670; --rule: #e2e5e8; --wash: #f2f4f5;
+  --accent: #087a59; --up: #087a59; --down: #b4372f; --level: #5d6670; --edge: #d3d8dc; --mark: #878f97;
+  --serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #131a1f; --ink: #e4e8eb; --muted: #9aa6af; --rule: #263239; --wash: #1a242a;
+    --accent: #14c290; --up: #14c290; --down: #ef6f63; --level: #9aa6af; --edge: #3d4c55; --mark: #66737c;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .masthead .logo [stroke="#363636"] { stroke: var(--muted); }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font: 17px/1.62 var(--serif); font-kerning: normal;
+}
+.page { max-width: 46rem; margin: 0 auto; padding: 3.5rem 1.5rem 6rem; }
+main h2, main h3 { scroll-margin-top: 1rem; }
+a { color: var(--accent); text-underline-offset: 0.15em; }
+h1, h2, h3, h4 { text-wrap: balance; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.masthead { padding-bottom: 1.75rem; border-bottom: 1px solid var(--rule); }
+/* The logo leads at the top left, where readers look for it, 24px tall (the usual
+   on-screen floor for a wordmark) with at least its height clear below. */
+.masthead .logo { display: block; width: fit-content; margin: 0 0 2.25rem; }
+.masthead .logo svg { display: block; height: 1.5rem; width: auto; }
+.masthead h1 {
+  margin: 0; font: 600 2.6rem/1.1 var(--sans); letter-spacing: -0.02em;
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.2em 0.5em;
+}
+.masthead .rating { font-weight: 500; }
+.rating.up { color: var(--up); } .rating.down { color: var(--down); } .rating.level { color: var(--level); }
+.rating.review { color: var(--muted); font-style: italic; }
+.masthead .date { margin: 0.55rem 0 1.5rem; font: 1rem/1.4 var(--sans); color: var(--muted); }
+.run { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: 0.45rem 1.25rem;
+  font: 0.85rem/1.5 var(--sans); }
+.run > div { display: contents; }
+.run dt { color: var(--muted); }
+.run dd { margin: 0; overflow-wrap: anywhere; }
+.run .note dd { color: var(--down); }
+.field { display: inline-block; margin: 0 0.15rem 0.15rem 0; padding: 0 0.4rem; border: 1px solid var(--edge);
+  border-radius: 4px; background: var(--wash); font: 0.8rem/1.6 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+.run .group { display: inline-block; margin-right: 0.9rem; white-space: nowrap; }
+.run .group > .name { color: var(--muted); margin-right: 0.3rem; }
+.run .then { color: var(--muted); margin: 0 0.2rem; }
+
+/* The sections: listed under the header on narrow screens. On wide ones, a
+   quiet rail centred on the left edge (numerals for the sections, short bars
+   for their agents) that opens into the full list when pointed at or focused. */
+.contents { margin: 2.25rem 0 0; font: 0.9rem/1.45 var(--sans); }
+.contents ul { margin: 0; padding: 0; list-style: none; }
+.contents > ul > li { margin: 0 0 0.75rem; }
+.contents ul ul { margin-top: 0.2rem; padding-left: 1.6rem; font-size: 0.85rem; }
+.contents ul ul li { margin: 0.1rem 0; }
+.contents a { display: flex; align-items: center; gap: 0.6rem; color: var(--muted); text-decoration: none; }
+.contents > ul > li > a { color: var(--ink); }
+.contents .num { min-width: 1.6rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.contents .bar { display: none; }
+.contents a:hover .label, .contents a:focus-visible .label { color: var(--accent); text-decoration: underline; }
+.to-top { position: fixed; right: 1rem; bottom: calc(1rem + env(safe-area-inset-bottom));
+  padding: 0.25rem 0.6rem; border: 1px solid var(--edge); border-radius: 4px; background: var(--paper);
+  color: var(--muted); font: 0.8rem/1.4 var(--sans); text-decoration: none; }
+
+@media (min-width: 60rem) {
+  .contents { position: fixed; left: 1rem; top: 50%; transform: translateY(-50%); z-index: 1;
+    max-height: 86vh; overflow-y: auto; overscroll-behavior: contain; margin: 0;
+    padding: 0.7rem 0.9rem; border: 1px solid transparent; border-radius: 6px;
+    transition: background-color 0.15s, border-color 0.15s, box-shadow 0.15s; }
+  .contents > ul > li { margin: 0 0 0.35rem; }
+  .contents ul ul { margin-top: 0; padding-left: 0; }
+  .contents ul ul li { margin: 0; }
+  /* Marks reach 3:1 contrast and rows 24px, the WCAG 2.2 floors for a control's
+     visual cue and its pointer target. */
+  .contents a { min-height: 1.5rem; }
+  .contents .num { min-width: 1.4rem; }
+  .contents .bar { display: block; flex: none; width: 1.25rem; height: 2px; margin-left: 0.2rem;
+    border-radius: 1px; background: var(--mark); }
+  .contents .label { max-width: 0; opacity: 0; overflow: hidden; white-space: nowrap;
+    transition: opacity 0.15s, max-width 0.2s; }
+  .contents:hover, .contents:focus-within { background: var(--paper); border-color: var(--rule);
+    box-shadow: 0 6px 24px rgb(0 0 0 / 0.08); }
+  .contents:hover .label, .contents:focus-within .label { max-width: 18rem; opacity: 1; }
+  .contents a:hover .bar, .contents a:focus-visible .bar { background: var(--accent); }
+  .to-top { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .contents, .contents .label { transition: none; }
+}
+
+/* The maker's credit: one quiet line at the foot. */
+.credit { margin-top: 4.5rem; padding-top: 1.25rem; border-top: 1px solid var(--rule);
+  color: var(--muted); font: 0.8rem/1.4 var(--sans); }
+.credit a { color: inherit; text-decoration: none; }
+.credit a.brand { color: var(--accent); }
+.credit a:hover, .credit a:focus-visible { text-decoration: underline; }
+
+/* Three levels of separation: the five groups, the agents within a group, and
+   breaks an agent draws inside its own text. */
+main h2 {
+  margin: 4.5rem 0 0.25rem; padding-top: 1.5rem; border-top: 2px solid var(--ink);
+  font: 600 1.45rem/1.3 var(--sans); letter-spacing: -0.01em;
+}
+main section:first-child h2 { margin-top: 3rem; }
+main h3 { margin: 2.75rem 0 0.75rem; padding-top: 1.1rem; border-top: 1px solid var(--rule);
+  font: 600 1.15rem/1.35 var(--sans); color: var(--accent); }
+main h2 + h3 { margin-top: 1.25rem; padding-top: 0; border-top: 0; }
+main h4, main h5, main h6 { margin: 1.75rem 0 0.5rem; font: 600 1rem/1.4 var(--sans); }
+main h5, main h6 { color: var(--muted); }
+main p, main ul, main ol { margin: 0 0 1rem; }
+main li { margin: 0.25rem 0; }
+main strong { font-weight: 650; }
+main blockquote { margin: 1.25rem 0; padding: 0.1rem 0 0.1rem 1rem; border-left: 3px solid var(--rule);
+  color: var(--muted); }
+main code { font: 0.88em/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  background: var(--wash); padding: 0.1em 0.3em; border-radius: 3px; }
+main pre { background: var(--wash); padding: 0.9rem 1rem; border-radius: 4px; overflow-x: auto; }
+main pre code { background: none; padding: 0; }
+main hr { width: 3rem; margin: 2rem auto; border: 0; border-top: 1px solid var(--rule); }
+
+.table { overflow-x: auto; margin: 0 0 1.25rem; }
+table { border-collapse: collapse; width: 100%; font: 0.86rem/1.45 var(--sans);
+  font-variant-numeric: tabular-nums; }
+th, td { padding: 0.45rem 0.7rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--rule); }
+th { font-weight: 600; border-bottom-color: var(--muted); }
+tbody tr:last-child td { border-bottom: 0; }
+
+@media (max-width: 34rem) {
+  body { font-size: 16px; }
+  .page { padding: 2rem 1rem 3rem; }
+  .masthead h1 { font-size: 2rem; }
+  .masthead .logo svg { height: 1.25rem; }
+  .run { grid-template-columns: 1fr; gap: 0 0; }
+  .run dd { margin-bottom: 0.45rem; }
+  .run .group { white-space: normal; }
+}
+@media print {
+  :root { --paper: #fff; --ink: #000; --muted: #444; --rule: #bbb; --accent: #000; --wash: #f2f2f2;
+    --edge: #bbb; --up: #087a59; --down: #b4372f; --level: #444; }
+  body { font-size: 11pt; }
+  .table { overflow: visible; }
+  .page { max-width: none; padding: 0; }
+  .contents, .to-top { display: none; }
+  main h2 { break-before: page; border-top: 0; margin-top: 0; }
+  main section:first-child h2 { break-before: auto; }
+  main h3, main h4 { break-after: avoid; }
+  a { color: inherit; text-decoration: none; }
+  table { break-inside: avoid; }
+}
+</style>
+</head>
+<body>
+<div class="page" id="top">
+<header class="masthead">
+<a class="logo" href="https://tauric.ai" rel="noopener" aria-label="Tauric Research"><svg width="993" height="115" viewBox="0 0 993 115" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M189.86 95.0459V37.9779H165.924V29.9259H223.74V37.9779H199.804V95.0459H189.86ZM251.026 46.4259C256.071 46.4259 260.178 47.0272 263.345 48.2299C266.514 49.4032 268.89 51.3686 270.474 54.1259C272.058 56.8832 272.85 60.6379 272.85 65.3899V95.0459H264.666L263.961 89.8979H263.434C261.644 91.7752 259.386 93.2419 256.657 94.2979C253.929 95.3246 251.025 95.8379 247.946 95.8379C244.426 95.8379 241.419 95.2952 238.925 94.2099C236.432 93.0952 234.54 91.5406 233.249 89.5459C231.959 87.5512 231.313 85.2046 231.313 82.5059C231.313 78.2526 232.897 74.9672 236.065 72.6499C239.263 70.3032 244.337 68.8219 251.29 68.2059L263.258 67.0179V64.7299C263.258 61.9139 262.774 59.7139 261.806 58.1299C260.838 56.5459 259.371 55.4312 257.406 54.7859C255.47 54.1406 252.888 53.8179 249.662 53.8179C247.432 53.8179 245.012 54.0086 242.401 54.3899C239.82 54.7712 237.341 55.3432 234.965 56.1059V48.8019C237.312 48.0392 239.908 47.4526 242.754 47.0419C245.628 46.6312 248.386 46.4259 251.026 46.4259ZM250.541 89.0619C252.888 89.0619 255.162 88.6512 257.362 87.8299C259.562 86.9792 261.527 85.7179 263.258 84.0459V72.8259L252.038 73.9259C248.136 74.3659 245.35 75.2166 243.678 76.4779C242.005 77.7099 241.169 79.4699 241.169 81.7579C241.169 84.0752 241.947 85.8792 243.501 87.1699C245.056 88.4312 247.403 89.0619 250.541 89.0619ZM313.339 95.8379C307.59 95.8379 303.087 94.2979 299.831 91.2179C296.575 88.1086 294.947 83.2686 294.947 76.6979V47.1739H304.715V76.1699C304.715 80.1886 305.624 83.0779 307.443 84.8379C309.291 86.5979 311.916 87.4779 315.319 87.4779C317.871 87.4779 320.379 86.9939 322.843 86.0259C325.336 85.0286 327.492 83.5766 329.311 81.6699V47.1739H339.079V95.0459H330.983L330.367 89.9419H329.883C327.624 91.8486 325.072 93.3152 322.227 94.3419C319.382 95.3392 316.419 95.8379 313.339 95.8379ZM362.371 47.1739H370.423L371.171 53.2899H371.743C373.474 51.2072 375.703 49.5792 378.431 48.4059C381.188 47.2326 384.063 46.6459 387.055 46.6459C388.756 46.6459 390.355 46.7926 391.851 47.0859V55.8419C390.414 55.5779 388.654 55.4459 386.571 55.4459C383.99 55.4459 381.364 55.9446 378.695 56.9419C376.026 57.9392 373.84 59.4206 372.139 61.3859V95.0459H362.371V47.1739ZM409.069 95.0459V47.1739H418.837V95.0459H409.069ZM413.953 37.8459C411.871 37.8459 410.287 37.3912 409.201 36.4819C408.145 35.5726 407.617 34.2672 407.617 32.5659C407.617 30.8352 408.145 29.5152 409.201 28.6059C410.287 27.6672 411.871 27.1979 413.953 27.1979C416.036 27.1979 417.605 27.6672 418.661 28.6059C419.747 29.5152 420.289 30.8352 420.289 32.5659C420.289 34.2672 419.747 35.5726 418.661 36.4819C417.605 37.3912 416.036 37.8459 413.953 37.8459ZM464.85 95.9259C456.607 95.9259 450.315 93.8432 445.974 89.6779C441.662 85.5126 439.506 79.3526 439.506 71.1979C439.506 63.0139 441.779 56.8392 446.326 52.6739C450.902 48.5086 457.575 46.4259 466.346 46.4259C470.716 46.4259 474.735 46.9246 478.402 47.9219V55.7099C476.378 55.2406 474.486 54.8886 472.726 54.6539C470.966 54.4192 469.118 54.3019 467.182 54.3019C461.168 54.3019 456.71 55.6512 453.806 58.3499C450.931 61.0486 449.494 65.2872 449.494 71.0659C449.494 76.8739 450.858 81.1566 453.586 83.9139C456.343 86.6712 460.42 88.0499 465.818 88.0499C467.695 88.0499 469.616 87.8886 471.582 87.5659C473.547 87.2139 475.82 86.6712 478.402 85.9379V93.7259C474.236 95.1926 469.719 95.9259 464.85 95.9259ZM574.428 95.0459L553.704 69.0859C553.176 69.1152 552.37 69.1299 551.284 69.1299C548.38 69.1299 544.978 68.9832 541.076 68.6899V95.0459H531.308V31.4659C537.967 29.9699 544.846 29.2219 551.944 29.2219C561.595 29.2219 568.752 30.8059 573.416 33.9739C578.08 37.1126 580.412 42.1286 580.412 49.0219C580.412 54.0086 579.004 58.0859 576.188 61.2539C573.402 64.4219 569.266 66.6366 563.78 67.8979L585.648 95.0459H574.428ZM541.076 61.2099C543.071 61.4152 544.816 61.5619 546.312 61.6499C547.838 61.7379 549.627 61.7819 551.68 61.7819C558.427 61.7819 563.34 60.7699 566.42 58.7459C569.5 56.6926 571.04 53.4952 571.04 49.1539C571.04 46.0739 570.395 43.6099 569.104 41.7619C567.843 39.9139 565.863 38.5792 563.164 37.7579C560.495 36.9366 556.975 36.5259 552.604 36.5259C550.404 36.5259 548.424 36.6139 546.664 36.7899C544.904 36.9659 543.042 37.2299 541.076 37.5819V61.2099ZM642.947 74.0139H608.231C608.407 77.4752 609.155 80.2766 610.475 82.4179C611.795 84.5299 613.775 86.0846 616.415 87.0819C619.055 88.0792 622.443 88.5779 626.579 88.5779C630.686 88.5779 635.233 87.9472 640.219 86.6859V93.9459C635.027 95.2659 630.026 95.9259 625.215 95.9259C616.298 95.9259 609.61 93.9166 605.151 89.8979C600.722 85.8499 598.507 79.6166 598.507 71.1979C598.507 65.9179 599.402 61.4299 601.191 57.7339C602.981 54.0379 605.562 51.2366 608.935 49.3299C612.338 47.3939 616.43 46.4259 621.211 46.4259C628.251 46.4259 633.634 48.5819 637.359 52.8939C641.085 57.1766 642.947 63.3659 642.947 71.4619V74.0139ZM621.079 52.8939C616.973 52.8939 613.834 54.1406 611.663 56.6339C609.493 59.0979 608.334 62.9259 608.187 68.1179H633.751C633.634 62.9259 632.519 59.0979 630.407 56.6339C628.295 54.1406 625.186 52.8939 621.079 52.8939ZM677.365 95.9259C671.352 95.9259 665.896 95.2219 660.997 93.8139V86.7299C666.248 88.1966 671.718 88.9299 677.409 88.9299C681.809 88.9299 684.977 88.3432 686.913 87.1699C688.849 85.9672 689.817 84.2219 689.817 81.9339C689.817 80.7019 689.597 79.6899 689.157 78.8979C688.717 78.0766 687.969 77.4019 686.913 76.8739C685.857 76.3166 684.405 75.8912 682.557 75.5979L674.065 74.2779C669.137 73.4859 665.573 71.9899 663.373 69.7899C661.202 67.5899 660.117 64.6419 660.117 60.9459C660.117 56.4579 661.965 52.9232 665.661 50.3419C669.386 47.7312 675.062 46.4259 682.689 46.4259C685.094 46.4259 687.485 46.5872 689.861 46.9099C692.266 47.2032 694.481 47.6432 696.505 48.2299V55.2699C692.046 54.0379 687.456 53.4219 682.733 53.4219C677.893 53.4219 674.476 54.0526 672.481 55.3139C670.486 56.5752 669.489 58.3206 669.489 60.5499C669.489 62.2219 670.002 63.5859 671.029 64.6419C672.056 65.6686 673.889 66.4166 676.529 66.8859L685.021 68.2059C689.92 68.9686 693.513 70.3766 695.801 72.4299C698.089 74.4832 699.233 77.4606 699.233 81.3619C699.233 84.3832 698.412 86.9792 696.769 89.1499C695.156 91.3206 692.706 92.9926 689.421 94.1659C686.165 95.3392 682.146 95.9259 677.365 95.9259ZM760.579 74.0139H725.863C726.039 77.4752 726.787 80.2766 728.107 82.4179C729.427 84.5299 731.407 86.0846 734.047 87.0819C736.687 88.0792 740.075 88.5779 744.211 88.5779C748.317 88.5779 752.864 87.9472 757.851 86.6859V93.9459C752.659 95.2659 747.657 95.9259 742.847 95.9259C733.929 95.9259 727.241 93.9166 722.783 89.8979C718.353 85.8499 716.139 79.6166 716.139 71.1979C716.139 65.9179 717.033 61.4299 718.823 57.7339C720.612 54.0379 723.193 51.2366 726.567 49.3299C729.969 47.3939 734.061 46.4259 738.843 46.4259C745.883 46.4259 751.265 48.5819 754.991 52.8939C758.716 57.1766 760.579 63.3659 760.579 71.4619V74.0139ZM738.711 52.8939C734.604 52.8939 731.465 54.1406 729.295 56.6339C727.124 59.0979 725.965 62.9259 725.819 68.1179H751.383C751.265 62.9259 750.151 59.0979 748.039 56.6339C745.927 54.1406 742.817 52.8939 738.711 52.8939ZM796.986 46.4259C802.032 46.4259 806.138 47.0272 809.306 48.2299C812.474 49.4032 814.85 51.3686 816.434 54.1259C818.018 56.8832 818.81 60.6379 818.81 65.3899V95.0459H810.626L809.922 89.8979H809.394C807.605 91.7752 805.346 93.2419 802.618 94.2979C799.89 95.3246 796.986 95.8379 793.906 95.8379C790.386 95.8379 787.38 95.2952 784.886 94.2099C782.393 93.0952 780.501 91.5406 779.21 89.5459C777.92 87.5512 777.274 85.2046 777.274 82.5059C777.274 78.2526 778.858 74.9672 782.026 72.6499C785.224 70.3032 790.298 68.8219 797.25 68.2059L809.218 67.0179V64.7299C809.218 61.9139 808.734 59.7139 807.766 58.1299C806.798 56.5459 805.332 55.4312 803.366 54.7859C801.43 54.1406 798.849 53.8179 795.622 53.8179C793.393 53.8179 790.973 54.0086 788.362 54.3899C785.781 54.7712 783.302 55.3432 780.926 56.1059V48.8019C783.273 48.0392 785.869 47.4526 788.714 47.0419C791.589 46.6312 794.346 46.4259 796.986 46.4259ZM796.502 89.0619C798.849 89.0619 801.122 88.6512 803.322 87.8299C805.522 86.9792 807.488 85.7179 809.218 84.0459V72.8259L797.998 73.9259C794.097 74.3659 791.31 75.2166 789.638 76.4779C787.966 77.7099 787.13 79.4699 787.13 81.7579C787.13 84.0752 787.908 85.8792 789.462 87.1699C791.017 88.4312 793.364 89.0619 796.502 89.0619ZM841.524 47.1739H849.576L850.324 53.2899H850.896C852.627 51.2072 854.856 49.5792 857.584 48.4059C860.341 47.2326 863.216 46.6459 866.208 46.6459C867.909 46.6459 869.508 46.7926 871.004 47.0859V55.8419C869.567 55.5779 867.807 55.4459 865.724 55.4459C863.143 55.4459 860.517 55.9446 857.848 56.9419C855.179 57.9392 852.993 59.4206 851.292 61.3859V95.0459H841.524V47.1739ZM909.164 95.9259C900.921 95.9259 894.629 93.8432 890.288 89.6779C885.976 85.5126 883.82 79.3526 883.82 71.1979C883.82 63.0139 886.093 56.8392 890.64 52.6739C895.216 48.5086 901.889 46.4259 910.66 46.4259C915.03 46.4259 919.049 46.9246 922.716 47.9219V55.7099C920.692 55.2406 918.8 54.8886 917.04 54.6539C915.28 54.4192 913.432 54.3019 911.496 54.3019C905.482 54.3019 901.024 55.6512 898.12 58.3499C895.245 61.0486 893.808 65.2872 893.808 71.0659C893.808 76.8739 895.172 81.1566 897.9 83.9139C900.657 86.6712 904.734 88.0499 910.132 88.0499C912.009 88.0499 913.93 87.8886 915.896 87.5659C917.861 87.2139 920.134 86.6712 922.716 85.9379V93.7259C918.55 95.1926 914.033 95.9259 909.164 95.9259ZM941.796 23.9419H951.564V52.2779H952.048C954.248 50.3712 956.756 48.9192 959.572 47.9219C962.417 46.9246 965.395 46.4259 968.504 46.4259C974.019 46.4259 978.375 47.9952 981.572 51.1339C984.769 54.2432 986.368 59.0686 986.368 65.6099V95.0459H976.6V66.0939C976.6 62.0459 975.661 59.1566 973.784 57.4259C971.936 55.6952 969.237 54.8299 965.688 54.8299C963.048 54.8299 960.481 55.3286 957.988 56.3259C955.524 57.2939 953.383 58.7312 951.564 60.6379V95.0459H941.796V23.9419Z" fill="#14C290"/>
+<rect x="0.205322" y="14.873" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="14.679" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="14.679" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="86.6055" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="86.6055" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="101.284" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="58.7158" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="58.7158" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="87.1592" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="87.1592" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="73.0205" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="73.0205" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="87.3262" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="87.3262" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="101.631" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="101.631" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="101.284" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="15.0187" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.2668" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.2668" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.445" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.7506" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="100.716" y="14.873" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+</svg></a>
+<h1><span class="ticker">BBVA.MC</span> <span class="rating level">Hold</span></h1>
+<p class="date">Analysis of 2026-11-01</p>
+<dl class="run"><div class="detail"><dt>Generated</dt><dd>2026-11-01 07:27</dd></div><div class="detail"><dt>Deep model</dt><dd><span class="field">google</span> <span class="field">gemini-3.1-flash-lite</span></dd></div><div class="detail"><dt>Quick model</dt><dd><span class="field">google</span> <span class="field">gemini-3.1-flash-lite</span></dd></div><div class="detail"><dt>Analysts</dt><dd><span class="field">market</span> <span class="field">news</span> <span class="field">fundamentals</span></dd></div><div class="detail"><dt>Debate rounds</dt><dd><span class="group"><span class="name">research</span><span class="field">1</span></span> <span class="group"><span class="name">risk</span><span class="field">1</span></span></dd></div><div class="detail"><dt>Data vendors</dt><dd><span class="group"><span class="name">Prices</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Indicators</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Fundamentals</span><span class="field">yfinance</span></span> <span class="group"><span class="name">News</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Macro</span><span class="field">fred</span></span> <span class="group"><span class="name">Prediction markets</span><span class="field">polymarket</span></span> <span class="group"><span class="name">get_news</span><span class="field">ibex_sample</span></span> <span class="group"><span class="name">get_global_news</span><span class="field">ibex_sample</span></span></dd></div><div class="detail"><dt>Version</dt><dd>TradingAgents 0.7.1</dd></div></dl>
+</header>
+<nav class="contents" aria-label="Sections"><ul><li><a href="#s1"><span class="num">I</span> <span class="label">Analyst Team Reports</span></a><ul><li><a href="#s1-1"><span class="bar"></span> <span class="label">Market Analyst</span></a></li><li><a href="#s1-2"><span class="bar"></span> <span class="label">News Analyst</span></a></li><li><a href="#s1-3"><span class="bar"></span> <span class="label">Fundamentals Analyst</span></a></li></ul></li><li><a href="#s2"><span class="num">II</span> <span class="label">Research Team Decision</span></a><ul><li><a href="#s2-1"><span class="bar"></span> <span class="label">Bull Researcher</span></a></li><li><a href="#s2-2"><span class="bar"></span> <span class="label">Bear Researcher</span></a></li><li><a href="#s2-3"><span class="bar"></span> <span class="label">Research Manager</span></a></li></ul></li><li><a href="#s3"><span class="num">III</span> <span class="label">Trading Team Plan</span></a><ul><li><a href="#s3-1"><span class="bar"></span> <span class="label">Trader</span></a></li></ul></li><li><a href="#s4"><span class="num">IV</span> <span class="label">Risk Management Team Decision</span></a><ul><li><a href="#s4-1"><span class="bar"></span> <span class="label">Aggressive Analyst</span></a></li><li><a href="#s4-2"><span class="bar"></span> <span class="label">Conservative Analyst</span></a></li><li><a href="#s4-3"><span class="bar"></span> <span class="label">Neutral Analyst</span></a></li></ul></li><li><a href="#s5"><span class="num">V</span> <span class="label">Portfolio Manager Decision</span></a><ul><li><a href="#s5-1"><span class="bar"></span> <span class="label">Portfolio Manager</span></a></li></ul></li></ul></nav>
+<main>
+<section id="s1"><h2>I. Analyst Team Reports</h2><h3 id="s1-1">Market Analyst</h3>
+<p>Basado en los datos proporcionados al 1 de noviembre de 2026, a continuación presento el análisis técnico y fundamental de <strong>BBVA.MC</strong>.</p>
+<h6>Análisis de la Situación Actual</h6>
+<p><strong>BBVA.MC</strong> se encuentra bajo una presión vendedora significativa. Con un cierre reciente de <strong>21,06 EUR</strong> (al 30 de octubre de 2026), la acción ha registrado una caída del <strong>3,70%</strong> en la última sesión y se encuentra un <strong>15,80%</strong> por debajo de sus máximos recientes.</p>
+<h6>Indicadores Técnicos y Tendencia</h6>
+<p>El panorama técnico sugiere una debilidad de corto a medio plazo:</p>
+<ul>
+<li><strong>Momento:</strong> El RSI(14) en <strong>28,17</strong> indica condiciones de <strong>sobreventa</strong>, lo que técnicamente sugiere que la presión vendedora podría estar agotándose o buscando un suelo a corto plazo.</li>
+<li><strong>Tendencia:</strong> El precio cotiza por debajo de su media móvil de 50 sesiones (<strong>23,84 EUR</strong>) y de la de 20 sesiones (<strong>22,77 EUR</strong>), confirmando una tendencia bajista de corto plazo. Se mantiene apenas por encima de su media de 200 sesiones (<strong>21,01 EUR</strong>), la cual actúa actualmente como un nivel de soporte crítico. La ruptura sostenida de este nivel sería una señal técnica negativa importante.</li>
+<li><strong>MACD:</strong> El cruce bajista y el hecho de que tanto el MACD (-0,55) como su señal (-0,44) estén en terreno negativo confirman la debilidad del impulso.</li>
+</ul>
+<h6>Contexto Fundamental y de Mercado</h6>
+<p>El sentimiento inversor se ha visto afectado negativamente tras la presentación de resultados, a pesar de reportar beneficios de 9.066 millones hasta septiembre de 2026. La prensa especializada (vía <em>OkDiario</em>, <em>El Boletín</em>) destaca un temor del mercado a que los beneficios del sector bancario hayan &quot;tocado techo&quot;.</p>
+<ul>
+<li><strong>Valoración:</strong> La acción cotiza a un <strong>Forward PE de 8,96x</strong> y un ratio <strong>Price-to-Book de 2,00x</strong>. Aunque el beneficio por acción esperado para el próximo periodo (2,35 EUR) es sólido, el mercado parece estar descontando una desaceleración en el crecimiento.</li>
+<li><strong>Dividendos:</strong> Ofrece una rentabilidad por dividendo del <strong>4,61%</strong>, lo que puede actuar como un colchón para inversores a largo plazo, aunque no ha evitado la corrección reciente.</li>
+<li><strong>Consenso de Analistas:</strong> A pesar de la caída, el consenso apunta a un precio objetivo medio de <strong>24,24 EUR</strong>, lo que implica un potencial de revalorización del <strong>15,10%</strong> respecto al precio actual.</li>
+</ul>
+<h6>Riesgos y Consideraciones</h6>
+<ul>
+<li><strong>Macroeconomía:</strong> El Banco Central Europeo (BCE) mantiene los tipos en el 2,5% (noticias del 29 de octubre de 2026), con alertas sobre la inflación y el crecimiento, lo que impacta directamente en el margen de interés de la banca.</li>
+<li><strong>Ausencia de Datos:</strong> No se dispone de datos detallados sobre el flujo de caja operativo (operating cash flow) ni el flujo de caja libre (free cash flow) para el periodo en curso, lo que limita una evaluación completa de la capacidad de generación de efectivo en el entorno actual.</li>
+</ul>
+<h6>Conclusión</h6>
+<p>BBVA.MC se encuentra en un punto técnico de inflexión sobre su media de 200 sesiones. Si bien el RSI sugiere una sobreventa, la debilidad en los indicadores de tendencia (SMA) y el sentimiento negativo tras los resultados recomiendan cautela. Los inversores deberían observar si el soporte en los 21,00 EUR se mantiene.</p>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Indicador / Métrica</th>
+<th style="text-align:left">Valor / Estado</th>
+<th style="text-align:left">Significado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Precio Cierre</td>
+<td style="text-align:left">21,06 EUR</td>
+<td style="text-align:left">Nivel crítico cerca de la SMA200</td>
+</tr>
+<tr>
+<td style="text-align:left">RSI(14)</td>
+<td style="text-align:left">28,17</td>
+<td style="text-align:left">Sobreventa (posible rebote)</td>
+</tr>
+<tr>
+<td style="text-align:left">SMA200</td>
+<td style="text-align:left">21,01 EUR</td>
+<td style="text-align:left">Soporte técnico principal</td>
+</tr>
+<tr>
+<td style="text-align:left">Forward PE</td>
+<td style="text-align:left">8,96</td>
+<td style="text-align:left">Valoración atractiva vs sector</td>
+</tr>
+<tr>
+<td style="text-align:left">Dividend Yield</td>
+<td style="text-align:left">4,61%</td>
+<td style="text-align:left">Atractivo para renta</td>
+</tr>
+<tr>
+<td style="text-align:left">Upside (Consenso)</td>
+<td style="text-align:left">+15,10%</td>
+<td style="text-align:left">Perspectiva analista alcista</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Rating</strong>: HOLD</p>
+<p>FINAL TRANSACTION PROPOSAL: Mantener posiciones actuales y observar el soporte de 21,00 EUR; cualquier compra debería ser escalonada dada la volatilidad actual (22,44%).</p>
+<h3 id="s1-2">News Analyst</h3>
+<p>Esta es la situación actual de <strong>BBVA.MC</strong> (Banco Bilbao Vizcaya Argentaria, S.A.) a fecha de 1 de noviembre de 2026, basada en los datos financieros y el contexto macroeconómico proporcionado.</p>
+<h6>Análisis de Situación: BBVA.MC</h6>
+<p><strong>1. Desempeño Financiero y de Mercado:</strong>
+BBVA.MC cerró a 21,06 EUR el 30 de octubre de 2026, acumulando una caída del 3,7% en la última sesión y una presión vendedora significativa en el corto plazo (retorno de -10,14% en 21 sesiones). A pesar de reportar unos resultados sólidos —ganancias de 9.066 millones de euros hasta septiembre—, la acción ha sufrido un castigo severo en Bolsa. Esto refleja una desconexión entre el buen desempeño operativo y el sentimiento del mercado, que parece haber descontado que la entidad ha &quot;tocado techo&quot; en sus beneficios, ante la incertidumbre económica (OkDiario, 31-10-2026).</p>
+<p><strong>2. Fundamentos y Valoración:</strong></p>
+<ul>
+<li><strong>Valoración:</strong> Cotiza a un Forward PE de 8,96x, lo cual es ligeramente inferior a la media de sus pares (9,93x), sugiriendo una valoración atractiva bajo métricas de múltiplos.</li>
+<li><strong>Solidez:</strong> Presenta un ROE del 19,84% y unos márgenes de beneficio del 32,6%, lo que demuestra una alta eficiencia operativa.</li>
+<li><strong>Dividendos:</strong> Ofrece una rentabilidad por dividendo del 4,61%, con un <em>payout ratio</em> del 46,6%, lo que indica sostenibilidad en la política de remuneración al accionista.</li>
+<li><strong>Consenso:</strong> El precio objetivo medio es de 24,24 EUR, implicando un potencial alcista de aproximadamente el 15% según los analistas (Yahoo, 30-10-2026).</li>
+</ul>
+<p><strong>3. Contexto Macroeconómico:</strong>
+El sector bancario europeo, incluido BBVA.MC, enfrenta un entorno de &quot;dudas&quot;. El Banco Central Europeo (BCE) mantuvo los tipos de interés en el 2,5% el 29 de octubre de 2026, señalando que, aunque la inflación sigue siendo un foco, los riesgos de crecimiento han aumentado. La banca está bajo presión a pesar de los beneficios récord debido al temor de que el ciclo de tipos altos se revierta o se estanque, impactando el margen de intereses futuro (Cinco Días, 30-10-2026).</p>
+<p><strong>4. Consideraciones Técnicas:</strong>
+La acción se encuentra operando cerca de su media móvil de 200 días (21,01 EUR), lo que constituye un nivel técnico crítico. El RSI (28,17) indica que el valor se encuentra en territorio de sobreventa, lo que a menudo precede a rebotes técnicos, aunque la tendencia inmediata del MACD sigue siendo bajista.</p>
+<h6>Resumen de hallazgos</h6>
+<ul>
+<li><strong>Datos faltantes:</strong> No se dispone de información detallada sobre la exposición geográfica específica al riesgo de crédito de cada región fuera de los resultados globales, ni proyecciones internas detalladas de la gestión sobre el impacto del 2,5% del BCE a 12 meses.</li>
+<li><strong>Riesgos:</strong> La retórica del mercado sobre el &quot;techo de beneficios&quot; y la inestabilidad en Francia y el entorno macro europeo son los principales catalizadores negativos.</li>
+</ul>
+<p><strong>Rating</strong>: REVIEW</p>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Indicador</th>
+<th style="text-align:left">Valor / Estado</th>
+<th style="text-align:left">Comentario</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Precio Actual</td>
+<td style="text-align:left">21,06 EUR</td>
+<td style="text-align:left">Cerca de soporte SMA200.</td>
+</tr>
+<tr>
+<td style="text-align:left">Forward P/E</td>
+<td style="text-align:left">8,96x</td>
+<td style="text-align:left">Atractivo vs. Media del sector (9,93x).</td>
+</tr>
+<tr>
+<td style="text-align:left">RSI (14)</td>
+<td style="text-align:left">28,17</td>
+<td style="text-align:left">En zona de sobreventa técnica.</td>
+</tr>
+<tr>
+<td style="text-align:left">Rentabilidad Dividendo</td>
+<td style="text-align:left">4,61%</td>
+<td style="text-align:left">Sólida y sostenible (payout 46,6%).</td>
+</tr>
+<tr>
+<td style="text-align:left">Consenso Upside</td>
+<td style="text-align:left">+15,1%</td>
+<td style="text-align:left">Optimismo moderado de analistas.</td>
+</tr>
+<tr>
+<td style="text-align:left">Riesgo Principal</td>
+<td style="text-align:left">Macro/Sentimiento</td>
+<td style="text-align:left">Temor a pico de ciclo bancario.</td>
+</tr>
+</tbody>
+</table></div>
+<p>FINAL TRANSACTION PROPOSAL: No trade initiated. Current price near technical support (21.01 SMA200) and in oversold territory (RSI 28), but negative momentum persists; observation is advised until volatility subsides.</p>
+<h3 id="s1-3">Fundamentals Analyst</h3>
+<p>Este informe presenta un análisis fundamental de <strong>BBVA.MC</strong> (Banco Bilbao Vizcaya Argentaria, S.A.) a fecha de 1 de noviembre de 2026, basado en los datos financieros, técnicos y de mercado disponibles en la instantánea proporcionada.</p>
+<h6>Perfil y Desempeño Financiero</h6>
+<p>BBVA.MC es una entidad financiera diversificada con sede en España. A 31 de diciembre de 2025, la compañía reportó ingresos totales de 39.415 millones de EUR y un beneficio neto de 10.511 millones de EUR, reflejando una trayectoria de crecimiento sostenido frente a los 8.019 millones de EUR de 2023.</p>
+<ul>
+<li><strong>Rentabilidad y Valoración:</strong> La acción cotiza con un ratio Precio/Valor Contable (P/B) de 1,99. El PER (Price-to-Earnings Ratio) a futuro es de 8,96x, lo que sugiere una valoración más atractiva en comparación con el ratio histórico (Trailing PE) de 10,74x. La rentabilidad por dividendo se sitúa en un sólido 4,61%.</li>
+<li><strong>Balance:</strong> La estructura patrimonial muestra una base de activos de 859.576 millones de EUR al cierre de 2025, con un patrimonio neto de 57.355 millones de EUR. La deuda total registrada es de 89.302 millones de EUR.</li>
+</ul>
+<h6>Análisis de Mercado y Sentimiento</h6>
+<p>El sentimiento del mercado en la última semana ha sido negativo, exacerbado por la publicación de los resultados del tercer trimestre de 2026, donde, a pesar de anunciar un beneficio de 9.066 millones de EUR hasta septiembre, la acción sufrió una caída del 5% y una presión vendedora generalizada.</p>
+<ul>
+<li><strong>Contexto del Sector:</strong> Los titulares de prensa (29-30 de octubre de 2026) indican una corrección sectorial. El mercado parece estar descontando que el sector bancario europeo ha &quot;tocado techo&quot; tras periodos de beneficios récord. La decisión del BCE de mantener los tipos de interés en el 2,5% (29 de octubre) y las perspectivas inflacionarias añaden incertidumbre al margen de intermediación bancaria.</li>
+<li><strong>Sentimiento Técnico:</strong> Con un RSI de 28,17, el valor se encuentra en territorio de <strong>sobreventa</strong>, lo que podría sugerir una posible corrección técnica al alza, aunque la tendencia inmediata es bajista (por debajo de la media móvil de 20 y 50 sesiones).</li>
+</ul>
+<h6>Perspectivas para el Inversor</h6>
+<ul>
+<li><strong>Factores a Favor:</strong> BBVA.MC mantiene una política de dividendos atractiva (4,61%) y un consenso de analistas que estima un potencial alcista del 15,1% (precio objetivo medio de 24,24 EUR).</li>
+<li><strong>Factores de Riesgo:</strong> La volatilidad actual del 22,4% y la caída del 3,7% en la última sesión reflejan un alto grado de escepticismo. La falta de una nueva oferta (OPA) por Sabadell ha eliminado un catalizador de crecimiento inorgánico a corto plazo.</li>
+<li><strong>Información Faltante:</strong> No se dispone de detalles granulares sobre la exposición a riesgos crediticios específicos en mercados emergentes o el impacto detallado del despliegue tecnológico en los ratios de eficiencia operativos (datos de cash flow operativo y capex para 2026 están incompletos).</li>
+</ul>
+<h6>Resumen de Datos Clave</h6>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Indicador</th>
+<th style="text-align:left">Valor / Dato</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Precio de cierre (30/10/2026)</td>
+<td style="text-align:left">21,06 EUR</td>
+</tr>
+<tr>
+<td style="text-align:left">Capitalización de mercado</td>
+<td style="text-align:left">115.830 M EUR</td>
+</tr>
+<tr>
+<td style="text-align:left">Forward PE (Ratio)</td>
+<td style="text-align:left">8,96</td>
+</tr>
+<tr>
+<td style="text-align:left">Dividend Yield</td>
+<td style="text-align:left">4,61%</td>
+</tr>
+<tr>
+<td style="text-align:left">RSI 14 (Técnico)</td>
+<td style="text-align:left">28,17 (Sobreventa)</td>
+</tr>
+<tr>
+<td style="text-align:left">Precio Objetivo Medio</td>
+<td style="text-align:left">24,24 EUR</td>
+</tr>
+<tr>
+<td style="text-align:left">Upside Consenso</td>
+<td style="text-align:left">15,10%</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Rating</strong>: REVIEW</p>
+<p>FINAL TRANSACTION PROPOSAL: No action recommended. El valor se encuentra en una zona técnica de sobreventa tras los resultados, lo que sugiere esperar a una estabilización de la volatilidad antes de considerar cualquier posición.</p>
+</section><section id="s2"><h2>II. Research Team Decision</h2><h3 id="s2-1">Bull Researcher</h3>
+<p>Bull Analyst: Es hora de observar los números reales detrás de la narrativa de pánico que estamos viendo en los mercados sobre <strong>BBVA.MC</strong>. Entiendo perfectamente por qué el &quot;oso&quot; podría señalar la caída reciente del 3,7% tras los resultados como una señal de que &quot;el techo está cerca&quot;, pero esa es una visión cortoplacista que ignora la realidad estructural del banco.</p>
+<p>Aquí está el caso para una posición alcista:</p>
+<h6>1. Desconexión entre Resultados y Mercado</h6>
+<p>Estamos ante una entidad que ha reportado <strong>9.066 millones de euros de beneficio</strong> en los primeros nueve meses del año. Que el mercado castigue una acción con estos fundamentales porque &quot;temen que hayan tocado techo&quot; es una reacción emocional, no una tesis de inversión seria. La valoración de <strong>BBVA.MC</strong> con un <strong>Forward PE de 8,96x</strong> es, sencillamente, barata. Cotizar por debajo de la media de sus pares (9,93x) mientras se mantiene un <strong>ROE del 19,84%</strong> es una anomalía que el mercado terminará corrigiendo.</p>
+<h6>2. El &quot;Colchón&quot; de Valor: Dividendos y Consenso</h6>
+<p>Mientras esperamos a que la volatilidad (22,4%) se estabilice, el inversor está siendo recompensado con una <strong>rentabilidad por dividendo del 4,61%</strong>. Esto no es una acción estancada; es una máquina de generar efectivo que sigue retribuyendo al accionista. El consenso de 22 analistas, que sitúa un precio objetivo en los <strong>24,24 EUR</strong>, sugiere un potencial alcista del <strong>15,1%</strong>. Si el mercado fuera eficiente, la acción ya estaría cotizando cerca de esa cifra, no en los niveles de soporte técnico de 21,06 EUR.</p>
+<h6>3. Refutando el Argumento del &quot;Techo&quot;</h6>
+<p>El &quot;oso&quot; dirá que el mantenimiento de tipos del BCE al 2,5% es el fin del margen de interés, pero se olvida de la <strong>escalabilidad</strong>. <strong>BBVA.MC</strong> ha demostrado una resiliencia operativa tremenda, con un margen de beneficio del <strong>32,6%</strong>. La banca diversificada como <strong>BBVA.MC</strong> no solo vive de los tipos; vive de la eficiencia operativa y de la capacidad de captación, factores donde la marca sigue siendo dominante. La caída no es por un problema de balance (que es sólido), sino por una rotación de sentimiento ante la incertidumbre macro, lo cual es una oportunidad de entrada para inversores con visión a medio plazo.</p>
+<h6>4. Análisis del Soporte Técnico</h6>
+<p>Estamos operando en el filo de la <strong>SMA200 (21,01 EUR)</strong>. Históricamente, este es un nivel de soporte institucional donde los inversores de valor suelen defender el precio. Además, con un <strong>RSI de 28,17</strong>, estamos en niveles claros de <strong>sobreventa</strong>. El gráfico está gritando que el pesimismo ha ido demasiado lejos.</p>
+<p><strong>Conclusión:</strong>
+Mientras que la narrativa mediática se enfoca en el &quot;techo de beneficios&quot;, el inversor astuto ve una empresa con márgenes de doble dígito, una valoración atractiva y un dividendo que compensa con creces la espera por la reversión a la media. No estamos comprando humo; estamos comprando uno de los bancos más rentables de Europa con un descuento injustificado.</p>
+<p><strong>Rating</strong>: BUY</p>
+<p>FINAL TRANSACTION PROPOSAL: Accumulate BBVA.MC positions cautiously near the 21.00 EUR support level, viewing current market sentiment as an oversold temporary anomaly rather than a fundamental shift in value.</p>
+<h3 id="s2-2">Bear Researcher</h3>
+<p>Bear Analyst: Entiendo tu optimismo, colega, pero me temo que estás confundiendo &quot;precio barato&quot; con &quot;valor&quot;. Como analista bajista, veo en <strong>BBVA.MC</strong> no una oportunidad de compra, sino una trampa de valor clásica que está empezando a mostrar grietas estructurales muy preocupantes.</p>
+<h6>1. El mito de la &quot;desconexión&quot; y el techo de beneficios</h6>
+<p>Dices que el mercado reacciona emocionalmente al castigar los beneficios récord. Yo diría que el mercado, que es mucho más inteligente de lo que sugieres, está descontando el fin de la era de los vientos de cola. Los <strong>9.066 millones de euros</strong> ya son historia; la banca es un negocio cíclico y cuando el BCE mantiene los tipos al 2,5% con señales claras de estancamiento, el margen de interés neto tiene un recorrido a la baja evidente. No es &quot;emocionalidad&quot;, es el mercado anticipando la normalización de unos márgenes que, como bien apunta el consenso, han tocado techo.</p>
+<h6>2. Sobre el &quot;colchón&quot; del dividendo</h6>
+<p>Cuidado con el sesgo de buscar dividendos en una acción que se desploma. Un <strong>4,61%</strong> de rentabilidad por dividendo no compensa una caída del <strong>10% en 21 sesiones</strong> y un <strong>15,8% de <em>drawdown</em></strong>. Si el valor de tu capital se erosiona más rápido de lo que el dividendo puede compensar, no estás ganando dinero, estás viendo cómo se evapora tu valor contable. Además, con el sector bajo escrutinio por la inestabilidad macro, la presión sobre el capital propio (ROE del 19,8%) podría verse comprometida si la morosidad empieza a repuntar tras un periodo de tipos altos.</p>
+<h6>3. La falacia del soporte técnico (SMA200)</h6>
+<p>Mencionas que la <strong>SMA200 en 21,01 EUR</strong> es un nivel donde los inversores &quot;defenderán el precio&quot;. Históricamente, las medias móviles no actúan como suelos de cristal, sino como imanes. Que <strong>BBVA.MC</strong> esté luchando por mantenerse sobre los 21,00 EUR no es una señal de fortaleza, es un síntoma de vulnerabilidad. Si rompe ese soporte, no hay un suelo técnico claro, y la capitulación de los inversores institucionales podría acelerar una caída hacia niveles inferiores de los que planteas. El RSI en <strong>28,17</strong> no es un &quot;suelo&quot;, es la confirmación de que el impulso bajista es lo suficientemente fuerte como para ignorar lecturas tradicionales de sobreventa.</p>
+<h6>4. El fin de la expansión inorgánica</h6>
+<p>La decisión de descartar una nueva OPA sobre Banco Sabadell es el clavo final en el ataúd de la narrativa de crecimiento que algunos intentan vender. Sin un motor de consolidación, ¿de dónde va a venir el crecimiento real de los beneficios en un entorno de tipos estancados? La respuesta es sencilla: de ningún lado. Estás atrapado en un banco que ha agotado sus catalizadores de corto plazo.</p>
+<p><strong>Refutación final:</strong> Tu tesis de &quot;descuento injustificado&quot; ignora la realidad: el mercado no es tonto. Si <strong>BBVA.MC</strong> cotiza con un Forward PE inferior a su media, es porque el mercado está valorando un mayor riesgo de deterioro de activos y una menor capacidad de generación de ingresos futuros. Comprar ahora, cuando la tendencia es bajista, los soportes son débiles y el macroeconomía sopla en contra, es intentar recoger cuchillos cayendo.</p>
+<p><strong>Rating</strong>: SELL</p>
+<p>FINAL TRANSACTION PROPOSAL: Mantenerse fuera de BBVA.MC. La estructura técnica es bajista y los catalizadores de crecimiento han desaparecido. Evitar la tentación de compra por sobreventa y esperar una señal clara de reversión de tendencia por encima de la SMA50 (23,84 EUR) antes de reevaluar.</p>
+<h3 id="s2-3">Research Manager</h3>
+<p><strong>Recommendation</strong>: Hold</p>
+<p><strong>Rationale</strong>: El debate refleja una dicotomía entre el valor fundamental a largo plazo y una tendencia técnica deteriorada. Por el lado alcista, los múltiplos de valoración (Forward PE 8.96x) y la rentabilidad del dividendo presentan un atractivo innegable para inversores de valor, respaldado por un ROE sólido del 19.84%. No obstante, el lado bajista presenta argumentos contundentes sobre la fragilidad del soporte técnico en la SMA200 (21.01 EUR) y la incertidumbre macroeconómica respecto al margen de interés neto. Tras evaluar ambos, considero que no hay convicción suficiente para comprar en una tendencia de caída libre ni para vender cuando los múltiplos están claramente comprimidos. La sobreventa extrema (RSI 28.17) hace que la venta sea arriesgada, pero la falta de catalizadores inmediatos impide una compra agresiva. La postura prudente es observar la reacción del precio en torno al nivel crítico de 21.00 EUR.</p>
+<p><strong>Strategic Actions</strong>: Mantener una posición neutral (0% de asignación nueva) mientras el precio teste el soporte crítico de 21.00 EUR. Si el precio confirma un rebote técnico y recupera la media móvil de 20 días (22.77 EUR), considerar una entrada gradual. Si el soporte de 21.00 EUR se rompe con alto volumen, evitar cualquier intento de 'caza de gangas' y priorizar la preservación de capital.</p>
+</section><section id="s3"><h2>III. Trading Team Plan</h2><h3 id="s3-1">Trader</h3>
+<p><strong>Action</strong>: Hold</p>
+<p><strong>Reasoning</strong>: BBVA.MC se encuentra en un estado de sobreventa técnica (RSI 28.17) y cotiza en un soporte crítico cerca de su media móvil de 200 días (21.01 EUR). Aunque la valoración fundamental es atractiva con un Forward PE de 8.96x, el sentimiento del mercado tras los resultados es negativo y la tendencia bajista prevalece. Es prudente mantener la posición actual y esperar a que el precio estabilice este soporte o muestre una señal de reversión antes de comprometer nuevo capital.</p>
+<p><strong>Entry Price</strong>: not provided</p>
+<p><strong>Stop Loss</strong>: 20.5</p>
+<p><strong>Position Sizing</strong>: Mantener sin cambios</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+</section><section id="s4"><h2>IV. Risk Management Team Decision</h2><h3 id="s4-1">Aggressive Analyst</h3>
+<p>Aggressive Analyst: Compañeros, analicemos la situación con la visión estratégica que exige un mercado ineficiente. Escucho sus dudas sobre la prudencia y la neutralidad, pero mientras ustedes se pierden en el miedo al ruido mediático post-resultados, están ignorando la oportunidad de compra de libro que tenemos frente a nosotros.</p>
+<p>Afirmar que debemos &quot;esperar a que el precio se estabilice&quot; es, en esencia, sentarse a ver cómo se nos escapa la ventaja competitiva. BBVA.MC está cotizando a un Forward PE de apenas 8,96x. ¿Están sugiriendo que el mercado tiene razón al castigar a una entidad que muestra una eficiencia operativa de primer nivel, con un ROE del 19,84% y unos márgenes de beneficio del 32,6%? El mercado es emocional, pero los números son objetivos. Un RSI de 28,17 no es una señal de &quot;cautela&quot;, es una señal de capitulación por parte de manos débiles. El hecho de que la acción esté tocando su media móvil de 200 días (21,01 EUR) es precisamente el punto donde la historia sugiere que los inversores institucionales instituyen suelos para grandes tramos alcistas.</p>
+<p>El argumento de que el sector bancario ha &quot;tocado techo&quot; es pura especulación cortoplacista alimentada por titulares alarmistas. Ignoran que BBVA.MC es una máquina generadora de beneficios, con un flujo de efectivo que permite una rentabilidad por dividendo del 4,61%. Ese dividendo no es solo renta, es un suelo de protección mientras el mercado corrige su error de valoración. Los analistas que fijan un precio objetivo de 24,24 EUR no están inventando cifras; están proyectando que esta caída es una anomalía, no una tendencia secular.</p>
+<p>Ustedes temen la volatilidad del 22,44%, yo la veo como el precio a pagar por una rentabilidad superior. Mientras el mercado se paraliza por los tipos del 2,5% del BCE, BBVA.MC sigue consolidando una posición financiera robusta. Si esperamos a la &quot;confirmación&quot; de la reversión, estaremos entrando tarde, comprando el optimismo de la masa en lugar de la convicción de los líderes. La falta de una nueva OPA por Sabadell, que algunos ven como una debilidad, para mí es la liberación de capital y foco estratégico: BBVA.MC ahora es más eficiente y dueña de su propio destino operativo.</p>
+<p>No se trata de ser imprudentes, se trata de reconocer que estamos en una zona donde la relación riesgo-beneficio está totalmente sesgada a favor del comprador paciente y agresivo. Mantener la posición actual sin ajustar, o incluso considerar una acumulación táctica, es la única estrategia coherente para quien busca superar al mercado.</p>
+<p><strong>Rating</strong>: BUY</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>BUY</strong></p>
+<h3 id="s4-2">Conservative Analyst</h3>
+<p>Conservative Analyst: Compañeros, entiendo el entusiasmo que genera una valoración técnica atractiva, pero como analista de riesgos, mi deber es recordarles que en el mercado financiero, el capital no se preserva con optimismo, sino con disciplina.</p>
+<p>Mi colega agresivo habla de &quot;capitulación de manos débiles&quot; ante un RSI de 28,17, pero lo que él llama una oportunidad de &quot;libro&quot;, yo lo llamo un cuchillo cayendo. El mercado rara vez castiga una acción con una caída del 3,7% y una volatilidad del 22,44% sin una razón estructural subyacente. Los titulares sobre que la banca ha &quot;tocado techo&quot; no son solo ruido; reflejan una preocupación real sobre el estancamiento del margen de intereses ahora que el BCE ha mantenido los tipos en el 2,5%. Ignorar que el entorno macroeconómico está cambiando es una negligencia que nuestra firma no puede permitirse.</p>
+<p>El Analista Agresivo confía ciegamente en el soporte de la media móvil de 200 días en 21,01 EUR. Sin embargo, ¿qué sucede si ese soporte se rompe? La historia nos enseña que cuando un nivel técnico clave es tan vigilado y se encuentra bajo tal presión vendedora, su ruptura suele desencadenar una venta en cascada de stop-losses. Comprar ahora no es ser &quot;líder&quot;, es exponerse a un riesgo de caída sin red de seguridad. El dividendo del 4,61% es un consuelo pobre si el valor de nuestra posición principal se erosiona significativamente en las próximas sesiones.</p>
+<p>Además, hablan de la &quot;liberación de capital&quot; tras descartarse la OPA sobre Sabadell, pero eso también significa que BBVA.MC pierde una vía clara de crecimiento inorgánico en un mercado donde el crecimiento orgánico es cada vez más difícil. No podemos basar nuestra estrategia en la esperanza de que el mercado &quot;corrija su error&quot;. Debemos actuar sobre la realidad: la tendencia bajista es dominante, los indicadores de impulso (MACD) siguen señalando debilidad y el sentimiento tras los resultados es francamente negativo.</p>
+<p>Para proteger los activos de la firma, la prudencia es nuestra mejor herramienta. Mantener la posición sin añadir capital nos permite participar de la rentabilidad por dividendo sin aumentar nuestra exposición a un activo que, hoy por hoy, muestra síntomas de debilidad sistémica. Si el mercado se estabiliza, siempre habrá tiempo de entrar con una tendencia alcista confirmada; entrar ahora solo porque el precio está &quot;barato&quot; es una invitación al desastre en un entorno tan volátil.</p>
+<p><strong>Rating</strong>: HOLD</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+<h3 id="s4-3">Neutral Analyst</h3>
+<p>Neutral Analyst: Compañeros, entiendo perfectamente la pasión que ambos ponen en sus posturas, pero creo que ambos están cayendo en sesgos que, lejos de ayudarnos, comprometen la toma de decisiones.</p>
+<p>Al analista agresivo le diría que su optimismo es peligroso. Llamar &quot;capitulación&quot; a una caída de esta magnitud en un sector bancario es ignorar el peso de los fundamentales macroeconómicos. El mercado no es solo &quot;emocional&quot;; cuando el BCE decide mantener los tipos en el 2,5% con la inflación acechando, el mercado está revalorizando el riesgo de crédito y el margen de interés a futuro. Comprar un &quot;cuchillo cayendo&quot; basándonos solo en un Forward PE de 8,96x es arriesgado, porque si ese soporte de 21,01 EUR de la media móvil de 200 días cede —y con la presión bajista actual es un escenario muy posible—, los modelos de valoración dejarán de importar durante un buen tiempo debido al pánico vendedor.</p>
+<p>Por otro lado, al analista conservador le recordaría que la parálisis también tiene un costo. Si bien es loable proteger el capital, descartar una oportunidad simplemente porque hay volatilidad es ignorar que BBVA.MC tiene una rentabilidad por dividendo del 4,61% y un ROE del 19,84%, métricas que no se ven todos los días. Esperar a una &quot;confirmación alcista&quot; puede significar perderse la recuperación desde el suelo técnico, comprando al final mucho más caro de lo que podríamos hacer hoy si gestionamos el riesgo correctamente.</p>
+<p>La solución no es &quot;comprar&quot; agresivamente ni &quot;congelar&quot; la operativa por miedo. Mi propuesta es equilibrada: estamos ante un soporte crítico, lo cual nos da una ventaja táctica. No debemos añadir capital ahora, pues el momento (MACD) sigue siendo negativo, pero tampoco debemos liquidar una posición fundamentalmente sólida. Mantener el &quot;Hold&quot; actual es correcto, pero con una instrucción clara: si el precio consolida por encima de los 21 EUR sin romper hacia abajo en los próximos días, podríamos considerar una entrada pequeña con un stop-loss ajustado. La clave no es el optimismo ni la disciplina rígida, sino la flexibilidad táctica ante la confirmación técnica. Mantengamos la prudencia, observemos el soporte de los 21 EUR como nuestro árbitro final y preparemos el capital solo si el mercado nos da la señal de que los vendedores han agotado sus municiones.</p>
+<p><strong>Rating</strong>: HOLD</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+</section><section id="s5"><h2>V. Portfolio Manager Decision</h2><h3 id="s5-1">Portfolio Manager</h3>
+<p><strong>Rating</strong>: Hold</p>
+<p><strong>Executive Summary</strong>: Mantener la posición actual sin realizar nuevas compras, monitoreando el nivel de soporte crítico de 21.00 EUR. Si el precio consolida este soporte y recupera la media móvil de 20 días en 22.77 EUR, consideraremos una entrada gradual. En caso de una ruptura bajista con volumen por debajo de 21.00 EUR, se recomienda priorizar la protección del capital y reducir exposición.</p>
+<p><strong>Investment Thesis</strong>: La tesis se fundamenta en un equilibrio entre la solidez de los fundamentales y el deterioro técnico actual. BBVA.MC presenta múltiplos de valoración atractivos (Forward PE 8.96x) y un ROE del 19.84% que respaldan una visión positiva a largo plazo. Sin embargo, el análisis técnico muestra una tendencia bajista clara, con el precio tocando la SMA200 (21.01 EUR) y un MACD negativo que sugiere debilidad persistente. Los riesgos macroeconómicos, derivados de una política de tipos del BCE en 2.5% y la incertidumbre tras los resultados, justifican la cautela. La falta de un catalizador inmediato tras descartar la OPA por Sabadell y la volatilidad actual (22.44%) refuerzan la decisión de no aumentar la posición (Hold) hasta que el soporte en 21.00 EUR demuestre ser fiable ante la presión vendedora.</p>
+<p><strong>Price Target</strong>: 24.23955</p>
+<p><strong>Time Horizon</strong>: 3-6 meses</p>
+</section>
+</main>
+<footer class="credit"><a href="https://github.com/TauricResearch/TradingAgents" rel="noopener">TradingAgents</a> powered by <a class="brand" href="https://github.com/TauricResearch" rel="noopener">Tauric Research</a></footer>
+</div>
+<a class="to-top" href="#top">Top</a>
+</body>
+</html>

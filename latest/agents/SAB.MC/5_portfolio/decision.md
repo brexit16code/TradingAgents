@@ -1,0 +1,9 @@
+**Rating**: Hold
+
+**Executive Summary**: Mantener la asignación actual en SAB.MC sin realizar adiciones ni recortes tácticos. Vigilar de cerca el soporte estructural en la media móvil de 200 sesiones (aprox. 3,11 EUR) y el nivel de cotización en 3,43 EUR, esperando mayor claridad macroeconómica del BCE antes de modificar el tamaño de la posición. El horizonte de inversión recomendado es de 3 a 6 meses.
+
+**Investment Thesis**: Tras sopesar los argumentos del debate entre los analistas, la tesis neutral y prudente resulta ser la más sólida y equilibrada. Por un lado, el analista agresivo destaca fundamentales robustos, con un beneficio neto de 1.376 millones de euros a septiembre de 2026, un dividendo anunciado de 325 millones y un forward P/E atractivo de 10,41x, respaldados por una rentabilidad anual del 24,58% a 252 sesiones y un soporte clave en la media móvil de 200 sesiones situada en 3,107 EUR. Por otro lado, los analistas conservador y neutral advierten acertadamente sobre la debilidad técnica a corto plazo —con el precio cotizando por debajo de las medias móviles de 20 y 50 sesiones (3,536 EUR y 3,616 EUR), un MACD en terreno negativo y un RSI de 41—, además de una contracción interanual de los ingresos totales del -15,1% y un entorno de tipos estables del BCE en el 2,5% que presiona al sector bancario. La evidencia demuestra que, si bien la rentabilidad y los beneficios son sólidos, el momentum técnico y la atonía de los ingresos impiden una compra agresiva. Un enfoque de mantenimiento (Hold) protege el capital frente a caídas adicionales sin incurrir en un inmovilismo absoluto.
+
+**Price Target**: 3.65975
+
+**Time Horizon**: 3-6 months

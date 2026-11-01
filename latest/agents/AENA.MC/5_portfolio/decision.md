@@ -1,0 +1,9 @@
+**Rating**: Hold
+
+**Executive Summary**: Mantener la posición actual sin realizar compras ni ventas adicionales. Se recomienda establecer una estrategia de entrada escalonada en caso de un retroceso hacia la zona de 26,00 EUR, utilizando este nivel como soporte para incrementar la exposición si la tendencia alcista se mantiene intacta. La estrategia busca equilibrar la solidez operativa de AENA.MC con la cautela necesaria ante un potencial alcista limitado según el consenso.
+
+**Investment Thesis**: La decisión de mantener se sustenta en la evidencia mixta presentada: si bien la compañía demuestra una eficiencia operativa envidiable (ROE del 25,79%, flujo de caja operativo superior a 2.700 millones de EUR y una deuda neta sobre EBITDA de 1,38x), el mercado ya descuenta gran parte de este éxito. Con el precio actual (27,08 EUR) situándose prácticamente en línea con el precio objetivo del consenso (27,44 EUR), el margen de seguridad para una entrada agresiva es insuficiente. La reacción negativa tras resultados recientes confirma que las expectativas están ajustadas y que cualquier debilidad macroeconómica podría presionar el título. El caso alcista es sólido gracias a la inercia técnica (precios sobre las medias móviles) y la atractiva rentabilidad por dividendo (4%), lo que justifica no reducir la posición. Un cambio a 'Overweight' o 'Buy' dependería de una consolidación clara por encima de los 27,50 EUR con volumen, mientras que una ruptura de los 25,00 EUR obligaría a reconsiderar la tesis debido a la posible corrección técnica.
+
+**Price Target**: 27.44
+
+**Time Horizon**: 6-12 meses

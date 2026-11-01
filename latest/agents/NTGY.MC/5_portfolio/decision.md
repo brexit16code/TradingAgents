@@ -1,0 +1,9 @@
+**Rating**: Hold
+
+**Executive Summary**: Mantener la exposición actual a NTGY.MC con una asignación neutral en cartera, sin realizar nuevas compras ni ventas. El horizonte temporal sugerido es de 3 a 6 meses para evaluar la ejecución del plan estratégico y la superación de resistencias técnicas. Niveles clave a vigilar incluyen la resistencia de la SMA50 en 29,75 EUR y el soporte de la SMA200 en 27,49 EUR.
+
+**Investment Thesis**: El debate entre los analistas muestra argumentos muy equilibrados que justifican mantener la recomendación de Hold. Por un lado, el analista agresivo destaca la solidez fundamental de Naturgy (NTGY.MC), respaldada por la elevación de las previsiones de beneficio neto a 2.200 millones de euros, un flujo de caja libre superior a 2.300 millones de euros, una ratio de deuda neta sobre EBITDA contenida en 2,42x y una atractiva rentabilidad por dividendo del 5,97% que se cobra en noviembre. Por otro lado, el analista conservador y el neutral advierten acertadamente sobre los riesgos de un plan de inversión masivo de 12.000 millones de euros en un entorno macroeconómico donde el Banco Central Europeo mantiene los tipos en el 2,5% y emite alertas sobre la inflación energética, además de un potencial alcista de apenas el 5,26% frente al precio objetivo de consenso de 31,22 EUR. Técnicamente, el valor cotiza a 29,66 EUR con un RSI neutral de 44,28 y por debajo de su SMA50 (29,75 EUR), lo que denota atonía a corto plazo. Al sopesar las posturas, los fundamentales sólidos y el dividendo neutralizan la debilidad técnica, pero el escaso margen de revalorización impide elevar la calificación. Un cambio en la tesis requeriría una ruptura clara de la resistencia técnica con volumen o un deterioro imprevisto en el servicio de su deuda total de 17.313 millones de euros.
+
+**Price Target**: 31.22
+
+**Time Horizon**: 3-6 months

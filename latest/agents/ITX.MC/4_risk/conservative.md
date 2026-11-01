@@ -1,0 +1,11 @@
+
+Conservative Analyst: Rating: HOLD
+FINAL TRANSACTION PROPOSAL: **HOLD**
+
+Escucho al analista agresivo hablar con un entusiasmo desmedido sobre una "apisonadora operativa" y un "cohete alcista" en **ITX.MC**, pero como analista de riesgos debo recordarle que el optimismo ciego es el mejor camino hacia una pérdida de capital dolorosa. Se deslumbra con un ROE del 36,82% y una caja neta de 10.398 millones de euros, ignorando olímpicamente que las valoraciones de perfección ya están totalmente descontadas en el precio actual de 56,14 EUR. 
+
+Defender que no debemos temer al ruido macroeconómico es una temeridad cuando el Banco Central Europeo mantiene los tipos de interés en el 2,5% y advierte sobre presiones inflacionarias persistentes en la energía y los costes globales. En un entorno de consumo cíclico tan volátil, pretender ignorar un Forward P/E de 23,75x y un Price-to-Book estratosférico de 9,79x es sencillamente ignorar el riesgo de múltiplos. Cuando una compañía cotiza a estos niveles de valoración, cualquier pequeño tropiezo en los márgenes o una ligera desaceleración en las ventas minoristas provoca correcciones violentas que destruyen el valor acumulado en cuestión de sesiones.
+
+El analista agresivo descarta nuestras precauciones tildándolas de "excusas de libro", pero los datos demuestran que el potencial de consenso alcista para **ITX.MC** se limita a un escaso 7,57% frente a un precio objetivo medio de 60,39 EUR. Arriesgar capital fresco en este punto exacto, con un RSI en 63,01 que anticipa una fatiga compradora cercana a la sobrecompra y un soporte crítico en la media de 200 sesiones (SMA200) situado muy por debajo, en los 53,30 EUR (coincidiendo exactamente con nuestro stop loss de 53,3), expone a la cartera a un riesgo asimétrico inaceptable. 
+
+Por esta razón, mantener la ponderación actual en **ITX.MC** sin realizar nuevas compras y exigir una corrección técnica hacia soportes más sólidos no es mediocridad; es la única estrategia responsable para blindar el patrimonio de la firma. Dejar correr los beneficios está bien, pero proteger el capital frente a valoraciones exigentes y vientos en contra macroeconómicos es lo que garantiza la supervivencia a largo plazo. No nos dejemos cegar por el brillo superficial de los múltiplos pasados cuando el riesgo a la baja está a la vuelta de la esquina.

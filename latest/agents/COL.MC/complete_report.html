@@ -1,0 +1,619 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'">
+<title>COL.MC 2026-11-01 Hold: TradingAgents report</title>
+<style>
+:root {
+  --paper: #fbfbfa; --ink: #1c2126; --muted: #5d6670; --rule: #e2e5e8; --wash: #f2f4f5;
+  --accent: #087a59; --up: #087a59; --down: #b4372f; --level: #5d6670; --edge: #d3d8dc; --mark: #878f97;
+  --serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #131a1f; --ink: #e4e8eb; --muted: #9aa6af; --rule: #263239; --wash: #1a242a;
+    --accent: #14c290; --up: #14c290; --down: #ef6f63; --level: #9aa6af; --edge: #3d4c55; --mark: #66737c;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .masthead .logo [stroke="#363636"] { stroke: var(--muted); }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font: 17px/1.62 var(--serif); font-kerning: normal;
+}
+.page { max-width: 46rem; margin: 0 auto; padding: 3.5rem 1.5rem 6rem; }
+main h2, main h3 { scroll-margin-top: 1rem; }
+a { color: var(--accent); text-underline-offset: 0.15em; }
+h1, h2, h3, h4 { text-wrap: balance; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.masthead { padding-bottom: 1.75rem; border-bottom: 1px solid var(--rule); }
+/* The logo leads at the top left, where readers look for it, 24px tall (the usual
+   on-screen floor for a wordmark) with at least its height clear below. */
+.masthead .logo { display: block; width: fit-content; margin: 0 0 2.25rem; }
+.masthead .logo svg { display: block; height: 1.5rem; width: auto; }
+.masthead h1 {
+  margin: 0; font: 600 2.6rem/1.1 var(--sans); letter-spacing: -0.02em;
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.2em 0.5em;
+}
+.masthead .rating { font-weight: 500; }
+.rating.up { color: var(--up); } .rating.down { color: var(--down); } .rating.level { color: var(--level); }
+.rating.review { color: var(--muted); font-style: italic; }
+.masthead .date { margin: 0.55rem 0 1.5rem; font: 1rem/1.4 var(--sans); color: var(--muted); }
+.run { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: 0.45rem 1.25rem;
+  font: 0.85rem/1.5 var(--sans); }
+.run > div { display: contents; }
+.run dt { color: var(--muted); }
+.run dd { margin: 0; overflow-wrap: anywhere; }
+.run .note dd { color: var(--down); }
+.field { display: inline-block; margin: 0 0.15rem 0.15rem 0; padding: 0 0.4rem; border: 1px solid var(--edge);
+  border-radius: 4px; background: var(--wash); font: 0.8rem/1.6 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+.run .group { display: inline-block; margin-right: 0.9rem; white-space: nowrap; }
+.run .group > .name { color: var(--muted); margin-right: 0.3rem; }
+.run .then { color: var(--muted); margin: 0 0.2rem; }
+
+/* The sections: listed under the header on narrow screens. On wide ones, a
+   quiet rail centred on the left edge (numerals for the sections, short bars
+   for their agents) that opens into the full list when pointed at or focused. */
+.contents { margin: 2.25rem 0 0; font: 0.9rem/1.45 var(--sans); }
+.contents ul { margin: 0; padding: 0; list-style: none; }
+.contents > ul > li { margin: 0 0 0.75rem; }
+.contents ul ul { margin-top: 0.2rem; padding-left: 1.6rem; font-size: 0.85rem; }
+.contents ul ul li { margin: 0.1rem 0; }
+.contents a { display: flex; align-items: center; gap: 0.6rem; color: var(--muted); text-decoration: none; }
+.contents > ul > li > a { color: var(--ink); }
+.contents .num { min-width: 1.6rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.contents .bar { display: none; }
+.contents a:hover .label, .contents a:focus-visible .label { color: var(--accent); text-decoration: underline; }
+.to-top { position: fixed; right: 1rem; bottom: calc(1rem + env(safe-area-inset-bottom));
+  padding: 0.25rem 0.6rem; border: 1px solid var(--edge); border-radius: 4px; background: var(--paper);
+  color: var(--muted); font: 0.8rem/1.4 var(--sans); text-decoration: none; }
+
+@media (min-width: 60rem) {
+  .contents { position: fixed; left: 1rem; top: 50%; transform: translateY(-50%); z-index: 1;
+    max-height: 86vh; overflow-y: auto; overscroll-behavior: contain; margin: 0;
+    padding: 0.7rem 0.9rem; border: 1px solid transparent; border-radius: 6px;
+    transition: background-color 0.15s, border-color 0.15s, box-shadow 0.15s; }
+  .contents > ul > li { margin: 0 0 0.35rem; }
+  .contents ul ul { margin-top: 0; padding-left: 0; }
+  .contents ul ul li { margin: 0; }
+  /* Marks reach 3:1 contrast and rows 24px, the WCAG 2.2 floors for a control's
+     visual cue and its pointer target. */
+  .contents a { min-height: 1.5rem; }
+  .contents .num { min-width: 1.4rem; }
+  .contents .bar { display: block; flex: none; width: 1.25rem; height: 2px; margin-left: 0.2rem;
+    border-radius: 1px; background: var(--mark); }
+  .contents .label { max-width: 0; opacity: 0; overflow: hidden; white-space: nowrap;
+    transition: opacity 0.15s, max-width 0.2s; }
+  .contents:hover, .contents:focus-within { background: var(--paper); border-color: var(--rule);
+    box-shadow: 0 6px 24px rgb(0 0 0 / 0.08); }
+  .contents:hover .label, .contents:focus-within .label { max-width: 18rem; opacity: 1; }
+  .contents a:hover .bar, .contents a:focus-visible .bar { background: var(--accent); }
+  .to-top { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .contents, .contents .label { transition: none; }
+}
+
+/* The maker's credit: one quiet line at the foot. */
+.credit { margin-top: 4.5rem; padding-top: 1.25rem; border-top: 1px solid var(--rule);
+  color: var(--muted); font: 0.8rem/1.4 var(--sans); }
+.credit a { color: inherit; text-decoration: none; }
+.credit a.brand { color: var(--accent); }
+.credit a:hover, .credit a:focus-visible { text-decoration: underline; }
+
+/* Three levels of separation: the five groups, the agents within a group, and
+   breaks an agent draws inside its own text. */
+main h2 {
+  margin: 4.5rem 0 0.25rem; padding-top: 1.5rem; border-top: 2px solid var(--ink);
+  font: 600 1.45rem/1.3 var(--sans); letter-spacing: -0.01em;
+}
+main section:first-child h2 { margin-top: 3rem; }
+main h3 { margin: 2.75rem 0 0.75rem; padding-top: 1.1rem; border-top: 1px solid var(--rule);
+  font: 600 1.15rem/1.35 var(--sans); color: var(--accent); }
+main h2 + h3 { margin-top: 1.25rem; padding-top: 0; border-top: 0; }
+main h4, main h5, main h6 { margin: 1.75rem 0 0.5rem; font: 600 1rem/1.4 var(--sans); }
+main h5, main h6 { color: var(--muted); }
+main p, main ul, main ol { margin: 0 0 1rem; }
+main li { margin: 0.25rem 0; }
+main strong { font-weight: 650; }
+main blockquote { margin: 1.25rem 0; padding: 0.1rem 0 0.1rem 1rem; border-left: 3px solid var(--rule);
+  color: var(--muted); }
+main code { font: 0.88em/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  background: var(--wash); padding: 0.1em 0.3em; border-radius: 3px; }
+main pre { background: var(--wash); padding: 0.9rem 1rem; border-radius: 4px; overflow-x: auto; }
+main pre code { background: none; padding: 0; }
+main hr { width: 3rem; margin: 2rem auto; border: 0; border-top: 1px solid var(--rule); }
+
+.table { overflow-x: auto; margin: 0 0 1.25rem; }
+table { border-collapse: collapse; width: 100%; font: 0.86rem/1.45 var(--sans);
+  font-variant-numeric: tabular-nums; }
+th, td { padding: 0.45rem 0.7rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--rule); }
+th { font-weight: 600; border-bottom-color: var(--muted); }
+tbody tr:last-child td { border-bottom: 0; }
+
+@media (max-width: 34rem) {
+  body { font-size: 16px; }
+  .page { padding: 2rem 1rem 3rem; }
+  .masthead h1 { font-size: 2rem; }
+  .masthead .logo svg { height: 1.25rem; }
+  .run { grid-template-columns: 1fr; gap: 0 0; }
+  .run dd { margin-bottom: 0.45rem; }
+  .run .group { white-space: normal; }
+}
+@media print {
+  :root { --paper: #fff; --ink: #000; --muted: #444; --rule: #bbb; --accent: #000; --wash: #f2f2f2;
+    --edge: #bbb; --up: #087a59; --down: #b4372f; --level: #444; }
+  body { font-size: 11pt; }
+  .table { overflow: visible; }
+  .page { max-width: none; padding: 0; }
+  .contents, .to-top { display: none; }
+  main h2 { break-before: page; border-top: 0; margin-top: 0; }
+  main section:first-child h2 { break-before: auto; }
+  main h3, main h4 { break-after: avoid; }
+  a { color: inherit; text-decoration: none; }
+  table { break-inside: avoid; }
+}
+</style>
+</head>
+<body>
+<div class="page" id="top">
+<header class="masthead">
+<a class="logo" href="https://tauric.ai" rel="noopener" aria-label="Tauric Research"><svg width="993" height="115" viewBox="0 0 993 115" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M189.86 95.0459V37.9779H165.924V29.9259H223.74V37.9779H199.804V95.0459H189.86ZM251.026 46.4259C256.071 46.4259 260.178 47.0272 263.345 48.2299C266.514 49.4032 268.89 51.3686 270.474 54.1259C272.058 56.8832 272.85 60.6379 272.85 65.3899V95.0459H264.666L263.961 89.8979H263.434C261.644 91.7752 259.386 93.2419 256.657 94.2979C253.929 95.3246 251.025 95.8379 247.946 95.8379C244.426 95.8379 241.419 95.2952 238.925 94.2099C236.432 93.0952 234.54 91.5406 233.249 89.5459C231.959 87.5512 231.313 85.2046 231.313 82.5059C231.313 78.2526 232.897 74.9672 236.065 72.6499C239.263 70.3032 244.337 68.8219 251.29 68.2059L263.258 67.0179V64.7299C263.258 61.9139 262.774 59.7139 261.806 58.1299C260.838 56.5459 259.371 55.4312 257.406 54.7859C255.47 54.1406 252.888 53.8179 249.662 53.8179C247.432 53.8179 245.012 54.0086 242.401 54.3899C239.82 54.7712 237.341 55.3432 234.965 56.1059V48.8019C237.312 48.0392 239.908 47.4526 242.754 47.0419C245.628 46.6312 248.386 46.4259 251.026 46.4259ZM250.541 89.0619C252.888 89.0619 255.162 88.6512 257.362 87.8299C259.562 86.9792 261.527 85.7179 263.258 84.0459V72.8259L252.038 73.9259C248.136 74.3659 245.35 75.2166 243.678 76.4779C242.005 77.7099 241.169 79.4699 241.169 81.7579C241.169 84.0752 241.947 85.8792 243.501 87.1699C245.056 88.4312 247.403 89.0619 250.541 89.0619ZM313.339 95.8379C307.59 95.8379 303.087 94.2979 299.831 91.2179C296.575 88.1086 294.947 83.2686 294.947 76.6979V47.1739H304.715V76.1699C304.715 80.1886 305.624 83.0779 307.443 84.8379C309.291 86.5979 311.916 87.4779 315.319 87.4779C317.871 87.4779 320.379 86.9939 322.843 86.0259C325.336 85.0286 327.492 83.5766 329.311 81.6699V47.1739H339.079V95.0459H330.983L330.367 89.9419H329.883C327.624 91.8486 325.072 93.3152 322.227 94.3419C319.382 95.3392 316.419 95.8379 313.339 95.8379ZM362.371 47.1739H370.423L371.171 53.2899H371.743C373.474 51.2072 375.703 49.5792 378.431 48.4059C381.188 47.2326 384.063 46.6459 387.055 46.6459C388.756 46.6459 390.355 46.7926 391.851 47.0859V55.8419C390.414 55.5779 388.654 55.4459 386.571 55.4459C383.99 55.4459 381.364 55.9446 378.695 56.9419C376.026 57.9392 373.84 59.4206 372.139 61.3859V95.0459H362.371V47.1739ZM409.069 95.0459V47.1739H418.837V95.0459H409.069ZM413.953 37.8459C411.871 37.8459 410.287 37.3912 409.201 36.4819C408.145 35.5726 407.617 34.2672 407.617 32.5659C407.617 30.8352 408.145 29.5152 409.201 28.6059C410.287 27.6672 411.871 27.1979 413.953 27.1979C416.036 27.1979 417.605 27.6672 418.661 28.6059C419.747 29.5152 420.289 30.8352 420.289 32.5659C420.289 34.2672 419.747 35.5726 418.661 36.4819C417.605 37.3912 416.036 37.8459 413.953 37.8459ZM464.85 95.9259C456.607 95.9259 450.315 93.8432 445.974 89.6779C441.662 85.5126 439.506 79.3526 439.506 71.1979C439.506 63.0139 441.779 56.8392 446.326 52.6739C450.902 48.5086 457.575 46.4259 466.346 46.4259C470.716 46.4259 474.735 46.9246 478.402 47.9219V55.7099C476.378 55.2406 474.486 54.8886 472.726 54.6539C470.966 54.4192 469.118 54.3019 467.182 54.3019C461.168 54.3019 456.71 55.6512 453.806 58.3499C450.931 61.0486 449.494 65.2872 449.494 71.0659C449.494 76.8739 450.858 81.1566 453.586 83.9139C456.343 86.6712 460.42 88.0499 465.818 88.0499C467.695 88.0499 469.616 87.8886 471.582 87.5659C473.547 87.2139 475.82 86.6712 478.402 85.9379V93.7259C474.236 95.1926 469.719 95.9259 464.85 95.9259ZM574.428 95.0459L553.704 69.0859C553.176 69.1152 552.37 69.1299 551.284 69.1299C548.38 69.1299 544.978 68.9832 541.076 68.6899V95.0459H531.308V31.4659C537.967 29.9699 544.846 29.2219 551.944 29.2219C561.595 29.2219 568.752 30.8059 573.416 33.9739C578.08 37.1126 580.412 42.1286 580.412 49.0219C580.412 54.0086 579.004 58.0859 576.188 61.2539C573.402 64.4219 569.266 66.6366 563.78 67.8979L585.648 95.0459H574.428ZM541.076 61.2099C543.071 61.4152 544.816 61.5619 546.312 61.6499C547.838 61.7379 549.627 61.7819 551.68 61.7819C558.427 61.7819 563.34 60.7699 566.42 58.7459C569.5 56.6926 571.04 53.4952 571.04 49.1539C571.04 46.0739 570.395 43.6099 569.104 41.7619C567.843 39.9139 565.863 38.5792 563.164 37.7579C560.495 36.9366 556.975 36.5259 552.604 36.5259C550.404 36.5259 548.424 36.6139 546.664 36.7899C544.904 36.9659 543.042 37.2299 541.076 37.5819V61.2099ZM642.947 74.0139H608.231C608.407 77.4752 609.155 80.2766 610.475 82.4179C611.795 84.5299 613.775 86.0846 616.415 87.0819C619.055 88.0792 622.443 88.5779 626.579 88.5779C630.686 88.5779 635.233 87.9472 640.219 86.6859V93.9459C635.027 95.2659 630.026 95.9259 625.215 95.9259C616.298 95.9259 609.61 93.9166 605.151 89.8979C600.722 85.8499 598.507 79.6166 598.507 71.1979C598.507 65.9179 599.402 61.4299 601.191 57.7339C602.981 54.0379 605.562 51.2366 608.935 49.3299C612.338 47.3939 616.43 46.4259 621.211 46.4259C628.251 46.4259 633.634 48.5819 637.359 52.8939C641.085 57.1766 642.947 63.3659 642.947 71.4619V74.0139ZM621.079 52.8939C616.973 52.8939 613.834 54.1406 611.663 56.6339C609.493 59.0979 608.334 62.9259 608.187 68.1179H633.751C633.634 62.9259 632.519 59.0979 630.407 56.6339C628.295 54.1406 625.186 52.8939 621.079 52.8939ZM677.365 95.9259C671.352 95.9259 665.896 95.2219 660.997 93.8139V86.7299C666.248 88.1966 671.718 88.9299 677.409 88.9299C681.809 88.9299 684.977 88.3432 686.913 87.1699C688.849 85.9672 689.817 84.2219 689.817 81.9339C689.817 80.7019 689.597 79.6899 689.157 78.8979C688.717 78.0766 687.969 77.4019 686.913 76.8739C685.857 76.3166 684.405 75.8912 682.557 75.5979L674.065 74.2779C669.137 73.4859 665.573 71.9899 663.373 69.7899C661.202 67.5899 660.117 64.6419 660.117 60.9459C660.117 56.4579 661.965 52.9232 665.661 50.3419C669.386 47.7312 675.062 46.4259 682.689 46.4259C685.094 46.4259 687.485 46.5872 689.861 46.9099C692.266 47.2032 694.481 47.6432 696.505 48.2299V55.2699C692.046 54.0379 687.456 53.4219 682.733 53.4219C677.893 53.4219 674.476 54.0526 672.481 55.3139C670.486 56.5752 669.489 58.3206 669.489 60.5499C669.489 62.2219 670.002 63.5859 671.029 64.6419C672.056 65.6686 673.889 66.4166 676.529 66.8859L685.021 68.2059C689.92 68.9686 693.513 70.3766 695.801 72.4299C698.089 74.4832 699.233 77.4606 699.233 81.3619C699.233 84.3832 698.412 86.9792 696.769 89.1499C695.156 91.3206 692.706 92.9926 689.421 94.1659C686.165 95.3392 682.146 95.9259 677.365 95.9259ZM760.579 74.0139H725.863C726.039 77.4752 726.787 80.2766 728.107 82.4179C729.427 84.5299 731.407 86.0846 734.047 87.0819C736.687 88.0792 740.075 88.5779 744.211 88.5779C748.317 88.5779 752.864 87.9472 757.851 86.6859V93.9459C752.659 95.2659 747.657 95.9259 742.847 95.9259C733.929 95.9259 727.241 93.9166 722.783 89.8979C718.353 85.8499 716.139 79.6166 716.139 71.1979C716.139 65.9179 717.033 61.4299 718.823 57.7339C720.612 54.0379 723.193 51.2366 726.567 49.3299C729.969 47.3939 734.061 46.4259 738.843 46.4259C745.883 46.4259 751.265 48.5819 754.991 52.8939C758.716 57.1766 760.579 63.3659 760.579 71.4619V74.0139ZM738.711 52.8939C734.604 52.8939 731.465 54.1406 729.295 56.6339C727.124 59.0979 725.965 62.9259 725.819 68.1179H751.383C751.265 62.9259 750.151 59.0979 748.039 56.6339C745.927 54.1406 742.817 52.8939 738.711 52.8939ZM796.986 46.4259C802.032 46.4259 806.138 47.0272 809.306 48.2299C812.474 49.4032 814.85 51.3686 816.434 54.1259C818.018 56.8832 818.81 60.6379 818.81 65.3899V95.0459H810.626L809.922 89.8979H809.394C807.605 91.7752 805.346 93.2419 802.618 94.2979C799.89 95.3246 796.986 95.8379 793.906 95.8379C790.386 95.8379 787.38 95.2952 784.886 94.2099C782.393 93.0952 780.501 91.5406 779.21 89.5459C777.92 87.5512 777.274 85.2046 777.274 82.5059C777.274 78.2526 778.858 74.9672 782.026 72.6499C785.224 70.3032 790.298 68.8219 797.25 68.2059L809.218 67.0179V64.7299C809.218 61.9139 808.734 59.7139 807.766 58.1299C806.798 56.5459 805.332 55.4312 803.366 54.7859C801.43 54.1406 798.849 53.8179 795.622 53.8179C793.393 53.8179 790.973 54.0086 788.362 54.3899C785.781 54.7712 783.302 55.3432 780.926 56.1059V48.8019C783.273 48.0392 785.869 47.4526 788.714 47.0419C791.589 46.6312 794.346 46.4259 796.986 46.4259ZM796.502 89.0619C798.849 89.0619 801.122 88.6512 803.322 87.8299C805.522 86.9792 807.488 85.7179 809.218 84.0459V72.8259L797.998 73.9259C794.097 74.3659 791.31 75.2166 789.638 76.4779C787.966 77.7099 787.13 79.4699 787.13 81.7579C787.13 84.0752 787.908 85.8792 789.462 87.1699C791.017 88.4312 793.364 89.0619 796.502 89.0619ZM841.524 47.1739H849.576L850.324 53.2899H850.896C852.627 51.2072 854.856 49.5792 857.584 48.4059C860.341 47.2326 863.216 46.6459 866.208 46.6459C867.909 46.6459 869.508 46.7926 871.004 47.0859V55.8419C869.567 55.5779 867.807 55.4459 865.724 55.4459C863.143 55.4459 860.517 55.9446 857.848 56.9419C855.179 57.9392 852.993 59.4206 851.292 61.3859V95.0459H841.524V47.1739ZM909.164 95.9259C900.921 95.9259 894.629 93.8432 890.288 89.6779C885.976 85.5126 883.82 79.3526 883.82 71.1979C883.82 63.0139 886.093 56.8392 890.64 52.6739C895.216 48.5086 901.889 46.4259 910.66 46.4259C915.03 46.4259 919.049 46.9246 922.716 47.9219V55.7099C920.692 55.2406 918.8 54.8886 917.04 54.6539C915.28 54.4192 913.432 54.3019 911.496 54.3019C905.482 54.3019 901.024 55.6512 898.12 58.3499C895.245 61.0486 893.808 65.2872 893.808 71.0659C893.808 76.8739 895.172 81.1566 897.9 83.9139C900.657 86.6712 904.734 88.0499 910.132 88.0499C912.009 88.0499 913.93 87.8886 915.896 87.5659C917.861 87.2139 920.134 86.6712 922.716 85.9379V93.7259C918.55 95.1926 914.033 95.9259 909.164 95.9259ZM941.796 23.9419H951.564V52.2779H952.048C954.248 50.3712 956.756 48.9192 959.572 47.9219C962.417 46.9246 965.395 46.4259 968.504 46.4259C974.019 46.4259 978.375 47.9952 981.572 51.1339C984.769 54.2432 986.368 59.0686 986.368 65.6099V95.0459H976.6V66.0939C976.6 62.0459 975.661 59.1566 973.784 57.4259C971.936 55.6952 969.237 54.8299 965.688 54.8299C963.048 54.8299 960.481 55.3286 957.988 56.3259C955.524 57.2939 953.383 58.7312 951.564 60.6379V95.0459H941.796V23.9419Z" fill="#14C290"/>
+<rect x="0.205322" y="14.873" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="14.679" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="14.679" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="86.6055" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="86.6055" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="101.284" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="58.7158" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="58.7158" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="87.1592" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="87.1592" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="73.0205" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="73.0205" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="87.3262" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="87.3262" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="101.631" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="101.631" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="101.284" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="15.0187" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.2668" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.2668" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.445" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.7506" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="100.716" y="14.873" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+</svg></a>
+<h1><span class="ticker">COL.MC</span> <span class="rating level">Hold</span></h1>
+<p class="date">Analysis of 2026-11-01</p>
+<dl class="run"><div class="detail"><dt>Generated</dt><dd>2026-11-01 07:54</dd></div><div class="detail"><dt>Deep model</dt><dd><span class="field">google</span> <span class="field">gemini-3.5-flash-lite</span></dd></div><div class="detail"><dt>Quick model</dt><dd><span class="field">google</span> <span class="field">gemini-3.5-flash-lite</span></dd></div><div class="detail"><dt>Analysts</dt><dd><span class="field">market</span> <span class="field">news</span> <span class="field">fundamentals</span></dd></div><div class="detail"><dt>Debate rounds</dt><dd><span class="group"><span class="name">research</span><span class="field">1</span></span> <span class="group"><span class="name">risk</span><span class="field">1</span></span></dd></div><div class="detail"><dt>Data vendors</dt><dd><span class="group"><span class="name">Prices</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Indicators</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Fundamentals</span><span class="field">yfinance</span></span> <span class="group"><span class="name">News</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Macro</span><span class="field">fred</span></span> <span class="group"><span class="name">Prediction markets</span><span class="field">polymarket</span></span> <span class="group"><span class="name">get_news</span><span class="field">ibex_sample</span></span> <span class="group"><span class="name">get_global_news</span><span class="field">ibex_sample</span></span></dd></div><div class="detail"><dt>Version</dt><dd>TradingAgents 0.7.1</dd></div></dl>
+</header>
+<nav class="contents" aria-label="Sections"><ul><li><a href="#s1"><span class="num">I</span> <span class="label">Analyst Team Reports</span></a><ul><li><a href="#s1-1"><span class="bar"></span> <span class="label">Market Analyst</span></a></li><li><a href="#s1-2"><span class="bar"></span> <span class="label">News Analyst</span></a></li><li><a href="#s1-3"><span class="bar"></span> <span class="label">Fundamentals Analyst</span></a></li></ul></li><li><a href="#s2"><span class="num">II</span> <span class="label">Research Team Decision</span></a><ul><li><a href="#s2-1"><span class="bar"></span> <span class="label">Bull Researcher</span></a></li><li><a href="#s2-2"><span class="bar"></span> <span class="label">Bear Researcher</span></a></li><li><a href="#s2-3"><span class="bar"></span> <span class="label">Research Manager</span></a></li></ul></li><li><a href="#s3"><span class="num">III</span> <span class="label">Trading Team Plan</span></a><ul><li><a href="#s3-1"><span class="bar"></span> <span class="label">Trader</span></a></li></ul></li><li><a href="#s4"><span class="num">IV</span> <span class="label">Risk Management Team Decision</span></a><ul><li><a href="#s4-1"><span class="bar"></span> <span class="label">Aggressive Analyst</span></a></li><li><a href="#s4-2"><span class="bar"></span> <span class="label">Conservative Analyst</span></a></li><li><a href="#s4-3"><span class="bar"></span> <span class="label">Neutral Analyst</span></a></li></ul></li><li><a href="#s5"><span class="num">V</span> <span class="label">Portfolio Manager Decision</span></a><ul><li><a href="#s5-1"><span class="bar"></span> <span class="label">Portfolio Manager</span></a></li></ul></li></ul></nav>
+<main>
+<section id="s1"><h2>I. Analyst Team Reports</h2><h3 id="s1-1">Market Analyst</h3>
+<p><strong>Rating</strong>: HOLD<br />
+FINAL TRANSACTION PROPOSAL: HOLD</p>
+<h6>Análisis Financiero y Técnico de COL.MC (Inmobiliaria Colonial, Socimi S.A.)</h6>
+<p>La presente investigación analiza la situación de <strong>COL.MC</strong> (Inmobiliaria Colonial, Socimi S.A.), cotizada en el mercado español (MCE) y perteneciente al sector inmobiliario (REIT de oficinas). El análisis se basa estrictamente en la evidencia adjunta y en las fuentes financieras y macroeconómicas verificadas a fecha de 1 de noviembre de 2026.</p>
+<hr />
+<h6>1. Contexto Macroeléctrico y de Mercado</h6>
+<p>El contexto bursátil reciente se ve influenciado por las decisiones de política monetaria en Europa. Según titulares de prensa de finales de octubre de 2026, el Banco Central Europeo (BCE) mantuvo los tipos de interés en el <strong>2,5%</strong>, manteniendo la cautela y advirtiendo sobre riesgos para la inflación y el crecimiento vinculados a la energía (fuentes: <em>Estrategias de Inversión</em>, <em>El Economista</em>, <em>20Minutos</em>, 29 de octubre de 2026). Esto genera un entorno mixto para los valores cotizados y de renta fija, impactando de manera particular a las Socimis y al sector inmobiliario comercial debido a los costes de financiación y la valoración de activos patrimoniales.</p>
+<hr />
+<h6>2. Análisis Técnico y de Indicadores</h6>
+<p>Tomando como referencia el último cierre disponible de la sesión del <strong>30 de octubre de 2026</strong>, el valor de cierre de <strong>COL.MC</strong> se sitúa en <strong>5,09 EUR</strong>, registrando una ligera variación negativa del <strong>-0,196%</strong>.</p>
+<ul>
+<li><strong>Medias Móviles:</strong>
+<ul>
+<li>SMA 20: 4,9957 EUR (el precio cotiza ligeramente por encima de su media de 20 sesiones, lo que denota un soporte a corto plazo).</li>
+<li>SMA 50: 5,0889 EUR (coincidiendo prácticamente con la cotización actual).</li>
+<li>SMA 200: 5,1654 EUR (actúa como una resistencia de largo plazo superior al precio actual).</li>
+</ul>
+</li>
+<li><strong>Momentum y Volatilidad:</strong>
+<ul>
+<li><strong>RSI (14):</strong> Se encuentra en <strong>54,40</strong>, un nivel neutral que no muestra ni sobrecompra ni sobreventa exagerada, reflejando equilibrio comprador-vendedor.</li>
+<li><strong>MACD:</strong> Registra un valor de <strong>0,0184</strong> con una línea de señal (<em>macds</em>) de <strong>-0,0057</strong>, lo que sugiere un tímido cruce alcista en el corto plazo, aunque con escasa intensidad.</li>
+<li><strong>Volatilidad (14% anualizada aprox.):</strong> Presenta una volatilidad del <strong>14,32%</strong> y un <em>drawdown</em> de <strong>-9,99%</strong> respecto a sus referencias recientes, situándose en una fase de consolidación técnica.</li>
+<li>Retornos recientes: Rentabilidad a 21 sesiones del <strong>+5,21%</strong>, frente a una caída a 63 sesiones del <strong>-9,75%</strong> y un retorno anual (252 sesiones) de <strong>-1,17%</strong>.</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h6>3. Fundamentos y Valoración</h6>
+<ul>
+<li><strong>Capitalización de Mercado y Valoración:</strong> La capitalización bursátil de <strong>COL.MC</strong> asciende a <strong>3.186.805.248 EUR</strong>.</li>
+<li><strong>Ratio Precio/Beneficio (P/E):</strong> El <em>trailing PE</em> se sitúa en <strong>9,60</strong>, mientras que el <em>forward PE</em> estimado asciende a <strong>13,59</strong>. El beneficio por acción (<em>trailing EPS</em>) es de <strong>0,53 EUR</strong> frente a un <em>forward EPS</em> estimado de <strong>0,37 EUR</strong>.</li>
+<li><strong>Valor en Libros:</strong> El valor contable por acción (<em>book value</em>) es de <strong>9,579 EUR</strong>, lo que arroja un ratio <em>Price-to-Book</em> (<em>P/B</em>) de <strong>0,53</strong>, indicando que la acción cotiza con un descuento significativo superior al 45% respecto a su valor contable neto de activos (NAV implícito o patrimonio neto por acción).</li>
+<li><strong>Deuda y Solvencia:</strong> El total de deuda asciende a <strong>5.102.026.240 EUR</strong> (con un efectivo de <strong>389.206.016 EUR</strong>). La deuda total reportada en el balance a cierre de 2025 es de <strong>5.126.902.000 EUR</strong>, con un patrimonio neto (<em>Stockholders Equity</em>) de <strong>5.873.045.000 EUR</strong> y activos totales de <strong>12.428.728.000 EUR</strong>. No se aplican reglas de deuda industrial/EBITDA de empresas convencionales debido a su naturaleza REIT.</li>
+<li><strong>Dividendos:</strong> Ofrece una atractiva rentabilidad por dividendo (<em>dividend yield</em>) del <strong>6,29%</strong>, con un dividendo por acción de <strong>0,32 EUR</strong>.</li>
+<li><strong>Consenso de Analistas:</strong> El precio objetivo medio (<em>target mean price</em>) de los analistas que cubren el valor es de <strong>6,38 EUR</strong> (con un rango que va desde un mínimo de <strong>4,20 EUR</strong> hasta un máximo de <strong>8,50 EUR</strong> a partir de 17 opiniones de analistas). Esto representa un potencial alcista (<em>consensus upside</em>) del <strong>25,37%</strong>.</li>
+</ul>
+<hr />
+<h6>4. Evidencia y Datos Faltantes</h6>
+<ul>
+<li><strong>Fuentes consultadas:</strong> Datos extraídos de los registros oficiales y proveedor de datos financieros de Yahoo Finance para <code>COL.MC</code> actualizados a noviembre de 2026.</li>
+<li><strong>Datos faltantes:</strong> No se dispone de la muestra completa de titulares de noticias de los últimos siete días específicos de la compañía (se incluye muestra macroeconómica general de prensa saliente del 29 al 30 de octubre de 2026). No se ha aportado un portfolio de inversión específico para valorar asignaciones de capital individuales.</li>
+</ul>
+<hr />
+<h6>5. Resumen Clave (Tabla Estructurada)</h6>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Métrica / Indicador</th>
+<th style="text-align:left">Valor / Dato</th>
+<th style="text-align:left">Implicación para el Inor / Trader</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Ticker y Mercado</strong></td>
+<td style="text-align:left">COL.MC (MCE)</td>
+<td style="text-align:left">Socimi de oficinas en España.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Precio de Cierre</strong></td>
+<td style="text-align:left">5,09 EUR (30-10-2026)</td>
+<td style="text-align:left">Cotización estable en rango de medias móviles.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>RSI (14)</strong></td>
+<td style="text-align:left">54,40</td>
+<td style="text-align:left">Zona neutral; equilibrio de mercado sin extremos.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>MACD / Señal</strong></td>
+<td style="text-align:left">0,0184 / -0,0057</td>
+<td style="text-align:left">Ligero sesgo positivo de corto plazo.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Price to Book (P/B)</strong></td>
+<td style="text-align:left">0,53</td>
+<td style="text-align:left">Descuento del ~47% respecto al valor contable.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Rentabilidad por Dividendo</strong></td>
+<td style="text-align:left">6,29%</td>
+<td style="text-align:left">Atractivo rendimiento para inversores de renta.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Precio Objetivo Consenso</strong></td>
+<td style="text-align:left">6,38 EUR</td>
+<td style="text-align:left">Upside potencial estimado del 25,37%.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Deuda Total</strong></td>
+<td style="text-align:left">~5.100 Millones EUR</td>
+<td style="text-align:left">Apalancamiento típico de REIT patrimonialista.</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="s1-2">News Analyst</h3>
+<p><strong>Rating</strong>: REVIEW</p>
+<p><strong>FINAL TRANSACTION PROPOSAL:</strong> HOLD</p>
+<h6>Informe de Análisis y Estado de Situación para COL.MC (Inmobiliaria Colonial, Socimi S.A.)</h6>
+<h6>1. Resumen Ejecutivo y Datos Clave</h6>
+<ul>
+<li><strong>Instrumento:</strong> <code>COL.MC</code> (Inmobiliaria Colonial, Socimi S.A., MCE, Sector Inmobiliario / REIT - Office).</li>
+<li><strong>Precio de Cierre (30/10/2026):</strong> 5.09 EUR</li>
+<li><strong>Capitalización de Mercado:</strong> ~3.190 millones de EUR</li>
+<li><strong>Valor en Libros (<em>Book Value</em>):</strong> 9.579 EUR (<em>Price-to-Book</em>: 0.53x, lo que indica que cotiza con un descuento significativo frente a su valor contable declarado).</li>
+<li><strong>Dividendo:</strong> Rentabilidad por dividendo (<em>dividend yield</em>) estimada en 6.29% (dividendo de 0.32 EUR).</li>
+<li><strong>Consenso de Analistas:</strong> Precio objetivo medio de 6.38 EUR (mínimo de 4.20 EUR, máximo de 8.50 EUR, basado en 17 opiniones), lo que arroja un potencial de revalorización (<em>consensus upside</em>) del 25.37%.</li>
+</ul>
+<hr />
+<h6>2. Fundamentos Financieros y Resultados</h6>
+<ul>
+<li><strong>Ingresos y Rentabilidad:</strong> Los ingresos del ejercicio 2025 se situaron en 408,4 millones de EUR (comparados con 502,4 millones en 2024), reflejando los ajustes de cartera o ciclos de desinversión/alquiler típicos del sector de oficinas <em>prime</em>. No obstante, el beneficio neto en 2025 alcanzó los 344,4 millones de EUR (frente a 307,4 millones en 2024).</li>
+<li><strong>EBITDA:</strong> Registró 462,18 millones de EUR al cierre de 2025 (464,66 millones en 2024).</li>
+<li><strong>Estructura de Capital y Deuda:</strong> La compañía mantiene un endeudamiento total de aproximadamente 5.126 millones de EUR (frente a un total de activos de 12.428 millones de EUR al cierre de 2025), con una caja de 389 millones de EUR. El ratio de deuda neta sobre EBITDA no se encuentra plenamente disponible en los registros exactos instantáneos, pero la relación Deuda/Activos se mantiene en torno al 41%, reflejo de la intensidad de capital propia de las SOCIMIs de oficinas.</li>
+</ul>
+<hr />
+<h6>3. Contexto Macroeconómico y Sectorial</h6>
+<p>Las noticias recientes de finales de octubre de 2026 muestran un entorno de mercados mixtos y volátiles en Europa y España:</p>
+<ul>
+<li><strong>Decisión del Banco Central Europeo (BCE):</strong> El BCE mantuvo los tipos de interés en el <strong>2,5%</strong> a finales de octubre de 2026, advirtiendo no obstante sobre riesgos persistentes en la inflación y el crecimiento vinculados a los costes energéticos y la situación fiscal en países como Francia.</li>
+<li><strong>Comportamiento del Mercado Bursátil:</strong> El selectivo español (Ibex 35) se ha visto presionado en torno a los 18.700 - 18.800 puntos, lastrado por la volatilidad en el sector bancario e industrial.</li>
+<li><strong>Impacto en el Sector Inmobiliario (<em>REIT - Office</em>):</strong> Unos tipos de interés estables en el 2,5% ofrecen un respiro moderado frente a los picos restrictivos anteriores, pero la presión sobre las valoraciones de oficinas <em>prime</em> y secundarias sigue siendo objeto de cautela por parte de los inversores institucionales, lo cual explica que <code>COL.MC</code> cotice con un descuento superior al 45% respecto a su valor contable (P/B de 0.53x).</li>
+</ul>
+<hr />
+<h6>4. Evidencia Técnica y Momentum</h6>
+<ul>
+<li><strong>Medias Móviles:</strong> El precio de cierre (5.09 EUR) se sitúa muy cerca de su media móvil de 50 sesiones (<code>sma50</code>: 5.088 EUR) y ligeramente por debajo de la media de 200 sesiones (<code>sma200</code>: 5.165 EUR), denotando una fase de consolidación a medio plazo.</li>
+<li><strong>RSI (14):</strong> En 54.40, lo que indica un mercado neutral, sin señales claras de sobrecompra o sobreventa.</li>
+<li><strong>Volatilidad y Retornos:</strong> La volatilidad anualizada se sitúa en el 14.31%, con un retorno en los últimos 21 días del +5.20%, pero acumulando una caída del -9.75% a 63 sesiones.</li>
+</ul>
+<hr />
+<h6>5. Evidencia Contaria y de Apoyo, Supuestos y Datos Faltantes</h6>
+<ul>
+<li><strong>Evidencia de Apoyo:</strong> Atractiva rentabilidad por dividendo (6.29%), importante descuento patrimonial (<em>Price-to-Book</em> de 0.53x) y un potencial alcista de consenso superior al 25% hacia los 6.38 EUR. Estabilidad en los tipos del BCE al 2,5%.</li>
+<li><strong>Evidencia Contaria:</strong> Los ingresos anuales totales mostraron un retroceso en 2025 (408M EUR frente a 502M EUR en 2024), y el sector de oficinas europeo enfrenta incertidumbres estructurales sobre la demanda de espacio de trabajo híbrido y la revalorización de activos patrimoniales.</li>
+<li><strong>Datos Faltantes:</strong> No se dispone de un desglose detallado actualizado de los contratos de alquiler a largo plazo (<em>WAULT</em>) ni de la tasa de desocupación exacta (<em>vacancy rate</em>) para el trimestre en curso más allá de los estados financieros auditados de cierre de 2025. La muestra de noticias específicas de la compañía en los últimos siete días es nula (según alertas del sistema), limitando la lectura a flujos macroeconómicos generales.</li>
+</ul>
+<hr />
+<h6>Resumen Organizado en Tabla</h6>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Concepto Clave</th>
+<th style="text-align:left">Valor / Métrica Actual (<code>COL.MC</code>)</th>
+<th style="text-align:left">Comentario Analítico</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Precio y Rango</strong></td>
+<td style="text-align:left">5.09 EUR (30/10/2026)</td>
+<td style="text-align:left">Consolidación técnica en torno a la SMA de 50 sesiones (5.08 EUR).</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Valoración (P/B)</strong></td>
+<td style="text-align:left">0.53x (Book Value: 9.58 EUR)</td>
+<td style="text-align:left">Fuerte descuento frente al valor contable de los activos inmobiliarios.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Rentabilidad por Dividendo</strong></td>
+<td style="text-align:left">6.28% (0.32 EUR por acción)</td>
+<td style="text-align:left">Retorno atractivo para inversores enfocados en rentas.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Consenso de Analistas</strong></td>
+<td style="text-align:left">6.38 EUR (Upside: +25.37%)</td>
+<td style="text-align:left">17 analistas cubren el valor con precio objetivo máximo de 8.50 EUR.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Contexto Macroeconómico</strong></td>
+<td style="text-align:left">Tipos BCE en 2.50%</td>
+<td style="text-align:left">Estabilización de tipos que frena la presión bajista sobre valoraciones de activos.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Fundamentales (2025)</strong></td>
+<td style="text-align:left">Ingresos: 408M€ / Beneficio: 344M€</td>
+<td style="text-align:left">Reducción interanual de ingresos compensada por resultados netos sólidos.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Rating / Propuesta</strong></td>
+<td style="text-align:left">REVIEW / HOLD</td>
+<td style="text-align:left">Se aconseja mantener posición y revisar evolución del sector de oficinas ante el escenario de tipos del BCE.</td>
+</tr>
+</tbody>
+</table></div>
+<p><em>Fuentes de referencia empleadas:</em> Yahoo Finance (<code>COL.MC</code> quote, financials), comunicados macroeconómicos y de tipos de interés del BCE (octubre 2026).</p>
+<h3 id="s1-3">Fundamentals Analyst</h3>
+<p><strong>Rating</strong>: REVIEW</p>
+<p><strong>Análisis Fundamental y de Mercado de COL.MC (Inmobiliaria Colonial, Socimi S.A.)</strong></p>
+<p>Como parte de la investigación institucional sobre la Socimi de oficinas <strong>COL.MC</strong> cotizada en la Bolsa de Madrid (MCE) y bajo el índice de referencia <code>^IBEX</code>, a continuación se detalla la revisión exhaustiva de sus estados financieros, valoraciones de mercado, indicadores técnicos y perfil fundamental basada en la instantánea de datos con fecha 1 de noviembre de 2026.</p>
+<hr />
+<h6>1. Perfil de la Compañía y Actividad de Negocio</h6>
+<ul>
+<li><strong>Identidad:</strong> Colonial SFL, Socimi S.A. (<code>COL.MC</code>)</li>
+<li><strong>Sector:</strong> Real Estate / REIT - Office (Inmobiliaria / Socimi de oficinas prémium en los mercados de París, Madrid y Barcelona).</li>
+<li><strong>Moneda de cotización y financiera:</strong> EUR.</li>
+<li><strong>Contexto Macroeconómico reciente:</strong> Conforme a los titulares de la semana analizada (fines de octubre de 2026), el Banco Central Europeo (BCE) ha mantenido los tipos de interés en el 2,5% (según anuncios del 29 de octubre de 2026), advirtiendo sobre riesgos inflacionarios y energéticos, lo que introduce un entorno de cautela en los mercados bursátiles europeos y de presión selectiva en los sectores inmobiliarios e industriales expuestos al coste de financiación.</li>
+</ul>
+<h6>2. Análisis Bursátil y Técnico</h6>
+<ul>
+<li><strong>Precio de Cierre (30/10/2026):</strong> 5,09 EUR</li>
+<li><strong>Rango de Operativa y Medias Móviles:</strong>
+<ul>
+<li>RSI (14): 54,40 (zona neutral).</li>
+<li>MACD: 0,018 (con señal en -0,005, indicando un leve cruce alcista reciente).</li>
+<li>SMA 20: 4,99 EUR | SMA 50: 5,08 EUR | SMA 200: 5,16 EUR.</li>
+</ul>
+</li>
+<li><strong>Rentabilidades y Volatilidad:</strong>
+<ul>
+<li>Retorno a 21 sesiones: +5,21%</li>
+<li>Retorno a 63 sesiones: -9,75% (con un rendimiento relativo frente al índice de -2,91 puntos porcentuales).</li>
+<li>Retorno a 252 sesiones: -1,17%</li>
+<li>Volatilidad anualizada del 14,32% y drawdown máximo reciente de -9,99%.</li>
+</ul>
+</li>
+<li><strong>Consenso de Analistas:</strong>
+<ul>
+<li>Precio objetivo medio (Consensus Target Mean Price): 6,38 EUR (con un rango entre un mínimo de 4,20 EUR y un máximo de 8,50 EUR según 17 opiniones de analistas).</li>
+<li>Upside de consenso: +25,37% sobre el precio actual de 5,09 EUR.</li>
+</ul>
+</li>
+</ul>
+<h6>3. Estados Financieros y Fundamentales</h6>
+<p>De acuerdo con la información financiera oficial provista en los reportes anuales cerrados al 31 de diciembre de 2025 (y comparados con 2024 y 2023):</p>
+<ul>
+<li><strong>Cuenta de Resultados (Income Statement):</strong>
+<ul>
+<li><strong>Ingresos Totales (Total Revenue):</strong> 408,4 millones de EUR en el ejercicio 2025 (frente a los 502,41 millones de EUR de 2024 y los 387,28 millones de EUR de 2023).</li>
+<li><strong>EBITDA:</strong> 462,19 millones de EUR en 2025 (464,66 millones en 2024; -1.107,94 millones en 2023 debido a ajustes de valoración de activos).</li>
+<li><strong>Ingreso Neto (Net Income):</strong> 344,45 millones de EUR en 2025, recuperándose de la volatilidad histórica de valor razonable de las carteras (en comparación con los 307,40 millones de EUR en 2024 y las pérdidas de -1.018,97 millones de EUR en 2023).</li>
+</ul>
+</li>
+<li><strong>Balance de Situación (Balance Sheet):</strong>
+<ul>
+<li><strong>Activos Totales:</strong> 12.428,73 millones de EUR (2025), manteniendo un crecimiento progresivo desde los 12.236,50 millones en 2024 y 11.834,60 millones en 2023.</li>
+<li><strong>Deuda Total:</strong> 5.126,90 millones de EUR en 2025 (4.999,59 millones en 2024; 5.294,06 millones en 2023). La instantánea reporta un total de deuda en el balance actual de 5.102,03 millones de EUR frente a una posición de caja de 389,21 millones de EUR.</li>
+<li><strong>Patrimonio Neto (Stockholders' Equity):</strong> 5.873,05 millones de EUR (2025), incrementándose desde los 5.677,32 millones en 2024.</li>
+</ul>
+</li>
+<li><strong>Flujo de Caja (Cash Flow):</strong>
+<ul>
+<li><strong>Flujo de Caja Operativo:</strong> 287,76 millones de EUR en 2025 (362,41 millones en 2024).</li>
+<li><strong>Inversión en CAPEX:</strong> -5,33 millones de EUR (2025).</li>
+<li><strong>Flujo de Caja Libre (Free Cash Flow):</strong> 282,43 millones de EUR en 2025 (358,17 millones en 2024).</li>
+</ul>
+</li>
+</ul>
+<h6>4. Ratios de Valoración y Dividendos</h6>
+<ul>
+<li><strong>Capitalización de Mercado:</strong> ~3.186,81 millones de EUR.</li>
+<li><strong>PER (Trailing PE):</strong> 9,60x | <strong>PER Adelantado (Forward PE):</strong> 13,59x (con un BPA estimado de 0,37 EUR).</li>
+<li><strong>Precio / Valor en Libros (Price to Book):</strong> 0,53x, lo que refleja que la acción cotiza con un descuento sustancial (~47%) sobre su valor contable por acción (Book Value por acción estimado en 9,58 EUR).</li>
+<li><strong>Dividendo:</strong>
+<ul>
+<li>Tasa de dividendo (Dividend Rate): 0,32 EUR.</li>
+<li>Rentabilidad por dividendo (Dividend Yield): 6,29% (atractiva para inversores de renta).</li>
+</ul>
+</li>
+</ul>
+<h6>5. Datos Faltantes y Advertencias (Missing Data &amp; Warnings)</h6>
+<ul>
+<li><em>Datos Faltantes:</em> No se dispone de la métrica exacta de <code>net_debt_ebitda</code> calculada directamente en el flujo de automatización (aparece como <code>null</code>), aunque se pueden derivar los agregados de deuda bruta (5.102M EUR) y caja (389M EUR). Asimismo, la muestra de titulares recopilada en los últimos siete días no cubre directamente noticias operativas específicas de la empresa, limitándose al contexto macroeconómico general europeo y las decisiones de tipos del BCE.</li>
+</ul>
+<hr />
+<h6>Resumen de Puntos Clave</h6>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Concepto Clave</th>
+<th style="text-align:left">Valor / Métrica</th>
+<th style="text-align:left">Implicación Analítica</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Precio Actual (<code>COL.MC</code>)</strong></td>
+<td style="text-align:left">5,09 EUR</td>
+<td style="text-align:left">Cotización cercana a sus medias móviles (SMA50 en 5,08 EUR).</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Capitalización Bursátil</strong></td>
+<td style="text-align:left">~3.187 millones de EUR</td>
+<td style="text-align:left">Socimi de gran capitalización en el mercado español.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Precio a Valor en Libros</strong></td>
+<td style="text-align:left">0,53x</td>
+<td style="text-align:left">Fuerte descuento patrimonial frente al valor de los activos inmobiliarios (BV por acción de 9,58 EUR).</td>
+</tr>
+<tr>
+<td style="text-align:left">**Rentabilidad por Divid</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table></div>
+</section><section id="s2"><h2>II. Research Team Decision</h2><h3 id="s2-1">Bull Researcher</h3>
+<p>Bull Analyst: <strong>Rating</strong>: BUY<br />
+FINAL TRANSACTION PROPOSAL: BUY</p>
+<p>¡Hola a todos! Qué bueno que podamos abrir este debate sobre <strong>COL.MC</strong> (Inmobiliaria Colonial, Socimi S.A.), porque mientras los osos se quedan mirando de forma miope los titulares generales del mercado o los ajustes temporales del sector de oficinas, los toros estamos viendo una oportunidad de inversión absolutamente magnífica y de un valor patrimonial inigualable.</p>
+<p>Déjame desmontar los típicos argumentos pesimistas que suelen poner los osos sobre la mesa y explicarte por qué la tesis alcista en <strong>COL.MC</strong> es infinitamente más sólida:</p>
+<h6>1. ¿Descuento patrimonial o &quot;trampa de valor&quot;? ¡Una ganga del 47%!</h6>
+<p>Los osos siempre intentan asustar diciendo: <em>&quot;¡Cuidado con el sector inmobiliario de oficinas, la gente trabaja desde casa!&quot;</em>. Y yo les respondo con datos fríos y contundentes: <strong>COL.MC</strong> cotiza a un ratio <strong>Precio/Valor en Libros (<em>Price-to-Book</em>) de apenas 0,53x</strong>. Esto significa que estás comprando los mejores activos de oficinas <em>prime</em> en las ubicaciones más exclusivas de París, Madrid y Barcelona con un <strong>descuento cercano al 47%</strong> respecto a su valor contable neto. Su valor en libros por acción se sitúa en unos sólidos <strong>9,58 EUR</strong>, mientras que la acción cotiza a <strong>5,09 EUR</strong>. ¿De verdad un oso me va a decir que pagar poco más de 5 euros por casi 10 euros de activos inmobiliarios de máxima calidad es un mal negocio? Es un margen de seguridad gigantesco que cualquier inversor en valor desearía tener.</p>
+<h6>2. ¿Y qué pasa con la rentabilidad por dividendo y el flujo de caja?</h6>
+<p>El oso suele quejarse de la volatilidad en los ingresos netos interanuales, ignorando por completo la resiliencia del negocio principal. A pesar de los vaivenes macroeconómicos, <strong>COL.MC</strong> generó un beneficio neto de más de 344 millones de euros en su último ejercicio completo y un flujo de caja libre (<em>Free Cash Flow</em>) superior a los 282 millones de euros. ¿Y sabes qué significa eso para el accionista? Una <strong>rentabilidad por dividendo (<em>dividend yield</em>) del 6,29%</strong>. En un entorno donde el Banco Central Europeo (BCE) mantiene los tipos estables en el 2,5%, obtener más de un 6% de rendimiento directo mientras esperas que el mercado reconozca el verdadero valor de los activos es una auténtica mina de oro para el inversor paciente.</p>
+<h6>3. El consenso de analistas y el potencial alcista (<em>Upside</em>)</h6>
+<p>No estoy solo en esta visión alcista. El consenso de los 17 analistas que cubren formalmente a <strong>COL.MC</strong> sitúa el precio objetivo medio en <strong>6,38 EUR</strong>, con un techo optimista que alcanza los <strong>8,50 EUR</strong>. Esto representa un <strong>potencial alcista (<em>consensus upside</em>) del 25,37%</strong> desde el nivel actual de 5,09 EUR. Técnicamente, el valor se encuentra consolidando en una zona de equilibrio muy sana (RSI de 54,40 y cotizando justo en torno a su media móvil de 50 sesiones de 5,08 EUR), listo para romper al alza en cuanto el mercado asimile que la estabilidad de tipos del BCE es el mejor escenario posible para frenar la presión sobre las valoraciones patrimoniales.</p>
+<p>En resumen, querido analista bajista: mientras tú te preocupas por los fantasmas del pasado, nosotros acumulamos activos <em>prime</em> de primera categoría a mitad de precio, cobrando un jugoso dividendo del 6,3% y esperando un potencial de subida superior al 25%. ¡<strong>COL.MC</strong> es una compra clara!</p>
+<h3 id="s2-2">Bear Researcher</h3>
+<p>Bear Analyst: <strong>Rating</strong>: REVIEW<br />
+FINAL TRANSACTION PROPOSAL: HOLD</p>
+<p>¡Hola colega! Comprendo perfectamente tu entusiasmo y cómo intentas arropar tu tesis con esos números tan llamativos, pero el optimismo ciego que demuestras con <strong>COL.MC</strong> es precisamente el tipo de trampa en la que los inversores caen una y otra vez. Déjame poner los pies en la tierra y destripar uno a uno esos supuestos &quot;chollos&quot; que defiendes con tanta pasión.</p>
+<h6>1. ¿Ganga del 47% o una clásica trampa de valor (<em>Value Trap</em>)?</h6>
+<p>Te llenas la boca hablando de ese ratio <em>Price-to-Book</em> de <strong>0,53x</strong> y de cómo comprar a 5,09 EUR un valor en libros de <strong>9,58 EUR</strong> es un regalo irresistible. Pero olvidas una regla de oro del mercado inmobiliario: <strong>un descuento masivo sobre el papel no es una ganga si el mercado tiene razones de peso para aplicarlo</strong>.</p>
+<ul>
+<li>Primero, no olvidemos que los ingresos totales de <strong>COL.MC</strong> sufrieron un retroceso significativo al pasar de 502,4 millones de EUR en 2024 a <strong>408,4 millones de EUR</strong> en 2025. Una contracción de casi el 20% en la línea superior de ingresos no es un &quot;ajuste temporal&quot;, es una señal de que el modelo de negocio de oficinas sufre presión estructural en sus rentas y en la ocupación.</li>
+<li>Segundo, ¿confías ciegamente en las tasaciones contables de los activos? En un entorno donde las valoraciones de oficinas <em>prime</em> en Europa siguen bajo la lupa debido a la incertidumbre económica y la flexibilidad laboral, el mercado descuenta que esos 12.420 millones de EUR en activos totales podrían sufrir recortes adicionales. El descuento del 47% no es un regalo del mercado; es un reflejo de que el inversor institucional duda de la calidad real de esos flujos a largo plazo.</li>
+</ul>
+<h6>2. La ilusión del dividendo frente a una montaña de deuda</h6>
+<p>Presumes de una rentabilidad por dividendo del <strong>6,29%</strong> gracias a un dividendo de 0,32 EUR y un flujo de caja libre de más de 282 millones de euros en 2025 (por debajo de los 358 millones de 2024, por cierto, lo que muestra una tendencia decreciente en la generación de caja). Pero te estás olvidando por completo del elefante en la habitación: <strong>la estructura de capital</strong>.</p>
+<ul>
+<li><strong>COL.MC</strong> arrastra una <strong>deuda total monstruosa que ronda los 5.100 millones de EUR</strong> (5.126 millones de EUR según el balance de cierre de 2025) frente a una caja de apenas 389 millones de EUR. Estamos hablando de una apalancamiento masivo.</li>
+<li>Aunque el Banco Central Europeo haya mantenido los tipos en el <strong>2,5%</strong> a finales de octubre de 2026, los tipos ya no están al 0%. Refinanciar o sostener una mochila de deuda de más de 5.000 millones de euros en un entorno donde el BCE advierte persistentemente sobre riesgos inflacionarios y energéticos significa que una parte obscena del flujo de caja operativo se irá en el servicio de la deuda, poniendo en perpetua tensión la sostenibilidad del propio dividendo que tanto alabas.</li>
+</ul>
+<h6>3. ¿Consenso alcista o carta a los Reyes Magos?</h6>
+<p>Agitas el banderín de los 17 analistas y ese precio objetivo medio de <strong>6,38 EUR</strong> (con un <em>upside</em> del 25%). Pero te olvidas de mirar el rango completo que ellos mismos dibujan: ¡el precio objetivo más bajo está en <strong>4,20 EUR</strong>! Es decir, hay expertos institucionales que ven un riesgo real de caída adicional de más del 17% desde los niveles actuales.</p>
+<ul>
+<li>Técnicamente nos dices que el valor está en una zona &quot;sana&quot; con un RSI de 54,40 y apoyado en su media de 50 sesiones (5,08 EUR). ¡Por favor! El título acumula una caída del <strong>9,75% a 63 sesiones</strong> y un rendimiento anual plano o negativo (-1,17%). Estar pegado a la media móvil de 50 sesiones no es fortaleza alcista, es pura atonía bursátil, un movimiento lateral carente de catalizadores reales donde el dinero inteligente prefiere mantenerse al margen.</li>
+</ul>
+<p>En definitiva, querido toro: comprar <strong>COL.MC</strong> solo porque &quot;parece barato&quot; en base a un valor contable que el mercado castiga sistemáticamente, ignorando una deuda de 5.100 millones y una contracción en los ingresos, es jugársela a una carta muy peligrosa. Por eso, mi propuesta se mantiene firme en la prudencia: un perfil de <strong>HOLD</strong> a la espera de ver si realmente la compañía puede sanear su balance o si el sector de oficinas europeo termina de encajar el golpe estructural. ¡No te ciegues con los espejismos!</p>
+<h3 id="s2-3">Research Manager</h3>
+<p><strong>Recommendation</strong>: Hold</p>
+<p><strong>Rationale</strong>: El debate entre el analista alcista y el bajista pone de manifiesto una divergencia clara sobre COL.MC. Por un lado, el toro argumenta un atractivo margen de seguridad con un ratio Precio/Valor en Libros de 0,53x (descuento cercano al 47% frente a los 9,58 EUR contables), un jugoso dividendo del 6,29% y un potencial alcista del 25,37% según el consenso. Por otro lado, el oso advierte con razón sobre la contracción interanual de los ingresos (desde 502,4 millones de EUR en 2024 hasta 408,4 millones en 2025), una deuda total superior a los 5.000 millones de EUR que limita la flexibilidad financiera y un rendimiento bursátil a 63 sesiones negativo (-9,75%). Tras sopesar ambas posturas, el peso de la pesada estructura de deuda y la debilidad en la línea de ingresos neutralizan el atractivo del descuento patrimonial y el dividendo. Por tanto, la evidencia se mantiene equilibrada entre el valor teórico y los riesgos estructurales, dictando una postura de prudencia y mantenimiento.</p>
+<p><strong>Strategic Actions</strong>: Mantener la asignación actual en COL.MC sin realizar nuevas compras ni ventas (ponderación neutral o estándar dentro de la cartera hipotética). Instruir al trader para que vigile de cerca la evolución del precio en torno a la media móvil de 50 sesiones (5,08 EUR) y espere catalizadores más claros sobre la capacidad de reducción de deuda o la estabilización de los ingresos antes de comprometer nuevo capital.</p>
+</section><section id="s3"><h2>III. Trading Team Plan</h2><h3 id="s3-1">Trader</h3>
+<p><strong>Action</strong>: Hold</p>
+<p><strong>Reasoning</strong>: La recomendación de la mesa se alinea con una postura de retención prudente para COL.MC, dado que la valoración mediante un ratio P/B de 0,53x y una rentabilidad por dividendo del 6,29% se ven contrarrestadas por un nivel de deuda superior a los 5.000 millones de EUR y una contracción en los ingresos totales interanuales. Con un RSI neutral de 54,40 y el precio cotizando muy cerca de su media móvil de 50 sesiones (5,089 EUR), no existen señales técnicas contundentes para incrementar la exposición ni catalizadores inmediatos que justifiquen una liquidación.</p>
+<p><strong>Entry Price</strong>: not provided</p>
+<p><strong>Stop Loss</strong>: not provided</p>
+<p><strong>Position Sizing</strong>: Mantener ponderación neutral o estándar dentro de la cartera hipotética</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+</section><section id="s4"><h2>IV. Risk Management Team Decision</h2><h3 id="s4-1">Aggressive Analyst</h3>
+<p>Aggressive Analyst: ¡Atención a todos los miembros de la mesa! Mientras el analista conservador y el analista neutral titubean desde la barrera pidiendo cautela y estancamiento, la realidad de los números en <code>COL.MC</code> nos grita a gritos que estamos ante una oportunidad de oro que el mercado está ignorando por puro miedo. Nos hablan de una contracción temporal de ingresos o de una deuda superior a los 5.000 millones de euros, aplicando una visión estrecha y miedosa propia de quien no entiende la dinámica de una gran socimi patrimonialista. ¡Despierten! Estamos hablando de un gigante de oficinas <em>prime</em> en París, Madrid y Barcelona con unos activos totales valorados en más de 12.400 millones de euros y un patrimonio neto de casi 5.900 millones.</p>
+<p>¿Qué es lo que verdaderamente nos dice la fría y dura realidad de los datos? Que <code>COL.MC</code> cotiza a 5,09 EUR, ¡pero con un ratio Precio/Valor en Libros (P/B) ridículo de 0,53x! Esto significa que el mercado nos está regalando los activos de Inmobiliaria Colonial con un descuento escandaloso de casi el 47% frente a su valor contable real, donde el <em>Book Value</em> por acción se sitúa en unos imponentes 9,58 EUR. ¿Dónde está la visión de crecimiento de la que tanto presumen los analistas tradicionales? Se les escapa entre los dedos por mirar únicamente el corto plazo. Además, nos ofrecen una rentabilidad por dividendo del 6,29% mientras esperamos el despegue. ¿Prefieren dejar el capital dormido en activos que no rinden mientras el BCE estabiliza los tipos en el 2,5% y se abre la ventana para una inminente recuperación?</p>
+<p>El consenso de los 17 analistas que cubren el valor es cristalino: sitúan el precio objetivo medio en 6,38 EUR, lo que representa un potencial alcista (<em>consensus upside</em>) superior al 25% (¡llegando hasta los 8,50 EUR en su rango máximo!). El indicador RSI se encuentra totalmente equilibrado en 54,40, sin señales de euforia pero con un soporte técnico perfecto en torno a la media móvil de 50 sesiones (5,089 EUR) y un cruce alcista incipiente en el MACD. Pretender mantener una postura totalmente estática o de revisión indefinida ante semejante divergencia entre el valor real de los activos y el precio de mercado es regalar rentabilidad a manos llenas. No podemos permitirnos ser timoratos. Hay que apostar fuerte por la expansión de múltiplos, aprovechar el descuento patrimonial masivo y capturar ese +25% de recorrido alcista antes de que el resto del mercado despierte y se abalance sobre el valor. ¡La paciencia táctica sin audacia es solo mediocridad disfrazada de prudencia!</p>
+<p>Rating: HOLD
+FINAL TRANSACTION PROPOSAL: HOLD</p>
+<h3 id="s4-2">Conservative Analyst</h3>
+<p>Conservative Analyst: Escucho con atención el ardor y el entusiasmo del Analista Agresivo, pero dejar que la euforia nuble la realidad financiera de <code>COL.MC</code> es precisamente el tipo de error que expone a la firma a pérdidas inaceptables. Hablar de un &quot;descuento escandaloso&quot; del 47% en el ratio Precio/Valor en Libros de 0,53x ignora por completo que en el sector de las SOCIMIs de oficinas, los descuentos sobre el NAV o el valor contable suelen ser estructurales y reflejan riesgos muy reales que el mercado no ignora por capricho, sino por fundamentos sólidos.</p>
+<p>Comencemos por el elefante en la habitación que mi colega prefiere obviar bajo retórica grandilocuente: la estructura de capital. Inmobiliaria Colonial arrastra una deuda total que supera los 5.100 millones de euros (exactamente 5.102.026.240 EUR en la última instantánea), frente a unos ingresos totales que sufrieron una contracción importante al pasar de más de 502 millones en 2024 a 408 millones en 2025. En un entorno macroeconómico donde el Banco Central Europeo mantiene los tipos de interés en el 2,5% y advierte sobre persistentes riesgos inflacionarios y energéticos, un apalancamiento de esta magnitud no es un detalle menor; es una espada de Damocles sobre la estabilidad de los flujos de caja y el coste de refinanciación. Las cargas financieras absorben gran parte de la operatividad, y minimizar esto bajo la excusa de que &quot;es la dinámica de una gran socimi patrimonialista&quot; es una imprudencia temeraria.</p>
+<p>Además, el Analista Agresivo confía ciegamente en un precio objetivo de consenso de 6,38 EUR y en un supuesto potencial alcista del 25%. Olvida recordar que los precios objetivo de los analistas son meras estimaciones de consenso, no garantías intrínsecas, y que basar una asignación de capital en promesas de recuperación mientras el título acumula un retorno anual del -1,17% y una caída a 63 sesiones del -9,75% es apostar con los ojos vendados. El RSI neutral en 54,40 y la cotización pegada milimétricamente a la media móvil de 50 sesiones (5,089 EUR) no muestran ninguna urgencia compradora; al contrario, reflejan una fase de estancamiento técnico donde la paciencia y la preservación del capital deben mandar.</p>
+<p>¿Ofrece una rentabilidad por dividendo atractiva del 6,29%? Sí, es cierto, y es el único cojín real que sostiene el valor a corto plazo. Pero ese dividendo de 0,32 EUR por acción no compensa el riesgo de iliquidez patrimonial ni justifica incrementar la exposición de la firma en un momento de transición para el mercado de oficinas europeo, donde el modelo de trabajo híbrido y la revalorización de los activos <em>prime</em> siguen enfrentando vientos en contra estructurales.</p>
+<p>Exigir audacia sin medir la volatilidad ni el riesgo bajista que marcan los fundamentales no es valentía, es negligencia analítica. Por todo ello, mantener una postura de retención prudente sin incrementar el riesgo ni arriesgar liquidez en un entorno tan delicado es la única decisión responsable para proteger los activos de la firma.</p>
+<p>Rating: HOLD
+FINAL TRANSACTION PROPOSAL: HOLD</p>
+<h3 id="s4-3">Neutral Analyst</h3>
+<p>Neutral Analyst: Estimados colegas, analicemos con cabeza fría lo que estamos discutiendo aquí sobre <code>COL.MC</code>. Por un lado, el Analista Agresivo se deja deslumbrar por un descuento patrimonial que llama &quot;escandaloso&quot;, exigiendo compras masivas bajo la promesa de un potencial alcista del 25% y un precio objetivo de consenso de 6,38 EUR. Pero peca de optimismo ingenuo al ignorar que en el sector de las SOCIMIs de oficinas, los descuentos sobre el valor contable suelen ser persistentes debido a la complejidad de rotar y valorar activos físicos en un mercado europeo en profunda transición.</p>
+<p>Por otro lado, el Analista Conservador se atrincheró en el miedo absoluto, utilizando la deuda superior a los 5.000 millones de euros y la contracción de ingresos de 2025 (408 millones frente a los 502 millones de 2024) como excusa para paralizar cualquier iniciativa, olvidando que una compañía con más de 12.400 millones en activos totales y un flujo de caja operativo sólido de casi 288 millones no está al borde del abismo, especialmente con el Banco Central Europeo estabilizando los tipos de interés en el 2,5%.</p>
+<p>La realidad que propone una estrategia neutral y equilibrada se encuentra exactamente en el punto medio. No tiene sentido lanzarse a comprar de manera agresiva cuando el título acumula un retorno anual del -1,17% y una caída a 63 sesiones del -9,75%, con el precio milimétricamente pegado a su media móvil de 50 sesiones en 5,089 EUR y un RSI totalmente neutral de 54,40 que no grita urgencia alcista. Pero tampoco es razonable ignorar que el jugoso dividendo del 6,29% y el valor en libros por acción de 9,58 EUR (frente al precio de cotización de 5,09 EUR) ofrecen un suelo de protección de rentas envidiable.</p>
+<p>Por lo tanto, la postura sensata no es la inacción absoluta ni la euforia compradora, sino mantener una ponderación estrictamente neutral o estándar en la cartera hipotética, utilizando los flujos de la atractiva rentabilidad por dividendo para consolidar la posición sin incrementar la exposición al riesgo de apalancamiento bruto. De este modo, protegemos el capital frente a la volatilidad del sector inmobiliario comercial europeo mientras nos aseguramos de no perder la eventual expansión de múltiplos si el mercado decide cerrar la brecha con el consenso de analistas.</p>
+<p><strong>Rating</strong>: HOLD
+FINAL TRANSACTION PROPOSAL: HOLD</p>
+</section><section id="s5"><h2>V. Portfolio Manager Decision</h2><h3 id="s5-1">Portfolio Manager</h3>
+<p><strong>Rating</strong>: Hold</p>
+<p><strong>Executive Summary</strong>: Mantener la asignación actual en COL.MC sin realizar nuevas compras ni ventas, conservando una ponderación neutral o estándar dentro de la cartera hipotética. Vigilar la evolución del precio en torno a la media móvil de 50 sesiones (5,08 EUR) y esperar catalizadores más claros sobre la reducción de deuda o la estabilización de los ingresos. Se recomienda mantener una postura prudente con un horizonte temporal de mediano plazo.</p>
+<p><strong>Investment Thesis</strong>: El debate entre el analista agresivo y el conservador revela una equilibrada divergencia entre el valor teórico y los riesgos estructurales de COL.MC. Por un lado, la tesis alcista señala un atractivo margen de seguridad respaldado por un ratio Precio/Valor en Libros de 0,53x (frente a un valor contable de 9,58 EUR), un jugoso rendimiento por dividendo del 6,29% y un potencial alcista del 25,37% según el consenso de analistas situado en 6,38 EUR. Por otro lado, la postura bajista y prudente advierte con fundamento sobre una estructura de capital pesada con una deuda total superior a los 5.100 millones de EUR, una contracción de los ingresos totales en 2025 hasta los 408,4 millones de EUR (desde los 502,4 millones en 2024) y un comportamiento bursátil desfavorable a 63 sesiones con un retorno del -9,75%. Dado que el RSI neutral de 54,40 y la cotización pegada a la media móvil de 50 sesiones reflejan una fase de estancamiento técnico sin catalizadores inmediatos de ruptura, el peso de la elevada deuda y la presión sobre los ingresos neutralizan el atractivo del descuento patrimonial. La evidencia se mantiene equilibrada, justificando una postura de retención hasta que se disipen los riesgos de refinanciación o se estabilice el negocio de oficinas europeo.</p>
+<p><strong>Price Target</strong>: 6.38</p>
+<p><strong>Time Horizon</strong>: 3-6 months</p>
+</section>
+</main>
+<footer class="credit"><a href="https://github.com/TauricResearch/TradingAgents" rel="noopener">TradingAgents</a> powered by <a class="brand" href="https://github.com/TauricResearch" rel="noopener">Tauric Research</a></footer>
+</div>
+<a class="to-top" href="#top">Top</a>
+</body>
+</html>

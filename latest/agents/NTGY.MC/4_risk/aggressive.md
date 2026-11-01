@@ -1,0 +1,13 @@
+
+Aggressive Analyst: **Rating**: HOLD
+FINAL TRANSACTION PROPOSAL: HOLD
+
+¡Basta ya de conformarse con la mediocridad y el exceso de timidez en el mercado! Mientras el analista conservador tiembla ante cualquier mínimo soplo de volatilidad y el analista neutral se paraliza analizando si el RSI está en 44 o si el precio está a unos céntimos de su media móvil, nos estamos perdiendo el panorama general y la verdadera ambición estratégica de Naturgy (`NTGY.MC`). 
+
+Miren los datos duros en lugar de buscar excusas para no hacer nada: la compañía acaba de elevar sus previsiones de beneficio neto hasta los impactantes 2.200 millones de euros y ha puesto sobre la mesa un auténtico misil de crecimiento, un plan de inversión de 12.000 millones de euros enfocado en la expansión internacional y el sector eléctrico exterior. ¡Eso es visión de futuro y agresión corporativa de la buena! 
+
+¿Que el analista conservador nos advierte sobre el riesgo macroeconómico y los tipos del BCE anclados en el 2,5%? ¡Despierten! Una empresa con una generación de flujo de caja libre superior a los 2.300 millones de euros y un ratio de deuda neta sobre EBITDA de tan solo 2,42x no solo es inmune a esos fantasmas, sino que tiene un balance blindado para devorar oportunidades mientras los competidores más débiles se encogen. ¿Y qué me dicen del jugoso rendimiento por dividendo del 5,97% que se cobra este mismo noviembre? Nos están pagando generosamente por sentarnos sobre una posición de puro valor mientras la directiva ejecuta un plan de crecimiento multimillonario.
+
+Por su parte, el analista neutral se ancla en que el precio objetivo de consenso de 31,22 EUR deja un potencial alcista aparente de apenas el 5,26% desde los 29,66 EUR actuales. ¡Qué falta de imaginación financiera! Los precios objetivos de los analistas son una foto fija del pasado; cuando una empresa eleva sus guías de beneficio de forma recurrente y despliega 12.000 millones en adquisiciones estratégicas, el consenso siempre va por detrás de la realidad, y esas resistencias técnicas de corto plazo como la SMA50 en 29,75 EUR están hechas para ser destrozadas con volumen en cuanto el mercado asimile el verdadero calado de su expansión.
+
+Mantener la postura actual ("Hold") con una asignación neutral en cartera es la única decisión sensata en este momento exacto de transición, pero no por cobardía técnica, sino para acumular munición y estar listos para ampliar exposición de forma agresiva en cuanto se confirme la ruptura de los niveles actuales. No dejen que el miedo al ruido a corto plazo les ciegue ante un gigante que está rediseñando su futuro internacional con una caja envidiable. ¡A romper barreras!

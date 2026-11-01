@@ -1,0 +1,9 @@
+**Rating**: Hold
+
+**Executive Summary**: Mantener una postura neutral y de estricta observación (Hold) en SLR.MC, asignando una ponderación hipotética del 0% a nuevas entradas. Se recomienda esperar a que la cotización supere su media móvil de 200 sesiones (19.66 EUR) y se estabilice el flujo de caja libre antes de comprometer capital.
+
+**Investment Thesis**: Tras sopesar las posturas de los analistas, la balanza se inclina hacia una postura de retención prudente. Por un lado, el analista agresivo destaca con razón los atractivos fundamentos operativos de Solaria Energía y Medio Ambiente, S.A. (SLR.MC), incluyendo un PER trailing de 7.80x, un ROE del 20.44% y un crecimiento de ingresos del 38.8%, junto a catalizadores como el decreto de centros de datos y un precio objetivo medio de consenso de 22.39 EUR. Sin embargo, los analistas conservador y neutral demuestran que estos argumentos se ven contrarrestados por graves riesgos estructurales y técnicos: un flujo de caja libre profundamente negativo (-437.97 millones de EUR), un apalancamiento de deuda neta a EBITDA de 4.14x, y un entorno de tipos del BCE al 2.5% que encarece la financiación del CapEx masivo (-398.26 millones de EUR). Todo ello ocurre en medio de una clara tendencia bajista técnica, con la acción cotizando a 14.595 EUR muy por debajo de su SMA200 (19.66 EUR) y acumulando un drawdown del -43.32%. Dado que el peso de la quema de caja y la tensión en el balance neutralizan el atractivo de la valoración barata, el escenario actual exige paciencia y monitorización a la espera de señales técnicas de reversión.
+
+**Price Target**: 22.39
+
+**Time Horizon**: 3-6 months

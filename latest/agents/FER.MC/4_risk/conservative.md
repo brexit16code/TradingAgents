@@ -1,0 +1,9 @@
+
+Conservative Analyst: Estimado colega analista agresivo, su entusiasmo por el repunte bursátil y la calidad de los activos de Ferrovial es comprensible, pero desestimar los riesgos financieros y técnicos actuales basándose únicamente en el potencial a largo plazo expone a la firma a una volatilidad inaceptable. Decir que un Forward P/E de 44.13x y un EV/EBITDA de 29.09x son meros detalles estáticos es ignorar que el mercado ya está priced-in con expectativas sumamente exigentes, dejando un margen de error peligrosamente estrecho si el tráfico en sus autopistas norteamericanas sufre cualquier contratiempo o si las señales de fatiga reportadas en el sector se materializan. 
+
+Tampoco podemos restar importancia a una ratio de deuda neta sobre EBITDA de 4.38x (con una deuda total que roza los 10.657 millones de euros) en un entorno donde la estabilidad macroeconómica sigue sujeta a la cautela de los tipos de interés del BCE. Un apalancamiento de esta magnitud bajo múltiplos de valoración tan elevados limita drásticamente la flexibilidad financiera ante cualquier escenario adverso. 
+
+En cuanto al plano técnico, celebrar un RSI de 68.01 rozando la sobrecompra y un rendimiento a 63 sesiones del -12.04% como una señal incuestionable de compra es obviar el riesgo inminente de corrección a corto plazo tras el reciente rebote del 15%. Confiar ciegamente en un precio objetivo de consenso de 60.10 EUR sin exigir un punto de entrada más seguro o una consolidación de soportes es apostar por la esperanza en lugar de proteger el capital. La prudencia y la postura de mantenimiento no son sinónimo de mediocridad, sino de la disciplina necesaria para preservar nuestros activos frente al entusiasmo desmedido.
+
+**Rating**: HOLD
+FINAL TRANSACTION PROPOSAL: **HOLD**

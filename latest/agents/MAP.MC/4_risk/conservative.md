@@ -1,0 +1,13 @@
+
+Conservative Analyst: **Rating**: HOLD  
+FINAL TRANSACTION PROPOSAL: **HOLD**
+
+Colegas, debemos frenar un momento y poner los pies sobre la tierra antes de dejarnos llevar por discursos de euforia que ignoran el riesgo real que asumimos en `MAP.MC`. 
+
+El analista agresivo nos pinta un panorama de "oportunidad de valor explosivo" y nos anima a lanzarnos a comprar sin mirar atrás simplemente porque el RSI está en 29.45 y el beneficio neto a septiembre de 2026 alcanzó los 924,3 millones de euros. Pero permítanme recordarles algo fundamental: un indicador de sobreventa no es una garantía de suelo, es una señal de alerta de que el activo está sufriendo una presión vendedora intensa. Ignorar que el precio cotiza por debajo de sus medias móviles de 20, 50 y 200 sesiones —con una SMA20 en 4.28 EUR y una SMA50 en 4.35 EUR frente al precio actual de 3.99 EUR— es ignorar la tendencia bajista imperante. Lanzarse a incrementar posiciones en este preciso instante es intentar atrapar un cuchillo cayendo, lo que contradice directamente nuestro mandato de proteger los activos de la firma frente a la volatilidad.
+
+Se nos habla de un PER *forward* atractivo de 9.40x y de un ROE del 18.38% como si fueran escudos protectores infalibles contra las turbulencias macroeconómicas. No obstante, olvidan que el entorno europeo está marcado por la cautela del BCE, que ha mantenido los tipos en el 2.50% ante riesgos inflacionarios y energéticos, y que el propio sector financiero e ibérico está sufriendo correcciones severas y castigos bursátiles generalizados, tal como vimos a finales de octubre. Con una volatilidad del 19.75% y un *drawdown* del -12.66%, asumir que el valor rebotará mágicamente hacia el objetivo de consenso de 4.33 EUR sin una confirmación técnica de giro expone a nuestro capital a pérdidas innecesarias a corto plazo.
+
+Es cierto que la rentabilidad por dividendo del 4.51% y el pago inminente de noviembre de 2026 son atractivos, y por eso mismo apoyamos mantener las posiciones actuales en lugar de liquidarlas en mínimos de sobreventa. Pero una cosa es mantener lo que ya tenemos para cobrar el dividendo y otra muy distinta es arriesgar más capital fresco en un entorno técnico desfavorable y sin una gestión de riesgo rigurosa (recordemos que ni el stop-loss ni el tamaño de posición han sido definidos por el trader). 
+
+La verdadera prudencia y la defensa de nuestros activos no provienen de la temeridad de comprar en plena caída guiados por la codicia de un rebote rápido, sino de la disciplina. Mantengamos la postura de retención (*HOLD*), protegiendo nuestro capital actual de la volatilidad, y exijamos una confirmación clara de giro alcista por encima de las medias móviles antes de arriesgar ni un solo céntimo más de la firma.

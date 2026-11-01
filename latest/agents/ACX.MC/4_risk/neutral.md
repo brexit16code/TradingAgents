@@ -1,0 +1,12 @@
+
+Neutral Analyst: Como Analista de Riesgo Neutral, observo que tanto el analista agresivo como el conservador están cayendo en sesgos que nublan una estrategia pragmática para `ACX.MC`.
+
+El analista agresivo comete el error de la "ilusión de la recuperación". Celebrar que el beneficio se haya multiplicado por 23 ignora deliberadamente que la base comparativa es un 2025 donde la empresa perdió dinero. Comprar ciegamente basándose en un Forward PE de 10x es apostar a una mejora que aún no ha cristalizado en el flujo de caja, y pedir una carga agresiva cuando el MACD está en terreno negativo y el precio pierde sus medias de corto plazo es, financieramente, una imprudencia. El mercado no es histérico; está cotizando una realidad de altos costes financieros y márgenes operativos que apenas alcanzan el 0,95%.
+
+Por otro lado, el analista conservador se refugia en la parálisis. Si bien es cierto que el ratio deuda/EBITDA de 3,52x es elevado y que el *payout ratio* de 2,82 es preocupante, clasificar cualquier movimiento como "atrapar un cuchillo" ignora que `ACX.MC` es un actor cíclico esencial. Esperar estrictamente a los 15,19 EUR de la media móvil de 200 días es una estrategia válida, pero es un soporte estático que podría ser perforado si el sentimiento del sector de materiales básicos empeora por la presión del BCE. Ignorar el valor latente de sus operaciones en EE.UU. simplemente por miedo a la volatilidad es desperdiciar la oportunidad de ajustar el precio medio de compra en una caída que, hasta cierto punto, ya está siendo digerida por el mercado.
+
+La solución moderada no es "comprar agresivamente" ni "esperar sentado". La clave aquí es la **acumulación táctica supeditada a niveles**. No debemos comprar porque el beneficio "suene" bien, ni debemos dejar pasar el tren por miedo al ruido macro. Recomiendo mantener la posición actual, pero permitirse una entrada parcial solo si el precio muestra signos de consolidación real cerca de la zona de 15,20-15,50 EUR, donde la relación riesgo-beneficio es mucho más atractiva. Si el precio no respeta ese soporte, la tesis alcista debe revisarse por completo, invalidando cualquier compra. Esta estrategia evita el "all-in" emocional del agresivo y la inacción defensiva del conservador, gestionando el riesgo de forma activa.
+
+**Rating**: HOLD
+
+FINAL TRANSACTION PROPOSAL: **HOLD** (Mantener posición actual. No incrementar exposición hasta que la acción testee y confirme el soporte en la zona de los 15,20 EUR, validando un suelo técnico sólido frente a la volatilidad reciente).

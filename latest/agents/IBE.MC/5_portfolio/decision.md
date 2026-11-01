@@ -1,0 +1,9 @@
+**Rating**: Hold
+
+**Executive Summary**: Se recomienda mantener una postura neutral (Hold) sobre Iberdrola (IBE.MC). La estrategia de ejecución consiste en conservar la asignación actual en cartera sin realizar nuevas compras ni ventas, evitando la sobrecompra técnica actual y protegiendo el capital a la espera de una corrección hacia la media móvil de 20 sesiones en el entorno de los 21,57 EUR.
+
+**Investment Thesis**: La decisión de mantener se sustenta en el equilibrio demostrado durante el debate de los analistas entre la calidad fundamental y el impulso alcista frente a las señales de sobrevaloración. Por un lado, el analista agresivo destaca con razón la sólida inercia técnica del valor (cotizando por encima de sus medias móviles y con una rentabilidad anual del 28,89%), el excelente músculo operativo respaldado por un EBITDA superior a 14.490 millones de euros y una capacidad probada para captar financiación verde en condiciones favorables (más de 1.400 millones de euros y 1.600 millones de dólares en bonos verdes). Por otro lado, los analistas conservador y neutro advierten fundadamente sobre la existencia de un riesgo técnico inminente debido a un RSI en zona de sobrecompra (72,13) y una cotización actual (22.18 EUR) que ya supera el precio objetivo medio del consenso de analistas (21.38 EUR). Asimismo, aunque el apalancamiento con una ratio de deuda neta sobre EBITDA de 3,95x es manejable para una utility global, el contexto de tipos de interés del BCE en el 2,5% aconseja prudencia. Pesar ambas posturas revela que la fortaleza operativa contrarresta el riesgo de apalancamiento, pero no justifica asumir una sobrevaloración a corto plazo, lo que invalida una convicción clara de compra o venta y justifica plenamente una postura neutral de mantenimiento.
+
+**Price Target**: 21.38
+
+**Time Horizon**: 3-6 months

@@ -1,0 +1,9 @@
+**Rating**: Hold
+
+**Executive Summary**: Se recomienda mantener la posición actual en ENG.MC sin realizar nuevas compras, aprovechando el atractivo rendimiento por dividendo del 5,66% y la solidez de la tendencia técnica por encima de las medias móviles. Se aconseja vigilar de cerca el apalancamiento y establecer un nivel de stop loss de protección en la zona de 16,10 EUR ante posibles correcciones por sobrecompra.
+
+**Investment Thesis**: El debate entre los analistas refleja fuerzas contrapesadas que justifican un Hold estricto. Por parte del análisis alcista, se reconoce la validez de la fuerte tendencia técnica de corto y medio plazo, con la cotización en 17,68 EUR holgadamente por encima de la SMA20 (16,99 EUR), SMA50 (16,77 EUR) y SMA200 (16,10 EUR), además de un dividendo del 5,66% que actúa como un soporte clave. Por otro lado, los analistas conservadores y neutrales aportan datos fundamentales innegables: un ratio de deuda neta sobre EBITDA elevado (6,15x), un flujo de caja libre reducido a 94,42 millones de euros con un payout cercano al 80% en un contexto de tipos del BCE al 2,50%, y una cotización que ya supera el precio objetivo medio de consenso de los analistas (17,17 EUR), acompañada de un RSI en zona de sobrecompra (73,08). Al sopesar ambas posturas, la solidez del dividendo y el impulso técnico equilibran los riesgos financieros y de apalancamiento, desaconsejando tanto la ampliación de exposición como una venta precipitada. Un cambio en la tesis requeriría una ruptura clara de las medias móviles clave o un deterioro mayor en la generación de caja.
+
+**Price Target**: 17.17
+
+**Time Horizon**: 3-6 months

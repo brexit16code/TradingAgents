@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'">
+<title>NTGY.MC 2026-11-01 Hold: TradingAgents report</title>
+<style>
+:root {
+  --paper: #fbfbfa; --ink: #1c2126; --muted: #5d6670; --rule: #e2e5e8; --wash: #f2f4f5;
+  --accent: #087a59; --up: #087a59; --down: #b4372f; --level: #5d6670; --edge: #d3d8dc; --mark: #878f97;
+  --serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #131a1f; --ink: #e4e8eb; --muted: #9aa6af; --rule: #263239; --wash: #1a242a;
+    --accent: #14c290; --up: #14c290; --down: #ef6f63; --level: #9aa6af; --edge: #3d4c55; --mark: #66737c;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .masthead .logo [stroke="#363636"] { stroke: var(--muted); }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font: 17px/1.62 var(--serif); font-kerning: normal;
+}
+.page { max-width: 46rem; margin: 0 auto; padding: 3.5rem 1.5rem 6rem; }
+main h2, main h3 { scroll-margin-top: 1rem; }
+a { color: var(--accent); text-underline-offset: 0.15em; }
+h1, h2, h3, h4 { text-wrap: balance; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.masthead { padding-bottom: 1.75rem; border-bottom: 1px solid var(--rule); }
+/* The logo leads at the top left, where readers look for it, 24px tall (the usual
+   on-screen floor for a wordmark) with at least its height clear below. */
+.masthead .logo { display: block; width: fit-content; margin: 0 0 2.25rem; }
+.masthead .logo svg { display: block; height: 1.5rem; width: auto; }
+.masthead h1 {
+  margin: 0; font: 600 2.6rem/1.1 var(--sans); letter-spacing: -0.02em;
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.2em 0.5em;
+}
+.masthead .rating { font-weight: 500; }
+.rating.up { color: var(--up); } .rating.down { color: var(--down); } .rating.level { color: var(--level); }
+.rating.review { color: var(--muted); font-style: italic; }
+.masthead .date { margin: 0.55rem 0 1.5rem; font: 1rem/1.4 var(--sans); color: var(--muted); }
+.run { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: 0.45rem 1.25rem;
+  font: 0.85rem/1.5 var(--sans); }
+.run > div { display: contents; }
+.run dt { color: var(--muted); }
+.run dd { margin: 0; overflow-wrap: anywhere; }
+.run .note dd { color: var(--down); }
+.field { display: inline-block; margin: 0 0.15rem 0.15rem 0; padding: 0 0.4rem; border: 1px solid var(--edge);
+  border-radius: 4px; background: var(--wash); font: 0.8rem/1.6 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+.run .group { display: inline-block; margin-right: 0.9rem; white-space: nowrap; }
+.run .group > .name { color: var(--muted); margin-right: 0.3rem; }
+.run .then { color: var(--muted); margin: 0 0.2rem; }
+
+/* The sections: listed under the header on narrow screens. On wide ones, a
+   quiet rail centred on the left edge (numerals for the sections, short bars
+   for their agents) that opens into the full list when pointed at or focused. */
+.contents { margin: 2.25rem 0 0; font: 0.9rem/1.45 var(--sans); }
+.contents ul { margin: 0; padding: 0; list-style: none; }
+.contents > ul > li { margin: 0 0 0.75rem; }
+.contents ul ul { margin-top: 0.2rem; padding-left: 1.6rem; font-size: 0.85rem; }
+.contents ul ul li { margin: 0.1rem 0; }
+.contents a { display: flex; align-items: center; gap: 0.6rem; color: var(--muted); text-decoration: none; }
+.contents > ul > li > a { color: var(--ink); }
+.contents .num { min-width: 1.6rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.contents .bar { display: none; }
+.contents a:hover .label, .contents a:focus-visible .label { color: var(--accent); text-decoration: underline; }
+.to-top { position: fixed; right: 1rem; bottom: calc(1rem + env(safe-area-inset-bottom));
+  padding: 0.25rem 0.6rem; border: 1px solid var(--edge); border-radius: 4px; background: var(--paper);
+  color: var(--muted); font: 0.8rem/1.4 var(--sans); text-decoration: none; }
+
+@media (min-width: 60rem) {
+  .contents { position: fixed; left: 1rem; top: 50%; transform: translateY(-50%); z-index: 1;
+    max-height: 86vh; overflow-y: auto; overscroll-behavior: contain; margin: 0;
+    padding: 0.7rem 0.9rem; border: 1px solid transparent; border-radius: 6px;
+    transition: background-color 0.15s, border-color 0.15s, box-shadow 0.15s; }
+  .contents > ul > li { margin: 0 0 0.35rem; }
+  .contents ul ul { margin-top: 0; padding-left: 0; }
+  .contents ul ul li { margin: 0; }
+  /* Marks reach 3:1 contrast and rows 24px, the WCAG 2.2 floors for a control's
+     visual cue and its pointer target. */
+  .contents a { min-height: 1.5rem; }
+  .contents .num { min-width: 1.4rem; }
+  .contents .bar { display: block; flex: none; width: 1.25rem; height: 2px; margin-left: 0.2rem;
+    border-radius: 1px; background: var(--mark); }
+  .contents .label { max-width: 0; opacity: 0; overflow: hidden; white-space: nowrap;
+    transition: opacity 0.15s, max-width 0.2s; }
+  .contents:hover, .contents:focus-within { background: var(--paper); border-color: var(--rule);
+    box-shadow: 0 6px 24px rgb(0 0 0 / 0.08); }
+  .contents:hover .label, .contents:focus-within .label { max-width: 18rem; opacity: 1; }
+  .contents a:hover .bar, .contents a:focus-visible .bar { background: var(--accent); }
+  .to-top { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .contents, .contents .label { transition: none; }
+}
+
+/* The maker's credit: one quiet line at the foot. */
+.credit { margin-top: 4.5rem; padding-top: 1.25rem; border-top: 1px solid var(--rule);
+  color: var(--muted); font: 0.8rem/1.4 var(--sans); }
+.credit a { color: inherit; text-decoration: none; }
+.credit a.brand { color: var(--accent); }
+.credit a:hover, .credit a:focus-visible { text-decoration: underline; }
+
+/* Three levels of separation: the five groups, the agents within a group, and
+   breaks an agent draws inside its own text. */
+main h2 {
+  margin: 4.5rem 0 0.25rem; padding-top: 1.5rem; border-top: 2px solid var(--ink);
+  font: 600 1.45rem/1.3 var(--sans); letter-spacing: -0.01em;
+}
+main section:first-child h2 { margin-top: 3rem; }
+main h3 { margin: 2.75rem 0 0.75rem; padding-top: 1.1rem; border-top: 1px solid var(--rule);
+  font: 600 1.15rem/1.35 var(--sans); color: var(--accent); }
+main h2 + h3 { margin-top: 1.25rem; padding-top: 0; border-top: 0; }
+main h4, main h5, main h6 { margin: 1.75rem 0 0.5rem; font: 600 1rem/1.4 var(--sans); }
+main h5, main h6 { color: var(--muted); }
+main p, main ul, main ol { margin: 0 0 1rem; }
+main li { margin: 0.25rem 0; }
+main strong { font-weight: 650; }
+main blockquote { margin: 1.25rem 0; padding: 0.1rem 0 0.1rem 1rem; border-left: 3px solid var(--rule);
+  color: var(--muted); }
+main code { font: 0.88em/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  background: var(--wash); padding: 0.1em 0.3em; border-radius: 3px; }
+main pre { background: var(--wash); padding: 0.9rem 1rem; border-radius: 4px; overflow-x: auto; }
+main pre code { background: none; padding: 0; }
+main hr { width: 3rem; margin: 2rem auto; border: 0; border-top: 1px solid var(--rule); }
+
+.table { overflow-x: auto; margin: 0 0 1.25rem; }
+table { border-collapse: collapse; width: 100%; font: 0.86rem/1.45 var(--sans);
+  font-variant-numeric: tabular-nums; }
+th, td { padding: 0.45rem 0.7rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--rule); }
+th { font-weight: 600; border-bottom-color: var(--muted); }
+tbody tr:last-child td { border-bottom: 0; }
+
+@media (max-width: 34rem) {
+  body { font-size: 16px; }
+  .page { padding: 2rem 1rem 3rem; }
+  .masthead h1 { font-size: 2rem; }
+  .masthead .logo svg { height: 1.25rem; }
+  .run { grid-template-columns: 1fr; gap: 0 0; }
+  .run dd { margin-bottom: 0.45rem; }
+  .run .group { white-space: normal; }
+}
+@media print {
+  :root { --paper: #fff; --ink: #000; --muted: #444; --rule: #bbb; --accent: #000; --wash: #f2f2f2;
+    --edge: #bbb; --up: #087a59; --down: #b4372f; --level: #444; }
+  body { font-size: 11pt; }
+  .table { overflow: visible; }
+  .page { max-width: none; padding: 0; }
+  .contents, .to-top { display: none; }
+  main h2 { break-before: page; border-top: 0; margin-top: 0; }
+  main section:first-child h2 { break-before: auto; }
+  main h3, main h4 { break-after: avoid; }
+  a { color: inherit; text-decoration: none; }
+  table { break-inside: avoid; }
+}
+</style>
+</head>
+<body>
+<div class="page" id="top">
+<header class="masthead">
+<a class="logo" href="https://tauric.ai" rel="noopener" aria-label="Tauric Research"><svg width="993" height="115" viewBox="0 0 993 115" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M189.86 95.0459V37.9779H165.924V29.9259H223.74V37.9779H199.804V95.0459H189.86ZM251.026 46.4259C256.071 46.4259 260.178 47.0272 263.345 48.2299C266.514 49.4032 268.89 51.3686 270.474 54.1259C272.058 56.8832 272.85 60.6379 272.85 65.3899V95.0459H264.666L263.961 89.8979H263.434C261.644 91.7752 259.386 93.2419 256.657 94.2979C253.929 95.3246 251.025 95.8379 247.946 95.8379C244.426 95.8379 241.419 95.2952 238.925 94.2099C236.432 93.0952 234.54 91.5406 233.249 89.5459C231.959 87.5512 231.313 85.2046 231.313 82.5059C231.313 78.2526 232.897 74.9672 236.065 72.6499C239.263 70.3032 244.337 68.8219 251.29 68.2059L263.258 67.0179V64.7299C263.258 61.9139 262.774 59.7139 261.806 58.1299C260.838 56.5459 259.371 55.4312 257.406 54.7859C255.47 54.1406 252.888 53.8179 249.662 53.8179C247.432 53.8179 245.012 54.0086 242.401 54.3899C239.82 54.7712 237.341 55.3432 234.965 56.1059V48.8019C237.312 48.0392 239.908 47.4526 242.754 47.0419C245.628 46.6312 248.386 46.4259 251.026 46.4259ZM250.541 89.0619C252.888 89.0619 255.162 88.6512 257.362 87.8299C259.562 86.9792 261.527 85.7179 263.258 84.0459V72.8259L252.038 73.9259C248.136 74.3659 245.35 75.2166 243.678 76.4779C242.005 77.7099 241.169 79.4699 241.169 81.7579C241.169 84.0752 241.947 85.8792 243.501 87.1699C245.056 88.4312 247.403 89.0619 250.541 89.0619ZM313.339 95.8379C307.59 95.8379 303.087 94.2979 299.831 91.2179C296.575 88.1086 294.947 83.2686 294.947 76.6979V47.1739H304.715V76.1699C304.715 80.1886 305.624 83.0779 307.443 84.8379C309.291 86.5979 311.916 87.4779 315.319 87.4779C317.871 87.4779 320.379 86.9939 322.843 86.0259C325.336 85.0286 327.492 83.5766 329.311 81.6699V47.1739H339.079V95.0459H330.983L330.367 89.9419H329.883C327.624 91.8486 325.072 93.3152 322.227 94.3419C319.382 95.3392 316.419 95.8379 313.339 95.8379ZM362.371 47.1739H370.423L371.171 53.2899H371.743C373.474 51.2072 375.703 49.5792 378.431 48.4059C381.188 47.2326 384.063 46.6459 387.055 46.6459C388.756 46.6459 390.355 46.7926 391.851 47.0859V55.8419C390.414 55.5779 388.654 55.4459 386.571 55.4459C383.99 55.4459 381.364 55.9446 378.695 56.9419C376.026 57.9392 373.84 59.4206 372.139 61.3859V95.0459H362.371V47.1739ZM409.069 95.0459V47.1739H418.837V95.0459H409.069ZM413.953 37.8459C411.871 37.8459 410.287 37.3912 409.201 36.4819C408.145 35.5726 407.617 34.2672 407.617 32.5659C407.617 30.8352 408.145 29.5152 409.201 28.6059C410.287 27.6672 411.871 27.1979 413.953 27.1979C416.036 27.1979 417.605 27.6672 418.661 28.6059C419.747 29.5152 420.289 30.8352 420.289 32.5659C420.289 34.2672 419.747 35.5726 418.661 36.4819C417.605 37.3912 416.036 37.8459 413.953 37.8459ZM464.85 95.9259C456.607 95.9259 450.315 93.8432 445.974 89.6779C441.662 85.5126 439.506 79.3526 439.506 71.1979C439.506 63.0139 441.779 56.8392 446.326 52.6739C450.902 48.5086 457.575 46.4259 466.346 46.4259C470.716 46.4259 474.735 46.9246 478.402 47.9219V55.7099C476.378 55.2406 474.486 54.8886 472.726 54.6539C470.966 54.4192 469.118 54.3019 467.182 54.3019C461.168 54.3019 456.71 55.6512 453.806 58.3499C450.931 61.0486 449.494 65.2872 449.494 71.0659C449.494 76.8739 450.858 81.1566 453.586 83.9139C456.343 86.6712 460.42 88.0499 465.818 88.0499C467.695 88.0499 469.616 87.8886 471.582 87.5659C473.547 87.2139 475.82 86.6712 478.402 85.9379V93.7259C474.236 95.1926 469.719 95.9259 464.85 95.9259ZM574.428 95.0459L553.704 69.0859C553.176 69.1152 552.37 69.1299 551.284 69.1299C548.38 69.1299 544.978 68.9832 541.076 68.6899V95.0459H531.308V31.4659C537.967 29.9699 544.846 29.2219 551.944 29.2219C561.595 29.2219 568.752 30.8059 573.416 33.9739C578.08 37.1126 580.412 42.1286 580.412 49.0219C580.412 54.0086 579.004 58.0859 576.188 61.2539C573.402 64.4219 569.266 66.6366 563.78 67.8979L585.648 95.0459H574.428ZM541.076 61.2099C543.071 61.4152 544.816 61.5619 546.312 61.6499C547.838 61.7379 549.627 61.7819 551.68 61.7819C558.427 61.7819 563.34 60.7699 566.42 58.7459C569.5 56.6926 571.04 53.4952 571.04 49.1539C571.04 46.0739 570.395 43.6099 569.104 41.7619C567.843 39.9139 565.863 38.5792 563.164 37.7579C560.495 36.9366 556.975 36.5259 552.604 36.5259C550.404 36.5259 548.424 36.6139 546.664 36.7899C544.904 36.9659 543.042 37.2299 541.076 37.5819V61.2099ZM642.947 74.0139H608.231C608.407 77.4752 609.155 80.2766 610.475 82.4179C611.795 84.5299 613.775 86.0846 616.415 87.0819C619.055 88.0792 622.443 88.5779 626.579 88.5779C630.686 88.5779 635.233 87.9472 640.219 86.6859V93.9459C635.027 95.2659 630.026 95.9259 625.215 95.9259C616.298 95.9259 609.61 93.9166 605.151 89.8979C600.722 85.8499 598.507 79.6166 598.507 71.1979C598.507 65.9179 599.402 61.4299 601.191 57.7339C602.981 54.0379 605.562 51.2366 608.935 49.3299C612.338 47.3939 616.43 46.4259 621.211 46.4259C628.251 46.4259 633.634 48.5819 637.359 52.8939C641.085 57.1766 642.947 63.3659 642.947 71.4619V74.0139ZM621.079 52.8939C616.973 52.8939 613.834 54.1406 611.663 56.6339C609.493 59.0979 608.334 62.9259 608.187 68.1179H633.751C633.634 62.9259 632.519 59.0979 630.407 56.6339C628.295 54.1406 625.186 52.8939 621.079 52.8939ZM677.365 95.9259C671.352 95.9259 665.896 95.2219 660.997 93.8139V86.7299C666.248 88.1966 671.718 88.9299 677.409 88.9299C681.809 88.9299 684.977 88.3432 686.913 87.1699C688.849 85.9672 689.817 84.2219 689.817 81.9339C689.817 80.7019 689.597 79.6899 689.157 78.8979C688.717 78.0766 687.969 77.4019 686.913 76.8739C685.857 76.3166 684.405 75.8912 682.557 75.5979L674.065 74.2779C669.137 73.4859 665.573 71.9899 663.373 69.7899C661.202 67.5899 660.117 64.6419 660.117 60.9459C660.117 56.4579 661.965 52.9232 665.661 50.3419C669.386 47.7312 675.062 46.4259 682.689 46.4259C685.094 46.4259 687.485 46.5872 689.861 46.9099C692.266 47.2032 694.481 47.6432 696.505 48.2299V55.2699C692.046 54.0379 687.456 53.4219 682.733 53.4219C677.893 53.4219 674.476 54.0526 672.481 55.3139C670.486 56.5752 669.489 58.3206 669.489 60.5499C669.489 62.2219 670.002 63.5859 671.029 64.6419C672.056 65.6686 673.889 66.4166 676.529 66.8859L685.021 68.2059C689.92 68.9686 693.513 70.3766 695.801 72.4299C698.089 74.4832 699.233 77.4606 699.233 81.3619C699.233 84.3832 698.412 86.9792 696.769 89.1499C695.156 91.3206 692.706 92.9926 689.421 94.1659C686.165 95.3392 682.146 95.9259 677.365 95.9259ZM760.579 74.0139H725.863C726.039 77.4752 726.787 80.2766 728.107 82.4179C729.427 84.5299 731.407 86.0846 734.047 87.0819C736.687 88.0792 740.075 88.5779 744.211 88.5779C748.317 88.5779 752.864 87.9472 757.851 86.6859V93.9459C752.659 95.2659 747.657 95.9259 742.847 95.9259C733.929 95.9259 727.241 93.9166 722.783 89.8979C718.353 85.8499 716.139 79.6166 716.139 71.1979C716.139 65.9179 717.033 61.4299 718.823 57.7339C720.612 54.0379 723.193 51.2366 726.567 49.3299C729.969 47.3939 734.061 46.4259 738.843 46.4259C745.883 46.4259 751.265 48.5819 754.991 52.8939C758.716 57.1766 760.579 63.3659 760.579 71.4619V74.0139ZM738.711 52.8939C734.604 52.8939 731.465 54.1406 729.295 56.6339C727.124 59.0979 725.965 62.9259 725.819 68.1179H751.383C751.265 62.9259 750.151 59.0979 748.039 56.6339C745.927 54.1406 742.817 52.8939 738.711 52.8939ZM796.986 46.4259C802.032 46.4259 806.138 47.0272 809.306 48.2299C812.474 49.4032 814.85 51.3686 816.434 54.1259C818.018 56.8832 818.81 60.6379 818.81 65.3899V95.0459H810.626L809.922 89.8979H809.394C807.605 91.7752 805.346 93.2419 802.618 94.2979C799.89 95.3246 796.986 95.8379 793.906 95.8379C790.386 95.8379 787.38 95.2952 784.886 94.2099C782.393 93.0952 780.501 91.5406 779.21 89.5459C777.92 87.5512 777.274 85.2046 777.274 82.5059C777.274 78.2526 778.858 74.9672 782.026 72.6499C785.224 70.3032 790.298 68.8219 797.25 68.2059L809.218 67.0179V64.7299C809.218 61.9139 808.734 59.7139 807.766 58.1299C806.798 56.5459 805.332 55.4312 803.366 54.7859C801.43 54.1406 798.849 53.8179 795.622 53.8179C793.393 53.8179 790.973 54.0086 788.362 54.3899C785.781 54.7712 783.302 55.3432 780.926 56.1059V48.8019C783.273 48.0392 785.869 47.4526 788.714 47.0419C791.589 46.6312 794.346 46.4259 796.986 46.4259ZM796.502 89.0619C798.849 89.0619 801.122 88.6512 803.322 87.8299C805.522 86.9792 807.488 85.7179 809.218 84.0459V72.8259L797.998 73.9259C794.097 74.3659 791.31 75.2166 789.638 76.4779C787.966 77.7099 787.13 79.4699 787.13 81.7579C787.13 84.0752 787.908 85.8792 789.462 87.1699C791.017 88.4312 793.364 89.0619 796.502 89.0619ZM841.524 47.1739H849.576L850.324 53.2899H850.896C852.627 51.2072 854.856 49.5792 857.584 48.4059C860.341 47.2326 863.216 46.6459 866.208 46.6459C867.909 46.6459 869.508 46.7926 871.004 47.0859V55.8419C869.567 55.5779 867.807 55.4459 865.724 55.4459C863.143 55.4459 860.517 55.9446 857.848 56.9419C855.179 57.9392 852.993 59.4206 851.292 61.3859V95.0459H841.524V47.1739ZM909.164 95.9259C900.921 95.9259 894.629 93.8432 890.288 89.6779C885.976 85.5126 883.82 79.3526 883.82 71.1979C883.82 63.0139 886.093 56.8392 890.64 52.6739C895.216 48.5086 901.889 46.4259 910.66 46.4259C915.03 46.4259 919.049 46.9246 922.716 47.9219V55.7099C920.692 55.2406 918.8 54.8886 917.04 54.6539C915.28 54.4192 913.432 54.3019 911.496 54.3019C905.482 54.3019 901.024 55.6512 898.12 58.3499C895.245 61.0486 893.808 65.2872 893.808 71.0659C893.808 76.8739 895.172 81.1566 897.9 83.9139C900.657 86.6712 904.734 88.0499 910.132 88.0499C912.009 88.0499 913.93 87.8886 915.896 87.5659C917.861 87.2139 920.134 86.6712 922.716 85.9379V93.7259C918.55 95.1926 914.033 95.9259 909.164 95.9259ZM941.796 23.9419H951.564V52.2779H952.048C954.248 50.3712 956.756 48.9192 959.572 47.9219C962.417 46.9246 965.395 46.4259 968.504 46.4259C974.019 46.4259 978.375 47.9952 981.572 51.1339C984.769 54.2432 986.368 59.0686 986.368 65.6099V95.0459H976.6V66.0939C976.6 62.0459 975.661 59.1566 973.784 57.4259C971.936 55.6952 969.237 54.8299 965.688 54.8299C963.048 54.8299 960.481 55.3286 957.988 56.3259C955.524 57.2939 953.383 58.7312 951.564 60.6379V95.0459H941.796V23.9419Z" fill="#14C290"/>
+<rect x="0.205322" y="14.873" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="14.679" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="14.679" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="86.6055" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="86.6055" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="101.284" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="58.7158" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="58.7158" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="87.1592" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="87.1592" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="73.0205" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="73.0205" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="87.3262" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="87.3262" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="101.631" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="101.631" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="101.284" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="15.0187" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.2668" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.2668" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.445" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.7506" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="100.716" y="14.873" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+</svg></a>
+<h1><span class="ticker">NTGY.MC</span> <span class="rating level">Hold</span></h1>
+<p class="date">Analysis of 2026-11-01</p>
+<dl class="run"><div class="detail"><dt>Generated</dt><dd>2026-11-01 08:06</dd></div><div class="detail"><dt>Deep model</dt><dd><span class="field">google</span> <span class="field">gemini-3.5-flash-lite</span></dd></div><div class="detail"><dt>Quick model</dt><dd><span class="field">google</span> <span class="field">gemini-3.5-flash-lite</span></dd></div><div class="detail"><dt>Analysts</dt><dd><span class="field">market</span> <span class="field">news</span> <span class="field">fundamentals</span></dd></div><div class="detail"><dt>Debate rounds</dt><dd><span class="group"><span class="name">research</span><span class="field">1</span></span> <span class="group"><span class="name">risk</span><span class="field">1</span></span></dd></div><div class="detail"><dt>Data vendors</dt><dd><span class="group"><span class="name">Prices</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Indicators</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Fundamentals</span><span class="field">yfinance</span></span> <span class="group"><span class="name">News</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Macro</span><span class="field">fred</span></span> <span class="group"><span class="name">Prediction markets</span><span class="field">polymarket</span></span> <span class="group"><span class="name">get_news</span><span class="field">ibex_sample</span></span> <span class="group"><span class="name">get_global_news</span><span class="field">ibex_sample</span></span></dd></div><div class="detail"><dt>Version</dt><dd>TradingAgents 0.7.1</dd></div></dl>
+</header>
+<nav class="contents" aria-label="Sections"><ul><li><a href="#s1"><span class="num">I</span> <span class="label">Analyst Team Reports</span></a><ul><li><a href="#s1-1"><span class="bar"></span> <span class="label">Market Analyst</span></a></li><li><a href="#s1-2"><span class="bar"></span> <span class="label">News Analyst</span></a></li><li><a href="#s1-3"><span class="bar"></span> <span class="label">Fundamentals Analyst</span></a></li></ul></li><li><a href="#s2"><span class="num">II</span> <span class="label">Research Team Decision</span></a><ul><li><a href="#s2-1"><span class="bar"></span> <span class="label">Bull Researcher</span></a></li><li><a href="#s2-2"><span class="bar"></span> <span class="label">Bear Researcher</span></a></li><li><a href="#s2-3"><span class="bar"></span> <span class="label">Research Manager</span></a></li></ul></li><li><a href="#s3"><span class="num">III</span> <span class="label">Trading Team Plan</span></a><ul><li><a href="#s3-1"><span class="bar"></span> <span class="label">Trader</span></a></li></ul></li><li><a href="#s4"><span class="num">IV</span> <span class="label">Risk Management Team Decision</span></a><ul><li><a href="#s4-1"><span class="bar"></span> <span class="label">Aggressive Analyst</span></a></li><li><a href="#s4-2"><span class="bar"></span> <span class="label">Conservative Analyst</span></a></li><li><a href="#s4-3"><span class="bar"></span> <span class="label">Neutral Analyst</span></a></li></ul></li><li><a href="#s5"><span class="num">V</span> <span class="label">Portfolio Manager Decision</span></a><ul><li><a href="#s5-1"><span class="bar"></span> <span class="label">Portfolio Manager</span></a></li></ul></li></ul></nav>
+<main>
+<section id="s1"><h2>I. Analyst Team Reports</h2><h3 id="s1-1">Market Analyst</h3>
+<p><strong>Rating</strong>: HOLD<br />
+FINAL TRANSACTION PROPOSAL: HOLD</p>
+<h6>Informe de Análisis Técnico y Fundamental: Naturgy Energy Group, S.A. (<code>NTGY.MC</code>)</h6>
+<h6>1. Contexto de Mercado y Datos Fundamentales</h6>
+<p>A fecha de 1 de noviembre de 2026 (con precios de cierre de sesión a 30 de octubre de 2026 proporcionados por la evidencia verificada), el valor de cotización de <strong>NTGY.MC</strong> se sitúa en <strong>29,66 EUR</strong>, registrando una ligera variación negativa del -0,47% en la última sesión. La capitalización bursátil de la compañía asciende a aproximadamente 27.476 millones de EUR.</p>
+<p>En el plano fundamental, <strong>NTGY.MC</strong> presenta métricas estables propias del sector de <em>Utilities - Regulated Gas</em> en la bolsa de Madrid (<code>MCE</code>):</p>
+<ul>
+<li><strong>PER (Trailing):</strong> 13,73x | <strong>PER (Forward):</strong> 13,78x</li>
+<li><strong>EV/EBITDA:</strong> 8,17x</li>
+<li><strong>Dividendo:</strong> Ofrece una rentabilidad por dividendo (<em>dividend yield</em>) atractiva del <strong>5,97%</strong> (con un <em>dividend rate</em> de 1,77 EUR y un <em>payout ratio</em> de 0,759), destacando en las agendas de noviembre de los inversores del Ibex 35 según los medios especializados (Finect, 30 de octubre de 2026).</li>
+<li><strong>Deuda Neta / EBITDA:</strong> Se sitúa en un saludable <strong>2,42x</strong>, con una deuda total de aproximadamente 17.313 millones de EUR frente a una caja de 4.841 millones de EUR.</li>
+<li><strong>Consenso de Analistas:</strong> El precio objetivo medio (<em>target mean price</em>) de los analistas es de <strong>31,22 EUR</strong> (con un rango entre un mínimo de 24,30 EUR y un máximo de 35,00 EUR basado en 18 opiniones), lo que arroja un potencial alcista de consenso (<em>consensus upside</em>) del <strong>5,26%</strong>.</li>
+</ul>
+<p>Recientes noticias corporativas de finales de octubre de 2026 destacan que Naturgy ha vuelto a elevar sus previsiones financieras (apuntando a un beneficio neto estimado de 2.200 millones de euros) y ha reservado 12.000 millones de euros para inversiones estratégicas enfocadas en el crecimiento del sector eléctrico fuera de España (Merca2.es, CapitalMadrid, 29-30 de octubre de 2026). No obstante, analistas como Renta 4 señalan que el valor cuenta con un recorrido limitado a corto plazo en bolsa tras estas revisiones al alza (Bolsamania, 29 de octubre de 2026).</p>
+<hr />
+<h6>2. Análisis Técnico y de Indicadores Seleccionados</h6>
+<p>De acuerdo con la instantánea técnica verificada para <code>NTGY.MC</code>, el activo muestra una estructura de consolidación a medio plazo con un sesgo ligeramente neutral/alcista:</p>
+<ul>
+<li><strong>Precio de Cierre:</strong> 29,66 EUR.</li>
+<li><strong>Medias Móviles:</strong> El precio se sitúa ligeramente por debajo de su SMA20 (30,24 EUR) y de su SMA50 (29,75 EUR), pero se mantiene firmemente por encima de su SMA200 (27,49 EUR), lo que confirma que la tendencia de fondo a largo plazo continúa siendo alcista.</li>
+<li><strong>RSI (14):</strong> Se encuentra en <strong>44,28</strong>, reflejando una zona neutral, sin indicios de sobrecompra ni de sobreventa extrema, lo que sugiere una pausa o consolidación en el corto plazo tras las subidas previas (retorno a 21 sesiones del +2,21% y a 252 sesiones del +15,75%).</li>
+<li><strong>MACD:</strong> El indicador MACD registra un valor de <strong>0,147</strong> frente a una línea de señal (<em>macds</em>) de <strong>0,264</strong>. La línea MACD se encuentra ligeramente por debajo de su señal, lo que concuerda con una fase de corrección técnica de corto plazo o consolidación de beneficios tras los resultados presentados a finales de octubre.</li>
+<li><strong>Volatilidad:</strong> La volatilidad anualizada a 511 sesiones se sitúa en un moderado <strong>14,93%</strong>, con un <em>drawdown</em> actual limitado al <strong>-4,63%</strong> respecto a máximos recientes.</li>
+</ul>
+<h6>Indicadores Seleccionados y Complementarios Recomendados:</h6>
+<ol>
+<li><code>close_50_sma</code> (50 SMA): Identifica la tendencia de medio plazo y actúa como referencia dinámica de soporte/resistencia.</li>
+<li><code>close_200_sma</code> (200 SMA): Confirma la macro-tendencia alcista de largo plazo.</li>
+<li><code>close_10_ema</code> (10 EMA): Captura los giros rápidos de impulso a muy corto plazo.</li>
+<li><code>macd</code> y <code>macds</code> (MACD &amp; Signal): Indican cambios de impulso mediante cruces de líneas.</li>
+<li><code>rsi</code> (RSI): Mide las condiciones de sobrecompra/sobreventa (actualmente neutral en 44.28).</li>
+<li><code>atr</code> (ATR): Vital para la gestión del riesgo y dimensionamiento de <em>stop-loss</em> dada la volatilidad del sector regulado.</li>
+</ol>
+<hr />
+<h6>3. Evidencia y Datos Faltantes</h6>
+<ul>
+<li><strong>Evidencia utilizada:</strong> Precios de cierre a 30/10/2026, estados financieros anuales (2023-2025), noticias de la última semana de octubre de 2026 sobre resultados y dividendos (Finect, CapitalMadrid, Merca2.es, Bolsamania).</li>
+<li><strong>Datos faltantes:</strong> No se dispone en la instantánea de flujos de caja operativos (<em>operating cash flow</em>) detallados para los últimos periodos intermedios exactos de 2026, ni de un desglose pormenorizado de las valoraciones de cartera individuales. Se carece de datos de carteras de inversión particulares (ejecución estrictamente hipotética).</li>
+</ul>
+<hr />
+<h6>4. Resumen Clave en Formato Tabular</h6>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Métrica / Indicador</th>
+<th style="text-align:left">Valor Actual (<code>NTGY.MC</code>)</th>
+<th style="text-align:left">Implicación Técnica / Fundamental</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Precio de Cierre</strong></td>
+<td style="text-align:left">29,66 EUR (30/10/2026)</td>
+<td style="text-align:left">Consolidación tras resultados y anuncios de inversión.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>SMA 50</strong></td>
+<td style="text-align:left">29,75 EUR</td>
+<td style="text-align:left">Resistencia dinámica inmediata de medio plazo.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>SMA 200</strong></td>
+<td style="text-align:left">27,49 EUR</td>
+<td style="text-align:left">Soporte estructural de largo plazo (tendencia alcista de fondo).</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>RSI (14)</strong></td>
+<td style="text-align:left">44,28</td>
+<td style="text-align:left">Zona neutral; ausencia de excesos alcistas o bajistas.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>MACD / Signal</strong></td>
+<td style="text-align:left">0,148 / 0,265</td>
+<td style="text-align:left">Ligero sesgo de corrección a corto plazo en el impulso.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Rentabilidad por Dividendo</strong></td>
+<td style="text-align:left">5,97%</td>
+<td style="text-align:left">Atractivo flujo de caja para inversores por rentabilidad.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Deuda Neta / EBITDA</strong></td>
+<td style="text-align:left">2,42x</td>
+<td style="text-align:left">Solvencia financiera controlada y dentro de parámetros seguros.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Precio Objetivo Consenso</strong></td>
+<td style="text-align:left">31,22 EUR</td>
+<td style="text-align:left">Potencial alcista moderado del 5,26% sobre la cotización actual.</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="s1-2">News Analyst</h3>
+<p><strong>Rating</strong>: REVIEW</p>
+<h6>Informe de Investigación y Análisis Macroeconómico y Sectorial: Naturgy Energy Group, S.A. (<code>NTGY.MC</code>)</h6>
+<h6>1. Contexto Macroeconómico Global y Sectorial (España / Eurozona)</h6>
+<p>A finales de octubre de 2026, el entorno macroeconómico europeo viene marcado por las decisiones y advertencias del Banco Central Europeo (BCE). En sus reuniones de finales de octubre de 2026, el BCE decidió <strong>mantener los tipos de interés en el 2,5%</strong>, aunque advirtió de riesgos al alza para la inflación y la estabilidad del crecimiento económico impulsados principalmente por el comportamiento de los precios de la energía (<em>20Minutos</em>, 29-10-2026; <em>Estrategias de Inversión</em>, 29-10-2026).</p>
+<p>Los mercados bursátiles europeos y el Ibex 35 se han mostrado mixtos y volátiles. El selectivo español ha sufrido presiones bajistas recientes lastrado por el sector bancario (que experimentó descensos a pesar de registrar beneficios récord) y por dudas sobre el sector tecnológico y de materias primas (<em>Cinco Días</em>, 30-10-2026; <em>El Conciso</em>, 30-10-2026). A pesar de este contexto de cautela, las empresas energéticas y cotizadas de servicios públicos (<em>utilities</em>) mantienen el foco en su retribución al accionista, destacando que en noviembre de 2026 se abonan nuevos pagos de dividendos en el Ibex 35, entre los que figura <strong>Naturgy</strong> (<em>Finect</em>, 30-10-2026).</p>
+<h6>2. Análisis Fundamental y Resultados Recientes de <code>NTGY.MC</code></h6>
+<p>Naturgy Energy Group, S.A. (<code>NTGY.MC</code>) ha presentado recientemente sus resultados financieros y actualización estratégica de finales de octubre de 2026, generando gran atención en los mercados (<em>Merca2.es</em>, 29-10-2026):</p>
+<ul>
+<li><strong>Resultados y Previsiones:</strong> La compañía ha reportado unos beneficios netos de 1.758 millones de euros y ha elevado sus previsiones de beneficio neto anual hasta los <strong>2.200 millones de euros</strong> (<em>Merca2.es</em>, 29-10-2026).</li>
+<li><strong>Plan Estratégico y de Inversión:</strong> Naturgy ha reservado un ambicioso plan de <strong>12.000 millones de euros</strong> destinados a crecer fuera de España, con un fuerte foco en el sector eléctrico internacional (<em>CapitalMadrid</em>, 30-10-2026; <em>Merca2.es</em>, 29-10-2026).</li>
+<li><strong>Valoración de Analistas y Perspectivas:</strong> A pesar de la mejora de previsiones, casas de análisis como Renta 4 señalan que el valor muestra un recorrido bursátil limitado a corto plazo (<em>Bolsamania</em>, 29-10-2026). Por su parte, Morningstar ha publicado su revisión de opinión tras los resultados (<em>Morningstar</em>, 30-10-2026).</li>
+<li><strong>Métricas Fundamentales Clave (Datos provistos):</strong>
+<ul>
+<li>Capitalización bursátil: ~27.477 millones de EUR.</li>
+<li>PER histórico (Trailing PE): ~13,73x | PER adelantado (Forward PE): ~13,78x.</li>
+<li>Deuda Neta / EBITDA: ~2,42x (Total de deuda de ~17.313 millones de EUR frente a un EBITDA de ~5.161 millones de EUR).</li>
+<li>Rentabilidad por dividendo (<em>Dividend Yield</em>): Atractiva, situada en el <strong>5,97%</strong> (con un dividendo ordinario por acción y un <em>payout ratio</em> estimado en torno al 75,9%).</li>
+<li>Precio objetivo de consenso (<em>Target Mean Price</em>): 31,22 EUR (con un rango entre un mínimo de 24,30 EUR y un máximo de 35,00 EUR según 18 analistas), lo que arroja un potencial alcista de consenso (<em>consensus upside</em>) del <strong>5,26%</strong> frente al precio de cierre reciente de 29,66 EUR.</li>
+</ul>
+</li>
+</ul>
+<h6>3. Análisis Técnico (<code>NTGY.MC</code>)</h6>
+<ul>
+<li><strong>Precio de Cierre (30-10-2026):</strong> 29,66 EUR (con una variación del -0,47% en la sesión).</li>
+<li><strong>Medias Móviles:</strong> La cotización se encuentra muy próxima a su media móvil de 50 sesiones (SMA50 en 29,75 EUR) y por debajo de su media de 20 sesiones (SMA20 en 30,24 EUR), aunque se mantiene claramente por encima de la media de 200 sesiones (SMA200 en 27,49 EUR), evidenciando una tendencia estructural de fondo alcista a medio/largo plazo, pero con consolidación a corto plazo.</li>
+<li><strong>Osciladores e Indicadores de Momento:</strong>
+<ul>
+<li>RSI (14) en 44,28, reflejando una zona neutral ligeramente sesgada a la baja o de consolidación.</li>
+<li>MACD en 0.147 con la línea de señal en 0.265, mostrando una ligera presión bajista a corto plazo o pausa tras las últimas subidas.</li>
+</ul>
+</li>
+<li><strong>Volatilidad y Retornos:</strong> Volatilidad del 14,93% anualizada. Retorno a 21 sesiones del +2,21% y a 252 sesiones del +15,75%.</li>
+</ul>
+<h6>4. Evidencia Contaria y de Apoyo, Supuestos y Datos Faltantes</h6>
+<ul>
+<li><strong>Apoyo:</strong> Sólida generación de caja operativa, mejora en las guías de beneficio (hasta 2.200 millones), ratio de endeudamiento moderado (Deuda Neta/EBITDA de 2,42x) y una generosa retribución vía dividendo (~5,97% de rendimiento) que sostiene el atractivo para inversores defensivos.</li>
+<li><strong>Contraria:</strong> Cierto escepticismo de analistas (como Renta 4) sobre el recorrido alcista adicional en bolsa tras las últimas subidas (<em>Bolsamania</em>, 29-10-2026); el potencial de subida al precio objetivo de consenso es estrecho (~5,26%). El entorno macroeconómico europeo muestra incertidumbre con los tipos del BCE anclados en el 2,5% y alertas de presiones inflacionistas energéticas.</li>
+<li><strong>Datos Faltantes:</strong> No se dispone en la instantánea de datos detallados en tiempo real sobre flujos de caja operativos y libres correspondientes estrictamente al ejercicio en curso (los estados muestran cierres anuales hasta 2025).</li>
+</ul>
+<hr />
+<p>FINAL TRANSACTION PROPOSAL: REVIEW</p>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Aspecto Clave</th>
+<th style="text-align:left">Detalle / Métrica</th>
+<th style="text-align:left">Implicación para el Trading / Análisis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Precio Actual (<code>NTGY.MC</code>)</strong></td>
+<td style="text-align:left">29,66 EUR (-0,47% a 30-10-2026)</td>
+<td style="text-align:left">Consolidación técnica alrededor de la SMA50 (29,75 EUR).</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Valoración (PER / EV-EBITDA)</strong></td>
+<td style="text-align:left">PER 13,73x / EV-EBITDA 8,17x</td>
+<td style="text-align:left">Valoración razonable frente a la mediana sectorial (<code>peer median forward PE</code>: ~15,98x).</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Dividend Yield</strong></td>
+<td style="text-align:left">5,97% (Con dividendo en noviembre)</td>
+<td style="text-align:left">Atractivo flujo de rentabilidad para carteras defensivas y por dividendos.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Catalizador Fundamental</strong></td>
+<td style="text-align:left">Beneficios revisados al alza (2.200M€) y plan de 12.000M€ de inversión exterior</td>
+<td style="text-align:left">Impulso operativo positivo a medio plazo, aunque con dudas de corto recorrido</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="s1-3">Fundamentals Analyst</h3>
+<p><strong>Rating</strong>: REVIEW</p>
+<p><strong>Análisis Fundamental e Informe de Situación – NTGY.MC (Naturgy Energy Group, S.A.)</strong></p>
+<h6>1. Perfil de la Empresa y Contexto de Negocio</h6>
+<p>Naturgy Energy Group, S.A. (<code>NTGY.MC</code>) es un operador energético líder con sede en Madrid, cotizado en la Bolsa de Madrid y clasificado dentro del sector de <em>Utilities</em> (Servicios Públicos) y subclasificado en <em>Utilities - Regulated Gas</em>. La compañía opera de forma integrada en las cadenas de valor del gas natural y la electricidad, abarcando actividades reguladas y liberalizadas en España, América Latina y otros mercados internacionales.</p>
+<h6>2. Últimas Noticias y Eventos Relevantes (Octubre 2026)</h6>
+<p>Durante la última semana de octubre de 2026, la actualidad de <code>NTGY.MC</code> ha estado marcada por la presentación de sus resultados financieros y sus nuevas proyecciones estratégicas:</p>
+<ul>
+<li><strong>Resultados y Elevación de Guías:</strong> Naturgy reportó ganancias netas por valor de 1.758 millones de euros hasta el período analizado y volvió a elevar sus previsiones para el cierre de ejercicio hacia los 2.200 millones de euros (según fuentes de prensa como <em>Merca2.es</em> y <em>Bolsamania</em> del 29 y 30 de octubre de 2026).</li>
+<li><strong>Plan de Inversiones Internacionales:</strong> La compañía ha anunciado una reserva de 12.000 millones de euros destinados al crecimiento y adquisiciones fuera de España, enfocándose particularmente en el sector eléctrico (<em>CapitalMadrid</em>, 30 de octubre de 2026).</li>
+<li><strong>Retorno de Dividendos en el Ibex 35:</strong> Naturgy figura entre las compañías del selectivo español que realizarán pagos de dividendos a lo largo de noviembre de 2026 (<em>Finect</em>, 30 de octubre de 2026).</li>
+<li><strong>Valoración de los Analistas:</strong> A pesar de la mejora en las previsiones, firmas como <em>Renta 4</em> y <em>Morningstar</em> apuntan a un recorrido bursátil limitado a corto plazo dados los niveles actuales de cotización (informes recogidos el 30 de octubre de 2026).</li>
+</ul>
+<h6>3. Estados Financieros e Histórico</h6>
+<p>Los datos financieros suministrados reflejan la solidez patrimonial y la generación de caja de la compañía:</p>
+<ul>
+<li><strong>Cuenta de Resultados (Ingresos y EBITDA):</strong>
+<ul>
+<li><em>2025:</em> Ingresos Totales de 19.455 millones de euros; EBITDA de 5.543 millones de euros; Beneficio Neto de 2.023 millones de euros.</li>
+<li><em>2024:</em> Ingresos Totales de 19.267 millones de euros; EBITDA de 5.471 millones de euros; Beneficio Neto de 1.901 millones de euros.</li>
+<li><em>2023:</em> Ingresos Totales de 22.617 millones de euros; EBITDA de 5.192 millones de euros; Beneficio Neto de 1.986 millones de euros.</li>
+</ul>
+</li>
+<li><strong>Balance de Situación:</strong>
+<ul>
+<li>Al cierre de 2025, el total de activos se sitúa en 39.101 millones de euros (frente a 40.836 millones en 2024).</li>
+<li>La deuda total asciende a 16.747 millones de euros en 2025 (reduciéndose desde los 17.978 millones de 2024).</li>
+<li>El patrimonio neto (<em>Stockholders Equity</em>) se mantiene estable en 9.342 millones de euros en 2025.</li>
+</ul>
+</li>
+<li><strong>Flujos de Caja:</strong>
+<ul>
+<li>El flujo de caja operativo en 2025 alcanzó los 4.525 millones de euros (3.992 millones en 2024).</li>
+<li>Las inversiones de capital (<em>Capital Expenditure</em>) se situaron en -2.149 millones de euros en 2025, resultando en un Flujo de Caja Libre (<em>Free Cash Flow</em>) de 2.376 millones de euros (superior a los 1.795 millones de euros de 2024).</li>
+</ul>
+</li>
+</ul>
+<h6>4. Métricas de Valoración y Datos Bursátiles</h6>
+<ul>
+<li><strong>Precio de Cierre (30/10/2026):</strong> 29,66 EUR (con una capitalización bursátil aproximada de 27.477 millones de euros).</li>
+<li><strong>Múltiplos de Valoración:</strong>
+<ul>
+<li>PER (<em>Trailing PE</em>): 13,73x | PER Adelantado (<em>Forward PE</em>): 13,78x.</li>
+<li>Ratio EV/EBITDA: 8,17x.</li>
+<li>Precio/Valor en Libros (<em>Price-to-Book</em>): 3,27x.</li>
+</ul>
+</li>
+<li><strong>Política de Retribución al Accionista:</strong>
+<ul>
+<li>Dividendo por acción (<em>Dividend Rate</em>): 1,77 EUR.</li>
+<li>Rentabilidad por dividendo (<em>Dividend Yield</em>): ca. 5,97%.</li>
+<li>Ratio de Payout (<em>Payout Ratio</em>): ~75,92%.</li>
+</ul>
+</li>
+<li><strong>Endeudamiento:</strong> Deuda Neta / EBITDA en torno a 2,42x, reflejando un perfil de apalancamiento moderado y manejable para una utility regulada.</li>
+<li><strong>Consenso de Analistas:</strong> El precio objetivo medio (<em>targetMeanPrice</em>) se sitúa en 31,22 EUR (con un rango entre un mínimo de 24,30 EUR y un máximo de 35,00 EUR según 18 opiniones de analistas), lo que arroja un potencial alcista de consenso (<em>consensus_upside_pct</em>) del 5,26%.</li>
+</ul>
+<h6>5. Indicadores Técnicos</h6>
+<ul>
+<li>Cotización ligeramente por debajo de su media móvil de 20 sesiones (SMA20: 30,24 EUR), pero por encima de la media de 50 sesiones (SMA50: 29,75 EUR) y de la de 200 sesiones (SMA200: 27,49 EUR).</li>
+<li>RSI de 14 períodos en 44,28 (zona neutral, sin sobreventa ni sobrecompra).</li>
+<li>Volatilidad anualizada del 14,93% y una rentabilidad a 252 sesiones del 15,75%.</li>
+</ul>
+<h6>6. Datos Faltantes y Advertencias</h6>
+<ul>
+<li>No se han suministrado flujos de caja operativos y libres desglosados en los registros consolidados más allá de los cierres de ejercicio anuales oficiales de las tablas proporcionadas.</li>
+<li>No se dispone de transacciones de iniciados (<em>insider transactions</em>) recientes en el conjunto de datos precargados.</li>
+</ul>
+<h6>7. Insights Accionables para Traders</h6>
+<ol>
+<li><strong>Atractivo por Rentabilidad por Dividendo:</strong> Con un rendimiento por dividendo cercano al 6% y un pago previsto para noviembre de 2026, <code>NTGY.MC</code> destaca como opción defensiva de retorno de efectivo, ideal para carteras orientadas a rentas.</li>
+<li><strong>Escaso Margen de Seguridad a Corto Plazo:</strong> El precio de cotización (29,66 EUR) se encuentra muy cerca del precio objetivo medio del consenso (31,22 EUR), lo que limita el potencial alcista inmediato al ~5,26%, sugiriendo cautela para operaciones puramente especulativas de crecimiento.</li>
+<li><strong>Solidez Operativa:</strong> La generación de un flujo de caja libre superior a 2.300 millones de euros en 2025 y la moderación del apalancamiento respaldan la ambiciosa estrategia de inversión internacional de 12.000 millones de euros anunciada por la directiva, dotando a la compañía de resiliencia a mediano plazo.</li>
+</ol>
+<hr />
+<h6>Resumen Estructurado (Tabla Clave)</h6>
+<p>| Concepto Clave | Valor / Métrica | Observaciones</p>
+</section><section id="s2"><h2>II. Research Team Decision</h2><h3 id="s2-1">Bull Researcher</h3>
+<p>Bull Analyst: <strong>Rating</strong>: HOLD<br />
+FINAL TRANSACTION PROPOSAL: HOLD</p>
+<p>¡Hola a todos los inversores y compañeros de mesa! Entiendo perfectamente que el analista bajista prefiera mirar desde la barrera o buscar pelos en la sopa, pero es el momento de poner los datos reales sobre la mesa y defender con argumentos de peso por qué <strong>NTGY.MC</strong> (Naturgy Energy Group, S.A.) sigue siendo una de las opciones más sólidas, resilientes y atractivas del selectivo español.</p>
+<p>No estamos hablando de una promesa especulativa ni de una moda tecnológica pasajera; estamos hablando de un gigante de las <em>utilities</em> que acaba de golpear la mesa con números extraordinarios y una estrategia de crecimiento envidiable. ¡Vamos a desglosarlo punto por punto para responder a cualquier duda que intente apagar este optimismo!</p>
+<hr />
+<h6>1. Crecimiento Potencial y Escabilidad: Un Salto Adelante con 12.000 Millones</h6>
+<p>Los osos suelen argumentar que las <em>utilities</em> son aburridas y que no crecen. ¡Pues se equivocan! Naturgy acaba de elevar sus previsiones de beneficio neto anual hasta unos imponentes <strong>2.200 millones de euros</strong>, respaldados por unos resultados recientes que muestran un beneficio neto ya consolidado en la franja de los 1.758 millones de euros a falta del cierre definitivo del ejercicio.</p>
+<p>¿Y qué está haciendo la compañía con ese músculo financiero? No se está cruzando de brazos. Ha reservado un ambicioso cofre de <strong>12.000 millones de euros</strong> destinados a crecer agresivamente fuera de España, con un foco muy claro en el sector eléctrico internacional (<em>CapitalMadrid</em>, 30 de octubre de 2026). Esto demuestra una escalabilidad brutal: diversifican geográficamente, reducen la dependencia regulatoria local y se posicionan en la vanguardia de la transición energética global.</p>
+<h6>2. Ventajas Competitivas y Posicionamiento de Mercado</h6>
+<p>Hablemos de estabilidad y caja. ¿Dónde encuentran los inversores un negocio capaz de generar un <strong>Flujo de Caja Libre (<em>Free Cash Flow</em>) superior a los 2.376 millones de euros</strong> (como vimos en el cierre de 2025)?</p>
+<ul>
+<li><strong>Apalancamiento controlado:</strong> Con una ratio de Deuda Neta a EBITDA de apenas <strong>2,42x</strong>, Naturgy gestiona sus pasivos de forma impecable. Su deuda total (16.747 millones de EUR en 2025) está perfectamente respaldada por un EBITDA robusto que ronda los 5.161 millones de EUR.</li>
+<li><strong>Eficiencia y Múltiplos atractivos:</strong> Cotiza a un PER <em>forward</em> muy razonable de <strong>13,78x</strong> y un EV/EBITDA de <strong>8,17x</strong>, situándose por debajo de la mediana de sus comparables sectoriales (<em>peer median forward PE</em> en torno a 15,98x). Es decir, el mercado nos está ofreciendo un activo de máxima calidad con descuento frente a sus rivales europeos.</li>
+</ul>
+<h6>3. Indicadores Positivos: Rentabilidad por Dividendo Inigualable</h6>
+<p>Mientras el mercado sufre por la volatilidad de los tipos de interés del BCE (anclados en el 2,5%) y las dudas macroeconómicas, los accionistas de <code>NTGY.MC</code> tienen motivos de sobra para sonreír. Naturgy ofrece una <strong>rentabilidad por dividendo (<em>dividend yield</em>) del 5,97%</strong>, destacando de nuevo en las carteras de noviembre de los inversores del Ibex 35 (<em>Finect</em>, 30 de octubre de 2026). Con un <em>payout ratio</em> sostenible de en torno al 75,9%, la retribución al accionista no solo es generosa, sino perfectamente compatible con sus planes de inversión.</p>
+<p>Desde el punto de vista técnico, la cotización en <strong>29,66 EUR</strong> se encuentra firmemente apoyada por encima de su media móvil de 200 sesiones (<strong>SMA200 en 27,49 EUR</strong>), lo que confirma que la tendencia de fondo a largo plazo es claramente alcista. El RSI en 44,28 nos indica que el valor está digiriendo y consolidando de forma muy sana las últimas subidas, sin ningún síntoma de sobreventa ni debilidad estructural.</p>
+<hr />
+<h6>4. Contraargumentando a los Osos: ¿Por qué el argumento alcista es superior?</h6>
+<ul>
+<li>
+<p><strong>Crítica del Oso:</strong> <em>&quot;El potencial alcista frente al precio objetivo de consenso (31,22 EUR) es estrecho, de apenas un 5%, por lo que el recorrido bursátil a corto plazo es limitado.&quot;</em></p>
+</li>
+<li>
+<p><strong>Respuesta del Toro:</strong> ¡Cuidado con mirar únicamente el árbol y perderse el bosque! Es cierto que el consenso de los analistas marca una media de 31,22 EUR (con máximos optimistas que alcanzan los 35,00 EUR), pero el mercado suele ir por detrás de las revisiones de beneficios. Las guías de beneficio neto elevadas a 2.200 millones de euros y el plan inversor de 12.000 millones son catalizadores frescos de finales de octubre de 2026 que el consenso tardará semanas en reflejar plenamente en sus modelos. Comprar <code>NTGY.MC</code> ahora significa asegurar una rentabilidad por dividendo cercana al 6% mientras el valor consolida pacientemente su camino hacia la parte alta de las valoraciones de los analistas.</p>
+</li>
+<li>
+<p><strong>Crítica del Oso:</strong> <em>&quot;El entorno macroeconómico en Europa es incierto, con la inflación energética presionando y los tipos del BCE estables.&quot;</em></p>
+</li>
+<li>
+<p><strong>Respuesta del Toro:</strong> ¡Esa es precisamente la mayor fortaleza de Naturgy! En entornos macroeconómicos inciertos, los inversores huyen hacia valores defensivos con flujos de caja predecibles y activos regulados. Naturgy no es una empresa cíclica vulnerable; es un proveedor esencial de energía con capacidad de trasladar costes y una solidez de balance envidiable (deuda neta/EBITDA de 2,42x). Cuando el resto del Ibex 35 sufre turbulencias por los vaivenes bancarios o tecnológicos, la estabilidad de las <em>utilities</em> actúa como el auténtico refugio seguro de la cartera.</p>
+</li>
+</ul>
+<h6>Conclusión</h6>
+<p>Naturgy (<code>NTGY.MC</code>) combina lo mejor de dos mundos: la seguridad defensiva de un dividendo de casi el 6% y un potencial de crecimiento internacional respaldado por 12.000 millones de euros en inversiones estratégicas. La consolidación técnica actual no es una señal de debilidad, sino una magnífica oportunidad de acumulación antes de que el mercado digiera por completo su nueva y mejorada guía de beneficios. ¡Apostar por Naturgy es apostar por el valor inteligente y seguro en la bolsa de Madrid!</p>
+<h3 id="s2-2">Bear Researcher</h3>
+<p>Bear Analyst: <strong>Rating</strong>: HOLD<br />
+FINAL TRANSACTION PROPOSAL: HOLD</p>
+<p>¡Hola, compañero! Entiendo perfectamente el entusiasmo de tu argumentación y cómo intentas vender las bondades de <strong>NTGY.MC</strong> como si estuviéramos ante la octava maravilla del mundo energético. Pero los analistas con los pies en la tierra no nos dejamos deslumbrar por titulares grandilocuentes ni por promesas de expansión que esconden serios nubarrones estructurales y financieros. Vamos a desmontar ese optimismo excesivo con datos fríos y rigor analítico.</p>
+<h6>1. El Espejismo de los 12.000 Millones: ¿De dónde saldrá el dinero sin ahogar el balance?</h6>
+<p>Te llenas la boca hablando del cofre de <strong>12.000 millones de euros</strong> que Naturgy ha reservado para crecer fuera de España y apostar por el sector eléctrico (<em>CapitalMadrid</em>, 30 de octubre de 2026). Pero te olvidas de la letra pequeña: comprometer semejante volumen de capital en un momento de transición energética convulsa e incertidumbre regulatoria internacional es un riesgo monumental.</p>
+<p>La compañía ya arrastra una deuda total de <strong>17.313 millones de euros</strong> (con una deuda neta/EBITDA de <strong>2,42x</strong>). Si la directiva se embarca en adquisiciones exteriores agresivas sin una generación de caja operativa garantizada a medio plazo, el riesgo de sobreapalancamiento o de deterioro de la calidad crediticia es altísimo. No estamos ante un &quot;regalo de crecimiento&quot;, sino ante una presión inmensa sobre su estructura de capital que el mercado, con buen criterio, mira con cautela.</p>
+<h6>2. Un Potencial Alcista Ridículo y un Recorrido Agotado</h6>
+<p>Vamos a mirar la realidad bursátil de frente. El precio de cierre actual se sitúa en <strong>29,66 EUR</strong>, mientras que el precio objetivo medio del consenso de analistas es de <strong>31,22 EUR</strong>. ¿Qué margen de subida nos queda? ¡Un mísero <strong>5,26%</strong>!</p>
+<p>Como bien recuerdan firmas como <em>Renta 4</em>, el valor tiene un recorrido sumamente limitado a corto plazo en bolsa tras las recientes subidas (<em>Bolsamania</em>, 29 de octubre de 2026). Pretender convencer a los inversores de entrar en <code>NTGY.MC</code> con un potencial de apenas el 5% es ignorar por completo el coste de oportunidad. ¿Para qué asumir los riesgos de un mercado volátil por unas migajas de revalorización?</p>
+<h6>3. La Trampa del Dividendo y la Realidad Técnica a Corto Plazo</h6>
+<p>Presumes de una rentabilidad por dividendo del <strong>5,97%</strong> y del atractivo pago previsto para noviembre (<em>Finect</em>, 30 de octubre de 2026). Pero un <em>payout ratio</em> cercano al <strong>76%</strong> (75,9%) significa que la compañía está destinando casi tres cuartas partes de sus beneficios a remunerar al accionista, dejando un margen de maniobra muy estrecho para reinvestir orgánicamente de forma segura o para hacer frente a imprevistos macroeconómicos sin recurrir a más apalancamiento.</p>
+<p>Además, si analizamos los indicadores técnicos que mencionas a medias, la realidad es tozuda:</p>
+<ul>
+<li>El precio se encuentra por debajo de su media móvil de 20 sesiones (<strong>SMA20 en 30,24 EUR</strong>) y de su SMA50 (29,75 EUR).</li>
+<li>El indicador <strong>MACD (0,147)</strong> está por debajo de su línea de señal (<strong>0,265</strong>), lo que confirma una fase clara de corrección y pérdida de impulso a corto plazo.</li>
+<li>El RSI en <strong>44,28</strong> refleja atonía y falta de catalizadores compradores inmediatos. El valor está estancado.</li>
+</ul>
+<h6>4. Contraargumentando al Toro: Tu visión &quot;defensiva&quot; ignora la macro</h6>
+<ul>
+<li><strong>Tu argumento:</strong> <em>&quot;En un entorno macro incierto y con los tipos del BCE anclados en el 2,5%, las utilities son un refugio seguro y Naturgy trasladará costes.&quot;</em></li>
+<li><strong>Mi réplica:</strong> ¡Te equivocas de plano! Las advertencias del BCE de finales de octubre de 2026 sobre las presiones inflacionistas procedentes precisamente del sector energético (<em>20Minutos</em>, 29-10-2026) son una espada de Damocles para las gasistas y comercializadoras reguladas. La intervención regulatoria, los gravámenes extraordinarios y la volatilidad de los precios del gas en Europa pueden erosionar los márgenes operativos con los que hoy calculas esos 2.200 millones de beneficio previsto. Naturgy no es inmune a los shocks macroeconómicos; al contrario, su exposición regulatoria la hace especialmente vulnerable a los cambios de reglas del juego de los gobiernos.</li>
+</ul>
+<h6>Conclusión</h6>
+<p>Naturgy (<code>NTGY.MC</code>) cotiza prácticamente agotada respecto a su valor razonable de consenso, con un potencial de apenas el 5%, unos indicadores técnicos que muestran debilidad a corto plazo y un plan de inversiones mastodóntico de 12.000 millones que amenaza con tensionar su balance. El dividendo del 6% está muy bien, pero no compensa el riesgo de estancamiento bursátil y la incertidumbre regulatoria internacional. Mantenerse al margen es la única postura prudente.</p>
+<h3 id="s2-3">Research Manager</h3>
+<p><strong>Recommendation</strong>: Hold</p>
+<p><strong>Rationale</strong>: El debate entre el analista alcista y el bajista muestra argumentos muy equilibrados sobre NTGY.MC. Por un lado, el toro defiende con acierto la solidez defensiva del negocio, la rentabilidad por dividendo cercana al 6% (5,97%) y una generosa generación de beneficios e inversiones estratégicas de 12.000 millones de euros que apuntan a un crecimiento internacional. Por otro lado, el oso argumenta de forma muy convincente que el potencial de subida frente al precio objetivo de consenso (31,22 EUR) es de apenas un 5,26%, que los indicadores técnicos a corto plazo muestran atonía (MACD por debajo de su señal, SMA20 en 30,24 EUR superando el precio actual de 29,66 EUR), y que un plan de inversión tan masivo podría tensionar una deuda total de 17.313 millones de euros en un contexto macroeconómico con advertencias del BCE sobre la energía. Al sopesar ambas posturas, el escaso margen de revalorización y la debilidad técnica a corto plazo neutralizan el atractivo de los fundamentales y el dividendo, justificando plenamente mantener la posición actual sin realizar cambios de asignación.</p>
+<p><strong>Strategic Actions</strong>: Mantener la exposición actual a NTGY.MC sin realizar nuevas compras ni ventas, respetando una asignación neutral estándar dentro de la cartera. Monitorear de cerca la evolución técnica en torno a la media móvil de 200 sesiones (SMA200 en 27,49 EUR) y cualquier actualización sobre la ejecución de los 12.000 millones en inversiones antes de reconsiderar un cambio de recomendación.</p>
+</section><section id="s3"><h2>III. Trading Team Plan</h2><h3 id="s3-1">Trader</h3>
+<p><strong>Action</strong>: Hold</p>
+<p><strong>Reasoning</strong>: El valor presenta un equilibrio neutral entre argumentos fundamentales positivos, como su atractiva rentabilidad por dividendo del 5,97% y la solidez de su deuda neta sobre EBITDA de 2,42x, y factores de cautela técnica a corto plazo, con el precio cotizando por debajo de su SMA50 (29,75 EUR) y un potencial de subida limitado frente al precio objetivo de consenso de 31,22 EUR. Dado que los indicadores muestran una consolidación neutral (RSI en 44,28) y un impulso ligeramente bajista en el MACD, se recomienda mantener la postura actual sin incrementar exposición hasta una ruptura clara de la resistencia de corto plazo.</p>
+<p><strong>Entry Price</strong>: not provided</p>
+<p><strong>Stop Loss</strong>: not provided</p>
+<p><strong>Position Sizing</strong>: Asignación estándar neutral en cartera</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+</section><section id="s4"><h2>IV. Risk Management Team Decision</h2><h3 id="s4-1">Aggressive Analyst</h3>
+<p>Aggressive Analyst: <strong>Rating</strong>: HOLD
+FINAL TRANSACTION PROPOSAL: HOLD</p>
+<p>¡Basta ya de conformarse con la mediocridad y el exceso de timidez en el mercado! Mientras el analista conservador tiembla ante cualquier mínimo soplo de volatilidad y el analista neutral se paraliza analizando si el RSI está en 44 o si el precio está a unos céntimos de su media móvil, nos estamos perdiendo el panorama general y la verdadera ambición estratégica de Naturgy (<code>NTGY.MC</code>).</p>
+<p>Miren los datos duros en lugar de buscar excusas para no hacer nada: la compañía acaba de elevar sus previsiones de beneficio neto hasta los impactantes 2.200 millones de euros y ha puesto sobre la mesa un auténtico misil de crecimiento, un plan de inversión de 12.000 millones de euros enfocado en la expansión internacional y el sector eléctrico exterior. ¡Eso es visión de futuro y agresión corporativa de la buena!</p>
+<p>¿Que el analista conservador nos advierte sobre el riesgo macroeconómico y los tipos del BCE anclados en el 2,5%? ¡Despierten! Una empresa con una generación de flujo de caja libre superior a los 2.300 millones de euros y un ratio de deuda neta sobre EBITDA de tan solo 2,42x no solo es inmune a esos fantasmas, sino que tiene un balance blindado para devorar oportunidades mientras los competidores más débiles se encogen. ¿Y qué me dicen del jugoso rendimiento por dividendo del 5,97% que se cobra este mismo noviembre? Nos están pagando generosamente por sentarnos sobre una posición de puro valor mientras la directiva ejecuta un plan de crecimiento multimillonario.</p>
+<p>Por su parte, el analista neutral se ancla en que el precio objetivo de consenso de 31,22 EUR deja un potencial alcista aparente de apenas el 5,26% desde los 29,66 EUR actuales. ¡Qué falta de imaginación financiera! Los precios objetivos de los analistas son una foto fija del pasado; cuando una empresa eleva sus guías de beneficio de forma recurrente y despliega 12.000 millones en adquisiciones estratégicas, el consenso siempre va por detrás de la realidad, y esas resistencias técnicas de corto plazo como la SMA50 en 29,75 EUR están hechas para ser destrozadas con volumen en cuanto el mercado asimile el verdadero calado de su expansión.</p>
+<p>Mantener la postura actual (&quot;Hold&quot;) con una asignación neutral en cartera es la única decisión sensata en este momento exacto de transición, pero no por cobardía técnica, sino para acumular munición y estar listos para ampliar exposición de forma agresiva en cuanto se confirme la ruptura de los niveles actuales. No dejen que el miedo al ruido a corto plazo les ciegue ante un gigante que está rediseñando su futuro internacional con una caja envidiable. ¡A romper barreras!</p>
+<h3 id="s4-2">Conservative Analyst</h3>
+<p>Conservative Analyst: Rating: HOLD
+FINAL TRANSACTION PROPOSAL: HOLD</p>
+<p>Escucho al analista agresivo hablar con un entusiasmo casi temerario sobre &quot;destrozar resistencias&quot; y desplegar capital sin red, y no puedo evitar llevarme las manos a la cabeza. Celebrar un plan de inversiones de 12.000 millones de euros para crecer fuera de España como si fuera dinero caído del cielo es ignorar por completo el principio elemental de la prudencia corporativa. Comprometer semejantes sumas de dinero en adquisiciones internacionales en un entorno macroeconómico europeo donde el Banco Central Europeo mantiene los tipos en el 2,5% y advierte sobre presiones inflacionarias ligadas a la energía no es una muestra de audacia; es una invitación directa a la erosión del valor para el accionista si esos proyectos sufren sobrecostes o retrasos regulatorios.</p>
+<p>El analista agresivo descarta los riesgos macroeconómicos y confía ciegamente en que el flujo de caja libre superior a los 2.300 millones de euros y una ratio de deuda neta sobre EBITDA de 2,42x blindan a la compañía frente a cualquier tormenta. Olvida que una deuda total de 17.313 millones de euros frente a una caja de 4.841 millones de euros deja a Naturgy (<code>NTGY.MC</code>) expuesta de manera muy real a la volatilidad de los tipos de interés y a los vaivenes del mercado. La ratio de 2,42x es manejable hoy, sí, pero añadirle un apetito inversor desmedido de 12.000 millones sin un colchón de seguridad adecuado es precisamente lo que expone a la firma a rebajas de calificación crediticia y a un incremento indeseado de la volatilidad en nuestra cartera.</p>
+<p>Además, se desliza con ligereza sobre el hecho de que el precio objetivo de consenso se sitúa en 31,22 EUR, lo que arroja un potencial alcista escaso del 5,26% desde los 29,66 EUR actuales. Confiar en que &quot;el consenso siempre va por detrás&quot; es una falacia especulativa que va en contra de nuestra misión de proteger los activos de la firma. Si el precio de cotización ya está flirteando con su media móvil de 50 sesiones (SMA50 en 29,75 EUR) y el indicador MACD muestra un impulso ligeramente bajista mientras el RSI se mantiene en una zona neutral de 44,28, asumir que el mercado va a romper al alza de forma inminente es apostar a ciegas.</p>
+<p>Es precisamente por esta falta de garantías técnicas y por los riesgos ocultos tras esa aparente euforia expansiva que la recomendación de mantener la postura actual (&quot;Hold&quot;) bajo una asignación estándar neutral en cartera es la única opción sensata. No podemos permitirnos incrementar la exposición y asumir un riesgo de capital innecesario cuando el recorrido a corto plazo está claramente acotado y el entorno macroeconómico exige preservar la estabilidad por encima de todo. La rentabilidad por dividendo del 5,97% es el único ancla verdaderamente sólida que nos retiene aquí; cobremos ese flujo de caja con paciencia y defendamos el patrimonio de la firma manteniendo el rumbo sin exponernos a sorpresas desagradables.</p>
+<h3 id="s4-3">Neutral Analyst</h3>
+<p>Neutral Analyst: <strong>Rating</strong>: HOLD
+FINAL TRANSACTION PROPOSAL: HOLD</p>
+<p>Escuchando la fogosidad del analista agresivo y las advertencias casi catastrofistas del analista conservador respecto a <code>NTGY.MC</code>, queda claro que ambos extremos pecan de caer en sesgos peligrosos. El analista agresivo comete el error de subestimar la realidad macroeconómica y técnica actual, celebrando un plan de 12.000 millones de euros como si el coste de capital en Europa fuera irrelevante y dando por sentado que las resistencias técnicas se romperán por mera fe optimista. Ignora que un endeudamiento total de más de 17.300 millones de euros frente a una caja de 4.841 millones exige rigor y disciplina financiera, especialmente con los tipos del Banco Central Europeo anclados en el 2,5% y con advertencias persistentes sobre la inflación energética.</p>
+<p>Por otro lado, el analista conservador se refugia en una excesiva cautela que roza la parálisis. Descartar el valor tachando el plan de expansión de temerario e insistir en que el limitado potencial alcista del 5,26% hacia el precio objetivo de consenso de 31,22 EUR nos obliga a mantenernos a la defensiva ignora la notable resiliencia operativa de la compañía. Olvida que <code>NTGY.MC</code> acaba de elevar sus guías de beneficio neto a 2.200 millones de euros, genera un flujo de caja libre superior a los 2.300 millones y ofrece una atractiva rentabilidad por dividendo del 5,97% que se cobra justamente en noviembre, lo cual constituye un colchón de rentabilidad inmejorable para cualquier cartera.</p>
+<p>Como analista neutral de riesgos, defiendo que la clave no es correr a ciegas ni tampoco acobardarse ante el ruido de corto plazo, sino adoptar una postura equilibrada y metódica. Es totalmente cierto que el análisis técnico muestra una consolidación neutral con el precio en 29,66 EUR, ligeramente por debajo de la SMA50 (29,75 EUR) y con un RSI de 44,28 junto a un MACD de impulso ligeramente bajista; esto valida la decisión de no sobreexponerse ahora mismo. Sin embargo, no podemos ignorar la tendencia de fondo a largo plazo, confirmada por una sólida SMA200 en 27,49 EUR.</p>
+<p>Por lo tanto, la estrategia más sensata y sostenible que equilibra crecimiento y protección es mantener una asignación estándar neutral en cartera, disfrutando del jugoso flujo de caja del dividendo sin incrementar posiciones hasta que el precio rompa con volumen y claridad la resistencia de la SMA50. De este modo, evitamos la euforia especulativa del analista agresivo pero salvaguardamos nuestra rentabilidad frente a la inercia inmovilista del analista conservador.</p>
+</section><section id="s5"><h2>V. Portfolio Manager Decision</h2><h3 id="s5-1">Portfolio Manager</h3>
+<p><strong>Rating</strong>: Hold</p>
+<p><strong>Executive Summary</strong>: Mantener la exposición actual a NTGY.MC con una asignación neutral en cartera, sin realizar nuevas compras ni ventas. El horizonte temporal sugerido es de 3 a 6 meses para evaluar la ejecución del plan estratégico y la superación de resistencias técnicas. Niveles clave a vigilar incluyen la resistencia de la SMA50 en 29,75 EUR y el soporte de la SMA200 en 27,49 EUR.</p>
+<p><strong>Investment Thesis</strong>: El debate entre los analistas muestra argumentos muy equilibrados que justifican mantener la recomendación de Hold. Por un lado, el analista agresivo destaca la solidez fundamental de Naturgy (NTGY.MC), respaldada por la elevación de las previsiones de beneficio neto a 2.200 millones de euros, un flujo de caja libre superior a 2.300 millones de euros, una ratio de deuda neta sobre EBITDA contenida en 2,42x y una atractiva rentabilidad por dividendo del 5,97% que se cobra en noviembre. Por otro lado, el analista conservador y el neutral advierten acertadamente sobre los riesgos de un plan de inversión masivo de 12.000 millones de euros en un entorno macroeconómico donde el Banco Central Europeo mantiene los tipos en el 2,5% y emite alertas sobre la inflación energética, además de un potencial alcista de apenas el 5,26% frente al precio objetivo de consenso de 31,22 EUR. Técnicamente, el valor cotiza a 29,66 EUR con un RSI neutral de 44,28 y por debajo de su SMA50 (29,75 EUR), lo que denota atonía a corto plazo. Al sopesar las posturas, los fundamentales sólidos y el dividendo neutralizan la debilidad técnica, pero el escaso margen de revalorización impide elevar la calificación. Un cambio en la tesis requeriría una ruptura clara de la resistencia técnica con volumen o un deterioro imprevisto en el servicio de su deuda total de 17.313 millones de euros.</p>
+<p><strong>Price Target</strong>: 31.22</p>
+<p><strong>Time Horizon</strong>: 3-6 months</p>
+</section>
+</main>
+<footer class="credit"><a href="https://github.com/TauricResearch/TradingAgents" rel="noopener">TradingAgents</a> powered by <a class="brand" href="https://github.com/TauricResearch" rel="noopener">Tauric Research</a></footer>
+</div>
+<a class="to-top" href="#top">Top</a>
+</body>
+</html>

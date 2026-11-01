@@ -1,0 +1,9 @@
+
+Conservative Analyst: Estimado colega analista agresivo, su entusiasmo por el dinamismo alcista de Iberdrola en `IBE.MC` y su desprecio por las métricas de prudencia ignoran por completo los riesgos estructurales y de mercado a los que estamos expuestos. Calificar de timidez la cautela ante un RSI en 72.13 es una temeridad que expone los activos de la firma a una corrección técnica inminente tras una rentabilidad anual acumulada del 28.89%. Ignorar que el precio actual de 22.18 EUR ya supera el precio objetivo del consenso fijado en 21.38 EUR es asumir que el mercado puede descontar indefinidamente un optimismo sin respaldo fundamental a corto plazo. 
+
+Asimismo, restar importancia a una ratio de endeudamiento neto sobre EBITDA de 3.95x y a una deuda total que roza los 63.837 millones de euros, bajo la excusa de que se trata de una *utility* global, es olvidar que un entorno macroeconómico con tipos de interés del Banco Central Europeo anclados en el 2.5% y presiones inflacionarias energéticas eleva de manera crítica el coste del servicio de dicha deuda. Las recientes macroemisiones de bonos verdes por más de 1.400 millones de euros y 1.600 millones de dólares para financiar proyectos en Estados Unidos incrementan el apalancamiento en un momento de máxima exigencia de valoración (con un PER forward de 19.91x y un PER trailing de casi 30x). 
+
+Defender compras agresivas o ignorar la necesidad de consolidación basándose únicamente en la inercia del impulso alcista es descuidar la gestión de riesgos y la preservación del capital ante cualquier giro imprevisto en el sector regulado o en los mercados de renta fija. Proteger la cartera exige disciplina y espera activa en los niveles de soporte, no subirse a un tren sobrecomprado.
+
+**Rating**: HOLD
+FINAL TRANSACTION PROPOSAL: **HOLD**
