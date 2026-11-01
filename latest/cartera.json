@@ -1,0 +1,402 @@
+{
+  "version": 1,
+  "policy": {
+    "id": "ibex-forward-v1",
+    "initial_cash": 10000,
+    "entry_budget": 1000,
+    "max_positions": 10,
+    "commission": 2,
+    "slippage_bps": 10,
+    "order_expiry_days": 14,
+    "execution": "Primera apertura de una sesión posterior al día de registro de la señal.",
+    "dividends": "Brutos devengados en exfecha; separados del efectivo y sin reinversión."
+  },
+  "started_at": "2026-11-01T15:07:55.196232+01:00",
+  "updated_at": "2026-11-01T15:07:55.196232+01:00",
+  "cursor": "2026-11-01",
+  "cash": 10000.0,
+  "positions": {},
+  "orders": [
+    {
+      "id": "8b76442516e62f689535bd01",
+      "ticker": "CABK.MC",
+      "name": "CaixaBank",
+      "side": "BUY",
+      "rating": "Overweight",
+      "requested_at": "2026-11-01T15:07:55.196232+01:00",
+      "after": "2026-11-01",
+      "source": "paper-history/2026-11-01_7993a337800b77b28efd15c8.json",
+      "status": "pending"
+    },
+    {
+      "id": "cd479225d681199294934f06",
+      "ticker": "FDR.MC",
+      "name": "Fluidra",
+      "side": "BUY",
+      "rating": "Overweight",
+      "requested_at": "2026-11-01T15:07:55.196232+01:00",
+      "after": "2026-11-01",
+      "source": "paper-history/2026-11-01_7993a337800b77b28efd15c8.json",
+      "status": "pending"
+    },
+    {
+      "id": "a7cabba65ef5c063c19822b2",
+      "ticker": "SAN.MC",
+      "name": "Banco Santander",
+      "side": "BUY",
+      "rating": "Overweight",
+      "requested_at": "2026-11-01T15:07:55.196232+01:00",
+      "after": "2026-11-01",
+      "source": "paper-history/2026-11-01_7993a337800b77b28efd15c8.json",
+      "status": "pending"
+    }
+  ],
+  "trades": [],
+  "dividends": [],
+  "splits": [],
+  "sources": [
+    {
+      "report_date": "2026-11-01",
+      "generated_at": "2026-11-01T07:03:30.986607+01:00",
+      "universe_verified": true,
+      "id": "7993a337800b77b28efd15c8",
+      "observed_at": "2026-11-01T15:07:55.196232+01:00",
+      "path": "paper-history/2026-11-01_7993a337800b77b28efd15c8.json"
+    }
+  ],
+  "latest_signals": [
+    {
+      "ticker": "ACS.MC",
+      "name": "ACS",
+      "rating": "Hold",
+      "action": "HOLD",
+      "model": "gemini-3.5-flash-lite",
+      "price_date": "2026-10-30",
+      "close": 90.6500015258789
+    },
+    {
+      "ticker": "ACX.MC",
+      "name": "Acerinox",
+      "rating": "Hold",
+      "action": "HOLD",
+      "model": "gemini-3.1-flash-lite",
+      "price_date": "2026-10-30",
+      "close": 16.06999969482422
+    },
+    {
+      "ticker": "AENA.MC",
+      "name": "Aena",
+      "rating": "Hold",
+      "action": "HOLD",
+      "model": "gemini-3.1-flash-lite",
+      "price_date": "2026-10-30",
+      "close": 27.079999923706055
+    },
+    {
+      "ticker": "AMS.MC",
+      "name": "Amadeus",
+      "rating": "Hold",
+      "action": "HOLD",
+      "model": "gemini-3.5-flash-lite",
+      "price_date": "2026-10-30",
+      "close": 56.7599983215332
+    },
+    {
+      "ticker": "ANA.MC",
+      "name": "Acciona",
+      "rating": "Hold",
+      "action": "HOLD",
+      "model": "gemini-3.1-flash-lite",
+      "price_date": "2026-10-30",
+      "close": 203.60000610351562
+    },
+    {
+      "ticker": "ANE.MC",
+      "name": "Acciona Energía",
+      "rating": "Hold",
+      "action": "HOLD",
+      "model": "gemini-3.5-flash-lite",
+      "price_date": "2026-10-30",
+      "close": 20.979999542236328
+    },
+    {
+      "ticker": "BBVA.MC",
+      "name": "BBVA",
+      "rating": "Hold",
+      "action": "HOLD",
+      "model": "gemini-3.1-flash-lite",
+      "price_date": "2026-10-30",
+      "close": 21.059999465942383
+    },
+    {
+      "ticker": "BKT.MC",
+      "name": "Bankinter",
+      "rating": "Hold",
+      "action": "HOLD",
+      "model": "gemini-3.5-flash-lite",
+      "price_date": "2026-10-30",
+      "close": 13.920000076293945
+    },
+    {
+      "ticker": "CABK.MC",
+      "name": "CaixaBank",
+      "rating": "Overweight",
+      "action": "BUY",
+      "model": "gemini-3.5-flash-lite",
+      "price_date": "2026-10-30",
+      "close": 11.199999809265137
+    },
+    {
+      "ticker": "CLNX.MC",
+      "name": "Cellnex",
+      "rating": "Hold",
+      "action": "HOLD",
+      "model": "gemini-3.1-flash-lite",
+      "price_date": "2026-10-30",
+      "close": 26.030000686645508
+    },
+    {
+      "ticker": "COL.MC",
+      "name": "Inmobiliaria Colonial",
+      "rating": "Hold",
+      "action": "HOLD",
+      "model": "gemini-3.5-flash-lite",
+      "price_date": "2026-10-30",
+      "close": 5.090000152587891
+    },
+    {
+      "ticker": "ELE.MC",
+      "name": "Endesa",
+      "rating": "Hold",
+      "action": "HOLD",
+      "model": "gemini-3.1-flash-lite",
+      "price_date": "2026-10-30",
+      "close": 43.810001373291016
+    },
+    {
+      "ticker": "ENG.MC",
+      "name": "Enagás",
+      "rating": "Hold",
+      "action": "HOLD",
+      "model": "gemini-3.5-flash-lite",
+      "price_date": "2026-10-30",
+      "close": 17.68000030517578
+    },
+    {
+      "ticker": "FDR.MC",
+      "name": "Fluidra",
+      "rating": "Overweight",
+      "action": "BUY",
+      "model": "gemini-3.1-flash-lite",
+      "price_date": "2026-10-30",
+      "close": 18.700000762939453
+    },
+    {
+      "ticker": "FER.MC",
+      "name": "Ferrovial",
+      "rating": "Hold",
+      "action": "HOLD",
+      "model": "gemini-3.5-flash-lite",
+      "price_date": "2026-10-30",
+      "close": 50.70000076293945
+    },
+    {
+      "ticker": "GRF.MC",
+      "name": "Grifols",
+      "rating": "Hold",
+      "action": "HOLD",
+      "model": "gemini-3.5-flash-lite",
+      "price_date": "2026-10-30",
+      "close": 10.975000381469727
+    },
+    {
+      "ticker": "IAG.MC",
+      "name": "IAG",
+      "rating": "Hold",
+      "action": "HOLD",
+      "model": "gemini-3.5-flash-lite",
+      "price_date": "2026-10-30",
+      "close": 4.833000183105469
+    },
+    {
+      "ticker": "IBE.MC",
+      "name": "Iberdrola",
+      "rating": "Hold",
+      "action": "HOLD",
+      "model": "gemini-3.5-flash-lite",
+      "price_date": "2026-10-30",
+      "close": 22.18000030517578
+    },
+    {
+      "ticker": "IDR.MC",
+      "name": "Indra",
+      "rating": "Hold",
+      "action": "HOLD",
+      "model": "gemini-3.5-flash-lite",
+      "price_date": "2026-10-30",
+      "close": 63.880001068115234
+    },
+    {
+      "ticker": "ITX.MC",
+      "name": "Inditex",
+      "rating": "Hold",
+      "action": "HOLD",
+      "model": "gemini-3.5-flash-lite",
+      "price_date": "2026-10-30",
+      "close": 56.13999938964844
+    },
+    {
+      "ticker": "LOG.MC",
+      "name": "Logista",
+      "rating": "Hold",
+      "action": "HOLD",
+      "model": "gemini-3.5-flash-lite",
+      "price_date": "2026-10-30",
+      "close": 36.36000061035156
+    },
+    {
+      "ticker": "MAP.MC",
+      "name": "Mapfre",
+      "rating": "Hold",
+      "action": "HOLD",
+      "model": "gemini-3.5-flash-lite",
+      "price_date": "2026-10-30",
+      "close": 3.98799991607666
+    },
+    {
+      "ticker": "MRL.MC",
+      "name": "Merlin Properties",
+      "rating": "Hold",
+      "action": "HOLD",
+      "model": "gemini-3.5-flash-lite",
+      "price_date": "2026-10-30",
+      "close": 11.470000267028809
+    },
+    {
+      "ticker": "MTS.MC",
+      "name": "ArcelorMittal",
+      "rating": "Hold",
+      "action": "HOLD",
+      "model": "gemini-3.1-flash-lite",
+      "price_date": "2026-10-30",
+      "close": 53.58000183105469
+    },
+    {
+      "ticker": "NTGY.MC",
+      "name": "Naturgy",
+      "rating": "Hold",
+      "action": "HOLD",
+      "model": "gemini-3.5-flash-lite",
+      "price_date": "2026-10-30",
+      "close": 29.65999984741211
+    },
+    {
+      "ticker": "PUIG.MC",
+      "name": "Puig",
+      "rating": "Hold",
+      "action": "HOLD",
+      "model": "gemini-3.5-flash-lite",
+      "price_date": "2026-10-30",
+      "close": 19.260000228881836
+    },
+    {
+      "ticker": "RED.MC",
+      "name": "Redeia",
+      "rating": "Hold",
+      "action": "HOLD",
+      "model": "gemini-3.5-flash-lite",
+      "price_date": "2026-10-30",
+      "close": 15.420000076293945
+    },
+    {
+      "ticker": "REP.MC",
+      "name": "Repsol",
+      "rating": "Hold",
+      "action": "HOLD",
+      "model": "gemini-3.5-flash-lite",
+      "price_date": "2026-10-30",
+      "close": 30.729999542236328
+    },
+    {
+      "ticker": "ROVI.MC",
+      "name": "Laboratorios Rovi",
+      "rating": "Hold",
+      "action": "HOLD",
+      "model": "gemini-3.5-flash-lite",
+      "price_date": "2026-10-30",
+      "close": 62.54999923706055
+    },
+    {
+      "ticker": "SAB.MC",
+      "name": "Banco Sabadell",
+      "rating": "Hold",
+      "action": "HOLD",
+      "model": "gemini-3.5-flash-lite",
+      "price_date": "2026-10-30",
+      "close": 3.434999942779541
+    },
+    {
+      "ticker": "SAN.MC",
+      "name": "Banco Santander",
+      "rating": "Overweight",
+      "action": "BUY",
+      "model": "gemini-3.1-flash-lite",
+      "price_date": "2026-10-30",
+      "close": 10.118000030517578
+    },
+    {
+      "ticker": "SCYR.MC",
+      "name": "Sacyr",
+      "rating": "Hold",
+      "action": "HOLD",
+      "model": "gemini-3.5-flash-lite",
+      "price_date": "2026-10-30",
+      "close": 4.050000190734863
+    },
+    {
+      "ticker": "SLR.MC",
+      "name": "Solaria",
+      "rating": "Hold",
+      "action": "HOLD",
+      "model": "gemini-3.5-flash-lite",
+      "price_date": "2026-10-30",
+      "close": 14.595000267028809
+    },
+    {
+      "ticker": "TEF.MC",
+      "name": "Telefónica",
+      "rating": "Hold",
+      "action": "HOLD",
+      "model": "gemini-3.5-flash-lite",
+      "price_date": "2026-10-30",
+      "close": 3.374000072479248
+    },
+    {
+      "ticker": "UNI.MC",
+      "name": "Unicaja",
+      "rating": "Hold",
+      "action": "HOLD",
+      "model": "gemini-3.5-flash-lite",
+      "price_date": "2026-10-30",
+      "close": 3.1700000762939453
+    }
+  ],
+  "valuations": [],
+  "benchmark": {
+    "symbol": "^IBEX",
+    "units": null
+  },
+  "warnings": [],
+  "status": "pending_market",
+  "summary": {
+    "cash": 10000.0,
+    "market_value": 0.0,
+    "dividends": 0.0,
+    "equity": 10000.0,
+    "profit": 0.0,
+    "return_pct": 0.0,
+    "realized": 0.0,
+    "unrealized": 0.0,
+    "fees": 0.0
+  }
+}

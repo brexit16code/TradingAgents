@@ -2,6 +2,8 @@
 
 Investigación sin operaciones reales.
 
+[Cartera virtual: operaciones y resultados ficticios](cartera.html)
+
 Generado: 2026-11-01T07:03:30.986607+01:00 (Europe/Madrid).
 
 Lista contrastada con el histórico de revisiones de BME.
