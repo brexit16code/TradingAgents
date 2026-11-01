@@ -53,9 +53,12 @@ se activa ningún servicio de pago automáticamente.
 
 Se han verificado `gemini-3.1-flash-lite` y `gemini-3.5-flash-lite` en la cuenta.
 Los valores se reparten de forma alterna entre ambos modelos; cada empresa
-ejecuta el grafo completo con un solo modelo, identificado en el JSON. Se mantienen
-los tres analistas, los debates y los gestores; se permiten dos rondas de
-herramientas por analista, apoyadas en los datos ya descargados.
+ejecuta el grafo con un solo modelo, identificado en el JSON. Se mantienen
+los tres analistas, los debates y los gestores. Los precios, indicadores,
+ratios, estados financieros y titulares se descargan y verifican antes del
+grafo. Cada analista los interpreta en una llamada sin repetir esas consultas.
+La evidencia determina también la identidad del punto de reanudación: un cambio
+de datos comienza un análisis nuevo, en lugar de continuar con un contexto viejo.
 La adaptación
 espacia las solicitudes al menos 5,1 segundos, comparte el control entre los
 analistas paralelos y limita las estimaciones conservadoras de entrada/salida
@@ -69,6 +72,9 @@ también se incluyen entre las evidencias facilitadas a los agentes.
 Los errores de servidor de Google HTTP 500/502/503/504 se reintentan como máximo
 dos veces, tras 20 y 40 segundos, retomando el punto guardado del grafo. No se
 reintentan automáticamente errores de cuota, autenticación o permisos.
+Si un modelo sigue devolviendo errores de servidor, se puede usar el otro
+modelo Lite gratuito de la lista ya verificada. Un error de cuota o credenciales
+no activa ese cambio. No se incorpora ningún modelo de pago.
 La ejecución queda marcada como incompleta si falta algún informe de IA,
 aunque se conservan y publican los datos y los informes que sí estén disponibles.
 Otras aplicaciones o ejecuciones

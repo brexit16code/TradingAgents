@@ -54,7 +54,8 @@ def create_fundamentals_analyst(llm):
         prompt = prompt.partial(current_date=current_date)
         prompt = prompt.partial(instrument_context=instrument_context)
 
-        result, report = take_turn(prompt, llm, TOOLS, state["messages"])
+        options = {"evidence_preloaded": True} if state.get("evidence_preloaded") else {}
+        result, report = take_turn(prompt, llm, TOOLS, state["messages"], **options)
 
         return {
             "messages": [result],

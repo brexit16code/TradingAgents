@@ -10,13 +10,30 @@ WRAP_UP = (
 )
 
 
-def take_turn(prompt, llm, tools, messages):
+def take_turn(prompt, llm, tools, messages, *, evidence_preloaded=False):
     """The analyst's reply and its report, which stays empty while it calls tools.
 
     Told to wrap up, it answers without tools: a model offered tools may call one
     whatever it is told. Its earlier calls and their results reach it as text,
     since a provider may refuse a history holding tool calls when none are bound.
     """
+    if evidence_preloaded:
+        # Batch callers may already have fetched and verified the evidence.
+        # Keep the analyst and the downstream debate, without duplicate API/tool calls.
+        brief = prompt.partial_variables.get("system_message", "")
+        prompt = prompt.partial(
+            tool_names="none; verified evidence is already attached",
+            system_message=brief + (
+                "\nPRELOADED EVIDENCE MODE: the caller has already retrieved the available "
+                "prices, indicators, financial statements and dated headlines and attached "
+                "them to the instrument context. This replaces the tool lookups requested "
+                "above. Write your report directly from that evidence without requesting "
+                "more tools. Cite its URLs and dates. Say which data is missing; never "
+                "fill gaps with remembered current facts, rates or probabilities."
+            ),
+        )
+        result = (prompt | llm).invoke(_as_text(messages))
+        return result, result.content
     if messages and isinstance(messages[-1], HumanMessage) and messages[-1].content == WRAP_UP:
         # The prompt lists the tools it offers; a model told of tools it cannot
         # call may still try, and some providers then answer with nothing.

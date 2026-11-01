@@ -280,6 +280,82 @@ def test_retries_never_repeat_quota_auth_or_unclassified_errors_and_are_finite(s
     assert pauses == ([20, 40] if status == 503 else [])
 
 
+@pytest.mark.parametrize("key,module,factory", [
+    ("market", "market_analyst", "create_market_analyst"),
+    ("news", "news_analyst", "create_news_analyst"),
+    ("fundamentals", "fundamentals_analyst", "create_fundamentals_analyst"),
+])
+def test_native_analyst_graph_interprets_preloaded_evidence_without_new_tools(key, module, factory):
+    import importlib
+
+    from langchain_core.messages import AIMessage, HumanMessage
+    from langchain_core.runnables import RunnableLambda
+
+    from tradingagents.graph.analyst_execution import build_analyst_execution_plan
+    from tradingagents.graph.setup import _analyst_graph
+
+    seen = []
+
+    def respond(prompt):
+        seen.append(prompt.to_string())
+        return AIMessage("Análisis basado en el cierre verificado de 100 EUR.")
+
+    # This runnable has no bind_tools method: accidental new lookups fail the test.
+    llm = RunnableLambda(respond)
+    agent = getattr(importlib.import_module(f"tradingagents.agents.analysts.{module}"), factory)(llm)
+    spec = build_analyst_execution_plan([key]).specs[0]
+    graph = _analyst_graph(spec, agent, 2)
+    result = graph.invoke({"company_of_interest": "IBE.MC", "trade_date": "2026-11-01",
+                           "asset_type": "stock", "instrument_context": "Verified close: 100 EUR; https://example.org/source",
+                           "evidence_preloaded": True, "messages": [HumanMessage("Analiza la evidencia aportada.")]})
+    assert result[spec.report_key] == "Análisis basado en el cierre verificado de 100 EUR."
+    assert len(seen) == 1
+    assert "100 EUR" in seen[0] and "https://example.org/source" in seen[0]
+    assert "PRELOADED EVIDENCE MODE" in seen[0]
+
+
+@pytest.mark.parametrize("status,completed", [(503, 3), (429, 0)])
+def test_only_persistent_server_failure_can_use_the_other_verified_free_model(monkeypatch, tmp_path, status, completed):
+    from ibex import agents
+    from tradingagents.graph.trading_graph import TradingAgentsGraph
+
+    monkeypatch.setenv("IBEX_FREE_TIER_VERIFIED", "true")
+    monkeypatch.setenv("GOOGLE_API_KEY", "dummy-test-key")
+    attempted = []
+
+    class ProviderError(RuntimeError):
+        code = status
+
+    def init(self, selected_analysts, config, callbacks):
+        self.config = config
+
+    def propagate(self, ticker, date, **kwargs):
+        model = self.config["quick_think_llm"]
+        attempted.append(model)
+        if model == "gemini-3.1-flash-lite":
+            raise ProviderError("dummy-test-key-must-not-leak")
+        return {"final_trade_decision": "Evidencia revisada"}, "Neutral"
+
+    def save(self, state, ticker, save_path):
+        save_path.mkdir(parents=True, exist_ok=True)
+        (save_path / "complete_report.html").write_text("Verified research")
+
+    monkeypatch.setattr(TradingAgentsGraph, "__init__", init)
+    monkeypatch.setattr(TradingAgentsGraph, "propagate", propagate)
+    monkeypatch.setattr(TradingAgentsGraph, "save_reports", save)
+    monkeypatch.setattr(agents, "propagate_with_retry", lambda graph, ticker, date: graph.propagate(ticker, date))
+    rows = [{**copy.deepcopy(valid_row()), **company} for company in load_universe()["companies"][:3]]
+    for row in rows:
+        row["screen"] = screen(row, True)
+    report = {"date": "2026-11-01", "generated_at": NOW.isoformat(), "companies": rows,
+              "universe": {"verified": True, "note": "Prueba", "revision_date": "2026-09-21", "source": "https://example.org"}}
+    agents.run_agents(report, tmp_path / "output", tmp_path / "state")
+    assert report["llm_usage"]["completed"] == completed
+    assert attempted == (["gemini-3.1-flash-lite"] + ["gemini-3.5-flash-lite"] * 3 if status == 503
+                          else ["gemini-3.1-flash-lite"])
+    assert "dummy-test-key" not in (tmp_path / "output" / "datos.json").read_text()
+
+
 def test_35_company_report_escapes_provider_html_and_is_strict_json(tmp_path):
     rows = []
     for company in load_universe()["companies"]:
@@ -309,13 +385,14 @@ def test_real_graph_adapter_keeps_completed_reports_and_stops_on_provider_failur
     captured = {}
 
     def init(self, selected_analysts, config, callbacks):
+        self.config = config
         captured["analysts"] = selected_analysts
         captured["config"] = config
         captured["callbacks"] = callbacks
         captured.setdefault("calls", 0)
         captured.setdefault("models", set()).add(config["quick_think_llm"])
 
-    def propagate(self, ticker, date):
+    def propagate(self, ticker, date, **kwargs):
         captured["calls"] += 1
         if captured["calls"] == 4:
             raise RuntimeError("dummy-test-key-must-not-leak")
