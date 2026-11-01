@@ -213,8 +213,9 @@ def test_completed_research_is_reused_only_with_same_date_and_evidence(tmp_path)
     from ibex.agents import cache_completed, reuse_completed
 
     row = {**copy.deepcopy(valid_row()), "ticker": "IBE.MC", "retrieved_at": "2026-11-01T00:01:00+01:00",
+           "news": [{"title": "A"}, {"title": "B"}],
            "agents": {"status": "completed", "model": "gemini-3.1-flash-lite"}}
-    report = {"date": "2026-11-01", "companies": [row], "macro_news": []}
+    report = {"date": "2026-11-01", "companies": [row], "macro_news": [{"title": "C"}, {"title": "D"}]}
     output = tmp_path / "original"
     saved = output / "agents" / "IBE.MC"
     saved.mkdir(parents=True)
@@ -222,11 +223,61 @@ def test_completed_research_is_reused_only_with_same_date_and_evidence(tmp_path)
     cache_completed(report, row, output, tmp_path / "state")
     fresh = copy.deepcopy(row)
     fresh["retrieved_at"] = "2026-11-01T00:15:00+01:00"
+    fresh["news"].reverse()
+    reordered = {**report, "macro_news": list(reversed(report["macro_news"]))}
+    assert reuse_completed(reordered, fresh, tmp_path / "reordered", tmp_path / "state")
     assert reuse_completed(report, fresh, tmp_path / "resumed", tmp_path / "state")
     assert (tmp_path / "resumed" / "agents" / "IBE.MC" / "complete_report.html").is_file()
     fresh["news"] = [{"title": "New results require a new analysis"}]
     assert not reuse_completed(report, fresh, tmp_path / "changed", tmp_path / "state")
+    fresh = copy.deepcopy(row)
+    fresh["statements"] = [{"statement": "income_stmt", "periods": [{"values": {"Net Income": 123}}]}]
+    assert not reuse_completed(report, fresh, tmp_path / "new-accounts", tmp_path / "state")
     assert not reuse_completed({**report, "date": "2026-11-02"}, row, tmp_path / "tomorrow", tmp_path / "state")
+
+
+@pytest.mark.parametrize("status", [500, 502, 503, 504])
+def test_transient_google_server_errors_resume_with_bounded_backoff(status, capsys):
+    from ibex.agents import propagate_with_retry
+
+    class ProviderError(RuntimeError):
+        code = status
+
+    class Graph:
+        calls = 0
+
+        def propagate(self, ticker, date):
+            self.calls += 1
+            if self.calls < 3:
+                raise ProviderError("dummy-private-api-key-must-not-leak")
+            return {"final_trade_decision": "Neutral"}, "Neutral"
+
+    graph, pauses = Graph(), []
+    assert propagate_with_retry(graph, "IBE.MC", "2026-11-01", sleep=pauses.append)[1] == "Neutral"
+    assert graph.calls == 3
+    assert pauses == [20, 40]
+    assert "dummy-private-api-key" not in capsys.readouterr().out
+
+
+@pytest.mark.parametrize("status", [400, 401, 403, 404, 429, None, 503])
+def test_retries_never_repeat_quota_auth_or_unclassified_errors_and_are_finite(status):
+    from ibex.agents import propagate_with_retry
+
+    class ProviderError(RuntimeError):
+        code = status
+
+    class Graph:
+        calls = 0
+
+        def propagate(self, ticker, date):
+            self.calls += 1
+            raise ProviderError("failure")
+
+    graph, pauses = Graph(), []
+    with pytest.raises(ProviderError):
+        propagate_with_retry(graph, "IBE.MC", "2026-11-01", sleep=pauses.append)
+    assert graph.calls == (3 if status == 503 else 1)
+    assert pauses == ([20, 40] if status == 503 else [])
 
 
 def test_35_company_report_escapes_provider_html_and_is_strict_json(tmp_path):

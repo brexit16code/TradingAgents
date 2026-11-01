@@ -77,8 +77,37 @@ def evidence_fingerprint(report, row):
 
     evidence = json.loads(compact_evidence(row))
     evidence.pop("retrieved_at", None)
-    payload = {"date": report["date"], "company": evidence, "macro_news": report.get("macro_news", [])}
+    # RSS relevance ordering can change without changing the underlying articles.
+    evidence["news"] = sorted(evidence.get("news") or [], key=lambda item: json.dumps(item, sort_keys=True))
+    macro = sorted(report.get("macro_news", []), key=lambda item: json.dumps(item, sort_keys=True))
+    payload = {"date": report["date"], "company": evidence, "macro_news": macro}
     return hashlib.sha256(json.dumps(payload, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
+
+
+def safe_error_status(exc):
+    """Expose only an HTTP status; SDK exception messages may contain secrets."""
+    for error in (exc, exc.__cause__):
+        if error is None:
+            continue
+        status = getattr(error, "code", None) or getattr(error, "status_code", None)
+        if isinstance(status, int) and not isinstance(status, bool) and 400 <= status <= 599:
+            return status
+    return None
+
+
+def propagate_with_retry(graph, ticker, date, *, sleep=time.sleep):
+    for attempt in range(3):
+        try:
+            return graph.propagate(ticker, date)
+        except Exception as exc:
+            status = safe_error_status(exc)
+            if status not in {500, 502, 503, 504} or attempt == 2:
+                raise
+            # The upstream graph's SQLite checkpoint resumes the failed step.
+            # Quota/authentication errors are deliberately NOT retried.
+            pause = 20 * (attempt + 1)
+            print(f"IA {ticker}: servidor HTTP {status}; reanudación {attempt + 1}/2 en {pause}s.", flush=True)
+            sleep(pause)
 
 
 def reuse_completed(report, row, output, state_root):
@@ -250,7 +279,7 @@ def run_agents(report, output, state_root):
                                                config=model_config, callbacks=[guards[model]])
                 graph = graphs[model]
                 print(f"IA [{index + 1}/35] {row['ticker']}: inicio ({model}).", flush=True)
-                state, rating = graph.propagate(row["ticker"], report["date"])
+                state, rating = propagate_with_retry(graph, row["ticker"], report["date"])
                 path = Path(output) / "agents" / row["ticker"]
                 graph.save_reports(state, row["ticker"], save_path=path)
                 row["agents"] = {"status": "completed", "rating": str(rating), "model": model,
@@ -259,7 +288,9 @@ def run_agents(report, output, state_root):
                 cache_completed(report, row, output, state_root)
             except Exception as exc:
                 # Do not persist an exception string: SDK errors may contain credentials.
-                row["agents"] = {"status": "failed", "note": f"Análisis interrumpido ({type(exc).__name__})."}
+                status = safe_error_status(exc)
+                suffix = f", HTTP {status}" if status is not None else ""
+                row["agents"] = {"status": "failed", "note": f"Análisis interrumpido ({type(exc).__name__}{suffix})."}
                 # Stop on any provider error. Repeated full-graph retries burn free quota.
                 stopped = True
             print(f"IA [{index + 1}/35] {row['ticker']}: {row['agents']['status']}; "

@@ -183,6 +183,6 @@ def collect(company, benchmark, now):
 
 def compact_evidence(row):
     keep = {k: row.get(k) for k in ("ticker", "name", "kind", "retrieved_at", "technical",
-                                   "fundamentals", "valuation", "news", "warnings", "sources")}
+                                   "fundamentals", "statements", "valuation", "news", "warnings", "sources")}
     keep["technical"] = {k: v for k, v in (keep["technical"] or {}).items() if k != "chart"}
     return json.dumps(keep, ensure_ascii=False, allow_nan=False)

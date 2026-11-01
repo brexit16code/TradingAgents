@@ -19,7 +19,7 @@ jobs:
     # A private repository is deliberately skipped until its quota is reviewed.
     if: github.repository != 'TauricResearch/TradingAgents' && github.event.repository.fork == true && github.event.repository.private == false
     runs-on: ubuntu-latest
-    timeout-minutes: 180
+    timeout-minutes: 240
     env:
       TZ: Europe/Madrid
       TRADINGAGENTS_NO_UPDATE_CHECK: '1'
@@ -56,7 +56,7 @@ jobs:
           fi
       - name: Analizar con TradingAgents, solo nivel gratuito
         if: vars.IBEX_FREE_TIER_VERIFIED == 'true'
-        timeout-minutes: 120
+        timeout-minutes: 165
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           IBEX_FREE_TIER_VERIFIED: ${{ vars.IBEX_FREE_TIER_VERIFIED }}
@@ -108,3 +108,16 @@ jobs:
             git -C /tmp/ibex-publish push origin HEAD:ibex-reports
           fi
           echo "[Abrir informe en el móvil](https://github.com/${GH_REPO}/blob/ibex-reports/latest/Informe.md)" >> "$GITHUB_STEP_SUMMARY"
+      - name: Comprobar cobertura completa de IA
+        if: vars.IBEX_FREE_TIER_VERIFIED == 'true'
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          report = json.loads(Path('ibex-output/latest/datos.json').read_text())
+          missing = [row['ticker'] for row in report['companies']
+                     if row.get('agents', {}).get('status') != 'completed']
+          if missing:
+              raise SystemExit('IA incompleta; informes disponibles publicados. Pendientes: ' + ', '.join(missing))
+          print('TradingAgents: 35/35 informes completos.')
+          PY

@@ -63,6 +63,14 @@ a 200.000 por ventana de 61 segundos y modelo. El tope es de 450 solicitudes por
 modelo y ejecución, con margen respecto a las 500 diarias observadas por modelo.
 Los informes completos se conservan para reanudar sin nuevas llamadas si siguen
 siendo del mismo día y no han cambiado precios, fundamentales ni noticias.
+Un cambio de orden de los mismos titulares no invalida el informe; un cambio
+en los estados financieros sí lo invalida. Los estados anuales descargados
+también se incluyen entre las evidencias facilitadas a los agentes.
+Los errores de servidor de Google HTTP 500/502/503/504 se reintentan como máximo
+dos veces, tras 20 y 40 segundos, retomando el punto guardado del grafo. No se
+reintentan automáticamente errores de cuota, autenticación o permisos.
+La ejecución queda marcada como incompleta si falta algún informe de IA,
+aunque se conservan y publican los datos y los informes que sí estén disponibles.
 Otras aplicaciones o ejecuciones
 el mismo día comparten la cuota: los topes locales no la reservan.
 La cuota gratuita no garantiza 35 ejecuciones
