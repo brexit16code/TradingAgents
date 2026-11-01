@@ -1,0 +1,52 @@
+name: Comprobar Gemini gratuito
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    if: github.repository == 'brexit16code/TradingAgents' && vars.IBEX_FREE_TIER_VERIFIED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7
+        with:
+          python-version: '3.12'
+      - name: Instalar el cliente oficial de Google
+        run: python -m pip install google-genai==2.34.0
+      - name: Comprobar ambos modelos sin mostrar la clave
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+          from google import genai
+          from google.genai import types
+          client = genai.Client(api_key=os.environ['GOOGLE_API_KEY'], http_options=types.HttpOptions(
+              timeout=30000, retry_options=types.HttpRetryOptions(attempts=1)))
+          results = []
+          for model in ('gemini-3.1-flash-lite', 'gemini-3.5-flash-lite'):
+              result = {'model': model, 'available': False}
+              try:
+                  client.models.generate_content(model=model, contents='Responde solo OK.',
+                      config=types.GenerateContentConfig(max_output_tokens=64,
+                          thinking_config=types.ThinkingConfig(thinking_level='minimal')))
+                  result.update(available=True, http_status=200)
+              except Exception as exc:
+                  status = getattr(exc, 'code', None)
+                  result.update(error_type=type(exc).__name__,
+                                http_status=status if isinstance(status, int) else None)
+              results.append(result)
+              print(json.dumps(result), flush=True)
+          Path(os.environ['GITHUB_STEP_SUMMARY']).write_text(
+              '# Disponibilidad de Gemini\n\n' + '\n'.join(
+                  f"- {r['model']}: {'disponible' if r['available'] else 'no disponible'}; HTTP {r.get('http_status')}"
+                  for r in results), encoding='utf-8')
+          if not any(item['available'] for item in results):
+              raise SystemExit('Los dos modelos devolvieron un error; no se ha activado facturación.')
+          PY
