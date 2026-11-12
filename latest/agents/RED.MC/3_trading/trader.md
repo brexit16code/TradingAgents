@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: Redeia (RED.MC) cotiza a 15,42 EUR mostrando una sólida directriz alcista por encima de sus medias móviles y un atractivo dividendo del 5,19%, respaldado por unos resultados estables a septiembre de 2026. Sin embargo, un RSI en 69,31 rozando la sobrecompra, un flujo de caja libre negativo y una elevada ratio de deuda neta sobre EBITDA de 4,96x limitan el potencial alcista inmediato al objetivo de consenso de 16,51 EUR, justificando una postura de mantenimiento neutral.
+**Reasoning**: La acción se encuentra en una zona de sobrecompra técnica (RSI 72,54) con una valoración cercana al precio objetivo medio de los analistas (16,43 EUR), lo que limita el potencial de revalorización a corto plazo. Aunque los fundamentales como activo regulado ofrecen estabilidad y un dividendo atractivo, el apalancamiento financiero elevado (Net Debt/EBITDA de 4,96x) y el flujo de caja libre negativo justifican prudencia y evitar nuevas compras hasta observar un retroceso hacia niveles de soporte técnico más atractivos.
 
-**Entry Price**: not provided
+**Entry Price**: 15.03
 
-**Stop Loss**: not provided
+**Stop Loss**: 14.8
 
-**Position Sizing**: Mantener asignación actual sin ampliaciones
+**Position Sizing**: Mantener exposición actual; no incrementar
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

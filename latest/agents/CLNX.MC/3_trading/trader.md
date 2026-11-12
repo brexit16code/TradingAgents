@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La acción se encuentra en una fase de consolidación técnica crítica, cotizando por encima de las medias de 20 y 50 sesiones pero enfrentando una resistencia estructural en la SMA200 (26,91 EUR). Aunque el momentum es positivo con un RSI en 59,73, la elevada carga de deuda neta sobre EBITDA (7,78x) y la falta de beneficios netos aconsejan prudencia y evitar una entrada en los niveles actuales hasta que se confirme una ruptura al alza de la resistencia principal.
+**Reasoning**: La cotización de CLNX.MC se encuentra consolidando en una zona de equilibrio técnico cerca de su media móvil de 200 sesiones (26,97 EUR), lo que refleja la indecisión del mercado entre su potencial de revalorización a largo plazo y los riesgos de un elevado apalancamiento. Aunque los resultados recientes han sido bien recibidos, el entorno de tipos de interés altos presiona su estructura de deuda, por lo que es prudente mantener la posición actual y esperar una ruptura clara de los niveles técnicos antes de aumentar la exposición.
 
-**Entry Price**: 26.92
+**Entry Price**: not provided
 
-**Stop Loss**: 24.5
+**Stop Loss**: 25.0
 
-**Position Sizing**: 3% de la cartera sugerido para una posición de inicio tras la ruptura.
+**Position Sizing**: Mantener exposición actual; no incrementar.
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

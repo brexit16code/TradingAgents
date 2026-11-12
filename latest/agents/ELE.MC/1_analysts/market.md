@@ -1,34 +1,36 @@
-El análisis de **Endesa, S.A. (ELE.MC)**, basado en la información financiera y técnica consolidada a fecha de 1 de noviembre de 2026, presenta una situación de fortaleza estructural pero con desafíos de valoración frente al consenso de mercado.
+Este informe técnico y fundamental analiza a **Endesa, S.A. (ELE.MC)** basándose en los datos proporcionados con fecha de corte al 12 de noviembre de 2026.
 
 ### Análisis Técnico
-Endesa muestra una tendencia alcista consolidada. Con un precio de cierre de **43,81 EUR** (datos al 30/10/2026), se sitúa por encima de sus medias móviles de 20, 50 y 200 sesiones (42,81; 42,32 y 37,59 respectivamente), lo cual confirma una clara estructura de tendencia alcista en todos los plazos temporales. 
+Endesa muestra una tendencia alcista consolidada. Con un precio de cierre de **45,25 EUR**, la acción se sitúa cómodamente por encima de sus medias móviles de 20, 50 y 200 días (43,71; 42,78 y 38,25 EUR respectivamente), confirmando una estructura de mercado sólida a largo plazo. 
 
-El indicador **RSI (14)** se encuentra en **59,58**, lo que indica un impulso positivo sin estar en zona de sobrecompra (generalmente >70), sugiriendo margen para una continuación alcista. La señal del **MACD (0,42)** por encima de su línea de señal (**0,33**) refuerza esta visión constructiva. La volatilidad, medida en un **17,61%**, es coherente con el perfil de una *utility* regulada, y el valor ha tenido un rendimiento anualizado destacado del **43,64%**.
+*   **Momentum:** El RSI(14) en **65,96** indica una fuerza alcista considerable, aproximándose a territorio de sobrecompra pero aún con espacio para el movimiento. El MACD (0,618) se mantiene por encima de su línea de señal (0,526), lo que corrobora la persistencia del impulso positivo.
+*   **Volatilidad:** La volatilidad se sitúa en un 18,09%, lo cual es moderado para el sector, sugiriendo un avance sostenido sin excesos especulativos extremos.
 
-### Fundamentos y Contexto Corporativo
-La compañía reporta una solidez operativa notable:
-*   **Resultados:** Los ingresos han crecido hasta los 21.020 millones en 2025, con un EBITDA de 5.314 millones, mostrando una recuperación operativa frente a 2023.
-*   **Deuda:** El ratio **Net Debt/EBITDA** es de **2,10x**, lo que refleja una gestión prudente del balance.
-*   **Valoración:** La acción cotiza a un **PER forward de 18,07**, lo que representa una prima del **13%** respecto a la mediana de sus comparables del sector (15,98), sugiriendo que el mercado ya ha puesto en precio gran parte de las expectativas positivas.
-*   **Consenso:** Existe una desconexión relevante entre el precio actual y el **target mean price de 36,69 EUR**, lo que arroja un *upside* negativo del **-16,25%**. Esto indica que, a pesar del buen momento técnico, los analistas ven el precio actual como estirado.
+### Análisis Fundamental
+El desempeño financiero reciente muestra una mejora significativa en la rentabilidad:
+*   **Resultados:** El beneficio neto alcanzó los 2.198 millones de euros en 2025, superando los 1.888 millones de 2024. El EBITDA ha crecido consistentemente en los últimos ejercicios (5,31 mil millones en 2025 frente a 4,94 mil millones en 2024).
+*   **Valuación:** Cotiza a un Forward PE de 18,68. La relación con sus pares (ratio 1,13) indica que el mercado está pagando una prima ligeramente superior por Endesa respecto a la mediana del sector, posiblemente justificada por su sólida posición en el mercado regulado.
+*   **Dividendos:** Ofrece una rentabilidad por dividendo del 3,49%, complementada por un payout ratio del 66,55%, lo cual es sostenible para una utility regulada.
 
-### Aspectos Estratégicos
-Las noticias recientes (Merca2.es, 28/10/2026) destacan una gestión eficiente de los beneficios (1.962 millones) y una posible revisión al alza del cierre nuclear de Almaraz hasta 2030, lo cual podría añadir valor a largo plazo. La política de dividendos, con una rentabilidad del **3,62%**, sigue siendo un pilar para el perfil de inversor de Endesa.
+### Contexto de Mercado y Riesgos
+Las noticias recientes (Bolsamania, 9 de noviembre de 2026) destacan que Endesa ha batido las previsiones de beneficio, lo que ha llevado a analistas a elevar su precio objetivo hasta los 46,50 EUR. Sin embargo, existe una divergencia notable: el consenso de mercado sitúa el precio objetivo medio en **36,69 EUR**, lo que implica una "upside" negativa de -18,91% respecto al precio actual. Esta discrepancia sugiere que el mercado ha reaccionado con gran optimismo reciente, superando las expectativas previas de los analistas.
+
+**Evidencia contradictoria:** Mientras que los indicadores técnicos y los resultados financieros más recientes son positivos, el consenso de analistas (con una muestra de 23 opiniones) se muestra escéptico sobre la sostenibilidad del nivel actual de 45,25 EUR, sugiriendo cautela ante una posible sobrevaloración.
 
 ### Conclusión
-Endesa se comporta como un valor de "calidad" que ha sido premiado por el mercado, superando sus medias móviles a largo plazo. No obstante, los inversores deben considerar que el precio actual supera significativamente el consenso de los analistas. La estrategia parece ser de **mantenimiento (Hold)** para quienes buscan la retribución del dividendo, cautela para nuevas entradas debido a la sobrevaloración respecto al precio objetivo.
+Endesa presenta un momento técnico excelente, pero se encuentra en una zona de posible agotamiento frente al consenso de analistas. El inversor debe considerar que, aunque el fundamental operativo es fuerte, la valoración actual descuenta gran parte de las buenas noticias.
+
+| Indicador / Métrica | Valor | Observación |
+| :--- | :--- | :--- |
+| Precio Actual | 45,25 EUR | Tendencia alcista clara |
+| RSI (14) | 65,96 | Fuerza alcista, sin sobrecompra crítica |
+| Forward P/E | 18,68 | Valoración premium respecto a pares |
+| Dividend Yield | 3,49% | Atractivo para perfil defensivo |
+| Consenso Objetivo | 36,69 EUR | Divergencia bajista vs. precio actual |
+| Net Debt/EBITDA | 2,10x | Apalancamiento controlado |
 
 **Rating**: Neutral
 
-| Indicador / Métrica | Valor | Interpretación |
-| :--- | :--- | :--- |
-| Precio Actual (EUR) | 43,81 | Tendencia Alcista |
-| SMA 200 | 37,59 | Soporte de largo plazo |
-| RSI 14 | 59,58 | Impulso moderado |
-| PER Forward | 18,07 | Prima sectorial |
-| Dividend Yield | 3,62% | Atractivo moderado |
-| Upside Consenso | -16,25% | Advertencia de sobrevaloración |
-
-*Nota: La información se basa en los datos proporcionados al 01/11/2026. Los indicadores técnicos como el MACD y RSI fueron obtenidos directamente del snapshot verificado.*
-
 FINAL TRANSACTION PROPOSAL: Hold
+
+*Nota: La información se basa en los datos suministrados. Falta información sobre la exposición exacta a tipos de interés variables en la deuda a largo plazo, lo cual es crítico dado el contexto de inflación mencionada en los titulares del BCE (12 de noviembre de 2026).*

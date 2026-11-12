@@ -1,31 +1,32 @@
-Este informe analiza la situación financiera y macroeconómica de **UNI.MC** (Unicaja Banco, S.A.) basándose en los datos proporcionados al 1 de noviembre de 2026.
+A continuación presento el informe de análisis sobre **UNI.MC** (Unicaja Banco, S.A.), basado en la información financiera, técnica y macroeconómica suministrada con fecha de corte al 12 de noviembre de 2026.
 
-### Análisis de Desempeño y Resultados Recientes
-Unicaja ha reportado resultados sólidos para los primeros nueve meses de 2026, con un beneficio neto de 543 millones de euros, lo que representa un crecimiento del 8,1% interanual. Este impulso se atribuye a una mejora en los márgenes y al crecimiento del negocio. A pesar de estos resultados positivos, la acción ha enfrentado presiones recientes, cotizando a 3,17 EUR, lo que refleja un sentimiento sectorial bajista que afecta a la banca europea en su conjunto, a pesar de reportar beneficios récord (fuente: *Cinco Días*, 2026-10-30).
+### Informe de Análisis: UNI.MC
 
-### Fundamentos y Valoración
-*   **Valoración:** La acción presenta un PER *forward* de 11,28x, ligeramente por encima de la mediana de sus comparables (9,93x). Su ratio precio/valor contable (P/B) es de 1,28x, lo que sugiere una valoración moderada.
-*   **Dividendos:** Con una rentabilidad por dividendo del 6,02%, Unicaja se posiciona como una opción atractiva para inversores enfocados en ingresos, aunque su *payout ratio* es elevado (73,82%).
-*   **Desafíos:** La entidad enfrenta presiones operativas, incluyendo un sobrecoste laboral de 11 millones de euros derivado de nuevas contrataciones y la aplicación de convenios colectivos (*Economía Digital*, 2026-10-31). Además, el mercado sigue atento a la resolución de tres asuntos pendientes: Wizink, la relación con Santalucía y el nombramiento del nuevo presidente (*Hispanidad*, 2026-10-30).
+#### 1. Perspectiva Macroeconómica
+El entorno macroeconómico en España se presenta desafiante. Las noticias del 5 al 12 de noviembre indican una inflación persistente ("se enquista") en el entorno del 5%, con preocupaciones explícitas por parte del BCE sobre el impacto de la energía y la IA en la desanclaje de precios. El mercado descuenta actualmente un escenario de tipos de interés al alza (hasta el 3% en la zona euro), lo que genera una presión añadida sobre el sector bancario, especialmente en un contexto de lucha entre "halcones" y "palomas" dentro del BCE.
 
-### Contexto Macroeconómico
-El entorno macroeconómico está marcado por la política del Banco Central Europeo (BCE), que ha mantenido los tipos de interés en el 2,5%. Existe una creciente expectativa sobre la reunión de diciembre, ante una perspectiva de inflación que, según el BCE, se inclina a la baja (*Estrategias de Inversión*, 2026-10-29). Este entorno de tipos estables pero bajo vigilancia presiona el margen de interés de la banca regional.
+#### 2. Análisis de UNI.MC
+*   **Situación Técnica:** Con un precio de 3,458 EUR, la acción cotiza por encima de sus medias móviles de 20, 50 y 200 sesiones, lo que sugiere una tendencia alcista a largo plazo. Sin embargo, el RSI (62,99) indica que no estamos en zona de sobrecompra extrema, pero el rendimiento de los últimos 63 días (-1,90%) refleja una consolidación lateral-bajista reciente.
+*   **Fundamentos:** Unicaja muestra una valoración moderada con un PER forward de 12,22x y un ratio Precio/Valor Contable de 1,40x. La rentabilidad por dividendo (5,49%) es un atractivo clave para los inversores. No obstante, las noticias recientes (Estrategias de Inversión, 10/11/2026) señalan una visión negativa por parte de analistas que "condenan" a Sabadell y Unicaja frente a otras entidades como Santander, sugiriendo un sentimiento de mercado desfavorable.
+*   **Consenso de Analistas:** Existe una divergencia relevante. Mientras que el mercado marca un precio objetivo medio de 3,24 EUR, el precio actual (3,45 EUR) se sitúa un 6,19% por encima de dicho consenso, lo que implica una sobrevaloración según la media de 18 analistas.
 
-### Resumen de Datos Técnicos
-La acción cotiza por debajo de su media móvil de 50 días (3,40 EUR) y 20 días (3,22 EUR), situándose cerca de su media de 200 días (2,95 EUR). El RSI de 40,07 indica que la acción no se encuentra actualmente en territorio de sobreventa extrema, sugiriendo una tendencia bajista de corto plazo pero sin señales de capitulación.
+#### 3. Fortalezas y Riesgos
+*   **Fortalezas:** Sólido margen de beneficios (profit margins del 32,8%) y una buena estructura de activos (98,4 mil millones de EUR). La rentabilidad sobre recursos propios (ROE) es del 10,1%.
+*   **Riesgos:** La estructura de flujos de caja operativos presenta cifras negativas en 2025 (-1,4 mil millones EUR), lo cual es una señal de alerta que requiere una investigación profunda sobre la gestión del capital circulante. La presión regulatoria del BCE y la persistencia de la inflación son vientos en contra directos para la valoración de los bancos regionales.
 
-### Información Faltante
-No se dispone de datos sobre el flujo de caja operativo actualizado, inversiones de capital (CapEx) más allá de 2025, o detalles granulares sobre el impacto futuro de la estrategia con Wizink. Los ratios de solvencia (CET1) más allá de los estados financieros suministrados serían necesarios para una evaluación de riesgo completa.
+#### 4. Resumen de Datos Clave
+| Indicador | Valor / Estado | Nota |
+| :--- | :--- | :--- |
+| **Precio Actual** | 3,458 EUR | Sesión al 2026-11-12 |
+| **Consenso Upside** | -6,19% | El precio supera la media de analistas |
+| **Dividend Yield** | 5,49% | Atractivo para renta variable |
+| **PER Forward** | 12,22 | Valoración intermedia en el sector |
+| **Tendencia (SMA200)** | 2,98 EUR | Soporte clave a largo plazo |
+| **Sentimiento** | Negativo | Citado por Estrategias de Inversión |
 
 **Rating**: HOLD
+**FINAL TRANSACTION PROPOSAL**: El precio actual descuenta gran parte del optimismo. Ante la discrepancia negativa con el consenso de analistas y la incertidumbre inflacionaria, se recomienda prudencia. Cualquier posición debe ser considerada como una inversión de dividendo a largo plazo, monitoreando de cerca la mejora en el flujo de caja operativo.
 
-| Concepto | Dato / Nota |
-| :--- | :--- |
-| **Precio Actual** | 3,17 EUR |
-| **Beneficio Neto (9M 2026)** | 543 M EUR (+8,1%) |
-| **Rentabilidad Dividendo** | 6,02% |
-| **Consenso Precio Objetivo** | 3,23 EUR |
-| **Tendencia Técnica** | Bajista (bajo SMA 20/50) |
-| **Riesgo Clave** | Incertidumbres en gobernanza y sobrecostes laborales |
+***
 
-FINAL TRANSACTION PROPOSAL: Mantener posiciones actuales a la espera de noticias sobre la estructura de gobierno corporativo y la evolución de los tipos del BCE en diciembre.
+**Nota sobre datos faltantes:** No se dispone de información sobre el crecimiento de las ganancias (earnings growth) para el último periodo, ni de detalles específicos sobre el Ebitda, dado que la naturaleza del balance bancario no permite aplicar ratios industriales estándar. Los flujos de caja negativos de 2024-2025 frente a 2023 requieren una revisión detallada de los informes trimestrales no incluidos en este snapshot para confirmar si se deben a partidas extraordinarias.

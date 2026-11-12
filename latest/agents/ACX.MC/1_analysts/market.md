@@ -1,31 +1,33 @@
-Tras analizar la información proporcionada para **ACX.MC (Acerinox, S.A.)** a fecha 1 de noviembre de 2026, presento el siguiente informe técnico y fundamental.
-
-### Análisis Fundamental y de Mercado
-Acerinox presenta una situación financiera compleja tras la publicación de sus resultados del tercer trimestre de 2026 (30 de octubre de 2026). Aunque la compañía reportó una multiplicación de su beneficio neto por 23 veces, impulsada por su robustez en el mercado estadounidense, la reacción del mercado ha sido bajista. 
-
-*   **Valuación y Rendimiento:** La acción cerró el 30 de octubre a 16,07 €, con una caída del 5,47% en la sesión. El PER *trailing* se sitúa en 50,22, lo cual es elevado, aunque el PER *forward* (10,21) sugiere una expectativa de mejora en la rentabilidad futura.
-*   **Deuda:** La compañía enfrenta una carga de deuda neta significativa con un ratio de Deuda Neta/EBITDA de 3,25, lo cual, unido a un flujo de caja libre negativo (-146,27 millones de EUR en términos anuales hasta 2025), requiere un seguimiento constante por parte de los inversores.
-*   **Consenso:** El precio objetivo medio es de 19,58 €, lo que implica un potencial de revalorización del 21,87% según los 13 analistas consultados.
+El análisis de **Acerinox, S.A. (`ACX.MC`)** al cierre del 12 de noviembre de 2026 revela una situación técnica y fundamental que requiere cautela, marcada por una divergencia entre su valoración a futuro y la presión bajista reciente.
 
 ### Análisis Técnico
-*   **Tendencia:** El precio de 16,07 € se encuentra por debajo de la media móvil de 50 días (17,27 €) y de 20 días (16,81 €), lo que confirma una presión bajista a corto/medio plazo. No obstante, se mantiene por encima de la media de 200 días (15,19 €), actuando esta última como soporte estructural de largo plazo.
-*   **Momento:** El RSI (14) en 37,37 indica un sentimiento bajista cercano a la zona de sobreventa, pero sin haber entrado aún en ella. El MACD (-0,165) y su señal (-0,155) muestran una convergencia bajista que confirma la falta de fuerza compradora tras los resultados.
-*   **Volatilidad:** Con una volatilidad del 25,74%, el valor muestra una alta sensibilidad a las noticias, como se observó en la caída post-resultados.
+El precio de cierre se sitúa en **15,95 EUR**, reflejando una leve caída diaria (-0,13%). Los indicadores sugieren un mercado sin una dirección clara a corto plazo, pero bajo presión:
+*   **Tendencia:** El precio se encuentra por debajo de la **SMA50 (16,90 EUR)**, lo que indica una debilidad en el corto-medio plazo. Sin embargo, se mantiene por encima de la **SMA200 (15,33 EUR)**, actuando como un soporte estratégico clave a largo plazo.
+*   **Momentum:** El **RSI14 (45,02)** se encuentra en zona neutral, sin señalar condiciones de sobreventa ni sobrecompra. El **MACD (-0,37)** se sitúa ligeramente por debajo de su línea de señal (-0,36), confirmando una persistencia de la presión vendedora técnica.
+*   **Volatilidad:** Con una volatilidad del 28,16%, el valor muestra oscilaciones moderadas. La acción ha sufrido un *drawdown* del 13,69%, lo que sugiere una corrección activa desde sus máximos recientes.
 
-### Consideraciones Estratégicas
-La discrepancia entre el sólido desempeño operativo (citado en los informes de *Radio Intereconomía* y *OkDiario* el 30/10/2026) y la caída en bolsa sugiere que el mercado está descontando riesgos mayores o está reaccionando a un aumento en la presión bajista. Los inversores deben vigilar el soporte en los 15,19 € (SMA 200); si el valor pierde este nivel, podría invalidar la tendencia alcista de largo plazo.
+### Análisis Fundamental
+*   **Valoración:** La compañía presenta un **Forward PE de 10,32x**, lo que, comparado con un **Trailing PE de 30,09x**, sugiere una expectativa de recuperación significativa en los beneficios para el próximo ejercicio.
+*   **Deuda y Solvencia:** El ratio **Net Debt/EBITDA de 3,15x** es un punto de atención crítico en un entorno de tipos de interés que, según la prensa reciente (Moncloa.com, 2026-11-05), podrían mantenerse elevados (descuento del 3% en el BCE). La capacidad de generación de flujo de caja libre es negativa (-155,27 M EUR según estados financieros de 2025), lo que presiona el balance.
+*   **Rentabilidad:** El **Dividend Yield del 3,88%** ofrece un atractivo para el inversor de renta, aunque el **Payout Ratio (144,19%)** resulta insostenible si no se logra revertir la tendencia de los beneficios netos, que fueron negativos en 2025 (-40,07 M EUR).
 
-**Missing Data:** No se dispone de un desglose detallado del *guidance* específico por división para el Q4 2026, lo cual es esencial para validar si la mejora del beneficio es sostenible o un evento puntual.
+### Perspectiva de Mercado
+La incertidumbre macroeconómica en España, con una inflación persistente en el 5% (Finanzas.com, 2026-11-08) y la volatilidad en la política monetaria del BCE, afecta directamente a sectores cíclicos como el acero. La clave para `ACX.MC` será la capacidad de mejorar sus márgenes (actualmente en el 1,96%) y reducir la deuda.
 
-| Indicador / Métrica | Valor / Estado | Interpretación |
+**Evidencia contradictoria:** Aunque los analistas mantienen un precio objetivo medio de **19,38 EUR** (un upside potencial del 21,5%), esto contrasta con el comportamiento técnico reciente que muestra una tendencia bajista de corto plazo (SMA20 < SMA50).
+
+**Datos faltantes:** No se dispone de un desglose geográfico actualizado del flujo de ingresos para evaluar el impacto de la demanda en mercados específicos (EE. UU. vs. Europa) ni detalles sobre futuros planes de refinanciación de deuda.
+
+### Resumen de indicadores clave
+| Indicador | Valor / Estado | Interpretación |
 | :--- | :--- | :--- |
-| Precio de Cierre (30/10) | 16,07 € | Tendencia bajista de corto plazo |
-| SMA 200 (Soporte) | 15,19 € | Piso crítico de largo plazo |
-| RSI (14) | 37,37 | Zona neutral-baja, debilidad |
-| Dividend Yield | 3,86% | Atractivo para perfiles de renta |
-| Upside (Consenso) | 21,87% | Optimismo de analistas vs. mercado |
-| Net Debt/EBITDA | 3,25x | Apalancamiento a vigilar |
+| Precio Actual | 15,95 EUR | Soporte cerca de SMA200 |
+| RSI14 | 45,02 | Neutral |
+| SMA50 / SMA200 | 16,90 / 15,33 | Tendencia bajista en corto |
+| Forward PE | 10,32x | Valoración atractiva a futuro |
+| Yield | 3,88% | Atractivo pero con alto Payout |
+| Upside Consenso | +21,53% | Optimismo de analistas |
 
-**Rating**: Neutral
+**Rating**: HOLD
 
-FINAL TRANSACTION PROPOSAL: Mantener posición para inversores de largo plazo, observando el soporte de 15,19 €. Evitar nuevas entradas agresivas hasta que el indicador MACD muestre una reversión o una estabilización clara por encima de la SMA de 50 días.
+FINAL TRANSACTION PROPOSAL: No trade execution suggested. Monitor the 15,30 EUR support level (SMA200) for potential entry points; observe if Forward EPS of 1,54 EUR materializes to justify current valuation levels.

@@ -1,11 +1,11 @@
-**Action**: Buy
+**Action**: Hold
 
-**Reasoning**: Sacyr demuestra una sólida operativa con flujos de caja recurrentes y un crecimiento de doble dígito en el 9M26, respaldado por un atractivo dividendo del 4,94% y un potencial de revalorización superior al 31% según el consenso de analistas. Aunque el apalancamiento neto sobre EBITDA es elevado (5,31x) y cotiza bajo sus medias de 50 y 200 sesiones, el descuento en valoración actual y la robustez de su negocio concesional justifican una entrada escalonada en el soporte técnico.
+**Reasoning**: SCYR.MC muestra fortaleza técnica al cotizar sobre sus medias móviles de 20 y 50 días, pero enfrenta una resistencia clave en la SMA200 (4,36 EUR) y niveles de sobrecompra incipiente en el RSI. Fundamentalmente, la alta ratio de apalancamiento (Deuda Neta/EBITDA de 5,4) en un entorno de tipos de interés restrictivos del BCE justifica cautela. La recomendación de Hold es prudente para evitar comprar en una resistencia técnica mientras la estructura de deuda limita el margen de seguridad.
 
-**Entry Price**: 3.99
+**Entry Price**: 4.37
 
-**Stop Loss**: 3.75
+**Stop Loss**: 3.95
 
-**Position Sizing**: 4% of portfolio
+**Position Sizing**: Mantener posición actual, no incrementar hasta superar 4,36 EUR
 
-FINAL TRANSACTION PROPOSAL: **BUY**
+FINAL TRANSACTION PROPOSAL: **HOLD**

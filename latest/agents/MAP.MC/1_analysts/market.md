@@ -1,59 +1,31 @@
-**Rating**: REVIEW
+El análisis de **MAP.MC (Mapfre, S.A.)** se basa en los datos proporcionados al 12 de noviembre de 2026. La empresa, perteneciente al sector de Servicios Financieros/Seguros Diversificados, presenta una configuración técnica y fundamental estable, aunque con señales mixtas de momentum.
 
-### Análisis Financiero y de Mercado de Mapfre (`MAP.MC`)
+### Análisis Técnico
+*   **Tendencia:** El precio de cierre actual (4,29 EUR) se sitúa ligeramente por encima de su media móvil de 20 sesiones (4,23 EUR) y cerca de la de 50 sesiones (4,30 EUR), lo que indica una fase de consolidación lateral o "rango de negociación". La media de 200 sesiones, situada en 4,13 EUR, actúa como soporte de largo plazo.
+*   **Momentum:** El indicador RSI(14) en 53,57 refleja una zona neutral, sin sobrecompra ni sobreventa, confirmando la falta de una tendencia direccional fuerte en el corto plazo. El MACD (-0,023) se encuentra por encima de su señal (-0,040), lo cual es una señal técnica constructiva, aunque la proximidad a la línea cero sugiere una baja intensidad de momentum.
+*   **Volatilidad:** Con una volatilidad del 22,66%, el activo muestra movimientos moderados. La acción cotiza por debajo de su máximo reciente, con un *drawdown* del 5,95%.
 
-El presente informe examina la situación bursátil y fundamental de **Mapfre, S.A.** (`MAP.MC`), cotizada en el Mercado Continuo de Madrid (Bolsa de Madrid), utilizando los datos verificados al cierre de la sesión del 30 de octubre de 2026 y las noticias financieras recientes de octubre de 2026.
+### Análisis Fundamental
+*   **Valoración:** Mapfre cotiza a un PER (PE ratio) de 11,3, con un PER forward de 10,11, lo cual es razonable para una aseguradora diversificada. La relación Precio/Valor Contable (P/B) de 1,39 indica que el mercado valora la empresa por encima de su valor contable, reflejando confianza en sus activos netos.
+*   **Solidez y Dividendos:** Presenta una rentabilidad por dividendo del 4,24% (tasa de 0,18 EUR por acción), lo que la posiciona como un valor atractivo para inversores orientados a la renta variable con componente de ingresos. El ratio de pago (payout) del 47,4% es sostenible dentro del sector asegurador.
+*   **Crecimiento:** Se observa un crecimiento sólido en los ingresos (0,431) en los periodos fiscales recientes, y un beneficio neto que ha escalado de 677M EUR en 2023 a 1.132M EUR en 2025.
 
----
+### Factores a considerar
+La reciente mejora de calificación de Fitch (de A a A+, según *Radio Intereconomía*, 12/11/2026) es un catalizador positivo para el costo de capital de la compañía. Sin embargo, el entorno macroeconómico en España, con una inflación persistente alrededor del 5% (*Finanzas.com*, 08/11/2026) y la incertidumbre sobre la política de tipos del BCE, representa un riesgo externo que podría afectar los márgenes de solvencia y el rendimiento de las inversiones financieras de la aseguradora.
 
-### 1. Contexto de Mercado y Evolución Reciente
-A fecha de 30 de octubre de 2026, las acciones de `MAP.MC` cotizan a un precio de cierre de **3,988 EUR**. El valor experimenta presiones bajistas a corto plazo, registrando una caída del 0,55% en la sesión analizada, un descenso del 3,72% en los últimos 21 días (retorno de -3,718%) y una corrección del 9,40% en el horizonte de 63 sesiones. A pesar de esto, en el marco anual (252 sesiones), el título mantiene una rentabilidad positiva del 6,12%.
+### Conclusión
+**MAP.MC** muestra una salud financiera robusta con una mejora en su calificación crediticia. Técnicamente, se recomienda observar si el precio logra consolidar por encima de su SMA50 (4,30 EUR), lo que podría abrir camino hacia el consenso de analistas situado en 4,33 EUR. La estrategia sugerida es de cautela, aprovechando el dividendo como colchón frente a la volatilidad del sector financiero europeo.
 
-Las noticias recientes del 28 y 29 de octubre de 2026 reflejan que la presentación de resultados a septiembre de 2026 (con un beneficio neto de 924,3 millones de euros y un dividendo a cuenta de 0,08 euros por acción pagadero el 26 de noviembre de 2026) coincidió con descensos bursátiles en la sesión (caídas del 3,74% al 3,92% según publicaciones como *재경일보* y *Yahoo*), en un contexto macroeconómico donde el IBEX 35 y la banca europea sufrieron correcciones tras las decisiones de tipos del BCE (mantenidos en el 2,5% según informes de *Estrategias de Inversión* del 29-30 de octubre de 2026).
+| Indicador / Métrica | Valor / Estado | Significado |
+| :--- | :--- | :--- |
+| Precio Actual | 4,29 EUR | Consolidación lateral |
+| RSI (14) | 53,57 | Neutral |
+| SMA 50 / 200 | 4,30 / 4,13 | Tendencia a largo plazo alcista |
+| PER (Trailing) | 11,3 | Valoración razonable |
+| Rentabilidad Dividendo | 4,24% | Atractivo para inversores de renta |
+| Calificación Fitch | A+ (Mejorada) | Catalizador positivo |
 
----
+**Rating**: HOLD
+FINAL TRANSACTION PROPOSAL: Mantener posiciones existentes; la acción ofrece estabilidad y retorno por dividendo, pero carece de un catalizador de momentum alcista claro por encima de los 4,30 EUR.
 
-### 2. Análisis Técnico e Indicadores Seleccionados
-De acuerdo con los datos técnicos de `MAP.MC` suministrados:
-* **Precio de cierre**: 3,9879 EUR (al 30/10/2026).
-* **RSI (14)**: 29,45, situándose ligeramente por debajo del umbral de 30, lo que técnicamente denota condiciones de **sobreventa** a corto plazo.
-* **MACD**: -0,0537 con línea de señal en -0,0200, mostrando divergencia negativa y presión bajista continuada en el momento actual.
-* **Medias Móviles**: 
-  * SMA 20: 4,2785 EUR
-  * SMA 50: 4,3516 EUR
-  * SMA 200: 4,1185 EUR
-  * El precio actual (3,988 EUR) se encuentra por debajo de todas sus medias móviles principales (SMA 20, SMA 50 y SMA 200), lo que confirma una tendencia correctiva de corto y medio plazo, poniendo a prueba el soporte estructural a largo plazo.
-* **Volatilidad (19,75%)** y **Drawdown (-12,66%)**: Reflejan la corrección desde los máximos recientes previos.
-
-#### Indicadores Complementarios Recomendados (Categorías Diversas)
-Para monitorizar el comportamiento de `MAP.MC` sin redundancias, se seleccionan los siguientes 8 indicadores del marco metodológico:
-1. `rsi` (Momento - RSI): Identifica condiciones de sobreventa extrema (como el nivel actual <30) o sobrecompra.
-2. `macd` (MACD Related - MACD): Mide la diferencia entre EMAs para confirmar cambios de tendencia o cruces.
-3. `macds` (MACD Related - MACD Signal): Señal suavizada para generar disparos operativos combinados con el MACD.
-4. `close_50_sma` (Moving Averages - 50 SMA): Referencia de tendencia a medio plazo y soporte/resistencia dinámico.
-5. `close_200_sma` (Moving Averages - 200 SMA): Benchmark fundamental para confirmar la macro-tendencia a largo plazo.
-6. `boll_ub` (Volatility Indicators - Bollinger Upper Band): Zona superior de volatilidad para identificar escapes alcistas.
-7. `boll_lb` (Volatility Indicators - Bollinger Lower Band): Banda inferior útil en conjunción con el RSI bajo para vigilar rebotes por sobreventa.
-8. `atr` (Volatility Indicators - ATR): Mide el rango verdadero medio para dimensionar el riesgo y fijar *stop-loss*.
-
----
-
-### 3. Análisis Fundamental y Valoración
-* **Capitalización Bursátil**: 12.240.450.560 EUR (~12.240 millones de euros).
-* **PER (Trailing)**: 10,49x; **PER Forward**: 9,40x, lo que muestra una valoración moderada en comparación con el sector financiero/seguros diversificado.
-* **Ratio Precio/Valor en Libros (P/B)**: 1,29x (con un valor en libros por acción de 3,077 EUR frente al precio de ~3,99 EUR).
-* **Rentabilidad por Dividendos (Dividend Yield)**: Atractiva rentabilidad del **4,51%** (con un dividendo de cuenta confirmado de 0,08 EUR a abonar el 26 de noviembre de 2026, y un *dividend rate* total anual de 0,18 EUR). El *payout ratio* se sitúa en un sostenible 47,42%.
-* **Solvencia y Crecimiento**: 
-  * Ingresos totales en 2025: 26.355,1 millones de EUR (frente a 25.833,4 millones en 2024).
-  * Beneficio neto en 2025: 1..132,6 millones de EUR (superior a los 967,5 millones de 2024).
-  * Deuda total: 2.906,7 millones de EUR, respaldada por activos totales de 58.512,7 millones de EUR (cifras de cierre de ejercicio 2025).
-* **Consenso de Analistas**: El precio objetivo medio (*target mean price*) se sitúa en **4,33 EUR**, con un rango entre un mínimo de 3,80 EUR y un máximo de 5,00 EUR (basado en 10 opiniones de analistas). Esto arroja un potencial alcista implícito (*consensus upside*) del **8,58%** respecto al precio actual de 3,988 EUR.
-
----
-
-### 4. Evidencia y Fuentes
-* **Precios y Datos Técnicos/Fundamentales**: Extraídos del snapshot verificado de Yahoo Finance para `MAP.MC` con fecha de referencia 30 de octubre de 2026.
-* **Noticias e Hitos Recientes**: 
-  * *재경일보* / *Yahoo* (28-29 de octubre de 2026): Cobertura sobre resultados a septiembre de 2026 (beneficio de 924,3M€) y aprobación de dividendo a cuenta de 8 céntimos pagadero el 26 de noviembre de 2026.
-  * *Cinco Días* / *Estrategias de Inversión* (29-30 de octubre de 2026): Comentarios sobre el comportamiento del sector financiero europeo y las decisiones del BCE sobre tipos de interés al 2,5%.
-* **Datos Faltantes**: El flujo de caja operativo y libre del ejercicio actual no se encuentra completamente detallado en el snapshot actual; sin embargo, los estados financieros anuales de 2025 y los
+*Nota: La información sobre ratios financieros y datos históricos proviene de la instantánea proporcionada con fecha 2026-11-12. No se dispone de comparativas sectoriales detalladas (valuation label).*

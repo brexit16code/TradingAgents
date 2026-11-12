@@ -1,37 +1,31 @@
-El análisis de **AENA.MC** (Aena S.M.E., S.A.) a fecha de 1 de noviembre de 2026, refleja una situación técnica sólida con fundamentos financieros robustos, aunque enfrenta presiones a corto plazo tras la publicación de resultados recientes.
+Análisis técnico y fundamental detallado de **AENA.MC** (Aena S.M.E., S.A.) con fecha de corte al 12 de noviembre de 2026.
 
 ### Análisis Técnico
-AENA.MC presenta una tendencia alcista estructural, respaldada por todas sus medias móviles clave:
-*   **SMA20 (25,95€) > SMA50 (25,84€) > SMA200 (25,52€)**, lo que confirma una configuración técnica saludable a medio y largo plazo.
-*   **Momentum y RSI:** Con un RSI14 en **63,81**, el activo se encuentra en zona de optimismo sin llegar a niveles de sobrecompra (generalmente >70), sugiriendo margen de maniobra. El **MACD (0,38)** está por encima de su señal (**0,21**), validando la fortaleza de la tendencia actual.
-*   **Volatilidad:** La volatilidad se sitúa en un **19,86%**, lo cual es moderado para un activo de su perfil, manteniendo un *drawdown* contenido del **-1,95%**.
+AENA.MC muestra actualmente una tendencia alcista consolidada. La cotización de 28,74 EUR se sitúa por encima de sus medias móviles clave: SMA20 (27,33 EUR), SMA50 (26,15 EUR) y SMA200 (25,69 EUR), lo que confirma una estructura de mercado robusta en todos los horizontes temporales.
+
+*   **Momento y Volatilidad:** Con un RSI de 14 periodos en 71,46, el activo se encuentra técnicamente en territorio de sobrecompra. Aunque esto sugiere una fuerte presión compradora, también advierte sobre la posibilidad de una corrección técnica o consolidación a corto plazo. El indicador MACD (0,78) se sitúa por encima de su línea de señal (0,64), validando la continuación de la tendencia alcista.
+*   **Rendimiento:** El activo ha registrado un retorno positivo en los últimos 252 días del 31,24%, superando significativamente al índice de referencia. La volatilidad (20,39%) es moderada, lo que sugiere un movimiento de precio relativamente ordenado dentro de su tendencia ascendente.
 
 ### Análisis Fundamental
-La compañía muestra una salud financiera envidiable:
-*   **Crecimiento:** Ingresos y beneficios en aumento, con un crecimiento de beneficios del **13,6%** y márgenes operativos del **34,26%**.
-*   **Valoración:** Con un **PE forward de 16,60** y una relación con sus pares (ratio de 0,96), Aena se negocia con un ligero descuento respecto a su grupo de comparables, lo que podría atraer a inversores en busca de valor.
-*   **Solvencia:** La deuda neta/EBITDA de **1,38x** es prudente, permitiendo un retorno al accionista consistente con una rentabilidad por dividendo del **4,03%**.
+Aena mantiene una salud financiera sólida con márgenes operativos amplios.
+*   **Valoración:** El *trailing PE* de 14,30x y el *forward PE* de 17,62x sugieren una valoración que el mercado percibe con expectativas de crecimiento, aunque el *forward EPS* de 1,63 (frente al 2,01 actual) indica una previsión de moderación en las ganancias por acción para el próximo periodo.
+*   **Solvencia:** La empresa presenta un ratio *Net Debt/EBITDA* de 1,38x, una posición muy saludable para una empresa industrial con un flujo de caja operativo de 3.073 millones de EUR (al cierre del 2025).
+*   **Dividendos:** Con un *yield* del 3,81%, la compañía continúa siendo atractiva para inversores de renta variable centrados en el valor, manteniendo un payout ratio del 70,32%.
 
-### Contexto y Sentimiento
-Las noticias recientes (publicadas entre el 27 y 28 de octubre de 2026) indican una reacción bajista del mercado tras la presentación de resultados. Aunque la empresa elevó su beneficio un 10,8%, la acción cayó más de un 2,5%, reflejando una toma de beneficios o una expectativa no cumplida (ver fuentes: *Deia*, *Demócrata*, *Europa Press*). No obstante, el consenso de analistas mantiene un precio objetivo medio de **27,44€**, lo que implica un potencial alcista limitado del **1,33%** sobre el precio actual de **27,08€**.
+### Contexto de Mercado y Riesgos
+Las noticias recientes (12 de noviembre de 2026) destacan el alto tráfico de pasajeros en octubre (30,5 millones), lo que respalda la eficiencia operativa. Sin embargo, el sentimiento del mercado es mixto; mientras la operativa es fuerte, el título fue señalado como uno de los "más penalizados" en la sesión del 11 de noviembre al intentar superar los 20.000 puntos del IBEX. La incertidumbre macroeconómica respecto a la inflación en España (cercana al 5%) y la política monetaria del BCE (posibles subidas de tipos al 3%) representan riesgos externos que podrían presionar los márgenes por costes financieros o afectar el consumo discrecional en viajes.
 
-### Factores a Considerar
-*   **Datos faltantes:** No se dispone de detalles granulares sobre el Capex futuro proyectado más allá de 2025 o el impacto específico de las regulaciones aeroportuarias post-2026, lo cual es vital para proyectar el flujo de caja a largo plazo.
-*   **Riesgos:** La debilidad reciente del sector bancario en el IBEX (según *Cinco Días*, 30 oct) podría afectar al sentimiento general del mercado, aunque Aena suele comportarse como un valor defensivo.
-
-### Resumen de Indicadores Clave
-
-| Indicador | Valor / Estado | Interpretación |
+### Resumen de indicadores clave
+| Indicador | Valor | Interpretación |
 | :--- | :--- | :--- |
-| **Precio Cierre** | 27,08 € | Referencia de corto plazo |
-| **RSI (14)** | 63,81 | Tendencia alcista, sin sobrecompra |
-| **SMA 200** | 25,52 € | Soporte estructural de largo plazo |
-| **Forward PE** | 16,60 | Valoración justa vs sector (0,96x) |
-| **Div. Yield** | 4,03% | Atractivo flujo de caja |
-| **Consenso Upside** | 1,33% | Expectativas moderadas |
+| **Precio Actual** | 28,74 EUR | Tendencia alcista clara |
+| **RSI (14)** | 71,46 | Condiciones de sobrecompra |
+| **SMA 200** | 25,69 EUR | Soporte estructural de largo plazo |
+| **Trailing PE** | 14,30x | Valoración razonable sectorial |
+| **Net Debt/EBITDA**| 1,38x | Solidez financiera alta |
+| **Dividend Yield** | 3,81% | Atractivo retorno por dividendo |
 
-**Rating**: Neutral / Hold
+**Missing Data:** No se dispone de las proyecciones de CAPEX detalladas más allá de 2025 ni un desglose específico de la exposición a deuda a tipo variable frente a fija, lo cual es crítico dado el entorno de tipos del BCE mencionado en los titulares.
 
-FINAL TRANSACTION PROPOSAL: No se recomienda ninguna ejecución de compra o venta en este momento. La acción muestra una estructura técnica positiva, pero el estancamiento tras los resultados y la proximidad al precio objetivo del consenso sugieren cautela y espera de una consolidación más clara o catalizadores adicionales.
-
-*Fuentes consultadas: Yahoo Finance (AENA.MC), Estrategias de Inversión, Europa Press (octubre 2026).*
+**Rating**: HOLD
+FINAL TRANSACTION PROPOSAL: Neutral/Hold stance due to overbought RSI signals despite strong operational performance and solid balance sheet; suggest monitoring for pullbacks to the SMA20 (27,33 EUR) before considering accumulation.

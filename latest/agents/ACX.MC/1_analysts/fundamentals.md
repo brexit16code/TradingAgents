@@ -1,36 +1,35 @@
-Este informe técnico-fundamental sobre **Acerinox, S.A. (`ACX.MC`)** se basa en los datos del mercado al 30 de octubre de 2026 y las noticias corporativas recientes.
+Este informe presenta un análisis fundamental de **Acerinox, S.A. (ACX.MC)**, una compañía española del sector siderúrgico, basado en los datos financieros y de mercado disponibles a fecha de 12 de noviembre de 2026.
 
-### Análisis de la Situación Actual
-Acerinox presentó sus resultados correspondientes al tercer trimestre y los primeros nueve meses de 2026 el pasado 30 de octubre. Aunque la compañía reportó un aumento sustancial en su beneficio (citado por diversas fuentes como un múltiplo de 23 veces respecto a periodos anteriores) impulsado por la robustez de sus operaciones en EE. UU., la reacción del mercado fue negativa. El precio de la acción cayó un **5,47%**, cerrando en **16,07 EUR**, lastrado por la percepción de una mayor presión bajista tras los resultados.
+### Perfil y Desempeño Financiero
+Acerinox opera en la industria de materiales básicos, enfrentando un entorno macroeconómico complejo caracterizado por presiones inflacionarias en España (estimadas en torno al 5% según *Finanzas.com*) y una política monetaria restrictiva por parte del BCE, que contempla posibles subidas de tipos de interés.
 
-### Análisis Fundamental y Financiero
-*   **Valoración:** La empresa cotiza a un `trailingPE` de 50,22x, lo cual es significativamente alto para el sector del acero, pero su `forwardPE` de 10,21x sugiere que los analistas anticipan una recuperación importante en las ganancias futuras.
-*   **Balance y Solvencia:** La estructura de capital muestra una deuda total de 2.438 millones de EUR frente a una caja de 903 millones de EUR. El `net_debt_ebitda` se sitúa en 3,25x, un nivel que exige monitoreo constante en un entorno de tipos de interés del BCE (2,5%).
-*   **Resultados Recientes:** Los estados financieros muestran una transición desde un beneficio neto de 228 millones en 2023 a una pérdida en 2025 (40 millones), con una recuperación evidente en el flujo de caja operativo (455 millones en 2025 frente a 293 millones en 2024).
-*   **Dividendos:** Con una rentabilidad por dividendo del 3,86% y una tasa de 0,62 EUR, la política de retorno al accionista se mantiene, aunque el ratio de pago (`payoutRatio`) actual de 2,82 es elevado, reflejando presiones sobre los beneficios netos recientes.
+*   **Situación Operativa:** La compañía presenta una divergencia entre sus ingresos (con un crecimiento interanual del 12,4%) y su rentabilidad neta. En 2025, el beneficio neto fue negativo (-40,07 millones de EUR), lo que marca una caída significativa respecto a los ejercicios de 2024 y 2023, donde reportó beneficios positivos superiores a los 220 millones de EUR cada año.
+*   **Balance y Liquidez:** La empresa mantiene una carga de deuda significativa, con una deuda total de 2.438 millones de EUR y una relación **Net Debt/EBITDA de 3,15x**, un nivel que requiere seguimiento estrecho por parte de los inversores. El flujo de caja libre (FCF) es negativo (-155,27 millones de EUR a 2025), lo cual es un indicador de alerta sobre la eficiencia en la generación de efectivo actual.
 
-### Perspectiva de Mercado
-El sentimiento actual es cauteloso. Acerinox ha perdido soportes técnicos importantes (cotizando por debajo de sus medias móviles de 20 y 50 días: 16,81 EUR y 17,27 EUR, respectivamente). La presión vendedora tras la presentación de resultados el 30 de octubre sugiere que los inversores han optado por realizar beneficios o reevaluar las perspectivas macroeconómicas a pesar del crecimiento en el beneficio operativo.
+### Valoración y Perspectivas
+A pesar de los retos operativos, el consenso de mercado (13 analistas) mantiene un **precio objetivo medio de 19,38 EUR**, lo que sugiere un potencial de revalorización del 21,5% respecto al precio actual de 15,95 EUR.
 
-### Riesgos y Limitaciones
-*   **Información faltante:** No se dispone de detalles específicos sobre el *backlog* de pedidos a largo plazo ni una desglosación pormenorizada de los costes operativos para el próximo trimestre.
-*   **Contexto:** La caída del valor tras resultados positivos sugiere que el mercado está descontando una desaceleración en la demanda global o preocupaciones sobre los márgenes futuros frente a los costes de capital.
+*   **Valoración:** La acción cotiza a un ratio Forward P/E de 10,32x, lo cual es significativamente menor que su Trailing P/E (30,09x), sugiriendo que el mercado descuenta una mejora sustancial en los beneficios futuros (Forward EPS proyectado de 1,545 EUR).
+*   **Dividendo:** Acerinox sostiene una política de dividendos con una rentabilidad (dividend yield) del 3,88%, aunque debe tenerse en cuenta que el *payout ratio* actual (1,44) supera el 100%, indicando que la compañía está pagando más en dividendos de lo que genera en beneficios netos, lo cual puede ser insostenible a largo plazo sin una recuperación del margen operativo.
 
----
+### Riesgos y Factores a Vigilar
+1.  **Entorno Macroeconómico:** La persistencia de la inflación y las posibles alzas de tipos (BCE) aumentan los costes de financiación y reducen el consumo industrial de acero.
+2.  **Métricas técnicas:** La acción cotiza por debajo de sus medias móviles de 20 y 50 días (SMA20: 16,26; SMA50: 16,90), lo que indica una tendencia bajista a corto/medio plazo, aunque se mantiene por encima de la media de 200 días (15,33 EUR).
+3.  **Rentabilidad:** El ROE es bajo (4,5%), reflejando las dificultades para generar valor sobre el capital propio en el contexto actual.
 
-### Tabla Resumen: Indicadores Clave `ACX.MC`
+**Conclusión:** Acerinox se encuentra en un punto de inflexión. Si bien el consenso espera una recuperación en las ganancias, la debilidad en el flujo de caja y la elevada ratio de deuda exigen cautela.
 
-| Indicador | Valor |
+| Métrica | Valor / Nota |
 | :--- | :--- |
-| Precio Cierre (30/10/2026) | 16,07 EUR |
-| Capitalización de Mercado | 4.004 millones EUR |
-| Forward PE | 10,21x |
-| Dividend Yield | 3,86% |
-| Net Debt / EBITDA | 3,25x |
-| RSI (14) | 37,37 |
-| Consenso Upside (Analistas) | +21,87% |
-| Precio Objetivo Medio | 19,58 EUR |
+| **Precio Actual** | 15,95 EUR |
+| **Consenso Upside** | +21,53% |
+| **Net Debt/EBITDA** | 3,15x |
+| **Dividend Yield** | 3,88% |
+| **Forward P/E** | 10,32x |
+| **Tendencia técnica** | Bajista (bajo SMA50) |
 
----
+*Nota: La información sobre la comparación sectorial no está disponible en la base de datos proporcionada. No se dispone de datos recientes sobre transacciones de *insiders* para este informe.*
+
 **Rating**: HOLD
-FINAL TRANSACTION PROPOSAL: No trade execution or recommendation. The research is for informational purposes only. Position management should consider the proximity of the stock to its 200-day SMA (15,19 EUR) as a potential support level.
+
+FINAL TRANSACTION PROPOSAL: No trade execution implied. Analyst consensus indicates an upside, but the current negative Free Cash Flow and high payout ratio suggest a cautious "Hold" until operational efficiency improves.

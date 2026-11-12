@@ -1,39 +1,31 @@
-### Informe de Análisis Fundamental: Unicaja Banco, S.A. (UNI.MC)
+Este informe presenta un análisis fundamental de **Unicaja Banco, S.A. (UNI.MC)** basado en los datos financieros y de mercado disponibles a fecha de 12 de noviembre de 2026.
 
-**Fecha del informe:** 1 de noviembre de 2026
-**Instrumento:** UNI.MC (Bolsa de Madrid)
+### Perfil y Desempeño Financiero
+Unicaja, entidad financiera regional con sede en España, muestra una valoración de mercado de aproximadamente 8.890 millones de EUR. Con una relación Precio/Beneficio (P/E) *trailing* de 13,3 y un P/E *forward* de 12,2, la entidad cotiza con una prima respecto a sus pares (ratio de 1,14 sobre una mediana sectorial de 10,7).
 
-#### 1. Perfil y Situación Actual
-Unicaja Banco, S.A. es una entidad financiera española clasificada como banca regional. A fecha de 30 de octubre de 2026, la acción cotiza a **3,17 EUR**. El valor muestra una rentabilidad del 40,55% en los últimos 252 días, aunque ha experimentado una corrección reciente del 6,71% en el último mes.
+*   **Ingresos y Rentabilidad:** La compañía ha reportado una evolución positiva en sus ingresos, alcanzando los 2.097 millones de EUR en el ejercicio 2025, frente a los 1.977 millones de 2023. El beneficio neto se situó en 632 millones de EUR al cierre de 2025.
+*   **Balance:** La solvencia se mantiene estable con unos activos totales de 98.427 millones de EUR y un patrimonio neto de 7.073 millones de EUR a finales de 2025. La deuda total se ha reducido significativamente desde 2023 (5.089 millones) a 4.113 millones en 2025.
+*   **Dividendos:** La entidad ofrece una rentabilidad por dividendo del 5,49%, con un *payout ratio* del 73,8%, lo que refleja un compromiso con la remuneración al accionista, aunque dicho nivel de pago merece seguimiento para asegurar su sostenibilidad futura.
 
-#### 2. Análisis Financiero
-*   **Resultados Recientes:** Según los reportes del 30 de octubre de 2026, Unicaja reportó un beneficio de 543 millones de euros hasta septiembre, un incremento del 8,1% interanual. Este crecimiento ha sido impulsado por la expansión del negocio y una mejora en los márgenes.
-*   **Rendimiento de los Estados Financieros (2025):** La empresa cerró el ejercicio 2025 con unos ingresos totales de 2.097 millones de EUR y un beneficio neto de 632,3 millones de EUR. Se observa una estabilidad en los activos totales, que rondan los 98.427 millones de EUR.
-*   **Dividendos y Valoración:** Unicaja ofrece una rentabilidad por dividendo atractiva del 6,02%, con una tasa de pago (*payout ratio*) del 73,82%. El PER estimado (*forward*) se sitúa en 11,28x, lo cual, comparado con la mediana del sector (9,93x), sugiere una valoración ligeramente premium (ratio de 1,135).
+### Análisis Técnico y de Mercado
+A fecha de 12 de noviembre de 2026, **UNI.MC** cotiza a 3,458 EUR. Los indicadores técnicos muestran una tendencia alcista a largo plazo (precio por encima de la media móvil de 200 días de 2,98 EUR), aunque el rendimiento relativo frente a su sector en los últimos 63 días ha sido inferior (-1,81 puntos porcentuales). El sentimiento de mercado parece mixto: mientras los indicadores sugieren fortaleza, el consenso de analistas (con una media de 3,24 EUR) sitúa el precio objetivo por debajo de la cotización actual, implicando un potencial bajista del 6,19%.
 
-#### 3. Factores Clave y Noticias
-*   **Gestión de Costes:** Un informe del 31 de octubre destaca que la entidad ha asumido 11 millones de euros de sobrecoste laboral debido a nuevas contrataciones y la aplicación de convenios, un factor a vigilar para los márgenes operativos futuros.
-*   **Contexto Macro:** El sector bancario español ha enfrentado presión bajista en los últimos días tras las decisiones del BCE, manteniendo los tipos en el 2,5%, con perspectivas de inflación que sugieren cautela (Fuente: *Bankinter*, 30-10-2026).
-*   **Temas Pendientes:** El mercado mantiene a la expectativa resoluciones sobre las participaciones en Wizink, Santalucía y el nombramiento del nuevo presidente, elementos que podrían actuar como catalizadores de volatilidad.
+### Riesgos y Factores Externos
+Las noticias recientes (10 de noviembre de 2026, *Estrategias de Inversión*) destacan una visión prudente sobre Unicaja frente a otros competidores bancarios. El entorno macroeconómico en España presenta desafíos, con una inflación persistente en torno al 5% y una política monetaria del BCE que contempla posibles subidas de tipos (como se discute en *MONCLOA.COM* y *Investing.com*), lo cual es un factor crítico para el margen de intermediación de la banca regional.
 
-#### 4. Riesgos y Observaciones
-*   **Flujo de Caja:** Los datos de flujo de caja operativo de 2025 muestran una cifra negativa (-1.420 millones de EUR), lo cual contrasta con el sólido desempeño de años anteriores. Se recomienda verificar los ajustes contables que explican esta divergencia.
-*   **Valoración:** Con un precio de 3,17 EUR, la acción se encuentra cerca de su precio objetivo medio de los analistas (3,23 EUR), lo que deja un margen de subida limitado (aprox. 2,03%). El RSI (40,07) sugiere que el valor no está sobrecomprado, pero la tendencia técnica a corto plazo es de consolidación.
-
-#### 5. Resumen de datos clave
-
-| Indicador | Valor / Dato |
+### Resumen de Datos
+| Métrica | Valor / Detalle |
 | :--- | :--- |
-| **Precio Actual** | 3,17 EUR |
-| **Capitalización de Mercado** | 8.145,5 millones EUR |
-| **PER Forward** | 11,28x |
-| **Rentabilidad por Dividendo** | 6,02% |
-| **Beneficio (9 meses 2026)** | 543 millones EUR (+8,1%) |
-| **Precio Objetivo Medio** | 3,23 EUR |
-| **Potencial de Upside** | 2,03% |
+| **Precio Actual (UNI.MC)** | 3,458 EUR |
+| **Capitalización Bursátil** | 8.885.579.776 EUR |
+| **Forward P/E** | 12,23 |
+| **Rentabilidad por Dividendo** | 5,49% |
+| **Book Value** | 2,465 EUR |
+| **Consenso Precio Objetivo** | 3,24 EUR |
+| **RSI (14 días)** | 62,99 (Neutral-Alcista) |
 
-**Conclusión:** Unicaja demuestra resiliencia en sus márgenes y beneficios, respaldada por una política de dividendos competitiva. Sin embargo, el mercado muestra cautela ante el contexto de tipos de interés y la resolución de temas corporativos internos. La falta de datos sobre el flujo de caja operativo actual limita la visibilidad completa. Se recomienda una postura de observación a la espera de mayor claridad sobre el impacto de los sobrecostes laborales.
+**Rating**: REVIEW
 
-**Rating**: HOLD
+**Notas**: Faltan datos detallados sobre el flujo de caja operativo reciente (a excepción de los estados anuales cerrados) y proyecciones detalladas de crecimiento de préstamos morosos, lo cual es esencial para una evaluación de riesgo completa. La discrepancia entre la valoración de mercado y los objetivos de los analistas sugiere una divergencia entre el optimismo técnico reciente y las expectativas de los analistas sobre los resultados futuros.
 
-FINAL TRANSACTION PROPOSAL: N/A (Research Only)
+FINAL TRANSACTION PROPOSAL: HOLD

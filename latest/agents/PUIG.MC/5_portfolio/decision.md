@@ -1,9 +1,9 @@
-**Rating**: Overweight
+**Rating**: Hold
 
-**Executive Summary**: Iniciamos una posición Overweight en PUIG.MC, dimensionada al 50% de la asignación estándar para capturar la tendencia alcista estructural. Ejecutar la compra cerca del soporte técnico de 18,87 EUR (SMA20) para gestionar el riesgo frente a la actual debilidad en el crecimiento de beneficios. La estrategia es incrementar la posición solo tras confirmar la resiliencia operativa en los próximos trimestres.
+**Executive Summary**: Mantener la posición actual sin realizar compras adicionales debido a la proximidad al precio objetivo de consenso y a condiciones técnicas de sobrecompra. Se recomienda una gestión activa, esperando un retroceso hacia la media móvil de 50 días (18,52 EUR) para buscar un margen de seguridad más favorable. El horizonte de inversión se sitúa en 3-6 meses, priorizando la preservación del capital ante la volatilidad del 22%.
 
-**Investment Thesis**: La tesis alcista se fundamenta en la sólida estructura de capital (Net Debt/EBITDA de 1,63x) y la capacidad de autofinanciación que ofrece una ventaja competitiva frente al sector bancario europeo. Aunque el crecimiento de los beneficios es negativo (-4,4%), esto se interpreta como un costo estratégico deliberado para la expansión global en EE. UU. y Asia. Los analistas coinciden en la calidad de la hoja de ruta de siete años, pero los datos técnicos sugieren cautela ante un MACD que pierde fuerza. La decisión de Overweight (en lugar de Buy agresivo) mitiga el riesgo de ejecución sobre la valoración actual, utilizando el soporte de la media móvil de 20 días como nivel clave para la acumulación gradual. La falta de comparativa sectorial específica en la documentación añade un nivel de incertidumbre que justifica un escalado prudente de la posición.
+**Investment Thesis**: La tesis alcista, respaldada por una mejora sustancial en el desapalancamiento (reducción de deuda de 2,2B a 1,4B EUR desde 2023) y un crecimiento sólido del flujo de caja, se ve contrarrestada por evidencias fundamentales de desaceleración, con un crecimiento de beneficios del -4,4% y un margen de seguridad limitado (consenso de apenas 2,67% de upside). Aunque la tendencia estructural sobre las medias móviles de 20, 50 y 200 días es positiva, el RSI en 69 indica un activo técnicamente extendido cerca de resistencias, lo que valida la postura del analista neutral de evitar la expansión de la posición a estos niveles. La tesis se revisaría al alza si la empresa supera los 21 EUR con volumen constante, o a la baja si el entorno de inflación del 5% impacta los márgenes operativos en los próximos trimestres, invalidando la capacidad de fijación de precios.
 
-**Price Target**: 20.81
+**Price Target**: 20.9
 
-**Time Horizon**: 6-12 meses
+**Time Horizon**: 3-6 months

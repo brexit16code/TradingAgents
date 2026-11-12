@@ -1,11 +1,11 @@
-**Action**: Hold
+**Action**: Buy
 
-**Reasoning**: El activo se encuentra en una zona crítica de soporte sobre la SMA200 (4,828 EUR). Aunque los fundamentales son atractivos debido a su bajo PER forward y desapalancamiento, el momentum técnico es bajista con el MACD y RSI señalando debilidad. Dado que no hay confirmación de un rebote ni una ruptura técnica al alza, se mantiene la cautela hasta que las condiciones macro mejoren o el precio supere niveles de resistencia clave.
+**Reasoning**: IAG.MC muestra una estructura técnica alcista con el precio cotizando por encima de sus medias móviles clave (SMA20, SMA50 y SMA200) y un momentum positivo confirmado por el indicador MACD. Fundamentalmente, su valoración de mercado (Forward PE de 7,18x) es significativamente atractiva frente a la mediana del sector, y su ratio de apalancamiento (Net Debt/EBITDA de 0,78x) denota una salud financiera que mitiga los riesgos macroeconómicos actuales, justificando la recomendación de compra siguiendo el plan de sobreponderar.
 
-**Entry Price**: 4.97
+**Entry Price**: 5.408
 
-**Stop Loss**: 4.65
+**Stop Loss**: 5.138
 
-**Position Sizing**: 50% de la asignación estándar
+**Position Sizing**: 0.5x de una asignación estándar
 
-FINAL TRANSACTION PROPOSAL: **HOLD**
+FINAL TRANSACTION PROPOSAL: **BUY**

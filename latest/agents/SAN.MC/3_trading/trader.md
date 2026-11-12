@@ -1,11 +1,11 @@
-**Action**: Buy
+**Action**: Hold
 
-**Reasoning**: La acción se encuentra en una zona de sobreventa extrema (RSI de 23,78), lo que junto a un Forward PE atractivo de 8,08 frente a la mediana del sector, presenta una oportunidad de acumulación a valor. La convicción se refuerza por las compras recientes de los directivos (insiders), que sugieren que el valor actual podría representar un suelo técnico tras la reciente corrección. Aunque la ruptura de la media de 200 días impone cautela, la estrategia de entrada escalonada permite gestionar la volatilidad actual del 28% mientras el mercado absorbe el impacto de las políticas del BCE.
+**Reasoning**: La acción se mantiene neutral desde una perspectiva técnica, operando justo por debajo de la media móvil de 200 días (11,12 EUR) y sin un impulso claro en los indicadores de momento (RSI 47,18). Aunque la valoración fundamental sugiere un descuento atractivo del 16,9% respecto a los pares, los flujos de caja operativos consistentemente negativos y la incertidumbre macroeconómica sobre las subidas de tipos justifican una postura de espera para confirmar la recuperación de la tendencia.
 
-**Entry Price**: 10.118
+**Entry Price**: 11.13
 
-**Stop Loss**: 9.4
+**Stop Loss**: 10.45
 
-**Position Sizing**: 0.5x de una asignación estándar (acumulación gradual)
+**Position Sizing**: Mantener peso actual; evitar incrementos hasta confirmar la superación de la media móvil de 200 días.
 
-FINAL TRANSACTION PROPOSAL: **BUY**
+FINAL TRANSACTION PROPOSAL: **HOLD**

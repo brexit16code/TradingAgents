@@ -1,9 +1,9 @@
-**Rating**: Overweight
+**Rating**: Hold
 
-**Executive Summary**: Inciar una acumulación escalonada de BKT.MC aprovechando la sobreventa técnica con un RSI de 28.66 y una cotización de 13.92 EUR. Se recomienda aplicar un 50% de la asignación prevista, reservando el resto como liquidez táctica para promediar ante posibles correcciones adicionales hacia soportes, con un horizonte temporal de 6 a 12 meses.
+**Executive Summary**: Mantener una posición neutral, operando al 50% de la asignación estándar. La estrategia consiste en esperar una ruptura confirmada de la media móvil de 50 sesiones (15,51 EUR) antes de incrementar la exposición, utilizando el dividendo del 4,19% como cobertura mientras se observa el soporte técnico crítico en la SMA200 (14,79 EUR).
 
-**Investment Thesis**: La decisión de adoptar una postura de sobreponderación se fundamenta en la superioridad de los argumentos de carácter fundamental aportados por el análisis alcista y las directrices del gestor de riesgos. Si bien el bando conservador advierte justificadamente sobre el momentum técnico adverso —con la cotización perforando las medias móviles SMA20 (14.87 EUR), SMA50 (15.91 EUR) y SMA200 (14.77 EUR) y un drawdown del -17.90%—, el castigo del mercado tras unos resultados con un beneficio neto superior a 901 millones y un ROE excepcional del 17.64% constituye una sobreventa exagerada. Un forward P/E de 9.58x, una rentabilidad por dividendo del 4.43% y un potencial de revalorización superior al 21% respecto al precio objetivo de consenso de 16.85 EUR respaldan la acumulación táctica frente al ruido coyuntural de los tipos del BCE en el 2.5%. El principal catalizador que invalidaría esta tesis sería un deterioro estructural y persistente del margen de intereses de la entidad o una ruptura sostenida por debajo de los niveles de soporte clave sin indicios de recuperación.
+**Investment Thesis**: La tesis para mantener `BKT.MC` se sustenta en el equilibrio entre sólidos fundamentales y riesgos macroeconómicos persistentes. El ROE del 17,64% y un PER forward de 10,16x respaldan la valoración atractiva señalada por el analista agresivo; sin embargo, este argumento es contrarrestado por el deterioro del flujo de caja libre (-766 millones de EUR en 2025) y un entorno de inflación del 5% que genera incertidumbre sobre los márgenes bancarios. La cotización actual de 14,78 EUR, alineada con la SMA200 de 14,79 EUR, sitúa al activo en una zona de indecisión técnica donde tanto una reversión bajista hacia el objetivo de 10,3 EUR como una ruptura alcista son posibles. La falta de una tendencia clara y la fragilidad del flujo de caja operativo hacen que la acumulación agresiva sea prematura, mientras que la fortaleza de los fundamentales descarta una salida total.
 
-**Price Target**: 16.85
+**Price Target**: 16.82
 
-**Time Horizon**: 6-12 months
+**Time Horizon**: 3-6 meses

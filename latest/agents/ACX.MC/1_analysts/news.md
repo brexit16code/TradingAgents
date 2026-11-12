@@ -1,36 +1,32 @@
 ### Informe de Análisis: Acerinox, S.A. (ACX.MC)
 
 **Resumen Ejecutivo**
-Acerinox, S.A. enfrenta un momento de alta volatilidad tras la presentación de sus resultados del tercer trimestre (publicados el 30 de octubre de 2026). A pesar de un incremento significativo en el beneficio reportado (multiplicado por 23, según fuentes como *Radio Intereconomía* y *OkDiario*), la acción ha reaccionado negativamente, cayendo un 5,47% en la última sesión registrada, lo que sitúa al valor en niveles críticos de soporte técnico.
+A fecha de 12 de noviembre de 2026, Acerinox (ACX.MC) cotiza a 15,95 EUR, mostrando una debilidad técnica con una caída del 13,69% desde sus máximos recientes y manteniéndose por debajo de sus medias móviles de 20 y 50 sesiones. La compañía enfrenta un entorno macroeconómico complejo en la Eurozona, caracterizado por una inflación persistente (5% en España) y una postura restrictiva por parte del BCE, que presiona los costes operativos y las expectativas de demanda en el sector del acero.
 
 **Análisis Fundamental**
-*   **Resultados y Rentabilidad:** La compañía ha mostrado una notable robustez operativa, particularmente en sus operaciones en EE. UU., logrando revertir una tendencia negativa. Sin embargo, el *trailing P/E* de 50.22 sugiere una valoración que descuenta expectativas de crecimiento futuro bastante elevadas, mientras que el *forward P/E* de 10.21 indica que el mercado espera una normalización y mejora sustancial de las ganancias en 2027.
-*   **Estructura Financiera:** El ratio *Net Debt/EBITDA* de 3.25x es un punto de atención para los inversores, dado que refleja un apalancamiento moderadamente alto en un sector cíclico. El *Free Cash Flow* negativo (-146.27 millones EUR) destaca la intensidad de capital necesaria para sus operaciones actuales.
-*   **Dividendos:** Con una rentabilidad por dividendo del 3.86%, la empresa mantiene un atractivo para inversores de renta, aunque el *payout ratio* elevado (2.81) sugiere que el pago actual depende más de la política de retribución que de los beneficios netos operativos del último periodo.
+*   **Valoración:** La compañía presenta un PER *forward* de 10,32x, frente a un PER histórico de 30,09x, lo que sugiere una expectativa de mejora en los beneficios futuros (EPS *forward* de 1,54 EUR). Sin embargo, el margen de beneficio neto es estrecho (1,96%) y la empresa reportó pérdidas netas en 2025 (-40,07 millones de EUR).
+*   **Balance y Solvencia:** Con una deuda total de 2.438 millones de EUR y un *net debt/EBITDA* de 3,15x, la estructura financiera de Acerinox es un punto de atención crítica en un entorno de tipos de interés al alza. El flujo de caja libre es negativo (-155,27 millones de EUR a finales de 2025), lo que limita la flexibilidad para capex o reducciones de deuda significativas.
+*   **Retorno al Accionista:** La rentabilidad por dividendo es del 3,88%, con un *payout ratio* elevado (1,44), lo que indica que el dividendo actual está bajo presión dada la generación de caja insuficiente.
 
 **Análisis Técnico**
-*   **Tendencia:** El precio de cierre (16,07 EUR) se encuentra por debajo de sus medias móviles de 20 días (16,82) y 50 días (17,27), confirmando una presión bajista de corto plazo. Se mantiene, sin embargo, por encima de su media de 200 días (15,19), lo que marca una zona de soporte técnico relevante.
-*   **Momentum:** El RSI(14) en 37.37 indica que el valor se acerca a territorio de sobreventa, pero aún no ha entrado en él, sugiriendo que la caída reciente podría encontrar freno si la presión bajista disminuye. El MACD se sitúa en territorio negativo, confirmando la debilidad actual.
+*   **Tendencia:** El activo muestra una tendencia de corto plazo negativa, con el precio por debajo de la SMA20 (16,26) y SMA50 (16,90). El indicador RSI (45,02) se sitúa en zona neutral sin señales de sobreventa extrema, y el MACD se mantiene por debajo de su línea de señal, confirmando la presión vendedora.
+*   **Soporte/Resistencia:** La SMA200 (15,33) actúa como un nivel de soporte técnico vital a largo plazo.
 
-**Contexto Macroeconómico**
-El sector del acero y la industria básica están operando bajo el marco de una política monetaria del BCE que mantiene los tipos en el 2.5%. El sentimiento general del IBEX 35 se ha visto afectado por la debilidad de la banca y el escepticismo sobre el crecimiento económico europeo, lo que ha lastrado a valores industriales como ACX.MC en jornadas de alta incertidumbre macroeconómica.
+**Entorno Macroeconómico**
+El mercado español opera bajo el temor a que la inflación se "enquiste" al 5% (Finanzas.com, 08/11/2026), lo que ha llevado al BCE a mantener una postura agresiva ("halcones vs palomas", El Español, 07/11/2026). La expectativa de nuevas subidas de tipos hasta el 3% (Moncloa.com, 05/11/2026) aumenta los costes financieros para industrias intensivas en capital como la siderurgia.
 
-**Evidencia de Apoyo y Contradicciones**
-*   **Apoyo:** Los analistas mantienen un precio objetivo medio de 19,58 EUR, lo que implica un potencial alcista superior al 21% respecto al precio actual.
-*   **Contradicción:** La reacción inmediata del mercado tras los resultados refleja una toma de beneficios o una preocupación por las perspectivas futuras a pesar del crecimiento del beneficio neto.
+**Evidencia contradictoria y ausente**
+*   **Contradictoria:** Mientras que el consenso de los analistas apunta a un precio objetivo de 19,38 EUR (un potencial alcista del 21,5%), los fundamentales (flujo de caja negativo y márgenes estrechos) sugieren una mayor cautela.
+*   **Ausente:** No se dispone de comparativas sectoriales detalladas (indicado en la herramienta de valoración) ni de datos actualizados sobre el impacto específico de la demanda de acero en mercados emergentes para el 4T 2026.
 
-**Datos Faltantes**
-*   Desglose detallado del impacto del tipo de cambio USD/EUR en los márgenes operativos, dado el peso de las operaciones en EE. UU.
-*   Guía específica de la dirección sobre el Capex para el próximo ejercicio.
+**Rating:** REVIEW
 
-**Rating**: HOLD
-
-| Factor | Evaluación | Observación |
+| Indicador | Valor | Estado |
 | :--- | :--- | :--- |
-| **Precio Actual** | 16,07 EUR | Cerca de la SMA200 (15,19) |
-| **Consenso Upside** | 21,87% | Basado en 13 opiniones de analistas |
-| **RSI (14)** | 37,37 | Tendencia bajista, aproximándose a sobreventa |
-| **Net Debt/EBITDA** | 3,25x | Apalancamiento significativo en sector cíclico |
-| **Sentimiento** | Negativo | Presión bajista tras resultados (30 oct) |
+| Precio Actual | 15,95 EUR | - |
+| RSI (14) | 45,02 | Neutral |
+| PER Forward | 10,32x | Atractivo |
+| Deuda Neta/EBITDA | 3,15x | Riesgo alto |
+| Consenso Upside | +21,53% | Optimista |
 
-FINAL TRANSACTION PROPOSAL: No trade execution intended. This report is for information purposes. Maintain a "HOLD" position awaiting stabilization near the 15.19 EUR support level before reassessing long-term entry.
+FINAL TRANSACTION PROPOSAL: Mantener una postura de vigilancia (Watchlist) sin realizar nuevas posiciones hasta observar una estabilización por encima de la media de 50 sesiones (16,90 EUR) o una mejora en la generación de flujo de caja operativo que permita reducir el apalancamiento.

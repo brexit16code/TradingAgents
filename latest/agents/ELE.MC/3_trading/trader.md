@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: Endesa presenta una estructura técnica alcista impecable, cotizando por encima de sus medias móviles clave, lo que respalda una visión constructiva a corto plazo. Sin embargo, la valoración fundamental es restrictiva; el PER forward de 18,07x implica una prima del 13% sobre sus comparables y el precio actual supera el objetivo promedio de los analistas en más de un 16%. En consecuencia, aunque la calidad operativa es alta, la relación riesgo-beneficio para nuevas entradas es desfavorable.
+**Reasoning**: Endesa muestra una tendencia técnica alcista robusta con precios por encima de las medias móviles, pero la valoración fundamental actual de 45,25 EUR se sitúa significativamente por encima del precio objetivo de consenso de 36,69 EUR, lo que sugiere una sobrevaloración. La volatilidad moderada y los sólidos resultados operativos justifican mantener la posición para capturar el dividendo, pero la divergencia con las expectativas de los analistas y el riesgo de endurecimiento monetario desaconsejan nuevas compras en estos niveles.
 
 **Entry Price**: not provided
 
-**Stop Loss**: 42.32
+**Stop Loss**: 43.71
 
-**Position Sizing**: Mantener peso actual; evitar incrementos ante la sobrevaloración consensuada.
+**Position Sizing**: Mantener posición actual
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

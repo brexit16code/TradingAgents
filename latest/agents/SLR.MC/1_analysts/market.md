@@ -1,36 +1,37 @@
-El análisis técnico y fundamental de **Solaria Energía y Medio Ambiente, S.A. (SLR.MC)**, con fecha de corte al 30 de octubre de 2026, muestra una situación de cautela operativa marcada por una tendencia bajista de medio plazo, aunque con valoraciones fundamentales que sugieren un descuento significativo respecto a las expectativas del mercado.
+El análisis de **Solaria Energía y Medio Ambiente, S.A. (SLR.MC)**, con fecha de corte al 12 de noviembre de 2026, refleja una situación técnica y fundamental de transición, marcada por una presión bajista a corto plazo, pero con valoraciones de mercado que sugieren una posible infravaloración relativa.
 
 ### Análisis Técnico
-La cotización actual de **14,595 EUR** se sitúa significativamente por debajo de sus medias móviles clave:
-*   **SMA 20:** 15,39 EUR
-*   **SMA 50:** 16,31 EUR
-*   **SMA 200:** 19,66 EUR
+El precio de cierre actual de 16,35 EUR sitúa a la acción en una zona crítica:
+* **Tendencia:** La cotización se encuentra ligeramente por encima de su media móvil simple de 50 días (16,14 EUR), lo cual es una señal constructiva, pero permanece significativamente por debajo de la media de 200 días (19,57 EUR), lo que confirma un sesgo bajista estructural a largo plazo.
+* **Momentum:** El RSI de 14 días (54,66) indica una zona neutral, sin sobreventa ni sobrecompra. El MACD (0,146) se encuentra por encima de su línea de señal (-0,071), lo que podría sugerir un intento de recuperación de momentum, a pesar de la caída diaria del 1,47%.
+* **Volatilidad:** Con una volatilidad del 52,5% y un *drawdown* del 36,48%, el valor presenta un perfil de riesgo elevado.
 
-La alineación de estas medias (precio < SMA20 < SMA50 < SMA200) confirma una tendencia bajista consolidada. El **RSI (14)** se encuentra en **41,94**, lo que indica que el valor no está técnicamente sobrevendido, dejando espacio para potenciales retrocesos adicionales si el sentimiento del mercado no mejora. El **MACD (-0,447)** permanece por encima de su línea de señal (-0,474), sugiriendo una presión vendedora que empieza a moderarse, aunque sin confirmar un cambio de tendencia alcista. La volatilidad del 50,4% destaca un entorno de alta incertidumbre.
+### Fundamentos y Valoración
+* **Valuación:** El ratio PER (trailing) de 8,74 y forward de 9,60 es notablemente inferior a la mediana del sector (16,50), lo que refuerza la nota de "PER relativo inferior" proporcionada en los datos. El ratio precio/valor contable de 1,98 sugiere que, aunque no es una acción de "valor profundo", cotiza a múltiplos moderados para una empresa de servicios públicos renovables.
+* **Salud Financiera:** La empresa muestra un crecimiento robusto de ingresos (38,8%) y beneficios (44,4%). No obstante, existe una preocupación por el flujo de caja libre (negativo en -437,97 millones de EUR en 2025), derivado de un fuerte gasto de capital (*Capex*), típico de una fase de expansión, aunque esto presiona la deuda neta/EBITDA (4,13x).
 
-### Análisis Fundamental
-A pesar de la debilidad técnica, los fundamentales presentan un contraste interesante:
-*   **Valoración:** SLR.MC opera con un *Trailing PE* de 7,8x y un *Forward PE* de 8,57x, lo cual es notablemente inferior a la mediana de sus pares (15,98x). La ratio de valoración sobre pares es de 0,536, lo que implica un descuento relevante.
-*   **Crecimiento:** La empresa muestra un crecimiento robusto tanto en ingresos (+38,8%) como en beneficios (+44,4%), con un margen de beneficio operativo del 48,57%.
-*   **Solvencia:** La deuda neta sobre EBITDA se sitúa en **4,14x**. Aunque es una cifra manejable dentro del sector de renovables, el *Free Cash Flow* negativo (-437,97M EUR) refleja las intensas necesidades de capital (CapEx) requeridas para la expansión de su capacidad instalada, lo que presiona el balance.
+### Contexto de Mercado
+Las noticias recientes (noviembre 2026) destacan una dicotomía:
+1. **Liderazgo bursátil:** Solaria ha aparecido en titulares como líder en las subidas del IBEX 35 (Yahoo, Estrategias de Inversión, 9 de noviembre).
+2. **Presión bajista:** Simultáneamente, el valor es uno de los principales objetivos de las posiciones cortas en el mercado español (CapitalMadrid, El Boletín, 8-9 de noviembre), lo que explica la alta volatilidad.
+3. **Macroentorno:** El mercado descuenta una política monetaria restrictiva (inflación al 5% en España y posible subida de tipos del BCE al 3%), lo cual encarece el servicio de la deuda, factor crítico para empresas intensivas en capital como SLR.MC.
 
-### Contexto y Sentimiento
-Las noticias recientes (Bolsamania, 30/10/2026) señalan que el valor ha sufrido junto al sector por la coyuntura del Ibex 35 y la incertidumbre sobre los tipos de interés. El mercado sigue atento al decreto de centros de datos (Rankia, 28/10/2026), un catalizador potencial para la demanda de energía renovable. El consenso de analistas sitúa el precio objetivo medio en **22,39 EUR**, lo que representa un **upside del 53,4%**, indicando una divergencia marcada entre la valoración de mercado y las expectativas de los analistas.
+### Resumen de hallazgos
+| Indicador / Punto clave | Valor / Observación |
+| :--- | :--- |
+| **Precio Actual** | 16,35 EUR |
+| **Media Móvil 50 días** | 16,14 EUR (Soporte dinámico) |
+| **Media Móvil 200 días** | 19,57 EUR (Resistencia clave) |
+| **PER Forward** | 9,60x (vs 16,50x sector) |
+| **Consenso Analista (Media)** | 22,39 EUR |
+| **Upside Consenso** | +36,92% |
+| **Riesgo** | Alta volatilidad y presión bajista (posiciones cortas) |
 
-### Consideraciones Estratégicas
-La discrepancia entre la trayectoria de los precios y el crecimiento de beneficios sugiere que el mercado está descontando riesgos regulatorios o de financiación que no parecen estar reflejados plenamente en las estimaciones de los analistas. La ausencia de dividendos y el flujo de caja libre negativo exigen una estructura financiera disciplinada por parte de la gestión.
+**Conclusión:**
+Solaria presenta un escenario de "valor" debido a sus múltiplos de cotización, pero con una ejecución financiera que requiere vigilancia (flujo de caja negativo). La divergencia entre el optimismo del consenso de analistas (objetivo medio de 22,39 EUR) y la presión de los vendedores en corto sugiere un periodo de alta volatilidad. Se recomienda observar si el soporte de los 16,14 EUR (SMA 50) se mantiene; una ruptura confirmada bajo este nivel podría invalidar la tesis de recuperación técnica.
 
-**Rating**: Hold
+**Rating**: HOLD
 
-| Indicador / Métrica | Valor / Estado | Nota |
-| :--- | :--- | :--- |
-| Precio Actual | 14,595 EUR | Tendencia bajista |
-| SMA 200 | 19,66 EUR | Resistencia a largo plazo |
-| RSI 14 | 41,94 | Zona neutral |
-| Forward PE | 8,57x | Infravalorado frente a pares |
-| Consenso Upside | 53,43% | Expectativas alcistas |
-| Margen Beneficio | 48,57% | Sólido perfil operativo |
+FINAL TRANSACTION PROPOSAL: N/A (Análisis solo informativo)
 
-**Aviso de falta de datos:** No se dispone de detalles sobre el vencimiento específico de la deuda a largo plazo ni una proyección detallada de los costes de financiación tras las últimas decisiones del BCE.
-
-FINAL TRANSACTION PROPOSAL: Neutral. Dada la fuerte divergencia entre el valor de mercado actual y el consenso de analistas, se recomienda esperar a una estabilización de la tendencia técnica (recuperación de la SMA 50) antes de considerar posiciones, priorizando la vigilancia sobre el flujo de caja libre en los próximos trimestres.
+*Nota: Datos extraídos del snapshot del 2026-11-12. No se dispone de información sobre el reparto de dividendos actual (nulo). La estrategia debe considerar el alto ratio de deuda y el impacto de los tipos de interés en las renovables.*

@@ -1,9 +1,9 @@
-**Rating**: Hold
+**Rating**: Overweight
 
-**Executive Summary**: Mantener la posición actual con un nivel de riesgo reducido al 50% de la asignación estándar. La estrategia consiste en esperar la publicación de los resultados del 3T y una confirmación de ruptura técnica por encima de la SMA50 (4,97 EUR) antes de considerar cualquier incremento en la exposición. Se recomienda establecer un stop loss estricto en los 4,65 EUR para proteger el capital frente a una posible ruptura a la baja del soporte en la SMA200.
+**Executive Summary**: Initiate a long position in IAG.MC with 0.5x of a standard allocation, capitalizing on the current technical breakout and valuation gap. Maintain a strict stop-loss at 5.138 EUR to manage exposure to macroeconomic volatility, and reserve the remaining 0.5x allocation for a potential consolidation above 5.50 EUR.
 
-**Investment Thesis**: La tesis alcista, respaldada por fundamentales sólidos como un PER forward de 6,36x y un desapalancamiento ejemplar (Deuda Neta/EBITDA de 0,74x), es contrarrestada por riesgos estructurales críticos. El analista conservador advierte acertadamente sobre la caída del 30,4% en el crecimiento de beneficios y la vulnerabilidad ante la crisis en Oriente Medio, que impacta directamente en los costes operativos. Técnicamente, el valor se encuentra en una encrucijada crítica sobre la SMA200 (4,83 EUR); la falta de impulso del MACD confirma que no existe una tendencia alcista definida, lo que invalida una entrada agresiva al 100%. La decisión de 'Hold' se fundamenta en la necesidad de esperar el evento binario de los resultados del 3T, evitando el riesgo de un gap bajista mientras el mercado digiere la incertidumbre geopolítica. Un cambio en esta postura requeriría una superación sostenida de la resistencia técnica en 4,97 EUR o una mejora en la visibilidad de los beneficios operativos tras el reporte de resultados.
+**Investment Thesis**: The bull case for IAG.MC, supported by an attractive forward PE of 7.18x compared to the sector median of 18.10x, outweighs the bear's macroeconomic concerns. The company's disciplined net debt/EBITDA ratio of 0.78x demonstrates operational resilience that justifies an overweight stance despite inflationary pressures. Technical indicators confirm momentum, with the share price trading above key moving averages (SMA20, SMA50, SMA200) and an RSI of 63.8. While the bear correctly notes the risks of consumer sensitivity to 5% inflation in Spain, the market's recent reaction to capacity adjustments confirms that the firm is prioritizing efficiency over volume. The investment thesis would be invalidated if the price drops below the 5.138 EUR support level or if subsequent earnings reports signal a sharp contraction in margins due to inflationary cost-push factors.
 
-**Price Target**: 5.995
+**Price Target**: 6.00455
 
-**Time Horizon**: 3-6 meses
+**Time Horizon**: 3-6 months

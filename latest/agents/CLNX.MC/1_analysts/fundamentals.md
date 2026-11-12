@@ -1,37 +1,40 @@
-Este informe presenta un análisis fundamental de **Cellnex Telecom, S.A. (`CLNX.MC`)** basado en la información disponible al 1 de noviembre de 2026.
+Este informe analiza la situación fundamental de **Cellnex Telecom, S.A. (`CLNX.MC`)** a fecha de 12 de noviembre de 2026, basándose en los datos financieros y noticias recopilados recientemente.
 
-### Perfil de la Compañía
-Cellnex Telecom es un actor clave en el sector de servicios inmobiliarios (Real Estate Services), operando infraestructura de telecomunicaciones inalámbricas. Su modelo de negocio se centra en el despliegue y gestión de torres, facilitando la conectividad necesaria para las redes de telefonía móvil. Actualmente, su estructura financiera se ve fuertemente influenciada por su intensa política de expansión y el elevado apalancamiento asociado al sector.
+### Análisis Fundamental y Situación de Mercado
 
-### Análisis Financiero y Desempeño
-*   **Situación de Rentabilidad:** La compañía continúa operando con márgenes de beneficio negativos (-8.22% de margen neto). Aunque genera un EBITDA sólido (2,61 mil millones EUR), los elevados costes financieros derivados de una deuda total de 22,19 mil millones EUR lastran el resultado neto, que se situó en -360,78 millones EUR al cierre de 2025.
-*   **Liquidez y Deuda:** El ratio *Net Debt/EBITDA* de 7.78x es una cifra significativamente alta, lo que subraya un riesgo de balance relevante para el inversor. La empresa está en proceso de gestión de esta carga financiera, dado que su *Free Cash Flow* mejoró a 1,45 mil millones EUR (cifras estimadas recientes), indicando un esfuerzo de consolidación operativa.
-*   **Valoración:** Con un ratio *Price-to-Book* de 1.48, el mercado valora a la empresa cerca de su valor contable. La ausencia de un *Trailing PE* positivo (debido a las pérdidas) y un *Forward PE* que sugiere dificultades para alcanzar rentabilidad inmediata, complican la valoración mediante múltiplos tradicionales.
-*   **Dividendos:** Cellnex ofrece una rentabilidad por dividendo del 2.9%, con una tasa de pago (*payout ratio*) del 16%, lo cual demuestra un compromiso con el accionista a pesar de los resultados contables negativos.
+**1. Perfil y Clasificación**
+Cellnex es el principal operador europeo de infraestructuras de telecomunicaciones inalámbricas. Se clasifica dentro del sector inmobiliario (*Real Estate Services*), dado su modelo de negocio basado en la gestión de torres de telecomunicaciones. Su cotización a 26,58 EUR refleja una empresa bajo presión de deuda, característica del sector, pero con una posición estratégica consolidada.
 
-### Perspectiva de Mercado y Riesgos
-*   **Consenso de Analistas:** Existe un optimismo moderado en el consenso, con un precio objetivo medio de 34,22 EUR, lo que implica un potencial de revalorización del 31.47% respecto al cierre de 26,03 EUR. Sin embargo, el rango es amplio (mínimo 21 EUR, máximo 45,8 EUR), reflejando la incertidumbre sobre su capacidad de reducir el apalancamiento.
-*   **Contexto Macroeconómico:** Los datos recientes (30 de octubre de 2026) muestran un entorno de mercado volátil donde sectores como la banca y las tecnológicas han estado bajo presión, influenciados por las decisiones del BCE sobre los tipos de interés (mantenidos al 2,5%). Como empresa intensiva en capital, `CLNX.MC` es altamente sensible a las fluctuaciones de los tipos de interés.
+**2. Desempeño Financiero y Riesgos**
+*   **Rentabilidad y Flujo de Caja:** Los datos de 2025 muestran unos ingresos de 4.120 millones de EUR, con un EBITDA de 2.988 millones. Aunque el flujo de caja operativo fue sólido (2.286 millones), el gasto de capital (CAPEX) sigue siendo elevado (1.760 millones), lo que resultó en un flujo de caja libre positivo de 525 millones. La empresa ha logrado duplicar su flujo de caja, aunque noticias recientes indican que el mercado polaco podría frenar este crecimiento en 2027.
+*   **Niveles de Deuda:** El ratio *Net Debt/EBITDA* se sitúa en 7,95x, un nivel considerable que refleja el apalancamiento utilizado para su agresiva expansión. La reciente emisión de 750 millones de EUR en bonos (cupón 4,375%) demuestra que la compañía mantiene acceso a los mercados de capitales, aunque a un coste que debe ser monitorizado en el entorno actual de tipos de interés, que, según las noticias, se espera que suban en el BCE (hasta un 3%).
 
-### Evidencia y Datos Faltantes
-*   **Soporte:** Los datos financieros (Yahoo Finance) reflejan la carga de deuda y la estructura de capital. El histórico de flujo de caja muestra una mejoría en la conversión de efectivo operativo a flujo de caja libre, lo cual es positivo para la sostenibilidad.
-*   **Datos faltantes:** No se dispone de un desglose detallado de la deuda por vencimientos a largo plazo, lo cual sería crítico para evaluar el riesgo de refinanciación bajo el entorno actual de tipos del BCE. Tampoco hay datos sobre el impacto directo de la IA o cambios tecnológicos específicos en sus contratos de arrendamiento de torres a largo plazo.
+**3. Sentimiento y Contexto Macroeconómico**
+*   **Posición de los Bajistas:** Cellnex es mencionada actualmente como uno de los objetivos preferidos por los inversores bajistas en el IBEX-35 (Fuente: CapitalMadrid, 09/11/2026). Esto suele indicar un escepticismo sobre la sostenibilidad de su valoración frente a las tasas de interés crecientes.
+*   **Resultados y Guidance:** La compañía ha superado la "prueba del mercado" tras sus resultados del 3T'26, cumpliendo con sus objetivos y reiterando el *guidance* para 2026 y 2027 (Fuente: Bolsamania, 06/11/2026).
 
-**Rating**: REVIEW
+### Perspectivas para Traders
+*   **Puntos de Apoyo:** La media móvil de 50 sesiones (25,03 EUR) y la de 20 sesiones (26,08 EUR) ofrecen un soporte dinámico interesante. La acción cotiza por debajo de su media de 200 sesiones (26,96 EUR).
+*   **Consenso de Analistas:** Existe un optimismo moderado con un precio objetivo medio de 34,30 EUR, lo que implica un potencial de revalorización significativa del 29% desde los niveles actuales. No obstante, la volatilidad (27,77%) exige una gestión de riesgo estricta.
 
-### Resumen de Datos Clave
+### Datos Faltantes
+*   No se dispone del desglose detallado de los contratos de alquiler (inflación *passthrough*) que protegen a Cellnex contra la subida de precios.
+*   No hay acceso a información de transacciones de *insiders* en el periodo inmediato, lo cual sería útil para medir la confianza interna ante los niveles de deuda actuales.
+
+---
+
+### Resumen de Datos Clave (`CLNX.MC`)
 
 | Indicador | Valor |
 | :--- | :--- |
-| Precio de Cierre (`CLNX.MC`) | 26,03 EUR |
-| Capitalización de Mercado | 17.106 Millones EUR |
-| Deuda Total | 22.191 Millones EUR |
-| Net Debt / EBITDA | 7,78x |
-| Dividend Yield | 2,90% |
-| Precio Objetivo Medio | 34,22 EUR |
-| Consenso Upside | +31,47% |
-| RSI (14 días) | 59,73 |
+| **Precio Actual** | 26,58 EUR |
+| **Capitalización Bursátil** | 17.436 millones EUR |
+| **Net Debt / EBITDA** | 7,95x |
+| **Dividendo (Yield)** | 2,82% |
+| **Consenso Upside** | +29,07% |
+| **EBITDA (2025)** | 2.988 millones EUR |
+| **RSI (14)** | 59,62 |
 
-***Nota:** Este informe es para fines informativos y no constituye asesoramiento financiero ni recomendaciones de inversión. Toda decisión de inversión debe basarse en un análisis propio y en la consulta con asesores financieros certificados.*
+**Rating**: REVIEW
 
-FINAL TRANSACTION PROPOSAL: No trade recommendation; the high debt-to-EBITDA ratio (7.78x) and persistent negative net income require a cautious "REVIEW" stance until further deleveraging milestones are evidenced.
+FINAL TRANSACTION PROPOSAL: Mantener / Observar. La compañía muestra fortaleza operativa y cumplimiento de objetivos, pero el alto apalancamiento en un entorno de tipos crecientes en la Eurozona sugiere cautela hasta ver una estabilización en la tendencia de deuda.

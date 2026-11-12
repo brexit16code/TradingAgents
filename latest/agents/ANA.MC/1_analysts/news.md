@@ -1,31 +1,33 @@
-Este informe analiza la situación actual de **Acciona, S.A. (ANA.MC)**, una compañía con sede en Madrid dedicada a la ingeniería y construcción, a fecha de 1 de noviembre de 2026.
+Este informe presenta un análisis de **Acciona, S.A. (ANA.MC)** basado en los datos financieros y de mercado disponibles a fecha de 12 de noviembre de 2026.
 
-### Análisis Fundamental y Técnico
-Acciona muestra una salud financiera compleja caracterizada por una elevada carga de deuda y una presión reciente en su cotización.
+### Análisis Fundamental y de Mercado
+Acciona muestra una estructura financiera caracterizada por una alta intensidad de capital y una deuda neta significativa. Con una capitalización bursátil de 11.740 millones de euros y un precio de 220,60 EUR, la acción cotiza cerca de su media móvil de 200 días (224,52 EUR).
 
-*   **Situación Bursátil:** La acción cotiza a **203,60 EUR**, habiendo experimentado una caída del 1,55% en la última sesión y acumulando un *drawdown* del 26,83%. El RSI de 43,44 indica una debilidad moderada sin entrar en territorio de sobreventa extrema, mientras que el MACD se mantiene por debajo de su línea de señal, sugiriendo una tendencia bajista persistente.
-*   **Valoración:** La compañía cotiza a un **Forward PE de 19,44x**, lo que representa una prima respecto a sus pares (ratio de 1,13 frente al promedio de 17,25). A pesar de los ingresos de 20.236 millones de EUR en 2025, el margen de beneficio neto es estrecho (1,64%).
-*   **Solvencia y Liquidez:** El ratio de **Net Debt/EBITDA de 6,14x** es un punto de atención crítico para los inversores. Aunque el flujo de caja operativo es robusto (1.763 millones de EUR), el flujo de caja libre es negativo (-722,75 millones de EUR), lo que refleja una intensidad de capital significativa (CAPEX elevado).
+*   **Valuación:** El ratio PER *trailing* de 33,3x es elevado, aunque el PER *forward* desciende a 20,1x, lo que sugiere una expectativa de mejora en los beneficios futuros. El múltiplo EV/EBITDA de 15,58x refleja un sector de ingeniería e infraestructuras con proyectos de largo plazo.
+*   **Solidez Financiera:** El ratio de deuda neta sobre EBITDA de 6,14x es un punto crítico. En un entorno macroeconómico donde el Banco Central Europeo (BCE) mantiene presiones sobre los tipos de interés (con el mercado descontando subidas hacia el 3% según *Moncloa.com*), este apalancamiento requiere un seguimiento estrecho del flujo de caja.
+*   **Cash Flow:** Aunque el flujo de caja operativo ha mostrado resiliencia (2.148 millones en 2025), el flujo de caja libre es negativo (-722,75 millones) debido a un elevado gasto en capital (CAPEX), lo que es típico en su modelo de negocio de grandes proyectos de infraestructura y energía renovable.
 
 ### Contexto Macroeconómico
-El comportamiento de `ANA.MC` se ha visto afectado negativamente por el sentimiento general del mercado español e europeo. Según la prensa reciente, el IBEX 35 ha sufrido caídas consecutivas arrastrado por el sector bancario y los resultados empresariales. El mercado espera con cautela los movimientos de los bancos centrales; el BCE mantiene los tipos en el 2,5%, con señales de preocupación sobre la persistencia de la inflación, lo que impacta directamente en las empresas con alto apalancamiento como Acciona.
+El entorno en España presenta retos significativos:
+1.  **Inflación:** Se reporta una inflación "enquistada" en el 5% (Finanzas.com, 08/11/2026), lo que ejerce presión sobre los costes operativos de las empresas industriales.
+2.  **Política Monetaria:** La incertidumbre en el BCE sobre la lucha contra la inflación ("palomas vs halcones") y la perspectiva de subidas de tipos (Investing.com, 06/11/2026) afectan directamente el coste de financiación de Acciona.
 
 ### Puntos a Favor y en Contra
-*   **A favor:** La empresa mantiene un dividendo con una rentabilidad del 2,82%, lo que puede atraer perfiles orientados a ingresos a pesar de la volatilidad. El objetivo de precio medio de los analistas (218,31 EUR) sugiere un potencial de revalorización del 7,22% respecto al precio actual.
-*   **En contra:** La estructura de deuda neta sobre EBITDA es elevada (6,14x). La combinación de tipos de interés estructuralmente altos y un sector de construcción que depende del ciclo económico añade incertidumbre.
+*   **A favor:** La empresa mantiene un dividendo con una rentabilidad atractiva (2,61%) y cuenta con una presencia consolidada en sectores estratégicos (infraestructuras y renovables). La subida del 24% en el retorno anual refleja cierta confianza del mercado.
+*   **En contra:** La elevada deuda neta en un ciclo de tipos de interés altos es un riesgo importante. La volatilidad implícita del 30,3% indica una alta incertidumbre en la cotización. El *consensus upside* es ligeramente negativo (-0,54%), lo que sugiere que el mercado ve el precio actual como razonablemente valorado según los objetivos de los analistas.
+
+### Información Faltante
+No se dispone de desglose detallado de los contratos específicos vigentes para 2027 ni un desglose actualizado de la exposición a deuda a tipo variable frente a fijo, lo cual es vital para evaluar el impacto de las subidas de tipos del BCE.
 
 ### Resumen de Datos Clave
-| Indicador | Valor / Observación |
+| Indicador | Valor / Dato |
 | :--- | :--- |
-| Precio Actual (`ANA.MC`) | 203,60 EUR |
-| Forward P/E | 19,44x |
+| Precio de Cierre (ANA.MC) | 220,60 EUR |
+| PER Forward | 20,10x |
 | Deuda Neta / EBITDA | 6,14x |
-| Dividend Yield | 2,82% |
-| Consenso Upside | +7,22% |
-| Tendencia Técnica | Bajista (MACD cruzado, bajo SMA20/50/200) |
+| Rentabilidad por Dividendo | 2,61% |
+| Tendencia Inflación (ES) | 5% (Alerta) |
+| Sentimiento de Analistas | Neutral (Upside -0,54%) |
 
-**Missing Data:** No se dispone de información detallada sobre el desglose por segmentos geográficos exactos a noviembre de 2026 ni proyecciones de impacto específico por posibles cambios en la política monetaria de la Fed tras la reunión esperada.
-
-**Rating**: REVIEW
-
-FINAL TRANSACTION PROPOSAL: The high debt-to-EBITDA ratio (6.14x) combined with a negative free cash flow environment suggests a cautious stance. No trade execution is suggested; investors should await further deleveraging evidence or a clearer improvement in profit margins before increasing exposure.
+**Rating**: HOLD
+FINAL TRANSACTION PROPOSAL: Mantener posición; evitar incremento de exposición hasta observar una reducción efectiva en el ratio de deuda neta sobre EBITDA o una estabilización clara en las tasas de interés del BCE.

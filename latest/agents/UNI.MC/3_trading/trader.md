@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: Unicaja Banco muestra una estructura técnica débil al cotizar por debajo de sus medias móviles de corto plazo (20 y 50 días), lo que justifica una postura de espera a pesar de la solidez fundamental y el atractivo dividendo. El mercado está penalizando el sector bancario europeo y la incertidumbre corporativa propia, lo que limita el potencial alcista inmediato hacia el precio objetivo de consenso de 3,23 EUR.
+**Reasoning**: El precio de UNI.MC se encuentra actualmente por encima de su soporte técnico clave en la media móvil de 50 días (3,378 EUR), lo que respalda mantener la posición. Sin embargo, dado que el precio cotiza con una prima de valoración respecto a sus pares del sector bancario y existe un riesgo de caída del -6,19% hacia el precio objetivo del consenso (3,24 EUR), no se justifica abrir nuevas posiciones largas en estos niveles de volatilidad.
 
-**Entry Price**: 2.95
+**Entry Price**: not provided
 
-**Stop Loss**: 2.75
+**Stop Loss**: 3.378
 
-**Position Sizing**: Mantener exposición actual; no añadir posiciones nuevas.
+**Position Sizing**: Mantener peso actual; evitar incremento de exposición hasta observar una ruptura clara del rango actual.
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

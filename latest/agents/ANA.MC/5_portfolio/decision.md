@@ -1,9 +1,9 @@
-**Rating**: Underweight
+**Rating**: Hold
 
-**Executive Summary**: Se recomienda reducir la exposición actual a ANA.MC ante el alto riesgo de solvencia. La estrategia debe priorizar la protección del capital, evitando nuevas entradas hasta que se observe una mejora tangible en el desapalancamiento o una superación sostenida de la media móvil de 200 días (222.76 EUR).
+**Executive Summary**: Mantener la posición actual sin realizar compras adicionales dada la alta carga de deuda y la estructura financiera tensionada. Esperar una confirmación técnica de ruptura sobre la media móvil de 200 días (224,52 EUR) acompañada de un aumento en el volumen operativo antes de considerar cualquier aumento de exposición. El horizonte de inversión se define como una vigilancia activa de 3-6 meses para evaluar la estabilización del flujo de caja.
 
-**Investment Thesis**: La tesis bajista prevalece debido a la vulnerabilidad estructural del balance: un ratio de deuda neta sobre EBITDA de 6.14x es insostenible en el actual entorno de tipos de interés restrictivos, especialmente con un margen de beneficio neto de solo el 1.64%. Aunque existe valor latente en sus activos de infraestructura y renovables, los fundamentales de solvencia y el flujo de caja libre negativo (-722.75M EUR) superan el optimismo por el potencial de crecimiento a largo plazo. Técnicamente, la acción se encuentra en una tendencia bajista confirmada al cotizar por debajo de sus medias móviles de 20, 50 y 200 días. Esta posición cambiaría si la compañía logra reducir su apalancamiento significativamente (Net Debt/EBITDA < 4x) o si el precio estabiliza una ruptura técnica por encima de su media móvil de 200 días.
+**Investment Thesis**: La tesis de inversión se encuentra en un punto de equilibrio entre el liderazgo estratégico de Acciona en el sector renovable y un riesgo financiero excesivo. La evidencia contable presentada —Net Debt/EBITDA de 6,14x, flujo de caja libre negativo de -722,75 millones EUR y un payout ratio insostenible del 166%— constituye una barrera de entrada crítica. Aunque el momentum técnico es positivo (MACD en territorio alcista), el precio actual ya incorpora una prima del 11% frente a los pares del sector y se encuentra bajo una resistencia técnica relevante. La postura es de espera prudente porque el capital reinvertido aún no ha logrado convertir el apalancamiento masivo en beneficios recurrentes positivos. Un cambio de calificación a 'Overweight' o 'Buy' dependería de una reducción del ratio de apalancamiento por debajo de 5,0x y la demostración de un flujo de caja operativo que cubra plenamente el CAPEX intensivo, asegurando así la sostenibilidad del dividendo sin comprometer la solvencia.
 
-**Price Target**: 218.31
+**Price Target**: 219.41
 
-**Time Horizon**: 6-12 meses
+**Time Horizon**: 3-6 meses

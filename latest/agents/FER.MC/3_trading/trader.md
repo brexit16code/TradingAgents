@@ -1,11 +1,11 @@
-**Action**: Sell
+**Action**: Hold
 
-**Reasoning**: Siguiendo el plan de inversión y la recomendación de subponderar, se propone realizar una venta parcial para asegurar beneficios tras el rebote hasta los 50.70 EUR. La decisión se fundamenta en múltiplos de valoración muy exigentes con un Forward P/E de 44.13x, un apalancamiento elevado (Net Debt/EBITDA de 4.39x) y señales de fatiga en el tráfico de autopistas, a pesar de que el precio cotice por encima de la SMA20 de 45.69 EUR y la SMA50 de 47.75 EUR. Se establece una salida para mitigar el riesgo de valoraciones excesivas frente a la SMA200 situada en 55.29 EUR.
+**Reasoning**: El valor presenta una condición técnica de sobrecompra extrema con un RSI de 81.4 y una valoración fundamental muy exigente, con un PER forward de 48x. Ante el entorno macroeconómico de tipos de interés elevados que presiona su nivel de deuda (4.38x EBITDA), es prudente evitar nuevas compras en estos niveles. Se recomienda mantener posiciones actuales mientras el precio se sostenga sobre la media de 200 días, esperando una consolidación técnica antes de considerar un aumento de la exposición.
 
-**Entry Price**: 50.7
+**Entry Price**: 47.44
 
-**Stop Loss**: 55.3
+**Stop Loss**: 54.29
 
-**Position Sizing**: Reducir la exposicion actual a la mitad (bajar la asignacion en 50% respecto al peso objetivo del sector)
+**Position Sizing**: 50% de la asignación estándar
 
-FINAL TRANSACTION PROPOSAL: **SELL**
+FINAL TRANSACTION PROPOSAL: **HOLD**

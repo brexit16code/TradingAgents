@@ -1,69 +1,42 @@
-**Rating**: REVIEW
+### Informe de Análisis Fundamental: Laboratorios Farmacéuticos Rovi, S.A. (ROVI.MC)
 
-FINAL TRANSACTION PROPOSAL: HOLD
+**Fecha del informe:** 12 de noviembre de 2026
 
----
+#### 1. Perfil de la Empresa
+Laboratorios Farmacéuticos Rovi, S.A. es una compañía farmacéutica española especializada en la investigación, desarrollo, fabricación y comercialización de especialidades farmacéuticas. La empresa opera principalmente en el sector de medicamentos de especialidad y genéricos, con una fuerte presencia en el mercado europeo.
 
-### Informe Fundamental Integral: Laboratorios Farmaceuticos Rovi, S.A. (`ROVI.MC`)
+#### 2. Análisis Financiero y Desempeño Reciente
+Los datos financieros indican una empresa en una fase de consolidación tras periodos de alta actividad.
 
-#### 1. Perfil de la Empresa y Datos Generales
-* **Ticker / Instrumento**: `ROVI.MC` (Laboratorios Farmaceuticos Rovi, S.A.)
-* **Sede y Mercado**: España (Bolsa de Madrid, MCE), cotizada en EUR, bajo el benchmark del índice ^IBEX.
-* **Sector y Clasificación**: Healthcare (Cuidado de la Salud) / Drug Manufacturers - Specialty & Generic (Fabricantes de medicamentos especializados y genéricos).
-* **Capitalización de Mercado**: 3.199.002.368,00 EUR (~3.200 millones de EUR).
-* **Precio de Cierre (al 30 de octubre de 2026)**: 62,55 EUR.
-* **Contexto Técnico Relevante**: La acción presenta una rentabilidad a 21 sesiones del 9,07% y a 252 sesiones del 8,05%. Su RSI de 14 días se sitúa en 66,32 (zona neutral-alta sin sobrecompra extrema) y se encuentra operando por encima de sus medias móviles de corto plazo (SMA20: 59,24 EUR y SMA50: 59,12 EUR), aunque por debajo de su SMA200 (65,37 EUR). El *drawdown* actual respecto a máximos es del -25,61%.
+*   **Resultados Recientes:** Según las declaraciones financieras de 2025, Rovi reportó unos ingresos totales de 743,48 millones de EUR y un EBITDA de 216,20 millones de EUR. Aunque los ingresos han experimentado una ligera fluctuación respecto a 2023 (829,51 millones de EUR), la empresa mantiene una robusta capacidad de generación de flujo de caja operativo (187,08 millones de EUR en 2025 frente a 113,25 millones en 2023).
+*   **Balance y Solvencia:** La estructura financiera es saludable, con una deuda total de 121,72 millones de EUR (a cierre de 2025) frente a un patrimonio neto de 664,42 millones de EUR. La ratio deuda neta/EBITDA es baja (0,15), lo que refleja una gestión conservadora del apalancamiento.
+*   **Valoración:** La acción cotiza a un PER (Price-to-Earnings Ratio) *trailing* de 17,45x. El consenso de analistas (9 opiniones) sitúa el precio objetivo medio en 74,02 EUR, lo que representa un potencial alcista del 5,52% desde el precio de cierre actual de 70,15 EUR.
 
----
+#### 3. Contexto de Mercado y Noticias
+*   **Desempeño en el IBEX 35:** Las noticias recientes (12 de noviembre de 2026, *Estrategias de Inversión*) destacan a Rovi como un apoyo importante para la fortaleza del índice IBEX 35, a pesar de haber enfrentado jornadas de volatilidad a principios de noviembre.
+*   **Perspectivas de Analistas:** Renta 4 mantiene una visión optimista, señalando un potencial superior al 22% (según reportes del 10 de noviembre de 2026). Sin embargo, existe una notable sensibilidad al mercado, como se observó el 6 de noviembre, cuando la acción lideró caídas en el selectivo español.
+*   **Inflación y Macro:** El entorno macroeconómico español (inflación cercana al 5% a fecha de noviembre de 2026) y las posibles alzas de tipos por parte del BCE son factores que pesan sobre el sentimiento inversor en renta variable, afectando la valoración de empresas de crecimiento como Rovi.
 
-#### 2. Análisis Financiero y Estados Contables
-Tomando como base los datos históricos y financieros provistos (ejercicio fiscal finalizado en diciembre de 2025 y comparativas previas):
+#### 4. Riesgos y Observaciones
+*   **Información faltante:** No se dispone del desglose detallado de la "Earnings Growth" (crecimiento de beneficios) para el periodo más reciente.
+*   **RSI:** Con un RSI14 de 78,25, el activo se encuentra técnicamente en zona de sobrecompra, lo que sugiere que podría haber una corrección técnica a corto plazo independientemente de los fundamentales.
+*   **Volatilidad:** La volatilidad reportada del 24,94% y un retroceso (*drawdown*) del 16,57% subrayan la necesidad de prudencia para inversores con baja tolerancia al riesgo.
 
-* **Evolución de Ingresos y Beneficios**:
-  * **Ingresos Totales**: 
-    * 2025: 743.483.000,00 EUR
-    * 2024: 763.749.000,00 EUR
-    * 2023: 829.509.000,00 EUR
-    * *Evidencia*: Se observa una ligera contracción interanual en la cifra de negocio durante los últimos ejercicios, reflejando la normalización tras los años extraordinarios asociados a la fabricación de vacunas y productos relacionados con la COVID-19. No obstante, la tasa de crecimiento de ingresos se sitúa en un modesto 0,2% según métricas recientes.
-  * **EBITDA**:
-    * 2025: 216.201.000,00 EUR
-    * 2024: 207.693.000,00 EUR
-    * 2023: 245.406.000,00 EUR
-    * *Nota*: Recuperación del EBITDA en 2025 hasta los ~216,2 millones de EUR en comparación con 2024 (~207,7 millones de EUR).
-  * **Beneficio Neto (Net Income)**:
-    * 2025: 140.442.000,00 EUR
-    * 2024: 136.881.000,00 EUR
-    * 2023: 170.335.000,00 EUR
+**Rating**: HOLD
 
-* **Balance de Situación y Estructura de Capital**:
-  * **Activos Totales (Total Assets)**: 955.691.000,00 EUR (2025), mostrando expansión frente a los 832.022.000,00 EUR de 2024.
-  * **Patrimonio Neto (Stockholders Equity)**: 664.415.000,00 EUR (2025) frente a 572.028.000,00 EUR (2024).
-  * **Deuda Total (Total Debt)**: 121.724.000,00 EUR (cifra de 2025, comparable con los ~107,6 millones reportados a nivel general). Con un total de efectivo de 128.072.000,00 EUR, la compañía mantiene una posición neta de caja o un ratio de deuda neta sobre EBITDA de -0,12x, lo que constata una **solidez financiera excelente** y un balance prácticamente desapalancado.
+#### 5. Resumen de Datos Clave (Tabla)
 
-* **Flujos de Caja**:
-  * **Flujo de Caja Operativo (Operating Cash Flow)**: 187.078.000,00 EUR en 2025 (superando los 138,27 millones de 2024).
-  * **Inversión en CapEx**: -67.813.000,00 EUR en 2025.
-  * **Flujo de Caja Libre (Free Cash Flow)**: 119.265.000,00 EUR en 2025, superior a los 76,06 millones de 2024. Las métricas generales apuntan a un FCF anualizado en torno a 167,5 millones de EUR según estimaciones consolidadas recientes.
+| Indicador | Valor |
+| :--- | :--- |
+| Precio de cierre (12/11/2026) | 70,15 EUR |
+| Capitalización de mercado | 3.587,69 M EUR |
+| PER (Trailing) | 17,45x |
+| Dividend Yield | 1,36% |
+| Precio Objetivo Medio | 74,02 EUR |
+| Upside Consenso | 5,52% |
+| RSI (14 días) | 78,25 |
+| Deuda Neta / EBITDA | 0,15 |
 
----
+FINAL TRANSACTION PROPOSAL: Neutral. Dada la señal de sobrecompra técnica (RSI > 75), se recomienda esperar a un retroceso del precio hacia el nivel de la media móvil simple de 20 o 50 sesiones antes de considerar posiciones, manteniendo la tesis de inversión a largo plazo debido a la sólida estructura de balance y el potencial alcista proyectado por los analistas.
 
-#### 3. Valoración y Múltiplos Bursátiles
-* **PER (Trailing PE)**: 17,28x.
-* **PER Estimado (Forward PE)**: 19,05x (con un EPS proyectado de 3,28 EUR frente al EPS histórico de 3,62 EUR).
-* **Precio / Valor en Libros (Price to Book)**: 4,57x.
-* **Valor de Empresa / EBITDA (EV/EBITDA)**: 18,16x.
-* **Rentabilidad por Dividendo (Dividend Yield)**: ~1,53% (dividendo anual por acción de 0,96 EUR, con un ratio de reparto conservador *payout ratio* del 25,83%).
-* **Rentabilidad sobre Recursos Propios (ROE)**: 28,65%, lo que subraya una alta eficiencia en la generación de valor para los accionistas.
-* **Márgenes**: Margen de beneficio neto del 23,96%, evidenciando un perfil de alta rentabilidad operativa.
-
----
-
-#### 4. Consenso de Analistas y Noticias Recientes (Octubre de 2026)
-* **Objetivo de Precio Consenso**: El precio objetivo medio de los analistas se sitúa en **73,69 EUR** (con un rango que va desde un objetivo mínimo de 64,20 EUR hasta un máximo de 83,00 EUR, basado en las opiniones de 9 analistas). Esto arroja un potencial alcista estimado (*consensus upside*) del **17,81%** desde el precio actual de 62,55 EUR.
-* **Noticias e Hitos Recientes (Fuentes de Prensa Financiera - Octubre 2026)**:
-  * *Bolsamania (28 de octubre de 2026)*: Se señala que *ROVI.MC* se prepara para un trimestre sólido, aunque la atención principal de los inversores estará puesta en la guía y perspectivas de cara a 2027.
-  * *Estrategias de Inversión (27 de octubre de 2026)*: La compañía acapara atención por un potencial alcista considerado atractivo por distintas firmas y la entrada de inversores institucionales destacados como Horos AM, que ha tomado posiciones en la compañía (noticia replicada por Europa Press el 26 de octubre de 2026).
-
----
-
-#### 5. Evidencia Contaria y Factores
+*Descargo de responsabilidad: Este informe se basa únicamente en datos históricos y públicos suministrados. No constituye una recomendación financiera profesional ni una ejecución de órdenes. Se recomienda realizar un análisis propio antes de tomar decisiones de inversión.*

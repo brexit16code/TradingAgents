@@ -1,44 +1,32 @@
+### Informe de Análisis: Banco Sabadell (`SAB.MC`)
+
+**Resumen Ejecutivo**
+Banco Sabadell (`SAB.MC`) muestra un comportamiento bursátil sólido, con una rentabilidad del 41.74% en los últimos 252 días, situándose significativamente por encima de sus medias móviles de 50 y 200 días. A fecha de 12 de noviembre de 2026, la acción cotiza a 3.75 EUR, con una tendencia alcista apoyada por señales técnicas positivas (RSI de 62.69). No obstante, el consenso de analistas sugiere un limitado potencial de revalorización con una previsión de retorno negativo del -2.28% respecto al precio objetivo medio (3.66 EUR).
+
+#### Análisis Macroeconómico y Entorno de Mercado
+El contexto macroeconómico en España y la Eurozona está marcado por una inflación persistente, reportada cercana al 5% en España (Finanzas.com, 08/11/2026), lo que ha provocado tensiones en las políticas del Banco Central Europeo (BCE). Existe una notable divergencia entre "halcones" y "palomas" en el BCE (El Español, 07/11/2026) sobre la senda de los tipos de interés. El mercado descuenta actualmente subidas hacia el 3% para combatir la inflación (Moncloa.com, 05/11/2026), un escenario que suele beneficiar el margen de intereses de la banca, aunque añade presión sobre la solvencia de los prestatarios.
+
+#### Análisis Financiero de `SAB.MC`
+*   **Valoración:** La entidad cotiza con un PER forward de 11.31, frente a una mediana del sector de 10.74, lo que sugiere una valoración ligeramente premium (ratio 1.05). Su ratio Precio/Valor Contable es de 1.47, reflejando una valoración superior a su valor en libros.
+*   **Rentabilidad y Solvencia:** El ROE se sitúa en el 8.90%. Aunque el beneficio neto cayó ligeramente de 1,826 M€ (2024) a 1,775 M€ (2025), el margen de beneficio sigue siendo robusto (41.57%).
+*   **Deuda y Flujos:** El balance muestra una reducción de deuda total (de 32,366 M€ en 2024 a 22,534 M€ en 2025). Sin embargo, la volatilidad en el flujo de caja operativo es notable, con un reporte de -11,063 M€ en 2024, lo que requiere un análisis más detallado de sus partidas no monetarias y provisiones bancarias (datos de `cashflow` proporcionados).
+
+#### Opinión de Mercado
+El sentimiento es mixto. Mientras *Estrategias de Inversión* (11/11/2026) destaca una nueva señal de compra técnica tras una subida del 8%, analistas citados por *Yahoo* (10/11/2026) han mostrado una postura más cautelosa, prefiriendo otras entidades del sector bancario español frente a Sabadell.
+
+#### Evidencia y Datos Faltantes
+*   **Soporte:** Los datos financieros, técnicos y de prensa fueron proporcionados en el snapshot del 12/11/2026.
+*   **Limitaciones:** Los datos de flujo de caja libre y operativo muestran fluctuaciones extremas que son típicas de cambios contables en el sector financiero, pero faltan notas explicativas detalladas sobre estas variaciones. No se dispone de modelos internos de valoración (DCF) ni análisis de sensibilidad ante tipos de interés específicos.
+
+| Métrica | Valor / Nota |
+| :--- | :--- |
+| **Precio Actual** | 3.75 EUR |
+| **Consenso Analistas** | 3.66 EUR (Objetivo Medio) |
+| **Ratio P/E (Forward)** | 11.31 |
+| **Rentabilidad 252 días** | 41.74% |
+| **RSI (14 días)** | 62.69 (Neutral/Alcista) |
+| **Dividend Yield** | 1.86% |
+
 **Rating**: REVIEW
 
-### Informe de Investigación y Análisis de Mercado: Banco Sabadell (`SAB.MC`)
-
-#### 1. Resumen Ejecutivo y Estado Actual
-El Banco Sabadell (`SAB.MC`), perteneciente al sector de Servicios Financieros y Banca Diversificada cotizando en la Bolsa de Madrid (MCE), muestra un precio de cierre reciente de **3.43 EUR** por acción (sesión del 30 de octubre de 2026), lo que refleja una caída semanal del **2.19%**, en línea con la recogida de beneficios y la presión bajista general experimentada por la banca española y europea (como reportan los titulares de *Cinco Días* y *El Conciso* del 30 de octubre de 2026). A pesar de esto, el comportamiento a plazos más largos se mantiene resiliente, registrando una rentabilidad a 252 días del **24.58%**.
-
-#### 2. Análisis Fundamental y Resultados Financieros recientes
-El 30 de octubre de 2026, Banco Sabadell publicó sus resultados financieros hasta septiembre de 2026, reportando un beneficio neto de **1.376 millones de euros** y anunciando un dividendo de **325 millones** (*Noticias Bancarias*, 30 de octubre de 2026). 
-* **Valoración y Múltiplos**:
-  * **Capitalización de Mercado**: 16.116 millones de EUR.
-  * **PER Trailing**: 13.74x / **PER Forward**: 10.41x (con un EPS proyectado de 0.33 EUR).
-  * **Precio a Valor en Libros (P/B)**: 1.22x, con un valor contable por acción de 2.81 EUR.
-  * **Rentabilidad por Dividendo (Dividend Yield)**: ~2.04% (dividendo anualizado efectivo de 0.07 EUR por acción, payout ratio de 34%).
-  * **ROE**: 8.9%.
-* **Consenso de Analistas**: El precio objetivo medio (*targetMeanPrice*) se sitúa en **3.66 EUR**, lo que ofrece un potencial alcista (*consensus upside*) del **6.54%** sobre el precio actual de 3.43 EUR, con un rango que va desde un mínimo de 2.30 EUR hasta un máximo de 4.50 EUR, basado en la opinión de 20 analistas. La métrica de valoración relativa sectorial se clasifica como *PER relativo intermedio* frente a sus pares cotizados (`SAN.MC`, `BKT.MC`, `BBVA.MC`, `CABK.MC`, `UNI.MC`), con una ratio de 1.05x respecto a la mediana del grupo.
-
-#### 3. Contexto Macroeconómico y del Sector Bancario
-Las noticias macroeconómicas de finales de octubre de 2026 destacan decisiones clave en la política monetaria europea:
-* El Banco Central Europeo (BCE) decidió mantener los tipos de interés en el **2.5%** en su reunión de finales de octubre de 2026, apuntando a posibles movimientos o revisiones de cara a diciembre debido a que las perspectivas de inflación se inclinan a la baja (*Estrategias de Inversión*, 29 de octubre de 2026).
-* El sector bancario europeo y español ha sufrido correcciones bursátiles recientes ("La banca española y europea se despeñan en Bolsa pese a sus beneficios récord", *Cinco Días*, 30 de octubre de 2026), arrastrando al Ibex 35 por debajo de los 18.700 puntos, en un entorno de cautela generalizada en los mercados.
-
-#### 4. Evidencia de Soportes y Fuentes
-* **Precios y Datos Técnicos**: Cierre a 3.4349 EUR (30-10-2026); SMA20: 3.54 EUR; SMA50: 3.62 EUR; SMA200: 3.11 EUR; RSI(14): 41.00 (neutral bajista).
-* **Fuentes Consultadas**: Yahoo Finance (`SAB.MC` quote y financials), Bolsamania, Noticias Bancarias, Finanzas.com, El Cronista, Merca2.es, Radio Intereconomía, Cinco Días, Bankinter, y Estrategias de Inversión.
-* **Datos Faltantes**: Flujo de caja operativo y libre actualizados para el ejercicio parcial detallado en los extractos de balance y flujos de efectivo (se observan cifras negativas por ajustes de capital/liquidez en periodos anteriores que requieren una lectura detallada del balance consolidado oficial). No se dispone de un portfolio de inversión provisto.
-
-#### 5. Conclusión y Recomendación
-Dado que el valor cotiza cerca de su media de analistas (3.66 EUR) con un potencial de revalorización moderado (~6.54%) y un entorno técnico neutral presionado por la corrección sectorial europea, la postura recomendada es de estricta revisión y cautela.
-
-FINAL TRANSACTION PROPOSAL: REVIEW
-
----
-
-| Indicador / Métrica Clave | Valor Actual (`SAB.MC`) | Contexto / Referencia |
-| :--- | :--- | :--- |
-| **Precio de Cierre** | 3.43 EUR | Sesión al 30/10/2026 |
-| **Capitalización Bursátil** | 16.116 millones EUR | - |
-| **PER Forward / Trailing** | 10.41x / 13.74x | Estimación de beneficios futuros |
-| **Precio a Valor en Libros (P/B)**| 1.22x | Valor contable: 2.81 EUR |
-| **Precio Objetivo Consenso** | 3.66 EUR | Basado en 20 analistas |
-| **Upside Estimado** | +6.54% | Respecto al precio actual |
-| **Beneficio Netos (9M)** | 1.376 millones EUR | Anunciado el 30/10/2026 |
-| **RSI (14)** | 41.00 | Zona neutral / ligera presión bajista |
+FINAL TRANSACTION PROPOSAL: The evidence suggests a hold/review status. While technical indicators are strong, the current price exceeds the analyst consensus mean target, suggesting limited near-term upside. Investors should monitor BCE interest rate decisions as the primary driver for net interest margin stability.

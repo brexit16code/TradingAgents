@@ -1,36 +1,34 @@
-El análisis de **MERLIN Properties SOCIMI, S.A. (MRL.MC)**, basado en los datos a fecha de 1 de noviembre de 2026, revela una situación técnica compleja y un contexto fundamental que se encuentra en una fase de transición estratégica.
+Análisis técnico y fundamental de **MERLIN Properties SOCIMI, S.A. (`MRL.MC`)** al 12 de noviembre de 2026.
 
-### Análisis Técnico
-La acción se sitúa en los **11,47 EUR**, operando significativamente por debajo de sus medias móviles clave:
-*   **SMA 20:** 11,74 EUR
-*   **SMA 50:** 12,40 EUR
-*   **SMA 200:** 13,94 EUR
+### Análisis de Situación
+`MRL.MC` muestra un comportamiento técnico consolidativo tras una corrección significativa. Con un precio de cierre de **11,78 EUR**, la acción cotiza por debajo de su media móvil de 50 sesiones (12,06 EUR) y significativamente por debajo de la de 200 sesiones (13,91 EUR), lo que confirma una tendencia bajista a largo plazo.
 
-La posición de la cotización por debajo de estas medias (especialmente la de 200 días) indica una **tendencia bajista a largo plazo consolidada**. El indicador RSI (14) en **39,20** se encuentra en zona de debilidad, acercándose a niveles de sobreventa pero sin alcanzarlos aún, lo que sugiere que la presión vendedora sigue vigente. El MACD (-0,29) está por debajo de su línea de señal (-0,33), pero con un histograma que podría indicar una leve mitigación del impulso bajista, aunque el cruce sigue siendo negativo. Con un *drawdown* del **-27,17%**, el valor muestra una debilidad relativa significativa en comparación con el mercado (-16,17 pp en los últimos 63 días).
+#### Indicadores Técnicos clave:
+*   **Momentum:** El RSI(14) en **49,91** indica una zona neutral, sin sobreventa ni sobrecompra excesiva. La lectura del MACD (-0,09) frente a su señal (-0,17) muestra una convergencia leve que sugiere una estabilización del momentum, aunque todavía bajo presión.
+*   **Tendencia:** El precio se encuentra operando cerca de la SMA20 (11,56 EUR), lo que podría actuar como soporte técnico inmediato. La volatilidad (26,22%) refleja un entorno de mercado cauto.
+*   **Valoración:** La acción cotiza a un ratio Precio/Valor Contable de **0,78**, sugiriendo un descuento sobre el valor de sus activos inmobiliarios, común en el sector REIT cuando los tipos de interés se mantienen elevados. El ratio P/E (trailing) de 8,01 parece bajo, pero el P/E forward de 20,99 indica una expectativa de menores beneficios futuros según el consenso.
 
-### Análisis Fundamental y Contexto
-Merlin Properties cotiza con un **Price-to-Book (P/B) de 0,76**, lo que sugiere que el mercado valora la empresa por debajo de su valor contable (14,99 EUR), una característica común en entornos de tipos de interés restrictivos para el sector REIT.
+### Contexto Fundamental y Noticias
+El mercado observa con cautela el sector ante la persistente inflación en España (cercana al 5% según datos de noviembre de 2026) y la política monetaria del BCE. Las noticias recientes destacan resultados positivos en ocupación (cerca del 95%) y crecimiento en centros de datos, lo cual es un factor diferenciador clave para `MRL.MC` frente a los REITs puramente de oficinas.
 
-El punto de inflexión fundamental radica en la transición de su modelo de negocio. Según *Estrategias de Inversión* (01/11/2026), la compañía proyecta que los **Data Centers** representen el 65% de sus ingresos para 2032. No obstante, existe incertidumbre: *Bankinter* (30/10/2026) reporta dudas sobre esta estrategia de centros de datos, lo que añade una prima de riesgo a la valoración.
+*   **Puntos Fuertes:** Crecimiento de ingresos del 14,6% y de beneficios del 16,6% (periodo 2025). Sólida posición de caja (1,56 mil millones EUR).
+*   **Puntos Débiles:** Elevada deuda total (5,18 mil millones EUR) en un entorno de tipos de interés que siguen siendo tema de debate por parte de los "halcones" del BCE.
 
-A pesar de una mejora en el flujo de caja operativo (415,6M EUR en 2025 vs 316,8M EUR en 2024), la deuda total asciende a 5.062M EUR. La valoración actual de 7.102M EUR de capitalización bursátil implica que el mercado está descontando con escepticismo tanto la capacidad de refinanciación como el éxito de la diversificación hacia centros de datos en el contexto de tipos del BCE (mantenidos en el 2,5% según datos de octubre de 2026).
+### Conclusión y Estrategia
+El consenso de los analistas apunta a un precio objetivo medio de **17,01 EUR**, lo que sugiere un potencial de revalorización teórico del **44,4%**. Sin embargo, la brecha entre el precio actual y el objetivo refleja una incertidumbre significativa sobre la valoración de activos inmobiliarios comerciales. 
 
-### Evidencia a favor y en contra
-*   **A favor:** La valoración por debajo del valor contable (P/B 0,76) ofrece un margen de seguridad si la estrategia de centros de datos tiene éxito. La liquidez de caja (1.563M EUR) es robusta.
-*   **En contra:** Tendencia bajista clara (precio bajo todas las medias móviles), incertidumbre analítica sobre la apuesta por los centros de datos, y un sector financiero/inmobiliario bajo presión macroeconómica tras las recientes reuniones del BCE.
+**Missing Data:** No se dispone del *net_debt_ebitda* consolidado, lo cual es vital para evaluar el apalancamiento real frente a los ingresos operativos en un entorno de tipos altos.
 
-### Datos faltantes
-No se dispone del ratio *Net Debt/EBITDA* calculado de forma estandarizada en el reporte, y la comparativa sectorial específica de valoración está marcada como "no disponible".
-
-| Indicador | Valor / Estado | Interpretación |
+| Indicador | Valor Actual | Interpretación |
 | :--- | :--- | :--- |
-| Precio Actual | 11,47 EUR | Bajista (bajo todas las SMA) |
-| RSI (14) | 39,20 | Debilidad, tendencia bajista |
-| P/B Ratio | 0,76 | Infravaloración contable |
-| Dividend Yield | 1,88% | Rendimiento modesto para el sector |
-| Tendencia (63 días) | -23,02% | Rendimiento inferior al mercado |
-| Sentimiento | Incertidumbre | Dudas sobre estrategia de Data Centers |
+| Precio Cierre | 11,78 EUR | Bajista (bajo SMA200) |
+| RSI (14) | 49,91 | Neutral |
+| Dividend Yield | 1,87% | Bajo |
+| P/B Ratio | 0,78 | Infravalorado vs Valor Contable |
+| Consenso Upside | 44,43% | Optimista |
 
 **Rating**: HOLD
 
-FINAL TRANSACTION PROPOSAL: Mantener posiciones actuales a la espera de una estabilización por encima de la SMA 20 (11,74 EUR) o una confirmación de soporte en los mínimos recientes. La estrategia de largo plazo depende enteramente de la ejecución del plan de Data Centers; cualquier cambio en el flujo de caja hacia este segmento será el catalizador principal de una revalorización.
+FINAL TRANSACTION PROPOSAL: Mantener posiciones actuales. El descuento sobre el valor contable y la fortaleza en centros de datos sugieren valor, pero la tendencia bajista técnica aconseja esperar un cierre sostenido sobre la SMA50 (12,06 EUR) antes de considerar aumentar exposición.
+
+*Nota: Este análisis no constituye una recomendación de inversión. Los datos financieros y de mercado están sujetos a cambios y deben verificarse con fuentes primarias.*

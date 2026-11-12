@@ -1,44 +1,37 @@
-**Rating**: REVIEW
+### Informe de Análisis: Mapfre, S.A. (MAP.MC)
 
-**FINAL TRANSACTION PROPOSAL:** HOLD
+**Resumen Ejecutivo**
+Mapfre (MAP.MC) muestra un desempeño sólido respaldado por fundamentales resilientes y una reciente mejora en su calificación crediticia. La compañía opera en un entorno macroeconómico europeo caracterizado por una inflación persistente en España y una política monetaria del BCE que mantiene la presión sobre los tipos de interés.
 
-### Informe de Análisis y Estado Actual para MAP.MC (Mapfre, S.A.)
+#### 1. Análisis Fundamental y Valoración
+*   **Valoración:** Con un PE (Price-to-Earnings) *trailing* de 11.3 y un *forward* PE de 10.12, Mapfre cotiza a niveles moderados. Su ratio Precio/Valor Contable (P/B) de 1.40 sugiere una valoración coherente con su industria.
+*   **Rentabilidad:** Presenta un ROE saludable del 18.38%. El dividendo, con una rentabilidad (yield) del 4.24%, sigue siendo un atractivo clave para los inversores.
+*   **Crecimiento:** Los ingresos han mostrado una tendencia alcista constante desde 2023 (25.6B EUR) a 2025 (26.3B EUR), y el beneficio neto ha repuntado significativamente a 1.13B EUR en 2025.
+*   **Balance:** La deuda total se mantiene en niveles manejables frente a unos activos totales de 58.5B EUR.
 
-#### 1. Resumen Ejecutivo y Datos de Mercado
-* **Instrumento:** `MAP.MC` (Mapfre, S.A., MCE, Sector: Financial Services / Insurance - Diversified).
-* **Precio de Cierre (30/10/2026):** `3,988 EUR`
-* **Capitalización de Mercado:** `12.240.450.560 EUR`
-* **Valor en Bolsa y Tendencia:** El valor cotiza en 3,988 EUR, situándose por debajo de sus medias móviles clave (SMA20 de 4,278 EUR y SMA50 de 4,351 EUR), reflejando un movimiento correctivo reciente. Presenta un RSI de 14 de 29,45 (condición cercana a sobreventa) y un MACD negativo (-0.0537), con un rendimiento a 63 sesiones de -9,40%.
+#### 2. Análisis Técnico
+*   **Tendencia:** MAP.MC cotiza a 4.29 EUR, situándose ligeramente por encima de su media móvil de 20 días (4.24 EUR) y de 200 días (4.13 EUR), aunque ligeramente por debajo de la media de 50 días (4.30 EUR).
+*   **Momento:** El RSI de 53.58 indica una zona neutral, sin sobrecompra ni sobreventa. El cruce del MACD por encima de su señal sugiere una mejora en el impulso alcista reciente.
+*   **Volatilidad:** Registra una volatilidad del 22.66%, lo cual es estándar para el sector asegurador.
 
-#### 2. Análisis Fundamental y Financiero
-* **Resultados Financieros (Cierre 2025):** Mapfre registró unos ingresos totales de `26.355.100.000 EUR` y un beneficio neto de `1.132.600.000 EUR`, mejorando respecto a los `967.500.000 EUR` de 2024 y `677.200.000 EUR` de 2023.
-* **Múltiplos de Valoración:** 
-  * PER Histórico (*Trailing P/E*): `10.49x`
-  * PER Adelantado (*Forward P/E*): `9.40x`
-  * Precio sobre Valor en Libros (*Price-to-Book*): `1.30x` (con un *Book Value* por acción de `3,077 EUR`).
-  * Rentabilidad por Dividendo (*Dividend Yield*): `4,51%` (con un dividendo de 0,18 EUR y *payout ratio* de 47,42%).
-* **Consenso de Analistas:** El precio objetivo medio (*Target Mean Price*) se sitúa en `4,33 EUR`, con un rango entre `3,80 EUR` y `5,00 EUR` basado en 10 opiniones de analistas, lo que representa un potencial alcista de consenso (*consensus upside*) del `8,58%`.
+#### 3. Contexto Macroeconómico y Noticias
+*   **Calificación:** La noticia más relevante para la entidad es la mejora de su calificación por parte de **Fitch, que elevó a Mapfre de A a A+** (12-11-2026), reflejando una mayor solidez financiera.
+*   **Entorno:** La macroeconomía española enfrenta una inflación persistente ("enquistada") cercana al 5%, lo que complica la labor del BCE. La incertidumbre sobre la política de tipos (halcones vs. palomas en el BCE) crea un entorno de volatilidad para las instituciones financieras, aunque el aumento de tipos suele beneficiar los márgenes de inversión de las aseguradoras.
 
-#### 3. Eventos Recientes y Noticias de Mercado (Octubre 2026)
-* **Presentación de Resultados a Septiembre de 2026:** A finales de octubre de 2026 (28-29 de octubre), Mapfre presentó sus cuentas a septiembre reportando un beneficio neto de 924,3 millones de euros y anunciando un dividendo a cuenta de `0,08 euros por acción` pagadero el 26 de noviembre de 2026.
-* **Reacción Bursátil:** A pesar de las cifras positivas y la mejora en la retribución al accionista, la acción experimentó descensos notables en bolsa (caídas del 3,74% al 3,92% en las jornadas posteriores a los resultados), lastrada también por un tono general bajista en el sector bancario y asegurador del Ibex 35 y europeo (según titulares de *Cinco Días*, *Yahoo* y *El Boletín* de finales de octubre de 2026).
-* **Contexto Macroeconómico:** El Banco Central Europeo (BCE) mantuvo los tipos de interés en el 2,5% a finales de octubre de 2026, manteniendo la cautela sobre las perspectivas de inflación de cara a su reunión de diciembre.
+#### 4. Evidencia y Limitaciones
+*   **Apoyo:** Mejora de *rating* de Fitch, crecimiento constante de ingresos y ratio de pago de dividendos (payout) razonable (~47%).
+*   **Contrario:** Riesgo de inflación prolongada en España que podría afectar al consumo y, por ende, a la demanda de ciertos productos aseguradores.
+*   **Faltantes:** No disponemos de datos desglosados de flujo de caja operativo actualizado para 2026 ni proyecciones detalladas de crecimiento de beneficios (Earnings Growth), lo que limita la precisión de las proyecciones a largo plazo.
 
-#### 4. Evidencia, Asunciones y Datos Faltantes
-* **Fuentes y Fechas:** Datos de precios e indicadores técnicos extraídos el `2026-11-01` (con cierre a `2026-10-30`). Noticias de los portales RSS recopiladas entre el `2026-10-28` y el `2026-10-30`.
-* **Datos Faltantes:** No se dispone del desglose completo de flujos de caja operativos actuales del ejercicio en curso para calcular métricas de flujo de caja libre interinas detalladas, ni un análisis sectorial comparativo automatizado (marcado como "Comparación sectorial no disponible"). 
-* **Supuestos:** Se mantiene la clasificación sectorial exacta de la compañía (Aseguradora Diversificada) evitando aplicar reglas de deuda industrial o múltiplos inadecuados.
+| Métrica | Valor |
+| :--- | :--- |
+| Precio Actual (12-11-2026) | 4.29 EUR |
+| Capitalización de Mercado | 13.18 B EUR |
+| Yield de Dividendo | 4.24% |
+| PE Forward | 10.12 |
+| Consenso Objetivo (Mean) | 4.33 EUR |
+| RSI (14 días) | 53.58 |
 
----
+**Rating**: Neutral / Positive (Watch for breakouts above 4.35 EUR)
 
-### Resumen Estructurado (Tabla Clave)
-
-| Concepto | Valor / Detalle | Fuente / Referencia Temporal |
-| :--- | :--- | :--- |
-| **Ticker y Mercado** | `MAP.MC` (MCE, EUR) | Contexto Preload (2026-11-01) |
-| **Precio de Cierre** | 3,9879 EUR | 2026-10-30 |
-| **Rentabilidad por Dividendo** | ~4,51% (Dividendo a cuenta de 0,08€) | 2026-10-28 / Fundamentos |
-| **PER Adelantado (Forward PE)** | 9,40x | Fundamentos |
-| **Precio Objetivo de Consenso** | 4,33 EUR (Upside: ~8,58%) | 10 opiniones de analistas |
-| **Contexto Macro / Tipos BCE** | Tipos mantenidos en el 2,5% (BCE, oct 2026) | Titulares macro (2026-10-29 / 30) |
-| **Valoración / Recomendación** | **REVIEW / HOLD** | Análisis interno sobre evidencia disponible |
+FINAL TRANSACTION PROPOSAL: No trade execution suggested; maintain current position if held for yield, monitor for resistance at 4.35 EUR and potential support at 4.10 EUR.

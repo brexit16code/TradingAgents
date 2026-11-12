@@ -1,47 +1,31 @@
-**Rating**: HOLD  
-FINAL TRANSACTION PROPOSAL: Mantener posición / Esperar confirmación de ruptura de soporte y tendencia a medio plazo.
+El análisis de **Sacyr, S.A. (SCYR.MC)** se presenta en un momento técnico complejo, caracterizado por una divergencia entre su tendencia a corto plazo y su estructura a largo plazo. A continuación, presento el desglose detallado basado en la información financiera y técnica disponible al 12 de noviembre de 2026.
 
----
+### Análisis Técnico y Fundamental
+*   **Tendencia:** El precio de cierre actual (4,25 EUR) se encuentra por encima de sus medias móviles de 20 (4,08 EUR) y 50 días (4,07 EUR), lo que sugiere un sesgo positivo en el corto plazo. Sin embargo, se mantiene por debajo de la media de 200 días (4,36 EUR), indicando que, a pesar de la recuperación reciente, la tendencia estructural a largo plazo sigue siendo bajista o de consolidación.
+*   **Momentum:** El indicador RSI (14) en 62,85 se acerca a la zona de sobrecompra, indicando una fortaleza compradora sostenida pero sin llegar a niveles de agotamiento extremo. El MACD (0,0436) se mantiene por encima de su señal (0,0164), reforzando la tendencia alcista inmediata.
+*   **Valoración:** La compañía presenta un PER forward de 18,10 frente a un PER histórico más elevado. Con una capitalización bursátil de ~3.380 millones de EUR y una rentabilidad por dividendo del 4,7%, resulta atractiva para perfiles que busquen ingresos, aunque debe observarse con cautela debido a su elevada ratio de deuda neta/EBITDA de 5,41.
 
-### Informe Técnico y Fundamental de Sacyr, S.A. (`SCYR.MC`)
+### Factores a Considerar
+1.  **Contexto Macroeconómico:** El mercado español se enfrenta a un entorno de inflación enquistada (cercana al 5%) y expectativas de subidas de tipos por parte del BCE (según fuentes como *Finanzas.com* y *El Español*). Esto presiona los costes de financiación para empresas intensivas en capital como Sacyr.
+2.  **Rendimiento:** SCYR.MC ha tenido un retorno a 21 días del 8,97%, mostrando una fuerte recuperación reciente, lo cual coincide con la noticia de su papel protagonista en el impulso del Ibex 35 (*Estrategias de Inversión*, 09/11/2026).
+3.  **Riesgos:** La estructura financiera es el punto crítico. La brecha entre el valor en libros (1,338 EUR) y el precio actual (4,25 EUR) sugiere que el mercado otorga una prima significativa sobre los activos tangibles, posiblemente vinculada a la rentabilidad de las concesiones a largo plazo.
 
-A continuación se presenta un análisis detallado y matizado de la evolución bursátil, los indicadores técnicos clave, los fundamentales financieros y el contexto de mercado para **Sacyr, S.A. (`SCYR.MC`)**, cotizada en el mercado continuo español (Bolsa de Madrid, MCE) e integrada en el selectivo ^IBEX.
-
-#### 1. Análisis Técnico y Dinámica de Precios
-Según la instantánea de mercado verificada al cierre del **30 de octubre de 2026**, las acciones de `SCYR.MC` cotizan a **4,0500 EUR**, lo que representa una caída del **1,03%** en la sesión. El análisis técnico revela una situación de consolidación con sesgo de presión bajista a medio plazo:
-* **Medias Móviles:** El precio actual (4,05 EUR) se sitúa ligeramente por encima de su media móvil de 20 sesiones (`sma20` en 3,99 EUR), lo que muestra un ligero soporte a corto plazo, pero permanece por debajo de la media móvil de 50 sesiones (`sma50` en 4,10 EUR) y de la de 200 sesiones (`sma200` en 4,35 EUR). Esto confirma que la tendencia de fondo a medio y largo plazo sigue enfrentando resistencia superior.
-* **Momentum y Osciladores:** El **RSI (14)** se encuentra en un nivel neutral de **51,14**, indicando ausencia de condiciones extremas de sobrecompra o sobreventa. Por su parte, el **MACD** registra un valor de `-0,0128` frente a su línea de señal (`macds` en `-0,0351`), mostrando una ligera convergencia positiva a muy corto plazo que concuerda con el rendimiento positivo a 21 días (`return21_pct` de +4,22%). No obstante, el rendimiento a 63 sesiones arroja una corrección del **-14,09%**, evidenciando debilidad en el trimestre anterior.
-* **Volatilidad y Drawdown:** La volatilidad anualizada de 14 periodos se sitúa en el **19,96%**, mientras que el retroceso desde máximos (`drawdown_pct`) alcanza el **-17,75%**, reflejando una corrección moderada pero controlada dentro de su rango histórico reciente.
-
-#### 2. Fundamentales y Valoración Financiera
-Los datos fundamentales extraídos de los estados financieros de la compañía reflejan un perfil de concesiones e infraestructuras sólido con flujos de caja recurrentes:
-* **Capitalización y Valoración:** Sacyr cuenta con una capitalización bursátil de aproximadamente **3.220 millones de EUR**. Su ratio *Trailing P/E* se sitúa en **23,82x**, mientras que el *Forward P/E* estimado desciende a **17,25x**, apoyado en una previsión de beneficio por acción (*forward EPS*) de 0,23 EUR. El ratio Precio/Valor en Libros (*priceToBook*) es de **3,13x**.
-* **Endeudamiento y Caja:** La compañía presenta una deuda total de unos 9.240 millones de EUR (frente a 9.350 millones al cierre fiscal de 2025) y una posición de caja total de 2.346 millones de EUR. El indicador de apalancamiento neto sobre EBITDA (*net_debt_ebitda*) se sitúa en **5,31x**, un nivel típico en empresas concesionales intensivas en capital.
-* **Rentabilidad por Dividendo:** Uno de los atractivos principales para el inversor es su retribución al accionista, con una **rentabilidad por dividendo (*dividend yield*) del 4,94%** (dividendo anual de 0,20 EUR por acción) y un *payout ratio* del 87,65%.
-* **Consenso de Analistas:** El precio objetivo medio de consenso recopilado se sitúa en **5,33 EUR** (con un rango entre un mínimo de 4,80 EUR y un máximo de 5,75 EUR, abarcando las opiniones de 10 analistas). Esto implica un potencial de revalorización estimado (*consensus_upside_pct*) superior al **31,58%** desde el nivel actual de 4,05 EUR. Cabe destacar recientes revisiones positivas como la de Oddo BHF (mencionada en los boletines de octubre de 2026), que respaldan un potencial alcista cercano al 26-31%.
-
-#### 3. Contexto de Mercado y Noticias Recientes
-* **Resultados y Negocio:** Sacyr mantiene un ritmo de crecimiento operativo positivo. En su avance para los primeros nueve meses de 2026 (`9M26`), reportado a finales de octubre, destaca un crecimiento de doble dígito en beneficio y caja operativa, impulsado por el desarrollo de su división de concesiones de infraestructuras.
-* **Sostenibilidad:** A finales de octubre de 2026, Sacyr mejoró su posicionamiento en los índices globales de sostenibilidad de S&P Global y MSCI ESG, reforzando su atractivo para inversores institucionales con criterios ASG.
-* **Entorno Macroeconómico:** El mercado europeo y español (`^IBEX`) se ha visto condicionado recientemente por la pausa en los tipos de interés del Banco Central Europeo (BCE) en el 2,50% anunciada a finales de octubre de 2026, generando un comportamiento mixto en bolsa y cierta volatilidad en el sector industrial y financiero.
-
-#### 4. Indicadores Seleccionados para el Seguimiento Técnico
-De acuerdo con la metodología de selección de indicadores complementarios y libres de redundancia, los 8 instrumentos clave recomendados para vigilar la evolución de `SCYR.MC` son:
-1. `close_50_sma` (Media Móvil de 50 sesiones): Para evaluar la tendencia a medio plazo y actuar como resistencia dinámica.
-2. `close_200_sma` (Media Móvil de 200 sesiones): Como referencia estructural del sesgo a largo plazo.
-3. `close_10_ema` (Media Exponencial de 10 sesiones): Para capturar giros rápidos de precio a corto plazo.
-4. `macd` (Línea MACD): Para medir el momento tendencial mediante la diferencia de medias exponenciales.
-5. `macds` (Señal MACD): Para identificar cruces y confirmar puntos de entrada o salida.
-6. `rsi` (Índice de Fuerza Relativa): Para vigilar condiciones de sobrecompra o sobreventa y posibles divergencias.
-7. `atr` (Rango Verdadero Promedio): Como medida objetiva de la volatilidad para dimensionar riesgos y stops.
-8. `boll_ub` / `boll_lb` (Bandas de Bollinger Superior e Inferior): Para identificar zonas de ruptura de volatilidad y sobreextensión de precios.
-
----
-
-### Resumen de Datos Clave (Tabla Estructurada)
-
-| Métrica / Indicador | Valor Actual / Referencia | Comentario Técnico / Fundamental |
+### Resumen de Indicadores
+| Indicador | Valor / Estado | Interpretación |
 | :--- | :--- | :--- |
-| **Ticker** | `SCYR.MC` (MCE) | Sacyr, S.A. (Sectores: Industrials / Engineering & Construction) |
-| **Precio de Cierre** | 4,0500 EUR (30/10/2026) | Cotización actual sujeta al rango de consolidación a corto plazo. |
-| **SMA 20 / SMA 50 / SMA 200** | 3,99 EUR / 4,10 EUR / 4,35 EUR | Precio por encima de SMA20 pero bajo SMA50 y SMA20
+| **Precio Actual** | 4,25 EUR | Por encima de SMA20 y SMA50 |
+| **SMA200** | 4,36 EUR | Resistencia técnica clave a largo plazo |
+| **RSI14** | 62,85 | Tendencia positiva, espacio previo a sobrecompra |
+| **MACD** | 0,0436 > 0,0164 | Momentum alcista positivo |
+| **Net Debt/EBITDA** | 5,41 | Nivel de apalancamiento elevado |
+| **Dividend Yield** | 4,71% | Atractivo para inversores por valor |
+
+### Conclusión y Recomendación
+El valor está mostrando fortaleza tras recuperar el soporte de las medias de 20 y 50 sesiones. La superación de los 4,36 EUR (SMA200) sería una señal de confirmación técnica para una tendencia más robusta. Dada la alta carga de deuda, se recomienda vigilar estrictamente las noticias sobre políticas de tipos de interés, ya que un endurecimiento adicional del BCE podría afectar negativamente a su coste de capital y, por ende, a su valoración.
+
+**Rating**: HOLD
+FINAL TRANSACTION PROPOSAL: No realizar nuevas compras hasta que el precio cierre de forma consolidada por encima de la media de 200 días (4,36 EUR) para confirmar el cambio de tendencia a largo plazo.
+
+***
+
+*Descargo de responsabilidad: Este análisis utiliza datos proporcionados en la sesión del 12/11/2026. No constituye asesoramiento financiero. La falta de datos sobre el flujo de caja operativo (operating cash flow) impide realizar un análisis completo de la capacidad de desapalancamiento real mediante métricas de flujo libre de caja.*

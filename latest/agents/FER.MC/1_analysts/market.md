@@ -1,47 +1,34 @@
-**Rating**: REVIEW
+Análisis detallado de **FER.MC** (Ferrovial) a fecha de 12 de noviembre de 2026.
 
-FINAL TRANSACTION PROPOSAL:
-- Action: HOLD / NEUTRAL
-- Target Horizon: Short- to Medium-Term (3 to 6 months)
-- Risk Level: Medium-High
+### Análisis Técnico
+El comportamiento de **FER.MC** muestra una clara tendencia alcista de corto plazo, evidenciada por un RSI(14) en **81.39**, lo que técnicamente sitúa al valor en terreno de **sobrecompra**. El precio actual de 55.40 EUR se encuentra por encima de sus medias móviles de 50 sesiones (47.44) y 200 sesiones (54.28), lo que confirma una estructura de mercado alcista.
 
-### Análisis Técnico y de Mercado para FER.MC (Ferrovial N.V.)
+El MACD (2.30) se sitúa por encima de su señal (1.48), validando el impulso positivo, aunque la velocidad del avance reciente (retorno a 21 días del 24.65%) sugiere una aceleración que suele preceder a periodos de consolidación o corrección técnica, dado que el valor ha superado su media de 200 días.
 
-Tomando como referencia los datos y el snapshot verificado al cierre de sesión del **30 de octubre de 2026**, la acción **FER.MC** cotiza a un precio de **50.70 EUR**, reflejando una ligera corrección diaria del **-0.24%** (-0.236%) con respecto a sesiones anteriores. A continuación, se presenta un desglose detallado y matizado de su comportamiento técnico, fundamental y contextual.
+### Fundamentos y Valoración
+Ferrovial presenta un perfil complejo:
+*   **Valoración:** Con un PER adelantado de 48.01 frente a una mediana del sector de 18.09, la acción cotiza con una prima significativa (ratio 2.65x). Esto indica que el mercado está descontando expectativas de crecimiento futuro muy optimistas.
+*   **Deuda y Solvencia:** El ratio de *net debt/EBITDA* de 4.38 sugiere un apalancamiento que requiere vigilancia, especialmente en un contexto de tipos de interés que, según los titulares macroeconómicos (ej. Investing.com, 2026-11-06), enfrentan presiones al alza por parte del BCE.
+*   **Dividendos:** Ofrece una rentabilidad por dividendo del 3.52%, lo cual es atractivo en el sector industrial, aunque su *payout ratio* del 71.2% limita el margen de maniobra para incrementos significativos a corto plazo.
 
-#### 1. Contexto Técnico y de Indicadores
-El activo se encuentra en una fase de recuperación a corto plazo, apoyado por una reciente racha alcista de 21 días que arroja una rentabilidad del **+9.01%** (*return21_pct*). Sin embargo, la perspectiva a mediano plazo mantiene una mayor cautela, evidenciada por una rentabilidad a 63 sesiones de **-12.04%** y un rendimiento a 12 meses de **-5.80%**.
-- **Medias Móviles**: El precio actual (50.70 EUR) se sitúa por encima de su media móvil de 20 sesiones (**SMA20** en **45.69 EUR**) y de su media de 50 sesiones (**SMA50** en **47.75 EUR**), lo que denota un impulso favorable en el corto plazo. No obstante, continúa por debajo de su media de largo plazo de 200 sesiones (**SMA200** en **55.29 EUR**), marcando que la tendencia principal a largo plazo sigue bajo presión y se encuentra a una distancia considerable de sus máximos recientes (registrando un *drawdown* del **-18.95%**).
-- **Osciladores de Momento**: El **RSI (14)** se ubica en **68.01**, bordeando la zona de sobrecompra (70), lo que sugiere que la presión compradora ha sido intensa en las últimas semanas, pero advierte sobre un posible agotamiento alcista inminente. Por su parte, el **MACD** registra un valor de **0.34**, situándose por encima de su línea de señal (**-0.61**), validando el cruce alcista reciente, aunque el histograma y la volatilidad anualizada del **29.28%** exigen prudencia ante posibles giros bruscos.
+### Contexto Macroeconómico
+Los datos sugieren un entorno de inflación persistente en España cercana al 5% (Finanzas.com, 2026-11-08) y una política monetaria restrictiva por parte del BCE. Estas condiciones suelen presionar los márgenes de las empresas de infraestructuras debido a los costes de capital asociados al servicio de la deuda (10.65 mil millones de EUR en deuda total).
 
-#### 2. Fundamentos Financieros y Valoración
-Desde el punto de vista fundamental, Ferrovial muestra métricas de valoración exigentes:
-- **Capitalización de Mercado**: ~36.44 mil millones de EUR.
-- **Múltiplos de Valoración**: Presenta un *trailing P/E* de **32.5x** y un *forward P/E* estimado en **44.13x**, con un *Price to Book* de **6.39x**. El ratio sectorial comparativo con respecto a sus homólogos (*peer median forward PE* de 17.25) indica que cotiza con una prima considerable (*ratio* de **2.56**).
-- **Deuda y Apalancamiento**: Registra una deuda total de **10.66 mil millones de EUR** (frente a un efectivo de **3.86 mil millones de EUR**), situando su ratio de *Net Debt / EBITDA* en **4.39x**, un nivel elevado que requiere monitorización constante de la generación de caja.
-- **Flujo de Caja y Dividendos**: La compañía demuestra robustez operativa con un flujo de caja libre (*free cash flow*) reportado de **889.6 millones de EUR** (o cifras superiores en el ejercicio fiscal cerrado a 2025 de hasta 1.74 mil millones de EUR según flujos de efectivo operativos). Ofrece una rentabilidad por dividendo (*dividend yield*) del **2.19%** (dividendo anual de 1.11 EUR), destacando anuncios recientes de retribución a los accionistas (como el reparto de 600 millones en diciembre).
-- **Consenso de Analistas**: El precio objetivo medio de los analistas se sitúa en **60.10 EUR** (con un rango entre un mínimo de 48.50 EUR y un máximo de 80.00 EUR a partir de 20 opiniones), lo que representa un potencial de revalorización (*consensus upside*) del **18.55%** frente al precio actual de 50.70 EUR.
+### Resumen de hallazgos
+*   **Fortalezas:** Sólido impulso alcista, rentabilidad por dividendo estable y posición de liderazgo en el sector.
+*   **Riesgos:** Sobrecompra técnica (RSI > 80), valoración muy exigente (PER forward 48x) y entorno macroeconómico de tipos altos que penaliza la estructura de deuda.
 
-#### 3. Noticias y Catalizadores Recientes (Octubre de 2026)
-La actualidad bursátil de FER.MC ha estado marcada por hitos operativos y financieros relevantes reportados a finales de octubre de 2026:
-- **Resultados de los primeros 9 meses de 2026**: La compañía publicó sólidos resultados trimestrales el 27 de octubre de 2026, destacando unos ingresos de **7.402 millones de EUR (+10.8%)** impulsados fundamentalmente por el negocio de autopistas (*Bolsamania*, 27 de octubre de 2026). 
-- **Financiación de la I-24**: Las acciones repuntaron con fuerza (+8.4% el 27 de octubre y hasta un 15% acumulado en 5 sesiones según *Expansión*) tras disipar las dudas del mercado en torno a la estructura de financiación del proyecto de autopistas I-24 (*Expansión*, 27 de octubre de 2026 y 29 de octubre de 2026).
-- **Señales de fatiga en autopistas**: A pesar de los sólidos ingresos, informes sectoriales y análisis especializados advierten de ciertas señales de fatiga en el tráfico de algunas de sus principales autopistas, un factor de riesgo fundamental a vigilar de cerca (*Finanzas.com*, 29 de octubre de 2026).
+**Missing Data:** No se dispone de desglose pormenorizado de los contratos de concesión específicos para el ejercicio 2027, lo cual es crítico para validar si el flujo de caja operativo (2.48 mil millones de EUR) será suficiente para cubrir la intensidad de capital necesaria sin incrementar la deuda.
 
-#### 4. Datos Faltantes y Limitaciones
-- No se dispone de un desglose detallado por segmentos de cada autopista en tiempo real para evaluar el impacto exacto en el EBITDA futuro de cada activo concesional.
-- Las estimaciones de beneficios futuros (*forward EPS* de 1.15 EUR) muestran una contracción interanual frente al beneficio por acción histórico, lo que explica el elevado PER adelantado y justifica la recomendación de revisión (*REVIEW*).
-
----
-
-### Resumen en Tabla Clave
-
-| Categoría / Métrica | Valor / Dato | Interpretación / Implicación |
+| Indicador | Valor | Interpretación |
 | :--- | :--- | :--- |
-| **Ticker y Cotización** | FER.MC / 50.70 EUR | Precio de cierre al 30 de octubre de 2026. |
-| **Tendencia Corto Plazo** | SMA20 (45.69) / SMA50 (47.75) | Soporte dinámico alcista superado; impulso reciente positivo. |
-| **Tendencia Largo Plazo** | SMA200 (55.29) / Drawdown (-18.95%) | La tendencia de fondo sigue bajista a pesar del rebote. |
-| **Momento (RSI / MACD)** | RSI: 68.01 / MACD: 0.34 | Cercano a sobrecompra; cruce de MACD alcista pero con volatilidad (29.28%). |
-| **Valoración (P/E)** | Trailing P/E: 32.5x / Forward P/E: 44.1x | Múltiplos elevados y con prima sectorial significativa. |
-| **Apalancamiento** | Net Debt / EBITDA: 4.39x | Nivel de endeudamiento a vigilar en entornos de tipos restrictivos. |
-| **Consenso de Mercado** | Target
+| Precio Actual | 55.40 EUR | Tendencia alcista |
+| RSI (14) | 81.40 | Sobrecompra (Atención) |
+| SMA 200 | 54.29 | Soporte clave a largo plazo |
+| PER Forward | 48.01 | Valoración premium |
+| Dividend Yield | 3.52% | Atractivo |
+| Net Debt/EBITDA | 4.38 | Apalancamiento moderado-alto |
+
+**Rating**: Neutral
+
+FINAL TRANSACTION PROPOSAL: Mantener posiciones existentes; evitar compras en los niveles actuales debido al estado de sobrecompra técnica y la valoración excesiva. Se recomienda esperar una corrección hacia la media de 50 días (47.44 EUR) para evaluar puntos de entrada más seguros.

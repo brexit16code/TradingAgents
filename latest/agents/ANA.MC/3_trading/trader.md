@@ -1,11 +1,11 @@
-**Action**: Sell
+**Action**: Hold
 
-**Reasoning**: La estructura técnica de ANA.MC es bajista, con el precio cotizando por debajo de sus medias móviles clave de 20, 50 y 200 días, lo que confirma una tendencia de presión vendedora. Fundamentalmente, el alto apalancamiento (Net Debt/EBITDA de 6.14x) combinado con márgenes de beneficio neto extremadamente estrechos (1.64%) aumenta significativamente el riesgo en un entorno donde los tipos de interés se mantienen restrictivos. La falta de señales de reversión en el RSI y el cruce bajista del MACD sugieren que es probable una continuación de la debilidad.
+**Reasoning**: El valor presenta una estructura financiera tensionada con una deuda neta sobre EBITDA de 6,14x en un entorno de tipos de interés al alza, lo cual limita su margen de maniobra. Aunque técnicamente muestra un impulso de recuperación, el precio actual se encuentra ligeramente por encima del precio objetivo del consenso y enfrenta una resistencia técnica significativa en su media móvil de 200 sesiones (224,52 EUR). Mantener es la decisión más prudente ante la falta de flujo de caja libre positivo y la prima de valoración respecto a sus pares.
 
-**Entry Price**: 203.6
+**Entry Price**: not provided
 
-**Stop Loss**: 222.76
+**Stop Loss**: not provided
 
-**Position Sizing**: Reducción de la exposición actual; si se iniciara una posición corta, no exceder el 2% del capital de riesgo.
+**Position Sizing**: not provided
 
-FINAL TRANSACTION PROPOSAL: **SELL**
+FINAL TRANSACTION PROPOSAL: **HOLD**

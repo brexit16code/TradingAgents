@@ -1,42 +1,29 @@
+Análisis detallado de **ENG.MC** (Enagás, S.A.) a fecha de 12 de noviembre de 2026.
+
+### Panorama Fundamental y Técnico
+Enagás presenta un escenario complejo donde la solidez de sus ratios de rentabilidad choca con una presión bajista significativa y una valoración de mercado que parece tensionada.
+
+*   **Tendencia y Momentum:** El precio de cierre (18,17 EUR) se sitúa por encima de sus medias móviles de 20, 50 y 200 días (17,59, 16,97 y 16,30 EUR respectivamente), lo que técnicamente confirma una tendencia alcista a largo plazo. Sin embargo, el RSI(14) en 75,56 sugiere una condición de **sobrecompra**, lo cual suele preceder a periodos de consolidación o correcciones tácticas.
+*   **Presión Bajista:** Diversas fuentes (Estrategias de Inversión, CapitalMadrid, El Boletín) coinciden entre el 7 y el 10 de noviembre de 2026 en que Enagás es uno de los valores del Ibex 35 con mayor presión de posiciones cortas. Esto contrasta con la ratificación del rating 'BBB+' por S&P (6 de noviembre), lo que sugiere que, mientras el mercado financiero reconoce la solvencia de la compañía, los inversores institucionales mantienen una postura cautelosa.
+*   **Valoración:** Con un Forward PE de 16,11 y una rentabilidad por dividendo atractiva (~5,58%), la acción ofrece un perfil defensivo clásico. Sin embargo, el ratio *Net Debt/EBITDA* de 6,15 es elevado, un punto crítico para una utility regulada en un contexto donde el BCE mantiene una política monetaria restrictiva (referencia: Moncloa.com, 5 de noviembre).
+*   **Desempeño Financiero:** La empresa muestra una recuperación en el flujo de caja operativo (212,5M EUR en 2025 vs 454,9M EUR en 2024), pero sigue arrastrando un crecimiento de ingresos negativo (-9,1%). La falta de crecimiento en los ingresos es un factor de riesgo para justificar múltiplos de valoración más altos.
+
+### Consideraciones Estratégicas
+La discrepancia entre el precio actual (18,17 EUR) y el precio objetivo medio del consenso (17,15 EUR) implica una sobrevaloración según el mercado del -5,6%. Los inversores deben observar si la presión bajista mencionada en las noticias logra romper el soporte dinámico de la media de 20 días. La divergencia entre la solidez del rating crediticio y el posicionamiento bajista indica una falta de catalizadores positivos claros a corto plazo.
+
+### Tabla Resumen
+
+| Indicador / Métrica | Valor | Interpretación |
+| :--- | :--- | :--- |
+| Precio Actual | 18,17 EUR | Por encima de medias (20, 50, 200) |
+| RSI(14) | 75,56 | Zona de sobrecompra |
+| Dividend Yield | 5,58% | Atractivo, perfil defensivo |
+| Net Debt / EBITDA | 6,15 | Nivel de apalancamiento elevado |
+| Consenso Upside | -5,63% | Valoración estirada respecto a analistas |
+| Rating Crediticio | BBB+ (S&P) | Solvencia estable |
+
+**Nota sobre datos faltantes:** No se dispone de las estimaciones detalladas de "earnings growth" para periodos futuros, lo que limita la proyección de la sostenibilidad del dividendo a largo plazo.
+
 **Rating**: HOLD
-**FINAL TRANSACTION PROPOSAL**: Maintain current positioning; monitor the regulatory developments and interest rate path of the ECB ahead of year-end 2026.
 
----
-
-### Análisis Técnico y Fundamental de Enagás, S.A. (`ENG.MC`)
-
-#### 1. Contexto de Mercado y Datos Fundamentales
-A fecha de 1 de noviembre de 2026 (con cierre de sesión a 30 de octubre de 2026), Enagás, S.A. (`ENG.MC`) cotiza a **17,68 EUR**, mostrando un comportamiento alcista reciente respaldado por el soporte de las medias móviles. Su capitalización bursátil se sitúa en aproximadamente **4.600 millones de EUR**, con un PER histórico (trailing PE) de **13,0x** y un PER adelantado (forward PE) de **15,67x**. 
-
-El valor destaca por su atractiva rentabilidad por dividendo (*dividend yield*), que alcanza el **5,66%** con un dividendo por acción de **1,00 EUR** y un *payout ratio* cercano al **80%**. No obstante, presenta desafíos estructurales en su balance y cuenta de resultados:
-- **Ingresos y Beneficios:** Los ingresos totales del ejercicio 2025 se situaron en **960,4 millones de EUR**, con un beneficio neto de **339,11 millones de EUR** (recuperándose de la fuerte caída registrada en 2024 de -299,3 millones de EUR).
-- **Deuda y Apalancamiento:** La deuda neta sobre EBITDA se mantiene elevada, situada en **6,15x** (con una deuda total de aproximadamente 3.155 millones de EUR frente a un EBITDA de 425,7 millones de EUR según snapshot), lo que limita la flexibilidad financiera para grandes inversiones sin rotación de activos.
-- **Consenso de Analistas:** El precio objetivo medio de consenso se sitúa en **17,17 EUR** (con un rango entre 13,00 EUR y 19,80 EUR y 20 opiniones de analistas), lo que implica una ligera sobrevaloración a corto plazo frente al precio actual de 17,68 EUR (-2,88% de upside de consenso).
-
-#### 2. Indicadores Técnicos Seleccionados y Análisis de Tendencia
-De acuerdo con la metodología solicitada y empleando los datos técnicos verificados al 30 de octubre de 2026:
-- **RSI (14):** Se encuentra en **73,08**, lo que sitúa al valor en una zona de **sobrecompra técnica a corto plazo**. Esto sugiere prudencia ante posibles correcciones o fases de consolidación.
-- **MACD y MACD Signal:** El MACD (**0,287**) se mantiene por encima de su línea de señal (**0,205**), mostrando un histograma positivo (`macdh`) que confirma la inercia alcista de las últimas semanas.
-- **Medias Móviles (SMA 50 y SMA 200):** La cotización (17,68 EUR) se sitúa holgadamente por encima de su media móvil de 50 sesiones (**16,77 EUR**) y de la media móvil de 200 sesiones (**16,10 EUR**), confirmando una tendencia alcista primaria a medio y largo plazo.
-- **Bandas de Bollinger (bol, boll_ub, boll_lb):** Con un precio de cierre de 17,68 EUR y una SMA de 20 sesiones situada en **16,99 EUR**, el precio se desplaza cerca de la banda superior, reflejando fuerte presión compradora pero incrementando el riesgo de reversión a la media.
-- **Volatilidad y ATR:** La volatilidad porcentual anualizada se registra en **13,33%**, un nivel moderado propio de utilities reguladas, aunque el RSI elevado aconseja el uso de *stops* dinámicos basados en la volatilidad.
-
-#### 3. Evidencia Macroeconómica y Noticias Recientes
-El contexto macroeconómico reciente viene marcado por la decisión del Banco Central Europeo (BCE) de mantener los tipos de interés en el **2,5%** a finales de octubre de 2026, con expectativas de revisión en diciembre dependiendo de la evolución de la inflación en la Eurozona. Las noticias sobre la compañía destacan la evolución de su cotización en el Ibex 35 y el seguimiento por parte de inversores institucionales y grandes patrimonios (como Amancio Ortega), en un entorno donde las utilities reguladas compiten por el atractivo de su dividendo frente a la renta fija.
-
----
-
-### Resumen de Indicadores Clave
-
-| Categoría | Indicador | Valor / Estado | Implicación Práctica |
-| :--- | :--- | :--- | :--- |
-| **Tendencia** | `close_50_sma` | 16,77 EUR | Soporte dinámico de medio plazo superado; tendencia alcista activa. |
-| **Tendencia** | `close_200_sma` | 16,10 EUR | Referencia de largo plazo; confirma estructura alcista macro. |
-| **Momentum** | `rsi` | 73,08 | **Sobrecompra clara (>70)**; precaución ante posibles techos de corto plazo. |
-| **Momentum** | `macd` / `macds` | MACD: 0.287 / Signal: 0.205 | Cruce alcista vigente, aunque con menor pendiente marginal. |
-| **Volatilidad** | `boll` (SMA 20) | 16,99 EUR | Línea media de Bollinger; nivel de referencia para correcciones sanas. |
-| **Volatilidad** | `atr` / Volatilidad % | 13,34% | Volatilidad moderada, adecuada para dimensionar posiciones defensivas. |
-| **Fundamental** | `trailingPE` | 13,0x | Valoración intermedia en relación con el sector regulado. |
-| **Dividendo** | `dividendYield` | 5,66% | Atractivo rendimiento por dividendo, pilar fundamental de la tesis de inversión. |
-
-*Nota de datos faltantes:* No se dispone de estimaciones de crecimiento de beneficios a largo plazo detalladas más allá del consenso de analistas y los estados financieros auditados de cierre 2025. Se exhorta a revisar los próximos informes trimestrales de la compañía en relación con la evolución de su plan de descarbonización y la retribución de sus activos regulados.
+FINAL TRANSACTION PROPOSAL: Mantener posiciones existentes aprovechando la rentabilidad por dividendo, pero evitar nuevas compras mientras el RSI se mantenga en niveles de sobrecompra (>70) y persista la alta presión bajista institucional identificada en prensa.

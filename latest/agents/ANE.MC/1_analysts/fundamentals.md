@@ -1,79 +1,43 @@
-**Rating**: REVIEW
+### Informe Fundamental: Corporación Acciona Energías Renovables, S.A. (ANE.MC)
 
-**FINAL TRANSACTION PROPOSAL**: HOLD
+**Fecha del análisis:** 12 de noviembre de 2026
 
----
+#### 1. Perfil de la Compañía
+Corporación Acciona Energías Renovables, S.A. (`ANE.MC`) opera en el sector de servicios públicos (Utilities), específicamente en el segmento de energías renovables. La compañía se dedica al desarrollo, construcción y explotación de infraestructuras para la generación de energía limpia. Con sede en España, su desempeño está fuertemente correlacionado con el entorno regulatorio europeo y las políticas de tipos de interés del Banco Central Europeo (BCE).
 
-### **Informe Fundamental Exhaustivo: Corporación Acciona Energías Renovables, S.A. (`ANE.MC`)**
+#### 2. Análisis Financiero y Desempeño
+Basado en los estados financieros cerrados al 31 de diciembre de 2025:
 
-Fecha del análisis: 1 de noviembre de 2026.  
-Cotización de referencia: 20,98 EUR (cierre a 30 de octubre de 2026).
+*   **Ingresos y Rentabilidad:** La empresa reportó unos ingresos de 2.925 millones de EUR para 2025, lo que representa una ligera contracción respecto a los 3.048 millones de 2024. El margen de beneficio neto se sitúa en un 5,45%, con un beneficio neto de 655 millones de EUR.
+*   **Estructura de Capital:** La deuda total asciende a 5.164 millones de EUR (frente a 5.442 millones en 2024), con un ratio de deuda neta sobre EBITDA de aproximadamente 5,06x, lo cual es elevado y típico del sector intensivo en capital.
+*   **Flujos de Caja:** La compañía presenta un desafío en la generación de caja libre (Free Cash Flow), que fue negativo en 596 millones de EUR en 2025, debido a un gasto de capital (CAPEX) intensivo de 979 millones de EUR.
+*   **Valoración:** Con un PER adelantado (*forward PE*) de 29,5x y un valor en libros de 19,1 EUR por acción, `ANE.MC` cotiza actualmente a 21,76 EUR, lo que implica una prima respecto a su valor contable (P/B ratio 1,14). El dividendo es notable, con una rentabilidad (yield) del 13,79%, aunque el ratio de pago (payout) es bajo (5,27%), lo que sugiere un esfuerzo de retribución al accionista en un entorno de apalancamiento.
 
----
+#### 3. Contexto Macroeconómico
+La información macroeconómica sugiere un entorno de presión inflacionaria sostenida en España (cercana al 5%) y expectativas de subidas de tipos de interés por parte del BCE (objetivo del 3%). Para una empresa con una deuda neta sobre EBITDA superior a 5x, un escenario de tipos altos incrementa los costes financieros y presiona las valoraciones del sector de renovables.
 
-### **1. Perfil de la Compañía y Contexto de Mercado**
-Corporación Acciona Energías Renovables, S.A. (`ANE.MC`), cotizada en el mercado continuo español (MCE) y parte del selectivo nacional ^IBEX, opera en el sector de **Utilities / Utilities - Renovables**. 
+#### 4. Perspectiva para el Trader
+*   **Soportes y Resistencias:** El precio actual (21,76 EUR) se encuentra en una zona neutral, moviéndose cerca de sus medias móviles de 20, 50 y 200 días. La baja volatilidad (31,86%) y un RSI de 50,5 indican una falta de dirección clara en el corto plazo.
+*   **Factores de Riesgo:** El elevado nivel de deuda y la baja rentabilidad sobre fondos propios (ROE 3,31%) son puntos críticos. La dependencia de la política monetaria del BCE es el riesgo sistémico más relevante.
+*   **Oportunidades:** Existe un margen de mejora según el precio objetivo medio de los analistas (23,23 EUR), lo que representa un *upside* potencial del 6,76%.
 
-En las últimas sesiones de cotización de octubre de 2026, la acción se ha visto afectada a la baja (retrocediendo un 1,50% en la última sesión y acumulando una caída del 5,07% en 21 sesiones), lastrando junto a otros valores al índice bursátil. Diversos medios económicos y noticias de mercado (por ejemplo, *Bolsamania* del 28 de octubre de 2026) apuntan a complicaciones en el proceso de venta de su filial renovable, lo que genera cierta incertidumbre a corto plazo entre los inversores, a pesar de contar con apuestas de gestoras como Horos AM que refuerzan posiciones en la compañía.
-
----
-
-### **2. Análisis de Estados Financieros y Fundamentales**
-
-Basado en los datos y estados financieros provistos, se observa la evolución de las magnitudes clave de `ANE.MC`:
-
-#### **Cuenta de Resultados (Income Statement)**
-* **Ingresos Totales (Total Revenue):** 
-  * 2025: 2.925.000.000 EUR
-  * 2024: 3.048.000.000 EUR
-  * 2023: 3.547.000.000 EUR  
-  *(Se advierte una tendencia decreciente en los ingresos anuales).*
-* **EBITDA:** 
-  * 2025: 1.484.000.000 EUR
-  * 2024: 1.183.000.000 EUR
-  * 2023: 1.407.000.000 EUR
-* **Beneficio Neto (Net Income):** 
-  * 2025: 655.000.000 EUR
-  * 2024: 357.000.000 EUR
-  * 2023: 524.000.000 EUR
-
-#### **Balance de Situación (Balance Sheet)**
-* **Activos Totales:** 14.718.000.000 EUR (cierre 2025) frente a 16.244.000.000 EUR en 2024.
-* **Deuda Total:** 5.164.000.000 EUR (2025), mejorando ligeramente desde los 5.442.000.000 EUR de 2024 (la métrica general de la compañía indica una deuda total cercana a 5.411 millones de EUR con un apalancamiento de Deuda Neta / EBITDA de aproximadamente **5.06x**).
-* **Patrimonio Neto (Stockholders Equity):** 5.836.000.000 EUR (2025).
-
-#### **Flujo de Caja (Cash Flow)**
-* **Flujo de Caja Operativo:** 383.000.000 EUR en 2025 (681.000.000 EUR en 2024).
-* **Gastos de Capital (CapEx):** -979.000.000 EUR en 2025 (-1.630.000.000 EUR en 2024).
-* **Flujo de Caja Libre (Free Cash Flow):** Negativo en los últimos ejercicios (-596.000.000 EUR en 2025; -949.000.000 EUR en 2024), impulsado por la fuerte intensidad inversora en el despliegue de activos renovables.
+#### 5. Datos faltantes
+No se dispone de datos sobre transacciones de *insiders* en el periodo reciente ni el detalle pormenorizado de las previsiones de crecimiento de ingresos a largo plazo más allá del consenso de mercado.
 
 ---
 
-### **3. Valoración y Datos Bursátiles Clave**
-* **Capitalización Bursátil:** ~6.809.047.040 EUR.
-* **PER (Trailing):** 36,81x | **PER (Forward):** 28,67x.
-* **Precio / Valor Contables (Price to Book):** 1,10x (con un Valor Contable por acción de 19,10 EUR, cercano al precio de cotización actual de 20,98 EUR).
-* **EV / EBITDA:** 12,44x.
-* **Política de Dividendos:** Ofrece una rentabilidad por dividendo (*Dividend Yield*) elevada en apariencia, situada en torno al **14,29%** (dividend rate de 0,03 EUR con payout ratio del 5,27%). *Nota analítica: Se debe revisar la sostenibilidad de este rendimiento porcentual en función de los flujos de caja libres negativos recurrentes de la compañía.*
-* **Consenso de Analistas:** El precio objetivo medio (*targetMeanPrice*) se sitúa en **23,22 EUR** (con un rango entre 17,00 EUR y 28,30 EUR según 20 opiniones de analistas), lo que ofrece un potencial de revalorización o **upside de consenso de aproximadamente el 10,68%**.
+### Resumen de Datos Clave
 
----
+| Métrica | Valor |
+| :--- | :--- |
+| **Precio Actual** | 21,76 EUR |
+| **Capitalización de Mercado** | 7.062 millones EUR |
+| **PER Adelantado** | 29,51x |
+| **Rentabilidad por Dividendo** | 13,79% |
+| **Deuda Neta / EBITDA** | 5,06x |
+| **Precio Objetivo (Consenso)** | 23,23 EUR |
+| **RSI (14)** | 50,53 |
 
-### **4. Indicadores Técnicos Breves**
-* **RSI (14):** 44,79 (zona neutral, ligeramente sesgada a la baja).
-* **MACD:** -0,128 (señal en -0,058), indicando presión bajista de corto plazo.
-* **Medias Móviles:** Cotiza ligeramente por debajo de sus SMA de 20, 50 y 200 sesiones (SMA20 en 21,51 EUR, SMA200 en 21,83 EUR), reflejando una fase de consolidación correctiva.
+**Rating**: HOLD
 
----
-
-### **5. Conclusiones, Evidencia y Asunciones**
-* **Argumentos a favor (Supporting evidence):** Valoración patrimonial contenida (P/B cercano a 1x), un precio de cotización (20,98 EUR) inferior al objetivo de consenso de analistas (23,22 EUR, +10,68% de potencial), y un EBITDA robusto de 971M–1.484M EUR.
-* **Argumentos en contra (Contrary evidence):** Flujos de caja libres negativos debido al alto CapEx, ratio de Deuda Neta/EBITDA elevado (~5.06x), PER forward exigente (~28,6x) y noticias recientes de complicaciones en desinversiones corporativas (*Bolsamania*, 28 oct 2026).
-* **Datos faltantes:** Detalle pormenorizado del desglose del último trimestre de 2026 y términos definitivos de las negociaciones de la filial renovable.
-* **Valuación y método:** Basado en múltiplos de mercado (EV/EBITDA de 12,44x y PER forward) y consenso de analistas.
-
-Dada la dicotomía entre el atractivo de precio frente a su valor contable y los riesgos operativos derivados del apalancamiento y flujos de caja, se emite una calificación de **REVIEW** con una recomendación táctica de **HOLD**.
-
----
-
-### **Resumen de Puntos Cl
+FINAL TRANSACTION PROPOSAL: Mantener posición, monitorear la política de tipos de interés del BCE y la capacidad de reducción de deuda operativa. La rentabilidad por dividendo compensa el estancamiento en capitalización, pero el riesgo de apalancamiento limita el potencial alcista a corto plazo.
