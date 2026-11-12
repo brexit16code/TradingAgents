@@ -227,6 +227,24 @@ datos disponibles en cada fecha y comparación con un índice de rentabilidad to
 
 ## Mantenimiento
 
+La web avisa cuando el último análisis lleva más de un día sin actualizarse, o
+desde las 23:00 si sigue siendo el del día anterior. La cartera muestra por
+separado la fecha de las recomendaciones y la de su valoración, y señala los
+intervalos sin recomendaciones registradas. No se rellenan retrospectivamente
+esos días con recomendaciones inventadas ni se reinicia el dinero ficticio.
+
+Antes de repetir una ejecución, el workflow comprueba si ya existe un informe del
+propio día capturado después de las 18:00, con las 35 empresas y sus informes de
+TradingAgents completos y presentes. En ese caso conserva lo publicado y no vuelve
+a consumir la cuota de IA. Un informe de otro día, anterior al cierre, incompleto
+o con cotizaciones inválidas no evita la actualización.
+
+Si no aparecen nuevas ejecuciones en Actions, comprobar si GitHub ha deshabilitado
+las automatizaciones del fork. El 12/11/2026 mostraba el aviso «Workflows on this
+fork have been disabled», aunque el último proceso del 01/11 había terminado bien.
+Se reactivaron desde Actions. Esto es distinto de un error de datos o de Gemini;
+la programación no llega a arrancar mientras Actions está desactivado.
+
 Los workflows programados de repositorios públicos pueden desactivarse tras
 60 días sin actividad en el repositorio. Comprobar su estado cuando deje de
 actualizarse; no dar una automatización por permanente. Revisar también

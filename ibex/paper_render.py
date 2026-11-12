@@ -2,6 +2,7 @@
 
 from datetime import datetime
 
+from ibex.freshness import FRESHNESS_SCRIPT, recommendation_gaps, stale_notice
 from ibex.paper import MADRID, summary
 from ibex.render import esc
 
@@ -76,6 +77,11 @@ def write_portfolio(state, output):
         warning += '<p><strong>Esperando la primera sesión.</strong> Las órdenes virtuales pendientes usarán una apertura posterior a su registro. No se han simulado compras a precios anteriores.</p>'
     if state["status"] == "paused":
         warning += '<p><strong>Actualización en espera.</strong> La fecha de valoración indica la última sesión completa; las cifras no se presentan como actuales.</p>'
+    gaps = recommendation_gaps(state["sources"])
+    if gaps:
+        total = sum(gap["days"] for gap in gaps)
+        warning += (f'<p><strong>Historial con interrupciones: {total} días sin recomendaciones registradas.</strong> '
+                    'La simulación mantuvo las últimas instrucciones disponibles. El resultado incluye ese período sin análisis nuevos.</p>')
     notice = f'<div class="notice" role="status">{warning}</div>' if warning else ""
     metrics = [("Efectivo disponible", amount(totals["cash"]), "Dinero ficticio sin invertir"),
                ("Acciones en cartera", amount(totals["market_value"]), f'{len(state["positions"])} posiciones abiertas'),
@@ -109,13 +115,15 @@ def write_portfolio(state, output):
     cancelled = [o for o in state["orders"] if o["status"] in {"cancelled", "rejected", "expired"}]
     cancelled_html = "".join(f'<li>{esc(o["name"])} · {esc(o["note"])}</li>' for o in cancelled[-30:])
     asof = date_label(state["valuations"][-1]["date"]) if state["valuations"] else "Esperando la primera sesión"
+    latest_source = max((s["report_date"] for s in state["sources"]), default=state["started_at"][:10])
     max_drop = min([0, *[p["drawdown_pct"] for p in state["valuations"]]])
     body = f'''
 <p class="eyebrow">SIMULACIÓN AUTOMÁTICA · DINERO FICTICIO</p><h1>Cartera virtual del IBEX</h1>
 <p>Una prueba para observar qué ocurre al seguir las recomendaciones de TradingAgents.</p>
+{stale_notice(latest_source)}
 <div class="links"><a class="button" href="index.html">Ver los informes</a><a class="button" href="#ensayo">Ensayar compra y venta</a><a class="button" href="cartera.json" download="historial-cartera-virtual.json">Descargar historial</a></div>
 <div class="hero"><span>Valor total de la cartera</span><div class="amount">{amount(totals['equity'])}</div><p class="{profit_css}"><strong>Resultado total: {amount(totals['profit'])} · {amount(totals['return_pct'], ' %')}</strong></p>
-<small>Capital inicial: 10.000 € ficticios · Inicio: {date_label(state['started_at'])}<br>Valoración: {asof}<br>Actualizado: {date_label(state['updated_at'], True)} · Hora peninsular</small></div>
+<small>Capital inicial: 10.000 € ficticios · Inicio: {date_label(state['started_at'])}<br>Valoración: {asof}<br>Últimas recomendaciones registradas: {date_label(latest_source)}<br>Actualizado: {date_label(state['updated_at'], True)} · Hora peninsular</small></div>
 {notice}<div class="metrics">{metrics_html}</div>
 <p><small>Valor total = efectivo + acciones + dividendos brutos devengados. Resultado total = valor total − 10.000 €. Se actualiza tras el análisis diario; los precios no son en tiempo real.</small></p>
 <h2>Evolución del experimento</h2><div class="panel">{performance_chart(state)}<p><small>Mayor caída desde un máximo de cierre: {amount(max_drop, ' %') if state['valuations'] else 'Aún sin historial de sesiones'}.</small></p></div>
@@ -147,5 +155,5 @@ const quantity=document.getElementById('calc-quantity'),buy=document.getElementB
 const euro=new Intl.NumberFormat('es-ES',{{style:'currency',currency:'EUR'}});
 function calculate(){{const q=Number(quantity.value),b=Number(buy.value),s=Number(sell.value),f=Number(fee.value);if(![q,b,s,f].every(Number.isFinite)||!Number.isInteger(q)||q<=0||b<=0||s<=0||f<0||[quantity,buy,sell,fee].some(e=>e.value.trim()==='')){{result.textContent='Introduce cantidades y precios válidos.';detail.textContent='';result.className='';return;}}const cost=q*b+f,received=q*s-f,pnl=received-cost;if(![cost,received,pnl].every(Number.isFinite)){{result.textContent='Importe fuera de rango.';detail.textContent='';return;}}result.textContent=(pnl>=0?'Ganancia: ':'Pérdida: ')+euro.format(pnl);result.className=pnl>=0?'positive':'negative';detail.textContent='Coste de compra: '+euro.format(cost)+' · Importe de venta tras comisión: '+euro.format(received);}}
 for(const field of [quantity,buy,sell,fee])field.addEventListener('input',calculate);calculate();
-</script>'''
+</script>{FRESHNESS_SCRIPT}'''
     (output / "cartera.html").write_text(document("Cartera virtual IBEX · Sin dinero real", body), encoding="utf-8")

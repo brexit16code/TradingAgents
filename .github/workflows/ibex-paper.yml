@@ -7,6 +7,7 @@ on:
     paths:
       - 'ibex/paper.py'
       - 'ibex/paper_render.py'
+      - 'ibex/freshness.py'
       - 'ibex/render.py'
       - '.github/workflows/ibex-paper.yml'
 

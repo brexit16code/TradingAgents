@@ -315,6 +315,17 @@ def test_orphaned_archive_is_not_silently_reset(tmp_path, monkeypatch):
         main()
 
 
+def test_rendering_discloses_a_gap_without_resetting_or_reconstructing_the_account(tmp_path):
+    state = started()
+    state["sources"].append({"report_date": "2026-11-12"})
+    original = copy.deepcopy(state)
+    write_portfolio(state, tmp_path)
+    page = (tmp_path / "cartera.html").read_text()
+    assert "10 días sin recomendaciones registradas" in page
+    assert "Últimas recomendaciones registradas: 12/11/2026" in page
+    assert state == original
+
+
 def test_intraday_split_is_used_to_restore_old_prices_but_not_settled_early(monkeypatch):
     calls = []
 

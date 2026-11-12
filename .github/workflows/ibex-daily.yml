@@ -32,13 +32,6 @@ jobs:
           cache-dependency-path: ibex/requirements.txt
       - name: Instalar datos gratuitos
         run: python -m pip install -r ibex/requirements.txt
-      - name: Analizar los 35 valores sin coste de IA
-        id: baseline
-        timeout-minutes: 35
-        run: python -m ibex.run
-      - name: Instalar TradingAgents solo si la cuota gratuita está verificada
-        if: vars.IBEX_FREE_TIER_VERIFIED == 'true'
-        run: python -m pip install .
       - name: Recuperar memoria y puntos de reanudación
         if: vars.IBEX_FREE_TIER_VERIFIED == 'true'
         uses: actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
@@ -53,8 +46,22 @@ jobs:
             git fetch origin ibex-reports
             git archive FETCH_HEAD latest | tar -x -C .ibex-state/previous-report
           fi
+      - name: Comprobar si ya existe el informe completo de hoy después del cierre
+        id: freshness
+        run: python -m ibex.freshness --report .ibex-state/previous-report/latest/datos.json
+      - name: Reutilizar el informe de hoy sin consumir otra vez la cuota gratuita
+        if: steps.freshness.outputs.skip == 'true'
+        run: echo 'El informe completo de hoy ya está publicado. Se evita repetir la IA.' >> "$GITHUB_STEP_SUMMARY"
+      - name: Analizar los 35 valores sin coste de IA
+        if: steps.freshness.outputs.skip != 'true'
+        id: baseline
+        timeout-minutes: 35
+        run: python -m ibex.run
+      - name: Instalar TradingAgents solo si la cuota gratuita está verificada
+        if: vars.IBEX_FREE_TIER_VERIFIED == 'true' && steps.freshness.outputs.skip != 'true'
+        run: python -m pip install .
       - name: Analizar con TradingAgents, solo nivel gratuito
-        if: vars.IBEX_FREE_TIER_VERIFIED == 'true'
+        if: vars.IBEX_FREE_TIER_VERIFIED == 'true' && steps.freshness.outputs.skip != 'true'
         timeout-minutes: 165
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
@@ -63,7 +70,7 @@ jobs:
           IBEX_MAX_LLM_TOKENS: '20000000'
         run: python -m ibex.run --resume-baseline --with-agents
       - name: Guardar memoria sin credenciales
-        if: always() && vars.IBEX_FREE_TIER_VERIFIED == 'true'
+        if: always() && vars.IBEX_FREE_TIER_VERIFIED == 'true' && steps.freshness.outputs.skip != 'true'
         uses: actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
         with:
           path: .ibex-state
@@ -77,7 +84,7 @@ jobs:
           --previous .ibex-state/previous-report/latest/cartera.json
           --output ibex-output/latest
       - name: Conservar informes descargables siete días
-        if: always()
+        if: always() && steps.baseline.outcome != 'skipped'
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
           name: IBEX35-informes-${{ github.run_id }}
@@ -116,7 +123,7 @@ jobs:
           fi
           echo "[Abrir informe en el móvil](https://github.com/${GH_REPO}/blob/ibex-reports/latest/Informe.md)" >> "$GITHUB_STEP_SUMMARY"
       - name: Comprobar cobertura completa de IA
-        if: vars.IBEX_FREE_TIER_VERIFIED == 'true'
+        if: vars.IBEX_FREE_TIER_VERIFIED == 'true' && steps.freshness.outputs.skip != 'true'
         run: |
           python - <<'PY'
           import json
