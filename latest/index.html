@@ -3,6 +3,7 @@
 </style></head><body><main>
 <p class="topline">INVESTIGACIÓN · SIN OPERACIONES REALES</p><h1>IBEX 35 · 2026-11-12</h1>
 <p>35 empresas · Cierre de mercado · España</p><small>Generado 2026-11-12T18:25:19.745325+01:00 · Zona Europe/Madrid</small>
+<div id="freshness-notice" class="notice" role="status" hidden data-date="2026-11-12"></div>
 <div class="notice"><strong>35/35 con precios · 35/35 con informe de TradingAgents</strong><p>Lista contrastada con el histórico de revisiones de BME.</p>
 <small>Última revisión BME contrastada: 2026-09-21. Los fines de semana y festivos se conserva la fecha del último cierre disponible.</small></div>
 <div class="notice"><a href="cartera.html"><strong>Abrir la cartera virtual · 10.000 € ficticios</strong></a><p>Seguimiento de las recomendaciones, compras y ventas simuladas, ganancias y pérdidas.</p></div>
@@ -3762,4 +3763,13 @@
 **Time Horizon**: 3-6 meses</pre><p><a href="agents/UNI.MC/complete_report.html">Informe completo de los agentes</a></p></details>
 <footer><a href="https://finance.yahoo.com/quote/UNI.MC/" target="_blank" rel="noopener noreferrer">Cotización y ratios</a> · <a href="https://finance.yahoo.com/quote/UNI.MC/financials/" target="_blank" rel="noopener noreferrer">Cuentas en Yahoo</a><small>Descargado 2026-11-12T18:25:19.745325+01:00</small></footer></article></div><div class="notice method"><strong>Cómo leerlo</strong><p>El filtro gratuito calcula tendencia, fuerza relativa, crecimiento de ingresos, múltiplos de valoración y deuda cuando es aplicable. Las reglas y umbrales no están validados como estrategia rentable. Las señales son hipótesis para investigar.</p>
 <p>Fundamentales y consenso son instantáneas del proveedor. No se calcula un valor intrínseco universal, ni se deduce un resultado histórico con datos actuales. No hay cuenta de bróker conectada ni función de envío de órdenes.</p><p>Datos: Yahoo Finance y Google News. Composición: <a href="https://www.bolsasymercados.es/dam/descargas/indices/composicion-ibex-35-es-en.pdf">BME</a>.</p></div></main>
-<script>const search=document.getElementById('search'),signal=document.getElementById('signal');function filter(){for(const card of document.querySelectorAll('article')){card.hidden=!card.dataset.name.includes(search.value.toLocaleLowerCase('es'))||(signal.value&&card.dataset.label!==signal.value);}}search.addEventListener('input',filter);signal.addEventListener('change',filter);</script></body></html>
+<script>const search=document.getElementById('search'),signal=document.getElementById('signal');function filter(){for(const card of document.querySelectorAll('article')){card.hidden=!card.dataset.name.includes(search.value.toLocaleLowerCase('es'))||(signal.value&&card.dataset.label!==signal.value);}}search.addEventListener('input',filter);signal.addEventListener('change',filter);</script><script>(()=>{
+const notice=document.getElementById('freshness-notice');if(!notice)return;
+const value=notice.dataset.date;if(!/^\d{4}-\d{2}-\d{2}$/.test(value))return;
+const parts=Object.fromEntries(new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Madrid',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',hourCycle:'h23'}).formatToParts(new Date()).map(p=>[p.type,p.value]));
+const today=parts.year+'-'+parts.month+'-'+parts.day;
+const age=Math.round((Date.parse(today+'T12:00:00Z')-Date.parse(value+'T12:00:00Z'))/86400000);
+if(age>1||(age===1&&Number(parts.hour)>=23)){
+notice.textContent='Datos desactualizados: el último análisis registrado es del '+value.slice(8,10)+'/'+value.slice(5,7)+'/'+value.slice(0,4)+'. Comprueba la actualización antes de utilizar estas recomendaciones.';notice.hidden=false;
+}
+})();</script></body></html>
