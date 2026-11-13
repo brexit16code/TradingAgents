@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: El precio de UNI.MC se encuentra actualmente por encima de su soporte técnico clave en la media móvil de 50 días (3,378 EUR), lo que respalda mantener la posición. Sin embargo, dado que el precio cotiza con una prima de valoración respecto a sus pares del sector bancario y existe un riesgo de caída del -6,19% hacia el precio objetivo del consenso (3,24 EUR), no se justifica abrir nuevas posiciones largas en estos niveles de volatilidad.
+**Reasoning**: La estructura técnica de UNI.MC se mantiene robusta por encima de sus medias móviles clave, lo que justifica no vender. No obstante, la valoración actual que supera la mediana del sector, junto con el consenso de analistas apuntando a un potencial bajista, impide recomendar una compra adicional. El enfoque debe ser la preservación de capital mientras el precio cotice por encima del soporte crítico de la media móvil de 50 días.
 
 **Entry Price**: not provided
 
-**Stop Loss**: 3.378
+**Stop Loss**: 3.376
 
-**Position Sizing**: Mantener peso actual; evitar incremento de exposición hasta observar una ruptura clara del rango actual.
+**Position Sizing**: Mantener exposición actual; no aumentar ponderación.
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

@@ -1,35 +1,37 @@
-Aquí tiene un análisis fundamental detallado de **MERLIN Properties SOCIMI, S.A. (MRL.MC)**, basado en la información financiera y de mercado disponible a fecha de 12 de noviembre de 2026.
+### Informe Fundamental: MERLIN Properties (MRL.MC)
 
-### Perfil de la Empresa
-MERLIN Properties es una de las principales SOCIMI (REIT) cotizadas en la bolsa española, centrada fundamentalmente en el sector de oficinas, logística y centros de datos. Actualmente, la compañía opera bajo un entorno de tipos de interés volátiles y una inflación que, según noticias recientes, se sitúa cerca del 5% en España, lo que presiona las valoraciones de activos inmobiliarios y los costes de financiación.
+**Resumen Ejecutivo**
+MERLIN Properties SOCIMI, S.A. es una de las principales inmobiliarias cotizadas en la Bolsa española, especializada en la adquisición, gestión y desarrollo de activos inmobiliarios terciarios (oficinas, centros logísticos y centros de datos) en la Península Ibérica. A fecha de 13 de noviembre de 2026, la compañía enfrenta una coyuntura marcada por resultados trimestrales positivos, pero con una fuerte incertidumbre regulatoria que está penalizando su valoración en el mercado.
 
-### Análisis Financiero
-*   **Valoración:** La compañía cotiza a un ratio Precio/Valor Contable (P/B) de 0.79x, lo que sugiere que el mercado valora la acción con un descuento significativo respecto a su valor liquidativo (NAV). El PER (Trailing PE) se sitúa en 8.01x.
-*   **Resultados Recientes:** Según la información de *Bolsamania* (12/11/2026), los resultados recientes destacan un crecimiento en el segmento de centros de datos y una ocupación robusta cercana al 95%. Esto es un factor positivo crítico frente a la debilidad general del sector de oficinas tradicional.
-*   **Deuda y Solvencia:** Con una deuda total de aproximadamente 5,18 mil millones de EUR y un efectivo de 1,56 mil millones de EUR, MERLIN mantiene una estructura de capital que requiere vigilancia estricta en un entorno de tipos de interés altos (el BCE descuenta subidas hacia el 3%, según *Moncloa.com*).
-*   **Dividendo:** Presenta un *dividend yield* del 1.81%, con un payout ratio bajo del 14.63%, lo que indica margen para mantener o incrementar la retribución al accionista si el flujo de caja operativo (423.6 M€) sigue expandiéndose.
+#### Análisis Financiero
+*   **Resultados Recientes:** Los ingresos del tercer trimestre de 2026 superaron las previsiones de los analistas, lo cual indica una resiliencia operativa subyacente. Sin embargo, la acción ha mostrado debilidad reciente (caída del 0,68% en la última sesión y una rentabilidad negativa del 17,2% en los últimos 63 días).
+*   **Valoración:** La compañía cotiza con un ratio P/B (Price-to-Book) de 0,78, lo que sugiere que el mercado valora la empresa por debajo de su valor contable (Book Value: 14,999 EUR). El P/E forward es de 20,84, significativamente superior al P/E trailing de 7,95, reflejando expectativas de ajustes en las estimaciones de beneficios futuros.
+*   **Dividendo:** Se ha confirmado el pago de un dividendo de 0,20 EUR por acción con fecha de pago el 10 de diciembre de 2026, lo que refuerza su atractivo como activo para inversores por dividendo, con un yield actual cercano al 1,88%.
+*   **Solidez:** La empresa mantiene una base de activos importante (Total Assets: 14.268M EUR a cierre de 2025) y ha logrado un crecimiento constante en ingresos durante los últimos tres ejercicios fiscales (2023-2025).
 
-### Perspectiva de Mercado
-*   **Soporte Técnico:** La acción se encuentra en 11.78 EUR, cotizando por debajo de su media móvil de 50 sesiones (12.06 EUR) y significativamente por debajo de la de 200 sesiones (13.91 EUR), lo que refleja una tendencia bajista a largo plazo.
-*   **Consenso de Analistas:** Existe un consenso alcista significativo con un precio objetivo medio de 17.01 EUR, lo que implica una potencial revalorización del 44.4%.
+#### Riesgos y Catalizadores
+*   **Riesgo Regulatorio (Data Centers):** El punto crítico de la semana es la fuerte crítica del CEO de Merlin hacia un decreto gubernamental sobre centros de datos. La empresa estima un **coste extra de 863 millones de euros** derivado de esta nueva regulación. Este evento es el principal factor bajista que está opacando los buenos resultados financieros.
+*   **Contexto Macro:** El entorno en la Eurozona es complejo, con una inflación persistente en el 4% (datos al 13/11/2026), lo que limita el margen de maniobra de la política monetaria y afecta negativamente a los costes de financiación de empresas intensivas en capital como las SOCIMIs.
 
-### Factores a Considerar
-*   **Argumentos a favor:** Alta tasa de ocupación (95%), crecimiento en activos estratégicos (centros de datos) y valoración por debajo del valor contable.
-*   **Argumentos en contra:** Entorno macroeconómico inflacionista y presión por el alza de tipos de interés del BCE, lo cual históricamente impacta negativamente en las valoraciones inmobiliarias y en los costes financieros de las SOCIMI.
-*   **Información faltante:** El ratio específico *Net Debt/EBITDA* no está disponible en los datos provistos, lo cual es fundamental para evaluar el apalancamiento real de una REIT.
+#### Perspectiva Técnica
+*   **Indicadores:** El precio actual (11,70 EUR) se encuentra por debajo de la media móvil simple de 50 días (12,03 EUR) y significativamente por debajo de la de 200 días (13,90 EUR), lo que indica una tendencia bajista de medio y largo plazo. El RSI de 48,05 muestra una situación neutra sin condiciones claras de sobreventa o sobrecompra.
 
-### Conclusión para Inversores
-La acción presenta un valor descontado frente a su valor contable y un fuerte respaldo por parte del consenso de analistas. Sin embargo, la exposición al riesgo de tipos de interés del BCE debe ser el factor principal de seguimiento para los inversores.
+#### Datos Faltantes
+*   No se dispone de un desglose detallado de la exposición geográfica específica que no sea "Península Ibérica" ni un análisis pormenorizado del impacto de las tasas de interés variables sobre el endeudamiento exacto de la compañía para el cierre de 2026.
 
-| Indicador | Valor |
+---
+
+| Métrica | Valor / Dato |
 | :--- | :--- |
-| **Precio Actual** | 11.78 EUR |
-| **Capitalización Bursátil** | 7.29 mil millones EUR |
-| **Ratio P/B** | 0.78 |
-| **Consenso Upside** | 44.43% |
-| **Ocupación** | ~95% |
-| **Dividend Yield** | 1.81% |
+| **Precio Actual** | 11,70 EUR |
+| **Market Cap** | 7.244,44 M EUR |
+| **P/B Ratio** | 0,78 |
+| **Dividendo Próximo** | 0,20 EUR (10/12/2026) |
+| **Coste Regulatorio Est.** | 863 M EUR |
+| **Consenso Upside** | 45,41% |
+| **Target Price (Media)** | 17,01 EUR |
 
-**Rating**: REVIEW
+**Rating**: HOLD
+*(Debido a la fuerte disparidad entre el valor contable/potencial alcista del consenso y el riesgo inmediato del impacto regulatorio de 863M EUR).*
 
-FINAL TRANSACTION PROPOSAL: No trade execution suggested; hold for further clarity on ECB interest rate trajectories and their impact on debt refinancing costs.
+FINAL TRANSACTION PROPOSAL: N/A - Este informe es solo para fines informativos y no constituye asesoramiento financiero ni ejecución de órdenes.

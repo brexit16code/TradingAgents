@@ -1,11 +1,11 @@
 **Action**: Buy
 
-**Reasoning**: IAG.MC muestra una estructura técnica alcista con el precio cotizando por encima de sus medias móviles clave (SMA20, SMA50 y SMA200) y un momentum positivo confirmado por el indicador MACD. Fundamentalmente, su valoración de mercado (Forward PE de 7,18x) es significativamente atractiva frente a la mediana del sector, y su ratio de apalancamiento (Net Debt/EBITDA de 0,78x) denota una salud financiera que mitiga los riesgos macroeconómicos actuales, justificando la recomendación de compra siguiendo el plan de sobreponderar.
+**Reasoning**: IAG.MC muestra una configuración técnica muy robusta con una alineación de medias móviles alcista y un fuerte momentum, mientras que su valoración fundamental a un forward PER de 7,2x frente a la mediana de 18,1x de sus comparables indica una infravaloración clara. La solidez en la reducción de deuda y la mejora en el flujo de caja libre respaldan esta postura de 'Overweight' a pesar de los riesgos inflacionarios de la zona euro. La entrada se justifica por el potencial de revalorización hacia el consenso de analistas de 6,00 EUR.
 
-**Entry Price**: 5.408
+**Entry Price**: 5.42
 
-**Stop Loss**: 5.138
+**Stop Loss**: 4.85
 
-**Position Sizing**: 0.5x de una asignación estándar
+**Position Sizing**: 125% de la asignación estándar para activos cíclicos
 
 FINAL TRANSACTION PROPOSAL: **BUY**

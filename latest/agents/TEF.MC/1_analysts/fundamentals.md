@@ -1,36 +1,91 @@
-Este informe presenta un análisis fundamental de **Telefónica, S.A. (TEF.MC)**, basado en la información financiera y de mercado recopilada hasta el 12 de noviembre de 2026.
+# Informe Fundamental y Análisis Financiero de Telefónica, S.A. (`TEF.MC`)
 
-### Perfil y Desempeño Reciente
-Telefónica, empresa líder en el sector de servicios de telecomunicaciones en España, ha presentado recientemente sus resultados correspondientes al tercer trimestre de 2026. A pesar de reportar sólidos resultados operativos y haber actualizado sus previsiones para el cierre del año, las acciones han experimentado una caída bursátil el 12 de noviembre de 2026, lo que los analistas interpretan como una "recogida de beneficios" tras el anuncio.
+**Rating**: HOLD  
+**FINAL TRANSACTION PROPOSAL**: HOLD  
 
-### Análisis Financiero
-*   **Resultados y Rentabilidad:** La compañía ha vuelto a beneficios operativos, sin embargo, su historial reciente muestra volatilidad. El beneficio neto al cierre de 2025 fue de -4.318 millones de euros, frente a los -49 millones de 2024.
-*   **Generación de Caja:** La empresa mantiene una capacidad robusta de generación de flujo de caja libre (Free Cash Flow), reportando 3.901 millones de euros (ajustado en datos de 2026) y 4.667 millones en 2025, lo cual respalda su política de dividendos.
-*   **Endeudamiento:** Uno de los puntos críticos para el inversor es su carga financiera. La deuda neta/EBITDA se sitúa en 5,27x, un nivel elevado que requiere un seguimiento constante dado el entorno actual de tipos de interés en la Eurozona.
-*   **Valoración:** La acción cotiza con un Forward PE de 8,56x. Con una rentabilidad por dividendo del 4,28%, Telefónica se mantiene como una opción de ingresos para perfiles conservadores, aunque el payout ratio del 2,5 sugiere presiones sobre la sostenibilidad del dividendo si no mejora la generación de beneficios netos.
+---
 
-### Contexto Macroeconómico
-El entorno es desafiante. La inflación en España persiste cerca del 5% y el BCE mantiene una política monetaria restrictiva con posibles nuevas subidas de tipos hacia el 3%. Esto impacta directamente en el coste de la deuda de Telefónica y en el consumo de los usuarios finales, factores que los inversores deben ponderar frente a la solidez operativa de la empresa.
+## 1. Perfil de la Compañía y Resumen de Negocio
 
-### Riesgos y Oportunidades
-*   **Riesgos:** Alta deuda, presión inflacionaria y volatilidad en el sector telecomunicaciones. El ratio de apalancamiento es un factor de riesgo clave.
-*   **Oportunidades:** Mejora de las perspectivas para 2026 tras los resultados del Q3 y una política de dividendos atractiva.
+* **Ticker:** `TEF.MC` (Bolsa de Madrid, cotizado en EUR)
+* **Nombre de la Compañía:** Telefónica, S.A.
+* **Clasificación Sectorial:** Servicios de Comunicación / Servicios de Telecomunicación (*Communication Services / Telecom Services*)
+* **Capitalización de Mercado:** 19.591.952.384 EUR (~19.59 mil millones de EUR)
+* **Moneda de Denominación y Financiera:** EUR
 
-### Conclusión para Traders
-La acción muestra una tendencia técnica neutral (RSI de 55,8). Aunque los resultados han sido bien recibidos por los analistas, la reacción del mercado ha sido negativa por la sobrecompra previa. Se recomienda cautela, observando si la cotización logra mantenerse sobre su media móvil de 50 días (3,43€) antes de buscar nuevas posiciones.
+Telefónica, S.A. es uno de los mayores proveedores de servicios de telecomunicaciones del mundo, con una fuerte presencia en Europa (España, Reino Unido y Alemania) y América Latina. Como operador integrado de telecomunicaciones, ofrece servicios de telefonía fija, móvil, banda ancha y soluciones digitales avanzadas para clientes residenciales y corporativos.
 
-**Rating**: REVIEW
+---
 
-| Indicador | Valor / Dato |
-| :--- | :--- |
-| Precio Actual | 3,48 EUR |
-| Capitalización de Mercado | 19.586 M EUR |
-| Forward PE | 8,56x |
-| Rentabilidad por Dividendo | 4,28% |
-| Net Debt/EBITDA | 5,27x |
-| Precio Objetivo (Consenso) | 3,78 EUR |
-| Variación (12 Nov 2026) | -0,71% |
+## 2. Análisis Financiero Reciente (Resultados del Tercer Trimestre de 2026)
 
-*Nota: La información sobre revenue growth y earnings growth no está disponible en la fuente proporcionada. Los estados financieros citados provienen de los datos adjuntos a fecha 12/11/2026.*
+Según los informes de resultados publicados recientemente en noviembre de 2026 (recogidos por medios como *Merca2.es*, *HolaNews* y *MarketScreener* con fechas del 12 de noviembre de 2026), Telefónica presentó las siguientes novedades operativas y financieras:
+* **Beneficio Neto:** La compañía volvió a beneficios en los primeros nueve meses de 2026, alcanzando un beneficio neto de **464 millones de euros**, impulsado por una reducción del impacto negativo procedente de sus operaciones en Hispanoamérica y una mejora operativa.
+* **Actualización de Guía (*Guidance*):** Tras los sólidos resultados del tercer trimestre, la dirección actualizó al alza sus previsiones anuales para el ejercicio 2026.
+* **Reacción del Mercado:** A pesar de batir las previsiones de los analistas y volver a registrar beneficios sólidos, el valor experimentó una ligera recogida de beneficios en bolsa (caídas moderadas en la sesión del 12 de noviembre de 2026), lo que refleja cautela en el corto plazo por parte de los inversores ante el entorno macroeconómico europeo.
 
-FINAL TRANSACTION PROPOSAL: NO ACTION
+---
+
+## 3. Estados Financieros Históricos y Fundamentales
+
+Tomando como base los datos financieros reportados para los últimos ejercicios cerrados (2023, 2024 y 2025):
+
+### 3.1. Cuenta de Resultados (*Income Statement*)
+* **Ingresos Totales (*Total Revenue*):**
+  * 2023: 40.652.000.000 EUR
+  * 2024: 35.671.000.000 EUR
+  * 2025: 35.120.000.000 EUR *(Evidencia una tendencia de contracción en la cifra de negocios consolidada)*.
+* **EBITDA:**
+  * 2023: 10.338.000.000 EUR
+  * 2024: 12.594.000.000 EUR
+  * 2025: 8.408.000.000 EUR
+* **Resultado Neto (*Net Income*):**
+  * 2023: -892.000.000 EUR
+  * 2024: -49.000.000 EUR
+  * 2025: -4.318.000.000 EUR *(Refleja deterioro de activos y provisiones extraordinarias en el ejercicio 2025, contrastando con la recuperación parcial observada en los trimestres de 2026).*
+
+### 3.2. Balance de Situación (*Balance Sheet*)
+* **Total de Activos:**
+  * 2023: 104.324.000.000 EUR
+  * 2024: 100.502.000.000 EUR
+  * 2025: 92.017.000.000 EUR
+* **Deuda Total (*Total Debt*):**
+  * 2023: 44.115.000.000 EUR
+  * 2024: 45.021.000.000 EUR
+  * 2025: 39.653.000.000 EUR *(Se observa una reducción de la deuda total en el último ejercicio).*
+* **Patrimonio Neto (*Stockholders Equity*):**
+  * 2023: 21.852.000.000 EUR
+  * 2024: 19.347.000.000 EUR
+  * 2025: 14.258.000.000 EUR
+
+### 3.3. Flujo de Caja (*Cash Flow*)
+* **Inversión en Capital (*Capital Expenditure - CapEx*):**
+  * 2023: -6.161.000.000 EUR
+  * 2024: -4.851.000.000 EUR
+  * 2025: -5.055.000.000 EUR
+* **Flujo de Caja Libre (*Free Cash Flow*):**
+  * 2023: 5.488.000.000 EUR
+  * 2024: 6.143.000.000 EUR
+  * 2025: 4.667.000.000 EUR
+
+---
+
+## 4. Métricas de Valoración y Ratios Clave
+
+* **Precio de Cierre (13/11/2026):** 3,481 EUR
+* **PER Forward (*Forward P/E*):** 8,57x (con un BPA estimado de 0,406 EUR frente a un BPA histórico negativo de -0,43 EUR).
+* **Ratio Precio/Valor en Libros (*Price-to-Book*):** 1,27x (Valor contable por acción de 2,74 EUR).
+* **Valor de Empresa sobre EBITDA (*EV/EBITDA*):** 8,31x.
+* **Deuda Neta / EBITDA:** 5,11x (métrica que evidencia un apalancamiento elevado, típico del sector de telecomunicaciones intensivo en capital).
+* **Rentabilidad por Dividendo (*Dividend Yield*):** **4,31%** (con un dividendo anual anunciado de 0,15 EUR por acción y un *payout ratio* elevado del 250% sobre bases históricas recientes).
+* **Consenso de Analistas:** 
+  * Precio Objetivo Medio (*Target Mean Price*): **3,798 EUR**
+  * Precio Objetivo Mínimo: 3,10 EUR | Precio Objetivo Máximo: 4,90 EUR
+  * Número de opiniones de analistas: 22
+  * Potencial de revalorización estimado (*Consensus Upside*): **+9,10%**
+
+---
+
+## 5. Contexto Técnico y Macroeconómico
+
+* **Indicadores Técnicos:** Cotiza a 3,48 EUR con una RSI de 14 periodos en 55,9 (zona neutral). El MACD se sitúa ligeramente positivo en 0,018 con señal de -0,001. La cotización se encuentra por encima de

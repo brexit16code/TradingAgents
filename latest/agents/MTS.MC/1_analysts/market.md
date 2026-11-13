@@ -1,34 +1,38 @@
-Análisis de **ArcelorMittal (MTS.MC)** al cierre del 12 de noviembre de 2026.
+El análisis de ArcelorMittal (**MTS.MC**) a fecha de 13 de noviembre de 2026 revela una situación técnica compleja, marcada por una reciente corrección tras un periodo de volatilidad significativa. A continuación, presento el informe detallado basado en la información proporcionada.
 
-### Panorama Financiero y Técnico
-ArcelorMittal cotiza actualmente a **58,80 EUR**. El valor muestra una estructura técnica mixta: aunque el precio se encuentra por encima de sus medias móviles de 20 y 200 sesiones, ha caído ligeramente por debajo de su media de 50 sesiones (58,74 EUR vs 58,79 EUR), lo que denota una fase de consolidación a corto plazo.
+### Análisis Técnico y de Mercado
+El precio de cierre de **MTS.MC** se sitúa en 57,02 EUR, experimentando una caída del 3,03% en la sesión. La acción cotiza actualmente por debajo de su media móvil de 50 sesiones (SMA50: 58,54 EUR), lo que indica una presión vendedora a corto/medio plazo, aunque se mantiene ligeramente por encima de su media de 200 sesiones (SMA200: 55,67 EUR), lo que sugiere que la tendencia alcista de fondo aún no ha sido invalidada.
 
-#### Indicadores Clave:
-*   **Momentum:** El RSI(14) en **58,55** indica un momentum moderado, sin señales claras de sobrecompra o sobreventa, permitiendo espacio para el movimiento en ambas direcciones.
-*   **Tendencia:** El MACD (-0,02) se sitúa por debajo de su señal (-0,83), lo que suele interpretarse como un sesgo bajista en el corto plazo a pesar de la fortaleza observada en el retorno anual (+73,53%).
-*   **Fundamentales:** La empresa presenta una valoración atractiva con un **Forward PE de 10,63x**, sugiriendo expectativas de crecimiento en beneficios. Sin embargo, su **Ratio Precio/Valor Contable de 0,92** indica que la acción cotiza con un ligero descuento respecto a su valor contable (63,98 EUR), lo cual es coherente con un sector de materiales básicos cíclico.
+*   **Momentum y Volatilidad:** El RSI(14) en 51,52 muestra un mercado en zona neutral, perdiendo el impulso alcista previo. El MACD (0,022) y su línea de señal (-0,66) indican que, a pesar de la debilidad reciente, el indicador sigue en terreno positivo, aunque la convergencia sugiere cautela. La volatilidad implícita del 32,99% es notable, lo que implica que el rango de fluctuación de la acción sigue siendo amplio.
+*   **Contexto Fundamental:** Con un PER adelantado de 10,31x, la acción parece atractiva desde una perspectiva de valoración comparativa, pero el flujo de caja libre negativo (-802,88 M EUR) y un retorno sobre el capital propio (ROE) bajo (1,83%) resaltan desafíos operativos persistentes.
 
-### Análisis de Sentimiento y Noticias
-El valor ha estado en el punto de mira recientemente debido a sus resultados trimestrales. A pesar de una caída significativa en el beneficio a septiembre (-70,8%), el mercado reaccionó con optimismo, impulsando la acción un 5% (5 de noviembre, *PressDigital*). La reciente superación de los 20.000 puntos por parte del IBEX 35, liderada en parte por MTS.MC, sugiere una correlación fuerte con el sentimiento macroeconómico y bancario, aunque la persistencia de una inflación del 5% en España (*Finanzas.com*, 8 de noviembre) genera incertidumbre sobre los costes de producción y la política de tipos del BCE.
+### Análisis de Noticias y Sentiment
+Las noticias recientes (10-11 de noviembre de 2026) destacaban a **MTS.MC** como líder de las subidas del IBEX 35, con menciones sobre la superación de resistencias y el objetivo de los 59,30 EUR. Sin embargo, el sentimiento parece haber cambiado tras el desplome de la última sesión, alineándose con las preocupaciones macroeconómicas sobre la inflación en la Eurozona (4%), lo que limita el margen de maniobra del BCE y presiona a los sectores cíclicos como el siderúrgico.
 
-### Consideraciones Estratégicas
-*   **Factores de Riesgo:** El Free Cash Flow negativo (-802,88M EUR) y un margen de beneficio neto ajustado (1,64%) subrayan la presión operativa en el entorno actual. La deuda neta sobre EBITDA de 2,08x se encuentra en un nivel manejable, pero requiere vigilancia dado el ciclo económico.
-*   **Escenario Alcista:** La superación sostenida de la resistencia en la zona de 60 EUR (en línea con el *target high* de 65,5 EUR) podría confirmar la continuación del rally anual.
-*   **Escenario Bajista:** Una ruptura del soporte cercano a las medias móviles (aprox. 55,6 EUR - SMA200) invalidaría la tendencia alcista de largo plazo.
+### Evaluación de Riesgos y Datos Faltantes
+*   **Soporte/Resistencia:** El nivel de 55,38 EUR (SMA20) actúa como un soporte dinámico inmediato. Una ruptura por debajo de este nivel invalidaría la recuperación técnica de corto plazo.
+*   **Datos faltantes:** No se dispone de la tasa de crecimiento de beneficios (earningsGrowth), lo que impide un cálculo preciso del PEG ratio para medir el crecimiento futuro frente a su valoración actual.
 
-### Tabla Resumen
-| Indicador / Métrica | Valor | Interpretación |
-| :--- | :--- | :--- |
-| Precio Actual | 58,80 EUR | Consolidación en zona media |
-| RSI(14) | 58,55 | Neutral (sin extremos) |
-| SMA 200 | 55,62 EUR | Soporte técnico principal |
-| Forward PE | 10,63x | Valoración atractiva frente a media sectorial |
-| Div. Yield | 0,92% | Rentabilidad modesta |
-| Capitalización | 44.214M EUR | Gran capitalización (Blue Chip) |
-
-**Missing Data:** Los datos de crecimiento de ganancias (earnings growth) no están disponibles en el conjunto proporcionado, lo que limita una proyección precisa del P/E a futuro más allá de las estimaciones de consenso.
+### Indicadores Recomendados (Estrategia de Seguimiento)
+Para un seguimiento riguroso de **MTS.MC**, se sugiere monitorizar:
+1.  **close_50_sma**: Para validar si el precio logra recuperar la media de medio plazo.
+2.  **close_200_sma**: Como filtro definitivo de la tendencia de largo plazo.
+3.  **macd**: Para detectar cambios de momentum tras la reciente caída.
+4.  **rsi**: Para identificar condiciones de sobreventa si la corrección se intensifica.
+5.  **atr**: Crucial debido a la alta volatilidad (33%) para ajustar stops de protección.
+6.  **boll_ub / boll_lb**: Para definir el rango operativo actual y posibles rupturas.
 
 **Rating**: HOLD
-**FINAL TRANSACTION PROPOSAL**: No se recomienda ninguna ejecución. Dada la volatilidad del 32,76% y la divergencia entre el rendimiento anual (+73%) y los resultados trimestrales recientes, se sugiere mantener la posición y esperar una confirmación de la tendencia sobre la media de 50 periodos (58,74 EUR).
 
-*Fuentes consultadas:* Yahoo Finance (12/11/2026), PressDigital (05/11/2026), Finanzas.com (08/11/2026), Estrategias de Inversión (11/11/2026).
+FINAL TRANSACTION PROPOSAL: Mantener posiciones actuales y esperar una consolidación por encima de la SMA50 (58,54 EUR) o una señal de soporte confirmada en la SMA200 (55,67 EUR) antes de considerar nuevas entradas.
+
+| Indicador | Valor / Estado | Interpretación |
+| :--- | :--- | :--- |
+| **Precio Actual** | 57,02 EUR | Tendencia bajista de corto plazo |
+| **SMA 50** | 58,54 EUR | Resistencia inmediata |
+| **SMA 200** | 55,67 EUR | Soporte estructural crítico |
+| **RSI (14)** | 51,52 | Neutral (sin sobrecompra/sobreventa) |
+| **Volatilidad** | 32,99% | Elevada; requiere gestión de riesgo estricta |
+| **Consenso Analista** | 59,10 EUR | Potencial alcista del 3,65% |
+
+*Fuentes: Yahoo Finance (MTS.MC), MarketScreener, Estrategias de Inversión. Fecha de referencia: 2026-11-13.*

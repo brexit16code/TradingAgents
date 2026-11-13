@@ -1,39 +1,50 @@
-Este informe analiza la situación fundamental de **International Consolidated Airlines Group S.A. (`IAG.MC`)** basándose en los datos financieros y de mercado actualizados al 12 de noviembre de 2026.
+### Informe Fundamental: International Consolidated Airlines Group S.A. (IAG.MC)
 
-### Panorama Fundamental y Financiero
+**Fecha del informe:** 13 de noviembre de 2026
+**Instrumento:** IAG.MC (MCE)
 
-**IAG.MC** presenta un perfil de recuperación operativa sólida, con una capitalización de mercado de 23.433 millones de EUR. La empresa cotiza a un **PER forward de 7,18x**, lo cual, en comparación con la mediana del sector (18,10x), sugiere una valoración atractiva bajo métricas tradicionales, aunque la industria aérea enfrenta desafíos macroeconómicos persistentes.
+---
 
-#### Desempeño Financiero (2023-2025)
-*   **Ingresos y Rentabilidad:** Los ingresos han mostrado una tendencia alcista constante: 29.453 millones (2023), 32.100 millones (2024) y 33.213 millones (2025). El EBITDA también ha crecido significativamente, alcanzando los 7.951 millones de EUR al cierre de 2025.
-*   **Flujo de Caja:** La capacidad de generación de efectivo es robusta, con un flujo de caja operativo de 6.588 millones y un flujo de caja libre de 3.146 millones al cierre de 2025, lo que permite sostener inversiones en capital (3.442 millones) y mantener una política de dividendos (yield del 1,85%).
-*   **Solvencia:** La deuda total se sitúa en 13.867 millones de EUR, con un ratio neto de Deuda/EBITDA de 0,78x, una mejora notable respecto a ejercicios anteriores, reflejando una gestión disciplinada del balance.
+#### 1. Perfil y Situación Actual
+International Consolidated Airlines Group (IAG.MC) es un holding multinacional de aerolíneas que cotiza en el Mercado Continuo español. Con un valor de mercado de aproximadamente 23.490 millones de EUR, la compañía opera en un entorno macroeconómico complejo, marcado por una inflación en la zona euro del 4% (a 13 de noviembre de 2026), lo que ejerce presión sobre los costes operativos y la política monetaria.
 
-### Análisis de Mercado y Sentimiento
-A pesar de que el beneficio del tercer trimestre de 2026 fue inferior a lo esperado (caída del 16,2% interanual), el mercado ha reaccionado positivamente con una subida superior al 10% en noviembre. Las firmas de análisis (RBC, Goldman Sachs, Barclays, Bernstein) mantienen perspectivas alcistas, con potenciales de revalorización citados en prensa de hasta un 25%.
+A pesar de los vientos en contra, IAG mantiene una tendencia técnica positiva, cotizando a 5,42 EUR, con un RSI de 64,19 (indicando fortaleza pero sin alcanzar zona de sobrecompra extrema) y situándose por encima de sus medias móviles de 20, 50 y 200 sesiones.
 
-**Factores de Riesgo:**
-1.  **Macroeconomía:** La inflación en España (cercana al 5%) y las expectativas de tipos de interés (potencial subida al 3% por el BCE) podrían presionar los costes operativos y la demanda.
-2.  **Capacidad:** La empresa ha anticipado recortes de capacidad, lo que indica un enfoque en la rentabilidad sobre el volumen en un entorno de costes elevados.
+#### 2. Análisis Financiero (Histórico y Actual)
+Los estados financieros reflejan una clara recuperación post-pandémica y una gestión disciplinada de la deuda:
 
-### Insights para Traders
-*   **Posición Técnica:** Con un RSI de 63,8, la acción se encuentra en zona de optimismo sin estar excesivamente sobrecomprada. El precio actual (5,41 EUR) está por encima de sus medias móviles de 20, 50 y 200 días, lo que confirma una tendencia alcista estructural a corto y largo plazo.
-*   **Oportunidad:** El consenso de analistas sitúa el precio objetivo medio en 6,00 EUR, con un potencial de retorno del 11,03%. La divergencia entre la reacción positiva del mercado y el reporte de beneficios sugiere que la valoración actual ya incorpora gran parte de las noticias negativas, dejando espacio para un "upside" si se estabilizan los márgenes.
+*   **Ingresos y Beneficios:** Los ingresos han crecido consistentemente, pasando de 29.453 M€ en 2023 a 33.213 M€ en 2025. El EBITDA ha experimentado un incremento sólido de 6.214 M€ en 2023 a 7.951 M€ en 2025.
+*   **Balance y Solvencia:** La deuda total se ha reducido significativamente desde los 16.082 M€ en 2023 a 14.267 M€ en 2025. El ratio de apalancamiento (Net Debt/EBITDA) se sitúa en 0,78, lo que sugiere una estructura de capital mucho más robusta que en ejercicios anteriores.
+*   **Flujo de Caja:** La compañía generó un flujo de caja libre (Free Cash Flow) de 3.146 M€ en 2025, lo que valida su capacidad para reinvertir en la flota y mantener la política de dividendos anunciada (rentabilidad aprox. 1,8%).
 
-### Tabla de Datos Clave
+#### 3. Perspectiva de Mercado y Valoración
+*   **Valoración:** La acción cotiza a un PER estimado (forward PE) de 7,20, lo cual es significativamente inferior a la mediana del sector/pares de referencia (18,10). Esto sugiere una valoración atractiva si se comparan sus múltiplos con otras empresas industriales/infraestructuras (AENA, ACS, etc.).
+*   **Consenso de Analistas:** El precio objetivo medio se sitúa en 6,00 EUR, lo que implica un potencial alcista (upside) del 10,79%. Informes recientes de analistas (RBC, Goldman Sachs, Barclays, Bernstein) han sido mayoritariamente constructivos, ajustando beneficios pero manteniendo una visión optimista sobre el desempeño en bolsa de la compañía.
 
-| Métrica | Valor / Dato |
+#### 4. Riesgos y Observaciones
+*   **Contrario:** La inflación persistente en la eurozona (4%) y el entorno de tipos de interés altos suponen un riesgo para el consumo discrecional y los márgenes operativos de las aerolíneas. Los resultados del tercer trimestre de 2026 mostraron ganancias inferiores a lo esperado, aunque el mercado reaccionó con optimismo, lo que refleja una alta resiliencia en la cotización.
+*   **Datos faltantes:** No se dispone del *Operating Cash Flow* ni *Free Cash Flow* actualizados para el año 2026 (solo hasta el cierre de 2025), ni de datos específicos sobre transacciones de *insiders* recientes en este reporte.
+
+#### 5. Conclusión
+IAG.MC muestra fundamentos sólidos, con una deuda bajo control y una valoración técnica y por múltiplos (PER) atractiva en relación con sus comparables. La confirmación del dividendo es un factor de soporte para el accionista, aunque el contexto de inflación elevada y los posibles retos en el sector aéreo exigen cautela.
+
+**Rating**: HOLD (basado en el consenso de mercado y el reciente rally bursátil que acerca al valor a sus objetivos).
+
+FINAL TRANSACTION PROPOSAL: No trade execution suggested; maintain current position if existing, await price consolidation near the 5.00 EUR support level for potential entry.
+
+---
+
+### Resumen de Datos Clave (IAG.MC)
+
+| Indicador | Valor / Dato |
 | :--- | :--- |
-| **Precio Actual** | 5,408 EUR |
-| **PER Forward** | 7,18x |
-| **Capitalización** | 23.433 M EUR |
-| **Dividend Yield** | 1,85% |
-| **Deuda Neta/EBITDA** | 0,78x |
-| **Upside Consenso** | +11,03% |
-| **Última Noticia (Fecha)** | RBC recorta beneficios, pero prevé subidas (2026-11-10) |
+| Precio de cierre (13/11/2026) | 5,42 EUR |
+| Capitalización bursátil | 23.485 M€ |
+| PER Forward | 7,19x |
+| Ratio Deuda Neta/EBITDA | 0,78x |
+| Dividend Yield | 1,85% |
+| Potencial (Upside Consenso) | +10,79% |
+| SMA 200 (Media 200 días) | 4,85 EUR |
+| Tendencia (RSI 14) | 64,19 (Alcista) |
 
-**Faltantes de información:** No se dispone del desglose detallado del *free cash flow* ni del flujo operativo proyectado para 2027, lo cual es crítico para modelar el valor intrínseco a largo plazo.
-
-**Rating**: BUY
-
-FINAL TRANSACTION PROPOSAL: Mantener o acumular posiciones largas con objetivo en 6,00 EUR, aprovechando la tendencia alcista sobre las medias móviles, siempre vigilando la evolución de los tipos de interés del BCE.
+*Fuentes: Yahoo Finance (IAG.MC), Bolsamania, El Economista, Estrategias de Inversión (Consultado al 13/11/2026).*

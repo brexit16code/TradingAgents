@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: SCYR.MC muestra fortaleza técnica al cotizar sobre sus medias móviles de 20 y 50 días, pero enfrenta una resistencia clave en la SMA200 (4,36 EUR) y niveles de sobrecompra incipiente en el RSI. Fundamentalmente, la alta ratio de apalancamiento (Deuda Neta/EBITDA de 5,4) en un entorno de tipos de interés restrictivos del BCE justifica cautela. La recomendación de Hold es prudente para evitar comprar en una resistencia técnica mientras la estructura de deuda limita el margen de seguridad.
+**Reasoning**: A pesar de un sólido flujo de caja libre y un atractivo rendimiento por dividendo del 4.71%, el elevado nivel de apalancamiento financiero con una ratio de deuda neta sobre EBITDA de 5.41x en un entorno de tipos restrictivos justifica la cautela. Técnicamente, el precio de 4.25 EUR se mantiene por debajo de la media móvil de 200 sesiones situada en 4.36 EUR, lo que aconseja mantener una postura neutral hasta obtener una confirmación clara de ruptura de dicha resistencia.
 
-**Entry Price**: 4.37
+**Entry Price**: not provided
 
-**Stop Loss**: 3.95
+**Stop Loss**: not provided
 
-**Position Sizing**: Mantener posición actual, no incrementar hasta superar 4,36 EUR
+**Position Sizing**: Posición estándar neutral de 5% de la cartera
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

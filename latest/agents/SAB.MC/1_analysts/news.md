@@ -1,32 +1,37 @@
-### Informe de Análisis: Banco Sabadell (`SAB.MC`)
+**Rating**: HOLD
 
-**Resumen Ejecutivo**
-Banco Sabadell (`SAB.MC`) muestra un comportamiento bursátil sólido, con una rentabilidad del 41.74% en los últimos 252 días, situándose significativamente por encima de sus medias móviles de 50 y 200 días. A fecha de 12 de noviembre de 2026, la acción cotiza a 3.75 EUR, con una tendencia alcista apoyada por señales técnicas positivas (RSI de 62.69). No obstante, el consenso de analistas sugiere un limitado potencial de revalorización con una previsión de retorno negativo del -2.28% respecto al precio objetivo medio (3.66 EUR).
+**Análisis Macroeconómico y de Mercado para Banco Sabadell (`SAB.MC`)**
 
-#### Análisis Macroeconómico y Entorno de Mercado
-El contexto macroeconómico en España y la Eurozona está marcado por una inflación persistente, reportada cercana al 5% en España (Finanzas.com, 08/11/2026), lo que ha provocado tensiones en las políticas del Banco Central Europeo (BCE). Existe una notable divergencia entre "halcones" y "palomas" en el BCE (El Español, 07/11/2026) sobre la senda de los tipos de interés. El mercado descuenta actualmente subidas hacia el 3% para combatir la inflación (Moncloa.com, 05/11/2026), un escenario que suele beneficiar el margen de intereses de la banca, aunque añade presión sobre la solvencia de los prestatarios.
+### 1. Contexto Macroeconómico Global y Regional (Zona Euro / España)
+Las noticias recientes de mediados de noviembre de 2026 sitúan el foco en la persistencia de las presiones inflacionistas en Europa. Destacan titulares como *"La inflación de la zona euro en el 4% inhabilita moderar el alza de tipos"* (*El Economista*, 13-11-2026) y la constatación de que *"La inflación se enquista al 5% en España"* (*Finanzas.com*, 08-11-2026). Este escenario de inflación elevada y tipos de interés reales negativos impacta en el comportamiento del ahorro y en la política monetaria del Banco Central Europeo (BCE), dificultando una relajación monetaria rápida. Por otro lado, el selectivo español muestra resiliencia, con el Ibex 35 recuperando los 20.000 puntos a mediados de noviembre.
 
-#### Análisis Financiero de `SAB.MC`
-*   **Valoración:** La entidad cotiza con un PER forward de 11.31, frente a una mediana del sector de 10.74, lo que sugiere una valoración ligeramente premium (ratio 1.05). Su ratio Precio/Valor Contable es de 1.47, reflejando una valoración superior a su valor en libros.
-*   **Rentabilidad y Solvencia:** El ROE se sitúa en el 8.90%. Aunque el beneficio neto cayó ligeramente de 1,826 M€ (2024) a 1,775 M€ (2025), el margen de beneficio sigue siendo robusto (41.57%).
-*   **Deuda y Flujos:** El balance muestra una reducción de deuda total (de 32,366 M€ en 2024 a 22,534 M€ en 2025). Sin embargo, la volatilidad en el flujo de caja operativo es notable, con un reporte de -11,063 M€ en 2024, lo que requiere un análisis más detallado de sus partidas no monetarias y provisiones bancarias (datos de `cashflow` proporcionados).
+### 2. Fundamentos Financieros y Situación de `SAB.MC`
+Banco de Sabadell, S.A. (`SAB.MC`) opera en el sector financiero como un banco diversificado cotizado en la bolsa de Madrid (`MCE`). A partir de los datos suministrados:
+* **Precio de Cotización y Datos Técnicos**: Cierre en **3.75 EUR** (a fecha 13-11-2026), con una rentabilidad a 1 año (`return252_pct`) del **45.31%**. El RSI de 14 sesiones se sitúa en **62.28**, reflejando un tono moderadamente alcista sin llegar a condiciones extremas de sobrecompra. Su media móvil de 200 días (`sma200`) se encuentra en **3.15 EUR**, por debajo de la cotización actual, confirmando la tendencia de fondo positiva.
+* **Valoración y Múltiplos**: 
+  * Capitalización bursátil: ~17.565 millones de EUR.
+  * PER histórico/trailling: **15.0x**, con un PER adelantado (*forward PE*) estimado en **11.26x**.
+  * Ratio Precio/Valor en Libros (*Price-to-Book*): **1.47x** (con un valor en libros por acción de 2.56 EUR).
+  * Dividend Yield: **1.86%** (dividendo de 0.07 EUR por acción, con un *payout ratio* del 28.51%).
+* **Resultados Financieros**:
+  * En el ejercicio cerrado a 31-12-2025, el banco reportó unos ingresos totales (*Total Revenue*) de **4.883 millones de EUR** y un beneficio neto (*Net Income*) de **1.775 millones de EUR**, mostrando una ligera contracción frente a los 5.141 millones de ingresos y 1.827 millones de beneficio neto de 2024.
+  * Los activos totales alcanzan los **245.392 millones de EUR** a finales de 2025, con unos fondos propios (*Stockholders Equity*) de **14.047 millones de EUR**.
 
-#### Opinión de Mercado
-El sentimiento es mixto. Mientras *Estrategias de Inversión* (11/11/2026) destaca una nueva señal de compra técnica tras una subida del 8%, analistas citados por *Yahoo* (10/11/2026) han mostrado una postura más cautelosa, prefiriendo otras entidades del sector bancario español frente a Sabadell.
+### 3. Sentimiento de Analistas y Noticias Específicas
+El consenso de analistas mantiene una opinión mixta sobre el sector bancario español. Informes recientes (por ejemplo, recogidos por *Yahoo* el 10-11-2026) señalan diferencias de potencial entre entidades, posicionando a competidores como Santander con mayor favor frente a Sabadell y Unicaja en ciertas valoraciones de analistas. El precio objetivo medio de consenso para `SAB.MC` se sitúa en **3.67 EUR** (con un rango entre 2.30 EUR y 4.50 EUR aportado por 20 analistas), lo que implica que la cotización actual (3.75 EUR) se encuentra ligeramente por encima de dicha media de consenso (con un potencial de retorno implícito de **-2.18%**).
 
-#### Evidencia y Datos Faltantes
-*   **Soporte:** Los datos financieros, técnicos y de prensa fueron proporcionados en el snapshot del 12/11/2026.
-*   **Limitaciones:** Los datos de flujo de caja libre y operativo muestran fluctuaciones extremas que son típicas de cambios contables en el sector financiero, pero faltan notas explicativas detalladas sobre estas variaciones. No se dispone de modelos internos de valoración (DCF) ni análisis de sensibilidad ante tipos de interés específicos.
+### 4. Evidencia Científica, Fuentes y Datos Faltantes
+* **Fuentes y Fechas Clave**: Datos de cotización y técnicos extraídos de Yahoo Finance para `SAB.MC` a fecha **13-11-2026**. Titulares macroeconómicos de la semana del 08 al 13 de noviembre de 2026 (*El Economista*, *Finanzas.com*, *Estrategias de Inversión*).
+* **Datos Faltantes**: No se dispone de estimaciones de EBITDA ni flujos de caja operativos normalizados para bancos (dado que las métricas de EBITDA no son aplicables a entidades financieras bajo normas estándar de análisis bancario). Tampoco se dispone de un portfolio de inversión precargado.
 
-| Métrica | Valor / Nota |
-| :--- | :--- |
-| **Precio Actual** | 3.75 EUR |
-| **Consenso Analistas** | 3.66 EUR (Objetivo Medio) |
-| **Ratio P/E (Forward)** | 11.31 |
-| **Rentabilidad 252 días** | 41.74% |
-| **RSI (14 días)** | 62.69 (Neutral/Alcista) |
-| **Dividend Yield** | 1.86% |
+| Concepto / Métrica | Valor Actual / Dato | Observaciones / Referencia Temporal |
+| :--- | :--- | :--- |
+| **Ticker y Mercado** | `SAB.MC` (MCE) | Banco Sabadell, S.A., Sector Financiero / Bancos |
+| **Precio de Cierre** | 3.75 EUR | A fecha 13-11-2026 |
+| **PER Adelantado (*Forward PE*)** | 11.26x | Basado en estimaciones de beneficio por acción (*forward EPS* de 0.33 EUR) |
+| **Precio a Valor en Libros (P/B)** | 1.46x | Sobre un valor contable por acción de 2.56 EUR |
+| **Beneficio Neto (2025)** | 1.775.411.000 EUR | Estados financieros anuales cerrados a 31-12-2025 |
+| **Objetivo de Consenso** | 3.67 EUR | Media de 20 analistas (Upside implícito: -2.18%) |
+| **Inflación Zona Euro / España** | ~4% / ~5% | Destacado en prensa macroeconómica (Noviembre 2026) |
 
-**Rating**: REVIEW
-
-FINAL TRANSACTION PROPOSAL: The evidence suggests a hold/review status. While technical indicators are strong, the current price exceeds the analyst consensus mean target, suggesting limited near-term upside. Investors should monitor BCE interest rate decisions as the primary driver for net interest margin stability.
+FINAL TRANSACTION PROPOSAL: HOLD

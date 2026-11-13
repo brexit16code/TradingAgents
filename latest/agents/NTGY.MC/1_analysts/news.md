@@ -1,39 +1,68 @@
-### Informe de Análisis: Naturgy Energy Group, S.A. (NTGY.MC)
+**Rating**: REVIEW
 
-**Fecha de análisis:** 12 de noviembre de 2026
+**Análisis Fundamental, Técnico y Macroeconómico de Naturgy Energy Group, S.A. (`NTGY.MC`)**
 
-#### 1. Contexto Macroeconómico
-El entorno macroeconómico actual, tal como se desprende de los titulares proporcionados, está fuertemente condicionado por la **persistencia de la inflación en España**, que se sitúa cerca del 5% (Finanzas.com, 2026-11-08). Esta situación ha llevado al Banco Central Europeo (BCE) a mantener una política monetaria restrictiva, con expectativas de subidas de tipos de interés hacia el 3% (MONCLOA.COM, 2026-11-05). La tensión entre los sectores "paloma" y "halcón" dentro del BCE añade incertidumbre sobre la trayectoria futura de los costes financieros, un factor crítico para una empresa intensiva en capital como Naturgy.
-
-#### 2. Análisis de NTGY.MC
-Naturgy muestra una posición técnica sólida, operando por encima de sus medias móviles de 20, 50 y 200 sesiones, con una tendencia alcista a 252 días (+18.6%). La acción cotiza a 30,66 EUR, mostrando una rentabilidad por dividendo atractiva del 7,92%, lo cual es consistente con su perfil de utility regulada.
-
-*   **Fundamentos:**
-    *   **Valoración:** El ratio P/E (Forward) de 14,19x sitúa a la compañía ligeramente por debajo de la mediana del sector (16,51x), sugiriendo una valoración atractiva en términos relativos.
-    *   **Deuda y Solvencia:** El ratio Net Debt/EBITDA de 2,42x es manejable para un sector regulado. Sin embargo, el aumento de los tipos de interés globales representa un riesgo para el refinanciamiento de su deuda total de 17.310 millones de EUR.
-    *   **Desempeño:** Los ingresos han mostrado resiliencia (19.455 M EUR en 2025), aunque el beneficio neto ha fluctuado históricamente. El flujo de caja operativo (4.525 M EUR en 2025) cubre adecuadamente los gastos de capital (CapEx de 2.149 M EUR).
-
-#### 3. Perspectiva Estratégica
-El mercado descuenta un potencial de subida moderado (+2,01%) basado en el precio objetivo promedio de 31,28 EUR. La principal ventaja competitiva de NTGY.MC reside en su dividendo elevado y su posición en el mercado regulado de gas. No obstante, los inversores deben vigilar de cerca la presión inflacionaria sobre los costes operativos y la política de tipos del BCE, que podría impactar en el servicio de su deuda. La comparación con Enagás (Estrategias de Inversión, 2026-11-10) subraya la importancia de la eficiencia operativa y el apalancamiento como diferenciadores clave en el Ibex 35.
-
-#### 4. Limitaciones de los datos
-*   No se dispone de datos de flujo de caja operativo o libre para el año en curso (2026) en los estados financieros proporcionados.
-*   No se dispone de proyecciones detalladas de crecimiento de beneficios (Earnings Growth).
-*   La información de mercado se limita a instantáneas, por lo que no sustituye el análisis de informes trimestrales en tiempo real.
+### 1. Resumen de la Identidad y Entorno de Mercado
+* **Empresa**: Naturgy Energy Group, S.A. (`NTGY.MC`)
+* **Sede y Mercado**: Bolsas y Mercados Españoles (MCE), cotizada en EUR, índice de referencia `^IBEX`.
+* **Sector y Negocio**: Utilities / Utilities - Regulated Gas.
+* **Fecha de Análisis**: 13 de noviembre de 2026.
 
 ---
 
-### Resumen de Puntos Clave
+### 2. Análisis Técnico (`NTGY.MC`)
+* **Precio de Cierre (13/11/2026)**: 31.02 EUR
+* **Variación Reciente**: Cambio positivo del +1.17% en la sesión, con una rentabilidad a 21 sesiones de +4.30% y a 252 sesiones de +21.49%.
+* **Indicadores de Momento y Tendencia**:
+  * **RSI (14)**: 67.19 (cercano a niveles de sobrecompra, indicando fortaleza alcista reciente).
+  * **MACD**: 0.27 (por encima de su línea de señal en 0.15, sugiriendo sesgo alcista).
+  * **Medias Móviles**: El precio cotiza claramente por encima de su SMA20 (29.78 EUR), SMA50 (29.30 EUR) y SMA200 (27.19 EUR), confirmando una estructura de tendencia alcista consolidada.
+  * **Volatilidad (15.62%)** y **Drawdown (0.0%)**: Demuestran estabilidad en la cotización y mínimos riesgos recientes de corrección profunda.
 
-| Indicador | Valor / Estado | Impacto para el Inversor |
+---
+
+### 3. Análisis Fundamental y Financiero
+* **Capitalización de Mercado**: ~28.740 millones de EUR.
+* **Valoraciones (PER y Múltiplos)**:
+  * **Trailing P/E**: 14.36x | **Forward P/E**: 14.35x.
+  * **Ratio PER Relativo**: 0.85 frente a la mediana del sector (16.98x), lo que indica una valoración moderadamente atractiva en comparación con sus pares (peers: `ANE.MC`, `ENG.MC`, `ELE.MC`, `IBE.MC`, `RED.MC`, `SLR.MC`).
+  * **EV/EBITDA**: 8.35x.
+  * **Price to Book**: 3.42x (con un valor en libros por acción de 9.08 EUR).
+* **Solidez Financiera y Deuda**:
+  * Deuda Total: ~16.747 millones de EUR (cierre 2025).
+  * Efectivo Total: ~4.841 millones de EUR.
+  * **Ratio Deuda Neta / EBITDA**: 2.42x, un nivel manejable y prudente para una utility regulada.
+* **Rentabilidad y Dividendos**:
+  * **Dividend Yield**: 7.64% - 7.73% (con un dividendo por acción de 2.37 EUR y un ratio de pay-out del 75.92%).
+  * **ROE (Return on Equity)**: 23.70%, reflejando una excelente eficiencia en la generación de valor para los accionistas.
+* **Consenso de Analistas**:
+  * Precio objetivo medio (`targetMeanPrice`): 31.28 EUR (frente al precio actual de 31.02 EUR, lo que arroja un potencial alcista de consenso muy ajustado del +0.83%).
+  * Rango de precios objetivo: Desde un mínimo de 24.30 EUR hasta un máximo de 35.50 EUR, con 18 opiniones de analistas.
+
+---
+
+### 4. Contexto Macroeconómico e Incidencias Recientes
+* **Inflación y Tipos de Interés en la Eurozona**: Las noticias recientes de mediados de noviembre de 2026 señalan una inflación persistente en la eurozona (en torno al 4%-5% en España según fuentes como *El Economista* y *Finanzas.com*), lo que mantiene un escenario de tipos reales negativos y complica cualquier expectativa de moderación agresiva en los tipos del BCE. Esto castiga el ahorro tradicional pero favorece a valores refugio defensivos con alta rentabilidad por dividendo como las utilities.
+* **Comportamiento del Mercado**: El Ibex 35 se mantiene oscilando cerca de la cota psicológica de los 20.000 puntos (con reportes de jornadas mixtas entre valores como Acciona, Repsol e Indra). 
+* **Noticias Corporativas**: `NTGY.MC` mantiene el foco de atención de los inversores minoristas (ej. análisis de retornos y calendarios de dividendos publicados en plataformas como *Rankia* y *Estrategias de Inversión*).
+
+---
+
+### 5. Datos Faltantes y Limitaciones
+* No se dispone de flujos de caja operativos ni libres actualizados en los campos de resumen directo, limitando el análisis exhaustivo de la conversión de efectivo a corto plazo.
+* Faltan datos desagregados de probabilidad de eventos futuros específicos en mercados de predicción (prediction markets) para este activo en particular.
+
+---
+
+### Tabla Resumen
+
+| Métrica / Concepto | Valor Actual | Comentario / Implicación |
 | :--- | :--- | :--- |
-| Precio Actual | 30,66 EUR | Tendencia alcista estable |
-| Dividend Yield | 7,92% | Elevado, atractivo para renta |
-| Ratio P/E (Forward) | 14,19x | Valoración competitiva vs pares |
-| Deuda Neta/EBITDA | 2,42x | Solvencia controlada |
-| Riesgo Macroeconómico | Inflación ~5% / Tipos al 3% | Presión en costes financieros |
-| Consenso Analista | 31,28 EUR | Potencial limitado (+2,01%) |
+| **Precio de Cierre (`NTGY.MC`)** | 31.02 EUR | Tendencia alcista sostenida por encima de las medias móviles clave (SMA20/50/200). |
+| **PER (Trailing / Forward)** | ~14.36x / 14.35x | Descuento moderado frente a la mediana de sus pares sectoriales (~16.98x). |
+| **Dividend Yield** | ~7.64% | Atractivo flujo de rentabilidad por dividendo para carteras de retorno. |
+| **Deuda Neta / EBITDA** | 2.42x | Estructura de apalancamiento saludable y controlada dentro del sector de gas regulado. |
+| **Consenso de Analistas (Upside)** | 31.28 EUR (+0.83%) | Escaso margen de subida teórica adicional frente al precio actual de mercado. |
+| **Entorno Macroeconómico** | Inflación eurozona ~4-5% | Tipos de interés altos persistentes; refuerza el atractivo defensivo de las utilities. |
 
-**Rating**: HOLD (Debido a la proximidad al precio objetivo del consenso y la incertidumbre inflacionaria).
-
-FINAL TRANSACTION PROPOSAL: N/A (Solo análisis).
+FINAL TRANSACTION PROPOSAL: REVIEW

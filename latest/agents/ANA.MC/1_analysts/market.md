@@ -1,30 +1,34 @@
-El análisis técnico y fundamental de **Acciona, S.A. (ANA.MC)**, con fecha de corte al 12 de noviembre de 2026, refleja una situación de equilibrio delicado en un entorno macroeconómico complejo caracterizado por presiones inflacionarias persistentes en la Eurozona.
+El análisis de **Acciona, S.A. (`ANA.MC`)** al cierre del 13 de noviembre de 2026 revela una situación técnica y fundamental compleja, marcada por un notable pesimismo en el mercado tras los recientes eventos corporativos.
 
 ### Análisis Técnico
-A un precio de cierre de **220,60 EUR**, el valor cotiza muy cerca de su media móvil de 200 sesiones (**224,52 EUR**), lo que sugiere una fase de consolidación a largo plazo. 
-*   **Tendencia:** Con un RSI14 de **58,55**, el activo muestra un impulso moderadamente alcista pero lejos de zonas de sobrecompra. El MACD (**2,30**) se encuentra por encima de su señal (**0,94**), lo que valida una recuperación técnica reciente respaldada por retornos positivos en los últimos 21 y 63 días (4,65% y 4,75% respectivamente).
-*   **Volatilidad:** La volatilidad anualizada del 30,30% indica una acción que requiere una gestión de riesgo estricta, especialmente considerando que el activo se encuentra un 20,72% por debajo de sus máximos históricos recientes, evidenciando una recuperación tras un periodo de corrección significativo.
+Acciona muestra una debilidad técnica significativa. Con un precio de cierre de **203.0 EUR**, el valor ha experimentado un desplome del **7.98%** en la sesión, situándose por debajo de sus medias móviles de corto (SMA20: 211.57), medio (SMA50: 211.01) y largo plazo (SMA200: 224.64). Esta alineación bajista (el precio cotiza por debajo de las tres medias) sugiere una tendencia negativa consolidada.
 
-### Análisis Fundamental y Valoración
-*   **Rentabilidad y Deuda:** La estructura financiera es el punto crítico de atención. Con una relación **Net Debt/EBITDA de 6,14x**, Acciona opera con una carga de deuda elevada, típica del sector de infraestructura y energía, pero que limita su flexibilidad en un entorno de tipos de interés que el mercado descuenta al alza (hasta el 3% según el contexto macro).
-*   **Valoración:** La acción cotiza a un **PER Forward de 20,10x**, lo que, al compararlo con la mediana de sus pares (18,10x), sugiere una prima de valoración del 11% (**ratio 1,11**). Aunque el beneficio por acción (EPS) esperado es de 10,98 EUR, el flujo de caja libre negativo (-722,75M EUR en la última medición anualizada) subraya la alta intensidad de capital requerida para sus proyectos actuales.
-*   **Dividendos:** Ofrece una rentabilidad por dividendo del 2,61%, aunque su ratio de pago (payout) superior al 166% indica que el dividendo actual está ejerciendo una presión importante sobre sus beneficios contables.
+El RSI(14) en **41.52** indica que, aunque el activo ha sufrido una caída drástica, aún no ha entrado en territorio de sobreventa extrema (<30), lo que sugiere que podría haber espacio para mayor presión vendedora. El MACD (1.12) se encuentra ligeramente por encima de su línea de señal (0.97), pero la volatilidad implícita del 34.33% refleja un mercado altamente errático.
 
-### Perspectiva de Mercado
-El contexto macroeconómico (noticias de prensa del 5 al 12 de noviembre de 2026) señala una inflación enquistada en España y una política monetaria del BCE que apunta a subidas de tipos. Para una empresa con una deuda neta de más de 14.000 millones de EUR, este entorno de costes financieros crecientes supone un riesgo directo para sus márgenes.
+### Análisis Fundamental y Contexto de Mercado
+La caída bursátil se explica principalmente por la reacción del mercado a dos noticias críticas reportadas el 13 de noviembre de 2026:
+1.  **Transferencia de capital:** El préstamo de 500 millones de euros a su filial energética ha generado incertidumbre sobre la liquidez y la estructura de capital del grupo.
+2.  **Retraso en desinversiones:** La posposición de activos desinvertibles altera las expectativas de reducción de deuda, en un contexto donde el *net debt/EBITDA* ya alcanza un nivel elevado de **6.14x**.
 
-| Indicador / Métrica | Valor / Estado | Observación |
+Aunque el *forward PE* de **18.45x** parece razonable frente a la mediana de sus pares (**18.10x**), la firma enfrenta márgenes de beneficio estrechos (**1.64%**) y un flujo de caja libre negativo de **-722.75 millones de euros** (basado en el último periodo anual completo), lo que complica la sostenibilidad de su dividendo, cuyo *payout ratio* actual es del **166.66%**, indicando que la empresa está pagando más de lo que genera en beneficios netos.
+
+### Riesgos y Conclusión
+La combinación de una estructura de capital apalancada, un flujo de caja presionado por fuertes inversiones (CAPEX) y la reciente preocupación por el apoyo financiero a su filial ha provocado una salida de inversores. La recomendación de consenso tiene un precio objetivo medio de **219.41 EUR**, lo que sugiere un potencial de revalorización del **8.08%** desde el cierre actual, aunque este objetivo podría ser revisado a la baja por los analistas ante las noticias de hoy.
+
+**Datos faltantes:** No se dispone del detalle del vencimiento de la deuda a corto plazo ni de la composición exacta de los covenants bancarios, lo cual es crucial dado el nivel de apalancamiento.
+
+| Indicador / Métrica | Valor | Observación |
 | :--- | :--- | :--- |
-| Precio Actual | 220,60 EUR | Cercano a media de 200 sesiones |
-| RSI (14) | 58,55 | Impulso moderado |
-| Net Debt/EBITDA | 6,14x | Nivel de deuda elevado |
-| PER Forward | 20,10x | Prima del 11% vs sector |
-| Consenso Analistas | 219,41 EUR | Neutral (Upside -0,54%) |
-| SMA 200 | 224,52 EUR | Resistencia técnica clave |
+| Precio Actual | 203.0 EUR | Caída del 7.98% |
+| RSI (14) | 41.52 | Pendiente bajista |
+| SMA 200 | 224.64 EUR | Resistencia mayor a largo plazo |
+| Net Debt / EBITDA | 6.14x | Nivel de apalancamiento elevado |
+| Forward EPS | 11.00 EUR | Estimación de beneficio futuro |
+| Yield de Dividendo | 2.61% | Rentabilidad actual |
 
-**Conclusión:** La recomendación es de **HOLD** (mantener). El valor se encuentra en una zona técnica neutral. Es prudente esperar a que el precio confirme una ruptura sostenida por encima de los 225 EUR (media de 200 sesiones) antes de buscar mayores exposiciones, dado el entorno de tipos de interés desfavorables para empresas altamente apalancadas.
+**Rating**: Neutral
+FINAL TRANSACTION PROPOSAL: Hold
 
-**Rating**: HOLD
-FINAL TRANSACTION PROPOSAL: Neutral/Hold - Reevaluar si el precio rompe al alza la media de 200 días con mayor volumen.
-
-*Nota: La información ha sido extraída de los datos proporcionados con fecha 2026-11-12. No se dispone de datos sobre movimientos institucionales recientes o cambios específicos en la política de deuda post-cierre de 2025.*
+*Fuentes consultadas:*
+- Yahoo Finance: [ANA.MC Quote](https://finance.yahoo.com/quote/ANA.MC/) y [Financials](https://finance.yahoo.com/quote/ANA.MC/financials/).
+- Noticias: [El Confidencial](https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMVlIQ3NaaHFTd1ZwdC12Qk5WQjBHaWpuVXhMT0dUX2xHV3Z6dUFhcEt3MUxVcWxteGhCU0EtQ1BSSlk3LUV6Q2s4eVNNYkJ1TU5SVWU1SnBlUU55ZzZOQ09hSmFTNm16bUc1UUI5M1VXbkJvYm9tUGhrVmp4aFBPbjJRWmhNMEV6U2NfMEpaQXdzS3FvaVlDSzlsUC1mbkhPNFNXd0hJWDRDV2E3VV9oaUEzTDNRV09EeXpza3ZsMzI?oc=5) y [Bolsamania](https://news.google.com/rss/articles/CBMivgFBVV95cUxNQ2F2YzJaVnB3blVybW5pLTFyeTljRFh4U1EzbzF2MURiWjFuajJwcmEtbHRMS21mYkRUSENYR3ZzLWxvZndaNU14RW1JWU9TdlZwcmZldnFjU0xhR3BhSlh3YV9rNzJ3cEpoZE9KbURoQW9mNTNzTnBHLWdRWDNQdnV2SU9uOVRYRF92NGlkMGtobkMzdW54T3RKNU82VTduUm1jdzUwak1nUmx0U0dYSVhfREczN1lETVRCWC130gHDAUFVX3lxTE01MzVaYzRtaWtaZGJKV3ZvZFdKTVNKVDVGWlVZUlpQckxlVkttenV6TUstSm5Nb2hxWV83Q1d1QkkwQ0c5bE1telBKMkdYY1lVdXdyeEc1YlNmckN6Rm9aQ1FfbHQ2cERaRTVwUTViMDFpcGwyb3piWlA3dkVaZHJnNW1BN0NPcThDalRHTlFhd0MtWlUwSy11TTVnMjFmZnRiUUQ1aVBjQWpLamh1dlFMNzBKZEZfcEJTRXBjanJTRU9hZw?oc=5) (13/11/2026).

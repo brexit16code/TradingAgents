@@ -1,33 +1,46 @@
-Informe de Análisis: **BKT.MC** (Bankinter, S.A.)
-Fecha del informe: 12 de noviembre de 2026
+**Rating**: REVIEW
 
-### 1. Resumen de la Situación del Mercado y Contexto Macroeconómico
-El entorno macroeconómico en España se caracteriza actualmente por una presión inflacionaria persistente. Según fuentes de *Finanzas.com* (08/11/2026), la inflación en España se sitúa en niveles del 5%, con preocupaciones sobre la trayectoria futura. Este contexto ha influido en la política monetaria del BCE; según *Investing.com* (06/11/2026) y *Moncloa.com* (05/11/2026), el mercado descuenta subidas de tipos hacia el 3%, impulsadas por preocupaciones de la presidenta Lagarde sobre el posible impacto de la energía y la IA en la estabilidad de precios. La pugna interna en el BCE (entre "halcones" y "palomas") sigue generando incertidumbre sobre la velocidad y profundidad de estos ajustes (ver *El Español*, 07/11/2026).
+Análisis financiero, macroeconómico y bursátil para **BKT.MC** (Bankinter, S.A.) con fecha de corte al 13 de noviembre de 2026.
 
-### 2. Análisis de Bankinter (BKT.MC)
-**Fundamentos y Desempeño:**
-*   **Valoración:** La acción cotiza a 14,78 EUR, con un ratio Precio/Valor Contable (P/B) de 1,98. Su PER *trailing* es de 11,73x, mientras que el PER *forward* es de 10,16x.
-*   **Rentabilidad y Dividendos:** Bankinter mantiene una política de dividendos atractiva con un *yield* del 4,19% y un *payout ratio* del 49,01%, lo que indica sostenibilidad en los pagos a los accionistas dentro del contexto de un beneficio neto en crecimiento (1.089 M€ en 2025 vs 952 M€ en 2024).
-*   **Análisis Técnico:** El precio se encuentra cerca de su media móvil de 200 días (14,79 EUR), actuando como un soporte clave. El RSI de 49,3 indica una posición neutral, mientras que el MACD (-0,19) se sitúa por encima de su señal (-0,34), sugiriendo un momentum ligeramente positivo tras el reciente *drawdown* del 12,8%.
+---
 
-**Noticias Corporativas Recientes:**
-La actividad de la entidad en los últimos días ha estado centrada en su rol como analista de mercado, destacando mejoras en las valoraciones de empresas como Iberdrola y Apple, y expresando optimismo sobre el sector tecnológico tras las sorpresas en el segmento de la IA (CoreWeave), según *Bolsamania* (11/11/2026).
+### 1. Resumen de la Situación Actual y Datos de Mercado
+* **Precio de cierre actual:** 14.64 EUR (al 13 de noviembre de 2026), experimentando una caída diaria del -0.98% y una rentabilidad a 63 sesiones del -12.46% (rendimiento relativo de -12.89 pp frente al índice de referencia ^IBEX).
+* **Valor de Mercado (Market Cap):** ~13,156.9 millones de EUR.
+* **Indicadores de Valoración:** 
+  * PER histórico (*trailing PE*): 11.62x
+  * PER estimado (*forward PE*): 10.07x
+  * Precio sobre Valor en Libros (*Price to Book*): 1.96x
+  * Rentabilidad por dividendo (*dividend yield*): ~4.23% (dividendo de 0.62 EUR con un *payout ratio* de 49.01%).
+* **Rentabilidad y Solvencia:** ROE del 17.64% y márgenes de beneficio neto elevados del 41.13%. 
+* **Consenso de Analistas:** El precio objetivo medio (*target mean price*) se sitúa en 16.79 EUR, con un rango que va desde los 10.3 EUR (mínimo) hasta los 22.5 EUR (máximo) y una recomendación de consenso que implica un potencial alcista (*consensus upside*) del ~14.68% sobre el precio actual.
 
-### 3. Evidencia y Riesgos
-*   **Argumentos a favor:** Sólido crecimiento en ingresos (5,5% anual), rentabilidad sobre fondos propios (ROE) robusta del 17,6% y consenso de mercado que apunta a un potencial alcista del 13,77% (precio objetivo medio de 16,82 EUR).
-*   **Argumentos en contra:** El flujo de caja libre (Free Cash Flow) mostró un resultado negativo de -766 M€ en 2025 frente a los 1.790 M€ del año anterior, lo cual requiere seguimiento detallado. Además, el entorno de tipos de interés altos aumenta el riesgo de crédito y la morosidad a largo plazo.
+### 2. Contexto Macroeconómico e Informes de Actualidad
+Los flujos de noticias recientes muestran un escenario de tensiones inflacionarias en la eurozona, donde se reporta que la inflación se mantiene alrededor del 4% - 5%, complicando la moderación en la senda de tipos de interés por parte del BCE ("*La inflación de la zona euro en el 4% inhabilita moderar el alza de tipos*", *El Economista*, 13-11-2026; *Finanzas.com*, 08-11-2026). Esto impacta directamente en el sector financiero y en el ahorro de los hogares europeos en un entorno de tipos reales negativos (*Estrategias de Inversión*, 13-11-2026). 
 
-### 4. Datos Faltantes
-No se dispone de datos actualizados sobre el coste del riesgo (CoR) específico del último trimestre de 2026, ni el desglose del *Net Interest Margin* (NIM) bajo este nuevo escenario de tipos de interés del 3% descontado por el mercado.
+Por otro lado, el departamento de análisis de **BKT.MC** mantiene actividad en la recomendación y actualización de precios objetivos de valores internacionales y nacionales (ej. revisiones alcistas para Iberdrola y Apple, y perspectivas sobre el sector tecnológico tras noticias de CoreWeave, según recogidas de *Bolsamania* y *MarketScreener España* del 11 de noviembre de 2026).
 
-| Indicador | Valor / Dato |
-| :--- | :--- |
-| **Precio Actual** | 14,78 EUR |
-| **Consenso Precio Objetivo** | 16,82 EUR |
-| **Upside Potencial** | 13,77% |
-| **Dividend Yield** | 4,19% |
-| **ROE** | 17,64% |
-| **Soporte/Resistencia Clave** | ~14,50 EUR (SMA 20) |
+### 3. Análisis Técnico
+* **Medias Móviles:** La cotización (14.64 EUR) se encuentra operando ligeramente por encima de su media móvil de 20 sesiones (14.47 EUR), pero por debajo de su media de 50 sesiones (15.47 EUR) y de su media de 200 sesiones (14.79 EUR), lo que refleja una fase de consolidación correctiva a medio plazo.
+* **Osciladores:** RSI de 14 períodos en 46.80 (zona neutral, sin sobreventa ni sobrecompra). MACD en -0.18 con su señal en -0.31, sugiriendo una presión bajista que comienza a desacelerarse.
+* **Volatilidad y Drawdown:** Volatilidad del 26.28% y un *drawdown* actual del -13.65% desde sus máximos recientes.
 
-**Rating**: HOLD
-FINAL TRANSACTION PROPOSAL: No action recommended until the resolution of the ECB's rate stance at the next monetary policy meeting to assess the impact on the bank's net interest margin.
+### 4. Evidencia Faltante y Limitaciones
+* No se dispone de datos detallados de flujo de caja operativo actualizados para el último trimestre (los estados de flujo de caja muestran cifras negativas anómalas en 2025 que requieren auditoría interna o desglose adicional).
+* Faltan probabilidades cuantitativas de mercados de predicción en tiempo real sobre decisiones monetarias futuras específicas del BCE.
+
+---
+
+### Resumen Estructurado (Tabla Clave)
+
+| Concepto / Métrica | Valor Actual / Dato | Comentario / Implicación |
+| :--- | :--- | :--- |
+| **Ticker y Empresa** | `BKT.MC` (Bankinter, S.A.) | Entidad bancaria regional cotizada en Madrid (MCE). |
+| **Precio de Cierre** | 14.64 EUR (-0.98%) | Ligera corrección técnica en el corto plazo. |
+| **Valoración (P/E)** | Forward P/E: 10.07x | Alineado y ligeramente inferior a la mediana de sus pares comparables. |
+| **Rentabilidad Financiera** | ROE: 17.64% | Sólida capacidad de generación de beneficios sobre recursos propios. |
+| **Dividendo** | 4.23% (Payout: 49.01%) | Atractivo retorno por dividendo para carteras de renta variable. |
+| **Consenso de Analistas** | Precio Objetivo: 16.79 EUR | Potencial alcista estimado del ~14.68% según 22 opiniones. |
+| **Entorno Macro** | Inflación Eurozona ~4-5% | Presiona los tipos de interés y condiciona los márgenes de intermediación. |
+
+FINAL TRANSACTION PROPOSAL: HOLD

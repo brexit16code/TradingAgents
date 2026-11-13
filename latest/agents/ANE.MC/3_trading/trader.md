@@ -1,11 +1,11 @@
 **Action**: Sell
 
-**Reasoning**: La valoración actual de ANE.MC es excesiva con un Forward PE de 29,5x frente a la mediana sectorial de 16,5x, lo que junto a un flujo de caja libre negativo y una ratio de deuda neta sobre EBITDA de 5,06x, presenta riesgos financieros considerables. La falta de crecimiento en ingresos y la alta sensibilidad a los tipos de interés en un entorno de inflación persistente justifican reducir la exposición, especialmente al cotizar cerca de la resistencia clave de su media móvil de 200 días en 21,85 EUR.
+**Reasoning**: El activo cotiza por debajo de sus principales medias móviles (SMA20, SMA50 y SMA200), reflejando una fuerte presión vendedora que se tradujo en una caída del 6,89% hasta los 20,26 EUR. La combinación de un flujo de caja libre negativo recurrente, un apalancamiento neto elevado en 5,06x EBITDA y un entorno macroeconómico de tipos altos en la eurozona justifican la infraponderación y la ejecución de ventas parciales para mitigar el riesgo de balance.
 
-**Entry Price**: 21.76
+**Entry Price**: 20.26
 
-**Stop Loss**: 22.05
+**Stop Loss**: 21.85
 
-**Position Sizing**: Reducir la posición en un 50% de la tenencia actual.
+**Position Sizing**: Reducir la exposición un 50% respecto a la asignación estándar de la cartera hipotética.
 
 FINAL TRANSACTION PROPOSAL: **SELL**

@@ -1,11 +1,11 @@
-**Action**: Hold
+**Action**: Sell
 
-**Reasoning**: La acción presenta una divergencia significativa entre su tendencia técnica alcista, con precios sobre todas las medias móviles, y una clara sobrecompra con un RSI de 75,56. La alta presión bajista institucional y una valoración que supera el precio objetivo medio del consenso (-5,63% de potencial bajista) sugieren cautela, a pesar de la solidez del rating BBB+. Es prudente mantener la posición actual para capturar el dividendo del 5,58% mientras se espera una consolidación técnica del precio.
+**Reasoning**: La recomendación del plan de investigación es Underweight, respaldada por fundamentales frágiles que incluyen un flujo de caja libre drásticamente reducido, un apalancamiento elevado de 6,15x Deuda Neta/EBITDA y una cotización de 18.40 EUR que supera el precio objetivo de consenso de 17.18 EUR. Dado que el RSI de 14 se encuentra en sobrecompra extrema (79.01) y la acción cotiza por encima de la media del consenso, resulta estratégico reducir exposición y evitar nuevas compras a estos niveles.
 
-**Entry Price**: 17.15
+**Entry Price**: not provided
 
-**Stop Loss**: 16.3
+**Stop Loss**: not provided
 
-**Position Sizing**: Mantener exposición actual; evitar incrementar tamaño hasta una corrección hacia la media de 200 días.
+**Position Sizing**: Reducir la posición actual de forma gradual según la directriz de subponderación (Underweight).
 
-FINAL TRANSACTION PROPOSAL: **HOLD**
+FINAL TRANSACTION PROPOSAL: **SELL**

@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La acción se encuentra en una fase de consolidación técnica por debajo de sus medias móviles de 20 y 50 días, reflejando el actual sentimiento bajista del mercado. Aunque el balance es extremadamente sólido con una posición de caja neta envidiable, el flujo de caja libre negativo y la incertidumbre macroeconómica en España sugieren cautela, invalidando una compra en este nivel de precio. La estrategia es esperar a que el precio confirme soporte sobre los 55,64 EUR o rompa al alza la resistencia de la SMA 50 en 60,75 EUR para mejorar el perfil de riesgo-retorno.
+**Reasoning**: La acción de IDR.MC se encuentra en una fase de consolidación técnica crítica, cotizando por debajo de sus medias móviles de corto plazo (SMA20 y SMA50) pero manteniendo el soporte estructural de la SMA200 en 55,69 EUR. Fundamentalmente, aunque el ROE es sólido, el flujo de caja libre negativo y el entorno macroeconómico de alta inflación en la Eurozona sugieren prudencia. Dado que el RSI está en terreno neutral y no hay un momentum direccional claro, se justifica una postura de espera hasta observar una superación consistente de la resistencia en 61,25 EUR o una confirmación de soporte en los niveles de la media de 200 días.
 
-**Entry Price**: not provided
+**Entry Price**: 61.25
 
-**Stop Loss**: 55.64
+**Stop Loss**: 55.6
 
-**Position Sizing**: Mantener exposición actual, sin añadir nuevas posiciones.
+**Position Sizing**: Mantener posición existente; evitar incremento de cartera hasta confirmación de ruptura técnica alcista.
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

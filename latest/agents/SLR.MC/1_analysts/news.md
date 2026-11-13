@@ -1,34 +1,38 @@
-Informe de Análisis: Solaria Energía y Medio Ambiente, S.A. (`SLR.MC`)
+Este informe analiza la situación actual de **Solaria Energía y Medio Ambiente, S.A. (`SLR.MC`)** basándose en los datos fundamentales, técnicos y macroeconómicos proporcionados con fecha de corte al 13 de noviembre de 2026.
 
-### Análisis Situacional y Macroeconómico
-A fecha de 12 de noviembre de 2026, el mercado español se enfrenta a un entorno macroeconómico complejo caracterizado por una inflación "enquistada" en el 5% en España (Fuente: Finanzas.com, 08/11/2026). La política monetaria del BCE sigue bajo presión, con expectativas de mercado que descuentan subidas de tipos hacia el 3% ante la preocupación de que factores como la energía y la IA desanclen los precios (Moncloa.com, 05/11/2026).
+### Análisis Fundamental y Operativo
+Solaria opera en un sector con alta intensidad de capital (Utilities - Renewable). A pesar de una tasa de crecimiento de ingresos del 38,8% y de beneficios del 44,4%, la empresa enfrenta presiones significativas en su generación de caja: el flujo de caja libre (*free cash flow*) es negativo (-437,97 millones de EUR), lo que refleja una fuerte inversión en CAPEX necesaria para su expansión.
 
-### Análisis de `SLR.MC`
-`SLR.MC` muestra un comportamiento bursátil volátil, con una caída del 1,48% en la última sesión, situándose en 16,35 EUR. A pesar de la presión bajista y el interés de los vendedores en corto (CapitalMadrid, 09/11/2026), la acción ha sido protagonista en el IBEX 35 recientemente (Yahoo, 09/11/2026), lo que sugiere una alta sensibilidad a las noticias del sector renovable.
+*   **Solidez Financiera:** Presenta una relación Deuda Neta/EBITDA de 4,14x. Si bien es aceptable en el sector de renovables, el elevado apalancamiento (Deuda total de 1.559 millones de EUR frente a una capitalización de 2.073 millones) la hace sensible al entorno de tipos de interés.
+*   **Valoración:** El ratio PER (Forward) es de 9,25x, lo cual es inferior a la mediana de sus pares (16,98x), sugiriendo un descuento por valoración relativo. Sin embargo, el consenso de analistas sitúa el precio objetivo medio en 22,39 EUR, lo que implica un potencial de revalorización teórico del 42,17% sobre el precio de cierre de 15,75 EUR.
 
-**Fundamentos y Valoración:**
-*   **Valoración:** Cotiza a un PER *trailing* de 8,75x y un *forward* de 9,61x. Con un ratio respecto a sus pares de 0,58, el mercado percibe una infravaloración relativa.
-*   **Salud Financiera:** La empresa presenta un crecimiento robusto de ingresos (+38,8%) y beneficios (+44,4%), aunque el flujo de caja libre es negativo (-437,97M EUR) debido a la intensidad de capital necesaria para su expansión (CAPEX de -398,26M EUR en 2025).
-*   **Riesgo:** El ratio de deuda neta/EBITDA de 4,14x es un punto de atención crítica en un entorno de tipos de interés al alza, lo que explica en parte la presión sobre sus acciones.
+### Análisis Técnico
+El valor muestra una tendencia bajista a largo plazo, cotizando por debajo de su media móvil de 200 días (19,56 EUR), aunque se sitúa ligeramente por encima de su media de 20 días (15,40 EUR). El RSI (49,22) indica una zona neutral, sin sobrecompra ni sobreventa evidente. La volatilidad del 52,94% subraya el perfil de riesgo elevado del activo, habiendo sufrido un *drawdown* del 38,83% desde sus máximos.
 
-**Evidencia Contradictoria y Apoyo:**
-*   **A favor:** Los analistas mantienen un objetivo de precio medio de 22,39 EUR, lo que implica un potencial alcista del 36,9%. Existe consenso sobre el rol estratégico de las renovables.
-*   **En contra:** La elevada presión bajista reportada en la prensa financiera de la última semana y la deuda neta elevada son señales de precaución que contrarrestan el atractivo por valoración.
+### Entorno Macroeconómico
+El contexto actual es desafiante para el sector de renovables:
+1.  **Inflación:** La inflación en la zona euro se sitúa en el 4% (El Economista, 13/11/2026), lo que dificulta que el BCE modere las tasas de interés.
+2.  **Presión en el Ibex:** `SLR.MC` ha sido protagonista en el mercado español, liderando tanto subidas en el Ibex 35 como siendo el centro de presiones bajistas, lo que explica la alta volatilidad reciente reportada por *Estrategias de Inversión* (08/11/2026 y 09/11/2026).
+
+### Evidencia Contradictoria y Riesgos
+*   **A favor:** La valoración por múltiplos es atractiva frente a los pares (PER 9,25x vs 16,98x) y el crecimiento operativo es sólido. Existe un catalizador potencial relacionado con el desarrollo de centros de datos.
+*   **En contra:** La elevada presión de posiciones bajistas (short selling) y la dificultad para generar flujo de caja positivo en un entorno de tipos de interés que no terminan de descender son riesgos claros para la cotización a corto plazo.
 
 ### Datos Faltantes
-*   No disponemos de proyecciones específicas sobre el coste de financiación de la deuda para 2027 bajo el escenario de tipos al 3%.
-*   Falta información sobre el *pipeline* de proyectos futuros que justifiquen el CAPEX negativo sostenido.
+*   No se dispone de un detalle preciso sobre la estructura de vencimientos de la deuda de `SLR.MC`.
+*   No se dispone de proyecciones sobre el impacto específico de cambios regulatorios recientes en el mercado eléctrico español.
 
-### Resumen de Mercado (Tabla)
-
-| Indicador / Punto Clave | Valor / Estado | Nota |
-| :--- | :--- | :--- |
-| **Precio Acción (`SLR.MC`)** | 16,35 EUR | Tendencia volátil, -1,48% en sesión |
-| **Consenso Precio Objetivo** | 22,39 EUR | Upside potencial del 36,9% |
-| **Ratio Net Debt/EBITDA** | 4,14x | Nivel a vigilar por tipos de interés |
-| **Contexto Inflación ES** | 5,0% | Presión macro persistente |
-| **Sentimiento Prensa** | Mixto/Bajista | Fuerte actividad de cortos en el sector |
+---
 
 **Rating**: REVIEW
 
-FINAL TRANSACTION PROPOSAL: No trade execution; monitor high debt levels against rising interest rate environment before reconsidering technical entry.
+FINAL TRANSACTION PROPOSAL: N/A (Investment analysis provided for research purposes only).
+
+| Indicador / Punto Clave | Valor / Estado | Fuente / Observación |
+| :--- | :--- | :--- |
+| Precio Cierre (`SLR.MC`) | 15,75 EUR | Snapshot 2026-11-13 |
+| PER (Forward) | 9,25x | Infravalorada vs. Peers (16,98x) |
+| Deuda Neta/EBITDA | 4,14x | Apalancamiento moderado-alto |
+| Tendencia Técnica | Bajista (SMA200: 19,56) | Por debajo de la media de 200 días |
+| Potencial Consenso | +42,17% | Basado en precio objetivo medio |
+| Contexto Macro | Inflación Zona Euro 4% | Limita la flexibilidad del BCE |

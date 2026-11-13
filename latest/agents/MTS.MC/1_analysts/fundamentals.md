@@ -1,35 +1,40 @@
-Este informe presenta un análisis fundamental de **ArcelorMittal (MTS.MC)**, líder mundial en la industria siderúrgica y minera, basado en los datos proporcionados al 12 de noviembre de 2026.
+A continuación presento el informe fundamental de **ArcelorMittal (MTS.MC)**, basado en la información financiera y de mercado recopilada a fecha de 13 de noviembre de 2026.
 
-### Perfil y Desempeño Reciente
-ArcelorMittal, que cotiza en la bolsa española y forma parte del IBEX 35, ha experimentado una atención significativa por parte de los medios en la última semana, destacando su comportamiento técnico y su capacidad para liderar los avances del mercado español hacia los 20.000 puntos. A pesar de una reciente caída en sus beneficios reportados a septiembre, el mercado ha reaccionado con optimismo, reflejando una resiliencia inusual ante la desaceleración de sus resultados netos.
+### Informe Fundamental: ArcelorMittal (MTS.MC)
 
-### Análisis Financiero
-*   **Resultados y Rentabilidad**: Según el estado de resultados, la empresa reportó ingresos de 61.352 millones de EUR en 2025, comparado con los 62.441 millones de 2024. El EBITDA ha mostrado una mejora, pasando de 6.057 millones en 2024 a 7.124 millones en 2025. Sin embargo, los márgenes de beneficio neto son estrechos (1,64%).
-*   **Valoración**: El mercado cotiza a un *Forward PE* de 10,63x, lo que sugiere una valoración más atractiva si se cumplen las proyecciones de beneficios (5,53 EUR por acción). La relación precio-valor contable (*Price-to-Book*) de 0,92 indica que la acción cotiza ligeramente por debajo de su valor contable, lo cual suele ser una señal de valor.
-*   **Estructura de Capital**: Con una deuda total de 13.565 millones de EUR y una relación *Net Debt/EBITDA* de 2,08x, la empresa mantiene un nivel de apalancamiento manejable para el sector.
-*   **Flujo de Caja**: El flujo de caja libre es una preocupación destacada, reportando -802,88 millones de EUR (TTM). Aunque los estados anuales muestran cifras positivas en años anteriores (471M en 2025), la tendencia actual sugiere presiones en la generación de efectivo libre.
+#### 1. Perfil y Situación de Mercado
+ArcelorMittal es un referente global en el sector de materiales básicos (acero). A fecha de 13 de noviembre de 2026, la acción cotiza a **57,02 EUR**. El valor presenta una volatilidad del 32,98% y un rendimiento anual del 69,96%, destacando su fortaleza a largo plazo a pesar de la corrección reciente del 3,03% en la última sesión y una caída del 15,38% desde sus máximos.
 
-### Contexto Macroeconómico
-La compañía opera bajo un entorno de incertidumbre inflacionaria en España (cercana al 5%) y presiones sobre las tasas de interés por parte del BCE. La noticia de una posible alza en los tipos de interés al 3% crea un entorno de costes financieros más elevados, lo cual es un factor de riesgo directo para una empresa intensiva en capital como ArcelorMittal.
+#### 2. Análisis Financiero
+*   **Rentabilidad y Valoración:** La compañía presenta un *Forward PE* de 10,31x, que sugiere una valoración más atractiva en comparación con el *Trailing PE* de 48,32x, lo que implica una expectativa de mejora en los resultados futuros. El *Price-to-Book* de 0,89x indica que la acción cotiza por debajo de su valor contable, lo cual podría señalar una infravaloración por parte del mercado.
+*   **Deuda y Solidez:** Con una deuda total de 13,56 mil millones de EUR y una relación *Net Debt/EBITDA* de 2,08x, la situación financiera se mantiene bajo control, aunque el flujo de caja libre es negativo (-802,87 millones de EUR), lo que refleja una presión continua por inversiones intensivas en capital (CapEx).
+*   **Resultados Históricos:** Los ingresos se han mantenido relativamente estables (61,35 mil millones de EUR en 2025 vs 62,44 mil millones en 2024), con un margen de beneficio neto bajo (1,64%), típico en este sector industrial cíclico.
 
-### Información Faltante
-*   No se dispone de un desglose detallado de los gastos operativos específicos por segmento geográfico en los datos proporcionados.
-*   No hay información pública sobre transacciones recientes de *insiders* (compra/venta de directivos) en la base de datos suministrada para este análisis.
+#### 3. Perspectivas y Noticias Recientes
+El mercado ha mostrado un optimismo reciente relacionado con la ruptura técnica de niveles de resistencia. Según noticias de *Estrategias de Inversión* (10 y 11 de noviembre), el valor ha sido protagonista en el impulso del IBEX 35 hacia los 20.000 puntos. No obstante, el entorno macroeconómico es desafiante, con una inflación en la zona euro situada en el 4%, lo que limita la capacidad del BCE para relajar las condiciones financieras (El Economista, 13 de noviembre).
 
-### Perspectivas para Traders
-*   **Argumentos a favor**: La acción ha perforado resistencias técnicas importantes recientemente y cuenta con un momentum positivo en el mercado local. Su baja ratio P/B sugiere un potencial de revalorización si el sector siderúrgico se estabiliza.
-*   **Argumentos en contra**: La caída del 70,8% en beneficios interanuales reportada a septiembre plantea dudas sobre la sostenibilidad del crecimiento. El flujo de caja libre negativo (TTM) es una alerta roja para los inversores orientados a dividendos o valor.
+#### 4. Riesgos y Observaciones
+*   **Flujo de caja:** La transición a flujos de caja operativos positivos y sostenibles es clave, dada la elevada dependencia de CapEx.
+*   **Consenso de analistas:** Existe una divergencia moderada con un precio objetivo medio de 59,10 EUR, lo que representa un potencial alcista cercano al 3,65% frente al precio actual.
+*   **Datos faltantes:** No se dispone del crecimiento de beneficios (Earnings Growth) para el ejercicio actual, lo que limita la capacidad de proyectar el crecimiento orgánico a corto plazo.
+
+**Rating**: REVIEW
+
+### Resumen de Datos Clave
 
 | Indicador | Valor |
 | :--- | :--- |
-| Capitalización de mercado | 44.213 M EUR |
-| Precio actual | 58,80 EUR |
-| Forward PE | 10,63 |
-| P/B Ratio | 0,92 |
-| Rentabilidad por dividendo | 0,92% |
-| Net Debt/EBITDA | 2,08x |
-| Precio Objetivo (Media) | 59,10 EUR |
+| Precio Actual | 57,02 EUR |
+| Capitalización Bursátil | 42,88 mil millones EUR |
+| Forward PE | 10,31x |
+| Price-to-Book | 0,89x |
+| Net Debt / EBITDA | 2,08x |
+| Dividend Yield | 0,92% |
+| Consenso Precio Objetivo | 59,10 EUR |
+| SMA 200 | 55,67 EUR |
 
-**Rating**: HOLD
+***
 
-FINAL TRANSACTION PROPOSAL: Neutral (Wait for stabilization of FCF trends).
+*Nota: Este análisis se basa en datos históricos y de mercado proporcionados. No constituye asesoramiento financiero ni recomendación de inversión. Las decisiones deben tomarse considerando el perfil de riesgo individual.*
+
+FINAL TRANSACTION PROPOSAL: No trade permitted.

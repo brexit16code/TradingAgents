@@ -1,34 +1,84 @@
-Análisis detallado de **FER.MC** (Ferrovial) a fecha de 12 de noviembre de 2026.
+**Rating**: REVIEW
 
-### Análisis Técnico
-El comportamiento de **FER.MC** muestra una clara tendencia alcista de corto plazo, evidenciada por un RSI(14) en **81.39**, lo que técnicamente sitúa al valor en terreno de **sobrecompra**. El precio actual de 55.40 EUR se encuentra por encima de sus medias móviles de 50 sesiones (47.44) y 200 sesiones (54.28), lo que confirma una estructura de mercado alcista.
+**FINAL TRANSACTION PROPOSAL:** HOLD
 
-El MACD (2.30) se sitúa por encima de su señal (1.48), validando el impulso positivo, aunque la velocidad del avance reciente (retorno a 21 días del 24.65%) sugiere una aceleración que suele preceder a periodos de consolidación o corrección técnica, dado que el valor ha superado su media de 200 días.
+### Informe de Análisis Técnico y Fundamental: Ferrovial N.V. (`FER.MC`)
 
-### Fundamentos y Valoración
-Ferrovial presenta un perfil complejo:
-*   **Valoración:** Con un PER adelantado de 48.01 frente a una mediana del sector de 18.09, la acción cotiza con una prima significativa (ratio 2.65x). Esto indica que el mercado está descontando expectativas de crecimiento futuro muy optimistas.
-*   **Deuda y Solvencia:** El ratio de *net debt/EBITDA* de 4.38 sugiere un apalancamiento que requiere vigilancia, especialmente en un contexto de tipos de interés que, según los titulares macroeconómicos (ej. Investing.com, 2026-11-06), enfrentan presiones al alza por parte del BCE.
-*   **Dividendos:** Ofrece una rentabilidad por dividendo del 3.52%, lo cual es atractivo en el sector industrial, aunque su *payout ratio* del 71.2% limita el margen de maniobra para incrementos significativos a corto plazo.
+#### 1. Contexto de Mercado e Identidad de la Empresa
+* **Ticker:** `FER.MC` (Ferrovial N.V.)
+* **Negocio / Sector:** Industriales / Ingeniería y Construcción
+* **Bolsa / Divisa:** Madrid (MCE) / EUR
+* **Fecha de Referencia:** 13 de noviembre de 2026
+* **Precio de Cierre Actual:** 55.62 EUR (+0.40% en la sesión, según datos de Yahoo Finance con fecha `2026-11-13`).
+* **Entorno Macroeconómico Reciente:** El contexto europeo muestra presiones inflacionarias persistentes en la eurozona (con datos de inflación rondando el 4% al 5% a finales de 2026, según titulares de *El Economista* y *Finanzas.com* del 13 de noviembre de 2026), lo que limita las expectativas de moderación en los tipos de interés y mantiene los rendimientos de los bonos elevados (aspecto citado por RBC en su nota de ajuste de precio objetivo para `FER.MC` el 13 de noviembre de 2026).
 
-### Contexto Macroeconómico
-Los datos sugieren un entorno de inflación persistente en España cercana al 5% (Finanzas.com, 2026-11-08) y una política monetaria restrictiva por parte del BCE. Estas condiciones suelen presionar los márgenes de las empresas de infraestructuras debido a los costes de capital asociados al servicio de la deuda (10.65 mil millones de EUR en deuda total).
+---
 
-### Resumen de hallazgos
-*   **Fortalezas:** Sólido impulso alcista, rentabilidad por dividendo estable y posición de liderazgo en el sector.
-*   **Riesgos:** Sobrecompra técnica (RSI > 80), valoración muy exigente (PER forward 48x) y entorno macroeconómico de tipos altos que penaliza la estructura de deuda.
+#### 2. Análisis Técnico
+El comportamiento técnico de `FER.MC` revela una fortaleza de corto plazo muy acusada, aunque con señales claras de sobrecompra que exigen cautela:
+* **RSI (14):** Se sitúa en un nivel extremadamente elevado de **81.83**, lo que denota una fuerte condición de sobrecompra (`rsi14` en snapshot). 
+* **Medias Móviles:**
+  * **SMA 20:** 49.48 EUR.
+  * **SMA 50:** 47.57 EUR.
+  * **SMA 200:** 54.28 EUR.
+  * *Observación:* El precio actual (55.62 EUR) cotiza por encima de todas sus medias móviles principales (SMA 20, SMA 50 y SMA 200), confirmando una tendencia alcista tanto a corto como a largo plazo. La media de 20 sesiones ha experimentado una fuerte pendiente ascendente, impulsada por un retorno a 21 días del **30.77%**.
+* **MACD y Momentum:**
+  * **MACD:** 2.42
+  * **MACD Signal:** 1.68
+  * *Observación:* El indicador MACD se encuentra claramente por encima de su línea de señal, respaldando el impulso alcista actual.
+* **Volatilidad y Drawdown:**
+  * **Volatilidad (30 días anualizada):** 30.08%
+  * **Drawdown actual:** -9.65% respecto a máximos recientes.
 
-**Missing Data:** No se dispone de desglose pormenorizado de los contratos de concesión específicos para el ejercicio 2027, lo cual es crítico para validar si el flujo de caja operativo (2.48 mil millones de EUR) será suficiente para cubrir la intensidad de capital necesaria sin incrementar la deuda.
+---
 
-| Indicador | Valor | Interpretación |
-| :--- | :--- | :--- |
-| Precio Actual | 55.40 EUR | Tendencia alcista |
-| RSI (14) | 81.40 | Sobrecompra (Atención) |
-| SMA 200 | 54.29 | Soporte clave a largo plazo |
-| PER Forward | 48.01 | Valoración premium |
-| Dividend Yield | 3.52% | Atractivo |
-| Net Debt/EBITDA | 4.38 | Apalancamiento moderado-alto |
+#### 3. Análisis Fundamental y Valoración
+* **Capitalización de Mercado:** ~39.970 millones de EUR.
+* **Métricas de Valoración:**
+  * **Trailing P/E:** 35.65x
+  * **Forward P/E:** 47.83x
+  * **Price to Book (P/B):** 7.01x
+  * **EV/EBITDA:** 31.28x
+* **Datos Financieros (Ejercicio 2025):**
+  * **Ingresos Totales:** 9.627 millones de EUR (crecimiento interanual de ingresos del 5.2%).
+  * **EBITDA:** 1.998 millones de EUR (comparado con 4.539 millones en 2024, año que incluyó efectos extraordinarios/contables destacados en los estados financieros).
+  * **Net Income:** 888 millones de EUR.
+  * **Deuda Total y Neta:** Deuda total de 10.657 millones de EUR frente a un efectivo de 3.864 millones de EUR. El ratio de **Net Debt / EBITDA** se sitúa en **4.39x**, un nivel considerable que refleja la intensidad de capital propia del sector de infraestructuras y concesiones.
+* **Dividendos:**
+  * **Dividend Yield:** 3.51% (Dividend rate de 1.95 EUR, payout ratio de ~71.2%).
+* **Consenso de Analistas:**
+  * **Precio Objetivo Medio (Target Mean Price):** 59.95 EUR (con un rango entre 48.50 EUR y 80.00 EUR basado en 20 opiniones de analistas).
+  * **Upside Potencial Consenso:** 7.78% sobre el precio de cierre actual de 55.62 EUR.
+  * *Nota de Analystas:* Recientemente (13 de noviembre de 2026), entidades como RBC han ajustado ligeramente su precio a 
+  `FER.MC` debido al repunte en las rentabilidades de los bonos soberanos.
 
-**Rating**: Neutral
+---
 
-FINAL TRANSACTION PROPOSAL: Mantener posiciones existentes; evitar compras en los niveles actuales debido al estado de sobrecompra técnica y la valoración excesiva. Se recomienda esperar una corrección hacia la media de 50 días (47.44 EUR) para evaluar puntos de entrada más seguros.
+#### 4. Selección de Indicadores Técnicos Clave (Requerimiento Metodológico)
+De acuerdo con las directrices de selección de indicadores no redundantes para la estrategia de seguimiento, se han identificado los siguientes 7 parámetros principales sobre la base de los datos de `FER.MC`:
+1. `close_50_sma` (Tendencia a medio plazo).
+2. `close_200_sma` (Tendencia a largo plazo y soporte estructural).
+3. `close_10_ema` (Captura de giros rápidos de momentum).
+4. `macd` (Diferencial de impulso y cruces de tendencia).
+5. `macds` (Línea de señal MACD para confirmación de entradas).
+6. `rsi` (Medición de niveles extremos de sobrecompra/sobreventa).
+7. `atr` (Medida de volatilidad absoluta para dimensionamiento de riesgo y stop-loss).
+
+---
+
+#### 5. Evidencia Contaria y Factores de Riesgo
+* **Sobrecompra Técnica:** Un RSI en 81.83 advierte de un agotamiento potencial del movimiento alcista a corto plazo, incrementando el riesgo de una corrección técnica o consolidación lateral.
+* **Valoración exigiva:** Un Forward P/E de 47.83x y un EV/EBITDA superior a 31x indican que el mercado ya está descontando unas expectativas de crecimiento muy ambiciosas.
+* **Macro y Tipos de Interés:** Un entorno de inflación en la eurozona alrededor del 4-5% y tipos de interés altos penalizan las valoraciones por descuento de flujos de caja en empresas de infraestructuras con deuda significativa (Net Debt/EBITDA de 4.39x).
+
+---
+
+#### 6. Tabla Resumen Clave
+
+| Categoría | Métrica / Indicador | Valor / Dato | Implicación Operativa |
+| :--- | :--- | :--- | :--- |
+| **Precio y Mercado** | Cierre `FER.MC` | 55.62 EUR | Cotiza en la parte alta de su rango reciente, tras una subida mensual del 30.77%. |
+| **Tendencia Técnica** | SMA 20 / SMA 50 / SMA 200 | 49.48 / 47.57 / 54.28 EUR | Alineación alcista de medias móviles; la cotización se mantiene por encima de todas ellas. |
+| **Momentum / Sobrecompra** | RSI (14) | 81.83 | Zona de sobrecompra muy clara; sugiere prudencia ante posibles recortes de corto plazo. |
+| **MACD** | MACD / MACD Signal | 2.42 / 1.68 | Impulso alcista vigente, aunque pendiente de confirmación de convergencia. |
+| **Valoración Fundamental** | Forward P/E / Trailing P/E

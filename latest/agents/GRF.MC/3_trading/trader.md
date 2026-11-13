@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La acción presenta una tendencia alcista sólida y un respaldo institucional creciente; sin embargo, el RSI de 81,01 indica una sobrecompra extrema que sugiere un alto riesgo de corrección técnica inminente. El elevado nivel de endeudamiento (5,04x EBITDA) y la sensibilidad a los tipos de interés hacen que una entrada a 11,66 EUR sea imprudente, siendo preferible esperar un retroceso hacia niveles de soporte más estables como la media móvil de 20 periodos.
+**Reasoning**: La acción GRF.MC muestra una fuerte inercia alcista de corto plazo apoyada por un sólido flujo de caja y un atractivo forward PE, con un potencial de consenso del 30% hacia los 15.19 EUR. Sin embargo, el RSI en 80.47 refleja una sobrecompra extrema y la ratio de deuda neta sobre EBITDA de 5.04x exige cautela en un entorno de tipos elevados. Por estas razones, se recomienda mantener la posición sin realizar nuevas compras hasta que el precio consolide y retroceda hacia soportes técnicos más sólidos.
 
-**Entry Price**: 10.82
+**Entry Price**: not provided
 
-**Stop Loss**: 9.68
+**Stop Loss**: not provided
 
-**Position Sizing**: Mantener posición actual, no exceder el 2-3% de la cartera en caso de una nueva entrada tras corrección.
+**Position Sizing**: Mantener posición actual sin ampliaciones
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

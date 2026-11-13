@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La tendencia alcista es clara al cotizar sobre las medias móviles de 50 y 200 días, pero los indicadores de momentum muestran señales de agotamiento con un RSI en 66.08. Dada la valoración premium y el margen de subida limitado según el consenso de analistas, es prudente mantener la posición actual sin incrementar la exposición hasta que se produzca una consolidación técnica o un retroceso hacia niveles de soporte más atractivos.
+**Reasoning**: La cotización de ITX.MC se sitúa en 59.64 EUR, muy cerca del precio objetivo medio del consenso de analistas (60.39 EUR), lo que deja un potencial alcista muy limitado a corto plazo. Aunque los fundamentos y la estructura técnica son sólidos, con caja neta y un ROE del 36.82%, la valoración es exigente (Trailing P/E de 28.95x) y el RSI en 65.78 advierte de posibles correcciones tras la reciente subida. Por tanto, se recomienda mantener la postura actual y evitar nuevas compras hasta que una consolidación mejore la relación de riesgo.
 
 **Entry Price**: not provided
 
-**Stop Loss**: 54.67
+**Stop Loss**: not provided
 
-**Position Sizing**: Mantener exposición actual; evitar nuevas compras.
+**Position Sizing**: not provided
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

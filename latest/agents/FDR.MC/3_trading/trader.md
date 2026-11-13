@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: Fluidra (FDR.MC) se encuentra en una fase de consolidación técnica crítica, cotizando en 19,42 EUR, justo por debajo de la resistencia clave de la SMA200 (19,52 EUR). Aunque el valor fundamental es atractivo con un Forward PE de 12,42x y un sólido dividendo, el entorno macroeconómico con inflación del 5% en España y el apalancamiento operativo limitan el potencial alcista a corto plazo. Es prudente esperar a una ruptura confirmada del nivel de 19,52 EUR antes de aumentar la exposición.
+**Reasoning**: La cotización actual de 19,44 EUR se encuentra en un nivel técnico crítico, enfrentando la resistencia de la media móvil de 200 sesiones situada en 19,49 EUR. Aunque la valoración por múltiplos (Forward PE 12,42x) y el dividendo ofrecen soporte fundamental, el apalancamiento financiero de la compañía en un entorno de inflación persistente y tipos de interés altos justifica una postura prudente de espera hasta que se confirme una ruptura al alza consolidada.
 
-**Entry Price**: 19.53
+**Entry Price**: 19.5
 
-**Stop Loss**: 18.15
+**Stop Loss**: 18.2
 
-**Position Sizing**: 0.5% del portafolio
+**Position Sizing**: Mantener posición actual, sin exceder una exposición del 3-5% del portafolio al sector de consumo cíclico.
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

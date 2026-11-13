@@ -1,32 +1,40 @@
-### Informe de Situación: Endesa, S.A. (ELE.MC)
+### Informe de Análisis: Endesa, S.A. (ELE.MC)
 
-**Resumen Ejecutivo**
-A fecha de 12 de noviembre de 2026, **ELE.MC** muestra un desempeño sólido en el mercado bursátil español, cotizando a 45,25 EUR. La compañía ha superado recientemente las expectativas de resultados, lo que ha impulsado revisiones al alza por parte de analistas. Sin embargo, el contexto macroeconómico en España presenta desafíos significativos, caracterizados por una inflación persistente ("enquistada") en torno al 5%, lo que presiona las decisiones de política monetaria del Banco Central Europeo (BCE).
+**Fecha:** 13 de noviembre de 2026
 
-**Análisis Fundamental y Técnico**
-*   **Valoración:** Con un PER adelantado (forward PE) de 18,68 y una capitalización de mercado de 45,9 mil millones de EUR, Endesa cotiza con una prima del 13% sobre la mediana de sus comparables del sector (*peer median forward PE* de 16,5). El ratio precio/valor contable (*price-to-book*) es de 5,90, lo que refleja una valoración exigente.
-*   **Resultados:** La compañía ha reportado una mejora en su EBITDA (5,31 mil millones de EUR en 2025 frente a 4,95 mil millones en 2024) y mantiene un flujo de caja operativo resiliente (4,05 mil millones en 2025).
-*   **Momento Técnico:** El activo muestra una tendencia alcista clara, situándose por encima de sus medias móviles de 20, 50 y 200 días. El RSI (65,96) indica una posición cercana a la zona de sobrecompra, sugiriendo cautela en el corto plazo a pesar de la tendencia positiva.
-*   **Sentimiento del Mercado:** Las noticias recientes (Bolsamania, 9 de noviembre) destacan un nuevo precio objetivo de 46,50 EUR tras batir previsiones. Bankinter subraya su "propuesta de valor atractiva", apoyada por una rentabilidad por dividendo del 3,54%.
+#### 1. Resumen Ejecutivo y Estado de Mercado
+El entorno macroeconómico actual, caracterizado por una inflación persistente en la zona euro (reportada en el 4% según *El Economista* el 13/11/2026) y tipos reales negativos, presiona la valoración de las *utilities*. Endesa (ELE.MC) muestra un comportamiento técnico robusto, cotizando a 45,99 EUR, con una tendencia alcista significativa (+50,4% en el último año). Sin embargo, el consenso de analistas sugiere una sobrevaloración con respecto a sus objetivos de precio (consenso: 36,69 EUR, indicando un *downside* potencial del -20,2%).
 
-**Contexto Macroeconómico**
-El panorama macro es complejo. España enfrenta una inflación del 5% (*Finanzas.com*, 8 de noviembre), lo que complica la gestión de costes operativos y la capacidad de gasto de los consumidores. El BCE, bajo la presión de una posible alza de tipos (hacia el 3% según el mercado, *Moncloa.com*, 5 de noviembre), genera incertidumbre. Esta política monetaria restrictiva es un arma de doble filo para una *utility* regulada como Endesa: aunque protege márgenes regulados, aumenta el coste de su deuda total (11,9 mil millones de EUR).
+#### 2. Análisis Fundamental
+*   **Valoración:** Con un PER *trailing* de 19,32 y un PER *forward* de 18,99, Endesa cotiza a múltiplos superiores a la mediana de sus comparables (ratio 1,11). Su ratio Precio/Valor Contable de 5,99 refleja una valoración optimista por parte del mercado, difícil de justificar si el crecimiento de beneficios (-26,7% en el último reporte) no se revierte.
+*   **Salud Financiera:** La empresa mantiene un apalancamiento moderado con un ratio Deuda Neta/EBITDA de 2,10. El flujo de caja libre (FCF) ha mostrado volatilidad (2.207 millones EUR en 2025 vs 1.721 millones en 2024), pero sigue siendo suficiente para sostener su dividendo, que ofrece una rentabilidad del 3,4-3,5%.
+*   **Rendimiento:** El ROE del 27,2% es elevado, pero la rentabilidad sobre la acción ha superado la media del sector, lo que, junto con el RSI de 70,2, sugiere que el activo podría estar en zona de sobrecompra técnica a corto plazo.
 
-**Factores Críticos y Datos Faltantes**
-*   **Datos Faltantes:** No se dispone de un desglose detallado de la exposición a deuda a tipo variable frente a fijo, crucial en un entorno de tipos ascendentes. Tampoco hay datos sobre la sensibilidad específica de sus márgenes ante un escenario de inflación al 5% persistente.
-*   **Riesgos:** La divergencia entre el precio actual (45,25 EUR) y el precio objetivo medio de los analistas (36,69 EUR) es notable, indicando que el mercado está pagando una prima significativa por encima del consenso fundamental, posiblemente anticipando mejores perspectivas de crecimiento o seguridad ante la volatilidad.
+#### 3. Contexto Macroeconómico
+Los titulares actuales destacan:
+*   **Inflación:** El dato del 4% en la Eurozona complica la labor del BCE, impidiendo una bajada de tipos que beneficiaría a las *utilities* intensivas en capital.
+*   **Entorno Ibérico:** España presenta una inflación enquistada (5% según *Finanzas.com*), lo que incrementa el riesgo de costes operativos y presiona al alza los tipos de interés reales, impactando negativamente en el ahorro y el valor de los flujos futuros de caja.
 
-**Tabla Resumen: Indicadores y Perspectiva**
+#### 4. Riesgos y Evidencia Contradictoria
+*   **Argumentos a favor:** Fortaleza operativa (EBITDA de 5.314 millones EUR en 2025), posicionamiento estratégico en la transición energética y una trayectoria alcista sólida en el último año.
+*   **Argumentos en contra:** El consenso de analistas sitúa el precio objetivo muy por debajo de la cotización actual, indicando que el precio ha superado los fundamentales. La inflación elevada es un riesgo persistente para los costes de mantenimiento y las futuras inversiones en infraestructura.
 
-| Indicador | Valor / Estado | Nota |
+#### 5. Datos Faltantes
+*   No se dispone de proyecciones de gasto en inversiones (CapEx) a largo plazo para evaluar el impacto de la descarbonización en el FCF más allá de 2025.
+*   Falta información sobre el impacto específico de posibles regulaciones tarifarias en España ante el entorno inflacionista actual.
+
+---
+
+### Resumen de Puntos Clave
+
+| Indicador | Valor / Dato | Interpretación |
 | :--- | :--- | :--- |
-| **Precio Actual** | 45,25 EUR | Tendencia alcista (SMA 200: 38,25) |
-| **Rentabilidad Dividendo** | 3,54% | Atractiva, payout de 66,5% |
-| **Consenso Analistas** | 36,69 EUR | Upside implícito: -18,9% (Cuidado) |
-| **Inflación España** | ~5% | Presión al alza en costes operativos |
-| **EBITDA (2025)** | 5,31 MMM EUR | Tendencia de mejora desde 2023 |
-| **RSI (14)** | 65,96 | Cercano a zona de sobrecompra |
+| **Precio Actual (ELE.MC)** | 45,99 EUR | Sobrecompra técnica (RSI: 70,2) |
+| **Consenso Precio Objetivo** | 36,69 EUR | Expectativa de corrección (-20,2%) |
+| **Ratio Deuda Neta/EBITDA** | 2,10 | Endeudamiento gestionable |
+| **Dividend Yield** | 3,4-3,5% | Atractivo, pero bajo presión inflacionista |
+| **PER Forward** | 18,98 | Valoración premium frente a peers (16,98) |
 
 **Rating**: REVIEW
 
-FINAL TRANSACTION PROPOSAL: The current market price (45.25 EUR) significantly exceeds the analyst consensus mean target (36.69 EUR), signaling potential overvaluation or high market optimism despite macroeconomic headwinds from persistent 5% inflation. A "hold" or "review" stance is recommended until further clarity on how rising ECB rates (forecast 3%) will impact the net debt profile (currently 2.1x EBITDA). No trade execution is suggested.
+FINAL TRANSACTION PROPOSAL: Mantener una postura de cautela. El precio actual presenta una divergencia importante con el valor fundamental estimado por el consenso de analistas (consenso *downside* > 20%). Se recomienda esperar a una consolidación técnica por debajo de la SMA20 (43,88 EUR) antes de considerar cualquier entrada, dada la sobrecompra actual y los vientos macroeconómicos en contra.

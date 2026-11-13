@@ -1,32 +1,42 @@
-El análisis técnico y fundamental de **IBE.MC (Iberdrola, S.A.)** con fecha de corte al 12 de noviembre de 2026 refleja una situación de fuerte momentum alcista con valoraciones que comienzan a estirarse frente a sus fundamentales.
+**Rating**: NEUTRAL
+FINAL TRANSACTION PROPOSAL: HOLD
 
-### Análisis Técnico
-El precio de cierre se sitúa en **23.34 EUR**, exhibiendo una tendencia alcista consolidada.
-*   **Tendencia:** El precio cotiza significativamente por encima de sus medias móviles de 20, 50 y 200 sesiones (SMA20: 22.22, SMA50: 21.22, SMA200: 20.19), lo que confirma una estructura de mercado alcista a largo plazo.
-*   **Momentum:** El **RSI14 se sitúa en 79.56**, lo cual indica condiciones de **sobrecompra técnica** severa. Si bien esto refleja una fortaleza compradora persistente (mencionada como "fuerte aceleración alcista" en *Estrategias de Inversión* el 12/11/2026), históricamente aumenta la probabilidad de una corrección o consolidación lateral en el corto plazo.
-*   **MACD:** El indicador muestra una configuración alcista (MACD: 0.54 > Signal: 0.46), reforzando la tendencia positiva, aunque la magnitud de la divergencia con la señal sugiere una posible fatiga si no hay nuevo volumen.
+### Informe de Análisis Técnico y Fundamental: Iberdrola (`IBE.MC`)
 
-### Análisis Fundamental
-*   **Valoración:** La compañía cotiza con un *forward P/E* de 20.96 y un *trailing P/E* de 31.54. Comparado con sus pares del sector (media del sector *forward P/E* de 16.51), IBE.MC presenta un ratio de valoración relativa de 1.27, sugiriendo que la acción está cotizando con una prima significativa.
-*   **Consenso:** El precio objetivo medio es de **21.57 EUR**, lo que implica una **desvalorización potencial (upside) negativa del -7.59%** respecto al precio actual. Esto indica que el mercado ha superado las expectativas de los analistas, lo cual es un factor de riesgo relevante para los inversores actuales.
-*   **Rendimiento:** A pesar de una tasa de crecimiento de beneficios negativa (-13.4%), la empresa mantiene una política de dividendos constante (Yield del 2.93%), lo que sigue siendo un pilar para su base de accionistas.
+#### 1. Contexto de Mercado y Estado Actual
+A fecha de 13 de noviembre de 2026, las acciones de **Iberdrola (`IBE.MC`)** cotizan a un precio de cierre de **23,70 EUR**, registrando nuevos máximos históricos y una capitalización bursátil que supera los **158.000 millones de euros** (fuente: *Valencia Plaza*, 13-11-2026). El valor acumula 10 semanas consecutivas de subidas (*El Boletín*, 13-11-2026), impulsado por la presentación de resultados y la mejora de previsiones por parte de entidades como Bankinter (*MarketScreener España*, 11-11-2026). 
 
-### Perspectiva de Mercado y Riesgos
-Las noticias recientes (Bankinter, 11/11/2026) apuntan a mejoras en previsiones tras resultados, lo que ha impulsado el precio. Sin embargo, el entorno macroeconómico en España, con una inflación persistente del 5% y expectativas de subidas de tipos por parte del BCE (noticia del 05/11/2026), crea un entorno desafiante para empresas con niveles de deuda significativos (63.8 mil millones EUR de deuda total). La ratio *Net Debt/EBITDA* de 3.95 requiere vigilancia ante un escenario de tipos de interés más altos por más tiempo.
+No obstante, el contexto macroeconómico europeo presenta desafíos notables, destacando una inflación en la eurozona situada en el **4%** (*El Economista*, 13-11-2026) que complica la moderación en las alzas de tipos de interés del Banco Central Europeo.
 
-### Resumen de Indicadores Clave
+#### 2. Análisis Técnico e Indicadores Seleccionados
+De acuerdo con la instantánea de mercado verificada para `IBE.MC`:
+* **Precio de Cierre**: 23,70 EUR
+* **RSI (14)**: **82,54**, lo que sitúa al valor en una clara condición de **sobrecompra** técnica a corto plazo. A pesar de esto, en tendencias alcistas fuertes los osciladores pueden permanecer en niveles extremos, por lo que requiere cautela.
+* **MACD**: **0,585** frente a una línea de señal (**macds**) de **0,490**, mostrando impulso positivo.
+* **Medias Móviles**: El precio se encuentra holgadamente por encima de sus medias clave: SMA 20 (**22,32 EUR**), SMA 50 (**21,29 EUR**) y SMA 200 (**20,22 EUR**), confirmando una estructura alcista de medio y largo plazo muy sólida.
+* **Volatilidad (13,93%)** y **Drawdown (0,0%)**: Reflejan la ausencia de retrocesos recientes y una estabilidad propia del sector de utilidades diversificadas en fase de expansión alcista.
 
-| Indicador | Valor / Estado | Interpretación |
+#### 3. Análisis Fundamental y Valoración
+* **Capitalización de Mercado**: 157.324.017.664 EUR
+* **PER Trailing**: 32,03x | **PER Forward**: 21,28x
+* **Beneficio por Acción (EPS)**: 0,74 (Trailing) y 1,11 (Forward)
+* **Deuda Neta / EBITDA**: 3,95x (Deuda total de 63.837 millones frente a un EBITDA de 14.494 millones).
+* **Dividend Yield**: 2,91% (con un dividendo de 0,68 EUR y un ratio de pago del 87,06%).
+* **Consenso de Analistas**: El precio objetivo medio se sitúa en **21,57 EUR** (con un rango entre 18,00 EUR y 26,00 EUR y 24 opiniones analíticas), lo que representa una **desventaja estimada (consensus_upside_pct) del -8,99%** respecto al precio actual de 23,70 EUR.
+
+#### 4. Evidencias, Datos Faltantes y Asunciones
+* **Evidencias aportadas**: Datos de Yahoo Finance / instantánea verificada a 13-11-2026. Titulares de prensa de *Valencia Plaza*, *El Boletín*, *Finanzas.com*, *MarketScreener España* y *El Economista*.
+* **Datos faltantes**: El flujo de caja operativo (Operating Cashflow) y el flujo de caja libre (Free Cashflow) específicos del último tramo no están reportados de forma explícita en el vector resumido de la instantánea más allá de los estados históricos anuales cerrados a 2025 (Operating Cash Flow de 11.635M y FCF de 3.317M EUR).
+* **Valoración metodológica**: Las valoraciones por múltiplos sitúan el PER forward de `IBE.MC` (21,28x) en una prima del 25,3% frente a la mediana de sus pares comparables en el mercado español (`ANE.MC`, `ENG.MC`, `ELE.MC`, `NTGY.MC`, `RED.MC`, `SLR.MC`), cuyo PER forward mediano es de 16,98x.
+
+#### 5. Conclusión y Perspectiva de Trading
+Iberdrola muestra una fortaleza impecable en precio, apoyada por sólidos fundamentales operativos e hitos históricos de cotización. Sin embargo, cotiza por encima del precio objetivo medio del consenso de analistas (21,57 EUR) y presenta un RSI de 82,54 que advierte sobre agotamiento inminente o sobrecalentamiento técnico. Por ello, la postura recomendada es mantener posiciones existentes sin realizar nuevas compras en estos máximos.
+
+| Métrica Clave / Indicador | Valor Actual / Referencia | Implicación para el Trader |
 | :--- | :--- | :--- |
-| Precio Actual | 23.34 EUR | Tendencia alcista marcada |
-| SMA 200 | 20.19 EUR | Soporte estructural a largo plazo |
-| RSI (14) | 79.56 | Sobrecompra; precaución |
-| Forward P/E | 20.96x | Valoración premium vs pares |
-| Dividend Yield | 2.93% | Atractivo moderado |
-| Consenso | 21.57 EUR | Por debajo del precio actual |
-
-**Rating**: Neutral
-
-FINAL TRANSACTION PROPOSAL: Mantener posiciones existentes dada la fuerte inercia técnica, pero evitar nuevas compras en estos niveles de sobrecompra técnica y valoración superior a la media del sector. Se recomienda esperar a una posible consolidación hacia la zona de 21.50 - 22.00 EUR para reevaluar la entrada.
-
-*Nota: La información sobre flujos de caja operativos y libres (2025) aparece como "null" en los datos suministrados, por lo que este análisis se basa exclusivamente en los estados de resultados y balances disponibles. Se recomienda consultar el reporte anual completo para una mayor precisión sobre la capacidad real de generación de caja.*
+| **Precio de Cierre (`close`)** | 23,70 EUR | Máximos históricos recientes. |
+| **RSI (14)** | 82,54 | Condición de sobrecompra extrema; riesgo de consolidación. |
+| **Media Móvil 200 sesiones (`close_200_sma`)**| 20,22 EUR | Sólido soporte estructural de largo plazo. |
+| **PER Forward** | 21,28x | Prima de valoración frente a la mediana sectorial (16,98x). |
+| **Consenso de Analistas (`targetMeanPrice`)**| 21,57 EUR | Potencial bajista implícito del -8,99% frente a cotización actual. |
+| **Rentabilidad por Dividendo** | 2,91% | Atractivo moderado para inversores de renta, aunque inferior a picos históricos por la subida de precio. |

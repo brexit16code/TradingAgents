@@ -1,37 +1,65 @@
-### Informe de Análisis: Mapfre, S.A. (MAP.MC)
+**Rating**: HOLD  
+FINAL TRANSACTION PROPOSAL: REVIEW  
 
-**Resumen Ejecutivo**
-Mapfre (MAP.MC) muestra un desempeño sólido respaldado por fundamentales resilientes y una reciente mejora en su calificación crediticia. La compañía opera en un entorno macroeconómico europeo caracterizado por una inflación persistente en España y una política monetaria del BCE que mantiene la presión sobre los tipos de interés.
+### Informe de Investigación y Análisis Macroeconómico - MAP.MC (Mapfre, S.A.)
 
-#### 1. Análisis Fundamental y Valoración
-*   **Valoración:** Con un PE (Price-to-Earnings) *trailing* de 11.3 y un *forward* PE de 10.12, Mapfre cotiza a niveles moderados. Su ratio Precio/Valor Contable (P/B) de 1.40 sugiere una valoración coherente con su industria.
-*   **Rentabilidad:** Presenta un ROE saludable del 18.38%. El dividendo, con una rentabilidad (yield) del 4.24%, sigue siendo un atractivo clave para los inversores.
-*   **Crecimiento:** Los ingresos han mostrado una tendencia alcista constante desde 2023 (25.6B EUR) a 2025 (26.3B EUR), y el beneficio neto ha repuntado significativamente a 1.13B EUR en 2025.
-*   **Balance:** La deuda total se mantiene en niveles manejables frente a unos activos totales de 58.5B EUR.
+A continuación se presenta un análisis detallado de la situación actual de **MAP.MC** (Mapfre, S.A.) basado en los datos financieros, técnicos y las noticias recientes recopiladas hasta el 13 de noviembre de 2026.
 
-#### 2. Análisis Técnico
-*   **Tendencia:** MAP.MC cotiza a 4.29 EUR, situándose ligeramente por encima de su media móvil de 20 días (4.24 EUR) y de 200 días (4.13 EUR), aunque ligeramente por debajo de la media de 50 días (4.30 EUR).
-*   **Momento:** El RSI de 53.58 indica una zona neutral, sin sobrecompra ni sobreventa. El cruce del MACD por encima de su señal sugiere una mejora en el impulso alcista reciente.
-*   **Volatilidad:** Registra una volatilidad del 22.66%, lo cual es estándar para el sector asegurador.
+---
 
-#### 3. Contexto Macroeconómico y Noticias
-*   **Calificación:** La noticia más relevante para la entidad es la mejora de su calificación por parte de **Fitch, que elevó a Mapfre de A a A+** (12-11-2026), reflejando una mayor solidez financiera.
-*   **Entorno:** La macroeconomía española enfrenta una inflación persistente ("enquistada") cercana al 5%, lo que complica la labor del BCE. La incertidumbre sobre la política de tipos (halcones vs. palomas en el BCE) crea un entorno de volatilidad para las instituciones financieras, aunque el aumento de tipos suele beneficiar los márgenes de inversión de las aseguradoras.
+### 1. Contexto Macroeconómico y Sectorial
+El entorno macroeconómico actual de la eurozona se caracteriza por presiones inflacionarias persistentes. Según los titulares recientes de noviembre de 2026, la inflación en la zona euro se sitúa alrededor del 4% (*El Economista*, 13 de noviembre de 2026), lo que limita la capacidad del Banco Central Europeo (BCE) para moderar las alzas de tipos y mantiene dinámicas de tipos reales negativos. A nivel nacional, la inflación en España continúa elevada cerca del 5% (*Finanzas.com*, 8 de noviembre de 2026). 
 
-#### 4. Evidencia y Limitaciones
-*   **Apoyo:** Mejora de *rating* de Fitch, crecimiento constante de ingresos y ratio de pago de dividendos (payout) razonable (~47%).
-*   **Contrario:** Riesgo de inflación prolongada en España que podría afectar al consumo y, por ende, a la demanda de ciertos productos aseguradores.
-*   **Faltantes:** No disponemos de datos desglosados de flujo de caja operativo actualizado para 2026 ni proyecciones detalladas de crecimiento de beneficios (Earnings Growth), lo que limita la precisión de las proyecciones a largo plazo.
+Para el sector de seguros diversificados, un entorno de tipos de interés elevados y presiones inflacionarias tiene efectos mixtos: por un lado, incrementa los rendimientos de las carteras de renta fija en las que se apoyan las aseguradoras; por otro, eleva los costes de siniestralidad debido a la inflación de costes (reparaciones, costes médicos, etc.).
 
-| Métrica | Valor |
-| :--- | :--- |
-| Precio Actual (12-11-2026) | 4.29 EUR |
-| Capitalización de Mercado | 13.18 B EUR |
-| Yield de Dividendo | 4.24% |
-| PE Forward | 10.12 |
-| Consenso Objetivo (Mean) | 4.33 EUR |
-| RSI (14 días) | 53.58 |
+---
 
-**Rating**: Neutral / Positive (Watch for breakouts above 4.35 EUR)
+### 2. Análisis Fundamental de MAP.MC
+Mapfre muestra una solidez financiera destacada y una evolución positiva en sus resultados de negocio:
+* **Capitalización de Mercado:** ~13.333 millones de EUR.
+* **Ingresos y Beneficios:** Los ingresos totales alcanzaron los 26.355 millones de EUR al cierre del ejercicio 2025, superando los 25.833 millones de 2024 y los 25.639 millones de 2023. El beneficio neto (Net Income) repuntó notablemente hasta los 1.132,6 millones de EUR en 2025 (frente a 967,5 millones en 2024 y 677,2 millones en 2023).
+* **Valoraciones Clave:** 
+  * **Trailing P/E:** 11,43x | **Forward P/E:** 10,23x.
+  * **Price to Book (P/B):** 1,41x (con un valor en libros por acción de 3,077 EUR).
+  * **Rentabilidad por Dividendo (Dividend Yield):** Atractiva, situada en torno al 4,14% - 4,21%, con un *payout ratio* moderado del 47,42% y un dividendo anual de 0,18 EUR.
+  * **Rentabilidad sobre el Capital (ROE):** Sólida, en el 18,38%.
+* **Calificación Crediticia (Rating):** Reciente mejora por parte de **Fitch**, que elevó la calificación de Mapfre de **A a A+** (*Radio Intereconomía*, 12 de noviembre de 2026), lo que refleja la fortaleza de su perfil financiero y solvencia.
 
-FINAL TRANSACTION PROPOSAL: No trade execution suggested; maintain current position if held for yield, monitor for resistance at 4.35 EUR and potential support at 4.10 EUR.
+---
+
+### 3. Análisis Técnico y Comportamiento de Mercado
+* **Precio de Cierre (13 de noviembre de 2026):** 4,344 EUR.
+* **Medias Móviles:** Cotiza por encima de sus medias móviles clave (SMA20: 4,237 EUR, SMA50: 4,297 EUR y SMA200: 4,140 EUR), lo que indica una tendencia alcista sostenida a medio y largo plazo.
+* **Indicadores de Momento:** 
+  * **RSI (14):** 56,45 (zona neutral-alcista, sin señales de sobrecompra).
+  * **MACD:** -0,0118 (con línea de señal en -0,0347), mostrando una convergencia positiva.
+* **Volatilidad y Retornos:** Volatilidad anualizada del 22,79% y un retorno a 252 sesiones del +14,20%. Se encuentra a una distancia de su máximo reciente con un *drawdown* del -4,86%.
+* **Consenso de Analistas:** El precio objetivo medio (*targetMeanPrice*) se sitúa en **4,33 EUR** (con un rango entre 3,80 EUR y 5,00 EUR basado en 10 opiniones de analistas), lo que implica una valoración muy ajustada al precio de mercado actual (-0,32% de potencial de upside según el consenso).
+
+---
+
+### 4. Noticias Recientes y Eventos Clave
+* **13 de noviembre de 2026:** Mapfre destaca como uno de los valores de soporte para que el Ibex 35 intente consolidar los niveles de 20.000 puntos (*Estrategias de Inversión*).
+* **13 de noviembre de 2026:** Afianzamiento de su estrategia de crecimiento digital a través de la marca Verti (*CapitalMadrid*).
+* **12 de noviembre de 2026:** Fitch eleva el rating de Mapfre a A+ (*Radio Intereconomía*).
+* **11 de noviembre de 2026:** Celebración de la reunión anual de CEOs en Chile conmemorando su 40 aniversario en el país (*CapitalMadrid*).
+
+---
+
+### 5. Datos Faltantes y Limitaciones
+* No se dispone de flujos de caja operativos o libres actualizados en el snapshot automático para los últimos periodos intermedios detallados de 2026, por lo que la valoración de flujos de caja descontados (DCF) no se puede ejecutar con precisión matemática en este informe.
+* Los precios objetivos de los analistas son estimaciones de consenso y no deben interpretarse como valores intrínsecos definitivos.
+
+---
+
+### Resumen en Tabla Organizativa
+
+| Categoría | Métrica / Indicador | Valor Actual / Estado | Implicación para el Trading |
+| :--- | :--- | :--- | :--- |
+| **Precio y Técnico** | Cierre MAP.MC (13/11/2026) | 4,344 EUR | Por encima de SMA20, SMA50 y SMA200 (Tendencia alcista moderada) |
+| **Momento** | RSI (14) / MACD | 56,45 / Neutral-Alcista | Impulso equilibrado sin sobrecompra |
+| **Valoración** | Trailing P/E / Forward P/E | 11,43x / 10,23x | Valoración razonable frente a beneficios crecientes |
+| **Solvencia** | Calificación Fitch | A+ (Elevado desde A) | Fortaleza crediticia incrementada |
+| **Retorno** | Dividend Yield | ~4,14% - 4,21% | Atractivo para inversores por dividendo |
+| **Consenso** | Target Mean Price | 4,33 EUR (10 analistas) | Potencial de retorno limitado a corto plazo (-0,32%) |
+| **Macro** | Inflación Zona Euro / España | ~4% / ~5% | Presiones inflacionarias que exigen disciplina en costes y siniestralidad |

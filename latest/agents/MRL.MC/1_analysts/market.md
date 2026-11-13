@@ -1,34 +1,36 @@
-Análisis técnico y fundamental de **MERLIN Properties SOCIMI, S.A. (`MRL.MC`)** al 12 de noviembre de 2026.
+Análisis detallado de **MRL.MC** (MERLIN Properties SOCIMI, S.A.) con fecha de corte al 13 de noviembre de 2026.
 
-### Análisis de Situación
-`MRL.MC` muestra un comportamiento técnico consolidativo tras una corrección significativa. Con un precio de cierre de **11,78 EUR**, la acción cotiza por debajo de su media móvil de 50 sesiones (12,06 EUR) y significativamente por debajo de la de 200 sesiones (13,91 EUR), lo que confirma una tendencia bajista a largo plazo.
+### Panorama Fundamental y Situación de Mercado
+MERLIN Properties se encuentra en una encrucijada técnica y operativa. A pesar de que los resultados del tercer trimestre de 2026 superaron las previsiones de ingresos (*Investing.com*, 2026-11-13), la acción cotiza a 11,70 EUR, lo que representa un *drawdown* del 25,7% respecto a niveles superiores.
 
-#### Indicadores Técnicos clave:
-*   **Momentum:** El RSI(14) en **49,91** indica una zona neutral, sin sobreventa ni sobrecompra excesiva. La lectura del MACD (-0,09) frente a su señal (-0,17) muestra una convergencia leve que sugiere una estabilización del momentum, aunque todavía bajo presión.
-*   **Tendencia:** El precio se encuentra operando cerca de la SMA20 (11,56 EUR), lo que podría actuar como soporte técnico inmediato. La volatilidad (26,22%) refleja un entorno de mercado cauto.
-*   **Valoración:** La acción cotiza a un ratio Precio/Valor Contable de **0,78**, sugiriendo un descuento sobre el valor de sus activos inmobiliarios, común en el sector REIT cuando los tipos de interés se mantienen elevados. El ratio P/E (trailing) de 8,01 parece bajo, pero el P/E forward de 20,99 indica una expectativa de menores beneficios futuros según el consenso.
+La tesis de inversión se ve nublada por un conflicto regulatorio significativo: el CEO de la compañía ha criticado duramente el decreto sobre centros de datos (*OkDiario*, 2026-11-13), estimando costes adicionales de hasta 863 millones de euros (*El Boletín*, 2026-11-13). Este factor de incertidumbre política/regulatoria está pesando más en el sentimiento del mercado que el desempeño operativo subyacente.
 
-### Contexto Fundamental y Noticias
-El mercado observa con cautela el sector ante la persistente inflación en España (cercana al 5% según datos de noviembre de 2026) y la política monetaria del BCE. Las noticias recientes destacan resultados positivos en ocupación (cerca del 95%) y crecimiento en centros de datos, lo cual es un factor diferenciador clave para `MRL.MC` frente a los REITs puramente de oficinas.
+### Análisis Técnico
+*   **Tendencia:** La acción se sitúa por debajo de su media móvil de 50 sesiones (12,03 EUR) y significativamente por debajo de la de 200 sesiones (13,90 EUR), lo que confirma una estructura de mercado bajista a largo plazo.
+*   **Momento:** El RSI (14) en 48,05 indica una zona neutral, sugiriendo que la presión vendedora se ha estabilizado tras el retroceso, pero carece de fuerza alcista para cambiar la tendencia.
+*   **Volatilidad:** Con una volatilidad del 26,13%, el activo presenta un riesgo operativo considerable. El MACD (-0,08) está por debajo de su señal (-0,16), pero con una trayectoria que intenta estrechar el diferencial, lo que podría interpretarse como una pausa en el impulso bajista a corto plazo.
 
-*   **Puntos Fuertes:** Crecimiento de ingresos del 14,6% y de beneficios del 16,6% (periodo 2025). Sólida posición de caja (1,56 mil millones EUR).
-*   **Puntos Débiles:** Elevada deuda total (5,18 mil millones EUR) en un entorno de tipos de interés que siguen siendo tema de debate por parte de los "halcones" del BCE.
+### Valoración y Dividendos
+*   **Valuación:** El *Price-to-Book* de 0,78 indica que la acción cotiza con un descuento respecto a su valor contable (14,99 EUR).
+*   **Dividendo:** Se ha confirmado el pago de un dividendo de 0,20 EUR para el 10 de diciembre de 2026, lo cual representa una rentabilidad (*dividend yield*) del 1,88%, ofreciendo un atractivo defensivo frente a la volatilidad actual.
 
-### Conclusión y Estrategia
-El consenso de los analistas apunta a un precio objetivo medio de **17,01 EUR**, lo que sugiere un potencial de revalorización teórico del **44,4%**. Sin embargo, la brecha entre el precio actual y el objetivo refleja una incertidumbre significativa sobre la valoración de activos inmobiliarios comerciales. 
+### Factores a Considerar
+*   **A favor:** Resultados operativos Q3 sólidos; descuento significativo sobre valor contable; política de dividendos activa.
+*   **En contra:** Elevado riesgo regulatorio (decreto *data centers*); deuda total de 5.181 millones de euros (frente a una capitalización de 7.244 millones); entorno macroeconómico con inflación persistente en la zona euro (4%) que limita el margen de maniobra de los tipos de interés.
 
-**Missing Data:** No se dispone del *net_debt_ebitda* consolidado, lo cual es vital para evaluar el apalancamiento real frente a los ingresos operativos en un entorno de tipos altos.
+### Conclusión
+El mercado está descontando el riesgo regulatorio por encima de los fundamentales. Hasta que no se clarifique el impacto financiero del decreto de *data centers*, la acción probablemente oscilará en un rango lateral entre los 11,00 y 12,50 EUR. Se recomienda cautela, considerando el *target price* medio de los analistas (17,01 EUR) como un objetivo optimista que depende de la resolución de la incertidumbre actual.
 
-| Indicador | Valor Actual | Interpretación |
+**Rating**: Neutral
+
+| Indicador | Valor / Estado | Interpretación |
 | :--- | :--- | :--- |
-| Precio Cierre | 11,78 EUR | Bajista (bajo SMA200) |
-| RSI (14) | 49,91 | Neutral |
-| Dividend Yield | 1,87% | Bajo |
-| P/B Ratio | 0,78 | Infravalorado vs Valor Contable |
-| Consenso Upside | 44,43% | Optimista |
+| Precio Actual | 11,70 EUR | Por debajo de medias clave (SMA50/200) |
+| RSI (14) | 48,05 | Zona neutral, sin sesgo claro |
+| P/B Ratio | 0,78 | Descuento sobre valor contable |
+| Dividend Yield | 1,88% | Retribución al accionista confirmada |
+| Riesgo Principal | Regulatorio | Incertidumbre decreto *Data Centers* |
 
-**Rating**: HOLD
+FINAL TRANSACTION PROPOSAL: Hold
 
-FINAL TRANSACTION PROPOSAL: Mantener posiciones actuales. El descuento sobre el valor contable y la fortaleza en centros de datos sugieren valor, pero la tendencia bajista técnica aconseja esperar un cierre sostenido sobre la SMA50 (12,06 EUR) antes de considerar aumentar exposición.
-
-*Nota: Este análisis no constituye una recomendación de inversión. Los datos financieros y de mercado están sujetos a cambios y deben verificarse con fuentes primarias.*
+*Nota: La información se basa exclusivamente en los datos proporcionados con fecha 2026-11-13. No se dispone de datos sobre el ratio neto de deuda/EBITDA. Cualquier decisión de inversión debe considerar el impacto del decreto mencionado en las futuras cuentas de resultados.*

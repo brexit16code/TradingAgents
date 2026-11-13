@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La cotización de COL.MC se encuentra en un punto de equilibrio técnico crítico al operar justo por encima de su media móvil de 200 días (5,18 EUR). Si bien el fuerte descuento sobre el valor contable y la atractiva rentabilidad por dividendo justifican mantener la posición para inversores enfocados en renta, la persistente inflación en España y la incertidumbre sobre la política monetaria del BCE limitan el potencial de apreciación a corto plazo. Se recomienda prudencia debido al elevado endeudamiento de la compañía frente a un entorno de tipos de interés restrictivos.
+**Reasoning**: La acción se mantiene en una fase de consolidación técnica sin una dirección clara, operando entre su media móvil de 50 días (5,06 EUR) y la de 200 días (5,18 EUR). Fundamentalmente, aunque el descuento por valor contable (P/B 0,53) y el dividendo del 6,14% ofrecen un suelo defensivo, la incertidumbre macroeconómica respecto a los tipos de interés y la contracción proyectada en los beneficios justifican una postura prudente hasta confirmar una ruptura alcista sostenida.
 
 **Entry Price**: 5.18
 
 **Stop Loss**: 4.85
 
-**Position Sizing**: Mantener posición existente; no aumentar exposición hasta observar una ruptura sostenida por encima de los 5,30 EUR con volumen creciente.
+**Position Sizing**: 50% de la asignación estándar de mercado
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

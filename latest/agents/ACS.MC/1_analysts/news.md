@@ -1,34 +1,66 @@
-Este informe analiza la situación financiera y operativa de **ACS.MC** (Actividades de Construcción y Servicios) a fecha de 12 de noviembre de 2026, considerando los resultados financieros más recientes y el contexto macroeconómico.
+**Rating**: HOLD  
+FINAL TRANSACTION PROPOSAL: HOLD
 
-### Análisis de ACS.MC
+### Informe de Análisis Macroeconómico y de Mercado para ACS.MC
 
-**Desempeño Financiero y Operativo:**
-ACS ha reportado sólidos resultados hasta el tercer trimestre de 2026. Según las noticias publicadas el 11 y 12 de noviembre, la compañía registró un beneficio neto de 789 millones de euros, lo que supone un incremento interanual superior al 20%. Este crecimiento está impulsado principalmente por el dinamismo de sus filiales **Turner** (EE. UU.) y **Cimic** (Australia), así como por la creciente demanda en el sector de centros de datos. La gerencia ha destacado un "superciclo" de infraestructuras y nuevas oportunidades de negocio en Europa.
+A fecha de **13 de noviembre de 2026**, se presenta la siguiente evaluación integral de **ACS, Actividades de Construcción y Servicios, S.A. (`ACS.MC`)**, operada en la bolsa española (MCE) bajo el sector de *Industrials / Engineering & Construction*, considerando el contexto macroeconómico actual de la eurozona y los datos financieros y bursátiles recientes de la compañía.
 
-**Valoración y Métricas:**
-*   **Precio actual:** 93,05 EUR.
-*   **Múltiplos:** Cotiza a un PER *trailing* de 20,31x y un PER *forward* de 18,51x. La valoración relativa respecto a sus pares (peer median forward PE: 18,10x) muestra un ratio de 1,02, lo que sugiere una valoración ajustada pero acorde al sector.
-*   **Salud Financiera:** La empresa presenta una estructura de capital con una deuda neta sobre EBITDA muy conservadora (0,20x), lo que le otorga flexibilidad financiera. Su rentabilidad sobre recursos propios (ROE) se sitúa en un saludable 24,08%.
-*   **Dividendo:** Ofrece una rentabilidad por dividendo del 2,5%, con un *payout* del 61%.
+---
 
-**Contexto Macroeconómico:**
-El entorno se caracteriza por una persistente inflación en España (cercana al 5% según *Finanzas.com*) y una política monetaria restrictiva por parte del BCE. El mercado descuenta subidas de tipos de interés, lo que aumenta el coste de capital para empresas intensivas en activos; sin embargo, la baja deuda neta de ACS la protege mejor que a otros competidores del sector de ingeniería y construcción.
+### 1. Resumen de Datos Fundamentales y Valoración
+* **Precio de Cierre (13/11/2026):** 91.05 EUR
+* **Capitalización de Mercado:** 23.680 millones de EUR
+* **PER (Trailing):** 19.88x | **PER (Forward):** 18.13x
+* **Valor en Libros por Acción:** 21.70 EUR (Precio/Libro: 4.20x)
+* **Deuda Total:** 14.428 millones de EUR / **Caja Total:** 11.918 millones de EUR (Deuda Neta / EBITDA: ~1.02x)
+* **EBITDA:** 2.459 millones de EUR (con ingresos de cierre 2025 de 49.848 millones de EUR)
+* **Rentabilidad por Dividendo (Dividend Yield):** ~2.55% (Dividendo anual de 2.32 EUR, ratio de pago / payout de 61.02%)
+* **Consenso de Analistas (Target Mean Price):** 128.30 EUR (Rango: 99.75 EUR a 153.10 EUR, con 17 opiniones), lo que otorga un potencial de revalorización (*consensus upside*) del **40.91%**.
 
-### Evidencia de Mercado y Riesgos
-*   **Soporte Técnico:** La acción cotiza por encima de su media móvil de 20 días (89,95 EUR), aunque ligeramente por debajo de la de 50 días (92,63 EUR), mostrando una tendencia técnica neutral a corto plazo.
-*   **Consenso:** Los analistas mantienen un optimismo moderado con un precio objetivo promedio de 128,30 EUR, lo que implica un potencial alcista superior al 37% sobre los niveles actuales.
-*   **Datos faltantes:** No se dispone de detalles granulares sobre el vencimiento de la deuda a largo plazo, ni desgloses detallados del flujo de caja por región geográfica específica fuera de los resultados agregados.
+---
 
-### Resumen de hallazgos
+### 2. Análisis Técnico
+* **Tendencia y Momento:** Las acciones de `ACS.MC` cotizan a 91.05 EUR, mostrando una caída en la sesión del -2.15%. Se encuentran en un proceso de corrección a medio plazo, con una rentabilidad a 63 días de -15.62% y un *drawdown* de -34.19% desde máximos recientes.
+* **Medias Móviles:** La cotización se encuentra ligeramente por encima de su SMA20 (90.01 EUR) y SMA50 (92.41 EUR), pero por debajo de su SMA200 (108.67 EUR), lo que refleja una fase de consolidación tras presiones vendedoras previas.
+* **Indicadores Técnicos:** RSI de 14 días en **50.06** (zona neutral sin sobrecompra ni sobreventa) y MACD en -0.51 con su señal en -1.07 (leve sesgo de estabilización).
 
-| Factor | Detalle | Impacto en Inversión |
+---
+
+### 3. Contexto Macroeconómico y Noticias Recientes (Noviembre 2026)
+* **Entorno de Tipos e Inflación en la Eurozona:** Los datos macroeconómicos recientes indican presiones inflacionarias persistentes en la región (con titulares señalando una inflación en la eurozona alrededor del 4% y tasas de inflación en España en torno al 5%). Este escenario inhabilita o dificulta una moderación rápida en el alza de tipos por parte del Banco Central Europeo (BCE), manteniendo la presión sobre los costes de financiación empresarial.
+* **Catalizadores y Noticias de la Compañía (`ACS.MC`):**
+  * **Resultados y Plan Estratégico a 2030:** A mediados de noviembre de 2026, ACS ha presentado sus estados financieros y su ambicioso plan estratégico hacia 2030. La compañía reporta un beneficio neto de 789 millones de euros hasta septiembre (un incremento del 35% sin extraordinarios) y anticipa duplicar tanto su beneficio como su dividendo, proyectando triplicar su valor en bolsa bajo la premisa de un "superciclo de infraestructuras" en Europa y a nivel global.
+  * **Comportamiento Bursátil:** A pesar del tono macroeconómico adverso en renta variable europea y la volatilidad del Ibex 35, ACS se ha posicionado de manera puntual entre los valores destacados de la sesión bursátil (como se observa en los reportes del Ibex aguantando los 20.000 puntos).
+
+---
+
+### 4. Evidencia Cruzada: Factores a Favor y en Contra
+
+* **Argumentos a Favor (Bullish):**
+  * Sólido crecimiento fundamental en ingresos (crecimiento interanual de ingresos del 19.4%) y estabilidad en el apalancamiento operativo con una relación Deuda Neta/EBITDA muy controlada (~1.02x).
+  * Perspectivas de crecimiento a largo plazo apoyadas por su nuevo plan estratégico a 2030, apostando por el superciclo global de infraestructuras.
+  * Un alto consenso de analistas con un precio objetivo medio de 128.30 EUR (potencial superior al 40%).
+
+* **Argumentos en Contra / Riesgos (Bearish):**
+  * Entorno macroeconómico desafiante con tipos de interés elevados y presiones inflacionarias persistentes en la eurozona (4%-5%), lo que encarece el coste de capital para grandes proyectos intensivos en inversión.
+  * Corrección técnica a medio plazo (bajada del 15.6% en los últimos 3 meses y cotizando por debajo de la SMA200).
+  * Márgenes netos estrechos (margen de beneficio en torno al 1.99%), propios del sector de ingeniería y construcción tradicional, que exponen a la empresa a desviaciones en costes de materias primas o ejecución de contratos.
+
+---
+
+### 5. Datos Faltantes y Asuntos a Considerar
+* **Datos Faltantes:** No se dispone en el repositorio actual de los detalles pormenorizados de cada segmento geográfico de concesiones (Abertis / Hochtief) a nivel de flujo de caja libre específico actualizado al cierre exacto de los trimestres de finales de 2026, más allá de las cifras consolidadas y estimaciones adelantadas en prensa.
+* **Asunto legal/hipotético:** Cualquier mención a asignación de cartera o volumen de compra es estrictamente hipotética, ya que no se ha suministrado cartera de inversión previa.
+
+---
+
+### Tabla Resumen
+
+| Métrica / Concepto clave | Valor / Dato | Implicación para el Trading / Macro |
 | :--- | :--- | :--- |
-| **Crecimiento Beneficios** | +20,5% a septiembre 2026 | Positivo |
-| **Múltiplo PER Forward** | 18,51x (Ratio 1,02 vs pares) | Neutral |
-| **Fortaleza Balance** | Deuda Neta/EBITDA 0,20x | Muy Positivo |
-| **Entorno Macro** | Inflación 5% y subida de tipos BCE | Riesgo sistémico |
-| **Consenso Analistas** | Precio Objetivo 128,30 EUR | Alcista |
-
-**Rating**: HOLD (basado en el equilibrio entre el crecimiento operativo y los vientos en contra del entorno macroeconómico de tipos de interés).
-
-FINAL TRANSACTION PROPOSAL: Mantener posición; la valoración actual es justa pero el impulso de beneficios y la baja deuda justifican una visión de vigilancia para posibles entradas en correcciones técnicas.
+| **Precio Actual (`ACS.MC`)** | 91.05 EUR (-2.15%) | Consolidando sobre medias de corto plazo (SMA20/SMA50), pero bajo la SMA200 (108.67 EUR). |
+| **PER Forward / Trailing** | 18.13x / 19.87x | Valoración intermedia en línea con la mediana de sus pares comparables del sector. |
+| **Deuda Neta / EBITDA** | ~1.02x | Estructura financiera sana y equilibrada a pesar del entorno de tipos altos. |
+| **Consenso de Analistas** | 128.30 EUR (Upside: 40.91%) | Potencial alcista considerable a largo plazo según el consenso de mercado. |
+| **Entorno Macroeconómico** | Inflación eurozona ~4% / España ~5% | Tipos de interés altos y persistentes que condicionan el coste de financiación. |
+| **Catalizador Corporativo** | Plan Estratégico a 2030 | Apuesta por un superciclo de infraestructuras para duplicar beneficios y dividendo. |

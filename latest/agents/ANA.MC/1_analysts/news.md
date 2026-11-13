@@ -1,33 +1,36 @@
-Este informe presenta un análisis de **Acciona, S.A. (ANA.MC)** basado en los datos financieros y de mercado disponibles a fecha de 12 de noviembre de 2026.
+### Informe de Análisis: Acciona, S.A. (ANA.MC)
 
-### Análisis Fundamental y de Mercado
-Acciona muestra una estructura financiera caracterizada por una alta intensidad de capital y una deuda neta significativa. Con una capitalización bursátil de 11.740 millones de euros y un precio de 220,60 EUR, la acción cotiza cerca de su media móvil de 200 días (224,52 EUR).
+**Fecha de reporte:** 13 de noviembre de 2026
 
-*   **Valuación:** El ratio PER *trailing* de 33,3x es elevado, aunque el PER *forward* desciende a 20,1x, lo que sugiere una expectativa de mejora en los beneficios futuros. El múltiplo EV/EBITDA de 15,58x refleja un sector de ingeniería e infraestructuras con proyectos de largo plazo.
-*   **Solidez Financiera:** El ratio de deuda neta sobre EBITDA de 6,14x es un punto crítico. En un entorno macroeconómico donde el Banco Central Europeo (BCE) mantiene presiones sobre los tipos de interés (con el mercado descontando subidas hacia el 3% según *Moncloa.com*), este apalancamiento requiere un seguimiento estrecho del flujo de caja.
-*   **Cash Flow:** Aunque el flujo de caja operativo ha mostrado resiliencia (2.148 millones en 2025), el flujo de caja libre es negativo (-722,75 millones) debido a un elevado gasto en capital (CAPEX), lo que es típico en su modelo de negocio de grandes proyectos de infraestructura y energía renovable.
+#### Resumen Ejecutivo
+La acción de **ANA.MC** ha sufrido un retroceso significativo del 7,98% en la sesión actual, cerrando en 203,0 EUR. Este comportamiento bajista es resultado de la reacción del mercado ante noticias corporativas que han generado incertidumbre sobre la estructura de capital y la liquidez de la compañía.
 
-### Contexto Macroeconómico
-El entorno en España presenta retos significativos:
-1.  **Inflación:** Se reporta una inflación "enquistada" en el 5% (Finanzas.com, 08/11/2026), lo que ejerce presión sobre los costes operativos de las empresas industriales.
-2.  **Política Monetaria:** La incertidumbre en el BCE sobre la lucha contra la inflación ("palomas vs halcones") y la perspectiva de subidas de tipos (Investing.com, 06/11/2026) afectan directamente el coste de financiación de Acciona.
+#### Análisis Fundamental y Corporativo
+*   **Desempeño Financiero:** La compañía reportó una volatilidad del 34,33% y una caída acumulada desde máximos de aproximadamente el 27%. Aunque mantiene una facturación creciente (20.236 M€ a cierre de 2025), la rentabilidad es estrecha (margen de beneficio del 1,64%).
+*   **Catalizadores de Venta (13/11/2026):**
+    *   **Apoyo a filial:** El mercado ha penalizado a la empresa por la concesión de un préstamo de 500 millones de euros a su filial energética. Esto ha sido interpretado por los inversores como una señal de tensión financiera o necesidad de inyección de capital en activos no consolidados (*El Confidencial*, 13/11/2026).
+    *   **Desinversiones:** El retraso en los planes de desinversión, que se esperaban como catalizador para reducir el endeudamiento (Net Debt/EBITDA de 6,14x), ha generado desconfianza respecto a la hoja de ruta de desapalancamiento.
+*   **Valoración:** Con un PER *forward* de 18,45x frente a una mediana del sector de 18,10x, la acción cotiza en línea con sus comparables, pero la estructura de deuda (14.574 M€ de deuda total) y el flujo de caja libre negativo (-722 M€ en TTM) elevan el perfil de riesgo.
 
-### Puntos a Favor y en Contra
-*   **A favor:** La empresa mantiene un dividendo con una rentabilidad atractiva (2,61%) y cuenta con una presencia consolidada en sectores estratégicos (infraestructuras y renovables). La subida del 24% en el retorno anual refleja cierta confianza del mercado.
-*   **En contra:** La elevada deuda neta en un ciclo de tipos de interés altos es un riesgo importante. La volatilidad implícita del 30,3% indica una alta incertidumbre en la cotización. El *consensus upside* es ligeramente negativo (-0,54%), lo que sugiere que el mercado ve el precio actual como razonablemente valorado según los objetivos de los analistas.
+#### Contexto Macroeconómico
+El entorno macroeconómico en la zona euro presenta desafíos para sectores intensivos en capital como el de Acciona:
+*   **Inflación:** La inflación en la zona euro se sitúa en el 4%, lo que limita la capacidad del BCE para moderar las tasas de interés (*El Economista*, 13/11/2026).
+*   **Ahorro y Tipos:** Los tipos reales negativos y la persistencia de la inflación al 5% en España (*Finanzas.com*, 08/11/2026) presionan los márgenes operativos de las empresas industriales.
 
-### Información Faltante
-No se dispone de desglose detallado de los contratos específicos vigentes para 2027 ni un desglose actualizado de la exposición a deuda a tipo variable frente a fijo, lo cual es vital para evaluar el impacto de las subidas de tipos del BCE.
+#### Perspectiva del Mercado
+Los analistas mantienen un precio objetivo medio de 219,41 EUR, lo que implica una subida potencial del 8,08%. Sin embargo, el sentimiento a corto plazo es negativo tras el quiebre de la media móvil de 20 y 50 sesiones (ambas rondando los 211 EUR).
 
-### Resumen de Datos Clave
-| Indicador | Valor / Dato |
+**Información faltante:** No se dispone de detalles específicos sobre los términos del préstamo a la filial ni la fecha revisada para las desinversiones pendientes, factores cruciales para modelar el flujo de caja de 2027.
+
+| Indicador / Punto clave | Valor / Detalle |
 | :--- | :--- |
-| Precio de Cierre (ANA.MC) | 220,60 EUR |
-| PER Forward | 20,10x |
-| Deuda Neta / EBITDA | 6,14x |
-| Rentabilidad por Dividendo | 2,61% |
-| Tendencia Inflación (ES) | 5% (Alerta) |
-| Sentimiento de Analistas | Neutral (Upside -0,54%) |
+| **Precio de cierre (ANA.MC)** | 203,0 EUR (-7,98%) |
+| **Net Debt / EBITDA** | 6,14x |
+| **Forward EPS** | 11,00 EUR |
+| **Consenso Upside** | +8,08% |
+| **Catalizador principal** | Inyección de capital en filial / Retraso desinversiones |
+| **Riesgo macro** | Inflación zona euro (4%) / Tipos altos |
 
-**Rating**: HOLD
-FINAL TRANSACTION PROPOSAL: Mantener posición; evitar incremento de exposición hasta observar una reducción efectiva en el ratio de deuda neta sobre EBITDA o una estabilización clara en las tasas de interés del BCE.
+**Rating**: REVIEW
+
+FINAL TRANSACTION PROPOSAL: HOLD

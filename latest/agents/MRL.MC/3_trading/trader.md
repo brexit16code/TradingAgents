@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La acción presenta una valoración atractiva al cotizar con un P/B de 0,78, pero su tendencia técnica es bajista al mantenerse bajo la media móvil de 200 sesiones. Aunque los fundamentales muestran crecimiento en centros de datos, el entorno de tipos de interés altos presiona su elevada deuda y el P/E forward sugiere una posible compresión de márgenes. Por tanto, es prudente mantener una postura neutral hasta que el precio confirme una ruptura sostenida de la resistencia en 12,06 EUR.
+**Reasoning**: La acción se encuentra en un punto de equilibrio técnico y fundamental debido a la incertidumbre del nuevo decreto de centros de datos, que podría implicar un coste de 863 millones de euros. Aunque el descuento sobre el valor contable (P/B 0,78) sugiere una oportunidad de valor, la debilidad técnica por debajo de la media móvil de 200 sesiones (13,90 EUR) y el riesgo regulatorio desaconsejan aumentar la exposición. Se requiere esperar una mayor claridad sobre las implicaciones del decreto antes de establecer una nueva posición larga.
 
-**Entry Price**: 12.06
+**Entry Price**: not provided
 
-**Stop Loss**: 10.85
+**Stop Loss**: not provided
 
-**Position Sizing**: Mantener exposición actual; no incrementar hasta observar un cambio de tendencia técnica
+**Position Sizing**: not provided
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

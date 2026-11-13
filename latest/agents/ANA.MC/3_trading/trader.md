@@ -1,11 +1,11 @@
-**Action**: Hold
+**Action**: Sell
 
-**Reasoning**: El valor presenta una estructura financiera tensionada con una deuda neta sobre EBITDA de 6,14x en un entorno de tipos de interés al alza, lo cual limita su margen de maniobra. Aunque técnicamente muestra un impulso de recuperación, el precio actual se encuentra ligeramente por encima del precio objetivo del consenso y enfrenta una resistencia técnica significativa en su media móvil de 200 sesiones (224,52 EUR). Mantener es la decisión más prudente ante la falta de flujo de caja libre positivo y la prima de valoración respecto a sus pares.
+**Reasoning**: La estructura financiera de Acciona muestra un deterioro preocupante con un apalancamiento excesivo (6.14x Net Debt/EBITDA) y un flujo de caja libre negativo, exacerbado por la reciente decisión de inyectar liquidez en su filial en lugar de reducir deuda. Con el precio cotizando por debajo de todas las medias móviles clave y un sentimiento de mercado muy negativo tras los anuncios del 13 de noviembre, la recomendación 'Underweight' del plan de inversión justifica una salida estratégica para proteger capital ante la alta volatilidad.
 
-**Entry Price**: not provided
+**Entry Price**: 211.0
 
-**Stop Loss**: not provided
+**Stop Loss**: 225.0
 
-**Position Sizing**: not provided
+**Position Sizing**: Reducción de la posición actual
 
-FINAL TRANSACTION PROPOSAL: **HOLD**
+FINAL TRANSACTION PROPOSAL: **SELL**

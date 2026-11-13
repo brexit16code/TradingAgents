@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: El activo cotiza en una zona de consolidación crítica, con el precio oscilando cerca de su media móvil de 50 sesiones (58,74 EUR). Aunque el Forward PE de 10,63x es atractivo, la debilidad en el flujo de caja libre y la señal bajista del MACD sugieren que es prudente esperar a una ruptura clara de la resistencia en los 60 EUR antes de incrementar exposición, o un soporte sólido en los 55,60 EUR si el mercado corrige.
+**Reasoning**: La acción se encuentra en una zona de indecisión técnica al cotizar entre la SMA200 (55,67) y la SMA50 (58,54), reflejando una falta de momentum claro tras la reciente corrección del 3%. Dados los desafíos operativos, como el flujo de caja libre negativo y los márgenes estrechos, sumado a un entorno macroeconómico de alta inflación, es prudente mantener una postura de espera para ver si el precio valida el soporte estructural o recupera la media de 50 sesiones antes de comprometer capital.
 
-**Entry Price**: 60.0
+**Entry Price**: not provided
 
-**Stop Loss**: 55.62
+**Stop Loss**: 55.66
 
-**Position Sizing**: Mantener posición actual
+**Position Sizing**: Mantener posición existente
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: SLR.MC presenta una clara infravaloración fundamental con un PER forward de 9,60x frente a la mediana sectorial de 16,50x, lo que respalda un potencial alcista considerable. No obstante, la alta presión de posiciones cortas y el elevado apalancamiento financiero en un contexto de tipos de interés restrictivos generan una volatilidad significativa que desaconseja nuevas posiciones agresivas. Se recomienda mantener la posición actual y esperar a que el precio confirme su estabilidad sobre el soporte técnico de la media móvil de 50 días antes de considerar una nueva entrada.
+**Reasoning**: A pesar de que el valor cotiza a un descuento significativo frente al sector con un PER forward de 9.25x y una narrativa de crecimiento ligada a centros de datos, los fundamentales presentan riesgos estructurales. El flujo de caja libre negativo de -437.97M EUR, un ratio de deuda neta/EBITDA de 4.14x y la fuerte presión de posiciones cortas justifican prudencia. Técnicamente, la acción se encuentra por debajo de su SMA de 50 y 200 sesiones, indicando falta de impulso alcista, por lo que una postura de espera es lo más adecuado hasta confirmar una superación consistente de la resistencia en 16.12 EUR.
 
-**Entry Price**: 16.14
+**Entry Price**: 16.12
 
-**Stop Loss**: 16.0
+**Stop Loss**: 14.0
 
-**Position Sizing**: Mantener posición actual; evaluar aumento gradual de 0.25% del portafolio tras consolidación sobre 16.14 EUR.
+**Position Sizing**: Mantener exposición actual; no aumentar ponderación ante el entorno inflacionista adverso.
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

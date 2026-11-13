@@ -1,34 +1,76 @@
-El análisis de **Bankinter, S.A. (BKT.MC)**, basado en la información financiera y técnica consolidada al 12 de noviembre de 2026, revela un perfil de entidad bancaria regional con una valoración moderada y una estructura técnica en fase de consolidación.
+**Rating**: HOLD  
+FINAL TRANSACTION PROPOSAL: Mantener la posición actual (HOLD) a la espera de una ruptura clara de soportes o resistencias clave, dado el contexto técnico mixto y el entorno macroeconómico de tipos elevados en la eurozona.
 
-### Análisis Técnico y de Tendencia
-A fecha de 12 de noviembre de 2026, **BKT.MC** cotiza a **14,78 EUR**, mostrando una ligera caída en la sesión (-0,57%). El análisis de los indicadores técnicos sugiere un mercado lateralizado:
-*   **Medias Móviles:** El precio actual (14,78 EUR) se sitúa ligeramente por encima de su media móvil simple de 20 sesiones (14,49 EUR), pero por debajo de su SMA de 50 sesiones (15,51 EUR). La proximidad del precio a su SMA de 200 sesiones (14,79 EUR) indica una falta de dirección clara a largo plazo, confirmando una fase de indecisión.
-*   **Momentum:** El **RSI(14)** se encuentra en **49,34**, una zona neutral que no indica sobrecompra ni sobreventa, lo que sugiere una falta de fuerza direccional definida en el corto plazo.
-*   **MACD:** Aunque el MACD (-0,197) está por debajo de la línea de señal (-0,340), la tendencia reciente ha sido de consolidación, con una volatilidad del 26,23%.
+---
 
-### Fundamentos y Valoración
-Bankinter exhibe una salud financiera robusta con un margen de beneficio del **41,12%** y una rentabilidad sobre el capital propio (**ROE**) del **17,64%**.
-*   **Valoración:** Con un **PER forward de 10,16** y una relación precio-valor contable (**P/B**) de **1,98**, la entidad cotiza con un descuento respecto a su media sectorial (ratio de 0,94 frente a peers como BBVA.MC o SAN.MC).
-*   **Dividendos:** La rentabilidad por dividendo (**dividend yield**) se sitúa en un atractivo **4,19%**, lo que compensa parcialmente el estancamiento en la cotización.
-*   **Crecimiento:** Se observa una previsión de crecimiento en beneficios del 10% y una mejora proyectada en el BPA forward a 1,45 EUR.
+### Análisis Financiero, Técnico y Fundamental de Bankinter (`BKT.MC`)
 
-### Contexto de Mercado
-Las noticias recientes (11 de noviembre de 2026, *Bolsamania*) destacan la actividad analítica de Bankinter, no solo sobre sus propios resultados, sino como firma de análisis que ajusta precios objetivos en otros sectores (Iberdrola, Apple), lo que subraya su posición estratégica. El entorno macroeconómico español (inflación enquistada al 5%, según *Finanzas.com*) y la presión sobre los tipos de interés del BCE (con expectativas de subidas al 3% según *Moncloa.com*) plantean un escenario de volatilidad que afectará los márgenes financieros de la banca regional.
+#### 1. Identidad y Contexto de Mercado
+* **Compañía:** Bankinter, S.A. (`BKT.MC`)
+* **Sede / Negocio:** Servicios Financieros / Banca Regional (España, cotizada en Bolsas y Mercados Españoles - MCE).
+* **Fecha de Análisis:** 13 de noviembre de 2026.
+* **Precio de Cierre de Referencia:** 14.64 EUR (sesión del 13/11/2026, con una variación diaria del -0.98%).
 
-### Consideraciones Finales
-La evidencia disponible (balance sheet, estados financieros) muestra un crecimiento sólido en ingresos (de 2.913M€ en 2023 a 3.128M€ en 2025). No obstante, los datos de **flujo de caja libre** (-766M€ en 2025) requieren atención detallada, ya que difieren significativamente de la tendencia positiva del año anterior, lo que podría estar relacionado con ajustes contables o inversiones de capital.
+---
 
-**Rating**: Hold
+#### 2. Fundamentales y Valoración
+* **Capitalización de Mercado:** 13.156,9 millones de EUR.
+* **PER (Trailing):** 11.62x | **PER (Forward):** 10.07x.
+* **Precio sobre Valor en Libros (Price-to-Book):** 1.96x (sobre un valor contable por acción de 7.455 EUR).
+* **Rentabilidad por Dividendo (Dividend Yield):** 4.23% (con un dividendo ordinario estimado de 0.62 EUR y un *payout ratio* del 49.01%).
+* **Rentabilidad sobre el Patrimonio (ROE):** 17.64%.
+* **Márgenes y Crecimiento:** Los márgenes de beneficio neto se sitúan en un robusto 41.13%, respaldados por unos ingresos totales crecientes (3.128 millones de EUR al cierre de 2025 frente a 3.082 millones en 2024) y un beneficio neto de 1.089,9 millones de EUR en 2025.
+* **Consenso de Analistas:** Precio objetivo medio de consenso de 16.79 EUR (con un rango entre un mínimo de 10.30 EUR y un máximo de 22.50 EUR, cubierto por 22 analistas), lo que arroja un potencial alcista estimado (*consensus upside*) del **14.68%**.
 
-FINAL TRANSACTION PROPOSAL: Mantener posiciones actuales. La acción se encuentra en un punto de equilibrio técnico (cerca de su SMA200) y ofrece un dividendo consistente, lo cual protege ante la ausencia de una tendencia alcista definida.
+---
 
-| Indicador | Valor / Estado | Interpretación |
+#### 3. Análisis Técnico y de Indicadores
+* **Tendencia y Medias Móviles:**
+  * **Cierre actual:** 14.64 EUR.
+  * **SMA 20:** 14.47 EUR (el precio cotiza ligeramente por encima de su media a corto plazo).
+  * **SMA 50:** 15.47 EUR.
+  * **SMA 200:** 14.79 EUR (actúa como una resistencia dinámica a largo plazo, encontrándose el precio justo por debajo).
+* **Momentum y Osciladores:**
+  * **RSI (14):** 46.80, reflejando una zona de neutralidad, sin signos claros de sobreventa ni de sobrecompra.
+  * **MACD:** -0.1803 y línea de señal MACD en -0.3081. El MACD se sitúa ligeramente por encima de su señal, sugiriendo una modesta disminución del impulso bajista previo, aunque condicionado por un rendimiento de 21 días del -3.53% y de 63 días del -12.47%.
+* **Volatilidad y Drawdown:**
+  * **Volatilidad (anualizada):** 26.28%.
+  * **Drawdown actual:** -13.65% desde máximos recientes.
+
+---
+
+#### 4. Contexto Macroeconómico y Noticias Recientes
+* **Entorno de Tipos e Inflación:** La inflación en la zona euro se mantiene en niveles elevados (en torno al 4% según titulares del 13 de noviembre de 2026), lo que inhabilita recortes rápidos de tipos por parte del BCE y mantiene el foco sobre los márgenes de intermediación de la banca regional.
+* **Actividad de Análisis y Cobertura:** En los últimos días (noviembre de 2026), Bankinter ha destacado en el mercado por revisiones al alza de precios objetivos en grandes valores como Iberdrola y Apple, y notas de estrategia tecnológica (CoreWeave), evidenciando la actividad activa de su departamento de análisis.
+
+---
+
+#### 5. Selección de Indicadores Clave (Complementarios y sin Redundancia)
+Siguiendo los criterios metodológicos, se seleccionan los siguientes 8 indicadores para monitorizar la evolución de `BKT.MC`:
+1. `close_50_sma`: Para identificar la dirección de la tendencia a medio plazo.
+2. `close_200_sma`: Como referencia estructural y de largo plazo.
+3. `close_10_ema`: Para capturar giros rápidos en el corto plazo.
+4. `macd`: Para evaluar la divergencia y convergencia de las medias móviles exponenciales.
+5. `macds`: Como línea de activación para cruces de momentum.
+6. `rsi`: Para vigilar zonas de potencial sobrecompra/sobreventa sin duplicidad con osciladores estocásticos.
+7. `boll_ub`: Banda superior de Bollinger para identificar zonas de resistencia por volatilidad.
+8. `atr`: Para medir la volatilidad histórica real y dimensionar adecuadamente la gestión del riesgo (stop-loss).
+
+---
+
+#### 6. Resumen en Tabla Organizada
+
+| Categoría / Métrica | Valor / Dato Clave | Interpretación Operativa para `BKT.MC` |
 | :--- | :--- | :--- |
-| Precio Actual | 14,78 EUR | Neutral, cercano a SMA200 |
-| RSI(14) | 49,34 | Zona neutral |
-| PER Forward | 10,16 | Valoración atractiva vs sector |
-| Dividend Yield | 4,19% | Sostenible y atractivo |
-| SMA 50 / 200 | 15,51 / 14,79 | Indicativo de fase lateral |
-| ROE | 17,64% | Alta eficiencia de capital |
+| **Precio de Cierre** | 14.64 EUR (-0.98%) | Cotización a 13 de noviembre de 2026. |
+| **Media Móvil (SMA 200)** | 14.79 EUR | Resistencia técnica clave a largo plazo. |
+| **RSI (14)** | 46.80 | Zona neutral; ausencia de extremos de mercado. |
+| **PER Forward** | 10.07x | Valoración atractiva en comparación con la media histórica sectorial. |
+| **Dividend Yield** | 4.23% | Retorno por dividendo competitivo en EUR. |
+| **Consenso de Analistas** | 16.79 EUR (Upside: 14.68%) | Potencial alcista moderado estimado por el consenso. |
+| **Volatilidad (26.28%)** | 26.28% | Requiere dimensionar stops basados en ATR. |
+| **Recomendación Final** | **HOLD** | Mantener posiciones; esperar confirmación por encima de la SMA 200. |
 
-*Nota: La información proporcionada se basa exclusivamente en los datos suministrados a 12 de noviembre de 2026. No se dispone de detalles sobre la composición del flujo de caja operativo negativo de 2025.*
+---
+
+*Nota de cumplimiento:* Este análisis se basa estrictamente en la información financiera y técnica suministrada a fecha de 13 de noviembre de 2026 para `BKT.MC`. No se asumen rentabilidades pasadas ni se ejecutan órdenes de compra o venta en firme de manera automatizada.

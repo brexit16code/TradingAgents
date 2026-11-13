@@ -1,36 +1,43 @@
-### Informe de Análisis: MERLIN Properties SOCIMI, S.A. (MRL.MC)
+Este informe analiza la situación actual de **MRL.MC** (MERLIN Properties SOCIMI, S.A.) basándose en la evidencia proporcionada a fecha de 13 de noviembre de 2026.
 
-**Fecha:** 12 de noviembre de 2026
+### Informe de Situación: MERLIN Properties (MRL.MC)
 
-#### 1. Contexto Macroeconómico
-El entorno actual en la Eurozona, y específicamente en España, está marcado por una inflación persistente. Los titulares recientes (Finanzas.com, 2026-11-08) señalan una inflación que se "enquista" en el 5% en España, lo cual complica la labor del Banco Central Europeo (BCE). Existe una tensión evidente entre los sectores "palomas" y "halcones" del BCE respecto a la trayectoria de los tipos de interés (El Español, 2026-11-07), con el mercado descontando subidas hacia el 3% (Moncloa.com, 2026-11-05). Este escenario de tipos elevados es un viento en contra natural para el sector inmobiliario (REIT), ya que incrementa los costes financieros y presiona las valoraciones de los activos.
+**1. Análisis Fundamental y Desempeño Reciente**
+*   **Resultados Q3 2026:** A pesar de una reacción negativa en la cotización, la compañía reportó ingresos que superaron las expectativas del mercado (Investing.com, 13/11/2026). Sin embargo, la acción se encuentra bajo presión (-0.68% en la sesión analizada).
+*   **Valuación:** MRL.MC presenta un PER histórico (*trailing PE*) de 7.96x y un ratio Precio/Valor Contable de 0.78, lo que sugiere que cotiza con un descuento respecto a su valor en libros. No obstante, el PER futuro es considerablemente más elevado (20.85x), lo que refleja cautela en las proyecciones de beneficios.
+*   **Dividendo:** Se ha confirmado el pago de un dividendo de 0.20 EUR por acción con fecha de pago 10 de diciembre de 2026, lo que respalda una política de retorno al accionista consistente con su naturaleza de SOCIMI.
 
-#### 2. Análisis de MRL.MC
-A fecha de 12 de noviembre de 2026, **MRL.MC** presenta una situación financiera robusta en términos operativos pero bajo la presión del ciclo macroeconómico.
+**2. Riesgos Regulatorios y Operativos**
+La noticia dominante para la compañía es la controversia en torno al decreto sobre centros de datos. La dirección de Merlin ha criticado duramente al Gobierno por ignorar sus alegaciones técnicas (OkDiario, 13/11/2026). La empresa estima un **coste extra de 863 millones de euros** derivado de esta nueva regulación, lo que ha generado una incertidumbre significativa que pesa sobre el valor bursátil, eclipsando los resultados operativos.
 
-*   **Fundamentos Operativos:** La compañía muestra un sólido desempeño con un crecimiento de los ingresos del 14,6% y un crecimiento de las ganancias del 16,6% (periodo 2024-2025). La ocupación se mantiene elevada, cerca del 95%, impulsada por el segmento de centros de datos (Bolsamania, 2026-11-12).
-*   **Valoración:** La acción cotiza a un *Forward PE* de 20,99x frente a un *Trailing PE* de 8,01x, lo que sugiere que el mercado anticipa una compresión de beneficios o un reajuste en las expectativas de crecimiento. Con una relación precio/valor contable (*Price to Book*) de 0,78, la acción cotiza con un descuento sobre su valor liquidativo (NAV), lo cual es típico en momentos de alta incertidumbre en el sector inmobiliario.
-*   **Balance:** La deuda total es de 5.181 millones de EUR frente a una caja de 1.563 millones de EUR. Aunque el flujo de caja operativo es positivo (423,6 millones de EUR), el aumento de los tipos de interés sigue siendo el principal riesgo para la sostenibilidad de sus márgenes.
+**3. Entorno Macroeconómico**
+El contexto macro en la Eurozona es desafiante:
+*   La inflación en la zona euro alcanza el 4%, lo que limita la capacidad del BCE para moderar el alza de tipos (El Economista, 13/11/2026).
+*   En España, la inflación se mantiene cerca del 5%, y existe un entorno de tipos reales negativos, lo que complica la gestión del ahorro y las inversiones inmobiliarias a largo plazo.
 
-#### 3. Evidencia Contraria y de Soporte
-*   **Soporte:** La diversificación hacia centros de datos es un catalizador alcista. La alta tasa de ocupación (95%) demuestra que los activos de alta calidad de MRL.MC mantienen demanda a pesar del ciclo.
-*   **Contraria:** La debilidad técnica es evidente. MRL.MC cotiza por debajo de su media móvil de 200 días (13,91 EUR) con un precio actual de 11,78 EUR. El RSI de 49,9 sugiere una neutralidad, pero el rendimiento a 63 días ha sido negativo (-17,85%). La discrepancia entre el precio objetivo medio de los analistas (17,01 EUR) y el precio de mercado refleja una divergencia significativa sobre la valoración futura.
+**4. Análisis Técnico**
+*   **Tendencia:** MRL.MC cotiza en 11.70 EUR, situándose por debajo de su media móvil de 200 días (13.90 EUR) y de la de 50 días (12.03 EUR), lo que confirma una tendencia bajista de medio plazo.
+*   **Momento:** El indicador RSI(14) en 48.05 indica una posición neutral, sin signos de sobreventa o sobrecompra extrema. El MACD se encuentra cercano a su señal, reflejando consolidación tras las caídas recientes.
 
-#### 4. Datos Faltantes
-*   No se dispone de un *Net Debt/EBITDA* actualizado directamente de la fuente para 2026, lo cual es vital para evaluar el apalancamiento real bajo el actual régimen de tipos.
-*   Falta información detallada sobre el vencimiento de la deuda a corto plazo y el coste medio de la financiación (tipo de interés promedio ponderado de la deuda).
+### Factores a Considerar
+*   **Apoyo:** El valor cotiza por debajo de su valor contable y los analistas mantienen un precio objetivo medio de 17.01 EUR, lo que implica un potencial de retorno teórico alto (consenso de +45.4%).
+*   **Contras:** El riesgo regulatorio es tangible y cuantificado (863M€). La persistencia de una inflación alta puede presionar los costes operativos de los activos de la SOCIMI y reducir los márgenes.
 
-#### 5. Conclusión
-MRL.MC se encuentra en un punto de inflexión. Si bien los fundamentales operativos son saludables, el entorno de tipos de interés altos penaliza las valoraciones de los REITs. La oportunidad reside en el descuento sobre el valor en libros, pero el inversor debe monitorizar de cerca las próximas decisiones del BCE, ya que cualquier señal de estabilización de tipos podría actuar como catalizador para cerrar la brecha con el precio objetivo de consenso.
+### Datos Faltantes
+*   No se dispone de datos detallados sobre el *spread* de rentabilidad de sus activos de oficinas frente a los tipos de interés actuales.
+*   Falta información sobre la estructura de vencimiento de la deuda a corto plazo ante un escenario de tipos de interés que no bajan.
 
-| Indicador | Valor / Estado |
+---
+
+| Indicador / Punto Clave | Valor / Detalle |
 | :--- | :--- |
-| **Precio Actual** | 11,78 EUR |
-| **Consenso Upside** | +44,43% |
-| **Dividend Yield** | 1,87% |
-| **Ratio P/B** | 0,78 |
-| **Tendencia Técnica** | Bajista (bajo SMA200) |
-| **Ocupación** | ~95% |
+| **Precio Actual (MRL.MC)** | 11.70 EUR |
+| **Consenso Precio Objetivo** | 17.01 EUR |
+| **Potencial alcista (consenso)** | +45.41% |
+| **Ratio Precio/Libro** | 0.78x |
+| **Riesgo Identificado** | Decreto centros de datos (-863M€) |
+| **Dividendo (próximo)** | 0.20 EUR (10 dic 2026) |
 
-**Rating**: HOLD
-FINAL TRANSACTION PROPOSAL: No action recommended until interest rate trajectory for 2027 is confirmed by ECB communications.
+**Rating**: REVIEW
+
+FINAL TRANSACTION PROPOSAL: No trade execution suggested. Given the current regulatory uncertainty regarding the data center decree, a wait-and-see approach is recommended until the financial impact is more clearly integrated into long-term cash flow models.

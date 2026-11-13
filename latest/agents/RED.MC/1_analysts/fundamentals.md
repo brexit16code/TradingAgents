@@ -1,40 +1,84 @@
-### Informe Fundamental: Redeia Corporación, S.A. (RED.MC)
+**Rating**: HOLD  
+FINAL TRANSACTION PROPOSAL: REVIEW  
 
-**Fecha de análisis:** 12 de noviembre de 2026
+# Informe Fundamental y Análisis de Inversión para Redeia (`RED.MC`)
 
-#### 1. Perfil y Contexto de Mercado
-Redeia Corporación, S.A. (RED.MC), operador del sistema eléctrico español, se mantiene como una entidad de utilidad pública con un modelo de negocio intensivo en capital y altamente regulado. Cotizando en el Mercado Continuo Español (MCE), la compañía se enfrenta a un entorno macroeconómico complejo caracterizado por una inflación persistente en España (cercana al 5% según *Finanzas.com*, 8 de noviembre) y un ciclo de tipos de interés al alza por parte del BCE, lo cual presiona los costes de financiación de las empresas de servicios públicos altamente endeudadas.
+## 1. Perfil de la Compañía e Información General
+* **Ticker:** `RED.MC`
+* **Nombre de la Compañía:** Redeia Corporación, S.A.
+* **Bolsa y Divisa:** Mercado Continuo Español (MCE), EUR.
+* **Sector / Industria:** Utilities / Utilities - Regulated Electric.
+* **Identidad Resuelta:** Redeia Corporación, S.A.
+* **Capitalización de Mercado:** 8.795.412.480 EUR.
+* **Precio de Cierre Actual (13 de noviembre de 2026):** 16,30 EUR.
 
-#### 2. Análisis Financiero (Basado en datos al 31/12/2025)
-*   **Rentabilidad y Margen:** Redeia mantiene unos márgenes de beneficio sólidos (29.99%), reflejo de su naturaleza regulada. Sin embargo, el ROE (9.78%) indica una eficiencia moderada en la generación de valor para el accionista sobre su base patrimonial.
-*   **Balance y Solvencia:** La estructura de capital es el principal punto de atención. Con una deuda total de ~5.98 mil millones de EUR frente a un patrimonio neto de 5.25 mil millones, el apalancamiento es significativo. El ratio de *Net Debt/EBITDA* se sitúa en 4.96x, lo cual es elevado en un contexto de tipos de interés en ascenso, limitando la flexibilidad financiera para nuevas inversiones de capital (CapEx).
-*   **Flujo de Caja:** Los estados financieros muestran una dinámica preocupante: el *Free Cash Flow* ha sido negativo en los últimos años (-585 millones de EUR en 2025), debido principalmente a un nivel elevado de CapEx (1.4 mil millones de EUR), necesario para el mantenimiento y expansión de la red de transporte eléctrico.
-
-#### 3. Desempeño Reciente y Perspectivas
-*   **Noticias Recientes:** A principios de noviembre de 2026, fuentes como *Bolsamania* sugieren una recuperación en la senda de crecimiento y una política de dividendos atractiva (rendimiento del 5.11%). No obstante, existen preocupaciones operativas; *Artículo 14* (8 de noviembre) menciona un aumento en las incidencias/apagones y tensiones sobre la planificación eléctrica, lo que añade incertidumbre regulatoria.
-*   **Valoración:** La acción cotiza a un Forward PE de 16.5x, alineado con la mediana del sector. Con una capitalización de 8.55 mil millones de EUR y un consenso de analistas que sugiere un precio objetivo medio de 16.43 EUR, la acción ofrece un potencial de subida moderado del ~3.76% desde su cierre de 15.84 EUR.
-
-#### 4. Riesgos y Observaciones
-*   **Contrario:** El alto nivel de deuda neta frente al EBITDA (4.96x) es un factor de riesgo crítico si el BCE mantiene o sube los tipos. La sostenibilidad del dividendo, dado el *payout ratio* del 85.3%, es elevada, lo que podría limitar el crecimiento futuro o requerir mayor endeudamiento si el FCF no se torna positivo.
-*   **Soporte:** La posición de monopolio natural como transportista y gestor técnico del sistema proporciona una visibilidad de ingresos que sigue siendo un refugio frente a la volatilidad cíclica del mercado.
-
-#### 5. Datos faltantes
-No se dispone de datos detallados sobre el desglose de los activos regulatorios específicos ni la actualización exacta de la retribución financiera (tasa de rentabilidad) vigente tras las últimas revisiones regulatorias, lo cual es fundamental para calcular el valor intrínseco.
+Redeia (conocida históricamente como Red Eléctrica Corporación) opera como el operador del sistema eléctrico y transportista único de electricidad en España a través de Red Eléctrica de España (REE), además de diversificar en telecomunicaciones (Hispasat y Redintel) y satélites. Al ser un negocio altamente regulado, su atractivo principal reside en la previsibilidad de sus flujos de caja y su política de retribución al accionista.
 
 ---
 
-### Resumen de Datos Clave
+## 2. Análisis Financiero (Estados Financieros e 히storial)
 
-| Indicador | Valor |
-| :--- | :--- |
-| **Precio Actual** | 15.84 EUR |
-| **Capitalización Bursátil** | 8.55 mil millones EUR |
-| **Forward PE** | 16.51x |
-| **Dividend Yield** | 5.11% |
-| **Payout Ratio** | 85.3% |
-| **Net Debt/EBITDA** | 4.96x |
-| **Consenso Precio Objetivo** | 16.43 EUR |
-| **RSI (14 días)** | 72.54 (Nivel de sobrecompra) |
+Basado en los datos consolidados y los estados financieros proporcionados:
 
-**Rating**: HOLD
-FINAL TRANSACTION PROPOSAL: Neutral posture is recommended; the high dividend yield is attractive but offset by high debt levels and negative free cash flow. Await potential pullbacks or clearer regulatory updates regarding grid planning.
+### A. Cuenta de Resultados (Income Statement)
+* **Ingresos Totales (Total Revenue):**
+  * Ejercicio 2023: 1.818.791.000 EUR
+  * Ejercicio 2024: 1.594.204.000 EUR
+  * Ejercicio 2025: 1.659.517.000 EUR (Crecimiento interanual reportado del 9,2%).
+* **EBITDA:**
+  * Ejercicio 2023: 1.442.909.000 EUR
+  * Ejercicio 2024: 1.280.896.000 EUR
+  * Ejercicio 2025: 1.305.522.000 EUR (EBITDA actual de los últimos periodos cotiza sobre los 1.128.440.064 EUR).
+* **Beneficio Neto (Net Income):**
+  * Ejercicio 2023: 689.640.000 EUR
+  * Ejercicio 2024: 368.438.000 EUR
+  * Ejercicio 2025: 505.643.000 EUR.
+  * *Márgenes:* Margen de beneficio neto robusto del orden del 29,99%.
+
+### B. Balance de Situación (Balance Sheet)
+* **Total Activos:** 15.345.312.000 EUR (cierre 2025).
+* **Deuda Total:** 6.144.376.000 EUR (cierre 2025) / 5.982.499.840 EUR (datos actuales).
+* **Patrimonio Neto (Stockholders Equity):** 5.248.068.000 EUR (cierre 2025).
+* **Apalancamiento:** La ratio Deuda Neta / EBITDA se sitúa en torno a 4,96x, un nivel elevado típico de utilities con uso intensivo de capital, pero que exige vigilancia dadas las presiones macroeconómicas sobre los tipos de interés.
+
+### C. Flujo de Caja (Cash Flow)
+* **Flujo de Caja Operativo:** 1.013.195.000 EUR (2025) / 1.007.337.984 EUR (actual).
+* **Gastos de Capital (CapEx):** -1.407.063.000 EUR (2025), reflejando un esfuerzo inversor intensivo en infraestructuras.
+* **Flujo de Caja Libre (Free Cash Flow):** -393.868.000 EUR (2025) / -585.476.864 EUR (actual). Las inversiones netas superan la caja operativa actual, lo que presiona la liquidez y la cobertura de dividendo mediante caja generada internamente.
+
+---
+
+## 3. Valoración y Datos de Mercado
+
+* **PER (Trailing):** 17,34x | **PER (Forward):** 16,98x.
+* **Precio / Valor en Libros (P/B):** 1,49x.
+* **EV / EBITDA:** 12,56x.
+* **Dividendo:** 
+  * Dividendo por acción (Rate): 0,80 EUR.
+  * Rentabilidad por dividendo (Dividend Yield): 4,91% a 5,05%.
+  * Ratio de Payout: 85,30%, lo que evidencia que una parte sustancial de los beneficios se destina a remunerar al accionista, a pesar de los flujos de caja libres negativos recientes debido al CapEx.
+* **Consenso de Analistas:** Precio objetivo medio de consenso en 16,43 EUR (con rango bajo de 13,50 EUR y alto de 19,40 EUR, basado en la opinión de 22 analistas). El upside actual frente al cierre de 16,30 EUR es muy reducido (~0,83%).
+
+---
+
+## 4. Aspectos Técnicos y Contexto Informativo Reciente
+
+* **Indicadores Técnicos:** 
+  * Cierre: 16,30 EUR (cambio diario +2,90%).
+  * RSI (14): 79,99, lo que indica condiciones de **sobrecompra técnica** significativa en el corto plazo.
+  * Medias Móviles: Cotiza por encima de sus SMA20 (15,32 EUR), SMA50 (15,06 EUR) y SMA200 (14,82 EUR), mostrando una tendencia alcista sostenida en los últimos meses (retorno a 21 sesiones de +9,10%).
+* **Noticias y Entorno Macroeconómico:**
+  * El sector y la propia Redeia figuran en análisis recientes (como informes de *Estrategias de Inversión* e *Investing.com* de noviembre de 2026) asociados al comportamiento defensivo del Ibex 35.
+  * Existen desafíos operativos reseñados por la prensa especializada (ej. *Artículo 14* el 08/11/2026) que mencionan retos en la gestión de redes, apagones y la estrecha vigilancia sobre los niveles de deuda en la "era Corredor" a la espera de la nueva planificación eléctrica.
+  * Macroeconomía de la Eurozona: La persistencia de inflaciones elevadas en la zona euro (en torno al 4%-5% según reportes de mediados de noviembre de 2026 como los de *El Economista* y *Finanzas.com*) complica una rápida relajación de los tipos de interés por parte del BCE, manteniendo la presión sobre los costes de financiación de las utilities altamente endeudadas.
+
+---
+
+## 5. Datos Faltantes / Limitaciones
+* No se dispone de un desglose detallado de las transacciones de iniciados (*insider transactions*) en la instantánea provista.
+* El desglose de crecimiento orgánico por divisiones secundarias (Hispasat) es limitado dentro del set de datos resumidos.
+
+---
+
+## 6. Conclusión e Insights Accionables para Traders
+* **Tesis de Inversión:** Redeia (`RED.MC`) ofrece una atractiva rentabilidad por divid

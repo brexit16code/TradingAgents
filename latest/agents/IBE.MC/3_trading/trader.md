@@ -1,11 +1,11 @@
-**Action**: Hold
+**Action**: Sell
 
-**Reasoning**: Iberdrola muestra un momentum técnico excepcional con una tendencia alcista consolidada, pero presenta indicadores claros de sobrecompra (RSI 79.56) y una valoración fundamental extendida respecto a sus comparables del sector (Forward P/E de 20.96 frente a una mediana de 16.51). Dado que el precio actual se sitúa significativamente por encima del precio objetivo medio de los analistas, entrar en estos niveles carece de margen de seguridad, siendo prudente mantener la posición actual y esperar una corrección hacia la media móvil de 20 sesiones o niveles de soporte técnico más atractivos.
+**Reasoning**: La recomendacion bajista del plan de investigacion y la valoracion en primas elevadas frente al sector (PER forward de 21,28x) junto con un RSI en sobrecompra extrema de 82,54 justifican reducir exposicion. Adicionalmente, el precio actual de 23,70 EUR supera el precio objetivo medio del consenso de 21,57 EUR, lo que indica un potencial bajista implícito del -8,99%. Se aconseja tomar beneficios y recortar posiciones aprovechando los máximos históricos alcanzados.
 
-**Entry Price**: 21.5
+**Entry Price**: 23.7
 
-**Stop Loss**: 20.19
+**Stop Loss**: 25.0
 
-**Position Sizing**: Mantener exposición actual; no incrementar posiciones ante la sobrecompra técnica.
+**Position Sizing**: Reducir exposicion en -0.5x respecto al peso estandar de cartera
 
-FINAL TRANSACTION PROPOSAL: **HOLD**
+FINAL TRANSACTION PROPOSAL: **SELL**

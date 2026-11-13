@@ -1,35 +1,95 @@
-El presente informe analiza la situación fundamental de **Industria de Diseño Textil, S.A. (ITX.MC)** con fecha de corte al 12 de noviembre de 2026, basándose en la información financiera y de mercado proporcionada.
+**Rating**: REVIEW
 
-### Análisis de la Situación Fundamental
-Industria de Diseño Textil (Inditex) mantiene una posición financiera sólida, caracterizada por un crecimiento constante en sus ingresos y márgenes de beneficio. A pesar de la volatilidad reciente en el mercado, la compañía presenta una salud financiera robusta con una posición de efectivo neta positiva.
+**FINAL TRANSACTION PROPOSAL**: HOLD
 
-**1. Desempeño Financiero (Resultados a 31/01/2026):**
-*   **Ingresos:** La compañía reportó 39.864 millones de euros en ingresos, consolidando una tendencia al alza desde los 35.947 millones de euros de 2024.
-*   **Rentabilidad:** El beneficio neto alcanzó los 6.220 millones de euros, mostrando una eficiencia operativa sostenida. El EBITDA del último ejercicio fiscal fue de 11.545 millones de euros.
-*   **Solvencia:** Inditex exhibe una gestión de deuda muy conservadora, con una deuda total de 6.095 millones de euros frente a una caja (total cash) de 10.398 millones de euros. Su ratio *net debt/EBITDA* es negativo (-0,43x), lo que indica una posición de caja neta que aporta gran resiliencia ante entornos macroeconómicos inciertos.
+---
 
-**2. Valoración y Mercado:**
-*   **Métricas de Valoración:** La acción cotiza a un *Forward PE* de 25,24x y un *Trailing PE* de 28,97x. Con un ratio *Price to Book* de 10,41x, el mercado valora significativamente su eficiencia operativa y su retorno sobre el capital propio (*ROE*), que se sitúa en un impresionante 36,82%.
-*   **Sentimiento del Mercado:** Recientes titulares (12 de noviembre de 2026, *Estrategias de Inversión*) sugieren una toma de beneficios o una cautela ante los recientes máximos históricos alcanzados por la compañía, lo que ha generado una presión vendedora a corto plazo tras un periodo de crecimiento notable.
+### Informe Fundamental Integral: Industria de Diseño Textil, S.A. (`ITX.MC`)
 
-**3. Contexto Macroecónomico:**
-La compañía se encuentra operando en un entorno de inflación en España que ronda el 5% (8 de noviembre de 2026, *Finanzas.com*) y ante un escenario de tipos de interés presionado por las políticas del BCE. A pesar de esto, Inditex demuestra capacidad para trasladar costes a sus precios finales debido al poder de su marca.
+Fecha del análisis: 13 de noviembre de 2026.  
+Cotización actual: 59.64 EUR (`ITX.MC`).  
+Bolsa de origen: Madrid (MCE), BENCHMARK: `^IBEX`.  
+Sectores y Clasificación: Consumer Cyclical / Apparel Retail.
 
-### Perspectivas para Traders
-*   **Evidencia de apoyo:** El sólido crecimiento de ingresos, el ROE elevado y la posición neta de caja. La tendencia a largo plazo (SMA200 en 53,57 EUR) está por debajo del precio actual (59,68 EUR), confirmando la fortaleza de la tendencia alcista de fondo.
-*   **Evidencia contraria:** La valoración actual es exigente (PE superior a 25x) y existen advertencias de analistas sobre la sobreextensión tras los recientes máximos. La volatilidad reciente del 22,5% sugiere cautela en las entradas.
-*   **Datos faltantes:** No se dispone del desglose detallado por mercados geográficos para el presente año ni la confirmación de dividendos futuros adicionales más allá del *yield* actual del 1,08%.
+---
 
-**Rating**: HOLD
+### 1. Perfil de la Compañía y Resumen de Negocio
 
-| Concepto | Dato |
-| :--- | :--- |
-| **Capitalización Bursátil** | 185.903.759.360 EUR |
-| **Precio Actual** | 59,68 EUR |
-| **Forward EPS** | 2,36 EUR |
-| **Retorno sobre Capital (ROE)** | 36,82% |
-| **Ratio Deuda/EBITDA** | -0,43x |
-| **Dividend Yield** | 1,08% |
-| **Consenso Precio Objetivo** | 60,39 EUR |
+Inditex (`ITX.MC`) es uno de los mayores distribuidores de moda del mundo. Su modelo de negocio integrado verticalmente abarca el diseño, la fabricación (a través de proveedores externos), la distribución y la venta al por menor a través de sus marcas comerciales (principalmente Zara, Massimo Dutti, Pull&Bear, Bershka, Stradivarius, Oysho y Zara Home). Su estrategia se centra en la flexibilidad de la cadena de suministro, la rápida rotación de inventarios y una fuerte presencia omnicanal (tienda física y comercio electrónico).
 
-FINAL TRANSACTION PROPOSAL: Mantener posiciones actuales debido a la solidez fundamental, pero considerar la toma de beneficios parcial si la presión bajista de corto plazo rompe la media móvil de 20 sesiones (57,24 EUR), dada la valoración premium de la acción.
+---
+
+### 2. Análisis Financiero Fundamental y Datos Clave
+
+Con base en los datos reportados y los estados financieros consolidados de la compañía, se observa una sólida salud financiera y un crecimiento constante de ingresos y beneficios:
+
+*   **Capitalización Bursátil**: 185.779.159.040 EUR (`185.78` mil millones de euros).
+*   **Valor en Bolsa (Precio)**: 59.64 EUR (`ITX.MC`).
+*   **Múltiplos de Valoración**:
+    *   **PER Trailing (Trailing P/E)**: 28.95x
+    *   **PER Forward (Forward P/E)**: 25.23x
+    *   **Precio a Valor en Libros (Price-to-Book)**: 10.40x
+    *   **EV/EBITDA**: 18.60x
+*   **Rentabilidad y Márgenes**:
+    *   **Margen de Beneficio (Profit Margins)**: 15.53%
+    *   **Retorno sobre el Capital (ROE)**: 36.82%
+    *   **Crecimiento de Ingresos (Revenue Growth)**: 9.1% interanual
+    *   **Crecimiento de Beneficios (Earnings Growth)**: 8.0% interanual
+*   **Solidez Patrimonial y Deuda**:
+    *   **Deuda Total**: 6.198 millones de EUR (a nivel de balance consolidado reciente muestra una deuda de 6.095 millones de EUR a enero de 2026).
+    *   **Efectivo Total (Cash)**: 10.399 millones de EUR.
+    *   **EBITDA**: 9.771 millones de EUR (datos de la compañía de 11.545 millones de EUR según el último ejercicio cerrado a enero de 2026).
+    *   **Deuda Neta / EBITDA**: `-0.43x` (Posición de caja neta sólida, con más efectivo que deuda total).
+*   **Flujo de Caja (Cash Flow)**:
+    *   **Flujo de Caja Operativo**: 10.439 millones de EUR (9.232 millones de EUR en el cierre fiscal de enero de 2026).
+    *   **Flujo de Caja Libre (Free Cash Flow)**: 6.488 millones de EUR (6.520 millones de EUR al cierre fiscal de enero de 2026).
+*   **Política de Dividendos**:
+    *   **Rentabilidad por Dividendo (Dividend Yield)**: 1.09% (Dividend Rate: 0.65 EUR por acción).
+    *   **Ratio de Pago (Payout Ratio)**: 56.69%.
+
+---
+
+### 3. Historial Financiero Reciente (Estados Financieros Anuales)
+
+*Cierre de ejercicio fiscal el 31 de enero de cada año:*
+
+*   **Ejercicio 2026 (Cierre 2026-01-31)**:
+    *   *Total Revenue*: 39.864.000.000 EUR
+    *   *EBITDA*: 11.545.000.000 EUR
+    *   *Net Income*: 6.220.000.000 EUR
+    *   *Total Assets*: 35.638.000.000 EUR
+    *   *Total Debt*: 6.095.000.000 EUR
+    *   *Stockholders Equity*: 20.395.000.000 EUR
+    *   *Operating Cash Flow*: 9.232.000.000 EUR
+    *   *Free Cash Flow*: 6.520.000.000 EUR
+
+*   **Ejercicio 2025 (Cierre 2025-01-31)**:
+    *   *Total Revenue*: 38.632.000.000 EUR
+    *   *EBITDA*: 10.946.000.000 EUR
+    *   *Net Income*: 5.866.000.000 EUR
+    *   *Total Assets*: 34.714.000.000 EUR
+    *   *Total Debt*: 5.909.000.000 EUR
+    *   *Stockholders Equity*: 19.676.000.000 EUR
+    *   *Operating Cash Flow*: 9.288.000.000 EUR
+    *   *Free Cash Flow*: 6.616.000.000 EUR
+
+*   **Ejercicio 2024 (Cierre 2024-01-31)**:
+    *   *Total Revenue*: 35.947.000.000 EUR
+    *   *EBITDA*: 10.038.000.000 EUR
+    *   *Net Income*: 5.381.000.000 EUR
+    *   *Total Assets*: 32.735.000.000 EUR
+    *   *Total Debt*: 5.739.000.000 EUR
+    *   *Stockholders Equity*: 18.642.000.000 EUR
+    *   *Operating Cash Flow*: 8.667.000.000 EUR
+    *   *Free Cash Flow*: 6.795.000.000 EUR
+
+---
+
+### 4. Análisis Técnico y Consenso de Mercado
+
+*   **Indicadores Técnicos**:
+    *   Cotiza a 59.64 EUR, muy cerca de sus medias móviles clave (SMA 20: 57.48 EUR, SMA 50: 54.74 EUR, SMA 200: 53.61 EUR), lo que refleja una tendencia alcista firme a medio y largo plazo.
+    *   **RSI (14)**: 65.78 (zona de fuerza compradora, sin sobrecompra extrema).
+    *   **MACD**: 1.53 (por encima de su línea de señal en 1.33, indicando impulso positivo).
+    *   **Volatilidad (22.4%)** y un **Drawdown** mínimo del -0.83% respecto a sus máximos recientes.
+*   **Consenso de Analistas

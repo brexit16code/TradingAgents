@@ -1,44 +1,41 @@
-### Informe de Análisis Fundamental: Acciona, S.A. (`ANA.MC`)
+Informe fundamental detallado: Acciona, S.A. (`ANA.MC`)
 
-**Fecha de análisis:** 12 de noviembre de 2026
-**Ticker:** `ANA.MC` (Bolsa de Madrid, IBEX 35)
+**Resumen Ejecutivo**
+Acciona, S.A. es una corporación líder en el sector industrial de ingeniería y construcción, con una capitalización bursátil de aproximadamente 10.800 millones de EUR. Al 13 de noviembre de 2026, la acción experimenta una presión vendedora significativa, registrando una caída del 7,98% en la sesión actual, cotizando a 203,0 EUR. La reacción del mercado parece estar motivada por noticias corporativas específicas divulgadas hoy.
 
-#### 1. Perfil de la Empresa y Contexto
-Acciona, S.A. es una compañía española líder en los sectores de infraestructura y energía renovable. Su modelo de negocio se basa en el desarrollo de soluciones sostenibles, ingeniería y construcción, operando en un entorno macroeconómico complejo caracterizado por presiones inflacionarias persistentes en España (citadas en torno al 5% según *Finanzas.com* el 08-11-2026) y una política monetaria restrictiva por parte del BCE, que contempla alzas de tipos hacia el 3%.
+**Análisis de la situación actual y catalizadores**
+El mercado ha reaccionado negativamente tras las informaciones publicadas el 13 de noviembre de 2026 sobre:
+1.  **Apoyo financiero a filial:** La noticia de un préstamo de 500 millones de EUR a su filial energética (El Confidencial, 13/11/2026).
+2.  **Retrasos operativos:** La postergación de desinversiones previstas, lo que genera dudas sobre la estrategia de liquidez y la estructura de capital.
+3.  **Previsiones:** A pesar del desplome, la empresa mantiene sus previsiones para 2026, lo cual no ha sido suficiente para calmar el sentimiento inversor (El Boletín, 13/11/2026).
 
-#### 2. Análisis Financiero (Basado en datos al 31/12/2025)
-*   **Resultados:** La empresa mostró un crecimiento en ingresos de 19.19 mil millones (2024) a 20.24 mil millones (2025). Sin embargo, la rentabilidad se ve presionada por un alto apalancamiento.
-*   **Deuda y Solvencia:** Presenta una deuda total de 13.62 mil millones de euros frente a un EBITDA de 3.45 mil millones. El ratio *Net Debt/EBITDA* se sitúa en 6.14x, lo cual es elevado para el sector industrial, incrementando el riesgo financiero en un entorno de tipos de interés altos.
-*   **Flujo de Caja:** El flujo de caja operativo fue positivo (2.15 mil millones), pero tras un importante gasto de capital (CAPEX) de 1.77 mil millones, el flujo de caja libre resultante es de 379 millones.
-*   **Valoración:** El PER actual (trailing) es de 33.32x, mientras que el forward PER se proyecta en 20.10x. La acción cotiza a un ratio P/B de 2.48x.
+**Análisis Financiero**
+*   **Balance:** La empresa mantiene una carga de deuda significativa. Con una deuda total de 14.574 millones de EUR y un ratio de *Net Debt/EBITDA* de 6,14, el apalancamiento es elevado para el sector. El patrimonio neto se sitúa en 4.706 millones de EUR (periodo 2025).
+*   **Rentabilidad y Flujos:** El *Free Cash Flow* (FCF) muestra volatilidad: pasó de -1.199 millones (2023) a 379 millones (2025). El *trailing PE* es de 30,66, con un *forward PE* más atractivo de 18,45, sugiriendo expectativas de mejora en los beneficios futuros.
+*   **Márgenes:** La rentabilidad neta es estrecha, con márgenes de beneficio del 1,64%, reflejando la alta intensidad de capital y la estructura de costes de los proyectos de ingeniería.
 
-#### 3. Perspectivas y Riesgos
-*   **Fortalezas:** Acciona mantiene una posición competitiva sólida en energías renovables y construcción, con una capacidad de generación de ingresos estable.
-*   **Riesgos:** 
-    *   **Inflación:** El entorno de inflación al 5% puede incrementar los costes de insumos y materiales.
-    *   **Tipos de interés:** La política de "halcones" del BCE presiona los costes de financiación de su elevada deuda.
-    *   **Consenso:** El precio de mercado actual (220.60 EUR) se encuentra ligeramente por encima del precio objetivo medio de los analistas (219.41 EUR), lo que sugiere que la acción podría estar valorada adecuadamente o ligeramente sobreestimada según el consenso (-0.54% de *upside*).
+**Perspectivas y Riesgos**
+*   **Factores Macroeconómicos:** El entorno es desafiante. La inflación en la Eurozona se sitúa en el 4%, lo que limita la capacidad de los bancos centrales para suavizar la política monetaria. Los tipos reales negativos y la persistencia de la inflación (5% en España según Finanzas.com) afectan los costes de financiación de proyectos a largo plazo.
+*   **Soporte Técnico:** La acción se sitúa por debajo de su media móvil de 200 días (224,64 EUR), lo que técnicamente confirma una tendencia bajista de medio plazo. El RSI de 41,5 indica que, aunque la caída es severa, no está en territorio de sobreventa extrema inmediata.
 
-#### 4. Datos faltantes
-No se dispone de datos sobre transacciones de *insider trading* recientes, ni desgloses detallados de la cartera de pedidos de construcción o el avance específico de los proyectos de energía para el tercer y cuarto trimestre de 2026. La información de prensa es macroeconómica y no cubre noticias corporativas específicas de la empresa en la última semana.
+**Conclusiones para el trader**
+La divergencia entre las previsiones de la empresa y la reacción del mercado sugiere una prima de riesgo elevada. La combinación de un ratio de deuda/EBITDA superior a 6 y las noticias sobre inyecciones de capital en filiales sugieren que el mercado está penalizando el riesgo de balance.
 
----
+**Información faltante:** No se dispone de detalles desglosados sobre los términos específicos (tipo de interés, plazos) del préstamo a la filial ni el plan detallado de las desinversiones retrasadas.
 
-### Resumen de Datos Clave
+**Tabla de datos clave**
 
-| Indicador | Valor |
+| Métrica | Valor / Dato |
 | :--- | :--- |
-| Precio de cierre (`ANA.MC`) | 220.60 EUR |
-| Market Cap | 11.74 mil M EUR |
-| P/E (Forward) | 20.10x |
-| Dividend Yield | 2.61% |
-| Net Debt / EBITDA | 6.14x |
-| Target Price (Mean) | 219.41 EUR |
-| EBITDA (2025) | 3.45 mil M EUR |
+| Precio de cierre | 203,0 EUR |
+| Variación diaria | -7,98% |
+| Capitalización bursátil | 10.800 M EUR |
+| Forward PE | 18,45 |
+| Net Debt / EBITDA | 6,14 |
+| Dividendo Yield | 2,83% |
+| Precio objetivo medio (Consenso) | 219,41 EUR |
+| SMA 200 días | 224,64 EUR |
 
-**Rating**: HOLD
-**FINAL TRANSACTION PROPOSAL**: NO ACTION (The security is trading close to its mean analyst target price, and the high leverage ratio combined with a restrictive interest rate environment warrants caution).
+**Rating**: REVIEW
 
-*Fuentes:* 
-- Datos financieros: [Yahoo Finance - ANA.MC](https://finance.yahoo.com/quote/ANA.MC/)
-- Contexto macro: [Finanzas.com](https://www.finanzas.com), [Bankinter](https://www.bankinter.com) (Acceso vía RSS, 06-11-2026 a 12-11-2026).
+FINAL TRANSACTION PROPOSAL: No hay propuesta de transacción; el activo se encuentra en una situación de alta volatilidad y reajuste de expectativas tras noticias corporativas, siendo prudente esperar a una estabilización técnica y aclaración de la estrategia de desinversión.

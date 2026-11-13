@@ -1,31 +1,59 @@
-Este informe analiza la situación de **Enagás, S.A. (ENG.MC)**, operadora de infraestructuras gasistas en España, a fecha de 12 de noviembre de 2026.
+**Rating**: HOLD
 
-### Análisis Fundamental y de Mercado
-**Enagás (ENG.MC)** cotiza a 18,17 EUR, mostrando un comportamiento positivo con una rentabilidad del 36,6% en los últimos 252 días. A pesar de una ratio P/E (PER) de 13,36x, la valoración futura es más exigente (forward P/E de 16,11x). La empresa destaca por una atractiva rentabilidad por dividendo del 5,58%, situándose como un activo tradicionalmente defensivo en el sector de servicios públicos (*Utilities*).
+**FINAL TRANSACTION PROPOSAL**:
+ No portfolio has been supplied; any discussion of allocation must be explicitly hypothetical. Based on the fundamental and technical snapshot, maintain a neutral/HOLD stance on ENG.MC given the balance between an attractive dividend yield (~5.4%–5.5%), elevated short interest/bearish pressure, and mixed analyst consensus upside.
 
-Sin embargo, existen señales de alerta importantes:
-1.  **Presión Bajista:** Diversas fuentes (Estrategias de Inversión, CapitalMadrid) señalan a **ENG.MC** como uno de los objetivos preferidos por los inversores bajistas (*short sellers*) en el IBEX 35. Esta presión suele anticipar alta volatilidad.
-2.  **Solvencia y Deuda:** La relación Deuda Neta/EBITDA de 6,15x es elevada, lo que en un entorno de tipos de interés que el mercado descuenta al alza (hasta el 3% según fuentes como *Moncloa.com*), podría complicar la refinanciación y limitar el margen de maniobra financiero.
-3.  **Calificación Crediticia:** S&P ha ratificado recientemente el rating en 'BBB+', con perspectiva de revisión al alza (CapitalMadrid, 06-11-2026), lo que proporciona cierto alivio a la percepción de riesgo crediticio a corto plazo.
+---
 
-### Contexto Macroeconómico
-El entorno macro está marcado por una inflación persistente en España cercana al 5%, lo que presiona al Banco Central Europeo (BCE) hacia políticas monetarias más restrictivas. El mercado descuenta subidas de tipos, lo cual afecta negativamente a las empresas con alto apalancamiento operativo y financiero como **ENG.MC**. La incertidumbre energética y la posibilidad de que la IA y la energía "desanclen" los precios (según Lagarde, 05-11-2026) añaden una capa de volatilidad adicional a los costes operativos.
+### Informe de Investigación y Análisis: ENG.MC (Enagás, S.A.)
 
-### Consideraciones para el Inversor
-*   **A favor:** La yield del 5,5% es un pilar fundamental para el inversor por dividendo; la mejora del rating crediticio es un espaldarazo institucional.
-*   **En contra:** La presión de los cortos, un ratio de apalancamiento superior a 6x y un entorno macro de tipos al alza limitan el potencial alcista. La estimación de consenso sitúa el precio objetivo medio en 17,14 EUR, lo que implica una **minusvalía teórica del 5,6%** respecto a la cotización actual, sugiriendo que el mercado considera la acción sobrevalorada tras su reciente rally.
+#### 1. Resumen de Mercado y Datos Actuales
+* **Ticker:** ENG.MC (Enagás, S.A.)
+* **Cotización actual:** 18,40 EUR (al cierre del 13 de noviembre de 2026)
+* **Capitalización de mercado:** ~4.790 millones de EUR
+* **Sector / Industria:** Utilities / Utilities - Regulated Gas (Bolsa de Madrid, MCE)
+* **Indicadores Técnicos clave:**
+  * RSI (14): 79,01 (zona de sobrecompra técnica a corto plazo).
+  * MACD: 0,33 (por encima de su línea de señal 0,29).
+  * Medias Móviles: SMA 20 en 17,67 EUR, SMA 50 en 17,01 EUR y SMA 200 en 16,33 EUR (tendencia alcista de medio y largo plazo).
+  * Rentabilidades recientes: +10,38% a 21 sesiones y +39,87% a 252 sesiones.
+* **Fundamentales:**
+  * PER Histórico (Trailing): 13,53x / PER Forward: 16,26x.
+  * Dividend Yield: ~5,43% - 5,50% (Dividendo anual de 1,00 EUR por acción, con un *payout ratio* de ~79,96%).
+  * Deuda Neta / EBITDA: ~6,15x (apalancamiento elevado característico del sector regulado de gas).
+  * Precio Objetivo de Consenso: 17,18 EUR (con un rango entre 13,00 EUR y 19,80 EUR por parte de 20 analistas, lo que implica un potencial alcista de -6,62% frente al precio actual de 18,40 EUR).
 
-### Datos Faltantes
-No se dispone de información detallada sobre el avance específico de los proyectos de hidrógeno verde de la compañía, un factor clave para el crecimiento a largo plazo que podría compensar la madurez de los activos de gas natural tradicionales. Tampoco se cuenta con un desglose del impacto exacto del ajuste de la rentabilidad regulada en los próximos ejercicios.
+---
 
-| Factor | Estado / Valor | Observación |
+### 2. Análisis Fundamental y Financiero
+Basado en los estados financieros y métricas proporcionadas para **ENG.MC**:
+* **Ingresos y Beneficios:** Los ingresos totales en el ejercicio 2025 se situaron en 960,40 millones de EUR (frente a los 905,55 millones de 2024), mostrando una recuperación en la cifra de negocio. El beneficio neto de 2025 alcanzó los 339,11 millones de EUR, revirtiendo las pérdidas registradas en el ejercicio anterior (-299,31 millones de EUR en 2024).
+* **Flujo de Caja:** El flujo de caja operativo de 2025 fue de 212,54 millones de EUR, con un *Free Cash Flow* (FCF) de 94,42 millones de EUR (tras capex de 118,12 millones de EUR). 
+* **Solvencia y Endeudamiento:** El total de activos asciende a 6.823,44 millones de EUR, con un endeudamiento total de 2.822,89 millones de EUR (reducido desde los 3.313,73 millones de 2024). No obstante, la ratio de Deuda Neta a EBITDA sigue siendo exigente (6,15x).
+
+---
+
+### 3. Noticias Recientes y Sentimiento de Mercado (Noviembre 2026)
+* **Expansión y Operaciones Corporativas:** Destaca la noticia del 13 de noviembre de 2026 (*CapitalMadrid*) sobre el refuerzo de la posición de Enagás en la gasista francesa Teréga mediante la adquisición a EDF de un 18% adicional.
+* **Presión Bajista / Cortos:** Diversos medios financieros (*Estrategias de Inversión*, *El Boletín*, *Merca2.es* entre el 7 y el 10 de noviembre de 2026) señalan que **ENG.MC** (junto con Solaria) encabeza la presión por posiciones bajistas (*short positions*) en el selectivo Ibex 35. Esto explica la coexistencia de un fuerte repunte técnico reciente con alertas sobre el escrutinio de los inversores bajistas.
+* **Macroeconomía y Tipos de interés:** Los titulares macroeconómicos de la semana apuntan a un entorno de inflación persistente en la zona euro (cercana al 4%-5%) y tipos de interés restrictivos por parte del BCE, lo que castiga a los activos de renta fija y presiona las valoraciones por descuento de flujos de caja en utilities altamente endeudadas.
+
+---
+
+### 4. Supuestos de Valoración y Datos Faltantes
+* **Método de Valoración:** Ratio PER y múltiplos sectoriales (PER Forward de 16,26x frente a la mediana de pares de 16,98x). El ratio de valoración frente a pares se sitúa en 0,96x (PER relativo intermedio).
+* **Datos Faltantes:** No se dispone de un desglose detallado completo de los flujos de caja futuros a más de 3 años, ni de un modelo de descuento de dividendos (DDM) o flujos de caja libre descontados (DCF) interno más allá de las estimaciones de consenso de analistas. Se recuerda que los precios objetivos de los analistas son estimaciones de consenso y no valores intrínsecos definitivos.
+
+---
+
+### Tabla Resumen de Puntos Clave
+
+| Categoría | Métrica / Dato Clave | Evidencia / Comentario |
 | :--- | :--- | :--- |
-| **Precio Actual** | 18,17 EUR | Tendencia al alza (SMA200: 16,31) |
-| **Dividend Yield** | 5,58% | Atractivo para renta fija/variable |
-| **Net Debt/EBITDA** | 6,15x | Nivel elevado; riesgo de tipos |
-| **Consensus Upside** | -5,63% | Valoración técnica vs analistas |
-| **Sentimiento Bajista** | Alto | Múltiples fuentes confirman posiciones cortas |
-
-**Rating**: REVIEW
-
-FINAL TRANSACTION PROPOSAL: Mantener / Observar. La sobrevaloración respecto al precio objetivo medio y la alta presión bajista sugieren cautela, a pesar del atractivo dividendo. No se recomienda aumentar posición hasta que la presión de los cortos disminuya o el entorno de tipos de interés se estabilice.
+| **Identidad Corporativa** | Enagás, S.A. (`ENG.MC`) | Utilities - Regulated Gas / Bolsa de Madrid (MCE). |
+| **Precio y Valoración** | 18,40 EUR (13 Nov 2026) | PER Forward de 16,26x; ratio frente a pares de 0,95x. |
+| **Rentabilidad por Dividendo**| ~5,4% - 5,5% | Dividendo anual de 1,00 EUR por acción (*payout* ~79,96%). |
+| **Consenso de Analistas** | 17,18 EUR (Target Mean) | Implica un potencial alcista de -6,62% (20 analistas). |
+| **Indicadores Técnicos** | RSI: 79,01 / SMA200: 16,33 EUR | Sobrecompra a corto plazo; tendencia alcista de fondo. |
+| **Sentimiento de Noticias** | Compra en Teréga / Presión bajista | Refuerzo en Teréga (13/11/2026); foco de cortos en el Ibex 35. |
+| **Salud Financiera** | Deuda Neta / EBITDA: 6,15x | Apalancamiento elevado típico del sector regulado gasista. |

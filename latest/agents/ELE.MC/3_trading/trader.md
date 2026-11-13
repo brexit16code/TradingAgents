@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: Endesa muestra una tendencia técnica alcista robusta con precios por encima de las medias móviles, pero la valoración fundamental actual de 45,25 EUR se sitúa significativamente por encima del precio objetivo de consenso de 36,69 EUR, lo que sugiere una sobrevaloración. La volatilidad moderada y los sólidos resultados operativos justifican mantener la posición para capturar el dividendo, pero la divergencia con las expectativas de los analistas y el riesgo de endurecimiento monetario desaconsejan nuevas compras en estos niveles.
+**Reasoning**: Endesa presenta una fuerte tendencia técnica, cotizando por encima de sus medias móviles de 20, 50 y 200 días. Sin embargo, el RSI en 70,24 indica una condición de sobrecompra técnica, y el precio actual de 45,99 EUR muestra una sobrevaloración significativa frente al precio objetivo medio de consenso de 36,69 EUR. Dado el entorno de inflación persistente y la desaceleración reciente en el crecimiento de beneficios, se recomienda mantener la posición actual y esperar a un retroceso técnico antes de considerar compras adicionales.
 
-**Entry Price**: not provided
+**Entry Price**: 38.32
 
-**Stop Loss**: 43.71
+**Stop Loss**: 34.5
 
-**Position Sizing**: Mantener posición actual
+**Position Sizing**: Mantener peso actual; evitar incremento hasta consolidación técnica.
 
 FINAL TRANSACTION PROPOSAL: **HOLD**
