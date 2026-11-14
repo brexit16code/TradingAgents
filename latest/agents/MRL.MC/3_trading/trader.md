@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La acción se encuentra en un punto de equilibrio técnico y fundamental debido a la incertidumbre del nuevo decreto de centros de datos, que podría implicar un coste de 863 millones de euros. Aunque el descuento sobre el valor contable (P/B 0,78) sugiere una oportunidad de valor, la debilidad técnica por debajo de la media móvil de 200 sesiones (13,90 EUR) y el riesgo regulatorio desaconsejan aumentar la exposición. Se requiere esperar una mayor claridad sobre las implicaciones del decreto antes de establecer una nueva posición larga.
+**Reasoning**: La acción se encuentra bajo una fuerte presión bajista debido a la incertidumbre regulatoria por el decreto de centros de datos, cuyo coste estimado de 863 millones de euros pesa sobre la valoración futura. Aunque los resultados operativos del 3T 2026 superaron previsiones y el valor presenta un descuento sobre el valor contable, la estructura técnica es débil con el precio cotizando por debajo de sus medias móviles de 50 y 200 días. Se recomienda mantener posiciones y esperar a que el precio supere con volumen la resistencia técnica de la SMA50 para confirmar una reversión de la tendencia.
 
-**Entry Price**: not provided
+**Entry Price**: 12.03
 
-**Stop Loss**: not provided
+**Stop Loss**: 10.5
 
-**Position Sizing**: not provided
+**Position Sizing**: Mantener exposición actual; evitar nuevas compras hasta confirmación de ruptura técnica.
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

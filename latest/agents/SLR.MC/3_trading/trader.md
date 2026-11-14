@@ -1,11 +1,11 @@
-**Action**: Hold
+**Action**: Buy
 
-**Reasoning**: A pesar de que el valor cotiza a un descuento significativo frente al sector con un PER forward de 9.25x y una narrativa de crecimiento ligada a centros de datos, los fundamentales presentan riesgos estructurales. El flujo de caja libre negativo de -437.97M EUR, un ratio de deuda neta/EBITDA de 4.14x y la fuerte presión de posiciones cortas justifican prudencia. Técnicamente, la acción se encuentra por debajo de su SMA de 50 y 200 sesiones, indicando falta de impulso alcista, por lo que una postura de espera es lo más adecuado hasta confirmar una superación consistente de la resistencia en 16.12 EUR.
+**Reasoning**: A pesar de la presión bajista y la volatilidad técnica, Solaria presenta una valoración fundamental atractiva con un PER forward de 9,25x y un fuerte crecimiento de beneficios. La estrategia de acumulación gradual es adecuada dado que el precio, aunque bajo las medias de 50 y 200 días, muestra signos de estabilización en el RSI, permitiendo capturar el valor intrínseco mientras se mitiga el riesgo de corto plazo mediante una entrada escalonada.
 
-**Entry Price**: 16.12
+**Entry Price**: 15.75
 
 **Stop Loss**: 14.0
 
-**Position Sizing**: Mantener exposición actual; no aumentar ponderación ante el entorno inflacionista adverso.
+**Position Sizing**: 0.5% a 0.75% del portafolio
 
-FINAL TRANSACTION PROPOSAL: **HOLD**
+FINAL TRANSACTION PROPOSAL: **BUY**

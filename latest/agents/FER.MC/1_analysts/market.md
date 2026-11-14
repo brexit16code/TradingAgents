@@ -1,84 +1,47 @@
-**Rating**: REVIEW
+**Rating**: HOLD  
+FINAL TRANSACTION PROPOSAL: Mantener posición / Esperar consolidación (No ejecutar ninguna orden de compra o venta en firme sin supervisión o retroceso adicional).
 
-**FINAL TRANSACTION PROPOSAL:** HOLD
+---
 
 ### Informe de Análisis Técnico y Fundamental: Ferrovial N.V. (`FER.MC`)
 
-#### 1. Contexto de Mercado e Identidad de la Empresa
-* **Ticker:** `FER.MC` (Ferrovial N.V.)
-* **Negocio / Sector:** Industriales / Ingeniería y Construcción
-* **Bolsa / Divisa:** Madrid (MCE) / EUR
-* **Fecha de Referencia:** 13 de noviembre de 2026
-* **Precio de Cierre Actual:** 55.62 EUR (+0.40% en la sesión, según datos de Yahoo Finance con fecha `2026-11-13`).
-* **Entorno Macroeconómico Reciente:** El contexto europeo muestra presiones inflacionarias persistentes en la eurozona (con datos de inflación rondando el 4% al 5% a finales de 2026, según titulares de *El Economista* y *Finanzas.com* del 13 de noviembre de 2026), lo que limita las expectativas de moderación en los tipos de interés y mantiene los rendimientos de los bonos elevados (aspecto citado por RBC en su nota de ajuste de precio objetivo para `FER.MC` el 13 de noviembre de 2026).
+#### 1. Contexto de Mercado y Datos Actuales
+Con fecha de referencia a 13 de noviembre de 2026, la cotización de Ferrovial N.V. (`FER.MC`) en la bolsa de Madrid se sitúa en **55.62 EUR** (`adjusted_close`: 55.62 EUR), experimentando una variación diaria del +0.40%. La capitalización bursátil de la compañía asciende aproximadamente a 39.970 millones de euros. 
 
----
+El contexto macroeconómico reciente muestra presiones inflacionistas en la zona euro (con la inflación rondando el 4% según datos de noviembre de 2026 publicados por *El Economista* y *Negocios.com*), lo cual limita la moderación en los tipos de interés e impacta en las rentabilidades de los bonos (como señala un informe de RBC recogido por *Bolsamania* el 13 de noviembre de 2026, donde se bajó ligeramente el precio objetivo de Ferrovial debido al encarecimiento de los tipos reales y de los bonos).
 
-#### 2. Análisis Técnico
-El comportamiento técnico de `FER.MC` revela una fortaleza de corto plazo muy acusada, aunque con señales claras de sobrecompra que exigen cautela:
-* **RSI (14):** Se sitúa en un nivel extremadamente elevado de **81.83**, lo que denota una fuerte condición de sobrecompra (`rsi14` en snapshot). 
-* **Medias Móviles:**
-  * **SMA 20:** 49.48 EUR.
-  * **SMA 50:** 47.57 EUR.
-  * **SMA 200:** 54.28 EUR.
-  * *Observación:* El precio actual (55.62 EUR) cotiza por encima de todas sus medias móviles principales (SMA 20, SMA 50 y SMA 200), confirmando una tendencia alcista tanto a corto como a largo plazo. La media de 20 sesiones ha experimentado una fuerte pendiente ascendente, impulsada por un retorno a 21 días del **30.77%**.
-* **MACD y Momentum:**
-  * **MACD:** 2.42
-  * **MACD Signal:** 1.68
-  * *Observación:* El indicador MACD se encuentra claramente por encima de su línea de señal, respaldando el impulso alcista actual.
-* **Volatilidad y Drawdown:**
-  * **Volatilidad (30 días anualizada):** 30.08%
-  * **Drawdown actual:** -9.65% respecto a máximos recientes.
+#### 2. Análisis Técnico e Indicadores Seleccionados
+De acuerdo con las directrices de selección de indicadores no redundantes y complementarios para el análisis técnico de `FER.MC`:
 
----
+*   **`close_50_sma` (50 SMA - 47.57 EUR) y `close_200_sma` (200 SMA - 54.28 EUR):** La media móvil de 50 sesiones se encuentra claramente por debajo de la cotización actual, confirmando la solidez de la tendencia alcista a medio plazo. Por su parte, el precio cotiza ligeramente por encima de la media de 200 sesiones (54.28 EUR), estableciendo esta última como un soporte estructural de largo plazo clave.
+*   **`close_10_ema` (10 EMA):** Proporciona agilidad para capturar los movimientos de corto plazo, encontrándose en consonancia con el fuerte rally reciente.
+*   **`macd` (2.42) y `macds` (1.68) / `macdh`:** El MACD se sitúa en terreno positivo y por encima de su línea de señal (`macds`), mostrando que el impulso comprador sigue activo, aunque el histograma (`macdh`) exige vigilancia ante posibles divergencias dado el acelerado ritmo del activo.
+*   **`rsi` (RSI de 14 periodos en 81.83):** Este indicador muestra una **condición de sobrecompra extrema** (lectura superior a 70). Si bien en tendencias muy fuertes los valores pueden mantenerse elevados durante un tiempo, estadísticamente incrementa el riesgo de una corrección técnica o fase de consolidación a corto plazo.
+*   **`atr` (Volatilidad del 30.08%):** Refleja una volatilidad anualizada moderada-alta, lo que requiere ajustar los niveles de *stop-loss* y dimensionar adecuadamente el riesgo ante la cercanía de resistencias analíticas.
 
 #### 3. Análisis Fundamental y Valoración
-* **Capitalización de Mercado:** ~39.970 millones de EUR.
-* **Métricas de Valoración:**
-  * **Trailing P/E:** 35.65x
-  * **Forward P/E:** 47.83x
-  * **Price to Book (P/B):** 7.01x
-  * **EV/EBITDA:** 31.28x
-* **Datos Financieros (Ejercicio 2025):**
-  * **Ingresos Totales:** 9.627 millones de EUR (crecimiento interanual de ingresos del 5.2%).
-  * **EBITDA:** 1.998 millones de EUR (comparado con 4.539 millones en 2024, año que incluyó efectos extraordinarios/contables destacados en los estados financieros).
-  * **Net Income:** 888 millones de EUR.
-  * **Deuda Total y Neta:** Deuda total de 10.657 millones de EUR frente a un efectivo de 3.864 millones de EUR. El ratio de **Net Debt / EBITDA** se sitúa en **4.39x**, un nivel considerable que refleja la intensidad de capital propia del sector de infraestructuras y concesiones.
-* **Dividendos:**
-  * **Dividend Yield:** 3.51% (Dividend rate de 1.95 EUR, payout ratio de ~71.2%).
-* **Consenso de Analistas:**
-  * **Precio Objetivo Medio (Target Mean Price):** 59.95 EUR (con un rango entre 48.50 EUR y 80.00 EUR basado en 20 opiniones de analistas).
-  * **Upside Potencial Consenso:** 7.78% sobre el precio de cierre actual de 55.62 EUR.
-  * *Nota de Analystas:* Recientemente (13 de noviembre de 2026), entidades como RBC han ajustado ligeramente su precio a 
-  `FER.MC` debido al repunte en las rentabilidades de los bonos soberanos.
+*   **Valoración y Múltiplos:** Ferrovial (`FER.MC`) cotiza a un *Trailing P/E* de 35.65x y un *Forward P/E* de 47.82x, con un ratio *Price to Book* de 7.01x. El ratio sectorial comparativo con respecto a pares en España (Aena, ACS, etc.) sitúa su PER relativo en un nivel elevado (2.64 veces la mediana de sus comparables), reflejo de la prima de calidad que el mercado otorga a sus infraestructuras concesionales (como autopistas en Norteamérica).
+*   **Deuda y Solvencia:** La compañía presenta una deuda total de aproximadamente 10.657 millones de euros frente a un efectivo de 3.864 millones de euros (deuda neta sobre EBITDA en torno a 4.39x). 
+*   **Consenso de Analistas:** El precio objetivo medio (*targetMeanPrice*) recopilado por el consenso es de **59.90 EUR**, con un rango que oscila entre un objetivo mínimo de 48.50 EUR y un máximo de 80.00 EUR (basado en 20 opiniones de analistas). Esto arroja un potencial alcista de consenso (*consensus_upside_pct*) de aproximadamente **7.69%** desde el nivel actual de 55.62 EUR.
+
+#### 4. Evidencia Reciente y Noticias Relevantes
+*   *Bolsamania* (13 de noviembre de 2026): RBC ajustó ligeramente a la baja su precio objetivo sobre Ferrovial debido al incremento de las rentabilidades de los bonos soberanos.
+*   *El Economista* / *Negocios.com* (13 de noviembre de 2026): La inflación en la eurozona permanece en el 4%, lo que endurece el escenario de tipos reales y afecta a las valoraciones de flujos descontados de grandes concesionarias de infraestructuras.
+
+#### 5. Datos Faltantes
+*   No se dispone de un desglose detallado de los contratos de construcción adjudicados en el último trimestre de 2026 más allá de los estados financieros anuales cerrados y proyecciones de consenso disponibles en la instantánea.
 
 ---
 
-#### 4. Selección de Indicadores Técnicos Clave (Requerimiento Metodológico)
-De acuerdo con las directrices de selección de indicadores no redundantes para la estrategia de seguimiento, se han identificado los siguientes 7 parámetros principales sobre la base de los datos de `FER.MC`:
-1. `close_50_sma` (Tendencia a medio plazo).
-2. `close_200_sma` (Tendencia a largo plazo y soporte estructural).
-3. `close_10_ema` (Captura de giros rápidos de momentum).
-4. `macd` (Diferencial de impulso y cruces de tendencia).
-5. `macds` (Línea de señal MACD para confirmación de entradas).
-6. `rsi` (Medición de niveles extremos de sobrecompra/sobreventa).
-7. `atr` (Medida de volatilidad absoluta para dimensionamiento de riesgo y stop-loss).
+### Resumen de Indicadores Clave (Tabla Resumen)
 
----
-
-#### 5. Evidencia Contaria y Factores de Riesgo
-* **Sobrecompra Técnica:** Un RSI en 81.83 advierte de un agotamiento potencial del movimiento alcista a corto plazo, incrementando el riesgo de una corrección técnica o consolidación lateral.
-* **Valoración exigiva:** Un Forward P/E de 47.83x y un EV/EBITDA superior a 31x indican que el mercado ya está descontando unas expectativas de crecimiento muy ambiciosas.
-* **Macro y Tipos de Interés:** Un entorno de inflación en la eurozona alrededor del 4-5% y tipos de interés altos penalizan las valoraciones por descuento de flujos de caja en empresas de infraestructuras con deuda significativa (Net Debt/EBITDA de 4.39x).
-
----
-
-#### 6. Tabla Resumen Clave
-
-| Categoría | Métrica / Indicador | Valor / Dato | Implicación Operativa |
+| Categoría | Indicador Seleccionado | Valor / Estado Actual | Interpretación Operativa para `FER.MC` |
 | :--- | :--- | :--- | :--- |
-| **Precio y Mercado** | Cierre `FER.MC` | 55.62 EUR | Cotiza en la parte alta de su rango reciente, tras una subida mensual del 30.77%. |
-| **Tendencia Técnica** | SMA 20 / SMA 50 / SMA 200 | 49.48 / 47.57 / 54.28 EUR | Alineación alcista de medias móviles; la cotización se mantiene por encima de todas ellas. |
-| **Momentum / Sobrecompra** | RSI (14) | 81.83 | Zona de sobrecompra muy clara; sugiere prudencia ante posibles recortes de corto plazo. |
-| **MACD** | MACD / MACD Signal | 2.42 / 1.68 | Impulso alcista vigente, aunque pendiente de confirmación de convergencia. |
-| **Valoración Fundamental** | Forward P/E / Trailing P/E
+| **Tendencia (Medio Plazo)** | `close_50_sma` | 47.57 EUR | Soporte dinámico alcista; precio muy por encima de la media. |
+| **Tendencia (Largo Plazo)** | `close_200_sma` | 54.28 EUR | Referencia de soporte principal de largo plazo. |
+| **Tendencia (Corto Plazo)** | `close_10_ema` | Dinámica rápida | Captura el sesgo alcista de las últimas 21 sesiones (+30.77%). |
+| **Inercia / Momento** | `macd` / `macds` | MACD: 2.42 / Señal: 1.68 | Cruce alcista vigente, momentum positivo pero vigilando compresión. |
+| **Momento / Sobrecompra** | `rsi` | 81.83 | **Sobrecompra severa (>70)**; alta probabilidad de pausa o pullback. |
+| **Volatilidad / Riesgo** | `atr` / Volatilidad | 30.08% (Anualizada) | Permite dimensionar stops de protección ante oscilaciones. |
+| **Consenso de Mercado** | `targetMeanPrice` | 59.90 EUR | Potencial de revalorización limitado (~7.69%) hasta el objetivo medio. |
+| **Valoración** | `trailingPE` / `forwardPE` | 35.65x / 47.82x | Múltiplos elevados, exigiendo crecimiento continuado de flujos. |

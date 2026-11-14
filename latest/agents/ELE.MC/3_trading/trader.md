@@ -1,11 +1,11 @@
-**Action**: Hold
+**Action**: Sell
 
-**Reasoning**: Endesa presenta una fuerte tendencia técnica, cotizando por encima de sus medias móviles de 20, 50 y 200 días. Sin embargo, el RSI en 70,24 indica una condición de sobrecompra técnica, y el precio actual de 45,99 EUR muestra una sobrevaloración significativa frente al precio objetivo medio de consenso de 36,69 EUR. Dado el entorno de inflación persistente y la desaceleración reciente en el crecimiento de beneficios, se recomienda mantener la posición actual y esperar a un retroceso técnico antes de considerar compras adicionales.
+**Reasoning**: El activo muestra señales claras de sobrecompra técnica con un RSI de 70.24 y cotiza un 20% por encima del precio objetivo de consenso. La divergencia fundamental entre una valoración elevada (Forward PE 19.02x) y un crecimiento negativo de las ganancias justifica una reducción de posiciones para asegurar beneficios ante la posible reversión a la media.
 
-**Entry Price**: 38.32
+**Entry Price**: not provided
 
-**Stop Loss**: 34.5
+**Stop Loss**: 42.88
 
-**Position Sizing**: Mantener peso actual; evitar incremento hasta consolidación técnica.
+**Position Sizing**: Reducción del 25% de la posición actual
 
-FINAL TRANSACTION PROPOSAL: **HOLD**
+FINAL TRANSACTION PROPOSAL: **SELL**

@@ -1,37 +1,33 @@
-### Informe Fundamental: MERLIN Properties (MRL.MC)
+Este informe presenta un análisis fundamental de **MERLIN Properties SOCIMI, S.A. (`MRL.MC`)**, basado en los datos financieros y de mercado disponibles a fecha de 14 de noviembre de 2026.
 
-**Resumen Ejecutivo**
-MERLIN Properties SOCIMI, S.A. es una de las principales inmobiliarias cotizadas en la Bolsa española, especializada en la adquisición, gestión y desarrollo de activos inmobiliarios terciarios (oficinas, centros logísticos y centros de datos) en la Península Ibérica. A fecha de 13 de noviembre de 2026, la compañía enfrenta una coyuntura marcada por resultados trimestrales positivos, pero con una fuerte incertidumbre regulatoria que está penalizando su valoración en el mercado.
+### Perfil y Estado Actual
+MERLIN Properties es una de las principales SOCIMI (REIT) cotizadas en la bolsa española, con un enfoque predominante en el sector de oficinas. La empresa se encuentra actualmente bajo una presión significativa derivada de un entorno macroeconómico complejo (inflación en la Eurozona al 4%) y riesgos regulatorios específicos.
 
-#### Análisis Financiero
-*   **Resultados Recientes:** Los ingresos del tercer trimestre de 2026 superaron las previsiones de los analistas, lo cual indica una resiliencia operativa subyacente. Sin embargo, la acción ha mostrado debilidad reciente (caída del 0,68% en la última sesión y una rentabilidad negativa del 17,2% en los últimos 63 días).
-*   **Valoración:** La compañía cotiza con un ratio P/B (Price-to-Book) de 0,78, lo que sugiere que el mercado valora la empresa por debajo de su valor contable (Book Value: 14,999 EUR). El P/E forward es de 20,84, significativamente superior al P/E trailing de 7,95, reflejando expectativas de ajustes en las estimaciones de beneficios futuros.
-*   **Dividendo:** Se ha confirmado el pago de un dividendo de 0,20 EUR por acción con fecha de pago el 10 de diciembre de 2026, lo que refuerza su atractivo como activo para inversores por dividendo, con un yield actual cercano al 1,88%.
-*   **Solidez:** La empresa mantiene una base de activos importante (Total Assets: 14.268M EUR a cierre de 2025) y ha logrado un crecimiento constante en ingresos durante los últimos tres ejercicios fiscales (2023-2025).
+### Análisis Financiero
+*   **Resultados Recientes:** Los informes del tercer trimestre de 2026 muestran que los ingresos superaron las expectativas, demostrando resiliencia operativa. Sin embargo, este desempeño positivo ha sido ensombrecido por preocupaciones regulatorias.
+*   **Valoración:** La acción cotiza a un `trailing PE` de 8.07x y un `priceToBook` de 0.82, lo que sugiere que el mercado valora la empresa por debajo de su valor contable, posiblemente reflejando el descuento por incertidumbre regulatoria y el entorno de tipos de interés.
+*   **Riesgos Regulatorios:** La noticia más impactante es la estimación por parte de la propia empresa de un coste extra de **863 millones de euros** derivado del nuevo decreto sobre centros de datos. Este evento ha generado una fuerte fricción entre el CEO de la compañía y el Gobierno, afectando la confianza del inversor.
+*   **Dividendo:** Presenta una rentabilidad por dividendo (`dividendYield`) del 1.88%, con una política de pago (`payoutRatio`) conservadora (14.63%), lo que sugiere capacidad de retención de capital frente a los desafíos mencionados.
 
-#### Riesgos y Catalizadores
-*   **Riesgo Regulatorio (Data Centers):** El punto crítico de la semana es la fuerte crítica del CEO de Merlin hacia un decreto gubernamental sobre centros de datos. La empresa estima un **coste extra de 863 millones de euros** derivado de esta nueva regulación. Este evento es el principal factor bajista que está opacando los buenos resultados financieros.
-*   **Contexto Macro:** El entorno en la Eurozona es complejo, con una inflación persistente en el 4% (datos al 13/11/2026), lo que limita el margen de maniobra de la política monetaria y afecta negativamente a los costes de financiación de empresas intensivas en capital como las SOCIMIs.
+### Perspectiva Técnica y de Mercado
+La acción cotiza a 11.70 EUR, situándose por debajo de sus medias móviles de 50 días (12.03 EUR) y 200 días (13.90 EUR), lo que indica una tendencia bajista de medio y largo plazo. El RSI de 48.05 sugiere una posición neutral, sin condiciones claras de sobreventa o sobrecompra inmediata.
 
-#### Perspectiva Técnica
-*   **Indicadores:** El precio actual (11,70 EUR) se encuentra por debajo de la media móvil simple de 50 días (12,03 EUR) y significativamente por debajo de la de 200 días (13,90 EUR), lo que indica una tendencia bajista de medio y largo plazo. El RSI de 48,05 muestra una situación neutra sin condiciones claras de sobreventa o sobrecompra.
+### Datos Faltantes
+No se dispone de información detallada sobre el *Net Debt/EBITDA* exacto en el reporte, y las proyecciones de impacto del decreto de centros de datos más allá de la cifra de 863 millones no están desglosadas por anualidades, lo que dificulta el modelado preciso del flujo de caja futuro.
 
-#### Datos Faltantes
-*   No se dispone de un desglose detallado de la exposición geográfica específica que no sea "Península Ibérica" ni un análisis pormenorizado del impacto de las tasas de interés variables sobre el endeudamiento exacto de la compañía para el cierre de 2026.
-
----
-
-| Métrica | Valor / Dato |
-| :--- | :--- |
-| **Precio Actual** | 11,70 EUR |
-| **Market Cap** | 7.244,44 M EUR |
-| **P/B Ratio** | 0,78 |
-| **Dividendo Próximo** | 0,20 EUR (10/12/2026) |
-| **Coste Regulatorio Est.** | 863 M EUR |
-| **Consenso Upside** | 45,41% |
-| **Target Price (Media)** | 17,01 EUR |
+### Insight para Traders
+La disparidad entre los buenos resultados operativos y la reacción negativa del mercado por el impacto regulatorio (decreto de data centers) crea un escenario de alta volatilidad. La divergencia técnica (cotizando por debajo de sus medias móviles) sugiere prudencia. El consenso de analistas (precio objetivo medio de 17.01 EUR) implica un potencial alcista del 45.4%, lo que sugiere que el mercado podría estar sobre-reaccionando negativamente ante el riesgo regulatorio, pero se recomienda esperar a la estabilización de las noticias sobre dicho decreto.
 
 **Rating**: HOLD
-*(Debido a la fuerte disparidad entre el valor contable/potencial alcista del consenso y el riesgo inmediato del impacto regulatorio de 863M EUR).*
 
-FINAL TRANSACTION PROPOSAL: N/A - Este informe es solo para fines informativos y no constituye asesoramiento financiero ni ejecución de órdenes.
+| Indicador | Valor |
+| :--- | :--- |
+| Precio Actual | 11.70 EUR |
+| Capitalización Bursátil | 7,244 M EUR |
+| P/B Ratio | 0.82 |
+| Yield por Dividendo | 1.88% |
+| Precio Objetivo Medio | 17.01 EUR |
+| Upside Consenso | 45.41% |
+| Tendencia (SMA 200) | 13.90 EUR (Bajista) |
+
+FINAL TRANSACTION PROPOSAL: No trade recommendation provided. This is analytical research.

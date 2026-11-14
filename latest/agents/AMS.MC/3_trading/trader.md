@@ -1,11 +1,11 @@
-**Action**: Buy
+**Action**: Hold
 
-**Reasoning**: La robustez fundamental de AMS.MC, destacando un ROE del 26,44%, un flujo de caja libre superior a los 1.100 millones de euros y un crecimiento sostenido, respalda la tesis alcista a pesar de la sobrecompra técnica a corto plazo indicada por el RSI en 73,83. El impulso superador frente al IBEX y un potencial alcista de consenso del 14,28% hasta los 71,04 EUR justifican una entrada táctica y gradual aprovechando la alineación alcista de las medias móviles.
+**Reasoning**: Amadeus IT Group, S.A. (AMS.MC) displays robust fundamentals and a healthy balance sheet, but short-term technical indicators show signs of overbought conditions with an RSI of 73.83 and a strong recent rally of 15.75% over 21 sessions. Macroeconomic headwinds in the eurozone, including sticky inflation and restrictive interest rates, combined with the current price sitting near recent highs, advise against opening new positions at this exact moment. A Hold stance is appropriate to protect existing capital while waiting for a technical pullback toward the moving average supports.
 
-**Entry Price**: 62.16
+**Entry Price**: not provided
 
 **Stop Loss**: 55.67
 
-**Position Sizing**: 5% of portfolio
+**Position Sizing**: Maintain current baseline allocation; no new exposure recommended.
 
-FINAL TRANSACTION PROPOSAL: **BUY**
+FINAL TRANSACTION PROPOSAL: **HOLD**

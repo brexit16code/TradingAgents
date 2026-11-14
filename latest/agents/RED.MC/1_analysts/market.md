@@ -1,79 +1,71 @@
 **Rating**: HOLD  
-FINAL TRANSACTION PROPOSAL: Mantener posición actual en RED.MC a la espera de mayor claridad en la planificación eléctrica y estabilización de la deuda, valorando la rentabilidad por dividendo frente a los riesgos regulatorios y de apalancamiento.
+FINAL TRANSACTION PROPOSAL: Neutral posture with a focus on risk management given the overbought technical condition and elevated net debt levels.
 
 ---
 
-### Análisis Financiero y Técnico de Redeia Corporación, S.A. (`RED.MC`)
+### Informe de Análisis Financiero y Técnico para `RED.MC` (Redeia Corporación, S.A.)
 
-#### 1. Resumen de Identidad y Contexto Macroeconómico
-* **Instrumento:** `RED.MC` (Redeia Corporación, S.A., cotizada en BME/MCE).
-* **Sector / Industria:** Utilities / Utilities - Regulated Electric.
-* **Divisa:** EUR.
-* **Fecha de referencia:** 13 de noviembre de 2026.
-* **Entorno Macroeconómico:** El contexto macroeconómico europeo actual se caracteriza por una inflación persistente en la zona euro (alrededor del 4% - 5% según titulares recientes de noviembre de 2026 como los de *El Economista* y *Finanzas.com*) y tipos de interés reales negativos que erosionan el ahorro, manteniendo presión sobre las valoraciones de renta fija y servicios públicos altamente endeudados. El selectivo español (Ibex 35) cotiza cerca de los 20.000 puntos en noviembre de 2026, con un comportamiento mixto entre valores energéticos.
-
----
-
-#### 2. Análisis Técnico y de Indicadores
-Con base en la instantánea de mercado verificada para el 13 de noviembre de 2026:
-* **Precio de Cierre (`close`):** 16.299999 EUR (`16.30 EUR`), registrando una variación diaria positiva del `2.90%`.
-* **RSI (14 sesiones):** `79.99`, situándose en zona de clara sobrecompra técnica (>70).
-* **MACD y Señal:** `macd` de `0.268` por encima de su línea de señal `macds` de `0.188`, lo que denota impulso alcista a corto plazo, respaldado por un `return21_pct` de `+9.10%` y un `return63_pct` de `+7.31%`.
-* **Medias Móviles:** 
-  * SMA 20: `15.32 EUR`
-  * SMA 50: `15.06 EUR`
-  * SMA 200: `14.82 EUR`
-  * El precio actual (`16.30 EUR`) se encuentra netamente por encima de todas las medias móviles principales, confirmando una tendencia alcista primaria y secundaria.
-* **Volatilidad y Drawdown:** Volatilidad anualizada del `13.09%` con un `drawdown_pct` de `0.0%` (máximos recientes).
+#### 1. Identidad y Contexto General
+* **Ticker:** `RED.MC` (MCE, cotizada en EUR, comparada frente al índice de referencia `^IBEX`).
+* **Actividad:** Utilities / Utilities - Regulated Electric (Redeia Corporación, S.A.).
+* **Fecha de Análisis / Referencia temporal:** 14 de noviembre de 2026 (datos de cierre al 13 de noviembre de 2026).
+* **Ausencia de Cartera:** Ninguna cartera ha sido suministrada; cualquier discusión sobre asignación de capital es estrictamente hipotética.
 
 ---
 
-#### 3. Análisis Fundamental y Balance
-* **Capitalización de Mercado:** ~8.795 millones de EUR.
-* **Valoraciones y Múltiplos:**
-  * PER Histórico (*trailing PE*): `17.34x`
-  * PER Adelantado (*forward PE*): `16.98x`
-  * Precio sobre Valor en Libros (*price to book*): `1.49x`
-  * EV/EBITDA: `12.56x`
-* **Deuda y Solvencia:**
-  * Deuda Total: ~5.982 millones de EUR (frente a 6.144 millones a cierre de 2025).
-  * EBITDA: ~1.128 millones de EUR.
-  * Ratio Deuda Neta / EBITDA: `4.96x`, lo cual refleja un apalancamiento elevado típico del sector regulado pero que sigue siendo un punto de atención crítica para los inversores.
-* **Dividendos:**
-  * Rentabilidad por dividendo (*dividend yield*): `5.05%` (dividendo anual de `0.80 EUR` por acción), con un *payout ratio* elevado del `85.3%`.
-* **Consenso de Analistas:**
-  * Precio objetivo medio (*targetMeanPrice*): `16.44 EUR` (con un mínimo de `13.50 EUR` y un máximo de `19.40 EUR` a partir de 22 opiniones de analistas).
-  * *Upside* frente al precio actual de 16.30 EUR: `+0.83%` (esencialmente cotizando en línea con el objetivo de consenso).
+#### 2. Evidencia Fundamental y Financiera
+Los datos fundamentales y estados financieros adjuntos para `RED.MC` muestran los siguientes aspectos clave:
+* **Capitalización de Mercado:** 8.795.412.480 EUR.
+* **Valoraciones y Multiplicadores:** 
+  * PER histórico (*Trailing PE*): 17,34x.
+  * PER adelantado (*Forward PE*): 16,98x.
+  * Precio/Valor Libros (*Price to Book*): 1,49x.
+  * Valor de Empresa / EBITDA (*Enterprise to Ebitda*): 12,78x.
+  * Beneficio por acción (BPA) histórico: 0,94 EUR; proyectado (*Forward EPS*): 0,96 EUR.
+* **Dividendos:** Ofrece una rentabilidad por dividendo (*Dividend Yield*) estimada de **4,91%** (con un dividendo ordinario de 0,80 EUR por acción y un *payout ratio* de 85,3%).
+* **Estructura de Capital y Deuda:** 
+  * Deuda total: 5.982.499.840 EUR (en los estados anuales cerrados a dic-2025 se sitúa en 6.144.376.000 EUR frente a activos totales de 15.345.312.000 EUR).
+  * Caja y equivalentes: 381.700.000 EUR.
+  * Ratio Deuda Neta / EBITDA: **4,96x** (evidencia una intensidad de apalancamiento típica de redes de transporte eléctrico reguladas, pero que requiere estrecha vigilancia frente al contexto de tipos de interés e inflación).
+* **Flujos de Caja:** El flujo de caja operativo (*Operating Cash Flow*) para 2025 asciende a 1.013.195.000 EUR, mientras que los desembolsos de capital (*Capital Expenditure*) se elevan a -1.407.063.000 EUR, resultando en un flujo de caja libre (*Free Cash Flow*) negativo de -393.868.000 EUR.
+* **Consenso de Analistas:** El precio objetivo medio (*targetMeanPrice*) se sitúa en **16,43 EUR** (con un rango bajo de 13,50 EUR y alto de 19,40 EUR, basado en la opinión de 22 analistas). Dado el precio de cierre actual de **16,30 EUR** (al 13-11-2026), el potencial alcista según el consenso (*consensus_upside_pct*) es reducido, del **0,83%**.
 
 ---
 
-#### 4. Evidencia de Noticias y Controversias (Noviembre 2026)
-* Medios especializados (*Artículo 14*) señalan que Redeia afronta retos operativos bajo la "era Corredor", destacando presiones en la gestión de redes, récords de incidencias/apagones recientes y la atenta mirada del mercado sobre la evolución de la deuda y la futura aprobación de la planificación eléctrica en España.
-* Coberturas de analistas en *Estrategias de Inversión* e *Investing.com* sitúan a `RED.MC` dentro de la cesta de valores maduros del Ibex 35 que intentan consolidar niveles técnicos clave, aunque con cautela por el entorno de tipos y la necesidad de fuertes inversiones en redes de transporte.
+#### 3. Análisis Técnico
+Basado en la instantánea de mercado verificada a fecha 13-11-2026 para `RED.MC`:
+* **Precio de Cierre:** 16,30 EUR (variación diaria de +2,90%).
+* **Medias Móviles:**
+  * SMA 20: 15,32 EUR
+  * SMA 50: 15,06 EUR
+  * SMA 200: 14,82 EUR
+  * *Interpretación:* La cotización se encuentra claramente posicionada por encima de sus medias de corto, mediano y largo plazo, lo que confirma una estructura alcista sólida en los últimos meses (retorno a 21 sesiones de +9,10% y a 252 sesiones de +14,03%).
+* **Osciladores de Momento:**
+  * **RSI (14):** Registra un valor de **79,99**, lo que denota una condición de **sobrecompra clara e intensa**.
+  * **MACD:** 0,27; línea de señal (*macd_signal*): 0,19. El indicador muestra impulso positivo, apoyado en el reciente tramo alcista de la acción que ha liderado las subidas del Ibex 35 junto a valores como Repsol (según referencias de prensa de Bolsamania del 13-11-2026).
+* **Volatilidad y Riesgo:**
+  * Volatilidad anualizada: 13,09%.
+  * *Drawdown* actual: 0,0% (máximos recientes del movimiento).
 
 ---
 
-#### 5. Indicadores Seleccionados Recomendados (Metodología de Trading)
-Para el seguimiento de `RED.MC` en este contexto de sobrecompra técnica y consolidación de tendencia, se seleccionan los siguientes 8 indicadores complementarios sin redundancia:
-1. `close_50_sma` (Tendencia a medio plazo / soporte dinámico)
-2. `close_200_sma` (Referencia de tendencia a largo plazo)
-3. `close_10_ema` (Captura de giros rápidos de impulso a corto plazo)
-4. `macd` (Diferencia de medias para confirmar cambio de impulso)
-5. `macds` (Línea de señal para cruces operativos)
-6. `rsi` (Medición de condiciones de sobrecompra/sobreventa, crítico dado el nivel actual cercano a 80)
-7. `boll_ub` (Banda superior de Bollinger para evaluar la prolongación de la subida en máximos)
-8. `atr` (Medida de volatilidad absoluta para dimensionar el riesgo y gestión de *stop-loss*)
+#### 4. Contexto Macroeconómico y Noticias Recientes
+* **Entorno de Tipos e Inflación:** Los datos macroeconómicos recientes de noviembre de 2026 señalan que la inflación en la eurozona ronda el 4%, lo que mantiene el debate sobre la inhabilitación de reducciones rápidas en los tipos de interés y el impacto de tipos reales negativos en el ahorro (fuentes: *El Economista*, *Vozpúpopuli*).
+* **Noticias Corporativas y Operativas:** Informes recientes de prensa (*Artículo 14*, noviembre de 2026) apuntan a desafíos operativos de Redeia (revisión de apagones y la espera de la nueva planificación eléctrica bajo la lupa de la deuda corporativa). No obstante, el valor se ha mostrado muy fuerte a mediados de noviembre de 2026, contribuyendo a empujar al Ibex 35 hacia la zona de los 20.000 puntos en coordinación con otros grandes valores del índice.
 
 ---
 
-#### 6. Resumen en Tabla Markdown
+#### 5. Conclusión y Recomendación Operativa
+`RED.MC` presenta fundamentales estables propios de una utility regulada con una atractiva rentabilidad por dividendo de casi el 5%, pero opera actualmente bajo fuertes restricciones de valoración: cotiza prácticamente en línea con el precio objetivo de consenso de los analistas (16,43 EUR frente a los 16,30 EUR actuales) y presenta un **RSI de 80**, lo que advierte sobre un agotamiento potencial del impulso alcista a corto plazo y un riesgo elevado de corrección técnica o consolidación lateral. 
 
-| Categoría / Métrica | Valor / Dato Clave | Implicación para el Inor / Trader |
-| :--- | :--- | :--- |
-| **Precio de Cierre (`close`)** | 16.30 EUR (+2.90%) | Cotiza en máximos recientes, superando las medias de 20, 50 y 200 sesiones. |
-| **RSI (14)** | 79.93 | Zona de sobrecompra intensa; precaución ante posibles correcciones técnicas a corto plazo. |
-| **Valoración (Forward P/E)** | ~16.98x | Valoración razonable para una utility regulada con perfil defensivo. |
-| **Rentabilidad por Dividendo** | 5.05% (0.80 EUR/acc) | Atractivo flujo de caja para inversores por dividendo, respaldado por un *payout* de ~85%. |
-| **Apalancamiento (Deuda Neta/EBITDA)** | ~4.96x | Nivel de deuda elevado que requiere estricta vigilancia en un entorno de tipos altos. |
-| **Consenso Analistas (Target Mean)** | 16.44 EUR | Potencial alcista prácticamente agotado a corto plazo (+0.83% de *upside* vs precio actual). |
-| **Noticias / Regulación** | Planificación eléctrica y deuda en foco | Incertidumbres regulatorias y operativas recientes
+Se aconseja una postura de **HOLD** (Mantener), evitando nuevas compras agresivas en los niveles actuales de sobrecompra hasta presenciar un retroceso hacia soportes dinámicos (como la SMA de 20 sesiones en torno a los 15,32 EUR).
+
+---
+
+### Resumen de Puntos Clave
+
+| Categoría | Métrica / Indicador | Valor / Estado | Implicación Analítica |
+| :--- | :--- | :--- | :--- |
+| **Precio y Tendencia** | Cierre (13-11-2026) | 16,30 EUR | Estructura alcista respaldada por SMA20 (15,32) y SMA200 (14,82). |
+| **Momento Técnico** | RSI (14) | 79,99 | **Sobrecompra extrema**; sugiere prudencia ante posibles recortes de corto plazo. |
+| **Valoración** | PER Adelantado (*Forward PE*) | 16,98x | Valoración intermedia en línea con el sector de servicios públicos regul

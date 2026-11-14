@@ -1,40 +1,33 @@
-Este informe analiza la situación fundamental de **Solaria Energía y Medio Ambiente, S.A. (`SLR.MC`)** basándose en los datos financieros y de mercado actualizados al 13 de noviembre de 2026.
+Este informe analiza la situación fundamental y técnica de **Solaria Energía y Medio Ambiente, S.A. (`SLR.MC`)** a fecha de 14 de noviembre de 2026, basándose en la información proporcionada.
 
-### Perfil de la Compañía y Contexto de Mercado
-Solaria, clasificada dentro del sector de *Utilities (Energías Renovables)*, opera en un entorno desafiante marcado por una inflación persistente en la zona euro (4% a noviembre de 2026) y tipos de interés que presionan la valoración de las empresas de capital intensivo. A pesar de esto, la compañía es mencionada recientemente en los medios como un motor del mercado español por su potencial vinculado a los centros de datos.
+### Análisis de la Situación Fundamental
+Solaria, empresa dedicada al sector de servicios públicos renovables, presenta una dualidad marcada entre su crecimiento operativo y una fuerte presión bajista en los mercados.
 
-### Análisis Financiero
-*   **Desempeño Operativo:** Según los estados financieros de 2025, la compañía reportó ingresos de 197,44 millones de EUR y un EBITDA de 266,73 millones de EUR, mostrando una tendencia de crecimiento constante desde 2023. El beneficio neto se situó en 137,39 millones de EUR en el último ejercicio cerrado.
-*   **Valoración:** SLR.MC cotiza a un PER *forward* de 9,25, lo cual, comparado con la mediana de sus pares (16,98), sugiere una valoración relativa atractiva (ratio de 0,54). Sin embargo, el valor se encuentra bajo presión técnica con una caída del 3,69% en la última sesión y una volatilidad del 52,94%.
-*   **Deuda y Solvencia:** La empresa presenta una carga de deuda significativa: 1.559 millones de EUR en deuda total con una ratio Deuda Neta/EBITDA de 4,14. El flujo de caja libre es negativo (-437,97 millones de EUR a los últimos 12 meses), lo cual es coherente con su fase de inversión intensiva en infraestructura (CapEx de 398 millones en 2025).
+*   **Resultados Financieros:** La compañía ha mostrado una evolución positiva en sus ingresos, pasando de 191,3 millones de euros en 2023 a 197,4 millones en 2025. El EBITDA ha experimentado un crecimiento notable, situándose en 266,7 millones en 2025 (frente a los 201,3 millones de 2023). El margen de beneficio reportado es elevado (48,57%), lo que refleja una gestión eficiente de sus activos solares.
+*   **Balance y Deuda:** La deuda total ha aumentado de 1.060 millones en 2023 a 1.508 millones en 2025. El ratio de *net debt/EBITDA* se sitúa en 4,14x. Aunque es un nivel común en empresas de capital intensivo, es un punto de vigilancia crítica dadas las actuales tensiones inflacionarias en la eurozona.
+*   **Valoración:** La acción cotiza a un PER *forward* de 9,25x, lo que representa una valoración atractiva en comparación con la mediana de sus pares (16,98x), sugiriendo un descuento significativo del 54,48% respecto al sector.
 
-### Perspectivas e Insights
-1.  **Potencial vs. Riesgo:** Existe un consenso de mercado con un precio objetivo medio de 22,39 EUR, lo que representa un **upside del 42,18%** respecto al precio actual de 15,75 EUR.
-2.  **Presión Bajista:** La prensa especializada destaca que Solaria se encuentra entre los valores del Ibex 35 con mayor presión de posiciones cortas, lo que puede explicar la volatilidad reciente y el desempeño inferior frente al mercado general.
-3.  **Factores Macroeconómicos:** La inflación en el 4% dificulta la moderación de tipos, factor que impacta negativamente a empresas con altos niveles de endeudamiento como Solaria, que requiere capital constante para su expansión.
+### Análisis Técnico y Sentimiento de Mercado
+*   **Precio:** 15,75 € (al 13/11/2026), con un retroceso reciente del 3,70%.
+*   **Tendencia:** El valor muestra una debilidad estructural con un *drawdown* del 38,8%. Se encuentra cotizando por debajo de sus medias móviles de 50 y 200 días (16,12 € y 19,56 € respectivamente), lo que indica una tendencia bajista a medio y largo plazo.
+*   **Presión Bajista:** La prensa especializada destaca consistentemente a `SLR.MC` (junto con Enagás) como uno de los objetivos principales de las posiciones cortas en el IBEX 35 (fuente: *El Boletín*, *CapitalMadrid*, 08-09/11/2026).
+*   **Catalizadores:** El potencial alcista, según el consenso de analistas (con una media de 22,39 €), es del 42,17%. La narrativa de mercado sugiere que la inversión en centros de datos podría ser un nuevo motor de crecimiento (*Estrategias de Inversión*, 13/11/2026).
 
-### Datos Faltantes
-No se dispone de información detallada sobre el calendario específico de vencimientos de deuda a largo plazo ni el desglose del costo de capital actual tras las recientes presiones inflacionarias. Tampoco se cuenta con datos de transacciones de *insiders* para el último trimestre.
+### Consideraciones para Traders
+*   **Contras:** Elevada presión bajista (*short interest*), niveles de deuda crecientes y un FCF (Flujo de Caja Libre) negativo de -437,9 millones de euros en el último periodo, lo que denota un fuerte gasto en capital (Capex) necesario para mantener su expansión.
+*   **Pros:** Alta rentabilidad sobre recursos propios (ROE 20,44%) y una valoración por múltiplos (PER/EV/EBITDA) muy por debajo de sus comparables del sector Utilities.
 
-### Tabla Resumen de Datos Clave (`SLR.MC`)
+**Información faltante:** No se dispone del detalle del vencimiento de la deuda ni de las condiciones específicas de refinanciación, lo cual es crucial en un entorno de inflación persistente en la eurozona (4,0% según *El Economista*, 13/11/2026).
 
-| Indicador | Valor |
+**Rating**: HOLD
+
+| Métrica | Valor |
 | :--- | :--- |
-| **Precio Actual** | 15,75 EUR |
-| **Capitalización de Mercado** | 2.073,43 M EUR |
-| **PER Forward** | 9,25 |
-| **Beneficio por Acción (EPS) Forward** | 1,70 EUR |
-| **Consenso Precio Objetivo (Media)** | 22,39 EUR |
-| **Upside Estimado** | +42,18% |
-| **Ratio Deuda Neta / EBITDA** | 4,14 |
-| **RSI (14 días)** | 49,23 (Neutral) |
-| **Volatilidad** | 52,95% |
+| **Precio Actual** | 15,75 € |
+| **Consenso Precio Objetivo** | 22,39 € |
+| **PER Forward** | 9,25x |
+| **Ratio Net Debt/EBITDA** | 4,14x |
+| **Margen de Beneficio** | 48,57% |
+| **Potencial Consenso** | +42,18% |
 
-**Rating**: HOLD (Debido a la alta volatilidad y presión bajista, a pesar del atractivo PER relativo).
-
-FINAL TRANSACTION PROPOSAL: None (This is a research report; no trading recommendation or execution provided).
-
-*Fuentes consultadas:*
-*   Yahoo Finance (Precios, estados financieros, 13/11/2026).
-*   Estrategias de Inversión y El Boletín (Noticias corporativas, 07/11/2026 - 13/11/2026).
-*   El Economista (Contexto macro, 13/11/2026).
+FINAL TRANSACTION PROPOSAL: No trade execution; monitor for potential stabilization above the 50-day SMA (16,12 €) before considering long positions, given the high short interest activity.

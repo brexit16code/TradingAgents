@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La acción GRF.MC muestra una fuerte inercia alcista de corto plazo apoyada por un sólido flujo de caja y un atractivo forward PE, con un potencial de consenso del 30% hacia los 15.19 EUR. Sin embargo, el RSI en 80.47 refleja una sobrecompra extrema y la ratio de deuda neta sobre EBITDA de 5.04x exige cautela en un entorno de tipos elevados. Por estas razones, se recomienda mantener la posición sin realizar nuevas compras hasta que el precio consolide y retroceda hacia soportes técnicos más sólidos.
+**Reasoning**: Grifols muestra una mejora operativa fundamental sólida y un impulso técnico alcista claro, respaldado por un forward P/E de 10,65x y un precio objetivo de consenso en 15,25 EUR. Sin embargo, el RSI de 14 en 80,47 denota una sobrecompra extrema y el ratio de deuda neta sobre EBITDA se mantiene elevado en 5,04x en un entorno de tipos restrictivos. Estas señales encontradas entre el potencial alcista y los riesgos de apalancamiento y corrección técnica justifican mantener la posición actual sin realizar nuevas compras.
 
 **Entry Price**: not provided
 
 **Stop Loss**: not provided
 
-**Position Sizing**: Mantener posición actual sin ampliaciones
+**Position Sizing**: Mantener la asignación actual en cartera; evitar nuevas incorporaciones hasta una corrección técnica hacia la zona de la media móvil de 20 sesiones en 10.89 EUR.
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

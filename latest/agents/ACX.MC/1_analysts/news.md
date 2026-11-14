@@ -1,32 +1,34 @@
-Este informe presenta un análisis de **Acerinox, S.A. (`ACX.MC`)** basado en los datos financieros y de mercado actualizados al 13 de noviembre de 2026.
+### Informe de Análisis de Mercado: Acerinox, S.A. (ACX.MC)
 
-### Análisis Fundamental y Situación de Mercado
-Acerinox presenta un escenario complejo caracterizado por una valoración que parece tensionada. Con un **PER (Price-to-Earnings Ratio) a futuro de 10.2x**, la empresa cotiza a múltiplos que reflejan expectativas de recuperación, a pesar de que el **PER histórico (trailing PE) es de 29.8x**, lo que indica que los resultados recientes han sido significativamente inferiores a la capacidad de beneficio normalizada.
+**Fecha de análisis:** 14 de noviembre de 2026
 
-*   **Salud Financiera:** La empresa mantiene un ratio de **deuda neta sobre EBITDA de 3.15x**, un nivel que, si bien es manejable en ciclos de expansión, representa una carga considerable en un entorno de tipos de interés altos (inflación en la eurozona al 4%, según *El Economista* del 13/11/2026).
-*   **Rentabilidad y Flujo de Caja:** El flujo de caja libre (FCF) se situó en **-155.27 millones de euros** en el último periodo reportado, lo que resalta la presión sobre la liquidez frente a los compromisos de capital (CAPEX). El retorno sobre el capital propio (ROE) es bajo, del **4.5%**, sugiriendo una eficiencia operativa limitada bajo las condiciones actuales del sector acerero.
-*   **Dividendos:** Con una rentabilidad por dividendo del **3.92%** y un ratio de pago (*payout ratio*) que supera el 100% (1.44), existe un riesgo real de sostenibilidad sobre los pagos futuros a los accionistas si no se recuperan los márgenes de beneficio.
+#### 1. Situación Actual y Desempeño Financiero
+Acerinox (`ACX.MC`) cotiza actualmente a **15,80 EUR**, mostrando una tendencia correctiva reciente con una caída del 0,94% en la última sesión y una rentabilidad a 21 días del -5,62%. A pesar de esto, el valor mantiene una rentabilidad anual destacada del 45,87%.
 
-### Entorno Macroeconómico
-El mercado español, y el europeo en general, se enfrenta a una inflación persistente (4% en la Eurozona y 5% en España). Este escenario de "inflación enquistada" complica la política monetaria del BCE, dificultando cualquier moderación en los tipos de interés. Para un sector cíclico como el del acero, la combinación de costes energéticos elevados, menor demanda industrial y costes de financiación persistentes actúa como un viento en contra para la cotización de `ACX.MC`.
+*   **Fundamentos:** La empresa presenta una situación financiera mixta. El *Trailing P/E* es elevado (29,81x), pero el *Forward P/E* proyecta una mejora significativa a 10,22x, lo que sugiere que el mercado anticipa un repunte en los beneficios (estimación de *forward EPS* de 1,54). Sin embargo, el ratio *Net Debt/EBITDA* de 3,15x indica un apalancamiento que requiere seguimiento, especialmente en un entorno de tipos de interés persistentes.
+*   **Dividendos:** Con una rentabilidad por dividendo del 3,92% y una tasa de 0,62 EUR, Acerinox sigue siendo atractiva para inversores de renta, aunque el *payout ratio* de 1,44 indica que el dividendo actual supera los beneficios netos reportados en el último periodo, lo cual es una señal de alerta sobre la sostenibilidad a largo plazo sin una mejora en la generación de caja.
 
-### Consideraciones Técnicas
-*   **Tendencia:** El precio actual (15.80 EUR) se encuentra por debajo de sus medias móviles de 20 y 50 días (16.20 EUR y 16.85 EUR respectivamente), confirmando una tendencia bajista a corto y medio plazo.
-*   **Soporte:** La media móvil de 200 días se sitúa en 15.34 EUR, funcionando como el principal nivel técnico de soporte antes de considerar un deterioro mayor de la estructura técnica.
+#### 2. Entorno Macroeconómico
+El contexto actual es desafiante, marcado por una inflación persistente en la Eurozona (reportada cercana al 4% según las fuentes del 13 de noviembre), lo que complica cualquier expectativa de relajación monetaria. 
+*   **Impacto sectorial:** El sector del acero es altamente sensible a los costes energéticos y a la demanda industrial. La persistencia de una inflación elevada y unos tipos reales negativos, según *Vozpopuli* (14/11), sugieren un entorno de consumo e inversión bajo presión en Europa.
+*   **Sentimiento del mercado:** Existe una rotación hacia activos refugio tras procesos electorales (mencionados en *Estrategias de Inversión* del 13/11). La volatilidad del 27,6% y el hecho de que el precio se sitúe por debajo de sus medias móviles de 20 y 50 días confirman una fase de consolidación bajista a corto plazo.
 
-### Resumen de Datos Clave
+#### 3. Análisis de Inversión
+*   **Argumentos a favor:** El consenso de analistas (13 opiniones) sitúa el precio objetivo medio en 19,38 EUR, lo que representa un potencial de revalorización del **22,69%**. La valoración *Forward P/E* de 10,22x está significativamente más descontada que el ratio histórico reciente.
+*   **Argumentos en contra:** El *Free Cash Flow* ha sido negativo (-155,27 M EUR), lo cual es preocupante para una empresa con un alto nivel de deuda. El rendimiento sobre el capital (ROE) del 4,5% es modesto para una empresa industrial de este tipo.
+*   **Datos faltantes:** No se dispone de un desglose detallado por segmentos geográficos (EE. UU. vs. Europa) ni de las guías específicas para el cierre de 2026, lo cual es crítico para evaluar si el *Forward EPS* es realista ante la desaceleración europea.
 
-| Indicador | Valor | Nota |
+**Rating**: HOLD
+
+#### Tabla de Resumen: Indicadores Clave
+
+| Indicador | Valor / Dato | Interpretación |
 | :--- | :--- | :--- |
-| **Precio Actual** | 15.80 EUR | Por debajo de la media de 50 días (16.85) |
-| **Consenso Analistas** | 19.38 EUR | Potencial alcista del 22.6% según analistas |
-| **Deuda Neta/EBITDA** | 3.15x | Apalancamiento moderado-alto |
-| **Forward EPS** | 1.545 | Expectativa de mejora operativa |
-| **Yield Dividendo** | 3.92% | Riesgo por payout > 100% |
+| **Precio Acción** | 15,80 EUR | Tendencia bajista a corto plazo |
+| **Consenso Upside** | 22,69% | Potencial alcista según analistas |
+| **Forward P/E** | 10,22x | Valoración atractiva a futuro |
+| **Net Debt/EBITDA**| 3,15x | Apalancamiento moderado-alto |
+| **Dividend Yield** | 3,92% | Atractivo, pero *payout* presionado |
+| **Tendencia técnica** | Bajista | Por debajo de SMA20 y SMA50 |
 
-### Conclusión y Observaciones
-La discrepancia entre el precio actual (15.80 EUR) y el objetivo de consenso (19.38 EUR) sugiere una visión optimista por parte de los analistas, que confían en una mejora del EPS a futuro. Sin embargo, los datos de balance y flujo de caja reflejan dificultades operativas tangibles. Falta información detallada sobre la composición específica de la deuda a corto plazo y la sensibilidad de los márgenes frente a variaciones precisas en los precios del níquel y el cromo, variables críticas para `ACX.MC` que no fueron provistas en el snapshot.
-
-**Rating**: REVIEW
-
-FINAL TRANSACTION PROPOSAL: N/A (No trade execution).
+FINAL TRANSACTION PROPOSAL: Mantener posiciones actuales. La empresa muestra fundamentos sólidos a largo plazo con una valoración de futuro atractiva, pero la presión de la inflación europea y los niveles técnicos actuales sugieren esperar a una estabilización del soporte en la zona de los 15,30 EUR (cerca de la SMA200) antes de considerar aumentar exposición.

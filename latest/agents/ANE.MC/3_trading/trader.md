@@ -1,11 +1,11 @@
 **Action**: Sell
 
-**Reasoning**: El activo cotiza por debajo de sus principales medias móviles (SMA20, SMA50 y SMA200), reflejando una fuerte presión vendedora que se tradujo en una caída del 6,89% hasta los 20,26 EUR. La combinación de un flujo de caja libre negativo recurrente, un apalancamiento neto elevado en 5,06x EBITDA y un entorno macroeconómico de tipos altos en la eurozona justifican la infraponderación y la ejecución de ventas parciales para mitigar el riesgo de balance.
+**Reasoning**: La recomendación de infraponderar (Underweight) y la evidencia técnica y fundamental bajista justifican una salida o reducción de la posición en ANE.MC. El título cotiza por debajo de sus medias móviles clave (SMA20, SMA50 y SMA200), presenta un flujo de caja libre negativo recurrente, un apalancamiento elevado de 5.06x de deuda neta sobre EBITDA y retrasos operativos en desinversiones clave como el acuerdo en México. Dado su elevado PER adelantado (29.41x) y una rentabilidad sobre recursos propios (ROE) de apenas el 3.31%, no se justifica mantener exposición en el entorno macroeconómico actual de tipos e inflación elevados.
 
 **Entry Price**: 20.26
 
-**Stop Loss**: 21.85
+**Stop Loss**: 21.84
 
-**Position Sizing**: Reducir la exposición un 50% respecto a la asignación estándar de la cartera hipotética.
+**Position Sizing**: Reducir posición en un 50% de la asignación estándar
 
 FINAL TRANSACTION PROPOSAL: **SELL**

@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La acción se encuentra consolidando justo por debajo de la media móvil de 200 sesiones (26,97 EUR), una resistencia técnica clave. Aunque el consenso de analistas sugiere un potencial alcista, el elevado ratio de deuda neta sobre EBITDA (7,96x) y el entorno de tipos de interés altos en la zona euro limitan el margen de subida a corto plazo. Se recomienda prudencia hasta confirmar la superación de la media móvil de 200 sesiones o una mejora más clara en la estructura financiera.
+**Reasoning**: La acción muestra una recuperación técnica prometedora con el cruce del SMA50, pero se enfrenta a una resistencia crítica en la SMA200 situada en 26,97. Aunque el momentum es positivo, el elevado apalancamiento (Deuda Neta/EBITDA de 7,96x) y un entorno macroeconómico con tipos de interés presionados por la inflación en la eurozona limitan el potencial de subida a corto plazo, aconsejando cautela hasta confirmar una ruptura consolidada de la resistencia clave.
 
-**Entry Price**: 27.0
+**Entry Price**: 26.97
 
-**Stop Loss**: 25.0
+**Stop Loss**: 25.05
 
-**Position Sizing**: Mantener la exposición actual; no aumentar posiciones hasta romper la resistencia de 26,97 EUR.
+**Position Sizing**: Mantener posición actual, no exceder 2% del portafolio en caso de abrir nueva posición tras confirmación.
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

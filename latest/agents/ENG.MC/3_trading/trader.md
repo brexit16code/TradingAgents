@@ -1,11 +1,11 @@
-**Action**: Sell
+**Action**: Hold
 
-**Reasoning**: La recomendación del plan de investigación es Underweight, respaldada por fundamentales frágiles que incluyen un flujo de caja libre drásticamente reducido, un apalancamiento elevado de 6,15x Deuda Neta/EBITDA y una cotización de 18.40 EUR que supera el precio objetivo de consenso de 17.18 EUR. Dado que el RSI de 14 se encuentra en sobrecompra extrema (79.01) y la acción cotiza por encima de la media del consenso, resulta estratégico reducir exposición y evitar nuevas compras a estos niveles.
+**Reasoning**: ENG.MC cotiza actualmente a 18,40 EUR, mostrando una sólida tendencia técnica alcista por encima de sus medias móviles y un atractivo dividendo del 5,43%, pero se encuentra en zona de sobrecompra técnica con un RSI de 79,01 y superando el precio objetivo de consenso de 17,29 EUR. Dado el apalancamiento elevado (deuda neta/EBITDA de 6,15x) y la presión de posiciones bajistas, se recomienda mantener a la espera de una consolidación en niveles de soporte.
 
 **Entry Price**: not provided
 
 **Stop Loss**: not provided
 
-**Position Sizing**: Reducir la posición actual de forma gradual según la directriz de subponderación (Underweight).
+**Position Sizing**: not provided
 
-FINAL TRANSACTION PROPOSAL: **SELL**
+FINAL TRANSACTION PROPOSAL: **HOLD**

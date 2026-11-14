@@ -1,9 +1,9 @@
 **Rating**: Hold
 
-**Executive Summary**: Mantener la posición actual sin realizar compras ni ventas adicionales. El enfoque debe ser la preservación de capital, supervisando estrictamente el soporte técnico en la media móvil de 50 días (3,37 EUR). Se recomienda una actitud vigilante ante posibles deterioros en el flujo de caja operativo.
+**Executive Summary**: Maintain current exposure to UNI.MC. The stock shows strong technical momentum but faces a significant valuation premium and cash flow uncertainty. With consensus suggesting a 5.67% downside, wait for either a stabilization of the forward PE or a confirmed retest of the 3.37 EUR support level before adjusting position size.
 
-**Investment Thesis**: La tesis de inversión se basa en una divergencia persistente entre un momentum técnico favorable (rentabilidad anualizada del 51,99% y MACD alcista) y una valoración fundamental que ya descuenta gran parte del optimismo. Los argumentos del analista conservador y neutral predominan debido a la prima de valoración del 14% sobre la mediana del sector (1,14x) y el consenso de mercado que anticipa un retroceso del 5,92%. Además, el payout ratio elevado del 73,82% limita la flexibilidad del banco ante un entorno macroeconómico con inflación del 4% en la zona euro, lo que justifica la prudencia sobre la agresividad de compra. La señal de compra solo se reconsideraría ante una mejora sostenida en el flujo de caja operativo o una ruptura alcista con volumen confirmado; una venta se activaría si el soporte de la media de 50 días (3,376 EUR) es perforado, lo cual invalidaría la tesis de resiliencia estructural.
+**Investment Thesis**: The investment case for UNI.MC is split between impressive technical performance (up ~52% over 252 days) and fundamental concerns regarding valuation and cash flow quality. The aggressive case emphasizes strong earnings growth and strategic positioning in green finance, while the conservative and neutral stances highlight the negative operating cash flow (-1.42 billion EUR in 2025) and a forward PE (12.17x) that trades at a 14% premium to peer medians. The current RSI of 61.8 suggests moderate momentum, but the recent 63-day return of -1.69% indicates a cooling trend. A 'Hold' is the most objective stance: the dividend yield of 5.51% provides a defensive buffer, but the lack of clarity on whether the cash flow deficit is structural or temporary precludes an 'Overweight' or 'Buy' recommendation. A shift to a bullish stance would require the price to consolidate near the 3.37 EUR support (SMA50) or for future filings to demonstrate a reversal in the operating cash flow trend.
 
-**Price Target**: 3.24389
+**Price Target**: 3.25222
 
-**Time Horizon**: 3-6 meses
+**Time Horizon**: 3-6 months

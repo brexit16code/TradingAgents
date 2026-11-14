@@ -1,35 +1,41 @@
-### Informe de Análisis: Repsol, S.A. (REP.MC)
+### Informe de Análisis de Mercado: Repsol, S.A. (`REP.MC`)
 
-**Fecha de análisis:** 13 de noviembre de 2026
+**Fecha:** 14 de noviembre de 2026
 
-#### 1. Resumen Ejecutivo
-Repsol, S.A. (`REP.MC`) cotiza actualmente a 30,89 EUR, mostrando un sólido desempeño técnico con un retorno a 252 días del 95%. La compañía se encuentra en una fase de expansión financiera, respaldada por resultados netos de 1.899 millones de euros en 2025 y una estrategia activa de recompra de acciones y reinversión en hidrógeno renovable (400 millones en Tarragona). El sentimiento del mercado es marcadamente positivo, vinculado al papel de la compañía en el Ibex 35.
+#### Resumen Ejecutivo
+Repsol (`REP.MC`) muestra un comportamiento alcista destacado, cerrando a 30,89 EUR, lo que representa una subida del 3,31% en la última sesión y una revalorización significativa en el último año (+95%). La compañía se beneficia de un entorno macroeconómico complejo donde el sector energético actúa como refugio, mientras refuerza su balance mediante recompras de acciones y una sólida generación de caja operativa (8.015 millones de EUR).
 
-#### 2. Análisis Fundamental y Macroeconómico
-*   **Desempeño Financiero:** A pesar de una ligera caída en los ingresos anuales (de 58.948M en 2023 a 54.861M en 2025), la empresa mantiene un ratio de deuda neta/EBITDA bajo (0,32x), lo que indica una posición de balance saludable. El PER forward de 6,49x es atractivo en el contexto del sector energético integrado.
-*   **Entorno Macroeconómico:** Los titulares macroeconómicos destacan una inflación persistente en la zona euro (4% según *El Economista*, 13/11/2026), lo que limita la capacidad de los bancos centrales para reducir los tipos de interés. Este escenario de tipos reales negativos y volatilidad geopolítica (Irán) ha favorecido a empresas con capacidad de generación de caja como `REP.MC`, que aprovecha el contexto para consolidar su estructura financiera.
+#### Análisis Fundamental y Valoración
+*   **Métricas Clave:** La valoración actual es atractiva con un PER *trailing* de 5,49x y un PER *forward* de 6,49x. El ratio EV/EBITDA de 3,73x sugiere una infravaloración relativa frente a su capacidad de generación de efectivo.
+*   **Solidez Financiera:** Repsol mantiene una posición financiera saludable con una deuda neta sobre EBITDA de 0,32x, muy por debajo de niveles de alerta.
+*   **Retribución al accionista:** La rentabilidad por dividendo se sitúa en el 3,4%, con un *payout* conservador del 20,45%, dejando espacio para futuras alzas o recompras adicionales.
+*   **Perspectivas:** A pesar del beneficio neto de 1.899 millones de EUR en 2025, la compañía continúa invirtiendo en transición energética (ej. 400 millones de EUR en hidrógeno renovable en Tarragona), buscando diversificar su fuente de ingresos más allá de los hidrocarburos.
 
-#### 3. Perspectiva Técnica
-*   **Tendencia:** El precio (30,89 EUR) se sitúa significativamente por encima de sus medias móviles de 50 días (29,54 EUR) y 200 días (24,18 EUR), confirmando una tendencia alcista a largo plazo.
-*   **Momentum:** El RSI de 14 días en 58,37 sugiere un sentimiento positivo sin estar todavía en terreno de sobrecompra extrema.
-*   **Consenso:** El precio objetivo medio de los analistas es de 31,08 EUR, lo que implica un potencial de retorno limitado desde los niveles actuales (+0,6%), sugiriendo que el mercado ya ha recogido gran parte del valor reciente.
+#### Contexto Macroeconómico
+El mercado europeo se enfrenta a presiones inflacionistas significativas (4% en la zona euro), lo que está complicando las políticas de tipos de interés, con expectativas de que los tipos se mantengan elevados, perjudicando el ahorro tradicional. Esta incertidumbre ha impulsado a sectores cíclicos y de valor, donde Repsol ha destacado como motor del IBEX 35 en su escalada hacia los 20.000 puntos (Noticias Bancarias, 2026-11-13).
 
-#### 4. Evidencia y Riesgos
-*   **Factores a favor:** Sólida generación de flujo de caja operativo (5.365 millones en 2025), dividendos consistentes (yield del 3,52%) y proyectos estratégicos de transición energética.
-*   **Factores en contra:** La alta volatilidad del sector (33,98%), la incertidumbre sobre la evolución de los precios del crudo y la presión inflacionaria en la eurozona que puede afectar los costes operativos.
-*   **Datos faltantes:** No se dispone de un desglose detallado de los contratos de cobertura a largo plazo para los precios de los productos refinados, ni proyecciones de impacto exactas de la regulación de la UE sobre el hidrógeno para los próximos trimestres.
+#### Factores de Riesgo y Evidencia Contraria
+*   **Dependencia de precios:** El beneficio operativo sigue altamente correlacionado con el precio del petróleo, que se ve influido por tensiones geopolíticas (ej. Irán, mencionado en Finanzas.com).
+*   **Target de Analistas:** Aunque el precio actual es de 30,89 EUR, el precio objetivo medio de consenso es de 31,07 EUR, lo que implica una limitada revalorización según los analistas, con un rango amplio de 23,7 EUR a 38,0 EUR.
+*   **Información faltante:** No se dispone de un análisis comparativo sectorial detallado en el *snapshot* para validar el descuento relativo exacto frente a competidores directos como TotalEnergies o Shell.
 
-#### Tabla Resumen de Datos Clave (`REP.MC`)
+---
 
-| Indicador | Valor / Detalle |
+### Tabla de Resumen de Datos Clave
+
+| Indicador / Métrica | Valor / Detalle |
 | :--- | :--- |
-| Precio Actual | 30,89 EUR |
-| PER (Forward) | 6,49 |
-| Dividend Yield | 3,52% |
-| Net Debt / EBITDA | 0,32x |
-| Precio Objetivo Medio | 31,08 EUR |
-| RSI (14) | 58,37 |
-| Tendencia 252d | +95,05% |
+| **Precio Cierre (`REP.MC`)** | 30,89 EUR |
+| **Cambio Diario** | +3,31% |
+| **Rentabilidad 252 días** | +95,05% |
+| **PER (Trailing)** | 5,48x |
+| **Dividend Yield** | 3,4% |
+| **Deuda Neta / EBITDA** | 0,32x |
+| **Consenso Precio Objetivo** | 31,07 EUR |
+| **Sentimiento Macro** | Inflación persistente (4% en Zona Euro) |
+
+---
 
 **Rating**: HOLD
-FINAL TRANSACTION PROPOSAL: Mantener posiciones existentes dada la proximidad al precio objetivo medio y el excelente comportamiento acumulado en el último año, sugiriendo cautela ante posibles tomas de beneficios.
+
+FINAL TRANSACTION PROPOSAL: Mantener posición. La tesis alcista se ha materializado en el último año, y el precio actual se encuentra muy cerca del objetivo de consenso. Se recomienda monitorizar la evolución del precio del crudo y las próximas decisiones del BCE sobre tipos de interés, ya que un entorno de mayor inflación podría presionar los costes operativos a largo plazo, a pesar del buen momento técnico actual (RSI en 58,36 indica fortaleza sin estar en sobrecompra extrema).

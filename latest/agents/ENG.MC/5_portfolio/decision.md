@@ -1,9 +1,9 @@
-**Rating**: Underweight
+**Rating**: Hold
 
-**Executive Summary**: Reducir la exposicion actual en ENG.MC de forma gradual aprovechando la actual fortaleza tecnica y el nivel de sobrecompra. Evitar nuevas compras ante el desajuste con el precio objetivo de consenso y preparar salidas parciales para mitigar el riesgo de correccion. Horizonte temporal de 3 a 6 meses.
+**Executive Summary**: Mantener la exposición actual en ENG.MC sin realizar nuevas compras ni ventas, evaluando la evolución del precio frente a la resistencia técnica y la zona de sobrecompra. Se recomienda una postura de espera táctica hasta que el valor consolide en soportes lógicos como la SMA20 o el objetivo de consenso.
 
-**Investment Thesis**: El analisis detallado del debate y los datos fundamentales demuestra que los riesgos superan claramente al impulso tecnico. A pesar de la fuerte rentabilidad por dividendo del 5,4% y el buen comportamiento reciente de las medias moviles (SMA 50 en 17,01 EUR y SMA 200 en 16,33 EUR), la compañia presenta vulnerabilidades criticas: un ratio de Deuda Neta a EBITDA elevado de 6,15x en un entorno de tipos restrictivos con inflacion en la eurozona al 4%, una contraccion drastica del flujo de caja libre a 94,42 millones de euros que amenaza la cobertura organica del dividendo, y una cotizacion en 18,40 EUR que se encuentra un 6,62% por encima del precio objetivo medio de consenso de 17,18 EUR junto a un RSI en 79,01 (sobrecompra extrema). Estos factores invalidan la tesis alcista especulativa y justifican la adopcion de una postura de subponderacion defensiva.
+**Investment Thesis**: El debate entre los analistas refleja una divergencia equilibrada entre los argumentos alcistas y bajistas. Por un lado, el fuerte impulso técnico (rentabilidad a 252 días del 39,87%, RSI en 79,01 y cotización por encima de las medias móviles) y la atractiva rentabilidad por dividendo del 5,43% —reforzada por la adquisición estratégica en Teréga— respaldan la calidad del negocio regulado. Por otro lado, la valoración actual de 18,40 EUR supera el precio objetivo medio de consenso de 17,29 EUR (implicando un potencial de -6,02%), y el elevado apalancamiento con una ratio de deuda neta sobre EBITDA de 6,15x frente a un flujo de caja libre ajustado de 94,42 millones de euros introduce riesgos considerables en un entorno de tipos e inflación europea en el 4%. Dado que los riesgos fundamentales y de sobrecompra equilibran directamente los atractivos de dividendo y momento, se justifica una postura de mantenimiento a la espera de una corrección técnica.
 
-**Price Target**: 17.18
+**Price Target**: 17.29
 
 **Time Horizon**: 3-6 meses

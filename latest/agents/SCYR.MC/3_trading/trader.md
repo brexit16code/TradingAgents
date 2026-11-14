@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: A pesar de un sólido flujo de caja libre y un atractivo rendimiento por dividendo del 4.71%, el elevado nivel de apalancamiento financiero con una ratio de deuda neta sobre EBITDA de 5.41x en un entorno de tipos restrictivos justifica la cautela. Técnicamente, el precio de 4.25 EUR se mantiene por debajo de la media móvil de 200 sesiones situada en 4.36 EUR, lo que aconseja mantener una postura neutral hasta obtener una confirmación clara de ruptura de dicha resistencia.
+**Reasoning**: La recomendacion de mantener se fundamenta en la solidez del flujo de caja libre de Sacyr y su liderazgo en concesiones de infraestructuras, contrarrestado por un elevado apalancamiento (deuda neta sobre EBITDA de 5.41x) y una disminucion del beneficio neto en los ultimos ejercicios en un entorno de inflacion y tipos restrictivos en la eurozona. Tecnicamente, el valor cotiza de manera neutral entre las medias moviles de corto plazo y la resistencia de largo plazo de la SMA 200 en 4.364 EUR, lo que justifica una postura de espera.
 
-**Entry Price**: not provided
+**Entry Price**: 4.25
 
-**Stop Loss**: not provided
+**Stop Loss**: 3.95
 
-**Position Sizing**: Posición estándar neutral de 5% de la cartera
+**Position Sizing**: 3% of portfolio
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

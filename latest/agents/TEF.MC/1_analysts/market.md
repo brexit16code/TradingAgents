@@ -1,47 +1,61 @@
-**Rating**: Hold
-
-**FINAL TRANSACTION PROPOSAL:** Maintain a cautious **HOLD** stance on `TEF.MC` (Telefónica, S.A.), balancing recent solid third-quarter financial updates and reduced Hispanoamérica exposure against persistent macro pressures in the Eurozone (inflation at 4% keeping rates restrictive) and a high net debt-to-EBITDA ratio of ~5.1x.
-
----
-
-### Análisis detallado de `TEF.MC` (Telefónica, S.A.)
-
-#### 1. Contexto de Mercado y Datos de Precio
-Al cierre del **13 de noviembre de 2026**, la cotización de `TEF.MC` se sitúa en **3,48 EUR** (con un modesto cambio diario de +0,03%). El valor se encuentra operando en un rango técnico neutral, apoyado por una media móvil simple de 20 sesiones (`sma20`) en **3,39 EUR** y una media de 50 sesiones (`sma50`) en **3,43 EUR**, mientras que la media a 200 sesiones (`sma200`) se ubica ligeramente por encima en **3,59 EUR**, reflejando una resistencia macro o estructural de largo plazo. El *drawdown* actual desde máximos recientes se sitúa en un moderado **-11,79%**, con una volatilidad anualizada del **29,02%**.
-
-#### 2. Indicadores Técnicos Clave (Preinstalados)
-- **RSI (14)**: Registra un valor de **55,90**, lo que denota una zona de equilibrio sin indicios de sobrecompra ni sobreventa extrema.
-- **MACD**: Se encuentra en **0,0183** con una línea de señal (*macd_signal*) de **-0,0017**, mostrando un ligero cruce alcista de corto plazo que respalda el rebote mensual (`return21_pct` de **+4,85%**).
-
-#### 3. Fundamentales y Resultados Financieros Recientes
-Telefónica publicó recientemente sus resultados correspondientes a los primeros nueve meses de 2026 (reportados a mediados de noviembre de 2026), destacando:
-- **Beneficio neto**: La compañía alcanzó los **464 millones de euros** hasta septiembre, logrando volver a beneficios y reduciendo de forma significativa el impacto negativo de su división en Hispanoamérica (según fuentes como *HolaNews* y *Merca2.es*).
-- **Guías y Previsiones**: La dirección elevó ligeramente sus guías (*guidance*) para el conjunto de 2026 tras unos sólidos resultados trimestrales.
-- **Métricas de Valoración y Deuda**: 
-  - Capitalización bursátil: **~19.591 millones de euros**.
-  - PER forward estimado: **8,57x** (con un beneficio por acción estimado *forward EPS* de **0,41 EUR**).
-  - Rentabilidad por dividendo (*dividend yield*): Atractiva, en torno al **4,31%** (con un dividendo de 0,15 EUR).
-  - Deuda Neta / EBITDA: Elevada, situada en **5,11x** (con una deuda total de aproximadamente **42.481 millones de euros** frente a un EBITDA de **7.266 millones de euros**).
-  - Consenso de analistas: Precio objetivo medio (*targetMeanPrice*) en **3,80 EUR** (con un rango entre 3,10 EUR y 4,90 EUR), lo que representa un potencial alcista (*consensus upside*) aproximado del **9,10%** sobre el precio actual de 3,48 EUR.
-
-#### 4. Entorno Macro y Noticias Relevantes
-El contexto macroeconómico europeo presenta retos importantes para las telecos intensivas en capital. Informes recientes de mediados de noviembre de 2026 señalan que la **inflación en la zona euro se mantiene alrededor del 4%**, impidiendo una moderación rápida de los tipos de interés por parte del BCE (*El Economista*, 13 de noviembre de 2026). Pese a que Telefónica batió previsiones y elevó sus guías trimestrales, la acción experimentó ligeras recogidas de beneficios en bolsa debido a la cautela general del mercado ante el entorno de tipos y la elevada carga de endeudamiento del sector.
+**Rating**: HOLD  
+FINAL TRANSACTION PROPOSAL: Mantener posición sin nuevas entradas alcistas agresivas hasta superar resistencias clave o consolidar la valoración fundamental en un entorno macroeconómico presionado por tipos de interés elevados y volatilidad sectorial.
 
 ---
 
-### Tabla Resumen de Datos Clave
+### Informe Técnico y Fundamental Detallizado para `TEF.MC` (Telefónica, S.A.)
 
-| Categoría / Métrica | Valor / Indicador | Interpretación / Contexto |
+#### 1. Contexto de Mercado y Datos Clave
+* **Instrumento:** `TEF.MC` (Telefónica, S.A., Sector: Communication Services / Telecom Services, Bolsa de Madrid - MCE, Divisa: EUR).
+* **Fecha de referencia / Precio de Cierre:** 13 de noviembre de 2026 (Precio de cierre de sesión: **3,481 EUR**).
+* **Capitalización de Mercado:** ~19.591,95 millones de EUR.
+* **Valoración y Rendimiento Bursátil:** 
+  * Rentabilidad a 21 sesiones: `+4,85%`.
+  * Rentabilidad a 63 sesiones: `-5,41%` (con un rendimiento relativo frente al índice de referencia `^IBEX` de `-5,83` puntos porcentuales).
+  * Rentabilidad a 252 sesiones: `+3,96%`.
+  * Drawdown actual: `-11,79%`.
+  * Volatilidad anualizada (14 periodos): `29,02%`.
+
+#### 2. Análisis Técnico e Indicadores Seleccionados
+De acuerdo con las directrices técnicas y empleando la evidencia preconfigurada del instrumento `TEF.MC`, se evalúan los siguientes indicadores complementarios:
+
+1. **`close_50_sma` (SMA de 50 sesiones):** Se sitúa en **3,432 EUR**, ligeramente por debajo del precio de cotización actual (3,481 EUR). Esto muestra una recuperación a medio plazo donde el precio cotiza por encima de su media de 50 sesiones, indicando un sesgo neutral-alcista en el corto plazo.
+2. **`close_200_sma` (SMA de 200 sesiones):** Se ubica en **3,586 EUR**. El hecho de que el precio de cierre se encuentre por debajo de la media de 200 sesiones confirma que la tendencia de fondo a largo plazo sigue sujeta a presión bajista o consolidación lateral prolongada.
+3. **`close_10_ema` (EMA de 10 sesiones):** Captura el impulso reciente a corto plazo, respaldado por el movimiento alcista mensual del `+4,85%`.
+4. **`macd` y `macds` (MACD y Línea de Señal):** El indicador `macd` registra un valor de `0,0183`, cruzando por encima de su línea de señal `macds` (`-0,0017`). Este cruce alcista respalda un momentum positivo temporal tras los recientes anuncios de resultados.
+5. **`rsi` (RSI de 14 periodos):** Se encuentra en un nivel de **55,90**, reflejando una zona de equilibrio neutral con ligera inclinación compradora, alejado tanto de zonas de sobrecompra (>70) como de sobreventa (<30).
+6. **`atr` y Volatilidad:** La volatilidad porcentual se sitúa en el `29,02%`, lo que exige dimensionar adecuadamente las posiciones y establecer stop-losses dinámicos coherentes con oscilaciones de medio rango.
+
+#### 3. Análisis Fundamental y Financiero
+* **Resultados Recientes (Noviembre de 2026):** Telefónica presentó resultados correspondientes al ejercicio hasta septiembre de 2026. La compañía reportó un beneficio neto de **464 millones de euros**, logrando volver a terreno positivo tras reducir el impacto negativo de Hispanoamérica y elevar su *guidance* anual, superando las previsiones iniciales del consenso (según fuentes como *Merca2.es* y *Finanzas.com* del 12 de noviembre de 2026).
+* **Métricas de Valoración:**
+  * **Forward P/E:** `8,56x` (con un beneficio por acción estimado *forward EPS* de `0,406 EUR`).
+  * **Trailing P/E:** No aplicable debido a pérdidas netas acumuladas en el ejercicio previo (`trailingEps` de `-0,43 EUR`, con un beneficio neto de `-4.318 millones de euros` al cierre de 2025).
+  * **Price to Book (P/B):** `1,27x` (con un valor en libros por acción de `2,74 EUR`).
+  * **EV/EBITDA:** `8,31x`.
+* **Deuda y Solvencia:** 
+  * Deuda total: `42.481 millones de EUR` (Deuda neta / EBITDA en `5,11x`). La carga de endeudamiento sigue siendo un factor estructural de vigilancia para el sector de telecomunicaciones en Europa.
+* **Política de Dividendos:** 
+  * Dividendo anual ofrecido de `0,15 EUR` por acción, lo que representa una **rentabilidad por dividendo (*dividend yield*) del `4,31%`**, con un ratio de pago (*payout ratio*) elevado del `250%` sobre los resultados recientes reportados.
+* **Consenso de Analistas:** 
+  * Precio objetivo medio (*targetMeanPrice*): **3,79 EUR**, lo que arroja un potencial alcista de consenso (*consensus_upside_pct*) del **`8,90%`** frente al precio actual de 3,481 EUR (sobre una muestra de 22 opiniones de analistas, con un rango estimado entre un mínimo de 3,10 EUR y un máximo de 4,90 EUR).
+
+#### 4. Entorno Macroeconómico
+El contexto macroeconómico europeo muestra presiones inflacionistas persistentes (con la inflación en la eurozona rondando el 4% en noviembre de 2026, según *El Economista*), lo que invalida expectativas de recortes rápidos de tipos e induce a tipos de interés reales ajustados. Esto encarece el coste de servicio de la deuda corporativa pesada, afectando de manera directa a empresas intensivas en capital como Telefónica.
+
+#### 5. Evidencia de Noticias y Fechas de Referencia
+* *Merca2.es* (12-11-2026): Cobertura sobre los resultados de Telefónica (beneficio de 464 millones, elevación de guía de negocio y reacción bajista inicial de recogida de beneficios en bolsa).
+* *Finanzas.com* (12-11-2026): Análisis sobre cómo Telefónica batió previsiones pero experimentó presión vendedora por toma de beneficios.
+* *El Economista* / *Vozpopuli* (13-11-2026 a 14-11-2026): Informes sobre tipos de interés en la eurozona e inflación en niveles del 4%.
+
+---
+
+### Tabla Resumen de Indicadores Clave y Métricas
+
+| Categoría / Métrica | Valor / Indicador | Interpretación Técnica / Fundamental para `TEF.MC` |
 | :--- | :--- | :--- |
-| **Ticker y Bolsa** | `TEF.MC` (Madrid, EUR) | Telefónica, S.A. - Sector Telecomunicaciones |
-| **Precio de Cierre** | 3,48 EUR (13/11/2026) | Estabilización tras el reporte de resultados Q3 |
-| **RSI (14)** | 55,90 | Zona neutral, sin sobrecompra ni sobreventa |
-| **MACD y Señal** | 0,0183 / -0,0017 | Ligero sesgo positivo de impulso a corto plazo |
-| **Medias Móviles (SMA)** | SMA20: 3,39€ / SMA50: 3,43€ / SMA200: 3,59€ | Precio cotizando ligeramente por encima de las medias de corto plazo pero bajo la de 200 |
-| **Beneficio Neto (9M 2026)** | 464 millones de EUR | Retorno a beneficios, menor lastre de Hispanoamérica |
-| **PER Forward** | 8,57x | Valoración atractiva en múltiplos de beneficios futuros |
-| **Rentabilidad por Dividendo** | 4,31% | Soporte para el inversor por retorno de efectivo |
-| **Apalancamiento (Net Debt/EBITDA)** | 5,11x | Nivel de endeudamiento elevado que requiere monitorización |
-| **Precio Objetivo Consenso** | 3,80 EUR | Potencial alcista estimado de ~9,10% frente a 22 analistas |
-
-*Datos extraídos del snapshot verificado de fecha 13-11-2026 y fuentes de noticias financieras asociadas.*
+| **Precio de Cierre** | 3,481 EUR (13/11/2026) | Cotización actual de referencia en MCE. |
+| **SMA 50 sesiones** | 3,432 EUR | Soporte dinámico a medio plazo; superado al alza recientemente. |
+| **SMA 200 sesiones** | 3,586 EUR | Resistencia de largo plazo clave; el precio permanece por debajo. |
+| **RSI (14)** | 55,90 | Momentum neutral, sin señales extremas de sobrecompra ni sobreventa. |
+| **MACD

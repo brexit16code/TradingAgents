@@ -1,67 +1,78 @@
-**Rating:** HOLD
+**Rating**: REVIEW
 
-**FINAL TRANSACTION PROPOSAL:**
-- **Action:** HOLD (Hypothetical allocation only; no trades executed).
-- **Rationale:** ACS, Actividades de Construcción y Servicios, S.A. (`ACS.MC`) shows strong operational momentum with recent earnings expansion (net income reaching €950.3M in FY2025 and 9M results showing a 35% increase ex-extraordinarios) and an ambitious strategic plan aiming to 2030. However, trading at an RSI of ~50.06, a trailing P/E of ~19.88, and a price near €91.05 with a 34.19% drawdown from peaks, the stock trades close to consensus mean targets while broader macroeconomic headwinds (Eurozone inflation around 4% and tight monetary conditions) temper aggressive upside.
+**FINAL TRANSACTION PROPOSAL:** HOLD
 
----
+***
 
 ### Informe Fundamental Integral: ACS, Actividades de Construcción y Servicios, S.A. (`ACS.MC`)
 
 #### 1. Perfil de la Empresa y Contexto de Negocio
-- **Identidad Resuelta:** ACS, Actividades de Construcción y Servicios, S.A. (`ACS.MC`), cotizada en las Bolsas de Madrid (MCE) dentro del sector industrial y subsector de ingeniería y construcción.
-- **Modelo de Negocio y Posicionamiento:** Líder global en el desarrollo de infraestructuras, concesiones y servicios de ingeniería civil y construcción. Recientemente, la compañía ha presentado su nuevo plan estratégico a 2030 (publicado en noviembre de 2026), en el cual prevé duplicar su beneficio y dividendo, beneficiándose de un "superciclo" de infraestructuras en Europa y a nivel internacional.
+* **Compañía:** ACS, Actividades de Construcción y Servicios, S.A. (`ACS.MC`)
+* **Sector:** Industriales (Industrials)
+* **Industria:** Ingeniería y Construcción (Engineering & Construction)
+* **Bolsa / Divisa:** Bolsa de Madrid (MCE) / EUR
+* **Resumen de Negocio:** ACS es un referente global en infraestructuras y servicios de ingeniería, destacando especialmente en Norteamérica a través de su filial Turner y su apuesta por un superciclo de infraestructuras.
 
-#### 2. Análisis de Estados Financieros (Histórico y Reciente)
-Los datos financieros extraídos de los estados contables reflejan una sólida trayectoria de crecimiento en ingresos y rentabilidad:
+#### 2. Datos Financieros Clave y Valoración Actual
+Los datos de mercado e indicadores técnicos y fundamentales a fecha de 14 de noviembre de 2026 (con precio de cierre al 2026-11-13) muestran los siguientes parámetros:
+* **Precio de Cotización:** 91.05 EUR
+* **Capitalización de Mercado:** 23.680 millones de EUR
+* **PER (Trailing):** 19.88x
+* **PER Forward:** 18.09x
+* **Precio a Valor en Libros (P/B):** 4,20x
+* **Valor de la Empresa a EBITDA (EV/EBITDA):** 10,79x
+* **Rentabilidad por Dividendo (Dividend Yield):** 2,55% (con un dividendo anual de 2,32 EUR y payout ratio del 61,02%)
+* **Deuda Neta / EBITDA:** 1,02x (Deuda total de 14.428 millones de EUR frente a caja total de 11.918 millones de EUR)
+* **Rentabilidad sobre el Patrimonio (ROE):** 25,01%
+* **Consenso de Analistas (Target Price):** Media de 128,54 EUR (con un rango entre 99,75 EUR y 153,10 EUR, aportado por 17 analistas), lo que implica un potencial alcista (consensus upside) estimado en torno al 41,17%.
 
-*   **Cuenta de Resultados (Ingresos Totales y EBITDA):**
-    *   *Ejercicio 2025:* Total Revenue de **49.847,68 M€**, EBITDA de **3.387,89 M€** y Net Income de **950,34 M€**.
-    *   *Ejercicio 2024:* Total Revenue de **41.633,12 M€**, EBITDA de **2.578,84 M€** y Net Income de **827,58 M€**.
-    *   *Ejercicio 2023:* Total Revenue de **35.737,76 M€**, EBITDA de **2.258,25 M€** y Net Income de **780,12 M€**.
-    *   *Tendencia:* Crecimiento continuado de los ingresos y márgenes operativos robustos, apoyados por el dinamismo de sus filiales internacionales (como Turner y Hochtief).
+#### 3. Evolución Financiera Histórica (Estados Financieros)
+* **Ingresos Totales:** 
+  * 2023: 35.737.759.000 EUR
+  * 2024: 41.633.120.000 EUR
+  * 2025: 49.847.681.000 EUR (muestra un crecimiento constante y fuerte de los ingresos).
+* **Beneficio Neto (Net Income):**
+  * 2023: 780.123.000 EUR
+  * 2024: 827.580.000 EUR
+  * 2025: 950.340.000 EUR
+* **EBITDA:**
+  * 2023: 2.258.248.000 EUR
+  * 2024: 2.578.843.000 EUR
+  * 2025: 3.387.885.000 EUR
+* **Flujo de Caja Libre (Free Cash Flow):**
+  * 2023: 1.006.805.000 EUR
+  * 2024: 2.132.023.000 EUR
+  * 2025: 2.303.003.000 EUR
 
-*   **Balance de Situación:**
-    *   *Ejercicio 2025:* Total Assets de **45.189,21 M€**, Total Debt de **15.333,77 M€** y Stockholders Equity de **4815,32 M€**.
-    *   *Ejercicio 2024:* Total Assets de **42.025,28 M€**, Total Debt de **14.204,70 M€** y Stockholders Equity de **4.714,21 M€**.
-    *   *Métricas clave actuales:* Deuda total de **14.428,00 M€** frente a caja total de **11.918,00 M€**, situando la ratio Deuda Neta / EBITDA en torno a **1.02x** (un nivel de apalancamiento moderado y saludable para el sector de infraestructuras).
+#### 4. Eventos Recientes y Noticias (Semana del 11 al 14 de noviembre de 2026)
+Durante los últimos días, la actualidad de `ACS.MC` ha estado marcada por hitos operativos y estratégicos muy relevantes:
+* **Resultados a Septiembre:** ACS reportó un beneficio de 789 millones de euros hasta septiembre, registrando un incremento del 35% sin extraordinarios, apoyado en el sólido rendimiento de Turner (*Rankia*, 12 de noviembre de 2026).
+* **Plan Estratégico a 2030:** La compañía presentó su nueva hoja de ruta estratégica con perspectivas de duplicar su beneficio y dividendo, lo que apunta a triplicar su valor en bolsa hacia 2030 (*El Economista*, 12 de noviembre de 2026).
+* **Superciclo de Infraestructuras:** La dirección de ACS ha comunicado una visión muy optimista sobre un superciclo de demanda en infraestructuras y nuevas oportunidades de crecimiento en Europa y Norteamérica (*Estrategias de Inversión*, 12 de noviembre de 2026).
+* **Entorno Macroesfera:** El contexto europeo reciente se ve afectado por presiones inflacionarias (inflación de la eurozona en torno al 4%) y tipos de interés reales negativos, lo que incide en las valoraciones sectoriales y el coste de financiación (*El Economista*, 13 de noviembre de 2026; *Vozpópuli*, 14 de noviembre de 2026).
 
-*   **Flujos de Caja (Cash Flow):**
-    *   *Ejercicio 2025:* Operating Cash Flow de **3.046,76 M€**, CapEx de **-743,76 M€**, arrojando un Free Cash Flow de **2.303,00 M€**.
-    *   *Ejercicio 2024:* Free Cash Flow de **2.132,02 M€**.
-    *   *Tendencia:* Notable capacidad de generación de caja operativa y libre, respaldando la retribución al accionista vía dividendos.
+#### 5. Análisis Técnico Breve
+* **RSI (14):** 50,06 (zona neutral).
+* **MACD:** -0,51 (señal: -1,06), reflejando una fase de consolidación técnica tras las correcciones recientes.
+* **Medias Móviles:** Cotiza por debajo de su media de 200 sesiones (SMA200 en 108,67 EUR), encontrando soporte alrededor de su SMA20 (90,01 EUR). Su drawdown actual desde máximos es del -34,19%.
 
-#### 3. Valoración y Métricas Bursátiles Actuales (`ACS.MC`)
-- **Precio de Cierre (13/11/2026):** 91.05 EUR
-- **Capitalización Bursátil:** 23.679,79 M€
-- **PER (Trailing):** 19.88x | **PER (Forward):** 18.13x
-- **Precio / Valor en Libros (P/B):** 4.20x
-- **EV / EBITDA:** 11.00x
-- **Rentabilidad por Dividendo (Dividend Yield):** ~2.55% (con un payout ratio de ~61.02%).
-- **Consenso de Analistas:** 
-    - Número de opiniones: 17
-    - Precio objetivo medio: **128.30 EUR** (Precio objetivo mínimo: 99.75 EUR; Precio objetivo máximo: 153.10 EUR).
-    - Upside potencial de consenso: **40.91%**.
-
-#### 4. Aspectos Técnicos y Dinámica Reciente del Mercado
-- **Indicadores Técnicos:** 
-    - RSI(14) en **50.06** (neutral, sin sobrecompra ni sobreventa extrema).
-    - MACD en **-0.51** (con línea de señal en **-1.07**).
-    - Medias móviles: SMA20 en **90.01 EUR**, SMA50 en **92.41 EUR**, y SMA200 en **108.67 EUR**.
-    - Retornos: Rentabilidad a 21 sesiones de **+2.02%**, pero caída a 63 sesiones de **-15.62%** y un drawdown acumulado desde máximos de **-34.19%**.
-- **Noticias y Eventos Recientes (Noviembre 2026):**
-    - Presentación de resultados trimestrales e informes semestrales (的市场/MarketScreener y Rankia, 12 de noviembre de 2026), destacando un beneficio de 789 millones hasta septiembre (un 35% superior sin extraordinarios).
-    - Anuncio del nuevo plan estratégico a 2030 enfocado en duplicar beneficios y dividendos, impulsando perspectivas alcistas a largo plazo (El Economista, 12 de noviembre de 2026).
-    - Contexto macroeconómico adverso: Persistencia de la inflación en la Eurozona (estimada en el 4% según datos de mediados de noviembre de 2026), lo que limita las expectativas de recortes agresivos de tipos por parte del BCE y mantiene el foco en la disciplina de costes y la robustez de contratos concesionales.
-
-#### 5. Datos Faltantes y Limitaciones
-- No se dispone de un desglose detallado diario de operaciones internas de directivos (insider transactions) en el snapshot predeterminado; la valoración depende de los informes financieros oficiales y estimaciones de consenso de analistas.
+#### 6. Datos Faltantes y Limitaciones
+* No se dispone de transacciones de información privilegiada (*insider transactions*) detalladas en el lote de datos analizados. 
+* Las estimaciones de analistas y precios objetivos son promedios de consenso y no deben interpretarse como valoraciones intrínsecas garantizadas.
 
 ---
 
-### Resumen de Puntos Clave
+### Tabla Resumen Clave
 
-| Categoría | Métrica / Dato Clave | Observación / Contexto |
+| Concepto / Métrica | Valor para `ACS.MC` | Observaciones / Contexto |
 | :--- | :--- | :--- |
-| **Cotización y Valor** | 91.05 EUR (`ACS.MC`) | Drawdown de -34.19% desde máximos, con soporte técnico cercano a las medias móviles de corto plazo. |
-| **Valoración Relativa** | PER 19.88x (Trailing) / 18.
+| **Precio Actual** | 91,05 EUR | Cierre de sesión al 2026-11-13 |
+| **Capitalización Bursátil** | 23.680 M EUR | Gran capitalización en el MCE |
+| **PER Forward** | 18,09x | Alineado con la mediana del sector industrial |
+| **Ingresos (2025)** | 49.848 M EUR | Fuerte expansión interanual |
+| **Beneficio Neto (2025)** | 950 M EUR | Incremento sostenido de la rentabilidad |
+| **Deuda Neta / EBITDA** | 1,02x | Estructura financiera moderada y controlada |
+| **Free Cash Flow (2025)** | 2.303 M EUR | Sólida generación de caja operativa |
+| **Dividendo Anual / Yield** | 2,32 EUR / 2,55% | Payout ratio moderado en torno al 61% |
+| **Precio Objetivo Consenso** | 128,54 EUR | Potencial alcista estimado de ~41,17% |
+| **Noticia Destacada** | Plan Estratégico 2030 | Apunta a duplicar beneficios y dividendos |

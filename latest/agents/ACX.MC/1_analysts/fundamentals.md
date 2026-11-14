@@ -1,38 +1,38 @@
-Informe de Análisis Fundamental: Acerinox, S.A. (ACX.MC)
-Fecha del informe: 13 de noviembre de 2026
+Este informe presenta un análisis fundamental de **Acerinox, S.A. (ACX.MC)** con base en los datos financieros y de mercado disponibles a fecha de 14 de noviembre de 2026.
 
-### Perfil de la Compañía y Contexto de Mercado
-Acerinox, S.A. es una empresa líder en el sector de Materiales Básicos (Industria: Acero), con sede en España y listada en el mercado MCE. A fecha de 13 de noviembre de 2026, la acción cotiza a **15,80 EUR**. El entorno macroeconómico actual, caracterizado por una inflación en la zona euro situada en el 4% (fuente: *El Economista*, 13/11/2026), presenta un desafío significativo para las empresas industriales intensivas en capital.
+### Perfil y Desempeño Financiero
+Acerinox, clasificada en el sector de Materiales Básicos (Industria del Acero), muestra un escenario de valoración exigente y una estructura financiera que refleja los retos actuales del entorno macroeconómico en la Eurozona.
 
-### Análisis Financiero
-Los datos financieros reflejan una situación de transición:
+*   **Situación Operativa:** Los estados financieros muestran una caída significativa en la rentabilidad reciente, con unos beneficios netos negativos de -40,07 millones de euros al cierre de 2025, frente a los beneficios positivos de 2023 y 2024. El EBITDA ha sufrido una contracción, situándose en 378,7 millones de euros en 2025 (vs. 627,5 millones en 2023).
+*   **Valoración:** La acción cotiza a 15,80 EUR. Con un *Forward PE* de 10,22x frente a un *Trailing PE* de 29,81x, el mercado anticipa una recuperación en los beneficios por acción (BPA) para el próximo ejercicio (EPS estimado de 1,54 frente a 0,53 actual). No obstante, el ratio Precio/Valor Contable de 1,77 sugiere que la acción no está necesariamente infravalorada respecto a sus activos netos.
+*   **Balance y Solvencia:** La empresa mantiene una deuda neta importante. Con una deuda total de 2.438 millones de euros y un ratio de deuda neta/EBITDA de 3,15x, el apalancamiento es un factor de riesgo a vigilar en un entorno de tipos de interés persistentes, especialmente con la inflación en la Eurozona situándose en niveles del 4%.
 
-*   **Ingresos y Rentabilidad:** En 2025, la compañía reportó ingresos totales de 5.780,51 millones de EUR, con un EBITDA de 378,70 millones de EUR. Se observa un impacto en la utilidad neta, que cerró el ejercicio 2025 en -40,07 millones de EUR, contrastando con los beneficios positivos de 2024 (224,95 millones) y 2023 (228,13 millones).
-*   **Balance y Solvencia:** El ratio de deuda neta/EBITDA se sitúa en 3,15x, lo que indica un apalancamiento elevado en un contexto de tipos de interés persistentes. El valor contable por acción (book value) es de 8,94 EUR, operando actualmente a un ratio Precio/Valor Contable (P/B) de 1,77x.
-*   **Flujo de Caja:** La empresa cerró 2025 con un flujo de caja operativo positivo (455,49 millones de EUR), pero un flujo de caja libre negativo de -155,27 millones de EUR, debido en gran parte a los gastos de capital (CapEx) de 309,80 millones de EUR.
-*   **Dividendos:** La compañía mantiene una política de retorno al accionista con una rentabilidad por dividendo del 3,89%, aunque el ratio de pago (payout ratio) del 1,44x sugiere que el dividendo se está financiando por encima de las ganancias actuales, lo cual requiere monitoreo.
+### Análisis de Mercado e Insights
+*   **Sentimiento:** Las noticias recientes (11 de noviembre) sugieren una atención continua del mercado sobre la volatilidad de ACX.MC. El sentimiento macroeconómico es adverso, con señales de inflación persistente que complican la política monetaria en Europa, lo cual suele afectar negativamente a sectores cíclicos como el acero.
+*   **Consenso de Analistas:** Existe un optimismo moderado con un precio objetivo medio de 19,38 EUR, lo que implica un potencial alcista del 22,69% desde el precio actual. Sin embargo, el rango es amplio (mínimo de 14,1 EUR y máximo de 23,7 EUR), reflejando la incertidumbre sobre la capacidad de la empresa para ejecutar su hoja de ruta de recuperación.
+*   **Dividendos:** La rentabilidad por dividendo se sitúa en un atractivo 3,92%. No obstante, con un ratio de pago (*payout*) superior al 144%, es imperativo analizar si la sostenibilidad de este dividendo está comprometida ante la falta de flujo de caja libre positivo (-155 millones en 2025 tras gastos de capital).
 
-### Perspectiva de Valoración y Sentimiento
-El consenso de analistas (basado en 13 opiniones) sitúa el precio objetivo medio en 19,38 EUR, lo que implica un potencial de revalorización (upside) del 22,69% respecto al precio actual. No obstante, el indicador técnico RSI(14) en 43,21 sugiere una debilidad moderada sin llegar a condiciones extremas de sobreventa.
-
-### Riesgos y Factores a Considerar
-1.  **Inflación:** La persistencia de una inflación alta (4% en la zona euro) aumenta los costes operativos y de financiación, presionando los márgenes industriales.
-2.  **Ciclicidad:** Como empresa del sector acero, la rentabilidad de ACX.MC es altamente sensible a los ciclos económicos globales.
-3.  **Datos faltantes:** No se dispone de detalles sobre posibles cambios recientes en el gobierno corporativo o transacciones de *insider trading* específicas en la última semana, elementos cruciales para evaluar la confianza de la directiva.
-
-### Conclusión para Inversores
-La acción presenta una divergencia entre su valor contable y las expectativas de consenso. El *forward PE* de 10,22x es atractivo comparado con el *trailing PE* de 29,81x, sugiriendo que el mercado descuenta una recuperación significativa en los beneficios futuros (EPS forward estimado: 1,545). Los inversores deberían vigilar la capacidad de la empresa para reducir el apalancamiento (net debt/EBITDA > 3) antes de esperar una revalorización sostenida.
+### Consideraciones Estratégicas
+La inversión en ACX.MC bajo las condiciones actuales parece estar ligada a una apuesta de recuperación cíclica. Los traders deben considerar:
+1.  **Riesgo Inflacionario:** El aumento de la inflación en la zona euro (4%) y los tipos reales negativos penalizan el ahorro y encarecen la financiación industrial.
+2.  **Cash Flow:** El flujo de caja libre negativo es una señal de alerta; aunque el flujo de caja operativo fue positivo en 2025, el alto nivel de CAPEX está presionando la liquidez.
+3.  **Soporte Técnico:** La acción cotiza cerca de su media móvil de 200 días (15,34 EUR), lo cual podría actuar como un soporte técnico crítico. Una ruptura por debajo de este nivel podría invalidar las tesis alcistas de corto plazo.
 
 **Rating**: HOLD
 
-| Métrica | Valor / Dato |
+| Indicador | Valor / Dato |
 | :--- | :--- |
-| Precio de cierre | 15,80 EUR |
-| Capitalización bursátil | 3.936,71 M EUR |
-| Forward P/E | 10,22x |
-| Dividend Yield | 3,89% |
-| Net Debt / EBITDA | 3,15x |
-| Consenso Precio Objetivo | 19,38 EUR |
-| Potencial de subida (Consenso) | +22,69% |
+| Precio Actual | 15,80 EUR |
+| Precio Objetivo Medio | 19,38 EUR |
+| Upside Consenso | +22,69% |
+| Dividend Yield | 3,92% |
+| Forward PE | 10,22x |
+| Deuda Neta/EBITDA | 3,15x |
+| RSI (14) | 43,21 (Neutral) |
+| Volatilidad | 27,62% |
 
-FINAL TRANSACTION PROPOSAL: No trade execution suggested. This report is for information purposes only.
+***
+
+*Descargo de responsabilidad: Este informe es estrictamente informativo y no constituye una recomendación de inversión. No se ha realizado ninguna ejecución de operaciones. La información proviene de fuentes públicas (Yahoo Finance y titulares de noticias) y está sujeta a revisión.*
+
+FINAL TRANSACTION PROPOSAL: No transaction recommended. Monitor 15.30 EUR support level and EBITDA recovery progress in 2027.

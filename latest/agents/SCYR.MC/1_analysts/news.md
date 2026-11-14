@@ -1,43 +1,45 @@
-**Rating**: HOLD  
-**FINAL TRANSACTION PROPOSAL**: HOLD  
+**Rating**: HOLD
 
-### Informe de Análisis Macroeconómico y de Mercado para SCYR.MC
+### Informe de Análisis de Sacyr (`SCYR.MC`) y Contexto Macroeconómico
 
-**1. Resumen Ejecutivo y Estado Actual de la Empresa**  
-Sacyr, S.A. (`SCYR.MC`), cotizada en el mercado continuo de Madrid (`MCE`) dentro del sector industrial (Ingeniería y Construcción), se sitúa actualmente en un precio de cierre de **4,25 EUR** (a fecha 13 de noviembre de 2026). La compañía opera bajo un modelo de negocio fuertemente enfocado en concesiones internacionales, celebrando recientemente su 40 aniversario en dicho segmento (*CapitalMadrid*, 11 de noviembre de 2026). No obstante, los analistas y los datos fundamentales reflejan un escenario de valoración exigente, un apalancamiento elevado y un entorno macroeconómico europeo desafiante marcado por tipos de interés e inflación elevados.
+#### 1. Resumen Ejecutivo y Estado Actual de la Empresa (`SCYR.MC`)
+Sacyr, S.A. (`SCYR.MC`), empresa cotizada en el mercado continuo de Madrid (Bolsa de Madrid / MCE) dentro del sector industrial y de ingeniería y construcción, muestra un comportamiento bursátil y fundamental reseñable en noviembre de 2026. 
+* **Precio de cierre actual**: 4,25 EUR (con fecha de precio 2026-11-13).
+* **Capitalización bursátil**: 3.379.307.008,00 EUR.
+* **Múltiplos de valoración**: Ratio PER adelantado (*forward PE*) de ~18,10x (frente a un PER histórico/trailing de 23,61x), con un valor en libros por acción de 1,338 EUR y una ratio Precio/Valor en Libros (*Price-to-Book*) de 3,18x. El valor de Enterprise Value to EBITDA (*EV/EBITDA*) se sitúa en 8,85x.
+* **Rentabilidad por dividendo**: Ofrece una rentabilidad atractiva por dividendo de aproximadamente 4,71% (dividendo por acción de 0,20 EUR, *payout ratio* del 83,83%).
+* **Consenso de analistas**: El precio objetivo medio (*targetMeanPrice*) se sitúa en 5,329 EUR, con un mínimo de 4,80 EUR y un máximo de 5,75 EUR (basado en la opinión de 10 analistas), lo que arroja un potencial de revalorización (*consensus upside*) de aprox. 25,39%.
+* **Desempeño técnico**: RSI de 14 sesiones en 62,85 (zona neutral-fuerte alcista), MACD positivo (0,0489), cotizando ligeramente por encima de sus medias móviles de 20 y 50 sesiones (4,09 EUR y 4,08 EUR respectivamente), pero por debajo de su media de 200 sesiones (4,36 EUR). Registra una rentabilidad a 21 días del +6,14% y a un año del +21,69%.
 
-**2. Análisis Fundamental y Valoración**  
-*   **Capitalización Bursátil y Múltiplos:** La capitalización de mercado asciende a aproximadamente 3.379 millones de EUR. Presenta un *Trailing P/E* de 23,61x y un *Forward P/E* de 18,10x, situándose en línea con la mediana de sus pares en ratios prospectivos (*PER relativo intermedio*).
-*   **Deuda y Estructura Financiera:** La deuda total se sitúa en 9.557 millones de EUR (frente a 9.347 millones al cierre del ejercicio 2025), con una caja de 2.285 millones de EUR. El ratio de **Deuda Neta / EBITDA es de 5,41x**, lo que refleja un apalancamiento considerable que requiere estrecha vigilancia en un entorno de tipos elevados.
-*   **Rentabilidad y Dividendos:** El beneficio por acción (EPS) de arrastre es de 0,18 EUR (con una previsión *forward* de 0,23 EUR). Ofrece una atractiva **rentabilidad por dividendo (*dividend yield*) del 4,71%** (tasa de dividendo de 0,20 EUR, con un *payout ratio* elevado del 83,83%).
-*   **Consenso de Analistas:** El precio objetivo medio fijado por el consenso de analistas (10 opiniones) es de **5,33 EUR** (con un rango entre 4,80 EUR y 5,75 EUR), lo que arroja un potencial de revalorización (*consensus upside*) del **25,39%**.
+#### 2. Fundamentos Financieros y Resultados Recientes
+Tomando como base los estados financieros cerrados más recientes (cuentas anuales de 2025):
+* **Ingresos Totales**: 4.659,54 millones de EUR en 2025 (ligeramente por encima de los 4.571,00 millones de 2024 y 4.609,43 millones de 2023).
+* **EBITDA**: 1.301,62 millones de EUR en 2025 (frente a los 1.341,61 millones de 2024 y 1.431,87 millones de 2023).
+* **Beneficio Neto**: 85,89 millones de EUR en 2025 (por debajo de los 113,37 millones de 2024 y 153,22 millones de 2023).
+* **Deuda y Solvencia**: La deuda total consolidada se sitúa en 9.347,48 millones de EUR (a cierre de 2025), con un efectivo total de 2.285,41 millones de EUR (según datos instantáneos de balance global de 9.557 millones de deuda total). La ratio de deuda neta sobre EBITDA se sitúa en 5,41x.
+* **Flujos de Caja**: En el ejercicio 2025, el flujo de caja operativo (*Operating Cash Flow*) alcanzó los 1.358,61 millones de EUR, con un flujo de caja libre (*Free Cash Flow*) de 1.103,56 millones de EUR, demostrando una sólida generación de caja operativa a pesar de la compresión en el beneficio neto.
 
-**3. Contexto Macroeconómico y Entorno de Mercado**  
-El análisis macroeconómico actual de la eurozona y España revela importantes vientos en contra para los activos de riesgo y los sectores intensivos en capital:
-*   **Inflación y Tipos de Interés:** Las últimas publicaciones macroeconómicas de noviembre de 2026 sitúan la inflación de la zona euro en el **4%**, un nivel que "inhabilita moderar el alza de tipos" por parte de los bancos centrales (*El Economista*, 13 de noviembre de 2026). Asimismo, la inflación en España se mantiene enquistada en torno al **5%** (*Finanzas.com*, 8 de noviembre de 2026).
-*   **Tipos Reales Negativos:** El ahorro privado en la eurozona continúa perdiendo poder adquisitivo en un entorno de tipos reales negativos y persistencia inflacionaria (*Estrategias de Inversión*, 13 de noviembre de 2026).
-*   **Comportamiento del IBEX 35:** A pesar del complejo panorama inflacionario, el selectivo español ha mostrado resiliencia recuperando la cota de los 20.000 puntos a mediados de noviembre, impulsado por valores seleccionados (*El Boletín*, 13 de noviembre de 2026; *Estrategias de Inversión*, 9 de noviembre de 2026). `SCYR.MC` ha tenido episodios recientes de contribución positiva al selectivo, manteniendo una rentabilidad a 21 días del +6,14% y una rentabilidad a 1 año del +21,69%.
+#### 3. Contexto de Noticias Corporativas y Sentimiento de Mercado
+* **Liderazgo en el Ibex**: A principios de noviembre de 2026, la prensa especializada (*El Economista*) destacó que Sacyr ha recuperado el primer puesto en 'La Liga Ibex', destronando a Merlin Properties como la firma favorita del índice bursátil español.
+* **Impulso Bursátil**: Asimismo, el valor ha sido protagonista en las sesiones de noviembre junto a valores como Solaria e IAG, contribuyendo al buen tono general del selectivo español (que ronda o supera los 19.500-20.000 puntos según la fuente diaria).
 
-**4. Análisis Técnico**  
-*   **Precio de Cierre:** 4,25 EUR (13/11/2026).
-*   **Medias Móviles:** El precio cotiza por encima de su SMA20 (4,09 EUR) y SMA50 (4,08 EUR), pero ligeramente por debajo de su SMA200 (4,36 EUR), lo que denota una fase de consolidación a medio plazo.
-*   **Indicadores de Momento:** RSI de 14 sesiones en **62,85** (zona neutral-fuerte sin sobrecompra inmediata) y MACD positivo (0,048 frente a señal de 0,022).
-*   **Volatilidad y Drawdown:** La volatilidad anualizada se sitúa en el **22,19%**, con un *drawdown* actual del **-13,69%** respecto a máximos recientes.
+#### 4. Entorno Macroeconómico Global y en la Eurozona
+El análisis del contexto macroeconómico europeo publicado en la semana del 10 al 14 de noviembre de 2026 muestra señales de alerta inflacionaria y de endurecimiento de políticas:
+* **Inflación**: Los datos de inflación de la eurozona apuntan a tasas cercanas al 4%, lo que según analistas e informes publicados en medios como *El Economista* e informes de la eurozona "inhabilita moderar el alza de tipos".
+* **Tipos de Interés y Ahorro**: Se advierte sobre tipos reales negativos persistentes en la eurozona (Vozpópuli / Estrategias de Inversión), con expectativas puestas en las próximas reuniones de bancos centrales (como la Fed en diciembre).
+* **Datos faltantes**: No se dispone de datos detallados de proyecciones a plazo fijo para la curva de tipos soberanos españoles (bono a 10 años) ni la tasa de desempleo exacta del trimestre en curso dentro del snapshot automatizado.
 
-**5. Evidencia Contraría y Datos Faltantes (Limitaciones)**  
-*   **Evidencia Contraría / Riesgos:** El elevado apalancamiento (Deuda Neta/EBITDA superior a 5x) expone a la compañía a costes financieros persistentes si los tipos de interés de la eurozona se mantienen altos debido a la inflación del 4-5%. Además, el *payout* de dividendos superior al 83% limita la retención de beneficios para desapalancamiento orgánico rápido.
-*   **Datos Faltantes:** No se dispone en el conjunto de datos de los flujos de caja operativos (*Operating Cash Flow*) ni de los flujos de caja libre (*Free Cash Flow*) desagregados en los informes trimestrales recientes más allá del cierre contable anual de 2025. Tampoco se cuenta con un desglose granular actualizado de la cartera de concesiones adjudicadas en el Q3/Q4 de 2026.
+#### 5. Evidencia y Riesgos Contradictorios
+* **Contrario**: La ratio de endeudamiento neto sobre EBITDA (5,41x) sigue siendo elevada, un rasgo típico de las concesionarias de infraestructuras pero que incrementa la vulnerabilidad ante un escenario de tipos de interés altos o persistentes en la eurozona. Asimismo, la reducción del beneficio neto en 2025 (85,8M€ vs 153,2M€ en 2023) muestra presión en márgenes.
+* **A Favor**: Sólida generación de caja libre (>1.100 millones de euros en 2025), elevada preferencia por parte del consenso de analistas (potencial de subida superior al 25% hasta los 5,33 EUR) y atractivo dividendo del 4,71%.
 
 ---
 
-### Resumen Estructurado (Tabla de Puntos Clave)
-
-| Categoría | Métrica / Indicador | Valor / Detalle Principal |
+| Concepto / Métrica | Valor / Dato | Comentario Analítico |
 | :--- | :--- | :--- |
-| **Identificación** | Ticker y Empresa | `SCYR.MC` (Sacyr, S.A. - Industrials / Concesiones) |
-| **Precio y Mercado** | Cotización Actual | 4,25 EUR (Fecha: 13/11/2026) |
-| **Valoración** | Forward P/E & Target | Forward P/E: 18,10x / Precio Objetivo Consenso: 5,33 EUR (+25,39% potencial) |
-| **Solvencia / Deuda** | Apalancamiento Financiero | Deuda Neta / EBITDA: 5,41x (Deuda Total: ~9.557M EUR) |
-| **Retorno al Accionista** | Dividend Yield & Payout | Rentabilidad por dividendo: 4,71% (Payout: 83,83%) |
-| **Técnico** | SMA200 / RSI(14) / Volatilidad | SMA200: 4,36 EUR / RSI: 62,85 / Volatilidad: 22,19% |
-| **Macroeconomía** | Inflación Zona Euro / España | ~4,0% en la Eurozona y ~5,0% en España (Tipos altos sostenidos) |
+| **Ticker y Cotización** | `SCYR.MC` / 4,25 EUR | Cierre de sesión a 13 de noviembre de 2026. |
+| **Capitalización Bursátil** | ~3.379 millones EUR | Compañía de mediana-gran capitalización en el MCE. |
+| **Valoración (PER / EV-EBITDA)** | PER Fwd: 18,10x / EV-EBITDA: 8,85x | Valoración razonable frente a pares del sector de infraestructuras. |
+| **Generación de Caja (FCF 2025)**| 1.103,55 millones EUR | Sólida conversión de caja operativa a pesar del menor beneficio neto. |
+| **Deuda Neta / EBITDA** | ~5,41x | Nivel de apalancamiento elevado, condicionado por la tipología de proyectos concesionales. |
+| **Consenso de Analistas** | 5,329 EUR (Upside: +25,39%) | 10 analistas con recomendación

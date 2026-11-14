@@ -1,33 +1,41 @@
-A continuación presento el informe de análisis sobre **Aena (AENA.MC)** basado en la información financiera, técnica y de mercado disponible a fecha de 13 de noviembre de 2026.
+### Informe de Análisis: Aena S.M.E., S.A. (`AENA.MC`)
 
-### Análisis de Situación: Aena S.M.E., S.A.
+**Fecha del informe:** 14 de noviembre de 2026
 
-**1. Desempeño Operativo y Financiero**
-Aena muestra una salud financiera sólida con un crecimiento sostenido en ingresos y beneficios. En 2025, la compañía alcanzó una cifra de negocios de 6.294 millones de euros y un beneficio neto de 2.137 millones de euros. El flujo de caja libre operativo se mantiene robusto (1.728 millones de euros en 2025), permitiendo un ratio de deuda neta/EBITDA de 1,38x, lo cual es muy conservador para su sector. La rentabilidad sobre fondos propios (ROE) es destacada, situándose en el 25,79%.
+#### 1. Resumen Ejecutivo
+Aena S.M.E., S.A. se encuentra actualmente en una fase de consolidación técnica tras un año positivo. A pesar de una sólida trayectoria de crecimiento en ingresos (+11,5%) y resultados operativos, la acción cotiza cerca de niveles de sobrecompra (RSI 14 en 71,78) y muestra una ligera divergencia frente al consenso de analistas, que sitúa el precio objetivo medio en 27,48 EUR, por debajo del cierre de mercado actual de 28,78 EUR.
 
-**2. Contexto Técnico y de Mercado**
-*   **Tendencia:** El valor cotiza en 28,78 EUR, situándose por encima de sus medias móviles de 20, 50 y 200 días, lo que sugiere una tendencia alcista a medio y largo plazo.
-*   **Momento:** El indicador RSI (71,79) sugiere una condición de sobrecompra técnica, lo cual invita a la cautela a corto plazo tras un retorno del 33,88% en los últimos 252 días.
-*   **Sentimiento:** A pesar de los sólidos fundamentales, noticias recientes indican que Aena ha sido penalizada en las sesiones más recientes junto con otros valores del IBEX 35, debido probablemente a un ajuste general del mercado y a las preocupaciones inflacionarias en la zona euro.
+#### 2. Análisis Fundamental
+*   **Desempeño Financiero:** La compañía ha mostrado una mejora consistente en su EBITDA (3.897 millones de EUR en el último dato reportado) y una capacidad de generación de caja robusta (Free Cash Flow de 1.526 millones de EUR). La rentabilidad sobre fondos propios (ROE) es destacable, situándose en el 25,79%.
+*   **Valoración:** Con un PER adelantado (forward PE) de 17,64x y un ratio EV/EBITDA de 12,67x, la valoración se encuentra en línea con sus pares del sector (ratio de 0,97 respecto a la mediana del peer group).
+*   **Deuda y Dividendos:** El apalancamiento es controlado con una ratio Deuda Neta/EBITDA de 1,38x. El dividendo actual (Yield 3,79%) sigue siendo un atractivo para los inversores en un entorno de tipos de interés que permanecen bajo presión en la Eurozona.
 
-**3. Macroeconomía**
-El entorno es desafiante. La inflación en la zona euro se sitúa en el 4%, lo que, según reportes de *El Economista* (13/11/2026), invalida las expectativas de moderación en la política de tipos de interés. Esta persistencia inflacionaria presiona los costes operativos y puede afectar al poder adquisitivo de los viajeros, impactando indirectamente en el volumen de tráfico aéreo.
+#### 3. Contexto Macroeconómico
+El entorno actual en la Eurozona está marcado por la persistencia de la inflación (datos reportados en el 4%), lo que limita la capacidad del Banco Central Europeo para moderar su política de tipos. Las noticias recientes destacan que el ahorro vuelve a perder valor frente a la inflación, lo que impacta directamente en el sentimiento del inversor y en la volatilidad de sectores cíclicos como los aeropuertos, dependientes del consumo discrecional.
 
-**4. Valoración y Consenso**
-El precio medio objetivo de los analistas es de 27,48 EUR, lo que implica un potencial de retorno negativo del -4,49% respecto al precio actual. Con un PER forward de 17,65 y una rentabilidad por dividendo del 3,79%, el valor parece estar cotizando cerca de su valor razonable según el consenso del mercado.
+#### 4. Análisis de Noticias y Sentimiento
+*   **Operativo:** Aena registró 30,5 millones de pasajeros en octubre, manteniendo un tráfico vigoroso.
+*   **Mercado:** La acción ha sufrido recientemente ventas debido a la corrección general del IBEX 35 al intentar superar los 20.000 puntos, donde Aena fue identificada como uno de los valores más penalizados en la sesión del 11 de noviembre.
 
-### Resumen de hallazgos
+#### 5. Consideraciones Técnicas
+La acción presenta una tendencia alcista clara a largo plazo (por encima de las medias móviles de 50 y 200 sesiones). Sin embargo, el RSI de 71,78 indica que el activo podría enfrentar una fase de corrección o lateralización técnica a corto plazo para aliviar los excesos de compra acumulados en las últimas 52 semanas.
 
-| Factor | Análisis | Impacto |
+#### 6. Datos Faltantes
+No se dispone de proyecciones específicas de gasto de capital (CAPEX) para 2027, ni detalles granulares sobre el impacto de la reciente fluctuación de tipos de cambio en sus operaciones internacionales. Tampoco se cuenta con una estimación actualizada de la sensibilidad del tráfico aéreo ante un posible escenario de recesión prolongada en la Eurozona.
+
+---
+
+### Resumen de Puntos Clave
+
+| Indicador | Valor / Estado | Observación |
 | :--- | :--- | :--- |
-| **Fundamentos** | Crecimiento de ingresos y bajo endeudamiento | Positivo |
-| **Técnico** | RSI en sobrecompra (71,79) | Precaución |
-| **Macro** | Inflación persistente (4%) en Zona Euro | Negativo / Riesgo |
-| **Valoración** | Cotiza por encima del objetivo del consenso | Neutral |
-| **Dividendos** | Yield del 3,79% con payout del 70,32% | Positivo |
+| Precio Actual | 28,78 EUR | Por encima de la media del consenso (27,48 EUR). |
+| RSI 14 | 71,78 | Señal técnica de sobrecompra. |
+| Dividend Yield | 3,79% | Sólido retorno para el inversor. |
+| Net Debt / EBITDA | 1,38x | Apalancamiento saludable. |
+| Tendencia (SMA200) | 25,70 EUR | Tendencia estructural alcista vigente. |
+| Sentimiento | Mixto | Presión macro (inflación) vs. buenos fundamentales. |
 
-**Información faltante:** No se dispone de previsiones detalladas sobre el impacto específico de la subida de tipos de interés en el coste de la deuda a tipo variable de Aena para los próximos ejercicios, ni estimaciones sobre cómo afectaría una posible desaceleración del consumo al tráfico aéreo de largo radio.
+**Rating**: HOLD
 
-**Rating**: REVIEW
-
-FINAL TRANSACTION PROPOSAL: Mantener posición, observando la posible corrección técnica tras la señal de sobrecompra del RSI y monitoreando la política de tipos del BCE ante la inflación persistente. No se recomienda aumentar posición hasta que el precio se ajuste a la baja hacia la media de 20 días (27,48 EUR).
+FINAL TRANSACTION PROPOSAL: N/A (Investment research only, no trade execution).

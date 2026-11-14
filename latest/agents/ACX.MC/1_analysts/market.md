@@ -1,42 +1,29 @@
-Análisis detallado de **Acerinox, S.A. (ACX.MC)** con fecha de corte al 13 de noviembre de 2026.
+El análisis técnico y fundamental de **Acerinox, S.A. (ACX.MC)**, basado en la información disponible al 14 de noviembre de 2026, refleja una situación de consolidación en una tendencia bajista de corto plazo, marcada por una presión macroeconómica persistente en la zona euro.
 
-### Panorama Fundamental y Técnico
-Acerinox presenta una situación financiera compleja marcada por una presión macroeconómica significativa en la eurozona (inflación del 4% según *El Economista* del 13/11/2026). La compañía opera actualmente bajo una valoración de mercado de 3.936,7 millones de EUR con un *trailing PE* de 29,81, lo que sugiere una valoración exigente frente a unos beneficios actuales limitados.
+### Análisis Técnico
+*   **Tendencia:** El precio actual de **15,80 EUR** se sitúa por debajo de su media móvil de 50 sesiones (16,85 EUR), lo que indica una debilidad en el corto y medio plazo. Sin embargo, mantiene una posición ligeramente por encima de la media de 200 sesiones (15,34 EUR), lo que sugiere que la estructura de largo plazo aún conserva un soporte crítico.
+*   **Momentum:** El **RSI(14)** se encuentra en **43,21**, nivel que refleja una falta de convicción compradora sin llegar a zonas de sobreventa extrema, lo que indica un mercado en fase de espera. El **MACD** (-0,351) y su señal (-0,359) muestran una convergencia cercana, sugiriendo una volatilidad moderada con una ligera tendencia neutral a negativa.
+*   **Volatilidad:** La volatilidad se sitúa en **27,62%**, nivel que, combinado con una caída reciente del 14,5% desde sus máximos, exige cautela en la gestión del riesgo.
 
-**Aspectos Técnicos:**
-*   **Tendencia:** El precio de cierre de 15,80 EUR se encuentra posicionado entre su SMA20 (16,20 EUR) y su SMA200 (15,34 EUR). Esta proximidad a la media de largo plazo indica una zona crítica de soporte.
-*   **Momentum:** El RSI14 en 43,21 sugiere una debilidad moderada pero lejos de niveles de sobreventa extrema, mientras que el MACD (-0,351) y su señal (-0,359) permanecen en terreno negativo con un cruce incipiente, lo que refleja falta de impulso comprador sostenido.
-*   **Volatilidad:** La volatilidad reportada del 27,62% es considerable para un valor industrial de este sector, lo que debe ser tenido en cuenta para la gestión de riesgos.
+### Análisis Fundamental
+*   **Valoración:** La compañía cotiza a un **Forward PE de 10,22x**, lo cual es significativamente inferior a su **Trailing PE de 29,81x**, sugiriendo que el mercado descuenta una recuperación en los beneficios para los próximos periodos. 
+*   **Solvencia y Eficiencia:** El ratio de **Deuda Neta/EBITDA de 3,15x** y un flujo de caja libre negativo (-155,27 M EUR) en el último cierre fiscal son puntos de atención críticos. La rentabilidad por dividendo (**3,92%**) es atractiva, pero el **payout ratio de 1,44x** es elevado, lo que podría poner en duda la sostenibilidad del dividendo si no se mejora la generación de caja operativa (183,49 M EUR).
+*   **Contexto Macroeconómico:** Los titulares recientes sobre la inflación en la zona euro (4%) y la rigidez en la política monetaria sugieren un entorno de costes elevados que impacta directamente en el sector siderúrgico, presionando los márgenes operativos de ACX.MC.
 
-**Aspectos Financieros:**
-*   **Rentabilidad y Deuda:** El ratio *net debt/EBITDA* de 3,15 es un punto de atención importante, especialmente en un entorno de tipos de interés que no permiten una moderación fácil por parte del BCE. La generación de flujo de caja libre es negativa (-155,27 millones de EUR en el ejercicio reportado), lo cual es una señal de alerta operativa.
-*   **Dividendo:** Con una rentabilidad por dividendo del 3,89% y un ratio de *payout* de 1,44, la sostenibilidad del dividendo parece tensionada por los niveles actuales de beneficios.
-
-### Análisis de Indicadores Estratégicos Seleccionados
-Para un seguimiento riguroso, se destacan los siguientes indicadores por su utilidad complementaria:
-
-1.  **close_200_sma**: Define el suelo estructural de la acción en 15,34 EUR. Su pérdida sería una señal de deterioro bajista a largo plazo.
-2.  **close_50_sma**: Actúa como resistencia dinámica inmediata en 16,85 EUR.
-3.  **rsi**: Fundamental para identificar niveles de entrada en momentos de pánico o exuberancia irracional.
-4.  **macd / macds / macdh**: El conjunto ofrece una lectura clara de si el impulso bajista actual está perdiendo fuerza.
-5.  **atr**: Crucial en el contexto de ACX.MC para ajustar *stop-losses* dada su volatilidad actual.
-6.  **vwma**: Permite confirmar si las caídas recientes han tenido respaldo en el volumen, lo que validaría o no la intensidad del movimiento vendedor.
-
-### Conclusión y Observaciones
-La empresa muestra una divergencia entre su *forward PE* (10,22), que proyecta una recuperación, y su realidad operativa inmediata de flujo de caja negativo. La alta inflación en la eurozona añade vientos en contra para el sector industrial, que sufre el encarecimiento de insumos y la posible ralentización de la demanda. Falta información sobre la evolución del apalancamiento en el último trimestre de 2026 para confirmar si la estrategia de desendeudamiento sigue su curso.
+### Resumen de hallazgos
+La evidencia disponible muestra un activo bajo presión técnica y con fundamentales que requieren una mejora en la rentabilidad operativa. La proximidad de la media móvil de 200 días es el nivel clave a vigilar; una ruptura a la baja podría invalidar la tendencia alcista de largo plazo.
 
 **Rating**: HOLD
 
-FINAL TRANSACTION PROPOSAL: No realizar nuevas posiciones hasta la confirmación de una consolidación por encima de la media de 50 sesiones (16,85 EUR) o un apoyo testeado con éxito en la media de 200 sesiones (15,34 EUR).
-
-| Indicador | Valor / Referencia | Interpretación |
+| Indicador / Métrica | Valor | Interpretación |
 | :--- | :--- | :--- |
-| Precio Actual | 15,80 EUR | Debajo de SMA20, sobre SMA200 |
-| SMA 200 | 15,34 EUR | Soporte crítico a largo plazo |
-| SMA 50 | 16,85 EUR | Resistencia técnica inmediata |
-| RSI 14 | 43,21 | Zona neutral-bajista |
-| Net Debt/EBITDA | 3,15 | Apalancamiento elevado |
-| Dividend Yield | 3,89% | Sostenibilidad cuestionable vía Payout |
-| Volatilidad | 27,62% | Riesgo elevado de oscilación |
+| Precio Actual | 15,80 EUR | Por debajo de SMA50 (16,85) |
+| RSI(14) | 43,21 | Neutral (sin tendencia clara) |
+| Forward PE | 10,22x | Valoración atractiva respecto al histórico |
+| Dividend Yield | 3,92% | Atractivo, pero requiere vigilancia del Payout |
+| Net Debt/EBITDA | 3,15x | Nivel de apalancamiento moderado-alto |
+| Tendencia 252 días | +45,87% | Rendimiento positivo acumulado anual |
 
-*Nota: La información ha sido extraída de los datos proporcionados con fecha 2026-11-13. Se recomienda consultar los informes trimestrales más recientes para actualizar las cifras de deuda y flujo de caja.*
+FINAL TRANSACTION PROPOSAL: Mantener posición, monitoreando el soporte en la media de 200 sesiones (15,34 EUR) y la sostenibilidad del flujo de caja. No se recomienda incrementar exposición hasta observar una mejora en la generación de caja libre.
+
+*Nota: Datos extraídos del snapshot de mercado al 2026-11-14. Falta información detallada sobre el desglose de costes energéticos específicos del trimestre en curso. Referencias: Yahoo Finance, Estrategias de Inversión (2026-11-11).*

@@ -1,36 +1,28 @@
-Análisis detallado de **MRL.MC** (MERLIN Properties SOCIMI, S.A.) con fecha de corte al 13 de noviembre de 2026.
-
-### Panorama Fundamental y Situación de Mercado
-MERLIN Properties se encuentra en una encrucijada técnica y operativa. A pesar de que los resultados del tercer trimestre de 2026 superaron las previsiones de ingresos (*Investing.com*, 2026-11-13), la acción cotiza a 11,70 EUR, lo que representa un *drawdown* del 25,7% respecto a niveles superiores.
-
-La tesis de inversión se ve nublada por un conflicto regulatorio significativo: el CEO de la compañía ha criticado duramente el decreto sobre centros de datos (*OkDiario*, 2026-11-13), estimando costes adicionales de hasta 863 millones de euros (*El Boletín*, 2026-11-13). Este factor de incertidumbre política/regulatoria está pesando más en el sentimiento del mercado que el desempeño operativo subyacente.
+El análisis de **MERLIN Properties SOCIMI, S.A. (`MRL.MC`)** revela una situación compleja donde los fundamentales operativos positivos chocan con una incertidumbre regulatoria significativa, lo que se refleja en una presión vendedora constante.
 
 ### Análisis Técnico
-*   **Tendencia:** La acción se sitúa por debajo de su media móvil de 50 sesiones (12,03 EUR) y significativamente por debajo de la de 200 sesiones (13,90 EUR), lo que confirma una estructura de mercado bajista a largo plazo.
-*   **Momento:** El RSI (14) en 48,05 indica una zona neutral, sugiriendo que la presión vendedora se ha estabilizado tras el retroceso, pero carece de fuerza alcista para cambiar la tendencia.
-*   **Volatilidad:** Con una volatilidad del 26,13%, el activo presenta un riesgo operativo considerable. El MACD (-0,08) está por debajo de su señal (-0,16), pero con una trayectoria que intenta estrechar el diferencial, lo que podría interpretarse como una pausa en el impulso bajista a corto plazo.
+A fecha de 13 de noviembre de 2026, el precio de `MRL.MC` cerró en **11,70 EUR**, mostrando una tendencia bajista a largo plazo. 
+*   **Medias Móviles:** El precio se encuentra por debajo tanto de la SMA50 (12,03 EUR) como de la SMA200 (13,90 EUR), lo que confirma una estructura de mercado bajista. La proximidad a la SMA20 (11,56 EUR) sugiere una consolidación técnica a corto plazo, pero con una presión a la baja persistente.
+*   **Momentum:** El RSI14 (48,05) indica una zona neutral, sin señales claras de sobreventa o sobrecompra, lo que refleja un mercado cauteloso. El cruce alcista reciente del MACD (-0,083) sobre su línea de señal (-0,159) sugiere un leve intento de estabilización, aunque el sesgo general permanece negativo.
+*   **Volatilidad:** Con una volatilidad del 26,13% y un *drawdown* del 25,71%, el activo presenta un perfil de riesgo elevado.
 
-### Valoración y Dividendos
-*   **Valuación:** El *Price-to-Book* de 0,78 indica que la acción cotiza con un descuento respecto a su valor contable (14,99 EUR).
-*   **Dividendo:** Se ha confirmado el pago de un dividendo de 0,20 EUR para el 10 de diciembre de 2026, lo cual representa una rentabilidad (*dividend yield*) del 1,88%, ofreciendo un atractivo defensivo frente a la volatilidad actual.
-
-### Factores a Considerar
-*   **A favor:** Resultados operativos Q3 sólidos; descuento significativo sobre valor contable; política de dividendos activa.
-*   **En contra:** Elevado riesgo regulatorio (decreto *data centers*); deuda total de 5.181 millones de euros (frente a una capitalización de 7.244 millones); entorno macroeconómico con inflación persistente en la zona euro (4%) que limita el margen de maniobra de los tipos de interés.
+### Análisis Fundamental y Entorno Operativo
+*   **Resultados Financieros:** A pesar de los recientes informes que indican que los ingresos del 3T 2026 superaron las previsiones, la acción no ha logrado capitalizar esta noticia debido a riesgos externos. La empresa mantiene una sólida generación de *Free Cash Flow* (405,03 millones EUR en 2025) y una mejora constante en ingresos (538,96 millones EUR en 2025).
+*   **Riesgo Regulatorio:** El factor dominante es el conflicto con el Gobierno respecto al decreto de centros de datos. La empresa ha advertido sobre un coste extra estimado de **863 millones EUR** derivado de esta regulación (fuente: *El Boletín*, 13/11/2026). Esta carga financiera potencial ha nublado el optimismo por los resultados trimestrales.
+*   **Valoración:** Con un *Forward PE* de 20,85 frente a un *Trailing PE* de 8,07, el mercado anticipa una contracción significativa en las ganancias futuras, probablemente incorporando el impacto del mencionado decreto en el valor contable y los flujos futuros. El precio objetivo medio de los analistas es de **17,01 EUR**, lo que sugiere un potencial alcista teórico del 45,41%, aunque condicionado a la resolución del litigio.
 
 ### Conclusión
-El mercado está descontando el riesgo regulatorio por encima de los fundamentales. Hasta que no se clarifique el impacto financiero del decreto de *data centers*, la acción probablemente oscilará en un rango lateral entre los 11,00 y 12,50 EUR. Se recomienda cautela, considerando el *target price* medio de los analistas (17,01 EUR) como un objetivo optimista que depende de la resolución de la incertidumbre actual.
-
-**Rating**: Neutral
+`MRL.MC` se encuentra en una situación de "esperar y ver". Mientras que el valor fundamental subyacente y la calidad de los activos son sólidos, la incertidumbre sobre el impacto financiero del decreto de los centros de datos actúa como un techo para la cotización. La falta de claridad regulatoria impide un cambio de tendencia técnica sostenible a pesar del aparente valor relativo frente a la media del mercado.
 
 | Indicador | Valor / Estado | Interpretación |
 | :--- | :--- | :--- |
-| Precio Actual | 11,70 EUR | Por debajo de medias clave (SMA50/200) |
-| RSI (14) | 48,05 | Zona neutral, sin sesgo claro |
-| P/B Ratio | 0,78 | Descuento sobre valor contable |
-| Dividend Yield | 1,88% | Retribución al accionista confirmada |
-| Riesgo Principal | Regulatorio | Incertidumbre decreto *Data Centers* |
+| Precio Cierre | 11,70 EUR | Bajista respecto a SMA50/200 |
+| RSI (14) | 48,05 | Neutral |
+| MACD | -0,083 | Señal de estabilización débil |
+| Tendencia (SMA200) | 13,90 EUR | Resistencia estructural clave |
+| Upside Consenso | 45,41% | Potencial alto, riesgo elevado |
+| Yield (Dividendo) | 1,88% | Moderado |
 
-FINAL TRANSACTION PROPOSAL: Hold
+**Rating**: HOLD
 
-*Nota: La información se basa exclusivamente en los datos proporcionados con fecha 2026-11-13. No se dispone de datos sobre el ratio neto de deuda/EBITDA. Cualquier decisión de inversión debe considerar el impacto del decreto mencionado en las futuras cuentas de resultados.*
+FINAL TRANSACTION PROPOSAL: Mantener posiciones actuales hasta obtener mayor claridad regulatoria sobre el decreto de centros de datos; evitar nuevas entradas tácticas hasta que el precio supere con volumen la SMA50 (12,03 EUR).

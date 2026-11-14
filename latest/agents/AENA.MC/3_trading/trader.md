@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La acción AENA.MC presenta fundamentales sólidos, incluyendo un ROE del 25,79% y un balance robusto, pero se encuentra técnicamente sobrecomprada con un RSI de 71,79. El precio de mercado actual de 28,78 EUR supera el objetivo de consenso de 27,49 EUR, lo que sugiere una valoración estirada y riesgo de corrección a corto plazo ante la persistencia inflacionaria en la eurozona.
+**Reasoning**: AENA.MC muestra fortaleza operativa y fundamentales sólidos, pero el RSI de 71.79 y el precio cotizando por encima del consenso de los analistas sugieren una sobrecompra técnica significativa. La presión inflacionaria en la zona euro y el hecho de que el activo ha superado sus medias móviles clave requiere esperar una consolidación saludable hacia niveles de soporte más atractivos antes de incrementar exposición.
 
-**Entry Price**: not provided
+**Entry Price**: 26.5
 
-**Stop Loss**: 25.7
+**Stop Loss**: 25.0
 
-**Position Sizing**: Mantener posición actual
+**Position Sizing**: 50% de la asignación estándar
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

@@ -1,59 +1,52 @@
-**Rating**: REVIEW
-
-**FINAL TRANSACTION PROPOSAL**: HOLD
+**Rating**: HOLD  
+FINAL TRANSACTION PROPOSAL: Mantener posición sin ejecutar nuevas operaciones de compraventa a la espera de mayor claridad en los fundamentales de la compañía y la evolución del mercado de deuda.
 
 ---
 
 ### Informe Fundamental Integral: Enagás, S.A. (`ENG.MC`)
 
-#### 1. Perfil de la Compañía y Negocio
-* **Ticker:** `ENG.MC` (Bolsa de Madrid, cotización en EUR, referenciado al índice bursátil de referencia `^IBEX`).
-* **Identidad Resuelta:** Enagás, S.A., clasificada dentro del sector de *Utilities* (Servicios Públicos) y subindustria *Utilities - Regulated Gas* (Gas Regulado).
-* **Descripción del Negocio:** Enagás es el principal gestor técnico del sistema gasista en España y transportista de gas natural, operando bajo un marco regulado. Adicionalmente, mantiene inversiones estratégicas internacionales en infraestructuras de gas (como Teréga en Francia) y busca posicionarse en la transición energética hacia gases renovables e hidrógeno verde.
+#### 1. Perfil de la Compañía y Negocio Principal
+**Enagás, S.A.** (`ENG.MC`) es el principal gestor técnico del sistema gasista en España y transportista de gas natural, clasificado dentro del sector de **Utilities (Utilities - Regulated Gas)** y cotizando en la Bolsa de Madrid (`MCE`) formando parte del selectivo **^IBEX**. Su negocio se fundamenta en infraestructuras reguladas de transporte y almacenamiento de gas, con una creciente apuesta por la transición energética y los vectores verdes (hidrógeno y gases renovables).
 
-#### 2. Análisis Financiero y de Resultados (Historial y Estados Financieros)
-Basado en los datos y estados financieros provistos de la compañía (cifras en EUR):
+#### 2. Eventos Recientes y Noticias Relevantes (Noviembre de 2026)
+Durante la semana del 9 al 14 de noviembre de 2026, se han producido noticias corporativas clave para la compañía:
+* **Ampliación en Teréga:** Enagás ha reforzado su posición en la francesa Teréga mediante la adquisición a EDF de un 18% adicional, elevando su participación total al **49,5%** por un importe de **311 millones de euros** (noticia publicada el 13 de noviembre de 2026 por *Bolsamania* y *CapitalMadrid*). Esta operación consolida su presencia en el mercado regulado francés de gas, aunque incrementa temporalmente la presión sobre su estructura de capital.
+* **Presión Bajista:** Diversos medios financieros (*Estrategias de Inversión*, *El Boletín*, *CapitalMadrid* entre el 8 y el 9 de noviembre de 2026) señalan que `ENG.MC`, junto con Solaria, se encuentra entre los valores del Ibex 35 con mayor presión por parte de posiciones bajistas (cortos).
 
-* **Ingresos Totales (Revenue):**
-  * Ejercicio 2023: 907.570.000 €
-  * Ejercicio 2024: 905.546.000 €
-  * Ejercicio 2025: 960.401.000 € (Se observa una recuperación en el último ejercicio reportado, aunque con un decrecimiento interanual de ingresos reportado en métricas de -9,1% global en los ratios de eficiencia).
-* **EBITDA:**
-  * Ejercicio 2023: 810.839.000 €
-  * Ejercicio 2024: 80.654.000 € (fuerte caída transitoria en el ejercicio 2024 debido a minusvalías/provisiones o reestructuraciones de activos)
-  * Ejercicio 2025: 762.752.000 € (recuperación operativa significativa). El EBITDA actual del snapshot se sitúa en 425.716.992 €.
-* **Resultado Neto (Net Income):**
-  * Ejercicio 2023: 342.528.000 €
-  * Ejercicio 2024: -299.309.000 € (pérdidas netas sustanciales en 2024)
-  * Ejercicio 2025: 339.112.000 € (retorno a la rentabilidad positiva neta).
-* **Balance General:**
-  * **Activos Totales:** 8.507.270.000 € (2023) $\rightarrow$ 7.495.935.000 € (2024) $\rightarrow$ 6.823.437.000 € (2025). Muestra una tendencia a la reducción del tamaño del balance (desinversiones/optimización de activos).
-  * **Deuda Total:** 3.806.161.000 € (2023) $\rightarrow$ 3.313.728.000 € (2024) $\rightarrow$ 2.822.888.000 € (2025, con una deuda total en snapshot actual de 3.155.800.064 € frente a un efectivo de 537.299.968 €).
-  * **Ratio de Apalancamiento:** Deuda Neta / EBITDA de **6,15x**, un nivel de endeudamiento elevado que exige estricta vigilancia sobre la generación de caja.
-  * **Patrimonio Neto (Stockholders Equity):** 2.301.108.000 € al cierre de 2025 (Valor contable por acción de 9,14 EUR; ratio Precio/Valor en Libros de 2,01x).
-* **Flujo de Caja (Cash Flow):**
-  * **Flujo de Caja Operativo:** 568.839.000 € (2023) $\rightarrow$ 454.992.000 € (2024) $\rightarrow$ 212.542.000 € (2025).
-  * **CapEx (Inversiones de Capital):** -156.967.000 € (2023) $\rightarrow$ -97.892.000 € (2024) $\rightarrow$ -118.122.000 € (2025).
-  * **Flujo de Caja Libre (FCF):** 411.872.000 € (2023) $\rightarrow$ 357.100.000 € (2024) $\rightarrow$ 94.420.000 € (2025). La contracción reciente del FCF limita la cobertura orgánica total de los dividendos sin recurrir a optimización de balance o endeudamiento adicional.
+#### 3. Análisis Financiero e Historial
+* **Capitalización de Mercado:** 4.789,48 millones de euros.
+* **Ingresos y Resultados:** En el ejercicio cerrado a 31 de diciembre de 2025, Enagás registró unos ingresos totales de **960,40 millones de euros** (frente a los 905,55 millones de 2024 y 907,57 millones de 2023). El beneficio neto de 2025 se situó en **339,11 millones de euros**, recuperándose de las pérdidas de -299,31 millones de 2024 y en línea con los 342,53 millones de 2023. El EBITDA de 2025 alcanzó los **762,75 millones de euros**.
+* **Balance y Deuda:** La deuda total de la compañía al cierre de 2025 se sitúa en **2.822,89 millones de euros** (reduciéndose desde los 3.313,73 millones de 2024 y 3.806,16 millones de 2023). El ratio de Deuda Neta / EBITDA se sitúa en **6,15x**, lo que refleja un apalancamiento todavía elevado pese a las reducciones interanuales. El patrimonio neto (*Stockholders Equity*) es de **2.301,11 millones de euros** (total de activos: 6.823,44 millones de euros).
+* **Flujos de Caja:** En 2025, el flujo de caja operativo descendió a **212,54 millones de euros** (desde los 454,99 millones de 2024), con unas inversiones de capital (*CapEx*) de -118,12 millones, resultando en un flujo de caja libre (*Free Cash Flow*) de **94,42 millones de euros**.
 
-#### 3. Valoración y Datos de Mercado
-* **Precio de Cotización Actual:** 18,40 EUR (al 2026-11-13).
-* **Capitalización Bursátil:** ~4.789.483.520 EUR.
-* **Múltiplos de Valoración:**
-  * **Trailing P/E:** 13,53x
-  * **Forward P/E:** 16,26x
-  * **EV/EBITDA:** 17,30x
-  * **Valoración Relativa:** Ratio de PER relativo intermedio frente a peers del sector de utilities españolas (ratio 0,96 sobre la mediana sectorial de peers como `ANE.MC`, `ELE.MC`, `IBE.MC`, `NTGY.MC`, `RED.MC`, `SLR.MC`).
-* **Dividendos:**
-  * Ofrece una atractiva **rentabilidad por dividendo (*Dividend Yield*) de aproximadamente 5,43% - 5,5%**, con un dividendo anual por acción de 1,00 EUR y un *payout ratio* de 79,96%.
-* **Consenso de Analistas:**
-  * Precio objetivo medio (*Target Mean Price*): 17,18 EUR (con un rango entre un mínimo de 13,00 EUR y un máximo de 19,80 EUR, basado en 20 opiniones de analistas). Esto implica un potencial de retorno nominal de **-6,62%** respecto al precio actual de 18,40 EUR.
+#### 4. Valoración y Datos Bursátiles
+* **Precio de Cotización:** 18,40 EUR (cierre a 13 de noviembre de 2026).
+* **Múltiplos de Valoración:** PER histórico (*trailing*) de **13,53x**, PER estimado a futuro (*forward*) de **16,26x**, y una ratio Precio/Valor en Libros (*Price-to-Book*) de **2,01x**. La ratio EV/EBITDA se sitúa en **17,44x**.
+* **Política de Dividendos:** Ofrece una rentabilidad por dividendo (*dividend yield*) atractiva del **5,43%**, con un dividendo por acción de **1,00 EUR** y un ratio de pago (*payout ratio*) del **79,96%**.
+* **Consenso de Analistas:** El precio objetivo medio de consenso se sitúa en **17,29 EUR** (con un rango entre 13,00 EUR y 19,80 EUR según 19 analistas), lo que implica una ganancia/pérdida potencial (*consensus upside*) de **-6,02%** respecto al precio actual de 18,40 EUR.
+* **Indicadores Técnicos:** Cotiza con un RSI(14) en **79,01** (zona de sobrecompra técnica), un MACD positivo de **0,33** (señal: 0,29) y medias móviles alcistas (SMA20: 17,67 EUR, SMA50: 17,01 EUR, SMA200: 16,33 EUR). La rentabilidad a 21 sesiones es del **10,38%** y a 252 sesiones del **39,87%**.
 
-#### 4. Análisis Técnico y Contexto Reciente (Noviembre de 2026)
-* **Indicadores Técnicos:**
-  * RSI (14): 79,01 (situado en zona de **sobrecompra** técnica clara).
-  * MACD: 0,33 (por encima de su línea de señal 0,29, denotando impulso alcista a corto plazo).
-  * Las medias móviles reflejan tendencia alcista de fondo: el precio cotiza por encima de la SMA20 (17,67 EUR), SMA50 (17,01 EUR) y SMA200 (16,33 EUR).
-  * Rentabilidad a 21 sesiones: +10,38%; rentabilidad a 252 sesiones: +39,87%.
-* **Noticias y Eventos Recientes (Noviembre 2026):**
-  * **Expansión Internacional:** Enagás ha
+#### 5. Datos Faltantes
+No se dispone en el dataset de detalle granular sobre el desglose de costes operativos individuales de las filiales internacionales no consolidadas por integración global, ni del detalle nominal exacto de las carteras de los fondos bajistas institucionales más allá de las menciones genéricas en prensa.
+
+---
+
+### Resumen Estructurado (Tabla Resumen)
+
+| Concepto Clave | Valor / Dato |
+| :--- | :--- |
+| **Ticker** | `ENG.MC` (Enagás, S.A.) |
+| **Bolsa / Sector** | MCE (Madrid) / Utilities - Regulated Gas |
+| **Precio de Cierre (13/11/2026)** | 18,40 EUR |
+| **Capitalización Bursátil** | 4.789,48 millones de EUR |
+| **Ingresos Totales (2025)** | 960,40 millones de EUR |
+| **Beneficio Neto (2025)** | 339,11 millones de EUR |
+| **Deuda Total (2025)** | 2.822,89 millones de EUR |
+| **EBITDA (2025)** | 762,75 millones de EUR |
+| **Free Cash Flow (2025)** | 94,42 millones de EUR |
+| **Rentabilidad por Dividendo** | 5,43% (1,00 EUR por acción) |
+| **PER / Forward PER** | 13,53x / 16,26x |
+| **Precio Objetivo Consenso** | 17,29 EUR (Upside: -6,02%) |
+| **Indicadores Técnicos (RSI / SMA200)** | RSI(14): 79,01 (Sobrecompra) / SMA200: 16,33 EUR |
+| **Hito Reciente** | Adquisición adicional del 18% en Teréga por 311M€ (Nov 2026) |
+| **Rating** | HOLD |

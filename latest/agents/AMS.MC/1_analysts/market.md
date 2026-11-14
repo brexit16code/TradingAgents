@@ -1,57 +1,53 @@
 **Rating**: HOLD  
-FINAL TRANSACTION PROPOSAL: Mantener posición actual con cobertura y gestión de riesgo, evitando compras apalancadas en niveles de sobrecompra a corto plazo y a la espera de confirmación de soporte estructural.
+FINAL TRANSACTION PROPOSAL: Neutral posture with a focus on risk management given the strong short-term rally and approaching consensus target price.
 
 ---
 
-### Análisis detallado y nuando de tendencias para Amadeus IT Group, S.A. (`AMS.MC`)
+### Informe de Análisis Financiero y Técnico: Amadeus IT Group, S.A. (`AMS.MC`)
 
-#### 1. Contexto de Mercado y Datos de Referencia (Basado en Evidencia Verificada)
-El instrumento analizado es **Amadeus IT Group, S.A. (`AMS.MC`)**, cotizado en la bolsa de Madrid (MCE) en Euros (EUR), perteneciente al sector de Tecnología / Servicios de Tecnologías de la Información. 
-* **Fecha de valoración y precio de cierre:** 13 de noviembre de 2026. El precio de cierre registrado es de **62.16 EUR** (`62.15999984741211`), con una variación diaria marginal de `-0.064%`.
-* **Rendimiento reciente:** El valor muestra un fuerte impulso a corto y medio plazo, registrando un retorno a 21 sesiones de **+15.75%** y a 63 sesiones de **+10.02%**, superando al índice de referencia (`^IBEX`) con un diferencial de `+9.59` puntos porcentuales a 63 sesiones. No obstante, el retorno a 252 sesiones se mantiene más plano en **+2.62%**.
-* **Indicadores Técnicos clave en la instantánea:**
-  * **RSI (14):** `73.83`, situándose en la zona de sobrecompra (>70), lo que advierte sobre una posible fatiga alcista a corto plazo aunque refleje fortaleza tendencial.
-  * **MACD y Señal:** MACD en `1.98` y línea de señal en `1.59`, con histograma positivo, confirmando la continuidad del sesgo alcista de fondo.
-  * **Medias Móviles:** Las medias simples muestran una alineación alcista clara: SMA20 en `58.58 EUR`, SMA50 en `55.67 EUR` y SMA200 en `52.46 EUR`, con el precio cotizando holgadamente por encima de todas ellas.
-  * **Volatilidad y Drawdown:** Volatilidad del período analizado del `25.08%` y un *drawdown* actual limitado a `-2.04%`.
+#### 1. Contexto de Mercado y Datos Fundamentales
+Amadeus IT Group, S.A. (`AMS.MC`) cotiza en la Bolsa de Madrid dentro del sector tecnológico (servicios de tecnología de la información), con una capitalización bursátil de aproximadamente 26.110 millones de euros a fecha de cierre de noviembre de 2026. 
 
-#### 2. Fundamentos Financieros y Valoración
-* **Capitalización Bursátil:** ~26.110 millones de EUR.
-* **Métricas de Valoración:** P/E *Trailing* de `19.99` y P/E *Forward* de `15.98`, apoyado por un BPA *trailing* de `3.11 EUR` y un BPA estimado *forward* de `3.89 EUR`.
-* **Crecimiento y Rentabilidad:** Crecimiento de ingresos del `6.4%` y de beneficios del `9.8%`. Destaca un sólido **Return on Equity (ROE)** del `26.44%` y márgenes de beneficio neto robustos del `19.86%`.
-* **Estructura de Deuda y Caja:** Deuda total de `3.500` millones de EUR frente a una caja de `913` millones de EUR. El ratio de Deuda Neta sobre EBITDA se sitúa en un conservador `1.03x`. El flujo de caja libre (*free cash flow*) asciende a aproximadamente `1.106` millones de EUR.
-* **Consenso de Analistas:** El precio objetivo medio (*target mean price*) se sitúa en **71.04 EUR** (con un rango entre 53.00 EUR y 82.00 EUR basado en 22 opiniones de analistas), lo que implica un potencial alcista de consenso (*consensus upside*) del **14.28%**. La rentabilidad por dividendo (*dividend yield*) es del **2.48%**.
-
-#### 3. Entorno Macroeconómico e Incidencias Recientes
-El contexto macroeconómico europeo sigue marcado por tensiones inflacionarias y tipos de interés restrictivos. Conforme a los titulares recientes del mercado:
-* *El Economista* (13-11-2026): "La inflación de la zona euro en el 4% inhabilita moderar el alza de tipos".
-* *Estrategias de Inversión* (13-11-2026): "Tipos reales negativos: el ahorro vuelve a perder en la eurozona".
-Este trasfondo macro exige cautela en activos de crecimiento (Technology), ya que unos tipos de interés elevados penalizan las valoraciones a largo plazo, a pesar de que el negocio transaccional y de reservas de Amadeus muestra resiliencia operativa y generación de caja.
-
-#### 4. Selección Óptima de Indicadores Técnicos
-Siguiendo las directrices operativas y evitando redundancias, los 7 indicadores seleccionados para el seguimiento y gestión de `AMS.MC` son:
-1. `close_50_sma`: Para identificar la dirección de la tendencia a medio plazo y actuar como soporte dinámico clave.
-2. `close_200_sma`: Como referencia de largo plazo para confirmar la estructura alcista general.
-3. `close_10_ema`: Para capturar giros rápidos de impulso en el corto plazo.
-4. `macd`: Para evaluar la divergencia/convergencia del impulso y sus cruces de línea.
-5. `rsi`: Para vigilar el nivel de sobrecompra actual (`73.83`) en busca de posibles correcciones técnicas o divergencias de giro.
-6. `atr`: Herramienta indispensable para calcular niveles de *stop-loss* y dimensionar posiciones ante la volatilidad del `25.08%`.
-7. `vwma`: Para contrastar la validez de los movimientos de precio recientes integrando el volumen de negociación.
-
-#### 5. Datos Faltantes y Advertencias
-* No se dispone de un desglose detallado diario de volúmenes intradía en el snapshot estático. 
-* Los analistas proporcionan estimaciones de precio objetivo consensuadas, las cuales no constituyen valoraciones intrínsecas directas.
-* Se debe respetar estrictamente la condición de que este análisis es de carácter puramente informativo y de investigación independiente, sin suponer la ejecución real de ninguna orden u operación financiera.
+* **Precio de Cierre Actual**: 62,16 EUR (con fecha de precio 2026-11-13).
+* **Valoración y Ratios**: La compañía presenta un *trailing P/E* de 19,99 y un *forward P/E* de 15,99. Su ratio Precio/Valor en Libros (*priceToBook*) se sitúa en 5,24, mientras que el EV/EBITDA se sitúa en 11,44. 
+* **Crecimiento y Rentabilidad**: Los estados financieros muestran una evolución positiva de los ingresos, pasando de 5.441,2 millones de euros en 2023 a 6.517 millones de euros en el ejercicio cerrado de 2025. El beneficio neto correspondiente a 2025 alcanzó los 1.335,7 millones de euros (frente a los 1.253 millones de 2024). Destaca una sólida rentabilidad sobre el capital (*Return on Equity* / ROE) del 26,44% y márgenes de beneficio neto de aproximadamente el 19,86%.
+* **Deuda y Solvencia**: La deuda total asciende a 3.500,4 millones de euros (con una deuda neta sobre EBITDA de 1,03x a partir de una caja total de 913,1 millones de euros), lo que refleja una estructura de capital equilibrada y manejable.
+* **Política de Dividendos**: Ofrece una rentabilidad por dividendo (*dividend yield*) del 2,48% con un *payout ratio* moderado del 49,52%.
+* **Consenso de Analistas**: El precio objetivo medio de consenso (*targetMeanPrice*) se sitúa en 71,04 EUR (con un rango entre 53,0 EUR y 82,0 EUR basado en 22 opiniones de analistas), lo que otorga un potencial alcista de consenso (*consensus_upside_pct*) del 14,28%.
 
 ---
 
-### Resumen Estructurado (Tabla Clave)
+#### 2. Análisis Técnico e Indicadores Seleccionados
+El análisis técnico basado en los datos proporcionados para `AMS.MC` revela un fuerte impulso alcista a corto plazo, situando al valor en zonas de posible sobrecompra técnica, pero respaldado por una tendencia alcista estructural sólida a medio y largo plazo.
 
-| Componente de Análisis | Métrica / Evidencia Clave | Implicación Operativa |
-| :--- | :--- | :--- |
-| **Precio de Cierre (`AMS.MC`)** | 62.16 EUR (13-11-2026) | Consolidación en máximos recientes, con rentabilidad a 21 sesiones de +15.75%. |
-| **Indicador RSI (14)** | 73.83 (Zona de sobrecompra) | Señal de alerta a corto plazo; recomienda no perseguir compras agresivas en este nivel. |
-| **Medias Móviles (SMA 20 / 50 / 200)** | SMA20: 58.58 EUR / SMA50: 55.67 EUR / SMA200: 52.46 EUR | Estructura de tendencia alcista primaria perfectamente alineada. |
-| **Valoración Fundamental** | P/E Forward: 15.98x / FCF: ~1,106M EUR | Valoración razonable respaldada por un ROE del 26.44% y márgenes netos del 19.86%. |
-| **Consenso de Analistas** | Target Mean Price: 71.04 EUR (+14.28% upside) | Potencial alcista moderado según el consenso de mercado (22 analistas). |
-| **Entorno Macroecon
+* **Media Móvil de 50 sesiones (`close_50_sma`)**: 55,67 EUR. El precio actual (62,16 EUR) se encuentra significativamente por encima, confirmando la salud de la tendencia a medio plazo.
+* **Media Móvil de 200 sesiones (`close_200_sma`)**: 52,46 EUR. Configura el soporte estructural de largo plazo. La distancia porcentual positiva confirma que Amadeus mantiene un ciclo alcista sostenido.
+* **MACD (`macd`) y Línea de Señal (`macds`)**: El valor del MACD es de 1,98 frente a una señal de 1,59. Esta configuración positiva indica que el impulso alcista sigue vigente, aunque requiere supervisión ante una posible ralentización del ritmo de crecimiento del indicador.
+* **Índice de Fuerza Relativa (RSI de 14 períodos - `rsi`)**: Se sitúa en 73,83. Al superar el umbral clave de 70, advierte de condiciones de **sobrecompra a corto plazo**. Si bien en tendencias alcistas fuertes el RSI puede permanecer en niveles elevados durante periodos prolongados, aconseja prudencia y desaconseja nuevas entradas masivas sin un retroceso previo o consolidación.
+* **Volatilidad y Amplitud (ATR - `atr`)**: La volatilidad porcentual anualizada se sitúa en el 25,08%, lo que exige dimensionar adecuadamente las posiciones y establecer niveles de *stop-loss* dinámicos acordes a esta horquilla de oscilación.
+* **Desviación y Retroceso**: El valor registra una rentabilidad a 21 sesiones del 15,75% y del 10,02% a 63 sesiones, con un *drawdown* actual muy limitado del -2,04%.
+
+---
+
+#### 3. Factores Macroeconómicos y Noticias Relevantes
+El contexto macroeconómico europeo actual está condicionado por la persistencia de presiones inflacionistas en la eurozona (con tasas en torno al 4% hacia noviembre de 2026), lo que limita las expectativas de bajadas rápidas de tipos de interés y mantiene un entorno de tipos reales ajustados. A pesar de este panorama macroeconómico complejo, el IBEX 35 ha mostrado resiliencia recuperando cotas clave (como los 20.000 puntos a mediados de noviembre de 2026), lo que proporciona un trasfondo favorable para valores de alta capitalización y perfil tecnológico como Amadeus.
+
+---
+
+#### 4. Conclusión e Insights Accionables
+1. **Para Inversores de Corto Plazo / Trading**: El RSI en 73,83 sugiere precaución ante posibles correcciones técnicas o fases de consolidación de beneficios tras el rally reciente (+15,75% en un mes). No se recomienda perseguir el precio en los máximos actuales; es preferible esperar a un acercamiento a la zona de la media móvil de 20 sesiones (58,58 EUR) para evaluar posibles puntos de entrada.
+2. **Para Inversores de Medio y Largo Plazo**: Los fundamentales son sólidos, con crecimiento constante en ingresos, flujos de caja operativos robustos (2.211 millones de euros) y un ROCE/ROE elevado. El potencial hasta el precio objetivo de consenso (71,04 EUR) ofrece un margen atractivo del ~14,3%, aunque el inversor debe monitorizar los riesgos macroeconómicos de la eurozona y la evolución del sector de viajes y turismo.
+
+---
+
+#### Tabla Resumen Clave (`AMS.MC`)
+
+| Categoría | Métrica / Indicador | Valor / Estado | Implicación Operativa |
+| :--- | :--- | :--- | :--- |
+| **Precio y Valoración** | Precio de Cierre | 62,16 EUR (2026-11-13) | Por encima de medias móviles de 50 y 200 sesiones. |
+| **Valoración Fundamental**| Forward P / E | 15,99x | Valuación razonable frente al crecimiento estimado de beneficios. |
+| **Rentabilidad** | Return on Equity (ROE) | 26,43% | Alta eficiencia en la generación de valor para el accionista. |
+| **Tendencia (Medio Plazo)**| SMA 50 (`close_50_sma`) | 55,67 EUR | Soporte dinámico clave que confirma la tendencia alcista. |
+| **Tendencia (Largo Plazo)**| SMA 200 (`close_200_sma`) | 52,46 EUR | Referencia estructural de mercado alcista. |
+| **Momento** | RSI 14 (`rsi`) | 73,83 | **Zona de sobrecompra técnica**; vigilar posibles recortes o consolidación. |
+| **Momento / Tendencia** | MACD (`macd` / `macds`) | 1,98 / 1,59 | Impulso alcista vigente

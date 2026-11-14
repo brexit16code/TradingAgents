@@ -1,34 +1,44 @@
-El análisis técnico y fundamental de **IAG.MC** (International Consolidated Airlines Group S.A.) revela una posición de mercado robusta en el corto plazo, respaldada por un impulso alcista significativo, aunque se enfrenta a desafíos macroeconómicos en la eurozona.
+### Informe de Análisis Bursátil: International Consolidated Airlines Group S.A. (IAG.MC)
 
-### Análisis Técnico
-A fecha de 13 de noviembre de 2026, el precio de cierre de **IAG.MC** es de **5,42 EUR**.
-*   **Tendencia:** El activo muestra una clara tendencia alcista, cotizando por encima de sus medias móviles de 20 días (5,07 EUR), 50 días (5,01 EUR) y 200 días (4,85 EUR). Esta alineación (SMA20 > SMA50 > SMA200) confirma un mercado alcista consolidado.
-*   **Impulso y Volatilidad:** Con un RSI14 de 64,19, el valor se acerca a territorio de sobrecompra pero aún mantiene espacio para el crecimiento. El MACD (0,123) se sitúa por encima de su señal (0,068), validando la fortaleza de la tendencia actual.
-*   **Desempeño:** Ha registrado un retorno del 10,88% en los últimos 21 días y un 31,39% anualizado, superando al mercado general.
+**Fecha de análisis:** 14 de noviembre de 2026
+**Ticker:** IAG.MC
+**Mercado:** MCE
 
-### Análisis Fundamental
-*   **Valuación:** Con un *Forward PE* de 7,20x frente a una mediana del sector de 18,10x, el valor presenta un descuento relativo significativo (*ratio* de 0,397).
-*   **Solidez:** La empresa ha demostrado una mejora en la generación de flujo de caja libre (3.146M EUR en 2025) y una reducción del apalancamiento (Net Debt/EBITDA de 0,78).
-*   **Consenso:** Los analistas mantienen un precio objetivo medio de 6,00 EUR, lo que sugiere un potencial alcista del 10,79% desde el nivel actual, en línea con la tendencia reciente impulsada por revisiones positivas de entidades como Goldman Sachs y RBC.
+#### 1. Resumen de la Situación Actual
+IAG.MC muestra un comportamiento técnico y fundamental sólido tras el cierre de sesión del 13 de noviembre de 2026. Con un precio de **5,42 EUR**, la acción cotiza por encima de sus medias móviles clave (SMA20: 5,07; SMA50: 5,01; SMA200: 4,85), lo que confirma una tendencia alcista consolidada a corto, medio y largo plazo. El activo ha experimentado un retorno del 31,39% en los últimos 252 días.
 
-### Contexto y Riesgos
-El principal viento en contra es el entorno macroeconómico: una inflación del 4% en la zona euro (13/11/2026, *El Economista*) presiona los costes operativos y limita la capacidad del Banco Central Europeo para relajar la política monetaria. Esto podría afectar el consumo discrecional en viajes si las condiciones de financiación se mantienen restrictivas.
+#### 2. Análisis Técnico
+*   **Momentum y Tendencia:** El indicador RSI (14) se sitúa en **64,19**, indicando una presión compradora saludable sin haber alcanzado niveles de sobrecompra extrema (>70). El MACD (0,123) se mantiene por encima de su línea de señal (0,069), lo que respalda la continuidad del impulso alcista.
+*   **Volatilidad:** La volatilidad reportada es del 27,24%. Aunque es significativa, la acción mantiene una estructura alcista estable, con un *drawdown* actual de solo -4,31%.
+*   **Soportes y Resistencias:** Las medias móviles (SMA20, 50, 200) actúan actualmente como niveles de soporte dinámico ascendentes, confirmando la salud de la tendencia.
 
-### Conclusión
-**IAG.MC** combina un momento técnico favorable con una valoración fundamental atractiva. Los inversores deben vigilar la proximidad a la zona de sobrecompra (RSI) y la evolución de la inflación en la eurozona, que es el principal factor de riesgo sistémico.
+#### 3. Fundamentos y Valoración
+*   **Valoración:** IAG.MC cotiza a un **PER forward de 7,20x**, lo que, comparado con el PER forward mediano de sus comparables en el sector (18,09x), sugiere una infravaloración relativa significativa. La relación precio/beneficio (*ratio*) es de 0,40 respecto a dicho grupo.
+*   **Salud Financiera:** La compañía muestra una mejora notable en la generación de flujo de caja libre (FCF), alcanzando los 3.146 millones de EUR en el ejercicio 2025, frente a los 1.320 millones en 2023. La deuda neta sobre EBITDA es de **0,78x**, un nivel de apalancamiento conservador y positivo.
+*   **Consenso de Analistas:** El precio objetivo medio es de **6,00 EUR**, lo que representa un potencial de revalorización cercano al 10,8%. Las noticias recientes (Bolsamania, 10/11/2026; Yahoo, 10/11/2026) reflejan una mejora en las recomendaciones por parte de firmas como Goldman Sachs, RBC y Barclays, a pesar de reportar beneficios ligeramente inferiores a las expectativas en el tercer trimestre.
 
-**Rating**: Overweight
+#### 4. Evidencias Contrarias y Riesgos
+*   **Macroeconomía:** Los titulares recientes (13/11/2026) advierten que la inflación en la zona euro se mantiene en el 4%, lo que limita la capacidad del banco central para moderar los tipos de interés. Esto podría presionar los costes operativos de las aerolíneas y el poder adquisitivo del consumidor.
+*   **Crecimiento:** El *earnings growth* se situó en -0,05%, lo que indica una presión en los márgenes que merece un seguimiento estrecho.
 
-| Indicador | Valor | Interpretación |
+#### 5. Consideraciones Finales
+La combinación de una valoración atractiva (PER bajo) y una tendencia técnica alcista sólida posiciona a IAG.MC como un activo con impulso. Sin embargo, la persistencia de la inflación en la eurozona es un factor de riesgo clave.
+
+**Rating**: Neutral-Positive
+
+| Indicador | Valor / Estado | Interpretación |
 | :--- | :--- | :--- |
-| Precio Actual | 5,42 EUR | Tendencia alcista sólida |
-| RSI (14) | 64,19 | Impulso positivo, sin sobrecompra crítica |
-| SMA 200 | 4,85 EUR | Soporte técnico a largo plazo |
-| Forward PE | 7,19x | Infravalorado frente a peers |
-| Consenso Upside | +10,79% | Potencial alcista estimado |
-| Yield Dividendo | 1,84% | Retorno modesto pero constante |
+| Precio Actual | 5,42 EUR | Tendencia alcista |
+| RSI (14) | 64,19 | Momentum positivo sin sobrecompra |
+| MACD | 0,123 > 0,069 | Señal alcista |
+| PER Forward | 7,20x | Infravalorado vs. sector |
+| Net Debt/EBITDA | 0,78x | Solidez financiera |
+| Potencial (Consenso) | +10,79% | Optimismo analítico |
 
-FINAL TRANSACTION PROPOSAL: Mantener o acumular con enfoque a medio plazo, gestionando el riesgo mediante niveles de soporte dinámicos (SMA 50).
+**Fuentes:**
+*   Datos técnicos y fundamentales: Snapshot del 14/11/2026.
+*   Noticias: Bolsamania (10/11/2026), Yahoo (10/11/2026), El Economista (09/11/2026), Estrategias de Inversión (09/11/2026).
 
-*Fuentes consultadas: Yahoo Finance, Bolsamania (10/11/2026), Estrategias de Inversión (09/11/2026).*
-*Nota: Faltan datos precisos sobre el flujo de caja operativo del periodo corriente; se han utilizado las cifras consolidadas de 2025 proporcionadas en el snapshot.*
+*Descargo de responsabilidad: Esta es una investigación con fines informativos. No constituye una recomendación de inversión. Las decisiones financieras deben basarse en su propia evaluación de riesgo.*
+
+FINAL TRANSACTION PROPOSAL: Hold/Accumulate

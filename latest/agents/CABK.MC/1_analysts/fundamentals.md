@@ -1,75 +1,92 @@
-**Informe Fundamental y Bursátil de CaixaBank, S.A. (`CABK.MC`)**
-
 **Rating**: HOLD  
-**FINAL TRANSACTION PROPOSAL**: HOLD
+FINAL TRANSACTION PROPOSAL: HOLD
 
 ---
 
-### 1. Perfil de la Compañía y Contexto de Mercado
-* **Identidad Resuelta**: CaixaBank, S.A. (`CABK.MC`), clasificada dentro del sector de Servicios Financieros e industria de Bancos Regionales, cotizando en la Bolsa de Madrid (MCE) en Euros (EUR), referenciada frente al índice bursátil de referencia `^IBEX`.
-* **Capitalización de Mercado**: 84.912.668.672 EUR (aprox. 84.9 mil millones de euros).
-* **Entorno Macroeconómico Reciente (Noviembre 2026)**: El contexto macroeconómico europeo muestra presiones inflacionarias persistentes (inflación en la zona euro rondando el 4% y tasas en España sostenidas en torno al 5%), lo que inhabilita reducciones rápidas en la moderación de los tipos de interés y mantiene un escenario complejo para el ahorro, aunque favorable de manera transitoria para el margen de intereses bancario. A pesar de la volatilidad, el sector bancario español (junto a valores como BBVA y CaixaBank) ha mostrado rebotes significativos en bolsa durante las últimas semanas de noviembre de 2026.
+# Informe Fundamental y Análisis de Inversión: CaixaBank, S.A. (`CABK.MC`)
+
+**Fecha del informe:** 14 de noviembre de 2026  
+**Ticker:** `CABK.MC`  
+**Empresa:** CaixaBank, S.A.  
+**Bolsa:** Bolsas y Mercados Españoles (MCE)  
+**Sector:** Servicios Financieros / Banca Regional  
+**Moneda:** EUR  
 
 ---
 
-### 2. Análisis Financiero y Estados Contables
-Tomando como base los estados financieros y métricas fundamentales extraídos de los registros oficiales de la compañía:
+### 1. Perfil de la Empresa y Contexto de Mercado
 
-* **Cuenta de Resultados (Ingresos y Beneficios)**:
-  * Ingresos Totales (2024): 16.951.000.000 EUR. *(Nota: Datos de ingresos totales en los ejercicios 2023 y 2025 no disponibles por completo en la instantánea)*.
-  * Beneficio Neto (Net Income): Experimenta una senda de crecimiento continuo, pasando de 4.816.000.000 EUR en 2023 a 5.787.000.000 EUR en 2024 y alcanzando los 5.891.000.000 EUR en el ejercicio 2025.
-  * Beneficio por Acción (EPS): Trailing EPS de 0,92 EUR y Forward EPS estimado en 1,07591 EUR.
-  * Márgenes: Destaca un margen de beneficios (*profit margins*) sumamente elevado del 40,55%, reflejando una fuerte eficiencia operativa.
+CaixaBank, S.A. (`CABK.MC`) es la entidad bancaria líder en el mercado minorista de España, operando bajo el sector de Servicios Financieros y clasificada en la industria de banca regional. Cotiza en la bolsa de Madrid y forma parte del índice de referencia español, el IBEX 35 (`^IBEX`). 
 
-* **Balance de Situación**:
-  * Activos Totales: Muestran una expansión constante, pasando de 607.167 millones de euros en 2023 a 631.003 millones en 2024, hasta alcanzar los 664.040 millones de euros al cierre de 2025.
-  * Patrimonio Neto (*Stockholders Equity*): Evoluciona favorablemente desde 36.307 millones de euros (2023) hasta 38.510 millones de euros (2025).
-  * Deuda Total: Registra 49.488 millones de euros en 2025 (por debajo de los 54.419 millones de 2024 y 54.576 millones de 2023). *Aviso metodológico: No se deben aplicar reglas de deuda industrial/EBITDA a entidades financieras ni bancarias.*
-
-* **Flujos de Caja**:
-  * Flujo de Caja Operativo: 4.410 millones de euros en 2025 (reducido frente a los 16.846 millones de 2024 y 15.744 millones de 2023 por la naturaleza volátil de la partida operativa en bancos).
-  * Flujo de Caja Libre (FCF): 3.439 millones de euros en 2025 (frente a 16.091 millones en 2024 y 14.943 millones en 2023).
+A fecha de noviembre de 2026, el entorno macroeconómico europeo muestra presiones inflacionarias persistentes en la zona euro (con tasas de inflación rondando el 4% anual a mediados de noviembre de 2026, según titulares de *El Economista* y *Negocios.com*), lo cual mantiene un escenario de tipos de interés altos o restrictivos para frenar el encarecimiento de la vida, impactando en los márgenes de intermediación financiera y en el ahorro minorista.
 
 ---
 
-### 3. Valoración, Dividendos y Métricas de Mercado
-* **Múltiplos de Valoración**:
-  * PER Histórico (*Trailing P/E*): 13,30x.
-  * PER Previsto (*Forward P/E*): 11,37x.
-  * Precio sobre Valor en Libros (*Price to Book*): 2,14x (con un valor contable por acción de 5,72 EUR).
-  * Relación P/E frente a pares (*Peer median forward PE* de 10,66x, con un ratio relativo de 1,06x), lo que sitúa a `CABK.MC` en una valoración de PER relativo intermedio frente a sus comparables en el mercado español (`SAB.MC`, `SAN.MC`, `BKT.MC`, `BBVA.MC`, `UNI.MC`).
+### 2. Análisis Financiero y Fundamentales
 
-* **Política de Retribución al Accionista**:
-  * Rentabilidad por Dividendo (*Dividend Yield*): 4,25% (con un dividendo anual estimado de 0,52 EUR por acción).
-  * Ratio de Payout: 56,81%, lo que asegura un equilibrio sostenible entre la retribución al accionista y la retención de capital para cumplir con los requerimientos regulatorios de solvencia.
+A partir de los datos financieros recopilados para `CABK.MC`, se observa la siguiente radiografía económica:
 
-* **Consenso de Analistas y Precios Objetivo**:
-  * Precio Objetivo Medio (*Target Mean Price*): 13,31857 EUR, con un rango que va desde un mínimo de 6,8 EUR hasta un máximo de 15,3 EUR (basado en la opinión de 21 analistas).
-  * Precio actual de cotización: 12,235 EUR (a fecha de 13 de noviembre de 2026).
-  * Potencial alcista de consenso (*Consensus Upside*): 8,86% respecto al precio actual.
+* **Capitalización de Mercado:** 84.912,67 millones de EUR (84.912.668.672 EUR).
+* **Valor en Bolsa (Precio a 13/11/2026):** 12,23 EUR por acción (`close` de 12,235 EUR).
+* **PER (Trailing P/E):** 13,30x
+* **PER Estimado (Forward P/E):** 11,28x
+* **Beneficio por Acción (EPS):** 0,92 EUR (Trailing) / 1,08 EUR (Forward estimado).
+* **Ratio Precio/Valor en Libros (Price-to-Book):** 2,14x (con un valor contable por acción de 5,72 EUR).
+* **Rentabilidad por Dividendo (Dividend Yield):** 4,22% – 4,25%, con un dividendo por acción de 0,52 EUR y un *payout ratio* del 56,81%.
+* **Rentabilidad sobre el Capital (ROE):** 16,52%, lo que demuestra una alta eficiencia en la generación de beneficios respecto a los recursos propios.
+* **Márgenes de Beneficio (Profit Margins):** 40,56%, reflejando una sólida capacidad de conversión de ingresos en utilidad neta.
 
----
-
-### 4. Datos Técnicos y Comportamiento Bursátil
-* **Precio de Cierre (13/11/2026)**: 12,235 EUR (descenso diario de -0,61%).
-* **Medias Móviles**:
-  * SMA 20: 11,598 EUR (señal alcista a corto plazo).
-  * SMA 50: 12,100 EUR.
-  * SMA 200: 11,461 EUR (tendencia alcista consolidada a largo plazo).
-* **Osciladores e Indicadores**:
-  * RSI (14 periodos): 57,71 (zona neutral con sesgo alcista moderado, sin señales de sobrecompra ni sobreventa).
-  * MACD: 0,1045 (por encima de su línea de señal -0,0510, indicando soporte en el impulso comprador).
-  * Volatilidad (anualizada): 29,06%.
-  * Descenso máximo (*Drawdown*): -8,05% desde máximos recientes.
-  * Rentabilidades históricas: +4,47% a 21 sesiones; -4,04% a 63 sesiones; +42,63% a 252 sesiones.
+#### Estados Financieros Históricos Clave:
+* **Ingresos Totales (2024):** 16.951 millones de EUR.
+* **Ingresos Netos (Net Income):**
+  * Ejercicio 2023: 4.816 millones de EUR.
+  * Ejercicio 2024: 5.787 millones de EUR.
+  * Ejercicio 2025 (reportado): 5.891 millones de EUR.
+* **Balance General (Ejercicio 2025):**
+  * **Activos Totales:** 664.040 millones de EUR (superior a los 631.003 millones de EUR de 2024 y 607.167 millones de EUR de 2023).
+  * **Deuda Total:** 49.488 millones de EUR (con una reducción frente a los 54.419 millones de EUR de 2024).
+  * **Patrimonio Neto (Stockholders Equity):** 38.510 millones de EUR.
+* **Flujos de Caja (Ejercicio 2025):**
+  * Flujo de caja operativo: 4.410 millones de EUR.
+  * Gasto de capital (CapEx): -971 millones de EUR.
+  * Flujo de caja libre (Free Cash Flow): 3.439 millones de EUR (notablemente inferior al de 2024, que fue de 16.091 millones de EUR).
 
 ---
 
-### 5. Evidencia Contaria y de Riesgo / Datos Faltantes
-* **Evidencia Contraria**: El entorno macroeconómico de tipos de interés altos sostenidos por la persistencia inflacionaria en la eurozona ofrece soporte a corto plazo en los márgenes de intermediación, pero incrementa los riesgos de morosidad a medio plazo y afecta al consumo y la concesión neta de crédito. Además, los múltiplos actuales reflejan una prima de valoración sobre la mediana del sector (Forward P/E de
- 11,37x vs mediana de pares de 10,66x).
-* **Datos Faltantes**: No se dispone de desglose completo de ingresos totales para los años 2023 y 2025 en la instantánea de estados financieros suministrada. Asimismo, no se han registrado transacciones recientes de iniciados (*insider transactions*) en el conjunto de datos proporcionado.
+### 3. Análisis Técnico y Comportamiento Bursátil
+
+* **Precio de cierre actual:** 12,23 EUR (sesión del 13 de noviembre de 2026).
+* **Variación reciente:** -0,61% en la última sesión.
+* **Medias Móviles:** 
+  * SMA 20: 11,60 EUR (precio cotiza por encima de la media de corto plazo).
+  * SMA 50: 12,10 EUR.
+  * SMA 200: 11,46 EUR (tendencia estructural de largo plazo alcista).
+* **RSI (14 periodos):** 57,71, indicando una zona neutral con sesgo ligeramente alcista, sin señales inmediatas de sobrecompra ni sobreventa.
+* **MACD:** 0,10 (línea de señal en -0,05), mostrando un momentum positivo moderado.
+* **Volatilidad (29,06%)** y **Drawdown (-8,05%)**, lo que indica correcciones recientes saludables desde máximos locales.
+* **Rentabilidades pasadas:** 4,47% a 21 sesiones y un sólido 42,63% a 252 sesiones, superando de forma robusta la media del mercado, aunque cediendo un -4,04% en el trimestre (-4,47 pp frente al benchmark).
 
 ---
 
-### 6. Conclusión y Recomendación para Traders
+### 4. Consenso de Analistas y Precios Objetivo
+
+* **Número de analistas consultados:** 21.
+* **Precio Objetivo Medio (Target Mean Price):** 13,28 EUR.
+* **Precio Objetivo Bajo:** 6,80 EUR.
+* **Precio Objetivo Alto:** 15,30 EUR.
+* **Potencial de alza estimado (Consensus Upside):** 8,54% respecto al precio actual de 12,23 EUR.
+
+---
+
+### 5. Datos Faltantes y Advertencias
+
+* **Datos faltantes:** No se disponen de métricas de EBITDA ni flujos de caja operativos totalmente actualizados al cierre operativo corriente de 2026, ya que la base de datos se nutre principalmente de los cierres anuales auditados hasta 2025. Las reglas financieras industriales (como deuda neta/EBITDA o PER industrial) no aplican a instituciones bancarias debido a la naturaleza de su pasivo y apalancamiento operativo.
+* **Fuentes consultadas:** Datos extraídos de los registros financieros y de mercado provistos mediante Yahoo Finance (`https://finance.yahoo.com/quote/CABK.MC/` y subrutas de estados financieros) y noticias de actualidad económica e inflación en la eurozona (Vozpópuli, Negocios.com, El Economista, Estrategias de Inversión y Expansión).
+
+---
+
+### 6. Conclusión e Insights Accionables para Traders
+
+CaixaBank (`CABK.MC`) muestra unos fundamentales sólidos respaldados por un ROE superior al 16%, una posición patrimonial reforzada con activos totales que superan los 664.000 millones de EUR y un margen de beneficio superior al 40%. La cotización se sitúa por encima de sus medias móviles de 50 y 200 sesiones, con un dividendo atractivo que ronda el 4,2%. 
+
+No obstante, el precio actual (12

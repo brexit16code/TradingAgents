@@ -1,8 +1,8 @@
 # Trading Analysis Report: IBE.MC
 
-- Analysis date: 2026-11-13
-- Rating: Underweight
-- Generated: 2026-11-13 21:18:12
+- Analysis date: 2026-11-14
+- Rating: Hold
+- Generated: 2026-11-14 21:06:30
 - TradingAgents 0.7.1: google, deep gemini-3.5-flash-lite, quick gemini-3.5-flash-lite
 - Analysts: market, news, fundamentals; research debate rounds 1, risk debate rounds 1
 - Data vendors: core_stock_apis yfinance, technical_indicators yfinance, fundamental_data yfinance, news_data yfinance, macro_data fred, prediction_markets polymarket, get_news ibex_sample, get_global_news ibex_sample
@@ -10,281 +10,274 @@
 ## I. Analyst Team Reports
 
 ### Market Analyst
-**Rating**: NEUTRAL
-FINAL TRANSACTION PROPOSAL: HOLD
+**Análisis Técnico y Fundamental de Iberdrola, S.A. (`IBE.MC`)**
 
-### Informe de Análisis Técnico y Fundamental: Iberdrola (`IBE.MC`)
+### 1. Resumen de la Situación Actual y Contexto de Mercado
+A fecha de 14 de noviembre de 2026, la cotización de **Iberdrola, S.A. (`IBE.MC`)** se sitúa en **23.70 EUR** (precio de cierre al 13 de noviembre de 2026, según la instantánea de mercado verificada). El valor ha experimentado una fuerte tendencia alcista, encadenando diez semanas consecutivas de subidas y rompiendo máximos históricos que sitúan su capitalización bursátil por encima de los **158.000 millones de euros** (`https://news.google.com/rss/articles/CBMi5wFBVV95cUxPRlNiTGxxaVVFOFBuLVlZMDNoYnlVU3JrMHM5QmJoQUJxMll3dGFtT3VOaDYwX1ZpcktrQ0hLb01WemRBYkVvVFR2S2tCd2llaDZsZ20xZ19FZ2xiMGpSN3J2UG83VEl3akpvY3lVazlWWFBmU2tlLXNHWk1BNEY3T0IxZkNZSEhrTmphVTdWaUxWcThodC1UNndzLUhha1pWdmZFOHFKSkcxUEZwcWhKU2I2VkFnRHl1MmFNYnFlbHdMTWN3V2xYTS1MT2tZdXNFUHZGdlY4ejZOeVdiQlFseWpuOTFGUFE?oc=5`).
 
-#### 1. Contexto de Mercado y Estado Actual
-A fecha de 13 de noviembre de 2026, las acciones de **Iberdrola (`IBE.MC`)** cotizan a un precio de cierre de **23,70 EUR**, registrando nuevos máximos históricos y una capitalización bursátil que supera los **158.000 millones de euros** (fuente: *Valencia Plaza*, 13-11-2026). El valor acumula 10 semanas consecutivas de subidas (*El Boletín*, 13-11-2026), impulsado por la presentación de resultados y la mejora de previsiones por parte de entidades como Bankinter (*MarketScreener España*, 11-11-2026). 
+El contexto macroeconómico europeo muestra presiones inflacionarias persistentes en la eurozona (con la inflación rondando el 4% anual, según noticias fechadas el 13 de noviembre de 2026 en *El Economista* y *Negocios.com*), lo que mantiene un escenario de tipos de interés restrictivos y ahorros con rentabilidades reales negativas. A pesar de este trasfondo macro, los valores defensivos de alta capitalización y utilities diversificadas como Iberdrola han mostrado un comportamiento excepcional, respaldados además por revisiones al alza de precios objetivo por parte de analistas (como Bankinter tras sus resultados, según *MarketScreener España* del 11 de noviembre de 2026).
 
-No obstante, el contexto macroeconómico europeo presenta desafíos notables, destacando una inflación en la eurozona situada en el **4%** (*El Economista*, 13-11-2026) que complica la moderación en las alzas de tipos de interés del Banco Central Europeo.
+---
 
-#### 2. Análisis Técnico e Indicadores Seleccionados
-De acuerdo con la instantánea de mercado verificada para `IBE.MC`:
-* **Precio de Cierre**: 23,70 EUR
-* **RSI (14)**: **82,54**, lo que sitúa al valor en una clara condición de **sobrecompra** técnica a corto plazo. A pesar de esto, en tendencias alcistas fuertes los osciladores pueden permanecer en niveles extremos, por lo que requiere cautela.
-* **MACD**: **0,585** frente a una línea de señal (**macds**) de **0,490**, mostrando impulso positivo.
-* **Medias Móviles**: El precio se encuentra holgadamente por encima de sus medias clave: SMA 20 (**22,32 EUR**), SMA 50 (**21,29 EUR**) y SMA 200 (**20,22 EUR**), confirmando una estructura alcista de medio y largo plazo muy sólida.
-* **Volatilidad (13,93%)** y **Drawdown (0,0%)**: Reflejan la ausencia de retrocesos recientes y una estabilidad propia del sector de utilidades diversificadas en fase de expansión alcista.
+### 2. Análisis Técnico
+Basándonos en los datos técnicos oficiales proporcionados en la instantánea de mercado:
+* **Precio de cierre**: 23.70 EUR (`2026-11-13`).
+* **Medias Móviles**: 
+  * SMA 20: **22.32 EUR**
+  * SMA 50: **21.30 EUR**
+  * SMA 200: **20.22 EUR**
+  * El alineamiento alcista de las medias móviles (SMA 20 > SMA 50 > SMA 200) confirma una tendencia alcista primaria muy sólida a medio y largo plazo.
+* **Momentum y Osciladores**:
+  * **RSI (14)**: **82.54**, lo que denota una condición de **sobrecompra clara** y extrema. Si bien refleja una fuerza compradora inusitada, los valores en estos niveles suelen ser vulnerables a correcciones técnicas de corto plazo o consolidaciones.
+  * **MACD**: **0.585** frente a su línea de señal (`macd_signal`) de **0.491**, confirmando la continuidad del impulso alcista.
+* **Volatilidad y Retornos**:
+  * Volatilidad anualizada del **13.93%**, moderada para el sector.
+  * Retorno a 21 sesiones: **+10.08%**; retorno a 252 sesiones: **+36.20%**. El *drawdown* actual se sitúa en **0.0%**, puesto que el valor cotiza en máximos históricos.
 
-#### 3. Análisis Fundamental y Valoración
-* **Capitalización de Mercado**: 157.324.017.664 EUR
-* **PER Trailing**: 32,03x | **PER Forward**: 21,28x
-* **Beneficio por Acción (EPS)**: 0,74 (Trailing) y 1,11 (Forward)
-* **Deuda Neta / EBITDA**: 3,95x (Deuda total de 63.837 millones frente a un EBITDA de 14.494 millones).
-* **Dividend Yield**: 2,91% (con un dividendo de 0,68 EUR y un ratio de pago del 87,06%).
-* **Consenso de Analistas**: El precio objetivo medio se sitúa en **21,57 EUR** (con un rango entre 18,00 EUR y 26,00 EUR y 24 opiniones analíticas), lo que representa una **desventaja estimada (consensus_upside_pct) del -8,99%** respecto al precio actual de 23,70 EUR.
+---
 
-#### 4. Evidencias, Datos Faltantes y Asunciones
-* **Evidencias aportadas**: Datos de Yahoo Finance / instantánea verificada a 13-11-2026. Titulares de prensa de *Valencia Plaza*, *El Boletín*, *Finanzas.com*, *MarketScreener España* y *El Economista*.
-* **Datos faltantes**: El flujo de caja operativo (Operating Cashflow) y el flujo de caja libre (Free Cashflow) específicos del último tramo no están reportados de forma explícita en el vector resumido de la instantánea más allá de los estados históricos anuales cerrados a 2025 (Operating Cash Flow de 11.635M y FCF de 3.317M EUR).
-* **Valoración metodológica**: Las valoraciones por múltiplos sitúan el PER forward de `IBE.MC` (21,28x) en una prima del 25,3% frente a la mediana de sus pares comparables en el mercado español (`ANE.MC`, `ENG.MC`, `ELE.MC`, `NTGY.MC`, `RED.MC`, `SLR.MC`), cuyo PER forward mediano es de 16,98x.
+### 3. Análisis Fundamental y Valuation
+* **Capitalización de Mercado**: 157.320 millones de EUR.
+* **PER (Trailing)**: **32.03x** / **Forward P/E**: **21.28x**, reflejando una valoración exigente sustentada en su calidad crediticia, su perfil diversificado en redes y renovables, y su plan estratégico.
+* **Ratio P/B (Precio/Valor en Libros)**: **3.06x** (con un valor contable por acción de 7.74 EUR).
+* **Deuda y Apalancamiento**: Deuda total de aproximadamente 63.840 millones de EUR, con un ratio de **Net Debt / EBITDA de 3.95x**.
+* **Dividendos**: Ofrece un rendimiento por dividendo (*dividend yield*) del **2.87%** (con un dividendo anual de 0.68 EUR y un *payout ratio* del 87.06%).
+* **Consenso de Analistas**: El precio objetivo medio de consenso se sitúa en **21.57 EUR** (con un rango entre 18.00 EUR y 26.00 EUR y 24 opiniones analíticas). Dado que el precio actual en mercado es de 23.70 EUR, el valor cotiza actualmente un **-8.99% por encima** de la estimación media de consenso (*consensus downside*), lo que sugiere que gran parte del optimismo a corto plazo ya se encuentra descontado en precios.
 
-#### 5. Conclusión y Perspectiva de Trading
-Iberdrola muestra una fortaleza impecable en precio, apoyada por sólidos fundamentales operativos e hitos históricos de cotización. Sin embargo, cotiza por encima del precio objetivo medio del consenso de analistas (21,57 EUR) y presenta un RSI de 82,54 que advierte sobre agotamiento inminente o sobrecalentamiento técnico. Por ello, la postura recomendada es mantener posiciones existentes sin realizar nuevas compras en estos máximos.
+---
 
-| Métrica Clave / Indicador | Valor Actual / Referencia | Implicación para el Trader |
+### 4. Selección de Indicadores Técnicos Relevantes
+De acuerdo con la estrategia de selección de indicadores complementarios (sin redundancias), los más idóneos para monitorizar la operativa en `IBE.MC` bajo las condiciones actuales de sobrecompra son:
+1. `close_200_sma`: Para confirmar la tendencia macro y el sesgo secular a largo plazo.
+2. `close_50_sma`: Para vigilar posibles soportes dinámicos en caso de corrección a medio plazo.
+3. `close_10_ema`: Para capturar giros rápidos de impulso a muy corto plazo ante la extrema sobrecompra.
+4. `macd`: Para evaluar la divergencia de tendencia y la fortaleza del impulso comprador.
+5. `macds`: Como línea de activación para cruces con el MACD.
+6. `macdh`: Para visualizar el debilitamiento o aceleración del histograma de momento.
+7. `rsi`: Clave en este escenario para vigilar la intensidad de la zona de sobrecompra (>70).
+8. `atr`: Esencial para dimensionar el riesgo, fijar *stop-losses* y ajustar el tamaño de posición ante la elevada verticalidad del movimiento alcista.
+
+---
+
+### 5. Tabla Resumen de Datos Clave
+
+| Métrica / Indicador | Valor | Comentario / Implicación |
 | :--- | :--- | :--- |
-| **Precio de Cierre (`close`)** | 23,70 EUR | Máximos históricos recientes. |
-| **RSI (14)** | 82,54 | Condición de sobrecompra extrema; riesgo de consolidación. |
-| **Media Móvil 200 sesiones (`close_200_sma`)**| 20,22 EUR | Sólido soporte estructural de largo plazo. |
-| **PER Forward** | 21,28x | Prima de valoración frente a la mediana sectorial (16,98x). |
-| **Consenso de Analistas (`targetMeanPrice`)**| 21,57 EUR | Potencial bajista implícito del -8,99% frente a cotización actual. |
-| **Rentabilidad por Dividendo** | 2,91% | Atractivo moderado para inversores de renta, aunque inferior a picos históricos por la subida de precio. |
+| **Ticker** | `IBE.MC` (Iberdrola, S.A.) | Mercado Continuo Español (MCE), Sector Utilities |
+| **Precio de Cierre** | 23.70 EUR (13/11/2026) | Nuevos máximos históricos de cotización |
+| **Capitalización Bursátil** | ~157.320 Millones EUR | Sólido respaldo institucional y gran tamaño |
+| **RSI (14)** | 82.54 | Condición de sobrecompra extrema |
+| **MACD vs Señal** | 0.585 / 0.491 | Impulso alcista vigente pero vigilante |
+| **SMA 50 / SMA 200** | 21.30 EUR / 20.22 EUR | Estructura alcista primaria perfectamente alineada |
+| **PER Forward / Trailing** | 2
 
 ### News Analyst
-**Rating**: REVIEW
+**Rating**: HOLD  
+**FINAL TRANSACTION PROPOSAL**: HOLD  
 
-**Análisis Macroeconómico y de Mercado para `IBE.MC` (Iberdrola, S.A.)**
+### Informe de Investigación y Análisis Macroeconómico / Bursátil (`IBE.MC`)
 
-### 1. Contexto Macroeconómico y Entorno de Mercado
-El entorno macroeconómico actual de la eurozona se caracteriza por presiones inflacionarias persistentes y tipos de interés restrictivos. Según titulares recientes de noviembre de 2026, la inflación de la zona euro se sitúa en torno al 4% (con datos en España mostrando tasas similares o superiores cercanas al 5%), lo que limita el margen de maniobra de los bancos centrales para moderar las alzas de tipos. Esta situación de tipos reales negativos y costes de financiación elevados impacta de manera directa en los sectores intensivos en capital, como las utilities reguladas y diversificadas. 
+#### 1. Contexto de Mercado y Evolución Reciente
+A fecha de noviembre de 2026, **Iberdrola, S.A. (`IBE.MC`)** cotiza en máximos históricos tras encadenar diez semanas consecutivas de alzas en la bolsa española, situando su capitalización bursátil por encima de los **158.000 millones de euros** (precio de cierre de **23,70 EUR** a 13 de noviembre de 2026). Este impulso alcista viene respaldado por la presentación de sus resultados financieros y la posterior revisión al alza de sus previsiones por parte de entidades como Bankinter, así como por el atractivo de su dividendo (con una rentabilidad por dividendo de aproximadamente el **2,87%** y un dividendo de 0,68 EUR).
 
-A pesar de este telón de fondo macroeconómico desafiante, el selectivo español ^IBEX ha mostrado fortaleza, recuperando los 20.000 puntos en noviembre de 2026 (según fuentes como *El Boletín* del 13 de noviembre de 2026).
+No obstante, desde una perspectiva técnica y fundamental, el título presenta señales mixtas:
+* **Indicadores Técnicos**: El valor muestra una fuerte sobrecompra con un RSI de **82,54**, encontrándose por encima de sus medias móviles de corto y largo plazo (SMA 20 en 22,32 EUR, SMA 50 en 21,29 EUR y SMA 200 en 20,21 EUR). La volatilidad histórica de 511 sesiones se sitúa en **13,93%**.
+* **Valoración Fundamental**: Cotiza a un PER estimado (*forward P/E*) de **21,28** y un PER histórico (*trailing P/E*) de **32,03**, reflejande una prima considerable frente a la mediana de sus comparables sectoriales (*peer median forward PE* de **16,98**, ratio de **1,25**). El precio objetivo medio de consenso de los analistas se sitúa en **21,57 EUR** (con un rango entre 18,00 EUR y 26,00 EUR), lo que implica un potencial de caída respecto a los precios actuales (*consensus upside* de **-8,99%**).
 
-### 2. Situación Fundamental y Bursátil de `IBE.MC`
-Iberdrola (`IBE.MC`) cotiza en máximos históricos, alcanzando los 23,70 EUR por acción al cierre del 13 de noviembre de 2026, lo que sitúa su capitalización bursátil por encima de los 158.000 millones de euros. La compañía encadena varias semanas consecutivas de revalorización (10 semanas de subidas según *El Boletín*), impulsada por unos sólidos resultados financieros y revisiones al alza de sus estimaciones por parte de entidades como Bankinter en noviembre de 2026.
+#### 2. Entorno Macroeconómico y Sectorial en Europa
+El contexto macroeconómico europeo hacia mediados de noviembre de 2026 está marcado por la persistencia de presiones inflacionistas:
+* **Inflación en la Eurozona**: Los datos recientes sitúan la inflación en la eurozona alrededor del **4%**, un nivel que los analistas consideran incompatible con una moderación en las subidas de tipos de interés (titulares de *El Economista* y *Vozpopuli* señalan que los tipos reales negativos penalizan el ahorro).
+* **Impacto en Utilities**: En un entorno de tipos elevados o persistentes para combatir la inflación, los sectores intensivos en capital y con rentabilidades por dividendo comparables a la renta fija sufren presión por descuento de flujos de caja futuros, aunque valores refugio con sólidas posiciones financieras como `IBE.MC` continúan captando flujos de inversores institucionales y minoristas.
 
-*   **Datos Fundamentales y Valoración:**
-    *   **Precio de Cierre:** 23,70 EUR (13 de noviembre de 2026).
-    *   **Capitalización de Mercado:** ~157.324 millones de EUR.
-    *   **PER Trailing:** 32,03x | **PER Forward:** 21,28x.
-    *   **Ratio P/B:** 3,06x.
-    *   **Deuda Total:** ~63.837 millones de EUR (con una deuda neta sobre EBITDA de aproximadamente 3,95x).
-    *   **Dividendo:** Rentabilidad por dividendo (dividend yield) estimada en torno al 2,87% - 2,91%, con un dividendo por acción de 0,68 EUR.
-    *   **Valoración Relativa:** El PER forward de `IBE.MC` frente a la mediana de sus pares comparables del sector muestra un ratio superior a 1,25x, lo que indica que cotiza con prima respecto a sus competidores directos en la bolsa española (como ANE.MC, ENG.MC, ELE.MC, NTGY.MC, RED.MC, SLR.MC).
+#### 3. Estados Financieros y Fundamentales
+De acuerdo con los estados financieros consolidados:
+* **Ingresos y EBITDA**: En el ejercicio cerrado a 31 de diciembre de 2025, Iberdrola registró unos ingresos totales de **44.076 millones de euros** (frente a 42.988 millones en 2024 y 49.335 millones en 2023) y un EBITDA de **16.763 millones de euros** (15.192 millones en 2024).
+* **Beneficio Neto**: El beneficio neto en 2025 ascendió a **6.285 millones de euros**, mejorando los 5.612 millones de 2024 y los 4.803 millones de 2023.
+* **Deuda y Solvencia**: La deuda total se sitúa en **57.231 millones de euros** (balance a cierre de 2025), con un apalancamiento que refleja una ratio de deuda neta sobre EBITDA de **3,95x**. El patrimonio neto (*Stockholders Equity*) asciende a **50.068 millones de euros**.
+* **Flujo de Caja**: El flujo de caja operativo en 2025 fue de **11.635 millones de euros**, con unas inversiones de capital (*CapEx*) de **8.318 millones de euros**, resultando en un flujo de caja libre (*Free Cash Flow*) de **3.317 millones de euros**.
 
-*   **Indicadores Técnicos:**
-    *   **RSI (14):** 82,54 (en zona de clara sobrecompra).
-    *   **MACD:** 0,585 (señal 0,490), confirmando el fuerte impulso alcista de corto plazo.
-    *   **Medias Móviles:** SMA20 en 23,32 EUR, SMA50 en 21,30 EUR y SMA200 en 20,22 EUR. El precio se encuentra muy por encima de todas sus medias móviles principales, reflejando una tendencia alcista robusta pero extendida.
-    *   **Rendimiento:** Rentabilidad a 21 sesiones del 10,08% y del 36,20% a 252 sesiones.
+#### 4. Datos Faltantes e Incertidumbres
+* No se dispone de las estimaciones detalladas de desgloses de flujo de caja operativo intradiario posteriores a los cierres anuales auditados.
+* Faltan proyecciones cuantitativas de los impactos regulatorios específicos en mercados internacionales (EE. UU., Reino Unido y Brasil) para los ejercicios 2027 y posteriores.
 
-### 3. Evidencia de Noticias y Opinión de Analistas
-*   *Valencia Plaza* y *El Boletín* (13 de noviembre de 2026) destacan que `IBE.MC` rompe máximos históricos y supera los 158.000 millones de capitalización.
-*   *Finanzas.com* (12 de noviembre de 2026) resalta el atractivo del dividendo y los fundamentales posteriores a los resultados trimestrales.
-*   *MarketScreener España* (11 de noviembre de 2026) reporta que Bankinter elevó el precio objetivo de Iberdrola tras la mejora de sus previsiones.
-*   No obstante, el precio objetivo medio de consenso de los analistas registrado se sitúa en 21,56 EUR (con un rango entre 18,00 EUR y 26,00 EUR), lo que implica un potencial de retorno negativo (consenso upside de aproximadamente -8,99%) debido a la verticalidad de las últimas subidas que han superado los objetivos previos de los analistas.
+---
 
-### 4. Datos Faltantes y Limitaciones
-*   No se dispone de flujos de caja operativos (Operating Cashflow) ni de caja libre (Free Cashflow) actualizados directamente en las métricas consolidadas del último snapshot, aunque los estados financieros anuales de 2025 muestran un flujo de caja operativo de 11.635 millones de EUR y una inversión de capital (CapEx) de 8.318 millones de EUR.
-*   No se han suministrado carteras de inversión hipotéticas ni mandatos de asignación específicos.
+### Tabla Resumen de Datos Clave
 
-| Métrica / Concepto Clave | Valor Actual / Referencia | Comentario / Implicación |
+| Concepto / Métrica | Valor Actual / Referencia | Fuente / Contexto |
 | :--- | :--- | :--- |
-| **Precio de Cierre (`IBE.MC`)** | 23,70 EUR (13/11/2026) | Máximos históricos, con fuerte impulso alcista técnico. |
-| **Capitalización Bursátil** | ~157.324 millones de EUR | Posiciona a Iberdrola como una de las mayores energéticas de Europa. |
-| **RSI (14)** | 82,54 | Señal técnica de sobrecompra extrema a corto plazo. |
-| **PER Forward** | 21,28x | Valoración exigente, superior a la mediana sectorial en España. |
-| **Consenso de Analistas** | Target Medio: 21,56 EUR | Upside implícito negativo (-8,99%) debido al rápido rally bursátil. |
-| **Contexto Macroeconómico** | Inflación Zona Euro ~4% | Tipos de interés restrictivos que elevan el coste de financiación. |
-
-FINAL TRANSACTION PROPOSAL: REVIEW
+| **Ticker y Empresa** | `IBE.MC` (Iberdrola, S.A.) | Registro oficial / MCE |
+| **Precio de Cierre** | 23,70 EUR | Sesión de mercado al 13/11/2026 |
+| **Capitalización Bursátil** | ~158.324 millones EUR | Datos de mercado / Noticias |
+| **PER Estimado (Forward P/E)** | 21,28x | Fundamentos de mercado |
+| **PER Histórico (Trailing P/E)** | 32,03x | Fundamentos de mercado |
+| **Precio Objetivo de Consenso** | 21,57 EUR (Upside: -8,99%) | Consenso de analistas (24 opiniones) |
+| **Rentabilidad por Dividendo** | 2,87% (0,68 EUR por acción) | Fundamentos de mercado |
+| **EBITDA (Cierre 2025)** | 16.763 millones EUR | Estados Financieros / Cuenta de Resultados |
+| **Beneficio Neto (Cierre 2025)**| 6.285 millones EUR | Estados Financieros / Cuenta de Resultados |
+| **Deuda Total (Cierre 2025)** | 57.231 millones EUR | Balance General |
+| **RSI (14 sesiones)** | 82,54 (Zona de sobrecompra) | Datos Técnicos (`IBE.MC`) |
+| **Contexto Inflacionario UE** | ~4,0% (Noviembre 2026) | Titulares macroeconómicos europeos |
 
 ### Fundamentals Analyst
-**Rating**: HOLD  
-FINAL TRANSACTION PROPOSAL: REVIEW
+**Análisis Fundamental de Iberdrola, S.A. (`IBE.MC`)**
 
-### Informe Fundamental Integral: Iberdrola, S.A. (`IBE.MC`)
+**1. Perfil de la Empresa y Contexto de Negocio**
+Iberdrola, S.A. (`IBE.MC`) es una de las mayores empresas energéticas del mundo, clasificada dentro del sector de **Utilities (Utilities - Diversified)** y cotizando en la Bolsa de Madrid (MCE) en euros (EUR). Con una capitalización bursátil récord que supera los **158.000 millones de euros** (snapshot del 14/11/2026), la compañía se encuentra cotizando en máximos históricos tras encadenar 10 semanas consecutivas de subidas apalancadas en sus sólidos resultados y la mejora de perspectivas de los analistas (como las revisiones al alza de Bankinter tras sus publicaciones recientes de noviembre de 2026).
 
-#### 1. Perfil de la Compañía y Contexto de Mercado
-Iberdrola, S.A. (`IBE.MC`) es una de las mayores empresas de servicios públicos (*Utilities*) a nivel global, operando específicamente dentro del subsector de *Utilities - Diversified*. Con domicilio social en España y cotizando en la Bolsa de Madrid (MCE) bajo el índice de referencia `^IBEX`, la compañía destaca por su sólida posición en energías renovables, redes de distribución y comercialización eléctrica en Europa, América Latina y Norteamérica.
+**2. Análisis de los Estados Financieros Históricos (2023 - 2025)**
+Los datos financieros extraídos de los estados contables oficiales muestran una evolución positiva y resiliente:
 
-A fecha de 13 de noviembre de 2026, la capitalización bursátil de Iberdrola (`marketCap`) se sitúa en **157.324.017.664 EUR** (aproximadamente 158.000 millones de euros según noticias recientes de mercado), impulsada por una racha alcista notable que ha llevado al título a tocar nuevos máximos históricos en bolsa.
+*   **Cuenta de Resultados (Ingresos, EBITDA y Net Income):**
+    *   *2023:* Total Revenue de 49.335M€, EBITDA de 14.906M€ y Net Income de 4.803M€.
+    *   *2024:* Total Revenue de 42.988M€, EBITDA de 15.192M€ y Net Income de 5.612M€.
+    *   *2025:* Total Revenue de 44.076M€, EBITDA de 16.763M€ y Net Income de 6.285M€.
+    *   *Tendencia:* Se observa un crecimiento sostenido en la rentabilidad neta y del EBITDA a pesar de la fluctuación en los ingresos brutos totales, reflejando una mayor eficiencia operativa y un control de márgenes robusto (profit margins del 14,74%).
+*   **Balance de Situación:**
+    *   *Activos Totales:* Pasaron de 150.033M€ en 2023 a 160.762M€ al cierre de 2025.
+    *   *Patrimonio Neto (Stockholders Equity):* Incremento continuo desde 43.111M€ (2023) hasta 50.068M€ (2025), fortaleciendo la solvencia patrimonial.
+    *   *Deuda Total:* Se ha situado en 57.231M€ al cierre de 2025 (la ratio de deuda neta sobre EBITDA se sitúa en torno a 3,95x).
+*   **Flujo de Caja (Cash Flow):**
+    *   *2023:* Operating Cash Flow de 12.130M€, CapEx de -7.877M€ (Free Cash Flow de 4.253M€).
+    *   *2024:* Operating Cash Flow de 11.925M€, CapEx de -8.375M€ (Free Cash Flow de 3.550M€).
+    *   *2025:* Operating Cash Flow de 11.635M€, CapEx de -8.318M€ (Free Cash Flow de 3.317M€).
+    *   *Tendencia:* Generación de caja operativa robusta por encima de los 11.600 millones anuales, aunque con un flujo de caja libre ligeramente constreñido por un ambicioso plan de inversiones (CapEx superior a los 8.300M€ anuales).
 
----
+**3. Valoración y Múltiplos Fundamentales**
+*   **PER (Trailing P/E):** 32,03x
+*   **PER Adelantado (Forward P/E):** 21,28x (con un Forward EPS estimado de 1,11€).
+*   **Ratio frente a Peers:** El ratio de valoración sectorial indica un PER relativo superior frente a la mediana de sus comparables (`ANE.MC`, `ENG.MC`, `ELE.MC`, `NTGY.MC`, `RED.MC`, `SLR.MC`), concretamente de 1,25x, lo que evidencia que el mercado premia su calidad, diversificación geográfica y perfil defensivo.
+*   **Precio a Valor en Libros (Price-to-Book):** 3,06x (con un valor en libros por acción de 7,74€).
+*   **Rentabilidad por Dividendo (Dividend Yield):** 2,87% (con un dividendo rate de 0,68€ y un payout ratio del 87,06%).
+*   **Consenso de Analistas:** El precio objetivo medio de consenso se sitúa en 21,57€ (con un rango entre un mínimo de 18,00€ y un máximo de 26,00€ a partir de 24 opiniones de analistas), lo que representa una **consensual upside/downside de -8,99%** respecto al precio de cotización actual en los 23,70€ (al 13/11/2026), debido al fuerte rally alcista reciente que ha superado las previsiones medias previas.
 
-#### 2. Análisis de Estados Financieros Históricos
-Los datos financieros extraídos de los estados contables anuales muestran la siguiente evolución:
+**4. Información Técnica Reciente y Noticiario (Semana al 14/11/2026)**
+*   **Precio actual:** 23,70 € (con una subida diaria del +1,54%).
+*   **Indicadores Técnicos:** RSI de 14 en zona de sobrecompra clara (82,54), MACD positivo (0,585), cotizando holgadamente por encima de sus medias móviles de 20, 50 y 200 sesiones (SMA20: 22,32€; SMA50: 21,29€; SMA200: 20,22€). Ausencia total de retroceso reciente (drawdown del 0,0%).
+*   **Noticias Relevantes:**
+    *   *Valencia Plaza y El Boletín (13/11/2026):* Informan que Iberdrola alcanza nuevos máximos históricos en bolsa impulsada por 10 semanas consecutivas de alzas y superando los 158.000 millones de capitalización.
+    *   *MarketScreener España / Finanzas.com (11/11/2026 - 12/11/2026):* Destacan la revisión al alza de precios objetivos por parte de entidades como Bankinter tras los resultados y la solidez de su política de retribución al accionista.
+    *   *Contexto Macro:* Entorno europeo marcado por presiones inflacionarias (inflación de la eurozona rondando el 4% en noviembre de 2026) y tipos reales negativos, lo que refuerza el atractivo de valores refugio y utilities de alta capitalización como `IBE.MC`.
 
-*   **Cuenta de Resultados (*Income Statement*):**
-    *   *Total Revenue (Ingresos Totales):* 49.335 millones de euros en 2023; 42.988 millones en 2024; y una recuperación hasta los **44.076 millones de euros** al cierre del ejercicio 2025.
-    *   *EBITDA:* 14.906 millones de euros (2023); 15.192 millones de euros (2024); y **16.763 millones de euros** en 2025, reflejando una mejora en la eficiencia operativa.
-    *   *Net Income (Beneficio Neto):* 4.803 millones de euros en 2023; 5.612 millones de euros en 2024; y **6.285 millones de euros** en 2025.
-*   **Balance de Situación (*Balance Sheet*):**
-    *   *Total Assets (Activos Totales):* 150.033 millones de euros (2023); 158.293 millones de euros (2024); y **160.762 millones de euros** en 2025.
-    *   *Total Debt (Deuda Total):* 61.646 millones de euros (2023); 57.731 millones de euros (2024); y **57.231 millones de euros** en 2025, evidenciando una senda de desapalancamiento o gestión conservadora del pasivo.
-    *   *Stockholders Equity (Patrimonio Neto):* 43.111 millones de euros (2023); 47.125 millones de euros (2024); y **50.068 millones de euros** al cierre de 2025.
-*   **Flujo de Caja (*Cash Flow*):**
-    *   *Operating Cash Flow (Flujo de Caja Operativo):* 12.130 millones (2023); 11.925 millones (2024); y **11.635 millones de euros** en 2025.
-    *   *Capital Expenditure (Inversiones de Capital / Capex):* -7.877 millones (2023); -8.375 millones (2024); y **-8.318 millones de euros** en 2025.
-    *   *Free Cash Flow (Flujo de Caja Libre):* 4.253 millones (2023); 3.550 millones (2024); y **3.317 millones de euros** al término de 2025.
+**5. Datos Faltantes**
+*   No se dispone de desglose detallado de transacciones de insiders (insider transactions) en el snapshot analizado.
+*   Las cifras de flujos de caja operativos y libres desglosados en el último periodo trimestral intermedio exacto muestran valores nulos o no reportados directamente en las métricas de resumen operativo, aunque sí constan en los cierres anuales auditados hasta 2025.
 
----
-
-#### 3. Métricas Financieras Clave y Valoración Actual
-Basado en los datos de la instantánea actual (`retrieved_at`: 2026-11-13):
-
-*   **Cotización y Valor Técnico:** Cierre en **23,70 EUR**, con una rentabilidad a 1 año (`return252_pct`) del **36,20%**. El RSI de 14 periodos se sitúa en **82,54**, indicando condiciones de sobrecompra técnica significativa.
-*   **Múltiplos de Valoración:**
-    *   *Trailing P/E:* **32,03x**
-    *   *Forward P/E:* **21,28x** (con un BPA estimado *forward* de 1,11 EUR frente a los 0,74 EUR históricos).
-    *   *Price to Book (Precio/Valor Contable):* **3,06x** (con un valor contable por acción de 7,74 EUR).
-    *   *Enterprise Value to EBITDA (EV/EBITDA):* **15,24x**.
-    *   *Ratio Sectorial:* El PER adelantado de `IBE.MC` (21,28x) cotiza con prima frente a la mediana de sus comparables (*peer median forward PE* de **16,98x**), arrojando un ratio de valoración relativa de **1,25x**.
-*   **Endeudamiento y Solvencia:**
-    *   Deuda total reportada en métricas de mercado de 63.837 millones de euros, con un efectivo de 6.634 millones de euros.
-    *   Ratio de *Net Debt / EBITDA* de **3,95x**.
-*   **Remuneración al Accionista:**
-    *   *Dividend Yield:* **2,87%** (o 2,91% según métricas de rendimiento).
-    *   *Dividend Rate:* **0,68 EUR** por acción, con un *payout ratio* elevado del **87,06%**.
-*   **Consenso de Analistas:**
-    *   Precio objetivo medio (*targetMeanPrice*): **21,57 EUR** (Rango: mínimo de 18,00 EUR y máximo de 26,00 EUR, basado en 24 opiniones de analistas).
-    *   Dado que cotiza a 23,70 EUR, el precio actual se encuentra un **-8,99%** por encima del precio objetivo medio de consenso, lo que sugiere que el mercado se ha adelantado a las valoraciones fundamentales de los analistas tras las recientes subidas (Bankinter elevó recientemente estimaciones tras resultados).
-
----
-
-#### 4. Noticias y Entorno Macroeconómico Reciente (Noviembre de 2026)
-*   **Catalizadores y Hitos Bursátiles:** Iberdrola ha encadenado 10 semanas consecutivas de subidas, marcando máximos históricos y superando los 158.000 millones de euros de capitalización bursátil (Valiance Plaza, El Boletín, 13 de noviembre de 2026). Las revisiones al alza por parte de casas de análisis como Bankinter tras sus resultados refuerzan el optimismo en el corto plazo.
-*   **Contexto Macroeconómico:** El entorno macro de la eurozona muestra tensiones inflacionarias persistentes (inflación de la zona euro en torno al 4%-5%, según titulares fechados a 13 de noviembre de 2026), lo que inhabilita una moderación rápida de tipos de interés por parte del BCE y mantiene los tipos reales en niveles negativos o restrictivos. Esto afecta a los sectores intensivos en capital, aunque la diversificación geográfica de Iberdrola mitiga parcialmente el riesgo doméstico.
-
----
-
-####
+**6. Insights Accionables para Traders**
+*   **Riesgo de Corto Plazo (Técnico):** El valor se halla en un estado de sobrecompra técnica muy acusada (RSI > 82), cotizando un ~9% por encima del precio objetivo medio del consenso de analistas (21,57€).
 
 ## II. Research Team Decision
 
 ### Bull Researcher
 
-Bull Analyst: ¡Hola a todos! Es un placer abrir este debate sobre **IBE.MC** (Iberdrola, S.A.), y francamente, me sorprende que algunos analistas todavía duden del valor cuando estamos ante un auténtico titán de la transición energética global. ¡Iberdrola acaba de romper máximos históricos superando los **158.000 millones de euros** de capitalización bursátil tras encadenar 10 semanas consecutivas de subidas! 
+Bull Analyst: ¡Hola a todos! Comprendo perfectamente que el analista bajista intente asustar a los inversores mirando fríamente el gráfico técnico o escudándose en que `IBE.MC` cotiza ligeramente por encima del precio objetivo medio de consenso (esos 21,57 EUR frente a los 23,70 EUR actuales). Pero seamos sinceros: **cuando una compañía es un líder mundial absoluto, el mercado recompensa su excelencia**, y quedarse mirando sólo una media o un número de consenso es perderse la película completa. ¡Iberdrola acaba de encadenar diez semanas consecutivas de subidas pulverizando máximos históricos y superando los 158.000 millones de euros de capitalización! *(Valencia Plaza / El Boletín, 13 de noviembre de 2026)*. Eso no es especulación; eso es un reconocimiento rotundo del mercado a una máquina de hacer caja.
 
-Lejos de ser una burbuja pasajera, este rally está respaldado por fundamentales sólidos y unas previsiones operativas que entidades como Bankinter han tenido que revisar al alza recientemente. 
+Respondamos punto por punto a las dudas que los osos suelen poner sobre la mesa:
 
-### 1. Crecimiento Potencial y Escalabilidad inigualables
-¿Hablamos de crecimiento? Miremos los números fríos de la compañía: el EBITDA ha escalado hasta los **16.763 millones de euros** al cierre del ejercicio 2025 (por encima de los 15.192 millones de 2024), con un beneficio neto que ya supera los **6.285 millones de euros**. Iberdrola no solo promete crecimiento, lo ejecuta. Con un volumen de inversiones anuales masivo (más de 8.300 millones en Capex) enfocado en redes inteligentes y energías renovables en Norteamérica, Europa y Latinoamérica, la empresa está perfectamente posicionada para capitalizar la electrificación global a largo plazo. 
+### 1. Crecimiento Potencial y Escalabilidad frente al "Pico de Cotización"
+Los bajistas dirán que el valor está "demasiado caro" o en sobrecompra extrema (con un RSI en 82,54). ¡Por favor! Un RSI elevado solo demuestra una **fuerza compradora brutal e inusitada** respaldada por fundamentales de hierro. Miremos la realidad de los estados financieros: el EBITDA ha escalado desde los 14.906 millones de euros en 2023 hasta unos impresionantes **16.763 millones de euros al cierre de 2025**, mientras que el beneficio neto escaló hasta los **6.285 millones de euros**. La compañía no para de escalar su negocio en redes y energías limpias a escala global (EE. UU., Reino Unido, Brasil y España), demostrando una capacidad de crecimiento inalcanzable para el resto del sector. Bankinter acaba de elevar su precio objetivo tras sus últimos resultados porque los números superan cualquier previsión pesimista *(MarketScreener España, 11/11/2026)*.
 
-### 2. Ventajas Competitivas y Posicionamiento Dominante
-La escala importa, y mucho, en el sector de *utilities*. Iberdrola cuenta con una diversificación geográfica envidiable que mitiga los riesgos regulatorios locales. Su liderazgo indiscutible en renovables y su sólida base de activos regulados en redes le otorgan un foso defensivo (*moat*) altísimo frente a la volatilidad macroeconómica. Mientras otros competidores sufren para mantener márgenes, Iberdrola demuestra una eficiencia operativa ejemplar, reflejada en la reducción de su deuda total a 57.231 millones de euros y un apalancamiento razonable de la mano de un EBITDA en expansión.
+### 2. Ventajas Competitivas y el Foso Defensivo (*Moat*)
+¿Por qué `IBE.MC` merece cotizar con una prima (un PER forward de 21,28x frente a la mediana de peers)? Sencillamente porque es la referencia mundial indiscutible en la transición energética. Su diversificación geográfica le aísla de los sobresaltos regulatorios locales, y su músculo inversor (con un CapEx anual superior a los 8.300 millones de euros perfectamente respaldado por un flujo de caja operativo que supera los 11.600 millones) garantiza que nadie puede competir con su tamaño ni con su acceso a financiación. Mientras la inflación en la eurozona ronda el 4% y los ahorradores sufren tipos reales negativos en sus depósitos *(Vozpopuli, noviembre de 2026)*, invertir en `IBE.MC` con su dividendo del **2,87%** (0,68 EUR por acción) no es una opción: es el auténtico refugio inteligente.
 
-### 3. Indicadores Positivos y Salud Financiera
-¿Los críticos señalan los tipos de interés o la inflación al 4% en la eurozona? Permítanme recordarles que Iberdrola genera un flujo de caja operativo masivo (superando los 11.600 millones de euros) y ofrece una atractiva rentabilidad por dividendo cercana al **2,91%** (0,68 EUR por acción), respaldada por un compromiso histórico con el accionista. Además, técnicamente, aunque el RSI diario de 82,54 refleje un fuerte impulso a corto plazo y una cotización actual de 23,70 EUR por encima del objetivo medio de consenso anterior, las tendencias alcistas estructurales de largo plazo (con el precio muy por encima de sus medias móviles de 50 y 200 sesiones) demuestran que el mercado institucional está premiando la visibilidad y calidad de sus beneficios futuros. Las valoraciones estáticas se quedan cortas cuando una empresa redefine constantemente sus propios techos.
+### 3. Derribando el Argumento de la Deuda y los Tipos de Interés
+Los osos siempre intentan asustar con la deuda total (unos 57.231 millones de euros según el balance de 2025). Analicémoslo con rigor: la ratio de deuda neta sobre EBITDA se sitúa en un saneadísimo **3,95x**, totalmente bajo control para una utility diversificada de esta dimensión. Además, con un patrimonio neto (*Stockholders Equity*) que ha crecido hasta los **50.068 millones de euros**, la solvencia de la compañía es blindada. Pretender aplicarles las mismas reglas de apalancamiento que a un promotor inmobiliario o ignorar su inmensa capacidad de generar más de 11.600 millones de caja operativa es simplemente hacer trampa con los datos.
 
-¡El mercado ya ha hablado y los inversores inteligentes están apostando por el líder indiscutible del sector! ¡Es el momento de mantener con convicción y aprovechar cada retroceso técnico para consolidar posiciones!
+En resumen: `IBE.MC` está cara porque es **magnífica**, no porque esté sobrevalorada. En un entorno macroeconómico europeo complejo e inflacionario, apostar por el gigante líder es la jugada ganadora. 
 
-Rating: BUY
-FINAL TRANSACTION PROPOSAL: HOLD
+**Rating**: BUY  
+**FINAL TRANSACTION PROPOSAL**: HOLD
 
 ### Bear Researcher
 
-Bear Analyst: ¡Hombre, por favor! Me resulta fascinante escuchar al colega alcista celebrar una fiesta en la cima mientras ignora por completo que la música está a punto de dejar de sonar para **`IBE.MC`**. Hablar de "máximos históricos" y de una capitalización que supera los 158.000 millones de euros como si fuera un cheque en blanco es, siendo generosos, un ejercicio de optimismo ciego. Lo que estamos viendo no es una muestra de salud perpetua, sino el clásico punto de inflexión donde la euforia minorista e institucional ciega a los inversores ante los riesgos estructurales y de valoración que gritan los datos.
+Bear Analyst: ¡Hola a todos! Escuchando al compañero alcista, parece que nos quiere vender la moto de que `IBE.MC` es invulnerable simplemente porque ha encadenado diez semanas de subidas bursátiles y supera los 158.000 millones de capitalización (*Valencia Plaza / El Boletín*, 13 de noviembre de 2026). ¡Cuidado con confundir calidad empresarial con un precio de entrada razonable! Comprar una acción exclusivamente porque está de moda en máximos históricos es la receta perfecta para quedarse atrapado en la cúspide. 
 
-Vamos a desmontar ese castillo de naipes punto por punto:
+Desmontemos esa narrativa de "la perfección no tiene precio" punto por punto:
 
-### 1. ¿Crecimiento inigualable o sobrecalentamiento insostenible?
-El colega presume de un EBITDA de 16.763 millones de euros y un beneficio neto de 6.285 millones. ¡Fantástico! Pero olvidan la contraparte: **la valoración ha corrido infinitamente más rápido que los fundamentales**. Comprar **`IBE.MC`** a un PER *
-forward* de **21,28x** implica pagar una prima del **25,3%** frente a la mediana de sus comparables del sector (*peer median forward PE* de **16,98x**). ¿Estamos pagando precio de empresa tecnológica de alto crecimiento por una *utility* madura? Esto no es escalabilidad, es una compresión de múltiplos asegurada en cuanto el mercado exija rentabilidades reales. 
+### 1. ¿Fuerza compradora o sobrecompra alarmante e insostenible?
+El compañero se burla de que mencionemos el RSI en **82,54** y lo disfraza de "fuerza compradora brutal". Los datos técnicos no mienten: un RSI por encima de 80 denota una **sobrecompra extrema**. Históricamente, estos niveles extremos en valores de gran capitalización actúan como un elástico estirado al máximo; tarde o temprano, la corrección técnica para purgar los excesos llega de golpe. Además, pretender ignorar que `IBE.MC` cotiza en los **23,70 EUR**, un **-8,99% por encima del precio objetivo medio del consenso de analistas** (situado en **21,57 EUR**), es meter la cabeza en la arena. El mercado ya ha descontado no solo los buenos resultados, sino varios años de optimismo futuro. ¿Margen de seguridad? Nulo.
 
-Además, si miramos el consenso de analistas, el precio objetivo medio se sitúa en unos modestos **21,57 EUR**. Con el título cotizando hoy a **23,70 EUR**, la realidad matemática es que **`IBE.MC` presenta un potencial de retorno negativo implícito (*consensus_upside_pct*) del -8,99%**. El mercado ya ha descontado no solo los buenos resultados, sino varios años de perfección operativa que son prácticamente imposibles de cumplir.
+### 2. El espejismo de los múltiplos y el castigo del PER relativo
+Nos habla maravillas de los 16.763 millones de EBITDA o los 6.285 millones de beneficio neto de 2025. Nadie niega que Iberdrola es un gigante industrial envidiable. El problema no es el negocio, es **lo que se paga por él**. `IBE.MC` cotiza a un PER forward de **21,28x** (y un PER histórico de **32,03x**), lo que representa un **PER relativo de 1,25x** frente a la mediana de sus comparables sectoriales (*peers* en 16,98x). Pagar una prima tan desproporcionada en un entorno donde la inflación de la eurozona ronda el 4% y los tipos de interés se mantienen restrictivos (*El Economista*, noviembre de 2026) es un riesgo enorme. Si la rentabilidad por dividendo es de apenas un **2,87%** (0,68 EUR), cualquier ligera decepción en los flujos de caja futuros hará que los inversores institucionales huyan despavoridos hacia alternativas de renta fija u otros sectores defensivos más baratos.
 
-### 2. ¿Foso defensivo frente a la macroeconomía? Una falacia peligrosa
-El colega pasa de puntillas sobre el entorno macroeconómico, pero los datos están ahí y son devastadores para un negocio intensivo en capital. Con una inflación en la eurozona anclada en el **4%** (y rozando el 5% en España) y un Banco Central Europeo atrapado sin poder recortar tipos con agilidad, los costes de financiación se mantienen restrictivos. 
+### 3. La realidad sobre la soga de la deuda y el CapEx asfixiante
+El toro intenta quitar hierro a los **57.231 millones de euros de deuda total** (con una ratio de deuda neta sobre EBITDA de **3,95x**) escudándose en el tamaño de la compañía. Pero olvidan un detalle clave: el modelo de negocio de `IBE.MC` es intensivo en capital por definición. Con un plan de inversiones (*CapEx*) que supera sistemáticamente los **8.300 millones de euros anuales** frente a un flujo de caja libre que se ha contraído hasta los **3.317 millones de euros** al cierre de 2025, la capacidad de maniobra se estrecha. En un escenario macroeconómico europeo con tipos reales penalizadores y presiones inflacionarias persistentes, financiar un CapEx mastodóntico con ese nivel de apalancamiento no es un paseo militar; es un riesgo financiero latente que el mercado está ignorando alegremente en plena euforia alcista.
 
-Iberdrola arrastra una deuda total descomunal de más de **57.200 millones de euros** (63.800 millones según instantáneas de mercado) y una ratio de deuda neta sobre EBITDA de casi **3,95x**. En un escenario de tipos reales negativos y tipos de interés altos persistentes, refinanciar esta montaña de pasivo erode directamente los márgenes futuros. ¿Dónde está el escudo protector contra la macro cuando cada euro de deuda cuesta más caro de servir?
+En definitiva, comprar `IBE.MC` hoy en día a estos precios de vértigo, con el consenso de analistas aconsejando cautela y los indicadores técnicos al rojo vivo, es asumir un riesgo asimétrico completamente desfavorable. ¡No pagues oro por un activo que ya brilla demasiado!
 
-### 3. Señales de alarma técnica y flujos de caja estancados
-Me hace gracia que el colega intente restarle importancia al RSI de **82,54**. Un RSI por encima de 80 no es solo "fuerte impulso", es una **condición de sobrecompra extrema**. Es el equivalente bursátil a correr un maratón a pleno pulmón sin oxígeno: se puede hacer durante unas semanas (como esas 10 semanas de subidas consecutivas que tanto celebran), pero el colapso posterior suele ser igual de vertical. Cuando el precio está tan desconectado de su media móvil de 200 sesiones (situada en los 20,22 EUR), el riesgo de una corrección técnica hacia la media es inminente.
-
-Por si fuera poco, miremos el flujo de caja libre (*Free Cash Flow*). Lejos de dispararse, el FCF ha ido **decayendo** en los últimos años (pasando de 4.253 millones en 2023 a 3.317 millones al cierre de 2025), ahogado por un CapEx masivo superior a los 8.300 millones anuales. Para colmo, el *dividend yield* actual se ha encogido hasta el **2,91%** debido precisamente al rally artificial del precio, mientras que el *payout ratio* se eleva a un peligroso **87,06%**. ¿Compromiso histórico con el accionista? Más bien parece un esfuerzo forzado por sostener el atractivo del dividendo a costa de sacrificar la liquidez orgánica que la empresa necesita para invertir sin endeudarse más.
-
-### Conclusión
-Señores, comprar **`IBE.MC`** a 23,70 EUR hoy en día es comprar en la cúspide de la montaña, ignorando una valoración carísima frente al sector, un potencial de retorno negativo según el consenso, una sobrecompra técnica escandalosa y un entorno macroeconómico de tipos altos que castiga su enorme apalancamiento. No es momento de dejarse cegar por titulares triunfalistas; es el momento de extremar la cautela y mantenerse al margen de nuevas compras.
-
-Rating: SELL
-FINAL TRANSACTION PROPOSAL: HOLD
+**Rating**: SELL  
+FINAL TRANSACTION PROPOSAL: SELL
 
 ### Research Manager
-**Recommendation**: Underweight
+**Recommendation**: Hold
 
-**Rationale**: El debate deja en evidencia una divergencia profunda entre el impulso de corto plazo y los fundamentos de valoración. Por un lado, el analista alcista defiende con razón el liderazgo en renovables, la robustez del EBITDA (16.763 millones de euros) y los máximos históricos alcanzados. Sin embargo, el analista bajista expone argumentos de peso que decantan la balanza: un PER forward de 21,28x que supera en un 25,3% la mediana del sector, un potencial de retorno negativo implícito de -8,99% frente al precio objetivo de consenso (21,57 EUR), un RSI en sobrecompra extrema (82,54), y un entorno macroeconómico complejo con tipos altos que presionan una deuda neta sobre EBITDA de casi 3,95x y un flujo de caja libre decreciente. Ante este desequilibrio entre precio y valor fundamental, el caso bajista gana peso para justificar una reducción de exposición.
+**Rationale**: El debate entre el analista alcista y el bajista expone una tensión clara entre la excelente calidad operativa de Iberdrola, S.A. (`IBE.MC`) y su valoración actual de mercado. Por un lado, el toro defiende con acierto los sólidos fundamentales de la compañía, destacando el incremento de su EBITDA hasta los 16.763 millones de euros al cierre de 2025, un beneficio neto de 6.285 millones y su posición como líder indiscutible en la transición energética con flujos de caja operativos superiores a los 11.600 millones. Por otro lado, el oso aporta argumentos técnicos y de valoración contundentes: `IBE.MC` cotiza en máximos históricos tras diez semanas de subidas a 23,70 EUR, lo que se traduce en un RSI de 82,54 (sobrecompra extrema) y una cotización un -8,99% por encima del precio objetivo medio del consenso (21,57 EUR). Asimismo, el PER forward de 21,28x refleja una prima significativa frente a la mediana del sector (PER relativo de 1,25x), mientras el flujo de caja libre se contrajo a 3.317 millones frente a un CapEx superior a 8.300 millones y una deuda neta/EBITDA de 3,95x en un contexto de inflación en la eurozona del 4%. Sopesando ambas posturas, aunque la calidad del negocio justifica su prima histórica, la sobrecompra técnica extrema y el hecho de cotizar por encima del consenso impiden justificar una compra en este nivel, al igual que los excelentes fundamentales y el impulso alcista actual impiden un posicionamiento vendedor. Por consiguiente, se adopta una postura neutral de mantenimiento.
 
-**Strategic Actions**: Reducir gradualmente la exposición a IBE.MC en un -0.5x frente a la asignación estándar de la cartera, aprovechando la actual sobrecompra técnica y la cotización en máximos de 23,70 EUR. Evitar nuevas aperturas de posiciones largas y vigilar de cerca soportes técnicos clave en la zona de la media móvil de 200 sesiones (20,22 EUR) para evaluar posibles reentradas si la valoración se torna más atractiva.
+**Strategic Actions**: Mantener la asignación actual en cartera sobre `IBE.MC` en un tamaño estándar (1.0x). No realizar nuevas compras en los niveles actuales de 23,70 EUR dado el riesgo derivado de la sobrecompra técnica (RSI de 82,54) y la valoración por encima del objetivo de consenso. Esperar a una corrección técnica hacia las medias móviles (como la SMA20 en 22,32 EUR) o hacia la zona de consenso antes de evaluar un incremento de exposición.
 
 ## III. Trading Team Plan
 
 ### Trader
-**Action**: Sell
+**Action**: Hold
 
-**Reasoning**: La recomendacion bajista del plan de investigacion y la valoracion en primas elevadas frente al sector (PER forward de 21,28x) junto con un RSI en sobrecompra extrema de 82,54 justifican reducir exposicion. Adicionalmente, el precio actual de 23,70 EUR supera el precio objetivo medio del consenso de 21,57 EUR, lo que indica un potencial bajista implícito del -8,99%. Se aconseja tomar beneficios y recortar posiciones aprovechando los máximos históricos alcanzados.
+**Reasoning**: Iberdrola, S.A. (IBE.MC) cotiza en máximos históricos a 23.70 EUR con una condición de sobrecompra extrema (RSI de 82.54) y un precio superior al objetivo medio de consenso de 21.57 EUR. Aunque sus fundamentales y su liderazgo en la transición energética respaldan la calidad de la compañía, la valoración exigente (PER forward de 21.28x) y la divergencia frente al consenso aconsejan mantener la posición existente sin realizar nuevas compras en estos niveles.
 
-**Entry Price**: 23.7
+**Entry Price**: not provided
 
-**Stop Loss**: 25.0
+**Stop Loss**: not provided
 
-**Position Sizing**: Reducir exposicion en -0.5x respecto al peso estandar de cartera
+**Position Sizing**: 1.0x de la asignación estándar en cartera
 
-FINAL TRANSACTION PROPOSAL: **SELL**
+FINAL TRANSACTION PROPOSAL: **HOLD**
 
 ## IV. Risk Management Team Decision
 
 ### Aggressive Analyst
 
-Aggressive Analyst: ¡Es el momento de pisar el acelerador y dejar atrás la extrema cautela! Mientras los analistas conservadores y neutrales se aferran al miedo mirando una falsa barrera en el precio objetivo de consenso de 21,57 EUR o asustándose por un RSI de 82,54, están ignorando por completo el imparable impulso alcista de Iberdrola (`IBE.MC`). ¡Estamos ante un gigante que pulveriza récords y supera los 158.000 millones de euros de capitalización tras encadenar 10 semanas consecutivas de subidas!
+Aggressive Analyst: ¡Vaya manera de asustarse ante la grandeza! Escucho a los analistas conservadores y neutrales temblar ante un RSI de 82.54 y esconderse detrás de un precio objetivo medio de consenso de 21.57 EUR que ya ha quedado totalmente obsoleto frente a la realidad del mercado. ¡Despertad! Los precios objetivos de consenso son una foto fija del pasado, mientras que Iberdrola S.A. (`IBE.MC`) está escribiendo el futuro energético de Europa en tiempo real con una capitalización que ya supera los 158.000 millones de euros. 
 
-Responderé directamente a los argumentos dubitativos de mis compañeros. Al analista conservador, que predica pánico por el PER forward de 21,28x y el supuesto desfase con el consenso de analistas (-8,99%), le digo: ¡el consenso siempre va por detrás de la realidad en los rallies históricos! Las casas de análisis como Bankinter acaban de mejorar sus previsiones tras unos resultados estelares donde los ingresos repuntan hasta los 44.076 millones de euros y el EBITDA asciende con fuerza hasta los 16.763 millones. Pagar una prima frente a la mediana sectorial de 16,98x no es un error; es el peaje justificado por poseer a la eléctrica más diversificada y mejor posicionada del mundo, con una robusta mejora de previsiones que dinamita esos objetivos anticuados. 
+Pretender frenar el impulso de un gigante que encadena diez semanas consecutivas de subidas y cotiza en máximos históricos en los 23.70 EUR solo porque las métricas tradicionales os parecen "exigentes" es renunciar deliberadamente a la verdadera creación de valor. Nos hablan de un PER forward de 21.28x como si fuera un pecado mortal, ignorando por completo que la compañía acaba de reportar un beneficio neto de 6.285 millones de euros al cierre de 2025 y un EBITDA monstruoso de 16.763 millones. ¿De verdad queréis dejar pasar el liderazgo indiscutible en la transición energética y una generación de caja operativa superior a los 11.600 millones anuales por un simple miedo a la volatilidad de corto plazo?
 
-Al analista neutral, que argumenta que debemos quedarnos de brazos cruzados o vender por sobrecompra técnica, le demuestro con datos que su cautela nos hace perder dinero. Un RSI en 82,54 no es una señal de venta automática en una tendencia alcista estructural tan potente; es la prueba irrefutable de una demanda compradora insaciable que empuja el precio muy por encima de la media de 200 sesiones (situada en unos lejanos 20,22 EUR). Con un rendimiento a 12 meses del 36,20% y una fortaleza técnica inquebrantable reflejada en el MACD (0,585 frente a 0,490), pretender recortar posiciones ahora por miedo a la inflación de la eurozona o a la volatilidad macroeconómica es ignorar que Iberdrola tiene la capacidad de trasladar costes, defender sus flujos de caja operativos superiores a los 11.600 millones y seguir retribuyendo al accionista con un dividendo del 2,91%. 
+La cautela excesiva de mis compañeros analistas ignora el contexto macroeconómico real: estamos en un entorno inflacionario en la eurozona que ronda el 4%, donde los tipos reales negativos castigan implacablemente el ahorro estéril. En este escenario, los inversores institucionales no buscan medianías; buscan activos refugio de máxima calidad crediticia que ofrezcan crecimiento estructural y protección contra la devaluación monetaria. El "consensus downside" del -8.99% del que tanto se lamentan no es más que la prueba irrefutable de que `IBE.MC` está superando las expectativas del mercado una y otra vez, obligando a entidades como Bankinter a revisar constantemente sus valoraciones al alza. 
 
-Reducir exposición en un momento de expansión y máximos históricos significa perderse el verdadero tramo de crecimiento parabólico. No nos quedemos rezagados por mirar el retrovisor: ¡aprovechemos esta inercia alcista colosal para maximizar el valor de la cartera!
+Mientras los conservadores se paralizan ante una condición de sobrecompra técnica, los inversores audaces sabemos que una fuerza compradora tan inusitada refleja un momentum imparable y una demanda institucional masiva. El alineamiento perfecto de las medias móviles —con la SMA 20 en 22.32 EUR, la SMA 50 en 21.30 EUR y la SMA 200 en 20.22 EUR— demuestra que la tendencia alcista primaria es blindada y secular. Las correcciones superficiales son para quienes no tienen estómago para ganar en grande. Apostar por la solidez y la innovación de `IBE.MC` manteniendo una posición firme o buscando expansiones agresivas es la única jugada lógica para batir al mercado. ¡Basta de mirar el retrovisor; la verdadera oportunidad está en surfear esta ola histórica de crecimiento!
 
-**Rating**: BULLISH
-
-FINAL TRANSACTION PROPOSAL: **SELL**
+**Rating**: BUY  
+FINAL TRANSACTION PROPOSAL: **BUY**
 
 ### Conservative Analyst
 
-Conservative Analyst: Colega agresivo, entiendo perfectamente el atractivo de subirse a la cresta de la ola cuando un valor como **IBE.MC** rompe récords y supera los 158.000 millones de capitalización tras diez semanas consecutivas de subidas. Sin embargo, llamar "falsa barrera" al precio objetivo medio de consenso de 21,57 EUR y desestimar un RSI en **82,54** es una apuesta imprudente que pone en riesgo el capital de la firma. Los rallies parabólicos basados en el entusiasmo no eliminan la gravedad; simplemente la aplazan. 
+Conservative Analyst: Escucho los argumentos del analista agresivo con total escepticismo, ya que calificar de "miedo" lo que es una estricta gestión profesional del riesgo es una irresponsabilidad financiera mayúscula. Pretender ignorar que Iberdrola, S.A. (`IBE.MC`) cotiza en unos flamantes 23.70 EUR con un RSI extremo de 82.54 y un desfase del -8.99% frente al precio objetivo medio de consenso de 21.57 EUR es cerrar los ojos ante la realidad matemática de los mercados. Defender una compra agresiva en máximos históricos tras diez semanas consecutivas de alzas no es visión de futuro; es especulación ciega que expone a nuestra firma a una corrección técnica inminente. 
 
-Intentar justificar un PER forward de **21,28x** bajo la premisa de que "el consenso siempre va por detrás" es ignorar que estamos pagando una prima del 25,3% frente a la mediana de los comparables del sector en España, cuyo PER forward se sitúa en 16,98x. Cuando un activo cotiza un 8,99% por encima de lo que los analistas consideran razonable y acumula un retorno anual del 36,20%, el margen de seguridad desaparece por completo. Asumir que el crecimiento va a ser infinito sin contabilizar el impacto de un entorno macroeconómico con una inflación en la eurozona anclada en el 4% y tipos de interés restrictivos que encarecen la financiación es un error de bulto. Iberdrola soporta una deuda total cercana a los 63.837 millones de euros y un ratio de endeudamiento neto sobre EBITDA de 3,95x; en un escenario de tipos altos prolongados, el servicio de esa deuda no es trivial, por mucho que el EBITDA alcance los 14.494 millones.
+El colega agresivo descarta el PER forward de 21.28x y el PER histórico de 32.03x como si fueran meros detalles estéticos, olvidando que la compañía soporta una deuda total de 57.231 millones de euros y una ratio de deuda neta sobre EBITDA de 3.95x. En un entorno macroeconómico europeo con una inflación persistente alrededor del 4% y tipos de interés restrictivos que castigan los flujos de caja futuros, sobrepagar por un activo intensivo en capital que ya descuenta todo el optimismo posible es un disparate. Los sólidos fundamentales de Iberdrola, S.A. (`IBE.MC`) —como su EBITDA de 16.763 millones de euros y sus 11.635 millones de caja operativa al cierre de 2025— son indiscutibles, pero la calidad de una empresa no justifica comprar en el punto más álgido de sobrecompra sin margen de seguridad. 
 
-Además, descartar el riesgo técnico de un RSI de 82,54 argumentando que "en tendencias fuertes los osciladores pueden permanecer en niveles extremos" es jugar con fuego. La sobrecompra extrema no es una sugerencia de precaución, es una señal inequívoca de agotamiento alcista a corto plazo donde cualquier corrección menor provocará una toma de beneficios en cascada que dejará atrapados a los compradores tardíos. Proteger el patrimonio significa asegurar las ganancias acumuladas cuando el mercado nos premia en máximos históricos, no mantener una exposición sobreponderada o arriesgarse a tramos parabólicos insostenibles. Recortar posiciones y tomar beneficios aprovechando este optimismo exalta la prudencia y blinda a la cartera frente a giros inesperados de la volatilidad.
+Atribuir la cautela al "miedo" es despreciar el deber fiduciario de proteger el capital contra volatilidades innecesarias. Cuando el mercado opera un 9% por encima de la valoración media de los analistas y los osciladores gritan sobrecompra, la única alternativa sensata para preservar el patrimonio es mantener la disciplina y rechazar la euforia compradora. La estabilidad a largo plazo se construye evitando trampas de valoración, no persiguiendo máximos históricos cegados por el entusiasmo temporal.
 
-**Rating**: BEARISH
-
-FINAL TRANSACTION PROPOSAL: **SELL**
+**Rating**: HOLD
+FINAL TRANSACTION PROPOSAL: **HOLD**
 
 ### Neutral Analyst
 
-Neutral Analyst: Escuchando a ambos lados, veo puntos muy válidos, pero también exageraciones que debemos matizar desde una perspectiva analítica neutral. 
+Neutral Analyst: He estado escuchando atentamente tanto la euforia desmedida de nuestro analista agresivo como la rigidez defensiva del conservador, y creo que ambos están cayendo en posturas extremas que no hacen justicia a la realidad de Iberdrola, S.A. (`IBE.MC`). 
 
-Por un lado, el Analista Agresivo acierta al señalar que Iberdrola (`IBE.MC`) demuestra una fuerza innegable con diez semanas consecutivas de subidas, nuevos máximos históricos y un EBITDA que asciende a 16.763 millones de euros en 2025. Descartar todo este impulso alcista simplemente porque el precio objetivo medio de consenso se sitúa en 21,57 EUR puede llevarnos a salir prematuramente de un activo excelente. Sin embargo, su optimismo raya en la temeridad al minimizar un RSI de 82,54 y una prima de valoración del 25,3% frente a la mediana de los comparables del sector (PER forward de 21,28x frente a 16,98x). Ignorar el riesgo de concentración y sobrecalentamiento técnico en nombre de un supuesto "crecimiento parabólico infinito" es descuidar la gestión básica del riesgo.
+Por un lado, el analista agresivo descarta con demasiada ligereza el riesgo técnico y la valoración exigente. Tildar de "miedo" lo que es una lectura de mercado basada en datos concretos es una temeridad. Ignorar que el RSI está en un nivel extremo de 82.54 y que cotizamos un 8.99% por encima del precio objetivo medio de consenso de 21.57 EUR es cerrar los ojos ante la alta probabilidad de una consolidación a corto plazo. No se puede justificar una compra impulsiva en máximos históricos simplemente apelando al "momentum", especialmente cuando el PER forward se sitúa en 21.28x y la ratio de deuda neta sobre EBITDA roza las 3.95x en un entorno europeo con tipos e inflación persistentes alrededor del 4%.
 
-Por otro lado, el Analista Conservador acierta al recordarnos que la gravedad bursátil existe: cotizar un 8,99% por encima del consenso de los analistas y soportar una deuda total de 63.837 millones de euros en un entorno macroeconómico con una inflación en la eurozona anclada en el 4% y tipos restrictivos no es un detalle menor. No obstante, caer en el pánico y proponer una salida drástica o un sesgo puramente bajista ignora la robustez operativa de la compañía, sus flujos de caja operativos superiores a los 11.600 millones y el soporte estructural a largo plazo de su media móvil de 200 sesiones (20,22 EUR). Vender de manera precipitada por miedo a una corrección menor puede hacer que nos perdamos la estabilidad defensiva que las *utilities* de alta capitalización suelen aportar.
+Por otro lado, el analista conservador se refugia tanto en el pesimismo de los múltiplos que corre el riesgo de paralizar cualquier estrategia de cartera rentable. Pretender que una posición sólida en un gigante de la transición energética con una capitalización superior a los 158.000 millones de euros y un EBITDA de 16.763 millones de euros deba ser tratada con recelo absoluto es ignorar la fortaleza estructural de la compañía. Las correcciones técnicas o las valoraciones elevadas no invalidan la calidad de un activo excelente; simplemente exigen paciencia táctica y una gestión milimétrica del riesgo, no una huida o un bloqueo operativo.
 
-La solución más sensata y equilibrada no es ignorar los avisos técnicos ni liquidar posiciones por pánico, sino adoptar una estrategia moderada de gestión de cartera. En lugar de una venta agresiva o una sobreponderación ciega, propongo recortar de forma parcial y controlada (tal como sugiere la propuesta inicial de reducir la exposición en -0.5x respecto al peso estándar), asegurando parte de las ganancias extraordinarias acumuladas tras una rentabilidad anual del 36,20%, pero manteniendo una presencia táctica en el valor. De este modo, protegemos el capital frente a una potencial consolidación motivada por la sobrecompra técnica, al tiempo que evitamos quedar completamente desposicionados ante la solidez fundamental de un gigante energético líder.
+La postura verdaderamente inteligente y equilibrada no es comprar a ciegas ni tampoco estancarse en el inmovilismo: es mantener la posición existente (HOLD). Esto nos permite surfear la robusta tendencia alcista a largo plazo —respaldada por unas medias móviles impecables donde la SMA 20, 50 y 200 están perfectamente alineadas— sin exponernos al riesgo de sobreallocación en un momento de sobrecompra técnica evidente. En lugar de pecar de soberbia alcista o de miedo paralizante, la prudencia dictamina retener lo que tenemos, observar cómo el mercado absorbe estos máximos históricos y esperar una corrección saludable hacia soportes dinámicos antes de plantearse cualquier ampliación de cartera.
 
-**Rating**: NEUTRAL
-FINAL TRANSACTION PROPOSAL: **SELL**
+**Rating**: HOLD
+FINAL TRANSACTION PROPOSAL: **HOLD**
 
 ## V. Portfolio Manager Decision
 
 ### Portfolio Manager
-**Rating**: Underweight
+**Rating**: Hold
 
-**Executive Summary**: Reducir gradualmente la exposición a IBE.MC en un -0.5x frente a la asignación estándar de la cartera, aprovechando la cotización actual en máximos históricos de 23,70 EUR y el optimismo del mercado. La estrategia busca mitigar los riesgos derivados de una sobrecompra técnica extrema (RSI en 82,54) y una valoración estirada frente al sector, estableciendo un horizonte temporal de mediano plazo.
+**Executive Summary**: Mantener la asignación actual en cartera sobre IBE.MC en un tamaño estándar (1.0x). No se deben realizar nuevas compras en los niveles actuales de 23,70 EUR debido a la sobrecompra técnica extrema (RSI de 82,54) y a una valoración que supera el objetivo medio de consenso.
 
-**Investment Thesis**: La tesis bajista se impone tras sopesar los argumentos del debate, respaldada por fundamentales sólidos pero con desequilibrios evidentes entre precio y valor. Por un lado, el analista alcista destaca con acierto el liderazgo global en renovables, la robustez de los ingresos (44.076 millones de euros) y un EBITDA de 16.763 millones. Sin embargo, los analistas conservador y neutral demuestran de manera contundente que el precio actual de 23,70 EUR supera en un -8,99% el precio objetivo de consenso (21,57 EUR) y cotiza a un PER forward de 21,28x, lo que representa una prima del 25,3% frente a la mediana de los comparables del sector (16,98x). A esto se suman un RSI en sobrecompra extrema (82,54), un entorno macroeconómico complejo con inflación en la eurozona anclada en el 4%, y una elevada deuda neta sobre EBITDA cercana a 3,95x con una deuda total de 63.837 millones de euros. Estos factores restan margen de seguridad e incrementan el riesgo de una toma de beneficios en cascada. La tesis cambiaría si el valor corrigiera hacia la zona de soporte de su media móvil de 200 sesiones (20,22 EUR) o si las métricas de valoración y el entorno de tipos de interés mejoraran sustancialmente.
+**Investment Thesis**: El debate entre los analistas refleja una tensión evidente entre la excelente calidad fundamental de Iberdrola, S.A. (IBE.MC) y los riesgos técnicos y de valoración a corto plazo. Por un lado, el analista agresivo destaca la robustez de los fundamentales con un EBITDA de 16.763 millones de euros, un beneficio neto de 6.285 millones y un sólido liderazgo en la transición energética respaldado por un fuerte impulso alcista y medias móviles alineadas. Por otro lado, los analistas conservador y neutral advierten acertadamente que el valor cotiza en máximos históricos a 23,70 EUR, con un RSI de 82,54 que denota sobrecompra extrema, un PER forward de 21,28x y una cotización un -8,99% por encima del precio objetivo medio del consenso (21,57 EUR), además de una deuda neta sobre EBITDA de 3,95x en un contexto de inflación en la eurozona del 4%. Sopesando los argumentos, la evidencia de sobrecompra y la prima sobre el consenso impiden justificar una compra agresiva en este momento, pero la calidad estructural del negocio y el momentum secular descartan una venta. Por tanto, se adopta una postura de mantenimiento hasta que una corrección técnica brinde un mejor punto de entrada.
 
 **Price Target**: 21.57
 
-**Time Horizon**: 3-6 months
+**Time Horizon**: 3-6 meses

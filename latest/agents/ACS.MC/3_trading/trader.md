@@ -1,11 +1,11 @@
-**Action**: Hold
+**Action**: Buy
 
-**Reasoning**: ACS.MC cotiza a 91.05 EUR, manteniendo una postura neutral con un RSI de 50.06 y operando por debajo de su media móvil de 200 sesiones (108.67 EUR), lo que refleja debilidad técnica. A pesar de contar con fundamentales sólidos como un crecimiento de ingresos del 19.4%, un apalancamiento moderado (deuda neta sobre EBITDA de 1.02x) y un ambicioso plan estratégico a 2030, los márgenes de beneficio neto son ajustados (1.99%) y la inflación persistente en la eurozona genera incertidumbre macroeconómica. Por tanto, se aconseja mantener la posición actual a la espera de una ruptura alcista confirmada de la tendencia o mejores niveles de entrada.
+**Reasoning**: A pesar de la cautela técnica por debajo de la media de 200 sesiones y unos márgenes estrechos, la solidez fundamental de ACS.MC, avalada por un ROE del 25,01%, una deuda neta sobre EBITDA contenida en 1,02x y un flujo de caja libre superior a 2.300 millones de euros, justifica iniciar compras. El potencial alcista frente al precio objetivo de consenso (128,54 EUR) y el respaldo del plan estratégico a 2030 superan los riesgos macroeconómicos de corto plazo, permitiendo acumular gradualmente cerca de los soportes actuales.
 
-**Entry Price**: not provided
+**Entry Price**: 91.05
 
-**Stop Loss**: not provided
+**Stop Loss**: 82.5
 
-**Position Sizing**: 0% de incremento sobre la cartera actual
+**Position Sizing**: 3% de la cartera
 
-FINAL TRANSACTION PROPOSAL: **HOLD**
+FINAL TRANSACTION PROPOSAL: **BUY**

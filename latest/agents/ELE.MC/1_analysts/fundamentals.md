@@ -1,33 +1,38 @@
-Este informe de análisis fundamental sobre **Endesa, S.A. (ELE.MC)** se basa en los datos financieros y de mercado proporcionados con fecha de corte al 13 de noviembre de 2026.
+### Informe de Análisis Fundamental: Endesa, S.A. (ELE.MC)
 
-### Perfil de la Compañía
-Endesa, S.A. es una de las principales empresas del sector *Utilities - Regulated Electric* en España, cotizada en el Mercado Continuo Español (MCE). La compañía opera en un entorno regulado con una capitalización de mercado de aproximadamente 46.660 millones de euros.
+**Fecha de análisis:** 14 de noviembre de 2026
 
-### Análisis Financiero
-*   **Resultados Recientes:** Los estados financieros anuales muestran un aumento en los ingresos de 20.927 millones (2024) a 21.020 millones (2025). El EBITDA también ha mostrado una tendencia positiva, creciendo de 4.949 millones (2024) a 5.314 millones (2025).
-*   **Rentabilidad y Valoración:** La acción cotiza a un ratio Precio/Beneficio (PE) *forward* de 18,99 y presenta un ratio Precio/Libro (P/B) elevado de 5,99. El ROE (Retorno sobre Patrimonio) se sitúa en un sólido 27,2%, lo que indica una gestión eficiente del capital propio.
-*   **Deuda y Flujo de Caja:** La compañía gestiona una deuda total de 11.905 millones de euros con un ratio de Deuda Neta/EBITDA de 2,10x, nivel que se considera manejable dentro del sector regulado. El flujo de caja operativo (4.081 millones) cubre significativamente el gasto de capital (Capex), lo que permite mantener una política de dividendos atractiva (rentabilidad por dividendo del 3,44%).
+#### 1. Perfil y Resumen Ejecutivo
+Endesa, S.A. (**ELE.MC**) es una compañía líder en el sector de servicios públicos (utilities) en España, centrada en la generación, distribución y comercialización de electricidad. Según los datos del 13 de noviembre de 2026, la empresa muestra una capitalización bursátil de aproximadamente 46.660 millones de euros. La cotización al cierre de la última sesión fue de 45,99 EUR, reflejando una tendencia positiva a corto plazo con una rentabilidad del 8,65% en los últimos 21 días.
 
-### Insights para Traders e Inversores
-1.  **Tendencia Técnica:** La acción muestra un fuerte impulso (rendimiento de 252 días del 50,4%) y cotiza por encima de sus medias móviles de 20, 50 y 200 días. Sin embargo, el RSI de 14 días (70,24) sugiere una condición técnica cercana al sobrecomprado, lo que advierte sobre posibles correcciones a corto plazo.
-2.  **Desafío Macroeconómico:** Los titulares recientes (13 de noviembre de 2026) apuntan a una inflación persistente en la zona euro (4%) y tipos de interés que dificultan la moderación de la política monetaria. Esto impacta directamente a empresas intensivas en capital como Endesa, aumentando los costes financieros.
-3.  **Consenso de Analistas:** El precio medio objetivo según el consenso es de 36,69 EUR, lo que implica una **desviación negativa (upside/downside) del -20,22%** respecto al precio actual de 45,99 EUR. Esto sugiere que el mercado considera la acción cara en relación con sus fundamentos proyectados.
+#### 2. Análisis de Salud Financiera e Historial
+Los estados financieros muestran una recuperación y estabilidad notable en la rentabilidad operativa:
+*   **Resultados (Ingresos y EBITDA):** Los ingresos se mantuvieron sólidos en 21.020 millones de euros a cierre de 2025, superando ligeramente los 20.927 millones de 2024. El EBITDA ha experimentado un crecimiento consistente, pasando de 3.324 millones en 2023 a 5.314 millones en 2025.
+*   **Deuda y Solvencia:** La deuda total se sitúa en 11.905 millones de euros (datos al 14/11/2026). La relación Deuda Neta/EBITDA de 2,10x indica una estructura de capital manejable para una empresa del sector regulado.
+*   **Flujo de Caja:** El flujo de caja libre (FCF) reportado para 2025 fue de 2.207 millones de euros, mostrando una mejora respecto a los 1.721 millones de 2024, lo cual respalda su política de dividendos.
 
-### Evidencia y Datos Faltantes
-*   **Datos omitidos:** No se dispone de datos sobre transacciones de *insiders* en el periodo reciente, lo cual es relevante para evaluar la confianza de la directiva. La muestra de noticias no incluye informes específicos de la empresa en la última semana, solo contexto macroeconómico.
-*   **Fuentes:** [Yahoo Finance - ELE.MC](https://finance.yahoo.com/quote/ELE.MC/), [Yahoo Finance - Financials](https://finance.yahoo.com/quote/ELE.MC/financials/).
+#### 3. Valoración y Métricas de Mercado
+*   **Valoración:** La compañía cotiza con un PER (Forward) de 19,02x, lo que, al compararlo con una mediana de sus pares (16,98x), sugiere que la acción podría estar operando con una prima respecto al sector (ratio 1,12).
+*   **Dividendo:** Endesa mantiene una rentabilidad por dividendo del 3,44%, con una tasa de reparto (payout) del 66,55%, lo que la mantiene como una opción atractiva para inversores de renta variable centrados en ingresos.
+*   **Opinión de Analistas:** Existe una divergencia significativa entre el precio actual (45,99 EUR) y el precio objetivo medio del consenso (36,82 EUR), lo que implica una sobrevaloración según los analistas actuales de -19,94%.
 
-**Rating**: HOLD (Debido a la divergencia entre el impulso técnico positivo y el alto valor relativo vs. el precio objetivo del consenso).
+#### 4. Contexto Macroeconómico y Riesgos
+El sector eléctrico está operando bajo la presión de una inflación en la zona euro (reportada en el 4% el 13/11/2026), lo que limita la capacidad de los bancos centrales para moderar los tipos de interés. El riesgo de tipos reales negativos y la volatilidad general del mercado europeo (observada en el desplome de otros sectores como tecnología) podrían afectar el apetito por el riesgo, aunque las *utilities* suelen actuar como valor refugio.
 
-FINAL TRANSACTION PROPOSAL: No trade execution suggested. Any potential position should be considered hypothetical and subject to further risk assessment regarding inflation-linked cost pressures.
+#### 5. Perspectivas Técnicas
+Con un RSI de 70,24, el valor se encuentra en zona de sobrecompra técnica, lo que sugiere cautela ante posibles correcciones de corto plazo, a pesar de que la estructura alcista se mantiene sólida según fuentes de mercado ("Estrategias de Inversión", 13/11/2026).
 
-| Indicador | Valor |
+**Rating**: HOLD
+
+| Métrica | Valor |
 | :--- | :--- |
 | Precio Actual | 45,99 EUR |
-| Market Cap | 46.663 M EUR |
-| PE Forward | 18,98x |
+| PER (Forward) | 19,02x |
 | Dividend Yield | 3,44% |
-| Net Debt/EBITDA | 2,10x |
-| Consenso Target | 36,69 EUR |
-| RSI (14) | 70,24 |
-| ROE | 27,21% |
+| Deuda Neta / EBITDA | 2,10x |
+| Consenso Precio Objetivo | 36,82 EUR |
+| Upside/Downside Consenso | -19,94% |
+
+**Información faltante:** No se dispone de datos de transacciones internas (insider trading) recientes para el periodo actual, lo que impide evaluar la convicción de la dirección en la valoración presente.
+
+FINAL TRANSACTION PROPOSAL: No trade execution suggested. Given the discrepancy between market price and analyst consensus targets, and the RSI indicating overbought conditions, a neutral stance ("Hold") is recommended until technical consolidation occurs.

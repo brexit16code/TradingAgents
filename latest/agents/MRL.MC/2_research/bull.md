@@ -1,23 +1,23 @@
 
-Bull Analyst: Compañeros del mercado, entiendo perfectamente la cautela que inunda el parqué tras los recientes titulares sobre el nuevo decreto de centros de datos que afecta a **MRL.MC**. Es fácil dejarse llevar por el ruido mediático cuando vemos una cifra de "coste extra de 863 millones" flotando en el aire. Sin embargo, como analista que mira más allá del titular sensacionalista, veo una oportunidad de entrada que el mercado está ignorando deliberadamente.
+Bull Analyst: Entiendo perfectamente el escepticismo que rodea a **MRL.MC** en este momento, especialmente tras los titulares sobre el decreto de los centros de datos. Sin embargo, si miramos más allá del ruido mediático inmediato, el caso para ser alcista con **MRL.MC** no solo es defendible, sino que es una oportunidad de valor fundamental que el mercado está pasando por alto.
 
-Aquí están mis razones para ser alcista:
+Aquí está mi caso:
 
-**1. Desconexión entre precio y valor fundamental:**
-Estamos ante una compañía que cotiza a un ratio Precio/Valor Contable de 0,78. El mercado está valorando a **MRL.MC** un 22% por debajo de lo que valen sus activos tangibles. Cuando compras una empresa a este descuento, el margen de seguridad es amplio. El consenso de analistas sitúa el precio objetivo en 17,01 EUR, lo que implica un **potencial alcista del 45,4%**. ¿Realmente creemos que el impacto regulatorio —que aún está sujeto a interpretación y negociación— justifica un descuento tan severo sobre el valor real de sus oficinas y activos logísticos?
+### 1. Descuento irracional frente a valor intrínseco
+El mercado está castigando a **MRL.MC** con un ratio *price-to-book* de 0,82. Estamos hablando de una empresa que gestiona activos de primera categoría, con una generación de *Free Cash Flow* (405 millones EUR en 2025) sólida y creciente. Cuando el consenso de analistas sitúa el precio objetivo en 17,01 EUR, no es solo "optimismo"; es una valoración que reconoce que la cotización actual de 11,70 EUR ignora el valor real del porfolio inmobiliario de la compañía. Comprar a estos niveles es, esencialmente, adquirir activos de alta calidad con un descuento del 18% sobre su valor contable.
 
-**2. Fortaleza operativa más allá del ruido:**
-A pesar de la narrativa bajista, **MRL.MC** presentó unos resultados del tercer trimestre de 2026 que superaron las previsiones. Esto demuestra que el núcleo del negocio es resiliente. La compañía no solo sobrevive, sino que crece. Los ingresos han pasado de 464 millones en 2023 a superar las expectativas actuales, lo cual es una señal clara de que la ocupación y la gestión de sus activos son de primer nivel.
+### 2. Fortaleza Operativa vs. Ruido Político
+Es cierto, el CEO ha criticado duramente el decreto sobre centros de datos y la estimación de 863 millones de euros es un titular llamativo. Pero debemos ser analíticos: en el sector inmobiliario, la regulación es un riesgo constante. La capacidad de **MRL.MC** para superar las previsiones de ingresos en el 3T 2026 demuestra que su modelo de negocio central —oficinas y logística premium— es resiliente. La empresa no es solo su gestión de centros de datos; es una plataforma diversificada. El mercado está usando esta incertidumbre como una excusa para liquidar posiciones, creando un punto de entrada inmejorable para inversores a largo plazo.
 
-**3. Refutación al argumento del riesgo regulatorio:**
-El "oso" dirá que esos 863 millones son una sentencia. Yo digo que es una táctica de presión política. El CEO de **MRL.MC** está defendiendo los intereses de sus accionistas mediante una crítica pública contundente; eso es exactamente lo que queremos ver en un equipo gestor. Históricamente, este tipo de decretos son objeto de modificaciones o periodos de transición tras las negociaciones. ¿Es sensato castigar a una empresa con una capitalización de más de 7.200 millones por una estimación de costes que aún no se ha materializado en el balance? El mercado está vendiendo la noticia antes de conocer el desenlace final.
+### 3. Salud Financiera
+¿Por qué ser alcista cuando el entorno de tipos es complejo? Porque **MRL.MC** mantiene un *payout ratio* conservador (14,63%). Esto demuestra disciplina financiera. A diferencia de competidores más apalancados, la estructura de capital de la compañía es sólida. La generación de efectivo está ahí; la empresa no está quemando caja, está operando eficientemente en un entorno hostil.
 
-**4. Rentabilidad y Disciplina:**
-Mientras esperamos que el mercado corrija esta anomalía, **MRL.MC** sigue retribuyendo al accionista. Ese dividendo de 0,20 EUR que llega el 10 de diciembre es una prueba de confianza de la directiva en su flujo de caja libre, que alcanzó los 405 millones de euros al cierre de 2025.
+### Refutación al argumento bajista
+El oso dirá que "el riesgo regulatorio es inasumible". Yo respondo: **¿Es realmente inasumible, o es una negociación táctica?** Históricamente, las grandes SOCIMIs han enfrentado fricciones con los gobiernos locales y nacionales, y estas siempre terminan en ajustes que permiten la viabilidad del negocio. La estimación del "peor escenario" de 863 millones de euros es una postura de presión. Incluso si el coste fuera significativo, la escala de los activos de **MRL.MC** permite una flexibilidad operativa que muchas otras empresas del sector envidiarían. Además, la inflación al 4% en la Eurozona no es solo un lastre; para una SOCIMI, es una protección natural, ya que los contratos de alquiler suelen estar vinculados al IPC.
 
 **Conclusión:**
-La tendencia técnica bajista actual es una oportunidad para acumular calidad a precios de saldo. La inflación en la zona euro es un reto para todos, pero las empresas con activos inmobiliarios de alta calidad en ubicaciones estratégicas son, por definición, el mejor refugio contra la erosión del valor del dinero. No caigamos en la trampa de vender en el punto de máximo pesimismo. **MRL.MC** es una joya infravalorada que está siendo castigada injustamente por el miedo.
+Estamos ante una dislocación de mercado. Los fundamentales financieros muestran crecimiento (16,6% en ganancias), pero el precio está atrapado por un miedo regulatorio que ya está, en gran medida, descontado en la caída del 25,7% que ha sufrido el título. La paciencia será recompensada cuando el mercado se dé cuenta de que el valor real de los activos es mucho mayor de lo que sugiere el pánico actual.
 
 **Rating**: BUY
 
-FINAL TRANSACTION PROPOSAL: Long position accumulation at current levels, targeting a recovery toward the book value of 14.99 EUR and eventually aligning with the consensus target of 17.01 EUR.
+FINAL TRANSACTION PROPOSAL: Acumular posiciones de manera escalonada en los niveles actuales, aprovechando el descuento sobre valor contable y preparándose para una recuperación hacia la media móvil de 200 días (13,90 EUR) conforme se aclare el marco regulatorio.

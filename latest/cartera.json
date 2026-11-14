@@ -12,7 +12,7 @@
     "dividends": "Brutos devengados en exfecha; separados del efectivo y sin reinversión."
   },
   "started_at": "2026-11-01T15:07:55.196232+01:00",
-  "updated_at": "2026-11-13T21:44:45.562378+01:00",
+  "updated_at": "2026-11-14T21:35:59.048450+01:00",
   "cursor": "2026-11-13",
   "cash": 2092.72,
   "positions": {
@@ -235,7 +235,8 @@
       "requested_at": "2026-11-13T21:44:45.562378+01:00",
       "after": "2026-11-13",
       "source": "paper-history/2026-11-13_82296e0b8c707bc3b72479ed.json",
-      "status": "pending"
+      "status": "cancelled",
+      "note": "Una señal posterior sustituye la orden pendiente."
     }
   ],
   "trades": [
@@ -394,14 +395,22 @@
       "id": "82296e0b8c707bc3b72479ed",
       "observed_at": "2026-11-13T21:44:45.562378+01:00",
       "path": "paper-history/2026-11-13_82296e0b8c707bc3b72479ed.json"
+    },
+    {
+      "report_date": "2026-11-14",
+      "generated_at": "2026-11-14T20:25:54.324811+01:00",
+      "universe_verified": true,
+      "id": "124181781933919da66ab756",
+      "observed_at": "2026-11-14T21:35:59.048450+01:00",
+      "path": "paper-history/2026-11-14_124181781933919da66ab756.json"
     }
   ],
   "latest_signals": [
     {
       "ticker": "ACS.MC",
       "name": "ACS",
-      "rating": "Hold",
-      "action": "HOLD",
+      "rating": "Overweight",
+      "action": "BUY",
       "model": "gemini-3.5-flash-lite",
       "price_date": "2026-11-13",
       "close": 91.05000305175781
@@ -427,8 +436,8 @@
     {
       "ticker": "AMS.MC",
       "name": "Amadeus",
-      "rating": "Overweight",
-      "action": "BUY",
+      "rating": "Hold",
+      "action": "HOLD",
       "model": "gemini-3.5-flash-lite",
       "price_date": "2026-11-13",
       "close": 62.15999984741211
@@ -436,8 +445,8 @@
     {
       "ticker": "ANA.MC",
       "name": "Acciona",
-      "rating": "Underweight",
-      "action": "SELL",
+      "rating": "Hold",
+      "action": "HOLD",
       "model": "gemini-3.1-flash-lite",
       "price_date": "2026-11-13",
       "close": 203.0
@@ -463,8 +472,8 @@
     {
       "ticker": "BKT.MC",
       "name": "Bankinter",
-      "rating": "Hold",
-      "action": "HOLD",
+      "rating": "Overweight",
+      "action": "BUY",
       "model": "gemini-3.5-flash-lite",
       "price_date": "2026-11-13",
       "close": 14.640000343322754
@@ -499,8 +508,8 @@
     {
       "ticker": "ELE.MC",
       "name": "Endesa",
-      "rating": "Hold",
-      "action": "HOLD",
+      "rating": "Underweight",
+      "action": "SELL",
       "model": "gemini-3.1-flash-lite",
       "price_date": "2026-11-13",
       "close": 45.9900016784668
@@ -508,8 +517,8 @@
     {
       "ticker": "ENG.MC",
       "name": "Enagás",
-      "rating": "Underweight",
-      "action": "SELL",
+      "rating": "Hold",
+      "action": "HOLD",
       "model": "gemini-3.5-flash-lite",
       "price_date": "2026-11-13",
       "close": 18.399999618530273
@@ -553,8 +562,8 @@
     {
       "ticker": "IBE.MC",
       "name": "Iberdrola",
-      "rating": "Underweight",
-      "action": "SELL",
+      "rating": "Hold",
+      "action": "HOLD",
       "model": "gemini-3.5-flash-lite",
       "price_date": "2026-11-13",
       "close": 23.700000762939453
@@ -670,8 +679,8 @@
     {
       "ticker": "SAN.MC",
       "name": "Banco Santander",
-      "rating": "Overweight",
-      "action": "BUY",
+      "rating": "Hold",
+      "action": "HOLD",
       "model": "gemini-3.1-flash-lite",
       "price_date": "2026-11-13",
       "close": 11.09000015258789
@@ -688,8 +697,8 @@
     {
       "ticker": "SLR.MC",
       "name": "Solaria",
-      "rating": "Hold",
-      "action": "HOLD",
+      "rating": "Overweight",
+      "action": "BUY",
       "model": "gemini-3.1-flash-lite",
       "price_date": "2026-11-13",
       "close": 15.75

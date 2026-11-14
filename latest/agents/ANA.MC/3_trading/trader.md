@@ -1,11 +1,11 @@
-**Action**: Sell
+**Action**: Hold
 
-**Reasoning**: La estructura financiera de Acciona muestra un deterioro preocupante con un apalancamiento excesivo (6.14x Net Debt/EBITDA) y un flujo de caja libre negativo, exacerbado por la reciente decisión de inyectar liquidez en su filial en lugar de reducir deuda. Con el precio cotizando por debajo de todas las medias móviles clave y un sentimiento de mercado muy negativo tras los anuncios del 13 de noviembre, la recomendación 'Underweight' del plan de inversión justifica una salida estratégica para proteger capital ante la alta volatilidad.
+**Reasoning**: El activo presenta una tendencia bajista clara al cotizar por debajo de todas sus medias móviles principales y ha reaccionado negativamente a problemas de deuda y operativos. Dada la alta ratio de apalancamiento (6,14x) en un contexto de tipos de interés persistentes y la falta de un soporte técnico sólido tras la caída del 8%, es prudente esperar a que la volatilidad se reduzca y el RSI se acerque a niveles de sobreventa antes de considerar cualquier entrada.
 
-**Entry Price**: 211.0
+**Entry Price**: 190.0
 
-**Stop Loss**: 225.0
+**Stop Loss**: 185.0
 
-**Position Sizing**: Reducción de la posición actual
+**Position Sizing**: Reducida, máximo 2% de la cartera
 
-FINAL TRANSACTION PROPOSAL: **SELL**
+FINAL TRANSACTION PROPOSAL: **HOLD**
