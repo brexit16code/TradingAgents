@@ -1,35 +1,31 @@
-### Informe de Situación: ArcelorMittal (MTS.MC) y Entorno Macroeconómico
+### Informe de Análisis: ArcelorMittal (MTS.MC)
 
-**Análisis de Situación: ArcelorMittal (MTS.MC)**
+**Contexto de Mercado y Análisis de MTS.MC**
 
-A fecha de 14 de noviembre de 2026, ArcelorMittal (MTS.MC) cotiza a **57,02 EUR**, reflejando una corrección reciente del 3,03%. La acción muestra una volatilidad del 32,99% y un comportamiento mixto desde una perspectiva técnica: el precio se encuentra por encima de su media móvil de 200 sesiones (55,67 EUR), lo que sugiere una tendencia estructural de largo plazo aún resiliente, a pesar de que el retorno de los últimos 252 días (+69,96%) ha dado paso a una debilidad a corto plazo (retorno de 63 días del -7,47%).
+ArcelorMittal (MTS.MC) presenta un panorama complejo ante un entorno macroeconómico en la eurozona caracterizado por una inflación persistente (4% a fecha de 13 de noviembre de 2026), lo que ha reducido las expectativas de una moderación rápida en los tipos de interés. Esta coyuntura afecta directamente a los sectores cíclicos como el acero, al encarecer el coste de capital y presionar la demanda industrial.
 
-**Fundamentos y Valoración**
-La valoración presenta una divergencia significativa entre el PER *trailing* (48,32x) y el PER *forward* (10,31x), lo que indica que el mercado anticipa una mejora sustancial en los beneficios futuros. El valor en libros por acción es de 63,98 EUR, lo que implica que la empresa cotiza con un descuento respecto a su valor contable (P/B ratio 0,89x). Sin embargo, el flujo de caja libre es negativo (-802,87 millones EUR), y la empresa enfrenta una carga de deuda neta sobre EBITDA de 2,08x, lo cual es manejable pero requiere monitoreo dado el entorno de tipos de interés persistentes en la Eurozona.
+**Análisis Fundamental y Técnico**
+*   **Valoración:** La compañía cotiza a 57,02 EUR (al 13/11/2026), mostrando una caída del 3,03% en la última sesión. El *forward P/E* de 10,31 sugiere una valoración más atractiva que su *trailing P/E* de 48,32, reflejando expectativas de recuperación en las ganancias por acción (EPS forward de 5,53).
+*   **Balance:** La empresa mantiene un nivel de deuda neta sobre EBITDA de 2,08, lo cual es manejable dentro de su sector, pero su flujo de caja libre es negativo (-802,88 millones de EUR), lo que indica una presión significativa debido a sus inversiones de capital (CAPEX) y la volatilidad del sector.
+*   **Situación Técnica:** MTS.MC se encuentra operando cerca de su media móvil de 200 días (55,67 EUR), lo que representa una zona de soporte crítica. Con un RSI de 51,52, el valor muestra una neutralidad técnica, sugiriendo que no está ni sobrecomprado ni sobrevendido.
 
-**Entorno Macroeconómico y Riesgos**
-La coyuntura macroeconómica actual, tal como sugieren los titulares del 13 y 14 de noviembre de 2026, está marcada por una inflación persistente en la zona euro (cercana al 4%), lo que invalida expectativas de moderación en la política monetaria. Este escenario de tipos reales negativos y presión inflacionaria es adverso para sectores cíclicos como el del acero, ya que incrementa los costes operativos y debilita la demanda final industrial. Además, la reciente debilidad de empresas tecnológicas europeas y las reacciones tras los procesos electorales de mitad de mandato (según informes de *Estrategias de Inversión* del 13 de noviembre) aumentan la aversión al riesgo en los mercados bursátiles.
+**Entorno Macroeconómico**
+La eurozona enfrenta un escenario de "tipos reales negativos" donde el ahorro pierde valor, según reportes del 14 de noviembre de 2026 (Vozpópuli, Estrategias de Inversión). La inflación del 4% actúa como una barrera para el estímulo monetario, lo que presiona a la baja a empresas industriales dependientes de la actividad económica global. Las recientes caídas en empresas como Nokia e Infineon (negocios.com, 13/11/2026) reflejan el nerviosismo del mercado ante la rigidez de los precios.
 
-**Resumen de Evidencia y Datos Faltantes**
-*   **Fortalezas:** Valoración atractiva frente al *forward EPS* (5,53 EUR) y posicionamiento sobre la media móvil de 200 días.
-*   **Debilidades:** Flujo de caja libre negativo y márgenes de beneficio estrechos (1,64%).
-*   **Datos Faltantes:** Falta información sobre proyecciones de crecimiento específicas de la demanda de acero en mercados emergentes y un desglose detallado del impacto del coste de energía proyectado para 2027 bajo el escenario actual de inflación europea.
+**Evidencia de apoyo y contraria**
+*   **Apoyo:** El *forward P/E* de 10,31 y el hecho de que el precio actual esté cerca de la media de 200 días (55,67 EUR) sugiere que la acción podría estar encontrando un suelo fundamental.
+*   **Contraria:** La caída reciente del 3% y el flujo de caja libre negativo indican que la empresa sigue bajo estrés operativo, mientras que la persistencia inflacionaria en Europa limita el potencial de expansión de márgenes a corto plazo.
 
----
+**Datos faltantes:** No se dispone de las proyecciones detalladas de crecimiento de dividendos a largo plazo ni de un desglose geográfico actualizado del impacto de la inflación por mercado específico.
 
-### Tabla Resumen de Datos Clave
-
-| Indicador | Valor / Estado | Nota |
+| Indicador | Valor | Nota |
 | :--- | :--- | :--- |
-| Precio Cierre (MTS.MC) | 57,02 EUR | Retorno 252 días: +69,96% |
-| PER Forward | 10,31x | Sugiere recuperación de beneficios |
-| Deuda Neta / EBITDA | 2,08x | Riesgo financiero controlado |
-| Dividend Yield | 0,95% | Política de retorno moderada |
-| Consenso Analistas | 59,10 EUR | Upside del 3,65% |
-| Riesgo Macro | Elevado | Inflación zona euro (~4%) presiona tipos |
+| Precio Cierre (13/11/26) | 57,02 EUR | Tendencia bajista reciente (-3,03%) |
+| Forward P/E | 10,31 | Indica valoración atractiva futura |
+| Net Debt/EBITDA | 2,08 | Apalancamiento dentro de límites operativos |
+| Dividend Yield | 0,95% | Retribución modesta al accionista |
+| RSI (14) | 51,52 | Situación técnica neutral |
 
----
+**Rating**: HOLD
 
-**Rating**: REVIEW
-
-FINAL TRANSACTION PROPOSAL: No trade recommendation; the asset requires a stabilization of the Eurozone inflation trend and a positive shift in free cash flow generation before considering a position.
+FINAL TRANSACTION PROPOSAL: No action recommended; maintain current position pending further stabilization of Eurozone inflation data and potential support confirmation at the 55 EUR level.

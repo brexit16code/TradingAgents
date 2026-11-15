@@ -1,45 +1,81 @@
-**Análisis Fundamental de Iberdrola, S.A. (`IBE.MC`)**
+**Rating**: REVIEW
 
-**1. Perfil de la Empresa y Contexto de Negocio**
-Iberdrola, S.A. (`IBE.MC`) es una de las mayores empresas energéticas del mundo, clasificada dentro del sector de **Utilities (Utilities - Diversified)** y cotizando en la Bolsa de Madrid (MCE) en euros (EUR). Con una capitalización bursátil récord que supera los **158.000 millones de euros** (snapshot del 14/11/2026), la compañía se encuentra cotizando en máximos históricos tras encadenar 10 semanas consecutivas de subidas apalancadas en sus sólidos resultados y la mejora de perspectivas de los analistas (como las revisiones al alza de Bankinter tras sus publicaciones recientes de noviembre de 2026).
+# Informe Fundamental y Análisis de `IBE.MC` (Iberdrola, S.A.)
 
-**2. Análisis de los Estados Financieros Históricos (2023 - 2025)**
-Los datos financieros extraídos de los estados contables oficiales muestran una evolución positiva y resiliente:
+**Fecha del informe:** 15 de noviembre de 2026  
+**Ticker:** `IBE.MC` (Bolsa de Madrid, EUR)  
+**Identidad resuelta:** Iberdrola, S.A. | Utilidades / Utilidades - Diversificadas  
 
-*   **Cuenta de Resultados (Ingresos, EBITDA y Net Income):**
-    *   *2023:* Total Revenue de 49.335M€, EBITDA de 14.906M€ y Net Income de 4.803M€.
-    *   *2024:* Total Revenue de 42.988M€, EBITDA de 15.192M€ y Net Income de 5.612M€.
-    *   *2025:* Total Revenue de 44.076M€, EBITDA de 16.763M€ y Net Income de 6.285M€.
-    *   *Tendencia:* Se observa un crecimiento sostenido en la rentabilidad neta y del EBITDA a pesar de la fluctuación en los ingresos brutos totales, reflejando una mayor eficiencia operativa y un control de márgenes robusto (profit margins del 14,74%).
-*   **Balance de Situación:**
-    *   *Activos Totales:* Pasaron de 150.033M€ en 2023 a 160.762M€ al cierre de 2025.
-    *   *Patrimonio Neto (Stockholders Equity):* Incremento continuo desde 43.111M€ (2023) hasta 50.068M€ (2025), fortaleciendo la solvencia patrimonial.
-    *   *Deuda Total:* Se ha situado en 57.231M€ al cierre de 2025 (la ratio de deuda neta sobre EBITDA se sitúa en torno a 3,95x).
-*   **Flujo de Caja (Cash Flow):**
-    *   *2023:* Operating Cash Flow de 12.130M€, CapEx de -7.877M€ (Free Cash Flow de 4.253M€).
-    *   *2024:* Operating Cash Flow de 11.925M€, CapEx de -8.375M€ (Free Cash Flow de 3.550M€).
-    *   *2025:* Operating Cash Flow de 11.635M€, CapEx de -8.318M€ (Free Cash Flow de 3.317M€).
-    *   *Tendencia:* Generación de caja operativa robusta por encima de los 11.600 millones anuales, aunque con un flujo de caja libre ligeramente constreñido por un ambicioso plan de inversiones (CapEx superior a los 8.300M€ anuales).
+---
 
-**3. Valoración y Múltiplos Fundamentales**
-*   **PER (Trailing P/E):** 32,03x
-*   **PER Adelantado (Forward P/E):** 21,28x (con un Forward EPS estimado de 1,11€).
-*   **Ratio frente a Peers:** El ratio de valoración sectorial indica un PER relativo superior frente a la mediana de sus comparables (`ANE.MC`, `ENG.MC`, `ELE.MC`, `NTGY.MC`, `RED.MC`, `SLR.MC`), concretamente de 1,25x, lo que evidencia que el mercado premia su calidad, diversificación geográfica y perfil defensivo.
-*   **Precio a Valor en Libros (Price-to-Book):** 3,06x (con un valor en libros por acción de 7,74€).
-*   **Rentabilidad por Dividendo (Dividend Yield):** 2,87% (con un dividendo rate de 0,68€ y un payout ratio del 87,06%).
-*   **Consenso de Analistas:** El precio objetivo medio de consenso se sitúa en 21,57€ (con un rango entre un mínimo de 18,00€ y un máximo de 26,00€ a partir de 24 opiniones de analistas), lo que representa una **consensual upside/downside de -8,99%** respecto al precio de cotización actual en los 23,70€ (al 13/11/2026), debido al fuerte rally alcista reciente que ha superado las previsiones medias previas.
+## 1. Perfil de la Compañía y Contexto de Mercado
+Iberdrola, S.A. (`IBE.MC`) es uno de los líderes globales en el sector energético y de servicios públicos diversificados (*Utilities - Diversified*), con una capitalización de mercado que supera los **158.000 millones de euros** (`157.324.017.664 EUR` según el último *snapshot*). 
 
-**4. Información Técnica Reciente y Noticiario (Semana al 14/11/2026)**
-*   **Precio actual:** 23,70 € (con una subida diaria del +1,54%).
-*   **Indicadores Técnicos:** RSI de 14 en zona de sobrecompra clara (82,54), MACD positivo (0,585), cotizando holgadamente por encima de sus medias móviles de 20, 50 y 200 sesiones (SMA20: 22,32€; SMA50: 21,29€; SMA200: 20,22€). Ausencia total de retroceso reciente (drawdown del 0,0%).
-*   **Noticias Relevantes:**
-    *   *Valencia Plaza y El Boletín (13/11/2026):* Informan que Iberdrola alcanza nuevos máximos históricos en bolsa impulsada por 10 semanas consecutivas de alzas y superando los 158.000 millones de capitalización.
-    *   *MarketScreener España / Finanzas.com (11/11/2026 - 12/11/2026):* Destacan la revisión al alza de precios objetivos por parte de entidades como Bankinter tras los resultados y la solidez de su política de retribución al accionista.
-    *   *Contexto Macro:* Entorno europeo marcado por presiones inflacionarias (inflación de la eurozona rondando el 4% en noviembre de 2026) y tipos reales negativos, lo que refuerza el atractivo de valores refugio y utilities de alta capitalización como `IBE.MC`.
+Recientemente, la acción ha alcanzado nuevos máximos históricos en la Bolsa de Madrid, encadenando 10 semanas consecutivas de subidas. Al cierre del 13 de noviembre de 2026, cotiza a **23,70 EUR**, impulsada por sólidos resultados corporativos y revisiones al alza en las previsiones de entidades como Bankinter, así como por su atractivo dividendo.
 
-**5. Datos Faltantes**
-*   No se dispone de desglose detallado de transacciones de insiders (insider transactions) en el snapshot analizado.
-*   Las cifras de flujos de caja operativos y libres desglosados en el último periodo trimestral intermedio exacto muestran valores nulos o no reportados directamente en las métricas de resumen operativo, aunque sí constan en los cierres anuales auditados hasta 2025.
+---
 
-**6. Insights Accionables para Traders**
-*   **Riesgo de Corto Plazo (Técnico):** El valor se halla en un estado de sobrecompra técnica muy acusada (RSI > 82), cotizando un ~9% por encima del precio objetivo medio del consenso de analistas (21,57€).
+## 2. Análisis Financiero y de Estados Contables
+
+### 2.1. Cuenta de Resultados (*Income Statement*)
+Los ingresos y la rentabilidad de Iberdrola muestran una trayectoria de crecimiento sostenido en los últimos ejercicios fiscales:
+* **Ingresos Totales (*Total Revenue*):**
+  * Ejercicio 2023: `49.335.000.000 EUR`
+  * Ejercicio 2024: `42.988.000.000 EUR`
+  * Ejercicio 2025: `44.076.000.000 EUR` (con un crecimiento interanual de ingresos del `15,9%`).
+* **EBITDA:**
+  * Ejercicio 2023: `14.906.000.000 EUR`
+  * Ejercicio 2024: `15.192.000.000 EUR`
+  * Ejercicio 2025: `16.763.000.000 EUR` (actualmente con un EBITDA consolidado de `14.493.949.952 EUR` en métricas dinámicas).
+* **Beneficio Neto (*Net Income*):**
+  * Ejercicio 2023: `4.803.000.000 EUR`
+  * Ejercicio 2024: `5.612.000.000 EUR`
+  * Ejercicio 2025: `6.285.000.000 EUR`
+  * *Nota de crecimiento:* El indicador de crecimiento de beneficios (*earnings growth*) reporta un ` -13,4%` en ciertas bases comparativas recientes, pese al incremento del beneficio neto de 2025.
+
+### 2.2. Balance de Situación (*Balance Sheet*)
+La estructura patrimonial de la compañía refleja una sólida base de activos respaldada por deuda financiera a largo plazo propia del sector intensivo en capital:
+* **Activos Totales (*Total Assets*):**
+  * Ejercicio 2023: `150.033.000.000 EUR`
+  * Ejercicio 2024: `158.293.000.000 EUR`
+  * Ejercicio 2025: `160.762.000.000 EUR`
+* **Patrimonio Neto (*Stockholders Equity*):**
+  * Ejercicio 2023: `43.111.000.000 EUR`
+  * Ejercicio 2024: `47.125.000.000 EUR`
+  * Ejercicio 2025: `50.068.000.000 EUR`
+* **Deuda Total y Apalancamiento:**
+  * Deuda total: `63.836.999.680 EUR` (con una deuda total en balance de `57.231.000.000 EUR` al cierre de 2025).
+  * Efectivo total: `6.633.999.872 EUR`.
+  * **Ratio Deuda Neta / EBITDA:** `3,95x` (`3.9466`), lo cual indica un nivel de apalancamiento moderado y manejable para una eléctrica integrada de gran escala, aunque requiere supervisión en entornos de tipos de interés elevados.
+
+### 2.3. Flujo de Caja (*Cash Flow*)
+La capacidad de generación de caja operativa se mantiene estable por encima de los 11.000 millones de euros anuales, financiando un ambicioso plan de inversiones (*CapEx*):
+* **Flujo de Caja Operativo (*Operating Cash Flow*):**
+  * Ejercicio 2023: `12.130.000.000 EUR`
+  * Ejercicio 2024: `11.925.000.000 EUR`
+  * Ejercicio 2025: `11.635.000.000 EUR`
+* **Inversión de Capital (*CapEx*):**
+  * Ejercicio 2023: `-7.877.000.000 EUR`
+  * Ejercicio 2024: `-8.375.000.000 EUR`
+  * Ejercicio 2025: `-8.318.000.000 EUR`
+* **Flujo de Caja Libre (*Free Cash Flow*):**
+  * Ejercicio 2023: `4.253.000.000 EUR`
+  * Ejercicio 2024: `3.550.000.000 EUR`
+  * Ejercicio 2025: `3.317.000.000 EUR`
+
+---
+
+## 3. Valoración y Métricas Bursátiles
+* **PER Trailing:** `32,03x`
+* **PER Forward:** `21,28x`
+* **Ratio Precio / Valor en Libros (*Price to Book*):** `3,06x`
+* **EV / EBITDA:** `15,40x`
+* **Rentabilidad por Dividendo (*Dividend Yield*):** `2,87%` (`0,68 EUR` por acción de dividendo ordinario), con un *payout ratio* del `87,06%`.
+* **Valoración relativa sectorial:** El PER forward de `IBE.MC` (`21,28x`) se sitúa por encima de la mediana de sus pares comparables (`16,98x`), arrojando un ratio de PER relativo de `1,25`, lo que indica que cotiza con prima frente al sector debido a su perfil de calidad, diversificación geográfica y liderazgo en renovables.
+
+### Consenso de Analistas y Perspectiva de Precio
+* **Precio Objetivo Medio:** `21,57 EUR`
+* **Precio Objetivo Mínimo:** `18,00 EUR`
+* **Precio Objetivo Máximo:** `26,00 EUR`
+* **Número de Opiniones:** 24 analistas.
+* **Potencial de Valoración (*Consensus Upside*):** `-8,99%` respecto al precio actual de `23,70 EUR

@@ -1,47 +1,44 @@
 **Rating**: HOLD  
-FINAL TRANSACTION PROPOSAL: Mantener posición / Esperar consolidación (No ejecutar ninguna orden de compra o venta en firme sin supervisión o retroceso adicional).
+FINAL TRANSACTION PROPOSAL: Mantener posición actual con cautela, vigilando soportes técnicos de corto plazo y la resistencia del consenso en 59.90 EUR.
 
 ---
 
-### Informe de Análisis Técnico y Fundamental: Ferrovial N.V. (`FER.MC`)
+### Informe Técnico y Fundamental de Ferrovial N.V. (`FER.MC`)
 
-#### 1. Contexto de Mercado y Datos Actuales
-Con fecha de referencia a 13 de noviembre de 2026, la cotización de Ferrovial N.V. (`FER.MC`) en la bolsa de Madrid se sitúa en **55.62 EUR** (`adjusted_close`: 55.62 EUR), experimentando una variación diaria del +0.40%. La capitalización bursátil de la compañía asciende aproximadamente a 39.970 millones de euros. 
+#### 1. Contexto de Mercado y Estado Actual
+A fecha de 15 de noviembre de 2026, las acciones de **Ferrovial N.V.** (`FER.MC`), cotizadas en el mercado principal de Madrid (`MCE`) en EUR, registran un precio de cierre de **55.62 EUR** (sesión del 13 de noviembre de 2026). La compañía opera en el sector industrial, específicamente en Ingeniería y Construcción, con una capitalización bursátil aproximada de **39.970 millones de EUR**.
 
-El contexto macroeconómico reciente muestra presiones inflacionistas en la zona euro (con la inflación rondando el 4% según datos de noviembre de 2026 publicados por *El Economista* y *Negocios.com*), lo cual limita la moderación en los tipos de interés e impacta en las rentabilidades de los bonos (como señala un informe de RBC recogido por *Bolsamania* el 13 de noviembre de 2026, donde se bajó ligeramente el precio objetivo de Ferrovial debido al encarecimiento de los tipos reales y de los bonos).
+El contexto macroeconómico reciente viene marcado por la persistencia de tensiones inflacionistas en la eurozona (con lecturas cercanas al 4% anual según noticias de mediados de noviembre de 2026) y la consecuente cautela de los inversores ante la evolución de los tipos de interés reales y los rendimientos de los bonos soberanos (mencionado por RBC al recortar ligeramente su precio objetivo por el alza de rentabilidades).
 
-#### 2. Análisis Técnico e Indicadores Seleccionados
-De acuerdo con las directrices de selección de indicadores no redundantes y complementarios para el análisis técnico de `FER.MC`:
+---
 
-*   **`close_50_sma` (50 SMA - 47.57 EUR) y `close_200_sma` (200 SMA - 54.28 EUR):** La media móvil de 50 sesiones se encuentra claramente por debajo de la cotización actual, confirmando la solidez de la tendencia alcista a medio plazo. Por su parte, el precio cotiza ligeramente por encima de la media de 200 sesiones (54.28 EUR), estableciendo esta última como un soporte estructural de largo plazo clave.
-*   **`close_10_ema` (10 EMA):** Proporciona agilidad para capturar los movimientos de corto plazo, encontrándose en consonancia con el fuerte rally reciente.
-*   **`macd` (2.42) y `macds` (1.68) / `macdh`:** El MACD se sitúa en terreno positivo y por encima de su línea de señal (`macds`), mostrando que el impulso comprador sigue activo, aunque el histograma (`macdh`) exige vigilancia ante posibles divergencias dado el acelerado ritmo del activo.
-*   **`rsi` (RSI de 14 periodos en 81.83):** Este indicador muestra una **condición de sobrecompra extrema** (lectura superior a 70). Si bien en tendencias muy fuertes los valores pueden mantenerse elevados durante un tiempo, estadísticamente incrementa el riesgo de una corrección técnica o fase de consolidación a corto plazo.
-*   **`atr` (Volatilidad del 30.08%):** Refleja una volatilidad anualizada moderada-alta, lo que requiere ajustar los niveles de *stop-loss* y dimensionar adecuadamente el riesgo ante la cercanía de resistencias analíticas.
+#### 2. Análisis Técnico
+El comportamiento técnico reciente de `FER.MC` refleja un fuerte sesgo alcista a corto plazo, condicionado por lecturas extremas de sobrecompra:
+- **Precio y Medias Móviles**: El valor cotiza por encima de su media móvil de 20 sesiones (`sma20` en **49.48 EUR**) y de la media de 50 sesiones (`sma50` en **47.57 EUR**), situándose asimismo por encima de su media de largo plazo de 200 sesiones (`sma200` en **54.28 EUR**). Esto confirma una estructura alcista sostenida a medio y largo plazo.
+- **RSI (14)**: Se sitúa en **81.83**, una lectura claramente en zona de sobrecompra (>70). Si bien los valores en tendencia pueden mantenerse elevados durante períodos prolongados, sugiere un elevado riesgo de corrección técnica o consolidación a corto plazo.
+- **MACD**: El indicador MACD registra un valor de **2.42**, encontrándose por encima de su línea de señal (`macd_signal` en **1.68**), lo que respalda el impulso positivo actual, aunque con síntomas de aceleración que deben vigilarse de cerca.
+- **Volatilidad y Retornos**: La volatilidad anualizada a 511 sesiones se sitúa en **30.08%**. El rendimiento a 21 sesiones (`return21_pct`) alcanza un notable **+30.77%**, mientras que a 252 sesiones (`return252_pct`) es de **+6.33%**. El máximo retroceso reciente (`drawdown_pct`) se ubica en **-9.65%**.
+
+---
 
 #### 3. Análisis Fundamental y Valoración
-*   **Valoración y Múltiplos:** Ferrovial (`FER.MC`) cotiza a un *Trailing P/E* de 35.65x y un *Forward P/E* de 47.82x, con un ratio *Price to Book* de 7.01x. El ratio sectorial comparativo con respecto a pares en España (Aena, ACS, etc.) sitúa su PER relativo en un nivel elevado (2.64 veces la mediana de sus comparables), reflejo de la prima de calidad que el mercado otorga a sus infraestructuras concesionales (como autopistas en Norteamérica).
-*   **Deuda y Solvencia:** La compañía presenta una deuda total de aproximadamente 10.657 millones de euros frente a un efectivo de 3.864 millones de euros (deuda neta sobre EBITDA en torno a 4.39x). 
-*   **Consenso de Analistas:** El precio objetivo medio (*targetMeanPrice*) recopilado por el consenso es de **59.90 EUR**, con un rango que oscila entre un objetivo mínimo de 48.50 EUR y un máximo de 80.00 EUR (basado en 20 opiniones de analistas). Esto arroja un potencial alcista de consenso (*consensus_upside_pct*) de aproximadamente **7.69%** desde el nivel actual de 55.62 EUR.
-
-#### 4. Evidencia Reciente y Noticias Relevantes
-*   *Bolsamania* (13 de noviembre de 2026): RBC ajustó ligeramente a la baja su precio objetivo sobre Ferrovial debido al incremento de las rentabilidades de los bonos soberanos.
-*   *El Economista* / *Negocios.com* (13 de noviembre de 2026): La inflación en la eurozona permanece en el 4%, lo que endurece el escenario de tipos reales y afecta a las valoraciones de flujos descontados de grandes concesionarias de infraestructuras.
-
-#### 5. Datos Faltantes
-*   No se dispone de un desglose detallado de los contratos de construcción adjudicados en el último trimestre de 2026 más allá de los estados financieros anuales cerrados y proyecciones de consenso disponibles en la instantánea.
+Los datos fundamentales extraídos de los estados financieros y estimaciones de consenso muestran los siguientes aspectos clave:
+- **Resultados Financieros**: 
+  - Ingresos totales en el ejercicio 2025: **9.627 millones de EUR** (frente a 9.148 millones en 2024 y 8.515 millones en 2023).
+  - EBITDA en 2025: **1.998 millones de EUR** (tras el pico excepcional de 4.539 millones en 2024).
+  - Beneficio neto en 2025: **888 millones de EUR** (comparado con 3.239 millones en 2024 y 341 millones en 2023).
+- **Múltiplos de Valoración**:
+  - PER histórico (`trailingPE`): **35.65x**
+  - PER estimado (`forwardPE`): **47.83x**
+  - Precio sobre valor en libros (`priceToBook`): **7.01x**
+  - EV/EBITDA: **31.38x**
+- **Deuda y Solvencia**: La deuda total asciende a **10.657 millones de EUR** (10.732 millones al cierre de 2025), con una posición de caja de **3.864 millones de EUR**. El ratio de deuda neta sobre EBITDA (`net_debt_ebitda`) se sitúa en **4.39x**.
+- **Flujos de Caja**: El flujo de caja operativo (`operatingCashflow`) alcanza los **2.488 millones de EUR**, con un flujo de caja libre (`freeCashflow`) de aproximadamente **889,6 millones de EUR**.
+- **Dividendo**: Ofrece una rentabilidad por dividendo (`dividendYield`) del **3.51%**, con un dividendo por acción de **1.95 EUR** y un `payoutRatio` del **71.24%**.
+- **Consenso de Analistas**: Con base en 20 opiniones de analistas, el precio objetivo medio (`targetMeanPrice`) es de **59.90 EUR**, con un rango que va desde un mínimo de **48.50 EUR** hasta un máximo de **80.00 EUR**. Esto arroja un potencial alcista de consenso (`consensus_upside_pct`) del **7.69%** respecto al precio actual de 55.62 EUR.
 
 ---
 
-### Resumen de Indicadores Clave (Tabla Resumen)
-
-| Categoría | Indicador Seleccionado | Valor / Estado Actual | Interpretación Operativa para `FER.MC` |
-| :--- | :--- | :--- | :--- |
-| **Tendencia (Medio Plazo)** | `close_50_sma` | 47.57 EUR | Soporte dinámico alcista; precio muy por encima de la media. |
-| **Tendencia (Largo Plazo)** | `close_200_sma` | 54.28 EUR | Referencia de soporte principal de largo plazo. |
-| **Tendencia (Corto Plazo)** | `close_10_ema` | Dinámica rápida | Captura el sesgo alcista de las últimas 21 sesiones (+30.77%). |
-| **Inercia / Momento** | `macd` / `macds` | MACD: 2.42 / Señal: 1.68 | Cruce alcista vigente, momentum positivo pero vigilando compresión. |
-| **Momento / Sobrecompra** | `rsi` | 81.83 | **Sobrecompra severa (>70)**; alta probabilidad de pausa o pullback. |
-| **Volatilidad / Riesgo** | `atr` / Volatilidad | 30.08% (Anualizada) | Permite dimensionar stops de protección ante oscilaciones. |
-| **Consenso de Mercado** | `targetMeanPrice` | 59.90 EUR | Potencial de revalorización limitado (~7.69%) hasta el objetivo medio. |
-| **Valoración** | `trailingPE` / `forwardPE` | 35.65x / 47.82x | Múltiplos elevados, exigiendo crecimiento continuado de flujos. |
+#### 4. Evidencia Externa y Noticias Recientes
+- *Bankinter (13 de noviembre de 2026)*: Publicó un análisis sobre los últimos resultados y previsiones de tipos de interés en la Eurozona para 2026-2027 en un entorno de inflación persistente. (URL: [Bankinter News](https://news.google.com/rss/articles/CBMibEFVX3lxTE04NU5VMDVUSVRVbXZxY1ZVWmZMdW1ZNmxGVzBTb29kTmJWOXdGeVRQMGpJZzBzME50OGt2X0Z6R1R1OHR2MlN0WnZlWWFldjA4MGpJcGxEclR2OEg3NFk0UjRZNkkzYUptWDlxNQ?oc=5))
+- *Bolsamanía (13 de noviembre de 2026)*: Informó sobre el ligero recorte de precio objetivo a Ferrovial por parte de RBC motivado por el repunte en las rentabilidades de los bonos soberanos. (URL: [Bolsamania News](https://news.google.com/rss/articles/CBMi0AFBVV95cUxPR2VyNzVJclZqemk4d1ZvNUFMMU9TSUtFRk1WdjlTRTRITEJiZXZHaXVvQjBIeXpxNlR0V05VLVppT0hJWDNUSW00R1pIYmVMY19pbUdqVmo3Nm1ZTUlyNlI3VzJjMjhJNWhxYXNQVzZqbVlpQnFYclVQSnc1RUdiTVhzcGIwd3B2SlZjeDRkZTNFUHNRS25NNmpYREVJTGxZWGdvbVhSdkg4LXhNc3JSZEYteU5oZlZVaDBvN1FYR0ZyUzRRaTU3ZEVsV0w3clpa0gHWAUFVX3lxTE1MdkNDU3VVUTBIUTFqMS1oaVpXQ0F4b3M0OFBIQ2hjRE04X3hIRmJIaTRsSVRKZ1MzTjhxVVBLU2c0SC1OajQ5THl

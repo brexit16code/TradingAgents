@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La acción se encuentra en un rango de consolidación técnica entre su soporte clave en la SMA200 (55,66 EUR) y la resistencia de la SMA50 (58,53 EUR). La alta volatilidad del 33% y el entorno macroeconómico presionado por la inflación del 4% en la zona euro sugieren que, aunque la valoración fundamental (Forward PE 10,31x) es atractiva, no hay suficiente momentum alcista ni una estabilización clara en el flujo de caja operativo para justificar una nueva entrada en este momento.
+**Reasoning**: La acción se encuentra en una fase de consolidación técnica sobre su media móvil de 200 días, nivel que actúa como soporte crítico en 55,67 EUR. Aunque la valoración por Forward PE es atractiva, la debilidad operativa reflejada en un flujo de caja libre negativo y un ROE bajo aconseja prudencia hasta que se observe una mejora en la eficiencia del capital o una ruptura alcista confirmada de la resistencia en 58,54 EUR.
 
-**Entry Price**: not provided
+**Entry Price**: 55.67
 
-**Stop Loss**: 54.5
+**Stop Loss**: 52.7
 
-**Position Sizing**: 5% de la cartera total
+**Position Sizing**: Mantener posición actual, sin aumentar exposición hasta verificar flujo de caja positivo
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

@@ -1,58 +1,75 @@
-**Informe Fundamental Integral de Bankinter, S.A. (`BKT.MC`)**
+**Rating**: HOLD  
+FINAL TRANSACTION PROPOSAL: REVIEW  
 
-**Rating**: REVIEW
+# Informe Fundamental y Análisis Financiero de Bankinter, S.A. (`BKT.MC`)
 
-### 1. Perfil de la Compañía y Negocio
-Bankinter, S.A. (`BKT.MC`) es una entidad bancaria regional de origen español con sede en Madrid, cotizada en la Bolsa de Madrid (MCE). Opera dentro del sector de Servicios Financieros y la industria de Banca Regional, destacando por su enfoque diversificado en banca comercial, banca de empresas, banca privada y gestión de patrimonios, además de contar con filiales de consumo y aseguradoras en mercados seleccionados de la eurozona.
-
-### 2. Análisis Financiero e Historial de Resultados
-Basado en los estados financieros consolidados de la entidad para los últimos ejercicios cerrados (cifras en EUR):
-
-*   **Evolución de Ingresos Totales (`Total Revenue`):**
-    *   Ejercicio 2023: 2.913.716.000 €
-    *   Ejercicio 2024: 3.082.391.000 €
-    *   Ejercicio 2025: 3.128.426.000 € *(muestra un crecimiento interanual de los ingresos del orden del 5.5% en términos generales)*.
-*   **Evolución del Beneficio Neto (`Net Income`):**
-    *   Ejercicio 2023: 844.787.000 €
-    *   Ejercicio 2024: 952.971.000 €
-    *   Ejercicio 2025: 1.089.976.000 € *(evidencia una trayectoria de crecimiento sostenido en la rentabilidad neta del grupo)*.
-*   **Balance General y Estructura de Capital:**
-    *   Activos Totales (`Total Assets`): Han escalado desde los 113.011.642.000 € en 2023, pasando por 121.971.823.000 € en 2024, hasta alcanzar los 131.018.892.000 € en el cierre de 2025.
-    *   Patrimonio Neto (`Stockholders Equity`): 5.322.940.000 € (2023), 5.877.665.000 € (2024) y 6.411.484.000 € (2025).
-    *   Deuda Total (`Total Debt`): 9.466.693.000 € (2023), 9.706.475.000 € (2024) y 11.940.846.000 € (2025). *(Nota metodológica: No se deben aplicar reglas de Deuda Industrial/EBITDA a entidades bancarias dada la naturaleza intermediaria de su pasivo y pasivos financieros).*
-*   **Flujos de Caja:**
-    *   Flujo de Caja Operativo (`Operating Cash Flow`): Registró -598.882.000 € al cierre de 2025 (frente a 1.941.443.000 € en 2024 y 658.419.000 € en 2023), una cifra altamente volátil y característica en la contabilidad de flujos operativos en balances bancarios masivos debido a variaciones en activos/pasivos de intermediación. El flujo de caja libre (`Free Cash Flow`) se situó en -766.619.000 € para 2025.
-
-### 3. Métricas de Valoración y Consenso Actual (`BKT.MC`)
-*   **Precio de Cierre (13/11/2026):** 14,64 EUR
-*   **Capitalización de Mercado:** ~13.156.913.152 EUR
-*   **PER Trailing:** 11.62x | **PER Forward:** 10.07x
-*   **Precio/Valor en Libros (`Price-to-Book`):** 1.96x (sobre un Valor en Libros por acción de 7,455 EUR).
-*   **Rentabilidad por Dividendo (`Dividend Yield`):** 4,17% - 4,23% (Dividendo anual de 0.62 EUR con un *payout ratio* estimado del 49,01%).
-*   **Rentabilidad sobre el Capital (`Return on Equity` - ROE):** 17,64%, reflejando una sólida eficiencia operativa y rentabilidad sobre los recursos propios.
-*   **Márgenes de Beneficio (`Profit Margins`):** 41,13%
-*   **Consenso de Analistas (Precio Objetivo):** 
-    *   Media: 16,789 EUR (Upside estimado de ~14,68%)
-    *   Mínimo: 10,30 EUR / Máximo: 22,50 EUR
-    *   Número de opiniones de analistas: 22
-
-### 4. Contexto Macroeconómico Reciente (Noviembre de 2026)
-Las noticias recientes de la semana del 11 al 14 de noviembre de 2026 señalan un entorno macroeconómico complejo en la eurozona, marcado por presiones inflacionarias persistentes (inflación de la zona euro rondando el 4%) que complican cualquier expectativa de relajación o moderación rápida en los tipos de interés por parte del BCE (*"La inflación de la zona euro en el 4% inhabilita moderar el alza de tipos"*, El Economista, 13/11/2026). Esto impacta directamente en los márgenes de intermediación y el coste de financiación minorista y mayorista. Paralelamente, la propia entidad Bankinter ha mantenido una intensa actividad de análisis macroeconómico y revisión de precios objetivos sobre corporaciones de referencia (como Iberdrola, Meta, Apple o Santander y BBVA).
-
-### 5. Datos Faltantes y Limitaciones
-*   No se dispone de desglose pormenorizado de transacciones de iniciados (*insider transactions*) en esta instantánea de datos.
-*   La valoración de bancos requiere un análisis pormenorizado del coste de riesgo, morosidad (NPLs) y capital regulatorio (CET1), métricas cuyo detalle granular no está completamente abierto en la instantánea estática más allá de los agregados de balance y ratios de rentabilidad (ROE).
-
-### 6. Conclusión y Recomendación Operativa
-Bankinter (`BKT.MC`) muestra fundamentales sólidos, destacando un ROE del 17,64%, un crecimiento constante de su beneficio neto hasta superar los 1.080 millones de euros en el último ejercicio completo de referencia, y un atractivo rendimiento por dividendo superior al 4%. No obstante, las presiones macroeconómicas derivadas de la inflación en la eurozona y la incertidumbre en la senda de tipos de interés aconsejan prudencia técnica (el valor registra una corrección del -12,47% a 63 sesiones y un RSI de 46,8 en zona neutral). 
-
-FINAL TRANSACTION PROPOSAL: REVIEW
+**Fecha del informe:** 15 de noviembre de 2026  
+**Ticker:** `BKT.MC` (Bolsa de Madrid, EUR)  
+**Clasificación de Negocio:** Servicios Financieros / Banca Regional  
 
 ---
 
-| Concepto Clave | Valor / Métrica |
-| :--- | :--- |
-| **Ticker** | `BKT.MC` |
-| **Precio de Cierre (13-11-2026)** | 14,64 EUR |
-| **Capitalización de Mercado** | 13.156.913.152 EUR |
-| **PER (Trailing / Forward)** | 11.62x / 10.
+### 1. Resumen del Perfil de la Compañía y Contexto Macroeconómico
+
+Bankinter, S.A. opera como una de las entidades bancarias regionales e integrales de referencia en España dentro del mercado bursátil de Madrid (`BKT.MC`). Su modelo de negocio abarca banca comercial, banca de empresas, banca privada y gestión de patrimonios, destacando históricamente por su eficiencia operativa y calidad crediticia en comparación con la media de la banca doméstica.
+
+En el plano macroeconómico reciente (según titulares de prensa recopilados entre el 13 y el 15 de noviembre de 2026), el entorno europeo se halla tensionado por una inflación en la zona euro situada en torno al 4%, lo que inabilita o dificulta una moderación rápida en las subidas de tipos de interés y mantiene un escenario de tipos reales negativos para el ahorro de los hogares (`Vozpopuli`, `El Economista`, 13-14 de noviembre de 2026). Asimismo, la propia entidad ha publicado previsiones sobre los tipos de interés en la Eurozona para 2026 y 2027 (`Bankinter`, 13 de noviembre de 2026), reflejando un entorno de tipos e inflación elevados que influye directamente en el margen de intereses y la demanda de crédito.
+
+---
+
+### 2. Análisis de los Estados Financieros Históricos
+
+A partir de los datos financieros consolidados proporcionados para los ejercicios cerrados entre 2023 y 2025, se observa la siguiente evolución:
+
+*   **Cuenta de Resultados (Ingresos y Beneficio Neto):**
+    *   *Ejercicio 2023:* Total Revenue de 2.913,72M EUR; Net Income de 844,79M EUR.
+    *   *Ejercicio 2024:* Total Revenue de 3.082,39M EUR; Net Income de 952,97M EUR.
+    *   *Ejercicio 2025:* Total Revenue de 3.128,43M EUR; Net Income de 1.089,98M EUR.
+    *   *Tendencia:* Crecimiento sostenido tanto en la cifra de negocio total como en el beneficio neto atribuido, superando la barrera de los 1.000 millones de euros de beneficio neto al cierre de 2025.
+
+*   **Balance de Situación (Activos, Deuda y Patrimonio Neto):**
+    *   *Ejercicio 2023:* Total Assets de 113.011,64M EUR; Total Debt de 9.466,69M EUR; Stockholders Equity de 5.322,94M EUR.
+    *   *Ejercicio 2024:* Total Assets de 121.971,82M EUR; Total Debt de 9.706,48M EUR; Stockholders Equity de 5.877,67M EUR.
+    *   *Ejercicio 2025:* Total Assets de 131.018,89M EUR; Total Debt de 11.940,85M EUR; Stockholders Equity de 6.411,48M EUR.
+    *   *Tendencia:* Expansión constante del balance, acompañando el crecimiento de los recursos propios (patrimonio neto) desde los 5.322M EUR hasta los más de 6.411M EUR en 2025, reflejando una sólida acumulación de reservas y capitalización.
+
+*   **Flujos de Caja (Cash Flow):**
+    *   *Ejercicio 2023:* Operating Cash Flow de 658,42M EUR; Capex de -90,38M EUR; Free Cash Flow de 568,04M EUR.
+    *   *Ejercicio 2024:* Operating Cash Flow de 1.941,44M EUR; Capex de -151,10M EUR; Free Cash Flow de 1.790,34M EUR.
+    *   *Ejercicio 2025:* Operating Cash Flow de -598,88M EUR; Capex de -167,74M EUR; Free Cash Flow de -766,62M EUR.
+    *   *Nota metodológica:* En el sector bancario, los flujos de caja operativos y libres anuales pueden presentar alta volatilidad debido a las variaciones en los activos y pasivos de intermediación financiera, por lo que la valoración fundamental de una entidad de depósito se prioriza a través de múltiplos de capitalización, PER y valor en libros (P/B) en lugar de flujos de caja descontados tradicionales.
+
+---
+
+### 3. Métricas Financieras Clave y Valoración Actual
+
+*   **Capitalización Bursátil:** 13.156,91 millones de EUR.
+*   **Precio de Cotización (último registrado a 13/11/2026):** 14,64 EUR (con un descenso reciente del -0,98% en la sesión y un RSI de 46,8, situado en zona neutral).
+*   **Valor en Libros por Acción (Book Value):** 7,455 EUR.
+*   **Ratio Precio a Valor en Libros (Price to Book):** 1,96x.
+*   **PER Histórico y Previsto (P/E):** 
+    *   *Trailing P/E:* 11,62x.
+    *   *Forward P/E:* 10,08x.
+*   **Rentabilidad por Dividendo (Dividend Yield):** ~4,22% a 4,23% (con un dividendo ordinario de 0,62 EUR y un ratio de pago o payout del 49,01%).
+*   **Rentabilidad sobre el Capital (ROE):** 17,64%, lo que demuestra una alta eficiencia en la generación de beneficios sobre los recursos propios.
+*   **Márgenes:** Margen de beneficio (Profit Margins) del 41,13%.
+*   **Consenso de Analistas:** 
+    *   Número de opiniones: 22 analistas.
+    *   Precio objetivo medio (*Target Mean Price*): 16,79 EUR (rango entre 10,30 EUR y 22,50 EUR).
+    *   Upside potencial de consenso: ~14,70%.
+
+---
+
+### 4. Información Faltante y Limitaciones
+
+*   No se dispone de datos detallados sobre transacciones recientes de iniciados (*insider transactions*) en la instantánea proporcionada.
+*   Los datos de EBITDA y deuda neta/EBITDA no aplican ni se utilizan bajo las normas de análisis financiero para entidades bancarias e instituciones financieras (conforme a las directrices metodológicas establecidas).
+
+---
+
+### 5. Tabla Resumen de Puntos Clave
+
+| Categoría | Métrica / Elemento | Valor / Estado Actual | Evidencia y Observaciones |
+| :--- | :--- | :--- | :--- |
+| **Identidad y Mercado** | Ticker / Bolsa | `BKT.MC` (MCE) | Bankinter, S.A., Sector Financiero / Banca Regional. |
+| **Precio y Técnica** | Cierre de Cotización | 14,64 EUR (13/11/2026) | Descenso reciente (-0,98%), RSI de 46,8 (neutral).

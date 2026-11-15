@@ -1,9 +1,9 @@
-**Rating**: Hold
+**Rating**: Buy
 
-**Executive Summary**: Mantener la posición actual (Hold) aprovechando el rendimiento por dividendo del 4,12% mientras el mercado consolida. Evitar incrementar exposición hasta que la acción rompa de forma sostenida la resistencia de los 24,50 EUR con volumen confirmatorio, o evaluar una reducción si se pierde el soporte crítico de la SMA50 en los 23,50 EUR.
+**Executive Summary**: Iniciamos una posición de compra en BBVA.MC mediante acumulación gradual para mitigar la volatilidad actual. Se recomienda escalar la entrada aprovechando la solidez de sus fundamentales y el soporte técnico, con un horizonte temporal de 6-12 meses para capitalizar el crecimiento de beneficios y la rentabilidad por dividendo.
 
-**Investment Thesis**: La decisión de mantener se basa en el equilibrio precario entre una valoración atractiva (Forward PER 10,02, ROE 19,84%) y un entorno de riesgos crediticios crecientes evidenciado por los 5.444 millones de euros en saneamientos. Aunque el analista agresivo destaca el momentum técnico del MACD y el RSI, el analista conservador y el neutral coinciden correctamente en que el potencial alcista hacia el consenso de 24,49 EUR es insuficiente para justificar una entrada agresiva frente a la inflación del 4% y el aumento de los costes de financiación. La tesis alcista se invalidará si los próximos indicadores macro sugieren un deterioro acelerado de la calidad crediticia, mientras que una ruptura técnica clara por encima de los 24,50 EUR confirmaría que la acumulación institucional es suficiente para superar las dudas sobre el balance. Actualmente, falta información clara sobre la evolución futura de la morosidad para inclinar la balanza hacia una compra de convicción.
+**Investment Thesis**: La tesis alcista se fundamenta en una rentabilidad operativa superior, reflejada en un ROE del 19,84% y una capacidad de generación de flujo de caja libre (13.162 millones de euros en 2025) que sustenta un dividendo del 4,12%. A pesar de las preocupaciones del analista conservador sobre el deterioro crediticio, el mercado sigue valorando a BBVA.MC a un Forward PE atractivo de 10,02, con un descuento frente a sus pares. El soporte técnico por encima de la media de 200 sesiones (21,13 EUR) confirma una tendencia sólida que mitiga los temores inflacionarios de la eurozona. El riesgo clave que invalidaría esta tesis sería un aumento sistémico en las provisiones por mora que erosione el margen de solvencia, o una ruptura sostenida del soporte en 21,10 EUR.
 
-**Price Target**: 24.49
+**Price Target**: 24.48727
 
-**Time Horizon**: 3-6 meses
+**Time Horizon**: 6-12 meses

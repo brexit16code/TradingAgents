@@ -1,37 +1,36 @@
-Este informe de análisis fundamental sobre **Repsol, S.A. (`REP.MC`)** se basa en los datos proporcionados al 14 de noviembre de 2026.
+Este informe analiza la situación fundamental de **Repsol, S.A. (`REP.MC`)** basándose en los datos proporcionados a fecha de 15 de noviembre de 2026.
 
-### Perfil y Desempeño Reciente
-Repsol es una compañía integrada de petróleo y gas con una fuerte presencia en el sector energético español. Actualmente, el valor cotiza a **30,89 EUR**, mostrando una tendencia técnica alcista con una rentabilidad del 95,05% en los últimos 252 días. La acción cotiza por encima de sus medias móviles de 20, 50 y 200 días, lo que confirma un impulso sólido.
+### Perfil de la Compañía
+Repsol es una empresa integrada de petróleo y gas con sede en España. Opera a lo largo de toda la cadena de valor, incluyendo exploración, producción, refinación, distribución y comercialización de energía. Actualmente, la empresa se encuentra en un ciclo de alta rentabilidad, con una capitalización de mercado de aproximadamente 32.860 millones de EUR.
 
 ### Análisis Financiero
-*   **Rentabilidad y Valoración:** La empresa mantiene un ratio P/E (Precio/Beneficios) ajustado de **5,49**, lo que sugiere que, a pesar de la apreciación significativa en bolsa, la valoración sigue siendo moderada en relación con sus beneficios. El beneficio por acción (EPS) reportado es de 5,63 EUR, con una previsión futura de 4,76 EUR.
-*   **Balance y Liquidez:** El ratio de deuda neta sobre EBITDA es de **0,32x**, lo que indica una estructura de capital muy saludable y una capacidad de desapalancamiento eficiente. La posición de efectivo de 9.736 millones de EUR frente a una deuda total de 13.170 millones de EUR proporciona flexibilidad operativa.
-*   **Generación de Caja:** En 2025, la compañía generó un flujo de caja operativo de 5.365 millones de EUR y un flujo de caja libre (FCF) de 1.619 millones de EUR, a pesar de realizar inversiones de capital (CapEx) de 3.746 millones de EUR.
+*   **Rentabilidad:** La empresa presenta una salud financiera sólida, con un beneficio por acción (EPS) *trailing* de 5,63 EUR y un crecimiento de ingresos del 51,8% reportado recientemente. Su margen de beneficio se sitúa en el 9,36%, reflejando una capacidad operativa eficiente en el entorno actual.
+*   **Valoración:** Con un ratio PER *trailing* de 5,49x y un PER *forward* de 6,49x, la acción parece cotizar a múltiplos atractivos en comparación con la media histórica del sector energético, aunque es importante notar que no se dispone de una comparativa sectorial específica en los datos suministrados. El ratio Precio/Valor Contable es de 1,34x.
+*   **Balance y Solvencia:** La deuda neta/EBITDA de 0,32x es significativamente baja, lo que indica un balance robusto y capacidad para capear la volatilidad del precio del crudo. El efectivo total de 9.736 millones de EUR frente a una deuda total de 13.170 millones de EUR muestra una posición de liquidez saneada.
+*   **Flujo de Caja:** El flujo de caja operativo (8.015 millones de EUR) respalda las inversiones (CapEx de -3.746 millones de EUR en 2025), permitiendo un flujo de caja libre positivo de 1.770 millones de EUR.
 
-### Perspectivas y Noticias
-Repsol ha sido un motor clave para el Ibex 35, ayudando al índice a recuperar el nivel de los 20.000 puntos (Noticias Bancarias, 2026-11-13). La estrategia de la empresa se centra en el refuerzo de su balance y la diversificación hacia energías renovables, destacando la reciente inversión de 400 millones de EUR en hidrógeno renovable en Tarragona (CapitalMadrid, 2026-11-12). Los analistas mantienen una visión constructiva con un precio objetivo medio de **31,08 EUR**, aunque existe un rango amplio (23,7 EUR - 38,0 EUR).
+### Análisis de Mercado y Contexto (Noviembre 2026)
+Según los titulares recientes, `REP.MC` ha experimentado un impulso alcista significativo (más del 85% en el año, según *Estrategias de Inversión* el 13/11/2026). El mercado ha reaccionado positivamente a la cifra de 5.006 millones de EUR en beneficios y a los programas de recompra de acciones. No obstante, el sector está atento a la presión inflacionista en la eurozona (4%) y su impacto en las tasas de interés, lo que podría condicionar el apetito por el riesgo en las próximas semanas.
 
-### Riesgos y Consideraciones
-*   **Contrario:** El sector energético enfrenta presiones por la inflación en la Eurozona (4%), lo que limita el margen de maniobra de los tipos de interés. El mercado del petróleo sigue siendo volátil ante tensiones geopolíticas (ej. Irán).
-*   **Faltantes:** No se dispone de comparativas sectoriales detalladas ni desglose detallado de los últimos trimestres de 2026 más allá de los cierres anuales históricos proporcionados.
+### Aspectos a considerar (Riesgos y Datos Faltantes)
+*   **Datos faltantes:** No se dispone de un desglose detallado de la deuda por vencimientos ni de un análisis exhaustivo de la exposición geográfica específica frente a la volatilidad política actual en España.
+*   **Riesgo:** La alta dependencia de los precios del petróleo (mencionada en las noticias del 13/11) sigue siendo el principal factor de riesgo, independientemente de la solidez de los fundamentales internos.
 
-### Insights para Traders
-1.  **Fuerte Momentum:** El indicador RSI (58,37) muestra espacio para continuar la tendencia sin estar en zona de sobrecompra extrema.
-2.  **Dividendo:** Con una rentabilidad por dividendo del 3,4% y un payout ratio conservador del 20,45%, el dividendo parece sostenible y ofrece un atractivo colchón para inversores a largo plazo.
-3.  **Gestión de Riesgos:** El precio actual está cerca del consenso de los analistas (31,08 EUR). Se recomienda monitorear la ruptura de la resistencia psicológica de los 31 EUR.
+### Conclusión para traders
+`REP.MC` muestra un *momentum* técnico positivo (RSI 58,37, SMA200 en 24,18 EUR vs precio actual 30,89 EUR) y fundamentos sólidos (bajo apalancamiento y generación constante de caja). El consenso de los analistas sitúa el precio objetivo medio en 31,08 EUR, lo que implica una ganancia limitada desde los niveles actuales (consenso *upside* de 0,60%).
 
-**Rating**: HOLD (basado en la cercanía al precio objetivo medio y la fuerte subida anual).
+**Rating**: HOLD (Debido a la fuerte apreciación acumulada en el año y la proximidad al precio objetivo medio de los analistas).
 
-FINAL TRANSACTION PROPOSAL: Neutral/Wait and see for potential consolidation before further entry.
+FINAL TRANSACTION PROPOSAL: No action. The asset has already experienced a significant rally; maintain current positions and observe potential resistance at the 31-32 EUR level.
 
-| Métrica | Valor |
+| Indicador | Valor |
 | :--- | :--- |
+| Capitalización de mercado | 32.859 M EUR |
+| PER (Trailing) | 5,49x |
+| Dividend Yield | 3,40% |
 | Precio Actual | 30,89 EUR |
-| Market Cap | 32.860 M EUR |
-| P/E Ratio (Trailing) | 5,49x |
-| Dividend Yield | 3,4% |
+| Precio Objetivo Medio | 31,08 EUR |
 | Net Debt / EBITDA | 0,32x |
-| Precio Objetivo (Consenso) | 31,08 EUR |
-| Retorno (252 días) | +95,05% |
+| ROI (ROE) | 21,07% |
 
-*Fuentes: Yahoo Finance (https://finance.yahoo.com/quote/REP.MC/), noticias recopiladas al 2026-11-14.*
+*Fuentes consultadas: Datos proporcionados por el sistema, Yahoo Finance, Estrategias de Inversión (13/11/2026), Bankinter (13/11/2026).*

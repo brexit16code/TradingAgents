@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: Mapfre muestra sólidos fundamentales con un ROE del 18.38% y una reciente mejora de rating a 'A+' por Fitch, respaldando la retención de la posición actual. Sin embargo, dado que la cotización de 4.34 EUR se encuentra alineada con el precio objetivo de consenso de 4.33 EUR y los márgenes netos se mantienen ajustados en el entorno inflacionario actual, no existe suficiente margen de seguridad para una nueva compra masiva ni razones para la liquidación, justificando una postura de mantenimiento.
+**Reasoning**: Mapfre muestra una sólida salud financiera respaldada por la mejora de su rating por Fitch a A+, un atractivo rendimiento por dividendo del 4.14% y una cotización que se mantiene por encima de sus principales medias móviles (SMA20, SMA50 y SMA200). Sin embargo, el precio de cierre actual en 4.34 EUR se encuentra muy alineado con el precio objetivo medio de consenso de los analistas (4.33 EUR), lo que limita el potencial de revalorización a corto plazo y aconseja mantener la posición existente sin ampliar exposición.
 
 **Entry Price**: not provided
 
 **Stop Loss**: 4.14
 
-**Position Sizing**: 3% of portfolio
+**Position Sizing**: 5% of portfolio
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La recomendacion de mantener se fundamenta en la solidez del flujo de caja libre de Sacyr y su liderazgo en concesiones de infraestructuras, contrarrestado por un elevado apalancamiento (deuda neta sobre EBITDA de 5.41x) y una disminucion del beneficio neto en los ultimos ejercicios en un entorno de inflacion y tipos restrictivos en la eurozona. Tecnicamente, el valor cotiza de manera neutral entre las medias moviles de corto plazo y la resistencia de largo plazo de la SMA 200 en 4.364 EUR, lo que justifica una postura de espera.
+**Reasoning**: La cotizacion actual de SCYR.MC en 4,25 EUR se encuentra consolidando entre el soporte dinamico de la SMA 50 en 4,07 EUR y la resistencia clave de la SMA 200 en 4,36 EUR. Aunque el fuerte flujo de caja operativo, la rentabilidad por dividendo del 4,71% y el potencial alcista del consenso respaldan mantener la exposicion, la elevada ratio de deuda neta sobre EBITDA de 5,4x en un entorno de tipos restrictivos y la contraccion del beneficio neto impiden una recomendacion de compra incondicional. Por tanto, se recomienda mantener la posicion actual a la espera de una ruptura clara de la resistencia de la SMA 200.
 
-**Entry Price**: 4.25
+**Entry Price**: not provided
 
-**Stop Loss**: 3.95
+**Stop Loss**: 4.07
 
-**Position Sizing**: 3% of portfolio
+**Position Sizing**: Mantener ponderacion estandar de cartera
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

@@ -1,44 +1,31 @@
-### Informe de Análisis Bursátil: International Consolidated Airlines Group S.A. (IAG.MC)
+El análisis actual de **IAG.MC** (International Consolidated Airlines Group S.A.) revela una posición técnica robusta en el mercado, respaldada por una tendencia alcista consolidada y un sentimiento de mercado optimista por parte de los analistas.
 
-**Fecha de análisis:** 14 de noviembre de 2026
-**Ticker:** IAG.MC
-**Mercado:** MCE
+### Análisis Técnico
+Con un precio de cierre de **5.42 EUR** al 13 de noviembre de 2026, la acción mantiene una estructura alcista clara:
+*   **Tendencias:** El precio cotiza por encima de sus medias móviles de 20, 50 y 200 sesiones (SMA20: 5.07, SMA50: 5.02, SMA200: 4.85), lo que confirma una tendencia alcista estructural a largo plazo.
+*   **Momentum:** El RSI(14) en **64.19** sugiere un momentum positivo sin haber alcanzado aún niveles extremos de sobrecompra (>70), lo que permite espacio para una posible continuación. El MACD (0.123) está por encima de su línea de señal (0.068), validando la fuerza alcista reciente.
+*   **Volatilidad:** La acción muestra un rendimiento acumulado del **31.39%** en el último año, superando al mercado general con un diferencial positivo de 8.41 pp en el periodo de 63 sesiones.
 
-#### 1. Resumen de la Situación Actual
-IAG.MC muestra un comportamiento técnico y fundamental sólido tras el cierre de sesión del 13 de noviembre de 2026. Con un precio de **5,42 EUR**, la acción cotiza por encima de sus medias móviles clave (SMA20: 5,07; SMA50: 5,01; SMA200: 4,85), lo que confirma una tendencia alcista consolidada a corto, medio y largo plazo. El activo ha experimentado un retorno del 31,39% en los últimos 252 días.
+### Análisis Fundamental y Entorno
+El valor cotiza a múltiplos atractivos: un **PE forward de 7.20x**, lo que indica que, a pesar de la revalorización, sigue cotizando a un descuento respecto a su valor intrínseco teórico si se compara con sectores industriales más amplios.
+*   **Consenso:** Según 11 opiniones de analistas, el precio objetivo medio es de **6.00 EUR**, lo que supone un potencial de revalorización del **10.79%**.
+*   **Factores de Riesgo/Oportunidad:** Las noticias recientes (Bolsamania, 13/11/2026; Estrategias de Inversión, 15/11/2026) resaltan que el rendimiento de IAG está muy condicionado por el precio del petróleo y la inflación en la Eurozona (citada en 4% en el contexto macro), lo cual podría presionar los márgenes operativos si los costes de combustible aumentan. A pesar de que los beneficios del tercer trimestre estuvieron por debajo de las expectativas, el valor ha rebotado más de un 10% en noviembre, reflejando una fuerte resiliencia.
 
-#### 2. Análisis Técnico
-*   **Momentum y Tendencia:** El indicador RSI (14) se sitúa en **64,19**, indicando una presión compradora saludable sin haber alcanzado niveles de sobrecompra extrema (>70). El MACD (0,123) se mantiene por encima de su línea de señal (0,069), lo que respalda la continuidad del impulso alcista.
-*   **Volatilidad:** La volatilidad reportada es del 27,24%. Aunque es significativa, la acción mantiene una estructura alcista estable, con un *drawdown* actual de solo -4,31%.
-*   **Soportes y Resistencias:** Las medias móviles (SMA20, 50, 200) actúan actualmente como niveles de soporte dinámico ascendentes, confirmando la salud de la tendencia.
+### Observaciones y Datos Faltantes
+*   **Datos faltantes:** La plataforma no proporciona el *Return on Equity* (ROE) actual, lo que limita una evaluación completa de la eficiencia de gestión de capital. Asimismo, los flujos de caja operativos y libres actuales no están disponibles en la instantánea, dificultando una valoración exacta por descuento de flujos (DCF).
+*   **Conclusión:** La recomendación se basa en la fortaleza técnica y el descuento relativo en múltiplos de valoración. Es imperativo vigilar el dato de inflación y la evolución del crudo como factores exógenos críticos.
 
-#### 3. Fundamentos y Valoración
-*   **Valoración:** IAG.MC cotiza a un **PER forward de 7,20x**, lo que, comparado con el PER forward mediano de sus comparables en el sector (18,09x), sugiere una infravaloración relativa significativa. La relación precio/beneficio (*ratio*) es de 0,40 respecto a dicho grupo.
-*   **Salud Financiera:** La compañía muestra una mejora notable en la generación de flujo de caja libre (FCF), alcanzando los 3.146 millones de EUR en el ejercicio 2025, frente a los 1.320 millones en 2023. La deuda neta sobre EBITDA es de **0,78x**, un nivel de apalancamiento conservador y positivo.
-*   **Consenso de Analistas:** El precio objetivo medio es de **6,00 EUR**, lo que representa un potencial de revalorización cercano al 10,8%. Las noticias recientes (Bolsamania, 10/11/2026; Yahoo, 10/11/2026) reflejan una mejora en las recomendaciones por parte de firmas como Goldman Sachs, RBC y Barclays, a pesar de reportar beneficios ligeramente inferiores a las expectativas en el tercer trimestre.
-
-#### 4. Evidencias Contrarias y Riesgos
-*   **Macroeconomía:** Los titulares recientes (13/11/2026) advierten que la inflación en la zona euro se mantiene en el 4%, lo que limita la capacidad del banco central para moderar los tipos de interés. Esto podría presionar los costes operativos de las aerolíneas y el poder adquisitivo del consumidor.
-*   **Crecimiento:** El *earnings growth* se situó en -0,05%, lo que indica una presión en los márgenes que merece un seguimiento estrecho.
-
-#### 5. Consideraciones Finales
-La combinación de una valoración atractiva (PER bajo) y una tendencia técnica alcista sólida posiciona a IAG.MC como un activo con impulso. Sin embargo, la persistencia de la inflación en la eurozona es un factor de riesgo clave.
-
-**Rating**: Neutral-Positive
-
-| Indicador | Valor / Estado | Interpretación |
+| Indicador / Punto Clave | Valor / Estado | Comentario |
 | :--- | :--- | :--- |
-| Precio Actual | 5,42 EUR | Tendencia alcista |
-| RSI (14) | 64,19 | Momentum positivo sin sobrecompra |
-| MACD | 0,123 > 0,069 | Señal alcista |
-| PER Forward | 7,20x | Infravalorado vs. sector |
-| Net Debt/EBITDA | 0,78x | Solidez financiera |
-| Potencial (Consenso) | +10,79% | Optimismo analítico |
+| Precio Actual | 5.42 EUR | Tendencia alcista consolidada sobre medias. |
+| RSI (14) | 64.19 | Momentum positivo, sin sobrecompra crítica. |
+| MACD | 0.123 | Señal alcista confirmada sobre el signal line. |
+| Forward PE | 7.20x | Valuación atractiva respecto al sector. |
+| Upside Consenso | 10.79% | Potencial alcista según analistas. |
+| SMA200 | 4.85 EUR | Soporte estructural a largo plazo. |
+| Dividend Yield | 1.84% | Rentabilidad por dividendo modesta. |
 
-**Fuentes:**
-*   Datos técnicos y fundamentales: Snapshot del 14/11/2026.
-*   Noticias: Bolsamania (10/11/2026), Yahoo (10/11/2026), El Economista (09/11/2026), Estrategias de Inversión (09/11/2026).
+**Rating**: Overweight
+FINAL TRANSACTION PROPOSAL: Neutral (Keep long exposure if holding, monitor 5.00 EUR level as major support).
 
-*Descargo de responsabilidad: Esta es una investigación con fines informativos. No constituye una recomendación de inversión. Las decisiones financieras deben basarse en su propia evaluación de riesgo.*
-
-FINAL TRANSACTION PROPOSAL: Hold/Accumulate
+*Aviso: Este informe se basa en datos históricos y de consenso de mercado. No constituye asesoramiento financiero ni sugerencia de ejecución de operaciones. Toda inversión en renta variable conlleva riesgos.*

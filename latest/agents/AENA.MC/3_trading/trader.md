@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: AENA.MC muestra fortaleza operativa y fundamentales sólidos, pero el RSI de 71.79 y el precio cotizando por encima del consenso de los analistas sugieren una sobrecompra técnica significativa. La presión inflacionaria en la zona euro y el hecho de que el activo ha superado sus medias móviles clave requiere esperar una consolidación saludable hacia niveles de soporte más atractivos antes de incrementar exposición.
+**Reasoning**: Aena S.M.E., S.A. muestra una fuerte tendencia estructural, pero el RSI en 71,78 indica una sobrecompra técnica significativa que sugiere un posible retroceso a corto plazo. Además, el precio actual de 28,78 EUR cotiza por encima del precio objetivo medio de los analistas de 27,48 EUR, lo que reduce el margen de seguridad para nuevas compras en estos niveles. Dado que la empresa mantiene una salud financiera envidiable, la estrategia óptima es mantener la posición y esperar una corrección hacia la media móvil de 20 días antes de considerar aumentar la exposición.
 
-**Entry Price**: 26.5
+**Entry Price**: 27.5
 
-**Stop Loss**: 25.0
+**Stop Loss**: 25.5
 
-**Position Sizing**: 50% de la asignación estándar
+**Position Sizing**: Mantener posición actual; no aumentar exposición hasta que se pruebe el soporte técnico.
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

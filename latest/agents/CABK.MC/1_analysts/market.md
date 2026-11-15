@@ -1,75 +1,54 @@
 **Rating**: HOLD  
-FINAL TRANSACTION PROPOSAL: HOLD
-
-### Informe de Análisis Técnico y Fundamental: CaixaBank, S.A. (`CABK.MC`)
-
-#### 1. Contexto de Mercado y Datos Identificativos
-* **Instrumento analizado**: `CABK.MC` (CaixaBank, S.A., Sector: Financial Services / Banks - Regional, Bolsa de Madrid - MCE).
-* **Fecha de referencia / análisis**: 14 de noviembre de 2026 (sesión de precio de cierre más reciente disponible: 13 de noviembre de 2026 a un precio de **12.23 EUR**).
-* **Fuentes de datos y noticias**: Yahoo Finance (`CABK.MC`), Google RSS / Expansión / Vozpópuli / El Economista / Estrategias de Inversión.
+FINAL TRANSACTION PROPOSAL: Mantener posición actual con seguimiento estricto de soportes en torno a la media móvil de 50 sesiones (12.10 EUR) y la zona de soporte dinámico a corto plazo, dado el contexto de tipos elevados en la Eurozona y los niveles de valoración técnica actuales.
 
 ---
 
-#### 2. Análisis Técnico
-El valor cotiza en **12.23 EUR**, experimentando una ligera contracción en la última sesión de -0.61%. A pesar de este retroceso diario, el comportamiento multitemporal muestra una estructura sólida:
-* **Medias Móviles**: El precio se sitúa por encima de la media móvil de 20 sesiones (`sma20`: 11.60 EUR) y de la media móvil de 200 sesiones (`sma200`: 11.46 EUR), confirmando la tendencia alcista de fondo. No obstante, se encuentra ligeramente por debajo de la media de 50 sesiones (`sma50`: 12.10 EUR, que actúa actualmente como nivel de referencia inmediato).
-* **Indicadores de Momento**: 
-  * El **RSI (14)** se ubica en **57.71**, lo que refleja un equilibrio saludable entre compradores y vendedores, sin indicios de sobrecompra ni sobreventa extrema.
-  * El **MACD** registra un valor de **0.104**, situándose por encima de su línea de señal (`macd_signal`: -0.051), lo que sugiere un sesgo de impulso positivo a corto plazo.
-* **Volatilidad y Drawdown**: La volatilidad anualizada se sitúa en el **29.06%**, con un *drawdown* actual del **-8.05%** respecto a sus máximos recientes.
-* **Rentabilidades históricas**: Retorno a 21 sesiones de +4.47%, a 63 sesiones de -4.04%, y un destacado +42.63% a 252 sesiones, demostrando la fortaleza acumulada en el horizonte anual.
+### Análisis Técnico y Fundamental de CaixaBank, S.A. (`CABK.MC`)
+
+El presente informe analiza la situación de **CaixaBank, S.A.** (`CABK.MC`), entidad financiera cotizada en el mercado español (MCE), a partir de los datos verificados disponibles a fecha **15 de noviembre de 2026**.
+
+#### 1. Contexto de Mercado y Entorno Macroeconómico
+El análisis se desarrolla en un escenario macroeconómico europeo marcado por la persistencia de tensiones inflacionistas en la zona euro, donde los tipos de interés se mantienen en cotas elevadas (con titulares recientes sobre tasas de inflación en torno al 4% que inhabilitan una rápida moderación de los tipos, según informes de prensa de noviembre de 2026). Este entorno influye directamente en el margen de intereses y la política de retribución al ahorrador de la banca regional española.
+
+#### 2. Comportamiento Bursátil y Datos Técnicos Clave
+- **Precio de Cierre (13/11/2026):** 12.23 EUR (con una variación del -0,61% en la sesión previa).
+- **Rango y Drawdown:** El valor experimenta una corrección moderada desde máximos recientes, situándose un **-8.05%** por debajo de su *drawdown*, tras acumular una rentabilidad a 1 año (*return252_pct*) del **+42.63%** y un rendimiento a 21 sesiones del **+4.47%**. Sin embargo, a 63 sesiones muestra un retroceso del **-4.04%** (con un comportamiento relativo de -4.47 puntos porcentuales frente al índice de referencia ^IBEX).
+- **Medias Móviles:** 
+  - SMA 20: 11.60 EUR
+  - SMA 50: 12.10 EUR
+  - SMA 200: 11.46 EUR
+  El precio cotiza actualmente ligeramente por encima de la SMA 50 y de la SMA 200, lo que confirma una tendencia de fondo alcista a medio-largo plazo, aunque consolidando en el corto plazo.
+- **Osciladores:**
+  - **RSI (14):** 57.71, indicando una zona de neutralidad con sesgo moderadamente alcista, sin señales de sobrecompra ni sobreventa extrema.
+  - **MACD:** 0.1045 frente a una línea de señal (*macd_signal*) de -0.0511, mostrando un cruce favorable de recuperación de impulso alcista en el corto plazo.
+  - **Volatilidad (29.06%):** Refleja un riesgo moderado-alto propio del sector financiero en coyunturas de volatilidad macroeconómica europea.
+
+#### 3. Fundamentos Financieros y Valoración
+- **Capitalización Bursátil:** 84.912 millones de EUR.
+- **PER (Trailing):** 13.30x | **PER Forward:** 11.28x.
+- **Ratio Precio/Valor en Libros (Price to Book):** 2.14x (con un valor en libros por acción de 5.72 EUR).
+- **Beneficio por Acción (EPS):** 0.92 EUR (Trailing) y 1.08 EUR (Forward).
+- **Rentabilidad por Dividendo:** Atractiva tasa de **4.22%** (dividendo de 0.52 EUR por acción), con un *payout ratio* del 56.81%.
+- **Rentabilidad Financiera (ROE):** 16.52%, demostrando una sólida eficiencia operativa y generación de beneficios (con márgenes de beneficio neto en torno al 40.56%).
+- **Consenso de Analistas:** El precio objetivo medio (*targetMeanPrice*) se sitúa en **13.28 EUR** (con un rango entre un mínimo de 6.80 EUR y un máximo de 15.30 EUR, recabado de 21 opiniones de analistas), lo que ofrece un potencial alcista de consenso (*consensus_upside_pct*) del **8.54%**.
+- **Valoración Relativa:** Con un PER forward en relación con sus pares (*peer_median_forward_pe* de 10.67x) que arroja un ratio de 1.05x, `CABK.MC` cotiza en línea o ligeramente con prima respecto a la mediana sectorial nacional (SAB.MC, SAN.MC, BKT.MC, BBVA.MC, UNI.MC).
+
+#### 4. Evidencia y Datos Complementarios (Fechas y Fuentes)
+- **Fechas de referencia:** Sesión bursátil del 13 de noviembre de 2026; contexto y noticias macroeconómicas de prensa especializada (Bolsamania, Expansión, El Economista, Negocios.com) comprendidas entre el 11 y el 15 de noviembre de 2026.
+- **Informes financieros:** Estados contables anuales correspondientes a los cierres 2024 y 2025 (Balance con activos totales de 664.040 millones de EUR en 2025 y un patrimonio neto de 38.510 millones de EUR; flujo de caja operativo de 4.410 millones de EUR y FCF de 3.439 millones de EUR en 2025).
+- **Datos faltantes:** No se dispone de estimaciones desagregadas de EBITDA trimestral detallado (no aplicable de forma estándar en entidades bancarias bajo la regla de no aplicar deuda industrial/EBITDA a bancos) ni del desglose completo de flujos operativos del ejercicio en curso no auditados formalmente más allá de los cierres oficiales proporcionados.
 
 ---
 
-#### 3. Análisis Fundamental y Valoración
-* **Capitalización Bursátil**: 84.912 millones de EUR.
-* **Múltiplos de Valoración**: 
-  * **PER TTM (Trailing P/E)**: 13.30x.
-  * **PER Forward**: 11.28x.
-  * **Precio a Valor en Libros (P/B)**: 2.14x (con un valor contable por acción de 5.72 EUR).
-* **Rentabilidad y Dividendos**:
-  * **Rentabilidad por dividendo (*Dividend Yield*)**: **4.25%** (con un dividendo anual de 0.52 EUR por acción y un *payout ratio* de 56.81%).
-  * **ROE (Return on Equity)**: Sólido, en el **16.52%**.
-  * **Márgenes**: Margen de beneficio neto excepcional del **40.56%**.
-* **Consenso de Analistas**: El precio objetivo medio (*targetMeanPrice*) se sitúa en **13.28 EUR**, con un rango que va desde un mínimo de 6.80 EUR hasta un máximo de 15.30 EUR (basado en 21 opiniones de analistas). Esto implica un potencial alcista de consenso (*consensus_upside_pct*) del **8.54%** sobre el precio de cierre actual.
+### Resumen Estructurado (Tabla Clave)
 
----
-
-#### 4. Contexto Macroeconómico Relevante
-Durante el mes de noviembre de 2026, el entorno macroeconómico europeo sigue marcado por la persistencia inflacionaria (con tasas en la eurozona rondando o superando el 4%), lo que mantiene el foco sobre la política de tipos de interés del Banco Central Europeo (BCE) y la rentabilidad del sector bancario regional. Titulares recientes de medios económicos como *Vozpópuli* y *El Economista* señalan que los tipos reales negativos y la presión sobre el ahorro continúan condicionando las estrategias de inversión en renta fija y variable dentro de la eurozona.
-
----
-
-#### 5. Evidencia Contaria y Factores de Riesgo
-* **Contrario / Riesgos**: 
-  * El retorno a 63 sesiones muestra una corrección del -4.04%, indicando que el valor ha atravesado una fase de consolidación lateral-bajista a medio plazo.
-  * La valoración en términos de precio a valor en libros (2.14x) refleja que el mercado ya premia la calidad y los márgenes de la entidad, limitando parcialmente el margen de expansión múltiple si los tipos de interés sufren recortes imprevistos.
-  * Falta de desglose completo de flujos de caja operativos y de inversión (*Operating Cashflow* y *Free Cashflow* aparecen como datos nulos en los extractos recientes para ciertos periodos, lo que exige prudencia en el análisis detallado de caja).
-
----
-
-#### 6. Indicadores Seleccionados para el Seguimiento Operativo
-De acuerdo con la metodología requerida, los siguientes 8 indicadores complementarios se consideran óptimos para el monitoreo de `CABK.MC` sin redundancias:
-1. `close_50_sma` (Tendencia a medio plazo y soporte dinámico).
-2. `close_200_sma` (Benchmark de tendencia a largo plazo).
-3. `close_10_ema` (Captura de giros rápidos de precio a corto plazo).
-4. `macd` (Diferencia de medias para impulso y divergencias).
-5. `macds` (Línea de señal del MACD para confirmación de cruces).
-6. `rsi` (Índice de fuerza relativa para zonas de sobrecompra/sobreventa).
-7. `atr` (Medida de volatilidad para dimensionamiento de riesgo y *stop-loss*).
-8. `boll_ub` / `boll_lb` (Bandas de Bollinger superior e inferior para detección de rupturas o escenarios extremos de volatilidad).
-
----
-
-#### 7. Tabla Resumen de Datos Clave
-
-| Métrica / Indicador | Valor / Estado | Implicación Analítica |
+| Indicador / Métrica | Valor Actual / Referencia | Implicación Analítica |
 | :--- | :--- | :--- |
-| **Precio de Cierre** | 12.23 EUR | Cotización a 13 de noviembre de 2026. |
-| **RSI (14)** | 57.71 | Zona neutral-alcista, sin excesos. |
-| **MACD** | 0.104 (Señal: -0.051) | Impulso favorable a corto plazo. |
-| **SMA 20 / SMA 200** | 11.60 EUR / 11.46 EUR | Soportes tendenciales de medio y largo plazo superados. |
-| **PER Forward** | 11.28x | Valoración razonable frente a estimaciones de beneficios. |
-| **Dividend Yield** | 4.25% | Retorno atractivo vía dividendo para el inversor. |
-| **ROE** | 16.52% | Alta eficiencia en la generación de valor sobre el capital. |
-| **Precio Objetivo Medio** | 13.28 EUR | Potencial de revalorización de consenso (+8.54%). |
+| **Precio de Cierre** | 12.23 EUR (13/11/2026) | Consolidación tras corrección desde máximos de corto plazo. |
+| **Media Móvil 50 (SMA50)** | 12.10 EUR | Actúa como soporte dinámico clave de medio plazo. |
+| **Media Móvil 200 (SMA200)** | 11.46 EUR | Suelo estructural de tendencia alcista a largo plazo. |
+| **RSI (14)** | 57.71 | Zona neutral, sin presión compradora o vendedora extrema. |
+| **MACD vs Señal** | 0.1045 vs -0.0511 | Cruce positivo que sugiere un incipiente repunte del impulso. |
+| **PER Forward** | 11.28x | Valoración razonable frente al beneficio estimado (EPS 1.08 EUR). |
+| **Rentabilidad por Dividendo** | 4.22% (0.52 EUR) | Atractivo flujo de retorno para el inversor paciente. |
+| **Precio Objetivo Consenso** | 13.28 EUR (Upside: ~8.54%) | Margen moderado de revalorización según analistas (21 opiniones). |

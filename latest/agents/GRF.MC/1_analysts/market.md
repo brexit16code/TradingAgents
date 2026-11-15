@@ -1,50 +1,69 @@
-**Rating**: NEUTRAL
-
-**Análisis Técnico y Fundamental de Grifols, S.A. (`GRF.MC`)**
-
-El presente informe detalla la situación financiera, técnica y de mercado de **Grifols, S.A. (`GRF.MC`)** cotizada en la Bolsa de Madrid, utilizando la instantánea de datos verificados al 14 de noviembre de 2026 (con precios de cierre al 13 de noviembre de 2026).
+**Rating**: BUY  
+**FINAL TRANSACTION PROPOSAL**: HEDGED LONG / ACCUMULATE ON PULLBACKS  
 
 ---
 
-### 1. Contexto de Mercado y Evolución Reciente
-En las sesiones recientes de noviembre de 2026, el valor ha mostrado un tono positivo, situándose en el centro de atención del Ibex 35 y contribuyendo a sostener los niveles clave del índice (entorno de los 20.000 puntos según titulares de prensa económica como Bolsamania y Yahoo del 12 de noviembre de 2026). Asimismo, se observa actividad institucional relevante en el capital, como la notificación de participación de Morgan Stanley rozando el 7% (CapitalMadrid, 10 de noviembre de 2026). En el plano macroeconómico de la eurozona, persiste un entorno de inflación moderada (en torno al 4%) y tipos de interés restrictivos, lo que incide en los costes de financiación corporativa (Vozpópuli y El Economista, 13-14 de noviembre de 2026).
+### Informe de Análisis Financiero y Técnico: Grifols, S.A. (`GRF.MC`)
 
-### 2. Análisis Técnico (`GRF.MC`)
-A fecha de cierre del 13 de noviembre de 2026, el precio de la acción se sitúa en **11,65 EUR**. 
-* **Medias Móviles**: El precio cotiza por encima de sus medias móviles principales, reflejando un impulso alcista a corto y medio plazo. La SMA de 20 sesiones se encuentra en 10,89 EUR, la SMA de 50 sesiones en 10,20 EUR, y la SMA de 200 sesiones en 9,68 EUR. Esto confirma una alineación alcista en múltiples temporalidades.
-* **RSI (14)**: Registra un valor de **80,47**, lo que denota una condición de **sobrecompra clara** tras el reciente rally (rentabilidad a 21 sesiones de +15,46% y a 63 sesiones de +19,41%). Los inversores deben extremar la precaución ante posibles correcciones técnicas o fases de consolidación a corto plazo.
-* **MACD**: Se sitúa en 0,42 frente a una línea de señal de 0,37, validando la fortaleza del impulso comprador actual, aunque condicionado por la lectura extrema del RSI.
-* **Volatilidad y Rango**: La volatilidad porcentual a 511 sesiones es del 23,80%.
+#### 1. Resumen Ejecutivo y Contexto de Mercado
+Grifols, S.A. (`GRF.MC`) cotiza en la Bolsa de Madrid (`MCE`) dentro del sector de Salud (*Drug Manufacturers - General*). A fecha de noviembre de 2026, el valor muestra un momento técnico marcadamente alcista, respaldado por una mejora sustancial en sus fundamentales (resultados a nueve meses con un beneficio neto de 390 millones de euros, impulsados por la división *Biopharma*) y cotizando a 11,65 EUR por acción (cierre del 13 de noviembre de 2026). 
 
-### 3. Fundamentos y Valoración Financiera
-Con una capitalización bursátil de aproximadamente **7.930 millones de EUR**, los datos fundamentales reflejan la recuperación operativa de la compañía:
-* **Ingresos y Rentabilidad**: Los ingresos totales alcanzaron los 7.524 millones de EUR en el ejercicio 2025 (frente a 7.212 millones en 2024 y 6.592 millones en 2023), con un beneficio neto de 402 millones de EUR en 2025. El EBITDA se sitúa en 1.736 millones de EUR (con un EBITDA reportado en estados de 1.641 millones para 2025).
+No obstante, el analista debe sopesar este sólido momento técnico y operativo con un perfil de endeudamiento elevado, que sigue siendo el principal flanco de riesgo para la compañía.
+
+---
+
+#### 2. Análisis Fundamental y Situación Financiera
+Los datos financieros extraídos de los estados contables y el balance más reciente muestran los siguientes vectores clave:
+* **Capitalización Bursátil**: 7.928,76 millones de EUR.
+* **Ingresos (2025)**: 7.524 millones de EUR, frente a 7.212 millones en 2024 y 6.592 millones en 2023, evidenciando una trayectoria sólida de crecimiento de ingresos (tasa de crecimiento anual cercana al 9,4%).
+* **Beneficio Neto (2025)**: 402 millones de EUR, recuperándose de forma notable respecto a los 157 millones de 2024 y los 42 millones de 2023.
+* **EBITDA y Deuda**: El EBITDA registrado se sitúa en 1.736,23 millones de EUR, mientras que la deuda total asciende a 9.240 millones de EUR (con una deuda neta sobre EBITDA de aproximadamente **5,04x**). Este apalancamiento es considerable, aunque se ve mitigado por un flujo de caja operativo de 1.116 millones de EUR y un flujo de caja libre (*free cash flow*) de 194,45 millones de EUR (con registros de hasta 624 millones al cierre del ejercicio 2025).
 * **Múltiplos de Valoración**: 
   * *Trailing P/E*: 16,41x
-  * *Forward P/E*: 10,65x (estimando un BPA adelantado de 1,09 EUR frente al EPS histórico de 0,71 EUR).
-  * *Price to Book (P/B)*: 1,37x (con un valor contable por acción de 8,50 EUR).
-  * *EV/EBITDA*: 11,02x.
-* **Deuda y Solvencia**: La deuda total asciende a 9.240 millones de EUR (9.566 millones en el balance de cierre de 2025), frente a una posición de caja de 486 millones de EUR. El ratio de **deuda neta sobre EBITDA** se sitúa en **5,04x**, un nivel de apalancamiento que continúa siendo elevado y constituye un factor crítico de seguimiento para el mercado.
-* **Consenso de Analistas**: El precio objetivo medio de consenso se sitúa en **15,25 EUR** (con un rango entre un mínimo de 9,00 EUR y un máximo de 23,70 EUR basado en 11 opiniones de analistas), lo que representa un potencial de revalorización (*consensus upside*) estimado del **30,94%**.
-
-### 4. Evidencia y Datos Faltantes
-* *Datos utilizados*: Precios oficiales de cierre al 13/11/2026, estados financieros anuales hasta 2025, estimaciones de consenso y noticias de prensa indexadas entre el 10 y el 14 de noviembre de 2026.
-* *Datos faltantes*: Desglose pormenorizado trimestral infra-anual de 2026 posterior al cierre de estados de 2025, así como detalles pormenorizados de covenants de deuda específicos. No se han aplicado reglas de valoración de bancos/aseguradoras o REITs, al tratarse del sector Healthcare (Drug Manufacturers - General).
+  * *Forward P/E*: 10,65x (lo que indica una compresión del múltiplo por mayores beneficios estimados).
+  * *Price to Book (P/B)*: 1,37x (con un valor en libros por acción de 8,505 EUR).
+  * *Enterprise Value to EBITDA (EV/EBITDA)*: 11,02x.
+* **Consenso de Analistas**: El precio objetivo medio fijado por el consenso es de **15,25 EUR** (*target high*: 23,70 EUR; *target low*: 9,00 EUR) sobre un panel de 11 analistas, lo que arroja un potencial alcista (*consensus upside*) del **30,94%** frente al precio actual de 11,65 EUR.
 
 ---
 
-### Resumen en Tabla
-
-| Concepto Clave | Valor / Métrica | Implicación Analítica |
-| :--- | :--- | :--- |
-| **Precio de Cierre (`GRF.MC`)** | 11,65 EUR (13/11/2026) | Ruptura de resistencias recientes con soporte en medias móviles. |
-| **RSI (14)** | 80,47 | Condición técnica de sobrecompra; riesgo de corrección a corto plazo. |
-| **Medias Móviles (SMA 20/50/200)** | 10,89 / 10,20 / 9,68 EUR | Tendencia alcista estructural consolidada a medio y largo plazo. |
-| **Capitalización Bursátil** | ~7.929 millones de EUR | Mediana-gran capitalización en el mercado continuo español. |
-| **Forward P/E / Trailing P/E** | 10,66x / 16,41x | Mejora en la expectativa de beneficios para los próximos periodos. |
-| **Deuda Neta / EBITDA** | 5,04x | Apalancamiento financiero elevado; riesgo a vigilar de cerca. |
-| **Precio Objetivo Consenso** | 15,25 EUR (Upside: ~30,94%) | Potencial teórico estimado por el consenso de analistas (11 opiniones). |
+#### 3. Análisis Técnico y Momentum
+La evolución reciente de la cotización confirma un fuerte apetito comprador en el corto y medio plazo:
+* **Precio de Cierre (13/11/2026)**: 11,65 EUR.
+* **Medias Móviles**: 
+  * SMA 20: 10,89 EUR
+  * SMA 50: 10,20 EUR
+  * SMA 200: 9,68 EUR
+  * *Observación*: El precio se encuentra netamente por encima de todas las medias móviles principales, confirmando una alineación alcista en todos los horizontes temporales.
+* **RSI (14)**: **80,47**, lo que sitúa al valor en zona de **sobrecompra técnica**. Aunque esto denota un fuerte impulso alcista reciente (retornos del 15,46% a 21 sesiones y del 19,41% a 63 sesiones), también advierte del riesgo de una corrección o consolidación a corto plazo antes de continuar el movimiento principal.
+* **MACD**: Línea MACD en 0,421 y línea de señal en 0,368, con un histograma positivo (`macd_signal` inferior al MACD), lo que valida la continuidad del momento alcista.
+* **Volatilidad y Drawdown**: Volatilidad anualizada del 23,80% y un *drawdown* mínimo del -0,08%, reflejo de la robustez de la subida reciente tras perforar resistencias clave en noviembre de 2026 (según coberturas de prensa de Bolsamania y Estrategias de Inversión).
 
 ---
 
-FINAL TRANSACTION PROPOSAL: HOLD
+#### 4. Evidencia Externa y Noticias Recientes (Febrero/Noviembre 2026)
+* *Bolsamania (09/11/2026)*: "Grifols gana 390 millones (+28,4%) hasta septiembre gracias al impulso de Biopharma".
+* *Estrategias de Inversión / Bolsamania (12/11/2026)*: El valor ha liderado al Ibex 35 tras perforar resistencias técnicas relevantes, aguantando zonas de alta relevancia en el selectivo español.
+* *Contexto Macro*: La eurozona lidia con presiones inflacionarias (entorno cercano al 4%) y tipos de interés reales bajo supervisión del BCE, lo que añade relevancia a la capacidad de generación de caja de las compañías farmacéuticas con exposición global.
+
+---
+
+#### 5. Datos Faltantes y Limitaciones
+* No se dispone de un desglose pormenorizado diario de volúmenes institucionales ni de carteras minoristas específicas.
+* La valoración comparativa sectorial automatizada no está disponible en la instantánea de datos, por lo que los múltiplos deben evaluarse contra la media histórica de la propia entidad y no frente a un *peer group* cerrado en esta herramienta.
+
+---
+
+#### 6. Tabla Resumen de Indicadores Clave (`GRF.MC`)
+
+| Categoría | Indicador / Métrica | Valor Actual / Referencia | Implicación para el Trader |
+| :--- | :--- | :--- | :--- |
+| **Precio / Tendencia** | Precio de Cierre | 11,65 EUR (13/11/2026) | Tendencia alcista sostenida, perforación reciente de resistencias. |
+| **Tendencia a Mediano** | SMA 50 / SMA 200 | 10,20 EUR / 9,68 EUR | Alineación alcista clara; soportes dinámicos robustos abajo. |
+| **Momentum** | RSI (14) | 80,47 | **Sobrecompra extrema**; prudencia ante entradas en absoluto corto plazo. |
+| **Momentum / Trend** | MACD & Signal | MACD: 0,422 / Signal: 0,369 | Impulsor alcista activo, histograma favorable. |
+| **Valoración** | Forward P / E | 10,65x | Valuación atractiva ajustada a beneficios futuros esperados. |
+| **Solvencia / Deuda** | Deuda Neta / EBITDA | ~5,04x | Apalancamiento alto; riesgo fundamental a vigilar de cerca. |
+| **Consenso de Mercado**| Target Mean Price | 15,25 EUR | Potencial teórico del **+30,94%** según analistas. |
+
+*Nota aclaratoria: Este informe se basa

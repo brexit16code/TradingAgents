@@ -1,68 +1,63 @@
-**Rating**: HOLD
+**Rating**: HOLD  
+**FINAL TRANSACTION PROPOSAL**: HOLD  
 
-# Informe de Investigación y Análisis de Mercado: ACS.MC
+### Informe de Análisis y Estado Macroestratégico para ACS.MC
 
-A continuación se presenta un análisis exhaustivo y estructurado de la compañía **ACS, Actividades de Construcción y Servicios, S.A. (`ACS.MC`)**, cotizada en el mercado continuo de Madrid (`MCE`) e integrada en el selectivo `^IBEX`, basado exclusivamente en los datos de la instantánea de mercado, estados financieros y flujos de noticias recientes correspondientes a noviembre de 2026.
+**Fecha de referencia:** 15 de noviembre de 2026  
+**Empresa Analizada:** ACS, Actividades de Construcción y Servicios, S.A. (`ACS.MC`)  
+**Bolsa / Sector:** Madrid (MCE) / Industrials (Engineering & Construction)  
+**Divisa:** EUR  
 
 ---
 
-## 1. Análisis Fundamental y Situación Financiera
+### 1. Resumen Ejecutivo y Tesis de Inversión
 
-### Métricas de Valoración y Rentabilidad
+El presente informe analiza la situación de **ACS.MC** en base a los datos financieros recientes, la cotización de mercado al cierre de la semana (13 de noviembre de 2026), el contexto macroeconómico europeo actual (marcado por presiones inflacionarias en la Eurozona) y las últimas noticias corporativas de la compañía, destacando su nuevo plan estratégico a 2030 y los sólidos resultados del ejercicio.
+
+La acción cotiza a **91.05 EUR** (al cierre del 13/11/2026), situándose un -34.19% por debajo de su máximo reciente (drawdown) y operando en las proximidades de sus medias móviles de corto plazo (SMA20: 90.01 EUR, SMA50: 92.41 EUR), aunque por debajo de su SMA de 200 días (108.67 EUR), lo que refleja un sesgo de consolidación a medio plazo tras las correcciones del sector.
+
+---
+
+### 2. Fundamentos Financieros y Valoración
+
 * **Capitalización de Mercado:** ~23.680 millones de EUR.
-* **Precio de Cierre (13/11/2026):** 91,05 EUR.
-* **PER (Trailing):** 19,88x | **PER (Forward):** 18,09x.
-* **Beneficio por Acción (EPS):** 4,58 EUR (Trailing) / 5,03 EUR (Forward).
-* **Valor Contable por Accción (Book Value):** 21,70 EUR (Ratio Precio/Valor Contable de ~4,20x).
-* **Rentabilidad por Dividendo (Dividend Yield):** ~2,55% (Dividendo anual de 2,32 EUR por acción, con un *payout ratio* del 61,02%).
-* **Rentabilidad sobre el Patrimonio (ROE):** 25,01%, lo que refleja una excelente eficiencia en la generación de valor para los accionistas.
-
-### Balance y Deuda
-* **Deuda Total:** 14.428 millones de EUR (según métricas de la instantánea) / 15.333 millones de EUR a cierre de ejercicio 2025.
-* **Efectivo y Equivalentes:** 11.918 millones de EUR.
-* **EBITDA:** 2.458 millones de EUR (últimos doce meses / datos normalizados) y 3.388 millones de EUR reportados para el cierre del ejercicio 2025.
-* **Deuda Neta / EBITDA:** Se sitúa en un saludable **1,02x**, evidenciando un apalancamiento moderado y manejable para una compañía del sector de ingeniería y construcción.
+* **PER (Trailing):** 19.88x | **PER (Forward):** 18.09x.
+* **BPA (Trailing EPS):** 4.58 EUR | **BPA Estimado (Forward EPS):** 5.03 EUR.
+* **Crecimiento:** Ingresos con fuerte incremento (`revenueGrowth` del 19.4%; ingresos totales en 2025 de 49.850 millones de EUR) y un crecimiento de beneficios del 35.5% (`earningsGrowth`).
+* **Deuda y Solvencia:** Deuda total de 14.428 millones de EUR frente a una caja de 11.918 millones de EUR, situando la ratio Deuda Neta / EBITDA en un saludable **1.02x**, evidenciando un balance saneado y robusto en un entorno de tipos elevados.
+* **Rentabilidad por Dividendo:** 2.55% (dividendo anual de 2.32 EUR, con un *payout ratio* del 61.02%).
+* **Consenso de Analistas:** El precio objetivo medio (*targetMeanPrice*) se sitúa en **128.54 EUR** (con un rango entre un mínimo de 99.75 EUR y un máximo de 153.10 EUR basados en 17 opiniones de analistas), lo que representa un potencial de revalorización (*consensus upside*) del **41.17%**.
 
 ---
 
-## 2. Últimos Resultados y Plan Estratégico (Noviembre 2026)
+### 3. Contexto de Noticias Corporativas y Catalizadores
 
-Durante la semana del 11 al 13 de noviembre de 2026, `ACS.MC` ha acaparado la atención de los mercados gracias a hitos corporativos clave:
-1. **Resultados a Septiembre de 2026:** La compañía reportó un beneficio neto de **789 millones de euros hasta septiembre**, lo que representa un **incremento del 35%** excluyendo extraordinarios, impulsado fundamentalmente por el sólido músculo de su filial estadounidense *Turner* (fuente: *Rankia* / *Bolsamania*, 12 de noviembre de 2026).
-2. **Plan Estratégico a 2030:** `ACS.MC` ha presentado su nuevo plan estratégico con el objetivo de **triplicar su valor en bolsa**, apoyándose en la duplicación de su beneficio y de su dividendo. La directiva ha destacado la existencia de un **"superciclo de infraestructuras"** a nivel global y nuevas oportunidades de negocio en Europa (fuente: *El Economista* y *Estrategias de Inversión*, 12 de noviembre de 2026).
-3. **Consenso de Analistas:** El precio objetivo medio de consenso de los analistas se sitúa en **128,54 EUR** (con un rango que oscila entre un precio mínimo de 99,75 EUR y un máximo de 153,10 EUR, basado en 17 opiniones), lo que arroja un potencial alcista (*consensus upside*) del **41,17%**.
+* **Resultados e Impulso de la IA:** ACS ha presentado unos sólidos resultados recientes (ganancias de 789 millones de euros hasta septiembre, un 35% más sin extraordinarios), convenciendo a los analistas gracias al impulso de la digitalización, la inteligencia artificial y el desarrollo de centros de datos, áreas que generan un creciente optimismo en Bolsa (fuentes: *OkDiario*, 15/11/2026; *Rankia*, 12/11/2026).
+* **Plan Estratégico a 2030:** La compañía ha anunciado previsiones muy ambiciosas de duplicar su beneficio y dividendo, con el objetivo de triplicar su valor en bolsa bajo su nuevo plan estratégico a 2030 (fuente: *El Economista*, 12/11/2026).
 
 ---
 
-## 3. Contexto Macroeconómico y Técnico
+### 4. Entorno Macroeconómico Europeo
 
-### Macroeconomía de la Eurozona
-El panorama macroeconómico europeo actual muestra tensiones inflacionistas que impactan en la renta fija y el coste de financiación:
-* La inflación de la zona euro se mantiene en niveles elevados cercanos al **4%**, lo que reduce el margen de maniobra del Banco Central Europeo para relajar los tipos de interés de forma agresiva y mantiene la presión sobre los ahorradores en un entorno de tipos reales ajustados (fuentes: *El Economista* y *Vozpopuli*, 13-14 de noviembre de 2026).
-* Pese a este contexto de cautela macro, el `^IBEX` ha demostrado resiliencia recuperando la cota de los 20.000 puntos, impulsado de manera destacada por valores de infraestructura como `ACS.MC` (fuentes: *Estrategias de Inversión*, 12-13 de noviembre de 2026).
-
-### Análisis Técnico
-* **Cotización Actual:** 91,05 EUR.
-* **Medias Móviles:** La cotización se encuentra ligeramente por encima de su SMA20 (90,01 EUR) y SMA50 (92,41 EUR), pero por debajo de su SMA200 (108,67 EUR), lo que indica una fase de consolidación a medio plazo tras correcciones previas.
-* **Indicadores de Momento:** RSI de 14 sesiones en **50,06** (neutral) y MACD ligeramente por debajo de la línea de señal pero convergiendo (-0,51 frente a -1,07).
-* **Volatilidad y Drawdown:** Volatilidad anualizada del 32,56% y un *drawdown* máximo reciente de -34,19%, lo que refleja oscilaciones importantes típicas del sector de infraestructuras y grandes contratas.
+* **Inflación y Tipos de Interés:** Las noticias macroeconómicas de la semana en la Eurozona reflejan que la inflación se mantiene tensionada alrededor del 4% (*El Economista*, 13/11/2026), lo que inhabilita una rápida moderación de tipos de interés por parte del Banco Central Europeo (BCE) y mantiene un entorno de tipos reales negativos para el ahorro. Esto impacta en los costes de financiación corporativa general, aunque la sólida caja y el bajo apalancamiento de ACS (`net_debt_ebitda` de 1.02x) la aíslan parcialmente frente a competidores más endeudados.
 
 ---
 
-## 4. Evidencia Recopilada, Supuestos y Datos Faltantes
+### 5. Datos Faltantes y Limitaciones
 
-* **Evidencia de Soporte:** Datos fundamentales extraídos de la instantánea de Yahoo Finance (`ACS.MC`) con fecha de recuperación 2026-11-14; noticias corporativas y macroeconómicas de noviembre de 2026 (Rankia, El Economista, Bolsamania, Estrategias de Inversión).
-* **Datos Faltantes / Limitaciones:** No se dispone del desglose detallado de la cartera de pedidos (*backlog*) por regiones geográficas específicas para el último trimestre más allá de las menciones cualitativas al superciclo de infraestructuras. Los datos de valoración de analistas reflejan proyecciones de consenso y no deben interpretarse como un valor intrínseco garantizado.
+* No se dispone de flujos de caja desagregados detallados por trimestre más allá de los cierres anuales provistos en los estados financieros (`cashflow` de 2025 con FCF de 2.303 millones de EUR).
+* No se han suministrado carteras de inversión hipotéticas del cliente, por lo que cualquier ponderación patrimonial debe ser tratada como estrictamente genérica.
 
 ---
 
-## Resumen en Tabla Organizada
+### 6. Tabla Resumen de Datos Clave
 
-| Categoría | Métrica / Indicador | Valor / Situación Actual | Implicación para el Trading / Macro |
+| Categoría | Métrica / Indicador | Valor Actual / Referencia | Evidencia / Fuente |
 | :--- | :--- | :--- | :--- |
-| **Valoración** | Precio de Cierre (`ACS.MC`) | 91,05 EUR (13/11/2026) | Consolidación tras repunte operativo. |
-| **Valoración** | PER Forward / Trailing | 18,09x / 19,88x | Valoración razonable frente al crecimiento de beneficios. |
-| **Solvencia** | Deuda Neta / EBITDA | 1,02x | Estructura financiera muy sólida y bajo riesgo de apalancamiento. |
-| **Rentabilidad** | ROE | 25,01% | Alta eficiencia en la asignación de capital. |
-| **Catalizador** | Plan Estratégico 2030 | Presentado en noviembre de 2026 | Apunta a duplicar beneficios y dividendos a 2030. |
-| **Consenso** | Target Price Medio | 128,54 EUR (+41,17% potencial) | Alto respaldo de los analistas de
+| **Precio y Mercado** | Precio de Cierre (`ACS.MC`) | 91.05 EUR (13/11/2026) | Yahoo Finance / Snapshot |
+| **Valoración** | PER Forward / Trailing | 18.09x / 19.88x | Fundamentos de Yahoo Finance |
+| **Consenso** | Precio Objetivo Medio | 128.54 EUR (+41.17% potencial) | 17 analistas / Snapshot |
+| **Solvencia** | Deuda Neta / EBITDA | 1.02x | Balance y EBITDA consolidados |
+| **Rentabilidad** | Dividend Yield | 2.55% (2.32 EUR por acción) | Snapshot de Fundamentos |
+| **Catalizador** | Plan Estratégico 2030 | Duplicar beneficio y dividendo | *El Economista* (12/11/2026) |
+| **Macro** | Inflación Zona Euro | ~4.0% | Prensa económica europea (13/11/2026) |

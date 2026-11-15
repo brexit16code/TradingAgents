@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La acción muestra una recuperación técnica prometedora con el cruce del SMA50, pero se enfrenta a una resistencia crítica en la SMA200 situada en 26,97. Aunque el momentum es positivo, el elevado apalancamiento (Deuda Neta/EBITDA de 7,96x) y un entorno macroeconómico con tipos de interés presionados por la inflación en la eurozona limitan el potencial de subida a corto plazo, aconsejando cautela hasta confirmar una ruptura consolidada de la resistencia clave.
+**Reasoning**: La acción se sitúa en un punto de indecisión técnica crítica, cotizando justo debajo de su media móvil de 200 sesiones en 26,97. Aunque el momentum es positivo con un RSI en 62,25, el elevado apalancamiento (7,96x Net Debt/EBITDA) en un entorno de tipos de interés persistentes limita el potencial alcista a corto plazo. Es prudente mantener la posición actual y esperar una ruptura clara de la resistencia técnica antes de añadir exposición.
 
-**Entry Price**: 26.97
+**Entry Price**: 27.5
 
-**Stop Loss**: 25.05
+**Stop Loss**: 25.0
 
-**Position Sizing**: Mantener posición actual, no exceder 2% del portafolio en caso de abrir nueva posición tras confirmación.
+**Position Sizing**: 0.5x de la asignación estándar
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

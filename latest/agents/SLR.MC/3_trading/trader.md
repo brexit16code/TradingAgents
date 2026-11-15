@@ -1,11 +1,11 @@
-**Action**: Buy
+**Action**: Hold
 
-**Reasoning**: A pesar de la presión bajista y la volatilidad técnica, Solaria presenta una valoración fundamental atractiva con un PER forward de 9,25x y un fuerte crecimiento de beneficios. La estrategia de acumulación gradual es adecuada dado que el precio, aunque bajo las medias de 50 y 200 días, muestra signos de estabilización en el RSI, permitiendo capturar el valor intrínseco mientras se mitiga el riesgo de corto plazo mediante una entrada escalonada.
+**Reasoning**: A pesar de que Solaria muestra un atractivo descuento en múltiplos de valoración y catalizadores de crecimiento interesantes como los centros de datos y almacenamiento, su elevado apalancamiento y flujo de caja libre negativo en un entorno de tipos altos justifican mantener una postura neutral. El análisis técnico muestra al valor cotizando en la zona de 15.75 EUR, sin una dirección clara y presionado por una alta volatilidad, lo que desaconseja abrir nuevas posiciones direccionales en este momento.
 
-**Entry Price**: 15.75
+**Entry Price**: not provided
 
 **Stop Loss**: 14.0
 
-**Position Sizing**: 0.5% a 0.75% del portafolio
+**Position Sizing**: 0% de cartera (mantener exposición actual o cero nuevas compras)
 
-FINAL TRANSACTION PROPOSAL: **BUY**
+FINAL TRANSACTION PROPOSAL: **HOLD**

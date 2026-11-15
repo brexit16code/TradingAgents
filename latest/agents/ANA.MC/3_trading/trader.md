@@ -1,11 +1,11 @@
-**Action**: Hold
+**Action**: Sell
 
-**Reasoning**: El activo presenta una tendencia bajista clara al cotizar por debajo de todas sus medias móviles principales y ha reaccionado negativamente a problemas de deuda y operativos. Dada la alta ratio de apalancamiento (6,14x) en un contexto de tipos de interés persistentes y la falta de un soporte técnico sólido tras la caída del 8%, es prudente esperar a que la volatilidad se reduzca y el RSI se acerque a niveles de sobreventa antes de considerar cualquier entrada.
+**Reasoning**: La estructura técnica de ANA.MC se ha deteriorado gravemente tras la ruptura de todas las medias móviles principales (SMA20, SMA50, SMA200), confirmando un cambio de tendencia a bajista. Fundamentalmente, el alto apalancamiento (Net Debt/EBITDA de 6,14x) combinado con la quema de efectivo y el fracaso de los planes de desinversión justifican una salida para proteger el capital ante el riesgo de nuevas caídas.
 
-**Entry Price**: 190.0
+**Entry Price**: 203.0
 
-**Stop Loss**: 185.0
+**Stop Loss**: 212.0
 
-**Position Sizing**: Reducida, máximo 2% de la cartera
+**Position Sizing**: Reducir la posición actual al 25% o 50% de su tamaño original.
 
-FINAL TRANSACTION PROPOSAL: **HOLD**
+FINAL TRANSACTION PROPOSAL: **SELL**

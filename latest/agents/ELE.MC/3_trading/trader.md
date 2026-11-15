@@ -1,11 +1,11 @@
-**Action**: Sell
+**Action**: Hold
 
-**Reasoning**: El activo muestra señales claras de sobrecompra técnica con un RSI de 70.24 y cotiza un 20% por encima del precio objetivo de consenso. La divergencia fundamental entre una valoración elevada (Forward PE 19.02x) y un crecimiento negativo de las ganancias justifica una reducción de posiciones para asegurar beneficios ante la posible reversión a la media.
+**Reasoning**: Endesa presenta una calidad fundamental sólida pero se encuentra técnicamente extendida, cotizando con un RSI superior a 70, lo cual señala una condición de sobrecompra. Existe una divergencia significativa entre el precio actual de 45.99 EUR y el consenso de analistas de 36.82 EUR, además de una valoración P/B elevada de 5.99. Dada la incertidumbre macroeconómica y la presión de los tipos de interés, es prudente esperar a una consolidación hacia su media móvil de 50 sesiones antes de ejecutar nuevas compras.
 
-**Entry Price**: not provided
+**Entry Price**: 42.88
 
-**Stop Loss**: 42.88
+**Stop Loss**: 38.32
 
-**Position Sizing**: Reducción del 25% de la posición actual
+**Position Sizing**: Mantener posición actual; no añadir exposición hasta validar soporte técnico.
 
-FINAL TRANSACTION PROPOSAL: **SELL**
+FINAL TRANSACTION PROPOSAL: **HOLD**

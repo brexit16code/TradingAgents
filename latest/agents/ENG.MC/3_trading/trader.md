@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: ENG.MC cotiza actualmente a 18,40 EUR, mostrando una sólida tendencia técnica alcista por encima de sus medias móviles y un atractivo dividendo del 5,43%, pero se encuentra en zona de sobrecompra técnica con un RSI de 79,01 y superando el precio objetivo de consenso de 17,29 EUR. Dado el apalancamiento elevado (deuda neta/EBITDA de 6,15x) y la presión de posiciones bajistas, se recomienda mantener a la espera de una consolidación en niveles de soporte.
+**Reasoning**: La cotizacion de ENG.MC se encuentra en 18.40 EUR respaldada por una tendencia alcista solida y una rentabilidad por dividendo atractiva del 5.43%, pero muestra una clara sobrecompra con un RSI de 79.01 y un apalancamiento financiero elevado de 6.15x en deuda neta sobre EBITDA. Dado que el precio objetivo de consenso se situe por debajo de la cotizacion actual y existen presiones bajistas significativas en el mercado, se recomienda mantener la posicion actual y evitar nuevas compras a la espera de una correccion tecnica saludable.
 
 **Entry Price**: not provided
 
-**Stop Loss**: not provided
+**Stop Loss**: 17.0
 
-**Position Sizing**: not provided
+**Position Sizing**: 5% de la cartera
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

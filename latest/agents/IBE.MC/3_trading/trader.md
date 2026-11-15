@@ -1,11 +1,11 @@
-**Action**: Hold
+**Action**: Sell
 
-**Reasoning**: Iberdrola, S.A. (IBE.MC) cotiza en máximos históricos a 23.70 EUR con una condición de sobrecompra extrema (RSI de 82.54) y un precio superior al objetivo medio de consenso de 21.57 EUR. Aunque sus fundamentales y su liderazgo en la transición energética respaldan la calidad de la compañía, la valoración exigente (PER forward de 21.28x) y la divergencia frente al consenso aconsejan mantener la posición existente sin realizar nuevas compras en estos niveles.
+**Reasoning**: IBE.MC cotiza en máximos históricos a 23.70 EUR, superando el precio objetivo medio del consenso de analistas (21.57 EUR) y mostrando un potencial alcista negativo del -8.99%. El indicador RSI de 14 periodos se encuentra en 82.54, señalando una sobrecompra extrema, y el PER forward de 21.28x refleja una prima superior al 25% frente a la mediana sectorial. Por lo tanto, alineándose con la recomendación Underweight, se propone una venta parcial para tomar beneficios ante el agotamiento técnico y el riesgo de corrección.
 
-**Entry Price**: not provided
+**Entry Price**: 23.7
 
-**Stop Loss**: not provided
+**Stop Loss**: 24.8
 
-**Position Sizing**: 1.0x de la asignación estándar en cartera
+**Position Sizing**: Reducir la posición actual en un 25% a 50% de la asignación asignada al valor
 
-FINAL TRANSACTION PROPOSAL: **HOLD**
+FINAL TRANSACTION PROPOSAL: **SELL**

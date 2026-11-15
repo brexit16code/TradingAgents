@@ -1,29 +1,34 @@
-El análisis técnico y fundamental de **Acerinox, S.A. (ACX.MC)**, basado en la información disponible al 14 de noviembre de 2026, refleja una situación de consolidación en una tendencia bajista de corto plazo, marcada por una presión macroeconómica persistente en la zona euro.
+Análisis exhaustivo de **ACX.MC** (Acerinox, S.A.) con fecha de corte al 15 de noviembre de 2026.
 
-### Análisis Técnico
-*   **Tendencia:** El precio actual de **15,80 EUR** se sitúa por debajo de su media móvil de 50 sesiones (16,85 EUR), lo que indica una debilidad en el corto y medio plazo. Sin embargo, mantiene una posición ligeramente por encima de la media de 200 sesiones (15,34 EUR), lo que sugiere que la estructura de largo plazo aún conserva un soporte crítico.
-*   **Momentum:** El **RSI(14)** se encuentra en **43,21**, nivel que refleja una falta de convicción compradora sin llegar a zonas de sobreventa extrema, lo que indica un mercado en fase de espera. El **MACD** (-0,351) y su señal (-0,359) muestran una convergencia cercana, sugiriendo una volatilidad moderada con una ligera tendencia neutral a negativa.
-*   **Volatilidad:** La volatilidad se sitúa en **27,62%**, nivel que, combinado con una caída reciente del 14,5% desde sus máximos, exige cautela en la gestión del riesgo.
+### Resumen de la situación financiera y técnica
+Acerinox muestra una situación técnica de consolidación tras un periodo de volatilidad. Con un precio de cierre de **15,80 EUR** (al 13 de noviembre de 2026), el activo cotiza por debajo de sus medias móviles de corto (SMA20: 16,20) y medio plazo (SMA50: 16,85), aunque se mantiene por encima de la SMA200 (15,34), lo que sugiere que la tendencia alcista de largo plazo aún mantiene un soporte crítico.
 
-### Análisis Fundamental
-*   **Valoración:** La compañía cotiza a un **Forward PE de 10,22x**, lo cual es significativamente inferior a su **Trailing PE de 29,81x**, sugiriendo que el mercado descuenta una recuperación en los beneficios para los próximos periodos. 
-*   **Solvencia y Eficiencia:** El ratio de **Deuda Neta/EBITDA de 3,15x** y un flujo de caja libre negativo (-155,27 M EUR) en el último cierre fiscal son puntos de atención críticos. La rentabilidad por dividendo (**3,92%**) es atractiva, pero el **payout ratio de 1,44x** es elevado, lo que podría poner en duda la sostenibilidad del dividendo si no se mejora la generación de caja operativa (183,49 M EUR).
-*   **Contexto Macroeconómico:** Los titulares recientes sobre la inflación en la zona euro (4%) y la rigidez en la política monetaria sugieren un entorno de costes elevados que impacta directamente en el sector siderúrgico, presionando los márgenes operativos de ACX.MC.
+**Análisis técnico detallado:**
+*   **Momentum:** El indicador RSI(14) en **43,21** indica un terreno neutral-bajista, sin señales claras de sobreventa o sobrecompra, sugiriendo una falta de presión compradora dominante en el corto plazo.
+*   **Tendencia:** La convergencia del MACD (-0,351) con su línea de señal (-0,359) muestra un debilitamiento en la tendencia negativa previa; cualquier cruce alcista en este nivel sería una señal de estabilización.
+*   **Volatilidad:** La volatilidad registrada del **27,62%** combinada con un *drawdown* del **14,50%** refleja un mercado cauteloso.
 
-### Resumen de hallazgos
-La evidencia disponible muestra un activo bajo presión técnica y con fundamentales que requieren una mejora en la rentabilidad operativa. La proximidad de la media móvil de 200 días es el nivel clave a vigilar; una ruptura a la baja podría invalidar la tendencia alcista de largo plazo.
+**Fundamentos y contexto:**
+Acerinox enfrenta presiones cíclicas en el sector de materiales básicos. El beneficio por acción (EPS) actual de 0,53 EUR frente a una proyección a futuro de 1,54 EUR implica que los analistas esperan una recuperación operativa significativa, aunque el P/E *trailing* de 29,81 resulta elevado comparado con el *forward* P/E de 10,22, subrayando la expectativa de una mejora en los márgenes de beneficio a futuro. La empresa mantiene una política de dividendos activa (Yield: 3,92%), aunque el ratio de *payout* actual (1,44) está por encima de la generación de beneficios, lo que indica que el dividendo se está financiando con reservas o deuda.
+
+### Factores de Riesgo y Evidencia
+*   **Contrario:** El flujo de caja libre (FCF) negativo de -155,27 millones de EUR en el último periodo fiscal es un punto de atención crítico.
+*   **A favor:** La deuda neta sobre EBITDA de 3,15x indica un apalancamiento manejable pero elevado en un entorno de tipos de interés que se mantienen persistentes en la zona euro, complicando la refinanciación o el gasto en CAPEX (que ascendió a 309,8 millones de EUR).
+*   **Macro:** Los titulares del 13-14 de noviembre de 2026 sugieren un entorno macroeconómico complicado por la inflación en la Eurozona, lo cual presiona los costes de insumos para empresas siderúrgicas como ACX.MC.
+
+### Consideraciones adicionales
+No se dispone de una comparativa sectorial específica en la base de datos proporcionada, lo que limita la capacidad de evaluar si el ratio P/B de 1,77 es atractivo frente a competidores directos. Los datos de flujo de caja muestran una volatilidad inusual, pasando de 306M en 2023 a -155M en 2025, lo cual requiere seguimiento trimestral.
+
+### Tabla Resumen
+| Indicador | Valor | Interpretación |
+| :--- | :--- | :--- |
+| Precio (13/11/2026) | 15,80 EUR | Debajo de SMA20 y SMA50 |
+| RSI(14) | 43,21 | Neutral (Sin sesgo definido) |
+| SMA200 | 15,34 EUR | Soporte técnico relevante |
+| Dividend Yield | 3,92% | Atractivo, pero *payout* alto |
+| Forward EPS | 1,54 EUR | Expectativa de mejora operativa |
+| Neto Deuda/EBITDA | 3,15x | Apalancamiento moderado-alto |
 
 **Rating**: HOLD
 
-| Indicador / Métrica | Valor | Interpretación |
-| :--- | :--- | :--- |
-| Precio Actual | 15,80 EUR | Por debajo de SMA50 (16,85) |
-| RSI(14) | 43,21 | Neutral (sin tendencia clara) |
-| Forward PE | 10,22x | Valoración atractiva respecto al histórico |
-| Dividend Yield | 3,92% | Atractivo, pero requiere vigilancia del Payout |
-| Net Debt/EBITDA | 3,15x | Nivel de apalancamiento moderado-alto |
-| Tendencia 252 días | +45,87% | Rendimiento positivo acumulado anual |
-
-FINAL TRANSACTION PROPOSAL: Mantener posición, monitoreando el soporte en la media de 200 sesiones (15,34 EUR) y la sostenibilidad del flujo de caja. No se recomienda incrementar exposición hasta observar una mejora en la generación de caja libre.
-
-*Nota: Datos extraídos del snapshot de mercado al 2026-11-14. Falta información detallada sobre el desglose de costes energéticos específicos del trimestre en curso. Referencias: Yahoo Finance, Estrategias de Inversión (2026-11-11).*
+FINAL TRANSACTION PROPOSAL: Mantener posición actual, monitoreando el soporte en 15,34 EUR (SMA200). Dada la alta ratio de pago de dividendos (payout) y la tendencia negativa de las medias móviles de corto plazo, se recomienda prudencia hasta confirmar un giro en el histograma del MACD o una estabilización del flujo de caja. No se recomienda aumentar exposición hasta superar la resistencia de 16,85 EUR (SMA50).

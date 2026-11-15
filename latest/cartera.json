@@ -12,7 +12,7 @@
     "dividends": "Brutos devengados en exfecha; separados del efectivo y sin reinversión."
   },
   "started_at": "2026-11-01T15:07:55.196232+01:00",
-  "updated_at": "2026-11-14T21:35:59.048450+01:00",
+  "updated_at": "2026-11-15T21:54:10.004195+01:00",
   "cursor": "2026-11-13",
   "cash": 2092.72,
   "positions": {
@@ -237,6 +237,28 @@
       "source": "paper-history/2026-11-13_82296e0b8c707bc3b72479ed.json",
       "status": "cancelled",
       "note": "Una señal posterior sustituye la orden pendiente."
+    },
+    {
+      "id": "6de49b56a85b0b061a708b24",
+      "ticker": "AMS.MC",
+      "name": "Amadeus",
+      "side": "BUY",
+      "rating": "Overweight",
+      "requested_at": "2026-11-15T21:54:10.004195+01:00",
+      "after": "2026-11-15",
+      "source": "paper-history/2026-11-15_facb97ac04bb78280051e020.json",
+      "status": "pending"
+    },
+    {
+      "id": "45a5fe3903122193b4d36217",
+      "ticker": "FDR.MC",
+      "name": "Fluidra",
+      "side": "BUY",
+      "rating": "Buy",
+      "requested_at": "2026-11-15T21:54:10.004195+01:00",
+      "after": "2026-11-15",
+      "source": "paper-history/2026-11-15_facb97ac04bb78280051e020.json",
+      "status": "pending"
     }
   ],
   "trades": [
@@ -403,14 +425,22 @@
       "id": "124181781933919da66ab756",
       "observed_at": "2026-11-14T21:35:59.048450+01:00",
       "path": "paper-history/2026-11-14_124181781933919da66ab756.json"
+    },
+    {
+      "report_date": "2026-11-15",
+      "generated_at": "2026-11-15T20:28:28.086725+01:00",
+      "universe_verified": true,
+      "id": "facb97ac04bb78280051e020",
+      "observed_at": "2026-11-15T21:54:10.004195+01:00",
+      "path": "paper-history/2026-11-15_facb97ac04bb78280051e020.json"
     }
   ],
   "latest_signals": [
     {
       "ticker": "ACS.MC",
       "name": "ACS",
-      "rating": "Overweight",
-      "action": "BUY",
+      "rating": "Hold",
+      "action": "HOLD",
       "model": "gemini-3.5-flash-lite",
       "price_date": "2026-11-13",
       "close": 91.05000305175781
@@ -436,8 +466,8 @@
     {
       "ticker": "AMS.MC",
       "name": "Amadeus",
-      "rating": "Hold",
-      "action": "HOLD",
+      "rating": "Overweight",
+      "action": "BUY",
       "model": "gemini-3.5-flash-lite",
       "price_date": "2026-11-13",
       "close": 62.15999984741211
@@ -445,8 +475,8 @@
     {
       "ticker": "ANA.MC",
       "name": "Acciona",
-      "rating": "Hold",
-      "action": "HOLD",
+      "rating": "Underweight",
+      "action": "SELL",
       "model": "gemini-3.1-flash-lite",
       "price_date": "2026-11-13",
       "close": 203.0
@@ -463,8 +493,8 @@
     {
       "ticker": "BBVA.MC",
       "name": "BBVA",
-      "rating": "Hold",
-      "action": "HOLD",
+      "rating": "Buy",
+      "action": "BUY",
       "model": "gemini-3.1-flash-lite",
       "price_date": "2026-11-13",
       "close": 23.56999969482422
@@ -508,8 +538,8 @@
     {
       "ticker": "ELE.MC",
       "name": "Endesa",
-      "rating": "Underweight",
-      "action": "SELL",
+      "rating": "Hold",
+      "action": "HOLD",
       "model": "gemini-3.1-flash-lite",
       "price_date": "2026-11-13",
       "close": 45.9900016784668
@@ -526,8 +556,8 @@
     {
       "ticker": "FDR.MC",
       "name": "Fluidra",
-      "rating": "Hold",
-      "action": "HOLD",
+      "rating": "Buy",
+      "action": "BUY",
       "model": "gemini-3.1-flash-lite",
       "price_date": "2026-11-13",
       "close": 19.440000534057617
@@ -562,8 +592,8 @@
     {
       "ticker": "IBE.MC",
       "name": "Iberdrola",
-      "rating": "Hold",
-      "action": "HOLD",
+      "rating": "Underweight",
+      "action": "SELL",
       "model": "gemini-3.5-flash-lite",
       "price_date": "2026-11-13",
       "close": 23.700000762939453
@@ -697,9 +727,9 @@
     {
       "ticker": "SLR.MC",
       "name": "Solaria",
-      "rating": "Overweight",
-      "action": "BUY",
-      "model": "gemini-3.1-flash-lite",
+      "rating": "Hold",
+      "action": "HOLD",
+      "model": "gemini-3.5-flash-lite",
       "price_date": "2026-11-13",
       "close": 15.75
     },
@@ -717,7 +747,7 @@
       "name": "Unicaja",
       "rating": "Hold",
       "action": "HOLD",
-      "model": "gemini-3.1-flash-lite",
+      "model": "gemini-3.5-flash-lite",
       "price_date": "2026-11-13",
       "close": 3.447999954223633
     }

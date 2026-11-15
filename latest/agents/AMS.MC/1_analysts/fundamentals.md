@@ -1,65 +1,70 @@
 **Rating**: REVIEW
 
-**FINAL TRANSACTION PROPOSAL:** HOLD
-
-***
+FINAL TRANSACTION PROPOSAL: HOLD
 
 ### Informe Fundamental Integral: Amadeus IT Group, S.A. (`AMS.MC`)
 
-#### 1. Perfil de la Compañía y Resumen de Negocio
-* **Identidad y Sector:** Amadeus IT Group, S.A. opera en el sector de Tecnología, específicamente en Servicios de Tecnología de la Información (`Information Technology Services`). Cotiza en la bolsa española (MCE) bajo el ticker `AMS.MC`.
-* **Modelo de Negocio:** Es un proveedor tecnológico de referencia global para la industria de los viajes y el turismo, suministrando soluciones de distribución (sistemas globales de reserva o GDS) y soluciones informáticas para aerolíneas, aeropuertos, hoteles y agencias de viajes.
+#### 1. Perfil de la Compañía y Contexto de Negocio
+* **Identidad:** Amadeus IT Group, S.A. (`AMS.MC`) cotiza en la Bolsa de Madrid (MCE), clasificada dentro del sector de Tecnología / Servicios de Tecnología de la Información.
+* **Modelo de Negocio:** Es un proveedor tecnológico de referencia global para la industria mundial del viaje y el turismo, operando principalmente en sistemas de distribución global (GDS) y soluciones informáticas para aerolíneas y proveedores de servicios de viaje.
+* **Capitalización de Mercado:** 26.106.695.680,00 EUR (según datos recientes de la instantánea).
 
-#### 2. Análisis Financiero Reciente (Estados Financieros)
-Los datos históricos facilitados para el periodo plurianual muestran una sólida recuperación y crecimiento constante en ingresos, rentabilidad y generación de caja:
+#### 2. Análisis de Estados Financieros Históricos y Recientes
+Los datos financieros extraídos de los informes anuales muestran la trayectoria de recuperación y expansión de la compañía:
 
 * **Cuenta de Resultados (Ingresos, EBITDA y Beneficio Neto):**
-  * **Ejercicio 2023:** Ingresos Totales de 5.441,2 M€; EBITDA de 2.134,2 M€; Beneficio Neto de 1.117,6 M€.
-  * **Ejercicio 2024:** Ingresos Totales de 6.141,7 M€; EBITDA de 2.353,2 M€; Beneficio Neto de 1.253,0 M€.
-  * **Ejercicio 2025:** Ingresos Totales de 6.517,0 M€; EBITDA de 2.534,7 M€; Beneficio Neto de 1.335,7 M€.
-  * *Crecimiento:* La tasa de crecimiento de ingresos reportada (`revenueGrowth`) se sitúa en el 6,4% y el crecimiento de beneficios (`earningsGrowth`) en el 9,8%.
+  * **Ejercicio 2023:** Ingresos Totales de 5.441.200.000 EUR, EBITDA de 2.134.200.000 EUR y Beneficio Neto de 1.117.600.000 EUR.
+  * **Ejercicio 2024:** Ingresos Totales de 6.141.700.000 EUR, EBITDA de 2.353.200.000 EUR y Beneficio Neto de 1.253.000.000 EUR.
+  * **Ejercicio 2025:** Ingresos Totales de 6.517.000.000 EUR, EBITDA de 2.534.700.000 EUR y Beneficio Neto de 1.335.700.000 EUR.
+  * *Tendencia:* Se observa un crecimiento continuado y sostenido tanto en la cifra de negocios como en la rentabilidad operativa y neta.
 
 * **Balance de Situación:**
-  * **Activos Totales:** 11.470,9 M€ (cierre de 2025), comparado con 11.784,3 M€ en 2024 y 10.795,4 M€ en 2023.
-  * **Deuda Total y Patrimonio:** Deuda total de 3.223,6 M€ (al cierre de 2025, o 3.500,4 M€ en métricas agregadas actuales) frente a un capital contable (*Stockholders Equity*) de 4.853,7 M€ (2025) y un valor contable por acción de 11,87 €.
-  * **Ratio de Apalancamiento:** Deuda Neta / EBITDA de 1,03x, indicando una estructura de capital prudente y manejable.
+  * **2023:** Activos Totales de 10.795.400.000 EUR, Deuda Total de 3.308.500.000 EUR y Patrimonio Neto (*Stockholders Equity*) de 4.483.400.000 EUR.
+  * **2024:** Activos Totales de 11.784.300.000 EUR, Deuda Total de 3.375.700.000 EUR y Patrimonio Neto de 5.063.600.000 EUR.
+  * **2025:** Activos Totales de 11.470.900.000 EUR, Deuda Total de 3.223.600.000 EUR y Patrimonio Neto de 4.853.700.000 EUR.
 
-* **Flujo de Caja (*Cash Flow*):**
-  * **Flujo de Caja Operativo:** 1.794,9 M€ (2023), 2.146,0 M€ (2024) y 2.200,9 M€ (2025).
-  * **Inversión en CapEx:** -600,5 M€ (2023), -788,1 M€ (2024) y -814,6 M€ (2025).
-  * **Flujo de Caja Libre (FCF):** 1.194,4 M€ (2023), 1.357,9 M€ (2024) y 1.386,3 M€ (2025).
+* **Flujos de Caja (*Cash Flow*):**
+  * **2023:** Flujo de Caja Operativo de 1.794.900.000 EUR, CapEx de -600.500.000 EUR y Flujo de Caja Libre (FCF) de 1.194.400.000 EUR.
+  * **2024:** Flujo de Caja Operativo de 2.146.000.000 EUR, CapEx de -788.100.000 EUR y FCF de 1.357.900.000 EUR.
+  * **2025:** Flujo de Caja Operativo de 2.200.900.000 EUR, CapEx de -814.600.000 EUR y FCF de 1.386.300.000 EUR.
 
-#### 3. Métricas de Valoración y Fundamentales Clave
-* **Capitalización Bursátil:** ~26.106,7 M€ (con un precio de cierre de 62,16 EUR por acción al 2026-11-13).
-* **Múltiplos de Valoración:**
-  * **PER (Trailing PE):** 19,99x
-  * **PER Forward (Forward PE):** 15,99x (con un BPA estimado forward (*forwardEps*) de 3,89 € frente al BPA histórico de 3,11 €).
-  * **Precio/Valor en Libros (P/B):** 5,24x
-  * **EV/EBITDA:** 11,44x
-* **Rentabilidad y Dividendos:**
-  * **ROE (Return on Equity):** 26,44%
-  * **Margen de Beneficio Neto:** 19,86%
-  * **Yield por Dividendo:** 2,48% (con un dividendo de 1,54 € por acción y un *payout ratio* conservador del 49,52%).
-* **Consenso de Analistas y Precios Objetivo:**
-  * **Precio Objetivo Medio (*Target Mean Price*):** 71,04 EUR (basado en opiniones de 22 analistas).
-  * **Precio Objetivo Mínimo:** 53,00 EUR.
-  * **Precio Objetivo Máximo:** 82,00 EUR.
-  * **Potencial de Subida (*Consensus Upside*):** +14,28% desde el nivel de cotización actual de 62,16 EUR.
-
-#### 4. Análisis Técnico de Corto Plazo y Contexto de Mercado
+#### 3. Métricas Financieras y de Valoración Actuales
 * **Precio de Cierre (13/11/2026):** 62,16 EUR.
-* **Indicadores Técnicos:**
-  * **RSI (14):** 73,83, lo que sitúa al valor en zona de sobrecompra técnica a corto plazo.
-  * **MACD:** 1,98 (por encima de la línea de señal de 1,59), mostrando impulso alcista vigente.
-  * **Medias Móviles:** Las cotizaciones se sitúan holgadamente por encima de su SMA20 (58,58 EUR), SMA50 (55,67 EUR) y SMA200 (52,46 EUR), confirmando una tendencia alcista primaria sólida.
-* **Volatilidad y Retornos:**
-  * **Volatilidad (anualizada):** 25,08%.
-  * **Retorno a 21 sesiones:** +15,75% (superando significativamente al índice de referencia en el periodo).
-* **Entorno Macroeconómico:** Durante la semana del 11 al 14 de noviembre de 2026, los mercados europeos se han visto influenciados por la persistencia de tensiones inflacionarias en la eurozona (inflación en torno al 4%) y debates sobre la política de tipos de interés del BCE, tal como recogen medios especializados (por ejemplo, *El Economista* y *Negocios.com* el 13 de noviembre de 2026). No obstante, el índice bursátil español Ibex 35 ha mostrado resiliencia recuperando niveles clave (como los 20.000 puntos mencionados por *El Boletín* el 13 de noviembre de 2026).
+* **Valoración y Múltiplos:**
+  * P/E (*Trailing PE*): 19,99x.
+  * P/E Adelantado (*Forward PE*): 15,99x.
+  * Precio sobre Valor en Libros (*Price to Book*): 5,24x.
+  * EV/EBITDA: 11,44x.
+  * BPA Histórico (*Trailing EPS*): 3,11 EUR; BPA Estimado (*Forward EPS*): 3,89 EUR.
+* **Solvencia y Apalancamiento:**
+  * Deuda Neta / EBITDA: ~1,03x (Deuda Total: 3.500.400.128 EUR; Caja Total: 913.100.032 EUR; EBITDA: 2.508.800.000 EUR).
+* **Rentabilidad y Dividendos:**
+  * Rentabilidad sobre el Capital (*Return on Equity* - ROE): 26,44%.
+  * Márgenes de Beneficio (*Profit Margins*): 19,86%.
+  * Dividend Yield: 2,48% (Dividendo por acción: 1,54 EUR, con un *payout ratio* aproximado del 49,52%).
+* **Consenso de Analistas:**
+  * Precio Objetivo Medio (*Target Mean Price*): 71,04 EUR.
+  * Rango de Precios Objetivo: Mínimo 53,00 EUR / Máximo 82,00 EUR.
+  * Número de opiniones de analistas: 22.
+  * *Upside* estimado según el consenso: ~14,28%.
 
-#### 5. Datos Faltantes o Limitaciones
-* No se han suministrado transacciones recientes de iniciados (*insider transactions*) en el conjunto de datos integrado, por lo que no es posible evaluar compras o ventas directas por parte de la directiva en las últimas semanas.
-* La cobertura de noticias se limita a muestras del flujo RSS analizado, sin acceso a comunicados de prensa adicionales internos o transcripciones de última hora de la compañía.
+#### 4. Indicadores Técnicos y de Momentum
+* RSI (14 periodos): 73,83 (indica un tono de fortaleza técnica cercano a zonas de sobrecompra).
+* MACD: 1,98 (por encima de su línea de señal en 1,59).
+* Medias Móviles: Cotizando claramente por encima de su SMA20 (58,58 EUR), SMA50 (55,67 EUR) y SMA200 (52,46 EUR).
+* Rendimiento a 21 sesiones: +15,75%; Rendimiento a 63 sesiones: +10,02%.
 
-#### 6. Conclusión e Insights Accionables para Traders
-* **Apoyo Fundamental:** Amadeus presenta un crecimiento constante en ingresos y beneficios, respaldado por un fuerte flujo de caja libre superior a los 1.380 millones de euros y un nivel de endeudamiento controlado (ratio deuda n
+#### 5. Contexto Macroeconómico Reciente (Fechas: 13-15 de Noviembre de 2026)
+* El entorno macroeconómico europeo muestra presiones inflacionistas persistentes en la Eurozona (inflación en torno al 4%), lo que mantiene la atención de los mercados sobre la política de tipos de interés del Banco Central Europeo y la Reserva Federal. Las noticias recientes reflejan un clima de cautela en los mercados europeos ante datos de inflación y el impacto en el ahorro, aunque Amadeus mantiene un comportamiento relativo favorable frente al índice de referencia (`^IBEX`).
+
+#### 6. Datos Faltantes y Limitaciones
+* No se dispone de un desglose detallado de transacciones de *insiders* en la instantánea actual ni de un análisis detallado por segmentos geográficos o de líneas de negocio específicas más allá de las cifras agregadas de ingresos y EBITDA.
+
+---
+
+### Tabla Resumen de Puntos Clave (`AMS.MC`)
+
+| Métrica / Concepto | Valor / Dato Clave | Observaciones / Referencia |
+| :--- | :--- | :--- |
+| **Ticker y Bolsa** | `AMS.MC` (Bolsa de Madrid, EUR) | Tecnología / IT Services |
+| **Precio de Cierre** | 62

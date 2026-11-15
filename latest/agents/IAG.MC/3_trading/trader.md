@@ -1,11 +1,11 @@
 **Action**: Buy
 
-**Reasoning**: IAG.MC muestra una tendencia técnica robusta al cotizar por encima de sus medias móviles clave con un impulso saludable, respaldado por un PER forward de 7,20x que refleja una clara infravaloración respecto al sector. A pesar de los riesgos macroeconómicos de la inflación en la eurozona, la sólida generación de flujo de caja libre y un apalancamiento conservador (Net Debt/EBITDA de 0,78x) fundamentan una postura de compra para capturar el potencial alcista del 10,8% hacia el precio objetivo del consenso.
+**Reasoning**: IAG.MC muestra una tendencia técnica alcista sólida al cotizar por encima de sus medias móviles de 20, 50 y 200 días, respaldada por un momentum positivo y múltiplos de valoración atractivos (Forward PE 7.20x). A pesar de los riesgos macroeconómicos por la inflación, la mejora en el balance con una ratio de deuda neta sobre EBITDA de 0.78x justifica una posición de compra estratégica mientras se mantenga el soporte técnico.
 
 **Entry Price**: 5.42
 
-**Stop Loss**: 5.01
+**Stop Loss**: 4.77
 
-**Position Sizing**: 5% de la cartera total
+**Position Sizing**: 0.75% de la cartera
 
 FINAL TRANSACTION PROPOSAL: **BUY**

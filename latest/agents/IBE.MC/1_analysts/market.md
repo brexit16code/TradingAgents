@@ -1,60 +1,69 @@
-**Análisis Técnico y Fundamental de Iberdrola, S.A. (`IBE.MC`)**
+**Rating**: REVIEW
 
-### 1. Resumen de la Situación Actual y Contexto de Mercado
-A fecha de 14 de noviembre de 2026, la cotización de **Iberdrola, S.A. (`IBE.MC`)** se sitúa en **23.70 EUR** (precio de cierre al 13 de noviembre de 2026, según la instantánea de mercado verificada). El valor ha experimentado una fuerte tendencia alcista, encadenando diez semanas consecutivas de subidas y rompiendo máximos históricos que sitúan su capitalización bursátil por encima de los **158.000 millones de euros** (`https://news.google.com/rss/articles/CBMi5wFBVV95cUxPRlNiTGxxaVVFOFBuLVlZMDNoYnlVU3JrMHM5QmJoQUJxMll3dGFtT3VOaDYwX1ZpcktrQ0hLb01WemRBYkVvVFR2S2tCd2llaDZsZ20xZ19FZ2xiMGpSN3J2UG83VEl3akpvY3lVazlWWFBmU2tlLXNHWk1BNEY3T0IxZkNZSEhrTmphVTdWaUxWcThodC1UNndzLUhha1pWdmZFOHFKSkcxUEZwcWhKU2I2VkFnRHl1MmFNYnFlbHdMTWN3V2xYTS1MT2tZdXNFUHZGdlY4ejZOeVdiQlFseWpuOTFGUFE?oc=5`).
-
-El contexto macroeconómico europeo muestra presiones inflacionarias persistentes en la eurozona (con la inflación rondando el 4% anual, según noticias fechadas el 13 de noviembre de 2026 en *El Economista* y *Negocios.com*), lo que mantiene un escenario de tipos de interés restrictivos y ahorros con rentabilidades reales negativas. A pesar de este trasfondo macro, los valores defensivos de alta capitalización y utilities diversificadas como Iberdrola han mostrado un comportamiento excepcional, respaldados además por revisiones al alza de precios objetivo por parte de analistas (como Bankinter tras sus resultados, según *MarketScreener España* del 11 de noviembre de 2026).
+**FINAL TRANSACTION PROPOSAL**: HOLD
 
 ---
 
-### 2. Análisis Técnico
-Basándonos en los datos técnicos oficiales proporcionados en la instantánea de mercado:
-* **Precio de cierre**: 23.70 EUR (`2026-11-13`).
+### Informe de Análisis Financiero y Técnico para `IBE.MC` (Iberdrola, S.A.)
+
+#### 1. Resumen de Identidad y Contexto de Mercado
+* **Compañía e Identidad**: Iberdrola, S.A. (`IBE.MC`), clasificada en el sector *Utilities / Utilities - Diversified*, cotizando en la Bolsa de Madrid (MCE) en Euros (EUR).
+* **Fecha de Referencia**: 15 de noviembre de 2026.
+* **Contexto Macroeconómico**: Los titulares recientes de la eurozona reflejan tensiones inflacionarias persistentes (inflación en torno al 4%), tipos de interés reales negativos y el debate sobre la senda de tipos del BCE. En el plano bursátil, `IBE.MC` ha alcanzado recientemente máximos históricos, superando los 158.000 millones de euros de capitalización bursátil tras encadenar 10 semanas consecutivas de subidas (*El Periódico de la Energía*, 13-11-2026; *El Boletín*, 13-11-2026).
+
+---
+
+#### 2. Análisis Técnico
+* **Precio de Cierre y Tendencia**: A fecha de 13-11-2026, el precio de cierre se sitúa en **23.70 EUR**, mostrando una rentabilidad a 21 sesiones de +10.08%, a 63 sesiones de +17.21% y a 252 sesiones de +36.20%. 
 * **Medias Móviles**: 
-  * SMA 20: **22.32 EUR**
-  * SMA 50: **21.30 EUR**
-  * SMA 200: **20.22 EUR**
-  * El alineamiento alcista de las medias móviles (SMA 20 > SMA 50 > SMA 200) confirma una tendencia alcista primaria muy sólida a medio y largo plazo.
-* **Momentum y Osciladores**:
-  * **RSI (14)**: **82.54**, lo que denota una condición de **sobrecompra clara** y extrema. Si bien refleja una fuerza compradora inusitada, los valores en estos niveles suelen ser vulnerables a correcciones técnicas de corto plazo o consolidaciones.
-  * **MACD**: **0.585** frente a su línea de señal (`macd_signal`) de **0.491**, confirmando la continuidad del impulso alcista.
-* **Volatilidad y Retornos**:
-  * Volatilidad anualizada del **13.93%**, moderada para el sector.
-  * Retorno a 21 sesiones: **+10.08%**; retorno a 252 sesiones: **+36.20%**. El *drawdown* actual se sitúa en **0.0%**, puesto que el valor cotiza en máximos históricos.
+  * SMA 20: 22.32 EUR
+  * SMA 50: 21.30 EUR
+  * SMA 200: 20.22 EUR
+  * *Interpretación*: La cotización se encuentra netamente por encima de todas sus medias móviles principales, confirmando una estructura de tendencia alcista primaria y secundaria muy sólida.
+* **Momentum e Indicadores Técnicos**:
+  * **RSI (14)**: Se sitúa en **82.54**, un nivel claramente en zona de **sobrecompra extrema**. Esto advierte de un agotamiento potencial del impulso a corto plazo o de la necesidad de una consolidación lateral antes de continuar el tramo alcista.
+  * **MACD**: 0.585 frente a una línea de señal (*macd_signal*) de 0.491. El MACD se mantiene en terreno positivo y por encima de su señal, avalando la fortaleza compradora reciente, aunque con riesgo de desaceleración por la extensión del movimiento.
+  * **Volatilidad**: 13.93% anualizada.
 
 ---
 
-### 3. Análisis Fundamental y Valuation
-* **Capitalización de Mercado**: 157.320 millones de EUR.
-* **PER (Trailing)**: **32.03x** / **Forward P/E**: **21.28x**, reflejando una valoración exigente sustentada en su calidad crediticia, su perfil diversificado en redes y renovables, y su plan estratégico.
-* **Ratio P/B (Precio/Valor en Libros)**: **3.06x** (con un valor contable por acción de 7.74 EUR).
-* **Deuda y Apalancamiento**: Deuda total de aproximadamente 63.840 millones de EUR, con un ratio de **Net Debt / EBITDA de 3.95x**.
-* **Dividendos**: Ofrece un rendimiento por dividendo (*dividend yield*) del **2.87%** (con un dividendo anual de 0.68 EUR y un *payout ratio* del 87.06%).
-* **Consenso de Analistas**: El precio objetivo medio de consenso se sitúa en **21.57 EUR** (con un rango entre 18.00 EUR y 26.00 EUR y 24 opiniones analíticas). Dado que el precio actual en mercado es de 23.70 EUR, el valor cotiza actualmente un **-8.99% por encima** de la estimación media de consenso (*consensus downside*), lo que sugiere que gran parte del optimismo a corto plazo ya se encuentra descontado en precios.
+#### 3. Análisis Fundamental y Valoración
+* **Capitalización Bursátil**: 157.324 millones de EUR.
+* **Múltiplos de Valoración**:
+  * **PER Tailing (Trailing P/E)**: 32.03x
+  * **PER Forward (Forward P/E)**: 21.28x (con un beneficio por acción estimado de 1.11 EUR frente a 0.74 EUR históricas).
+  * **Ratio PER Relativo vs. Peers**: 1.25x (mediana sectorial de PER forward de peers en 16.98x), lo que indica que `IBE.MC` cotiza con una prima de valoración considerable respecto a su grupo comparable en el sector de utilities (*ANE.MC*, *ENG.MC*, *ELE.MC*, *NTGY.MC*, *RED.MC*, *SLR.MC*).
+  * **Precio a Valor en Libros (P/B)**: 3.06x.
+  * **EV/EBITDA**: 15.40x.
+  * **Deuda Neta / EBITDA**: 3.95x (Deuda total de ~63.837M EUR, efectivo de ~6.634M EUR, EBITDA de ~14.494M EUR).
+* **Consenso de Analistas**:
+  * Precio objetivo medio (*targetMeanPrice*): **21.57 EUR** (con un rango entre 18.00 EUR y 26.00 EUR y 24 opiniones analíticas).
+  * **Upside de Consenso**: **-8.99%** respecto al precio de cotización actual (23.70 EUR), evidenciando que la fulgurante subida bursátil ha superado las expectativas medias del consenso de mercado actual.
 
 ---
 
-### 4. Selección de Indicadores Técnicos Relevantes
-De acuerdo con la estrategia de selección de indicadores complementarios (sin redundancias), los más idóneos para monitorizar la operativa en `IBE.MC` bajo las condiciones actuales de sobrecompra son:
-1. `close_200_sma`: Para confirmar la tendencia macro y el sesgo secular a largo plazo.
-2. `close_50_sma`: Para vigilar posibles soportes dinámicos en caso de corrección a medio plazo.
-3. `close_10_ema`: Para capturar giros rápidos de impulso a muy corto plazo ante la extrema sobrecompra.
-4. `macd`: Para evaluar la divergencia de tendencia y la fortaleza del impulso comprador.
-5. `macds`: Como línea de activación para cruces con el MACD.
-6. `macdh`: Para visualizar el debilitamiento o aceleración del histograma de momento.
-7. `rsi`: Clave en este escenario para vigilar la intensidad de la zona de sobrecompra (>70).
-8. `atr`: Esencial para dimensionar el riesgo, fijar *stop-losses* y ajustar el tamaño de posición ante la elevada verticalidad del movimiento alcista.
+#### 4. Evidencia y Fuentes (Citas y Fechas)
+* *El Periódico de la Energía* (13-11-2026): "Iberdrola toca nuevos máximos históricos en Bolsa y lleva su capitalización por encima de 158.000 millones".
+* *El Boletín* (13-11-2026): "Iberdrola encadena 10 semanas de subidas y supera los 158.000 millones de capitalización".
+* *MarketScreener España* / *Bolsamania* (11-11-2026): Actualizaciones de recomendación y revisión de precio objetivo por parte de entidades como Bankinter tras los resultados y la mejora de previsiones.
 
 ---
 
-### 5. Tabla Resumen de Datos Clave
+#### 5. Datos Faltantes y Advertencias
+* **Datos faltantes**: El flujo de caja operativo (*Operating Cash Flow*) y el flujo de caja libre (*Free Cash Flow*) aparecen como no disponibles en el snapshot directo para los periodos más recientes, aunque se cuenta con los estados de resultados, balance e ingresos consolidados a cierre de 2025.
+* **Advertencia metodológica**: Los precios objetivo de los analistas son estimaciones de consenso y no valores intrínsecos definitivos. No se aplican reglas de deuda industrial a entidades financieras, ni ratios de industriales a REITs.
 
-| Métrica / Indicador | Valor | Comentario / Implicación |
-| :--- | :--- | :--- |
-| **Ticker** | `IBE.MC` (Iberdrola, S.A.) | Mercado Continuo Español (MCE), Sector Utilities |
-| **Precio de Cierre** | 23.70 EUR (13/11/2026) | Nuevos máximos históricos de cotización |
-| **Capitalización Bursátil** | ~157.320 Millones EUR | Sólido respaldo institucional y gran tamaño |
-| **RSI (14)** | 82.54 | Condición de sobrecompra extrema |
-| **MACD vs Señal** | 0.585 / 0.491 | Impulso alcista vigente pero vigilante |
-| **SMA 50 / SMA 200** | 21.30 EUR / 20.22 EUR | Estructura alcista primaria perfectamente alineada |
-| **PER Forward / Trailing** | 2
+---
+
+#### 6. Tabla Resumen Clave
+
+| Categoría | Métrica / Indicador | Valor / Estado | Implicación Analítica |
+| :--- | :--- | :--- | :--- |
+| **Precio y Técnica** | Cierre Actual (`IBE.MC`) | 23.70 EUR (13-11-2026) | Máximos históricos recientes. |
+| **Tendencia** | SMA 20 / 50 / 200 | 22.32 / 21.30 / 20.22 EUR | Tendencia alcista alineada a corto, medio y largo plazo. |
+| **Oscilador** | RSI (14) | 82.54 | Condición de **sobrecompra extrema**; riesgo de corrección técnica o pausa. |
+| **Momentum** | MACD vs Señal | 0.585 vs 0.491 | Impulso alcista vigente, aunque sujeto a desaceleración. |
+| **Valoración** | Forward P/E | 21.28x | Prima superior frente a la mediana de peers (16.98x). |
+| **Consenso** | Precio Objetivo Medio | 21.57 EUR | Implica un potencial de retorno (*consensus upside*) de **-8.99%**. |
+| **Deuda** | Net Debt / EBITDA | ~3.95x | Apalancamiento típico de utility diversificada de gran escala. |
+| **Estrategia** | Recomendación | **HOLD** (REVIEW) | Prudencia: Excelente calidad de activo, pero sobrecomprado y cotizando por encima del objetivo medio de consenso. |

@@ -1,11 +1,11 @@
-**Action**: Hold
+**Action**: Buy
 
-**Reasoning**: El activo se encuentra en un punto de indecisión técnica crítica, cotizando justo por debajo de su media móvil de 200 días (19,49 EUR) y enfrentando vientos macroeconómicos adversos por la inflación persistente. Aunque el valor fundamental es atractivo con un Forward PE de 12,43x, la incertidumbre sobre el consumo discrecional y la resistencia técnica actual justifican mantener la posición a la espera de un quiebre confirmado del nivel de 19,50 EUR.
+**Reasoning**: La tesis de inversión se apoya en una valoración atractiva con un forward PE de 12,43x y un potencial de revalorización significativo según el consenso. Aunque el precio lucha contra la SMA200 (19,50 EUR), la mejora en el momentum técnico, el pago de dividendos y la resiliencia en el flujo de caja justifican acumular posiciones antes de la posible ruptura alcista de la resistencia clave.
 
-**Entry Price**: 19.5
+**Entry Price**: 19.44
 
 **Stop Loss**: 18.2
 
-**Position Sizing**: 50% de la asignación estándar
+**Position Sizing**: 1% del portafolio
 
-FINAL TRANSACTION PROPOSAL: **HOLD**
+FINAL TRANSACTION PROPOSAL: **BUY**

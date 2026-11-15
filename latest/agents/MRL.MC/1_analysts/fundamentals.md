@@ -1,33 +1,42 @@
-Este informe presenta un análisis fundamental de **MERLIN Properties SOCIMI, S.A. (`MRL.MC`)**, basado en los datos financieros y de mercado disponibles a fecha de 14 de noviembre de 2026.
+### Informe de Análisis Fundamental: MERLIN Properties SOCIMI, S.A. (`MRL.MC`)
 
-### Perfil y Estado Actual
-MERLIN Properties es una de las principales SOCIMI (REIT) cotizadas en la bolsa española, con un enfoque predominante en el sector de oficinas. La empresa se encuentra actualmente bajo una presión significativa derivada de un entorno macroeconómico complejo (inflación en la Eurozona al 4%) y riesgos regulatorios específicos.
+**Fecha de análisis:** 15 de noviembre de 2026
 
-### Análisis Financiero
-*   **Resultados Recientes:** Los informes del tercer trimestre de 2026 muestran que los ingresos superaron las expectativas, demostrando resiliencia operativa. Sin embargo, este desempeño positivo ha sido ensombrecido por preocupaciones regulatorias.
-*   **Valoración:** La acción cotiza a un `trailing PE` de 8.07x y un `priceToBook` de 0.82, lo que sugiere que el mercado valora la empresa por debajo de su valor contable, posiblemente reflejando el descuento por incertidumbre regulatoria y el entorno de tipos de interés.
-*   **Riesgos Regulatorios:** La noticia más impactante es la estimación por parte de la propia empresa de un coste extra de **863 millones de euros** derivado del nuevo decreto sobre centros de datos. Este evento ha generado una fuerte fricción entre el CEO de la compañía y el Gobierno, afectando la confianza del inversor.
-*   **Dividendo:** Presenta una rentabilidad por dividendo (`dividendYield`) del 1.88%, con una política de pago (`payoutRatio`) conservadora (14.63%), lo que sugiere capacidad de retención de capital frente a los desafíos mencionados.
+#### 1. Perfil de la Compañía
+MERLIN Properties es la mayor SOCIMI (REIT) cotizada en la Bolsa Española, enfocada principalmente en la gestión y desarrollo de activos inmobiliarios terciarios, con una fuerte especialización en oficinas, centros logísticos y, de manera estratégica, en centros de datos.
 
-### Perspectiva Técnica y de Mercado
-La acción cotiza a 11.70 EUR, situándose por debajo de sus medias móviles de 50 días (12.03 EUR) y 200 días (13.90 EUR), lo que indica una tendencia bajista de medio y largo plazo. El RSI de 48.05 sugiere una posición neutral, sin condiciones claras de sobreventa o sobrecompra inmediata.
+#### 2. Desempeño Financiero y Resultados Recientes
+Los resultados reportados al tercer trimestre de 2026 indican una operativa resiliente, con ingresos que superaron las expectativas del mercado a pesar de la presión sobre el precio de la acción.
+*   **Ingresos:** La compañía reportó ingresos por 538,96 millones de euros para el ejercicio 2025, manteniendo una tendencia de crecimiento constante desde 2023 (464,78 M€).
+*   **Beneficio Neto:** Se observó una mejora significativa en 2025 (786,13 M€) comparado con las pérdidas de 2023 (-83,50 M€).
+*   **Solvencia:** La deuda total se sitúa en 5.062 millones de euros frente a unos activos totales de 14.269 millones de euros, reflejando una estructura de capital apalancada pero estable para el sector REIT.
+*   **Dividendos:** Se ha confirmado el pago de un dividendo de 0,20 euros por acción para el 10 de diciembre de 2026, lo que respalda una rentabilidad por dividendo atractiva cercana al 3,42%.
 
-### Datos Faltantes
-No se dispone de información detallada sobre el *Net Debt/EBITDA* exacto en el reporte, y las proyecciones de impacto del decreto de centros de datos más allá de la cifra de 863 millones no están desglosadas por anualidades, lo que dificulta el modelado preciso del flujo de caja futuro.
+#### 3. Factores de Riesgo e Incertidumbre
+El foco actual del mercado se ha desplazado hacia el sector de los **centros de datos**.
+*   **Impacto Regulatorio:** La reciente incertidumbre sobre un decreto gubernamental relativo a los centros de datos es el principal viento en contra. Según reportes del 13 de noviembre (El Boletín), Merlin estima un coste extra potencial de 863 millones de euros derivado de esta nueva normativa.
+*   **Macroeconomía:** El entorno de inflación persistente en la Eurozona (4%) complica las expectativas de tipos de interés, lo cual suele afectar negativamente a las valoraciones de activos inmobiliarios y al coste de la deuda de las SOCIMIs.
 
-### Insight para Traders
-La disparidad entre los buenos resultados operativos y la reacción negativa del mercado por el impacto regulatorio (decreto de data centers) crea un escenario de alta volatilidad. La divergencia técnica (cotizando por debajo de sus medias móviles) sugiere prudencia. El consenso de analistas (precio objetivo medio de 17.01 EUR) implica un potencial alcista del 45.4%, lo que sugiere que el mercado podría estar sobre-reaccionando negativamente ante el riesgo regulatorio, pero se recomienda esperar a la estabilización de las noticias sobre dicho decreto.
+#### 4. Perspectiva Técnica y Valoración
+*   **Cotización:** La acción cerró el 13 de noviembre en 11,70 €, operando por debajo de sus medias móviles de 50 (12,03 €) y 200 días (13,90 €), lo que indica una tendencia bajista a mediano plazo.
+*   **Valoración:** Con un ratio Price-to-Book (P/B) de 0,84x, la acción cotiza con un descuento sobre su valor contable, aunque el Forward PE de 20,85x sugiere una valoración exigente basada en expectativas de beneficios futuros (0,56 € EPS).
+*   **Target Price:** El consenso de los analistas apunta a un precio medio objetivo de 17,01 €, lo que implica un potencial de revalorización teórico del 45,41%.
 
-**Rating**: HOLD
+#### 5. Conclusión para el Trader
+El título presenta una dicotomía: fundamentos sólidos en sus operaciones principales y un dividendo atractivo, frente a una incertidumbre regulatoria significativa que está penalizando la confianza de los inversores. La prudencia es necesaria hasta que se aclare el impacto real del mencionado decreto sobre los márgenes de los centros de datos.
 
-| Indicador | Valor |
+**Rating:** Neutral
+
+| Indicador | Valor / Dato |
 | :--- | :--- |
-| Precio Actual | 11.70 EUR |
-| Capitalización Bursátil | 7,244 M EUR |
-| P/B Ratio | 0.82 |
-| Yield por Dividendo | 1.88% |
-| Precio Objetivo Medio | 17.01 EUR |
-| Upside Consenso | 45.41% |
-| Tendencia (SMA 200) | 13.90 EUR (Bajista) |
+| Precio Actual | 11,70 € |
+| Capitalización Bursátil | 7.244,44 M€ |
+| Valor Contable (Book Value) | 13,94 € |
+| Yield de Dividendo | 3,42% |
+| Target Price (Medio) | 17,01 € |
+| Variación (63 sesiones) | -17,20% |
+| RSI (14 días) | 48,05 |
 
-FINAL TRANSACTION PROPOSAL: No trade recommendation provided. This is analytical research.
+*Nota: Datos basados en el reporte del 15 de noviembre de 2026. No se dispone de datos sobre flujo de caja operativo actualizado (null) para 2026.*
+
+FINAL TRANSACTION PROPOSAL: Hold position to capture upcoming dividend, monitoring regulatory news regarding data center legislation.

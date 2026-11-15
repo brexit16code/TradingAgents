@@ -1,65 +1,71 @@
-**Rating**: HOLD  
-FINAL TRANSACTION PROPOSAL: Mantener posición actual con cobertura táctica ante la resistencia de valoración y un rendimiento por dividendo del 7.64% que sostiene el atractivo de renta, en espera de mayor claridad en los tipos de interés de la eurozona y la estabilidad de flujos de caja operativos.
+**Análisis Técnico y Fundamental de Naturgy Energy Group, S.A. (`NTGY.MC`)**
+
+### 1. Resumen Ejecutivo e Identidad del Activo
+- **Instrumento:** `NTGY.MC` (Naturgy Energy Group, S.A.)
+- **Bolsa y Sector:** Mercado Continuo Español (MCE), Utilities / Utilities - Regulated Gas
+- **Moneda:** EUR
+- **Fecha de Referencia:** 15 de noviembre de 2026 (Datos de precio y técnico basados en la última sesión disponible al 2026-11-13).
 
 ---
 
-### Informe Técnico y Fundamental Detallizado para Naturgy Energy Group, S.A. (`NTGY.MC`)
+### 2. Análisis de Precio y Tendencia (Técnico)
+Según el snapshot verificado al **2026-11-13**, `NTGY.MC` cotiza a un precio de cierre de **31.02 EUR**, experimentando una variación positiva reciente del **+1.17%** en la sesión y acumulando una rentabilidad a 21 sesiones de **+4.30%**, a 63 sesiones de **+6.98%** (con una prima o *relative63_pp* de **+6.55pp** sobre el índice de referencia `^IBEX`) y a 252 sesiones de **+21.49%**.
 
-#### 1. Contexto de Mercado y Datos Verificados
-El valor analizado es **Naturgy Energy Group, S.A.** (`NTGY.MC`), cotizada en la Bolsa de Madrid (MCE) dentro del sector de *Utilities* (Subsector: *Utilities - Regulated Gas*), denominado en EUR. 
-
-Con base en la instantánea de mercado verificada a fecha **13 de noviembre de 2026** (con cierre en 31.02 EUR), la acción muestra un comportamiento técnico alcista a corto y medio plazo, respaldado por las siguientes métricas clave:
-* **Precio de Cierre (13/11/2026):** 31.02 EUR (variación diaria de +1.17%).
-* **Medias Móviles:** 
-  * SMA 20: 29.78 EUR
-  * SMA 50: 29.29 EUR
-  * SMA 200: 27.19 EUR
-  * *Interpretación:* El precio cotiza por encima de todas sus medias móviles principales (SMA20 > SMA50 > SMA200), lo que confirma una estructura de tendencia alcista consolidada.
-* **Indicadores de Impulso y Volatilidad:**
-  * **RSI (14):** 67.19 (cercano a la zona de sobrecompra en 70, reflejando fuerte momentum comprador pero sin entrar todavía en territorio extremo).
-  * **MACD:** 0.27 (por encima de su línea de señal situada en 0.15), validando la continuidad del impulso positivo reciente.
-  * **Volatilidad (15.62%):** Volatilidad moderada acorde con el sector defensivo de servicios públicos.
-* **Valoración y Fundamentales:**
-  * **Capitalización de Mercado:** ~28.740 millones de EUR.
-  * **PER (Trailing / Forward):** 14.36 / 14.36.
-  * **Ratio PEG / Comparativa Sectorial:** Relación de PER relativo intermedio de 0.85 frente a la mediana del peer group (16.98), lo que sugiere que cotiza con un descuento moderado frente a sus comparables ibéricos (como `IBE.MC`, `ELE.MC`, etc.).
-  * **Dividendo:** Rentabilidad por dividendo del **7.64%** (dividendo anual de 2.37 EUR por acción), con un *payout ratio* de 75.92%.
-  * **Deuda y Solvencia:** Deuda total de 17.310 millones de EUR frente a una caja de 4.840 millones de EUR, situando la ratio Deuda Neta / EBITDA en **2.42x**, un nivel manejable y prudente para una utility regulada.
-  * **Consenso de Analistas:** Precio objetivo medio de **31.33 EUR** (con un rango entre 24.30 EUR y 35.50 EUR basado en 18 analistas), lo que deja un potencial de revalorización (*consensus upside*) muy ajustado del **+1.01%** desde el precio actual de 31.02 EUR.
+- **Medias Móviles:** 
+  - SMA 20: 29.78 EUR
+  - SMA 50: 29.29 EUR
+  - SMA 200: 27.19 EUR
+  *Evidencia:* El precio actual (31.02 EUR) se encuentra holgadamente por encima de sus medias móviles de 20, 50 y 200 sesiones, lo que confirma una **tendencia alcista primaria y secundaria sólida**. El alineamiento alcista de las medias refleja continuidad en el impulso.
+- **Osciladores de Momento y Volatilidad:**
+  - **RSI (14):** Se sitúa en **67.19**, aproximándose a la zona de sobrecompra (70), lo que denota un fuerte impulso comprador reciente, aunque sugiere cautela ante posibles pausas o consolidaciones a corto plazo.
+  - **MACD:** Registra un valor de **0.271** frente a su línea de señal (*macd_signal*) de **0.154**, mostrando un histograma positivo que confirma la vigencia del impulso alcista.
+  - **Volatilidad (15.62%):** Muestra un perfil de volatilidad moderado, característico de grandes valores regulados del sector utilities en el mercado español.
+  - **Drawdown:** Se encuentra en **0.0%** (en máximos recientes de periodo o cotizando sin retrocesos profundos desde los niveles analizados).
 
 ---
 
-#### 2. Análisis Financiero y de Estados (2023 - 2025)
-De acuerdo con los estados financieros consolidados:
-* **Ingresos Totales:** 22.617 millones de EUR en 2023, 19.267 millones de EUR en 2024 y 19.455 millones de EUR en 2025 (crecimiento de ingresos del 14.1% en el último tramo reportado).
-* **EBITDA:** 5.192 millones de EUR (2023), 5.471 millones de EUR (2024) y 5.543 millones de EUR (2025), mostrando una sólida estabilidad operativa.
-* **Beneficio Neto:** 1.986 millones de EUR (2023), 1.901 millones de EUR (2024) y 2.023 millones de EUR (2025).
-* **Flujo de Caja Libre (Free Cash Flow):** Registró 2.433 millones de EUR en 2023, 1.795 millones de EUR en 2024 y 2.376 millones de EUR en 2025, respaldando de forma saludable el compromiso de retribución al accionista vía dividendos.
+### 3. Análisis Fundamental y Valoración
+Basado en los estados financieros y métricas de mercado proporcionadas:
+- **Capitalización de Mercado:** ~28.740 millones de EUR.
+- **Valoraciones y Múltiplos:**
+  - **Trailing P/E:** 14.36x
+  - **Forward P/E:** 14.36x
+  - **Price to Book (P/B):** 3.42x (con un valor en libros por acción de 9.08 EUR).
+  - **EV / EBITDA:** 8.42x
+- **Dividendos y Retorno al Accionista:**
+  - **Rentabilidad por Dividendo (*Dividend Yield*):** **7.64%** (con un dividendo anual de 2.37 EUR y un *payout ratio* estimado en torno al 75.9%), lo cual constituye uno de los atractivos principales para los inversores de perfil defensivo y por rentas en el mercado europeo.
+- **Estructura Financiera y Solvencia:**
+  - Deuda Total: ~17.310 millones de EUR (frente a 16.747 millones a cierre fiscal 2025).
+  - Efectivo y equivalentes: ~4.841 millones de EUR.
+  - **Ratio Deuda Neta / EBITDA:** **2.42x**, un nivel de apalancamiento razonable y manejable para una compañía de servicios públicos regulados.
+- **Consenso de Analistas:**
+  - Precio objetivo medio (*targetMeanPrice*): **31.33 EUR** (con un rango entre un mínimo de 24.30 EUR y un máximo de 35.50 EUR, basado en la opinión de 18 analistas).
+  - Dado el precio de cierre actual de 31.02 EUR, el **potencial alcista de consenso (*consensus_upside_pct*)** es reducido, situándose en un **+1.01%**, lo que indica que el mercado ya ha descontado gran parte de las valoraciones proyectadas a corto plazo por los analistas.
 
 ---
 
-#### 3. Contexto Macroeconómico y Noticias Recientes
-El entorno macroeconómico europeo actual (noviembre de 2026) está marcado por:
-* Presiones inflacionarias persistentes en la zona euro (con lecturas cercanas al 4%), lo que limita las expectativas de recortes agresivos de tipos de interés por parte del Banco Central Europeo (BCE) (*El Economista*, 13/11/2026).
-* Contexto de tipos reales negativos que penalizan el ahorro tradicional, empujando a los inversores hacia valores refugio y de alta rentabilidad por dividendo (*Vozpopuli*, 14/11/2026).
-* En el plano corporativo, `NTGY.MC` se mantiene en el foco de los inversores del Ibex 35 por su perfil defensivo y su atractivo dividendo frente a otras alternativas energéticas como Enagás (`ENG.MC`) (*Estrategias de Inversión*, 10/11/2026 y 13/11/2026).
+### 4. Contexto Macroeconómico y Noticias Recientes
+El entorno macroeconómico europeo actual (mediados de noviembre de 2026) está marcado por debates persistentes en torno a la inflación en la Eurozona (en torno al 4%, según fuentes de prensa económica como *El Economista* y *Negocios.com* fechadas el 13 de noviembre de 2026) y las perspectivas de tipos de interés reales negativos o restricciones en la moderación monetaria del BCE. En este escenario de incertidumbre macroeconómica y tensiones inflacionarias, los valores defensivos del Ibex 35 como `NTGY.MC` continúan acaparando atención por su capacidad de generar flujos de caja estables y remunerar al inversor mediante un dividendo elevado (7.64%). 
+
+Artículos recientes de plataformas especializadas como *Rankia* y *Bankinter* (13 de noviembre de 2026) destacan el atractivo de sus entregas de dividendos, mientras que los informes diarios de mercado reflejan el comportamiento estables o de recogida de beneficios generalizada en el selectivo español en el que `NTGY.MC` mantiene un desempeño relativo positivo frente a otros comparables del sector gasista y energético.
 
 ---
 
-#### 4. Selección de Indicadores Técnicos Complementarios (Modelo Asignado)
-Para el seguimiento y gestión de riesgo de `NTGY.MC`, se seleccionan los siguientes **8 indicadores** clave por su complementariedad y ausencia de redundancia:
-
-1. **`close_50_sma` (50 SMA):** Identifica la tendencia a medio término y actúa como soporte dinámico en correcciones alcistas.
-2. **`close_200_sma` (200 SMA):** Benchmark macro de largo plazo para confirmar la salud estructural del valor.
-3. **`rsi` (RSI):** Mide el impulso para detectar condiciones de sobrecompra (>70) o sobreventa (<30). Dado que actual se sitúa en 67.19, vigilar posibles divergencias bajistas.
-4. **`macd` (MACD):** Evalúa la aceleración del momentum mediante la diferencia de EMAs, confirmando la persistencia de la tendencia compradora.
-5. **`macdh` (MACD Histogram):** Visualiza la fuerza del impulso y permite anticipar giros en el histograma antes de que se crucen las líneas principales.
-6. **`boll_ub` (Bollinger Upper Band):** Banda superior de volatilidad (2 desviaciones estándar sobre la SMA20) para identificar zonas de resistencia por sobre-extensión a corto plazo.
-7. **`boll_lb` (Bollinger Lower Band):** Banda inferior para estimar niveles de sobreventa y soportes de volatilidad inmediatos.
-8. **`atr` (ATR - Average True Range):** Mide la horquilla de volatilidad real para dimensionar de forma precisa los stop-loss y la gestión monetaria de la posición.
+### 5. Datos Faltantes y Limitaciones
+- No se dispone de las series temporales completas de flujo de caja operativo u operacional desglosado mes a mes para el ejercicio en curso, limitando el análisis estricto de la conversión exacta de caja intradía.
+- Las valoraciones de los analistas constituyen estimaciones de consenso y no deben interpretarse como un valor intrínseco garantizado.
 
 ---
 
-#### 5. Evidencias de Apoyo, Datos Faltantes y Advertencias
-* **Fuentes y Enlaces Consultados:** 
-  
+### Tabla Resumen de Indicadores Clave
+
+| Indicador / Métrica | Valor Actual / Referencia | Comentario / Implicación |
+| :--- | :--- | :--- |
+| **Precio de Cierre (`close`)** | 31.02 EUR (13-11-2026) | Cotización firme por encima de referencias de medio y largo plazo. |
+| **SMA 50 / SMA 200** | 29.30 EUR / 27.19 EUR | Estructura de medias alcista, avalando la tendencia principal. |
+| **RSI (14)** | 67.19 | Impulso comprador fuerte, próximo a la zona de sobrecompra. |
+| **MACD / MACD Signal** | 0.271 / 0.154 | Cruce e histograma positivos; impulso de tendencia favorable. |
+| **Rentabilidad por Dividendo** | 7.64% | Atractivo elevado para inversores orientados a rentas. |
+| **Forward P/E** | 14.36x | Valoración razonable dentro del sector de utilities reguladas. |
+| **Deuda Neta / EBITDA** | 2.42x | Apalancamiento moderado y controlado. |
+| **Precio Objetivo Medio** | 31.33 EUR | Escaso margen de revalorización adicional frente al consenso actual (+
