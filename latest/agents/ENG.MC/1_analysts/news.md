@@ -1,39 +1,30 @@
-**Rating**: HOLD  
-**FINAL TRANSACTION PROPOSAL**: Hypothetically, maintain positions in `ENG.MC` with a cautious neutral stance, waiting for clearer valuation margins and regulatory clarity on regulated gas assets while monitoring its 5.43% dividend yield.
+**Rating**: REVIEW
 
----
+Análisis financiero y macroeconómico de **ENG.MC** (Enagás, S.A.), cotizada en Madrid (MCE) dentro del sector de Utilities (Regulated Gas), referenciada a la fecha actual de 16 de noviembre de 2026.
 
-### Informe de Análisis Financiero y Macroeconómico: Enagás, S.A. (`ENG.MC`)
+### 1. Contexto Macroeconómico y de Mercado
+Los datos recientes muestran un escenario de tensiones inflacionarias en la eurozona, con la inflación situada en torno al 4% a mediados de noviembre de 2026, lo cual complica cualquier expectativa de moderación rápida de tipos de interés por parte del Banco Central Europeo (BCE). Los flujos de inversión de los hogares hacia activos seguros como letras del tesoro acumulan siete meses al alza superando los 23.000 millones de euros, en un entorno de tipos reales negativos y volatilidad en los mercados europeos.
 
-#### 1. Resumen Ejecutivo y Estado Actual de `ENG.MC`
-Enagás, S.A. (`ENG.MC`) cotiza a **18.40 EUR** (al cierre del 13 de noviembre de 2026), mostrando un comportamiento técnico reciente muy fuerte a corto plazo con un RSI de 14 sesiones en **79.01** (zona de sobrecompra técnica), una rentabilidad a 21 días del **10.38%** y una distancia del 0% desde su máximo reciente (drawdown de 0.0%). No obstante, el consenso de analistas sitúa el precio objetivo medio en **17.29 EUR**, lo que implica una potencial bajada (consensus upside) del **-6.02%** frente al precio de cotización actual. Su capitalización bursátil asciende a **4.790 millones de EUR**.
+### 2. Análisis Fundamental y Valoración de `ENG.MC`
+- **Precio y Rendimiento Técnico**: `ENG.MC` cotiza a **18,15 EUR** por acción (cierre del 16 de noviembre de 2026), registrando una corrección intradiaria del -1,36%, aunque mantiene una sólida tendencia a medio plazo con una rentabilidad a 252 días del +39,01% y un RSI de 14 sesiones en 67,81 (cercano a zona de sobrecompra). El precio se sitúa por encima de sus medias móviles de 20, 50 y 200 sesiones (SMA20: 17,74 EUR, SMA50: 17,04 EUR, SMA200: 16,35 EUR).
+- **Valoración Fundamental**: 
+  - Capitalización bursátil: ~4.724 millones de EUR.
+  - PER histórico (Trailing P/E): 13,35x; Forward P/E: 16,04x.
+  - Ratio de valoración por múltiplos frente a pares sectoriales (`valuation.ratio`): 0,95 (PER relativo intermedio frente a la mediana de comparables de 16,91x).
+  - Deuda Neta / EBITDA: **6,15x**, un nivel de apalancamiento elevado que requiere monitorización, aunque compensado en parte por una estructura regulada de ingresos.
+  - Dividendos: Ofrece una rentabilidad por dividendo (*dividend yield*) estimada entre el **5,43% y el 5,51%**, con un *payout ratio* del 79,96% y un dividendo por acción de 1,00 EUR.
+- **Consenso de Analistas**: El precio objetivo medio (*target mean price*) se sitúa en **17,29 EUR** (con un rango bajo de 13,00 EUR y alto de 19,80 EUR a partir de 19 opiniones de analistas), lo que implica un potencial de retorno (*consensus upside*) del **-4,73%** respecto al precio de cotización actual de 18,15 EUR.
 
-#### 2. Fundamentales y Valoración
-* **Valoración y Múltiplos:** `ENG.MC` presenta un PER histórico (*trailing*) de **13.53x** y un PER adelantado (*forward*) de **16.26x**. El ratio frente a la mediana de PER adelantado de sus pares sectoriales (*peer median forward PE* de 16.98x) es de **0.957**, catalogado en el snapshot como "PER relativo intermedio". 
-* **Dividendos y Deuda:** Ofrece una atractiva rentabilidad por dividendo (*dividend yield*) del **5.43%** (con un dividendo ordinario de 1.00 EUR por acción y un *payout ratio* del 79.96%). La deuda total neta sigue siendo elevada, con un ratio de Deuda Neta / EBITDA de **6.15x** (deuda total de ~3.156 millones de EUR frente a un EBITDA de ~426 millones de EUR).
-* **Resultados Financieros recientes:** En el ejercicio cerrado a 31 de diciembre de 2025, la compañía reportó ingresos totales de **960,4 millones de EUR** y un beneficio neto de **339,1 millones de EUR**, recuperándose tras el ejercicio de 2024 (donde registró pérdidas netas de -299,3 millones de EUR). El flujo de caja libre (*free cash flow*) para 2025 se situó en **94,4 millones de EUR** (por debajo de los 357,1 millones de EUR de 2024).
+### 3. Evidencias, Fuentes y Datos Faltantes
+- **Fuentes utilizadas**: Yahoo Finance (datos de cotización, estados financieros e indicadores fundamentales para `ENG.MC`), consultas de noticias macroeconómicas europeas (El Economista, Negocios.com, Vozpópuli, Radio Intereconomía).
+- **Datos faltantes**: No se dispone de un porfolio de inversión suministrado para evaluar asignaciones de cartera (hipotéticas) ni de estimaciones cuantitativas de probabilidades de mercados de predicción específicos para la compañía. La fuente de noticias en tiempo real arrojó errores de conectividad temporal (HTTPError), limitando el muestreo a las cabeceras pre-cargadas.
 
-#### 3. Noticias Recientes y Contexto Corporativo
-* **Expansión Internacional:** Destaca la noticia del 13 de noviembre de 2026 sobre la decisión de Enagás de reforzar su posición en la compañía francesa **Teréga** mediante la adquisición a EDF de un 18% adicional (CapitalMadrid).
-* **Presión Bajista:** Diversos medios financieros (CapitalMadrid, Estrategias de Inversión) señalan durante la semana del 9 al 13 de noviembre de 2026 que `ENG.MC`, junto con Solaria y Cellnex, se encuentra entre los valores del Ibex 35 más presionados por las posiciones bajistas (*short positions*).
-* **Recomendaciones:** Bankinter y MarketScreener han actualizado sus análisis fundamentales y consensos de precios objetivo en torno al valor a mediados de noviembre de 2026.
+| Concepto Clave | Valor / Métrica | Implicación para el Inor |
+| :--- | :--- | :--- |
+| **Ticker y Cotización** | `ENG.MC` / 18,15 EUR | Cotiza por encima de sus medias móviles de 200 sesiones (16,35 EUR). |
+| **Rentabilidad por Dividendo** | ~5,45% (1,00 EUR por acción) | Atractiva para estrategias de rentabilidad por dividendo, respaldada por un *payout* del ~80%. |
+| **Apalancamiento** | Net Debt / EBITDA de 6,15x | Nivel de endeudamiento elevado típico de infraestructuras reguladas intensivas en capital. |
+| **Consenso de Analistas** | Target Mean: 17,29 EUR (-4,73% upside) | El precio actual supera ligeramente la valoración media de consenso, justificando cautela. |
+| **Contexto Macroeconómico** | Inflación eurozona ~4% / Tipos altos | Entorno de tipos restrictivos que impacta en los costos de financiación y valoración de utilities. |
 
-#### 4. Contexto Macroeconómico de la Eurozona (Noviembre de 2026)
-* **Inflación y Tipos de Interés:** Las noticias macroeconómicas de la semana del 13 al 15 de noviembre de 2026 en Europa destacan que la inflación de la zona euro se mantiene persistente en el **4%**, lo que inhabilita una moderación rápida en las bajadas de tipos por parte del Banco Central Europeo (BCE) y mantiene un entorno de tipos reales negativos para el ahorro (Vozpopuli, El Economista, Negocios.com). Esto impacta directamente en las valoraciones por descuento de flujos de caja de utilities reguladas altamente endeudadas como `ENG.MC`.
-
-#### 5. Datos Faltantes y Limitaciones
-* No se dispone de las estimaciones detalladas de descarbonización a 2030 desagregadas por proyecto de hidrógeno verde en este snapshot.
-* No se cuenta con flujos de caja operativos intradiarios actualizados posteriores al cierre formal de los estados financieros anuales de 2025.
-
----
-
-### Resumen Estructurado (Tabla Organizativa)
-
-| Categoría | Métrica / Dato Clave | Valor / Detalle Actual (`ENG.MC`) | Implicación para el Trading / Macro |
-| :--- | :--- | :--- | :--- |
-| **Precio y Técnica** | Cotización y RSI(14) | 18.40 EUR / RSI: 79.01 | Sobrecompra técnica a corto plazo; impulso alcista reciente (+10.38% a 21 días). |
-| **Valoración** | PER / Consenso Objetivo | *Trailing PE*: 13.53x / *Forward PE*: 16.26x (Objetivo medio: 17.29 EUR) | Cotiza ligeramente por encima de la media de analistas (-6.02% de *consensus upside*). |
-| **Retorno al Accionista** | Dividend Yield | 5.43% (Dividendo: 1.00 EUR) | Atractivo para inversores por rentabilidad de dividendo, aunque sujeto al apalancamiento. |
-| **Solvencia / Deuda** | Deuda Neta / EBITDA | 6.15x (Deuda total: ~3.160M EUR) | Apalancamiento elevado, factor de riesgo clave en un entorno de tipos de interés altos. |
-| **Corporativo** | Operación Teréga | Compra de 18% adicional a EDF (13 Nov 2026) | Refuerzo estratégico en el mercado gasista francés de transporte. |
-| **Macroentorno** | Inflación Zona Euro / Tipos | Inflación en torno al 4% (Nov 2026) | Presiona los costes de financiación y limita recortes agresivos de tipos del BCE. |
+FINAL TRANSACTION PROPOSAL: REVIEW

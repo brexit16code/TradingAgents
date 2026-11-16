@@ -1,62 +1,58 @@
-**Informe Fundamental de Inversión – Corporación Acciona Energías Renovables, S.A. (`ANE.MC`)**
+**Rating**: REVIEW
 
-**Fecha de análisis:** 15 de noviembre de 2026  
-**Ticker:** `ANE.MC` (Bolsa de Madrid, EUR, índice de referencia ^IBEX)  
-**Actividad principal:** Utilidades / Renovables (Utilities - Renewable)  
+**FINAL TRANSACTION PROPOSAL:** None (No portfolio supplied; observation only)
 
----
+### Informe Fundamental Integral: Corporación Acciona Energías Renovables, S.A. (`ANE.MC`)
 
-### 1. Resumen Ejecutivo y Estado Actual de Mercado
-`ANE.MC` cotiza a **20,26 EUR** (según el cierre del 13 de noviembre de 2026), experimentando una fuerte presión bajista reciente con una caída semanal de un **-6,89%** y un descenso del **-5,23%** en los últimos 21 días. Su volatilidad se sitúa en un **34,73%**, reflejando una inestabilidad operativa y bursátil significativa. El valor se encuentra un **-16,86%** por debajo de sus máximos recientes y opera por debajo de sus medias móviles clave (SMA20: 21,57 EUR, SMA50: 21,67 EUR, SMA200: 21,84 EUR), lo que denota una tendencia técnica correctiva a corto y medio plazo.
+#### 1. Perfil de la Compañía y Negocio
+- **Identidad**: Corporación Acciona Energías Renovables, S.A. (`ANE.MC`), cotizada en la bolsa de Madrid (MCE) y parte de la referencia bursátil española `^IBEX`.
+- **Clasificación Sectorial**: *Utilities* / *Utilities - Renewable* (Servicios Públicos / Energías Renovables).
+- **Modelo de Negocio**: La compañía está especializada en el desarrollo, construcción, operación y gestión de activos de generación de energía exclusivamente renovable (principalmente eólica y fotovoltaica) a nivel global.
 
-### 2. Contexto de Noticias y Catalizadores Recientes
-Durante la semana del 13 al 15 de noviembre de 2026, los títulos de `ANE.MC` y su matriz experimentaron fuertes desplomes (caídas superiores al 7% en sesiones puntuales). Según fuentes de prensa económica española (ej. *Merca2.es* e *Investing.com España* del 13 al 15 de noviembre de 2026), este movimiento bajista se vio acentuado por la frustración de planes de desinversión estratégicos clave para la compañía, en un entorno macroeconómico europeo marcado por una inflación persistente en la eurozona (alrededor del 4%) y tipos de interés reales restrictivos que encarecen el coste de capital para el sector de energías renovables altamente apalancado.
+#### 2. Datos Financieros Básicos y Valoración Actual
+- **Precio de Cierre (16/11/2026)**: 20.32 EUR
+- **Capitalización Bursátil**: ~6.5948 mil millones de EUR
+- **Valoración y Múltiplos**:
+  - **PER Histórico (*Trailing P/E*)**: 35.65x
+  - **PER Adelantado (*Forward P/E*)**: 29.50x
+  - **Ratio Precio/Valor en Libros (*Price-to-Book*)**: 1.06x (Valor contable por acción de 19.1 EUR).
+  - **EV/EBITDA**: 12.20x
+  - **PER Relativo**: La compañía presenta un PER adelantado comparado con la mediana de sus pares en el sector de *utilities* españolas (`ENG.MC`, `ELE.MC`, `IBE.MC`, `NTGY.MC`, `RED.MC`, `SLR.MC`) de 16.91x, arrojando un ratio de 1.74x, lo que evidencia que cotiza con una prima de valoración relativa frente a sus comparables.
+- **Deuda y Solvencia**:
+  - **Deuda Total**: 5.411 mil millones de EUR (según métrica de balance reciente).
+  - **Efectivo Total**: 495 millones de EUR.
+  - **Ratio Deuda Neta / EBITDA**: 5.06x, lo que refleja un apalancamiento elevado, típico de empresas intensivas en capital en el sector de renovables.
+- **Rentabilidad y Dividendos**:
+  - **ROE (*Return on Equity*)**: 3.31%
+  - **Márgenes de Beneficio Neto (*Profit Margins*)**: 5.45%
+  - **Rentabilidad por Dividendo (*Dividend Yield*)**: 14.76% (con un dividendo por acción *rate* de 0.03 EUR reportado, sujeto a la volatilidad de los precios de mercado). *Nota de datos faltantes*: Las cifras exactas de crecimiento de beneficios (*earnings growth*) y desglose detallado de pagos extraordinarios se encuentran limitadas en el panel operativo.
 
-### 3. Análisis Financiero y Fundamental
+#### 3. Historial Financiero (Estados Financieros Anuales)
+- **Cuenta de Resultados (*Income Statement*)**:
+  - *Ejercicio 2025*: Ingresos Totales de 2.925 mil millones de EUR, EBITDA de 1.484 mil millones de EUR, y un Beneficio Neto (*Net Income*) de 655 millones de EUR.
+  - *Ejercicio 2024*: Ingresos Totales de 3.048 mil millones de EUR, EBITDA de 1.183 mil millones de EUR, y un Beneficio Neto de 357 millones de EUR.
+  - *Ejercicio 2023*: Ingresos Totales de 3.547 mil millones de EUR, EBITDA de 1.407 mil millones de EUR, y un Beneficio Neto de 524 millones de EUR.
+- **Balance de Situación (*Balance Sheet*)**:
+  - *Ejercicio 2025*: Activos Totales de 14.718 mil millones de EUR, Deuda Total de 5.164 mil millones de EUR y Patrimonio Neto (*Stockholders Equity*) de 5.836 mil millones de EUR.
+  - *Ejercicio 2024*: Activos Totales de 16.244 mil millones de EUR, Deuda Total de 5.442 mil millones de EUR y Patrimonio Neto de 5.843 mil millones de EUR.
+- **Flujo de Caja (*Cash Flow*)**:
+  - *Ejercicio 2025*: Flujo de Caja Operativo de 383 millones de EUR, Gasto de Capital (*CapEx*) de -979 millones de EUR, resultando en un Flujo de Caja Libre (*Free Cash Flow*) de -596 millones de EUR.
+  - *Ejercicio 2024*: Flujo de Caja Operativo de 681 millones de EUR, *CapEx* de -1.630 mil millones de EUR, y un *Free Cash Flow* negativo de -949 millones de EUR. 
+  - La continua inversión en el despliegue de capacidad verde genera flujos de caja libres negativos de forma recurrente, financiados mediante endeudamiento o desinversiones.
 
-#### A. Datos de Valoración y Mercado
-* **Capitalización Bursátil:** ~6.575 millones de EUR.
-* **PER (Trailing):** 35,54x | **PER (Forward):** 29,41x.
-* **Precio / Valor en Libros (P/B):** 1,06x (Valor en libros por acción: 19,10 EUR, muy cercano a la cotización actual).
-* **EV / EBITDA:** 12,20x.
-* **Ratio PER relativo frente a peers del sector:** 1,73x (mediana de peers forward PE: 16,98x), lo que indica que `ANE.MC` cotiza con una prima de valoración relativa frente a sus comparables en el mercado español (`ENG.MC`, `ELE.MC`, `IBE.MC`, `NTGY.MC`, `RED.MC`, `SLR.MC`).
-* **Consenso de Analistas:** Precio objetivo medio de **23,27 EUR** (con un rango entre 17,00 EUR y 28,30 EUR basado en 19 opiniones), lo que otorga un potencial alcista (*consensus upside*) del **14,88%**.
+#### 4. Análisis Técnico y Sentimiento Reciente de Mercado (Noviembre 2026)
+- **Indicadores Técnicos**:
+  - Las acciones registran un cierre de 20.32 EUR, situándose por debajo de sus medias móviles de corto y largo plazo (SMA 20 en 21.51 EUR, SMA 50 en 21.65 EUR y SMA 200 en 21.84 EUR).
+  - El RSI de 14 sesiones se encuentra en 38.93, apuntando hacia zonas próximas a sobreventa pero sin confirmación clara de suelo técnico.
+  - El MACD es negativo (-0.135) con su línea de señal en -0.009, reflejo de presión bajista a corto plazo y una volatilidad anualizada del 34.71%. La caída desde máximos (*drawdown*) se sitúa en el -16.61%.
+- **Noticias y Eventos Recientes (Noviembre de 2026)**:
+  - Las acciones de `ANE.MC` han sufrido fuertes descensos bursátiles recientes (ej. caídas superiores al 7% en sesiones de mediados de noviembre de 2026).
+  - Los analistas y medios especializados (como Merca2.es y Petróleo y Energía) señalan que este castigo en bolsa se debe a la **frustración y demoras en los planes de desinversión** de activos renovables (incluyendo acuerdos en México con MIP), lo que obstaculiza la estrategia de rotación de activos y reducción de endeudamiento de la compañía.
 
-#### B. Estados Financieros Históricos
-* **Ingresos Totales:** 3.547 millones de EUR (2023) $\rightarrow$ 3.048 millones de EUR (2024) $\rightarrow$ 2.925 millones de EUR (2025), mostrando una tendencia decreciente en la cifra de negocios (-34,4% de crecimiento de ingresos reportado en métricas recientes).
-* **EBITDA:** 1.407 millones de EUR (2023) $\rightarrow$ 1.183 millones de EUR (2024) $\rightarrow$ 1.484 millones de EUR (2025; el snapshot puntual registra un EBITDA actual de 971 millones de EUR).
-* **Beneficio Neto (Net Income):** 524 millones de EUR (2023) $\rightarrow$ 357 millones de EUR (2024) $\rightarrow$ 655 millones de EUR (2025). El beneficio por acción (EPS) estimado para el forward es de 0,69 EUR (Trailing EPS: 0,57 EUR).
-* **Solvencia y Deuda:** La compañía soporta una Deuda Total de aproximadamente 5.411 millones de EUR (frente a 5.164 millones de EUR al cierre de 2025 y 495 millones de EUR en efectivo). El ratio de **Deuda Neta sobre EBITDA** se sitúa en unas elevadas **5,06x**, limitando la flexibilidad financiera en un entorno de tipos elevados.
-* **Flujo de Caja:** Los flujos de caja operativos se situaron en 383 millones de EUR en 2025, mientras que las inversiones de capital (CapEx) continuaron siendo intensivas (-979 millones de EUR en 2025, -1.630 millones en 2024), dando lugar a flujos de caja libre negativos (-596 millones de EUR en 2025).
+#### 5. Perspectiva de Analistas y Consenso
+- **Precio Objetivo de Consenso**: 23.27 EUR (con un rango que va desde un mínimo de 17.00 EUR hasta un máximo de 28.30 EUR, basado en 19 opiniones de analistas).
+- **Potencial de Subida (*Consensus Upside*)**: Aproximadamente +14.54% sobre el precio actual de 20.32 EUR.
 
-#### C. Dividendos
-* **Dividendo por Acción (Dividend Rate):** 0,03 EUR, con una rentabilidad por dividendo (*dividend yield*) teórica del **14,81%** según los datos de pantalla (con un *payout ratio* reportado en torno al 5,27%). *Nota para el inversor:* Se debe verificar la sostenibilidad de dicho rendimiento ante la presión sobre el flujo de caja libre y la necesidad de financiar el plan de inversiones.
-
----
-
-### 4. Datos Faltantes y Limitaciones
-* No se dispone de un desglose detallado de transacciones de iniciadores/insiders (*insider transactions*) en la instantánea actual.
-* Faltan detalles minuciosos del último trimestre desglosado de 2026, operando con estados financieros consolidados anuales hasta el ejercicio cerrado de 2025 e indicadores prospectivos.
-
----
-
-### 5. Perspectivas y Conclusiones para Traders
-`ANE.MC` ofrece un soporte fundamental en torno a su valor contable (19,10 EUR), nivel muy próximo al precio de mercado actual (20,26 EUR) y al objetivo mínimo de los analistas (17,00 EUR). Si bien el potencial alcista hasta el precio objetivo de consenso (23,27 EUR) ronda el 15%, los riesgos derivados de un apalancamiento elevado (Net Debt/EBITDA > 5x), la ralentización en la cifra de negocios y las dificultades en las desinversiones aconsejan cautela.
-
-**Rating**: HOLD
-
-FINAL TRANSACTION PROPOSAL:
-- Action: HOLD
-- Ticker: ANE.MC
-- Target Allocation: 0% (Hipótesis basada en ausencia de cartera asignada; valor sujeto a vigilancia de soportes técnicos en los 20 EUR).
-
----
-
-### 6. Tabla Resumen de Puntos Clave
-
-| Métrica / Concepto | Valor / Dato | Comentario / Implicación |
-| :--- | :--- | :--- |
-| **Precio de Cierre (`ANE.MC`)** | 20,26 EUR (13/11/2026) | Por debajo de medias móviles SMA20/50/200; tendencia correctiva. |
-| **Capitalización Bursátil** | ~6.575 millones de EUR | Mediana-gran capitalización en el mercado español. |
-| **PER Forward** | 29,41x | Prima de valoración frente a la mediana sectorial (16,98x). |
-| **Deuda Neta / EBITDA** | 5,0
+#### 6. Conclusión y Datos Faltantes
+- **Datos Faltantes**: Falta desglose detallado de transacciones internas (*insider trading*) recientes en la ventana de la última semana y cifras pormenorizadas de crecimiento de beneficios a largo plazo.
+- **Recomendación para Traders**: Se emite un **REVIEW**. Aunque el consenso de analistas otorga un potencial alcista de doble dígito hacia los 23.27 EUR, el entorno técnico es débil (cotizando por debajo de sus medias clave) y los riesgos fundamentales se han agudizado por los retrasos en las operaciones de desinversión de activos, lo

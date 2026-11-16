@@ -1,65 +1,51 @@
 **Rating**: REVIEW
 
-**Análisis Integral y Macrofinanciero de Iberdrola, S.A. (`IBE.MC`)**
+### Informe de Investigación y Análisis Macroeconómico y de Mercado: Iberdrola, S.A. (`IBE.MC`)
 
-### 1. Contexto Macroeconómico y Entorno de Tipos
-El análisis macroeconómico reciente de la eurozona (noviembre de 2026) muestra un escenario desafiante marcado por presiones inflacionarias persistentes. Según los titulares de actualidad financiera recogidos entre el 13 y el 15 de noviembre de 2026 (por ejemplo, *El Economista*, *Negocios.com*, *Vozpopuli* y *Bankinter*), la inflación en la eurozona se sitúa en torno al **4%**, lo que inhabilita expectativas de una pronta moderación o bajada agresiva de los tipos de interés por parte del Banco Central Europeo (BCE). 
+#### 1. Contexto de Mercado y Evolución Bursátil
+A fecha de 16 de noviembre de 2026, las acciones de **Iberdrola, S.A. (`IBE.MC`)** cotizan a un precio de **23,14 EUR**, tras haber alcanzado nuevos máximos históricos en bolsa durante la semana anterior (según noticias del 13 de noviembre de 2026 de *El Periódico de la Energía* y *El Boletín*). El valor acumula 10 semanas consecutivas de subidas, impulsado por una sólida tendencia técnica:
+- **RSI (14)**: 66,34 (zona de fortaleza previa a sobrecompra).
+- **MACD**: 0,57 (señal alcista en 0,51).
+- **Medias móviles**: El precio se sitúa holgadamente por encima de su SMA de 20 sesiones (22,42 EUR), SMA de 50 sesiones (21,36 EUR) y SMA de 200 sesiones (20,24 EUR).
+- **Rentabilidades recientes**: +6,69% a 21 días, +15,47% a 63 días y +33,68% a 252 días. La volatilidad anualizada se sitúa en un moderado 14,71%.
 
-Este entorno de tipos elevados e inflación persistente afecta directamente a las valoraciones de renta fija y variable, encareciendo el coste de financiación para las empresas intensivas en capital como las utilities. No obstante, las grandes energéticas con sólida generación de caja y diversificación geográfica actúan en ocasiones como refugio frente a la volatilidad macroeconómica.
+#### 2. Fundamentales y Valoración
+Los datos financieros y de valoración reflejan un perfil de compañía diversificada dentro del sector *Utilities*:
+- **Capitalización Bursátil**: ~153.610 millones de EUR (superando los 158.000 millones según los máximos recientes de capitalización en noviembre).
+- **PER TTM**: 31,27x; **PER Forward**: 20,78x.
+- **Ratio Precio/Valor en Libros (P/B)**: 2,99x.
+- **Valor de Empresa / EBITDA (EV/EBITDA)**: 15,40x.
+- **Deuda Neta / EBITDA**: 3,95x (Deuda total de ~63.837 millones de EUR frente a un EBITDA de ~14.494 millones de EUR).
+- **Rentabilidad por Dividendo**: 2,87% - 2,94% (con un *dividend rate* de 0,68 EUR y un *payout ratio* de 87,06%).
+- **Consenso de Analistas**: El precio objetivo medio (*targetMeanPrice*) se sitúa en **21,57 EUR** (con un rango entre 18,00 EUR y 26,00 EUR basado en 24 analistas), lo que implica un potencial de retorno negativo respecto al precio de cotización actual de -6,79%. Bankinter elevó recientemente el precio objetivo tras la publicación de resultados y la mejora de previsiones (noticias del 11 y 13 de noviembre de 2026).
 
----
+#### 3. Entorno Macroeconómico e Inflacionario
+Las noticias y titulares globales recientes destacan un entorno macroeconómico complejo en la Eurozona:
+- **Inflación**: La inflación en la zona euro se mantiene firme alrededor del 4%, lo que, según análisis de medios como *El Economista* (13 de noviembre de 2026), inhabilita o dificulta una moderación rápida en las subidas de tipos por parte del Banco Central Europeo.
+- **Tipos de Interés y Ahorro**: Los tipos reales negativos en la eurozona continúan penalizando el ahorro tradicional, mientras se observa un incremento en la inversión de los hogares en activos de renta fija a corto plazo (como letras del tesoro, acumulando siete meses al alza según Radio Intereconomía el 16 de noviembre de 2026).
 
-### 2. Situación Financiera, Fundamental y de Mercado de `IBE.MC`
-Iberdrola, S.A. cotiza en la Bolsa de Madrid (`IBE.MC`) con fecha de precio del 13 de noviembre de 2026 en **23,70 EUR**, alcanzando nuevos máximos históricos y situando su capitalización bursátil por encima de los **158.000 millones de euros** (exactamente 157.324.017.664 EUR), tras encadenar un rally alcista de varias semanas consecutivas.
+#### 4. Evidencia de Apoyo y Contraria
+- **Apoyo**: 
+  - Sólidos resultados empresariales que llevaron a la compañía a tocar máximos históricos y acumular 10 semanas de subidas bursátiles.
+  - Mejora de previsiones y revisiones al alza de precios objetivo por parte de analistas (ej. Bankinter).
+  - Fortaleza técnica incuestionable con medias móviles crecientes y momentum positivo.
+- **Contraria**:
+  - El precio actual de mercado (23,14 EUR) supera el precio objetivo medio de consenso (21,57 EUR), lo que arroja una rentabilidad potencial implícita negativa de -6,79%.
+  - Valoración relativa exigente en términos de PER forward frente a la mediana de comparables del sector (*peer median forward PE* de 16,91x, con un ratio de 1,23x).
+  - Un entorno macroeconómico en la Eurozona con inflación estancada cerca del 4% y presión sobre los tipos de interés que puede incrementar los costes de financiación y exigir mayores rentabilidades a los activos de renta fija y servicios públicos.
 
-* **Valoración y Múltiplos:**
-  * **PER TTM (Trailing PE):** 32,03x
-  * **PER Forward:** 21,28x
-  * **Ratio PER Relativo frente a peers:** 1,25 (PER relativo superior frente a la mediana del sector de utilities en España, que se sitúa en 16,98x).
-  * **Precio a Valor en Libros (Price to Book):** 3,06x (con un Valor en Libros por acción de 7,74 EUR).
-  * **EV/EBITDA:** 15,40x.
-
-* **Crecimiento y Resultados Financieros:**
-  * **Ingresos Totales (2025):** 44.076 millones de euros (frente a 42.988 millones en 2024 y 49.335 millones en 2023).
-  * **EBITDA (2025):** 16.763 millones de euros (crecimiento sostenido desde los 15.192 millones de 2024).
-  * **Beneficio Neto (Net Income 2025):** 6.285 millones de euros (muestra un incremento notable frente a los 5.612 millones de 2024 y 4.803 millones de 2023).
-  * **Flujo de Caja Libre (FCF 2025):** 3.317 millones de euros (tras un flujo de caja operativo de 11.635 millones y unas inversiones en Capex de -8.318 millones).
-
-* **Deuda y Solvencia:**
-  * **Deuda Total:** 63.837 millones de euros (Deuda Neta / EBITDA de aproximadamente **3,95x** con base en la estructura de balance y efectivo disponible de 6.634 millones).
-  * **Patrimonio Neto (Stockholders Equity):** 50.068 millones de euros (cierre de 2025).
-
-* **Retorno al Accionista:**
-  * **Dividendo:** Rentabilidad por dividendo (*dividend yield*) estimada en **2,87%**, con un dividendo por acción de 0,68 EUR y un ratio de pago (*payout ratio*) del 87,06%.
-
----
-
-### 3. Análisis Técnico y Dinámica de Acciones
-* **Precio de Cierre:** 23,70 EUR (13 de noviembre de 2026).
-* **RSI (14 periodos):** 82,54, lo que indica condiciones de **sobrecompra técnica extrema**, reflejo del fuerte impulso alcista reciente (retorno a 21 días del 10,08% y a 252 días del 36,20%).
-* **Medias Móviles:** La cotización se encuentra holgadamente por encima de su SMA20 (22,32 EUR), SMA50 (21,30 EUR) y SMA200 (20,21 EUR), confirmando una tendencia alcista primaria muy sólida.
-* **Consenso de Analistas:** El precio objetivo medio de consenso se sitúa en **21,57 EUR** (con un rango entre 18,00 EUR y 26,00 EUR y 24 opiniones analíticas), lo que implica un potencial de retorno negativo respecto a cotización actual (*consensus upside* de **-8,99%**), reflejando que el precio de mercado ha superado las valoraciones medias estimadas por los analistas tras las últimas revisiones al alza (como la realizada por Bankinter).
+#### 5. Datos Faltantes
+- Falta el desglose detallado en tiempo real de los flujos de caja operativos y libres correspondientes al cierre completo de los estados financieros de 2026 (los datos de flujo de caja operativoy libre se muestran nulos o pendientes en el snapshot actual, disponiendo de cierres formales hasta el ejercicio anual 2025).
 
 ---
 
-### 4. Evidencia y Fuentes de Datos
-* **Fechas y Datos Clave:** Datos extraídos de la instantánea de mercado e informes financieros con fecha de referencia a 15 de noviembre de 2026 para `IBE.MC`.
-* **Noticias Relevantes:** 
-  * *El Periódico de la Energía* (13-11-2026): "Iberdrola toca nuevos máximos históricos en Bolsa y lleva su capitalización por encima de 158.000 millones".
-  * *El Boletín* (13-11-2026): "Iberdrola encadena 10 semanas de subidas y supera los 158.000 millones de capitalización".
-  * *Finanzas.com* (12-11-2026): "El dividendo y otras dos razones para comprar Iberdrola después de los resultados".
-  * *MarketScreener España* / *Bolsamania* (11-11-2026): "Bankinter sube el precio de Iberdrola tras sus resultados y la mejora de previsiones".
-* **Datos Faltantes / Limitaciones:** No se dispone en la instantánea actual de estimaciones de flujo de caja libre operativo a futuro desagregadas en tiempo real para todos los trimestres de 2026 ni de un desglose completo pormenorizado intradía más allá de los cierres oficiales proporcionados.
-
----
-
-### Tabla Resumen de Métricas Clave (`IBE.MC`)
-
-| Métrica / Indicador | Valor / Dato Actual | Referencia Temporal / Contexto |
+| Concepto Clave | Indicador / Dato Actual | Implicación para `IBE.MC` |
 | :--- | :--- | :--- |
-| **Precio de Cierre (`IBE.MC`)** | 23,70 EUR | 13 de noviembre de 2026 (Máximos históricos) |
-| **Capitalización Bursátil** | ~157.324 Millones EUR | Noviembre de 2026 |
-| **PER TTM / Forward** | 32,03x / 21,28x | Basado en cierres contables y estimaciones |
-| **EV / EBITDA** | 15,40x | Múltiplo de valoración corporativa |
-| **EBITDA (2025)** | 16.763 Millones EUR | Cuentas anuales cerradas 2025 |
-| **Beneficio Neto (2025)**
+| **Precio de Cotización** | 23,14 EUR (16-nov-2026) | Máximos históricos recientes, tendencia alcista consolidada. |
+| **Consenso de Analistas** | 21,57 EUR (-6,79% upside) | Sobrevacuación frente al precio objetivo medio de consenso. |
+| **PER Forward** | 20,78x (vs. 16,91x mediana peers) | Valoración superior a la media sectorial utilities. |
+| **Deuda Neta / EBITDA** | 3,95x | Apalancamiento típico del sector, sensible a tipos de interés altos. |
+| **Dividend Yield** | ~2,90% | Atractivo moderado en un entorno de tipos y renta fija elevados. |
+| **Inflación Eurozona** | ~4,0% (Nov 2026) | Presiona los tipos de interés al alza y el coste de capital. |
+
+FINAL TRANSACTION PROPOSAL: REVIEW

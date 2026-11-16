@@ -1,39 +1,36 @@
-Este informe presenta un análisis fundamental de **International Consolidated Airlines Group S.A. (IAG.MC)** basado en los datos financieros y de mercado disponibles a fecha de 15 de noviembre de 2026.
+Este informe presenta un análisis fundamental de **International Consolidated Airlines Group S.A. (IAG.MC)**, basado en la información financiera y de mercado disponible a fecha de 16 de noviembre de 2026.
 
 ### Perfil y Desempeño Financiero
-IAG (Industriales / Aerolíneas) muestra una recuperación sostenida con una capitalización de mercado de 23.485 millones de euros. Con un **PER (Price-to-Earnings Ratio) actual de 8,34** y un **PER adelantado (forward) de 7,20**, la valoración sugiere que el mercado anticipa un crecimiento en las utilidades futuras o una infravaloración relativa frente a otros sectores industriales.
+IAG, grupo matriz de aerolíneas como British Airways e Iberia, muestra una recuperación estructural notable. Con una capitalización de mercado de aproximadamente 23.570 millones de EUR, la compañía ha logrado consolidar una trayectoria positiva en sus resultados.
 
-**Aspectos destacados de los estados financieros:**
-*   **Ingresos:** La compañía ha mantenido una trayectoria ascendente, pasando de 29.453 millones de euros en 2023 a 33.213 millones de euros en 2025.
-*   **Rentabilidad:** El EBITDA ha mostrado una mejora constante (6.214M€ en 2023 vs 7.951M€ en 2025). Sin embargo, el ingreso neto fue de 3.342M€ en 2025, reflejando márgenes de beneficio del 8,59%.
-*   **Balance y Solidez:** La empresa ha reducido su deuda total de 16.082M€ (2023) a 14.267M€ (2025). El ratio **deuda neta/EBITDA es saludable (0,78)**, lo que indica una capacidad de gestión de pasivos adecuada para una aerolínea.
-*   **Flujo de Caja:** El flujo de caja operativo en 2025 fue de 6.588 millones de euros, con un flujo de caja libre (FCF) positivo de 3.146 millones, lo cual es fundamental para financiar inversiones y mantener el pago de dividendos (Yield actual: 1,85%).
+*   **Rentabilidad y Valoración:** La empresa cotiza a un PER (Price-to-Earnings) de 8,37x (trailing) y un PER forward de 7,22x, lo que sugiere una valoración atractiva en comparación con la mediana de sus pares del sector (18,09x). Su ratio PEG ajustado y la relación precio/valor contable de 2,79x indican un mercado que reconoce su capacidad de generación de caja, pero mantiene cierta cautela sobre los activos físicos del sector aéreo.
+*   **Balance y Solidez:** La situación de deuda ha mejorado drásticamente. El ratio Deuda Neta/EBITDA se sitúa en 0,78x, una cifra muy prudente para una industria intensiva en capital. El flujo de caja libre (FCF) reportado en 2025 fue de 3.146 millones de EUR, lo que respalda su política de dividendos (yield del 1,84%).
+*   **Tendencias Operativas:** La compañía reportó una cifra de ingresos de 33.213 millones de EUR en 2025, manteniendo un crecimiento orgánico positivo (4,5%). A pesar de una leve contracción en el crecimiento de beneficios (-5%), los márgenes operativos del 8,59% demuestran eficiencia en un entorno inflacionario complejo.
 
-### Análisis Técnico y de Mercado
-*   **Tendencia:** El precio actual (5,42 EUR) cotiza por encima de sus medias móviles de 20, 50 y 200 días, lo que confirma una tendencia alcista estructural. El RSI de 64,19 sugiere que, aunque hay un fuerte impulso, aún no se encuentra en territorio de sobrecompra extrema.
-*   **Sentimiento:** La prensa financiera reciente (Bolsamania, Estrategias de Inversión) destaca un sentimiento positivo. Instituciones como RBC, Goldman Sachs, Barclays y Bernstein han emitido valoraciones con un potencial de subida significativo. El precio objetivo medio se sitúa en 6,00 EUR, lo que implica una **plusvalía potencial del 10,79%** sobre el precio de cierre.
+### Contexto Macroeconómico
+El entorno europeo actual (noviembre 2026) presenta desafíos:
+1.  **Inflación:** Con una inflación en la zona euro rondando el 4%, existe presión sobre los costes operativos (combustible y personal) y una probable rigidez en los tipos de interés, lo que encarece la financiación a largo plazo.
+2.  **Consumo:** Los titulares señalan que el ahorro en la eurozona vuelve a perder poder adquisitivo, lo que podría impactar la demanda de viajes discrecionales si la renta disponible de los hogares continúa bajo presión.
 
 ### Riesgos y Consideraciones
-*   **Factor Combustible:** El precio del petróleo sigue siendo el principal condicionante de los márgenes, tal como señalan artículos recientes del 15 de noviembre.
-*   **Entorno Macroeconómico:** La inflación en la zona euro (cercana al 4%) y los tipos de interés elevados crean un entorno de incertidumbre que podría presionar el consumo discrecional en viajes.
-*   **Información Ausente:** No se dispone de datos detallados sobre *operating cashflow* y *free cashflow* específicos para los trimestres de 2026, ni valores de ROE (Return on Equity), lo que limita un cálculo preciso de la eficiencia en la gestión del capital social.
+*   **Evidencia contraria:** La incertidumbre macroeconómica y los tipos de interés elevados son riesgos persistentes. La imposibilidad de relajar la política monetaria, según las previsiones de entidades como Bankinter, podría limitar la expansión de múltiplos del sector.
+*   **Datos faltantes:** No se dispone del flujo de caja operativo actualizado a tiempo real ni información detallada de transacciones internas recientes (insider trading).
+*   **Consenso de analistas:** Existe un consenso moderadamente optimista con una subida potencial del 10,38% respecto al precio actual de 5,44 EUR, situando el precio objetivo medio en 6,00 EUR.
 
-### Perspectiva para el Inversor
-IAG se presenta como una opción atractiva en el sector aerolíneo gracias a su sólido flujo de caja y su reducción de deuda. La convergencia entre una valoración atractiva (PER bajo) y el respaldo de recomendaciones institucionales (con potenciales de subida de hasta el 25% según algunas fuentes) sugiere un perfil de riesgo-recompensa favorable para inversores con visión a medio plazo.
+### Conclusión para el Inversor
+IAG presenta una estructura financiera saneada y una valoración que parece no reflejar plenamente su capacidad actual de generación de flujo de caja libre. Los inversores deben vigilar la resiliencia de los márgenes ante una inflación persistente.
 
-**Rating**: BUY
-
-FINAL TRANSACTION PROPOSAL: None. (This analysis is for research purposes only).
+**Rating**: Neutral / Positive
 
 | Indicador | Valor |
 | :--- | :--- |
-| **Precio Actual** | 5,42 EUR |
-| **Capitalización de Mercado** | 23.485 M€ |
-| **PER (Trailing)** | 8,34 |
-| **PER (Forward)** | 7,20 |
-| **Consenso de Analistas (Media)** | 6,00 EUR |
-| **Upside Potencial** | 10,79% |
-| **Ratio Deuda Neta / EBITDA** | 0,78 |
-| **Dividendo (Yield)** | 1,85% |
+| **Precio Actual** | 5,44 EUR |
+| **PER Forward** | 7,22x |
+| **Deuda Neta/EBITDA** | 0,78x |
+| **Consensus Upside** | 10,38% |
+| **Dividend Yield** | 1,84% |
+| **Tendencia (SMA200)** | 4,85 EUR (Alcista) |
 
-*Fuentes consultadas: Yahoo Finance, Estrategias de Inversión, Bolsamania, El Economista (datos hasta el 15/11/2026).*
+*Fuentes: [Yahoo Finance IAG.MC](https://finance.yahoo.com/quote/IAG.MC/), [Yahoo Finance Financials](https://finance.yahoo.com/quote/IAG.MC/financials/)*
+
+FINAL TRANSACTION PROPOSAL: N/A (Research only)

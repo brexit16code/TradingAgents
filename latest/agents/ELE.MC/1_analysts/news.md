@@ -1,33 +1,36 @@
 ### Informe de Análisis: Endesa, S.A. (ELE.MC)
 
-**Fecha:** 15 de noviembre de 2026
-**Instrumento:** ELE.MC (Endesa, S.A.)
-**Mercado:** MCE (Bolsa de Madrid)
+**Fecha de análisis:** 16 de noviembre de 2026
 
-#### 1. Contexto Macroeconómico
-El entorno macroeconómico actual, según las fuentes proporcionadas al 13-15 de noviembre de 2026, está fuertemente condicionado por una inflación persistente en la Eurozona, reportada en niveles cercanos al 4%. Esta cifra ha generado expectativas de una política monetaria restrictiva, con reportes que indican que dicha inflación "inhabilita moderar el alza de tipos" de interés (*El Economista*, 13-11-2026). Este escenario de tipos reales negativos y presión inflacionaria afecta la valoración de las empresas de servicios públicos (*utilities*), tradicionalmente sensibles a los costes de capital y a la capacidad de trasladar costes a las tarifas reguladas.
+#### Resumen Ejecutivo
+Endesa (ELE.MC) se encuentra en una situación de valor técnico interesante tras una caída reciente del 2.7%, cotizando a 44.75 EUR. A pesar de una sólida trayectoria de crecimiento en el último año (+52.4%), los analistas mantienen un sentimiento de cautela con un precio objetivo promedio de 36.82 EUR, lo que implica una sobrevaloración según el consenso.
 
-#### 2. Análisis Técnico y Fundamental de ELE.MC
-*   **Desempeño Técnico:** ELE.MC muestra una tendencia alcista a corto plazo, cerrando en 45.99 EUR, con un RSI(14) de 70.24, lo que indica condiciones cercanas a la sobrecompra. La acción se sitúa cómodamente por encima de sus medias móviles de 20, 50 y 200 días (38.32 EUR en la SMA200), respaldado por una rentabilidad anual del 50.41%.
-*   **Fundamentos:**
-    *   **Valoración:** La acción presenta un PER (Forward) de 19.02, lo que implica una prima respecto a la mediana de sus comparables del sector (16.98), con un ratio de 1.12.
-    *   **Deuda:** El ratio de deuda neta/EBITDA de 2.10 se mantiene bajo control para el sector, con un EBITDA de 5.63 mil millones EUR.
-    *   **Dividendos:** Ofrece una rentabilidad por dividendo (Yield) del 3.44%, atractiva para inversores de perfil defensivo, aunque el consenso de analistas muestra una "upside" negativa (-19.94%) respecto al precio objetivo promedio de 36.82 EUR, lo que sugiere que el mercado podría haber sobrevalorado la acción recientemente.
+#### Análisis Fundamental y Financiero
+*   **Valoración:** La acción cotiza con un ratio P/E (PER) de 18.8x y un Price-to-Book (P/B) de 5.83, lo que refleja una prima significativa respecto a su valor contable. El ratio EV/EBITDA de 10.57 se alinea con un perfil de empresa de servicios públicos regulados.
+*   **Rentabilidad y Dividendos:** Endesa mantiene una política atractiva de retribución al accionista con una rentabilidad por dividendo del 3.53% y un payout ratio del 66.5%, lo que sugiere sostenibilidad en los pagos actuales.
+*   **Balance:** La estructura de capital es estable con una deuda neta sobre EBITDA de 2.1x, un nivel prudente para el sector. Sin embargo, el crecimiento de ingresos del 0.27% y una contracción en el crecimiento de ganancias (-26.7%) subrayan desafíos operativos.
 
-#### 3. Perspectiva y Riesgos
-La evidencia disponible sugiere que, a pesar de los sólidos fundamentales operativos, el precio actual de la acción ha superado significativamente el objetivo promedio de los analistas (45.99 EUR vs 36.82 EUR). El hecho de que el RSI esté en zona de sobrecompra (70.24) y que las noticias macro adviertan sobre una inflación persistente y tipos altos, sugiere cautela para nuevas posiciones. La capacidad de Endesa para mantener su política de dividendos (payout ratio del 66.55%) será clave para sostener la confianza del inversor ante un entorno de tipos elevados.
+#### Entorno Macroeconómico
+El contexto actual está marcado por una inflación persistente en la eurozona, citada en torno al 4% (fuente: *El Economista*, 13/11/2026). Las noticias recientes indican que esta presión inflacionaria limita la capacidad de los bancos centrales para suavizar la política monetaria. Esto crea un entorno de tipos de interés que castiga al ahorro, como señalan diversos informes sobre tipos reales negativos (*Vozpopuli*, *Estrategias de Inversión*). Para una empresa como Endesa, este entorno supone un doble filo: el aumento de costes operativos versus la protección que ofrecen los activos regulados frente a la volatilidad macro.
 
-**Datos ausentes:** No se dispone de datos detallados sobre la exposición específica de Endesa a la volatilidad de los precios del gas natural en tiempo real para el cuarto trimestre de 2026, ni el impacto directo de los resultados electorales mencionados en las noticias sobre cambios regulatorios específicos en España.
+#### Factores de Riesgo y Oportunidades
+*   **Contrario:** El consenso de analistas sitúa el valor justo significativamente por debajo del precio actual (consenso *downside* del -17.7%), lo que sugiere que el mercado puede haber descontado demasiado optimismo en la cotización reciente.
+*   **Soporte:** La acción se mantiene por encima de sus medias móviles de 50 y 200 días (42.95 EUR y 38.40 EUR, respectivamente), lo que indica que, a pesar de la corrección, la tendencia de largo plazo sigue siendo alcista.
 
-| Indicador / Punto Clave | Valor / Estado | Nota |
-| :--- | :--- | :--- |
-| **Precio Actual** | 45.99 EUR | Tendencia alcista marcada |
-| **Consenso Analistas** | 36.82 EUR | Upside negativo (-19.94%) |
-| **RSI(14)** | 70.24 | Condición de sobrecompra técnica |
-| **Dividend Yield** | 3.44% | Atractivo para perfil renta |
-| **Net Debt/EBITDA** | 2.10 | Solidez balance sectorial |
-| **Macro Entorno** | Inflación ~4% | Presión sobre tipos de interés |
+#### Datos Faltantes
+No se dispone de datos detallados sobre cambios recientes en la estructura regulatoria específica de los mercados energéticos españoles posteriores a noviembre de 2026, lo cual es vital para proyectar el flujo de caja operativo en el sector eléctrico.
+
+---
+
+| Métrica | Valor / Observación |
+| :--- | :--- |
+| **Precio Actual** | 44.75 EUR |
+| **Consenso Analista (Promedio)** | 36.82 EUR |
+| **Rentabilidad Dividendo** | 3.53% |
+| **Net Debt/EBITDA** | 2.10x |
+| **Tendencia (SMA 200)** | Alcista (precio > 38.40) |
+| **Sentimiento Inflacionario** | Elevado (4% en Eurozona) |
 
 **Rating**: REVIEW
 
-FINAL TRANSACTION PROPOSAL: No action recommended; wait for technical correction toward SMA50 levels or analyst price target revisions, given the current overextended price versus consensus targets.
+FINAL TRANSACTION PROPOSAL: No action recommended; maintain position while monitoring the significant gap between current market price and consensus target price.

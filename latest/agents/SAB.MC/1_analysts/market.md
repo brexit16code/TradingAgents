@@ -1,53 +1,63 @@
 **Rating**: HOLD  
-FINAL TRANSACTION PROPOSAL: Mantener posición en SAB.MC con cautela, vigilando los niveles técnicos actuales y el entorno macroeconómico de tipos y flujos sectoriales.
+FINAL TRANSACTION PROPOSAL: Mantener posición actual en SAB.MC evaluando la resistencia clave en 4.50 EUR y el soporte en 2.30 EUR según los objetivos de los
+ analistas, vigilando la evolución de los tipos de interés en la Eurozona y las recientes rebajas de recomendación en el mercado.
 
 ---
 
-### Informe de Análisis Técnico y Fundamental: Banco de Sabadell, S.A. (`SAB.MC`)
+### Informe de Análisis Financiero y Técnico: Banco de Sabadell, S.A. (`SAB.MC`)
 
-#### 1. Resumen Ejecutivo e Identidad del Instrumento
-- **Ticker y Empresa**: `SAB.MC` (Banco de Sabadell, S.A.), cotizada en las Bolsas de Madrid (MCE) dentro del sector de Servicios Financieros y Bancos Diversificados.
-- **Precio de Cierre (13/11/2026)**: 3,75 EUR (con un ligero cambio diario de -0,11%).
-- **Contexto de Mercado**: El valor muestra un comportamiento de medio y largo plazo alcista respaldado por sus medias móviles (cotizando por encima de su SMA20 en 3,57 EUR, SMA50 en 3,61 EUR y SMA200 en 3,15 EUR). No obstante, el consenso de analistas sitúa el precio objetivo medio en 3,698 EUR (con un rango entre 2,30 EUR y 4,50 EUR), lo que implica una ligera sobrevaloración actual respecto al objetivo medio (-1,38%).
+#### 1. Identidad de la Compañía y Contexto de Mercado
+* **Empresa**: Banco de Sabadell, S.A. (`SAB.MC`)
+* **Clasificación de Negocio**: Servicios Financieros / Banca Diversificada
+* **Bolsa**: MCE (Madrid) en Euros (EUR)
+* **Benchmark**: `^IBEX`
+* **Fecha de Análisis**: 16 de noviembre de 2026
 
-#### 2. Análisis Técnico e Indicadores Seleccionados
-Basado en los datos técnicos y de momentum provistos en la instantánea de mercado, los indicadores clave que definen el comportamiento de `SAB.MC` son:
-- **RSI (14)**: Se sitúa en **62,28**, reflejando un sesgo alcista moderado sin alcanzar todavía condiciones de sobrecompra extrema (70). 
-- **MACD y MACD Signal**: El MACD (`0,0446`) se encuentra por encima de su línea de señal (`0,0137`), lo que confirma un impulso comprador activo a corto plazo.
-- **Medias Móviles (SMA20, SMA50, SMA200)**: La jerarquía de las medias (Precio > SMA20 > SMA50 > SMA200) confirma una tendencia primaria sólidamente alcista en el marco temporal anual (`return252_pct` de +45,31%).
-- **Volatilidad (23,68%) y Drawdown (-0,45%)**: Muestran una volatilidad contenida y una cercanía excelente a sus máximos recientes.
+#### 2. Datos de Precio y Fundamentales Clave
+De acuerdo con la instantánea de mercado verificada con fecha 16 de noviembre de 2026, `SAB.MC` cotiza a **3.76 EUR** (cierre ajustado: 3.76 EUR), experimentando una variación intradía de +0.27%. 
 
-*Nota sobre redundancia*: Se han seleccionado métricas complementarias (tendencia con SMA, momentum con RSI y convergencia/divergencia con MACD) evitando duplicidades en la misma categoría de osciladores.
+* **Capitalización de Mercado**: 17,612,154,880 EUR
+* **PER Trailing**: 15.04x | **PER Forward**: 11.29x
+* **Precio a Valor en Libros (Price to Book)**: 1.47x
+* **Beneficio por Acción (EPS Trailing)**: 0.25 EUR | **EPS Forward**: 0.33 EUR
+* **Rentabilidad por Dividendo (Dividend Yield)**: 1.86% (con un dividendo de 0.07 EUR y un *payout ratio* del 28.51%)
+* **Valor Contable (Book Value)**: 2.56 EUR
+* **ROE (Return on Equity)**: 8.90%
+* **Márgenes de Beneficio (Profit Margins)**: 41.57%
+* **Consenso de Analistas (Precio Objetivo)**: Media de 3.70 EUR (Rango: Mínimo 2.30 EUR, Máximo 4.50 EUR, con 20 opiniones de analistas y un potencial de consenso de -1.64%).
 
-#### 3. Fundamentales y Datos Financieros Clave
-- **Capitalización Bursátil**: ~17.565 millones de EUR.
-- **PER (Trailing / Forward)**: El PER histórico se sitúa en 15,0x, mientras que el *forward P/E* desciende a 11,26x, reflejando expectativas de mejora en los beneficios por acción futuros (EPS estimado forward de 0,333 EUR frente a los 0,25 EUR precedentes).
-- **Ratio Precio/Valor en Libros (P/B)**: 1,47x, sobre un valor contable por acción de 2,56 EUR.
-- **Rentabilidad por Dividendo (Dividend Yield)**: 1,87% (con un dividendo de 0,07 EUR y un *payout ratio* conservador del 28,51%).
-- **Resultados Financieros Anuales (Ejercicio 2025)**: 
-  - Ingresos Totales (Total Revenue): 4.882,89 millones de EUR (frente a 5.141,26 millones en 2024).
-  - Beneficio Neto (Net Income): 1.775,41 millones de EUR (ligeramente inferior a los 1.826,81 millones de 2024).
-  - Patrimonio Neto (Stockholders Equity): 14.047,10 millones de EUR.
+#### 3. Análisis Técnico y de Indicadores Seleccionados
+El comportamiento técnico de `SAB.MC` refleja una tendencia alcista a medio y largo plazo, respaldada por las siguientes métricas clave:
+* **Cierre actual**: 3.76 EUR
+* **RSI (14)**: 62.93 (situado en zona neutral-alta, acercándose a condiciones de sobrecompra pero sin rebasar el nivel crítico de 70).
+* **MACD**: 0.049 y Señal MACD: 0.021 (el MACD se encuentra por encima de su línea de señal, validando el impulso positivo reciente).
+* **Medias Móviles**:
+  * SMA 20: 3.59 EUR
+  * SMA 50: 3.61 EUR
+  * SMA 200: 3.15 EUR (El precio cotiza cómodamente por encima de sus medias móviles principales, confirmando una estructura de tendencia alcista consolidada a largo plazo).
+* **Volatilidad (23.55%)** y **Drawdown (-0.18%)**: Muestran estabilidad relativa en la cotización frente a sus máximos recientes.
+* **Rentabilidades históricas**: Retorno a 21 sesiones de +3.87%, a 63 sesiones de +4.24% y a 252 sesiones de +44.39%, destacando un fuerte comportamiento relativo positivo frente al mercado general.
 
-#### 4. Entorno Macro y Noticias Recientes
-El análisis macroeconómico europeo muestra tensiones inflacionistas persistentes (inflación en la zona euro rondando el 4%), lo que mantiene el debate sobre la senda de los tipos de interés del BCE. Las noticias recientes destacan la atención sobre la evolución de los tipos reales negativos en la eurozona y su impacto en el ahorro. Específicamente sobre el sector bancario español, existen informes mixtos de analistas que contrastan el potencial de distintas entidades (como el Santander frente a Sabadell y Unicaja).
+#### 4. Estados Financieros y Datos Contables
+* **Ingresos Totales (2025)**: 4,882,892,000 EUR (frente a 5,141,263,000 EUR en 2024 y 6,282,439,000 EUR en 2023).
+* **Ingreso Neto (Net Income 2025)**: 1,775,411,000 EUR (comparado con 1,826,805,000 EUR en 2024 y 1,332,181,000 EUR en 2023).
+* **Activos Totales (2025)**: 245,392,394,000 EUR.
+* **Patrimonio Neto (Stockholders Equity 2025)**: 14,047,096,000 EUR.
+* **Deuda Total (2025)**: 22,534,811,000 EUR (Nota: No se aplican reglas de deuda industrial/EBITDA a instituciones bancarias).
+* **Flujo de Caja Operativo (2025)**: 1,677,979,000 EUR (con un Flujo de Caja Libre de 1,067,184,000 EUR). *(Nota: Los flujos de caja operativos de 2023 y 2024 muestran variaciones contables típicas de la dinámica de activos líquidos y financiación interbancaria en entidades financieras).*
 
-#### 5. Evidencia, Fuentes y Datos Faltantes
-- **Fuentes utilizadas**: Yahoo Finance (`https://finance.yahoo.com/quote/SAB.MC/`), agregadores de noticias RSS (Bolsamania, Yahoo Finanzas, El Economista, Negocios.com).
-- **Fecha de referencia de los datos**: 15 de noviembre de 2026 (con precios de cierre de sesión a 13 de noviembre de 2026).
-- **Datos faltantes**: No se dispone de estimaciones detalladas de flujo de caja libre operativo a futuro ni de desglose de morosidad en tiempo real en la instantánea proporcionada. No se han aplicado reglas industriales de deuda/EBITDA por tratarse de una entidad financiera.
+#### 5. Noticias Recientes y Contexto Macrofinanciero
+* **Rebajas y Recomendaciones**: El 16 de noviembre de 2026, *MarketScreener España* informó que *Banco Sabadell cede terreno tras una rebaja de recomendación* (URL: [MarketScreener](https://news.google.com/rss/articles/CBMitwFBVV95cUxQWVFMY3IyN1pNU1BQcUZIZ2kwZHc2VUpHQnE3eHVrWjhpdVNxc3J3OTluT3M5SHptSXV2bWdQR3RzdDI5UlZTOGI0aGEzZzB4dlhxd2xhRkE4T09mTlpqbmNPSnRqS0twNERLQ28wcmVRUlBMdElxeWN3YTRVdGN0dVJyVVVWOC00UDFnM0JzYUJNX1pYSXJzWmdhRlQ4U2tVSFpqU1NjSVJSZXhURlAyVk4zMFFKUmM?oc=5)). Asimismo, informes de *Estrategias de Inversión* del 10 y 11 de noviembre de 2026 señalan divergencias en el sector bancario español, donde otras entidades del IBEX 35 reciben mayores potenciales de revalorización en comparación con `SAB.MC`.
+* **Entorno Macroeconómico**: Los titulares recientes de mediados de noviembre de 2026 apuntan a una inflación en la Eurozona situada en torno al 4%, lo que inhabilita una rápida moderación en el alza de tipos de interés por parte del Banco Central Europeo, afectando a los márgenes de intermediación y a los costes de financiación del ahorro (con un rendimiento real negativo persistente para los hogares).
+
+#### 6. Datos Faltantes y Limitaciones
+* No se dispone de un desglose detallado de la cartera de pymes y particulares por regiones geográficas específicas para el trimestre en curso más allá de los estados anuales cerrados a diciembre de 2025.
+* Las estimaciones de analistas se basan en medias de consenso y no deben interpretarse como valor intrínseco garantizado.
 
 ---
 
-### Tabla Resumen de Indicadores Clave y Métricas (`SAB.MC`)
+### Resumen en Tabla Organizada
 
-| Categoría / Métrica | Valor / Nivel Actual | Interpretación y Perspectiva |
-| :--- | :--- | :--- |
-| **Precio de Cierre** | 3,75 EUR (13/11/2026) | Cotización estable cercana a los máximos recientes. |
-| **RSI (14)** | 62,28 | Impulsor alcista moderado; zona neutral-alta sin sobrecompra. |
-| **MACD / Señal** | 0,0446 / 0,0137 | Cruce alcista vigente, indicando presión compradora a corto plazo. |
-| **Media Móvil (SMA 50)** | 3,61 EUR | Soporte dinámico mediano plazo superado con éxito. |
-| **Media Móvil (SMA 200)** | 3,15 EUR | Confirmación de tendencia alcista estructural a largo plazo. |
-| **PER Forward** | 11,26x | Valoración atractiva en base a beneficios estimados futuros (EPS 0,33 EUR). |
-| **Precio a Valor en Libros** | 1,47x | Refleja la prima de valoración sobre el patrimonio neto contable. |
-| **Consenso de Analistas** | 3,69 EUR (Media) | Ligero descuento frente al precio de mercado actual (-1,38%). |
+| Categoría | Métrica / Indicador | Valor / Detalle | Implicación Analítica |
+| :--- | :--- | :--- | :--- |
+| **Precio y Valoración** | Cotización Actual (`SAB.MC`) | 3.76 EUR | Precio por encima

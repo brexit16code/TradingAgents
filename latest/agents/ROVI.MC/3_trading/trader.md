@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: Laboratorios Farmaceuticos Rovi, S.A. muestra unos fundamentales muy sólidos con un ROE del 28.71% y una baja ratio de endeudamiento (0.15x Deuda Neta/EBITDA), respaldado por el impulso en su negocio CDMO. Sin embargo, el RSI en 72.26 indica una clara sobrecompra técnica y el PER forward de 21.05x anticipa una moderación temporal de beneficios, lo que desaconseja incrementar exposición en los niveles actuales de 69.20 EUR. Por tanto, se adopta una postura de retención defensiva para proteger las ganancias recientes mientras se vigila el soporte clave de la media de 200 sesiones en 65.17 EUR.
+**Reasoning**: La valoracion de ROVI.MC presenta un escenario mixto donde los solidos fundamentos de balance (baja deuda neta y elevado ROE) contrarrestan el deterioro en la cifra de ingresos y un Forward P/E exigente de 21.13x. Tecnicamente, el activo muestra un RSI en sobrecompra de 73.19 y un potencial de subida limitado al 7.76% frente al precio objetivo de consenso de 75.00 EUR. Por tanto, se recomienda mantener posiciones existentes sin realizar nuevas compras, protegiendo el capital ante posibles correcciones.
 
 **Entry Price**: not provided
 
-**Stop Loss**: 65.17
+**Stop Loss**: 60.81
 
-**Position Sizing**: 5% of portfolio
+**Position Sizing**: 3% of portfolio
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

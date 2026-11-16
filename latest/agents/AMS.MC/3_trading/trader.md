@@ -1,10 +1,10 @@
 **Action**: Buy
 
-**Reasoning**: La recomendación de sobreponderar en el plan de inversión se traduce en una acción de compra estructurada, apoyada por sólidos fundamentales (crecimiento de ingresos del 6,4% y un FCF superior a 1.386 millones de EUR) y un potencial alcista de consenso hasta los 71,04 EUR. Aunque el RSI en 73,83 refleja una sobrecompra táctica y la macroeconomía europea muestra presiones inflacionarias, la tendencia alcista estructural por encima de las medias móviles y la valoración atractiva a un Forward P/E de 15,99x justifican la toma de posiciones de forma fraccionada.
+**Reasoning**: A pesar de la sobrecompra técnica a corto plazo con un RSI de 77,29, los sólidos fundamentales y el potencial alcista hacia el precio objetivo de consenso de 71,04 EUR justifican una recomendación de compra para acumulación gradual. La sólida generación de flujo de caja y la alineación con la recomendación estratégica de sobreponderar superan los riesgos tácticos inmediatos. Se establece una entrada escalonada y un nivel de stop-loss prudente para gestionar la volatilidad.
 
-**Entry Price**: 62.16
+**Entry Price**: 59.04
 
-**Stop Loss**: 58.5
+**Stop Loss**: 55.82
 
 **Position Sizing**: 5% of portfolio
 

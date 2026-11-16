@@ -1,44 +1,40 @@
 **Rating**: HOLD  
-FINAL TRANSACTION PROPOSAL: Mantener posición actual con cautela, vigilando soportes técnicos de corto plazo y la resistencia del consenso en 59.90 EUR.
+FINAL TRANSACTION PROPOSAL: Mantener la posición actual en FER.MC sin realizar nuevas compras ni ventas, a la espera de una consolidación de precios o corrección del nivel actual de sobrecompra.
 
 ---
 
-### Informe Técnico y Fundamental de Ferrovial N.V. (`FER.MC`)
+### Informe de Análisis Financiero y Técnico: Ferrovial N.V. (`FER.MC`)
 
-#### 1. Contexto de Mercado y Estado Actual
-A fecha de 15 de noviembre de 2026, las acciones de **Ferrovial N.V.** (`FER.MC`), cotizadas en el mercado principal de Madrid (`MCE`) en EUR, registran un precio de cierre de **55.62 EUR** (sesión del 13 de noviembre de 2026). La compañía opera en el sector industrial, específicamente en Ingeniería y Construcción, con una capitalización bursátil aproximada de **39.970 millones de EUR**.
-
-El contexto macroeconómico reciente viene marcado por la persistencia de tensiones inflacionistas en la eurozona (con lecturas cercanas al 4% anual según noticias de mediados de noviembre de 2026) y la consecuente cautela de los inversores ante la evolución de los tipos de interés reales y los rendimientos de los bonos soberanos (mencionado por RBC al recortar ligeramente su precio objetivo por el alza de rentabilidades).
-
----
-
-#### 2. Análisis Técnico
-El comportamiento técnico reciente de `FER.MC` refleja un fuerte sesgo alcista a corto plazo, condicionado por lecturas extremas de sobrecompra:
-- **Precio y Medias Móviles**: El valor cotiza por encima de su media móvil de 20 sesiones (`sma20` en **49.48 EUR**) y de la media de 50 sesiones (`sma50` en **47.57 EUR**), situándose asimismo por encima de su media de largo plazo de 200 sesiones (`sma200` en **54.28 EUR**). Esto confirma una estructura alcista sostenida a medio y largo plazo.
-- **RSI (14)**: Se sitúa en **81.83**, una lectura claramente en zona de sobrecompra (>70). Si bien los valores en tendencia pueden mantenerse elevados durante períodos prolongados, sugiere un elevado riesgo de corrección técnica o consolidación a corto plazo.
-- **MACD**: El indicador MACD registra un valor de **2.42**, encontrándose por encima de su línea de señal (`macd_signal` en **1.68**), lo que respalda el impulso positivo actual, aunque con síntomas de aceleración que deben vigilarse de cerca.
-- **Volatilidad y Retornos**: La volatilidad anualizada a 511 sesiones se sitúa en **30.08%**. El rendimiento a 21 sesiones (`return21_pct`) alcanza un notable **+30.77%**, mientras que a 252 sesiones (`return252_pct`) es de **+6.33%**. El máximo retroceso reciente (`drawdown_pct`) se ubica en **-9.65%**.
+#### 1. Resumen de Identidad y Contexto de Mercado
+* **Compañía:** Ferrovial N.V. (`FER.MC`)
+* **Sector / Industria:** Industrials / Engineering & Construction
+* **Bolsa / Divisa:** MCE (Madrid) / EUR
+* **Fecha de Referencia:** 16 de noviembre de 2026
+* **Precio de Cierre Actual:** 56.50 EUR (con una variación del +1.58% en la última sesión).
 
 ---
+
+#### 2. Análisis Técnico y de Indicadores
+El comportamiento técnico de `FER.MC` refleja un momento de fuerte impulso alcista a corto plazo, respaldado por las siguientes métricas clave recogidas en el balance verificado:
+* **Precio frente a Medias Móviles:** El precio actual (56.50 EUR) se sitúa por encima de la media móvil de 20 sesiones (SMA20 = 50.14 EUR), de la de 50 sesiones (SMA50 = 47.72 EUR) y por encima de la media de 200 sesiones (SMA200 = 54.28 EUR), lo que indica una estructura de tendencia alcista consolidada a medio y largo plazo.
+* **RSI (14):** Se encuentra en un nivel de **83.49**, situándose claramente en la zona de **sobrecompra extrema** (>70). Esto advierte de un alto riesgo de corrección o agotamiento temporal de los compradores a corto plazo.
+* **MACD:** El indicador muestra una lectura positiva de **2.56** y la línea de señal (`macd_signal`) se encuentra en **1.85**, confirmando el sesgo alcista del momentum, aunque con la cautela que imponen los niveles estirados del RSI.
+* **Volatilidad y Retornos:** La volatilidad anualizada se sitúa en el **30.21%**, con un retorno acumulado a 21 sesiones del **29.89%** y una rentabilidad a 252 sesiones del **7.26%**. El *drawdown* actual desde máximos es del **-8.22%**.
 
 #### 3. Análisis Fundamental y Valoración
-Los datos fundamentales extraídos de los estados financieros y estimaciones de consenso muestran los siguientes aspectos clave:
-- **Resultados Financieros**: 
-  - Ingresos totales en el ejercicio 2025: **9.627 millones de EUR** (frente a 9.148 millones en 2024 y 8.515 millones en 2023).
-  - EBITDA en 2025: **1.998 millones de EUR** (tras el pico excepcional de 4.539 millones en 2024).
-  - Beneficio neto en 2025: **888 millones de EUR** (comparado con 3.239 millones en 2024 y 341 millones en 2023).
-- **Múltiplos de Valoración**:
-  - PER histórico (`trailingPE`): **35.65x**
-  - PER estimado (`forwardPE`): **47.83x**
-  - Precio sobre valor en libros (`priceToBook`): **7.01x**
-  - EV/EBITDA: **31.38x**
-- **Deuda y Solvencia**: La deuda total asciende a **10.657 millones de EUR** (10.732 millones al cierre de 2025), con una posición de caja de **3.864 millones de EUR**. El ratio de deuda neta sobre EBITDA (`net_debt_ebitda`) se sitúa en **4.39x**.
-- **Flujos de Caja**: El flujo de caja operativo (`operatingCashflow`) alcanza los **2.488 millones de EUR**, con un flujo de caja libre (`freeCashflow`) de aproximadamente **889,6 millones de EUR**.
-- **Dividendo**: Ofrece una rentabilidad por dividendo (`dividendYield`) del **3.51%**, con un dividendo por acción de **1.95 EUR** y un `payoutRatio` del **71.24%**.
-- **Consenso de Analistas**: Con base en 20 opiniones de analistas, el precio objetivo medio (`targetMeanPrice`) es de **59.90 EUR**, con un rango que va desde un mínimo de **48.50 EUR** hasta un máximo de **80.00 EUR**. Esto arroja un potencial alcista de consenso (`consensus_upside_pct`) del **7.69%** respecto al precio actual de 55.62 EUR.
+* **Capitalización de Mercado:** 40.599 millones de EUR.
+* **Valoraciones y Múltiplos:** 
+  * Ratio PER histórico (*trailing PE*): **36.22x**
+  * PER estimado a futuro (*forward PE*): **48.58x**
+  * Precio sobre Valor en Libros (*priceToBook*): **7.12x**
+  * Valor de Empresa / EBITDA (*enterpriseToEbitda*): **31.38x**
+* **Solvencia y Deuda:** La deuda total asciende a 10.657 millones de EUR (frente a 10.732 millones a cierre de 2025), con una posición de caja total de 3.864 millones de EUR. El ratio de deuda neta sobre EBITDA se sitúa en **4.39x**.
+* **Dividendos:** Ofrece una rentabilidad por dividendo (*dividend yield*) estimada del **3.45%** (con un dividendo por acción de 1.95 EUR y un *payout ratio* aproximado del 71.24%).
+* **Consenso de Analistas:** El precio objetivo medio del consenso (*targetMeanPrice*) se sitúa en **59.89 EUR** (con un rango entre un mínimo de 48.50 EUR y un máximo de 80.00 EUR a partir de 20 opiniones de analistas), lo que representa un potencial de revalorización (*consensus upside*) del **6.01%** desde el precio de cotización actual de 56.50 EUR.
 
----
+#### 4. Evidencia Macroeconómica Reciente y Noticias
+El contexto macroeconómico reciente (mediados de noviembre de 2026) destaca por tensiones inflacionistas persistentes en la Eurozona (con tasas en torno al 4%) que limitan las expectativas de relajación rápida en los tipos de interés por parte del Banco Central Europeo, propiciando un entorno donde los inversores valoran activos defensivos, letras del tesoro y grandes corporaciones de infraestructuras con flujos de caja estables, aunque sujetas a costes de financiación elevados. 
+* *Fuentes de noticias de referencia:* [Radio Intereconomía](https://news.google.com/rss/articles/CBMi7AFBVV95cUxOcXJ4a0tRVHotWnpQTGV3bzZqWmdjNVRXWkxqUVdQZjNVcldnZ2ZFdzhsSHpZQXZjYk9tOEtKOXVkaUptbEFQdlMzZUtrYlZfRVB4cEx3NGE3eXVNZnh0WjVObVZtS1I3UlpIV0I1a3hVRFg4YjlvV2s1dEtTQWtkaTlMN3dPd1VmWDd0JjRrZE9hYnB3OFRZc3ZCNEVTUlUwYU9JV1NjZEpDZXB4RUhUb0RNZXZkc2FuUnlRUkt4NWpya3FnMGtnYkVBYUpKQ2ZOblliM084azVONzV6UkFpLXZhOExmdlk0NFBLVw), [El Economista](https://news.google.com/rss/articles/CBMi5gFBVV95cUxOdFhRSmpIZGt2RXFqc1NVQTdRaWk5M2tWMlRnaEptUTFSSXFoTmlSVkZjMmdCRmxzQlhvR2p4UEI4cFVNeXRaS0h5UEg1TDFTdEctMDZvRnkyQ1dZT1RMaGsyZEhaeHd3WlNrakpYR3hYbE1QNFRsWFc4c012SHh4dFU3Vkd5dl94VWtkMnp6M3BLdlB6XzV4UE9tbTRmdFdlTEh6RXhyYmxwVDFveGVBcmVRWFl3bjBJYlkxRmZob3BtYTRoUjZrYzNwX1k5VFVwYzhvek9nYWxQdEZsNzVHaFo2RDd2QdIB0AFBVV95cUxON0pNM1pNcVBFUlpIVXh2eHZNX3lYWWV3Z0REMExsdjhNSlQ3Tm1NMXZzeGl6UmlwMGZTZDlkRU1LTzY1YlZqV0phMTRjQjFoLVZWc3UyZWtKZmVGWHpTOXRpOW5jTk9LSUdfbjlSRVpvWjdqN0xaMjB6RS1xc3RIMVV1WE8yOGQ0bVliQ2YwZE1KUW9LYzZvY2VaYU5WRWphcF9FbDNjUFRDbURVM0U5YkYxbFc2bFU5QnkzYmhJczNfWFNYRXp2STUwNE83L0NW?oc=5).
 
-#### 4. Evidencia Externa y Noticias Recientes
-- *Bankinter (13 de noviembre de 2026)*: Publicó un análisis sobre los últimos resultados y previsiones de tipos de interés en la Eurozona para 2026-2027 en un entorno de inflación persistente. (URL: [Bankinter News](https://news.google.com/rss/articles/CBMibEFVX3lxTE04NU5VMDVUSVRVbXZxY1ZVWmZMdW1ZNmxGVzBTb29kTmJWOXdGeVRQMGpJZzBzME50OGt2X0Z6R1R1OHR2MlN0WnZlWWFldjA4MGpJcGxEclR2OEg3NFk0UjRZNkkzYUptWDlxNQ?oc=5))
-- *Bolsamanía (13 de noviembre de 2026)*: Informó sobre el ligero recorte de precio objetivo a Ferrovial por parte de RBC motivado por el repunte en las rentabilidades de los bonos soberanos. (URL: [Bolsamania News](https://news.google.com/rss/articles/CBMi0AFBVV95cUxPR2VyNzVJclZqemk4d1ZvNUFMMU9TSUtFRk1WdjlTRTRITEJiZXZHaXVvQjBIeXpxNlR0V05VLVppT0hJWDNUSW00R1pIYmVMY19pbUdqVmo3Nm1ZTUlyNlI3VzJjMjhJNWhxYXNQVzZqbVlpQnFYclVQSnc1RUdiTVhzcGIwd3B2SlZjeDRkZTNFUHNRS25NNmpYREVJTGxZWGdvbVhSdkg4LXhNc3JSZEYteU5oZlZVaDBvN1FYR0ZyUzRRaTU3ZEVsV0w3clpa0gHWAUFVX3lxTE1MdkNDU3VVUTBIUTFqMS1oaVpXQ0F4b3M0OFBIQ2hjRE04X3hIRmJIaTRsSVRKZ1MzTjhxVVBLU2c0SC1OajQ5THl
+#### 5. Datos Faltantes y Limitaciones
+* No se dispone de noticias específicas de la compañía en tiempo real debido a errores de conectividad HTTP en el endpoint de noticias corporativas (`news: []`), limitando el análisis a los flujos macroeconómicos generales de la

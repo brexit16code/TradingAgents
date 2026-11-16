@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La acción se encuentra en una fase de consolidación técnica sobre su media móvil de 200 días, nivel que actúa como soporte crítico en 55,67 EUR. Aunque la valoración por Forward PE es atractiva, la debilidad operativa reflejada en un flujo de caja libre negativo y un ROE bajo aconseja prudencia hasta que se observe una mejora en la eficiencia del capital o una ruptura alcista confirmada de la resistencia en 58,54 EUR.
+**Reasoning**: La acción se encuentra en una zona de indecisión técnica, cotizando apenas por encima de su media móvil de 200 días (55,71 EUR) pero por debajo de la de 50 días (58,31 EUR). Aunque la valoración por forward PE es atractiva, el flujo de caja libre negativo y el complejo entorno macroeconómico de la eurozona justifican la prudencia y una postura de espera para evitar tanto una salida prematura como una entrada en medio de la debilidad del impulso.
 
-**Entry Price**: 55.67
+**Entry Price**: not provided
 
-**Stop Loss**: 52.7
+**Stop Loss**: 55.0
 
-**Position Sizing**: Mantener posición actual, sin aumentar exposición hasta verificar flujo de caja positivo
+**Position Sizing**: Mantener posición actual, sin incrementar exposición hasta superar los 58.31 EUR.
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

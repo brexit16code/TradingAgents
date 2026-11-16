@@ -1,11 +1,11 @@
-**Action**: Hold
+**Action**: Buy
 
-**Reasoning**: El valor ACS.MC cotiza actualmente en 91.05 EUR, manteniéndose por debajo de la media móvil de 200 sesiones situada en 108.67 EUR y reflejando un retroceso del -34.19%. Aunque los fundamentales muestran solidez operativa, un crecimiento de ingresos destacable y un atractivo potencial de consenso, los estrechos márgenes netos y la presión inflacionaria en la eurozona justifican adoptar una postura de espera hasta observar una ruptura técnica consistente.
+**Reasoning**: ACS.MC cotiza actualmente en 91.05 EUR con un RSI neutral de 50.06 y un soporte técnico cercano en la SMA de 20 sesiones (90.04 EUR). Respaldado por fundamentales sólidos como un crecimiento de ingresos del 19.4%, un aumento de beneficios del 35%, deuda neta/EBITDA baja de 1.02x y un plan estratégico a 2030 con catalizadores en IA y centros de datos, ofrece un atractivo potencial de recuperación frente al consenso de analistas (precio objetivo medio de 128.54 EUR).
 
-**Entry Price**: not provided
+**Entry Price**: 91.05
 
-**Stop Loss**: not provided
+**Stop Loss**: 84.5
 
-**Position Sizing**: Mantenimiento neutral de la posición existente
+**Position Sizing**: 5% of portfolio
 
-FINAL TRANSACTION PROPOSAL: **HOLD**
+FINAL TRANSACTION PROPOSAL: **BUY**

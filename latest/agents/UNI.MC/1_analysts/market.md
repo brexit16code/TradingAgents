@@ -1,61 +1,29 @@
-**Rating**: HOLD  
-FINAL TRANSACTION PROPOSAL: Mantener la posición actual en `UNI.MC` debido a la valoración relativa ajustada, el atractivo por dividendo y la estabilidad en los beneficios, en espera de una mejor configuración técnica o mayor claridad macroeconómica en la Eurozona.
+El análisis de **Unicaja Banco (UNI.MC)**, basado en los datos de mercado al 16 de noviembre de 2026, refleja una entidad financiera en un periodo de consolidación técnica tras un año de rendimiento positivo, con un precio de cotización de **3,44 €**.
 
----
+### Análisis Técnico
+Unicaja muestra una estructura alcista de largo plazo, posicionándose por encima de su media móvil de 200 días (2,99 €) y de la media de 50 días (3,37 €). El indicador **RSI (14)** se sitúa en 61,08, lo que indica una presión compradora moderada, sin alcanzar niveles de sobrecompra extrema (70). El cruce alcista del **MACD (0,037)** por encima de su señal (0,005) sugiere una reciente recuperación en el momentum. A pesar de estos indicadores, el título ha mostrado una leve corrección (-5,07% desde máximos recientes) y un rendimiento plano en el corto plazo (-0,08% en los últimos 63 días), reflejando una fase de estabilización.
 
-### Análisis detallado y profundo de `UNI.MC` (Unicaja Banco, S.A.)
+### Contexto Fundamental
+El desempeño de `UNI.MC` está marcado por resultados sólidos, con un beneficio neto de 632 millones de euros al cierre de 2025. La entidad presenta una valoración con un **PER forward de 12,15** y un **Price-to-Book de 1,39**, lo cual es coherente con su sector. Un punto relevante es su política de dividendos, con una rentabilidad (yield) del **5,54%**, lo que la convierte en una opción atractiva para inversores de renta, aunque el mercado muestra escepticismo sobre su potencial de revalorización a corto plazo, con un consenso de analistas que sitúa el precio objetivo medio en 3,25 €, un 5,5% por debajo del precio actual, sugiriendo una posible sobrevaloración según este consenso.
 
-#### 1. Contexto de Mercado y Entorno Macroeconómico
-`UNI.MC` cotiza en la Bolsa de Madrid (MCE) dentro del sector financiero como banco regional español. El análisis se enmarca a mediados de noviembre de 2026. El entorno macroeconómico europeo actual se caracteriza por presiones inflacionarias persistentes en la Eurozona (con datos recientes rondando el 4% anual a mediados de noviembre de 2026), lo que mantiene un escenario de tipos de interés elevados o con menor margen de relajación del esperado por el mercado ("La inflación de la zona euro en el 4% inhabilita moderar el alza de tipos", *El Economista*, 13-11-2026). Para el sector bancario, esto sostiene un nivel de ingresos por margen de intereses elevado, aunque incrementa la vigilancia sobre el coste de financiación y el riesgo de crédito.
+### Análisis de Noticias y Mercado
+Las noticias recientes (13-16 de noviembre de 2026, *Estrategias de Inversión*) destacan la consolidación de Unicaja como segundo banco en captación de fondos y el lanzamiento de una emisión verde. No obstante, existe presión externa debido a la inflación de la eurozona (4%) y la expectativa de tipos de interés, lo que impacta directamente en el sector bancario regional. La divergencia entre el comportamiento bursátil positivo y el escepticismo de algunos analistas (condenando a Sabadell y Unicaja frente a Santander) subraya un entorno de alta volatilidad operativa.
 
-#### 2. Datos Técnicos y de Precio
-Tomando como fuente el snapshot verificado a fecha de 2026-11-13 (última sesión de negociación registrada en los datos):
-- **Precio de cierre**: 3,448 EUR (`3.447999954223633` EUR).
-- **Variación diaria**: Ligero retroceso del -0,29%.
-- **RSI (14)**: 61,82, situándose en una zona neutral-alcista, sin mostrar condiciones extremas de sobrecompra (70) ni de sobreventa (30).
-- **MACD**: 0,034 con línea de señal en -0,0024, lo que indica un cruce positivo reciente y un sesgo moderadamente alcista en el corto plazo.
-- **Medias Móviles**: 
-  - SMA 20: 3,27 EUR
-  - SMA 50: 3,38 EUR
-  - SMA 200: 2,99 EUR
-  El precio actual (3,448 EUR) se encuentra por encima de todas sus medias móviles principales (SMA20, SMA50 y SMA200), confirmando una estructura de tendencia alcista a medio y largo plazo.
-- **Rentabilidades históricas**: 
-  - 21 sesiones: +6,95%
-  - 63 sesiones: -1,69%
-  - 252 sesiones (anual): +51,99%
-- **Volatilidad (22,72%)** y **Drawdown actual (-4,91%)**: Reflejan una corrección menor desde máximos recientes, manteniéndose en un rango de volatilidad moderada
- para el valor.
+### Resumen de hallazgos
+*   **Fortalezas**: Sólida posición en fondos de inversión, rentabilidad por dividendo competitiva y tendencias alcistas en medias de largo plazo.
+*   **Riesgos**: El precio actual se encuentra por encima del objetivo medio de los analistas, lo que podría limitar el margen de crecimiento inmediato. La presión inflacionaria en la zona euro añade incertidumbre sobre los márgenes futuros de los bancos regionales.
+*   **Información faltante**: No se dispone de datos detallados sobre el coste del riesgo (NPLs) para el periodo actual, ni proyecciones específicas sobre cómo la política de tipos del BCE afectará el margen de intereses en 2027.
 
-#### 3. Fundamentales y Valoración
-Los datos fundamentales muestran la solidez operativa de `UNI.MC`:
-- **Capitalización de mercado**: 8.859.884.544 EUR (~8.860 millones EUR).
-- **PER (Trailing)**: 13,26x | **PER (Forward)**: 12,18x.
-- **Precio / Valor en Libros (P/B)**: ~1,40x (Book Value por acción: 2,465 EUR).
-- **Beneficios y Resultados**: 
-  - Ingresos totales (2025): 2.097,19 millones EUR (frente a 2.128,43 millones EUR en 2024 y 1.977,10 millones EUR en 2023).
-  - Beneficio neto (2025): 632,36 millones EUR (por encima de los 573,33 millones EUR de 2024 y 266,70 millones EUR en 2023).
-- **Rentabilidad sobre recursos propios (ROE)**: 10,12%.
-- **Margen de beneficio neto**: 32,80%, reflejando una alta eficiencia en la conversión de ingresos a beneficios netos.
-- **Dividendos**: Ofrece una rentabilidad por dividendo (*dividend yield*) atractiva del **5,51%** (dividendo anual de 0,19 EUR por acción con un *payout ratio* del 73,82%), lo que refuerza su atractivo bursátil ("Unicaja refuerza su atractivo bursátil con 543 millones de beneficio, más dividendos y una nueva emisión verde", *Estrategias de Inversión*, 13-11-2026).
-- **Consenso de analistas**: Precio objetivo medio (*targetMeanPrice*) de 3,25 EUR, con un rango entre 2,90 EUR (mínimo) y 3,90 EUR (máximo) basado en 18 opiniones de analistas. Dado el precio actual de 3,448 EUR, el potencial de revalorización según la media de consenso es de **-5,68%** (*consensus_upside_pct*), lo que indica que el mercado ya ha descontado gran parte del reciente movimiento alcista.
+| Indicador / Métrica | Valor / Observación |
+| :--- | :--- |
+| Precio Cierre | 3,44 € |
+| SMA 200 | 2,99 € |
+| RSI 14 | 61,08 |
+| PER Forward | 12,15 |
+| Dividend Yield | 5,54% |
+| Consenso Analistas (Media) | 3,25 € |
+| Tendencia (63 días) | -0,08% |
 
-#### 4. Evidencia y Noticias Recientes
-- *Estrategias de Inversión (13-11-2026)*: Destaca la fortaleza en los beneficios de la entidad y la retribución al accionista mediante dividendos.
-- *Yahoo Finance / Análisis de analistas (10-11-2026)*: Divergencia en las perspectivas de analistas frente a otros valores del IBEX 35, situando a Unicaja con valoraciones más exigentes en el corto plazo.
+**Rating**: HOLD
 
-#### 5. Datos Faltantes / Limitaciones
-- Faltan métricas de flujo de caja libre operativo normalizado estándar para bancos (los flujos de caja operativos reportados en estados financieros de bancos suelen verse distorsionados por partidas de capital circulante e intermediación financiera, requiriendo análisis específicos de capital regulatorio como CET1, el cual no está detallado en los campos brutos provistos).
-
----
-
-### Tabla Resumen Clave
-
-| Categoría | Métrica / Indicador | Valor Actual / Dato | Interpretación |
-| :--- | :--- | :--- | :--- |
-| **Precio y Técnica** | Precio de Cierre (`UNI.MC`) | 3,448 EUR | Cotiza por encima de SMA20, SMA50 y SMA200 (tendencia alcista). |
-| **Momentum** | RSI (14) | 61,82 | Zona neutral-alcista, sin sobrecompra crítica. |
-| **Tendencia** | MACD / MACD Signal | 0,034 / -0,0024 | Cruce alcista de corto plazo. |
-| **Valoración** | PER (Trailing / Forward) | 13,26x / 12,18x | Valuación razonable, aunque con PER relativo intermedio frente al sector (ratio 1,14). |
-| **Rentabilidad** | ROE y Margen Neto | 10,12% / 32,80% | Sólida rentabilidad sobre recursos propios y amplio margen neto. |
-| **Remuneración** | Dividend Yield | 5,51% | Atractivo flujo de rentabilidad por dividendo para el inversor a largo plazo. |
-| **Consenso** | Precio Objetivo Medio | 3,252 EUR | Ligeramente por debajo de la cotización actual (consenso upside de -5,68%). |
+FINAL TRANSACTION PROPOSAL: Mantener posiciones actuales debido a la estabilidad técnica y la rentabilidad por dividendo, evitando nuevas compras hasta que el precio se alinee con las expectativas del consenso de analistas o se observe una ruptura consolidada sobre la resistencia de los 3,50 €.

@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La acción se sitúa en un punto de indecisión técnica crítica, cotizando justo debajo de su media móvil de 200 sesiones en 26,97. Aunque el momentum es positivo con un RSI en 62,25, el elevado apalancamiento (7,96x Net Debt/EBITDA) en un entorno de tipos de interés persistentes limita el potencial alcista a corto plazo. Es prudente mantener la posición actual y esperar una ruptura clara de la resistencia técnica antes de añadir exposición.
+**Reasoning**: La estructura financiera de CLNX.MC, con un ratio deuda neta/EBITDA de 7,96x y un beneficio neto negativo, mantiene el valor en una situación de alta vulnerabilidad ante el entorno persistente de tipos de interés altos en la Eurozona. Aunque los activos de infraestructura son de calidad y poseen un potencial de revalorización teórico según el consenso, la falta de una trayectoria clara de desapalancamiento técnico sugiere que es prematuro incrementar posiciones cerca de la resistencia clave de la SMA de 200 sesiones en 26,96 EUR.
 
-**Entry Price**: 27.5
+**Entry Price**: not provided
 
-**Stop Loss**: 25.0
+**Stop Loss**: 23.5
 
-**Position Sizing**: 0.5x de la asignación estándar
+**Position Sizing**: Mantener exposición actual; no incrementar hasta observar una ruptura consolidada sobre 27,00 EUR y mejora en el flujo de caja operativo.
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

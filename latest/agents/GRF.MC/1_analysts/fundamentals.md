@@ -1,67 +1,78 @@
-**Reporte Fundamental Integral para Traders**
+**INFORME DE ANÁLISIS FUNDAMENTAL Y TÉCNICO**
 
-**Instrumento:** `GRF.MC` (Grifols, S.A.)  
-**Fecha del reporte:** 15 de noviembre de 2026  
-**Bolsa / Divisa:** MCE (Madrid) / EUR  
-**Sector / Industria:** Healthcare / Drug Manufacturers - General  
+**Rating**: REVIEW  
+**FINAL TRANSACTION PROPOSAL**: HOLD (Análisis estrictamente hipotético; no se han ejecutado ni se ejecutarán operaciones).
 
 ---
 
-### 1. Perfil de la Compañía y Contexto de Negocio
-Grifols, S.A. (`GRF.MC`) es una compañía multinacional farmacéutica y del sector salud con sede en Barcelona, España, especializada en la investigación, desarrollo, producción y comercialización de medicamentos derivados del plasma sanguíneo (terapias de proteínas plasmáticas), así como de tecnologías y dispositivos para medicina transfusional y diagnóstico clínico.
+### 1. Resumen Ejecutivo y Perfil de la Compañía
+El presente informe analiza la situación fundamental y técnica de **Grifols, S.A. (`GRF.MC`)**, compañía multinacional española del sector farmacéutico y biotecnológico (clasificada bajo *Healthcare / Drug Manufacturers - General*), cotizada en la Bolsa de Madrid (`MCE`) y componente del selectivo IBEX 35 (`^IBEX`). 
 
-En el contexto macroeconómico reciente de noviembre de 2026, la compañía opera en un entorno europeo marcado por presiones inflacionarias persistentes en la Eurozona (con tasas de inflación rondando el 4%) y tipos de interés reales restrictivos. No obstante, `GRF.MC` ha demostrado un sólido dinamismo operativo, impulsado primordialmente por el segmento de Biopharma, lo que le ha permitido destacar positivamente dentro del selectivo español ^IBEX.
-
----
-
-### 2. Análisis Financiero Reciente (Estados Financieros)
-Los datos financieros extraídos de los estados contables anuales muestran la siguiente evolución (cifras en EUR):
-
-*   **Cuenta de Resultados (Ingresos y Rentabilidad):**
-    *   **Ingresos Totales:** 6.592 millones (2023) $\rightarrow$ 7.212 millones (2024) $\rightarrow$ 7.524 millones (2025). Refleja una trayectoria de crecimiento sostenido de los ingresos (crecimiento interanual de ingresos del 9,4%).
-    *   **EBITDA:** 1.168 millones (2023) $\rightarrow$ 1.484 millones (2024) $\rightarrow$ 1.641 millones (2025) (el último dato consolidado del snapshot sitúa el EBITDA de los últimos doce meses en 1.736 millones).
-    *   **Net Income (Beneficio Neto):** 42 millones (2023) $\rightarrow$ 157 millones (2024) $\rightarrow$ 402 millones (2025). El beneficio neto muestra una clara y fuerte recuperación operativa tras años anteriores lastrados por costes de estructura y apalancamiento.
-
-*   **Balance de Situación:**
-    *   **Activos Totales:** 20.992 millones (2023) $\rightarrow$ 21.405 millones (2024) $\rightarrow$ 19.712 millones (2025).
-    *   **Deuda Total:** 10.973 millones (2023) $\rightarrow$ 10.113 millones (2024) $\rightarrow$ 9.566 millones (2025) (la deuda total actual registrada se sitúa en 9.240 millones de EUR, frente a un efectivo de 486 millones).
-    *   **Patrimonio Neto (Stockholders Equity):** 5.368 millones (2023) $\rightarrow$ 5.883 millones (2024) $\rightarrow$ 5.271 millones (2025).
-
-*   **Flujo de Caja (Cash Flow):**
-    *   **Operating Cash Flow (Flujo de Caja Operativo):** 217 millones (2023) $\rightarrow$ 902 millones (2024) $\rightarrow$ 1.047 millones (2025) (actualmente en 1.116 millones).
-    *   **Free Cash Flow (Flujo de Caja Libre):** -93 millones (2023) $\rightarrow$ 530 millones (2024) $\rightarrow$ 624 millones (2025) (el último dato puntual de FCF es de aproximadamente 194,4 millones).
+A fecha de noviembre de 2026, la compañía muestra un comportamiento bursátil reciente positivo respaldado por mejoras en la operativa, aunque persiste el reto estructural derivado de su apalancamiento financiero.
 
 ---
 
-### 3. Métricas de Valoración y Fundamentales Clave
-*   **Capitalización de Mercado:** ~7.929 millones de EUR.
-*   **PER Trailing (Trailing P/E):** 16.41x.
-*   **PER Forward (Forward P/E):** 10.65x, lo que anticipa un incremento de beneficios por acción (EPS forward estimado en 1.093 EUR frente a los 0.71 EUR del EPS trailing).
-*   **Precio sobre Valor en Libros (Price to Book):** 1.37x (con un valor en libros por acción de 8,51 EUR).
-*   **EV/EBITDA:** 11.02x.
-*   **Ratio Deuda Neta / EBITDA:** 5.04x (un nivel de apalancamiento elevado que sigue exigiendo atención por parte de los inversores, a pesar de la senda descendente de la deuda total).
-*   **Rentabilidad por Dividendos (Dividend Yield):** 0,71% (con un dividendo por acción de 0,08 EUR y un payout ratio conservador del 11,57%).
+### 2. Análisis Financiero y Estados Financieros
+
+A partir de los datos financieros más recientes recopilados (cierre de ejercicio fiscal 2025 y comparativa histórica):
+
+* **Cuenta de Resultados (Ingresos y Beneficios):**
+  * **Ingresos Totales (2025):** 7.524 millones de euros, mostrando un crecimiento constante frente a los 7.212 millones de 2024 y los 6.592 millones de 2023. El crecimiento de ingresos anualizado se sitúa en torno al 9,4%.
+  * **EBITDA:** Registró 1.641 millones de euros al cierre de 2025 (superando los 1.484 millones de 2024 y los 1.168 millones de 2023). El EBITDA consolidado a nivel de métricas recientes se sitúa en 1.736 millones de euros.
+  * **Beneficio Neto:** 402 millones de euros en 2025, experimentando una notable recuperación frente a los 157 millones de 2024 y los 42 millones de 2023. El beneficio por acción (EPS) histórico se sitúa en 0,71€, con estimaciones *forward* de 1,09€.
+
+* **Balance de Situación:**
+  * **Activos Totales:** 19.712 millones de euros (2025), ajustándose desde los 21.405 millones de 2024.
+  * **Patrimonio Neto (Stockholders Equity):** 5.271 millones de euros en 2025 (5.883 millones en 2024).
+  * **Deuda Total:** 9.240 millones de euros (con pasivos financieros totales reportados en balance de 9.566 millones de euros para 2025, mejorando ligeramente desde los 10.113 millones de 2024 y 10.972 millones de 2023).
+  * **Efectivo y Equivalentes:** 486 millones de euros.
+  * **Ratio Deuda Neta / EBITDA:** Se sitúa en **5,04x**, un nivel de apalancamiento elevado que sigue siendo un punto crítico de seguimiento para el mercado y las agencias de calificación crediticia.
+
+* **Flujo de Caja (*Cash Flow*):**
+  * **Flujo de Caja Operativo:** 1.047 millones de euros en 2025 (902 millones en 2024 y 217 millones en 2023), demostrando una fuerte capacidad de generación de caja operativa recurrente.
+  * **CapEx (Inversiones de Capital):** -423 millones de euros en 2025.
+  * **Flujo de Caja Libre (FCF):** 624 millones de euros en 2025 (530 millones en 2024 y negativo en -93 millones en 2023), evidenciando un saneamiento progresivo de la caja libre.
+
+---
+
+### 3. Valoración y Métricas de Mercado
+
+* **Capitalización Bursátil:** 7.898 millones de euros (con un precio por acción de 11,60 EUR a fecha de 16 de noviembre de 2026).
+* **Múltiplos de Valoración:**
+  * **PER (Trailing PE):** 16,34x.
+  * **PER Estimado (Forward PE):** 10,61x (reflejando la expectativa de crecimiento de beneficios).
+  * **Precio / Valor en Libros (P/B):** 1,36x.
+  * **EV / EBITDA:** 11,02x.
+* **Dividendos:**
+  * Dividendo por acción (Rate): 0,08 EUR, con una **rentabilidad por dividendo (*dividend yield*)** aproximada del **0,69%** y un *payout ratio* conservador del 11,57%.
+* **Consenso de Analistas:**
+  * Precio objetivo medio (*Target Mean Price*): **15,25 EUR** (con un rango que va desde un mínimo de 9,00 EUR hasta un máximo de 23,70 EUR basado en 11 opiniones de analistas).
+  * Potencial alcista estimado de consenso (*Consensus Upside*): **+31,45%**.
 
 ---
 
 ### 4. Análisis Técnico y Dinámica de Mercado Reciente
-*   **Precio de Cierre (13 de noviembre de 2026):** 11,65 EUR.
-*   **Indicadores de Momento:**
-    *   **RSI (14):** 80,47, situándose en zona de clara sobrecompra técnica a corto plazo, lo que sugiere prudencia ante posibles correcciones técnicas o consolidaciones de beneficios.
-    *   **MACD:** 0,42 (por encima de su línea de señal en 0,37), confirmando la tendencia alcista vigente.
-    *   **Medias Móviles:** Cotiza holgadamente por encima de su SMA20 (10,89 EUR), SMA50 (10,20 EUR) y SMA200 (9,68 EUR), lo que corrobora un sesgo alcista sostenido en el medio y largo plazo.
-*   **Rendimientos:** Retorno a 21 sesiones de +15,46% y a 63 sesiones de +19,41%, superando significativamente al índice de referencia (^IBEX).
+
+* **Precio Actual:** 11,60 EUR (`GRF.MC`).
+* **Indicadores Técnicos:**
+  * **RSI (14):** 77,93, lo que indica condiciones de sobrecompra a corto plazo, sugiriendo cautela ante posibles correcciones técnicas puntuales.
+  * **MACD:** 0,418 (por encima de su línea de señal en 0,378), confirmando un impulso alcista vigente.
+  * **Medias Móviles:** Cotiza por encima de sus medias clave (SMA20: 10,97 EUR; SMA50: 10,23 EUR; SMA200: 9,68 EUR), validando una tendencia alcista tanto a corto como a medio y largo plazo.
+  * **Rentabilidades Recientes:** +13,99% a 21 sesiones y +15,12% a 63 sesiones.
 
 ---
 
-### 5. Consenso de Analistas y Noticias Recientes
-*   **Precio Objetivo Consenso:** Media de 15,25 EUR (con un rango que va desde un objetivo bajo de 9,00 EUR hasta un objetivo alto de 23,70 EUR, basado en las opiniones de 11 analistas). 
-*   **Upside Consenso:** +30,94% respecto al precio actual de 11,65 EUR.
-*   **Eventos y Noticias Destacadas (Noviembre de 2026):**
-    *   Los resultados presentados hasta septiembre reflejaron un beneficio neto de 390 millones de euros (+28,4%), impulsados con fuerza por el negocio de Biopharma, situando a `GRF.MC` junto con Rovi en la vanguardia de los ascensos del Ibex 35.
-    *   Técnicamente, la acción ha perforado resistencias clave en las últimas sesiones de noviembre de 2026, atrayendo el interés comprador en los mercados españoles (fuentes: *Bolsamania*, *Estrategias de Inversión*, *MarketScreener España*).
+### 5. Noticias y Contexto Reciente (Noviembre de 2026)
+
+* **Noticias Corporativas y Movimientos Institucionales:**
+  * A principios de noviembre de 2026 (11-12 de noviembre), medios especializados (*CapitalMadrid*, *Bolsamania*, *MarketScreener*) destacaron que **Morgan Stanley reforzó su posición en Grifols alcanzando el 7%** del capital social, lo que refleja un respaldo institucional relevante.
+  * El valor ha mostrado fortaleza bursátil liderando en varias sesiones del mes al Ibex 35 y perforando resistencias técnicas clave, situándose por encima de la cota de los 11,60 EUR.
+* **Contexto Macroeconómico:**
+  * El entorno europeo transcurre en un escenario de tipos de interés e inflación elevados en la eurozona (con la inflación rondando el 4%), lo que mantiene la presión sobre los costos financieros de empresas con elevado endeudamiento, aspecto crítico para `GRF.MC` debido a su ratio de deuda neta sobre EBITDA superior a 5x.
 
 ---
 
-### 6. Datos Faltantes y Advertencias
-*   *Datos faltantes:* No se dispone en este snapshot del desglose pormenorizado de transacciones de insiders (insider transactions) para las últimas semanas, ni de estimaciones detalladas del valor intrínseco mediante modelos de
+### 6. Evidencia Fáctica, Datos Faltantes y Asuntos a Vigilar
+
+* **Evidencia Cuidada:** Los datos financieros proceden directamente de los estados de 2023-2025 y cotizaciones a 16 de noviembre de 2026. 
+* **Datos Faltantes:** No se dispone en el dataset de una comparativa sectorial automatizada de valoración detallada (*Comparación sectorial no disponible* en

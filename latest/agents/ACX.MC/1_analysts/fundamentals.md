@@ -1,33 +1,43 @@
-### Informe de Análisis Fundamental: Acerinox, S.A. (`ACX.MC`)
+### Informe de Análisis Fundamental: Acerinox, S.A. (ACX.MC)
 
-**Fecha del informe:** 15 de noviembre de 2026
+**Fecha del informe:** 16 de noviembre de 2026
+**Instrumento:** ACX.MC (Acerinox, S.A.)
+**Sector:** Materiales Básicos / Acero
 
-#### 1. Perfil y Situación de Mercado
-Acerinox, S.A. (`ACX.MC`), clasificada dentro del sector de Materiales Básicos (Industria del Acero), cotiza en la Bolsa de Madrid. Al cierre del 13 de noviembre de 2026, la acción se situó en **15,80 EUR**. La empresa presenta una capitalización de mercado de aproximadamente 3.940 millones de EUR.
+#### 1. Perfil y Situación Actual
+Acerinox es una compañía siderúrgica global con sede en Madrid, España. Actualmente, su cotización de 15,60 EUR refleja una presión a la baja, con un rendimiento negativo del 7,8% en el último mes y una caída del 10,8% en el último trimestre. A pesar de esto, mantiene un rendimiento positivo a 252 días del 41,03%. El entorno macroeconómico europeo actual es desafiante, marcado por una inflación persistente en torno al 4% (según datos del 13 de noviembre) y expectativas de tipos de interés elevados, lo que impacta los costos operativos y la demanda en el sector industrial.
 
-#### 2. Análisis Financiero y Desempeño
-*   **Resultados Recientes:** Los datos financieros muestran una volatilidad significativa. En 2025, la compañía reportó ingresos de 5.780 millones de EUR, pero sufrió una pérdida neta de 40 millones de EUR, contrastando con los beneficios netos positivos de años anteriores (225 millones en 2024 y 228 millones en 2023). El EBITDA también ha mostrado una tendencia a la baja, pasando de 627 millones en 2023 a 378 millones en 2025.
-*   **Valoración:** La relación Precio/Beneficio (P/E) ajustada de 29,8x sugiere una valoración elevada considerando el beneficio actual, aunque el P/E forward (estimado) es más moderado, de 10,2x, lo que implica que el consenso de analistas espera una recuperación en las ganancias por acción (EPS) hacia 1,54 EUR.
-*   **Balance y Liquidez:** El ratio de deuda neta/EBITDA se sitúa en 3,15x, lo que indica un apalancamiento moderadamente alto dentro del sector industrial. El flujo de caja libre (Free Cash Flow) fue negativo en 2025 (-155 millones de EUR), afectado por inversiones de capital (Capex) de 309 millones de EUR, lo que refleja una fase de reinversión intensiva.
+#### 2. Análisis Financiero
+*   **Resultados Recientes:** Los estados financieros de 2025 revelan una dificultad significativa, con un ingreso total de 5.780 millones de EUR y una pérdida neta de 40 millones de EUR, contrastando con las ganancias de los años 2024 y 2023. La erosión del margen operativo es evidente.
+*   **Valoración:** La compañía presenta una relación **Price-to-Book (P/B) de 1,74**, lo cual es moderado. El **Forward PE de 10,09** sugiere que los analistas anticipan una recuperación en las ganancias por acción (EPS), con un EPS esperado de 1,54 EUR frente a los 0,53 EUR del último año.
+*   **Solvencia y Liquidez:** La deuda total asciende a 2.438 millones de EUR con una relación Deuda Neta/EBITDA de 3,15x, lo que indica un apalancamiento elevado que debe monitorearse de cerca, especialmente en un entorno de tipos de interés altos.
+*   **Dividendos:** Acerinox mantiene una política de dividendos con una rentabilidad (dividend yield) del 3,92%. Sin embargo, el *payout ratio* de 1,44 revela que el pago de dividendos supera actualmente el beneficio neto, lo cual es insostenible a largo plazo si no se revierte la tendencia de rentabilidad.
 
-#### 3. Perspectiva Macro y Riesgos
-El entorno macroeconómico es desafiante. Las noticias del 13 de noviembre de 2026 señalan una inflación en la zona euro estancada en el 4%, lo que limita la capacidad de los bancos centrales para flexibilizar las políticas monetarias. Este entorno de tipos reales negativos y presión inflacionaria afecta los costes operativos y el consumo industrial de acero.
+#### 3. Insights para Operadores
+*   **Argumentos a favor:**
+    *   Existe un consenso de analistas con un precio objetivo promedio de 19,38 EUR, lo que implica una **potencial revalorización del 24,26%**.
+    *   La valoración *Forward PE* (10,09) parece atractiva si la empresa logra alcanzar las proyecciones de beneficios de 2027.
+*   **Argumentos en contra:**
+    *   La tendencia técnica es bajista: el precio cotiza por debajo de la media móvil simple de 50 días (16,79 EUR).
+    *   El flujo de caja libre (FCF) fue negativo (-155,26 millones de EUR) en 2025, lo que presiona la capacidad de la empresa para financiar sus operaciones y dividendos internamente.
+    *   El entorno inflacionario en la Eurozona complica los márgenes industriales.
 
-#### 4. Insight para Traders
-*   **Puntos a favor:** El dividendo es un pilar importante para los inversores, con una rentabilidad del 3,92%. Existe una oportunidad teórica de apreciación, ya que el precio actual está un 22,6% por debajo del precio objetivo medio de los analistas (19,38 EUR).
-*   **Riesgos:** La debilidad técnica es evidente (el RSI está en 43, lo que indica falta de impulso alcista) y el MACD muestra una tendencia bajista. La rentabilidad sobre fondos propios (ROE) es baja (4,5%), lo que limita la creación de valor para el accionista en el corto plazo.
-*   **Datos faltantes:** No se dispone de detalles sobre la ejecución específica de los planes de descarbonización o el impacto detallado de los aranceles internacionales al acero, factores clave para el sector.
+#### 4. Datos Faltantes
+*   No se dispone de datos detallados sobre la cartera de pedidos actual o el impacto específico de la demanda en mercados clave (EE. UU. vs Europa).
+*   No hay acceso a actas de juntas de accionistas recientes ni detalles de posibles desinversiones o adquisiciones estratégicas recientes.
 
-**Rating**: HOLD
+---
 
-| Indicador | Valor |
+| Métrica | Valor |
 | :--- | :--- |
-| Precio Actual | 15,80 EUR |
-| Capitalización de Mercado | 3.937 M EUR |
-| Forward P/E | 10,22 |
+| Precio Actual | 15,60 EUR |
+| Capitalización de Mercado | 3.886 M EUR |
+| Forward PE | 10,09 |
 | Dividend Yield | 3,92% |
-| Precio Objetivo Medio | 19,38 EUR |
-| Upside Consenso | 22,69% |
-| Deuda Neta / EBITDA | 3,15x |
+| Precio Objetivo Medio (Consenso) | 19,38 EUR |
+| Ratio Deuda Neta/EBITDA | 3,15x |
+| RSI (14 días) | 40,84 |
 
-FINAL TRANSACTION PROPOSAL: Neutral stance. Monitor price action near support levels (SMA200 at 15,35 EUR). Given the negative free cash flow in the latest reporting period and high payout ratio, caution is advised regarding dividend sustainability if earnings recovery does not materialize as forecasted by the forward P/E.
+**Rating**: REVIEW
+
+FINAL TRANSACTION PROPOSAL: Given the current negative FCF, payout ratio exceeding 100%, and bearish momentum (price below SMA50), a "Hold" or "Wait and See" approach is recommended until there is a clear stabilization in net income or a reduction in the net debt/EBITDA ratio.

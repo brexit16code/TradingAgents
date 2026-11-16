@@ -1,33 +1,33 @@
-El análisis de **ArcelorMittal (MTS.MC)**, con fecha de corte al 15 de noviembre de 2026, refleja una situación técnica de consolidación tras un periodo de volatilidad significativa. A continuación, presento el informe detallado basado en la información proporcionada.
+El análisis de **MTS.MC** (ArcelorMittal S.A.) con fecha de corte al 16 de noviembre de 2026 muestra una coyuntura técnica y fundamental compleja, marcada por una rentabilidad anual sólida (+62,49%) pero con señales de estancamiento en el corto plazo.
 
 ### Análisis Técnico
-El precio de cierre de **MTS.MC** es de **57,02 EUR** (datos al 13/11/2026). La acción muestra una estructura técnica compleja:
-1.  **Tendencia:** Cotiza ligeramente por debajo de su media móvil de 50 sesiones (SMA50: 58,54 EUR) pero por encima de la media de 200 sesiones (SMA200: 55,67 EUR), lo que indica una fase de indecisión a medio plazo, aunque mantiene una estructura de largo plazo constructiva.
-2.  **Momentum:** El indicador RSI(14) en **51,52** refleja una zona neutral, sin sobrecompra ni sobreventa. El MACD se sitúa en 0,02, cruzando por encima de su línea de señal (-0,66), lo que sugiere una leve mejora en el momentum a corto plazo, a pesar del retroceso reciente del 3,03%.
-3.  **Volatilidad:** La volatilidad anualizada reportada es del **32,99%**, lo que implica un riesgo elevado y requiere una gestión de capital estricta.
+ArcelorMittal cotiza a **56,06 EUR**, situándose en una zona neutral respecto a sus medias móviles clave:
+*   **Tendencia:** El precio se encuentra por encima de la media de 20 días (55,37 EUR) y la media de 200 días (55,71 EUR), lo que sugiere una estructura de soporte subyacente. Sin embargo, está por debajo de la media de 50 días (58,31 EUR), reflejando una presión bajista en el trimestre reciente.
+*   **Momentum:** El **RSI14** se sitúa en 48,16, una zona de indecisión que no muestra condiciones claras de sobrecompra ni sobreventa. El **MACD** (-0,0208) y su línea de señal (-0,5319) indican una convergencia, lo que podría sugerir un intento de giro alcista si el precio logra consolidar por encima de los 56 EUR.
+*   **Volatilidad:** Con una volatilidad del 33,09% y un *drawdown* del 16,81%, el valor presenta una oscilación moderadamente alta, típica del sector de materiales básicos.
 
-### Fundamentos y Contexto Macroeconómico
-*   **Valuación:** ArcelorMittal presenta un *Forward PE* (ratio precio-beneficio proyectado) de **10,31x**, lo cual es moderado para el sector, contrastando con un *Trailing PE* mucho más elevado (48,32x) derivado de resultados pasados. El *Price-to-Book* de **0,89** sugiere que la acción cotiza con un descuento respecto a su valor contable (63,98 EUR).
-*   **Deuda:** El ratio *net_debt/ebitda* se sitúa en **2,08x**, un nivel manejable para una empresa del sector básico.
-*   **Entorno:** Los titulares de prensa resaltan una preocupación persistente por la inflación en la zona euro (que ronda el 4%), lo que mantiene los tipos de interés en foco. Esto influye negativamente en sectores cíclicos como el acero, dado el impacto en los costes de financiación y la demanda industrial.
+### Análisis Fundamental
+*   **Valoración:** La compañía cotiza con un **forward PE de 10,13**, lo que sugiere que el mercado espera una recuperación en las ganancias por acción (EPS forward de 5,53 EUR) comparado con el trailing EPS de 1,18 EUR. El ratio **Precio/Valor Contable de 0,87** indica que la acción podría estar cotizando con descuento respecto a sus activos netos.
+*   **Salud Financiera:** La relación **Net Debt/EBITDA de 2,08** se mantiene dentro de niveles manejables para una siderúrgica, pero el flujo de caja libre es negativo (-802,87 millones EUR), lo cual es una señal de alerta sobre la capacidad de generar efectivo tras los gastos de capital (CapEx).
+*   **Consenso:** El precio objetivo medio es de **59,10 EUR**, lo que representa un **upside potencial del 5,42%**. Existe una divergencia relevante, con un rango que va desde los 52,70 EUR hasta los 65,50 EUR.
 
-### Consideraciones Clave
-*   **Soportes y Resistencias:** El precio se encuentra cerca de su media móvil de 200 días (55,67 EUR), que actúa como un soporte estructural crítico. La resistencia inmediata se sitúa en la SMA50 (58,54 EUR).
-*   **Dividendos:** Con un rendimiento por dividendo del **0,95%**, la propuesta de valor para el accionista es modesta en comparación con otros sectores, orientando al inversor principalmente hacia la revalorización de capital.
-*   **Riesgos:** La empresa presenta un flujo de caja libre negativo (-802,88 millones de EUR), lo cual es una señal de alerta operativa importante que debe ser monitoreada en los próximos trimestres para confirmar la sostenibilidad del dividendo y el plan de inversión.
+### Contexto de Mercado
+El entorno macroeconómico en la Eurozona es desafiante. Las noticias recientes destacan una inflación persistente (cercana al 4%) que limita el margen de maniobra del BCE para bajar tipos, lo cual impacta negativamente en sectores intensivos en capital como el acero. El ahorro en la zona euro pierde poder adquisitivo, lo que presiona a la baja la demanda industrial agregada.
 
-### Resumen de indicadores clave
+### Conclusiones y Consideraciones
+El perfil técnico es de "espera" (*wait-and-see*). El soporte de 55,71 EUR (SMA 200) será crítico para evitar una caída mayor hacia los niveles del target bajo (52,70 EUR). La falta de una tendencia direccional clara tras el reporte de resultados sugiere cautela, especialmente dado el FCF negativo registrado.
+
+**Rating**: HOLD
+
 | Indicador | Valor / Estado | Interpretación |
 | :--- | :--- | :--- |
-| Precio Actual | 57,02 EUR | Neutral (Zona de soporte) |
-| RSI (14) | 51,52 | Neutral |
-| SMA 200 | 55,67 EUR | Soporte de largo plazo |
-| SMA 50 | 58,54 EUR | Resistencia inmediata |
-| Net Debt / EBITDA | 2,08x | Apalancamiento estable |
-| Forward PE | 10,31x | Valuación atractiva prospectiva |
+| Precio Actual | 56,06 EUR | Zona de soporte técnico clave |
+| RSI (14) | 48,16 | Neutral |
+| SMA 200 | 55,71 EUR | Soporte estructural de largo plazo |
+| Forward PE | 10,13 | Atractivo respecto al sector |
+| Dividend Yield | 0,96% | Bajo, baja prioridad para inversores por rentabilidad |
+| Upside Consenso | 5,42% | Potencial alcista limitado |
 
-**Rating**: Neutral
+*Nota: La información proviene de los datos proporcionados con fecha 2026-11-16. Falta información detallada sobre el crecimiento de las ganancias (earningsGrowth) y desgloses sectoriales comparativos más profundos.*
 
-FINAL TRANSACTION PROPOSAL: Mantener (Hold) a la espera de que el precio confirme soporte sobre la media de 200 sesiones (55,67 EUR) o rompa con volumen la resistencia de la media de 50 sesiones (58,54 EUR). La debilidad en el flujo de caja libre sugiere cautela antes de nuevas compras.
-
-*Nota: La información proviene de Yahoo Finance (consultado el 15/11/2026). No se dispone de datos sectoriales comparativos detallados, por lo que el análisis de valoración es relativo a sus propias métricas históricas.*
+FINAL TRANSACTION PROPOSAL: None (Analysis only)

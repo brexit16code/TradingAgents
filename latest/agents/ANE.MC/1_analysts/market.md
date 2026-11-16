@@ -1,78 +1,54 @@
 **Rating**: REVIEW
 
-# Informe de Análisis Técnico y Fundamental: Corporación Acciona Energías Renovables, S.A. (`ANE.MC`)
-
-Fecha de análisis: 15 de noviembre de 2026  
-Cotización de referencia: 20,26 EUR (precio de cierre a 13 de noviembre de 2026)  
-Mercado: MCE (Bolsas y Mercados Españoles)  
-Moneda: EUR  
+**FINAL TRANSACTION PROPOSAL**: HOLD
 
 ---
 
-## 1. Contexto de Mercado y Eventos Recientes
+### Informe de Análisis Financiero y Técnico: Corporación Acciona Energías Renovables, S.A. (`ANE.MC`)
 
-El valor `ANE.MC` atraviesa una fase de debilidad bursátil acentuada. Recientemente, los títulos de la compañía han sufrido descensos notables (caídas superiores al 7% en sesiones recientes, situando la rentabilidad a 21 sesiones en -5,24%). Según las noticias del sector recogidas el 13 y 15 de noviembre de 2026 (*Merca2.es*, *Investing.com*), este desplome está estrechamente vinculado a la frustración de sus planes de desinversión, lo que ha generado incertidumbre sobre su hoja de ruta estratégica y financiera en un contexto macroeconómico europeo marcado por una inflación en torno al 4% y tipos de interés reales restrictivos (según fuentes de *Vozpópuli* y *El Economista* de mediados de noviembre de 2026).
+#### 1. Contexto de Mercado y Situación Fundamental
+Corporación Acciona Energías Renovables, S.A. (`ANE.MC`), cotizada en el Mercado Continuo Español (MCE) dentro del sector de Utilities y subsector de energías renovables, afronta un entorno complejo condicionado por la evolución de los tipos de interés en la Eurozona y las recientes noticias corporativas. Según los datos fundamentales y la instantánea de mercado verificada a 16 de noviembre de 2026, la acción cotiza a **20,32 EUR**, con una capitalización bursátil de aproximadamente **6.594,8 millones de euros**.
 
----
+En el plano fundamental, la compañía presenta una ratio *Trailing P/E* de **35,65x** y un *Forward P/E* de **29,50x**, lo que refleja una valoración exigente en comparación con la mediana del sector en el índice comparativo. Su ratio *Enterprise Value to EBITDA* (EV/EBITDA) se sitúa en **12,20x**, con
+ un endeudamiento neto sobre EBITDA (*net_debt_ebitda*) elevado, de **5,06x** (deuda total de 5.410,9 millones de euros frente a un EBITDA de 971 millones de euros). Cabe destacar que los flujos de caja libres reportados en los últimos ejercicios son negativos (-408,7 millones de euros de FCF más reciente), presionados por un elevado nivel de inversiones de capital (*CapEx* de 979 millones de euros en 2025 tras los 1.630 millones de euros de 2024).
 
-## 2. Análisis Técnico
+Recientemente, el valor se ha visto castigado en bolsa. Diversos medios económicos han reportado caídas pronunciadas (como el desplome del 7,26% registrado en sesiones recientes) motivadas por la frustración de planes de desinversión clave y demoras en acuerdos estratégicos, como el pacto con MIP por activos renovables en México (según publicaciones de *Merca2.es* y *Petróleo y Energía* fechadas entre el 14 y el 15 de noviembre de 2026). Asimismo, el contexto macroeconómico europeo muestra presiones inflacionistas persistentes y tipos reales elevados, lo que penaliza a los sectores intensivos en capital y deuda como el de las energías renovables.
 
-El comportamiento de `ANE.MC` refleja una tendencia bajista de medio y largo plazo, operando por debajo de sus principales medias móviles de referencia:
-* **Precio de cierre**: 20,26 EUR (con fecha de precio 2026-11-13).
-* **SMA 20**: 21,58 EUR.
-* **SMA 50**: 21,67 EUR.
-* **SMA 200**: 21,84 EUR.
+#### 2. Análisis Técnico y de Indicadores
+Desde una perspectiva técnica, `ANE.MC` muestra una tendencia bajista a medio y largo plazo. El precio se encuentra por debajo de sus principales medias móviles simples:
+- **SMA 20**: 21,51 EUR
+- **SMA 50**: 21,65 EUR
+- **SMA 200**: 21,84 EUR
 
-Dado que la cotización se sitúa por debajo de la media de 200 sesiones (`close_200_sma`), el sesgo estructural a largo plazo permanece débil. 
+El RSI de 14 períodos se sitúa en **38,93**, lo que indica una debilidad notable en la presión compradora, rozando niveles de sobreventa pero sin haber alcanzado aún un suelo claro o una divergencia alcista consolidada. El indicador MACD (`-0,1357`) y su línea de señal (`-0,0095`) reflejan un sesgo negativo. La volatilidad anualizada se mantiene moderada-alta en el **34,71%**, y el valor registra un *drawdown* del **-16,61%** respecto a sus referencias recientes, acumulando caídas del **-7,88%** en los últimos 21 días.
 
-En cuanto a los osciladores de impulso y volatilidad:
-* **RSI (14)**: Se sitúa en **38,30**, lo que denota un claro predominio de la presión vendedora reciente y proximidad a zonas de sobreventa, aunque sin alcanzar todavía niveles críticos extremos (<30).
-* **MACD**: Muestra un valor de -0,039 con una línea de señal de 0,022 (`macds`), confirmando un cruce bajista y un momento negativo (`macd` por debajo de su señal).
-* **Volatilidad (anualizada o de periodo)**: Registra un 34,73%, reflejando un incremento del riesgo y nerviosismo en el valor tras los acontecimientos recientes.
-* **Drawdown**: Se encuentra en un **-16,86%** respecto a referencias previas, distanciándose de sus máximos recientes.
+#### 3. Selección de Indicadores Clave
+De acuerdo con la estrategia de selección de indicadores complementarios y no redundantes, se destacan los siguientes elementos técnicos que operan sobre el activo:
+1. `close_200_sma`: Benchmark a largo plazo para confirmar la estructura de tendencia general bajista en la que cotiza el valor.
+2. `close_50_sma`: Media móvil de medio plazo que actúa actualmente como resistencia dinámica superior al precio actual de 20,32 EUR.
+3. `close_10_ema`: Mide los cambios rápidos de impulso a corto plazo, útiles para capturar rebotes técnicos en momentos de alta volatilidad.
+4. `macd`: Evalúa la divergencia de medias exponenciales para detectar cambios de tendencia de fondo.
+5. `macds`: Suavizado del MACD empleado para filtrar falsos cruces en mercados laterales o bajistas.
+6. `rsi`: Indicador de fuerza relativa (en 38,93) que vigora la proximidad a zonas de sobreventa sin descartar caídas adicionales.
+7. `atr`: Mide el rango verdadero medio para el correcto dimensionamiento del riesgo y establecimiento de *stop-loss* ante la volatilidad del 34,7%.
+8. `boll_lb`: Banda inferior de Bollinger, clave para identificar potenciales puntos de soporte extremo y zonas de rebote técnico a corto plazo.
 
----
-
-## 3. Análisis Fundamental y Valoración
-
-Los datos fundamentales extraídos de los estados financieros y estimaciones de consenso presentan luces y sombras:
-* **Capitalización de mercado**: ~6.575 millones de EUR.
-* **Valor en libros por acción**: 19,10 EUR, lo que sitúa el ratio Precio/Valor en Libros (`priceToBook`) en un moderado **1,06x**, indicando que la acción cotiza prácticamente a su valor contable.
-* **PER (Trailing)**: 35,54x, y **PER Forward**: 29,41x. Al compararlo con el sector de Utilities en España (mediana de PER forward de peers de aproximadamente 16,98x según el ratio de valoración sectorial), `ANE.MC` muestra un múltiplo superior (**ratio de 1,73x** frente a la mediana), lo que sugiere que el mercado venía descontando expectativas de crecimiento más ambiciosas que ahora se ven cuestionadas por la paralización de desinversiones.
-* **Deuda y Solvencia**: La compañía soporta una deuda total de 5.411 millones de EUR (con una deuda neta sobre EBITDA de aproximadamente **5,06x**, calculada con un EBITDA de 971 millones y caja de 495 millones), un nivel de apalancamiento elevado que requiere atención especial en un escenario de tipos de interés altos en la Eurozona.
-* **Flujos de Caja**: El flujo de caja libre (`freeCashflow`) se mantiene en terreno negativo (-408,7 millones de EUR en las métricas consolidadas recientes y -596 millones en el cierre de 2025), debido a un programa de inversiones (`Capital Expenditure`) intensivo en capital (-979 millones en 2025).
-* **Dividendos**: Ofrece una rentabilidad por dividendo (`dividendYield`) nominalmente alta en torno al **14,81%** (con un `dividendRate` de 0,03 y un payout ratio reportado en torno al 5,27%), aunque es preciso auditar la sostenibilidad de dicha retribución frente al flujo de caja libre negativo.
-
-### Consenso de Analistas
-El precio objetivo medio del consenso de analistas se sitúa en **23,27 EUR** (con un rango entre 17,00 EUR y 28,30 EUR basado en 19 opiniones), lo que otorga un potencial de revalorización teórico (*consensus upside*) del **14,88%** desde los 20,26 EUR actuales.
+#### 4. Evidencia y Datos Faltantes
+- **Datos verificados**: Precio de cierre de 20,32 EUR (16/11/2026); capitalización bursátil de 6.594,8M€; *Trailing PE* de 35,65; *Forward PE* de 29,50; *Net Debt / EBITDA* de 5,06x.
+- **Fuentes citadas**: Yahoo Finance (`ANE.MC`), Rankia, Merca2.es, Petróleo y Energía, Bankinter e Investing.com España.
+- **Datos faltantes**: No se dispone de la transcripción completa de la última conferencia de resultados con inversores ni del detalle desagregado de los términos contractuales de los procesos de desinversión paralizados en México.
 
 ---
 
-## 4. Evidencia Recopilada y Datos Faltantes
+### Resumen Estructurado (Tabla Clave)
 
-* **Fuentes consultadas**: Yahoo Finance (`ANE.MC`), noticias agregadas de Google News (Merca2.es, Investing.com, El Economista, Vozpópuli) con marcas temporales del 11 al 15 de noviembre de 2026.
-* **Datos faltantes**: No se dispone de la transcripción completa de la última conferencia de resultados ni del desglose detallado por geografías de los activos renovables en proceso de desinversión. Asimismo, falta información granular sobre el calendario exacto de refinanciación de la deuda a corto plazo.
-
----
-
-## 5. Conclusión y Recomendación
-
-La combinación de un soporte técnico deteriorado (cotizando por debajo de SMA20, SMA50 y SMA200), noticias corporativas adversas respecto a las desinversiones, múltiplos de valoración exigentes frente a peers (PER forward de ~29,4x) y un apalancamiento neto elevado (Debt/EBITDA > 5x) aconsejan prudencia. Aunque el potencial analítico hasta el precio objetivo de consenso (23,27 EUR) sugiere un margen de subida del ~14,88%, los riesgos operativos y de mercado a corto plazo invalidan una recomendación de compra incondicional en este momento.
-
-Por todo lo expuesto, se emite una calificación de **REVIEW**.
-
-FINAL TRANSACTION PROPOSAL: HOLD / REVIEW
-
----
-
-## Resumen de Indicadores Clave
-
-| Indicador / Métrica | Valor Actual / Referencia | Categoría / Implicación |
+| Concepto / Métrica | Valor / Dato Observado | Implicación Analítica |
 | :--- | :--- | :--- |
-| **Precio de Cierre (`ANE.MC`)** | 20,26 EUR (13/11/2026) | Cotización oficial de referencia |
-| **RSI (14)** | 38,30 | Momento débil / Proche a sobreventa |
-| **MACD / Señal** | -0,039 / 0,022 | Cruce bajista de momento a corto plazo |
-| **Media Móvil 200 sesiones** | 21,84 EUR | Tendencia bajista de largo plazo (`close_200_sma`) |
-| **Volatilidad** | 34,73% | Volatilidad moderada-alta |
-| **Drawdown** | -16,86% | Corrección significativa desde referencias previas |
-| **PER Forward
+| **Ticker y Mercado** | `ANE.MC` (MCE, España) | Corporación Acciona Energías Renovables, S.A. (Utilities / Renovables) |
+| **Precio de Cierre** | 20,32 EUR (16/11/2026) | Cotización bajo las principales medias móviles (SMA 20/50/200) |
+| **RSI (14)** | 38,93 | Zona de debilidad vendedora, próxima a sobreventa pero sin confirmar giro |
+| **Valoración (P/E)** | Trailing: 35.65x / Forward: 29.50x | Múltiplos elevados en comparación con la mediana sectorial (16.91x) |
+| **Endeudamiento** | Net Debt / EBITDA: 5.06x | Nivel de apalancamiento elevado en un contexto de tipos de interés altos |
+| **Catalizador Negativo** | Frustración de desinversiones | Demoras en acuerdos estratégicos (ej. México) y castigo bursátil reciente |
+| **Indicadores Seleccionados** | SMA 200, SMA 50, EMA 10, MACD, MACDS, RSI, ATR, Boll_lb | Conjunto diversificado para análisis de tendencia, impulso, volatilidad y soporte |
+| **Recomendación** | HOLD (Rating: REVIEW) | Prudencia ante la presión bajista técnica y los riesgos de ejecución en desinversiones |

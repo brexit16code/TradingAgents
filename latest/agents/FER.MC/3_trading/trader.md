@@ -1,11 +1,11 @@
-**Action**: Hold
+**Action**: Sell
 
-**Reasoning**: Ferrovial N.V. (FER.MC) cotiza a 55.62 EUR con un RSI en sobrecompra extrema (81.83) y múltiplos de valoración exigentes como un Forward P/E de 47.83x y un apalancamiento neto sobre EBITDA de 4.39x. Aunque los fundamentales y el flujo de caja operativo de 2.488 millones de EUR son sólidos, el precio actual se encuentra muy cerca del precio objetivo medio del consenso de 59.90 EUR, lo que limita el potencial alcista a corto plazo. Se recomienda mantener la posición actual y vigilar el soporte clave de la media móvil de 20 sesiones en 49.48 EUR.
+**Reasoning**: Ferrovial cotiza en niveles de sobrecompra extrema con un RSI de 83.49 y múltiplos de valoración muy elevados, como un PER adelantado de 48.58x y un apalancamiento neto sobre EBITDA de 4.39x. Dado que el potencial de revalorización según el consenso es limitado (6.01%) y existe un escaso margen de seguridad frente al precio actual de 56.50 EUR, el perfil de riesgo-recompensa justifica reducir exposición y asegurar beneficios.
 
 **Entry Price**: not provided
 
-**Stop Loss**: 49.48
+**Stop Loss**: 59.89
 
-**Position Sizing**: 5% of portfolio
+**Position Sizing**: Reducir entre un 25% y un 50% de la posición asignada
 
-FINAL TRANSACTION PROPOSAL: **HOLD**
+FINAL TRANSACTION PROPOSAL: **SELL**

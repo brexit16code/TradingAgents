@@ -1,47 +1,43 @@
-**Rating**: HOLD  
-FINAL TRANSACTION PROPOSAL: No trade executed (read-only research mandate).
+**Rating**: HOLD
 
----
+### Informe Macroeconómico y de Mercado para `AMS.MC` (Amadeus IT Group, S.A.)
 
-### Informe de Investigación y Macroeconomía para `AMS.MC` (Amadeus IT Group, S.A.)
+#### 1. Resumen Ejecutivo y Estado Actual de la Empresa
+* **Ticker:** `AMS.MC` (Amadeus IT Group, S.A., cotizada en Madrid, sector Tecnología / Servicios de Tecnologías de la Información, EUR).
+* **Precio actual:** 63,44 EUR (a fecha de 16 de noviembre de 2026).
+* **Valoración Fundamental y Técnica:** Amadeus muestra una sólida evolución bursátil reciente (rendimiento a 21 sesiones de +16,62% y a 509 sesiones previas con una recuperación notable, cotizando por encima de sus medias móviles de 20, 50 y 200 sesiones, con la SMA200 en 52,52 EUR). El RSI de 14 períodos se sitúa en 77,29, lo que indica un nivel de sobrecompra técnica a corto plazo. 
+* **Datos Financieros Clave:** 
+  * Capitalización bursátil: ~26.644 millones de EUR.
+  * Ingresos 2025: 6.517 millones de EUR (frente a 6.141,7 millones en 2024).
+  * Beneficio Neto 2025: 1..335,7 millones de EUR.
+  * PER TTM: ~20,40x; PER Forward estimado: ~16,25x.
+  * Ratio Deuda Neta / EBITDA: 1,03x (total deuda de 3.500 millones de EUR frente a un EBITDA de 2.508,8 millones de EUR).
+  * Rentabilidad por dividendo: ~2,43%.
+  * Precio objetivo medio de consenso: 71,04 EUR (potencial alcista de consenso del ~11,98%).
 
-#### 1. Contexto Macroeconómico Global y Sectorial (Noviembre de 2026)
-El entorno macroeconómico europeo actual de mediados de noviembre de 2026 se encuentra marcado por presiones inflacionarias persistentes y decisiones de política monetaria restrictivas. Según titulares recientes de la prensa financiera europea (como *El Economista* y *Negocios.com* del 13 de noviembre de 2026), la inflación en la eurozona se sitúa en torno al 4%, un nivel elevado que inhabilita cualquier expectativa de moderación rápida en las subidas de tipos de interés por parte del Banco Central Europeo (BCE). A su vez, los tipos reales negativos penalizan el ahorro en la región, mientras que la Reserva Federal (Fed) y los datos de inflación centran la atención de los mercados internacionales.
+#### 2. Contexto Macroeconómico Reciente (Europa y España)
+El análisis del entorno macroeconómico durante la semana de noviembre de 2026 revela presiones inflacionarias persistentes en la Eurozona y los mercados globales:
+* **Inflación y Tipos de Interés:** Las noticias de mitad de noviembre de 2026 destacan que la inflación en la zona euro ronda el 4%, lo que limita la capacidad del Banco Central Europeo para moderar alza de tipos o aplicar recortes rápidos ("La inflación de la zona euro en el 4% inhabilita moderar el alza de tipos", *El Economista*, 13-11-2026). Esto mantiene los tipos reales en terreno restrictivo y afecta al coste de financiación corporativa.
+* **Sentimiento del Inversor y Ahorro:** En España y la eurozona, los flujos de inversión de los hogares buscan refugio en activos seguros a corto plazo ante la persistencia de la inflación y las tensiones en los mercados de renta variable global ("La inversión de los hogares en letras acumula siete meses al alza...", *Radio Intereconomía*, 16-11-2026).
+* **Entorno Sectorial:** A pesar de las presiones macroeconómicas sobre la tecnología europea (con caídas puntuales en valores como Nokia e Infineon en semanas recientes por datos de inflación), Amadeus mantiene un sólido crecimiento operativo y generación de flujo de caja libre (Free Cash Flow de 1.386 millones de EUR al cierre de 2025).
 
-Para un proveedor tecnológico líder en el sector de los viajes como `AMS.MC` (Amadeus IT Group, S.A.), este contexto de tipos de interés altos e inflación del 4% en Europa influye de forma directa en los costes financieros, la confianza del consumidor en el sector turístico y los patrones de gasto corporativo en viajes de negocios.
+#### 3. Evidencia de Fuentes y Fechas
+* **Fuentes de Cita:** Datos financieros extraídos de Yahoo Finance (consultados el 16-11-2026 a través de la API de referencia).
+* **Titulares Macroeconómicos de Referencia:**
+  * *Radio Intereconomía* (16-11-2026): Inversión minorista en letras de deuda al alza.
+  * *El Economista* (13-11-2026): Inflación en la zona euro en el 4%.
+  * *Negocios.com* (13-11-2026): Impacto de la inflación en valores tecnológicos europeos.
 
-#### 2. Análisis Fundamental y Financiero de `AMS.MC`
-Con los datos financieros más recientes recopilados para `AMS.MC` (Amadeus IT Group, S.A., cotizada en el mercado MCE de Madrid dentro del sector de Tecnología / Servicios de Tecnologías de la Información):
+#### 4. Datos Faltantes y Limitaciones
+* No se dispone de la fuente directa de noticias específicas de `AMS.MC` en este bloque debido a un error HTTP en el conector de noticias de la compañía, aunque se cuenta con el balance financiero completo y los ratios de consenso actualizados.
+* No se suministró ninguna cartera hipotética ni mandato de asignación de activos.
 
-*   **Capitalización Bursátil:** ~26.110 millones de EUR.
-*   **Ingresos y Rentabilidad:** La compañía muestra un crecimiento constante de ingresos, alcanzando los 6.517 millones de EUR en el ejercicio cerrado a diciembre de 2025 (frente a 6.141 millones en 2024 y 5.441 millones en 2023). El beneficio neto de 2025 se situó en 1.335,7 millones de EUR, reflejando sólidas márgenes operativos (márgenes de beneficio del orden del 19,86%) y un Retorno sobre el Capital (ROE) elevado del 26,4%.
-*   **Valoración:** La acción cotiza a un PER histórico (Trailing PE) de ~19,99x y un PER adelantado (Forward PE) de ~15,99x, respaldado por un BPA (EPS) estimado a futuro de 3,89 EUR por acción. El ratio EV/EBITDA se sitúa en 11,44x.
-*   **Balance y Solvencia:** La deuda total asciende a 3.500 millones de EUR (con una deuda neta sobre EBITDA de aproximadamente 1,03x), lo que indica un apalancamiento moderado y manejable en un entorno de tipos elevados. La caja total se sitúa en 913 millones de EUR, y el flujo de caja libre (*free cash flow*) alcanzó los 1.106 millones de EUR (con datos de flujos de caja operativos de 2.211 millones).
-*   **Retribución al Accionista:** Ofrece una rentabilidad por dividendo (*dividend yield*) del 2,48%, con una tasa de pago (*payout ratio*) cercana al 49,5%.
+| Componente de Análisis | Métrica / Dato Actual (`AMS.MC`) | Comentario Analítico |
+| :--- | :--- | :--- |
+| **Precio de Cierre** | 63,44 EUR (16-11-2026) | Tendencia alcista a corto plazo con fuerte soporte por encima de la SMA200 (52,52 EUR). |
+| **RSI (14)** | 77,29 | Señal técnica de sobrecompra; sugiere prudencia ante posibles correcciones técnicas. |
+| **PER Forward** | 16,25x | Valoración atractiva en relación con el crecimiento estimado de beneficios (EPS forward de 3,90 EUR). |
+| **Deuda Neta / EBITDA** | 1,03x | Estructura de balance saludable y manejable. |
+| **Consenso de Analistas** | 71,04 EUR (Upside: ~12%) | El precio objetivo medio muestra espacio para apreciación adicional, aunque condicionado al entorno macro. |
 
-#### 3. Análisis Técnico y Comportamiento Bursátil
-*   **Precio de Cierre:** 62,16 EUR (a fecha de 13 de noviembre de 2026).
-*   **Tendencia y Medias Móviles:** La acción muestra un sesgo alcista a corto y medio plazo, cotizando por encima de su media móvil de 20 sesiones (58,58 EUR), de 50 sesiones (55,67 EUR) y de 200 sesiones (52,46 EUR). La rentabilidad a 21 sesiones es destacable (+15,75%).
-*   **Momentum:** El RSI de 14 períodos se sitúa en 73,83, lo que indica condiciones de sobrecompra técnica a corto plazo. El indicador MACD es positivo (1,98) y se mantiene por encima de su línea de señal (1,59).
-*   **Consenso de Analistas:** El precio objetivo medio de consenso se sitúa en 71,04 EUR (con un rango entre un mínimo de 53,00 EUR y un máximo de 82,00 EUR basado en 22 opiniones de analistas), lo que arroja un potencial alcista implícito (*consensus upside*) del 14,28%.
-
-#### 4. Evidencia Reciente y Titulares Clave (Noviembre 2026)
-*   *Bolsamania* (13-11-2026): Seguimiento de la cotización y flujos de información técnica sobre Amadeus-A.
-*   *YouTube / Análisis financiero* (09-11-2026): Revisiones periódicas del comportamiento técnico del valor en el mercado español junto a otros activos de referencia.
-*   *El Economista* / *Negocios.com* (13-11-2026): La inflación de la zona euro anclada en el 4% condiciona las perspectivas macroeconómicas generales de la renta variable europea.
-
-#### 5. Datos Faltantes y Limitaciones
-*   No se disponen de datos actualizados intradía posteriores al 13 de noviembre de 2026 (última sesión bursátil registrada en los datos de la instantánea).
-*   Faltan detalles pormenorizados sobre contratos específicos firmados por la división de distribución aérea o de soluciones tecnológicas para aeropuertos en el último trimestre, debiendo basarse la valoración en los estados financieros anuales consolidados hasta 2025 y las estimaciones de consenso vigentes.
-
----
-
-### Resumen Estructurado (Tabla Organizativa)
-
-| Categoría | Métrica / Indicador | Valor Actual / Dato Clave | Implicación para `AMS.MC` |
-| :--- | :--- | :--- | :--- |
-| **Macrofecundidad** | Inflación Zona Euro | ~4.0% (Nov 2026) | Tipos de interés altos y persistentes en la Eurozona; presión sobre costes de financiación. |
-| **Valoración** | Forward P/E & Trailing P/E | 15,99x (Fwd) / 19,99x (Trail) | Valuación razonable frente al crecimiento histórico de beneficios y rentabilidad por ROE (26,4%). |
-| **Solvencia** | Deuda Neta / EBITDA | ~1.03x | Apalancamiento controlado, mitigando el riesgo derivado de tipos de interés elevados. |
-| **Técnico** | RSI (14) & SMA200 | 73,83 / 52,46 EUR | Señal de sobrecompra a corto plazo, aunque respaldada por una fuerte tendencia alcista de medio plazo. |
-| **Consenso** | Precio Objetivo Medio | 71,04 EUR | Potencial alcista estimado de ~14,28% desde el precio de cierre actual de 62,16 EUR. |
+FINAL TRANSACTION PROPOSAL: HOLD

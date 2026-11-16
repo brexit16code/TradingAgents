@@ -1,9 +1,9 @@
 **Rating**: Hold
 
-**Executive Summary**: Mantener la posición actual en TEF.MC sin realizar adiciones ni recortes, evaluando la exposición dentro de un rango neutral estándar. El precio objetivo de consenso se sitúa en 3,79 EUR frente a una cotización de 3,48 EUR, delimitando el horizonte temporal a 3-6 meses.
+**Executive Summary**: Mantener la posición actual sin realizar nuevas compras ni ventas. Se recomienda observar la consolidación técnica por debajo de la resistencia de 3,585 EUR (SMA 200) y evaluar la evolución de la deuda neta sobre EBITDA antes de incrementar exposición. La estrategia debe priorizar la preservación de capital frente a la volatilidad macroeconómica y el riesgo de apalancamiento.
 
-**Investment Thesis**: El análisis ponderado de las tesis demuestra que, si bien existen fortalezas operativas relevantes como la sólida conversión de flujo de caja libre, una rentabilidad por dividendo del 4,31% y un Forward P/E atractivo de 8,57x, los riesgos fundamentales y macroeconómicos siguen equilibrando la balanza. Los argumentos de los analistas conservador y neutral neutralizan el optimismo desmedido del analista agresivo al recordar la alta ratio de deuda neta sobre EBITDA de 5,11x, un ratio de reparto (payout) insostenible del 250% y el hecho de que la cotización permanece frenada por debajo de la media móvil de 200 sesiones (3,59 EUR). Por consiguiente, la evidencia disponible sigue equilibrada, exigiendo una postura prudente de mantenimiento hasta que se rompa claramente dicha resistencia técnica o mejore la estructura de balance.
+**Investment Thesis**: La tesis alcista, aunque resalta el crecimiento del beneficio neto (21,6%) y un valor atractivo por PER adelantado (8,6x), se ve contrarrestada por fundamentos estructurales preocupantes. La deuda neta sobre EBITDA de 5,1x, un ROE negativo (-7,34%) y un payout ratio de 2,5 son factores que validan la postura de cautela del analista conservador. Mientras la acción permanezca bajo la media de 200 días en 3,585 EUR, el riesgo de que la volatilidad en Brasil y la inflación en la eurozona actúen como catalizadores bajistas supera el potencial de una ruptura alcista. El cambio a una postura más agresiva requeriría una reducción tangible en los niveles de apalancamiento o una superación clara y sostenida del nivel de 3,585 EUR con un incremento significativo en el volumen de negociación.
 
-**Price Target**: 3.79
+**Price Target**: 3.79091
 
-**Time Horizon**: 3-6 months
+**Time Horizon**: 6-12 meses

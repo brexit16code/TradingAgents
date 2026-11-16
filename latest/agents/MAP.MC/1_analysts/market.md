@@ -1,64 +1,27 @@
-**Rating**: HOLD  
-FINAL TRANSACTION PROPOSAL: Mantener posición en MAP.MC con enfoque de seguimiento de tendencia a medio plazo y gestión de riesgos mediante stop-loss adaptados a la volatilidad actual.
+El análisis técnico y fundamental para **MAP.MC** (Mapfre, S.A.) basado en los datos proporcionados al 16 de noviembre de 2026, refleja una situación de equilibrio con un sesgo positivo respaldado por un sólido comportamiento operativo.
 
----
+### Análisis Técnico
+*   **Tendencia:** El precio actual de 4,33 EUR se sitúa por encima de sus medias móviles clave (SMA20: 4,24 EUR, SMA50: 4,29 EUR, SMA200: 4,14 EUR). Esta alineación indica una **tendencia alcista de fondo** consolidada, reforzada por el hecho de que el precio cotiza ligeramente por encima de su media de 50 y 200 sesiones.
+*   **Momentum y Volatilidad:** El RSI(14) en 55,42 sugiere una zona neutral con espacio para el movimiento, sin señales claras de sobrecompra o sobreventa. El MACD (-0,0032) está próximo a su línea de señal (-0,0284), lo que sugiere una falta de ímpetu direccional fuerte a muy corto plazo, pero con una configuración técnica constructiva.
+*   **Desempeño:** Con un rendimiento anual (252 sesiones) del 14,01%, el título muestra una resiliencia notable, a pesar de una ligera volatilidad del 22,72%.
 
-### Informe de Análisis Técnico y Fundamental: Mapfre, S.A. (`MAP.MC`)
+### Análisis Fundamental
+*   **Valoración:** Mapfre cotiza a un ratio Forward P/E de 10,20, lo que sugiere una valoración atractiva dentro del sector financiero/seguros. El ROE del 18,38% demuestra una gestión eficiente del capital.
+*   **Solvencia y Dividendos:** La compañía mantiene una política de dividendos competitiva con un *yield* del 4,16% y un ratio de pago (*payout*) del 47,42%, lo que permite sostenibilidad en la retribución al accionista. La mejora reciente en la calificación crediticia por parte de **Fitch a A+** (12 de noviembre de 2026, [Radio Intereconomía](https://news.google.com/rss/articles/CBMipwFBVV95cUxNMktoLVNhY0ZkMnNFRzAyVmMtMExfTTRtc3BXUzFMQWVyTmRfZkdEWURmM1ZOUUxXTXdsMlhQaGdfclZjNFJ4SFpyRXdqNDdtRm5PUW54bDNkRV90ZWEwUS1vUzJxNHhBQ04wNS1zS3JYUllvSjFZSW1XM1ZaVWtYNUd4ZEdOTEo3VzFhSXFNMG5YNU4wTGJKdG5hT1QtY3JwQ094aTRLMNIBrAFBVV95cUxPNldLb1R0cm5qdHpFbldFOWVrTlpVaGZYWUFHX1BaWVJwenVuM2V1bkNRbXY2Z3k0NHBwUTgzdWVLNDRIeUUxeXhxN3lzQTdTS251d1lESlNmN0NHNzdQMGxTNHBnR3h1SUwzNDhTZjN1UU5JOUhUZUN0U0VZWFpNUkFvdURZV0ZaSXhwc2FkZ1VNMGtJOC01VjFsVXh0T09rVXd2REJDN0I5SUNz?oc=5)) es un catalizador positivo significativo que subraya la solidez financiera de la entidad.
 
-#### 1. Resumen de Identidad y Contexto de Mercado
-* **Instrumento:** `MAP.MC` (Mapfre, S.A.)
-* **Clasificación Sectorial:** Servicios Financieros / Seguros Diversificados (Bolsa de Madrid, cotización en EUR, índice de referencia ^IBEX).
-* **Fecha de Referencia:** 15 de noviembre de 2026 (con datos de cierre técnico al 13 de noviembre de 2026).
-* **Fuentes de Datos:** Snapshot verificado de mercado, estados financieros y noticias recientes de agencias (Bolsamania, CapitalMadrid, Estrategias de Inversión, El Economista).
+### Factores de Riesgo y Observaciones
+*   **Contexto Macroeconómico:** La inflación persistente en la zona euro (en torno al 4%) y la expectativa de tipos de interés altos (según [El Economista](https://news.google.com/rss/articles/CBMi5gFBVV95cUxOdFhRSmpIZGt2RXFqc1NVQTdRaWk5M2tWMlRnaEptUTFSSXFoTmlSVkZjMmdCRmxzQlhvR2p4UEI4cFVNeXRaS0h5UEg1TDFTdEctMDZvRnkyQ1dZT1RMaGsyZEhaeHd3WlNrakpYR3hYbE1QNFRsWFc4c012SHh4dFU3Vkd5dl94VWtkMnp6M3BLdlB6XzV4UE9tbTRmdFdlTEh6RXhyYmxwVDFveGVBcmVRWFl3bjBJYlkxRmZob3BtYTRoUjZrYzNwX1k5VFVwYzhvek9nYWxQdEZsNzVHaFo2RDd2QdIB0AFBVV95cUxON0pNM1pNcVBFUlpIVXh2eHZNX3lYWWV3Z0REMExsdjhNSlQ3Tm1NMXZzeGl6UmlwMGZTZDlkRU1LTzY1YlZqV0phMTRjQjFoLVZWc3UyZWtKZmVGWHpTOXRpOW5jTk9LSUdfbjlSRVpvWjdqN0xaMjB6RS1xc3RIMVV1WE8yOGQ0bVliQ2YwZE1KUW9LYzZvY2VaYU5WRWphcF9FbDNjUFRDbURVM0U5YkYxbFc2bFU5QnkzYmhJczNfWFNYRXp2STUwNE83S0NW?oc=5)) complican el entorno de inversión para las familias, aunque el sector asegurador suele beneficiarse de la estabilidad operativa.
+*   **Datos Faltantes:** No se dispone de información consolidada sobre *Operating Cashflow* ni *Free Cashflow* reciente en la base de datos, lo que limita una evaluación completa de la generación de caja operativa directa.
 
----
+### Resumen de Indicadores Clave
 
-#### 2. Análisis Fundamental y Situación Financiera
-* **Capitalización Bursátil:** 13.333 millones de EUR.
-* **Valoración:** Presenta un *Trailing P/E* de 11.43x y un *Forward P/E* de 10.23x, con un beneficio por acción (*EPS*) estimado a futuro de 0.42 EUR (frente a 0.38 EUR diluido histórico). Su relación Precio/Valor en Libros (*Price-to-Book*) se sitúa en 1.41x, con un valor contable por acción de 3.077 EUR frente al precio de cierre de 4.344 EUR.
-* **Rentabilidad y Dividendos:** Ofrece una sólida rentabilidad sobre recursos propios (*ROE*) del 18.37% y márgenes de beneficio neto de 3.94%. Destaca por su atractivo retorno por dividendo (*Dividend Yield*) del 4.14% (con un dividendo de 0.18 EUR y un *payout ratio* de aproximadamente 47.4%).
-* **Estructura de Capital:** Deuda total de 2.906 millones de EUR frente a una caja de 2.065 millones de EUR. (Nota: No se deben aplicar reglas industriales de deuda/EBITDA a aseguradoras debido a la naturaleza de su pasivo técnico y reservas de seguros).
-* **Eventos Recientes y Calificación Crediticia:** 
-  * La agencia de calificación **Fitch** elevó recientemente (noviembre de 2026) el rating de Mapfre de **'A' a 'A+'**, impulsada por su sólida diversificación geográfica internacional y fortaleza financiera (*Bolsamania*, 12/11/2026).
-  * Expansión digital con su filial Verti (*CapitalMadrid*, 13/11/2026) y celebración de su 40 aniversario en mercados latinoamericanos como Chile (*CapitalMadrid*, 11/11/2026).
+| Indicador | Valor | Interpretación |
+| :--- | :--- | :--- |
+| Precio Actual | 4,33 EUR | Por encima de SMA20, 50, 200 |
+| RSI (14) | 55,42 | Neutral, sin extremos |
+| Forward P/E | 10,20 | Valoración atractiva |
+| Dividend Yield | 4,16% | Retorno competitivo |
+| Rating Crediticio | A+ (Fitch) | Mejora en solidez |
 
----
-
-#### 3. Análisis Técnico y Dinámica de Precios
-* **Precio de Cierre (13/11/2026):** 4.344 EUR.
-* **Rendimiento Reciente:** Rentabilidad a 21 sesiones del +0.32%, a 63 sesiones del -1.36% (con un rendimiento relativo frente al índice de -1.79 pp), pero con una sólida resequedad anual a 252 sesiones del +14.20%.
-* **Medias Móviles:** 
-  * SMA 20: 4.237 EUR
-  * SMA 50: 4.297 EUR
-  * SMA 200: 4.140 EUR
-  * *Interpretación:* El precio actual (4.344 EUR) cotiza por encima de todas sus medias móviles principales (SMA20, SMA50 y SMA200), lo que confirma una estructura alcista de fondo y un soporte dinámico sólido en la zona de los 4.14 EUR - 4.30 EUR.
-* **Osciladores e Indicadores de Momento:**
-  * RSI (14 periodos): 56.45, situándose en una zona neutral-alcista, sin señales inmediatas de sobrecompra ni sobreventa.
-  * MACD: -0.0118 y Línea de Señal MACD: -0.0347. El MACD se encuentra ligeramente por encima de su línea de señal, mostrando una tímida recuperación del impulso comprador a corto plazo tras consolidar las correcciones previas.
-* **Volatilidad y Riesgo:** Volatilidad anualizada del 22.79% y un *drawdown* actual moderado del -4.86% respecto a máximos recientes.
-
----
-
-#### 4. Contexto Macroeconómico
-El mercado europeo opera bajo la presión de una inflación en la zona euro situada alrededor del 4% (*El Economista*, 13/11/2026), lo que limita las expectativas de recortes agresivos en los tipos de interés del Banco Central Europeo y mantiene la atención sobre la rentabilidad de las carteras de renta fija en las aseguradoras. Paralelamente, el mercado español (Ibex 35) vigila de cerca la evolución macroeconómica y eventos políticos locales (*El Boletín*, 15/11/2026).
-
----
-
-#### 5. Datos Faltantes y Limitaciones
-* No se dispone de flujos de caja operativos (*Operating Cashflow*) ni de caja libre (*Free Cashflow*) estandarizados en los datos consolidados recientes debido a las particularidades contables del sector asegurador.
-* Faltan estimaciones detalladas de siniestralidad estacional para el cierre completo del ejercicio.
-
----
-
-#### 6. Tabla Resumen Clave
-
-| Categoría | Métrica / Indicador | Valor / Estado | Implicación para el Trader |
-| :--- | :--- | :--- | :--- |
-| **Precio y Tendencia** | Cierre (13/11/2026) | 4.344 EUR | Consolidación por encima de SMA20, SMA50 y SMA200. |
-| **Tendencia Largo Plazo**| SMA 200 | 4.140 EUR | Soporte estructural alcista a largo plazo. |
-| **Momento** | RSI (14) | 56.45 | Zona neutral; espacio disponible para extensión alcista. |
-| **Momento** | MACD vs Signal | -0.0118 vs -0.0347 | Cruce levemente favorable, recuperando impulso. |
-| **Riesgo y Volatilidad**| Volatilidad (22s) | 22.79% | Oscilación moderada típica del sector financiero europeo. |
-| **Valoración** | Trailing P / Forward P | 11.43x / 10.23x | Valoración razonable frente a beneficios estimados. |
-| **Retorno** | Dividend Yield | 4.14% | Atractivo flujo de rentabilidad por dividendo para inversores. |
-| **Calidad Crediticia** | Rating Fitch | A+ (Mejora reciente) | Solidez financiera reforzada por diversificación internacional. |
+**Rating**: Neutral
+FINAL TRANSACTION PROPOSAL: No position recommendation provided. Consult with a certified financial advisor before any hypothetical allocation.

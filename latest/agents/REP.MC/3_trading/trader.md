@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: Repsol presenta unos fundamentales sólidos con un bajo apalancamiento (Net Debt/EBITDA 0,32x) y un ROE del 21,07%, lo cual sostiene su tendencia alcista actual. Sin embargo, dado que el precio de 30,89 EUR ya cotiza alineado con el objetivo medio de los analistas (31,08 EUR) y ha experimentado una subida del 95% en el último año, no existe un margen de seguridad suficiente para ampliar posiciones. Se recomienda esperar a una consolidación cerca de la SMA 50 para evaluar posibles entradas.
+**Reasoning**: Repsol muestra una salud financiera excepcional con una deuda neta sobre EBITDA de solo 0,32x y múltiplos de valoración atractivos; sin embargo, el activo ha subido cerca de un 100% en el último año y se encuentra operando muy cerca del precio objetivo medio del consenso de analistas. La reciente demanda judicial añade una capa de riesgo táctico a corto plazo y, dado que el precio actual de 30,41 EUR presenta un margen de seguridad limitado tras el rally, se recomienda prudencia y cautela antes de tomar nuevas posiciones largas.
 
-**Entry Price**: 29.54
+**Entry Price**: not provided
 
-**Stop Loss**: 27.5
+**Stop Loss**: 24.25
 
-**Position Sizing**: Mantener exposición actual; no añadir posiciones nuevas.
+**Position Sizing**: Mantener exposición actual; no incrementar.
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

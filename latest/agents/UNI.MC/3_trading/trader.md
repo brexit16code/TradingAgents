@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: UNI.MC cotiza a 3,448 EUR, manteniéndose por encima de sus medias móviles clave (SMA20, SMA50 y SMA200) y ofreciendo un atractivo dividendo del 5,51%, lo que respalda mantener la posición. Sin embargo, dado que el precio actual supera el precio objetivo medio de consenso de 3,252 EUR y presenta una valoración por PER forward ligeramente superior a la mediana del sector (12,18x frente a 10,67x), no se justifica ampliar la exposición en este momento.
+**Reasoning**: Unicaja Banco muestra una estructura técnica resiliente por encima de su media móvil de 200 días y una rentabilidad por dividendo atractiva, lo que justifica mantener la exposición. Sin embargo, no se recomienda incrementar posiciones debido a que el precio actual de 3,44 € se sitúa por encima del precio objetivo medio del consenso de 3,25 €, sumado a una reciente presión inflacionaria en la eurozona que añade incertidumbre a los márgenes futuros.
 
 **Entry Price**: not provided
 
 **Stop Loss**: 2.99
 
-**Position Sizing**: 5% of portfolio
+**Position Sizing**: Mantener posición actual
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

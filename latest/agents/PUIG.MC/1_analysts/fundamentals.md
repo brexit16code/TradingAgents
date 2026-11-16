@@ -1,44 +1,39 @@
-### Informe de Análisis Fundamental: Puig Brands, S.A. (`PUIG.MC`)
+Informe de Análisis Fundamental: Puig Brands, S.A. (PUIG.MC)
 
-**Fecha del informe:** 15 de noviembre de 2026
+**Resumen Ejecutivo**
+Puig Brands, S.A. opera en el sector de consumo defensivo (productos de cuidado personal). Con una capitalización bursátil de aproximadamente 11.514 millones de EUR, la compañía presenta un crecimiento sólido en sus estados financieros, destacando una tendencia alcista en ingresos y flujo de caja libre en el periodo 2023-2025. A fecha de 16 de noviembre de 2026, la acción cotiza a 20,44 EUR, acercándose a su precio objetivo medio de 20,90 EUR.
 
-#### 1. Perfil de la Compañía y Contexto de Mercado
-Puig Brands, S.A. (`PUIG.MC`) es una empresa líder en el sector de consumo defensivo, específicamente en productos para el hogar y cuidado personal. Con sede en España, la compañía opera en el mercado de perfumería, cosmética y moda de lujo. Actualmente cotiza en el mercado continuo español (MCE) y forma parte del universo de análisis del índice ^IBEX.
+**Análisis de Estados Financieros**
+*   **Ingresos y Rentabilidad**: Los ingresos han experimentado un crecimiento sostenido, pasando de 4.304 millones de EUR en 2023 a 5.042 millones de EUR en 2025. El EBITDA también refleja esta salud financiera, escalando de 876,7 millones a 1.117,2 millones de EUR en el mismo periodo.
+*   **Balance y Liquidez**: La situación de deuda de la empresa ha mostrado una mejora significativa. La deuda total se redujo de 2.205 millones (2023) a 1.429 millones (2025). El ratio de Deuda Neta/EBITDA se sitúa en 1,63x, un nivel manejable para una compañía de su perfil.
+*   **Flujo de Caja**: La capacidad de generación de efectivo es robusta; el flujo de caja libre (FCF) alcanzó los 660,6 millones de EUR al cierre de 2025, superando consistentemente los niveles de años anteriores (2023: 378,6 millones; 2024: 548,8 millones).
 
-El sentimiento reciente del mercado ha sido mixto tras su salida a bolsa. Según publicaciones en *Merca2.es* y *Estrategias de Inversión* (13 de noviembre de 2026), Puig ha sido categorizada en un grupo de empresas cuyas valoraciones recientes han enfrentado presión bajista, contrastando con otras salidas a bolsa más optimistas.
+**Valoración y Métricas de Mercado**
+*   **Valoración**: Con un PER forward de 17,05x y un PER trailing de 19,84x, la valoración parece alineada con los fundamentales de crecimiento. El ratio precio/valor contable de 2,86x sugiere una valoración moderada en relación con su base de activos.
+*   **Dividendos**: La compañía ofrece una rentabilidad por dividendo del 2,05%, con una política de reparto (payout ratio) saludable del 41,07%, lo que sugiere sostenibilidad en los pagos a los accionistas.
 
-#### 2. Análisis Financiero
-Los datos financieros suministrados muestran una tendencia de crecimiento en ingresos, aunque con desafíos en la rentabilidad neta reciente:
+**Análisis Técnico y Contexto Macroeconómico**
+*   **Indicadores Técnicos**: El RSI(14) en 69,9 indica que el valor se encuentra cerca de zona de sobrecompra. El precio se mantiene por encima de sus medias móviles de 20, 50 y 200 días, confirmando una tendencia alcista estructural.
+*   **Contexto**: El entorno macroeconómico actual, marcado por una inflación persistente en la zona euro (reportada en torno al 4% en noviembre de 2026) y tipos de interés al alza, presiona el consumo. Sin embargo, Puig, como empresa de consumo defensivo, suele demostrar resiliencia ante estas presiones.
 
-*   **Ingresos y Crecimiento:** La compañía ha reportado una evolución positiva en los ingresos totales, pasando de 4.304 millones de EUR en 2023 a 5.042 millones de EUR al cierre de 2025 (tasa de crecimiento interanual sostenida).
-*   **Rentabilidad:** El EBITDA ha mostrado una mejora constante (876M en 2023 a 1.117M en 2025). Sin embargo, el beneficio neto mostró una cifra de 593,69 millones de EUR en 2025.
-*   **Solidez del Balance:** Se observa una reducción significativa de la deuda total, pasando de 2.205 millones de EUR (2023) a 1.429 millones de EUR (2025). Esto sitúa el ratio de deuda neta/EBITDA en 1,63x, un nivel manejable para el sector.
-*   **Flujo de Caja:** La generación de flujo de caja libre (FCF) es robusta, con 660,56 millones de EUR reportados al cierre de 2025, lo que demuestra una eficiente capacidad de conversión de efectivo.
+**Conclusión para Traders**
+Puig muestra fundamentales sólidos y un desapalancamiento exitoso. Sin embargo, dado que el precio actual (20,44 EUR) está muy cerca del objetivo medio de los analistas (20,90 EUR), el potencial alcista a corto plazo podría ser limitado por valoración. Se recomienda cautela debido al RSI cercano a niveles de sobrecompra.
 
-#### 3. Valoración y Métricas de Mercado
-*   **Múltiplos:** La acción cotiza a un PER *trailing* de 19,8x y un PER *forward* estimado de 17,01x, lo que sugiere una valoración más atractiva en términos de beneficios futuros estimados.
-*   **Dividendos:** La rentabilidad por dividendo (dividend yield) se sitúa en un 2,06%, con un *payout ratio* conservador del 41%, lo que permite margen para el crecimiento del dividendo o reinversión.
-*   **Consenso de Analistas:** El precio objetivo medio es de 20,90 EUR. Con una cotización actual de 20,40 EUR, el mercado descuenta una ligera subida del 2,47% respecto a la media de 16 analistas.
-
-#### 4. Riesgos y Observaciones
-*   **Entorno Macroeconómico:** La inflación en la zona euro, situada en el 4% (dato mencionado en *El Economista* del 13/11/2026), genera presión sobre los tipos de interés y el consumo discrecional, lo cual podría impactar los márgenes de Puig si el consumidor de lujo reduce su gasto.
-*   **Technical Status:** El RSI de 14 días en 69,46 indica que la acción se acerca a zona de sobrecompra, sugiriendo cautela en el corto plazo a pesar del buen momentum (rendimiento del 21,3% en los últimos 63 días).
-
-#### 5. Datos Faltantes
-*   No se dispone de un informe detallado de transacciones de *insiders* reciente para evaluar la confianza de la directiva.
-*   La comparación sectorial directa (*valuation peer group*) no está disponible en el dataset, dificultando la comparativa relativa con competidores directos de lujo.
+**Evidencia Faltante**
+No se dispone de datos sobre transacciones de insiders ni comparativa sectorial detallada (valoración relativa sectorial no disponible en el snapshot).
 
 **Rating**: HOLD
 
-FINAL TRANSACTION PROPOSAL: No trade permitted. This is an analytical report for information purposes only.
+FINAL TRANSACTION PROPOSAL: No trade execution advised; monitor for potential entry on technical retracements towards the 20-day SMA (19,65 EUR).
 
-| Métrica | Valor / Dato |
+| Métrica | Valor / Datos |
 | :--- | :--- |
-| Precio Actual | 20,40 EUR |
-| Capitalización de Mercado | 11,49 mil millones EUR |
-| PER Forward | 17,01x |
+| Precio Actual | 20,44 EUR |
+| Capitalización de Mercado | 11.514 M EUR |
+| PER Forward | 17,05x |
 | Deuda Neta / EBITDA | 1,63x |
-| Dividend Yield | 2,06% |
+| Rentabilidad por Dividendo | 2,05% |
 | Precio Objetivo Medio | 20,90 EUR |
-| Upside Consenso | +2,47% |
-| RSI (14) | 69,46 |
+| RSI (14) | 69,92 |
+
+*Fuentes: Yahoo Finance (https://finance.yahoo.com/quote/PUIG.MC/ y https://finance.yahoo.com/quote/PUIG.MC/financials/), consultado el 16/11/2026.*

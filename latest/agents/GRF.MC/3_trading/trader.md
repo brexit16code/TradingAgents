@@ -1,11 +1,11 @@
-**Action**: Hold
+**Action**: Buy
 
-**Reasoning**: A pesar del sólido momento técnico de Grifols, S.A. (GRF.MC) y de la ruptura de resistencias con un cierre en 11,65 EUR, el RSI de 80,47 denota una sobrecompra extrema y el elevado apalancamiento con una deuda neta sobre EBITDA de 5,04x justifica no incrementar la exposición en este nivel. De acuerdo con el plan de investigación, la prudencia aconseja mantener la posición actual y esperar a una corrección técnica hacia la zona de la SMA 20 (10,89 EUR) o la SMA 50 (10,20 EUR) antes de reevaluar nuevas compras.
+**Reasoning**: A pesar de que el RSI se encuentra en niveles elevados de sobrecompra (77,94), la tendencia alcista está respaldada por una fuerte mejora en los ingresos y el beneficio neto, un PER forward atractivo de 10,62x y el respaldo institucional reciente. Se propone una entrada táctica aprovechando la fortaleza actual y la superación de resistencias técnicas, protegiendo la posición por debajo de la media móvil de 20 sesiones para mitigar el riesgo de volatilidad.
 
-**Entry Price**: not provided
+**Entry Price**: 11.6
 
-**Stop Loss**: not provided
+**Stop Loss**: 10.5
 
-**Position Sizing**: 0% of portfolio (mantener posiciones existentes)
+**Position Sizing**: 5% of portfolio
 
-FINAL TRANSACTION PROPOSAL: **HOLD**
+FINAL TRANSACTION PROPOSAL: **BUY**

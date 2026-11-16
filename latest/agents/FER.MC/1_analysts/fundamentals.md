@@ -1,83 +1,85 @@
 **Rating**: REVIEW
 
-**FINAL TRANSACTION PROPOSAL**: HOLD
+FINAL TRANSACTION PROPOSAL: HOLD / REVIEW
+
+### Informe Fundamental Integral para Ferrovial N.V. (`FER.MC`)
+
+El presente informe ofrece un análisis exhaustivo de la situación fundamental, financiera e histórica de **Ferrovial N.V.** (`FER.MC`), cotizada en las Bolsas de Madrid (MCE) en Euros (EUR) dentro del sector industrial y de ingeniería y construcción. Toda la investigación está basada en los datos financieros y de mercado suministrados y fechados a 16 de noviembre de 2026.
 
 ---
 
-### Informe Fundamental Integral: Ferrovial N.V. (`FER.MC`)
+### 1. Perfil de la Compañía y Datos de Mercado
 
-**Fecha del informe**: 15 de noviembre de 2026  
-**Ticker**: `FER.MC`  
-**Bolsa**: Bolsas y Mercados Españoles (MCE) / EUR  
-**Sector**: Industriales / Ingeniería y Construcción  
-
----
-
-### 1. Perfil de la Compañía y Contexto de Negocio
-
-Ferrovial N.V. (`FER.MC`) es una de las mayores empresas globales de infraestructuras y desarrollo de ingeniería y construcción. Su actividad se centra en el diseño, construcción, financiación, operación y mantenimiento de infraestructuras de transporte (como autopistas y aeropuertos), consolidando un perfil de concesiones de alta calidad a largo plazo que generan flujos de caja recurrentes. Cotiza en euros en el mercado español y forma parte del selectivo de referencia ^IBEX.
-
-### 2. Análisis Financiero y Estados Financieros
-
-A partir de los datos financieros más recientes provistos por los estados contables y métricas de mercado correspondientes al cierre de los ejercicios fiscales recientes (con datos actualizados hasta el balance anual a 31 de diciembre de 2025):
-
-* **Capitalización de Mercado**: 39.966,98 millones de EUR.
-* **Ingresos (Total Revenue)**: 
-  * Ejercicio 2025: 9.627 millones de EUR (frente a 9.148 millones en 2024 y 8.515 millones en 2023), mostrando un crecimiento interanual de los ingresos del 5,2%.
-* **EBITDA y Márgenes**:
-  * EBITDA en 2025: 1.998 millones de EUR (nota: el ejercicio 2024 registró un EBITDA extraordinariamente alto de 4.539 millones de EUR debido a operaciones corporativas o desinversiones específicas, mientras que en 2023 fue de 1.478 millones de EUR).
-  * Margen de Beneficio Neto (*Profit Margin*): 6,15%.
-* **Beneficio Neto (Net Income)**:
-  * Ejercicio 2025: 888 millones de EUR (comparado con 3.239 millones en 2024 y 341 millones en 2023).
-* **Posición de Balance y Deuda**:
-  * Total Activos (2025): 27.420 millones de EUR.
-  * Deuda Total (*Total Debt*): 10.657 millones de EUR a nivel de instantánea general / 10.732 millones según el balance de cierre de 2025.
-  * Efectivo y equivalentes (*Total Cash*): 3.864 millones de EUR.
-  * Deuda Neta / EBITDA: 4,39x (ratio de apalancamiento que refleja la intensidad de capital propia de su cartera de infraestructuras concesionales).
-  * Patrimonio Neto (*Stockholders Equity*): 5.908 millones de EUR (2025).
-* **Flujo de Caja**:
-  * Flujo de Caja Operativo (*Operating Cash Flow*): 1.926 millones de EUR en 2025 (crecimiento frente a los 1.293 millones de 2024 y 1.263 millones de 2023).
-  * Flujo de Caja Libre (*Free Cash Flow*): 1.739 millones de EUR en el ejercicio 2025 (en el instantáneo consolidado se sitúa en aproximadamente 889,6 millones de EUR).
-
-### 3. Valoración y Múltiplos de Mercado
-
-* **PER (Trailing PE)**: 35,65x.
-* **PER Estimado (Forward PE)**: 47,83x.
-* **Precio sobre Valor en Libros (*Price to Book*)**: 7,01x.
-* **EV/EBITDA**: 31,38x.
-* **Rentabilidad por Dividendo (*Dividend Yield*)**: 3,51% (con un dividendo por acción de 1,95 EUR y un *payout ratio* del 71,24%).
-* **Valoración Relativa**: El sector industrial y de concesiones muestra múltiplos elevados, situando el PER relativo en una posición superior frente a la mediana de comparables (*peers*), con una ratio de 2,64x sobre la mediana del sector (peer median forward PE de ~18,09x).
-
-### 4. Datos Técnicos y Comportamiento Bursátil
-
-* **Precio de Cierre (13/11/2026)**: 55,62 EUR.
-* **RSI (14)**: 81,83 (situado en zona de sobrecompra técnica a corto plazo).
-* **MACD**: 2,42 (por encima de su línea de señal 1,68, confirmando impulso alcista reciente).
-* **Medias Móviles**: 
-  * SMA 20: 49,48 EUR.
-  * SMA 50: 47,57 EUR.
-  * SMA 200: 54,28 EUR.
-* **Rentabilidad a 21 sesiones**: +30,77%.
-* **Volatilidad (anualizada aproximada)**: 30,08%.
-* **Distancia al máximo y mínimo**: Cotiza con una corrección de -9,65% desde sus máximos (*drawdown*).
-
-### 5. Consenso de Analistas y Noticias Recientes (Semana del 13 de noviembre de 2026)
-
-* **Precio Objetivo Consenso**: 59,90 EUR (con un rango que va desde un objetivo mínimo de 48,50 EUR hasta un máximo de 80,00 EUR según 20 analistas).
-* **Potencial de Revalorización (*Consensus Upside*)**: 7,69% sobre el precio actual de 55,62 EUR.
-* **Eventos y Noticias Recientes**:
-  * *Bankinter (13/11/2026)*: Publicó un análisis de los últimos resultados de la compañía en un contexto macroeconómico marcado por la revisión de tipos de interés en la Eurozona y la persistencia de la inflación cerca del 4%.
-  * *RBC (13/11/2026)*: Recortó ligeramente el precio objetivo de Ferrovial debido al incremento generalizado de las rentabilidades de los bonos soberanos, lo que afecta a las tasas de descuento aplicadas en la valoración por flujos de caja descontados de sus activos concesionales.
-
-### 6. Datos Faltantes y Advertencias
-
-* **Datos faltantes**: No se dispone de un desglose granular pormenorizado del libro de órdenes de transacciones de iniciadores (*insider transactions*) en tiempo real para la semana en curso en este set de datos, ni detalles adicionales sobre los calendarios exactos de los próximos pagos de dividendo específicos fuera de la tasa anual informada de 1,95 EUR.
-* **Advertencias**: Este informe se basa estrictamente en la evidencia recuperada y fechada a noviembre de 2026. Las valoraciones mediante múltiplos (PER > 35x y Forward PE > 47x) reflejan una prima de valoración exigente que requiere el cumplimiento estricto de las expectativas de crecimiento a largo plazo. Los analistas recuerdan que el incremento de los rendimientos de los bonos ejerce presión a la baja sobre las valoraciones de activos de infraestructura intensivos en capital.
+* **Identidad Resuelta:** Ferrovial N.V. (`FER.MC`)
+* **Sector / Industria:** Industrials / Engineering & Construction
+* **Divisa Financiera y de Cotización:** EUR
+* **Capitalización de Mercado:** 40.599.326.720 EUR (~40.600 millones de euros)
+* **Precio de Cierre Actual (16/11/2026):** 56.50 EUR
+* **Rango de Objetivos de Analistas (Consenso):**
+  * Precio Objetivo Medio (`targetMeanPrice`): 59.89 EUR
+  * Precio Objetivo Mínimo (`targetLowPrice`): 48.50 EUR
+  * Precio Objetivo Máximo (`targetHighPrice`): 80.00 EUR
+  * Número de Opiniones de Analistas: 20
+  * Upside de Consenso (`consensus_upside_pct`): +6.01%
 
 ---
 
-### 7. Resumen en Tabla Organizada
+### 2. Análisis Técnico y Momentum Reciente
 
-| Categoría | Métrica / Indicador | Valor Actual / Dato Clave | Evidencia / Fuente |
-| :--- | :--- | :--- | :--- |
-| **Identificación** |
+* **Indicadores Técnicos:**
+  * **RSI (14 sesiones):** 83.49 (zona de fuerte sobrecompra técnica).
+  * **MACD:** 2.56 (por encima de su línea de señal en 1.85, denotando impulso alcista).
+  * **Medias Móviles:** Cotiza por encima de su SMA20 (50.14 EUR), SMA50 (47.72 EUR) y SMA200 (54.28 EUR), reflejando una tendencia alcista a medio y largo plazo.
+  * **Volatilidad (anualizada):** 30.21%.
+  * **Rendimientos:** Retorno a 21 sesiones del +29.89%; retorno a 63 sesiones del +4.20%; retorno a 252 sesiones del +7.26%.
+  * **Drawdown Actual:** -8.22% desde máximos recientes.
+
+---
+
+### 3. Estados Financieros y Evolución Histórica
+
+Tomando como base los estados contables suministrados para los ejercicios cerrados en 2023, 2024 y 2025:
+
+* **Cuenta de Resultados (Income Statement):**
+  * *Ingresos Totales (Total Revenue):* 8.515 millones de EUR (2023) -> 9.148 millones de EUR (2024) -> 9.627 millones de EUR (2025), evidenciando un crecimiento constante de la cifra de negocios (crecimiento anual de ingresos de ~5.2%).
+  * *EBITDA:* 1.478 millones de EUR (2023) -> 4.539 millones de EUR (2024, incremento extraordinario por operaciones/reestructuraciones) -> 1.998 millones de EUR (2025).
+  * *Beneficio Neto (Net Income):* 341 millones de EUR (2023) -> 3.239 millones de EUR (2024) -> 888 millones de EUR (2025).
+
+* **Balance de Situación (Balance Sheet):**
+  * *Activos Totales:* 26.318 millones de EUR (2023) -> 28.999 millones de EUR (2024) -> 27.420 millones de EUR (2025).
+  * *Deuda Total (Total Debt):* 11.565 millones de EUR (2023) -> 11.533 millones de EUR (2024) -> 10.732 millones de EUR (2025; el snapshot más reciente registra 10.657 millones de EUR).
+  * *Patrimonio Neto (Stockholders Equity):* 3.766 millones de EUR (2023) -> 6.075 millones de EUR (2024) -> 5.908 millones de EUR (2025).
+  * *Efectivo Total:* 3.864 millones de EUR.
+  * *Ratio Deuda Neta / EBITDA:* 4.39x.
+
+* **Flujos de Caja (Cash Flow):**
+  * *Flujo de Caja Operativo (Operating Cash Flow):* 1.263 millones de EUR (2023) -> 1.293 millones de EUR (2024) -> 1.926 millones de EUR (2025; el snapshot actual registra 2.488 millones de EUR).
+  * *Flujo de Caja Libre (Free Cash Flow):* 1.177 millones de EUR (2023) -> 1.067 millones de EUR (2024) -> 1.739 millones de EUR (2025; el snapshot actual reporta 889,6 millones de EUR).
+
+---
+
+### 4. Valoración Fundamental y Múltiplos
+
+* **Múltiplos de Valoración:**
+  * *Trailing P/E:* 36.22x
+  * *Forward P/E:* 48.58x
+  * *Precio a Valor en Libros (Price-to-Book):* 7.12x (con un valor contable por acción de 7.94 EUR).
+  * *EV/EBITDA:* 31.38x
+  * *Yield por Dividendo:* 3.45% (con un dividendo anual de 1.95 EUR y un ratio de pago o *payout* del 71.24%).
+  * *Rentabilidad sobre Recursos Propios (ROE):* 11.62%.
+
+* **Valoración Relativa frente a Pares:**
+  * El ratio de PER relativo (`peer_median_forward_pe` de 18.09x frente al forward P/E de Ferrovial) muestra una valoración superior (ratio de 2.69x frente a la mediana de los pares del selectivo/sectoriales `ANA.MC`, `ACS.MC`, `AENA.MC`, `FER.MC`, `IAG.MC`, `LOG.MC`, `SCYR.MC`), lo que indica que el mercado premia a Ferrovial con una prima de valoración muy elevada respecto a sus comparables.
+
+---
+
+### 5. Contexto Macroeconómico Reciente (Fechas: 13-16 de Noviembre de 2026)
+
+Las noticias macroeconómicas del periodo señalan un entorno europeo marcado por presiones inflacionistas persistentes en la Eurozona (con tasas en torno al 4%), lo que descarta rebajas agresivas de tipos de interés por parte del BCE a corto plazo y mantiene dinámicas de tipos reales ajustados, afectando al coste de financiación y a los flujos de inversión de los hogares (auge de letras del tesoro frente al ahorro tradicional bancario).
+
+---
+
+### 6. Datos Faltantes y Limitaciones
+
+* No se dispone de transacciones de inversores internos (*insider transactions*) en el conjunto de datos suministrado.
+* La fuente de noticias en directo experimentó un error HTTP (`HTTPError`), por lo que se ha trabajado con el muestreo de titulares macroeconómicos pre-cargados

@@ -1,32 +1,35 @@
-Aena S.M.E., S.A. (`AENA.MC`) se mantiene como el operador aeroportuario predominante en España, gestionando una infraestructura crítica que ha mostrado una sólida recuperación operativa y financiera. A continuación, presento el análisis fundamental basado en los datos proporcionados hasta el 15 de noviembre de 2026.
+Este informe presenta un análisis fundamental de **Aena S.M.E., S.A. (AENA.MC)** basado en los datos financieros y de mercado disponibles a fecha de 16 de noviembre de 2026.
 
-### Análisis Financiero y Desempeño
-La compañía ha experimentado un crecimiento sostenido tanto en ingresos como en beneficios. Según los estados financieros:
-*   **Resultados 2025:** Los ingresos ascendieron a 6.294 millones de euros, con un beneficio neto de 2.136 millones de euros, superando las cifras de 2024 (5.784 millones y 1.934 millones, respectivamente).
-*   **Eficiencia Operativa:** El EBITDA alcanzó los 3.909 millones de euros en 2025, reflejando márgenes de beneficio sólidos (34,26% según datos de mercado). La capacidad de generar flujo de caja es notable, con un *Free Cash Flow* de 1.728 millones de euros al cierre de 2025.
-*   **Solidez de Balance:** La empresa presenta una relación deuda neta/EBITDA de 1,38x, lo cual es conservador para un negocio intensivo en capital. La deuda total se sitúa en 7.933 millones de euros contra 2.557 millones de efectivo disponible.
+### Perfil y Desempeño Reciente
+Aena opera como el principal gestor aeroportuario en España y mantiene una fuerte presencia internacional. A pesar de un entorno macroeconómico complejo caracterizado por una inflación persistente en la Eurozona (citada al 4% en reportes recientes, *El Economista*, 13-nov-2026), la compañía demuestra resiliencia operativa.
 
-### Contexto de Mercado y Valoración
-*   **Métricas de Valoración:** Aena cotiza a un ratio P/E (PER) *trailing* de 14,3x y un *forward* de 17,6x. El precio actual (28,78 EUR) se sitúa por encima de la media de los analistas (27,48 EUR), lo que sugiere que el mercado ya ha descontado gran parte de las expectativas de crecimiento a corto plazo.
-*   **Technical Sentiment:** El RSI de 14 días en 71,78 indica condiciones de sobrecompra técnica, lo que sugiere una posible pausa o consolidación en la tendencia alcista reciente. El precio se mantiene cómodamente por encima de sus medias móviles de 20, 50 y 200 días.
-*   **Retorno al Accionista:** La rentabilidad por dividendo es del 3,79%, con una política de dividendos (payout ratio de 70,32%) que demuestra madurez y compromiso con los accionistas.
+*   **Tráfico:** En octubre de 2026, la compañía reportó 30,5 millones de pasajeros (*Estrategias de Inversión*, 12-nov-2026), lo que subraya la solidez de la demanda en el sector de servicios aeroportuarios.
+*   **Situación Técnica:** Cotizando a 29,18 EUR, el título muestra una tendencia alcista a corto y medio plazo (SMA20: 27,66; SMA50: 26,28), con un RSI de 74,8, lo cual sugiere condiciones de sobrecompra técnica que requieren cautela.
 
-### Riesgos y Desafíos
-Los recientes titulares señalan una preocupación creciente por la inflación en la zona euro (cercana al 4%), lo que presiona los costes operativos y complica la política monetaria. El sector aeroportuario es especialmente sensible a la coyuntura económica y a los costes reales de los hogares. Aena ha sido identificada en los informes de mercado (Estrategias de Inversión, 11-11-2026) como una de las acciones penalizadas en periodos de corrección del índice IBEX 35.
+### Análisis Financiero
+La compañía ha mostrado una trayectoria de crecimiento sostenido en sus principales estados financieros:
 
-### Información Faltante
-No se dispone de información reciente sobre transacciones de *insiders* (compra/venta de acciones por parte de directivos), ni un desglose detallado por segmentos de negocio (aeronáutico vs. comercial/retail) para el ejercicio 2026 en curso, lo que limita la capacidad de evaluar si el crecimiento reciente proviene del tráfico de pasajeros o de ingresos extra-aeronáuticos.
+1.  **Ingresos y Beneficios:** Los ingresos alcanzaron los 6.294 millones de EUR al cierre de 2025, frente a los 5.784 millones de 2024. El EBITDA ha mantenido un crecimiento constante, pasando de 3.225 millones en 2023 a 3.909 millones en 2025.
+2.  **Solidez de Balance:** La deuda total se sitúa en 7.933 millones de EUR, con un ratio de Deuda Neta/EBITDA de 1,38x, un nivel prudente que refleja una gestión de pasivos eficiente.
+3.  **Valoración:** Con un PER (Trailing PE) de 14,5x, la valoración se encuentra ligeramente por debajo de la mediana del sector (18,08x), lo que indica una valoración atractiva en comparación con sus pares, aunque el ratio precio-valor contable (P/B) de 4,7x es elevado, reflejando las intensivas necesidades de capital del negocio.
+
+### Riesgos y Consideraciones
+*   **Macroeconomía:** El contexto de tipos de interés altos (previsiones de Bankinter, 13-nov-2026) y la inflación presionan los márgenes operativos en toda la Eurozona.
+*   **Consenso de Mercado:** El precio medio objetivo de los analistas es de 27,48 EUR, lo que representa una **rentabilidad esperada negativa del 5,8%** respecto al cierre actual de 29,18 EUR. Esto sugiere que el mercado considera que el valor podría estar sobreextendido tras su reciente rally (retorno anual del 35,08%).
 
 ### Resumen de Datos Clave
-| Indicador | Valor |
+
+| Métrica | Valor / Detalle |
 | :--- | :--- |
-| **Precio Actual** | 28,78 EUR |
-| **Market Cap** | 43.170 M EUR |
-| **P/E (Trailing)** | 14,31x |
+| **Precio Actual** | 29,18 EUR |
+| **Capitalización de Mercado** | 43.770 millones EUR |
+| **Trailing PE** | 14,51x |
 | **Dividend Yield** | 3,79% |
-| **Net Debt/EBITDA** | 1,38x |
-| **Consensus Upside** | -4,49% |
-| **RSI (14)** | 71,78 |
+| **Crecimiento Ingresos** | 11,5% |
+| **Deuda Neta / EBITDA** | 1,38x |
+| **Consenso Upside** | -5,8% |
+| **RSI (14)** | 74,84 (Sobrecomprado) |
 
 **Rating**: HOLD
-FINAL TRANSACTION PROPOSAL: The stock currently trades above analyst consensus targets and presents technical signals of overbought conditions (RSI > 70). Investors should await a pullback or clearer guidance on 2026 inflation impacts before increasing exposure.
+
+FINAL TRANSACTION PROPOSAL: No action recommended; current price exceeds the analyst consensus mean price (27,48 EUR) and RSI indicates overbought conditions (74,84), suggesting limited immediate upside potential despite strong fundamentals.

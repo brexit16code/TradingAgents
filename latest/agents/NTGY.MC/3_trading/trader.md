@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: Naturgy cotiza a 31.02 EUR, muy cerca del precio objetivo medio de consenso de 31.33 EUR, lo que deja un potencial alcista limitado del 1%. Aunque los fundamentales defensivos como la rentabilidad por dividendo del 7.64% y una ratio de deuda neta sobre EBITDA controlada de 2.42x sostienen la cotización frente al entorno macroeconómico actual, el RSI en 67.19 indica un impulso cercano a la sobrecompra sin suficiente margen de revalorización a corto plazo para justificar nuevas compras o una venta de liquidación.
+**Reasoning**: La acción presenta una estructura técnica sólida al cotizar por encima de sus medias móviles de 50 y 200 días, lo que apoya una visión constructiva a largo plazo. No obstante, el escaso potencial alcista según el consenso de analistas (apenas 2.6%) y el entorno de tipos de interés altos, que presionan los costes financieros de compañías intensivas en capital, limitan el margen de apreciación. En consecuencia, mantener es la estrategia más prudente, esperando una confirmación de ruptura por encima de la resistencia técnica de los 31.33 EUR o un retroceso que mejore la relación riesgo-beneficio cerca de su media de 50 días.
 
 **Entry Price**: not provided
 
-**Stop Loss**: 29.78
+**Stop Loss**: 29.3
 
-**Position Sizing**: Mantener asignación actual de cartera
+**Position Sizing**: Mantener posición actual; no incrementar exposición bajo las condiciones de mercado actuales.
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

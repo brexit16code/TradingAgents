@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: Aunque el consenso de los analistas apunta a un potencial alcista del 17,5%, los indicadores técnicos muestran una tendencia negativa al cotizar por debajo de las medias móviles de 20 y 50 días. El flujo de caja libre negativo y el incremento en la deuda total exigen cautela, por lo que se recomienda esperar una confirmación de reversión alcista por encima de 60,74 EUR antes de incrementar posiciones, mientras se vigila el soporte clave de largo plazo en 55,69 EUR.
+**Reasoning**: El activo presenta una estructura fundamental sólida con una posición de caja neta robusta, pero se encuentra bajo presión técnica con el precio cotizando por debajo de sus medias móviles de corto plazo (SMA20 y SMA50). Dado que el MACD se mantiene en terreno bajista y la volatilidad es elevada, no existe un catalizador técnico para una entrada inmediata. Mantener es la estrategia prudente hasta que el soporte clave en la media móvil de 200 días (55,75 EUR) confirme su resiliencia o se observe una mejora en el momentum.
 
-**Entry Price**: 60.75
+**Entry Price**: 55.75
 
-**Stop Loss**: 55.69
+**Stop Loss**: 53.5
 
-**Position Sizing**: 0.5x de una asignación estándar
+**Position Sizing**: Mantener posición actual, no añadir exposición.
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

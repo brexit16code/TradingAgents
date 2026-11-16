@@ -1,11 +1,11 @@
-**Action**: Buy
+**Action**: Hold
 
-**Reasoning**: La tesis de inversión se apoya en una valoración atractiva con un forward PE de 12,43x y un potencial de revalorización significativo según el consenso. Aunque el precio lucha contra la SMA200 (19,50 EUR), la mejora en el momentum técnico, el pago de dividendos y la resiliencia en el flujo de caja justifican acumular posiciones antes de la posible ruptura alcista de la resistencia clave.
+**Reasoning**: La estructura técnica de FDR.MC muestra una consolidación neutral, cotizando entre su soporte de corto plazo (SMA20: 18,96) y su resistencia estructural de largo plazo (SMA200: 19,47). A pesar de una valoración fundamental atractiva con un Forward PE de 12,31x, el entorno macro de tipos altos y la inflación persistente en la zona euro limitan el potencial alcista a corto plazo, sugiriendo esperar una ruptura de los 19,47 EUR antes de añadir exposición.
 
-**Entry Price**: 19.44
+**Entry Price**: 19.48
 
 **Stop Loss**: 18.2
 
-**Position Sizing**: 1% del portafolio
+**Position Sizing**: Mantener posición actual, no incrementar exposición hasta la ruptura de la resistencia.
 
-FINAL TRANSACTION PROPOSAL: **BUY**
+FINAL TRANSACTION PROPOSAL: **HOLD**

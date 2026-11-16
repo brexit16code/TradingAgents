@@ -1,29 +1,32 @@
-El entorno macroeconómico y operativo de **IAG.MC** (International Consolidated Airlines Group S.A.) al 15 de noviembre de 2026 muestra una dinámica de resiliencia operativa frente a presiones macroeconómicas persistentes en la Eurozona.
+Este informe presenta un análisis del estado actual de **IAG.MC** (International Consolidated Airlines Group S.A.) y su entorno macroeconómico basado en la evidencia proporcionada con fecha de corte al 16 de noviembre de 2026.
 
-### Análisis del Entorno Operativo y Macro
-IAG.MC opera en un contexto marcado por una inflación en la Eurozona estancada en torno al 4%, un dato que ha generado expectativas de que el Banco Central Europeo mantenga condiciones monetarias estrictas por un periodo prolongado (según reportes de *El Economista* y *Bankinter* del 13 de noviembre). Este entorno de tipos de interés altos, junto con la volatilidad en los costes del combustible, constituye el principal riesgo macroeconómico para el sector aerolíneas.
+### Análisis Fundamental y Técnico de IAG.MC
+IAG.MC muestra una posición financiera sólida con métricas que reflejan una recuperación sostenida tras periodos de alta deuda.
+*   **Valoración:** La compañía cotiza a un PER *forward* de 7.22x, significativamente por debajo de la mediana del sector (18.08x), lo que sugiere una valoración atractiva si se mantiene la rentabilidad.
+*   **Desempeño Financiero:** Los ingresos cerraron 2025 en 33.213 millones de EUR, con un EBITDA de 7.951 millones de EUR. La reducción de la deuda total de 17.345 millones (2024) a 14.267 millones (2025) mejora significativamente el ratio de endeudamiento neto/EBITDA a 0,77x.
+*   **Indicadores Técnicos:** IAG.MC cotiza a 5,44 EUR, manteniéndose por encima de sus medias móviles de 20, 50 y 200 días (5,10; 5,02; 4,85 respectivamente), lo que confirma una tendencia alcista a medio y largo plazo. El RSI de 64,87 indica un optimismo creciente sin haber entrado aún en zona de sobrecompra.
 
-A pesar de estos factores, IAG.MC ha mostrado un comportamiento bursátil positivo en noviembre, con un rebote superior al 10% según *El Economista*. El mercado parece estar reaccionando a la disciplina financiera del grupo:
-* **Métricas de Valoración:** La compañía cotiza a un ratio Forward PE de 7.20x, significativamente más bajo que la mediana de sus comparables (18.09x), lo que indica una valoración defensiva.
-* **Salud Financiera:** Con una deuda neta/EBITDA de 0.78x y una generación de flujo de caja libre de 3.146 millones de euros en 2025, la compañía demuestra una capacidad de desapalancamiento superior a periodos anteriores (2023-2024).
+### Entorno Macroeconómico
+El contexto europeo está marcado por una inflación persistente (4%) que complica la política monetaria.
+*   **Presión sobre Tipos:** La inflación del 4% en la Eurozona ha inhabilitado la posibilidad de moderar las subidas de tipos de interés (El Economista, 13/11/2026), lo que impacta los costos financieros y la disposición al gasto del consumidor.
+*   **Ahorro e Inversión:** Se observa un flujo hacia activos refugio y letras del tesoro ante la persistencia de tipos reales negativos, lo que limita la liquidez que podría dirigirse a activos de renta variable como IAG.MC.
 
-### Perspectiva de Mercado
-Los analistas mantienen una visión optimista, reflejada en el precio objetivo medio de 6.00 EUR (con un máximo de 6.50 EUR). Firmas como RBC, Goldman Sachs, Barclays y Bernstein han emitido valoraciones positivas recientemente, subrayando que, a pesar de resultados trimestrales que pueden haber decepcionado ligeramente, los fundamentales a largo plazo y la eficiencia operativa (especialmente en la gestión de márgenes frente al petróleo) mantienen el interés comprador.
+### Riesgos y Consideraciones
+*   **Datos faltantes:** No se dispone de datos actualizados sobre el flujo de caja operativo o libre para el año en curso (2026), lo que limita la precisión en la evaluación de la capacidad de la empresa para sostener el dividendo y el pago de deuda a corto plazo.
+*   **Sensibilidad:** Como aerolínea, IAG.MC es extremadamente sensible a los costes de combustible (no analizados aquí) y a la confianza del consumidor, que podría verse afectada si el entorno de inflación al 4% se prolonga.
 
-### Factores a considerar
-1. **Riesgo:** La inflación elevada (4%) en la Eurozona puede comprimir la renta disponible de los consumidores, afectando la demanda de viajes de ocio.
-2. **Oportunidad:** El descuento actual de la acción respecto a su consenso y su baja valoración por múltiplos sugiere un margen de seguridad, siempre que se mitiguen los riesgos de costes operativos.
-3. **Datos faltantes:** No se dispone de datos actualizados de *Operating Cashflow* ni *Free Cashflow* para el periodo intermedio de 2026, lo que impide una proyección exacta de la liquidez actual más allá del cierre fiscal de 2025.
+### Resumen de Datos Clave
 
-**Rating**: Overweight
-
-| Indicador / Punto Clave | Dato / Detalle |
+| Indicador | Valor / Observación |
 | :--- | :--- |
-| **Precio Actual** | 5.42 EUR (al 2026-11-13) |
-| **Forward PE** | 7.20x (vs 18.09x sectorial) |
-| **Consenso de Analistas** | 6.00 EUR (Upside: ~10.8%) |
-| **Tendencia Macro** | Inflación Eurozona ~4% (Presión en costes) |
-| **Sentimiento en Prensa** | Positivo (Recientes reportes de RBC, Goldman) |
-| **Solidez Balance** | Deuda Neta/EBITDA de 0.78x |
+| **Precio Acción (IAG.MC)** | 5,44 EUR |
+| **PER Forward** | 7,22x |
+| **Consenso Precio Objetivo** | 6,00 EUR (Upside: +10,38%) |
+| **Deuda Neta / EBITDA** | 0,77x |
+| **Inflación Eurozona** | 4,00% (Nov 2026) |
+| **Tendencia Técnica** | Alcista (Sobre SMA200) |
 
-FINAL TRANSACTION PROPOSAL: Neutral/Hold, monitorizando la capacidad de traslación de costes a precios de billete ante la persistente inflación europea.
+**Rating**: HOLD
+(Basado en la solidez del balance y valoración atractiva, compensado por los vientos en contra de la política monetaria restrictiva en la Eurozona).
+
+FINAL TRANSACTION PROPOSAL: Mantener posiciones actuales; esperar correcciones hacia el nivel de 5,10 EUR (SMA20) para posibles incrementos en la posición, dado el descuento en el PER respecto al sector. No se recomienda aumentar exposición sin mayor claridad sobre el flujo de caja operativo del presente ejercicio.

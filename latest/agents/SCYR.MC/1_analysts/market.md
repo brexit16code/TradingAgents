@@ -1,79 +1,31 @@
-**Rating**: HOLD  
-FINAL TRANSACTION PROPOSAL: Mantener posición / Esperar confirmación de ruptura de resistencia o corrección hacia medias móviles clave.
+A continuación, presento un análisis técnico y fundamental detallado para **SCYR.MC** (Sacyr, S.A.), basado en los datos proporcionados con fecha de corte al 16 de noviembre de 2026.
 
----
+### Análisis Técnico
+Sacyr presenta una configuración técnica mixta:
+*   **Tendencia:** El precio actual de 4,30 € cotiza por encima de las medias móviles de 20 y 50 sesiones (4,11 € y 4,08 €, respectivamente), lo que sugiere una inercia alcista a corto/medio plazo. No obstante, se encuentra ligeramente por debajo de la media móvil de 200 sesiones (4,37 €), actuando este nivel como una resistencia técnica de largo plazo.
+*   **Momentum:** El indicador RSI (14) se sitúa en 66,20, lo cual indica una fuerza alcista considerable sin haber entrado aún en terreno de sobrecompra (>70). El MACD (0,057) se encuentra por encima de su línea de señal (0,030), confirmando una tendencia positiva vigente.
+*   **Volatilidad y Riesgo:** Con una volatilidad del 22,29% y un *drawdown* del -12,59%, el valor muestra oscilaciones moderadas.
 
-### Informe de Análisis Técnico y Fundamental: Sacyr, S.A. (`SCYR.MC`)
+### Análisis Fundamental
+*   **Valoración:** La compañía cotiza a un ratio Precio/Beneficio (*forward PE*) de 18,33x, lo que se alinea con la mediana de sus comparables del sector (18,09x). El valor parece estar valorado de forma justa según los múltiplos del sector industrial/construcción.
+*   **Solidez Financiera:** El ratio de *Net Debt/EBITDA* se sitúa en 5,41x, un nivel elevado que requiere monitoreo constante en entornos de tipos de interés altos, como el escenario actual de la Eurozona (inflación reportada cercana al 4% según noticias del 13 de noviembre).
+*   **Retorno al Accionista:** Sacyr mantiene una política de dividendos atractiva con una rentabilidad (*dividend yield*) del 4,71%, aunque con un *payout ratio* elevado del 83,83%, lo que limita el margen de maniobra para retenciones de beneficio.
+*   **Crecimiento:** Se observa un crecimiento positivo en ingresos (14%), aunque la rentabilidad neta se ha visto presionada en el último ejercicio fiscal.
 
-#### 1. Contexto de Mercado y Estado Actual
-A fecha de 15 de noviembre de 2026, analizamos la compañía española de ingeniería y construcción **Sacyr, S.A.** (`SCYR.MC`), cotizada en la Bolsa de Madrid (MCE) y parte del selectivo nacional. Tomando como base los datos de cierre más recientes disponibles (13 de noviembre de 2026), el valor cotiza a **4,25 EUR**. 
+### Conclusión y Observaciones
+El consenso de analistas sitúa el precio objetivo en 5,33 €, lo que implica un potencial de revalorización del 23,8%. La clave para la acción será la capacidad de la empresa para reducir su apalancamiento operativo en un contexto donde los tipos de interés en la Eurozona se mantienen tensionados por la inflación persistente.
 
-El contexto macroeconómico reciente que rodea al valor y al mercado europeo viene marcado por unas presiones inflacionistas persistentes en la eurozona (con tasas en torno al 4% según referencias de mid-noviembre de 2026 como *El Economista* y *Negocios.com*) y la cautela en las políticas de tipos de interés, lo cual afecta directamente a los costes de financiación de las grandes concesionarias e infraestructuras. No obstante, Sacyr ha mostrado un comportamiento relativo interesante en el Ibex 35 (mencionado en coberturas de *Estrategias de Inversión* a principios de noviembre).
+**Evidencia faltante:** No se dispone del flujo de caja operativo ni del flujo de caja libre (*free cashflow*) desglosado para períodos intermedios más recientes que permitan un análisis de solvencia más preciso.
 
----
+| Indicador | Valor | Interpretación |
+| :--- | :--- | :--- |
+| Precio Actual | 4,30 € | Tendencia alcista a corto plazo |
+| SMA 200 | 4,37 € | Resistencia de largo plazo |
+| RSI 14 | 66,20 | Momentum alcista sólido |
+| Rentabilidad Dividendo | 4,71% | Atractivo para renta |
+| Net Debt/EBITDA | 5,41x | Apalancamiento elevado |
+| Consenso Upside | 23,82% | Potencial según analistas |
 
-#### 2. Análisis Técnico y de Indicadores
-El análisis técnico de `SCYR.MC` muestra un escenario de consolidación a medio plazo con sesgo constructivo a corto plazo:
+**Rating**: HOLD
 
-* **Precio y Medias Móviles**: 
-  * Cierre actual: **4,25 EUR**.
-  * SMA 20: **4,09 EUR** (el precio cotiza por encima, mostrando impulso reciente de corto plazo).
-  * SMA 50: **4,07 EUR** (soporte dinámico inmediato).
-  * SMA 200: **4,36 EUR** (actúa actualmente como una resistencia técnica de largo plazo).
-  * *Drawdown* actual respecto a referencias de máximos: **-13,69%**.
-  * Rentabilidad a 21 sesiones: **+6,14%**; rentabilidad a 252 sesiones: **+21,69%**.
-
-* **Osciladores de Momento y Tendencia**:
-  * **RSI (14)**: **62,85**, situándose en zona alcista moderada pero sin alcanzar todavía niveles de sobrecompra estricta (70). Esto denota fortaleza compradora en las últimas sesiones, aunque prudencia ante posibles resistencias.
-  * **MACD**: **0,0489** y Línea de Señal MACD: **0,0229**. El MACD se encuentra en terreno positivo y por encima de su línea de señal, validando el impulso alcista a corto plazo observado desde los entornos de 4,07 EUR (SMA 50).
-  * **Volatilidad (21 periodos)**: **22,19%**, lo que indica un perfil de riesgo moderado para el valor en el corto plazo.
-
----
-
-#### 3. Análisis Fundamental y Valoración
-Los datos fundamentales extraídos de los estados financieros de la compañía reflejan la siguiente estructura económica:
-
-* **Capitalización Bursátil**: ~3.379 millones de EUR.
-* **Métricas de Valoración**:
-  * **PER Trailing**: 23,61x | **PER Forward**: 18,10x.
-  * **Precio/Valor en Libros (P/B)**: 3,18x.
-  * **EV/EBITDA**: 8,85x.
-* **Rentabilidad por Dividendo**: 
-  * Dividendo anual estimado de **0,20 EUR**, lo que representa una **rentabilidad por dividendo (dividend yield) del 4,71%**, un atractivo considerable para inversores orientados a rentas en un entorno de tipos elevados.
-* **Solvencia y Deuda**:
-  * Deuda Total: ~9.557 millones de EUR (frente a 9.347 millones a cierre del ejercicio 2025).
-  * Efectivo Total: ~2.285 millones de EUR.
-  * Ratio de Deuda Neta sobre EBITDA: **5,41x**, un nivel elevado típico del sector de concesiones e infraestructuras intensivas en capital, que requiere un seguimiento constante de los flujos de caja operativos.
-* **Consenso de Analistas**:
-  * Precio Objetivo Medio (Target Mean Price): **5,33 EUR** (con un rango entre un mínimo de 4,80 EUR y un máximo de 5,75 EUR).
-  * Número de analistas: 10.
-  * **Upside de consenso**: **+25,39%** respecto al precio actual de 4,25 EUR.
-
----
-
-#### 4. Evidencia Documentada y Fuentes
-* **Precios y Datos Cuantitativos**: Capturados del snapshot verificado de `SCYR.MC` a fecha de 2026-11-15 (precio de sesión del 13-11-2026: 4,25 EUR).
-* **Fuentes de Noticias y Contexto Macroeconómico**:
-  * *Estrategias de Inversión* (09/11/2026): Menciones sobre el comportamiento del Ibex 35 impulsado por valores como Sacyr.
-  * *El Economista* / *Negocios.com* (13/11/2026): Coberturas sobre la inflación en la Eurozona situándose en el 4% y su impacto en la política de tipos.
-* **Datos Financieros**: Balances, cuenta de resultados y flujos de caja reportados para los ejercicios cerrados a 2023, 2024 y estimaciones/cierres de 2025.
-
----
-
-#### 5. Datos Faltantes o Limitaciones
-* No se dispone en el informe de detalle pormenorizado diario del desglose del libro de órdenes o flujos institucionales en tiempo real intradía más allá del último cierre oficial de sesión del 13 de noviembre de 2026.
-* Las estimaciones de BPA *forward* y flujos de caja futuros se basan en el consenso actual de mercado recopilado en los metadatos y están sujetas a revisión por parte de la compañía en sus próximas presentaciones de resultados.
-
----
-
-#### Tabla Resumen de Indicadores Clave
-
-| Categoría de Indicador | Nombre del Indicador / Métrica | Valor Actual / Referencia | Implicación Operativa |
-| :--- | :--- | :--- | :--- |
-| **Precio y Tendencia** | Precio de Cierre (`SCYR.MC`) | 4,25 EUR (13/11/2026) | Por encima de SMA 50 (4,07), bajo SMA 200 (4,36). |
-| **Tendencia Corto Plazo** | SMA 50 | 4,07 EUR | Soporte dinámico principal a vigilar en correcciones. |
-| **Tendencia Largo Plazo** | SMA 200 | 4,36 EUR | Resistencia estructural clave a superar para cambio de ciclo alcista amplio. |
-| **Momento** | RSI (14) | 62,85 | Fuerza compradora sólida, sin sobrecompra extrema. |
-| **Momento / Tendencia** | MACD / MACD Signal | 0,0489 / 0,0229 | Cruce alcista vigente en el corto plazo. |
-| **Volatilidad** | Volatilidad (21 periodos) | 22,19% | Riesgo de fluctuación moderado. |
-| **Valoración Fundamental** | PER Forward / EV/EBITDA | 18,10x / 8,85x | Valoración intermedia
+FINAL TRANSACTION PROPOSAL: Mantener posiciones existentes; esperar a una ruptura consolidada sobre la media de 200 sesiones (4,37 €) antes de considerar incrementos en la exposición, dada la presión de los tipos de interés sobre el sector de ingeniería.

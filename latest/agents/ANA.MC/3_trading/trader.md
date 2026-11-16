@@ -1,11 +1,11 @@
 **Action**: Sell
 
-**Reasoning**: La estructura técnica de ANA.MC se ha deteriorado gravemente tras la ruptura de todas las medias móviles principales (SMA20, SMA50, SMA200), confirmando un cambio de tendencia a bajista. Fundamentalmente, el alto apalancamiento (Net Debt/EBITDA de 6,14x) combinado con la quema de efectivo y el fracaso de los planes de desinversión justifican una salida para proteger el capital ante el riesgo de nuevas caídas.
+**Reasoning**: La estructura financiera de ANA.MC presenta riesgos significativos debido a su alta ratio de deuda (6,14x EBITDA) y flujo de caja libre negativo, complicados aún más por la cancelación de sus planes de desinversión. Técnicamente, la acción cotiza por debajo de sus medias móviles de 50 y 200 días, lo que confirma una tendencia bajista persistente y falta de momento alcista para justificar la retención de la posición. El entorno de tipos de interés en la Eurozona incrementa el costo de su apalancamiento, haciendo la estrategia de Underweight la más prudente ante la volatilidad técnica actual.
 
-**Entry Price**: 203.0
+**Entry Price**: 203.4
 
-**Stop Loss**: 212.0
+**Stop Loss**: 195.0
 
-**Position Sizing**: Reducir la posición actual al 25% o 50% de su tamaño original.
+**Position Sizing**: Reducción de exposición entre 25% y 50% de la posición actual.
 
 FINAL TRANSACTION PROPOSAL: **SELL**

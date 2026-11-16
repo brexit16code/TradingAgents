@@ -1,70 +1,70 @@
-**Rating**: HOLD  
-**FINAL TRANSACTION PROPOSAL:** Mantener posición actual con stop-loss dinámico y supervisión de los niveles técnicos y fundamentales de **ROVI.MC**.
+**Rating**: BUY  
+FINAL TRANSACTION PROPOSAL: Mantener o acumular posiciones con stop-loss dinámico adaptado a la volatilidad actual y objetivo de precio alineado con el consenso de analistas (75.0 EUR).
+
+### Informe de Análisis Técnico y Fundamental: Laboratorios Farmaceuticos Rovi, S.A. (`ROVI.MC`)
+
+#### 1. Contexto de Mercado e Identidad Resuelta
+- **Ticker y Empresa:** `ROVI.MC` (Laboratorios Farmaceuticos Rovi, S.A.), cotizada en Bolsas y Mercados Españoles (MCE), sector sanitario (Drug Manufacturers - Specialty & Generic), cotizando en Euros (EUR) frente al índice de referencia `^IBEX`.
+- **Fecha de Análisis y Referencia:** 16 de noviembre de 2026.
+- **Datos de Precio y Snapshot Verificado:** Precio de cierre a 16/11/2026: **69.60 EUR** (`close`: 69.5999984741211). Variación reciente positiva (+0.58% en la sesión, rentabilidad a 21 sesiones de +19.38% y a 252 sesiones de +21.05%). Distancia al máximo del rango / drawdown actual de -17.23%.
 
 ---
 
-### Análisis Financiero, Fundamental y Técnico de Laboratorios Farmaceuticos Rovi, S.A. (`ROVI.MC`)
-
-#### 1. Resumen de Identidad y Contexto de Mercado
-* **Empresa:** Laboratorios Farmaceuticos Rovi, S.A. (`ROVI.MC`)
-* **Negocio:** Healthcare / Drug Manufacturers - Specialty & Generic
-* **Bolsa y Divisa:** Mercado Continuo Español (MCE), cotizado en EUR.
-* **Fecha de análisis actual:** 15 de noviembre de 2026.
-* **Precio de referencia:** Último cierre registrado el 13 de noviembre de 2026 a **69.20 EUR** (-1.35% en la sesión).
-
----
-
-#### 2. Fundamentos Financieros y Valoración
-Los datos fundamentales extraídos de los estados financieros y el consenso de analistas muestran un perfil financiero saneado y atractivo, aunque con ciertos desafíos en el crecimiento a corto plazo:
-
-* **Capitalización Bursátil:** ~3.539 millones de EUR.
-* **PER (Trailing):** 17.21x, frente a un PER adelantado (*forward PE*) de 21.01x, lo que indica expectativas de menor beneficio por acción (*forward EPS* de 3.29 EUR frente a los 4.02 EUR *trailing*).
-* **Ratio Deuda Neta / EBITDA:** Se sitúa en un nivel muy bajo y conservador de **0.15x** (Deuda total de 100.95M EUR frente a un EBITDA de 195.66M EUR).
-* **Rentabilidad por Dividendos:** Dividendo de 0.96 EUR por acción, lo que representa una rentabilidad (*dividend yield*) del **1.39%**, con un *payout ratio* comedido del 25.83%.
-* **Rentabilidad sobre Recursos Propios (ROE):** Destacable **28.71%**, reflejando una excelente eficiencia en la generación de valor para los accionistas.
-* **Márgenes y Flujo de Caja:** Margen de beneficio neto del **24.81%** y un flujo de caja operativo (*operating cash flow*) de 196.72M EUR, con un flujo de caja libre (*free cash flow*) de aproximadamente 97.15M EUR.
-* **Consenso de Analistas:** El precio objetivo medio (*target mean price*) según el consenso de 9 analistas es de **75.00 EUR** (con un rango entre un mínimo de 67.00 EUR y un máximo de 89.00 EUR), lo que arroja un potencial de revalorización (*consensus upside*) del **8.38%** desde los 69.20 EUR actuales.
+#### 2. Análisis Técnico (Evidencia Verificada)
+El comportamiento técnico de `ROVI.MC` refleja un momento alcista vigoroso a medio y corto plazo, respaldado por medias móviles y osciladores de impulso:
+- **RSI (14):** Se sitúa en **73.19**, lo que indica una condición de fortaleza compradora significativa (zona de aproximación a niveles de sobrecompra). *Tip:* En tendencias alcistas fuertes, el RSI puede mantenerse en niveles elevados; se debe contrastar con la estructura de tendencia.
+- **MACD y Línea de Señal:** `macd` se encuentra en **2.90**, superando a su línea de señal (`macd_signal`) situada en **2.40**, confirmando la continuidad del impulso alcista.
+- **Medias Móviles (SMA):**
+  - **SMA 20:** 64.61 EUR (el precio cotiza holgadamente por encima, evidenciando aceleración a corto plazo).
+  - **SMA 50:** 60.81 EUR.
+  - **SMA 200:** 65.16 EUR (el cruce del precio por encima de la media de largo plazo consolida el sesgo estructural alcista).
+- **Volatilidad y Riesgo:** Volatilidad anualizada del **24.58%**, con un *drawdown* actual del -17.23%.
 
 ---
 
-#### 3. Análisis Técnico y de Indicadores de Momento
-El comportamiento técnico reciente de `ROVI.MC` muestra un tono marcadamente alcista a medio plazo, respaldado por flujos positivos de noticias sobre su negocio de fabricación a terceros (CDMO):
-
-* **Precio y Medias Móviles:**
-  * Cierre: **69.19 EUR** (13-11-2026).
-  * **SMA 20:** 64.01 EUR.
-  * **SMA 50:** 60.60 EUR.
-  * **SMA 200:** 65.17 EUR.
-  * *Interpretación:* El precio cotiza por encima de sus tres medias clave (SMA 20, SMA 50 y SMA 200), confirmando la tendencia alcista principal y un cruce favorable a medio plazo.
-* **RSI (14 periodos):** Se sitúa en **72.26**, adentrándose en zona de **sobrecompra** técnica (>70). Esto sugiere prudencia ante posibles correcciones técnicas a corto plazo o consolidación lateral, aunque en tendencias fuertes el RSI puede permanecer elevado temporalmente.
-* **MACD y Señal:** MACD en **2.92** y Línea de Señal en **2.27**, mostrando un impulso alcista sólido y confirmado por la diferencia positiva.
-* **Volatilidad y Retornos:**
-  * Volatilidad anualizada de 25.15%.
-  * Retornos acumulados recientes: +20.14% a 21 sesiones y +19.31% a 63 sesiones.
-  * *Drawdown* actual desde máximos: -17.70%.
-
----
-
-#### 4. Evidencias de Noticias y Catalizadores (Noviembre 2026)
-* **Jefferies (13-11-2026):** Elevó el precio objetivo de `ROVI.MC` tras la publicación de resultados, destacando de manera sobresaliente el fuerte impulso del negocio CDMO (desarrollo y fabricación bajo contrato) (Fuente: *Bolsamania*).
-* **Renta 4 (10-11-2026):** Mantiene su recomendación positiva sobre el valor, estimando un potencial alcista superior al 22% en sus análisis a plazos amplios (Fuente: *Estrategias de Inversión*).
-* **Comportamiento del Mercado (12-11-2026):** El valor ha ejercido como uno de los catalizadores y soportes del selectivo español (Ibex 35) por encima de los 20.000 puntos junto con otros grandes valores del sector salud (Fuente: *Estrategias de Inversión*).
-* **Contexto Macroeconómico:** Los titulares europeos señalan persistencia de presiones inflacionarias en la eurozona (con lecturas cercanas al 4%) y tipos de interés reales restrictivos, un entorno macro que suele favorecer la rotación hacia sectores defensivos y con sólidos fundamentales como el farmacéutico (Fuentes: *El Economista*, *Negocios.com*).
+#### 3. Fundamentos y Estado Financiero
+- **Valor de Mercado y Valoración:**
+  - Capitalización bursátil: ~3.560 millones de EUR.
+  - **Trailing P/E:** 17.31x / **Forward P/E:** 21.13x.
+  - **Precio/Valor en Libros (P/B):** 4.56x.
+  - **EV/EBITDA:** 18.34x.
+- **Rentabilidad y Márgenes:**
+  - Margen de beneficios (*Profit Margins*): **24.81%** (altamente rentable).
+  - Retorno sobre el capital (*Return on Equity* - ROE): **28.71%**.
+  - Crecimiento de ingresos (*Revenue Growth*): **26.4%**.
+- **Posición de Deuda y Liquidez:**
+  - Deuda total: 100.95 millones de EUR (frente a 121.72 millones en el cierre contable de 2025).
+  - Efectivo total: 70.92 millones de EUR.
+  - Ratio Deuda Neta / EBITDA: **0.15x**, lo que denota una salud financiera envidiable y bajo apalancamiento.
+- **Dividendos:**
+  - Rentabilidad por dividendo (*Dividend Yield*): **1.38%** (dividendo por acción de 0.96 EUR, con un *payout ratio* conservador del 25.83%).
+- **Consenso de Analistas:**
+  - Precio objetivo medio (*Target Mean Price*): **75.0 EUR** (con un rango entre un mínimo de 67.0 EUR y un máximo de 89.0 EUR, basado en 9 opiniones de analistas). Esto arroja un potencial de revalorización (*consensus upside*) del **7.76%** desde los 69.60 EUR actuales.
 
 ---
 
-#### 5. Gestión de Riesgos y Datos Faltantes
-* **Evidencia Faltante:** No se dispone en el conjunto de datos de un modelo detallado de descuento de flujos de caja (DCF) interno propio, por lo que la valoración se basa exclusivamente en múltiplos de mercado actuales y el consenso de analistas institucionales.
-* **Riesgos Principales:** El RSI en niveles superiores a 70 advierte de un riesgo elevado de toma de beneficios a corto plazo. Asimismo, el PER *forward* (21.01x) descuenta una contracción temporal de beneficios en comparación con el ejercicio precedente, lo que exige vigilar de cerca la ejecución trimestral de los contratos CDMO.
+#### 4. Noticias y Catalizadores Recientes (Noviembre 2026)
+- **Jefferies (13/11/2026):** Elevó el precio objetivo de `ROVI.MC` tras la publicación de resultados, destacando especialmente el fuerte impulso y crecimiento del negocio **CDMO** (fabricación para terceros).
+- **Renta 4 (10/11/2026):** Mantuvo su recomendación positiva con un potencial superior al 22% en sus análisis previos del mes.
+- **Contexto Macro:** Entorno europeo marcado por presiones inflacionarias (inflación de la eurozona en torno al 4%) y tipos de interés estables/restrictivos, donde los inversores buscan refugio en valores defensivos de alta calidad, sólidos fundamentales y baja deuda como `ROVI.MC`.
 
 ---
 
-#### 6. Tabla Resumen de Indicadores Clave y Métricas
+#### 5. Evidencia Faltante y Limitaciones
+- No se dispone de un desglose por segmentos de negocio en tiempo real más allá de los datos agregados de ingresos y CDMO mencionados por analistas.
+- Las valoraciones sectoriales comparativas directas automatizadas no están plenamente pobladas, suplidas por los múltiplos absolutos (Trailing P/E de 17.3x y EV/EBITDA de 18.3x).
 
-| Categoría / Métrica | Valor / Indicador | Interpretación para la Toma de Decisiones |
+---
+
+#### Tabla Resumen Clave
+
+| Métrica / Indicador | Valor Actual (`ROVI.MC`) | Interpretación / Implicación |
 | :--- | :--- | :--- |
-| **Precio de Cierre** | 69.20 EUR (13/11/2026) | Cotización reciente validada por snapshot oficial. |
-| **SMA 20 / SMA 50 / SMA 200** | 64.01 / 60.60 / 65.17 EUR | Alineación alcista; el precio se mantiene por encima de los tres soportes clave. |
-| **RSI (14)** | 72.26 | Zona de sobrecompra (>70); precaución ante posibles recortes de corto plazo. |
-| **MACD & Señal** | MACD: 2.92 / Señal: 2.27 | Impulso alcista robusto y activo. |
-| **PER (Trailing / Forward)** | 17.21x / 21.05x | Valora beneficios pasados atractivos frente a una moderación esperada a
+| **Precio de Cierre** | 69.60 EUR (16/11/2026) | Tendencia alcista reciente; superación de SMA200 (65.16 EUR). |
+| **RSI (14)** | 73.19 | Momento fuerte comprador, vigilando posibles zonas de sobrecompra. |
+| **MACD vs Señal** | 2.90 vs 2.40 | Cruce alcista confirmado, impulso positivo activo. |
+| **Trailing P/E** | 17.31x | Valoración razonable en relación con sus beneficios históricos. |
+| **Deuda Neta / EBITDA**| 0.15x | Estructura de capital muy sólida y conservadora. |
+| **Margen de Beneficios** | 24.81% | Alta eficiencia operativa y rentabilidad neta. |
+| **Precio Objetivo Consenso**| 75.0 EUR | Upside potencial de ~7.76% sobre el precio de mercado. |
+| **Catalizador Principal** | Negocio CDMO | Impulso destacado por firmas como Jefferies tras resultados. |
