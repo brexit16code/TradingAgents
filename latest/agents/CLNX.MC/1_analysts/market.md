@@ -1,34 +1,33 @@
-El análisis de **Cellnex (CLNX.MC)**, líder en infraestructura de telecomunicaciones, revela una situación técnica y fundamental compleja, marcada por un apalancamiento significativo y un entorno de tipos de interés persistente que presiona su valoración.
+El análisis de **Cellnex (CLNX.MC)**, operadora de infraestructuras de telecomunicaciones, revela una situación técnica y fundamental compleja, marcada por un entorno de tipos de interés persistentes y una elevada carga de deuda, a pesar de sus sólidos fundamentales operativos.
 
 ### Análisis Técnico
-A fecha de 16 de noviembre de 2026, el precio de cierre de **CLNX.MC** es de **26,36 EUR**. El activo se encuentra en una fase de consolidación, operando cerca de su media móvil de 200 sesiones (**26,96 EUR**), lo que actúa como una resistencia técnica clave a largo plazo.
+A fecha de 17 de noviembre de 2026, el precio de cierre se sitúa en **25,72 EUR**, reflejando una caída del **2,43%** en la sesión. El análisis de las medias móviles indica una tendencia lateral-bajista:
+*   El precio cotiza por debajo de su media móvil de 200 sesiones (**26,96 EUR**) y muy cerca de la de 20 sesiones (**26,18 EUR**), lo que sugiere una falta de impulso comprador a largo plazo.
+*   El RSI (14) en **47,99** indica neutralidad, sin condiciones de sobrecompra o sobreventa extremas.
+*   El MACD (**0,38**) se encuentra por debajo de su línea de señal (**0,46**), confirmando una presión bajista en el corto plazo.
+*   La volatilidad se mantiene en niveles del **28,26%**, lo que implica una sensibilidad constante a noticias macroeconómicas sobre la inflación en la Eurozona.
 
-*   **Tendencia:** Con un RSI de 55,34, el valor muestra un momentum neutral, sin señales claras de sobrecompra o sobreventa. El MACD (0,469) se sitúa por debajo de su línea de señal (0,482), lo que sugiere una ligera presión vendedora a corto plazo tras los recientes descensos.
-*   **Volatilidad:** El activo presenta una volatilidad del 27,90%, situándose un 17,6% por debajo de sus máximos recientes.
-*   **Soportes y Resistencias:** La SMA de 50 (25,07 EUR) ofrece un nivel de soporte dinámico, mientras que el área de los 27,00 EUR representa una barrera que el precio necesita superar para consolidar un cambio de tendencia alcista.
+### Análisis Fundamental y Financiero
+*   **Deuda y Apalancamiento:** El ratio **Net Debt/EBITDA de 7,96x** sigue siendo un punto crítico. Aunque la compañía genera un EBITDA robusto (**2.591 millones de EUR**), el nivel de deuda total alcanza los **22.127 millones de EUR**, lo que limita su flexibilidad financiera en un contexto donde los tipos de interés se mantienen presionados por una inflación del 4% en la zona euro (Fuente: *El Economista*, 13-11-2026).
+*   **Rentabilidad:** Los resultados muestran una pérdida neta constante (ej. -360,78 M EUR en 2025). La empresa, clasificada en el sector inmobiliario de servicios (torres de telecomunicaciones), cotiza a un **Price-to-Book de 1,30x**, lo que refleja un mercado cauto respecto a sus activos.
+*   **Expectativas:** El consenso de analistas (23 opiniones) sitúa un precio objetivo medio de **34,35 EUR**, lo que representa un **upside potencial del 33,56%**. Sin embargo, esta valoración parece depender de una futura normalización de los tipos de interés que no se refleja en la macroeconomía actual.
 
-### Análisis Fundamental
-La situación financiera de **CLNX.MC** se caracteriza por una carga de deuda considerable, con una deuda neta/EBITDA de **7,95x**, lo que explica gran parte de la sensibilidad del valor a los tipos de interés.
+### Factores a considerar
+*   **Soportes y Resistencias:** El precio ha experimentado un retroceso del **19,61%** desde máximos (*drawdown*), situándose en una zona técnica donde la SMA50 (**25,08 EUR**) podría actuar como soporte crítico.
+*   **Riesgos:** La falta de flujo de caja libre positivo neto de manera consistente a través de los años (FCF de 525,8 M EUR en 2025 frente a capex intensivo) sigue penalizando la valoración.
+*   **Información faltante:** Los datos de flujo de caja operativo y libre para periodos intermedios del 2026 no están presentes en el conjunto de datos proporcionado, lo que dificulta evaluar la ejecución del plan estratégico actual.
 
-*   **Valoración:** Los analistas mantienen una visión cautelosa con un precio objetivo promedio de **34,35 EUR**, lo que implica un potencial de revalorización teórico del 30,3% según los 23 analistas consultados. No obstante, el beneficio por acción (EPS) sigue siendo negativo (-0,48), reflejando los costes financieros asociados a su expansión.
-*   **Contexto Macro:** Como se reporta en noticias de *Bankinter* y *El Economista* (13-11-2026), la persistencia de una inflación en la zona euro cercana al 4% limita la capacidad de los bancos centrales para reducir tipos, lo cual impacta negativamente a empresas intensivas en capital como Cellnex.
+**Rating**: Neutral
 
-### Riesgos y Consideraciones
-*   **Evidencia contraria:** La empresa muestra un crecimiento de ingresos del 30,1%, lo cual es sólido; sin embargo, este no se traslada a resultados netos positivos debido a la estructura de capital.
-*   **Datos faltantes:** No se dispone de comparativas sectoriales actualizadas para el cálculo de múltiplos de valoración justificados, y los flujos de caja operativos presentan una fluctuación notable entre 2023 y 2025.
-
-### Resumen de Indicadores Clave
-
-| Indicador | Valor | Interpretación |
+| Indicador / Métrica | Valor / Situación | Comentario |
 | :--- | :--- | :--- |
-| Precio Cierre | 26,36 EUR | Neutral / Consolidación |
-| RSI (14) | 55,34 | Neutral |
-| SMA 200 | 26,96 EUR | Resistencia principal |
-| Net Debt/EBITDA | 7,95x | Elevado, sensibilidad a tipos |
-| Upside Consenso | 30,31% | Optimismo moderado (analistas) |
+| Precio Actual | 25,72 EUR | Bajo SMA20 y SMA200 |
+| RSI (14) | 47,99 | Zona neutral |
+| Net Debt/EBITDA | 7,96x | Apalancamiento elevado |
+| Consenso Upside | +33,56% | Divergencia con tendencia técnica |
+| Dividend Yield | 2,92% | Moderado para el sector |
+| Tendencia (63 días) | -1,91% | Debilidad en el trimestre |
 
-**Rating**: HOLD
+FINAL TRANSACTION PROPOSAL: Hold
 
-FINAL TRANSACTION PROPOSAL: Mantener una postura neutral ("Hold"). La estructura financiera de **CLNX.MC** requiere una mayor estabilización en los tipos de interés de la Eurozona antes de justificar una entrada agresiva, a pesar de que el valor cotiza por debajo del precio objetivo de consenso. Se recomienda vigilar la ruptura al alza de la SMA de 200 sesiones como señal de confirmación de tendencia.
-
-*Descargo de responsabilidad: Esta es una investigación basada en datos históricos y públicos; no constituye una recomendación de inversión. Las decisiones financieras deben ser consultadas con asesores certificados.*
+*Descargo de responsabilidad: Este informe se basa únicamente en los datos proporcionados con fecha 17-11-2026 y no constituye una recomendación de inversión. El análisis es de carácter informativo y está sujeto a la volatilidad del mercado.*

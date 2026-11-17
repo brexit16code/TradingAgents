@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: El precio de COL.MC se encuentra atrapado en un rango técnico estrecho entre su soporte en la SMA50 (5,06 EUR) y su resistencia en la SMA200 (5,18 EUR). Si bien la valoración por debajo del valor contable es atractiva, el entorno de tipos de interés altos en la Eurozona y la significativa carga de deuda de la empresa justifican una postura de espera hasta que la tendencia se aclare o las condiciones macro mejoren.
+**Reasoning**: La acción se mantiene en una zona de consolidación técnica crítica, cotizando por debajo de la media móvil de 200 días (5,18 EUR), lo que indica una falta de momentum alcista pese a su clara infravaloración fundamental (P/B 0,54). La elevada deuda frente a un entorno de tipos de interés presionados por la inflación justifica esperar una ruptura de la resistencia técnica de 5,18 EUR antes de iniciar una posición compradora, priorizando la preservación de capital frente a la rentabilidad por dividendo.
 
-**Entry Price**: 5.18
+**Entry Price**: 5.19
 
-**Stop Loss**: 5.06
+**Stop Loss**: 4.85
 
-**Position Sizing**: Mantener posición actual; evitar incremento de exposición hasta la ruptura de la resistencia de 5,18 EUR.
+**Position Sizing**: 0.5% del portafolio (hipotético)
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

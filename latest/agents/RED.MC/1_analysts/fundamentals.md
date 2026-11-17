@@ -1,33 +1,39 @@
-Este informe presenta un análisis fundamental de **Redeia Corporación, S.A. (RED.MC)**, basado en los datos financieros y de mercado proporcionados a fecha de 16 de noviembre de 2026.
+Este informe técnico-fundamental analiza a **Redeia Corporación, S.A. (RED.MC)**, el operador del sistema eléctrico español, basándose en la información disponible a fecha del 17 de noviembre de 2026.
 
-### Perfil y Visión General
-Redeia (anteriormente Red Eléctrica) opera como el operador del sistema eléctrico y transportista de energía de alta tensión en España. Como empresa de servicios públicos (utilities) regulados, su modelo de negocio se basa en flujos de caja estables sujetos a marcos regulatorios, lo que tradicionalmente le otorga un perfil defensivo.
+### Análisis Fundamental y Situación Financiera
 
-### Análisis Financiero
-*   **Resultados Recientes:** Los estados financieros muestran una evolución moderada. Los ingresos pasaron de 1.819 millones de euros en 2023 a 1.660 millones en 2025. El EBITDA se ha mantenido resiliente, situándose en 1.305 millones de euros al cierre de 2025.
-*   **Endeudamiento:** La ratio de *Net Debt/EBITDA* se sitúa en 4,96x, una cifra elevada típica del sector de infraestructura eléctrica, que requiere intensivas inversiones de capital (CAPEX). El CAPEX en 2025 fue de 1.407 millones de euros, lo que resultó en un flujo de caja libre negativo (-394 millones de euros), un punto de atención crítico para la sostenibilidad de la deuda.
-*   **Valoración:** Con un PER *forward* de 16,91x y una rentabilidad por dividendo del 4,91%, la acción cotiza cerca de su valor medio objetivo de analistas (16,44 €). La acción muestra una tendencia alcista reciente, confirmada por un RSI de 77,06 que sugiere condiciones de sobrecompra técnica a corto plazo.
+**Redeia (RED.MC)** opera en el sector de *Utilities - Regulated Electric*, lo que proporciona una base de ingresos predecible y defensiva. Sin embargo, su estructura financiera presenta desafíos actuales:
 
-### Análisis del Entorno y Noticias
-El mercado sigue de cerca el plan de inversiones de Redeia hacia 2030, con analistas como Berenberg destacando la importancia de este plan para el crecimiento futuro. La acción ha tenido un desempeño positivo en los últimos días (destacando subidas del 2,90% y 2,02% reportadas por Bolsamanía el 13 de noviembre), a menudo impulsada por un sentimiento de mercado que busca refugio en valores con dividendos sostenibles ante un entorno de inflación persistente en la Eurozona (4% reportado recientemente).
+1.  **Rentabilidad y Valoración:** La empresa cotiza con un PER *forward* de 16.79, alineado con la mediana de sus pares. Con una capitalización bursátil de 8,698 millones de euros y un beneficio por acción (*forward EPS*) esperado de 0.96 €, la valoración parece ajustada al contexto de tipos de interés, marcado por una inflación en la eurozona del 4% (fuente: *El Economista*, 13/11/2026).
+2.  **Solidez y Deuda:** El ratio de deuda neta sobre EBITDA es elevado, situándose en **4.96x**. Este nivel de apalancamiento es una consideración crítica para los inversores, especialmente en un entorno de tipos reales negativos donde la financiación puede encarecerse si la inflación persiste (fuente: *Vozpopuli*, 14/11/2026).
+3.  **Dividendos:** Redeia sigue siendo un valor atractivo para inversores por rentas, con una rentabilidad por dividendo del **4.96%**. No obstante, con un *payout ratio* del 85.3%, el margen para incrementos significativos es limitado.
+4.  **Flujo de Caja:** Se observa una tendencia preocupante en el flujo de caja libre (*free cash flow*), que ha sido negativo en los últimos tres ejercicios fiscales (cerrando en -393.8 millones de euros en 2025), presionado por unas inversiones (CAPEX) intensivas que alcanzaron los 1,407 millones en 2025.
 
-### Factores de Riesgo y Observaciones
-*   **Datos faltantes:** No se dispone de las proyecciones de crecimiento de beneficios (Earnings Growth) para los próximos ejercicios, lo que dificulta una valoración DCF precisa.
-*   **Riesgo macro:** El entorno de tipos de interés y la inflación elevada en la Eurozona presionan los costes financieros de una empresa altamente apalancada.
-*   **Dividendos:** Con un ratio de reparto (payout) del 85,3%, la capacidad de aumentar el dividendo está limitada por la generación de caja operativa frente a las elevadas exigencias de inversión.
+### Análisis Técnico y de Mercado
+El valor ha mostrado un comportamiento relativo positivo recientemente, siendo protagonista en el IBEX 35 tras varias sesiones de alzas (fuente: *Bolsamania*, 13/11/2026). Cotiza a 16.12 €, por encima de sus medias móviles de 20, 50 y 200 días, lo que denota una tendencia alcista a medio plazo. El RSI de 71.4 sugiere que el valor podría estar entrando en territorio de sobrecompra, lo que podría anticipar una consolidación técnica.
 
-### Conclusión para Traders
-RED.MC se comporta actualmente como una acción de "ingresos" (yield play) con un momentum técnico alcista. La proximidad al precio objetivo medio (16,44 €) frente a la cotización actual (16,24 €) sugiere un potencial alcista limitado a corto plazo, con una resistencia técnica probable cerca de los máximos del rango de analistas (19,40 €).
+### Insight para Traders
+*   **Catalizadores:** La atención se centra en el plan de inversiones hacia 2030, que será la clave para sostener el crecimiento futuro (fuente: *MarketScreener*, 16/11/2026).
+*   **Riesgos:** La inflación persistente y su impacto en los costes financieros (dado su alto nivel de deuda) son el principal viento en contra. La incapacidad de reducir el CAPEX o aumentar los ingresos regulados presionaría los márgenes.
+*   **Expectativa:** El consenso de mercado sitúa el precio objetivo en 16.43 €, lo que implica un potencial alcista limitado (aprox. 1.95%) desde el cierre actual.
+
+### Datos Faltantes
+No se dispone de información detallada sobre transacciones de *insiders* en el periodo reciente ni el desglose geográfico detallado de los ingresos para el cierre de 2026, lo cual permitiría una mayor granularidad en el análisis de riesgos geopolíticos.
+
+---
+
+### Resumen de Indicadores Clave (RED.MC)
+
+| Indicador | Valor / Dato |
+| :--- | :--- |
+| Precio Actual | 16.12 EUR |
+| Rentabilidad Dividendo | 4.96% |
+| PER (Forward) | 16.79 |
+| Deuda Neta / EBITDA | 4.96x |
+| Capitalización | 8.69 Billions EUR |
+| RSI (14) | 71.41 |
+| Consenso Precio Objetivo | 16.43 EUR |
+| Tendencia (SMA 200) | 14.84 EUR |
 
 **Rating**: HOLD
-
-| Indicador | Valor |
-| :--- | :--- |
-| Precio Actual | 16,24 EUR |
-| PER (Forward) | 16,91 |
-| Dividend Yield | 4,91% |
-| Net Debt/EBITDA | 4,96x |
-| Precio Objetivo (Media) | 16,44 EUR |
-| Recomendación | Mantener |
-
-FINAL TRANSACTION PROPOSAL: No trade execution; monitor for consolidation after recent RSI-driven gains.
+FINAL TRANSACTION PROPOSAL: N/A (Solo análisis de investigación).

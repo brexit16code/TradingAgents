@@ -1,40 +1,36 @@
-### Informe Fundamental: Solaria Energía y Medio Ambiente, S.A. (SLR.MC)
+Este informe analiza la situación fundamental de **Solaria Energía y Medio Ambiente, S.A. (SLR.MC)**, basada en los datos financieros y de mercado proporcionados a fecha de 17 de noviembre de 2026.
 
-**Fecha de reporte:** 16 de noviembre de 2026
+### Análisis Fundamental de Solaria (SLR.MC)
 
-#### 1. Perfil de la Empresa
-Solaria Energía y Medio Ambiente, S.A. (`SLR.MC`) es una compañía líder en el sector de servicios públicos (Utilities), específicamente enfocada en energía renovable. Opera principalmente en el desarrollo y generación de energía fotovoltaica. Cotiza en la Bolsa de Madrid y forma parte del ecosistema del índice ^IBEX.
+**Perfil y Desempeño Reciente:**
+Solaria, una empresa del sector de energías renovables, opera en un entorno volátil. A cierre del 17/11/2026, la acción cotiza a **15,08 €**. El comportamiento reciente es negativo, con caídas del 11,01% en los últimos 63 días y un descenso interanual del 14,71%. El título cotiza significativamente por debajo de sus medias móviles de 50 (16,03 €) y 200 días (19,54 €), lo que sugiere una tendencia bajista técnica.
 
-#### 2. Análisis Financiero y Desempeño Reciente
-Los datos financieros indican una empresa en fase de expansión, caracterizada por un fuerte crecimiento en ingresos y beneficios, pero con presiones significativas en su flujo de caja debido a la intensidad de capital.
+**Situación Financiera:**
+*   **Valoración:** La compañía presenta múltiplos atractivos bajo criterios tradicionales, con un **P/E (Trailing) de 8,06x** y un **Forward P/E de 8,86x**. Esto se alinea con la métrica de "PER relativo inferior" comparado con sus pares (ANE.MC, ENG.MC, etc.), situándose en una ratio de 0,53 respecto a la mediana del sector.
+*   **Balance y Solvencia:** El ratio de **Net Debt/EBITDA de 4,14x** es un punto de atención crítica. Con una deuda total de 1.559 millones de euros frente a 209 millones de caja, la compañía mantiene un apalancamiento importante. Aunque el ROE (20,44%) es saludable, el **Free Cash Flow es negativo (-437,97 millones €)**, lo que indica una fase de alta intensidad de capital (CapEx elevado de 398 millones en 2025).
+*   **Crecimiento:** Los resultados de 2025 mostraron ingresos por 197,4 millones €, con un crecimiento de beneficios sólido. Sin embargo, el mercado está reaccionando negativamente a las noticias recientes sobre la financiación de proyectos de centros de datos y la capacidad de almacenamiento (baterías).
 
-*   **Resultados (2025):** La empresa reportó una facturación de 197,44 millones de euros y un beneficio neto de 137,39 millones, lo que refleja un margen de beneficio neto saludable (~48,57%). El EBITDA alcanzó los 266,73 millones de euros.
-*   **Balance:** La empresa mantiene una deuda total significativa de 1.559,4 millones de euros (frente a 1.508,7 millones al cierre de 2025). Su ratio de apalancamiento (Net Debt/EBITDA) se sitúa en 4,14x, lo que requiere un monitoreo constante dado el entorno actual de tipos de interés en la zona euro.
-*   **Flujos de Caja:** Existe una divergencia crítica entre el beneficio contable y el flujo de caja libre. El FCF es negativo (-437,97 millones de euros), impulsado por gastos de capital (CapEx) masivos destinados al crecimiento de su capacidad instalada.
+**Sentimiento y Mercado:**
+El sentimiento es mixto. Por un lado, analistas como **Goldman Sachs** mantienen una visión alcista con un objetivo de 25 € (Estrategias de Inversión, 16/11/2026). Por otro lado, la cotización ha sufrido presión bajista reciente ante dudas sobre la ejecución de proyectos de centros de datos, arrastrando al IBEX 35 en sesiones recientes.
 
-#### 3. Valoración y Mercado
-*   **Valoración:** Con un PER (Price-to-Earnings Ratio) *trailing* de 7,97x y un *forward* de 8,76x, la acción cotiza con un descuento significativo respecto a la mediana de sus pares del sector (16,91x).
-*   **Consenso:** Los analistas mantienen una visión optimista con un precio objetivo medio de 22,39 EUR, lo que implica un potencial de revalorización (*upside*) superior al 50% desde el precio de cierre actual de 14,90 EUR. Sin embargo, la acción ha sufrido un castigo técnico, con una caída del 42,1% desde sus máximos (*drawdown*).
+### Riesgos y Consideraciones
+1.  **Macroeconomía:** El contexto de inflación en la Eurozona (4%) y los tipos de interés elevados presionan las valoraciones de empresas intensivas en capital como SLR.MC.
+2.  **Financiación:** La capacidad para financiar su expansión en almacenamiento y centros de datos será clave para recuperar la confianza del mercado.
+3.  **Falta de datos:** No se dispone de información detallada sobre el calendario de deuda a corto plazo o desgloses específicos de los contratos de venta de energía a largo plazo (PPA), elementos vitales para modelar el flujo de caja futuro.
 
-#### 4. Contexto Macroeconómico
-La empresa se enfrenta a un entorno complejo. Las noticias recientes (13-16 de noviembre de 2026) destacan una inflación persistente en la eurozona cercana al 4%, lo que limita las expectativas de bajadas de tipos de interés. Para una empresa de renovables intensiva en capital como `SLR.MC`, los tipos de interés elevados incrementan el coste de la deuda y presionan los márgenes de los nuevos proyectos.
+### Resumen de Datos Clave
 
-#### 5. Riesgos y Oportunidades
-*   **Oportunidades:** El bajo PER sugiere que el mercado ha descontado en exceso los riesgos regulatorios o financieros. Su sólida tasa de crecimiento (Ingresos +38,8%, Beneficios +44,4%) es un catalizador positivo si el coste de financiación se estabiliza.
-*   **Riesgos:** La alta volatilidad (53,8%) y la tendencia técnica negativa (por debajo de las medias móviles de 50 y 200 sesiones) indican una falta de soporte comprador inmediato. La política de dividendos es nula, lo que puede alejar a inversores que buscan ingresos recurrentes en este entorno inflacionario.
+| Concepto | Valor / Dato |
+| :--- | :--- |
+| **Precio Actual** | 15,08 € |
+| **Capitalización Bursátil** | 1.985 Millones € |
+| **P/E (Forward)** | 8,86x |
+| **Net Debt / EBITDA** | 4,14x |
+| **ROE** | 20,44% |
+| **Consensus Target Price** | 22,27 € |
+| **Consensus Upside** | +47,70% |
+| **Tendencia técnica** | Bajista (bajo SMA200) |
 
-#### Tabla de Resumen: Indicadores Clave
+**Rating**: HOLD (Debido a la contradicción entre múltiplos de valoración atractivos y dudas operativas/ejecución de deuda).
 
-| Métrica | Valor | Observación |
-| :--- | :--- | :--- |
-| Precio Actual | 14,90 EUR | Tendencia bajista, lejos de la SMA200 (19,55) |
-| Market Cap | 1.961,5 M EUR | Valoración de mediana capitalización |
-| Trailing PER | 7,97x | Atractivo vs. Media sectorial (16,91x) |
-| Net Debt / EBITDA | 4,14x | Apalancamiento moderado-alto |
-| Consensus Upside | +50,29% | Alta expectativa según analistas |
-| Margen Neto | 48,57% | Elevada rentabilidad operativa |
-
-**Rating**: HOLD
-FINAL TRANSACTION PROPOSAL: Mantener posiciones existentes; esperar una confirmación de cambio de tendencia técnica (ruptura de SMA50) antes de incrementar exposición, debido a la presión macroeconómica sobre los costes financieros.
-
-*Nota: La información sobre noticias se basa en titulares disponibles hasta el 16 de noviembre de 2026. Los datos financieros provienen de las declaraciones anuales suministradas.*
+FINAL TRANSACTION PROPOSAL: Mantener posición actual esperando aclaraciones sobre la viabilidad de la financiación de centros de datos el próximo jueves. No incrementar exposición hasta observar una estabilización técnica sobre los 15,41 € (SMA20).

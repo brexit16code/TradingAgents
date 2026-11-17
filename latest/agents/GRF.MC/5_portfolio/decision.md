@@ -1,9 +1,9 @@
-**Rating**: Overweight
+**Rating**: Hold
 
-**Executive Summary**: Se recomienda adoptar una postura de Overweight en GRF.MC, incrementando gradualmente la exposicion de forma fraccionada. Dado el RSI en sobrecompra de 77,94 y la volatilidad, se aconseja evitar compras masivas y aprovechar recortes hacia las medias móviles o soporte para completar la posición.
+**Executive Summary**: Mantener la posición actual sin incrementar exposición. La estrategia se basa en proteger el capital ante el agotamiento técnico marcado por un RSI de 73,77, mientras se vigila el riesgo de apalancamiento. Se recomienda establecer una orden de compra limitada cerca de la media móvil de 50 días (10,26 EUR) para capturar valor en caso de corrección técnica.
 
-**Investment Thesis**: La tesis alcista se sustenta en datos operativos muy sólidos, como la aceleración de los ingresos hasta los 7.524 millones de euros en 2025, el beneficio neto de 402 millones, un flujo de caja libre positivo superior a 600 millones y un atractivo PER forward de 10,62x, respaldado además por la presencia institucional de Morgan Stanley con un 7%. Si bien el analista conservador advierte sobre un endeudamiento total cercano a los 9.240 millones de euros y una ratio de deuda neta sobre EBITDA de 5,04x en un entorno de tipos restrictivos, la capacidad operativa actual y la generación de caja contrarrestan el riesgo puramente teórico del apalancamiento. Para mitigar los riesgos de corto plazo derivados de la sobrecompra técnica, la operación debe ejecutarse de manera escalonada, vigilando de cerca los costes de refinanciación.
+**Investment Thesis**: La decisión de mantener se sustenta en la divergencia entre la sólida recuperación operativa (FCF positivo y crecimiento de ingresos) y la fragilidad del balance con un ratio deuda neta/EBITDA de 5,04x. Mientras que el Analista Agresivo subraya la confianza institucional de Morgan Stanley y el potencial alcista del 32%, la realidad macroeconómica de una inflación del 4% en la Eurozona y la sobrecompra técnica actúan como frenos críticos que invalidan una recomendación de compra en los niveles actuales. La tesis se revisará si el ratio de deuda desciende de manera sostenida por debajo de 4.0x o si el RSI se normaliza sin perforar los soportes técnicos clave definidos por la media móvil de 50 días. El principal factor de riesgo sigue siendo el coste de la deuda en un entorno de tipos elevados, lo cual podría erosionar los beneficios estimados de 1,09 EUR por acción forward.
 
 **Price Target**: 15.25
 
-**Time Horizon**: 3-6 meses
+**Time Horizon**: 6-12 meses

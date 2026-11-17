@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La acción se encuentra actualmente en zona de sobrecompra técnica con un RSI de 77.06, lo que sugiere una corrección a corto plazo. Aunque la tendencia alcista es sólida sobre las medias móviles, el potencial de subida según el consenso es limitado (1.2%) y el ratio de endeudamiento es elevado, por lo que no se justifica una entrada a estos niveles de precio.
+**Reasoning**: La acción se encuentra técnicamente sobrecomprada con un RSI de 71,41, lo que sugiere un agotamiento del momentum alcista a corto plazo. Adicionalmente, el potencial de revalorización respecto al precio objetivo de consenso (16,43 EUR) es limitado y los fundamentos muestran presiones por alto apalancamiento (net debt/EBITDA de 4,96x) y flujo de caja libre negativo, lo que justifica mantener la posición actual sin realizar compras adicionales hasta ver una corrección técnica hacia niveles de soporte.
 
-**Entry Price**: not provided
+**Entry Price**: 15.11
 
-**Stop Loss**: 14.8
+**Stop Loss**: 14.5
 
-**Position Sizing**: Mantener posición actual, no incrementar exposición.
+**Position Sizing**: Mantener posición actual; no incrementar.
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

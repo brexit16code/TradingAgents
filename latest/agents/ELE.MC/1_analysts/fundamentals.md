@@ -1,35 +1,37 @@
-Este informe técnico y fundamental analiza a **Endesa, S.A. (`ELE.MC`)**, una empresa líder en el sector de servicios públicos (Utilities) en España, basándose en la información proporcionada al 16 de noviembre de 2026.
+Informe de Análisis Fundamental: Endesa, S.A. (`ELE.MC`)
 
-### Perfil de la Compañía y Contexto de Mercado
-Endesa es un pilar fundamental en el sector eléctrico español. Actualmente, el mercado atraviesa una etapa de incertidumbre macroeconómica caracterizada por una inflación persistente en la zona euro (estimada en torno al 4% según reportes de noviembre de 2026), lo que limita la capacidad de los bancos centrales para flexibilizar las políticas de tipos de interés. Esta coyuntura afecta directamente a las empresas del sector *Utilities*, que suelen ser intensivas en capital y sensibles a los costes de financiación.
+Fecha de análisis: 17 de noviembre de 2026
+
+### Perfil y Visión General
+Endesa, S.A. es una empresa líder en el sector de servicios públicos (Utilities), especializada en la generación, distribución y comercialización de electricidad y gas en España y Portugal. Opera bajo el modelo de negocio de "Utilities - Regulated Electric", lo que generalmente proporciona flujos de caja estables, aunque sujetos a regulación y presión política.
 
 ### Análisis Financiero
-*   **Valoración y Rentabilidad:** Con una capitalización bursátil de ~45.400 millones de EUR, la empresa muestra una relación Precio/Beneficio (P/E) *forward* de 18,49x. El ratio Precio/Valor Contable (P/B) de 5,83x es elevado, lo que sugiere que el mercado valora significativamente sus activos operativos frente a su valor contable.
-*   **Crecimiento:** Se observa una desaceleración en el crecimiento de los beneficios (-26,7% reportado), aunque los ingresos han mostrado resiliencia. La rentabilidad sobre el capital propio (ROE) es sólida, situada en el 27,2%.
-*   **Solidez del Balance:** La empresa presenta una deuda total de 11.905 millones de EUR frente a una caja de apenas 67 millones, lo que arroja una ratio de deuda neta/EBITDA de 2,10x, nivel que se considera manejable dentro del sector regulado, permitiendo mantener un dividendo con un *yield* del 3,53%.
-*   **Generación de Efectivo:** Endesa ha logrado mejorar su flujo de caja operativo (4.081 millones de EUR) en comparación con periodos anteriores, manteniendo una disciplina de capex (1.844 millones de EUR en 2025), lo que le permite sostener un flujo de caja libre positivo de 1.440 millones de EUR.
+*   **Valoración:** La compañía cotiza a un ratio Precio/Beneficio (P/E) *trailing* de 18.52 y *forward* de 18.21. Con un ratio Precio/Valor Contable de 5.75 y una rentabilidad por dividendo del 3.58%, la valoración refleja una prima respecto a sus pares (ratio de 1.08 sobre la mediana del sector), lo que sugiere que el mercado valora su estabilidad y posicionamiento.
+*   **Desempeño reciente:** Los ingresos se han mantenido relativamente estables en 2024 y 2025 (~21.000 millones EUR), tras el pico inusual de 2023. El EBITDA de 2025 se situó en 5.314 millones EUR, mostrando una recuperación frente a 2024 (4.949 millones EUR).
+*   **Solidez del Balance:** La empresa presenta una deuda total de 11.905 millones EUR, con un ratio Deuda Neta/EBITDA de 2.10x, nivel que se considera manejable para una empresa de servicios públicos regulada.
 
-### Perspectiva Técnica y de Consenso
-La acción cotiza a 44,75 EUR, habiendo experimentado una corrección reciente del 2,7%. Se mantiene por encima de sus medias móviles de 50 y 200 días (42,95 EUR y 38,40 EUR respectivamente), lo que indica una tendencia alcista a largo plazo intacta a pesar de la volatilidad actual. Sin embargo, el precio actual se encuentra por encima del objetivo promedio de los analistas (36,82 EUR), lo que implica una sobrevaloración según el consenso, con una "upside" negativa del -17,7%.
+### Eventos Significativos y Sentimiento
+*   **Noticias Recientes:** El sentimiento está mixto. Por un lado, RBC ha elevado sus previsiones y precio objetivo tras la publicación de resultados (16/11/2026), impulsado por expectativas de una prórroga de la vida útil de las centrales nucleares y posibles rebajas fiscales. Por otro lado, la compañía se enfrenta a riesgos legales tras la demanda interpuesta por Repsol por daños derivados de un apagón (16/11/2026).
+*   **Contexto Macroeconómico:** El entorno en la Eurozona está marcado por una inflación persistente (4% a 13/11/2026) y tipos de interés que presionan la valoración de activos.
 
-### Riesgos y Consideraciones
-*   **Macroeconomía:** La persistencia de una inflación elevada en la Eurozona complica el panorama de tipos de interés, lo cual presiona los márgenes operativos de las eléctricas.
-*   **Consenso de Analistas:** La divergencia entre el precio de mercado actual y el consenso (objetivo medio de 36,82 EUR) sugiere que el mercado podría estar descontando expectativas de crecimiento que los analistas aún no han incorporado en sus modelos.
+### Análisis Técnico y Perspectiva
+El precio de la acción (44.07 EUR) muestra una tendencia positiva anual (+46.89%), con indicadores técnicos neutrales (RSI 14 en 51.63). El consenso de los analistas apunta a un precio objetivo medio de 36.89 EUR, lo que implica una señal de sobrevaloración actual (-16.3% de *upside* respecto al consenso).
 
-### Resumen de Datos Clave (`ELE.MC`)
-
-| Indicador | Valor / Dato |
-| :--- | :--- |
-| **Precio Actual** | 44,75 EUR |
-| **Capitalización de Mercado** | 45.405 M EUR |
-| **P/E Forward** | 18,49x |
-| **Dividend Yield** | 3,53% |
-| **Ratio Deuda Neta / EBITDA** | 2,10x |
-| **Target Price (Media)** | 36,82 EUR |
-| **Tendencia (SMA 200)** | Alcista (38,40 EUR) |
+### Riesgos y Datos Faltantes
+*   **Riesgos:** La exposición a litigios (demanda de Repsol) y la dependencia de cambios regulatorios en la fiscalidad energética.
+*   **Datos Faltantes:** No se dispone de un desglose detallado de los contratos de cobertura de precios energéticos a largo plazo, lo cual es crítico para predecir los márgenes operativos del próximo año.
 
 **Rating**: HOLD
 
-FINAL TRANSACTION PROPOSAL: No action recommended. Given the current price of 44,75 EUR significantly exceeds the consensus mean target of 36,82 EUR, a cautious approach is warranted until market volatility stabilizes or valuation aligns closer to analyst estimates.
+FINAL TRANSACTION PROPOSAL: Neutral. Dada la discrepancia entre el fuerte impulso técnico reciente y el precio objetivo negativo del consenso, se recomienda cautela. Mantener posiciones actuales hasta clarificar el impacto financiero de la demanda de Repsol.
 
-*Nota: La información ha sido extraída de los datos proporcionados con fecha 16 de noviembre de 2026. No se dispone de las noticias específicas por error HTTP, por lo que este análisis se basa exclusivamente en los estados financieros y métricas de mercado suministradas.*
+| Concepto | Valor / Detalle |
+| :--- | :--- |
+| Precio Actual | 44.07 EUR |
+| Precio Objetivo Medio | 36.89 EUR |
+| Rentabilidad Dividendo | 3.58% |
+| P/E Forward | 18.21x |
+| Deuda Neta / EBITDA | 2.10x |
+| Sentimiento | Mixto (Alcista por fundamentales/analistas, bajista por litigios) |
+
+*Fuentes: Yahoo Finance (ELE.MC), Bolsamania, Merca2.es, MarketScreener (consultado el 17/11/2026).*

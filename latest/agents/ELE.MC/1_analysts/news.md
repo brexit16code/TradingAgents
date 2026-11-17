@@ -1,36 +1,41 @@
-### Informe de Análisis: Endesa, S.A. (ELE.MC)
+A continuación presento el informe de análisis sobre **Endesa, S.A. (ELE.MC)**, basado en la información financiera y de mercado proporcionada con fecha de corte al 17 de noviembre de 2026.
 
-**Fecha de análisis:** 16 de noviembre de 2026
+### Análisis del Entorno Macro y Sectorial
+El panorama macroeconómico reciente muestra señales de tensión, principalmente debido a la persistencia inflacionaria. Según titulares del 13 de noviembre de 2026 (El Economista, Negocios.com), la inflación en la eurozona se sitúa en el 4%, lo que limita la capacidad de las autoridades monetarias para moderar el alza de tipos. Este entorno de tipos elevados presiona los costes de financiación y afecta la valoración de activos de renta fija y empresas con alta intensidad de capital, como es el caso de las *utilities*.
 
-#### Resumen Ejecutivo
-Endesa (ELE.MC) se encuentra en una situación de valor técnico interesante tras una caída reciente del 2.7%, cotizando a 44.75 EUR. A pesar de una sólida trayectoria de crecimiento en el último año (+52.4%), los analistas mantienen un sentimiento de cautela con un precio objetivo promedio de 36.82 EUR, lo que implica una sobrevaloración según el consenso.
+### Análisis de Endesa (ELE.MC)
+**Endesa** opera en un sector altamente regulado. A pesar del entorno inflacionario, la empresa presenta métricas sólidas:
+*   **Resultados y Perspectivas:** Según noticias recientes (Merca2.es, 17/11/2026), existe una posibilidad de mejora del 6% en el beneficio neto ante una posible prórroga de las centrales nucleares y una rebaja fiscal, lo que ha generado una actualización positiva por parte de analistas como RBC.
+*   **Riesgos:** La compañía enfrenta riesgos legales significativos; destaca la noticia del 16/11/2026 sobre la demanda interpuesta por Repsol contra Endesa, Iberdrola y Naturgy por los daños derivados de un apagón. Este factor añade volatilidad e incertidumbre jurídica.
+*   **Situación Técnica:** Cotizando a 44,07 EUR, la acción se encuentra ligeramente por debajo de su SMA20 (44,10 EUR) pero por encima de su SMA50 (43,00 EUR) y SMA200 (38,46 EUR), indicando una tendencia alcista a largo plazo que ha experimentado una corrección reciente del 1,52% en la última sesión.
 
-#### Análisis Fundamental y Financiero
-*   **Valoración:** La acción cotiza con un ratio P/E (PER) de 18.8x y un Price-to-Book (P/B) de 5.83, lo que refleja una prima significativa respecto a su valor contable. El ratio EV/EBITDA de 10.57 se alinea con un perfil de empresa de servicios públicos regulados.
-*   **Rentabilidad y Dividendos:** Endesa mantiene una política atractiva de retribución al accionista con una rentabilidad por dividendo del 3.53% y un payout ratio del 66.5%, lo que sugiere sostenibilidad en los pagos actuales.
-*   **Balance:** La estructura de capital es estable con una deuda neta sobre EBITDA de 2.1x, un nivel prudente para el sector. Sin embargo, el crecimiento de ingresos del 0.27% y una contracción en el crecimiento de ganancias (-26.7%) subrayan desafíos operativos.
+### Evaluación Fundamental
+Con un PER forward de 18,20 y una rentabilidad por dividendo del 3,58%, la acción cotiza con una prima respecto a la mediana del sector (Ratio 1,08). El ratio deuda neta/EBITDA de 2,10 es manejable, aunque el crecimiento de los beneficios ha sido negativo (-26,7%) en la última comparativa, lo que requiere cautela sobre la capacidad de generación de valor a corto plazo.
 
-#### Entorno Macroeconómico
-El contexto actual está marcado por una inflación persistente en la eurozona, citada en torno al 4% (fuente: *El Economista*, 13/11/2026). Las noticias recientes indican que esta presión inflacionaria limita la capacidad de los bancos centrales para suavizar la política monetaria. Esto crea un entorno de tipos de interés que castiga al ahorro, como señalan diversos informes sobre tipos reales negativos (*Vozpopuli*, *Estrategias de Inversión*). Para una empresa como Endesa, este entorno supone un doble filo: el aumento de costes operativos versus la protección que ofrecen los activos regulados frente a la volatilidad macro.
+**Puntos a favor:**
+*   Mejora en previsiones de analistas (RBC) tras los resultados.
+*   Potencial mejora de márgenes por optimización fiscal y regulatoria (nucleares).
+*   Rentabilidad por dividendo atractiva en el sector.
 
-#### Factores de Riesgo y Oportunidades
-*   **Contrario:** El consenso de analistas sitúa el valor justo significativamente por debajo del precio actual (consenso *downside* del -17.7%), lo que sugiere que el mercado puede haber descontado demasiado optimismo en la cotización reciente.
-*   **Soporte:** La acción se mantiene por encima de sus medias móviles de 50 y 200 días (42.95 EUR y 38.40 EUR, respectivamente), lo que indica que, a pesar de la corrección, la tendencia de largo plazo sigue siendo alcista.
+**Puntos en contra:**
+*   Litigios pendientes por daños en la red (demanda de Repsol).
+*   Inflación persistente al 4% en la zona euro, que encarece la deuda.
+*   Consenso de mercado con una proyección a la baja (upside negativo de -16,3%).
 
-#### Datos Faltantes
-No se dispone de datos detallados sobre cambios recientes en la estructura regulatoria específica de los mercados energéticos españoles posteriores a noviembre de 2026, lo cual es vital para proyectar el flujo de caja operativo en el sector eléctrico.
+### Resumen de Datos Clave
 
----
-
-| Métrica | Valor / Observación |
+| Indicador | Valor / Estado |
 | :--- | :--- |
-| **Precio Actual** | 44.75 EUR |
-| **Consenso Analista (Promedio)** | 36.82 EUR |
-| **Rentabilidad Dividendo** | 3.53% |
-| **Net Debt/EBITDA** | 2.10x |
-| **Tendencia (SMA 200)** | Alcista (precio > 38.40) |
-| **Sentimiento Inflacionario** | Elevado (4% en Eurozona) |
+| **Precio Actual** | 44,07 EUR |
+| **Rentabilidad Dividendo** | 3,58% |
+| **PER Forward** | 18,21 |
+| **Consenso Upside** | -16,30% |
+| **Tendencia (SMA200)** | Alcista (precio > SMA200) |
+| **Riesgo Principal** | Litigio legal (Demanda Repsol) |
+| **Catalizador** | Prórroga nucleares / Política fiscal |
+
+**Faltantes de información:** No se dispone de detalles específicos sobre las cláusulas de responsabilidad civil en los contratos de suministro frente a eventos de "apagón" ni el impacto exacto en el flujo de caja ante posibles sentencias desfavorables por la demanda de Repsol.
 
 **Rating**: REVIEW
 
-FINAL TRANSACTION PROPOSAL: No action recommended; maintain position while monitoring the significant gap between current market price and consensus target price.
+FINAL TRANSACTION PROPOSAL: HOLD

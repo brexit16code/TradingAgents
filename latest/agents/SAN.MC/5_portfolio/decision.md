@@ -1,9 +1,9 @@
-**Rating**: Overweight
+**Rating**: Hold
 
-**Executive Summary**: Iniciamos una posición gradual (0.5x de la asignación estándar) aprovechando el actual descuento de valoración respecto a los pares del sector. Implementar un plan de compra en dos tramos: una entrada inmediata cerca de los 11.02 EUR y una segunda si se consolida el soporte en 10.50 EUR, con un stop loss estricto en 10.35 EUR.
+**Executive Summary**: Se recomienda mantener la posición actual sin realizar nuevas compras. La estrategia consiste en observar el soporte técnico en los 10.70 EUR; si se consolida, se podría considerar una entrada escalonada, pero la ruptura de los 10.55 EUR invalidaría la tesis alcista y obligaría a la salida.
 
-**Investment Thesis**: La tesis se fundamenta en un Forward PE de 8.86x, que representa un descuento del 17% frente a la mediana de los comparables (10.70x), ofreciendo un margen de seguridad ante la volatilidad. Aunque el analista conservador señala acertadamente el riesgo en los flujos de caja operativos, la gestión proactiva mediante la transferencia de 8.000 millones en préstamos corporativos demuestra una optimización estratégica del capital, no una debilidad sistémica. Este movimiento, junto con un ROE del 13.06%, respalda el potencial alcista del 24% señalado por el consenso de analistas. La recomendación de Overweight se sostiene mientras el soporte técnico en la zona de los 10.50-11.00 EUR se mantenga; un quiebre sostenido por debajo del stop loss de 10.35 EUR o un deterioro agudo en la calidad crediticia detectado en próximos reportes trimestrales invalidarían esta tesis.
+**Investment Thesis**: La tesis neutral se basa en la divergencia entre unos fundamentales atractivos (PER forward de 8.68x y un potencial de revalorización del 26.6% según consenso) y un entorno técnico y macroeconómico deteriorado. La acción cotiza por debajo de sus medias móviles de 50 y 200 días y muestra un RSI (42.2) y un MACD que confirman la falta de momentum alcista. Aunque la gestión de riesgo del banco, incluyendo la transferencia de activos corporativos de 8.000 millones de USD, muestra proactividad, el flujo de caja operativo negativo y la volatilidad del 31.6% justifican la cautela. Se necesita una recuperación de la media móvil de 50 días (11.70 EUR) o una base sólida en 10.70 EUR para cambiar la recomendación a una compra de convicción.
 
 **Price Target**: 13.67
 
-**Time Horizon**: 6-12 meses
+**Time Horizon**: 3-6 meses

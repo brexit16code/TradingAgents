@@ -1,32 +1,33 @@
-El análisis de **Endesa, S.A. (ELE.MC)**, conforme a los datos proporcionados al 16 de noviembre de 2026, refleja una empresa en una fase de consolidación tras un periodo alcista significativo, operando en un entorno de tipos de interés que presionan al sector de utilities en la Eurozona.
+Análisis detallado de **Endesa, S.A. (ELE.MC)**
 
-### Análisis Técnico y Fundamental
-*   **Tendencia:** Con un precio de 44,75 EUR, ELE.MC se sitúa por encima de sus medias móviles de 20, 50 y 200 días (44,01, 42,95 y 38,40 EUR, respectivamente), lo que confirma una tendencia alcista estructural a largo plazo. No obstante, el descenso reciente del 2,70% y un RSI de 57,26 sugieren una corrección saludable desde niveles de sobrecompra, sin indicar aún una reversión bajista.
-*   **Métricas de Valoración:** La acción cotiza con un PER forward de 18,49, superior a la mediana de sus comparables (16,91). Con un Price-to-Book de 5,83, el mercado parece valorar con prima la calidad de sus activos regulados, aunque el ratio de consenso muestra una proyección de caída (-17,72%) respecto al precio actual, lo que podría implicar expectativas de sobrevaloración por parte de los analistas.
-*   **Salud Financiera:** La empresa muestra un sólido ratio de deuda neta/EBITDA de 2,10x. A pesar de una caída en el crecimiento de beneficios (-26,7%), el flujo de caja operativo se mantiene robusto (4.081 millones de EUR en 2025), permitiendo sostener una política de dividendos con una rentabilidad (yield) estimada del 3,53%.
+A fecha de 17 de noviembre de 2026, el análisis técnico y fundamental de Endesa muestra una situación de consolidación con presiones contrapuestas derivadas de su robustez operativa frente a riesgos legales recientes.
 
-### Contexto Macroeconómico
-Las noticias recientes (13-16 de noviembre de 2026) destacan una inflación persistente en la zona euro (cercana al 4%) y una política monetaria que dificulta la bajada de tipos de interés. Para una *utility* regulada como Endesa, los tipos altos aumentan el coste del servicio de la deuda (11.905 millones de EUR de deuda total) y compiten con la rentabilidad por dividendo, reduciendo el atractivo relativo de la acción frente a activos de renta fija.
+### 1. Situación Técnica
+El precio de cierre de **44.07 EUR** sitúa a la acción en una zona de equilibrio técnico interesante:
+*   **Tendencia:** Cotiza por encima de sus medias móviles de 50 días (43.00 EUR) y 200 días (38.46 EUR), lo que confirma una tendencia alcista estructural a largo plazo. Sin embargo, se encuentra operando prácticamente en línea con su media de 20 días (44.10 EUR), indicando una fase de consolidación a corto plazo tras un rendimiento anual destacado (retorno 252 días del 46.89%).
+*   **Momentum:** El RSI de 14 días en 51.63 refleja una posición neutral, sin signos claros de sobrecompra o sobreventa. El MACD (0.587) y su señal (0.586) presentan una convergencia casi total, lo que sugiere una falta de dirección clara en el corto plazo a la espera de nuevos catalizadores.
+*   **Volatilidad:** Con una volatilidad del 19.47%, el activo muestra una estabilidad propia del sector regulado, aunque se observa un *drawdown* del 4.17%.
 
-### Riesgos y Oportunidades
-*   **Contrario:** El consenso de analistas (con una media de 36,82 EUR) sugiere un *downside* importante. La divergencia entre la tendencia alcista técnica (SMA200) y la valoración fundamental (excesiva según el consenso) es el principal punto de cautela.
-*   **Apoyo:** La rentabilidad por dividendo y la posición de liderazgo en el mercado regulado eléctrico español proporcionan una base defensiva ante la volatilidad macroeconómica.
+### 2. Fundamentos y Valoración
+*   **Valoración:** Con un Forward PE de 18.21, Endesa cotiza con un ligero sobreprecio (ratio 1.08) frente a la mediana de sus pares (16.79), lo que refleja la confianza del mercado en su modelo de negocio.
+*   **Salud Financiera:** La empresa mantiene un ratio de apalancamiento razonable (Net Debt/EBITDA de 2.10x). La mejora en los beneficios netos (2.198 M€ en 2025 frente a 1.888 M€ en 2024) respalda una política de dividendos atractiva (Yield 3.54%).
+*   **Catalizadores:** La noticia de la posible prórroga de las centrales nucleares y ajustes fiscales (Merca2.es, 17/11/2026) podría mejorar el beneficio en un 6%, lo cual es un factor positivo. No obstante, existe un riesgo legal emergente por la demanda interpuesta por Repsol en relación con un apagón (Bolsamania, 16/11/2026), que podría generar volatilidad o incertidumbre jurídica.
 
-### Resumen de indicadores (Selección sugerida)
-Para un seguimiento técnico, se recomienda priorizar:
-1.  **close_200_sma:** Para confirmar la salud del ciclo a largo plazo.
-2.  **rsi:** Para monitorear la entrada en zonas de sobreventa tras la corrección.
-3.  **macd:** Para identificar cambios de momentum tras la reciente bajada.
-4.  **atr:** Para ajustar niveles de *stop-loss* ante la actual volatilidad del 19,2%.
+### 3. Síntesis y Perspectiva
+La mejora de previsiones y precio objetivo por parte de RBC (16/11/2026) contrasta con las noticias negativas sobre litigios. El consenso de mercado sitúa el precio objetivo medio en 36.89 EUR, lo que implica una **consenso_upside_pct** de -16.30% respecto al precio actual, sugiriendo que el mercado considera que la acción podría estar cara en relación con las expectativas de los analistas.
 
+**Factores faltantes:** No se dispone de detalles sobre la cuantía económica reclamada en la demanda de Repsol ni sobre el impacto fiscal exacto de la nueva regulación, lo que impide una valoración intrínseca más precisa.
+
+### Tabla de indicadores clave
 | Indicador | Valor / Estado | Interpretación |
 | :--- | :--- | :--- |
-| Precio Actual | 44,75 EUR | Por encima de todas las medias móviles. |
-| RSI (14) | 57,26 | Neutral-alcista (sin sobrecompra). |
-| SMA 200 | 38,40 EUR | Soporte estructural a largo plazo. |
-| Dividend Yield | 3,53% | Atractivo, pero bajo presión por tipos reales. |
-| Consenso Objetivo | 36,82 EUR | Indica potencial sobrevaloración actual. |
+| Precio Actual | 44.07 EUR | Sobre la SMA 200 (tendencia alcista sólida) |
+| RSI (14) | 51.63 | Neutral (sin dirección definida) |
+| Forward PE | 18.21 | Ligera prima respecto a pares |
+| Dividend Yield | 3.54% | Atractivo, consistente con el sector |
+| Ratio Net Debt/EBITDA | 2.10x | Endeudamiento bajo control |
+| Consenso Upside | -16.30% | Potencial bajista según analistas |
 
 **Rating**: HOLD
 
-FINAL TRANSACTION PROPOSAL: Mantener posición; la tendencia alcista técnica es sólida pero la valoración fundamental y el entorno de tipos de interés sugieren esperar a un retroceso hacia el rango de 40-42 EUR para mejorar el margen de seguridad.
+FINAL TRANSACTION PROPOSAL: Mantener posiciones actuales debido a la robustez operativa y el dividendo, pero gestionar el riesgo ante la incertidumbre legal derivada de las demandas sectoriales. No se recomienda aumentar exposición hasta clarificar el impacto de los litigios y observar si el precio consolida sobre la media de 50 días.

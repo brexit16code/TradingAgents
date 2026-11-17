@@ -1,35 +1,35 @@
-Este informe presenta un análisis fundamental de **Aena S.M.E., S.A. (AENA.MC)** basado en los datos financieros y de mercado disponibles a fecha de 16 de noviembre de 2026.
+Este informe presenta un análisis fundamental de **Aena S.M.E., S.A. (`AENA.MC`)** basado en los datos financieros y de mercado consolidados a fecha de 17 de noviembre de 2026.
 
-### Perfil y Desempeño Reciente
-Aena opera como el principal gestor aeroportuario en España y mantiene una fuerte presencia internacional. A pesar de un entorno macroeconómico complejo caracterizado por una inflación persistente en la Eurozona (citada al 4% en reportes recientes, *El Economista*, 13-nov-2026), la compañía demuestra resiliencia operativa.
-
-*   **Tráfico:** En octubre de 2026, la compañía reportó 30,5 millones de pasajeros (*Estrategias de Inversión*, 12-nov-2026), lo que subraya la solidez de la demanda en el sector de servicios aeroportuarios.
-*   **Situación Técnica:** Cotizando a 29,18 EUR, el título muestra una tendencia alcista a corto y medio plazo (SMA20: 27,66; SMA50: 26,28), con un RSI de 74,8, lo cual sugiere condiciones de sobrecompra técnica que requieren cautela.
+### Perfil de la Compañía
+Aena es el principal operador aeroportuario de España y uno de los mayores a nivel global en el sector de servicios aeroportuarios (Industrials). Su modelo de negocio se beneficia de una fuerte recuperación post-pandemia y un crecimiento sostenido en el tráfico de pasajeros, lo que se refleja en una sólida generación de efectivo operativo.
 
 ### Análisis Financiero
-La compañía ha mostrado una trayectoria de crecimiento sostenido en sus principales estados financieros:
+*   **Rentabilidad y Crecimiento:** La compañía muestra una tendencia positiva constante en sus ingresos, pasando de 5.047 millones de euros en 2023 a 6.294 millones en 2025. Los márgenes de beneficio son robustos, situándose en el 34,26%, lo que subraya la eficiencia operativa del grupo.
+*   **Solidez del Balance:** A 31 de diciembre de 2025, Aena reportó una deuda total de 7.281 millones de euros frente a un patrimonio neto de 9.206 millones. Con una ratio de deuda neta sobre EBITDA de 1,38x, la situación financiera se mantiene dentro de niveles prudentes para el sector.
+*   **Valoración:** La acción cotiza a un PER (Price-to-Earnings) histórico de 14,13x, con un PER forward de 17,41x, lo que sugiere que el mercado anticipa un ligero ajuste en el crecimiento de los beneficios futuros. El valor se encuentra actualmente con una rentabilidad por dividendo atractiva del 3,74%.
 
-1.  **Ingresos y Beneficios:** Los ingresos alcanzaron los 6.294 millones de EUR al cierre de 2025, frente a los 5.784 millones de 2024. El EBITDA ha mantenido un crecimiento constante, pasando de 3.225 millones en 2023 a 3.909 millones en 2025.
-2.  **Solidez de Balance:** La deuda total se sitúa en 7.933 millones de EUR, con un ratio de Deuda Neta/EBITDA de 1,38x, un nivel prudente que refleja una gestión de pasivos eficiente.
-3.  **Valoración:** Con un PER (Trailing PE) de 14,5x, la valoración se encuentra ligeramente por debajo de la mediana del sector (18,08x), lo que indica una valoración atractiva en comparación con sus pares, aunque el ratio precio-valor contable (P/B) de 4,7x es elevado, reflejando las intensivas necesidades de capital del negocio.
-
-### Riesgos y Consideraciones
-*   **Macroeconomía:** El contexto de tipos de interés altos (previsiones de Bankinter, 13-nov-2026) y la inflación presionan los márgenes operativos en toda la Eurozona.
-*   **Consenso de Mercado:** El precio medio objetivo de los analistas es de 27,48 EUR, lo que representa una **rentabilidad esperada negativa del 5,8%** respecto al cierre actual de 29,18 EUR. Esto sugiere que el mercado considera que el valor podría estar sobreextendido tras su reciente rally (retorno anual del 35,08%).
+### Perspectiva de Mercado y Riesgos
+*   **Situación Macro:** Los titulares recientes (13-16 de noviembre de 2026) indican presiones inflacionarias sostenidas en la Eurozona (inflación al 4%), lo que complica la política monetaria. Esto afecta indirectamente a Aena a través del aumento de los costes operativos y una posible ralentización del consumo discrecional.
+*   **Consenso de Analistas:** Con una media de precio objetivo de 27,49 € frente a la cotización actual de 28,40 €, existe una ligera sobrevaloración técnica según el consenso (upside negativo del -3,22%). La dispersión entre el precio objetivo mínimo (20,00 €) y máximo (32,50 €) refleja una alta incertidumbre sobre la capacidad de crecimiento ante el entorno inflacionario actual.
 
 ### Resumen de Datos Clave
 
 | Métrica | Valor / Detalle |
 | :--- | :--- |
-| **Precio Actual** | 29,18 EUR |
-| **Capitalización de Mercado** | 43.770 millones EUR |
-| **Trailing PE** | 14,51x |
-| **Dividend Yield** | 3,79% |
-| **Crecimiento Ingresos** | 11,5% |
-| **Deuda Neta / EBITDA** | 1,38x |
-| **Consenso Upside** | -5,8% |
-| **RSI (14)** | 74,84 (Sobrecomprado) |
+| **Precio Actual** | 28,40 EUR |
+| **Capitalización Bursátil** | 42.600 M EUR |
+| **PER Forward** | 17,41x |
+| **Dividend Yield** | 3,74% |
+| **Margen de Beneficio** | 34,26% |
+| **Net Debt/EBITDA** | 1,38x |
+| **Consenso Upside** | -3,22% |
+
+### Conclusión para el Inversor
+Aena presenta fundamentos sólidos con una clara tendencia al alza en su rentabilidad. Sin embargo, el entorno macroeconómico actual, caracterizado por tipos de interés persistentes debido a la inflación, podría limitar la expansión de los múltiplos de valoración a corto plazo. La relación riesgo-beneficio parece equilibrada, pero los inversores deben vigilar la capacidad de la empresa para trasladar la inflación a las tasas aeroportuarias sin afectar significativamente el volumen de tráfico.
 
 **Rating**: HOLD
 
-FINAL TRANSACTION PROPOSAL: No action recommended; current price exceeds the analyst consensus mean price (27,48 EUR) and RSI indicates overbought conditions (74,84), suggesting limited immediate upside potential despite strong fundamentals.
+FINAL TRANSACTION PROPOSAL: No action recommended based on current consensus downside and macroeconomic headwinds in the Eurozone. Monitor at support levels near the 200-day moving average (25,73 EUR).
+
+***
+*Nota: Este análisis se basa exclusivamente en los datos suministrados a 17 de noviembre de 2026. Los informes de analistas son estimaciones y no deben considerarse consejos financieros. No se ha proporcionado información sobre transacciones internas (insider trading) en los datos actuales.*

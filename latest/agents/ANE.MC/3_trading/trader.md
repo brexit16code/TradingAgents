@@ -1,11 +1,11 @@
 **Action**: Sell
 
-**Reasoning**: La recomendacion de Underweight en el plan de inversion, junto con el deterioro tecnico con el precio cotizando por debajo de las medias moviles SMA 20, 50 y 200, un RSI debil de 38.93 y la frágil situacion financiera con un apalancamiento de 5.06x y flujos de caja libres negativos, justifican deshacer posiciones para mitigar el riesgo bajista y los problemas de desinversion.
+**Reasoning**: La estructura técnica de ANE.MC es claramente bajista al cotizar por debajo de todas sus medias móviles principales, confirmando un deterioro tras las noticias sobre la cancelación de desinversiones. Fundamentalmente, su valoración cara (Forward P/E de 30,32) y su alto nivel de apalancamiento (5,06x Deuda Neta/EBITDA) en un entorno de flujo de caja libre negativo presentan riesgos elevados que superan el atractivo de su dividendo.
 
-**Entry Price**: 20.32
+**Entry Price**: not provided
 
-**Stop Loss**: 22.0
+**Stop Loss**: 21.61
 
-**Position Sizing**: Reduccion del 50% de la exposicion actual
+**Position Sizing**: Reducir posición existente o evitar exposición
 
 FINAL TRANSACTION PROPOSAL: **SELL**

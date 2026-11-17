@@ -1,41 +1,38 @@
-El siguiente informe analiza la situación fundamental de **ArcelorMittal (MTS.MC)**, una compañía líder en el sector de materiales básicos (acero), basándose en los datos financieros y de mercado disponibles al 16 de noviembre de 2026.
+Este informe presenta un análisis fundamental detallado de **ArcelorMittal (MTS.MC)**, basado en los datos financieros y de mercado disponibles al 17 de noviembre de 2026.
 
-### Análisis Fundamental de ArcelorMittal (MTS.MC)
+### Análisis Fundamental y Situación Financiera
 
-#### 1. Perfil y Estado Actual
-ArcelorMittal, cotizada en la bolsa de Madrid, presenta una capitalización de mercado de aproximadamente 42.150 millones de EUR. El valor ha tenido un desempeño sólido a largo plazo (+62,5% en 252 sesiones), aunque en el corto plazo muestra volatilidad (-9,7% en los últimos 3 meses), cotizando actualmente a 56,06 EUR.
+**1. Perfil y Desempeño Reciente:**
+ArcelorMittal, líder en el sector de materiales básicos (acero), cotiza actualmente a **55,04 EUR**. El título muestra una volatilidad significativa (33,1%) y una tendencia reciente negativa, con una caída del 1,82% en la última sesión y una pérdida del 9,78% en los últimos 63 días. Sin embargo, mantiene un rendimiento interanual positivo del 58,99%.
 
-#### 2. Situación Financiera y Rentabilidad
-*   **Ingresos y Rentabilidad:** La compañía ha reportado una evolución estable de ingresos (61.350 millones de EUR en 2025 vs 62.440 millones en 2024). Sin embargo, el margen de beneficio neto es estrecho (1,64%), lo que refleja la sensibilidad del sector a los costos operativos y la volatilidad de los precios del acero.
-*   **Balance y Deuda:** La empresa mantiene un ratio de deuda neta sobre EBITDA de 2,08x. Con una deuda total de 13.560 millones de EUR y una posición de efectivo de 3.190 millones, la estructura financiera es manejable, aunque el flujo de caja libre (FCF) ha pasado a ser negativo (-802,8 millones de EUR), lo que indica una presión significativa por gastos de capital (CAPEX) o necesidades operativas.
-*   **Valoración:** Con un PER adelantado (*forward PE*) de 10,13x, la acción parece atractiva en comparación con su PER histórico de 47,5x, lo que sugiere que el mercado espera una mejora significativa en las ganancias futuras. Su ratio Precio/Libro (P/B) de 0,88 indica que la acción cotiza por debajo de su valor contable.
+**2. Estado Financiero (2023-2025):**
+*   **Ingresos:** La compañía reportó 61.352 millones de EUR en 2025, una ligera disminución respecto a los 62.441 millones de 2024 y los 68.275 millones de 2023, lo que refleja un entorno operativo desafiante.
+*   **Rentabilidad:** El beneficio neto en 2025 alcanzó los 3.152 millones de EUR, recuperándose notablemente frente a los 1.339 millones de 2024. No obstante, el ROE (1,83%) y los márgenes de beneficio (1,64%) sugieren una eficiencia operativa bajo presión.
+*   **Balance y Deuda:** La deuda total se sitúa en 13.565 millones de EUR. Con un ratio deuda neta/EBITDA de 2,08x, la estructura de capital parece manejable, aunque el flujo de caja libre es negativo (-802,87 millones de EUR en los datos más recientes), lo que es un punto de atención para los inversores.
 
-#### 3. Contexto Macroeconómico
-La empresa opera en un entorno de alta incertidumbre. Según reportes de *El Economista* (13-nov-2026) y *Vozpopuli* (14-nov-2026), la inflación en la Eurozona (cercana al 4%) y los tipos de interés elevados están presionando los márgenes de los ahorradores y afectando la actividad industrial. Este entorno macro suele ser desafiante para las empresas del sector acero debido al incremento en los costos de energía y financiación.
+**3. Valoración y Expectativas:**
+*   **Valoración:** La compañía cotiza con un ratio P/E a futuro de 9,95x, significativamente más atractivo que el P/E histórico (trailing) de 46,64x. El ratio Precio/Valor Contable es de 0,86x, lo que implica que el mercado valora la acción por debajo de su valor en libros, sugiriendo una posible subvaloración teórica.
+*   **Consenso:** Los analistas mantienen un precio objetivo medio de 59,10 EUR, lo que implica un potencial de revalorización del **7,38%** respecto al precio actual.
 
-#### 4. Opinión de los Analistas
-El consenso de mercado es cauteloso, con solo 2 opiniones de analistas registradas. El precio objetivo medio se sitúa en 59,1 EUR, lo que representa un potencial de revalorización del 5,42% frente al cierre actual. Los rangos oscilan entre 52,7 EUR (bajo) y 65,5 EUR (alto).
+**4. Contexto Macroeconómico:**
+El entorno en la zona euro es complejo, con una inflación persistente en torno al 4% que dificulta una relajación en las políticas de tipos de interés. Las noticias recientes destacan a MTS.MC como uno de los valores más castigados en el Ibex 35 durante la última semana, reflejando el impacto de la incertidumbre macroeconómica y sectorial.
 
-### Consideraciones para Traders
-*   **Argumentos a favor:** Valoración por debajo del valor contable, PER adelantado atractivo y una recuperación anual robusta (+62%).
-*   **Argumentos en contra:** FCF negativo en el último periodo, márgenes de beneficio muy reducidos y un entorno de inflación persistente en Europa que encarece los costes operativos.
-*   **Datos faltantes:** No se dispone del desglose detallado de los gastos de capital específicos para 2026 que expliquen la caída del FCF, ni proyecciones precisas de analistas post-elecciones de mitad de mandato mencionadas en las noticias.
+### Perspectiva para el Inversor
+*   **Argumentos a favor:** Valoración atractiva por precio/valor contable (0,86x) y una mejora proyectada en el BPA (Forward EPS 5,53).
+*   **Argumentos en contra:** Alta volatilidad, flujo de caja libre negativo y una tendencia técnica bajista de corto plazo (SMA20 por debajo de SMA50).
 
-**Rating**: Neutral
+**Rating**: REVIEW
 
-FINAL TRANSACTION PROPOSAL: No action, maintain current position until macroeconomic volatility in the Eurozone subsides and free cash flow stabilizes.
-
-### Resumen de Datos Clave
-
-| Indicador | Valor |
+| Métrica | Valor |
 | :--- | :--- |
-| **Precio Actual** | 56,06 EUR |
-| **Capitalización** | 42.153 M EUR |
-| **Forward PE** | 10,13 |
-| **Precio/Libro** | 0,88 |
-| **Deuda Neta/EBITDA** | 2,08x |
-| **Dividend Yield** | 0,96% |
-| **Consenso Target Mean** | 59,1 EUR |
-| **Cambio 252 sesiones** | +62,5% |
+| **Precio Actual** | 55,04 EUR |
+| **Capitalización Bursátil** | 41.386,5 M EUR |
+| **P/E (Forward)** | 9,95x |
+| **Precio/Valor Contable** | 0,86x |
+| **Consenso Analistas (Media)** | 59,10 EUR |
+| **Dividend Yield** | 0,98% |
+| **Ratio Deuda Neta/EBITDA** | 2,08x |
 
-*Fuentes: Yahoo Finance (MTS.MC), datos de mercado al 16/11/2026, noticias de Bankinter y El Economista.*
+*Nota: La información presentada proviene de datos históricos proporcionados. Se recomienda considerar la volatilidad del sector siderúrgico y el impacto de los tipos de interés reales negativos mencionados en las fuentes (Vozpopuli, 14-11-2026).*
+
+FINAL TRANSACTION PROPOSAL: None

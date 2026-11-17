@@ -1,10 +1,10 @@
 **Action**: Hold
 
-**Reasoning**: Unicaja Banco muestra una estructura técnica resiliente por encima de su media móvil de 200 días y una rentabilidad por dividendo atractiva, lo que justifica mantener la exposición. Sin embargo, no se recomienda incrementar posiciones debido a que el precio actual de 3,44 € se sitúa por encima del precio objetivo medio del consenso de 3,25 €, sumado a una reciente presión inflacionaria en la eurozona que añade incertidumbre a los márgenes futuros.
+**Reasoning**: El precio de mercado actual de 3,408 EUR se sitúa por encima del precio objetivo de consenso de 3,25 EUR, lo que sugiere una valoración ajustada. Si bien el soporte técnico en la SMA50 (3,372 EUR) se mantiene intacto y el momentum es positivo, la volatilidad en el flujo de caja operativo de 2025 y la incertidumbre en la gobernanza (falta de presidente) exigen cautela antes de aumentar la exposición.
 
-**Entry Price**: not provided
+**Entry Price**: 3.372
 
-**Stop Loss**: 2.99
+**Stop Loss**: 2.994
 
 **Position Sizing**: Mantener posición actual
 

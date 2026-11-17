@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La acción se encuentra en una zona de indecisión técnica, cotizando apenas por encima de su media móvil de 200 días (55,71 EUR) pero por debajo de la de 50 días (58,31 EUR). Aunque la valoración por forward PE es atractiva, el flujo de caja libre negativo y el complejo entorno macroeconómico de la eurozona justifican la prudencia y una postura de espera para evitar tanto una salida prematura como una entrada en medio de la debilidad del impulso.
+**Reasoning**: La acción se encuentra técnicamente debilitada al cotizar por debajo de sus medias móviles de 20, 50 y 200 días, lo que sugiere una presión vendedora persistente. Aunque el valor cotiza a un ratio P/B atractivo de 0,86x, la generación de flujo de caja libre negativo y el entorno macroeconómico incierto en la eurozona recomiendan prudencia. Se debe esperar una confirmación de ruptura alcista sobre la SMA200 (55,74 EUR) para validar un cambio de tendencia.
 
 **Entry Price**: not provided
 
-**Stop Loss**: 55.0
+**Stop Loss**: 52.0
 
-**Position Sizing**: Mantener posición actual, sin incrementar exposición hasta superar los 58.31 EUR.
+**Position Sizing**: Mantener exposición actual; evitar nuevas compras.
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

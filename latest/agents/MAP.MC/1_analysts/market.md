@@ -1,27 +1,34 @@
-El análisis técnico y fundamental para **MAP.MC** (Mapfre, S.A.) basado en los datos proporcionados al 16 de noviembre de 2026, refleja una situación de equilibrio con un sesgo positivo respaldado por un sólido comportamiento operativo.
+El análisis de **Mapfre (MAP.MC)**, basado en la información disponible al cierre del 17 de noviembre de 2026, muestra una situación técnica y fundamental que requiere cautela, marcada por una reciente presión vendedora que ha posicionado al valor en un punto de inflexión crítico.
 
 ### Análisis Técnico
-*   **Tendencia:** El precio actual de 4,33 EUR se sitúa por encima de sus medias móviles clave (SMA20: 4,24 EUR, SMA50: 4,29 EUR, SMA200: 4,14 EUR). Esta alineación indica una **tendencia alcista de fondo** consolidada, reforzada por el hecho de que el precio cotiza ligeramente por encima de su media de 50 y 200 sesiones.
-*   **Momentum y Volatilidad:** El RSI(14) en 55,42 sugiere una zona neutral con espacio para el movimiento, sin señales claras de sobrecompra o sobreventa. El MACD (-0,0032) está próximo a su línea de señal (-0,0284), lo que sugiere una falta de ímpetu direccional fuerte a muy corto plazo, pero con una configuración técnica constructiva.
-*   **Desempeño:** Con un rendimiento anual (252 sesiones) del 14,01%, el título muestra una resiliencia notable, a pesar de una ligera volatilidad del 22,72%.
+Mapfre cotiza actualmente a **4,19 EUR**, reflejando una caída del **3,23%** en la última sesión. Los indicadores técnicos sugieren una estructura de corto plazo debilitada:
+*   **Tendencia:** El precio se sitúa por debajo de su media móvil de 20 sesiones (4,22 EUR) y de la de 50 sesiones (4,28 EUR), lo que indica una pérdida de impulso alcista en el corto y medio plazo. Sin embargo, mantiene una posición ligeramente superior a su media de 200 sesiones (4,14 EUR), actuando esta última como un soporte técnico fundamental a largo plazo.
+*   **Momentum:** El **RSI(14)** se encuentra en **46,28**, situándose en una zona neutral, lo que implica que no hay condiciones de sobreventa extrema, pero tampoco una fuerza compradora clara. El **MACD** (-0,007) muestra un cruce bajista respecto a su señal (-0,024), confirmando la inercia negativa reciente.
+*   **Volatilidad:** La volatilidad anualizada es del **23,61%**, lo que sugiere un entorno de mercado donde los movimientos bruscos (como la caída del 3% observada hoy) pueden ser recurrentes en el corto plazo.
 
 ### Análisis Fundamental
-*   **Valoración:** Mapfre cotiza a un ratio Forward P/E de 10,20, lo que sugiere una valoración atractiva dentro del sector financiero/seguros. El ROE del 18,38% demuestra una gestión eficiente del capital.
-*   **Solvencia y Dividendos:** La compañía mantiene una política de dividendos competitiva con un *yield* del 4,16% y un ratio de pago (*payout*) del 47,42%, lo que permite sostenibilidad en la retribución al accionista. La mejora reciente en la calificación crediticia por parte de **Fitch a A+** (12 de noviembre de 2026, [Radio Intereconomía](https://news.google.com/rss/articles/CBMipwFBVV95cUxNMktoLVNhY0ZkMnNFRzAyVmMtMExfTTRtc3BXUzFMQWVyTmRfZkdEWURmM1ZOUUxXTXdsMlhQaGdfclZjNFJ4SFpyRXdqNDdtRm5PUW54bDNkRV90ZWEwUS1vUzJxNHhBQ04wNS1zS3JYUllvSjFZSW1XM1ZaVWtYNUd4ZEdOTEo3VzFhSXFNMG5YNU4wTGJKdG5hT1QtY3JwQ094aTRLMNIBrAFBVV95cUxPNldLb1R0cm5qdHpFbldFOWVrTlpVaGZYWUFHX1BaWVJwenVuM2V1bkNRbXY2Z3k0NHBwUTgzdWVLNDRIeUUxeXhxN3lzQTdTS251d1lESlNmN0NHNzdQMGxTNHBnR3h1SUwzNDhTZjN1UU5JOUhUZUN0U0VZWFpNUkFvdURZV0ZaSXhwc2FkZ1VNMGtJOC01VjFsVXh0T09rVXd2REJDN0I5SUNz?oc=5)) es un catalizador positivo significativo que subraya la solidez financiera de la entidad.
+*   **Valoración:** La acción cotiza con un **PER forward de 9,87x**, lo cual resulta atractivo en comparación con el sector asegurador, sugiriendo que el mercado ya ha descontado una parte significativa de los riesgos.
+*   **Dividendos:** Un punto a destacar es su política de retribución al accionista, con una rentabilidad por dividendo del **4,29%**. El anuncio del 17 de noviembre (PressDigital) sobre el ajuste del dividendo de 0,08 EUR refuerza el compromiso de la compañía con sus accionistas, a pesar de las presiones bajistas en la cotización.
+*   **Salud Financiera:** Con un ROE del **18,37%** y un beneficio neto que ha mostrado un crecimiento sostenido entre 2023 y 2025 (pasando de 677M a 1.132M EUR), la base operativa de Mapfre parece sólida. La relación precio-valor contable (P/B) de **1,36x** sugiere una valoración razonable respecto a sus activos netos.
 
-### Factores de Riesgo y Observaciones
-*   **Contexto Macroeconómico:** La inflación persistente en la zona euro (en torno al 4%) y la expectativa de tipos de interés altos (según [El Economista](https://news.google.com/rss/articles/CBMi5gFBVV95cUxOdFhRSmpIZGt2RXFqc1NVQTdRaWk5M2tWMlRnaEptUTFSSXFoTmlSVkZjMmdCRmxzQlhvR2p4UEI4cFVNeXRaS0h5UEg1TDFTdEctMDZvRnkyQ1dZT1RMaGsyZEhaeHd3WlNrakpYR3hYbE1QNFRsWFc4c012SHh4dFU3Vkd5dl94VWtkMnp6M3BLdlB6XzV4UE9tbTRmdFdlTEh6RXhyYmxwVDFveGVBcmVRWFl3bjBJYlkxRmZob3BtYTRoUjZrYzNwX1k5VFVwYzhvek9nYWxQdEZsNzVHaFo2RDd2QdIB0AFBVV95cUxON0pNM1pNcVBFUlpIVXh2eHZNX3lYWWV3Z0REMExsdjhNSlQ3Tm1NMXZzeGl6UmlwMGZTZDlkRU1LTzY1YlZqV0phMTRjQjFoLVZWc3UyZWtKZmVGWHpTOXRpOW5jTk9LSUdfbjlSRVpvWjdqN0xaMjB6RS1xc3RIMVV1WE8yOGQ0bVliQ2YwZE1KUW9LYzZvY2VaYU5WRWphcF9FbDNjUFRDbURVM0U5YkYxbFc2bFU5QnkzYmhJczNfWFNYRXp2STUwNE83S0NW?oc=5)) complican el entorno de inversión para las familias, aunque el sector asegurador suele beneficiarse de la estabilidad operativa.
-*   **Datos Faltantes:** No se dispone de información consolidada sobre *Operating Cashflow* ni *Free Cashflow* reciente en la base de datos, lo que limita una evaluación completa de la generación de caja operativa directa.
+### Contexto de Mercado
+El comportamiento de MAP.MC ha estado correlacionado con la volatilidad reciente del **IBEX 35**, el cual ha tenido dificultades para consolidarse en los 20.000 puntos (Bolsamania, 17/11/2026). La macroeconomía, marcada por una inflación persistente en la zona euro (cerca del 4% según El Economista, 13/11/2026), genera incertidumbre sobre los tipos de interés, lo cual suele ser un arma de doble filo para las aseguradoras: beneficios por activos financieros frente a riesgos de impago y presión en costes.
 
-### Resumen de Indicadores Clave
+### Resumen de hallazgos
+*   **Fortalezas:** Rentabilidad por dividendo sólida, crecimiento en ingresos operativos y valoración atractiva (PER < 10x).
+*   **Debilidades:** Presión bajista de corto plazo, RSI en zona neutral sin señales de rebote y dependencia del sentimiento general del IBEX 35.
+*   **Datos faltantes:** No se dispone del *Operating Cash Flow* ni del *Free Cash Flow* actualizados para el año en curso, lo que limita la capacidad de calcular con precisión la sostenibilidad del flujo de caja libre inmediato.
+
+**Rating**: Hold
+
+FINAL TRANSACTION PROPOSAL:
+Dado el soporte técnico en los 4,14 EUR (SMA 200) y la atractiva rentabilidad por dividendo, la estrategia de "mantener" es preferible a la liquidación. Se recomienda vigilar si el soporte de los 4,14 EUR se mantiene; una perforación de este nivel invalidaría la tesis de soporte a largo plazo. No se aconseja añadir posiciones hasta observar una divergencia alcista en el RSI o una estabilización del MACD.
 
 | Indicador | Valor | Interpretación |
 | :--- | :--- | :--- |
-| Precio Actual | 4,33 EUR | Por encima de SMA20, 50, 200 |
-| RSI (14) | 55,42 | Neutral, sin extremos |
-| Forward P/E | 10,20 | Valoración atractiva |
-| Dividend Yield | 4,16% | Retorno competitivo |
-| Rating Crediticio | A+ (Fitch) | Mejora en solidez |
-
-**Rating**: Neutral
-FINAL TRANSACTION PROPOSAL: No position recommendation provided. Consult with a certified financial advisor before any hypothetical allocation.
+| Precio Actual | 4,19 EUR | Neutral/Soporte |
+| RSI (14) | 46,28 | Zona Neutral |
+| SMA 200 | 4,14 EUR | Soporte Clave |
+| PER Forward | 9,87x | Valoración Atractiva |
+| Yield Div. | 4,29% | Sólido |
+| Cambio 1D | -3,23% | Presión Bajista |

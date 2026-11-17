@@ -1,9 +1,9 @@
-**Rating**: Hold
+**Rating**: Sell
 
-**Executive Summary**: Maintain the current position as the stock tests critical support at 15.36 EUR. Avoid increasing exposure until the company demonstrates a sustainable improvement in free cash flow and a reduction in its unsustainable 144% payout ratio. Monitor the 15.36 EUR level closely; a breakdown with high volume should trigger a defensive reduction.
+**Executive Summary**: Reducir la exposición a ACX.MC de manera inmediata ante el deterioro de los fundamentales y la ruptura de soportes técnicos clave. La combinación de un flujo de caja libre negativo, un payout ratio insostenible del 144% y la pérdida de la media móvil de 200 sesiones (15,38 EUR) sugiere un riesgo de caída adicional mayor que el potencial de revalorización, invalidando la tesis de valor cíclico.
 
-**Investment Thesis**: The investment thesis for ACX.MC remains balanced between cyclical long-term potential and immediate fundamental fragility. While the aggressive analyst correctly identifies a forward P/E of 10.10x and a potential 24% upside based on consensus, these metrics are currently overshadowed by significant balance sheet risks, including negative free cash flow (-155M EUR) and a net debt/EBITDA ratio of 3.15x. The technical setup further confirms the need for caution, as the stock is trading below both its 20 and 50-day moving averages with negative MACD momentum. A change in rating to 'Buy' would require evidence of a return to positive free cash flow and the stabilization of the dividend policy, which is currently reliant on debt. Conversely, a breach of the 15.36 EUR (SMA200) support level would invalidate the thesis of a consolidated floor, necessitating an exit or reduction to preserve capital.
+**Investment Thesis**: La tesis de venta se sustenta en la incapacidad operativa de la compañía para financiar su política de dividendos, con un flujo de caja libre de -155,27 M EUR frente a un payout ratio del 144%. El alto apalancamiento (deuda neta sobre EBITDA de 3,15x) en un contexto de tipos de interés persistentes en la eurozona restringe severamente la flexibilidad financiera. Técnicamente, la cotización por debajo de la SMA200 (15,30 EUR vs 15,38 EUR) confirma la tendencia bajista estructural, superando la narrativa alcista basada en un Forward PE teórico que, al ser especulativo, carece de margen de seguridad frente a posibles revisiones a la baja de beneficios. La postura neutral o de 'Hold' es descartada por ignorar la urgencia de proteger capital ante el consumo de patrimonio neto reflejado en los estados financieros. Una reversión de esta tesis requeriría una estabilización técnica clara por encima de los 16,00 EUR y una mejora verificable en la generación de caja operativa que cubra los compromisos de deuda y dividendos sin recurrir a mayor apalancamiento.
 
-**Price Target**: 19.38
+**Price Target**: 14.1
 
-**Time Horizon**: 6-12 months
+**Time Horizon**: 3-6 meses

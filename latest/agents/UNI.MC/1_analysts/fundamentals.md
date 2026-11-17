@@ -1,37 +1,36 @@
-A continuación, se presenta el informe fundamental sobre **Unicaja Banco, S.A. (UNI.MC)**, basado en la información financiera y de mercado disponible a fecha 16 de noviembre de 2026.
-
 ### Informe Fundamental: Unicaja Banco, S.A. (UNI.MC)
 
-**Perfil y Desempeño Operativo**
-Unicaja Banco es una entidad financiera de servicios bancarios regionales con sede en España, cotizada en la bolsa de Madrid y componente del índice ^IBEX. A cierre de la sesión del 16 de noviembre de 2026, la acción cotiza a **3,44 EUR**. El banco ha mostrado un desempeño bursátil positivo en el último año, con un retorno del 51,85% en 252 sesiones, aunque recientemente se observa una ligera volatilidad y una caída en el corto plazo (-0,08% en los últimos 63 días).
+**Fecha de análisis:** 17 de noviembre de 2026
 
-**Análisis Financiero**
-*   **Resultados:** Unicaja ha reportado un beneficio neto de 632,36 millones de EUR al cierre de 2025, superando los 573,33 millones de EUR obtenidos en 2024. Los ingresos totales fueron de 2.097 millones de EUR en 2025.
-*   **Valuación:** El ratio PER (Price to Earnings) se sitúa en 13,24x (trailing) y 12,16x (forward), lo que comparado con la mediana de sus pares (10,70x) sugiere que, bajo esta métrica, cotiza con una prima (ratio 1,14). El valor contable por acción es de 2,465 EUR, resultando en un Price-to-Book de 1,40.
-*   **Dividendos:** La entidad mantiene una política atractiva con un dividend yield del 5,54%, sustentado por un payout ratio del 73,82%.
-*   **Solidez:** El balance muestra activos totales por 98.427 millones de EUR a finales de 2025. La deuda total se sitúa en 4.113 millones de EUR frente a un patrimonio neto de 7.073 millones de EUR, indicando una estructura de capital estable para el sector bancario.
+#### 1. Perfil y Contexto Corporativo
+Unicaja Banco, S.A. (UNI.MC) opera como una entidad financiera regional dentro del sector bancario español. A fecha de 17 de noviembre de 2026, la compañía mantiene una capitalización bursátil de aproximadamente 8.760 millones de EUR. La reciente actividad corporativa destaca la reelección de Isidro Rubiales como CEO (confirmada el 17/11/2026, *Cinco Días*), subrayando la estabilidad en la dirección, aunque permanece la expectativa del mercado sobre el nombramiento de un presidente sucesor.
 
-**Perspectivas y Contexto Macro**
-La entidad ha captado 1.818 millones de euros en fondos de inversión (noticia del 16/11/2026, *Estrategias de Inversión*), consolidando su posición. Sin embargo, analistas han expresado opiniones mixtas: mientras que Unicaja refuerza su atractivo bursátil con nuevas emisiones verdes y beneficios (13/11/2026), otros analistas han mostrado cautela respecto a su potencial de revalorización en comparación con otros grandes bancos como el Santander (10/11/2026). El entorno macroeconómico está marcado por tipos de interés persistentes y una inflación en la zona euro cerca del 4%, lo cual influye en la rentabilidad de los márgenes bancarios.
+#### 2. Análisis Financiero y Desempeño
+Unicaja muestra una trayectoria de crecimiento en ingresos, pasando de 1.977 millones de EUR en 2023 a 2.097 millones de EUR en 2025. El beneficio neto también ha experimentado una mejora notable, alcanzando los 632,35 millones de EUR al cierre de 2025 frente a los 266,7 millones de 2023.
 
-**Factores de Riesgo e Incertidumbre**
-*   **Valoración:** La cotización actual se encuentra cerca de su media de 50 días (3,37 EUR), pero ligeramente por encima del precio objetivo medio de los analistas (3,25 EUR), lo que implica una potencial sobrevaloración del 5,5% según el consenso actual de 18 analistas.
-*   **Flujo de Caja:** Los estados de flujo de efectivo muestran variaciones significativas; el flujo de caja operativo pasó de 2.834 millones en 2023 a cifras negativas en 2025, lo cual es común en la dinámica de depósitos y ajustes contables bancarios, pero requiere seguimiento detallado.
+*   **Rentabilidad y Valoración:** Con un PER (*trailing*) de 13,11 y un PER proyectado (*forward*) de 12,04, la valoración se sitúa en una posición intermedia respecto a sus pares (ratio 1,14). El ROE es del 10,12%, reflejando una eficiencia operativa moderada.
+*   **Dividendos:** La entidad ofrece un atractivo dividendo del 5,55%, con una tasa de pago (*payout*) del 73,82%, lo que indica una política de retorno al accionista consistente, reforzada recientemente por el anuncio de mejores beneficios y una nueva emisión de bonos verdes (*Estrategias de Inversión*, 13/11/2026).
+*   **Solidez del Balance:** Los activos totales han crecido ligeramente hasta los 98.427 millones de EUR en 2025. La deuda total se ha reducido de forma significativa, pasando de 5.089 millones en 2023 a 4.113 millones en 2025, lo cual es una señal positiva para la solvencia bancaria.
 
-### Resumen de Datos Clave (UNI.MC)
+#### 3. Análisis Técnico y de Mercado
+El precio de cierre de 3,408 EUR sitúa a la acción por encima de su media móvil de 200 días (2,99 EUR) y de 50 días (3,37 EUR), indicando una tendencia alcista estructural a largo plazo, pese a un ligero retroceso del 0,99% en la sesión actual. El indicador RSI (56,94) sugiere un margen de maniobra sin estar aún en zona de sobrecompra. La volatilidad del 22,5% debe ser considerada por los inversores.
 
-| Indicador | Valor |
+#### 4. Riesgos y Observaciones
+*   **Contexto Macro:** El entorno de tipos de interés y la inflación (del 4% en la zona euro, según *El Economista*, 13/11/2026) ejercen presión sobre el ahorro y el margen financiero.
+*   **Datos faltantes:** No se dispone de información sobre el *Cash Flow* operativo a corto plazo, el cual mostró cifras negativas en 2025, un área que requiere vigilancia para confirmar la sostenibilidad del dividendo.
+
+#### 5. Perspectiva
+La combinación de una valoración atractiva, un dividendo superior al 5% y una reducción efectiva de la deuda posiciona a UNI.MC como un valor de interés en el sector bancario español, siempre bajo la premisa de que la entidad pueda mantener su rentabilidad frente a la inflación persistente.
+
+| Indicador | Valor / Dato |
 | :--- | :--- |
-| Precio Cierre (16/11/2026) | 3,44 EUR |
-| Market Cap | 8.844,47 M EUR |
-| Forward PE | 12,16 |
-| Precio/Valor Contable | 1,40 |
-| Dividend Yield | 5,54% |
-| Precio Objetivo Medio | 3,25 EUR |
-| Beneficio Neto (2025) | 632,36 M EUR |
+| Capitalización Bursátil | 8.757,1 M EUR |
+| PER (Forward) | 12,04 |
+| Rentabilidad por Dividendo | 5,55% |
+| Precio Actual | 3,408 EUR |
+| Consenso Objetivo (Media) | 3,25 EUR |
+| ROE | 10,12% |
+| Variación 12 meses | +48,75% |
 
-**Nota:** Faltan datos específicos sobre el flujo de caja operativo desglosado por actividad comercial exacta para 2026, lo cual podría aclarar la tendencia negativa observada en 2025.
-
-**Rating**: REVIEW
-
-FINAL TRANSACTION PROPOSAL: HOLD
+**Rating**: HOLD
+FINAL TRANSACTION PROPOSAL: No trade executed. The asset exhibits a valuation above the analyst mean target price (3,25 EUR vs 3,408 EUR), suggesting potential overvaluation despite strong historical performance. Investors should monitor the next earnings release for clarity on operating cash flow.

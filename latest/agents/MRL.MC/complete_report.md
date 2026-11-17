@@ -1,8 +1,8 @@
 # Trading Analysis Report: MRL.MC
 
-- Analysis date: 2026-11-16
+- Analysis date: 2026-11-17
 - Rating: Hold
-- Generated: 2026-11-16 21:50:09
+- Generated: 2026-11-17 21:44:46
 - TradingAgents 0.7.1: google, deep gemini-3.1-flash-lite, quick gemini-3.1-flash-lite
 - Analysts: market, news, fundamentals; research debate rounds 1, risk debate rounds 1
 - Data vendors: core_stock_apis yfinance, technical_indicators yfinance, fundamental_data yfinance, news_data yfinance, macro_data fred, prediction_markets polymarket, get_news ibex_sample, get_global_news ibex_sample
@@ -10,184 +10,183 @@
 ## I. Analyst Team Reports
 
 ### Market Analyst
-El análisis técnico y fundamental de **MERLIN Properties (MRL.MC)**, con fecha de corte al 16 de noviembre de 2026, muestra una situación de cautela institucional debido a vientos en contra regulatorios y un entorno macroeconómico complejo.
+El análisis de **MERLIN Properties SOCIMI, S.A. (`MRL.MC`)** al cierre del 17 de noviembre de 2026 revela un escenario complejo, marcado por una divergencia entre el rendimiento técnico a corto plazo y la incertidumbre regulatoria que afecta sus fundamentales.
 
 ### Análisis Técnico
-El precio de cierre de **11.52 EUR** sitúa a la acción por debajo de sus medias móviles clave:
-*   **Tendencia:** La acción cotiza por debajo de su **SMA20 (11.56 EUR)** y de su **SMA50 (11.99 EUR)**, lo que confirma una tendencia bajista a medio plazo. La **SMA200 (13.89 EUR)** actúa como una resistencia estructural de largo plazo, indicando un mercado bajista persistente (caída del 6.48% en 252 sesiones).
-*   **Momentum:** El **RSI14 (44.07)** indica que no estamos en zona de sobreventa extrema, pero el momentum es débil. El **MACD (-0.089)** se encuentra por encima de su señal (-0.145), lo que sugiere una ligera mitigación de la presión bajista, pero sin consolidar un cambio de tendencia alcista claro.
-*   **Volatilidad:** La volatilidad se sitúa en un **26.12%**, lo que implica una sensibilidad elevada a las noticias del sector.
+El precio de cierre de 11,56 EUR se sitúa por debajo de las medias móviles de 20 días (11,57 EUR), 50 días (11,96 EUR) y 200 días (13,89 EUR), lo que confirma una **tendencia bajista a largo plazo**. 
+*   **Momentum:** El indicador RSI(14) en 45,16 sugiere una zona neutral con sesgo bajista; no estamos en niveles de sobreventa extrema, lo que limita el atractivo para compras tácticas de rebote inmediato.
+*   **MACD:** El MACD (-0,09) se encuentra por debajo de su línea de señal (-0,13), lo cual es técnicamente una señal constructiva pero débil dentro de un contexto de baja volatilidad (25,99%). La corrección acumulada en el último año (-6,53%) refleja el escepticismo del mercado.
 
-### Análisis Fundamental y Contexto de Mercado
-El valor presenta una divergencia significativa entre su valoración contable y la cotización actual:
-*   **Valoración:** Con un **Price-to-Book de 0.82**, la acción cotiza con un descuento sobre su valor contable (13.94 EUR), lo que tradicionalmente atrae a inversores en valor (*value investing*). Sin embargo, el **Forward PE de 20.52** es notablemente superior al **Trailing PE de 7.94**, reflejando expectativas de una caída en los beneficios futuros o presiones en los márgenes.
-*   **Incertidumbre Regulatoria:** La noticia más impactante es el informe de *El Boletín* (13-11-2026) sobre un coste estimado de **863 millones de EUR** derivado del nuevo decreto de centros de datos. Esto, sumado a las críticas del CEO contra la gestión gubernamental (OkDiario, 13-11-2026), ha inyectado una volatilidad negativa en el sentimiento inversor.
-*   **Resultados:** A pesar de haber superado las expectativas de ingresos en el 3T 2026, la debilidad en la acción sugiere que el mercado está descontando el impacto de la regulación y el entorno de tipos de interés altos (Bankinter, 13-11-2026).
+### Análisis Fundamental y Contexto Regulatorio
+Los estados financieros muestran una recuperación en los ingresos (538,96M EUR en 2025 frente a 494,57M EUR en 2024), pero la valoración está bajo presión.
+*   **Controversia de los Centros de Datos:** Según fuentes como *El Boletín* (13-11-2026), Merlin enfrenta una estimación de costes extra de **863 millones de euros** debido al nuevo decreto sobre centros de datos. Este factor es el principal catalizador negativo que explica por qué, a pesar de resultados operativos que superaron expectativas en el T3 2026 (*Investing.com*, 13-11-2026), la acción no logra recuperar niveles previos.
+*   **Valoración:** La compañía cotiza a un ratio Precio/Valor Contable de 0,83, lo que sugiere un descuento sobre sus activos netos, una característica típica de las SOCIMIs cuando el mercado descuenta riesgos operativos futuros.
 
-### Evidencia y Datos Faltantes
-*   **Soporte:** La divergencia entre la rentabilidad por dividendo (3.42%) y el precio de mercado es un punto de apoyo para la retención de accionistas a largo plazo.
-*   **Datos faltantes:** No se dispone de un desglose detallado del impacto del apalancamiento neto sobre el EBITDA, lo cual es crítico dada la naturaleza del sector REIT en un entorno de tipos restrictivos.
+### Riesgos y Oportunidades
+*   **A favor:** Un *dividend yield* del 3,47% y una estructura de deuda que, aunque significativa (5.386M EUR), está soportada por activos reales. El consenso de analistas sitúa el precio objetivo medio en 17,00 EUR, lo que implica un potencial alcista del 47% respecto al precio actual, aunque este consenso podría estar desactualizado ante el impacto del nuevo decreto regulatorio.
+*   **En contra:** La incertidumbre sobre la viabilidad o rentabilidad de los proyectos de centros de datos actúa como un techo para el precio de la acción. La inflación persistente en la eurozona (4% según *El Economista*, 13-11-2026) mantiene los tipos de interés elevados, lo cual presiona negativamente las valoraciones de los activos inmobiliarios (cap rates).
 
-### Resumen de Indicadores Clave
+### Conclusión
+`MRL.MC` presenta una oportunidad de valor desde una perspectiva puramente contable (P/B < 1), pero el riesgo regulatorio actual impide una recomendación de compra técnica clara. La prudencia es necesaria hasta que se aclare el impacto financiero del decreto de centros de datos.
 
-| Indicador | Valor | Interpretación |
+**Rating**: HOLD
+
+| Indicador / Métrica | Valor / Estado | Observación |
 | :--- | :--- | :--- |
-| Precio Cierre | 11.52 EUR | Tendencia bajista, bajo medias clave |
-| SMA50 | 11.99 EUR | Resistencia inmediata |
-| RSI14 | 44.07 | Indecisión (ni sobreventa ni sobrecompra) |
-| Price-to-Book | 0.82 | Descuento patrimonial |
-| Dividend Yield | 3.42% | Atractivo moderado |
-| Consenso Upside | 47.68% | Potencial teórico según analistas |
+| Precio Actual | 11,56 EUR | Por debajo de todas las SMA principales |
+| RSI (14) | 45,16 | Zona neutral, sin señal de giro |
+| P/B Ratio | 0,83 | Infravaloración contable |
+| Dividend Yield | 3,47% | Retorno aceptable |
+| Tendencia 200 SMA | 13,89 EUR | Tendencia bajista confirmada |
+| Riesgo Principal | -863M EUR | Impacto potencial por decreto centros datos |
 
-**Rating**: Neutral
+***
 
-FINAL TRANSACTION PROPOSAL: No realizar nuevas compras hasta que se esclarezca el impacto final del decreto de centros de datos y se observe una ruptura confirmada de la SMA50 al alza. El descuento sobre valor contable es atractivo, pero el riesgo regulatorio actual justifica una postura de espera para los inversores conservadores.
+*Descargo de responsabilidad: Este análisis se basa exclusivamente en los datos suministrados y no constituye una recomendación de inversión. No se ha ejecutado ninguna operación. El análisis de riesgo regulatorio es una interpretación de las noticias citadas y requiere monitorización constante.*
+
+FINAL TRANSACTION PROPOSAL: None
 
 ### News Analyst
 ### Informe de Análisis: MERLIN Properties (MRL.MC)
 
-**Situación Actual y Contexto Macroeconómico**
-A fecha de 16 de noviembre de 2026, MERLIN Properties (`MRL.MC`) atraviesa un periodo de volatilidad significativa, cotizando a 11,52 EUR con un retroceso del 1,54% en la última sesión y una caída del 17,18% en los últimos 63 días. La empresa, clasificada como REIT de oficinas, se enfrenta a un entorno macroeconómico complejo caracterizado por una inflación en la zona euro persistente (reportada en torno al 4% según *El Economista* del 13 de noviembre), lo que complica la expectativa de una relajación de los tipos de interés.
+**Contexto Macroeconómico y Sectorial**
+La situación actual para MERLIN Properties SOCIMI, S.A. se desarrolla en un entorno macroeconómico complejo en la Eurozona. Los datos recientes sugieren una inflación persistente en torno al 4% (fuente: *El Economista*, 2026-11-13), lo que tensiona la política monetaria y limita el margen para la relajación de los tipos de interés. Este entorno de tipos elevados suele presionar las valoraciones de los REITs (Real Estate Investment Trusts) debido al incremento en el coste del servicio de la deuda y a la revalorización de los activos inmobiliarios bajo tasas de capitalización más altas.
 
-**Factores de Riesgo y Catalizadores**
-1. **Regulación de Centros de Datos:** La noticia más impactante para la acción es la estimación de un coste extra de 863 millones de euros derivado de un nuevo decreto gubernamental sobre centros de datos (*El Boletín*, 13/11/2026). Esta incertidumbre regulatoria ha provocado un análisis negativo por parte de entidades como Bankinter, que señalan el aumento del riesgo en su segmento de centros de datos, un motor clave de crecimiento para la compañía.
-2. **Resultados Financieros:** A pesar de la caída en bolsa, los resultados del 3T 2026 superaron las previsiones de ingresos (*Investing.com*, 13/11/2026). Esto crea una divergencia entre el rendimiento operativo de la empresa y la percepción del mercado, afectada por el entorno regulatorio y la presión macroeconómica sobre las valoraciones inmobiliarias.
-3. **Entorno de Tipos:** El ahorro en la eurozona sigue erosionado por tipos reales negativos (*Vozpopuli*, 14/11/2026), y el mercado observa con atención las decisiones del BCE ante la inflación, lo cual es crítico para una empresa intensiva en capital y deuda como `MRL.MC`.
+**Análisis de MERLIN Properties (MRL.MC)**
+El valor presenta una dinámica particular marcada por la incertidumbre regulatoria. Las noticias más relevantes de los últimos días se centran en el impacto potencial de un nuevo decreto sobre centros de datos, que según reportes (*El Boletín*, 2026-11-13), podría suponer un coste extra estimado de 863 millones de euros para la compañía. Este factor ha ensombrecido unos resultados del tercer trimestre de 2026 que, a nivel operativo, superaron las expectativas (*Investing.com España*, 2026-11-13).
 
-**Análisis de Valoración y Técnica**
-*   **Valoración:** La compañía presenta un *Forward PE* de 20,52, significativamente superior al *Trailing PE* de 7,94, lo que sugiere que los analistas descuentan un ajuste en los beneficios futuros, posiblemente por los costes regulatorios mencionados. Con un ratio Precio/Valor Contable de 0,82, la acción cotiza con un descuento respecto a su valor contable (13,94 EUR), lo cual podría sugerir una infravaloración si el impacto del decreto se mitiga.
-*   **Técnica:** El RSI de 44,08 indica una zona neutral tirando a sobrevendida. La cotización se encuentra por debajo de sus medias móviles de 20 (11,56), 50 (11,99) y 200 días (13,89), confirmando una tendencia bajista de medio plazo.
+*   **Fundamentales:** La compañía muestra un balance robusto con una capitalización de mercado de 7.157 millones EUR y un ratio Precio/Valor Contable (P/B) de 0,83, lo que indica que cotiza con un descuento sobre su valor neto de activos (NAV). El *trailing PE* de 7,97 parece atractivo, pero debe contrastarse con un *forward PE* de 20,6, sugiriendo expectativas de menor beneficio futuro o impacto de los costes extraordinarios mencionados.
+*   **Situación Técnica:** Con un precio de cierre de 11,56 EUR, la acción se encuentra por debajo de sus medias móviles de 50 días (11,96 EUR) y 200 días (13,89 EUR), reflejando una tendencia bajista de medio y largo plazo. El RSI14 de 45,16 indica una zona neutral, sin sobreventa extrema, mientras que la volatilidad del 25,99% subraya la sensibilidad del título a los eventos regulatorios.
 
-**Evidencia Faltante**
-No se dispone de datos detallados sobre el *Net Debt/EBITDA* actual (marcado como *null* en el reporte), lo cual es crítico para evaluar la capacidad de absorción de los 863 millones de euros de costes extra sin comprometer el dividendo (actualmente con una rentabilidad del 3,47%). Tampoco se cuenta con un desglose actualizado del flujo de caja operativo post-decreto.
+**Factores de Riesgo y Oportunidades**
+1.  **Riesgo Regulatorio:** La mayor amenaza a corto plazo es el decreto sobre centros de datos. La capacidad de la directiva para mitigar este impacto de 863 millones será determinante para la confianza del mercado.
+2.  **Solidez Financiera:** La compañía mantiene un flujo de caja operativo sólido (415,6 millones EUR en 2025) y un dividendo estable (yield ~3,47%), lo que proporciona cierto soporte a la valoración en un contexto de tipos reales negativos en la eurozona (fuente: *Vozpopuli*, 2026-11-14).
+3.  **Consenso de Analistas:** El mercado mantiene una visión de optimismo a largo plazo con un precio objetivo medio de 17,00 EUR, lo que representa un *upside* implícito del 47,09% respecto al precio actual.
 
-| Factor | Estado / Valor | Impacto / Observación |
+**Conclusión**
+La acción se encuentra en una fase de "espera y ver" ante la incertidumbre regulatoria. Mientras que los fundamentales operativos son resilientes, el riesgo de un impacto material en balance por el decreto de centros de datos justifica la cautela. Se recomienda monitorear cualquier resolución sobre este decreto antes de considerar posiciones de entrada.
+
+| Indicador | Valor | Observación |
 | :--- | :--- | :--- |
-| **Precio Acción** | 11,52 EUR | Tendencia bajista, bajo medias móviles. |
-| **Consenso Precio** | 17,01 EUR | Upside potencial del 47,68% (teórico). |
-| **Inflación Eurozona** | ~4,0% | Presión sobre los costes y tipos de interés. |
-| **Riesgo Regulatorio** | Alto | Impacto de 863M€ en centros de datos. |
-| **Dividend Yield** | 3,47% | Rentabilidad atractiva pero bajo escrutinio. |
+| Precio Cierre (MRL.MC) | 11,56 EUR | Tendencia bajista (bajo SMA 50/200) |
+| Capitalización Mercado | 7.157M EUR | Empresa de gran capitalización (REIT) |
+| P/B Ratio | 0,83 | Descuento sobre valor contable |
+| Dividend Yield | 3,47% | Rentabilidad atractiva en el sector |
+| Consenso Upside | +47,09% | Elevado potencial según analistas |
+| Riesgo Principal | 863M EUR (Extra) | Decreto sobre centros de datos |
 
 **Rating**: REVIEW
 
-FINAL TRANSACTION PROPOSAL: No realizar acciones. La incertidumbre sobre el impacto del decreto gubernamental en el plan de negocios de centros de datos de `MRL.MC` requiere mayor claridad operativa antes de considerar la entrada, a pesar de que el precio actual cotiza con descuento sobre su valor contable.
+FINAL TRANSACTION PROPOSAL: No action recommended; monitor regulatory updates regarding the data center decree before re-evaluating the entry point.
 
 ### Fundamentals Analyst
-### Informe de Análisis Fundamental: MERLIN Properties (MRL.MC)
+### Informe de Análisis Fundamental: MERLIN Properties SOCIMI, S.A. (MRL.MC)
 
-**Fecha de análisis:** 16 de noviembre de 2026
-**Instrumento:** MERLIN Properties SOCIMI, S.A. (MRL.MC)
-**Sector:** Real Estate / REIT - Office
+**Fecha del informe:** 17 de noviembre de 2026
+**Instrumento:** MRL.MC (España)
 
 #### Resumen Ejecutivo
-MERLIN Properties, la SOCIMI líder en el mercado español, presenta un panorama mixto tras la publicación de sus resultados del tercer trimestre de 2026. A pesar de haber superado las previsiones de ingresos, la acción enfrenta una presión bajista significativa impulsada por la incertidumbre regulatoria en torno a sus proyectos de centros de datos y un entorno macroeconómico complejo con inflación persistente en la Eurozona (estimada en 4%).
+MERLIN Properties (MRL.MC), el mayor REIT de oficinas en España, atraviesa un periodo de incertidumbre operativa marcada por la presión regulatoria en su línea de negocio de centros de datos, a pesar de haber reportado resultados del tercer trimestre de 2026 superiores a las expectativas del mercado.
 
-#### Análisis Financiero
-*   **Resultados Recientes:** Los ingresos del 3T 2026 han superado las estimaciones del consenso, demostrando resiliencia operativa. Sin embargo, el mercado reacciona negativamente debido a las noticias sobre un posible coste extra de 863 millones de euros derivado de un nuevo decreto gubernamental que afecta a los centros de datos (fuente: *El Boletín*, 13/11/2026).
-*   **Valoración:** La compañía cotiza a un ratio Precio/Valor Contable (P/B) de 0.83, lo que sugiere que las acciones podrían estar infravaloradas respecto a sus activos netos. No obstante, el PE forward de 20.5x refleja las expectativas de una mayor carga operativa o menores márgenes futuros.
-*   **Solidez del Balance:** Con un capital social de 8.07 mil millones de euros y una deuda total de 5.06 mil millones (al cierre de 2025), la empresa mantiene una estructura de capital sólida, aunque el entorno de tipos de interés altos de la Eurozona aumenta el coste del servicio de la deuda, una preocupación clave mencionada en los análisis de *Bankinter* (13/11/2026).
-*   **Dividendos:** La rentabilidad por dividendo se sitúa en el 3.47%, con un ratio de payout conservador del 14.8%, lo que proporciona margen para mantener la retribución al accionista pese a la coyuntura.
+#### Análisis Financiero y Operativo
+*   **Resultados Recientes:** Según datos de *Investing.com* (13/11/2026), la compañía superó las previsiones de ingresos en el T3 2026, lo que indica resiliencia operativa. No obstante, la acción ha reaccionado con cautela debido a factores externos.
+*   **Tendencias de Balance y Flujo de Caja:**
+    *   **Solvencia:** La deuda total se sitúa en 5.386 millones de EUR (a 2026-11-17), frente a unos activos totales de 14.268 millones de EUR (cierre 2025). El ratio de endeudamiento muestra una tendencia al alza constante desde 2023.
+    *   **Rentabilidad:** MRL mantiene un sólido *Return on Equity* (ROE) del 10,04%. El *dividend yield* es del 3,47%, lo que atrae a inversores orientados a ingresos, aunque el *payout ratio* del 14,83% sugiere una política de distribución conservadora.
+*   **Desafíos Regulatorios:** El principal lastre actual es el impacto potencial del nuevo decreto de centros de datos. La empresa ha estimado un sobrecoste de 863 millones de EUR, lo cual ha sido calificado por la directiva como un escenario que obliga a prepararse para "lo peor" (*El Boletín*, 13/11/2026). Este riesgo impacta directamente en las valoraciones futuras y explica la divergencia entre el valor contable y el sentimiento de mercado.
 
-#### Consideraciones Estratégicas
-1.  **Riesgo Regulatorio:** La crítica abierta del CEO de Merlin hacia la gestión gubernamental de los proyectos de infraestructuras digitales añade una prima de riesgo político que está pesando sobre la cotización.
-2.  **Entorno Macroeconómico:** La inflación en la zona euro (4%) limita la capacidad de maniobra del BCE, manteniendo los tipos de interés elevados, lo cual es intrínsecamente negativo para el sector inmobiliario y los costes de financiación.
-3.  **Desempeño Técnico:** La acción muestra una tendencia a la baja, situándose por debajo de sus medias móviles de 20, 50 y 200 sesiones. El RSI de 44.07 indica una zona neutral-bajista, sin signos claros de sobreventa inmediata.
+#### Valoración y Perspectiva de Mercado
+*   **Valoración:** La acción cotiza a un *Price-to-Book* (P/B) de 0,83x, cotizando por debajo de su valor en libros (13,94 EUR por acción), lo que podría sugerir una infravaloración si el impacto del decreto es menor al temido.
+*   **Consenso de Analistas:** Existe una notable brecha entre el precio actual (11,56 EUR) y el objetivo medio de los analistas (17,00 EUR), implicando un potencial de revalorización del 47,09%. Sin embargo, el *forward P/E* de 20,6x sugiere que el mercado anticipa una contracción significativa en los beneficios futuros, probablemente descontando el impacto regulatorio.
 
-#### Evidencia de apoyo y contraria
-*   **Apoyo:** El crecimiento de los ingresos trimestrales confirma la capacidad de generación de caja de la cartera de activos de alta calidad (oficinas y logística).
-*   **Contraria:** La incertidumbre sobre el decreto de centros de datos y la tendencia técnica negativa (caída del 17% en los últimos 63 días) sugieren cautela.
+#### Análisis Técnico
+La acción muestra signos de debilidad a medio plazo, cotizando por debajo de sus medias móviles de 50 días (11,96 EUR) y 200 días (13,89 EUR). El indicador RSI de 45,16 sitúa al título en zona neutral, sin sobreventa extrema, pero con un *momentum* claramente bajista en los últimos 63 días (-17,84%).
 
-#### Información Faltante
-*   No se dispone de datos detallados sobre la distribución geográfica exacta de la cartera tras las últimas rotaciones de activos.
-*   Faltan previsiones desglosadas por línea de negocio tras el impacto del posible nuevo decreto.
+#### Riesgos y Datos Faltantes
+*   **Riesgos:** Riesgo regulatorio inminente (decreto centros de datos) y sensibilidad a los tipos de interés de la Eurozona (inflación al 4% según *El Economista*).
+*   **Datos Faltantes:** No se dispone de un desglose detallado del impacto del apalancamiento neto (Net Debt/EBITDA no disponible), lo cual es crítico para una empresa del sector inmobiliario intensiva en capital.
 
-**Rating:** HOLD
+**Rating**: REVIEW
 
-| Métrica Clave | Valor / Dato |
-| :--- | :--- |
-| Precio Actual | 11.52 EUR |
-| Capitalización de Mercado | 7.13 mil millones EUR |
-| P/B Ratio | 0.83 |
-| Rentabilidad por Dividendo | 3.47% |
-| Target Mean Price | 17.01 EUR |
-| Consenso Upside | 47.69% |
+| Indicador | Valor | Comentario |
+| :--- | :--- | :--- |
+| Precio Actual | 11,56 EUR | Tendencia bajista vs SMA200 |
+| Dividend Yield | 3,47% | Sostenible dado el payout |
+| Price to Book | 0,83x | Cotiza con descuento sobre valor contable |
+| Forward EPS | 0,56 EUR | Refleja posible impacto de riesgos |
+| Consenso Upside | 47,09% | Alta divergencia con analistas |
 
-FINAL TRANSACTION PROPOSAL: Mantener posiciones actuales y esperar claridad sobre la resolución regulatoria del decreto de centros de datos antes de ampliar exposición. La valoración atractiva (P/B < 1) sugiere un suelo potencial, pero el momento técnico requiere confirmación de reversión de tendencia.
+FINAL TRANSACTION PROPOSAL: The equity is currently facing significant regulatory headwinds related to data center legislation. While it trades at a discount to book value and carries a decent yield, the technical trend is negative. A "Hold" or "Review" stance is appropriate until the regulatory impact is quantified in the balance sheet. No transaction.
 
 ## II. Research Team Decision
 
 ### Bull Researcher
 
-Bull Analyst: Como analista alcista, entiendo perfectamente por qué el mercado está cauteloso ahora mismo, pero creo que los inversores que se centran únicamente en el ruido a corto plazo están perdiendo de vista la oportunidad de valor que presenta **MRL.MC**.
+Bull Analyst: Como analista Bull sobre **MRL.MC**, mi postura es clara: el mercado está sobreactuando ante el ruido regulatorio y está ignorando una oportunidad de compra histórica en uno de los activos más sólidos del sector inmobiliario europeo.
 
-### El Caso Alcista: Una Oportunidad de "Valor" con Potencial de Crecimiento
-No debemos olvidar que **MRL.MC** no es una empresa inmobiliaria convencional. Es una plataforma líder en activos de alta calidad (oficinas premium y centros de datos) que actualmente cotiza a un **Price-to-Book de 0.83**. Estamos comprando activos inmobiliarios de primer nivel con un descuento del 17% sobre su valor contable. Cuando el mercado castiga a una compañía de esta calidad con un descuento tan profundo, históricamente es una señal de compra, no de huida.
+Aquí mi argumento para contrarrestar el pesimismo reinante:
 
-Además, los fundamentales operativos están intactos:
-*   **Resultados resilientes:** A pesar de la volatilidad, la empresa superó las expectativas de ingresos en el 3T 2026, lo que demuestra que su estrategia de gestión de activos funciona incluso bajo presión inflacionaria.
-*   **Dividendo Sostenible:** Con un *payout ratio* muy conservador del 14.8%, la rentabilidad por dividendo del 3.47% no solo es atractiva, sino que es extremadamente segura, lo cual es un ancla de valor vital en este entorno de tipos altos.
+### 1. El mercado está pagando por el miedo, no por los fundamentos
+Es cierto que el decreto de centros de datos ha generado nerviosismo, y los 863 millones de euros citados son una cifra que ha asustado a muchos. Pero analicemos la realidad: **MRL.MC** cotiza con un ratio Precio/Valor Contable de **0,83**. Estamos comprando activos de primera calidad (oficinas prime y logística de primer nivel) con un descuento del 17% sobre su valor real en libros. Este margen de seguridad es, por sí mismo, una protección contra una caída adicional del precio.
 
-### Refutando los argumentos bajistas
-Sé que el "oso" se centrará en el impacto de los 863 millones de euros derivados del nuevo decreto de centros de datos. Sin embargo, este es un argumento que ignora la naturaleza de los activos de **MRL.MC**:
-1.  **Valor intrínseco de los centros de datos:** Los centros de datos son infraestructuras críticas con un poder de fijación de precios superior al de las oficinas tradicionales. Si el entorno regulatorio exige un mayor gasto, el mercado finalmente absorberá ese coste a través de alquileres indexados a la inflación.
-2.  **Reacción exagerada:** Los analistas han ajustado sus previsiones, pero una caída del 17% en 63 días ya descuenta gran parte de este riesgo. El *upside* de consenso del 47.68% (un precio objetivo medio de 17.01 EUR frente a los 11.52 EUR actuales) indica que el mercado está exagerando el impacto de la incertidumbre política. El CEO ha sido crítico, sí, pero es un indicativo de que la empresa lucha activamente por los intereses de sus accionistas, no de que la estrategia esté fracasando.
+### 2. Fortaleza Operativa y Resiliencia
+Mientras el oso se enfoca en el "posible" impacto del decreto, ignora la realidad operativa: los resultados del T3 2026 superaron las previsiones. Esto demuestra que el núcleo del negocio de **MRL.MC** sigue siendo robusto y capaz de generar caja, con un flujo de caja operativo de 415,6 millones de euros en 2025. Una empresa que genera valor operativo constante no debe ser penalizada con valoraciones de distress a largo plazo.
 
-### ¿Por qué ahora?
-Estamos ante una dislocación entre la valoración técnica y el valor fundamental. La acción se encuentra cerca de su soporte de largo plazo y el RSI (44.07) sugiere que ya no hay presión vendedora masiva. La debilidad técnica es transitoria; la fortaleza de la cartera de **MRL.MC** es permanente.
+### 3. El "Upside" de Consenso: 47% de potencial
+¿Es posible que 21 analistas estén equivocados simultáneamente? El precio objetivo medio de 17,00 EUR no es una cifra al azar; refleja la capacidad de los activos de **MRL.MC** para recuperarse en cuanto el entorno de tipos de interés se estabilice. La inflación del 4% en la Eurozona es un reto, sí, pero los REITs de calidad actúan como una cobertura natural a largo plazo. El mercado está viendo el árbol (el decreto) y perdiendo de vista el bosque (la revalorización estructural de los activos).
 
-Mi postura es que la incertidumbre regulatoria se disipará a medida que la compañía ajuste sus planes de expansión, y cuando eso ocurra, veremos una rápida revalorización hacia el valor contable.
+### Refutación al argumento "Bajista"
+El oso dirá: *"Pero las medias móviles están cayendo y la tendencia es bajista"*. Mi respuesta es: las medias móviles son indicadores de **ayer**, no de **mañana**. La falta de sobreventa extrema en el RSI (45,16) nos dice que el mercado simplemente está en una fase de consolidación y espera, no de capitulación. El dividendo del 3,47% nos paga mientras esperamos a que el mercado corrija esta infravaloración. Abandonar la posición ahora es vender en el punto de máximo pesimismo, justo cuando la relación riesgo-beneficio es más favorable.
+
+**MRL.MC** es una apuesta por el valor real. Cuando la incertidumbre regulatoria se despeje —y el mercado siempre termina por descontar la realidad en lugar del miedo—, la convergencia hacia el valor contable y los objetivos de los analistas será violenta al alza.
 
 **Rating**: BUY
 
-FINAL TRANSACTION PROPOSAL: Acumular posiciones en los niveles actuales de 11.52 EUR, aprovechando el descuento sobre valor contable, con una visión de inversión orientada al medio plazo para capturar la convergencia hacia el precio objetivo de consenso (17.01 EUR).
+FINAL TRANSACTION PROPOSAL: Accumulate on weakness; the current discount to Book Value and strong analyst consensus (47% upside) outweigh the short-term regulatory noise.
 
 ### Bear Researcher
 
-Bear Analyst: Compañero, respeto tu optimismo, pero me temo que estás confundiendo un "valor de saldo" con una "trampa de valor" clásica. Comprar a 0.83x el valor contable es una estrategia seductora, pero solo si el valor contable es real y no está a punto de ser erosionado por el entorno regulatorio y financiero que estamos presenciando.
+Bear Analyst: Como analista bajista, entiendo perfectamente la narrativa del "descuento" que presentas, pero creo que tu optimismo ignora la realidad estructural del mercado inmobiliario actual y la gravedad de las amenazas que enfrenta **MRL.MC**. Comprar un activo solo porque está "barato" respecto a su valor contable es una trampa clásica de valor si los fundamentos están erosionándose.
 
-Aquí te expongo por qué tu tesis alcista sobre `MRL.MC` ignora riesgos existenciales que el mercado, que es mucho más inteligente que un simple ratio P/B, está descontando correctamente.
+Aquí está mi réplica a tus puntos:
 
-### 1. El mito del descuento sobre valor contable
-Dices que comprar con un P/B de 0.83 es una oportunidad. Pero, ¿qué ocurre si ese valor contable no refleja los 863 millones de euros de "coste extra" del nuevo decreto de centros de datos? Si ese pasivo se materializa —y la actitud beligerante del CEO frente al Gobierno sugiere que el conflicto es grave y no una simple negociación—, ese descuento desaparece instantáneamente. Estás valorando la empresa bajo un escenario estático, mientras la realidad operativa es dinámica y agresivamente negativa.
+### 1. El mito del "margen de seguridad"
+Dices que un P/B de 0,83 es una protección. Yo digo que es una señal de alerta roja. El mercado no es estúpido; si **MRL.MC** cotiza con un descuento del 17% sobre su valor en libros, es porque el mercado está descontando una **depreciación inminente de esos activos**. En un entorno de tipos de interés altos e inflación pegajosa al 4% en la Eurozona, los *cap rates* (tasas de capitalización) deben subir, lo que significa que el valor de mercado de sus edificios va a bajar irremediablemente. Ese P/B no es una oportunidad; es un ajuste de valoración que el mercado ya está anticipando.
 
-### 2. Refutando tu optimismo sobre los centros de datos
-Afirmas que el mercado absorberá los costes a través de alquileres indexados. Eso es una asunción peligrosa. Primero, la inflación en la eurozona (4%) ya está castigando el poder adquisitivo de los clientes. Segundo, si el Estado impone regulaciones que encarecen la operativa en 863 millones, la rentabilidad esperada (ROE) de esos centros de datos se desploma. No es una "reacción exagerada" del mercado, es una revalorización de riesgo: el sector de centros de datos de `MRL.MC` era su motor de crecimiento, y hoy es su mayor vulnerabilidad política.
+### 2. El "ruido" regulatorio no es ruido, es una hemorragia de caja
+Llamar "ruido" a un sobrecoste estimado de 863 millones de euros es, cuanto menos, temerario. Ese decreto sobre centros de datos no es una pequeña traba administrativa; es un golpe directo a la línea de flotación de una de las apuestas de crecimiento más importantes de **MRL.MC**. Si la empresa se está preparando para "lo peor", ¿por qué nosotros, como inversores, deberíamos estar celebrando? La incertidumbre sobre la viabilidad de estos proyectos destruye la tesis de crecimiento futuro, convirtiendo a **MRL.MC** en una empresa de crecimiento estancado.
 
-### 3. El espejismo del "Upside" de Consenso
-Citar un *upside* del 47% es basarse en el pasado. Los analistas suelen ir detrás de la curva. Si miras el *Forward PE* de 20.52 frente al *Trailing PE* de 7.94, la conclusión es clara: el consenso está empezando a aceptar que los beneficios van a caer en picado. El mercado no es tonto: está descontando una contracción severa de los márgenes futuros.
+### 3. La trampa del consenso de analistas
+Sobre tu argumento de los 21 analistas: el consenso de precios objetivo rara vez ajusta las estimaciones inmediatamente después de un shock regulatorio como este. Ese 47% de *upside* es una cifra estática que ignora el flujo de caja que se desviará para pagar ese decreto. Estás mirando el espejo retrovisor mientras el coche se dirige hacia un muro.
 
-### 4. Debilidad técnica extrema
-Hablas de una dislocación, pero los números no mienten: `MRL.MC` está por debajo de su SMA20, SMA50 y, lo que es peor, la SMA200 (13.89 EUR). Una acción que no puede superar su media de 200 días está en un mercado bajista estructural. La caída del 17% en los últimos 63 días no es una "oportunidad de compra", es una tendencia de venta masiva. ¿Por qué intentar atrapar un cuchillo cayendo cuando el sentimiento institucional es claramente de salida?
+### Refutación de tu visión técnica
+Dices que las medias móviles son "indicadores de ayer". Precisamente por eso son tan valiosas: confirman la tendencia del mercado. **MRL.MC** cotiza por debajo de su SMA de 20, 50 y 200 días. Estamos en una tendencia bajista confirmada. Cuando una acción no logra mantenerse por encima de su media de 200 días (13,89 EUR), cualquier rebote es solo un "rebote de gato muerto". Comprar ahora es intentar atrapar un cuchillo cayendo mientras el sector inmobiliario de oficinas sigue sufriendo la resaca del cambio en los modelos laborales.
 
-### Conclusión para el debate
-Compañero, te estás fijando en la rentabilidad por dividendo (3.47%) como un ancla de seguridad, pero en un entorno de tipos reales negativos y con un coste de deuda que seguirá presionando el balance, ¿es sostenible mantener ese payout si el flujo de caja se desvía a cubrir multas o costes regulatorios imprevistos? 
-
-Mi consejo: no confundas un precio bajo con una ganga. `MRL.MC` tiene demasiados frentes abiertos y una falta total de catalizadores alcistas a corto plazo. Hasta que no veamos una resolución favorable (o al menos definida) sobre el decreto de centros de datos y una ruptura confirmada de la SMA50, el riesgo de pérdida de capital es mucho mayor que el beneficio potencial.
+El dividendo del 3,47% suena bien, pero ¿de qué sirve si la acción cae un 10% adicional? Estás persiguiendo rendimientos mientras el capital principal está bajo un asedio regulatorio y macroeconómico serio. La prudencia no es miedo, es supervivencia. Hasta que no veamos una resolución clara sobre el coste del decreto de centros de datos, **MRL.MC** es un riesgo que no compensa.
 
 **Rating**: SELL
 
-FINAL TRANSACTION PROPOSAL: Mantenerse al margen o reducir exposición. El riesgo regulatorio de 863 millones de euros y la tendencia bajista técnica sugieren que la acción podría seguir probando mínimos. No es momento de acumular.
+FINAL TRANSACTION PROPOSAL: Avoid; maintain cash until regulatory clarity on the 863M EUR charge is achieved and the stock establishes a base above the 200-day SMA.
 
 ### Research Manager
 **Recommendation**: Hold
 
-**Rationale**: La tesis se encuentra en un punto muerto. Por un lado, la valoración fundamental es atractiva con un Price-to-Book de 0.83 y un dividendo bien cubierto, lo que sugiere que el mercado ha reaccionado de forma excesiva a las noticias. Por otro lado, la incertidumbre regulatoria respecto al decreto de centros de datos de 863 millones de euros es un riesgo real y sustancial que impacta directamente en las expectativas de crecimiento futuro, exacerbado por una tendencia técnica bajista (cotización por debajo de la SMA200). He decidido no entrar en el 'Buy' debido al riesgo de 'trampa de valor' y evitar el 'Sell' porque el mercado ya ha descontado una caída del 17% en 63 días, sugiriendo que gran parte del impacto negativo está reflejado en el precio. El consenso alcista del 47% y los sólidos fundamentales operativos actuales actúan como una red de seguridad que impide recomendar una salida total en estos niveles.
+**Rationale**: The debate highlights a deep conflict between valuation-based optimism and structural-risk pessimism. The bull case rests on a tangible 17% discount to book value and strong historical earnings, while the bear case emphasizes significant downside risks from the 863 million EUR regulatory charge and negative technical momentum (trading below the 200-day SMA). Given that the regulatory impact is a major, yet poorly defined, headwind that could materially impair future cash flows, buying now is premature. Conversely, the company's solid operational results in the most recent quarter and the current valuation discount provide a floor that prevents an outright sell. The decision is to hold until the uncertainty regarding the data center legislation is resolved and the stock confirms a price floor, preventing further erosion of capital while maintaining exposure to the underlying asset value.
 
-**Strategic Actions**: Mantener una posición neutral, evitando aumentar la exposición hasta que exista una mayor claridad sobre la resolución del conflicto regulatorio de los centros de datos. En caso de tener posiciones preexistentes, conservar para capturar el rendimiento por dividendo del 3.47%, ya que el payout ratio del 14.8% es altamente conservador. Si el precio atraviesa con fuerza la SMA50 al alza, considerar incrementar la exposición de forma moderada, pero evitar compras agresivas mientras la acción permanezca bajo la media de 200 días (13.89 EUR).
+**Strategic Actions**: Maintain existing position size; do not add or reduce. Monitor for news regarding the finalization of the regulatory decree on data centers. Avoid increasing exposure until the stock price stabilizes above the 200-day SMA of 13.89 EUR, which would signal a reversal of the current bearish technical trend.
 
 ## III. Trading Team Plan
 
 ### Trader
 **Action**: Hold
 
-**Reasoning**: El valor presenta una contradicción entre fundamentales atractivos (Price-to-Book de 0.82) y un riesgo regulatorio severo relacionado con el decreto de centros de datos de 863 millones de euros. Desde un punto de vista técnico, la acción cotiza por debajo de sus medias móviles de 20, 50 y 200 días, lo que confirma una tendencia bajista persistente y falta de momentum. Mantener es la estrategia prudente para evitar una trampa de valor mientras el mercado digiere la incertidumbre legislativa.
+**Reasoning**: La acción se encuentra bajo una presión regulatoria significativa debido al decreto de centros de datos, que introduce un coste potencial de 863 millones de euros, compensando el atractivo de su bajo ratio P/B de 0,83. Técnicamente, MRL.MC opera por debajo de sus medias móviles clave (SMA 20, 50 y 200), lo que confirma una tendencia bajista que desaconseja nuevas compras hasta que se observe una estabilización. Mantener la posición es la estrategia prudente para evitar el riesgo de caídas adicionales mientras se esclarece el impacto real de la nueva normativa en los flujos de caja futuros.
 
 **Entry Price**: not provided
 
 **Stop Loss**: not provided
 
-**Position Sizing**: Mantener posición actual si se posee; evitar nuevas entradas hasta ruptura técnica por encima de 12.00 EUR.
+**Position Sizing**: not provided
 
 FINAL TRANSACTION PROPOSAL: **HOLD**
 
@@ -195,27 +194,27 @@ FINAL TRANSACTION PROPOSAL: **HOLD**
 
 ### Aggressive Analyst
 
-Aggressive Analyst: Colegas, entiendo perfectamente la cautela que inunda el mercado, pero estamos confundiendo la volatilidad con el riesgo real. Si nos limitamos a esperar una ruptura técnica por encima de los 12,00 EUR, habremos perdido el punto de inflexión donde se construye la verdadera riqueza: el momento en que el miedo irracional se separa del valor intrínseco.
+Aggressive Analyst: Escuchen bien: la parálisis no es una estrategia, es una forma elegante de perder dinero. Tanto el analista conservador como el neutral están cometiendo el error clásico de confundir la incertidumbre con el riesgo permanente. Se fijan en las medias móviles y en el ruido regulatorio como si el mercado no hubiera descontado ya gran parte de ese "coste" en el precio actual.
 
-A los que abogan por una postura neutral o conservadora, les pregunto: ¿realmente creen que una empresa de la magnitud de `MRL.MC` va a ser destruida por un decreto que, siendo honestos, es una variable política altamente negociable? Estamos valorando una compañía con un ratio Price-to-Book de 0,82. Eso significa que estamos comprando activos de alta calidad (oficinas, logística y centros de datos estratégicos) con un descuento del 18% sobre su valor contable. Mientras ustedes esperan a que las medias móviles se alineen, están ignorando que el precio actual de 11,52 EUR ya incluye el peor escenario posible. ¿No es precisamente ahí donde reside la mayor ventaja competitiva?
+A mis colegas les preocupa el decreto de centros de datos y ese supuesto impacto de 863 millones de euros. ¿En serio? Están tratando a MRL.MC como si fuera una entidad estática. Estamos hablando de un gigante que cotiza con un ratio P/B de 0,83. El mercado está valorando esta compañía un 17% por debajo de lo que valen sus activos físicos sobre el papel. Mientras ustedes esperan a que el RSI "gire" o a que la tendencia técnica sea perfecta —que para entonces, el precio ya habrá volado—, están dejando pasar una oportunidad de valor asimétrica.
 
-Ustedes critican la falta de momentum, pero el momentum es un indicador rezagado. El dato fundamental es que, a pesar de la presión externa, los ingresos del 3T 2026 superaron las previsiones. Eso demuestra que el negocio operativo es robusto y resiliente. ¿Por qué dejar escapar una rentabilidad por dividendo del 3,42% mientras el mercado "digiere" la incertidumbre? La historia nos enseña que el inversor que entra cuando el pesimismo alcanza su cénit es el que recoge las mayores plusvalías cuando la incertidumbre regulatoria se disipa, como invariablemente ocurre en estos casos.
+El consenso de mercado sitúa el precio objetivo en 17,00 EUR. Eso no es una cifra al azar; es un potencial alcista del 47%. ¿Qué es más arriesgado? ¿Esperar a que la incertidumbre regulatoria se disipe mientras la acción rebota un 20% sin nosotros, o aprovechar este descuento agresivo mientras la empresa mantiene un dividendo del 3,47% que nos paga por esperar?
 
-Esperar a que la acción supere su SMA50 es una estrategia para el inversor promedio; el inversor agresivo sabe que para cuando eso ocurra, gran parte del upside del 47,68% que proyecta el consenso de analistas ya se habrá esfumado. Estamos ante una desconexión clara entre el valor de los activos y el precio de cotización. Mi postura es clara: el miedo al decreto de los 863 millones es una oportunidad de compra, no una señal de salida. Debemos capitalizar este descuento patrimonial ahora que el mercado está operando bajo un sesgo de aversión al riesgo injustificado.
+Ustedes temen la tendencia bajista bajo la media de 200 días. Yo lo llamo acumulación en zona de valor. La resiliencia operativa demostrada en los resultados del tercer trimestre de 2026, donde los ingresos superaron las expectativas, es la prueba de que el negocio subyacente es robusto. El impacto del decreto es un obstáculo, no un muro. Mientras el mercado se asusta con titulares, los inversores audaces compramos activos de alta calidad a precio de saldo. Si el precio ya ha corregido un 26,6% desde máximos, ¿cuánto más puede caer? El riesgo a la baja es limitado frente a un *upside* de casi el 50%. Dejen de mirar el retrovisor técnico y empiecen a mirar el valor fundamental. Mi recomendación es clara: hay que empezar a tomar posiciones aprovechando este pánico infundado.
 
 **Rating**: BUY
 
-FINAL TRANSACTION PROPOSAL: **BUY**
+FINAL TRANSACTION PROPOSAL: BUY
 
 ### Conservative Analyst
 
-Conservative Analyst: Estimado colega, agradezco tu entusiasmo por el valor intrínseco de `MRL.MC`, pero como analista de riesgos, mi labor no es buscar el "cénit del pesimismo" para intentar adivinar un suelo, sino preservar el capital de nuestra firma frente a incertidumbres que no son meramente especulativas, sino estructurales.
+Conservative Analyst: Compañeros, entiendo el entusiasmo por el aparente valor intrínseco de MRL.MC, pero como analista de riesgo, mi prioridad no es capturar el último euro de beneficio, sino asegurar que los activos de la firma no se erosionen en una trampa de valor.
 
-Calificas el decreto de centros de datos de 863 millones de euros como una "variable política negociable". Esa es una simplificación peligrosa. En el sector REIT, el apalancamiento es una espada de doble filo. La cifra de 863 millones de euros representa un impacto material sobre una compañía que ya enfrenta un entorno de tipos de interés restrictivos en la eurozona, donde la inflación del 4% y la presión del BCE limitan cualquier margen de maniobra. Ignorar este pasivo potencial, o asumir que se evaporará por negociaciones políticas, es ignorar la realidad financiera del balance: no tenemos el desglose de su *net debt/EBITDA* actualizado, y arriesgar el patrimonio de la firma sin esa visibilidad es imprudente.
+Al analista agresivo: me preocupa profundamente tu ligereza al calificar el impacto de 863 millones de euros como "ruido". Estamos hablando de un pasivo que equivale a más del 12% de la capitalización bursátil actual de la compañía. En un sector intensivo en capital y altamente apalancado, donde la inflación del 4% en la eurozona ya está forzando un entorno de tipos restrictivos, ese sobrecoste no es un obstáculo menor; es una amenaza directa a la solvencia y a la capacidad de mantener el dividendo que tanto te atrae. Argumentar que el mercado ya ha descontado este riesgo es una suposición peligrosa: el mercado suele reaccionar con extrema volatilidad cuando las estimaciones de costes pasan de ser "teóricas" a materializarse en el balance.
 
-Dices que el momentum es un indicador rezagado, pero en el mercado actual, la tendencia es la respuesta del capital inteligente ante riesgos que aún no han sido cuantificados. Cotizar por debajo de la SMA20, SMA50 y SMA200 no es una casualidad; es la confirmación de que el mercado está asignando una prima de riesgo elevada a `MRL.MC`. Comprar ahora, cuando la acción cae un 17% en 63 días, es intentar atrapar un cuchillo que todavía está en plena trayectoria descendente. El descuento sobre valor contable del 0,82 es atractivo, sí, pero es un descuento que existe por una razón: la incertidumbre regulatoria. No hay valor "intrínseco" que proteja al inversor si la normativa legal estrangula la capacidad operativa de los activos.
+Técnicamente, ignorar que la acción opera por debajo de sus medias móviles de 20, 50 y 200 días es temerario. La media de 200 días (13,89 EUR) actúa como un muro de contención psicológica y financiera. Comprar por debajo de ella en una tendencia bajista no es "acumular en zona de valor", es intentar atrapar un cuchillo que cae. ¿Qué pasará con tu tesis de inversión si el decreto se endurece o si los costes extra erosionan el flujo de caja operativo, obligando a un recorte en el dividendo? Ese 47% de *upside* que mencionas es una opinión de consenso que no incorpora la última información sobre el decreto; es, por tanto, una cifra obsoleta y potencialmente inflada.
 
-La estrategia de esperar a una ruptura técnica por encima de los 12,00 EUR no es una muestra de ser un "inversor promedio", sino de ser un custodio responsable de activos. Preferimos perder una parte del *upside* teórico del 47,68% a cambio de la confirmación de que el riesgo de los 863 millones de euros ha sido mitigado. La sostenibilidad de nuestro crecimiento depende de no exponer a la firma a la volatilidad del 26% que actualmente castiga a este valor. Mantener la prudencia mientras el mercado digiere este choque regulatorio es la única forma de asegurar que, cuando decidamos entrar, lo hagamos sobre una base de estabilidad, no sobre la esperanza de una resolución política que, a día de hoy, es incierta.
+Mi postura sigue siendo la prudencia. No necesitamos forzar una entrada cuando el perfil de riesgo-recompensa es tan incierto. La preservación del capital dicta que debemos mantener nuestra posición actual, observar cómo la directiva gestiona esta crisis regulatoria y esperar una estabilización real, no un espejismo de valor. La sostenibilidad a largo plazo es lo que construye grandes carteras, no la apuesta especulativa en un título bajo presión.
 
 **Rating**: HOLD
 
@@ -223,27 +222,29 @@ FINAL TRANSACTION PROPOSAL: **HOLD**
 
 ### Neutral Analyst
 
-Neutral Analyst: Escuchando a ambos, veo los puntos ciegos de sus posturas. Por un lado, mi colega agresivo tiene razón en que el mercado a menudo sobreactúa ante riesgos regulatorios, y un ratio Price-to-Book de 0,82 es, efectivamente, una señal de valor que no debe ignorarse. Sin embargo, calificar un impacto potencial de 863 millones de euros como una simple "variable negociable" es, en mi opinión, una subestimación peligrosa de la realidad operativa en un contexto de tipos de interés tan rígidos. Ignorar el análisis técnico en un entorno de mercado bajista consolidado, bajo las tres medias móviles principales, no es audacia, es asumir un riesgo de liquidez innecesario.
+Neutral Analyst: Compañeros, analicemos esta situación con la frialdad que requiere un activo inmobiliario bajo presión. 
 
-Por otro lado, la posición conservadora peca de una parálisis que puede ser igual de costosa. Esperar una ruptura técnica por encima de 12,00 EUR puede ser una estrategia segura para preservar el capital, pero nos condena a entrar cuando el "descuento de pánico" haya desaparecido, dejando gran parte del potencial de recuperación en manos de otros. Además, no podemos olvidar que los resultados del 3T 2026 superaron las expectativas, lo que sugiere que la tesis operativa de `MRL.MC` sigue viva a pesar de los titulares.
+Al analista agresivo, le diría que tu optimismo sobre el valor contable es peligroso. Un P/B de 0,83 no es una "ganga" automática si los activos subyacentes deben ser revalorizados a la baja por culpa de este decreto o por un entorno de tipos que, con una inflación al 4%, no ofrece el alivio que esperas. Comprar ahora basándote en un precio objetivo de 17 euros —cifras que probablemente fueron calculadas antes de que el mercado empezara a descontar los 863 millones de euros de coste adicional— es ignorar la realidad material del balance. No es "pánico infundado", es una respuesta racional ante una posible contracción de los flujos de caja futuros.
 
-Propongo una estrategia intermedia: una acumulación selectiva y gradual, que llamo "compra de mitigación". No es necesario entrar con todo el capital ahora, como sugiere el analista agresivo, ni tampoco debemos permanecer totalmente pasivos como sugiere el conservador. Si poseemos acciones, el dividendo del 3,42% ofrece una retribución aceptable mientras esperamos la resolución. Si no tenemos exposición, deberíamos plantearnos pequeñas entradas tácticas solo si el precio logra consolidar un suelo por encima de los 11,40 EUR, lo que nos daría un nivel de protección frente a la volatilidad del 26,12%.
+Por otro lado, al analista conservador, tu miedo a "atrapar un cuchillo que cae" es válido, pero te lleva a una inacción que podría costar mucho si el mercado, como suele hacer, gira antes de que la noticia sea "oficialmente" positiva. Mantener es prudente, sí, pero el mercado ya ha corregido un 26% desde máximos. Sugerir una espera total sin considerar una estrategia de entrada escalonada es desaprovechar la asimetría del descuento actual.
 
-Debemos dejar de ver el decreto de los 863 millones como un evento binario; es una presión sobre los márgenes que el mercado ya está penalizando con creces. Una estrategia prudente no es el inmovilismo, sino la construcción de una posición promediada que nos permita beneficiarnos de la reversión a la media sin quedar atrapados en un "cuchillo cayendo" si la regulación se endurece. No compramos por optimismo ciego, compramos porque el descuento patrimonial actual compensa el riesgo de una resolución legal incierta, siempre y cuando controlemos estrictamente el tamaño de la posición.
+Mi propuesta moderada es la siguiente: la clave no es comprarlo todo hoy ni venderlo todo por miedo. La posición técnica, operando debajo de la SMA200, es una señal de advertencia clara: no estamos en un mercado alcista para MRL.MC. Sin embargo, el valor contable ofrece un "colchón". Una estrategia sostenible implica mantener la exposición actual para capturar ese 3,47% de dividendo —que, por cierto, es una rentabilidad que supera a muchos activos de renta fija en este entorno inflacionario—, pero sin añadir capital hasta que veamos una reversión en el RSI o una estabilización del soporte en los 11,50 EUR.
 
-**Rating**: NEUTRAL
+No se trata de apostar a que el decreto desaparezca, sino de reconocer que la incertidumbre tiene un precio, y ese precio ya está en gran parte reflejado en el gráfico. Moderar nuestras expectativas de retorno y priorizar la preservación mientras esperamos una señal técnica de "giro" (por ejemplo, que el precio supere la SMA20) es el camino más equilibrado. No compramos hoy, pero tampoco abandonamos; observamos con atención y preparamos el capital para una entrada táctica solo si el precio demuestra fuerza, no solo porque esté "barato".
 
-FINAL TRANSACTION PROPOSAL: **ACCUMULATE (GRADUAL)**
+**Rating**: HOLD
+
+FINAL TRANSACTION PROPOSAL: HOLD
 
 ## V. Portfolio Manager Decision
 
 ### Portfolio Manager
 **Rating**: Hold
 
-**Executive Summary**: Mantener una postura neutral es la estrategia más prudente ante la alta incertidumbre regulatoria. Se recomienda conservar las posiciones actuales para capturar la rentabilidad por dividendo del 3.47%, mientras se espera una ruptura técnica clara por encima de la media de 200 días (13.89 EUR) antes de considerar cualquier incremento en la exposición.
+**Executive Summary**: Mantenga la posición actual en MRL.MC sin realizar adiciones ni reducciones. La estrategia se basa en aguardar la resolución de la incertidumbre regulatoria respecto al decreto de centros de datos y una estabilización técnica sobre los niveles actuales. Evite nuevas compras hasta que la acción supere la media móvil de 200 días para confirmar un cambio de tendencia real.
 
-**Investment Thesis**: La tesis de inversión se encuentra en un equilibrio precario. Por un lado, los fundamentales son sólidos, evidenciados por un ratio Price-to-Book de 0.83 y unos ingresos del 3T 2026 que superaron las expectativas, lo que respalda el argumento del analista agresivo sobre un posible descuento excesivo. Sin embargo, el riesgo material del decreto de centros de datos de 863 millones de euros es un obstáculo estructural que el mercado está descontando agresivamente, como lo demuestra la tendencia bajista bajo las tres medias móviles principales (SMA20, SMA50 y SMA200). La falta de claridad sobre el impacto final de este pasivo potencial, combinada con un entorno macro de tipos rígidos, impide una recomendación de compra incondicional. Cambiaría mi postura si se logra una resolución normativa favorable que elimine el riesgo de los 863 millones, o si el precio demuestra fuerza técnica superando sostenidamente su SMA200, invalidando la actual pauta bajista.
+**Investment Thesis**: La tesis de inversión se encuentra actualmente equilibrada por un conflicto material entre el atractivo valor patrimonial y los riesgos operativos inminentes. Por un lado, el ratio P/B de 0,83 y un dividendo del 3,47% ofrecen un colchón de valor que respalda la tesis del analista agresivo; sin embargo, el riesgo de un impacto negativo de 863 millones de euros, tal como señala el analista conservador, representa una amenaza real que podría erosionar la solvencia y el flujo de caja. La falta de una valoración técnica clara, con el precio operando por debajo de sus medias móviles clave (SMA 20, 50 y 200), sugiere que el mercado no ha terminado de digerir el impacto de la nueva normativa. Un cambio en la calificación hacia 'Buy' requeriría una estabilización regulatoria confirmada o una ruptura técnica sólida por encima de los 13,89 EUR. El riesgo de 'trampa de valor' prevalece sobre la oportunidad especulativa en el entorno actual de inflación elevada y tipos restrictivos, justificando una postura de espera prudente.
 
-**Price Target**: 17.01
+**Price Target**: 17.0
 
 **Time Horizon**: 6-12 meses

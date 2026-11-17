@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: El valor presenta una contradicción entre fundamentales atractivos (Price-to-Book de 0.82) y un riesgo regulatorio severo relacionado con el decreto de centros de datos de 863 millones de euros. Desde un punto de vista técnico, la acción cotiza por debajo de sus medias móviles de 20, 50 y 200 días, lo que confirma una tendencia bajista persistente y falta de momentum. Mantener es la estrategia prudente para evitar una trampa de valor mientras el mercado digiere la incertidumbre legislativa.
+**Reasoning**: La acción se encuentra bajo una presión regulatoria significativa debido al decreto de centros de datos, que introduce un coste potencial de 863 millones de euros, compensando el atractivo de su bajo ratio P/B de 0,83. Técnicamente, MRL.MC opera por debajo de sus medias móviles clave (SMA 20, 50 y 200), lo que confirma una tendencia bajista que desaconseja nuevas compras hasta que se observe una estabilización. Mantener la posición es la estrategia prudente para evitar el riesgo de caídas adicionales mientras se esclarece el impacto real de la nueva normativa en los flujos de caja futuros.
 
 **Entry Price**: not provided
 
 **Stop Loss**: not provided
 
-**Position Sizing**: Mantener posición actual si se posee; evitar nuevas entradas hasta ruptura técnica por encima de 12.00 EUR.
+**Position Sizing**: not provided
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

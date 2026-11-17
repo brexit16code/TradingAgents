@@ -1,38 +1,38 @@
-### Informe Fundamental: Repsol, S.A. (REP.MC)
+Informe Fundamental de Repsol, S.A. (`REP.MC`)
+Fecha del informe: 17 de noviembre de 2026
 
-**Fecha del análisis:** 16 de noviembre de 2026
+### 1. Resumen Ejecutivo y Perfil de la Empresa
+Repsol, S.A. (`REP.MC`) es una compañía integrada de petróleo y gas con sede en España. Opera en toda la cadena de valor energética, desde la exploración y producción (Upstream) hasta el refino, comercialización y generación de energía (Downstream/Renovables). La empresa ha mostrado un desempeño bursátil notable, con un retorno del 98.5% en los últimos 252 días, consolidándose como un actor clave en el IBEX 35.
 
-#### 1. Perfil y Situación Actual
-Repsol (REP.MC) es una compañía integrada de petróleo y gas con sede en Madrid. A fecha de 16 de noviembre de 2026, la acción cotiza a **30,41 EUR**. Tras un desempeño excepcional en el último año, con un retorno de 252 días del **97,63%**, la acción ha mostrado una consolidación reciente, con una caída del 1,55% en la última sesión y una volatilidad del 34,15%.
+### 2. Análisis Financiero
+*   **Valoración:** La empresa cotiza a un ratio Precio/Beneficio (PE) de 5.45x (trailing) y un PE forward de 6.44x, lo que sugiere una valoración atractiva en comparación con el sector energético.
+*   **Solidez del Balance:** Con una capitalización de mercado de aproximadamente 32.63 mil millones de EUR y una deuda neta sobre EBITDA de 0.32x, la posición financiera de Repsol es extremadamente sólida, lo que reduce el riesgo financiero para los inversores.
+*   **Rentabilidad:** El Retorno sobre el Patrimonio (ROE) es del 21.07%, lo cual es saludable. Sin embargo, se observa una contracción en los márgenes de beneficio (9.36%) y en el beneficio neto anual entre 2023 y 2025 (de 3.16 mil millones a 1.89 mil millones de EUR).
+*   **Flujo de Caja:** El flujo de caja libre (FCF) reportado para 2025 es de 1.61 mil millones de EUR, con un gasto de capital (CAPEX) de 3.74 mil millones de EUR. El dividendo actual (yield 3.42%) se mantiene sostenible con un ratio de pago (payout) del 20.45%.
 
-#### 2. Análisis Financiero
-*   **Rentabilidad y Valoración:** Repsol presenta métricas de valoración atractivas con un **PE (Precio/Beneficio) histórico de 5,40** y un **PE forward de 6,39**. Su retorno sobre el patrimonio (ROE) es sólido, alcanzando un **21,07%**.
-*   **Balance y Solvencia:** La empresa mantiene un balance saludable. Con una deuda total de 13.170 millones de EUR y una posición de efectivo de 9.736 millones, la deuda neta/EBITDA se sitúa en un conservador **0,32x**, lo que indica una gran capacidad de maniobra financiera.
-*   **Dividendos:** La política de remuneración al accionista se mantiene con una rentabilidad por dividendo del **3,45%** y un payout ratio bajo del **20,45%**, lo que sugiere espacio para el sostenimiento o incremento del dividendo.
-*   **Historial (2023-2025):** Se observa una caída en los ingresos desde 58.948 millones (2023) a 54.861 millones (2025). El EBITDA también ha reflejado la ciclicidad del sector, pasando de 7.251 millones a 5.728 millones en el mismo periodo.
+### 3. Contexto Reciente y Riesgos
+*   **Noticias Recientes:** La compañía ha sido noticia recientemente debido a la demanda interpuesta contra Iberdrola, Naturgy, Endesa y Red Eléctrica por daños relacionados con un apagón (fuente: *Bolsamania*, 2026-11-16). Aunque este evento legal puede generar ruido a corto plazo, el foco del mercado permanece en su capacidad de generación de caja y recompras de acciones mencionadas en *Estrategias de Inversión* (2026-11-13).
+*   **Factores Externos:** El rendimiento está fuertemente correlacionado con el precio del crudo. El entorno macroeconómico actual, con una inflación en la zona euro al 4% y tipos de interés restrictivos, añade presión a la volatilidad del sector.
 
-#### 3. Eventos Recientes y Riesgos
-El 16 de noviembre de 2026, las noticias destacadas señalan que **Repsol ha presentado demandas contra Iberdrola, Endesa, Naturgy y Red Eléctrica** por daños derivados de un apagón. Este conflicto legal podría generar incertidumbre operativa o mediática a corto plazo (fuente: [Bolsamania](https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZ2hRRFFRU1N5bFE5a0FzUHJuRkdtY3NMWkJMdUVNVGxlRjFoQ0V6NXU4MjdiWkFfRHNuTEpKOFVIbWpiQzJhaWtSdFROM1g4WTc4X0lZekpPTno5NVBmc3JJVmtORWh4YmRFMHRMTDV2cTZraTRLeFV2RHp2dmhMcXhHQjJtY2wtTjNHS2hjNHBPdEtQenpMcFpRU1QyLTFOY2VqNjZIc2s3aEdIUXprU2g4TVg1d18tQTF0ck9jaXVuZGvSAcgBQVVfeXFMTThWc0MzVVBlV0hiMUZWVGRJM3FFU0NnTGlaMnRmYVZkSkdrQXVYSncxRzFhNmN0NkQzcHBfaGE2YkZKa1A5TGRsbzdwM2NkN0NVU2FDUkVPVUZRZzVsS3RfVm9vX25vekNlNEx1d1JQcE9lVTE3TG40OFBRNHlLaGM0VnlFVXEyT29jd0pMa2p3bnc4ZmZpTzZKblk3Y3NFSHYwTVJlbExNeHZHQlZxc002OFBiRWVNT01pWW50V2lkNWxGa1JoTzk?oc=5)). Por otro lado, la macroeconomía en la eurozona presenta desafíos, con una **inflación estancada en el 4%** que complica las expectativas de reducción de tipos de interés (fuente: [El Economista](https://news.google.com/rss/articles/CBMi5gFBVV95cUxOdFhRSmpIZGt2RXFqc1NVQTdRaWk5M2tWMlRnaEptUTFSSXFoTmlSVkZjMmdCRmxzQlhvR2p4UEI4cFVNeXRaS0h5UEg1TDFTdEctMDZvRnkyQ1dZT1RMaGsyZEhaeHd3WlNrakpYR3hYbE1QNFRsWFc4c012SHh4dFU3Vkd5dl94VWtkMnp6M3BLdlB6XzV4UE9tbTRmdFdlTEh6RXhyYmxwVDFveGVBcmVRWFl3bjBJYlkxRmZob3BtYTRoUjZrYzNwX1k5VFVwYzhvek9nYWxQdEZsNzVHaFo2RDd2QdIB0AFBVV95cUxON0pNM1pNcVBFUlpIVXh2eHZNX3lYWWV3Z0REMExsdjhNSlQ3Tm1NMXZzeGl6UmlwMGZTZDlkRU1LTzY1YlZqV0phMTRjQjFoLVZWc3UyZWtKZmVGWHpTOXRpOW5jTk9LSUdfbjlSRVpvWjdqN0xaMjB6RS1xc3RIMVV1WE8yOGQ0bVliQ2YwZE1KUW9LYzZvY2VaYU5WRWphcF9FbDNjUFRDbURVM0U5YkYxbFc2bFU5QnkzYmhJczNfWFNYRXp2STUwNE83S0NW?oc=5)).
+### 4. Insights para Traders
+*   **Análisis Técnico:** El precio actual de 30.68 EUR está por encima de las medias móviles de 50 y 200 días (29.63 y 24.33 respectivamente), lo que confirma una tendencia alcista estructural. El RSI (56.5) sugiere que el valor no está sobrecomprado, manteniendo espacio para un avance mayor.
+*   **Consenso de Analistas:** El precio objetivo medio es de 31.08 EUR, lo que implica un potencial alcista limitado (aprox. 1.3%) desde el precio de cierre actual. Los inversores deben ser cautelosos dado que la acción ya ha duplicado su valor en un año.
 
-#### 4. Conclusión para el Trader
-Repsol muestra una valoración atractiva y una estructura de balance resiliente. El consenso de analistas sitúa el precio objetivo medio en **31,08 EUR**, lo que implica una ligera **upside del 2,19%** respecto al precio actual. Los inversores deben monitorizar el impacto de las disputas legales con otras energéticas y la evolución del precio del crudo, que sigue siendo el principal driver de su volatilidad.
+### 5. Datos Faltantes
+No se dispone de datos de transacciones de "insider trading" ni de una comparativa sectorial detallada. Se recomienda monitorear los futuros reportes de litigios respecto a la demanda contra otras eléctricas.
 
-**Datos faltantes:** No se dispone de un desglose detallado de las transacciones de *insider trading* para los últimos 30 días, lo que limita la visión sobre la confianza inmediata de la directiva. Tampoco se cuenta con una comparación sectorial directa actualizada en los estados financieros proporcionados.
-
----
-
-### Resumen de Datos Clave (REP.MC)
+### Tabla Resumen (Key Indicators)
 
 | Indicador | Valor |
 | :--- | :--- |
-| Precio Actual | 30,41 EUR |
-| Capitalización de Mercado | 32.348 M EUR |
-| Forward P/E | 6,39x |
-| Dividend Yield | 3,45% |
-| Deuda Neta / EBITDA | 0,32x |
-| ROE | 21,07% |
-| Consenso Precio Objetivo | 31,08 EUR |
-| Upside Estimado | 2,19% |
+| **Precio Actual** | 30.68 EUR |
+| **Capitalización Bursátil** | 32.63 B EUR |
+| **Trailing PE** | 5.45 |
+| **Forward PE** | 6.44 |
+| **Net Debt/EBITDA** | 0.32 |
+| **Dividend Yield** | 3.42% |
+| **Consensus Upside** | 1.29% |
+| **RSI (14)** | 56.50 |
 
 **Rating**: HOLD
-FINAL TRANSACTION PROPOSAL: Neutral/Hold, pending resolution of legal litigation news.
+FINAL TRANSACTION PROPOSAL: Mantener posiciones actuales considerando el agotamiento tras la fuerte subida anual y el riesgo de litigios, esperando consolidación cerca de la media móvil de 50 sesiones.

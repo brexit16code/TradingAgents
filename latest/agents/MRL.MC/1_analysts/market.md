@@ -1,32 +1,35 @@
-El análisis técnico y fundamental de **MERLIN Properties (MRL.MC)**, con fecha de corte al 16 de noviembre de 2026, muestra una situación de cautela institucional debido a vientos en contra regulatorios y un entorno macroeconómico complejo.
+El análisis de **MERLIN Properties SOCIMI, S.A. (`MRL.MC`)** al cierre del 17 de noviembre de 2026 revela un escenario complejo, marcado por una divergencia entre el rendimiento técnico a corto plazo y la incertidumbre regulatoria que afecta sus fundamentales.
 
 ### Análisis Técnico
-El precio de cierre de **11.52 EUR** sitúa a la acción por debajo de sus medias móviles clave:
-*   **Tendencia:** La acción cotiza por debajo de su **SMA20 (11.56 EUR)** y de su **SMA50 (11.99 EUR)**, lo que confirma una tendencia bajista a medio plazo. La **SMA200 (13.89 EUR)** actúa como una resistencia estructural de largo plazo, indicando un mercado bajista persistente (caída del 6.48% en 252 sesiones).
-*   **Momentum:** El **RSI14 (44.07)** indica que no estamos en zona de sobreventa extrema, pero el momentum es débil. El **MACD (-0.089)** se encuentra por encima de su señal (-0.145), lo que sugiere una ligera mitigación de la presión bajista, pero sin consolidar un cambio de tendencia alcista claro.
-*   **Volatilidad:** La volatilidad se sitúa en un **26.12%**, lo que implica una sensibilidad elevada a las noticias del sector.
+El precio de cierre de 11,56 EUR se sitúa por debajo de las medias móviles de 20 días (11,57 EUR), 50 días (11,96 EUR) y 200 días (13,89 EUR), lo que confirma una **tendencia bajista a largo plazo**. 
+*   **Momentum:** El indicador RSI(14) en 45,16 sugiere una zona neutral con sesgo bajista; no estamos en niveles de sobreventa extrema, lo que limita el atractivo para compras tácticas de rebote inmediato.
+*   **MACD:** El MACD (-0,09) se encuentra por debajo de su línea de señal (-0,13), lo cual es técnicamente una señal constructiva pero débil dentro de un contexto de baja volatilidad (25,99%). La corrección acumulada en el último año (-6,53%) refleja el escepticismo del mercado.
 
-### Análisis Fundamental y Contexto de Mercado
-El valor presenta una divergencia significativa entre su valoración contable y la cotización actual:
-*   **Valoración:** Con un **Price-to-Book de 0.82**, la acción cotiza con un descuento sobre su valor contable (13.94 EUR), lo que tradicionalmente atrae a inversores en valor (*value investing*). Sin embargo, el **Forward PE de 20.52** es notablemente superior al **Trailing PE de 7.94**, reflejando expectativas de una caída en los beneficios futuros o presiones en los márgenes.
-*   **Incertidumbre Regulatoria:** La noticia más impactante es el informe de *El Boletín* (13-11-2026) sobre un coste estimado de **863 millones de EUR** derivado del nuevo decreto de centros de datos. Esto, sumado a las críticas del CEO contra la gestión gubernamental (OkDiario, 13-11-2026), ha inyectado una volatilidad negativa en el sentimiento inversor.
-*   **Resultados:** A pesar de haber superado las expectativas de ingresos en el 3T 2026, la debilidad en la acción sugiere que el mercado está descontando el impacto de la regulación y el entorno de tipos de interés altos (Bankinter, 13-11-2026).
+### Análisis Fundamental y Contexto Regulatorio
+Los estados financieros muestran una recuperación en los ingresos (538,96M EUR en 2025 frente a 494,57M EUR en 2024), pero la valoración está bajo presión.
+*   **Controversia de los Centros de Datos:** Según fuentes como *El Boletín* (13-11-2026), Merlin enfrenta una estimación de costes extra de **863 millones de euros** debido al nuevo decreto sobre centros de datos. Este factor es el principal catalizador negativo que explica por qué, a pesar de resultados operativos que superaron expectativas en el T3 2026 (*Investing.com*, 13-11-2026), la acción no logra recuperar niveles previos.
+*   **Valoración:** La compañía cotiza a un ratio Precio/Valor Contable de 0,83, lo que sugiere un descuento sobre sus activos netos, una característica típica de las SOCIMIs cuando el mercado descuenta riesgos operativos futuros.
 
-### Evidencia y Datos Faltantes
-*   **Soporte:** La divergencia entre la rentabilidad por dividendo (3.42%) y el precio de mercado es un punto de apoyo para la retención de accionistas a largo plazo.
-*   **Datos faltantes:** No se dispone de un desglose detallado del impacto del apalancamiento neto sobre el EBITDA, lo cual es crítico dada la naturaleza del sector REIT en un entorno de tipos restrictivos.
+### Riesgos y Oportunidades
+*   **A favor:** Un *dividend yield* del 3,47% y una estructura de deuda que, aunque significativa (5.386M EUR), está soportada por activos reales. El consenso de analistas sitúa el precio objetivo medio en 17,00 EUR, lo que implica un potencial alcista del 47% respecto al precio actual, aunque este consenso podría estar desactualizado ante el impacto del nuevo decreto regulatorio.
+*   **En contra:** La incertidumbre sobre la viabilidad o rentabilidad de los proyectos de centros de datos actúa como un techo para el precio de la acción. La inflación persistente en la eurozona (4% según *El Economista*, 13-11-2026) mantiene los tipos de interés elevados, lo cual presiona negativamente las valoraciones de los activos inmobiliarios (cap rates).
 
-### Resumen de Indicadores Clave
+### Conclusión
+`MRL.MC` presenta una oportunidad de valor desde una perspectiva puramente contable (P/B < 1), pero el riesgo regulatorio actual impide una recomendación de compra técnica clara. La prudencia es necesaria hasta que se aclare el impacto financiero del decreto de centros de datos.
 
-| Indicador | Valor | Interpretación |
+**Rating**: HOLD
+
+| Indicador / Métrica | Valor / Estado | Observación |
 | :--- | :--- | :--- |
-| Precio Cierre | 11.52 EUR | Tendencia bajista, bajo medias clave |
-| SMA50 | 11.99 EUR | Resistencia inmediata |
-| RSI14 | 44.07 | Indecisión (ni sobreventa ni sobrecompra) |
-| Price-to-Book | 0.82 | Descuento patrimonial |
-| Dividend Yield | 3.42% | Atractivo moderado |
-| Consenso Upside | 47.68% | Potencial teórico según analistas |
+| Precio Actual | 11,56 EUR | Por debajo de todas las SMA principales |
+| RSI (14) | 45,16 | Zona neutral, sin señal de giro |
+| P/B Ratio | 0,83 | Infravaloración contable |
+| Dividend Yield | 3,47% | Retorno aceptable |
+| Tendencia 200 SMA | 13,89 EUR | Tendencia bajista confirmada |
+| Riesgo Principal | -863M EUR | Impacto potencial por decreto centros datos |
 
-**Rating**: Neutral
+***
 
-FINAL TRANSACTION PROPOSAL: No realizar nuevas compras hasta que se esclarezca el impacto final del decreto de centros de datos y se observe una ruptura confirmada de la SMA50 al alza. El descuento sobre valor contable es atractivo, pero el riesgo regulatorio actual justifica una postura de espera para los inversores conservadores.
+*Descargo de responsabilidad: Este análisis se basa exclusivamente en los datos suministrados y no constituye una recomendación de inversión. No se ha ejecutado ninguna operación. El análisis de riesgo regulatorio es una interpretación de las noticias citadas y requiere monitorización constante.*
+
+FINAL TRANSACTION PROPOSAL: None

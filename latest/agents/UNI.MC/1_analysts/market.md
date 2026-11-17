@@ -1,29 +1,29 @@
-El análisis de **Unicaja Banco (UNI.MC)**, basado en los datos de mercado al 16 de noviembre de 2026, refleja una entidad financiera en un periodo de consolidación técnica tras un año de rendimiento positivo, con un precio de cotización de **3,44 €**.
+El análisis de **Unicaja Banco, S.A. (`UNI.MC`)** revela una situación técnica y fundamental caracterizada por una tendencia de recuperación a largo plazo frente a una consolidación reciente. Con un cierre de 3,408 EUR al 17 de noviembre de 2026, la entidad muestra señales de estabilidad, aunque con retos operativos pendientes.
 
 ### Análisis Técnico
-Unicaja muestra una estructura alcista de largo plazo, posicionándose por encima de su media móvil de 200 días (2,99 €) y de la media de 50 días (3,37 €). El indicador **RSI (14)** se sitúa en 61,08, lo que indica una presión compradora moderada, sin alcanzar niveles de sobrecompra extrema (70). El cruce alcista del **MACD (0,037)** por encima de su señal (0,005) sugiere una reciente recuperación en el momentum. A pesar de estos indicadores, el título ha mostrado una leve corrección (-5,07% desde máximos recientes) y un rendimiento plano en el corto plazo (-0,08% en los últimos 63 días), reflejando una fase de estabilización.
+*   **Tendencia:** `UNI.MC` cotiza por encima de sus medias móviles de 20 (3,295 EUR), 50 (3,372 EUR) y 200 días (2,994 EUR), lo que confirma una estructura alcista sostenida en el horizonte temporal largo. La SMA200 actúa como soporte crítico de fondo.
+*   **Momentum:** El indicador RSI(14) en 56,94 refleja una posición neutral-positiva, sin condiciones de sobrecompra ni sobreventa, sugiriendo espacio para continuar el movimiento si el contexto macro acompaña. El MACD (0,037) se mantiene por encima de su señal (0,011), validando la persistencia de la tendencia alcista reciente.
+*   **Volatilidad:** Con una volatilidad del 22,51% y una caída desde máximos del 6%, el valor se encuentra en una fase de estabilización tras un retorno anual del 48,75%.
 
-### Contexto Fundamental
-El desempeño de `UNI.MC` está marcado por resultados sólidos, con un beneficio neto de 632 millones de euros al cierre de 2025. La entidad presenta una valoración con un **PER forward de 12,15** y un **Price-to-Book de 1,39**, lo cual es coherente con su sector. Un punto relevante es su política de dividendos, con una rentabilidad (yield) del **5,54%**, lo que la convierte en una opción atractiva para inversores de renta, aunque el mercado muestra escepticismo sobre su potencial de revalorización a corto plazo, con un consenso de analistas que sitúa el precio objetivo medio en 3,25 €, un 5,5% por debajo del precio actual, sugiriendo una posible sobrevaloración según este consenso.
+### Análisis Fundamental y Entorno
+*   **Valoración:** La entidad presenta un PER *forward* de 12,03x, que frente a la mediana de sus comparables (10,51x) sugiere una valoración ligeramente más exigente, confirmada por un ratio de 1,14. Con una rentabilidad por dividendo atractiva del 5,55%, Unicaja se posiciona como una opción de ingresos en el sector.
+*   **Desempeño:** Los resultados muestran un crecimiento de ingresos del 6,8% interanual (2025 vs 2024). No obstante, el flujo de caja operativo ha mostrado una fuerte presión negativa en el último ejercicio, lo cual debe ser monitoreado de cerca por los inversores.
+*   **Hitos Recientes:** La reelección de Isidro Rubiales como CEO (17 de noviembre de 2026, *Cinco Días*) aporta estabilidad corporativa, aunque el mercado sigue pendiente de la designación de un presidente. El éxito en la captación de fondos (1.800 millones hasta octubre) es un síntoma de salud comercial.
 
-### Análisis de Noticias y Mercado
-Las noticias recientes (13-16 de noviembre de 2026, *Estrategias de Inversión*) destacan la consolidación de Unicaja como segundo banco en captación de fondos y el lanzamiento de una emisión verde. No obstante, existe presión externa debido a la inflación de la eurozona (4%) y la expectativa de tipos de interés, lo que impacta directamente en el sector bancario regional. La divergencia entre el comportamiento bursátil positivo y el escepticismo de algunos analistas (condenando a Sabadell y Unicaja frente a Santander) subraya un entorno de alta volatilidad operativa.
+### Consideraciones sobre el Mercado
+El sector financiero enfrenta vientos en contra derivados de una inflación en la zona euro persistente en el 4% (fuente: *El Economista*, 13 de noviembre), lo que complica la gestión de márgenes. Los tipos reales negativos y la volatilidad macroeconómica tras procesos electorales y cambios en la política monetaria de la Fed (fuente: *El Boletín*, 15 de noviembre) añaden incertidumbre al sector bancario regional.
 
-### Resumen de hallazgos
-*   **Fortalezas**: Sólida posición en fondos de inversión, rentabilidad por dividendo competitiva y tendencias alcistas en medias de largo plazo.
-*   **Riesgos**: El precio actual se encuentra por encima del objetivo medio de los analistas, lo que podría limitar el margen de crecimiento inmediato. La presión inflacionaria en la zona euro añade incertidumbre sobre los márgenes futuros de los bancos regionales.
-*   **Información faltante**: No se dispone de datos detallados sobre el coste del riesgo (NPLs) para el periodo actual, ni proyecciones específicas sobre cómo la política de tipos del BCE afectará el margen de intereses en 2027.
+### Resumen de Indicadores
+| Indicador | Valor | Interpretación |
+| :--- | :--- | :--- |
+| **SMA 50** | 3,372 | Soporte de corto/medio plazo |
+| **SMA 200** | 2,994 | Tendencia alcista estructural |
+| **RSI (14)** | 56,94 | Neutral (con sesgo comprador) |
+| **MACD** | 0,037 | Impulso comprador activo |
+| **Dividend Yield**| 5,55% | Atractivo para renta fija/variable |
 
-| Indicador / Métrica | Valor / Observación |
-| :--- | :--- |
-| Precio Cierre | 3,44 € |
-| SMA 200 | 2,99 € |
-| RSI 14 | 61,08 |
-| PER Forward | 12,15 |
-| Dividend Yield | 5,54% |
-| Consenso Analistas (Media) | 3,25 € |
-| Tendencia (63 días) | -0,08% |
+**Rating**: Neutral
+FINAL TRANSACTION PROPOSAL: Mantener posiciones existentes; esperar consolidación sobre los 3,37 EUR (SMA50) antes de buscar nuevas entradas, dado el entorno inflacionario de la zona euro.
 
-**Rating**: HOLD
-
-FINAL TRANSACTION PROPOSAL: Mantener posiciones actuales debido a la estabilidad técnica y la rentabilidad por dividendo, evitando nuevas compras hasta que el precio se alinee con las expectativas del consenso de analistas o se observe una ruptura consolidada sobre la resistencia de los 3,50 €.
+***
+*Notas sobre los datos: Se ha utilizado la información proporcionada con fecha 17/11/2026. Los estados financieros presentan datos hasta 2025; la falta de información sobre flujo de caja operativo intermedio dificulta evaluar la sostenibilidad actual del FCF. No se dispone de un modelo de valoración intrínseca propio, por lo que el análisis se basa en el consenso de analistas (18 opiniones).*

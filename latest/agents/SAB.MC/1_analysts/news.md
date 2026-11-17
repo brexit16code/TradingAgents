@@ -1,56 +1,41 @@
+### Informe de Análisis: Banco Sabadell (SAB.MC)
+
+**Resumen Ejecutivo**
+A fecha de 17 de noviembre de 2026, **SAB.MC** muestra una situación técnica de consolidación tras un rendimiento anual destacado (+42.18%). La entidad se encuentra cotizando a 3.71 EUR, con un ligero retroceso reciente (-1.28%), en un entorno macroeconómico europeo marcado por una inflación persistente en torno al 4% y la presión sobre los tipos de interés.
+
+#### 1. Análisis Técnico y de Mercado
+El precio de **SAB.MC** se mantiene por encima de sus medias móviles clave (SMA20, SMA50 y SMA200), lo que sugiere una tendencia alcista estructural a largo plazo.
+*   **Momentum:** El RSI de 14 días en 57.75 indica una zona neutral-alcista sin señales de sobrecompra inmediata.
+*   **Tendencia:** El MACD (0.049) se sitúa por encima de su línea de señal (0.026), confirmando una dinámica positiva reciente.
+*   **Volatilidad:** Con una volatilidad del 23.64%, el valor muestra una oscilación moderada, con una caída máxima desde máximos del 1.46%.
+
+#### 2. Fundamentos y Valoración
+*   **Múltiplos:** El PER forward (11.15x) es inferior al trailing (14.85x), lo que refleja expectativas de crecimiento en los beneficios por acción (EPS forward estimado en 0.33 EUR).
+*   **Rentabilidad:** El ROE se sitúa en 8.9%, reflejando una eficiencia operativa estable. La ratio de precio-valor contable (P/B) de 1.45 sugiere que el mercado valora la entidad por encima de su valor en libros.
+*   **Dividendos:** Con una rentabilidad por dividendo del 1.86% y un payout ratio conservador del 28.51%, existe margen para mantener la política de remuneración al accionista.
+*   **Desafíos:** La entidad presenta una caída en el crecimiento de ingresos (-15.1% interanual), lo que requiere vigilancia, aunque los márgenes de beneficio se mantienen robustos (41.57%).
+
+#### 3. Entorno Macroeconómico
+Los datos suministrados indican un escenario complejo para el sector bancario europeo:
+*   **Inflación:** Se reporta una inflación en la Eurozona del 4% (13 de noviembre, El Economista), lo que dificulta cualquier moderación en la política monetaria.
+*   **Tipos Reales:** Los ahorros en la Eurozona sufren debido a tipos reales negativos (Vozpopuli, 14 de noviembre), lo que presiona el margen de intermediación bancaria.
+*   **Sector Financiero:** A pesar de los retos, el IBEX 35 se mantiene sólido (recuperando los 20.000 puntos), lo que actúa como un soporte indirecto para **SAB.MC**.
+
+#### 4. Noticias Recientes
+*   **MarketScreener (16/11):** Señala una cesión de terreno tras una rebaja de recomendación, lo que explica la volatilidad reciente.
+*   **Estrategias de Inversión (11/11):** Mencionó una señal de compra tras un rally del 8%, lo que sugiere que el mercado sigue atento a posibles rupturas alcistas.
+*   **Rankia (17/11):** Publicación del calendario de dividendos, un factor clave para los inversores de renta variable.
+
+**Missing Data:** No se dispone de datos de flujo de caja operativo actualizado para 2026 ni detalles sobre la composición específica de la cartera de crédito ajustada a la coyuntura de inflación actual, lo cual es crítico para una valoración bancaria precisa.
+
+| Indicador | Valor / Estado | Comentario |
+| :--- | :--- | :--- |
+| Precio Actual | 3.71 EUR | Por encima de SMA 200 (3.16 EUR) |
+| Consenso Upside | -0.37% | Ligero sesgo negativo frente a la media |
+| Forward PER | 11.15 | Atractivo vs. sector |
+| Tendencia MACD | Alcista | Señal positiva confirmada |
+| Inflación Zona Euro | 4.0% | Presión sobre tipos de interés |
+
 **Rating**: REVIEW
 
-Análisis detallado de **SAB.MC** (Banco de Sabadell, S.A.), cotizado en la bolsa de Madrid (MCE) en euros (EUR) frente al índice de referencia `^IBEX`, basado exclusivamente en la evidencia recopilada con fecha de referencia a 16 de noviembre de 2026.
-
----
-
-### 1. Resumen de Precio y Datos Técnicos (`SAB.MC`)
-* **Precio de cierre actual**: 3.76 EUR (con fecha 2026-11-16, cambio diario de +0.27%).
-* **Indicadores Técnicos**:
-  * **RSI (14)**: 62.93 (situado en zona neutral-favorable, sin sobrecompra extrema).
-  * **MACD**: 0.049 frente a línea de señal de 0.021 (señal alcista activa).
-  * **Medias Móviles**: SMA20 en 3.59 EUR, SMA50 en 3.61 EUR y SMA200 en 3.15 EUR (la cotización se mantiene por encima de las principales medias móviles, confirmando la tendencia de medio-largo plazo).
-  * **Volatilidad (anualizada)**: 23.55%.
-  * **Drawdown**: -0.19%.
-  * **Rentabilidades históricas**: +3.87% (21 sesiones), +4.24% (63 sesiones) y +44.39% (252 sesiones).
-
-### 2. Fundamentos Financieros y Valoración
-* **Capitalización de mercado**: 17,612,154,880.00 EUR (aprox. 17.61 mil millones).
-* **PER (Trailing)**: 15.04x; **PER Forward**: 11.29x.
-* **Price-to-Book (P/B)**: 1.47x.
-* **Beneficio por acción (EPS)**: 0.25 EUR (Trailing) y 0.33 EUR (Forward).
-* **Rentabilidad por dividendo (Dividend Yield)**: 1.86% - 1.87% (dividendo anualizado de 0.07 EUR, payout ratio del 28.51%).
-* **Valor en libros por acción**: 2.56 EUR.
-* **Métricas de consenso de analistas**: 
-  * Precio objetivo medio: 3.69 EUR (rango entre 2.30 EUR y 4.50 EUR, con 20 analistas cubriendo el valor). 
-  * Upside de consenso: -1.64% respecto al precio actual de 3.76 EUR, lo que indica que el valor cotiza ligeramente por encima de la media del consenso de analistas debido a las recientes subidas.
-* **Peer Comparison (Valoración relativa)**:
-  * Ratio frente a la mediana del sector (que incluye a `SAN.MC`, `BKT.MC`, `BBVA.MC`, `CABK.MC`, `UNI.MC`): 1.055 (PER relativo intermedio).
-
-### 3. Entorno Macroeconómico y Noticias Recientes (Noviembre 2026)
-* **Noticias corporativas y sectoriales**:
-  * El 16 de noviembre de 2026 (*MarketScreener España*), **SAB.MC** cedió terreno tras una rebaja de recomendación por parte de analistas.
-  * Informes recientes de *Estrategias de Inversión* (10-11 de noviembre de 2026) señalan divergencias entre los bancos del IBEX: mientras algunos analistas encumbran a competidores como Santander, consideran que **SAB.MC** y Unicaja muestran menor potencial a corto plazo tras haber activado señales técnicas alcistas recientes del orden del 8%.
-* **Contexto macroeconómico en la Eurozona**:
-  * Persiste la preocupación por la inflación en la Eurozona (estimada en torno al 4% según publicaciones de *El Economista* y *Negocios.com* a mediados de noviembre de 2026), lo que inhabilita un escenario rápido de moderación estricta en los tipos de interés del Banco Central Europeo (BCE).
-  * Los tipos reales negativos continúan afectando el ahorro de los hogares en la región, mientras la inversión en activos de renta fija a corto plazo (como letras del tesoro) acumula meses al alza (*Radio Intereconomía*, 16 de noviembre de 2026).
-
-### 4. Datos Faltantes y Limitaciones
-* No se dispone de flujos de caja operativos o libres normalizados consistentes para el último ejercicio completo en los extractos automatizados debido a distorsiones contables típicas del sector bancario (donde los flujos de caja operativos de empresas industriales no aplican de la misma forma).
-* No se han aplicado reglas de deuda/EBITDA industriales (inaplicables a bancos por regulación y naturaleza de pasivos financieros de clientes).
-
----
-
-### Tabla Resumen Clave
-
-| Categoría | Métrica / Indicador | Valor Actual / Dato | Implicación para el Trading / Macro |
-| :--- | :--- | :--- | :--- |
-| **Precio y Técnica** | Precio de Cierre (`SAB.MC`) | 3.7599 EUR (+0.27%) | Soporte fuerte en SMA20 (3.59) y SMA50 (3.61); RSI en 62.93 sin sobrecompra. |
-| **Valoración** | PER Forward / P/B | 11.29x / 1.47x | Valoración razonable, cotizando en línea con la mediana de la banca española. |
-| **Consenso** | Target Mean Price | 3.69 EUR (-1.64% upside) | El precio actual supera ligeramente la media del objetivo de los analistas (20 opiniones). |
-| **Noticias / Sentimiento** | Recomendación de analistas | Rebajas recientes | Presión compradora reciente moderada por recortes de recomendación de casas de análisis. |
-| **Macro Eurozona** | Inflación / Tipos BCE | ~4.0% inflación | Mantiene un entorno de tipos altos por más tiempo, afectando al margen de intermediación y costes de financiación. |
-
----
-
-FINAL TRANSACTION PROPOSAL: REVIEW
+FINAL TRANSACTION PROPOSAL: No execution advised; monitoring support levels near 3.60 EUR (SMA 20) is recommended given the current market caution and recent analyst downgrades.

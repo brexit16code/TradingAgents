@@ -1,30 +1,35 @@
-El análisis de **IAG.MC** (International Consolidated Airlines Group S.A.) a fecha de 16 de noviembre de 2026 revela una tendencia alcista consolidada con una salud financiera en proceso de estabilización. La compañía presenta un comportamiento bursátil robusto en el último año y una valoración que sugiere espacio para el crecimiento según el consenso de mercado.
+El análisis de **International Consolidated Airlines Group S.A. (IAG.MC)**, con fecha de corte al 17 de noviembre de 2026, muestra una situación técnica y fundamental robusta, aunque con señales de cautela a corto plazo tras una reciente toma de beneficios.
 
 ### Análisis Técnico
-IAG.MC cotiza a **5,44 EUR**, manteniéndose por encima de sus medias móviles clave (SMA20: 5,10, SMA50: 5,02, SMA200: 4,85), lo que confirma una estructura de mercado alcista a largo plazo.
-*   **Momentum:** El RSI(14) en **64,87** indica que el valor se acerca a una zona de sobrecompra pero aún mantiene espacio antes de considerarse agotado. El MACD (0,129) por encima de su señal (0,080) refuerza la inercia positiva.
-*   **Volatilidad:** Con una volatilidad del **27,24%**, el valor muestra una dinámica de movimiento significativa. El retorno a 252 días del **29,56%** destaca el fuerte desempeño interanual frente al mercado.
+IAG cotiza a **5,342 EUR**, mostrando un retroceso del **1,80%** en la última sesión. A pesar de esta caída, la tendencia subyacente sigue siendo alcista:
+*   **Tendencia de Mediano/Largo Plazo:** El precio se mantiene holgadamente por encima de su media móvil de 50 días (**5,033 EUR**) y de 200 días (**4,856 EUR**), confirmando una estructura de mercado saludable.
+*   **Momentum:** El RSI de 14 días se sitúa en **58,98**, un nivel que indica fuerza sin estar en territorio de sobrecompra (generalmente >70), lo que sugiere que hay espacio para maniobras alcistas si el sentimiento de mercado mejora.
+*   **MACD:** El indicador MACD (**0,124**) se mantiene por encima de su línea de señal (**0,089**), lo que respalda una tendencia de momentum positivo, a pesar de la reciente volatilidad intradía.
+*   **Volatilidad:** Con una volatilidad del **27,20%**, el activo muestra una oscilación moderada típica del sector aerolíneas, sensible a noticias externas sobre el precio del combustible y la macroeconomía europea.
 
 ### Análisis Fundamental
-La compañía muestra una mejora estructural en sus métricas clave:
-*   **Valoración:** Con un **Forward PE de 7,22x**, el valor cotiza a un descuento significativo frente a la mediana de sus comparables del sector (18,08x), lo que indica una valoración atractiva. El ratio EV/EBITDA de **4,79x** corrobora esta tesis de infravaloración relativa.
-*   **Solidez Financiera:** El balance muestra una reducción progresiva de la deuda total (de 17.345M€ en 2024 a 14.267M€ en 2025) y una generación de flujo de caja libre (FCF) de **3.146M€** en 2025, lo que permite sostener el dividendo (Yield: 1,81%).
-*   **Riesgos:** La tasa de inflación en la Eurozona, reportada cerca del 4% en noviembre de 2026 (según titulares de *El Economista*), presiona los costes operativos y las expectativas de tipos de interés, lo cual es un factor adverso para las aerolíneas intensivas en capital.
+El perfil financiero de IAG refleja una recuperación operativa sólida post-2023:
+*   **Valoración:** Con un **PER forward de 7,09x** (frente a una mediana de pares de 17,66x), la acción parece atractiva bajo criterios de valoración relativa. Su relación precio/beneficio es baja, lo que indica un posible descuento frente al sector.
+*   **Solvencia:** La deuda neta/EBITDA es de **0,78x**, un nivel de apalancamiento conservador para una empresa del sector industrial/aerolíneas, lo que proporciona flexibilidad financiera.
+*   **Margen y Crecimiento:** Los ingresos anuales han mostrado una tendencia creciente (33,21B EUR en 2025 frente a 32,10B en 2024). Los analistas prevén un EPS forward de **0,753 EUR**, con un consenso que sitúa el precio objetivo medio en **6,00 EUR**, implicando un potencial de revalorización del **12,40%**.
 
-### Perspectivas de Mercado
-El precio objetivo promedio de los analistas se sitúa en **6,00 EUR**, lo que representa un potencial de revalorización del **10,37%** desde el precio actual. No se dispone de datos de flujo de caja operativo ni de ROE, por lo que el análisis de eficiencia en la asignación de capital está incompleto.
+### Riesgos y Catalizadores
+Los titulares recientes (TradingView, 16/11/2026) señalan una ligera presión en el margen operativo, lo que justifica la cautela de los inversores. No obstante, noticias del 11/11/2026 en *Finanzas.com* destacan que IAG ha ganado la "batalla de los márgenes" frente a competidores, permitiendo especular con posibles futuras recompras de acciones. El principal riesgo macroeconómico proviene de la persistente inflación en la eurozona (4%), que mantiene los tipos de interés elevados, impactando en los costes operativos y en la renta disponible de los consumidores.
 
-| Indicador | Valor / Estado | Interpretación |
+**Rating**: Neutral-Buy
+
+| Indicador | Valor Actual | Interpretación |
 | :--- | :--- | :--- |
-| Precio Actual | 5,44 EUR | Soporte sobre SMA20/50 |
-| RSI (14) | 64,87 | Alcista, sin sobrecompra crítica |
-| Forward PE | 7,22x | Infravalorado vs sector |
-| Target Mean Price | 6,00 EUR | Consenso alcista |
-| Deuda Total | 14,267M€ | En tendencia descendente |
-| Dividend Yield | 1,81% | Moderado, sostenible |
+| Precio (IAG.MC) | 5,342 EUR | Tendencia alcista base |
+| RSI (14) | 58,98 | Fuerza moderada, sin sobrecompra |
+| PER Forward | 7,09x | Valoración atractiva vs pares |
+| Media Móvil 200d | 4,856 EUR | Soporte estructural a largo plazo |
+| Consenso Upside | 12,40% | Expectativa alcista moderada |
+| Deuda Neta/EBITDA | 0,78x | Apalancamiento controlado |
 
-**Rating**: Neutral / Positive
+***
 
-FINAL TRANSACTION PROPOSAL: Mantener posiciones actuales. El valor muestra fortaleza técnica con una valoración fundamental atractiva. Se recomienda vigilancia ante la evolución de la inflación en la Eurozona, ya que tipos persistentemente elevados podrían afectar el margen de beneficio por costes de financiación y demanda de viajes. El stop-loss sugerido, basado en el soporte de la SMA200 (4,85 EUR), permitiría gestionar el riesgo ante posibles correcciones.
+**FINAL TRANSACTION PROPOSAL:**
+Dada la solidez fundamental y el hecho de que el precio se mantiene por encima de la media de 200 días, la estrategia sugiere **mantener posiciones largas** con un enfoque de vigilancia en el soporte de 5,03 EUR (SMA 50). No se recomienda la entrada agresiva hasta confirmar la ruptura de la resistencia local, dado el entorno inflacionario que afecta al sector aerolíneas.
 
-*Nota: Este análisis se basa exclusivamente en los datos proporcionados con fecha de corte 2026-11-16. No se ha realizado un análisis de flujo de caja detallado debido a la ausencia de datos en los estados financieros.*
+*Nota: La información proporcionada se basa exclusivamente en los datos suministrados al 17 de noviembre de 2026. No se cuenta con datos de flujo de caja operativo actualizado para el periodo actual, lo cual limita la precisión del análisis de solvencia inmediata.*

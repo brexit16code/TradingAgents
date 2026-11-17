@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La acción se encuentra técnicamente sobrecomprada con un RSI cercano a 70 y cotiza muy cerca del objetivo medio de los analistas de 20,90 EUR, lo que limita el potencial alcista a corto plazo. Aunque los fundamentales son sólidos, el crecimiento negativo de los beneficios (-4,4%) frente a un entorno macroeconómico de alta inflación sugiere prudencia y esperar a una corrección hacia niveles de soporte más atractivos como la media móvil de 50 días.
+**Reasoning**: La estructura técnica de PUIG.MC permanece alcista al cotizar por encima de sus medias móviles de 50 y 200 días, lo que respalda una visión cautelosa pero no bajista. Aunque los fundamentales muestran una sólida generación de flujo de caja, el estancamiento en el crecimiento de los beneficios y un potencial alcista limitado según el consenso de analistas (4,4%) aconsejan esperar a una consolidación por encima de la media de 20 días en 19,68 EUR antes de incrementar posiciones. La volatilidad reciente y la presión macro de la zona euro justifican mantener la exposición actual sin realizar nuevas entradas hasta ver una mayor estabilización del precio.
 
-**Entry Price**: 18.61
+**Entry Price**: 19.68
 
-**Stop Loss**: 17.03
+**Stop Loss**: 18.64
 
-**Position Sizing**: Mantener posición actual
+**Position Sizing**: Mantener exposición actual; no exceder el 5% de la cartera total
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

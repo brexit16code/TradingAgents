@@ -1,30 +1,33 @@
-El análisis de **Acerinox, S.A. (ACX.MC)**, basado en la información financiera y técnica consolidada al 16 de noviembre de 2026, revela un perfil de inversión en una fase crítica de consolidación bajo un entorno macroeconómico complejo.
+Basado en los datos financieros y técnicos proporcionados para **Acerinox, S.A. (`ACX.MC`)** al 17 de noviembre de 2026, presento el siguiente análisis de situación.
 
 ### Análisis Técnico
-El precio de cierre actual es de **15,60 EUR**. La estructura técnica muestra una señal de debilidad a corto plazo:
-*   **Tendencia:** El precio cotiza por debajo de su media móvil de 50 sesiones (16,80 EUR) y de su media de 20 sesiones (16,14 EUR), lo que indica una presión vendedora predominante. Sin embargo, se mantiene apenas por encima de la media móvil de 200 sesiones (15,36 EUR), nivel que actúa como un soporte estructural crítico.
-*   **Momentum:** El RSI(14) en **40,85** sugiere que, si bien el valor no está técnicamente en "sobreventa" (<30), ha perdido fuerza alcista significativa. El MACD (-0,35) se sitúa por debajo de su señal, confirmando la falta de tracción positiva en el corto plazo.
-*   **Volatilidad:** Con una volatilidad del 27,71% y un *drawdown* del 15,58%, el valor ha experimentado un ajuste tras alcanzar retornos anuales positivos.
+La acción `ACX.MC` se encuentra en una fase de consolidación y corrección tras un periodo de volatilidad. 
+*   **Tendencia:** El precio actual de 15,30 € se sitúa justo por debajo de su media móvil de 200 sesiones (15,38 €), lo que sugiere una estructura de mercado neutral a bajista a largo plazo. La ruptura de las medias móviles de 20 y 50 sesiones (16,07 € y 16,74 €, respectivamente) refuerza la presión vendedora a corto y medio plazo.
+*   **Momentum:** El RSI(14) en 37,54 indica que, aunque el activo se acerca a territorio de sobreventa, aún no ha alcanzado niveles de fatiga extrema. El MACD (-0,37) se encuentra por debajo de su señal (-0,36), confirmando la falta de impulso comprador.
+*   **Volatilidad:** Con una volatilidad del 27,45% y un descenso desde máximos del 17,21%, el valor refleja una alta sensibilidad a las noticias macroeconómicas de la Eurozona.
 
-### Fundamentos y Valoración
-*   **Valoración:** La empresa cotiza a un **Forward P/E de 10,10x**, lo que, comparado con el P/E histórico (Trailing P/E de 29,43x), sugiere que el mercado anticipa una recuperación en los beneficios por acción (Forward EPS de 1,54 EUR frente a los 0,53 EUR actuales).
-*   **Salud Financiera:** La ratio deuda neta/EBITDA es de **3,15x**, un nivel moderado pero que requiere vigilancia dado que el FCF ha sido negativo (-155,27 millones de EUR en el periodo). La rentabilidad por dividendo del **3,97%** es un punto de apoyo para el inversor a largo plazo, aunque el *payout ratio* superior a 1 (144,19%) indica que el dividendo se está financiando actualmente fuera de los beneficios netos, lo cual es insostenible a largo plazo.
-*   **Contexto Macro:** La volatilidad en el sector industrial europeo, marcada por la inflación persistente y las políticas de tipos de interés de la Eurozona (descritas en titulares del 13-16 de noviembre de 2026), presiona los márgenes operativos de empresas intensivas en capital como Acerinox.
+### Análisis Fundamental
+El panorama para Acerinox es mixto debido a las condiciones de mercado desafiantes en el sector siderúrgico:
+*   **Valoración:** La empresa cotiza a un *Forward PE* de 9,90, significativamente inferior al *Trailing PE* de 28,87, lo que sugiere que el mercado anticipa una recuperación en los beneficios. Sin embargo, el *Payout Ratio* de 1,44 es elevado, lo que pone bajo vigilancia la sostenibilidad del dividendo (Yield del 3,97%).
+*   **Salud Financiera:** La relación *Net Debt/EBITDA* de 3,15x indica un nivel de apalancamiento moderado-alto, lo que, en un entorno de tipos de interés europeos elevados (mencionados en noticias del 13 de noviembre sobre una inflación al 4%), presiona los márgenes financieros.
+*   **Rendimiento:** El flujo de caja libre negativo (-155,27 millones de EUR en el último ejercicio) destaca la necesidad de una ejecución eficiente de su CAPEX, que alcanzó los 309,8 millones de EUR.
 
-### Conclusión y Riesgos
-La acción se encuentra en una encrucijada: el soporte de los 15,36 EUR (SMA200) es vital para evitar una mayor capitulación. La divergencia entre la valoración actual (cara por beneficios pasados) y las expectativas de futuro (más atractivas por forward EPS) sugiere que la acción depende enteramente de la ejecución operativa de los próximos trimestres para justificar su prima de valoración.
+### Perspectiva de Mercado
+Las noticias recientes (13-16 de noviembre de 2026) subrayan un entorno europeo marcado por tipos reales negativos y una inflación persistente, lo que penaliza a sectores cíclicos como el del acero. El consenso de analistas (13 opiniones) sitúa el precio objetivo medio en 19,38 €, con una subida potencial del 26,7%, lo cual refleja una visión optimista a largo plazo que contrasta con la debilidad técnica actual.
 
-**Rating**: HOLD
+**Rating**: Neutral
 
-| Indicador | Valor Actual | Interpretación |
+### Resumen de indicadores clave
+
+| Indicador | Valor | Significado |
 | :--- | :--- | :--- |
-| Precio Cierre | 15,60 EUR | Soporte crítico cerca de SMA200 (15,36) |
-| RSI (14) | 40,85 | Tendencia neutral-bajista |
-| Forward P/E | 10,10x | Valoración atractiva a futuro |
-| Dividend Yield | 3,97% | Atractivo, pero riesgo en payout ratio |
-| Net Debt/EBITDA | 3,15x | Nivel de deuda manejable |
-| Consenso Analistas | 19,38 EUR | Potencial alcista (Consensus Upside: 24,26%) |
+| Precio Actual | 15,30 € | Debajo de SMA 200 (15,38 €) |
+| RSI (14) | 37,54 | Neutral/Bajista (sin sobreventa) |
+| MACD | -0,37 | Debajo de señal (impulso negativo) |
+| Forward PE | 9,90 | Expectativa de mejora en beneficios |
+| Dividend Yield | 3,97% | Atractivo pero con payout elevado |
+| Consensus Upside | 26,70% | Potencial alcista según analistas |
 
-*Nota: La información sobre noticias y estados financieros ha sido extraída de los enlaces proporcionados por Yahoo Finance (https://finance.yahoo.com/quote/ACX.MC/). Se advierte que no hay datos disponibles de comparación sectorial directa en la fuente.*
+**Información faltante:** No se dispone de datos sobre la exposición específica de Acerinox a los aranceles globales o una hoja de ruta detallada sobre la reducción de su ratio de apalancamiento (Net Debt/EBITDA) para los próximos trimestres.
 
-FINAL TRANSACTION PROPOSAL: Neutral - Mantener posición esperando confirmación de soporte en 15,30 EUR o ruptura alcista de la SMA 50 (16,80 EUR).
+FINAL TRANSACTION PROPOSAL: No action recommended. The asset is testing long-term support (SMA 200) and displays a bearish short-term momentum; wait for a confirmed recovery above the 16,00 € level before reassessing.

@@ -1,29 +1,32 @@
-Análisis del estado de situación para **SLR.MC** (Solaria Energía y Medio Ambiente, S.A.) a fecha 16 de noviembre de 2026.
+Aquí tiene el informe de análisis sobre **SLR.MC** basado en la información proporcionada al 17 de noviembre de 2026.
 
-### Panorama Macroeconómico
-El entorno actual en la Eurozona está dominado por una inflación persistente, reportada en torno al 4% (fuentes: *El Economista*, *Negocios.com* al 13/11/2026). Este escenario de inflación ha invalidado las expectativas de una moderación rápida en los tipos de interés, manteniendo a los inversores en un estado de cautela. La combinación de tipos reales negativos y el impacto en sectores intensivos en capital, como las utilities renovables, ha generado volatilidad. Además, los eventos electorales recientes en España y las elecciones de mitad de mandato añaden una capa de incertidumbre política que afecta el sentimiento del mercado.
+### Informe de Situación: Solaria Energía y Medio Ambiente, S.A. (SLR.MC)
 
-### Análisis de SLR.MC
-**SLR.MC** refleja la presión del sector:
-*   **Desempeño técnico:** La acción cotiza a 14,90 EUR, con una caída del 5,4% en la última sesión y una contracción acumulada del 42,14% desde máximos (*drawdown*). La cotización se encuentra por debajo de sus medias móviles de 20, 50 y 200 días (15,39; 16,08; 19,55 respectivamente), confirmando una tendencia bajista de medio y largo plazo.
-*   **Fundamentos:** A pesar de una saludable tasa de crecimiento de ingresos (38,8%) y beneficios (44,4%), la empresa enfrenta un flujo de caja libre negativo (-437,97 millones EUR), producto de un ambicioso plan de inversión (CAPEX de -398,26 millones EUR en 2025). 
-*   **Valoración:** Con un PER *forward* de 8,76x y un ratio respecto a la mediana del sector de 0,52, **SLR.MC** cotiza con un descuento significativo respecto a sus pares (ANE.MC, IBE.MC, etc.). Esto sugiere que el mercado está descontando riesgos elevados de ejecución o financieros, reflejados en un ratio deuda neta/EBITDA de 4,14x.
+#### 1. Contexto de Mercado y Análisis Fundamental
+Solaria se encuentra en una fase de volatilidad elevada (53,94%), reflejada en una caída acumulada del 41,43% desde máximos. A pesar de contar con márgenes de beneficio sólidos (48,57%) y un crecimiento de ingresos del 38,8%, la compañía enfrenta desafíos significativos en la ejecución de su flujo de caja libre (-437,97 millones de EUR en términos de FCF, presionado por un alto CapEx de -398,26 millones en 2025).
 
-### Factores a considerar
-1.  **Soporte/Resistencia:** La acción está probando niveles cercanos al mínimo del consenso de analistas (14,00 EUR), lo cual podría actuar como soporte técnico.
-2.  **Riesgo Financiero:** El elevado endeudamiento en un entorno de tipos "altos por más tiempo" es el principal freno para la cotización.
-3.  **Falta de datos:** No se dispone de detalles sobre la evolución del *pipeline* específico de proyectos post-2026, lo que impide valorar si el CAPEX actual rendirá los retornos esperados en el corto plazo.
+El ratio deuda neta/EBITDA de 4,14x sitúa a la empresa bajo la lupa del mercado, especialmente en un entorno macroeconómico donde la inflación en la Eurozona (alrededor del 4%, según *El Economista*, 13-11-2026) complica la política de tipos de interés. El mercado muestra dudas respecto a su capacidad de financiar nuevos proyectos, específicamente en el sector de centros de datos, lo que ha generado recientes presiones vendedoras.
 
-### Tabla de resumen
-| Indicador | Valor / Situación |
-| :--- | :--- |
-| Precio Actual | 14,90 EUR |
-| Tendencia 252 días | -16,55% |
-| PER Forward | 8,76x |
-| Deuda Neta / EBITDA | 4,14x |
-| Upside (Consenso) | +50,29% |
-| Riesgo Principal | Tipos de interés altos e inflación 4% |
+#### 2. Análisis Técnico
+*   **Tendencia:** El precio de 15,08 EUR cotiza por debajo de sus medias móviles de 20 (15,41), 50 (16,03) y 200 días (19,54), lo que confirma una tendencia bajista de medio y largo plazo.
+*   **Osciladores:** El RSI(14) en 44,45 indica una zona neutral-bajista, sin signos claros de sobreventa técnica. El MACD se mantiene por debajo de su línea de señal, ratificando la falta de impulso comprador.
+*   **Valoración:** Con un PER *forward* de 8,86x, cotiza con un descuento significativo frente a la mediana de sus comparables (16,79x), lo que sugiere que el mercado ya ha descontado gran parte del riesgo operativo.
 
-**Rating**: REVIEW
+#### 3. Perspectiva Macro y Noticias
+El clima inversor está marcado por una inflación persistente en Europa, lo cual limita la capacidad de los bancos centrales para reducir los tipos de interés. Las noticias recientes destacan la preocupación por el financiamiento de proyectos de alta intensidad de capital (centros de datos). No obstante, el consenso de analistas mantiene un precio objetivo medio de 22,27 EUR, lo que implica un potencial de retorno del 47,7%, sugiriendo que el mercado ve una desconexión entre el precio actual y el valor fundamental a largo plazo, a pesar del ruido a corto plazo.
 
-FINAL TRANSACTION PROPOSAL: Mantener una postura de vigilancia técnica dado que el precio actual está cerca del objetivo mínimo de consenso (14,00 EUR). No se sugiere entrada hasta observar estabilización en la curva de tipos de la Eurozona y una reducción en la volatilidad de la acción.
+#### 4. Resumen de Datos Clave
+
+| Indicador / Métrica | Valor | Observación |
+| :--- | :--- | :--- |
+| **Precio Actual** | 15,08 EUR | Debajo de medias móviles clave |
+| **PER Forward** | 8,86x | Descuento importante vs peers (16,79x) |
+| **Deuda Neta/EBITDA** | 4,14x | Nivel de apalancamiento a vigilar |
+| **Consenso Target Price**| 22,27 EUR | Potencial teórico de +47,7% |
+| **Volatilidad (1 año)** | 53,94% | Alta sensibilidad a noticias |
+
+**Información faltante:** No se dispone de datos detallados sobre la estructura de vencimiento de la deuda a corto plazo ni de las tasas de interés específicas de sus líneas de crédito actuales, factores críticos dada la actual política monetaria en la Eurozona.
+
+**Rating:** NEUTRAL
+
+FINAL TRANSACTION PROPOSAL: Mantener/Observar (No ejecutar operaciones sin confirmación de estabilización técnica o clarificación de los planes de financiación de datacenters).

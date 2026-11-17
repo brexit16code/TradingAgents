@@ -1,33 +1,33 @@
-El análisis de **MTS.MC** (ArcelorMittal S.A.) con fecha de corte al 16 de noviembre de 2026 muestra una coyuntura técnica y fundamental compleja, marcada por una rentabilidad anual sólida (+62,49%) pero con señales de estancamiento en el corto plazo.
+El análisis de **ArcelorMittal (MTS.MC)**, con fecha de corte al 17 de noviembre de 2026, refleja una situación técnica y fundamental compleja marcada por una alta volatilidad y un comportamiento reciente negativo.
 
 ### Análisis Técnico
-ArcelorMittal cotiza a **56,06 EUR**, situándose en una zona neutral respecto a sus medias móviles clave:
-*   **Tendencia:** El precio se encuentra por encima de la media de 20 días (55,37 EUR) y la media de 200 días (55,71 EUR), lo que sugiere una estructura de soporte subyacente. Sin embargo, está por debajo de la media de 50 días (58,31 EUR), reflejando una presión bajista en el trimestre reciente.
-*   **Momentum:** El **RSI14** se sitúa en 48,16, una zona de indecisión que no muestra condiciones claras de sobrecompra ni sobreventa. El **MACD** (-0,0208) y su línea de señal (-0,5319) indican una convergencia, lo que podría sugerir un intento de giro alcista si el precio logra consolidar por encima de los 56 EUR.
-*   **Volatilidad:** Con una volatilidad del 33,09% y un *drawdown* del 16,81%, el valor presenta una oscilación moderadamente alta, típica del sector de materiales básicos.
+MTS.MC cotiza a **55,04 EUR**, situándose por debajo de sus medias móviles clave de 20 (55,32 EUR), 50 (58,08 EUR) y 200 días (55,74 EUR). Este alineamiento sugiere una presión vendedora predominante en el corto y medio plazo.
+*   **Momentum:** El indicador RSI (14) se encuentra en **44,82**, lo cual indica un terreno neutral pero con sesgo bajista, sin alcanzar aún niveles de sobreventa que pudieran sugerir un rebote técnico inminente.
+*   **MACD:** Tanto la línea MACD (-0,136) como su señal (-0,453) se encuentran en zona negativa, aunque la convergencia reciente sugiere una leve pérdida de fuerza en el movimiento bajista, lo cual requiere monitoreo para ver si se produce un cruce alcista.
+*   **Volatilidad:** Con una volatilidad del 33,11% y un *drawdown* del 18,33%, el valor presenta un perfil de riesgo elevado para el inversor.
 
 ### Análisis Fundamental
-*   **Valoración:** La compañía cotiza con un **forward PE de 10,13**, lo que sugiere que el mercado espera una recuperación en las ganancias por acción (EPS forward de 5,53 EUR) comparado con el trailing EPS de 1,18 EUR. El ratio **Precio/Valor Contable de 0,87** indica que la acción podría estar cotizando con descuento respecto a sus activos netos.
-*   **Salud Financiera:** La relación **Net Debt/EBITDA de 2,08** se mantiene dentro de niveles manejables para una siderúrgica, pero el flujo de caja libre es negativo (-802,87 millones EUR), lo cual es una señal de alerta sobre la capacidad de generar efectivo tras los gastos de capital (CapEx).
-*   **Consenso:** El precio objetivo medio es de **59,10 EUR**, lo que representa un **upside potencial del 5,42%**. Existe una divergencia relevante, con un rango que va desde los 52,70 EUR hasta los 65,50 EUR.
+*   **Valoración:** MTS.MC presenta un *Forward PE* de **9,95x**, sensiblemente menor al *Trailing PE* de **46,64x**, lo que refleja una expectativa de mejora significativa en las utilidades por acción (forward EPS 5,53). Sin embargo, el margen de beneficio neto sigue siendo estrecho (1,64%).
+*   **Balance:** La empresa mantiene un ratio de deuda neta sobre EBITDA de **2,08x**, un nivel manejable en la industria, aunque la generación de flujo de caja libre (FCF) es negativa (-802,88 millones de EUR), lo que impone presión sobre la capacidad de financiar dividendos y capex.
+*   **Consenso:** El precio objetivo medio es de **59,10 EUR**, lo que implica un potencial alcista teórico del **7,38%** respecto al cierre actual.
 
 ### Contexto de Mercado
-El entorno macroeconómico en la Eurozona es desafiante. Las noticias recientes destacan una inflación persistente (cercana al 4%) que limita el margen de maniobra del BCE para bajar tipos, lo cual impacta negativamente en sectores intensivos en capital como el acero. El ahorro en la zona euro pierde poder adquisitivo, lo que presiona a la baja la demanda industrial agregada.
+El valor ha sido castigado recientemente en el mercado español, siendo uno de los componentes más débiles del IBEX 35 en las sesiones previas (noticia del 17-11-2026, *Estrategias de Inversión*). La inflación persistente en la eurozona (4% según informes del 13-11-2026) complica el panorama para sectores cíclicos como el del acero, al limitar la moderación de los tipos de interés.
 
-### Conclusiones y Consideraciones
-El perfil técnico es de "espera" (*wait-and-see*). El soporte de 55,71 EUR (SMA 200) será crítico para evitar una caída mayor hacia los niveles del target bajo (52,70 EUR). La falta de una tendencia direccional clara tras el reporte de resultados sugiere cautela, especialmente dado el FCF negativo registrado.
+### Consideraciones Finales
+La falta de una comparación sectorial detallada en el reporte limita la evaluación de si el descuento en el ratio Precio/Valor Contable (0,86) es una oportunidad de valor o un reflejo del estancamiento del sector. La empresa se encuentra en una fase de "revisión" operativa debido a la inconsistencia en el flujo de caja operativo.
 
-**Rating**: HOLD
+**Missing Data:** No se dispone de datos de crecimiento de ganancias proyectadas a largo plazo, ni de un desglose comparativo de valoración por pares del sector (Peer Analysis), lo cual dificulta determinar si la valoración es atractiva frente a competidores directos.
 
 | Indicador | Valor / Estado | Interpretación |
 | :--- | :--- | :--- |
-| Precio Actual | 56,06 EUR | Zona de soporte técnico clave |
-| RSI (14) | 48,16 | Neutral |
-| SMA 200 | 55,71 EUR | Soporte estructural de largo plazo |
-| Forward PE | 10,13 | Atractivo respecto al sector |
-| Dividend Yield | 0,96% | Bajo, baja prioridad para inversores por rentabilidad |
-| Upside Consenso | 5,42% | Potencial alcista limitado |
+| Precio Actual | 55,04 EUR | Tendencia bajista (bajo medias 20, 50, 200) |
+| RSI (14) | 44,82 | Neutral-Bajista |
+| Forward PE | 9,95x | Valoración atractiva a futuro |
+| Dividend Yield | 0,97% | Rentabilidad limitada |
+| Upside (Consenso) | +7,38% | Potencial alcista según analistas |
+| Volatilidad | 33,11% | Riesgo elevado |
 
-*Nota: La información proviene de los datos proporcionados con fecha 2026-11-16. Falta información detallada sobre el crecimiento de las ganancias (earningsGrowth) y desgloses sectoriales comparativos más profundos.*
+**Rating**: REVIEW
 
-FINAL TRANSACTION PROPOSAL: None (Analysis only)
+FINAL TRANSACTION PROPOSAL: No trade execution or allocation recommended. The current technical breakdown below the 200-day SMA and weak cash flow generation warrant a cautious "Wait and See" approach until a trend reversal is confirmed by moving average convergence.

@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La recomendación de mantener está justificada por la solidez de los fundamentales operativos de CaixaBank (ROE de 16.52% y márgenes netos superiores al 40%) frente a los riesgos macroeconómicos de la eurozona y una valoración en precio contable superior a 2x. Dado el equilibrio entre los argumentos alcistas de impulso técnico y las advertencias bajistas de tipos y competencia por el ahorro, se aconseja no incrementar exposición en este momento.
+**Reasoning**: La acción se encuentra en una fase de consolidación técnica, cotizando casi exactamente en su media móvil de 50 sesiones (12,06 EUR). Aunque los fundamentales son sólidos y ofrecen un dividendo atractivo, la reciente presión inflacionaria en la eurozona y la falta de una tendencia clara en el RSI justifican mantener la posición actual sin realizar nuevas entradas ni ventas hasta que se defina la dirección del mercado respecto a sus niveles de soporte y resistencia clave.
 
-**Entry Price**: not provided
+**Entry Price**: 12.2
 
-**Stop Loss**: 11.45
+**Stop Loss**: 11.5
 
-**Position Sizing**: 5% de la cartera
+**Position Sizing**: Mantener exposición actual; no incrementar hasta superar 12,20 EUR.
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

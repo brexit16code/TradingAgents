@@ -1,40 +1,37 @@
-### Informe de Análisis Fundamental: MERLIN Properties (MRL.MC)
+### Informe de Análisis Fundamental: MERLIN Properties SOCIMI, S.A. (MRL.MC)
 
-**Fecha de análisis:** 16 de noviembre de 2026
-**Instrumento:** MERLIN Properties SOCIMI, S.A. (MRL.MC)
-**Sector:** Real Estate / REIT - Office
+**Fecha del informe:** 17 de noviembre de 2026
+**Instrumento:** MRL.MC (España)
 
 #### Resumen Ejecutivo
-MERLIN Properties, la SOCIMI líder en el mercado español, presenta un panorama mixto tras la publicación de sus resultados del tercer trimestre de 2026. A pesar de haber superado las previsiones de ingresos, la acción enfrenta una presión bajista significativa impulsada por la incertidumbre regulatoria en torno a sus proyectos de centros de datos y un entorno macroeconómico complejo con inflación persistente en la Eurozona (estimada en 4%).
+MERLIN Properties (MRL.MC), el mayor REIT de oficinas en España, atraviesa un periodo de incertidumbre operativa marcada por la presión regulatoria en su línea de negocio de centros de datos, a pesar de haber reportado resultados del tercer trimestre de 2026 superiores a las expectativas del mercado.
 
-#### Análisis Financiero
-*   **Resultados Recientes:** Los ingresos del 3T 2026 han superado las estimaciones del consenso, demostrando resiliencia operativa. Sin embargo, el mercado reacciona negativamente debido a las noticias sobre un posible coste extra de 863 millones de euros derivado de un nuevo decreto gubernamental que afecta a los centros de datos (fuente: *El Boletín*, 13/11/2026).
-*   **Valoración:** La compañía cotiza a un ratio Precio/Valor Contable (P/B) de 0.83, lo que sugiere que las acciones podrían estar infravaloradas respecto a sus activos netos. No obstante, el PE forward de 20.5x refleja las expectativas de una mayor carga operativa o menores márgenes futuros.
-*   **Solidez del Balance:** Con un capital social de 8.07 mil millones de euros y una deuda total de 5.06 mil millones (al cierre de 2025), la empresa mantiene una estructura de capital sólida, aunque el entorno de tipos de interés altos de la Eurozona aumenta el coste del servicio de la deuda, una preocupación clave mencionada en los análisis de *Bankinter* (13/11/2026).
-*   **Dividendos:** La rentabilidad por dividendo se sitúa en el 3.47%, con un ratio de payout conservador del 14.8%, lo que proporciona margen para mantener la retribución al accionista pese a la coyuntura.
+#### Análisis Financiero y Operativo
+*   **Resultados Recientes:** Según datos de *Investing.com* (13/11/2026), la compañía superó las previsiones de ingresos en el T3 2026, lo que indica resiliencia operativa. No obstante, la acción ha reaccionado con cautela debido a factores externos.
+*   **Tendencias de Balance y Flujo de Caja:**
+    *   **Solvencia:** La deuda total se sitúa en 5.386 millones de EUR (a 2026-11-17), frente a unos activos totales de 14.268 millones de EUR (cierre 2025). El ratio de endeudamiento muestra una tendencia al alza constante desde 2023.
+    *   **Rentabilidad:** MRL mantiene un sólido *Return on Equity* (ROE) del 10,04%. El *dividend yield* es del 3,47%, lo que atrae a inversores orientados a ingresos, aunque el *payout ratio* del 14,83% sugiere una política de distribución conservadora.
+*   **Desafíos Regulatorios:** El principal lastre actual es el impacto potencial del nuevo decreto de centros de datos. La empresa ha estimado un sobrecoste de 863 millones de EUR, lo cual ha sido calificado por la directiva como un escenario que obliga a prepararse para "lo peor" (*El Boletín*, 13/11/2026). Este riesgo impacta directamente en las valoraciones futuras y explica la divergencia entre el valor contable y el sentimiento de mercado.
 
-#### Consideraciones Estratégicas
-1.  **Riesgo Regulatorio:** La crítica abierta del CEO de Merlin hacia la gestión gubernamental de los proyectos de infraestructuras digitales añade una prima de riesgo político que está pesando sobre la cotización.
-2.  **Entorno Macroeconómico:** La inflación en la zona euro (4%) limita la capacidad de maniobra del BCE, manteniendo los tipos de interés elevados, lo cual es intrínsecamente negativo para el sector inmobiliario y los costes de financiación.
-3.  **Desempeño Técnico:** La acción muestra una tendencia a la baja, situándose por debajo de sus medias móviles de 20, 50 y 200 sesiones. El RSI de 44.07 indica una zona neutral-bajista, sin signos claros de sobreventa inmediata.
+#### Valoración y Perspectiva de Mercado
+*   **Valoración:** La acción cotiza a un *Price-to-Book* (P/B) de 0,83x, cotizando por debajo de su valor en libros (13,94 EUR por acción), lo que podría sugerir una infravaloración si el impacto del decreto es menor al temido.
+*   **Consenso de Analistas:** Existe una notable brecha entre el precio actual (11,56 EUR) y el objetivo medio de los analistas (17,00 EUR), implicando un potencial de revalorización del 47,09%. Sin embargo, el *forward P/E* de 20,6x sugiere que el mercado anticipa una contracción significativa en los beneficios futuros, probablemente descontando el impacto regulatorio.
 
-#### Evidencia de apoyo y contraria
-*   **Apoyo:** El crecimiento de los ingresos trimestrales confirma la capacidad de generación de caja de la cartera de activos de alta calidad (oficinas y logística).
-*   **Contraria:** La incertidumbre sobre el decreto de centros de datos y la tendencia técnica negativa (caída del 17% en los últimos 63 días) sugieren cautela.
+#### Análisis Técnico
+La acción muestra signos de debilidad a medio plazo, cotizando por debajo de sus medias móviles de 50 días (11,96 EUR) y 200 días (13,89 EUR). El indicador RSI de 45,16 sitúa al título en zona neutral, sin sobreventa extrema, pero con un *momentum* claramente bajista en los últimos 63 días (-17,84%).
 
-#### Información Faltante
-*   No se dispone de datos detallados sobre la distribución geográfica exacta de la cartera tras las últimas rotaciones de activos.
-*   Faltan previsiones desglosadas por línea de negocio tras el impacto del posible nuevo decreto.
+#### Riesgos y Datos Faltantes
+*   **Riesgos:** Riesgo regulatorio inminente (decreto centros de datos) y sensibilidad a los tipos de interés de la Eurozona (inflación al 4% según *El Economista*).
+*   **Datos Faltantes:** No se dispone de un desglose detallado del impacto del apalancamiento neto (Net Debt/EBITDA no disponible), lo cual es crítico para una empresa del sector inmobiliario intensiva en capital.
 
-**Rating:** HOLD
+**Rating**: REVIEW
 
-| Métrica Clave | Valor / Dato |
-| :--- | :--- |
-| Precio Actual | 11.52 EUR |
-| Capitalización de Mercado | 7.13 mil millones EUR |
-| P/B Ratio | 0.83 |
-| Rentabilidad por Dividendo | 3.47% |
-| Target Mean Price | 17.01 EUR |
-| Consenso Upside | 47.69% |
+| Indicador | Valor | Comentario |
+| :--- | :--- | :--- |
+| Precio Actual | 11,56 EUR | Tendencia bajista vs SMA200 |
+| Dividend Yield | 3,47% | Sostenible dado el payout |
+| Price to Book | 0,83x | Cotiza con descuento sobre valor contable |
+| Forward EPS | 0,56 EUR | Refleja posible impacto de riesgos |
+| Consenso Upside | 47,09% | Alta divergencia con analistas |
 
-FINAL TRANSACTION PROPOSAL: Mantener posiciones actuales y esperar claridad sobre la resolución regulatoria del decreto de centros de datos antes de ampliar exposición. La valoración atractiva (P/B < 1) sugiere un suelo potencial, pero el momento técnico requiere confirmación de reversión de tendencia.
+FINAL TRANSACTION PROPOSAL: The equity is currently facing significant regulatory headwinds related to data center legislation. While it trades at a discount to book value and carries a decent yield, the technical trend is negative. A "Hold" or "Review" stance is appropriate until the regulatory impact is quantified in the balance sheet. No transaction.

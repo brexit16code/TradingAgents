@@ -1,9 +1,9 @@
-**Rating**: Underweight
+**Rating**: Sell
 
-**Executive Summary**: Reducir la exposición a ANA.MC en un 25-50% para mitigar el riesgo derivado de su frágil situación de liquidez. Mantener una postura de vigilancia frente a los soportes técnicos clave de 200 EUR y evitar nuevas compras hasta que se evidencie una mejora sostenible en el flujo de caja operativo.
+**Executive Summary**: Se recomienda la liquidación de la posición en ANA.MC tras la ruptura de soportes clave y el deterioro de los fundamentales. La ejecución operativa deficiente y el elevado apalancamiento justifican una postura de salida inmediata para proteger capital ante la alta incertidumbre. Evitar la entrada o promediar a la baja mientras persista la tendencia bajista técnica.
 
-**Investment Thesis**: La tesis de inversión se inclina hacia la cautela debido a la combinación de un flujo de caja libre negativo de -722,75 millones de euros y un apalancamiento elevado (deuda/EBITDA de 6,14x). La cancelación de desinversiones estratégicas, junto con la necesidad de un nuevo préstamo de 500 millones, confirma que la empresa enfrenta tensiones de liquidez reales, más allá de la volatilidad del mercado. Aunque el consenso de analistas sugiere un potencial alcista (target de 219,42 EUR), este se ve contrarrestado por un entorno técnico bajista donde ANA.MC cotiza bajo sus medias móviles de 50 y 200 días. Un giro positivo dependería de una reestructuración de deuda efectiva o un retorno a la generación de caja positiva, pero actualmente, la prioridad debe ser la preservación del capital ante la inestabilidad operativa. Datos faltantes incluyen el detalle pormenorizado de las condiciones del nuevo préstamo y el calendario exacto de vencimientos de deuda a corto plazo.
+**Investment Thesis**: La tesis de venta se fundamenta en la debilidad estructural evidenciada por un ratio de Net Debt/EBITDA de 6,14x y un flujo de caja libre negativo de -722,75 millones de EUR, factores que exponen a la empresa a riesgos de liquidez críticos en un entorno de inflación del 4% en la Eurozona. A pesar de que el Forward PE de 18,26x podría sugerir una valoración atractiva, la incapacidad reiterada para ejecutar desinversiones estratégicas y el payout ratio del 166% indican una erosión del capital insostenible. La estructura técnica es contundentemente bajista, con la cotización operando por debajo de las medias móviles de 50 y 200 días. Un cambio en esta tesis requeriría una reducción material verificable de la deuda y una estabilización operativa que garantice una generación de caja positiva constante, condiciones que actualmente no se cumplen.
 
-**Price Target**: 219.42
+**Price Target**: 150.0
 
 **Time Horizon**: 3-6 meses

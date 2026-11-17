@@ -1,55 +1,40 @@
-**Rating**: REVIEW
+Informe de Análisis Financiero: **ANE.MC** (Corporación Acciona Energías Renovables, S.A.)
+Fecha de referencia: 17 de noviembre de 2026
 
-Análisis detallado de **ANE.MC** (Corporación Acciona Energías Renovables, S.A.), cotizada en el mercado español (MCE) y perteneciente al índice de referencia del mercado español `^IBEX`.
+### Resumen Ejecutivo
+**ANE.MC** atraviesa un periodo de alta volatilidad y presión bajista, agravado por la reciente frustración de sus planes de desinversión, lo que ha impactado negativamente en su cotización. Con una capitalización bursátil de 6.630 millones de EUR, la empresa enfrenta un entorno macroeconómico desafiante marcado por una inflación persistente en la zona euro (4%) que complica la política monetaria.
 
----
+### Análisis Fundamental y Operativo
+1. **Situación Financiera:** La compañía muestra una estructura de capital ajustada, con una deuda total de 5.410 millones de EUR y un ratio de deuda neta sobre EBITDA de 5,06x. El flujo de caja libre es negativo (-408,7 millones de EUR en el último periodo reportado), lo que, sumado a una caída en los ingresos del 34,4%, sugiere dificultades operativas significativas.
+2. **Desinversiones Fallidas:** La noticia del 15 de noviembre sobre el fracaso en sus planes de desinversión y las demoras en el acuerdo con MIP para activos en México han sido catalizadores de una venta masiva, reflejada en la caída de su precio (cierre a 20,42 EUR).
+3. **Valoración:** Presenta un PER forward de 30,33x, lo que representa una prima del 80% respecto a la mediana de sus comparables del sector (16,79x). Esta valoración parece difícil de justificar dada la tendencia negativa de sus resultados.
 
-### 1. Contexto Macrofinanciero y de Mercado
-El entorno macroeconómico europeo actual se caracteriza por presiones inflacionistas persistentes en la Eurozona (con tasas en torno al 4% según titulares recientes de noviembre de 2026) y un contexto de tipos de interés restrictivos que condicionan las valoraciones y la rentabilidad de las inversiones de capital intensivo. Los mercados de renta fija y las alternativas monetarias (como las letras de los hogares al alza) compiten de forma directa por el ahorro, situando a los sectores regulados y de renovables bajo escrutinio. 
+### Contexto Macroeconómico
+El entorno es hostil para las *utilities* debido a:
+* **Inflación en la Zona Euro:** Situada en el 4%, lo que invalida, según fuentes (El Economista, 13-11-2026), una moderación inmediata en las tasas de interés.
+* **Tipos de Interés:** El ahorro en la Eurozona pierde valor ante tipos reales negativos, afectando el costo de capital de empresas intensivas en deuda como **ANE.MC**.
 
-### 2. Situación Fundamental y Financiera de `ANE.MC`
-- **Capitalización de Mercado**: ~6.594,84 millones de EUR.
-- **Valoración**:
-  - `trailingPE`: 35.65x
-  - `forwardPE`: 29.50x
-  - Ratio de PER relativo frente a la mediana de peers (16.91x) de **1.74**, lo que indica que `ANE.MC` cotiza con una prima significativa en términos de múltiplo de beneficios proyectados frente a sus comparables sectoriales.
-- **Deuda y Apalancamiento**:
-  - Deuda total: ~5.410 millones de EUR (con una deuda neta sobre EBITDA de **5.06x**).
-- **Métricas de Rentabilidad y Dividendos**:
-  - Rentabilidad sobre recursos propios (`ROE`): 3.31%.
-  - Márgenes de beneficio operativo/neto relativamente ajustados en los últimos ejercicios (margen de beneficios del 5.45% en base a los datos suministrados).
-  - Dividend yield indicado: ~14.76% (con una tasa de dividendo reportada de 0.03 EUR y payout cercano al 5.27%, sujeto a lectura específica del instrumento y estructura de pagos corporativos).
-- **Consenso de Analistas**:
-  - Precio objetivo medio de consenso: **23.27 EUR**, con un rango entre 17.00 EUR (mínimo) y 28.30 EUR (máximo) basado en 19 opiniones de analistas. Con el precio de cierre actual de **20.32 EUR**, el potencial alcista de consenso se sitúa en un **14.54%**.
+### Indicadores Técnicos
+* El valor cotiza por debajo de sus medias móviles de 20, 50 y 200 sesiones (SMA20: 21,45; SMA200: 21,83), confirmando una tendencia bajista de medio y largo plazo.
+* El RSI de 40,04 indica que, aunque no está en sobreventa extrema, el impulso bajista es persistente.
 
-### 3. Aspectos Técnicos y Catalizadores Recientes
-- **Precio Actual (16-11-2026)**: 20.32 EUR (cambio del +0.30% en la última sesión).
-- **Indicadores Técnicos**:
-  - RSI (14): 38.93 (zona débil, próxima a sobreventa pero sin señales claras de giro alcista).
-  - MACD: -0.136 (señal: -0.010), reflejando presión bajista de medio plazo.
-  - Medias Móviles: SMA20 (21.51 EUR), SMA50 (21.65 EUR) y SMA200 (21.83 EUR). La cotización se encuentra por debajo de sus principales medias móviles, con un *drawdown* del **-16.61%** respecto a máximos recientes y un rendimiento a 21 sesiones de -7.89%.
-- **Noticias y Eventos Relevantes (Noviembre 2026)**:
-  - Las acciones de `ANE.MC` y su matriz Acciona sufrieron fuertes descensos (desplomes bursátiles notables a mediados de noviembre de 2026, con caídas superiores al 7% en sesiones recientes) motivados por la **frustración de planes de desinversión** y demoras en acuerdos corporativos relevantes (tales como la transacción de activos renovables en México con MIP).
+### Riesgos y Evidencia Contraría
+* **Soporte:** El dividendo actual (rendimiento del 14,7%) es inusualmente alto, lo que podría atraer a inversores en busca de rentas si el nivel de precios se estabiliza, aunque la sostenibilidad del mismo está bajo escrutinio dado el flujo de caja operativo negativo.
+* **Datos Faltantes:** No se dispone de datos actualizados sobre el desglose detallado de los covenants de la deuda a corto plazo ni sobre las proyecciones de crecimiento de dividendos tras las recientes caídas.
 
-### 4. Datos Faltantes y Limitaciones
-- Faltan previsiones detalladas de flujos de caja descontados (DCF) propios y desglose pormenorizado por tecnologías de generación o geografías exactas más allá de los estados financieros agregados.
-- No se dispone de un portfolio de inversión particular del inversor, por lo que cualquier ponderación es hipotética.
+### Conclusión
+La combinación de una valoración elevada (PER), una alta carga de deuda y el fracaso de estrategias corporativas clave (desinversiones) sugiere una perspectiva cautelosa.
 
----
+**Rating**: UNDERWEIGHT
 
-### Resumen Estructurado (Tabla Clave)
-
-| Concepto Clave | Valor / Dato |
+| Indicador | Valor / Dato |
 | :--- | :--- |
-| **Ticker** | `ANE.MC` |
-| **Precio de Cierre (16/11/2026)** | 20.32 EUR |
-| **Capitalización de Mercado** | ~6.594,8M EUR |
-| **PER Adelantado (*Forward PE*)** | 29.50x |
-| **Deuda Neta / EBITDA** | 5.06x |
-| **Precio Objetivo de Consenso** | 23.27 EUR (+14.54% upside) |
-| **Tendencia Técnica** | Bajista (Cotiza por debajo de SMA20, SMA50 y SMA200; RSI en 38.9) |
-| **Catalizador Reciente** | Desplome bursátil por frustración de planes de desinversión y demoras en México |
+| **Precio de Cierre (ANE.MC)** | 20,42 EUR |
+| **Consenso Precio Objetivo** | 23,27 EUR |
+| **Upside Estimado** | 13,97% |
+| **PER Forward** | 30,33x |
+| **Ratio Deuda Neta/EBITDA** | 5,06x |
+| **Dividend Yield** | 14,69% |
+| **Tendencia técnica** | Bajista (SMA200 en 21,83) |
 
-**Rating**: REVIEW
-
-FINAL TRANSACTION PROPOSAL: NO_ACTION (Read-only research report; no execution of trades).
+FINAL TRANSACTION PROPOSAL: Given the high debt-to-EBITDA ratio and failed divestment plans, a defensive posture is recommended. Do not initiate new long positions until debt management improves.

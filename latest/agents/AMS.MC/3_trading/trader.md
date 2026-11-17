@@ -1,11 +1,11 @@
 **Action**: Buy
 
-**Reasoning**: A pesar de la sobrecompra técnica a corto plazo con un RSI de 77,29, los sólidos fundamentales y el potencial alcista hacia el precio objetivo de consenso de 71,04 EUR justifican una recomendación de compra para acumulación gradual. La sólida generación de flujo de caja y la alineación con la recomendación estratégica de sobreponderar superan los riesgos tácticos inmediatos. Se establece una entrada escalonada y un nivel de stop-loss prudente para gestionar la volatilidad.
+**Reasoning**: Amadeus presenta fundamentos sólidos con una baja carga de deuda (Net Debt/EBITDA 1.03) y un ROE excepcional del 26.4%. Aunque el RSI sugiere una consolidación técnica a corto plazo, el precio se mantiene cómodamente sobre sus medias móviles de 50 y 200 días, lo que ratifica una tendencia estructural alcista. La estrategia de acumulación se justifica por el potencial de retorno del 14.7% según el consenso, posicionándose para capturar valor ante una probable recuperación hacia niveles de 71.04 EUR.
 
-**Entry Price**: 59.04
+**Entry Price**: 61.92
 
-**Stop Loss**: 55.82
+**Stop Loss**: 52.5
 
-**Position Sizing**: 5% of portfolio
+**Position Sizing**: 50% de la asignación estándar inicialmente con posibilidad de completar la posición en retrocesos hacia los 55.92 EUR.
 
 FINAL TRANSACTION PROPOSAL: **BUY**

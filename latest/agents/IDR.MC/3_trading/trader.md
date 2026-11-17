@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: El activo presenta una estructura fundamental sólida con una posición de caja neta robusta, pero se encuentra bajo presión técnica con el precio cotizando por debajo de sus medias móviles de corto plazo (SMA20 y SMA50). Dado que el MACD se mantiene en terreno bajista y la volatilidad es elevada, no existe un catalizador técnico para una entrada inmediata. Mantener es la estrategia prudente hasta que el soporte clave en la media móvil de 200 días (55,75 EUR) confirme su resiliencia o se observe una mejora en el momentum.
+**Reasoning**: A pesar de que el valor fundamental a largo plazo es atractivo con un potencial alcista del 27.96% según el consenso, el deterioro técnico es evidente tras la perforación de la media móvil de 200 días (55.78 EUR) y un RSI de 34 que indica una presión vendedora persistente. La discrepancia entre el sólido crecimiento del ROE y el aumento significativo en la deuda total reportada en 2025 justifica una postura de prudencia hasta que el precio logre consolidar un suelo técnico cerca de los 50 EUR.
 
-**Entry Price**: 55.75
+**Entry Price**: 50.0
 
-**Stop Loss**: 53.5
+**Stop Loss**: 46.5
 
-**Position Sizing**: Mantener posición actual, no añadir exposición.
+**Position Sizing**: 2% de la cartera
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

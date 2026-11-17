@@ -1,33 +1,30 @@
-Análisis técnico y fundamental detallado de **NTGY.MC** (Naturgy Energy Group, S.A.) a fecha de 16 de noviembre de 2026.
+El análisis de **Naturgy Energy Group, S.A. (`NTGY.MC`)** al cierre del 17 de noviembre de 2026 revela una situación técnica y fundamental caracterizada por la estabilidad en su tendencia a largo plazo, a pesar de las recientes turbulencias en el sector energético.
 
-### Análisis Fundamental y Situación de Mercado
-Naturgy presenta una valoración que se sitúa ligeramente por debajo de sus comparables del sector, con una ratio de PER forward de 14.13 frente a una mediana del sector de 16.91. La compañía exhibe una robustez financiera significativa con un ROE del 23.69% y un margen de beneficio operativo del 10.43%.
+### Análisis Técnico y Tendencial
+*   **Tendencia:** `NTGY.MC` muestra una estructura alcista sólida, cotizando a 30,40 EUR, por encima de sus medias móviles clave (SMA20: 29,84; SMA50: 29,36; SMA200: 27,25). La consistencia de la SMA200 actuando como soporte dinámico sugiere una fortaleza estructural a largo plazo.
+*   **Momentum:** El RSI(14) en 57,82 indica una zona neutral-positiva, sin señales inmediatas de sobrecompra. El MACD se sitúa en 0,30 por encima de su señal (0,21), lo que confirma un momentum positivo vigente, respaldado por una rentabilidad del 19,95% en los últimos 252 días.
+*   **Volatilidad:** Con una volatilidad del 16%, el activo mantiene un comportamiento relativamente estable para el sector de servicios públicos (Utilities).
 
-*   **Rendimiento del Dividendo:** Uno de los puntos más atractivos es su rentabilidad por dividendo del 7.64% (estimada en el snapshot como 7.76%), lo que, en un entorno de tipos de interés europeos que enfrentan presiones inflacionarias (inflación zona euro al 4% según reportes del 13/11/2026), ofrece un escudo de ingresos interesante para inversores conservadores.
-*   **Balance:** La deuda neta sobre EBITDA se sitúa en 2.41x, un nivel manejable para una empresa del sector "Utilities - Regulated Gas". No obstante, la empresa ha experimentado una ligera reducción en el flujo de caja libre (2.37 mil millones en 2025 vs 2.43 mil millones en 2023).
+### Fundamentos y Contexto Sectorial
+*   **Valoración:** La compañía cotiza a un *Forward PE* de 14,07x, lo que representa una valoración atractiva al compararla con el ratio de sus pares del sector (ratio 0,84 respecto a la mediana del sector).
+*   **Retorno al Accionista:** El dividendo sigue siendo un pilar fundamental del caso de inversión, con una rentabilidad (dividend yield) del 7,80%, respaldado por un *payout ratio* del 75,92%.
+*   **Riesgos Recientes:** Las noticias del 16 de noviembre indican que Repsol ha interpuesto demandas contra las grandes eléctricas, incluyendo Naturgy, por daños derivados de un apagón. Aunque es un evento negativo, el mercado ha reaccionado con una caída moderada del 0,46% en la última sesión, lo que sugiere una resiliencia notable frente al ruido mediático y legal.
+*   **Resultados:** La empresa ha reportado mejoras en sus resultados y elevación de metas para 2026 (Petróleo y Energía, 14 de noviembre), lo que compensa parcialmente las preocupaciones sectoriales.
 
-### Análisis Técnico
-*   **Tendencia:** El precio actual de 30.54 EUR se encuentra cómodamente por encima de sus medias móviles de 50 días (29.32 EUR) y 200 días (27.22 EUR), lo que confirma una tendencia alcista a largo plazo.
-*   **Momentum:** El RSI de 14 días en 59.81 indica una zona de fortaleza saludable sin llegar a condiciones de sobrecompra extrema. El MACD (0.296) se encuentra por encima de su señal (0.182), lo que sugiere que el impulso comprador se mantiene activo, aunque el reciente cambio porcentual diario de -1.54% merece vigilancia.
-*   **Volatilidad:** La volatilidad reportada del 15.96% es moderada para este tipo de activos.
+### Consideraciones sobre la Solidez Financiera
+Naturgy mantiene una posición de deuda manejable con un *Net Debt/EBITDA* de 2,42x. La empresa ha logrado mantener niveles de flujo de caja libre positivos (2.376 millones EUR en 2025), permitiendo sostener su política de dividendos.
 
-### Evidencia y Riesgos
-*   **Soporte/Resistencia:** La SMA20 (29.81 EUR) actúa actualmente como soporte dinámico inmediato. Cualquier ruptura por debajo de este nivel invalidaría la estructura de corto plazo.
-*   **Contexto Macroeconómico:** Los titulares sugieren un entorno de tipos de interés persistentes ("inflación del 4% inhabilita moderar tipos"). Esto presiona a las empresas intensivas en capital como NTGY.MC, aunque su perfil regulado suele ofrecer protección frente a la volatilidad macro.
-*   **Datos faltantes:** No se dispone del flujo de caja operativo actualizado para el último periodo intermedio ni del desglose preciso de la deuda post-diciembre 2025, limitando la proyección de solvencia inmediata.
+### Conclusión
+`NTGY.MC` presenta un perfil defensivo de calidad con una valoración razonable. Mientras el sector energético enfrenta presiones legales, el soporte de las medias móviles y la política de dividendos actúan como amortiguadores. La ausencia de datos específicos sobre *Free Cash Flow* para el año en curso limita una precisión mayor en la valoración intrínseca, por lo que se recomienda cautela ante la resolución de los conflictos legales mencionados.
 
-**Rating**: Hold
-
-### Tabla de Resumen
-| Indicador | Valor Actual | Interpretación |
+| Indicador | Valor / Estado | Interpretación |
 | :--- | :--- | :--- |
-| Precio | 30.54 EUR | Tendencia alcista base |
-| RSI (14) | 59.81 | Fuerza media-alta |
-| SMA 200 | 27.22 EUR | Soporte estructural largo plazo |
-| Dividend Yield | 7.64% | Atractivo para renta |
-| PER Forward | 14.13 | Infravaloración relativa |
-| Neto Deuda/EBITDA| 2.41x | Solvencia estable |
+| Precio Actual | 30,40 EUR | Tendencia alcista sobre medias clave |
+| RSI (14) | 57,82 | Neutral-positivo, sin sobrecompra |
+| Dividend Yield | 7,80% | Elevado, atractivo para inversores de renta |
+| Forward PE | 14,07x | Infravalorado frente a mediana del sector |
+| Tendencia 200 SMA | 27,25 EUR | Soporte estructural a largo plazo |
+| Net Debt/EBITDA | 2,42x | Endeudamiento controlado |
 
-FINAL TRANSACTION PROPOSAL: Mantener posiciones existentes; la acción se encuentra técnicamente fuerte pero consolidando tras subidas recientes. Dada la incertidumbre macroeconómica y el nivel de inflación, es prudente no aumentar exposición hasta ver una estabilización por encima de los 31 EUR o un retroceso hacia la SMA20.
-
-*Fuentes: Yahoo Finance (https://finance.yahoo.com/quote/NTGY.MC/), Snapshot a 2026-11-16.*
+**Rating**: HOLD
+FINAL TRANSACTION PROPOSAL: No trade recommendation provided. The strategy is purely for analysis based on provided snapshots and market evidence as of 2026-11-17.

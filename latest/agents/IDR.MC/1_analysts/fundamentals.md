@@ -1,33 +1,40 @@
-Este informe analiza la situación fundamental de **Indra Sistemas, S.A. (IDR.MC)**, una compañía líder en el sector tecnológico y de defensa, basada en la información financiera y de mercado disponible a fecha de 16 de noviembre de 2026.
+Este informe técnico y fundamental analiza la situación de **Indra Sistemas, S.A. (IDR.MC)** con fecha de corte al 17 de noviembre de 2026, basándose en los datos proporcionados y la actividad reciente del mercado.
 
-### Perfil y Desempeño Reciente
-Indra (IDR.MC) opera en los sectores de servicios de tecnología de la información y defensa. A fecha de 16 de noviembre de 2026, la acción cotiza a **57,70 EUR**, mostrando una corrección reciente del 1,87%. El entorno macroeconómico actual presenta desafíos, como una inflación persistente en la zona euro (cercana al 4%), lo que mantiene las expectativas de tipos de interés elevadas, factor que presiona las valoraciones de renta variable en el Ibex 35.
+### 1. Perfil y Situación Actual
+Indra (IDR.MC) es una compañía líder en el sector de servicios de Tecnologías de la Información, con una fuerte presencia en defensa y transporte. Actualmente, el valor atraviesa una fase de corrección significativa; el 17 de noviembre de 2026, la acción cerró en **54.0 EUR**, lo que representa una caída diaria del **6.41%**.
 
-### Análisis Financiero
-*   **Rentabilidad y Crecimiento:** La compañía muestra una capacidad de ejecución notable con un crecimiento de ingresos del 22,7% y un sólido crecimiento de beneficios del 77,9%. Su **ROE del 26,3%** refleja una eficiente utilización del capital.
-*   **Balance:** La estructura financiera ha sufrido variaciones importantes. La deuda total aumentó a **3.358 millones de EUR** al cierre de 2025, frente a los 850 millones de 2024. No obstante, la empresa mantiene una posición de caja robusta (2.611 millones de EUR) y su ratio de **deuda neta/EBITDA de -1,43** sugiere una gestión de apalancamiento que, por ahora, no compromete la estabilidad.
-*   **Flujo de Caja:** A pesar de unos resultados netos positivos, el flujo de caja libre reportado para 2025 es de **378,4 millones de EUR**, manteniendo una tendencia al alza constante desde 2023.
+### 2. Análisis Financiero (Histórico y Estructural)
+La compañía ha mostrado una trayectoria de crecimiento en ingresos y rentabilidad, aunque con cambios importantes en su estructura de balance:
 
-### Insights para Traders
-1.  **Valoración:** Con un **PER forward de 17,4x**, Indra cotiza en niveles razonables dentro de su sector. El consenso de analistas (16 opiniones) sitúa el precio objetivo medio en **69,10 EUR**, lo que implica un **potencial alcista teórico cercano al 19,8%** desde el nivel actual de 57,70 EUR.
-2.  **Momentum Técnico:** El precio se sitúa por debajo de su media móvil de 20 días (61,08 EUR) y de 50 días (60,73 EUR), pero se mantiene por encima de la media de 200 días (55,75 EUR), sugiriendo una fase de consolidación técnica tras el retroceso reciente.
-3.  **Factores Estratégicos:** La atención del mercado está centrada en la estrategia de defensa de Indra. Noticias recientes (El Español, 10-11-2026) destacan que el "plan de Indra" es el foco principal del sector ante el panorama político actual.
+*   **Ingresos y EBITDA:** Los ingresos han pasado de 4.34 mil millones EUR (2023) a 5.45 mil millones EUR en 2025. El EBITDA ha seguido una tendencia alcista constante: 455M (2023), 545M (2024) y 768M (2025).
+*   **Balance:** Se observa un incremento notable en la deuda total, alcanzando los 3.35 mil millones EUR en 2025 frente a los 850M del año anterior. No obstante, el ratio de *net debt/EBITDA* se mantiene en terreno positivo debido a una sólida posición de caja (2.61 mil millones EUR).
+*   **Flujo de Caja:** A pesar del crecimiento operativo, el flujo de caja libre reportado para 2025 fue de 378.4 millones EUR, mostrando una mejora interanual. Sin embargo, los datos instantáneos (snapshot) muestran un flujo de caja libre negativo de -106.6 millones EUR, lo que sugiere una alta intensidad de capital reciente.
 
-### Riesgos y Limitaciones
-*   **Incertidumbre Macroeconómica:** El entorno de tipos de interés altos en Europa podría afectar los costes de financiación y la demanda corporativa de servicios tecnológicos.
-*   **Datos Faltantes:** No se dispone de una comparativa sectorial específica en los datos proporcionados, lo cual limita el contraste de la valoración actual frente a sus competidores directos.
+### 3. Valoración y Expectativas de Mercado
+*   **Valoración:** La compañía cotiza a un PER (Forward) de 16.29x, alineado con una valoración de mercado de 9.43 mil millones EUR.
+*   **Consenso:** Los analistas mantienen una visión mayoritariamente positiva con un precio objetivo medio de **69.10 EUR**, lo que implica un potencial de retorno del **27.96%** respecto al cierre actual.
+*   **Indicadores Técnicos:** La acción se encuentra en una situación de sobreventa técnica (RSI14: 34.00) y por debajo de sus medias móviles de 20 y 50 sesiones (ambas en 60.66 EUR), lo que indica una clara tendencia bajista a corto plazo agravada por el desplome reciente.
+
+### 4. Eventos Recientes
+El sentimiento inversor ha sido castigado en la última semana, con múltiples reportes (Bolsamania, El Boletín) señalando a Indra como protagonista de las caídas en el IBEX 35. Factores macro como la persistencia de la inflación en la zona euro (4%) están impactando el apetito por riesgo en valores tecnológicos y de alta capitalización, contribuyendo a la volatilidad del valor (35.59%).
+
+### 5. Datos Faltantes
+*   No se dispone de detalles sobre transacciones de *insider trading* (compra/venta de directivos) en la última semana, información crucial para determinar si la caída actual ha sido aprovechada por la alta dirección.
+*   No se ha desglosado el impacto específico de los nuevos contratos de defensa en las proyecciones de flujo de caja para el ejercicio 2027.
+
+### Resumen de indicadores clave
+
+| Indicador | Valor / Dato |
+| :--- | :--- |
+| **Precio Actual** | 54.0 EUR |
+| **Cambio Diario** | -6.41% |
+| **Capitalización Bursátil** | 9,435 M EUR |
+| **PER Forward** | 16.29x |
+| **Precio Objetivo Medio** | 69.10 EUR |
+| **RSI (14)** | 34.00 |
+| **Retorno 252 días** | +14.73% |
 
 **Rating**: HOLD
+(Basado en el fuerte potencial de revalorización según consenso, frente a la debilidad técnica inmediata y el aumento del endeudamiento).
 
-| Indicador | Valor |
-| :--- | :--- |
-| **Precio Actual** | 57,70 EUR |
-| **Capitalización de Mercado** | 10.081,9 M EUR |
-| **PER Forward** | 17,41x |
-| **Consenso Precio Objetivo** | 69,10 EUR |
-| **Upside Potencial** | 19,76% |
-| **Dividend Yield** | 0,52% |
-| **ROE** | 26,33% |
-| **Deuda Neta/EBITDA** | -1,44 |
-
-*Descargo de responsabilidad: Este informe tiene fines estrictamente informativos y no constituye una recomendación de inversión. Los datos proceden de las fuentes adjuntas al prompt (Yahoo Finance/MarketScreener). FINAL TRANSACTION PROPOSAL: None.*
+FINAL TRANSACTION PROPOSAL: No trade. Wait for technical stabilization above the 55.77 EUR (SMA200) support level before considering entry.

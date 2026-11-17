@@ -1,47 +1,30 @@
-**Rating**: BUY
+Este informe analiza la situación actual de **ACS, Actividades de Construcción y Servicios, S.A. (ACS.MC)**, basándose en la información financiera y de mercado disponible a fecha de 17 de noviembre de 2026.
 
-### Resumen Ejecutivo y Análisis Fundamental de `ACS.MC`
+### Análisis de Situación: ACS.MC
 
-**ACS, Actividades de Construcción y Servicios, S.A. (`ACS.MC`)** cotiza actualmente a un precio de **91.05 EUR** por acción en la bolsa de Madrid (`MCE`), bajo el sector industrial y la industria de ingeniería y construcción. 
+**Desempeño y Valoración:**
+ACS.MC cotiza a 88,90 EUR, experimentando una presión bajista a corto plazo (-2,36% en la última sesión y una caída del 15,8% en los últimos tres meses). A pesar de esto, la compañía muestra una salud fundamental robusta con un crecimiento de ingresos del 19,4% y de beneficios del 35,5%. Con un PER forward de 17,66x y un ratio precio/valor contable de 4,10x, la acción parece estar valorada de forma ambiciosa ante su nuevo plan estratégico a 2030, que contempla duplicar beneficios y dividendos.
 
-#### 1. Rendimiento Financiero y Resultados Recientes
-Los informes financieros y las recientes publicaciones corporativas reflejan un dinamismo extraordinario en la actividad de la compañía:
-* **Ingresos y Beneficios:** Durante el ejercicio cerrado a diciembre de 2025, los ingresos totales ascendieron a **49.847,68 millones de EUR**, mostrando un crecimiento interanual de los ingresos del **19.4%** y un incremento del beneficio neto de hasta **950,34 millones de EUR**. En los resultados de los primeros nueve meses de 2026 presentados en noviembre, ACS reportó un beneficio neto de 789 millones de EUR (un 35% superior sin extraordinarios), impulsado por la aceleración de sus principales divisiones y el optimismo generado por su nuevo plan estratégico.
-* **Métricas de Rentabilidad y Valoración:** La compañía presenta un PER histórico (*trailing PE*) de **19.88** y un PER adelantado (*forward PE*) de **18.09**, con un beneficio por acción (*EPS*) estimado a futuro de **5.03 EUR**. Su rentabilidad sobre el capital (*Return on Equity*) destaca fuertemente en el **25.01%**, respaldando la calidad de sus operaciones y su margen operativo.
-* **Estructura de Capital y Caja:** La deuda total de la empresa se sitúa en **14.428 millones de EUR** (frente a una caja de 11.918 millones de EUR), lo que arroja una ratio de deuda neta sobre EBITDA de aproximadamente **1.02x**, evidenciando una sólida solvencia financiera. Además, genera un flujo de caja libre (*Free Cash Flow*) superior a **1.300 millones de EUR** (con flujos operativos de caja de más de 3.220 millones de EUR).
-* **Política de Dividendos:** Ofrece una rentabilidad por dividendo (*dividend yield*) del **2.55%** (dividendo por acción de **2.32 EUR**), con una ratio de pago (*payout ratio*) del **61.02%**.
+**Catalizadores y Sentimiento:**
+El mercado ha reaccionado con optimismo moderado tras la reciente presentación de su plan estratégico. Las noticias destacan que, excluyendo extraordinarios, ACS ha incrementado su beneficio un 35% hasta septiembre (Rankia, 12-11-2026). La narrativa de los analistas vincula el potencial alcista al despliegue de tecnologías de IA y su capacidad de ejecución en proyectos internacionales. El consenso de mercado sitúa el precio objetivo medio en 128,54 EUR, lo que implica un potencial de revalorización del 44,6% desde el nivel actual, aunque debe observarse con cautela dada la alta volatilidad (32,7%) y la tendencia técnica desfavorable (cotizando por debajo de sus medias móviles de 20, 50 y 200 días).
 
-#### 2. Catalizadores de Mercado y Plan Estratégico (Noviembre 2026)
-Recientemente (mitad de noviembre de 2026), ACS ha presentado un **ambicioso plan estratégico a 2030** que ha sorprendido muy positivamente a los analistas de mercado (*El Economista*, *Estrategias de Inversión*, *OkDiario*):
-* La compañía prevé **duplicar su beneficio neto y su dividendo de aquí a 2030**, lo que ha llevado a los analistas a proyectar un potencial de revalorización significativo en bolsa (con un precio objetivo de consenso que alcanza los **128.54 EUR**, sugiriendo un potencial alcista cercano al **41.17%** respecto al precio actual, y estimaciones más optimistas que hablan de hasta un 57%).
-* El impulso tecnológico (como la infraestructura relacionada con Inteligencia Artificial y centros de datos) y la expansión en concesiones y obras de alta complejidad son los pilares fundamentales que sustentan este optimismo bursátil.
+**Contexto Macroeconómico:**
+El entorno en la Eurozona es complejo. Con una inflación situada en el 4% (El Economista, 13-11-2026), las expectativas de moderación de tipos de interés se han enfriado significativamente, lo que impacta los costes financieros de empresas intensivas en capital como ACS. A pesar de que el endeudamiento neto sobre EBITDA (1,02x) es manejable, el sector industrial en su conjunto enfrenta vientos en contra por el endurecimiento de las condiciones de financiación.
 
-#### 3. Análisis Técnico y Valoración
-* **Indicadores Técnicos:** El precio actual de la acción (91.05 EUR) se encuentra en una fase de consolidación a medio plazo tras un drawdown del **-34.19%** desde máximos anteriores, operando cerca de su media móvil de 20 sesiones (90.04 EUR) y de 50 sesiones (92.14 EUR), con un RSI neutral en **50.06**. La volatilidad anualizada se sitúa en el **32.49%**.
-* **Valoración Relativa:** Con un PER adelantado de 18.09x y un ratio respecto a sus pares (*peers*) de 1.0, ACS cotiza en línea con la mediana del sector, a
- pesar de registrar un crecimiento de ingresos del 19.4% y un crecimiento de beneficios del 35.5%.
+### Consideraciones para el Inversor
+*   **A favor:** Sólido crecimiento de ingresos, flujo de caja libre positivo (2.303 millones de EUR en 2025) y una estrategia de expansión clara hacia 2030 que es respaldada por una parte importante del consenso de analistas.
+*   **En contra:** Debilidad técnica clara (tendencia bajista de largo plazo bajo la SMA200), inflación persistente que complica el entorno de tipos y un sector (construcción e ingeniería) sensible a ciclos económicos.
 
-#### 4. Contexto Macroeconómico
-El entorno macroeconómico europeo actual se ve condicionado por presiones inflacionarias persistentes en la Eurozona (con tasas de inflación rondando el 4%), lo que mantiene en alerta a los mercados sobre la senda de los tipos de interés del Banco Central Europeo y la evolución de la inversión en renta fija (letras y bonos). Sin embargo, los valores industriales de alta capitalización con exposición global y contratos indexados a la inflación como `ACS.MC` actúan como coberturas eficientes y atraen flujos institucionales gracias a su sólida visibilidad de cartera.
+**Nota sobre datos:** La información proporcionada es retrospectiva hasta el cierre del 17-11-2026. No se dispone de datos de sentimiento de mercado en tiempo real posterior a esta fecha ni proyecciones macroeconómicas detalladas más allá de los titulares adjuntos.
 
----
+**Rating**: HOLD
+FINAL TRANSACTION PROPOSAL: N/A
 
-### Tabla Resumen de Datos Clave (`ACS.MC`)
-
-| Métrica / Concepto | Valor / Dato | Fuente / Referencia |
-| :--- | :--- | :--- |
-| **Ticker y Mercado** | `ACS.MC` (Madrid - MCE, EUR) | Datos Oficiales del Mercado |
-| **Precio de Cierre** | 91.05 EUR (al 2026-11-16) | Yahoo Finance / Datos de Cotización |
-| **Capitalización Bursátil** | ~23.680 millones de EUR | Datos Fundamentales |
-| **PER (Trailing / Forward)** | 19.88 / 18.09 | Estados Financieros / Yahoo Finance |
-| **Ingresos Totales (2025)** | 49.847,68 millones de EUR | Cuenta de Resultados (2025-12-31) |
-| **Beneficio Neto (2025)** | 950,34 millones de EUR | Cuenta de Resultados (2025-12-31) |
-| **Flujo de Caja Libre (FCF)** | 1.300,35 millones de EUR | Estado de Flujos de Caja |
-| **Deuda Neta / EBITDA** | ~1.02x | Balance y EBITDA (2025) |
-| **Rentabilidad por Dividendo** | 2.55% (Dividendo: 2.32 EUR) | Datos Fundamentales |
-| **Precio Objetivo de Consenso** | 128.54 EUR (Upside: ~41.17%) | Consenso de Analistas (17 opiniones) |
-| **Catalizador Reciente** | Presentación Plan Estratégico 2030 | Noticias de Mercado (Nov 2026) |
-
----
-
-FINAL TRANSACTION PROPOSAL: BUY `ACS.MC` based on robust fundamental growth, strong cash generation, clear strategic catalysts towards 2030, and significant upside potential toward consensus price targets.
+| Indicador / Métrica | Valor / Estado |
+| :--- | :--- |
+| **Precio (ACS.MC)** | 88,90 EUR |
+| **Consenso Upside** | +44,59% |
+| **PER Forward** | 17,66x |
+| **Tendencia Técnica** | Bajista (bajo SMA200: 108,65) |
+| **Sentimiento (News)** | Alcista a largo plazo (Plan 2030) |
+| **Riesgo Macroeconómico** | Elevado (Inflación UE 4%) |
