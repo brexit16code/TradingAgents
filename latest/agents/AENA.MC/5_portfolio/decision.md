@@ -1,9 +1,0 @@
-**Rating**: Hold
-
-**Executive Summary**: Mantener la posición actual para beneficiarse de la robustez financiera y el dividendo del 3,74%, evitando nuevas compras en el nivel actual de 28,40 EUR que cotiza sobre el precio objetivo promedio. La estrategia es esperar un retroceso hacia la media móvil de 200 días (25,73 EUR) para considerar cualquier incremento en la exposición. Se recomienda mantener un stop-loss en 23,50 EUR para proteger contra posibles rupturas estructurales en caso de persistencia inflacionaria.
-
-**Investment Thesis**: La decisión de mantener se fundamenta en el equilibrio entre la indiscutible calidad operativa de Aena (ROE del 25,79% y márgenes del 34,26%) y las señales de alerta macroeconómica y técnica. Aunque el analista agresivo destaca con acierto la elasticidad de la demanda y el flujo de caja, el mercado ya descuenta estas virtudes situando el precio un 3% por encima de la media de los analistas (27,49 EUR). La inflación en la Eurozona al 4% presenta un riesgo tangible para los márgenes futuros que no permite justificar una compra agresiva a los niveles actuales. La estrategia de esperar a niveles cercanos a la media de 200 sesiones (25,73 EUR) ofrece un mejor ratio riesgo-beneficio, evitando la volatilidad del 21,17% que afecta a la estructura técnica. La tesis cambiaría a una calificación de compra si el precio consolida por encima de la resistencia actual con una reducción en la volatilidad o si el entorno de tipos reales mejora, proporcionando mayor certidumbre sobre el consumo discrecional.
-
-**Price Target**: 27.48636
-
-**Time Horizon**: 6-12 meses

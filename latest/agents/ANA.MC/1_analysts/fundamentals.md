@@ -1,37 +1,36 @@
-Este informe presenta un análisis fundamental de **Acciona, S.A. (ANA.MC)** basado en los datos financieros y de mercado disponibles a fecha de 17 de noviembre de 2026.
+Este informe presenta un análisis fundamental de **Acciona, S.A. (ANA.MC)** basado en los datos financieros y de mercado disponibles a fecha de 18 de noviembre de 2026.
 
-### Perfil y Estado Actual
-Acciona es una empresa líder en los sectores de ingeniería, construcción y energía, cotizada en el Mercado Continuo Español (MCE). Actualmente, la acción experimenta una presión vendedora significativa, con una caída del 27.98% desde sus máximos y un comportamiento reciente negativo (descenso del 1.47% en la última sesión y una racha de caídas consecutivas reportadas por la prensa).
+### Análisis Fundamental y Situación Actual
 
-### Análisis de Fundamentales
-*   **Valoración:** La compañía presenta un PER (Price-to-Earnings) *trailing* de 30.31x, que se reduce a un *forward* PER de 18.26x, lo cual sugiere que los analistas esperan una recuperación sustancial en los beneficios futuros (EPS *forward* de 10.97€ vs. 6.61€ *trailing*).
-*   **Endeudamiento:** El nivel de endeudamiento es elevado, con una ratio de *Net Debt/EBITDA* de 6.14x, lo que sitúa a la empresa en una posición vulnerable ante entornos de tipos de interés altos, una preocupación mencionada en los titulares recientes sobre la inflación en la eurozona (4%).
-*   **Liquidez y Flujo de Caja:** A pesar de una generación de flujo de caja operativo positiva (2.148 millones EUR en 2025), la compañía mantiene un *Free Cash Flow* negativo en términos históricos recientes, aunque con una mejora notable en 2025 (379 millones EUR frente a los -492 millones EUR de 2024).
-*   **Dividendos:** Ofrece una rentabilidad por dividendo del 2.83%, con un ratio de *payout* de 1.66, lo que indica que el dividendo se está pagando actualmente por encima de los beneficios netos generados, una política financieramente exigente en el contexto actual.
+**Perfil y Desempeño Reciente:**
+Acciona, empresa líder en ingeniería, construcción y energía, atraviesa un periodo de alta volatilidad. La acción cotiza a 197,30 EUR, con una caída acumulada significativa en la última semana, tras noticias negativas sobre la frustración de planes de desinversión (venta de Acciona Energía) y la percepción de un mayor endeudamiento tras el anuncio de un préstamo de 500 millones de euros.
 
-### Contexto de Mercado y Riesgos
-La acción ha sido penalizada recientemente por eventos específicos:
-1.  **Desinversiones frustradas:** La prensa (Merca2.es, 15 de noviembre de 2026) reporta que los planes de desinversión de Acciona y Acciona Energía se han visto frustrados, impactando negativamente en la cotización.
-2.  **Financiamiento:** La noticia del préstamo de 500 millones EUR y las dificultades en acuerdos con MIP por activos en México han exacerbado la volatilidad.
-3.  **Entorno Macroeconómico:** La persistencia de una inflación del 4% en la zona euro limita el margen de maniobra de los tipos de interés, lo que afecta directamente a empresas intensivas en capital como Acciona.
+**Salud Financiera:**
+*   **Endeudamiento:** El ratio de Deuda Neta/EBITDA de 6,14x es elevado, lo cual, en un entorno de tipos de interés altos (según el contexto macroeconómico del BCE del 13-16 de noviembre de 2026), presiona la flexibilidad financiera de la compañía.
+*   **Rentabilidad y Flujo de Caja:** Aunque los ingresos han crecido ligeramente (4%), los márgenes operativos son estrechos (1,64%). El flujo de caja libre (Free Cash Flow) de -722,75 millones (trailing) refleja una fuerte intensidad de capital (CAPEX) necesaria para sus proyectos, lo cual es típico en el sector de infraestructura.
+*   **Valoración:** La compañía cotiza a un Forward PE de 17,53x, que está en línea con la mediana del sector (17,52x), sugiriendo que, desde una perspectiva de valoración relativa, el mercado ya ha ajustado el precio tras las caídas recientes.
 
-### Conclusión para el Inversor
-La discrepancia entre la valoración *forward* y la realidad técnica actual (el precio cotiza por debajo de sus medias móviles de 20, 50 y 200 días) sugiere un mercado cauteloso. Mientras que el consenso de analistas sitúa un precio objetivo medio en 218.05 EUR (un potencial alcista del 8.8%), la debilidad fundamental en la capacidad de desinversión y la elevada carga de deuda sugieren que el valor se encuentra en una zona de alta incertidumbre.
+**Eventos Clave y Noticias (Noviembre 2026):**
+*   **Desinversión fallida:** El desplome en bolsa (especialmente el 15 de noviembre) se vincula directamente a la cancelación de planes estratégicos de desinversión, lo que ha generado incertidumbre sobre la estrategia de reducción de deuda de la compañía.
+*   **Análisis técnico:** El RSI de 37,4 y la cotización por debajo de las medias móviles de 20, 50 y 200 días confirman una tendencia bajista clara. El MACD muestra un sesgo negativo (por debajo de la línea de señal).
 
-**Rating**: REVIEW
+### Perspectivas para Traders
+*   **Apoyo y Resistencia:** El consenso de analistas sitúa un precio objetivo medio en 218,05 EUR (upside potencial del 10,5%), con un rango bajo de 150 EUR. Dado que la acción está en 197,30 EUR, existe un margen de seguridad frente al mínimo esperado, pero la volatilidad a corto plazo sigue siendo alta.
+*   **Riesgos:** La principal preocupación para los inversores es la capacidad de la empresa para gestionar su deuda en un entorno de tipos de interés que no terminan de moderarse, tal como advirtió el BCE el 16 de noviembre.
+
+**Datos faltantes:** No se dispone del detalle del vencimiento de la deuda a corto plazo más allá de lo reflejado en el balance, ni detalles específicos sobre los términos de los nuevos instrumentos de deuda contratados.
 
 ### Resumen de Datos Clave
 
-| Indicador | Valor / Dato |
-| :--- | :--- |
-| **Precio Actual** | 200.40 EUR |
-| **Capitalización de Mercado** | 10.66 mil millones EUR |
-| **PER (Forward)** | 18.26x |
-| **Net Debt / EBITDA** | 6.14x |
-| **Rentabilidad por Dividendo** | 2.83% |
-| **Consenso Precio Objetivo** | 218.05 EUR |
-| **Tendencia Técnica** | Bajista (SMA200: 224.88) |
+| Métrica | Valor | Observaciones |
+| :--- | :--- | :--- |
+| **Precio Acción** | 197,30 EUR | Tendencia bajista (SMA 200 en 224,97) |
+| **Capitalización** | 10.497 M EUR | Mediana-Alta |
+| **Deuda Neta/EBITDA** | 6,14x | Nivel de apalancamiento elevado |
+| **Forward P/E** | 17,53x | En línea con peers |
+| **Dividend Yield** | 2,87% | Retorno atractivo por dividendo |
+| **Consenso Target** | 218,05 EUR | Potencial al alza del 10,5% |
 
-*Nota: La información proporcionada es para fines informativos y no constituye asesoramiento financiero. Se recomienda precaución debido a la alta volatilidad y los problemas de liquidez reportados.*
+**Rating**: REVIEW
 
-FINAL TRANSACTION PROPOSAL: No action recommended. The stock is currently experiencing structural headwinds related to divestment failures and high leverage; wait for clearer signs of deleveraging or successful asset rotation.
+FINAL TRANSACTION PROPOSAL: Mantener en observación (Wait and See). La alta volatilidad tras la fallida desinversión y el nivel de deuda sugieren esperar a una estabilización técnica antes de considerar posiciones, priorizando la gestión del riesgo ante un sector industrial presionado por los costes de financiación.

@@ -1,5 +1,0 @@
-**Recommendation**: Hold
-
-**Rationale**: La tesis alcista se apoya en una sólida eficiencia operativa, un ROE del 19,84% y una valoración forward atractiva. No obstante, el caso bajista presenta riesgos macroeconómicos coherentes, destacando la fuga de depósitos minoristas hacia letras del tesoro y el deterioro del soporte técnico tras perder la SMA de 50 sesiones. La falta de consenso en la estructura técnica, junto con la incertidumbre inflacionaria en la eurozona, sugiere un equilibrio precario donde los fundamentales fuertes se enfrentan a un entorno de mercado exhausto, justificando una postura prudente de espera.
-
-**Strategic Actions**: Mantener la exposición actual sin realizar nuevas compras. Supervisar estrechamente el nivel de soporte de 22,69 EUR (SMA20); si el precio cierra por debajo de este nivel, se recomienda reducir la posición a la mitad del tamaño estándar para limitar riesgos bajistas. Si el precio logra consolidar por encima de la SMA de 50 sesiones (23,43 EUR) con volumen, considerar aumentar la exposición hacia el objetivo de consenso de 24,49 EUR.

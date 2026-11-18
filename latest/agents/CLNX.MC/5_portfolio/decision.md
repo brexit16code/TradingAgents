@@ -1,9 +1,0 @@
-**Rating**: Hold
-
-**Executive Summary**: Se recomienda mantener la posición actual en CLNX.MC, evitando nuevas compras ante la falta de dirección técnica y la persistente presión de la deuda. Es crucial mantener la disciplina con un nivel de stop loss técnico en 23,50 EUR, a la espera de una ruptura consolidada sobre la media móvil de 200 sesiones (26,96 EUR) o una mejora tangible en las condiciones de financiación.
-
-**Investment Thesis**: La tesis de inversión se encuentra en un punto de equilibrio entre la calidad estructural de los activos de Cellnex Telecom, S.A. y una fragilidad financiera significativa. Si bien el crecimiento de los ingresos del 30,1% y la naturaleza esencial de su infraestructura justifican un potencial alcista (consenso de 34,35 EUR), el ratio de deuda neta sobre EBITDA de 7,96x y un EPS negativo de -0,48 EUR exponen a la empresa a riesgos considerables en un entorno de inflación del 4% en la zona euro. La falta de beneficios netos consistentes, sumada a una volatilidad del 28,26% y una posición técnica estancada entre la SMA50 (25,08 EUR) y la SMA200 (26,96 EUR), desaconseja una exposición agresiva en este momento. Los datos de flujo de caja operativo y libre para 2026 son insuficientes para confirmar una mejora en la generación de efectivo, lo que hace que la prudencia y la preservación del capital sean prioritarias sobre la especulación técnica. La estrategia cambiará hacia un sesgo alcista si se observa una desinflación real que alivie los costes financieros o si el precio supera los 26,96 EUR con volumen confirmado, señalando un cambio en el sentimiento del mercado hacia el apalancamiento de la compañía.
-
-**Price Target**: 34.35
-
-**Time Horizon**: 6-12 meses
