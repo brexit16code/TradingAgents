@@ -1,0 +1,9 @@
+**Rating**: Hold
+
+**Executive Summary**: Se recomienda mantener la posición actual sin realizar nuevas compras ni ventas, a la espera de una señal técnica de fortaleza. El plan consiste en monitorear la recuperación del nivel clave de la SMA200 en 55.78 EUR, mientras se vigila que el flujo de caja libre negativo no se deteriore más ante el entorno de tipos de interés restrictivos. Se establece un horizonte temporal de 3-6 meses para reevaluar la tesis según la estabilización de los indicadores técnicos y la generación de caja.
+
+**Investment Thesis**: La tesis de inversión se encuentra en un punto de equilibrio de alta incertidumbre. Por un lado, el caso alcista, respaldado por el analista agresivo, se sustenta en una valoración atractiva (Forward PE de 9.89x y un P/B de 0.85) que sugiere que la acción está infravalorada respecto a sus activos. Sin embargo, este argumento es contrarrestado por el caso bajista, que enfatiza correctamente el riesgo sistémico de un flujo de caja libre negativo (-802.8M EUR) y una estructura técnica de debilidad donde el precio permanece por debajo de sus tres medias móviles críticas (20, 50 y 200 días). La falta de momentum institucional, reflejada en el RSI (43.79) y el MACD negativo, justifica no incrementar la exposición, ya que la 'infravaloración' fundamental podría resultar ser una trampa de valor si el coste de capital y el entorno macroeconómico siguen erosionando los márgenes. Una mejora en el flujo de caja libre en los próximos trimestres junto con una superación sostenida de la SMA200 (55.78 EUR) sería el catalizador necesario para elevar la calificación a Overweight.
+
+**Price Target**: 59.1
+
+**Time Horizon**: 3-6 meses

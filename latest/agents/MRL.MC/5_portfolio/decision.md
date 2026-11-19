@@ -1,0 +1,9 @@
+**Rating**: Hold
+
+**Executive Summary**: Mantener la posición actual (Hold) para capitalizar el dividendo del 3.5% mientras se mitiga el riesgo de volatilidad excesiva. Se recomienda no ampliar la exposición hasta que exista una cuantificación formal del impacto del decreto en el flujo de caja operativo. La estrategia se basa en esperar una estabilización técnica sobre los niveles actuales antes de considerar cualquier aumento de ponderación.
+
+**Investment Thesis**: La tesis de inversión se encuentra en un punto de equilibrio forzado por la contradicción entre el valor intrínseco y el riesgo regulatorio. Por un lado, el ratio Precio/Valor Contable de 0.81 y un potencial de revalorización del 50% según el consenso sugieren una infravaloración injustificada tras el castigo del mercado. No obstante, el impacto extraordinario de 863 millones de euros por el decreto de centros de datos, sumado a una deuda total de más de 5.300 millones de euros y un P/E forward de 20.20x, justifica la cautela de los analistas conservadores y neutrales frente al optimismo del analista agresivo. La falta de claridad sobre la capacidad de la empresa para absorber este pasivo sin comprometer su sostenibilidad financiera, junto con una tendencia técnica negativa (cotizando bajo las medias móviles clave), impide una recomendación de compra. Un cambio hacia una postura de compra requeriría evidencia de que el impacto del decreto es mitigable y una ruptura sostenida de la resistencia en la media móvil de 50 días. Los datos actuales no permiten confirmar si estamos ante una oportunidad de valor o una trampa de valor a largo plazo.
+
+**Price Target**: 17.0
+
+**Time Horizon**: 6-12 meses

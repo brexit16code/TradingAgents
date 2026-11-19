@@ -1,11 +1,11 @@
 **Action**: Sell
 
-**Reasoning**: La estructura financiera de ANA.MC es altamente vulnerable con una ratio de deuda neta sobre EBITDA de 6.14x y un flujo de caja libre negativo, exacerbado por el reciente fracaso en sus planes de desinversión. Técnicamente, la acción se encuentra en una tendencia bajista confirmada al cotizar por debajo de sus medias móviles de 20, 50 y 200 sesiones, con un impulso negativo persistente y alta volatilidad que sugiere una mayor presión vendedora a corto plazo.
+**Reasoning**: La estructura técnica muestra una tendencia bajista consolidada con el precio significativamente por debajo de sus medias móviles clave, mientras que el análisis fundamental resalta riesgos críticos derivados de un elevado apalancamiento (Net Debt/EBITDA de 6.14x) y el fracaso reciente en los planes de desinversión. Aunque el RSI sugiere una sobreventa técnica, la falta de catalizadores positivos inmediatos y la presión bajista estructural justifican la reducción de la exposición para evitar mayores pérdidas en un entorno de mercado adverso.
 
-**Entry Price**: 197.3
+**Entry Price**: not provided
 
-**Stop Loss**: 215.5
+**Stop Loss**: 210.0
 
-**Position Sizing**: Reducción del 50% de la posición actual en una cartera hipotética
+**Position Sizing**: Reducción de la posición existente; evitar nuevas compras.
 
 FINAL TRANSACTION PROPOSAL: **SELL**

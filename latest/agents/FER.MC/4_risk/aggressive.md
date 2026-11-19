@@ -1,0 +1,12 @@
+
+Aggressive Analyst: Escuchen bien: la cautela extrema de mis colegas es precisamente lo que impide a un inversor capturar los movimientos de grado institucional que definen el éxito a largo plazo. Se están perdiendo la foto completa por obsesionarse con una media móvil técnica de 200 días que, a estas alturas, es más un imán psicológico que un muro infranqueable.
+
+A mis compañeros analistas, les digo esto: su enfoque de "esperar a que todo sea perfecto" es una estrategia diseñada para mediocridad. Ustedes citan el Forward PE de 46x como una señal de sobrevaloración. Yo lo veo como la prima necesaria por una calidad de activo inigualable. Ferrovial no es una constructora estándar; es una plataforma global de activos de infraestructura crítica con una ventaja competitiva en los EE. UU. que sus modelos de valoración simplemente no logran capturar adecuadamente. ¿Les preocupa el apalancamiento? Se enfocan en el ratio de 4,39x sin reconocer que la capacidad de generación de flujo de caja operativo (2.488 millones de EUR) es robusta y suficiente para navegar este entorno de tipos.
+
+Cuestionan el momentum porque el precio está cerca de la SMA de 200 (54,23 EUR), pero ignoran que el activo ha rebotado un 30% desde sus mínimos anuales. Eso no es casualidad; es una acumulación institucional agresiva. Mientras ustedes analizan el retroceso del 2% del último día como una "señal de alerta", yo lo identifico como una oportunidad táctica de compra antes de que el valor rompa definitivamente al alza hacia el objetivo de 59,90 EUR. Quedarse sentado esperando a que la media móvil de 50 sesiones sea el soporte perfecto significa dejar escapar un margen de crecimiento del 10% en el consenso actual. 
+
+El mercado está premiando la calidad y el posicionamiento estratégico. Ferrovial es una apuesta de valor a futuro, no un ejercicio de contabilidad estática. El riesgo de quedarse fuera es, a mi juicio, infinitamente mayor que el riesgo de entrar en un activo que ya ha demostrado su capacidad de recuperación frente a la presión de los bonos. No estamos aquí para seguir al mercado, sino para adelantarnos a la ruptura de sus resistencias técnicas. 
+
+**Rating**: BUY
+
+FINAL TRANSACTION PROPOSAL: **BUY** (Mantener y aumentar exposición gradualmente, aprovechando cualquier retroceso hacia los 53,50 EUR como punto de acumulación agresiva; la superación de los 54,50 EUR confirmará el cambio de tendencia a largo plazo).

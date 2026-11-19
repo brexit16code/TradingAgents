@@ -1,0 +1,12 @@
+
+Aggressive Analyst: Como el analista de riesgos agresivos, debo intervenir para señalar que el exceso de cautela de mis colegas está bloqueando una oportunidad de acumulación estratégica de alta convicción en `ROVI.MC`.
+
+Mientras otros analistas se obsesionan con una consolidación técnica y un MACD que simplemente está procesando el ruido de corto plazo, ignoran la calidad fundamental que tenemos frente a nosotros. ¿Estamos esperando una "ruptura consolidada" para entrar? Eso es lo que hace el inversor minorista que siempre se queda fuera de los grandes movimientos. La realidad es que `ROVI.MC` cuenta con una estructura de balance impecable, con una ratio de deuda neta/EBITDA de apenas 0,15x. En un entorno macroeconómico donde el BCE advierte sobre el encarecimiento de la financiación, tener una compañía con esta solvencia no es solo un factor defensivo; es una ventaja competitiva masiva que le permite invertir en su negocio CDMO mientras otros competidores se ven estrangulados por sus propias deudas.
+
+El argumento de que el PER forward de 20x es "exigente" ignora deliberadamente el valor que Jefferies ha reconocido en el segmento CDMO. Este no es un negocio de genéricos tradicional; es un motor de crecimiento que justifica con creces ese múltiplo. El mercado está castigando a `ROVI.MC` por un momentum bajista temporal, pero el soporte en la media móvil de 200 días (65,09 EUR) ha demostrado ser una zona de valor real donde los compradores institucionales están defendiendo su posición.
+
+Considerar una "espera" mientras el precio está a un paso del nivel de los 65,09 EUR es perder el tiempo. La relación riesgo-beneficio es, de hecho, óptima: tenemos un stop loss extremadamente ceñido en los 65,0 EUR para limitar cualquier "ruido" bajista, y un objetivo de consenso de 75,0 EUR que ofrece un upside del 13,46% respaldado por analistas de primer nivel. ¿Por qué esperar a que el tren ya esté en marcha y el precio supere los 67 EUR para luego comprar más caro? La oportunidad para maximizar nuestro retorno está precisamente aquí, en la base de la consolidación, aprovechando la debilidad momentánea para cargar la posición. El miedo a la volatilidad es la excusa de quienes no entienden el valor intrínseco de esta farmacéutica.
+
+**Rating**: BUY
+
+FINAL TRANSACTION PROPOSAL: **BUY at 66.10 EUR with a Stop Loss at 65.0 EUR and a 1% portfolio allocation.**

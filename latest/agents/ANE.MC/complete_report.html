@@ -1,0 +1,586 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'">
+<title>ANE.MC 2026-11-19 Hold: TradingAgents report</title>
+<style>
+:root {
+  --paper: #fbfbfa; --ink: #1c2126; --muted: #5d6670; --rule: #e2e5e8; --wash: #f2f4f5;
+  --accent: #087a59; --up: #087a59; --down: #b4372f; --level: #5d6670; --edge: #d3d8dc; --mark: #878f97;
+  --serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #131a1f; --ink: #e4e8eb; --muted: #9aa6af; --rule: #263239; --wash: #1a242a;
+    --accent: #14c290; --up: #14c290; --down: #ef6f63; --level: #9aa6af; --edge: #3d4c55; --mark: #66737c;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .masthead .logo [stroke="#363636"] { stroke: var(--muted); }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font: 17px/1.62 var(--serif); font-kerning: normal;
+}
+.page { max-width: 46rem; margin: 0 auto; padding: 3.5rem 1.5rem 6rem; }
+main h2, main h3 { scroll-margin-top: 1rem; }
+a { color: var(--accent); text-underline-offset: 0.15em; }
+h1, h2, h3, h4 { text-wrap: balance; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.masthead { padding-bottom: 1.75rem; border-bottom: 1px solid var(--rule); }
+/* The logo leads at the top left, where readers look for it, 24px tall (the usual
+   on-screen floor for a wordmark) with at least its height clear below. */
+.masthead .logo { display: block; width: fit-content; margin: 0 0 2.25rem; }
+.masthead .logo svg { display: block; height: 1.5rem; width: auto; }
+.masthead h1 {
+  margin: 0; font: 600 2.6rem/1.1 var(--sans); letter-spacing: -0.02em;
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.2em 0.5em;
+}
+.masthead .rating { font-weight: 500; }
+.rating.up { color: var(--up); } .rating.down { color: var(--down); } .rating.level { color: var(--level); }
+.rating.review { color: var(--muted); font-style: italic; }
+.masthead .date { margin: 0.55rem 0 1.5rem; font: 1rem/1.4 var(--sans); color: var(--muted); }
+.run { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: 0.45rem 1.25rem;
+  font: 0.85rem/1.5 var(--sans); }
+.run > div { display: contents; }
+.run dt { color: var(--muted); }
+.run dd { margin: 0; overflow-wrap: anywhere; }
+.run .note dd { color: var(--down); }
+.field { display: inline-block; margin: 0 0.15rem 0.15rem 0; padding: 0 0.4rem; border: 1px solid var(--edge);
+  border-radius: 4px; background: var(--wash); font: 0.8rem/1.6 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+.run .group { display: inline-block; margin-right: 0.9rem; white-space: nowrap; }
+.run .group > .name { color: var(--muted); margin-right: 0.3rem; }
+.run .then { color: var(--muted); margin: 0 0.2rem; }
+
+/* The sections: listed under the header on narrow screens. On wide ones, a
+   quiet rail centred on the left edge (numerals for the sections, short bars
+   for their agents) that opens into the full list when pointed at or focused. */
+.contents { margin: 2.25rem 0 0; font: 0.9rem/1.45 var(--sans); }
+.contents ul { margin: 0; padding: 0; list-style: none; }
+.contents > ul > li { margin: 0 0 0.75rem; }
+.contents ul ul { margin-top: 0.2rem; padding-left: 1.6rem; font-size: 0.85rem; }
+.contents ul ul li { margin: 0.1rem 0; }
+.contents a { display: flex; align-items: center; gap: 0.6rem; color: var(--muted); text-decoration: none; }
+.contents > ul > li > a { color: var(--ink); }
+.contents .num { min-width: 1.6rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.contents .bar { display: none; }
+.contents a:hover .label, .contents a:focus-visible .label { color: var(--accent); text-decoration: underline; }
+.to-top { position: fixed; right: 1rem; bottom: calc(1rem + env(safe-area-inset-bottom));
+  padding: 0.25rem 0.6rem; border: 1px solid var(--edge); border-radius: 4px; background: var(--paper);
+  color: var(--muted); font: 0.8rem/1.4 var(--sans); text-decoration: none; }
+
+@media (min-width: 60rem) {
+  .contents { position: fixed; left: 1rem; top: 50%; transform: translateY(-50%); z-index: 1;
+    max-height: 86vh; overflow-y: auto; overscroll-behavior: contain; margin: 0;
+    padding: 0.7rem 0.9rem; border: 1px solid transparent; border-radius: 6px;
+    transition: background-color 0.15s, border-color 0.15s, box-shadow 0.15s; }
+  .contents > ul > li { margin: 0 0 0.35rem; }
+  .contents ul ul { margin-top: 0; padding-left: 0; }
+  .contents ul ul li { margin: 0; }
+  /* Marks reach 3:1 contrast and rows 24px, the WCAG 2.2 floors for a control's
+     visual cue and its pointer target. */
+  .contents a { min-height: 1.5rem; }
+  .contents .num { min-width: 1.4rem; }
+  .contents .bar { display: block; flex: none; width: 1.25rem; height: 2px; margin-left: 0.2rem;
+    border-radius: 1px; background: var(--mark); }
+  .contents .label { max-width: 0; opacity: 0; overflow: hidden; white-space: nowrap;
+    transition: opacity 0.15s, max-width 0.2s; }
+  .contents:hover, .contents:focus-within { background: var(--paper); border-color: var(--rule);
+    box-shadow: 0 6px 24px rgb(0 0 0 / 0.08); }
+  .contents:hover .label, .contents:focus-within .label { max-width: 18rem; opacity: 1; }
+  .contents a:hover .bar, .contents a:focus-visible .bar { background: var(--accent); }
+  .to-top { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .contents, .contents .label { transition: none; }
+}
+
+/* The maker's credit: one quiet line at the foot. */
+.credit { margin-top: 4.5rem; padding-top: 1.25rem; border-top: 1px solid var(--rule);
+  color: var(--muted); font: 0.8rem/1.4 var(--sans); }
+.credit a { color: inherit; text-decoration: none; }
+.credit a.brand { color: var(--accent); }
+.credit a:hover, .credit a:focus-visible { text-decoration: underline; }
+
+/* Three levels of separation: the five groups, the agents within a group, and
+   breaks an agent draws inside its own text. */
+main h2 {
+  margin: 4.5rem 0 0.25rem; padding-top: 1.5rem; border-top: 2px solid var(--ink);
+  font: 600 1.45rem/1.3 var(--sans); letter-spacing: -0.01em;
+}
+main section:first-child h2 { margin-top: 3rem; }
+main h3 { margin: 2.75rem 0 0.75rem; padding-top: 1.1rem; border-top: 1px solid var(--rule);
+  font: 600 1.15rem/1.35 var(--sans); color: var(--accent); }
+main h2 + h3 { margin-top: 1.25rem; padding-top: 0; border-top: 0; }
+main h4, main h5, main h6 { margin: 1.75rem 0 0.5rem; font: 600 1rem/1.4 var(--sans); }
+main h5, main h6 { color: var(--muted); }
+main p, main ul, main ol { margin: 0 0 1rem; }
+main li { margin: 0.25rem 0; }
+main strong { font-weight: 650; }
+main blockquote { margin: 1.25rem 0; padding: 0.1rem 0 0.1rem 1rem; border-left: 3px solid var(--rule);
+  color: var(--muted); }
+main code { font: 0.88em/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  background: var(--wash); padding: 0.1em 0.3em; border-radius: 3px; }
+main pre { background: var(--wash); padding: 0.9rem 1rem; border-radius: 4px; overflow-x: auto; }
+main pre code { background: none; padding: 0; }
+main hr { width: 3rem; margin: 2rem auto; border: 0; border-top: 1px solid var(--rule); }
+
+.table { overflow-x: auto; margin: 0 0 1.25rem; }
+table { border-collapse: collapse; width: 100%; font: 0.86rem/1.45 var(--sans);
+  font-variant-numeric: tabular-nums; }
+th, td { padding: 0.45rem 0.7rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--rule); }
+th { font-weight: 600; border-bottom-color: var(--muted); }
+tbody tr:last-child td { border-bottom: 0; }
+
+@media (max-width: 34rem) {
+  body { font-size: 16px; }
+  .page { padding: 2rem 1rem 3rem; }
+  .masthead h1 { font-size: 2rem; }
+  .masthead .logo svg { height: 1.25rem; }
+  .run { grid-template-columns: 1fr; gap: 0 0; }
+  .run dd { margin-bottom: 0.45rem; }
+  .run .group { white-space: normal; }
+}
+@media print {
+  :root { --paper: #fff; --ink: #000; --muted: #444; --rule: #bbb; --accent: #000; --wash: #f2f2f2;
+    --edge: #bbb; --up: #087a59; --down: #b4372f; --level: #444; }
+  body { font-size: 11pt; }
+  .table { overflow: visible; }
+  .page { max-width: none; padding: 0; }
+  .contents, .to-top { display: none; }
+  main h2 { break-before: page; border-top: 0; margin-top: 0; }
+  main section:first-child h2 { break-before: auto; }
+  main h3, main h4 { break-after: avoid; }
+  a { color: inherit; text-decoration: none; }
+  table { break-inside: avoid; }
+}
+</style>
+</head>
+<body>
+<div class="page" id="top">
+<header class="masthead">
+<a class="logo" href="https://tauric.ai" rel="noopener" aria-label="Tauric Research"><svg width="993" height="115" viewBox="0 0 993 115" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M189.86 95.0459V37.9779H165.924V29.9259H223.74V37.9779H199.804V95.0459H189.86ZM251.026 46.4259C256.071 46.4259 260.178 47.0272 263.345 48.2299C266.514 49.4032 268.89 51.3686 270.474 54.1259C272.058 56.8832 272.85 60.6379 272.85 65.3899V95.0459H264.666L263.961 89.8979H263.434C261.644 91.7752 259.386 93.2419 256.657 94.2979C253.929 95.3246 251.025 95.8379 247.946 95.8379C244.426 95.8379 241.419 95.2952 238.925 94.2099C236.432 93.0952 234.54 91.5406 233.249 89.5459C231.959 87.5512 231.313 85.2046 231.313 82.5059C231.313 78.2526 232.897 74.9672 236.065 72.6499C239.263 70.3032 244.337 68.8219 251.29 68.2059L263.258 67.0179V64.7299C263.258 61.9139 262.774 59.7139 261.806 58.1299C260.838 56.5459 259.371 55.4312 257.406 54.7859C255.47 54.1406 252.888 53.8179 249.662 53.8179C247.432 53.8179 245.012 54.0086 242.401 54.3899C239.82 54.7712 237.341 55.3432 234.965 56.1059V48.8019C237.312 48.0392 239.908 47.4526 242.754 47.0419C245.628 46.6312 248.386 46.4259 251.026 46.4259ZM250.541 89.0619C252.888 89.0619 255.162 88.6512 257.362 87.8299C259.562 86.9792 261.527 85.7179 263.258 84.0459V72.8259L252.038 73.9259C248.136 74.3659 245.35 75.2166 243.678 76.4779C242.005 77.7099 241.169 79.4699 241.169 81.7579C241.169 84.0752 241.947 85.8792 243.501 87.1699C245.056 88.4312 247.403 89.0619 250.541 89.0619ZM313.339 95.8379C307.59 95.8379 303.087 94.2979 299.831 91.2179C296.575 88.1086 294.947 83.2686 294.947 76.6979V47.1739H304.715V76.1699C304.715 80.1886 305.624 83.0779 307.443 84.8379C309.291 86.5979 311.916 87.4779 315.319 87.4779C317.871 87.4779 320.379 86.9939 322.843 86.0259C325.336 85.0286 327.492 83.5766 329.311 81.6699V47.1739H339.079V95.0459H330.983L330.367 89.9419H329.883C327.624 91.8486 325.072 93.3152 322.227 94.3419C319.382 95.3392 316.419 95.8379 313.339 95.8379ZM362.371 47.1739H370.423L371.171 53.2899H371.743C373.474 51.2072 375.703 49.5792 378.431 48.4059C381.188 47.2326 384.063 46.6459 387.055 46.6459C388.756 46.6459 390.355 46.7926 391.851 47.0859V55.8419C390.414 55.5779 388.654 55.4459 386.571 55.4459C383.99 55.4459 381.364 55.9446 378.695 56.9419C376.026 57.9392 373.84 59.4206 372.139 61.3859V95.0459H362.371V47.1739ZM409.069 95.0459V47.1739H418.837V95.0459H409.069ZM413.953 37.8459C411.871 37.8459 410.287 37.3912 409.201 36.4819C408.145 35.5726 407.617 34.2672 407.617 32.5659C407.617 30.8352 408.145 29.5152 409.201 28.6059C410.287 27.6672 411.871 27.1979 413.953 27.1979C416.036 27.1979 417.605 27.6672 418.661 28.6059C419.747 29.5152 420.289 30.8352 420.289 32.5659C420.289 34.2672 419.747 35.5726 418.661 36.4819C417.605 37.3912 416.036 37.8459 413.953 37.8459ZM464.85 95.9259C456.607 95.9259 450.315 93.8432 445.974 89.6779C441.662 85.5126 439.506 79.3526 439.506 71.1979C439.506 63.0139 441.779 56.8392 446.326 52.6739C450.902 48.5086 457.575 46.4259 466.346 46.4259C470.716 46.4259 474.735 46.9246 478.402 47.9219V55.7099C476.378 55.2406 474.486 54.8886 472.726 54.6539C470.966 54.4192 469.118 54.3019 467.182 54.3019C461.168 54.3019 456.71 55.6512 453.806 58.3499C450.931 61.0486 449.494 65.2872 449.494 71.0659C449.494 76.8739 450.858 81.1566 453.586 83.9139C456.343 86.6712 460.42 88.0499 465.818 88.0499C467.695 88.0499 469.616 87.8886 471.582 87.5659C473.547 87.2139 475.82 86.6712 478.402 85.9379V93.7259C474.236 95.1926 469.719 95.9259 464.85 95.9259ZM574.428 95.0459L553.704 69.0859C553.176 69.1152 552.37 69.1299 551.284 69.1299C548.38 69.1299 544.978 68.9832 541.076 68.6899V95.0459H531.308V31.4659C537.967 29.9699 544.846 29.2219 551.944 29.2219C561.595 29.2219 568.752 30.8059 573.416 33.9739C578.08 37.1126 580.412 42.1286 580.412 49.0219C580.412 54.0086 579.004 58.0859 576.188 61.2539C573.402 64.4219 569.266 66.6366 563.78 67.8979L585.648 95.0459H574.428ZM541.076 61.2099C543.071 61.4152 544.816 61.5619 546.312 61.6499C547.838 61.7379 549.627 61.7819 551.68 61.7819C558.427 61.7819 563.34 60.7699 566.42 58.7459C569.5 56.6926 571.04 53.4952 571.04 49.1539C571.04 46.0739 570.395 43.6099 569.104 41.7619C567.843 39.9139 565.863 38.5792 563.164 37.7579C560.495 36.9366 556.975 36.5259 552.604 36.5259C550.404 36.5259 548.424 36.6139 546.664 36.7899C544.904 36.9659 543.042 37.2299 541.076 37.5819V61.2099ZM642.947 74.0139H608.231C608.407 77.4752 609.155 80.2766 610.475 82.4179C611.795 84.5299 613.775 86.0846 616.415 87.0819C619.055 88.0792 622.443 88.5779 626.579 88.5779C630.686 88.5779 635.233 87.9472 640.219 86.6859V93.9459C635.027 95.2659 630.026 95.9259 625.215 95.9259C616.298 95.9259 609.61 93.9166 605.151 89.8979C600.722 85.8499 598.507 79.6166 598.507 71.1979C598.507 65.9179 599.402 61.4299 601.191 57.7339C602.981 54.0379 605.562 51.2366 608.935 49.3299C612.338 47.3939 616.43 46.4259 621.211 46.4259C628.251 46.4259 633.634 48.5819 637.359 52.8939C641.085 57.1766 642.947 63.3659 642.947 71.4619V74.0139ZM621.079 52.8939C616.973 52.8939 613.834 54.1406 611.663 56.6339C609.493 59.0979 608.334 62.9259 608.187 68.1179H633.751C633.634 62.9259 632.519 59.0979 630.407 56.6339C628.295 54.1406 625.186 52.8939 621.079 52.8939ZM677.365 95.9259C671.352 95.9259 665.896 95.2219 660.997 93.8139V86.7299C666.248 88.1966 671.718 88.9299 677.409 88.9299C681.809 88.9299 684.977 88.3432 686.913 87.1699C688.849 85.9672 689.817 84.2219 689.817 81.9339C689.817 80.7019 689.597 79.6899 689.157 78.8979C688.717 78.0766 687.969 77.4019 686.913 76.8739C685.857 76.3166 684.405 75.8912 682.557 75.5979L674.065 74.2779C669.137 73.4859 665.573 71.9899 663.373 69.7899C661.202 67.5899 660.117 64.6419 660.117 60.9459C660.117 56.4579 661.965 52.9232 665.661 50.3419C669.386 47.7312 675.062 46.4259 682.689 46.4259C685.094 46.4259 687.485 46.5872 689.861 46.9099C692.266 47.2032 694.481 47.6432 696.505 48.2299V55.2699C692.046 54.0379 687.456 53.4219 682.733 53.4219C677.893 53.4219 674.476 54.0526 672.481 55.3139C670.486 56.5752 669.489 58.3206 669.489 60.5499C669.489 62.2219 670.002 63.5859 671.029 64.6419C672.056 65.6686 673.889 66.4166 676.529 66.8859L685.021 68.2059C689.92 68.9686 693.513 70.3766 695.801 72.4299C698.089 74.4832 699.233 77.4606 699.233 81.3619C699.233 84.3832 698.412 86.9792 696.769 89.1499C695.156 91.3206 692.706 92.9926 689.421 94.1659C686.165 95.3392 682.146 95.9259 677.365 95.9259ZM760.579 74.0139H725.863C726.039 77.4752 726.787 80.2766 728.107 82.4179C729.427 84.5299 731.407 86.0846 734.047 87.0819C736.687 88.0792 740.075 88.5779 744.211 88.5779C748.317 88.5779 752.864 87.9472 757.851 86.6859V93.9459C752.659 95.2659 747.657 95.9259 742.847 95.9259C733.929 95.9259 727.241 93.9166 722.783 89.8979C718.353 85.8499 716.139 79.6166 716.139 71.1979C716.139 65.9179 717.033 61.4299 718.823 57.7339C720.612 54.0379 723.193 51.2366 726.567 49.3299C729.969 47.3939 734.061 46.4259 738.843 46.4259C745.883 46.4259 751.265 48.5819 754.991 52.8939C758.716 57.1766 760.579 63.3659 760.579 71.4619V74.0139ZM738.711 52.8939C734.604 52.8939 731.465 54.1406 729.295 56.6339C727.124 59.0979 725.965 62.9259 725.819 68.1179H751.383C751.265 62.9259 750.151 59.0979 748.039 56.6339C745.927 54.1406 742.817 52.8939 738.711 52.8939ZM796.986 46.4259C802.032 46.4259 806.138 47.0272 809.306 48.2299C812.474 49.4032 814.85 51.3686 816.434 54.1259C818.018 56.8832 818.81 60.6379 818.81 65.3899V95.0459H810.626L809.922 89.8979H809.394C807.605 91.7752 805.346 93.2419 802.618 94.2979C799.89 95.3246 796.986 95.8379 793.906 95.8379C790.386 95.8379 787.38 95.2952 784.886 94.2099C782.393 93.0952 780.501 91.5406 779.21 89.5459C777.92 87.5512 777.274 85.2046 777.274 82.5059C777.274 78.2526 778.858 74.9672 782.026 72.6499C785.224 70.3032 790.298 68.8219 797.25 68.2059L809.218 67.0179V64.7299C809.218 61.9139 808.734 59.7139 807.766 58.1299C806.798 56.5459 805.332 55.4312 803.366 54.7859C801.43 54.1406 798.849 53.8179 795.622 53.8179C793.393 53.8179 790.973 54.0086 788.362 54.3899C785.781 54.7712 783.302 55.3432 780.926 56.1059V48.8019C783.273 48.0392 785.869 47.4526 788.714 47.0419C791.589 46.6312 794.346 46.4259 796.986 46.4259ZM796.502 89.0619C798.849 89.0619 801.122 88.6512 803.322 87.8299C805.522 86.9792 807.488 85.7179 809.218 84.0459V72.8259L797.998 73.9259C794.097 74.3659 791.31 75.2166 789.638 76.4779C787.966 77.7099 787.13 79.4699 787.13 81.7579C787.13 84.0752 787.908 85.8792 789.462 87.1699C791.017 88.4312 793.364 89.0619 796.502 89.0619ZM841.524 47.1739H849.576L850.324 53.2899H850.896C852.627 51.2072 854.856 49.5792 857.584 48.4059C860.341 47.2326 863.216 46.6459 866.208 46.6459C867.909 46.6459 869.508 46.7926 871.004 47.0859V55.8419C869.567 55.5779 867.807 55.4459 865.724 55.4459C863.143 55.4459 860.517 55.9446 857.848 56.9419C855.179 57.9392 852.993 59.4206 851.292 61.3859V95.0459H841.524V47.1739ZM909.164 95.9259C900.921 95.9259 894.629 93.8432 890.288 89.6779C885.976 85.5126 883.82 79.3526 883.82 71.1979C883.82 63.0139 886.093 56.8392 890.64 52.6739C895.216 48.5086 901.889 46.4259 910.66 46.4259C915.03 46.4259 919.049 46.9246 922.716 47.9219V55.7099C920.692 55.2406 918.8 54.8886 917.04 54.6539C915.28 54.4192 913.432 54.3019 911.496 54.3019C905.482 54.3019 901.024 55.6512 898.12 58.3499C895.245 61.0486 893.808 65.2872 893.808 71.0659C893.808 76.8739 895.172 81.1566 897.9 83.9139C900.657 86.6712 904.734 88.0499 910.132 88.0499C912.009 88.0499 913.93 87.8886 915.896 87.5659C917.861 87.2139 920.134 86.6712 922.716 85.9379V93.7259C918.55 95.1926 914.033 95.9259 909.164 95.9259ZM941.796 23.9419H951.564V52.2779H952.048C954.248 50.3712 956.756 48.9192 959.572 47.9219C962.417 46.9246 965.395 46.4259 968.504 46.4259C974.019 46.4259 978.375 47.9952 981.572 51.1339C984.769 54.2432 986.368 59.0686 986.368 65.6099V95.0459H976.6V66.0939C976.6 62.0459 975.661 59.1566 973.784 57.4259C971.936 55.6952 969.237 54.8299 965.688 54.8299C963.048 54.8299 960.481 55.3286 957.988 56.3259C955.524 57.2939 953.383 58.7312 951.564 60.6379V95.0459H941.796V23.9419Z" fill="#14C290"/>
+<rect x="0.205322" y="14.873" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="14.679" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="14.679" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="86.6055" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="86.6055" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="101.284" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="58.7158" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="58.7158" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="87.1592" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="87.1592" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="73.0205" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="73.0205" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="87.3262" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="87.3262" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="101.631" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="101.631" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="101.284" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="15.0187" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.2668" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.2668" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.445" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.7506" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="100.716" y="14.873" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+</svg></a>
+<h1><span class="ticker">ANE.MC</span> <span class="rating level">Hold</span></h1>
+<p class="date">Analysis of 2026-11-19</p>
+<dl class="run"><div class="detail"><dt>Generated</dt><dd>2026-11-19 20:50</dd></div><div class="detail"><dt>Deep model</dt><dd><span class="field">google</span> <span class="field">gemini-3.5-flash-lite</span></dd></div><div class="detail"><dt>Quick model</dt><dd><span class="field">google</span> <span class="field">gemini-3.5-flash-lite</span></dd></div><div class="detail"><dt>Analysts</dt><dd><span class="field">market</span> <span class="field">news</span> <span class="field">fundamentals</span></dd></div><div class="detail"><dt>Debate rounds</dt><dd><span class="group"><span class="name">research</span><span class="field">1</span></span> <span class="group"><span class="name">risk</span><span class="field">1</span></span></dd></div><div class="detail"><dt>Data vendors</dt><dd><span class="group"><span class="name">Prices</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Indicators</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Fundamentals</span><span class="field">yfinance</span></span> <span class="group"><span class="name">News</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Macro</span><span class="field">fred</span></span> <span class="group"><span class="name">Prediction markets</span><span class="field">polymarket</span></span> <span class="group"><span class="name">get_news</span><span class="field">ibex_sample</span></span> <span class="group"><span class="name">get_global_news</span><span class="field">ibex_sample</span></span></dd></div><div class="detail"><dt>Version</dt><dd>TradingAgents 0.7.1</dd></div></dl>
+</header>
+<nav class="contents" aria-label="Sections"><ul><li><a href="#s1"><span class="num">I</span> <span class="label">Analyst Team Reports</span></a><ul><li><a href="#s1-1"><span class="bar"></span> <span class="label">Market Analyst</span></a></li><li><a href="#s1-2"><span class="bar"></span> <span class="label">News Analyst</span></a></li><li><a href="#s1-3"><span class="bar"></span> <span class="label">Fundamentals Analyst</span></a></li></ul></li><li><a href="#s2"><span class="num">II</span> <span class="label">Research Team Decision</span></a><ul><li><a href="#s2-1"><span class="bar"></span> <span class="label">Bull Researcher</span></a></li><li><a href="#s2-2"><span class="bar"></span> <span class="label">Bear Researcher</span></a></li><li><a href="#s2-3"><span class="bar"></span> <span class="label">Research Manager</span></a></li></ul></li><li><a href="#s3"><span class="num">III</span> <span class="label">Trading Team Plan</span></a><ul><li><a href="#s3-1"><span class="bar"></span> <span class="label">Trader</span></a></li></ul></li><li><a href="#s4"><span class="num">IV</span> <span class="label">Risk Management Team Decision</span></a><ul><li><a href="#s4-1"><span class="bar"></span> <span class="label">Aggressive Analyst</span></a></li><li><a href="#s4-2"><span class="bar"></span> <span class="label">Conservative Analyst</span></a></li><li><a href="#s4-3"><span class="bar"></span> <span class="label">Neutral Analyst</span></a></li></ul></li><li><a href="#s5"><span class="num">V</span> <span class="label">Portfolio Manager Decision</span></a><ul><li><a href="#s5-1"><span class="bar"></span> <span class="label">Portfolio Manager</span></a></li></ul></li></ul></nav>
+<main>
+<section id="s1"><h2>I. Analyst Team Reports</h2><h3 id="s1-1">Market Analyst</h3>
+<p><strong>Rating</strong>: REVIEW</p>
+<p><strong>FINAL TRANSACTION PROPOSAL</strong>: HOLD</p>
+<hr />
+<h6>Análisis Técnico y Fundamental de Corporación Acciona Energías Renovables, S.A. (<code>ANE.MC</code>)</h6>
+<h6>1. Contexto de Mercado y Situación Actual</h6>
+<p>A fecha de 19 de noviembre de 2026, la cotización de <code>ANE.MC</code> (Corporación Acciona Energías Renovables, S.A., operando en el sector de <em>Utilities - Renewable</em> en la bolsa de Madrid, índice de referencia <code>^IBEX</code>) se sitúa en <strong>19,37 EUR</strong>, registrando un descenso diario del <strong>-3,25%</strong>.</p>
+<p>El valor se encuentra sometido a una presión bajista significativa en el corto plazo, reflejada en una rentabilidad a 21 sesiones de <strong>-10,82%</strong> y una caída desde sus máximos recientes que sitúa el <em>drawdown</em> en el <strong>-20,51%</strong>. Esta reciente contracción bursátil se ve acentuada por noticias recientes del mercado relacionadas con la frustración de planes de desinversión de la compañía (según coberturas de prensa del 13 y 15 de noviembre de 2026 de <em>Merca2.es</em> e <em>Investing.com España</em>).</p>
+<h6>2. Indicadores Técnicos Clave</h6>
+<ul>
+<li><strong>Precio de Cierre</strong>: 19,37 EUR (<code>price_date</code>: 2026-11-19).</li>
+<li><strong>RSI (14)</strong>: 32,95, situándose cerca de la zona de sobreventa (30), lo que denota un impulso bajista acentuado pero con la posibilidad de rebotes técnicos de corto plazo.</li>
+<li><strong>MACD</strong>: -0,40 y línea de señal (<code>macd_signal</code>) en -0,16, ambos en terreno negativo y confirmando la debilidad de la tendencia bajista actual.</li>
+<li><strong>Medias Móviles</strong>: El precio cotiza por debajo de sus principales referencias temporales:
+<ul>
+<li>SMA 20: 21,27 EUR</li>
+<li>SMA 50: 21,54 EUR</li>
+<li>SMA 200: 21,82 EUR</li>
+<li>Esto confirma una estructura de tendencia bajista clara a medio y largo plazo.</li>
+</ul>
+</li>
+<li><strong>Volatilidad (30 sesiones anualizada)</strong>: 35,52%, indicando un perfil de riesgo elevado en el valor.</li>
+</ul>
+<h6>3. Fundamentos y Valoración</h6>
+<ul>
+<li><strong>Capitalización de Mercado</strong>: 6.286,52 millones de EUR.</li>
+<li><strong>PER (Trailing)</strong>: 33,98x y <strong>PER Forward</strong>: 28,77x, métricas que se mantienen elevadas frente a la mediana de los pares del sector en España (que se sitúa en torno a 16,58x, según el ratio de PER relativo superior de 1,74x).</li>
+<li><strong>Deuda y Solvencia</strong>: La compañía registra una deuda total de 5.411 millones de EUR (frente a un EBITDA de 971 millones de EUR según los datos de la instantánea), lo que arroja una ratio de <strong>deuda neta sobre EBITDA de 5,06x</strong>, un nivel elevado que requiere monitorización constante en entornos de tipos de interés restrictivos.</li>
+<li><strong>Consenso de Analistas</strong>: El precio objetivo medio de los analistas se sitúa en <strong>23,33 EUR</strong> (con un rango entre 17,00 EUR y 28,30 EUR basado en 19 opiniones), lo que representa un potencial de revalorización (<em>consensus upside</em>) del <strong>20,42%</strong> respecto al precio actual.</li>
+</ul>
+<h6>4. Evidencia y Fuentes de Datos</h6>
+<ul>
+<li><strong>Fechas de referencia</strong>: Datos extraídos de la instantánea de mercado de <code>ANE.MC</code> con fecha de recuperación 19 de noviembre de 2026.</li>
+<li><strong>Fuentes de noticias</strong>: Coberturas de <em>Merca2.es</em> (15/11/2026) e <em>Investing.com España</em> (13/11/2026) sobre la frustración de desinversiones y desplome bursátil.</li>
+<li><strong>Datos faltantes</strong>: Falta la desagregación pormenorizada de los flujos de caja operativos específicos del trimestre en curso y las guías detalladas para el cierre de ejercicio posterior, por lo que se adopta una postura de cautela extrema.</li>
+</ul>
+<hr />
+<h6>Resumen de Claves Operativas</h6>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Indicador / Métrica</th>
+<th style="text-align:left">Valor Actual / Referencia</th>
+<th style="text-align:left">Implicación para el Inversor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Precio de Cierre (<code>ANE.MC</code>)</strong></td>
+<td style="text-align:left">19,37 EUR (-3,25%)</td>
+<td style="text-align:left">Presión bajista de corto plazo; cerca de soportes de corrección (-20,51% de <em>drawdown</em>).</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>RSI (14)</strong></td>
+<td style="text-align:left">32,95</td>
+<td style="text-align:left">Cercano a niveles de sobreventa; vigilar posibles rebotes técnicos de alivio.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>MACD &amp; Señal</strong></td>
+<td style="text-align:left">MACD: -0,40 / Señal: -0,16</td>
+<td style="text-align:left">Impulso bajista predominante confirmado en el medio plazo.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Medias Móviles (SMA 20/50/200)</strong></td>
+<td style="text-align:left">21,27 / 21,54 / 21,82 EUR</td>
+<td style="text-align:left">El precio cotiza por debajo de todas las medias clave; tendencia general bajista.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>PER / Valoración Relativa</strong></td>
+<td style="text-align:left">Forward PER: 28,77x</td>
+<td style="text-align:left">Valoración exigente frente a la mediana sectorial (16,58x).</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Apalancamiento (Net Debt / EBITDA)</strong></td>
+<td style="text-align:left">~5,06x</td>
+<td style="text-align:left">Nivel de endeudamiento elevado que incrementa la sensibilidad al coste de financiación.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Consenso de Analistas</strong></td>
+<td style="text-align:left">23,33 EUR (Upside: +20,42%)</td>
+<td style="text-align:left">Potencial alcista teórico según analistas, aunque limitado por la incertidumbre actual.</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="s1-2">News Analyst</h3>
+<p><strong>Rating</strong>: REVIEW</p>
+<h6>Informe de Análisis y Estado Actual de Corporación Acciona Energías Renovables, S.A. (<code>ANE.MC</code>)</h6>
+<h6>1. Resumen Ejecutivo y Situación de Mercado</h6>
+<p>Corporación Acciona Energías Renovables, S.A. (<code>ANE.MC</code>) cotiza a fecha de 19 de noviembre de 2026 en los <strong>19.37 EUR</strong>, registrando una corrección reciente notable del <strong>-3.25%</strong> en la sesión y un descenso del <strong>-10.82%</strong> en los últimos 21 días. El valor se encuentra bajo presión técnica con un RSI(14) en <strong>32.95</strong> (aproximándose a niveles de sobreventa) y operando claramente por debajo de sus medias móviles clave (SMA20: 21.27 EUR, SMA50: 21.54 EUR y SMA200: 21.82 EUR). El descenso acumulado sitúa la cotización en una contracción de <strong>-20.51%</strong> desde sus máximos recientes (drawdown).</p>
+<h6>2. Catalizadores y Noticias Recientes (Noviembre 2026)</h6>
+<p>Las noticias recientes capturadas a mediados de noviembre de 2026 explican parte de la volatilidad y el castigo bursátil:</p>
+<ul>
+<li><strong>Frustración de planes de desinversión:</strong> Según publicaciones de <em>Merca2.es</em> (15 de noviembre de 2026) y <em>Investing.com España</em> (13 de noviembre de 2026), Acciona y Acciona Energía sufrieron fuertes desplomes (con caídas superiores al 7% en sesiones recientes) motivados por la frustración de sus planes de desinversión esperados, lo que ha generado incertidumbre sobre su estrategia de rotación de activos y reducción de apalancamiento.</li>
+<li><strong>Contexto macroeconómico y energético en la Eurozona:</strong> El Banco Central Europeo (BCE) advierte que el encarecimiento persistente de la financiación y los tipos reales restrictivos continúan presionando los costes de capital y frenando el ritmo de crecimiento económico en la eurozona (según boletines semanales de mid-noviembre de 2026). Esto impacta de manera directa en los sectores intensivos en capital como las <em>utilities</em> renovables.</li>
+</ul>
+<h6>3. Fundamentales y Valoración</h6>
+<ul>
+<li><strong>Capitalización de Mercado:</strong> ~6.290 millones de EUR.</li>
+<li><strong>Métricas de Valoración:</strong> Trailing P/E de <strong>33.98x</strong> y Forward P/E de <strong>28.77x</strong>, con un ratio Precio/Valor en Libros (Price-to-Book) de <strong>1.01x</strong>. El EV/EBITDA se sitúa en <strong>12.12x</strong>.</li>
+<li><strong>Deuda y Solvencia:</strong> La compañía presenta una deuda total de aproximadamente <strong>5.410 millones de EUR</strong> y un ratio de Deuda Neta / EBITDA elevado de <strong>5.06x</strong>, lo cual explica la sensibilidad del mercado ante cualquier obstáculo en sus planes de desinversión para sanear el balance.</li>
+<li><strong>Flujo de Caja y Dividendos:</strong> El flujo de caja libre (<em>Free Cash Flow</em>) se mantiene en terreno negativo (-408.7 millones de EUR en los datos de referencia más recientes), reflejando un intenso programa de inversiones (CapEx). Ofrece un rendimiento por dividendo (<em>dividend yield</em>) nominal elevado de cerca del <strong>15.49%</strong> (dividendo por acción de 0.03 EUR sobre precio actual, sujeto a políticas de retribución corporativa).</li>
+<li><strong>Consenso de Analistas:</strong> El precio objetivo medio de consenso se sitúa en <strong>23.33 EUR</strong> (con un rango entre 17.00 EUR y 28.30 EUR, cubierto por 19 analistas), lo que implica un potencial alcista (<em>consensus upside</em>) del <strong>20.42%</strong> desde los 19.37 EUR actuales.</li>
+</ul>
+<h6>4. Evidencia de Apoyo y Contradictoria</h6>
+<ul>
+<li><strong>Apoyo:</strong> El consenso de analistas mantiene una valoración media superior a la cotización actual (23.33 EUR vs 19.37 EUR), sugiriendo que el castigo bursátil por la frustración de desinversiones podría ser de naturaleza transitoria o excesiva. Las valoraciones por múltiplo de libro se sitúan alineadas con el valor contable (P/B 1.01x).</li>
+<li><strong>Contradictoria:</strong> Los indicadores técnicos son claramente bajistas (RSI débil, cotización bajo todas las medias móviles principales). Fundamentalmente, el alto apalancamiento (Net Debt/EBITDA &gt; 5x) en un entorno de tipos de interés altos de la eurozona y el FCF negativo complican la ejecución estratégica sin operaciones de rotación de activos exitosas.</li>
+</ul>
+<h6>5. Datos Faltantes y Advertencias</h6>
+<ul>
+<li>Faltan detalles minuciosos sobre los términos contractuales exactos de las desinversiones caídas y la actualización operativa del trimestre en curso más allá de los titulares de prensa recopilados.</li>
+<li>Se emite una recomendación de <strong>REVIEW</strong> debido a la alta volatilidad técnica actual (RSI en 32.9), la incertidumbre regulatoria/de financiación en Europa y el fracaso temporal de los planes de desinversión, lo que aconseja esperar a una estabilización del soporte técnico antes de comprometer capital.</li>
+</ul>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Elemento Clave</th>
+<th style="text-align:left">Dato / Métrica Actual</th>
+<th style="text-align:left">Implicación para el Inversor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Precio de Cierre (<code>ANE.MC</code>)</strong></td>
+<td style="text-align:left">19.37 EUR (19-Nov-2026)</td>
+<td style="text-align:left">Corrección del -3.25% en la sesión; tendencia bajista a corto plazo.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>RSI (14)</strong></td>
+<td style="text-align:left">32.95</td>
+<td style="text-align:left">Próximo a zona de sobreventa, sin confirmación de suelo técnico definitivo.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ratio Deuda Neta / EBITDA</strong></td>
+<td style="text-align:left">~5.06x</td>
+<td style="text-align:left">Apalancamiento financiero elevado que incrementa la sensibilidad al coste de financiación.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Forward P/E</strong></td>
+<td style="text-align:left">28.77x</td>
+<td style="text-align:left">Valoración exigente en términos de beneficios estimados.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Consenso Target Price</strong></td>
+<td style="text-align:left">23.33 EUR</td>
+<td style="text-align:left">Potencial alcista estimado por analistas del +20.42%.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Catalizador Negativo</strong></td>
+<td style="text-align:left">Frustración de desinversiones</td>
+<td style="text-align:left">Presión vendedora reciente reflejada en prensa especializada (<em>Merca2.es</em>).</td>
+</tr>
+</tbody>
+</table></div>
+<p>FINAL TRANSACTION PROPOSAL: REVIEW</p>
+<h3 id="s1-3">Fundamentals Analyst</h3>
+<p><strong>Corporación Acciona Energías Renovables, S.A. (<code>ANE.MC</code>)</strong><br />
+<strong>Fecha del informe:</strong> 19 de noviembre de 2026<br />
+<strong>Ticker:</strong> <code>ANE.MC</code> (MCE, EUR, benchmark ^IBEX)</p>
+<hr />
+<h6><strong>1. Resumen de la Compañía y Perfil de Negocio</strong></h6>
+<ul>
+<li><strong>Identidad:</strong> Corporación Acciona Energías Renovables, S.A. (<code>ANE.MC</code>) opera en el sector de <em>Utilities</em> (Servicios Públicos) dentro de la subindustria de Energías Renovables (<em>Utilities - Renewable</em>). Cotiza en la bolsa de Madrid (MCE) en Euros (EUR).</li>
+<li><strong>Capitalización de Mercado:</strong> 6.286.522.880 EUR (~6.290 millones de EUR).</li>
+<li><strong>Actividad:</strong> Desarrollo, construcción, operación y gestión de activos de generación de energía renovable a nivel global (principalmente eólica, solar fotovoltaica e hidráulica).</li>
+</ul>
+<hr />
+<h6><strong>2. Análisis Financiero y Estados Financieros</strong></h6>
+<p>Los datos financieros históricos e internos extraídos de los estados financieros presentados reflejan la evolución reciente de la compañía:</p>
+<ul>
+<li>
+<p><strong>Cuenta de Resultados (Ingresos, EBITDA y Beneficio Neto):</strong></p>
+<ul>
+<li><em>Ejercicio 2023:</em> Ingresos totales de 3.547 millones de EUR; EBITDA de 1.407 millones de EUR; Beneficio Neto de 524 millones de EUR.</li>
+<li><em>Ejercicio 2024:</em> Ingresos totales de 3.048 millones de EUR; EBITDA de 1.183 millones de EUR; Beneficio Neto de 357 millones de EUR.</li>
+<li><em>Ejercicio 2025:</em> Ingresos totales de 2.925 millones de EUR; EBITDA de 1.484 millones de EUR; Beneficio Neto de 655 millones de EUR.</li>
+<li><em>Tendencia:</em> Se observa una contracción en la cifra de ingresos en los últimos periodos (-34,4% de crecimiento de ingresos según métricas de balance), compensada parcialmente por una recuperación en los márgenes de EBITDA y un repunte del beneficio neto en 2025.</li>
+</ul>
+</li>
+<li>
+<p><strong>Balance de Situación (Activos, Deuda y Patrimonio):</strong></p>
+<ul>
+<li><em>Activos Totales:</em> 14.718 millones de EUR (cierre 2025), frente a los 16.244 millones de EUR en 2024.</li>
+<li><em>Deuda Total:</em> 5.164 millones de EUR (2025), con estimaciones actualizadas de deuda total en el entorno de los 5.411 millones de EUR.</li>
+<li><em>Efectivo Total:</em> 495 millones de EUR.</li>
+<li><em>Patrimonio Neto (Stockholders Equity):</em> 5.836 millones de EUR (2025) y 5.843 millones de EUR (2024).</li>
+<li><em>Ratio de Endeudamiento:</em> Deuda neta / EBITDA de aproximadamente 5.06x, lo que representa una carga de apalancamiento considerable típica de desarrolladores de infraestructuras renovables intensivos en capital.</li>
+</ul>
+</li>
+<li>
+<p><strong>Flujo de Caja (Cash Flow):</strong></p>
+<ul>
+<li><em>Flujo de Caja Operativo:</em> 383 millones de EUR (2025), por debajo de los 681 millones de EUR de 2024.</li>
+<li><em>Gastos de Capital (CapEx):</em> -979 millones de EUR (2025) y -1.630 millones de EUR (2024).</li>
+<li><em>Flujo de Caja Libre (FCF):</em> Negativo en -596 millones de EUR en 2025 (-408,7 millones de EUR según la última instantánea de flujos de caja y -949 millones de EUR en 2024), debido a la fuerte intensidad inversora en nuevas capacidades.</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h6><strong>3. Valoración y Métricas de Mercado</strong></h6>
+<ul>
+<li><strong>Múltiplos de Valoración:</strong>
+<ul>
+<li><strong>Trailing P/E:</strong> 33,98x</li>
+<li><strong>Forward P/E:</strong> 28,77x</li>
+<li><strong>Precio a Valor en Libros (Price-to-Book):</strong> 1,01x (Valor contable por acción de 19,10 EUR frente a un precio de cotización de 19,37 EUR).</li>
+<li><strong>EV/EBITDA:</strong> 12,12x.</li>
+<li><strong>Ratio Sectorial:</strong> El PER forward relativo muestra una prima frente a la mediana de comparables (<em>peer median forward PE</em> de 16,58x), arrojando un ratio de 1,74x.</li>
+</ul>
+</li>
+<li><strong>Dividendos:</strong>
+<ul>
+<li>Dividend Yield de 15,49% (con una tasa de dividendo anunciada de 0,03 EUR y <em>payout ratio</em> estimado en 5,27%). <em>Nota:</em> Conviene contrastar la sostenibilidad de este rendimiento operativo con los flujos de caja libres negativos recurrentes.</li>
+</ul>
+</li>
+<li><strong>Consenso de Analistas:</strong>
+<ul>
+<li>Precio objetivo medio (<em>target mean price</em>): 23,33 EUR (con un rango bajo de 17,00 EUR y alto de 28,30 EUR), basado en 19 opiniones de analistas.</li>
+<li>Upside de consenso (<em>consensus upside pct</em>): ~20,42% desde el precio de cierre actual de 19,37 EUR.</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h6><strong>4. Análisis Técnico y Contexto de Mercado Reciente</strong></h6>
+<ul>
+<li><strong>Precio Actual:</strong> 19,37 EUR (19 de noviembre de 2026), registrando una caída del -3,25% en la sesión y acumulando un descenso a 21 días del -10,82%.</li>
+<li><strong>Medias Móviles:</strong> SMA20 en 21,27 EUR, SMA50 en 21,54 EUR y SMA200 en 21,82 EUR. El precio cotiza por debajo de todas las medias principales, confirmando una tendencia bajista de corto y medio plazo.</li>
+<li><strong>Osciladores:</strong> RSI(14) en 32,95 (acercándose a niveles de sobreventa), MACD negativo (-0,40) y volatilidad anualizada del 35,52%. El <em>drawdown</em> actual se sitúa en el -20,51%.</li>
+<li><strong>Catalizadores y Noticias Recientes (Noviembre 2026):</strong>
+<ul>
+<li>La cotización ha sufrido fuertes descensos recientes (como el desplome del 7,26% reportado a mediados de noviembre) debido a la <strong>frustración de los planes de desinversión</strong> de Acciona y Acciona Energía, lo que ha generado incertidumbre sobre su estrategia de rotación de activos y reducción de apalancamiento (Merca2.es, 15 de noviembre de 2026; Investing.com España, 13 de noviembre de 2026).</li>
+<li>El contexto macroeconómico europeo sigue marcado por la advertencia del BCE sobre el encarecimiento de la financiación, un factor adverso para empresas con elevada deuda neta y necesidades intensivas de capital como <code>ANE.MC</code> (El Boletín, 16 de noviembre de 2026).</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h6><strong>5. Datos Faltantes y Advertencias</strong></h6>
+<ul>
+<li><strong>Datos Faltantes:</strong> No se dispone de desglose detallado de transacciones de iniciados (<em>insider transactions</em>) en el bloque de datos inmediatos.</li>
+<li><strong>Supuestos y Limitaciones:</strong> La valoración se basa en estimaciones de consenso de analistas y estados financieros auditados hasta el cierre de 2025. La estrategia de desinversión bloqueada añade incertidumbre sobre las previsiones de reducción de deuda neta/EBITDA (actualmente en torno a 5,06x).</li>
+</ul>
+<hr />
+<h6><strong>6. Conclusión y Recomendación para Traders</strong></h6>
+<p>El título <code>ANE.MC</code> se encuentra bajo una presión</p>
+</section><section id="s2"><h2>II. Research Team Decision</h2><h3 id="s2-1">Bull Researcher</h3>
+<p>Bull Analyst: ¡Hola a todos! Entiendo perfectamente que el entorno actual para <strong><code>ANE.MC</code></strong> (Corporación Acciona Energías Renovables, S.A.) parezca turbulento a primera vista, especialmente tras el reciente castigo bursátil y la frustración de algunos planes de desinversión de los que se ha hecho eco la prensa. Sin embargo, mirar el gráfico diario y el retroceso del -20,51% desde máximos sin ver el bosque es perderse una oportunidad de oro con una de las mayores plataformas de energía limpia del mundo.</p>
+<p>Como analista alcista, vengo a defender por qué este desplome es una sobre reacción del mercado y por qué los fundamentos a largo plazo y la valoración actual sitúan a <code>ANE.MC</code> en una posición de compra inmejorable. ¡Vamos a desglosarlo punto por punto!</p>
+<hr />
+<h6>1. Potencial de Crecimiento y Desconexión con el Consenso</h6>
+<p>Es muy fácil dejarse llevar por el pesimismo técnico a corto plazo —con un RSI de 32,95 que casi toca sobreventa—, pero olvidamos lo que dicen los expertos que analizan la compañía con lupa a 12 meses vista. El <strong>precio objetivo medio de consenso se sitúa en 23,33 EUR</strong>, lo que arroja un <strong>potencial alcista (<em>consensus upside</em>) del +20,42%</strong> desde los 19,37 EUR actuales.</p>
+<p>El mercado está castigando de forma excesiva un contratiempo puntual en la rotación de activos. La transición energética global no se detiene; la demanda estructural de capacidad verde sigue intacta y <code>ANE.MC</code> cuenta con una cartera de activos operativos de primer nivel mundial que garantiza flujos recurrentes a medida que los proyectos en desarrollo entran en fase de explotación comercial.</p>
+<h6>2. Ventajas Competitivas Inquebrantables</h6>
+<p>Hablemos claro: no todas las renovables son iguales. <code>ANE.MC</code> forma parte del grupo Acciona, lo que le otorga una capacidad de desarrollo, ingeniería y acceso a mercados internacionales que los pequeños desarrolladores puros simplemente no tienen.</p>
+<ul>
+<li><strong>Posicionamiento Geográfico y Tecnológico:</strong> Cuenta con una diversificación óptima entre eólica terrestre, solar fotovoltaica e hidráulica en geografías clave (España, Norteamérica, Latinoamérica y Australia).</li>
+<li><strong>Valor Contable Resiliente:</strong> A pesar de la volatilidad, la acción cotiza a un <strong>Precio/Valor en Libros de apenas 1,01x</strong> (con un valor contable por acción de 19,10 EUR). ¡Estamos comprando activos físicos reales, operativas y con valor de reposición multimillonario prácticamente al precio contable neto!</li>
+</ul>
+<h6>3. Indicadores Financieros y la Realidad del Apalancamiento (Respuesta al Oso)</h6>
+<p>El principal argumento de los bajistas suele girar en torno a la deuda: <em>&quot;¡Mirad la ratio de deuda neta sobre EBITDA de más de 5x!&quot;</em> Es cierto, las métricas de apalancamiento (~5,06x) son elevadas y el entorno de tipos de la eurozona no es un regalo. <strong>Pero aquí es donde el oso se equivoca.</strong></p>
+<ul>
+<li><strong>No es deuda de consumo, es CapEx de infraestructura:</strong> Estamos hablando de una compañía de servicios públicos (<em>utilities</em>) intensiva en capital que ha estado desplegando inversiones masivas (con CapEx históricos de casi 1.000 millones de EUR en 2025). Estos proyectos no son gastos hundidos; son activos generadores de caja a 20-30 años.</li>
+<li><strong>Flexibilidad y EBITDA Sólido:</strong> Frente a los baches de ingresos de 2024, la compañía demostró una capacidad de recuperación impresionante en el cierre de 2025, elevando su <strong>EBITDA hasta los 1.484 millones de EUR</strong> (frente a los 1.183 millones del año anterior) y un <strong>Beneficio Neto de 655 millones de EUR</strong>. La máquina de generar caja operativa sigue rugiendo y tiene total capacidad para gestionar sus obligaciones financieras.</li>
+</ul>
+<h6>4. ¿La frustración de las desinversiones es el fin del mundo? ¡En absoluto!</h6>
+<p>Los osos están utilizando los titulares de noviembre sobre la paralización de ciertos procesos de desinversión como la gran catástrofe. ¡Pensemos con perspectiva industrial! Que una desinversión no se cierre al precio milimétrico exigido en un momento de mercado bajista <strong>no significa que los activos hayan perdido valor</strong>. Significa que la directiva está protegiendo el valor para el accionista en lugar de malvender a precios de derribo. Cuando el mercado de transacciones corporativas recupere la fluidez, esos planes de rotación volverán a la mesa en condiciones mucho más favorables. Mientras tanto, los proyectos siguen generando energía y EBITDA.</p>
+<hr />
+<h6>Conclusión y Perspectiva Alcista</h6>
+<p><code>ANE.MC</code> se encuentra en una zona de suelo técnico clara (cerca de la sobreventa con un RSI de 32,9), cotizando por debajo de sus medias móviles, lo cual para un inversor de valor inteligente representa un clásico punto de entrada de acumulación (<em>value play</em>). Con un balance respaldado por más de 14.000 millones de euros en activos totales y un potencial de revalorización superior al 20% hacia el objetivo de los 23,33 EUR, el bando bajista está pecando de corto plazo.</p>
+<p>La transición energética es un tren en marcha y <code>ANE.MC</code> es una de las locomotoras principales. ¡Una oportunidad clara para mirar más allá del ruido de la semana!</p>
+<p><strong>Rating</strong>: REVIEW<br />
+FINAL TRANSACTION PROPOSAL: HOLD</p>
+<h3 id="s2-2">Bear Researcher</h3>
+<p>Bear Analyst: ¡Hola, compañero! Entiendo perfectamente tu entusiasmo por la transición energética y tu intento de pintar este panorama como una &quot;ganga institucional&quot;, pero me temo que estás ignorando deliberadamente las señales de alarma que parpadean en el salpicadero de <strong><code>ANE.MC</code></strong>. Llamar a esto una &quot;sobre-reacción del mercado&quot; es ignorar la cruda realidad financiera y operativa a la que se enfrenta la compañía hoy, 19 de noviembre de 2026.</p>
+<p>Vamos a desmontar punto por punto ese optimismo injustificado:</p>
+<h6>1. El espejismo del consenso y la realidad de la tendencia bajista</h6>
+<p>Te agarras con fuerza a ese precio objetivo medio de 23,33 EUR y al +20,42% de potencial alcista teórico. Pero se te olvida un pequeño detalle: <strong>los precios objetivo de los analistas son promedios móviles rezagados, no una bola de cristal.</strong> El mercado está cotizando a 19,37 EUR con un castigo diario del -3,25% y un <em>drawdown</em> del -20,51%.
+¿Y qué me dices del gráfico? El RSI de 32,95 no es una invitación a comprar; es el reflejo de una presión vendedora constante. La acción está sepultada bajo todas sus medias móviles de referencia (SMA 20 en 21,27 EUR, SMA 50 en 21,54 EUR y SMA 200 en 21,82 EUR). Comprar aquí basándose en la esperanza de que el consenso acierte es tratar de atrapar un cuchillo cayendo.</p>
+<h6>2. ¿Valor contable atractivo o trampa de valor?</h6>
+<p>Presumes de que cotiza a un Precio/Valor en Libros de 1,01x (con un valor contable de 19,10 EUR frente a los 19,37 EUR de cotización). Suena bonito sobre el papel, pero olvidas que <strong>los activos físicos no sirven para pagar deudas a corto plazo si no generan efectivo libre</strong>.
+Y aquí está el gran problema que prefieres barrer bajo la alfombra: el <strong>flujo de caja libre (<em>Free Cash Flow</em>) es profundamente negativo</strong>, situándose en -408,7 millones de EUR en los datos más recientes (y arrastrando cifras horribles de -596 millones y -949 millones en los ejercicios anteriores). De nada sirve tener un valor contable multimillonario si la caja quema y las operaciones no dan para cubrir el CapEx de forma orgánica.</p>
+<h6>3. La pesadilla del apalancamiento en un mundo con tipos restrictivos</h6>
+<p>Dices que el ratio de deuda neta sobre EBITDA superior a 5x (~5,06x) es &quot;deuda de infraestructura&quot; y que no pasa nada. ¡Cuidado con ese argumento! Estamos en un entorno macroeconómico donde el Banco Central Europeo (BCE) advierte constantemente de que el encarecimiento de la financiación está frenando el crecimiento de la eurozona.
+Una ratio de apalancamiento de <strong>5,06x</strong> con una deuda total que roza los 5.411 millones de EUR es una soga al cuello cuando los tipos de interés reales se mantienen restrictivos. Los costes financieros erosionan directamente el beneficio y limitan el margen de maniobra de la compañía. No es &quot;inversión sana&quot;, es una dependencia asfixiante de la financiación ajena en el peor momento posible del ciclo de tipos.</p>
+<h6>4. La paralización de desinversiones: un golpe letal a la estrategia</h6>
+<p>Intentas justificar el fracaso de los planes de desinversión diciendo que la directiva está &quot;protegiendo el valor&quot;. ¡La realidad es justo la contraria! Las noticias de noviembre de 2026 (como bien reflejan los mercados y la prensa especializada en <code>ANE.MC</code>) demuestran que <strong>la compañía necesitaba desesperadamente rotar activos para sanear su balance y reducir esa pesada carga de deuda</strong>.
+Que los planes de desinversión se hayan frustrado significa que el mercado de compradores no está dispuesto a pagar las valoraciones que <code>ANE.MC</code> necesita, dejándoles atrapados con los activos, sin la caja esperada y con las manos atadas para reducir el apalancamiento. Esto no es prudencia estratégica; es un fallo en la ejecución en un momento crítico.</p>
+<h6>Conclusión</h6>
+<p><code>ANE.MC</code> está atrapada en una tormenta perfecta: tendencia técnica bajista de libro, un apalancamiento financiero preocupante (&gt;5x Net Debt/EBITDA), flujo de caja libre persistentemente negativo y una estrategia de desinversión atascada que neutraliza sus planes de desendeudamiento. Contar con una cartera de activos renovables de calidad ya no basta cuando la estructura financiera cojea de esta manera.</p>
+<p>No es momento de buscar chollos donde solo hay riesgos latentes. La prudencia dicta mantenerse al margen.</p>
+<p><strong>Rating</strong>: REVIEW
+FINAL TRANSACTION PROPOSAL: HOLD</p>
+<h3 id="s2-3">Research Manager</h3>
+<ul>
+<li><strong>Recommendation</strong>: Hold</li>
+<li><strong>Rationale</strong>: The debate exhibits a clear balance of structural strengths and acute cyclical/financial pressures for <strong><code>ANE.MC</code></strong>. On one side, the bull case highlights a solid asset base, strong EBITDA recovery in 2025 (1,484 million EUR), a Price-to-Book ratio near parity (1.01x), and a consensus target mean price of 23.33 EUR (+20.42% potential upside). On the other side, the bear case correctly points out severe vulnerabilities: a deeply negative Free Cash Flow (-408.7 million EUR), a high net debt-to-EBITDA ratio of ~5.06x in a restrictive interest rate environment warned by the ECB, negative technical momentum (RSI at 32.95 and price below all major SMAs), and the recent setback in asset divestment plans. Because the valuation and asset quality support long-term fundamental value, but the near-term cash burn, leverage risks, and failed divestments justify extreme caution, the evidence remains balanced and does not warrant a definitive directional call. Therefore, a neutral stance is required.</li>
+<li><strong>Strategic Actions</strong>:
+<ul>
+<li><em>Hypothetical Sizing</em>: Maintain a neutral or zero new exposure in a standard portfolio allocation until clearer catalysts emerge.</li>
+<li><em>Monitoring Triggers</em>: Watch for stabilization in Free Cash Flow generation, successful execution of future asset rotation or divestment plans at acceptable valuations, and technical confirmation of a bottoming process above the 17.00 EUR low target.</li>
+<li><em>Risk Management</em>: Avoid entering long positions while the price trades persistently below major moving averages (SMA20, SMA50, SMA200) and net leverage remains above 5x EBITDA in a high-rate environment.</li>
+</ul>
+</li>
+</ul>
+</section><section id="s3"><h2>III. Trading Team Plan</h2><h3 id="s3-1">Trader</h3>
+<p><strong>Action</strong>: Hold</p>
+<p><strong>Reasoning</strong>: La cotizacion de ANE.MC a 19,37 EUR se encuentra bajo una fuerte presion bajista tecnica, cotizando por debajo de sus medias moviles clave y con un RSI de 32,95 que refleja debilidad, aunque cerca de soportes. A nivel fundamental, el elevado apalancamiento con una ratio de deuda neta sobre EBITDA superior a 5x y un flujo de caja libre negativo contrarrestan el atractivo del potencial alcista del consenso (23,33 EUR). Por consiguiente, ante la incertidumbre generada por la frustracion de los planes de desinversion y un entorno de financiacion restrictivo, se adopta una postura neutral de mantenimiento y observacion hasta que aparezcan catalizadores de estabilizacion.</p>
+<p><strong>Entry Price</strong>: not provided</p>
+<p><strong>Stop Loss</strong>: not provided</p>
+<p><strong>Position Sizing</strong>: 0% de exposicion adicional o mantener posicion neutral</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+</section><section id="s4"><h2>IV. Risk Management Team Decision</h2><h3 id="s4-1">Aggressive Analyst</h3>
+<p>Aggressive Analyst: ¡Basta ya de mirar el mercado a través del retrovisor con el miedo instalado en las rodillas! Mientras los analistas conservadores y neutrales se paralizan por la volatilidad técnica y tiemblan ante una ratio
+de deuda neta sobre EBITDA de 5,06x, están ignorando por completo el verdadero catalizador de esta situación en <code>ANE.MC</code>. ¿De verdad vamos a ignorar que el precio objetivo medio del consenso de analistas se sitúa en 23,33 EUR? Eso representa un potencial alcista inmediato de más del 20% desde los 19,37 EUR actuales.</p>
+<p>La postura neutral que propone quedarse de brazos cruzados esperando una estabilización es la receta perfecta para perderse el rebote. Nos encontramos con un RSI de 32,95, rozando la zona de sobreventa técnica pura. El castigo reciente del -3,25% en la sesión y el desplome provocado por el ruido mediático en torno a los planes de desinversión son una sobrerreacción típica del mercado cortoplacista. El capital audaz no espera a que el agua vuelva a estar cristalina; compra precisamente cuando la sangre corre por las calles y el pesimismo institucional alcanza su punto álgido.</p>
+<p>Decir que el flujo de caja libre negativo o el entorno restrictivo del BCE invalidan a Corporación Acciona Energías Renovables, S.A. es caer en un sesgo de miopía conservadora. Estamos hablando de un gigante de las renovables con una capitalización de más de 6.280 millones de EUR, un valor contable por acción de 19,10 EUR y un papel protagónico innegable en la transición energética global. Las dificultades en las desinversiones son contratiempos temporales, no fallos estructurales del modelo de negocio. Esperar a los &quot;catalizadores de estabilización&quot; significa entrar tarde, cuando el valor ya haya recuperado el terreno perdido y las manos fuertes se estén llevando los beneficios gordos.</p>
+<p>El riesgo es la única vía real para maximizar el rendimiento. Abrazar la volatilidad del 35,52% de <code>ANE.MC</code> y acumular posiciones en este nivel de soporte no es una locura; es una jugada estratégica de alta convicción para inversores que no le temen al riesgo calculado. Mantenerse neutral es sinónimo de rendirse ante la mediocridad del mercado.</p>
+<p><strong>Rating</strong>: REVIEW</p>
+<p>FINAL TRANSACTION PROPOSAL: HOLD</p>
+<h3 id="s4-2">Conservative Analyst</h3>
+<p>Conservative Analyst: Resulta verdaderamente alarmante escuchar al Analista Agresivo calificar de &quot;miopía conservadora&quot; la prudencia financiera más elemental al evaluar a Corporación Acciona Energías Renovables, S.A. (<code>ANE.MC</code>). Descartar alegremente un ratio de deuda neta sobre EBITDA que supera las 5x (exactamente 5,06x) bajo la premisa de que el apalancamiento es un mero detalle temporal es una apuesta irresponsable que pone en grave peligro la estabilidad de los activos de la firma. En un entorno macroeconómico donde el Banco Central Europeo adv
+ierte constantemente que el encarecimiento de la financiación frena el crecimiento de la eurozona, ignorar el peso de una deuda total de 5.411 millones de EUR frente a un EBITDA de 971 millones de EUR no es audacia, es ignorar el riesgo de insolvencia y la presión directa sobre el balance.</p>
+<p>El Analista Agresivo apela con vehemencia al precio objetivo medio del consenso de 23,33 EUR para justificar una entrada masiva, olvidando interesadamente que los precios objetivo son proyecciones de analistas y no garantías intrínsecas de valor, y que estas mismas estimaciones se enfrentan a un revés tangible. Las caídas recientes de la cotización hasta los 19,37 EUR no son una simple sobrerreacción emocional del mercado, sino la respuesta lógica a un hecho fundamental muy grave: la frustración de los planes de desinversión de la compañía, tal como reflejan los informes de prensa recientes de mid-noviembre de 2026. Pretender que la incapacidad de rotar activos y desapalancar la compañía es un obstáculo menor demuestra una desconexión total con la realidad operativa.</p>
+<p>Tampoco podemos pasar por alto la preocupante salud financiera de corto plazo de <code>ANE.MC</code>. ¿Cómo se puede defender una apuesta agresiva cuando la empresa registra un flujo de caja libre negativo recurrente que asciende a -408,7 millones de EUR, acompañado de un ratio PER forward sumamente exigente de 28,77x que supera con creces la mediana sectorial de 16,58x? Invitar a comprar simplemente porque el RSI se sitúa en 32,95 o porque el valor cotiza cerca de su valor contable (1,910 EUR por acción frente a los 19,37 EUR actuales) ignora por completo que el precio cotiza con claridad por debajo de todas sus medias móviles clave (SMA20 en 21,27 EUR, SMA50 en 21,54 EUR y SMA200 en 21,82 EUR) y soporta una volatilidad anualizada del 35,52%.</p>
+<p>Comprar en estas condiciones con la esperanza de cazar un rebote técnico en plena tendencia bajista y con los canales de desinversión bloqueados equivale a intentar atrapar un cuchillo cayendo. La verdadera gestión de riesgos no consiste en rendirse a la mediocridad, como afirma el Analista Agresivo, sino en blindar el capital ante escenarios de alta incertidumbre y evitar exposición adicional (0% de incremento) hasta que aparezcan catalizadores reales de estabilización y desendeudamiento. Mantener una postura neutral de observación es la única alternativa sensata para proteger el patrimonio de la firma frente a pérdidas innecesarias.</p>
+<p><strong>Rating</strong>: REVIEW</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+<h3 id="s4-3">Neutral Analyst</h3>
+<p>Neutral Analyst: Es comprensible que el Analista Agresivo vea una oportunidad de oro en el potencial alcista del 20,42% que marca el consenso de analistas en 23,33 EUR y en un RSI de 32,95 que coquetea con la sobreventa. Sin embargo, peca de un optimismo imprudente al minimizar los riesgos estructurales. Descartar un apalancamiento con una ratio de deuda neta sobre EBITDA de 5,06x y un flujo de caja libre negativo de -408,7 millones de EUR en un contexto donde el Banco Central Europeo advierte sobre el encarecimiento de la financiación es ignorar la realidad macroeconómica. Comprar agresivamente en este momento basándose únicamente en que el precio ha caído tras la frustración de los planes de desinversión es asumir un riesgo innecesario de continuar atrapando un cuchillo en plena caída técnica.</p>
+<p>Por otro lado, la postura del Analista Conservador, aunque necesaria en su llamado a la prudencia financiera, raya en la parálisis total. Condenar el valor de forma tan tajante y descartar cualquier atisbo de valor intrínseco ignora que <code>ANE.MC</code> cotiza prácticamente a la par de su valor contable (1,01x P/B con un valor en libros de 19,10 EUR frente a los 19,37 EUR actuales) y que un gigante de las renovables cuenta con activos tangibles muy sólidos. Cerrarse en un inmovilismo absoluto sin contemplar estrategias graduales o de cobertura impide aprovechar los inevitables rebotes de alivio técnico que suelen producirse cuando los indicadores se aproximan a soportes clave y niveles de sobreventa.</p>
+<p>La respuesta sensata no es lanzarse a ciegas a comprar ni tampoco enterrar la cabeza en la arena; el camino óptimo es una estrategia neutral y moderada de observación activa con una asignación de exposición adicional del 0%. Esto significa que no debemos ampliar posiciones mientras el precio permanezca por debajo de las medias móviles clave (como la SMA20 en 21,27 EUR y la SMA200 en 21,82 EUR) y los planes de desinversión sigan estancados, protegiendo así el capital de la volatilidad anualizada del 35,52%. No obstante, mantenernos neutrales nos otorga la flexibilidad táctica de monitorizar de cerca si la compañía logra reestructurar su deuda o desbloquear operaciones corporativas que sirvan como catalizadores reales de estabilización, permitiéndonos actuar con datos firmes en lugar de especulaciones impulsivas.</p>
+<p><strong>Rating</strong>: REVIEW</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+</section><section id="s5"><h2>V. Portfolio Manager Decision</h2><h3 id="s5-1">Portfolio Manager</h3>
+<p><strong>Rating</strong>: Hold</p>
+<p><strong>Executive Summary</strong>: Mantener una postura neutral de observacion activa para ANE.MC sin incrementar la exposicion actual (0% de asignacion adicional). Se recomienda evitar la entrada mientras el precio se mantenga por debajo de las medias moviles clave y vigilar la estabilizacion del flujo de caja libre y los planes de desinversion.</p>
+<p><strong>Investment Thesis</strong>: El debate entre los analistas evidencia un conflicto critico entre la valoracion atractiva por fundamentales a largo plazo y los graves riesgos financieros de corto plazo. Por un lado, el analista agresivo destaca el potencial alcista del consenso hasta los 23,33 EUR (mas de 20% de subida), un ratio P/B cercano a la par (1,01x) y un RSI de 32,95 en zona de sobreventa. Por otro lado, los analistas conservador y neutral señalan con acierto las vulnerabilidades severas de ANE.MC: un apalancamiento elevado con una ratio de deuda neta sobre EBITDA de 5,06x en un contexto de financiacion restrictiva advertido por el BCE, un flujo de caja libre negativo de -408,7 millones de EUR y el reciente fracaso de los planes de desinversión que ha castigado la cotizacion hasta los 19,37 EUR. Adicionalmente, la tendencia tecnica permanece debil al cotizar por debajo de la SMA20, SMA50 y SMA200 con una volatilidad del 35,52%. Ponderando ambos lados, la evidencia se mantiene equilibrada entre el valor de los activos y el riesgo inminente de balance, lo que justifica una postura neutral de mantenimiento y espera de catalizadores operativos.</p>
+<p><strong>Price Target</strong>: 23.32632</p>
+<p><strong>Time Horizon</strong>: 3-6 months</p>
+</section>
+</main>
+<footer class="credit"><a href="https://github.com/TauricResearch/TradingAgents" rel="noopener">TradingAgents</a> powered by <a class="brand" href="https://github.com/TauricResearch" rel="noopener">Tauric Research</a></footer>
+</div>
+<a class="to-top" href="#top">Top</a>
+</body>
+</html>

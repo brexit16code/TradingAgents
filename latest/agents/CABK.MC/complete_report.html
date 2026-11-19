@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'">
+<title>CABK.MC 2026-11-19 Hold: TradingAgents report</title>
+<style>
+:root {
+  --paper: #fbfbfa; --ink: #1c2126; --muted: #5d6670; --rule: #e2e5e8; --wash: #f2f4f5;
+  --accent: #087a59; --up: #087a59; --down: #b4372f; --level: #5d6670; --edge: #d3d8dc; --mark: #878f97;
+  --serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #131a1f; --ink: #e4e8eb; --muted: #9aa6af; --rule: #263239; --wash: #1a242a;
+    --accent: #14c290; --up: #14c290; --down: #ef6f63; --level: #9aa6af; --edge: #3d4c55; --mark: #66737c;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .masthead .logo [stroke="#363636"] { stroke: var(--muted); }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font: 17px/1.62 var(--serif); font-kerning: normal;
+}
+.page { max-width: 46rem; margin: 0 auto; padding: 3.5rem 1.5rem 6rem; }
+main h2, main h3 { scroll-margin-top: 1rem; }
+a { color: var(--accent); text-underline-offset: 0.15em; }
+h1, h2, h3, h4 { text-wrap: balance; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.masthead { padding-bottom: 1.75rem; border-bottom: 1px solid var(--rule); }
+/* The logo leads at the top left, where readers look for it, 24px tall (the usual
+   on-screen floor for a wordmark) with at least its height clear below. */
+.masthead .logo { display: block; width: fit-content; margin: 0 0 2.25rem; }
+.masthead .logo svg { display: block; height: 1.5rem; width: auto; }
+.masthead h1 {
+  margin: 0; font: 600 2.6rem/1.1 var(--sans); letter-spacing: -0.02em;
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.2em 0.5em;
+}
+.masthead .rating { font-weight: 500; }
+.rating.up { color: var(--up); } .rating.down { color: var(--down); } .rating.level { color: var(--level); }
+.rating.review { color: var(--muted); font-style: italic; }
+.masthead .date { margin: 0.55rem 0 1.5rem; font: 1rem/1.4 var(--sans); color: var(--muted); }
+.run { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: 0.45rem 1.25rem;
+  font: 0.85rem/1.5 var(--sans); }
+.run > div { display: contents; }
+.run dt { color: var(--muted); }
+.run dd { margin: 0; overflow-wrap: anywhere; }
+.run .note dd { color: var(--down); }
+.field { display: inline-block; margin: 0 0.15rem 0.15rem 0; padding: 0 0.4rem; border: 1px solid var(--edge);
+  border-radius: 4px; background: var(--wash); font: 0.8rem/1.6 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+.run .group { display: inline-block; margin-right: 0.9rem; white-space: nowrap; }
+.run .group > .name { color: var(--muted); margin-right: 0.3rem; }
+.run .then { color: var(--muted); margin: 0 0.2rem; }
+
+/* The sections: listed under the header on narrow screens. On wide ones, a
+   quiet rail centred on the left edge (numerals for the sections, short bars
+   for their agents) that opens into the full list when pointed at or focused. */
+.contents { margin: 2.25rem 0 0; font: 0.9rem/1.45 var(--sans); }
+.contents ul { margin: 0; padding: 0; list-style: none; }
+.contents > ul > li { margin: 0 0 0.75rem; }
+.contents ul ul { margin-top: 0.2rem; padding-left: 1.6rem; font-size: 0.85rem; }
+.contents ul ul li { margin: 0.1rem 0; }
+.contents a { display: flex; align-items: center; gap: 0.6rem; color: var(--muted); text-decoration: none; }
+.contents > ul > li > a { color: var(--ink); }
+.contents .num { min-width: 1.6rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.contents .bar { display: none; }
+.contents a:hover .label, .contents a:focus-visible .label { color: var(--accent); text-decoration: underline; }
+.to-top { position: fixed; right: 1rem; bottom: calc(1rem + env(safe-area-inset-bottom));
+  padding: 0.25rem 0.6rem; border: 1px solid var(--edge); border-radius: 4px; background: var(--paper);
+  color: var(--muted); font: 0.8rem/1.4 var(--sans); text-decoration: none; }
+
+@media (min-width: 60rem) {
+  .contents { position: fixed; left: 1rem; top: 50%; transform: translateY(-50%); z-index: 1;
+    max-height: 86vh; overflow-y: auto; overscroll-behavior: contain; margin: 0;
+    padding: 0.7rem 0.9rem; border: 1px solid transparent; border-radius: 6px;
+    transition: background-color 0.15s, border-color 0.15s, box-shadow 0.15s; }
+  .contents > ul > li { margin: 0 0 0.35rem; }
+  .contents ul ul { margin-top: 0; padding-left: 0; }
+  .contents ul ul li { margin: 0; }
+  /* Marks reach 3:1 contrast and rows 24px, the WCAG 2.2 floors for a control's
+     visual cue and its pointer target. */
+  .contents a { min-height: 1.5rem; }
+  .contents .num { min-width: 1.4rem; }
+  .contents .bar { display: block; flex: none; width: 1.25rem; height: 2px; margin-left: 0.2rem;
+    border-radius: 1px; background: var(--mark); }
+  .contents .label { max-width: 0; opacity: 0; overflow: hidden; white-space: nowrap;
+    transition: opacity 0.15s, max-width 0.2s; }
+  .contents:hover, .contents:focus-within { background: var(--paper); border-color: var(--rule);
+    box-shadow: 0 6px 24px rgb(0 0 0 / 0.08); }
+  .contents:hover .label, .contents:focus-within .label { max-width: 18rem; opacity: 1; }
+  .contents a:hover .bar, .contents a:focus-visible .bar { background: var(--accent); }
+  .to-top { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .contents, .contents .label { transition: none; }
+}
+
+/* The maker's credit: one quiet line at the foot. */
+.credit { margin-top: 4.5rem; padding-top: 1.25rem; border-top: 1px solid var(--rule);
+  color: var(--muted); font: 0.8rem/1.4 var(--sans); }
+.credit a { color: inherit; text-decoration: none; }
+.credit a.brand { color: var(--accent); }
+.credit a:hover, .credit a:focus-visible { text-decoration: underline; }
+
+/* Three levels of separation: the five groups, the agents within a group, and
+   breaks an agent draws inside its own text. */
+main h2 {
+  margin: 4.5rem 0 0.25rem; padding-top: 1.5rem; border-top: 2px solid var(--ink);
+  font: 600 1.45rem/1.3 var(--sans); letter-spacing: -0.01em;
+}
+main section:first-child h2 { margin-top: 3rem; }
+main h3 { margin: 2.75rem 0 0.75rem; padding-top: 1.1rem; border-top: 1px solid var(--rule);
+  font: 600 1.15rem/1.35 var(--sans); color: var(--accent); }
+main h2 + h3 { margin-top: 1.25rem; padding-top: 0; border-top: 0; }
+main h4, main h5, main h6 { margin: 1.75rem 0 0.5rem; font: 600 1rem/1.4 var(--sans); }
+main h5, main h6 { color: var(--muted); }
+main p, main ul, main ol { margin: 0 0 1rem; }
+main li { margin: 0.25rem 0; }
+main strong { font-weight: 650; }
+main blockquote { margin: 1.25rem 0; padding: 0.1rem 0 0.1rem 1rem; border-left: 3px solid var(--rule);
+  color: var(--muted); }
+main code { font: 0.88em/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  background: var(--wash); padding: 0.1em 0.3em; border-radius: 3px; }
+main pre { background: var(--wash); padding: 0.9rem 1rem; border-radius: 4px; overflow-x: auto; }
+main pre code { background: none; padding: 0; }
+main hr { width: 3rem; margin: 2rem auto; border: 0; border-top: 1px solid var(--rule); }
+
+.table { overflow-x: auto; margin: 0 0 1.25rem; }
+table { border-collapse: collapse; width: 100%; font: 0.86rem/1.45 var(--sans);
+  font-variant-numeric: tabular-nums; }
+th, td { padding: 0.45rem 0.7rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--rule); }
+th { font-weight: 600; border-bottom-color: var(--muted); }
+tbody tr:last-child td { border-bottom: 0; }
+
+@media (max-width: 34rem) {
+  body { font-size: 16px; }
+  .page { padding: 2rem 1rem 3rem; }
+  .masthead h1 { font-size: 2rem; }
+  .masthead .logo svg { height: 1.25rem; }
+  .run { grid-template-columns: 1fr; gap: 0 0; }
+  .run dd { margin-bottom: 0.45rem; }
+  .run .group { white-space: normal; }
+}
+@media print {
+  :root { --paper: #fff; --ink: #000; --muted: #444; --rule: #bbb; --accent: #000; --wash: #f2f2f2;
+    --edge: #bbb; --up: #087a59; --down: #b4372f; --level: #444; }
+  body { font-size: 11pt; }
+  .table { overflow: visible; }
+  .page { max-width: none; padding: 0; }
+  .contents, .to-top { display: none; }
+  main h2 { break-before: page; border-top: 0; margin-top: 0; }
+  main section:first-child h2 { break-before: auto; }
+  main h3, main h4 { break-after: avoid; }
+  a { color: inherit; text-decoration: none; }
+  table { break-inside: avoid; }
+}
+</style>
+</head>
+<body>
+<div class="page" id="top">
+<header class="masthead">
+<a class="logo" href="https://tauric.ai" rel="noopener" aria-label="Tauric Research"><svg width="993" height="115" viewBox="0 0 993 115" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M189.86 95.0459V37.9779H165.924V29.9259H223.74V37.9779H199.804V95.0459H189.86ZM251.026 46.4259C256.071 46.4259 260.178 47.0272 263.345 48.2299C266.514 49.4032 268.89 51.3686 270.474 54.1259C272.058 56.8832 272.85 60.6379 272.85 65.3899V95.0459H264.666L263.961 89.8979H263.434C261.644 91.7752 259.386 93.2419 256.657 94.2979C253.929 95.3246 251.025 95.8379 247.946 95.8379C244.426 95.8379 241.419 95.2952 238.925 94.2099C236.432 93.0952 234.54 91.5406 233.249 89.5459C231.959 87.5512 231.313 85.2046 231.313 82.5059C231.313 78.2526 232.897 74.9672 236.065 72.6499C239.263 70.3032 244.337 68.8219 251.29 68.2059L263.258 67.0179V64.7299C263.258 61.9139 262.774 59.7139 261.806 58.1299C260.838 56.5459 259.371 55.4312 257.406 54.7859C255.47 54.1406 252.888 53.8179 249.662 53.8179C247.432 53.8179 245.012 54.0086 242.401 54.3899C239.82 54.7712 237.341 55.3432 234.965 56.1059V48.8019C237.312 48.0392 239.908 47.4526 242.754 47.0419C245.628 46.6312 248.386 46.4259 251.026 46.4259ZM250.541 89.0619C252.888 89.0619 255.162 88.6512 257.362 87.8299C259.562 86.9792 261.527 85.7179 263.258 84.0459V72.8259L252.038 73.9259C248.136 74.3659 245.35 75.2166 243.678 76.4779C242.005 77.7099 241.169 79.4699 241.169 81.7579C241.169 84.0752 241.947 85.8792 243.501 87.1699C245.056 88.4312 247.403 89.0619 250.541 89.0619ZM313.339 95.8379C307.59 95.8379 303.087 94.2979 299.831 91.2179C296.575 88.1086 294.947 83.2686 294.947 76.6979V47.1739H304.715V76.1699C304.715 80.1886 305.624 83.0779 307.443 84.8379C309.291 86.5979 311.916 87.4779 315.319 87.4779C317.871 87.4779 320.379 86.9939 322.843 86.0259C325.336 85.0286 327.492 83.5766 329.311 81.6699V47.1739H339.079V95.0459H330.983L330.367 89.9419H329.883C327.624 91.8486 325.072 93.3152 322.227 94.3419C319.382 95.3392 316.419 95.8379 313.339 95.8379ZM362.371 47.1739H370.423L371.171 53.2899H371.743C373.474 51.2072 375.703 49.5792 378.431 48.4059C381.188 47.2326 384.063 46.6459 387.055 46.6459C388.756 46.6459 390.355 46.7926 391.851 47.0859V55.8419C390.414 55.5779 388.654 55.4459 386.571 55.4459C383.99 55.4459 381.364 55.9446 378.695 56.9419C376.026 57.9392 373.84 59.4206 372.139 61.3859V95.0459H362.371V47.1739ZM409.069 95.0459V47.1739H418.837V95.0459H409.069ZM413.953 37.8459C411.871 37.8459 410.287 37.3912 409.201 36.4819C408.145 35.5726 407.617 34.2672 407.617 32.5659C407.617 30.8352 408.145 29.5152 409.201 28.6059C410.287 27.6672 411.871 27.1979 413.953 27.1979C416.036 27.1979 417.605 27.6672 418.661 28.6059C419.747 29.5152 420.289 30.8352 420.289 32.5659C420.289 34.2672 419.747 35.5726 418.661 36.4819C417.605 37.3912 416.036 37.8459 413.953 37.8459ZM464.85 95.9259C456.607 95.9259 450.315 93.8432 445.974 89.6779C441.662 85.5126 439.506 79.3526 439.506 71.1979C439.506 63.0139 441.779 56.8392 446.326 52.6739C450.902 48.5086 457.575 46.4259 466.346 46.4259C470.716 46.4259 474.735 46.9246 478.402 47.9219V55.7099C476.378 55.2406 474.486 54.8886 472.726 54.6539C470.966 54.4192 469.118 54.3019 467.182 54.3019C461.168 54.3019 456.71 55.6512 453.806 58.3499C450.931 61.0486 449.494 65.2872 449.494 71.0659C449.494 76.8739 450.858 81.1566 453.586 83.9139C456.343 86.6712 460.42 88.0499 465.818 88.0499C467.695 88.0499 469.616 87.8886 471.582 87.5659C473.547 87.2139 475.82 86.6712 478.402 85.9379V93.7259C474.236 95.1926 469.719 95.9259 464.85 95.9259ZM574.428 95.0459L553.704 69.0859C553.176 69.1152 552.37 69.1299 551.284 69.1299C548.38 69.1299 544.978 68.9832 541.076 68.6899V95.0459H531.308V31.4659C537.967 29.9699 544.846 29.2219 551.944 29.2219C561.595 29.2219 568.752 30.8059 573.416 33.9739C578.08 37.1126 580.412 42.1286 580.412 49.0219C580.412 54.0086 579.004 58.0859 576.188 61.2539C573.402 64.4219 569.266 66.6366 563.78 67.8979L585.648 95.0459H574.428ZM541.076 61.2099C543.071 61.4152 544.816 61.5619 546.312 61.6499C547.838 61.7379 549.627 61.7819 551.68 61.7819C558.427 61.7819 563.34 60.7699 566.42 58.7459C569.5 56.6926 571.04 53.4952 571.04 49.1539C571.04 46.0739 570.395 43.6099 569.104 41.7619C567.843 39.9139 565.863 38.5792 563.164 37.7579C560.495 36.9366 556.975 36.5259 552.604 36.5259C550.404 36.5259 548.424 36.6139 546.664 36.7899C544.904 36.9659 543.042 37.2299 541.076 37.5819V61.2099ZM642.947 74.0139H608.231C608.407 77.4752 609.155 80.2766 610.475 82.4179C611.795 84.5299 613.775 86.0846 616.415 87.0819C619.055 88.0792 622.443 88.5779 626.579 88.5779C630.686 88.5779 635.233 87.9472 640.219 86.6859V93.9459C635.027 95.2659 630.026 95.9259 625.215 95.9259C616.298 95.9259 609.61 93.9166 605.151 89.8979C600.722 85.8499 598.507 79.6166 598.507 71.1979C598.507 65.9179 599.402 61.4299 601.191 57.7339C602.981 54.0379 605.562 51.2366 608.935 49.3299C612.338 47.3939 616.43 46.4259 621.211 46.4259C628.251 46.4259 633.634 48.5819 637.359 52.8939C641.085 57.1766 642.947 63.3659 642.947 71.4619V74.0139ZM621.079 52.8939C616.973 52.8939 613.834 54.1406 611.663 56.6339C609.493 59.0979 608.334 62.9259 608.187 68.1179H633.751C633.634 62.9259 632.519 59.0979 630.407 56.6339C628.295 54.1406 625.186 52.8939 621.079 52.8939ZM677.365 95.9259C671.352 95.9259 665.896 95.2219 660.997 93.8139V86.7299C666.248 88.1966 671.718 88.9299 677.409 88.9299C681.809 88.9299 684.977 88.3432 686.913 87.1699C688.849 85.9672 689.817 84.2219 689.817 81.9339C689.817 80.7019 689.597 79.6899 689.157 78.8979C688.717 78.0766 687.969 77.4019 686.913 76.8739C685.857 76.3166 684.405 75.8912 682.557 75.5979L674.065 74.2779C669.137 73.4859 665.573 71.9899 663.373 69.7899C661.202 67.5899 660.117 64.6419 660.117 60.9459C660.117 56.4579 661.965 52.9232 665.661 50.3419C669.386 47.7312 675.062 46.4259 682.689 46.4259C685.094 46.4259 687.485 46.5872 689.861 46.9099C692.266 47.2032 694.481 47.6432 696.505 48.2299V55.2699C692.046 54.0379 687.456 53.4219 682.733 53.4219C677.893 53.4219 674.476 54.0526 672.481 55.3139C670.486 56.5752 669.489 58.3206 669.489 60.5499C669.489 62.2219 670.002 63.5859 671.029 64.6419C672.056 65.6686 673.889 66.4166 676.529 66.8859L685.021 68.2059C689.92 68.9686 693.513 70.3766 695.801 72.4299C698.089 74.4832 699.233 77.4606 699.233 81.3619C699.233 84.3832 698.412 86.9792 696.769 89.1499C695.156 91.3206 692.706 92.9926 689.421 94.1659C686.165 95.3392 682.146 95.9259 677.365 95.9259ZM760.579 74.0139H725.863C726.039 77.4752 726.787 80.2766 728.107 82.4179C729.427 84.5299 731.407 86.0846 734.047 87.0819C736.687 88.0792 740.075 88.5779 744.211 88.5779C748.317 88.5779 752.864 87.9472 757.851 86.6859V93.9459C752.659 95.2659 747.657 95.9259 742.847 95.9259C733.929 95.9259 727.241 93.9166 722.783 89.8979C718.353 85.8499 716.139 79.6166 716.139 71.1979C716.139 65.9179 717.033 61.4299 718.823 57.7339C720.612 54.0379 723.193 51.2366 726.567 49.3299C729.969 47.3939 734.061 46.4259 738.843 46.4259C745.883 46.4259 751.265 48.5819 754.991 52.8939C758.716 57.1766 760.579 63.3659 760.579 71.4619V74.0139ZM738.711 52.8939C734.604 52.8939 731.465 54.1406 729.295 56.6339C727.124 59.0979 725.965 62.9259 725.819 68.1179H751.383C751.265 62.9259 750.151 59.0979 748.039 56.6339C745.927 54.1406 742.817 52.8939 738.711 52.8939ZM796.986 46.4259C802.032 46.4259 806.138 47.0272 809.306 48.2299C812.474 49.4032 814.85 51.3686 816.434 54.1259C818.018 56.8832 818.81 60.6379 818.81 65.3899V95.0459H810.626L809.922 89.8979H809.394C807.605 91.7752 805.346 93.2419 802.618 94.2979C799.89 95.3246 796.986 95.8379 793.906 95.8379C790.386 95.8379 787.38 95.2952 784.886 94.2099C782.393 93.0952 780.501 91.5406 779.21 89.5459C777.92 87.5512 777.274 85.2046 777.274 82.5059C777.274 78.2526 778.858 74.9672 782.026 72.6499C785.224 70.3032 790.298 68.8219 797.25 68.2059L809.218 67.0179V64.7299C809.218 61.9139 808.734 59.7139 807.766 58.1299C806.798 56.5459 805.332 55.4312 803.366 54.7859C801.43 54.1406 798.849 53.8179 795.622 53.8179C793.393 53.8179 790.973 54.0086 788.362 54.3899C785.781 54.7712 783.302 55.3432 780.926 56.1059V48.8019C783.273 48.0392 785.869 47.4526 788.714 47.0419C791.589 46.6312 794.346 46.4259 796.986 46.4259ZM796.502 89.0619C798.849 89.0619 801.122 88.6512 803.322 87.8299C805.522 86.9792 807.488 85.7179 809.218 84.0459V72.8259L797.998 73.9259C794.097 74.3659 791.31 75.2166 789.638 76.4779C787.966 77.7099 787.13 79.4699 787.13 81.7579C787.13 84.0752 787.908 85.8792 789.462 87.1699C791.017 88.4312 793.364 89.0619 796.502 89.0619ZM841.524 47.1739H849.576L850.324 53.2899H850.896C852.627 51.2072 854.856 49.5792 857.584 48.4059C860.341 47.2326 863.216 46.6459 866.208 46.6459C867.909 46.6459 869.508 46.7926 871.004 47.0859V55.8419C869.567 55.5779 867.807 55.4459 865.724 55.4459C863.143 55.4459 860.517 55.9446 857.848 56.9419C855.179 57.9392 852.993 59.4206 851.292 61.3859V95.0459H841.524V47.1739ZM909.164 95.9259C900.921 95.9259 894.629 93.8432 890.288 89.6779C885.976 85.5126 883.82 79.3526 883.82 71.1979C883.82 63.0139 886.093 56.8392 890.64 52.6739C895.216 48.5086 901.889 46.4259 910.66 46.4259C915.03 46.4259 919.049 46.9246 922.716 47.9219V55.7099C920.692 55.2406 918.8 54.8886 917.04 54.6539C915.28 54.4192 913.432 54.3019 911.496 54.3019C905.482 54.3019 901.024 55.6512 898.12 58.3499C895.245 61.0486 893.808 65.2872 893.808 71.0659C893.808 76.8739 895.172 81.1566 897.9 83.9139C900.657 86.6712 904.734 88.0499 910.132 88.0499C912.009 88.0499 913.93 87.8886 915.896 87.5659C917.861 87.2139 920.134 86.6712 922.716 85.9379V93.7259C918.55 95.1926 914.033 95.9259 909.164 95.9259ZM941.796 23.9419H951.564V52.2779H952.048C954.248 50.3712 956.756 48.9192 959.572 47.9219C962.417 46.9246 965.395 46.4259 968.504 46.4259C974.019 46.4259 978.375 47.9952 981.572 51.1339C984.769 54.2432 986.368 59.0686 986.368 65.6099V95.0459H976.6V66.0939C976.6 62.0459 975.661 59.1566 973.784 57.4259C971.936 55.6952 969.237 54.8299 965.688 54.8299C963.048 54.8299 960.481 55.3286 957.988 56.3259C955.524 57.2939 953.383 58.7312 951.564 60.6379V95.0459H941.796V23.9419Z" fill="#14C290"/>
+<rect x="0.205322" y="14.873" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="14.679" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="14.679" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="86.6055" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="86.6055" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="101.284" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="58.7158" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="58.7158" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="87.1592" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="87.1592" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="73.0205" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="73.0205" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="87.3262" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="87.3262" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="101.631" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="101.631" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="101.284" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="15.0187" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.2668" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.2668" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.445" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.7506" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="100.716" y="14.873" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+</svg></a>
+<h1><span class="ticker">CABK.MC</span> <span class="rating level">Hold</span></h1>
+<p class="date">Analysis of 2026-11-19</p>
+<dl class="run"><div class="detail"><dt>Generated</dt><dd>2026-11-19 21:16</dd></div><div class="detail"><dt>Deep model</dt><dd><span class="field">google</span> <span class="field">gemini-3.1-flash-lite</span></dd></div><div class="detail"><dt>Quick model</dt><dd><span class="field">google</span> <span class="field">gemini-3.1-flash-lite</span></dd></div><div class="detail"><dt>Analysts</dt><dd><span class="field">market</span> <span class="field">news</span> <span class="field">fundamentals</span></dd></div><div class="detail"><dt>Debate rounds</dt><dd><span class="group"><span class="name">research</span><span class="field">1</span></span> <span class="group"><span class="name">risk</span><span class="field">1</span></span></dd></div><div class="detail"><dt>Data vendors</dt><dd><span class="group"><span class="name">Prices</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Indicators</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Fundamentals</span><span class="field">yfinance</span></span> <span class="group"><span class="name">News</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Macro</span><span class="field">fred</span></span> <span class="group"><span class="name">Prediction markets</span><span class="field">polymarket</span></span> <span class="group"><span class="name">get_news</span><span class="field">ibex_sample</span></span> <span class="group"><span class="name">get_global_news</span><span class="field">ibex_sample</span></span></dd></div><div class="detail"><dt>Version</dt><dd>TradingAgents 0.7.1</dd></div></dl>
+</header>
+<nav class="contents" aria-label="Sections"><ul><li><a href="#s1"><span class="num">I</span> <span class="label">Analyst Team Reports</span></a><ul><li><a href="#s1-1"><span class="bar"></span> <span class="label">Market Analyst</span></a></li><li><a href="#s1-2"><span class="bar"></span> <span class="label">News Analyst</span></a></li><li><a href="#s1-3"><span class="bar"></span> <span class="label">Fundamentals Analyst</span></a></li></ul></li><li><a href="#s2"><span class="num">II</span> <span class="label">Research Team Decision</span></a><ul><li><a href="#s2-1"><span class="bar"></span> <span class="label">Bull Researcher</span></a></li><li><a href="#s2-2"><span class="bar"></span> <span class="label">Bear Researcher</span></a></li><li><a href="#s2-3"><span class="bar"></span> <span class="label">Research Manager</span></a></li></ul></li><li><a href="#s3"><span class="num">III</span> <span class="label">Trading Team Plan</span></a><ul><li><a href="#s3-1"><span class="bar"></span> <span class="label">Trader</span></a></li></ul></li><li><a href="#s4"><span class="num">IV</span> <span class="label">Risk Management Team Decision</span></a><ul><li><a href="#s4-1"><span class="bar"></span> <span class="label">Aggressive Analyst</span></a></li><li><a href="#s4-2"><span class="bar"></span> <span class="label">Conservative Analyst</span></a></li><li><a href="#s4-3"><span class="bar"></span> <span class="label">Neutral Analyst</span></a></li></ul></li><li><a href="#s5"><span class="num">V</span> <span class="label">Portfolio Manager Decision</span></a><ul><li><a href="#s5-1"><span class="bar"></span> <span class="label">Portfolio Manager</span></a></li></ul></li></ul></nav>
+<main>
+<section id="s1"><h2>I. Analyst Team Reports</h2><h3 id="s1-1">Market Analyst</h3>
+<p>El análisis técnico y fundamental de <strong>CaixaBank, S.A. (CABK.MC)</strong>, con fecha de corte al 19 de noviembre de 2026, refleja una entidad financiera consolidada con una valoración que sugiere espacio para el crecimiento, aunque enfrenta desafíos de sentimiento externo.</p>
+<h6>Análisis Técnico</h6>
+<p>El precio de cierre de 11,70 EUR sitúa a <strong>CABK.MC</strong> en un punto técnico interesante:</p>
+<ul>
+<li><strong>Tendencia:</strong> Se mantiene por debajo de su media móvil de 50 sesiones (12,00 EUR), pero por encima de la de 200 sesiones (11,48 EUR), lo que indica una fase de consolidación a largo plazo tras una corrección desde los máximos del año.</li>
+<li><strong>Momentum:</strong> El RSI de 14 días en 46,26 no muestra condiciones ni de sobrecompra ni de sobreventa, sugiriendo una falta de dirección clara. El indicador MACD (0,055) se encuentra ligeramente por encima de su línea de señal (0,030), lo cual es una señal constructiva menor que invita a la cautela.</li>
+<li><strong>Volatilidad:</strong> Con una volatilidad del 28,99% y un <em>drawdown</em> del -12,02%, el valor muestra una sensibilidad moderada a las noticias de mercado.</li>
+</ul>
+<h6>Análisis Fundamental y Contexto</h6>
+<ul>
+<li><strong>Valoración:</strong> La acción cotiza a un <em>Forward PE</em> de 10,77, lo que la posiciona ligeramente por encima de la mediana de sus comparables (10,25), con un ratio de 1,05. Su rentabilidad por dividendo del 4,44% es un punto fuerte, respaldado por un <em>payout ratio</em> razonable del 56,81%.</li>
+<li><strong>Crecimiento:</strong> La empresa reporta un crecimiento de beneficios del 23,3% y un ROE sólido del 16,52%, lo que valida la eficiencia operativa a pesar del entorno de tipos de interés cambiantes mencionados en titulares recientes (El Boletín, 16 de noviembre de 2026).</li>
+<li><strong>Riesgos:</strong> La prensa destaca incertidumbre política y su impacto en el valor (EL PAÍS, 19 de noviembre de 2026), lo que explica la presión vendedora que ha llevado a un <em>return</em> de 63 días negativo (-10,30%).</li>
+</ul>
+<h6>Resumen de hallazgos</h6>
+<p>El valor tiene una ventaja fundamental sólida, pero el sentimiento del mercado, condicionado por factores geopolíticos y regulatorios en la eurozona, mantiene el precio en un rango lateral. El consenso de mercado apunta a un precio objetivo medio de 13,28 EUR, lo que representaría un potencial de subida del 13,5%.</p>
+<p><strong>Faltantes de información:</strong> No se dispone de datos de flujo de caja libre ni operativo para 2026, lo cual limita la capacidad de evaluar la solvencia inmediata en el ejercicio actual frente a la deuda de 54.370 millones de EUR.</p>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Indicador / Métrica</th>
+<th style="text-align:left">Valor</th>
+<th style="text-align:left">Interpretación</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Precio Actual</td>
+<td style="text-align:left">11,70 EUR</td>
+<td style="text-align:left">Neutral</td>
+</tr>
+<tr>
+<td style="text-align:left">SMA 200</td>
+<td style="text-align:left">11,48 EUR</td>
+<td style="text-align:left">Soporte estructural</td>
+</tr>
+<tr>
+<td style="text-align:left">RSI 14</td>
+<td style="text-align:left">46,26</td>
+<td style="text-align:left">Zona neutral</td>
+</tr>
+<tr>
+<td style="text-align:left">Forward PE</td>
+<td style="text-align:left">10,77</td>
+<td style="text-align:left">Valoración razonable</td>
+</tr>
+<tr>
+<td style="text-align:left">Dividend Yield</td>
+<td style="text-align:left">4,44%</td>
+<td style="text-align:left">Atractivo</td>
+</tr>
+<tr>
+<td style="text-align:left">Consenso Upside</td>
+<td style="text-align:left">+13,5%</td>
+<td style="text-align:left">Potencial alcista</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Rating</strong>: HOLD
+FINAL TRANSACTION PROPOSAL: Mantener posiciones actuales. La recomendación de compra se activaría si el precio consolida por encima de la SMA 50 (12,00 EUR) con un incremento sostenido en el volumen, confirmando la superación de la incertidumbre política. Se recomienda prudencia ante la volatilidad macroeconómica de la eurozona.</p>
+<h3 id="s1-2">News Analyst</h3>
+<h6>Informe de Análisis: CaixaBank, S.A. (CABK.MC)</h6>
+<p><strong>Fecha de análisis:</strong> 19 de noviembre de 2026</p>
+<h6>1. Resumen Ejecutivo y Estado Actual</h6>
+<p>CaixaBank (<code>CABK.MC</code>) muestra una valoración fundamental sólida con un PER a futuro de 10.78x, operando ligeramente por encima de la mediana de sus pares (10.26x). A pesar de una ligera caída del -0.13% en la sesión actual, la acción mantiene una tendencia alcista anual significativa (+32.82%). La entidad presenta una estructura financiera robusta con un retorno sobre el patrimonio (ROE) del 16.52% y una sólida política de dividendos (yield del 4.44%).</p>
+<h6>2. Entorno Macroeconómico y Contexto de Mercado</h6>
+<p>El contexto actual está marcado por la cautela en la eurozona. Las noticias recientes (16-19 de noviembre de 2026) destacan:</p>
+<ul>
+<li><strong>Política Monetaria:</strong> Advertencias del BCE sobre el encarecimiento de la financiación como freno al crecimiento.</li>
+<li><strong>Inflación:</strong> Persiste la presión inflacionaria en Europa, lo que condiciona los tipos de interés reales y el rendimiento del ahorro.</li>
+<li><strong>Riesgo Específico:</strong> El mercado observa con atención la incertidumbre política en España, donde titulares de <em>El País</em> (19/11/2026) discuten el impacto potencial en la valoración del rescate de Bankia ante cambios en la estructura de propiedad estatal de la entidad.</li>
+</ul>
+<h6>3. Análisis Técnico y Fundamental</h6>
+<ul>
+<li><strong>Técnico:</strong> La acción cotiza a 11.70 EUR, situándose muy cerca de su media móvil de 20 días (11.71 EUR). El RSI (46.26) sugiere una zona neutral, sin sobrecompra ni sobreventa evidente. El MACD se sitúa en terreno positivo (0.055), indicando una tendencia constructiva a pesar de la volatilidad reciente del 28.99%.</li>
+<li><strong>Fundamental:</strong> El consenso de analistas sitúa el precio objetivo medio en 13.29 EUR, lo que implica una potencial revalorización del 13.50%. El ratio precio-valor contable (P/B) de 2.05 refleja la valoración premium del mercado sobre sus activos, respaldado por un crecimiento de beneficios del 23.3%.</li>
+</ul>
+<h6>4. Riesgos y Observaciones</h6>
+<ul>
+<li><strong>Datos faltantes:</strong> No se dispone de información detallada sobre flujos de caja operativos (operating cashflow) o EBITDA para los periodos más recientes, lo que limita un análisis exhaustivo de la capacidad de generación de caja bruta.</li>
+<li><strong>Contradicciones:</strong> Existe una divergencia entre el rendimiento anual positivo (+32.8%) y la reciente tendencia a corto plazo (retorno de 63 días negativo en -10.3%), lo que sugiere una corrección tras una subida prolongada.</li>
+</ul>
+<h6>5. Tabla de Síntesis</h6>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Indicador</th>
+<th style="text-align:left">Valor / Estado</th>
+<th style="text-align:left">Comentario</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Precio</td>
+<td style="text-align:left">11.70 EUR</td>
+<td style="text-align:left">Cercano a SMA20</td>
+</tr>
+<tr>
+<td style="text-align:left">ROE</td>
+<td style="text-align:left">16.52%</td>
+<td style="text-align:left">Alta rentabilidad sobre capital</td>
+</tr>
+<tr>
+<td style="text-align:left">Dividend Yield</td>
+<td style="text-align:left">4.44%</td>
+<td style="text-align:left">Atractivo para inversores de renta</td>
+</tr>
+<tr>
+<td style="text-align:left">Upside Consenso</td>
+<td style="text-align:left">+13.50%</td>
+<td style="text-align:left">Potencial alcista según 21 analistas</td>
+</tr>
+<tr>
+<td style="text-align:left">RSI 14</td>
+<td style="text-align:left">46.26</td>
+<td style="text-align:left">Zona neutral</td>
+</tr>
+<tr>
+<td style="text-align:left">PER (Forward)</td>
+<td style="text-align:left">10.78x</td>
+<td style="text-align:left">Valoración razonable frente al sector</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Rating</strong>: HOLD (Debido a la proximidad a la resistencia técnica y la incertidumbre macroeconómica y política mencionada en la prensa reciente).</p>
+<p>FINAL TRANSACTION PROPOSAL: Mantener posiciones existentes; no se recomienda incrementar exposición hasta superar con claridad la resistencia de la SMA50 (12.01 EUR) ante la volatilidad política actual.</p>
+<h3 id="s1-3">Fundamentals Analyst</h3>
+<p>Este informe analiza la situación fundamental de <strong>CaixaBank, S.A. (CABK.MC)</strong> a fecha de 19 de noviembre de 2026, basándose en la información financiera y de mercado proporcionada.</p>
+<h6>Análisis Fundamental de CaixaBank (CABK.MC)</h6>
+<h6>1. Perfil de la Compañía</h6>
+<p>CaixaBank es una entidad líder en el sector de servicios financieros en España. Su modelo de negocio se centra en la banca minorista, con una fuerte presencia regional y una alta capacidad de generación de ingresos recurrentes. La entidad cotiza en la Bolsa de Madrid (MCE) y forma parte del índice ^IBEX.</p>
+<h6>2. Estado Financiero y Desempeño</h6>
+<ul>
+<li><strong>Resultados Recientes:</strong> Según los estados financieros suministrados, la entidad ha mostrado una trayectoria de crecimiento sólida. Los ingresos totales pasaron de 15.874 millones de EUR en 2023 a 16.762 millones de EUR en 2025. El beneficio neto también ha experimentado una tendencia positiva, alcanzando los 5.891 millones de EUR al cierre del ejercicio 2025.</li>
+<li><strong>Valoración:</strong> Con un PE (Price-to-Earnings) <em>trailing</em> de 12,32 y un <em>forward</em> PE de 10,78, la acción presenta múltiplos de valoración moderados en comparación con sus pares regionales (ratio de 1,05). La rentabilidad por dividendo se sitúa en un atractivo 4,44%, lo cual es un factor clave para los inversores de renta variable.</li>
+<li><strong>Solidez del Balance:</strong> La entidad mantiene una posición patrimonial robusta, con unos fondos propios de 38.510 millones de EUR y un activo total de 664.040 millones de EUR a cierre de 2025. El ROE (Retorno sobre Fondos Propios) del 16,5% refleja una eficiencia operativa destacable.</li>
+</ul>
+<h6>3. Análisis Técnico y de Mercado</h6>
+<ul>
+<li><strong>Situación Técnica:</strong> A fecha de hoy, la cotización es de 11,70 EUR. El indicador RSI(14) en 46,26 sugiere una zona neutral, sin sobrecompra ni sobreventa extrema. El precio se encuentra cerca de su media móvil de 20 días (11,71 EUR), lo que indica una fase de consolidación.</li>
+<li><strong>Contexto del Sector:</strong> Las noticias recientes (como las de <em>El País</em> y <em>Finanzas.com</em>) subrayan la atención del mercado sobre la estructura accionarial y las expectativas de los analistas, que sitúan un precio objetivo medio de 13,28 EUR, lo que implica un potencial alcista (upside) del 13,5%.</li>
+</ul>
+<h6>4. Riesgos y Observaciones</h6>
+<ul>
+<li><strong>Incertidumbre Política:</strong> Los titulares recientes mencionan el posible impacto de cambios en la estructura accionarial (participación del Estado), lo cual añade una capa de volatilidad política que los inversores deben monitorear.</li>
+<li><strong>Macroeconomía:</strong> El BCE advierte sobre el encarecimiento de la financiación como factor que podría frenar el crecimiento en la eurozona, lo cual afecta directamente a los márgenes bancarios a largo plazo.</li>
+<li><strong>Datos faltantes:</strong> No se dispone de información detallada sobre flujos de caja operativos actuales (2026), por lo que el análisis de liquidez inmediata se basa en proyecciones y datos históricos de 2025.</li>
+</ul>
+<h6>Perspectiva para el Trader</h6>
+<p>Con un consenso de analistas que sugiere un potencial alcista del 13,5% y una rentabilidad por dividendo del 4,4%, CABK.MC se presenta como una opción de valor estable. Sin embargo, se recomienda cautela ante la consolidación técnica actual y el ruido político mencionado en los medios.</p>
+<p><strong>Rating</strong>: HOLD</p>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Concepto</th>
+<th style="text-align:left">Valor / Detalle</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Precio Actual</td>
+<td style="text-align:left">11,70 EUR</td>
+</tr>
+<tr>
+<td style="text-align:left">Precio Objetivo Medio</td>
+<td style="text-align:left">13,28 EUR</td>
+</tr>
+<tr>
+<td style="text-align:left">Potencial Alcista</td>
+<td style="text-align:left">+13,50%</td>
+</tr>
+<tr>
+<td style="text-align:left">Dividend Yield</td>
+<td style="text-align:left">4,44%</td>
+</tr>
+<tr>
+<td style="text-align:left">ROE</td>
+<td style="text-align:left">16,52%</td>
+</tr>
+<tr>
+<td style="text-align:left">Forward PE</td>
+<td style="text-align:left">10,78</td>
+</tr>
+<tr>
+<td style="text-align:left">Recomendación</td>
+<td style="text-align:left">Mantener / Observar</td>
+</tr>
+</tbody>
+</table></div>
+<p>FINAL TRANSACTION PROPOSAL: No trade execution suggested. This report is for research purposes only. The user should evaluate the political risks surrounding the state-owned stake before adjusting any hypothetical portfolio allocations.</p>
+</section><section id="s2"><h2>II. Research Team Decision</h2><h3 id="s2-1">Bull Researcher</h3>
+<p>Bull Analyst: Es un placer abrir este debate. Entiendo perfectamente la cautela que algunos analistas pueden sentir dada la volatilidad reciente, pero como analista alcista de <strong>CABK.MC</strong>, sostengo que estamos ante una de las entidades con los fundamentales más sólidos de la eurozona, cuyo precio actual es una oportunidad de entrada privilegiada.</p>
+<h6>Mi Argumento: La Fortaleza Operativa y el Valor Intrínseco</h6>
+<p>Si miramos más allá del &quot;ruido&quot; mediático, los datos de <code>CABK.MC</code> hablan por sí solos:</p>
+<ol>
+<li><strong>Rentabilidad y Eficiencia Superior:</strong> Con un ROE del 16,52% y una trayectoria de crecimiento de beneficios del 23,3% anual, estamos ante un banco que no solo sobrevive al entorno actual, sino que prospera. La eficiencia operativa de CaixaBank es innegable.</li>
+<li><strong>Valoración Atractiva:</strong> Cotizando a un <em>Forward PE</em> de 10,78x, estamos pagando un precio muy razonable por un líder de mercado. El consenso de analistas, con un precio objetivo de 13,28 EUR, nos marca un <em>upside</em> potencial del 13,5%. Para un inversor a largo plazo, este margen de seguridad, sumado a una generosa rentabilidad por dividendo del 4,44%, es un &quot;colchón&quot; de valor difícil de ignorar.</li>
+<li><strong>Liderazgo de Mercado:</strong> <code>CABK.MC</code> posee una ventaja competitiva única: su capilaridad y dominio en la banca minorista en España. No es solo un banco; es el eje financiero de millones de hogares y empresas, lo que le otorga una resiliencia que entidades con un modelo menos diversificado envidiarían.</li>
+</ol>
+<h6>Refutando el Escenario Bearish</h6>
+<p>El argumento bajista suele centrarse en dos puntos: la incertidumbre política (el caso de la participación estatal) y el endurecimiento de la política monetaria del BCE. Permítanme rebatir esto:</p>
+<ul>
+<li><strong>Sobre el Ruido Político:</strong> Los titulares sobre cambios en la estructura accionarial son, por definición, especulación política. El mercado tiende a castigar la incertidumbre, pero los fundamentales de <code>CABK.MC</code> —su balance sólido de 664.040 millones de EUR en activos— no cambian por una noticia de prensa. Una corrección por ruido es, históricamente, un regalo para el inversor que sabe mirar el valor subyacente.</li>
+<li><strong>Sobre el BCE y el Crecimiento:</strong> Es cierto que el encarecimiento de la financiación presiona el crecimiento, pero para un banco de la escala de <code>CABK.MC</code>, la capacidad de gestión de márgenes en un entorno de tipos de interés normalizados sigue siendo superior a la fase de tipos negativos. Hemos pasado de un entorno de supervivencia a uno de rentabilidad real.</li>
+</ul>
+<h6>Conclusión</h6>
+<p>Estamos en una fase de consolidación técnica necesaria tras una subida del 32,8% en el último año. El RSI en 46,26 nos indica que el activo ha &quot;respirado&quot; y no está sobrecomprado. La media móvil de 200 días (11,48 EUR) está actuando como un soporte estructural robusto que ha sido respetado.</p>
+<p>Invito al oso a considerar que, mientras otros se distraen con titulares de política, el mercado de capitales premia la rentabilidad, la solvencia y el dividendo creciente. <code>CABK.MC</code> entrega las tres.</p>
+<p><strong>Rating</strong>: BUY</p>
+<p>FINAL TRANSACTION PROPOSAL: Mantener posiciones largas y aprovechar cualquier retroceso hacia el soporte de los 11,50 EUR para incrementar la exposición, con un objetivo de precio en los 13,30 EUR en el medio plazo.</p>
+<h3 id="s2-2">Bear Researcher</h3>
+<p>Bear Analyst: Es fascinante escuchar el optimismo del lado alcista, pero creo que debemos dejar de lado el entusiasmo por los números &quot;en papel&quot; y observar la realidad táctica y macroeconómica que enfrenta <strong>CABK.MC</strong>. Usted llama a esto una &quot;oportunidad de entrada&quot;, pero yo veo una trampa de valor en ciernes.</p>
+<h6>Mi Argumento: La Vulnerabilidad tras la Fachada</h6>
+<ol>
+<li>
+<p><strong>La Fragilidad del Entorno Regulatorio y Político:</strong> Usted minimiza el &quot;ruido&quot; sobre la participación estatal, pero en el sector bancario, la política <em>es</em> riesgo operativo. La posibilidad de una reestructuración de la propiedad estatal de Bankia dentro de <strong>CABK.MC</strong> no es solo especulación; es un riesgo de gobernanza que puede penalizar el múltiplo de valoración durante años. Cuando el Estado es un accionista de referencia con agendas políticas, el valor para el accionista minoritario suele quedar en segundo plano.</p>
+</li>
+<li>
+<p><strong>Divergencia Técnica Preocupante:</strong> Usted menciona la subida anual del 32,8%, pero ignora la debilidad inmediata. Un retorno a 63 días de -10,3% y una cotización que lucha por mantenerse por encima de la media móvil de 50 sesiones (12,00 EUR) no grita &quot;oportunidad&quot;, sino &quot;agotamiento de tendencia&quot;. Si el mercado tuviera tanta fe en los fundamentales como usted, el valor no estaría perdiendo tracción frente a su media reciente.</p>
+</li>
+<li>
+<p><strong>La Ilusión de los Márgenes:</strong> El BCE ha sido claro: el encarecimiento de la financiación está frenando el crecimiento de la eurozona. Para un banco regional como <strong>CABK.MC</strong>, un estancamiento económico generalizado es una sentencia de muerte para la originación de nuevos créditos. ¿De qué sirve una alta eficiencia operativa si el volumen de negocio se contrae por una demanda ahogada?</p>
+</li>
+</ol>
+<h6>Refutando al Bull Analyst</h6>
+<ul>
+<li><strong>Sobre el &quot;Colchón de Valor&quot;:</strong> Usted califica el dividendo del 4,44% como un &quot;colchón&quot;. Yo lo veo como un recurso necesario para retener inversores en un activo que, por otras vías, no ofrece crecimiento de precio. Si la acción cae por debajo de sus soportes críticos debido a la volatilidad macro, el dividendo no compensará la erosión del capital.</li>
+<li><strong>Sobre los Fundamentales:</strong> Cita un ROE del 16,52%. Es una métrica excelente, pero es una métrica de <em>ciclo</em>. Los bancos son cíclicos por naturaleza, y estamos claramente en una fase de madurez del ciclo donde los riesgos a la baja están subestimados. El mercado ya está empezando a descontar este cansancio, como refleja su caída relativa de -5,77 puntos porcentuales en los últimos 63 días.</li>
+</ul>
+<h6>Conclusión</h6>
+<p>La complacencia es el mayor enemigo del inversor. <strong>CABK.MC</strong> está operando en un entorno de máxima incertidumbre política y una desaceleración económica advertida por las autoridades monetarias. Comprar ahora, esperando una subida hacia los 13,30 EUR cuando el precio lucha por mantener los 11,70 EUR, es intentar pescar en aguas donde la tormenta acaba de empezar.</p>
+<p><strong>Rating</strong>: UNDERWEIGHT</p>
+<p>FINAL TRANSACTION PROPOSAL: Mantenerse al margen o reducir posiciones. La relación riesgo-beneficio es desfavorable; no existe un catalizador claro a corto plazo que justifique ignorar la presión política y el deterioro de las condiciones crediticias. Esperar una estabilización por debajo de los 11,00 EUR si el sentimiento empeora.</p>
+<h3 id="s2-3">Research Manager</h3>
+<p><strong>Recommendation</strong>: Hold</p>
+<p><strong>Rationale</strong>: La tesis alcista destaca una rentabilidad superior (ROE 16,5%) y una valoración razonable con un dividendo atractivo, mientras que la tesis bajista señala riesgos de gobernanza, incertidumbre política sobre la participación estatal y un deterioro en el impulso técnico reciente. Tras evaluar ambos lados, considero que el conflicto entre los fundamentales sólidos y los riesgos macro/políticos justifica una postura neutral. El valor muestra resiliencia en su media móvil de 200 días (11,49 EUR), pero carece de un catalizador inmediato para romper su consolidación ante la presión de la media móvil de 50 días (12,01 EUR) y la debilidad del momentum a 63 días. La estrategia de esperar confirma que no hay consenso suficiente para tomar una dirección agresiva en este momento.</p>
+<p><strong>Strategic Actions</strong>: Mantener la exposición actual. Para los traders, observar la zona de soporte estructural de 11,50 EUR; si se rompe con volumen, considerar una reducción del 0,5% de la asignación estándar para mitigar riesgo bajista. Si el precio supera los 12,10 EUR con confirmación de volumen, reevaluar el caso para un incremento táctico del 0,25% de la asignación hacia el objetivo técnico de 13,30 EUR.</p>
+</section><section id="s3"><h2>III. Trading Team Plan</h2><h3 id="s3-1">Trader</h3>
+<p><strong>Action</strong>: Hold</p>
+<p><strong>Reasoning</strong>: La acción se encuentra en una fase de consolidación técnica atrapada entre su media móvil de 200 días (11,49 EUR) y su media móvil de 50 días (12,00 EUR). Aunque los fundamentales son sólidos con un ROE del 16,52% y una valoración atractiva, el sentimiento de mercado se ve afectado por riesgos políticos y una falta de impulso positivo. La postura de mantener es la más prudente hasta observar una ruptura definitiva de estos niveles críticos.</p>
+<p><strong>Entry Price</strong>: 12.1</p>
+<p><strong>Stop Loss</strong>: 11.45</p>
+<p><strong>Position Sizing</strong>: Mantener exposición actual, sin nuevas compras.</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+</section><section id="s4"><h2>IV. Risk Management Team Decision</h2><h3 id="s4-1">Aggressive Analyst</h3>
+<p>Aggressive Analyst: Escuchen bien, porque la parálisis por análisis es el cementerio de las grandes rentabilidades. Mis colegas analistas, tanto el conservador como el neutral, están tan obsesionados con la &quot;consolidación técnica&quot; y el ruido político que están dejando pasar por alto una oportunidad de valor excepcional en <code>CABK.MC</code>.</p>
+<p>¿De verdad vamos a ignorar un ROE del 16,52% por un titular de prensa sobre la estructura accionarial? El mercado es miope y está castigando a CaixaBank por incertidumbres políticas que, a largo plazo, son irrelevantes frente a su capacidad operativa. Mientras otros esperan a que el precio supere con timidez la media móvil de 50 días para &quot;confirmar&quot; una tendencia, los inversores audaces ya estamos posicionados. La consolidación actual entre los 11,49 EUR y 12,00 EUR no es una señal de debilidad; es una compresión de resorte lista para dispararse.</p>
+<p>El conservador dirá que &quot;hay que proteger el capital&quot;, pero yo les pregunto: ¿qué protección hay en perderse un potencial alcista del 13,5% apoyado por 21 analistas? El neutral prefiere &quot;esperar a ver qué pasa&quot;, pero mientras ellos esperan, la acción ya ofrece un dividendo del 4,44%. Es un activo que paga por tener paciencia, incluso en entornos macro tensos.</p>
+<p>Descartar la compra ahora por miedo a la volatilidad del 28,99% es un error estratégico. Esa volatilidad es precisamente nuestra ventaja competitiva. Los fundamentales de <code>CABK.MC</code> son robustos, su ratio <em>forward</em> PE de 10,77 es razonable frente a sus pares y la empresa está demostrando una eficiencia operativa indiscutible. La supuesta &quot;falta de impulso&quot; no es más que el mercado digiriendo noticias que no alteran la solvencia del banco.</p>
+<p>Mi postura es clara: dejar de lado la prudencia excesiva y aprovechar este rango de precios para acumular. Si el mercado nos ofrece un descuento sobre el valor intrínseco basándose en miedo infundado, es nuestro deber comprar antes de que el impulso técnico confirme lo que los fundamentales ya están gritando. No estamos aquí para seguir al rebaño, estamos aquí para anticiparnos al movimiento.</p>
+<p><strong>Rating</strong>: BUY</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>BUY</strong> (Incrmentar exposición aprovechando la consolidación técnica actual, antes de que el mercado rompa la resistencia de los 12,00 EUR).</p>
+<h3 id="s4-2">Conservative Analyst</h3>
+<p>Conservative Analyst: Colega, tu entusiasmo es admirable, pero en la gestión de activos, el entusiasmo suele ser el precursor de una gestión de riesgos deficiente. Dices que los fundamentales &quot;gritan&quot; compra, pero pareces ignorar que el mercado es un mecanismo de descuento que integra la información mucho antes de lo que sugieren tus indicadores. Cuando calificas el riesgo político en <code>CABK.MC</code> como &quot;irrelevante&quot;, cometes un error táctico peligroso: el mercado financiero es extremadamente sensible a la incertidumbre regulatoria y accionarial, especialmente en entidades donde el Estado mantiene una influencia histórica.</p>
+<p>Ignorar la consolidación técnica no es &quot;anticiparse&quot;, es asumir un riesgo de coste de oportunidad innecesario. Estás comprando en un rango donde la media móvil de 50 días (12,00 EUR) actúa como una resistencia técnica clara, y el RSI en 46,26 no muestra ninguna señal de giro alcista inminente. ¿Por qué exponer capital de la firma ahora, cuando el <em>drawdown</em> actual es del -12,02% y el <em>momentum</em> a 63 días es negativo? Comprar en medio de una corrección técnica, sin una ruptura confirmada de la resistencia, es intentar coger un cuchillo cayendo.</p>
+<p>Tu argumento sobre el dividendo del 4,44% como justificación para comprar &quot;ya&quot; carece de visión de gestión de riesgos: el dividendo no compensa una posible caída del precio si el sentimiento de mercado se deteriora más por las advertencias del BCE sobre la financiación en la eurozona. Mi objetivo no es solo capturar rentabilidad, sino preservar el valor del activo. El consenso de analistas habla de un objetivo de 13,28 EUR, sí, pero eso es una estimación, no una garantía. Si el mercado nos ofrece una consolidación lateral, la estrategia más prudente es esperar a que esa compresión de resorte que mencionas se resuelva a nuestro favor, no apostar a que lo hará mediante una ruptura alcista que aún no tiene volumen de confirmación.</p>
+<p>Un inversor conservador no busca &quot;ser el primero&quot; en entrar, sino estar en la posición correcta con la menor probabilidad de pérdida. Mantener <code>CABK.MC</code> sin añadir exposición no es inacción; es una decisión activa para proteger nuestra cartera ante un escenario donde la política monetaria restrictiva y los riesgos internos en España aún no han terminado de drenar la volatilidad del valor. Prefiero esperar a que el precio confirme su tendencia superando los 12,00 EUR con convicción, que comprometer nuestra liquidez en un nivel donde la presión vendedora aún es evidente.</p>
+<p><strong>Rating</strong>: HOLD</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+<h3 id="s4-3">Neutral Analyst</h3>
+<p>Neutral Analyst: Es fascinante observar cómo ambos analistas se sitúan en extremos opuestos del espectro, cada uno con una miopía característica de su estilo.</p>
+<p>Al analista agresivo le diría que tu optimismo ignora el principio fundamental de que &quot;el mercado puede permanecer irracional más tiempo del que tú puedes permanecer solvente&quot;. Catalogar el riesgo político en <code>CABK.MC</code> como &quot;irrelevante&quot; es una temeridad técnica. No estamos hablando de una simple fluctuación de mercado, sino de la incertidumbre sobre la propiedad estatal, algo que afecta directamente a la valoración del riesgo-país en la entidad. Comprar ahora, cuando el <em>momentum</em> a 63 días es negativo y estamos chocando contra la media móvil de 50 días, es convertir una estrategia de inversión en un juego de azar. El mercado no está &quot;digiriendo noticias&quot;, está ajustando expectativas ante un BCE que advierte sobre el encarecimiento de la financiación. No es que el mercado sea &quot;miope&quot;, es que tú estás ignorando la señal que el precio, democráticamente, te está dando.</p>
+<p>Por otro lado, colega conservador, tu miedo a la parálisis es casi tan perjudicial como la imprudencia de tu contraparte. Argumentas que comprar ahora es &quot;coger un cuchillo cayendo&quot;, pero <code>CABK.MC</code> no está en caída libre; está en una consolidación técnica saludable tras un año de retornos positivos del 32,8%. El riesgo no es solo perder dinero, es perder la oportunidad de capturar un dividendo del 4,44% mientras se espera una ruptura técnica que, en condiciones de baja volatilidad, podría nunca producirse de la forma &quot;limpia&quot; que esperas. Tu enfoque de &quot;esperar a los 12,00 EUR&quot; es una receta perfecta para entrar tarde en el movimiento, cuando la mayor parte del recorrido ya haya sido capturada por quienes sí tuvieron la visión de valorar el ROE del 16,52%.</p>
+<p>Mi postura es la de una moderación estratégica. Ambos fallan al ver que <code>CABK.MC</code> es, actualmente, un activo de renta variable con características de renta fija por su dividendo, y que su consolidación es una oportunidad de &quot;arbitraje de tiempo&quot;. No es necesario comprar todo ahora (agresivo), pero tampoco es necesario estar totalmente fuera de la mesa (conservador). Mi estrategia es mantener la exposición, pero preparar una orden condicionada: si el precio rompe los 12,00 EUR con volumen confirmado, la tesis alcista se valida. Si el precio toca el soporte estructural de los 11,49 EUR (SMA 200), la valoración se vuelve tan atractiva que ignorar una pequeña recompra sería un error.</p>
+<p>No necesitamos &quot;anticipar&quot; el futuro ni &quot;esperar&quot; a que el mercado nos dé permiso. Necesitamos gestionar la posición. Mantener es la decisión correcta hoy, pero preparándose para actuar en ambos niveles críticos, no desde la parálisis, sino desde la ejecución técnica predefinida.</p>
+<p><strong>Rating</strong>: HOLD</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+</section><section id="s5"><h2>V. Portfolio Manager Decision</h2><h3 id="s5-1">Portfolio Manager</h3>
+<p><strong>Rating</strong>: Hold</p>
+<p><strong>Executive Summary</strong>: Mantener la posición actual dada la neutralidad técnica y la incertidumbre política. Se recomienda esperar a una ruptura confirmada de la resistencia de 12,10 EUR con volumen para aumentar exposición, o activar una reducción si el soporte de 11,50 EUR cede.</p>
+<p><strong>Investment Thesis</strong>: La decisión de mantener se basa en la convergencia de una valoración fundamental sólida (ROE 16,52%) con un entorno técnico de compresión lateral entre la SMA200 (11,49 EUR) y la SMA50 (12,01 EUR). Aunque el analista agresivo destaca correctamente la calidad operativa y el dividendo del 4,44% como anclaje de valor, el peso de la incertidumbre política reportada en prensa y la advertencia del BCE sobre costes de financiación justifican la prudencia del analista conservador. No existe un catalizador de volumen inmediato que rompa el actual equilibrio técnico; por tanto, la estrategia más eficiente es gestionar la posición mediante niveles de ejecución predefinidos en lugar de intentar predecir la dirección del mercado ante la actual volatilidad (29%). Un incremento del posicionamiento requeriría una ruptura clara de la resistencia mencionada, mientras que el riesgo de gobernanza y la posible presión vendedora por riesgos macro obligan a mantener una postura defensiva.</p>
+<p><strong>Price Target</strong>: 13.28524</p>
+<p><strong>Time Horizon</strong>: 3-6 meses</p>
+</section>
+</main>
+<footer class="credit"><a href="https://github.com/TauricResearch/TradingAgents" rel="noopener">TradingAgents</a> powered by <a class="brand" href="https://github.com/TauricResearch" rel="noopener">Tauric Research</a></footer>
+</div>
+<a class="to-top" href="#top">Top</a>
+</body>
+</html>

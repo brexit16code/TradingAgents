@@ -1,0 +1,9 @@
+**Rating**: Hold
+
+**Executive Summary**: Mantener la posición actual de ACX.MC, evitando compras agresivas dada la fragilidad del balance y el flujo de caja libre negativo. La estrategia debe ser defensiva; abstenerse de ampliar exposición hasta que se observe una mejora en la generación de caja operativa o un cruce positivo del MACD que confirme el fin de la tendencia bajista. Se recomienda establecer un stop-loss estricto en 14,85 EUR para proteger el capital ante una ruptura de soportes clave.
+
+**Investment Thesis**: El análisis se inclina por una postura de 'Hold' debido a la divergencia entre la valoración atractiva (Forward PE 9,78x) y la realidad financiera estructural. Aunque el Bull señala el potencial de crecimiento a largo plazo y la diversificación hacia el hidrógeno, el peso de la evidencia negativa es significativo: el flujo de caja libre es negativo (-155,27 millones de EUR) y el payout ratio (144,19%) sugiere una sostenibilidad del dividendo insostenible bajo las actuales condiciones de tipos de interés del BCE. El soporte técnico en 14,85 EUR es un punto crítico; su ruptura invalidaría la tesis de 'doble suelo' y expondría a la acción a riesgos de caída adicionales. En resumen, la falta de una confirmación técnica en el MACD y las presiones sobre el balance impiden una recomendación de compra, mientras que la valoración de mercado justifica mantener para los inversores actuales. Un cambio de rating a 'Buy' dependería de una mejora tangible en los resultados operativos y una reducción verificable del ratio de endeudamiento neto/EBITDA, actualmente situado en 3,15x.
+
+**Price Target**: 20.15
+
+**Time Horizon**: 6-12 meses

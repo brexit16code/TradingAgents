@@ -1,0 +1,9 @@
+**Action**: Hold
+
+**Reasoning**: La decisión de mantener (*Hold*) se fundamenta en el equilibrio entre la atractiva rentabilidad por dividendo del 5,64% —con un pago confirmado de 0,4 EUR en diciembre— y la fragilidad financiera evidenciada por un ratio de deuda neta sobre EBITDA de 6,15x. El precio actual de 17,53 EUR se encuentra en un punto de indecisión técnica: está consolidando por encima de sus medias móviles de 50 y 200 sesiones, pero carece de la fuerza necesaria para romper su resistencia inmediata en la media de 20 sesiones (17,79 EUR). Además, el hecho de que el precio de mercado actual sea ligeramente superior al precio objetivo medio de los analistas (17,18 EUR) sugiere que el potencial de revalorización a corto plazo es limitado y que gran parte del valor actual reside en la retribución al accionista. El arbitraje favorable en Perú es una noticia positiva, pero insuficiente para compensar, por sí sola, la necesidad de un desapalancamiento más agresivo en el actual entorno de tipos restrictivos.
+
+**Entry Price**: No se recomienda una nueva entrada. La estrategia actual es de permanencia, no de acumulación, dado que la relación riesgo-beneficio es neutral.
+
+**Stop Loss**: 16,30 EUR. Se sitúa ligeramente por debajo de la media móvil de 200 sesiones (16,41 EUR), que actúa como el soporte estructural más crítico. Una ruptura por debajo de este nivel invalidaría la tesis de estabilidad técnica de largo plazo.
+
+**Position Sizing**: Mantener la exposición actual. En un contexto hipotético de gestión de cartera, se sugiere que el peso de ENG.MC no exceda el 3-5% del total de la renta variable, dado el perfil de deuda elevado y el sector regulado, para evitar una sobreexposición a un solo activo del sector *Utilities*.

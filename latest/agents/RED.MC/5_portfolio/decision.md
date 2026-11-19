@@ -1,0 +1,9 @@
+**Rating**: Hold
+
+**Executive Summary**: Se recomienda mantener la posición actual en RED.MC, aprovechando el atractivo rendimiento por dividendo del 5% mientras el mercado absorbe el elevado apalancamiento financiero. No se aconseja incrementar exposición debido al limitado margen de revalorización respecto al consenso (3,24%) y los riesgos macroeconómicos advertidos por el BCE. La estrategia se basa en proteger el capital ante una valoración ajustada, estableciendo un seguimiento sobre el soporte de la media de 50 días en 15,15 EUR.
+
+**Investment Thesis**: La decisión de mantener se fundamenta en el equilibrio entre una estructura técnica alcista, con el precio consolidado sobre sus medias móviles de 50 y 200 días, y una situación financiera que presenta riesgos estructurales significativos. Si bien el agresivo plan de inversión hasta 2030 (destacado por el analista agresivo) justifica el CAPEX intensivo, la realidad contable de un flujo de caja libre negativo de 585 millones de EUR y una deuda neta cercana a 5x EBITDA crea una vulnerabilidad frente a las advertencias de financiación del BCE. El consenso de mercado sitúa el precio objetivo en 16,43 EUR, lo que implica un potencial alcista escaso que no compensa el riesgo de una corrección técnica si el entorno macro se deteriora. Un cambio de postura hacia 'Buy' requeriría una mejora demostrable en el perfil de deuda o una ruptura consistente por encima de los 16,50 EUR con volumen, mientras que un 'Sell' se activaría si el precio pierde el soporte de los 15,15 EUR o si el payout del 85,3% se ve amenazado por cambios regulatorios.
+
+**Price Target**: 16.43
+
+**Time Horizon**: 6-12 meses

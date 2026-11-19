@@ -1,0 +1,5 @@
+**Recommendation**: Hold
+
+**Rationale**: La tesis alcista se apoya en una valoración atractiva y un dividendo robusto, mientras que la tesis bajista señala con acierto el estancamiento de los ingresos y el riesgo de litigios como Repsol. Tras ponderar los argumentos, la evidencia técnica actual (RSI neutral, media de 200 días superada) sugiere una consolidación más que una ruptura. El riesgo legal es real, pero compensado por una estructura financiera manejable. Dado que el mercado está operando con cautela ante el ruido mediático, no hay una señal clara para incrementar significativamente la posición ni para liquidarla precipitadamente.
+
+**Strategic Actions**: Mantener la exposición actual para capturar el rendimiento del dividendo. Evitar compras incrementales hasta que el litigio con Repsol tenga un cauce legal más claro o se observe un repunte en el volumen que confirme una tendencia alcista firme. Si el precio testea el soporte de los 29.00 EUR sin señales de deterioro fundamental, reevaluar una entrada táctica menor; si perfora la media de 200 días con volumen, reducir posición para proteger capital.

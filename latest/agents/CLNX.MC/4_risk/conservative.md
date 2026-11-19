@@ -1,0 +1,12 @@
+
+Conservative Analyst: Debo intervenir ante este entusiasmo desmedido. Considerar que una ratio de deuda neta sobre EBITDA de 7,96x es una cifra menor o "mirar el retrovisor" es una imprudencia que pone en riesgo el capital de la firma. Los datos financieros son claros: estamos ante una empresa que aún registra beneficios netos negativos (-360 millones de euros en 2025). Ignorar el coste de esta deuda en un entorno donde el BCE mantiene una política restrictiva, tal como señalan las advertencias macroeconómicas de esta misma semana, es ignorar el riesgo de insolvencia operativa que conlleva el apalancamiento en infraestructuras.
+
+Al analista agresivo le pregunto: ¿qué margen de seguridad existe realmente si el BCE decide mantener los tipos más tiempo del esperado ante una inflación persistente? La infraestructura es un activo tangible, sí, pero es un activo intensivo en capital que requiere una refinanciación constante. Si el flujo de caja libre apenas logró ser positivo (525 millones en 2025 tras años de negatividad), cualquier incremento en los gastos financieros erosionará completamente ese margen. No es "ruido macro", es el coste de oportunidad real del capital en una Eurozona donde las letras del tesoro están captando el ahorro precisamente por su seguridad frente a esta volatilidad.
+
+Basar una estrategia de compra en un consenso de analistas (34,18 EUR) sin considerar que ese mismo consenso opera con una dispersión de precios que baja hasta los 21 EUR es temerario. El precio actual de 25,09 EUR no es un suelo garantizado; es un nivel técnico que, de perforarse tras haber incrementado la exposición, nos dejaría bloqueados en una posición con pérdidas latentes y sin catalizadores claros de momentum alcista. El RSI de 41,87 no grita "acumulación", sugiere debilidad.
+
+No estamos aquí para especular con rupturas técnicas que no se han producido; estamos aquí para proteger activos. Mantener una postura de "Hold" es la única opción responsable. No debemos aumentar la exposición a `CLNX.MC` hasta que la estructura financiera mejore y el precio demuestre una consolidación real por encima de la SMA200 (26,94 EUR). Cualquier otra acción es jugar con el riesgo en un valor que, a día de hoy, sigue bajo una presión estructural evidente.
+
+**Rating**: HOLD
+
+FINAL TRANSACTION PROPOSAL: **HOLD**

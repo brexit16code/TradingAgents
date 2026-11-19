@@ -1,30 +1,29 @@
-El análisis de **Acciona (ANA.MC)** refleja una situación de alta presión vendedora y un deterioro técnico significativo tras los recientes acontecimientos corporativos. A continuación, se presenta un desglose detallado basado en la información proporcionada al 18 de noviembre de 2026.
+El análisis actual de **ANA.MC** (Acciona, S.A.) revela una situación técnica y fundamental compleja, marcada por una reciente presión vendedora significativa y una reevaluación del mercado tras noticias corporativas.
 
 ### Análisis Técnico
-El valor muestra una tendencia bajista clara tras situarse por debajo de sus medias móviles clave:
-*   **Medias Móviles:** El precio actual de **197.30 EUR** se encuentra por debajo de la SMA20 (210.12 EUR), SMA50 (210.36 EUR) y la SMA200 (224.97 EUR). Este cruce generalizado bajo las medias de largo plazo confirma una tendencia bajista estructural.
-*   **Momentum y Volatilidad:** El **RSI(14)** se sitúa en **37.42**, lo que indica que el valor no está técnicamente sobrevendido (umbral <30), pero muestra una debilidad persistente en la presión compradora. El **MACD** (-1.72) se encuentra por debajo de su línea de señal (0.07), lo que refuerza el sesgo negativo.
-*   **Desempeño:** La acción ha sufrido una caída acumulada importante con un *drawdown* del **29.10%** desde sus máximos. La volatilidad implícita del **34.57%** refleja una elevada incertidumbre en el mercado.
+*   **Tendencia:** `ANA.MC` muestra una tendencia bajista clara. El precio de cierre (191.5 EUR) se sitúa por debajo de las medias móviles de 20 días (209.38), 50 días (210.04) y 200 días (225.00), lo que confirma un sesgo bajista estructural a corto y largo plazo.
+*   **Momentum:** El RSI(14) en 33.58 indica una condición de sobreventa cercana a niveles críticos, sugiriendo que el impulso bajista podría estar agotándose a corto plazo, aunque sin señales claras de reversión. El MACD se sitúa en -2.93, por debajo de su línea de señal (-0.53), lo que ratifica la debilidad predominante.
+*   **Volatilidad:** La volatilidad reportada (35.04%) es elevada, coincidiendo con un *drawdown* del 31.18%, reflejo del impacto negativo de las noticias recientes sobre sus planes de desinversión.
 
-### Contexto Fundamental y Noticias
-La caída reciente se ve exacerbada por factores fundamentales y de mercado:
-1.  **Fracaso de desinversiones:** Según *Merca2.es* (15/11/2026), el desplome se ha visto acelerado por la frustración de los planes de desinversión de **Acciona Energía**, lo cual ha afectado la confianza inversora sobre la capacidad de la empresa para aligerar su estructura de capital.
-2.  **Solidez Financiera:** Con una **deuda neta/EBITDA de 6.14x**, el nivel de apalancamiento es preocupante, especialmente en un entorno donde el BCE advierte que el encarecimiento de la financiación puede frenar el crecimiento (*El Boletín*, 16/11/2026).
-3.  **Valoraciones:** A pesar de la caída, el **Forward PE de 17.53** es elevado en relación con el crecimiento de beneficios (-84.1% registrado recientemente), aunque el consenso de analistas (11 opiniones) sugiere un **upside del 10.52%** hacia un precio objetivo de 218.05 EUR.
+### Análisis Fundamental
+*   **Valoración:** Con un PER *forward* de 17.01x, la acción parece más atractiva que su PER *trailing* (28.93x), lo que implica que los analistas esperan una recuperación en los beneficios por acción (11.26 EUR estimados para el próximo periodo frente a los 6.62 EUR actuales).
+*   **Desafíos:** El ratio *Net Debt/EBITDA* de 6.14x es un punto de atención crítico. La empresa enfrenta una estructura de capital apalancada, lo cual es preocupante en un contexto de tipos de interés altos, tal como advirtió recientemente el BCE sobre el frenazo al crecimiento por el encarecimiento de la financiación (El Boletín, 16/11/2026).
+*   **Contexto Corporativo:** Según fuentes como *Merca2.es* (15/11/2026) y *Expansión* (16/11/2026), la frustración de los planes de desinversión y la inyección de capital en Mostostal Warszawa han pesado fuertemente en la cotización, explicando la caída del 7% reportada el 16/11/2026.
 
-### Conclusión
-El mercado está castigando a ANA.MC tanto por el riesgo de ejecución en su plan de desinversión como por su elevada carga de deuda en un contexto de tipos de interés que no ofrecen alivio. La proximidad del precio a los 197 EUR lo acerca a soportes psicológicos, pero el perfil técnico es bajista y los fundamentales exigen cautela debido a la presión sobre el flujo de caja libre (-722.75M EUR).
+### Perspectiva
+La combinación de una sobreventa técnica (RSI cercano a 30) y una corrección fundamental tras la cancelación de desinversiones sugiere que `ANA.MC` está buscando un suelo de mercado. Los inversores deben vigilar la capacidad de la empresa para desapalancarse sin realizar las desinversiones previstas. No hay indicios técnicos de compra inmediata; la prudencia es necesaria dado que la acción cotiza por debajo de todas sus medias móviles clave.
+
+**Rating**: Underweight
+
+FINAL TRANSACTION PROPOSAL: Mantener una postura de espera (*wait-and-see*) hasta que el precio logre consolidarse sobre la media móvil de 50 sesiones (cerca de los 210 EUR), lo que indicaría una estabilización del sentimiento inversor.
 
 | Indicador | Valor Actual | Interpretación |
 | :--- | :--- | :--- |
-| Precio Cierre | 197.30 EUR | Bajista (bajo todas las SMA) |
-| RSI (14) | 37.42 | Neutral/Debilidad |
-| MACD | -1.72 | Bajista |
-| Volatilidad | 34.57% | Elevada |
-| Forward PE | 17.53 | Ajustado, no barato |
-| Net Debt/EBITDA | 6.14x | Riesgo financiero alto |
-| Consenso Upside | 10.52% | Potencial teórico |
+| Precio de Cierre | 191.5 EUR | Debilidad técnica |
+| RSI(14) | 33.58 | Zona de sobreventa |
+| SMA 200 | 225.00 EUR | Resistencia estructural |
+| Net Debt/EBITDA | 6.14x | Apalancamiento elevado |
+| Forward EPS | 11.26 EUR | Expectativa de mejora |
+| Dividend Yield | 2.91% | Rendimiento moderado |
 
-**Rating**: UNDERWEIGHT
-
-FINAL TRANSACTION PROPOSAL: Mantener posición neutral o reducir exposición; esperar una estabilización por encima de las medias de 50 y 200 sesiones antes de considerar posiciones largas. La volatilidad actual desaconseja la entrada hasta que el flujo de caja operativo muestre una mejora constante frente a los niveles de deuda.
+*Nota: La información está basada en el snapshot de datos al 2026-11-19. Faltan datos sobre los flujos de caja operativos proyectados para el ejercicio 2027 y detalles específicos sobre la estructura de vencimiento de la deuda a largo plazo.*

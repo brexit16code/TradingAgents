@@ -1,0 +1,12 @@
+
+Conservative Analyst: Compañeros, entiendo el entusiasmo que genera una posible recuperación en las métricas de flujo de caja de Grifols, pero como analista de riesgos, mi deber es recordarles que el optimismo no es una estrategia de preservación de capital.
+
+Al colega agresivo que propone una compra, le pregunto: ¿estamos ignorando deliberadamente que un ratio de Deuda Neta/EBITDA de 5.04x no es simplemente "el precio de la escala"? Es una vulnerabilidad estructural masiva en un entorno de tipos de interés que, lejos de normalizarse, sigue bajo la presión de un Banco Central Europeo que advierte activamente sobre el encarecimiento de la financiación. Llamar "base de acumulación" a una zona donde el MACD muestra señales mixtas y el precio pierde su media móvil de 20 días es, como mínimo, una interpretación temeraria de la realidad técnica.
+
+Ustedes ven un descuento del 37% respecto al consenso, yo veo un reflejo de la incertidumbre del mercado. El potencial alcista solo se materializa si la empresa ejecuta un desapalancamiento impecable, pero cualquier desviación en los tipos o cualquier contratiempo operativo dejará a la empresa en una posición extremadamente frágil ante sus acreedores. Comprar en este punto, confiando en un "giro fundamental", es asumir un riesgo de balance que no compensa el rendimiento potencial, especialmente cuando el RSI neutral confirma que no hay una urgencia compradora real.
+
+Mi propuesta no es esperar a que el tren salga de la estación, sino asegurar que no estamos comprando un billete para un tren que podría descarrilarse por falta de liquidez. La prudencia no es timidez, es disciplina. Hasta que no veamos una tendencia clara de reducción de deuda por debajo de la cota de las 4.0x, cualquier entrada es un juego de azar con el patrimonio de la firma. Recomiendo mantener la posición de espera, priorizando la seguridad y la vigilancia sobre los niveles de soporte, en lugar de apresurarnos a una compra que, bajo este escenario de volatilidad y apalancamiento, carece de un margen de seguridad suficiente.
+
+**Rating**: REVIEW
+
+FINAL TRANSACTION PROPOSAL: **HOLD** (Monitor for deleveraging progress below 4.0x Net Debt/EBITDA before any further consideration).

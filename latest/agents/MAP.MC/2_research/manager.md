@@ -1,0 +1,5 @@
+**Recommendation**: Hold
+
+**Rationale**: La tesis alcista se apoya correctamente en la solidez del dividendo (4,38%) y un Forward PE atractivo de 9,66x, lo cual proporciona un suelo de valor para el inversor a largo plazo. Por el contrario, la tesis bajista tiene mucha razón al señalar el deterioro técnico: la cotización actual de 4,106 EUR está por debajo de las medias móviles de 50 y 200 días, lo que confirma una tendencia de debilidad y riesgo de distribución hacia los 3,80 EUR. Al sopesar ambos casos, la estabilidad de los fundamentales de Mapfre compensa el pesimismo técnico, pero la falta de momentum alcista impide una recomendación de compra decidida. Por lo tanto, mantengo una postura neutral hasta que la acción recupere niveles técnicos clave.
+
+**Strategic Actions**: Mantener la posición actual (Hold) sin aumentar exposición. Esperar una confirmación técnica de ruptura sostenible por encima de la media de 200 días (4,147 EUR) para considerar nuevas compras. Si el precio perfora el soporte de 4,00 EUR, se recomienda revisar la tesis para un posible ajuste hacia 'Underweight' debido al riesgo de retroceso hacia el soporte de 3,80 EUR.

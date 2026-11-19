@@ -1,0 +1,10 @@
+
+Conservative Analyst: Estimado colega, agradezco su entusiasmo, pero en gestión de riesgos, el optimismo desenfrenado suele ser el precursor de las mayores pérdidas de capital. Usted cataloga el ruido reputacional como un simple "titular de prensa", pero está ignorando la naturaleza crítica de las investigaciones de la Fiscalía Anticorrupción en el sector tecnológico y de defensa. Cuando una empresa como `IDR.MC` se enfrenta a un escrutinio legal de este calibre, el riesgo no es solo el precio de la acción, sino la posible interrupción de contratos públicos y cambios en la estructura de gobernanza, factores que los fundamentales actuales aún no pueden descontar.
+
+Usted argumenta que una caída del 21% y un RSI de 29.81 son "sirenas de compra". Desde mi perspectiva, son señales de un cuchillo cayendo. Un RSI bajo puede mantenerse en territorio de sobreventa durante semanas si la presión vendedora es institucional y motivada por eventos fundamentales adversos. La rotura de la media móvil de 200 sesiones no es un detalle técnico menor; es una confirmación de que la tendencia estructural de largo plazo ha cambiado, y apostar en contra de esa fuerza suele resultar en una erosión sistemática del patrimonio.
+
+En cuanto a su stop loss propuesto en 50,0 EUR, es una medida temeraria. Con una volatilidad del 36,4%, la acción puede atravesar ese nivel por puro ruido de mercado en cuestión de minutos, dejándonos fuera de la posición con pérdidas y con la cuenta expuesta a un "latigazo" bajista innecesario. Usted busca capturar un 34% de alza teórica basándose en un consenso de analistas que, muy probablemente, no ha ajustado aún sus modelos para reflejar el impacto real del riesgo legal. Comprar hoy no es aprovechar una ineficiencia, es tomar un riesgo binario que nuestra firma no necesita asumir. La prudencia no es parálisis, es asegurar que el capital sobreviva para aprovechar mejores condiciones una vez que el horizonte jurídico se aclare. Mantenerse al margen es, en este momento, la única forma responsable de proteger nuestra cartera.
+
+**Rating**: UNDERWEIGHT
+
+FINAL TRANSACTION PROPOSAL: **HOLD**
