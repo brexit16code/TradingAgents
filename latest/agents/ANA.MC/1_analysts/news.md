@@ -1,33 +1,38 @@
 ### Informe de Análisis: Acciona, S.A. (ANA.MC)
 
-**Situación Actual y Contexto de Mercado**
-A fecha de 19 de noviembre de 2026, **ANA.MC** atraviesa un periodo de alta volatilidad y presión bajista. La acción cotiza a 191,5 EUR, acumulando una caída del 2,94% en la sesión y un retroceso del 31,18% desde su máximo reciente (*drawdown*). El análisis técnico revela una tendencia bajista consolidada, con la cotización situada significativamente por debajo de sus medias móviles de 20, 50 y 200 días (SMA20: 209,38; SMA200: 224,99). El RSI (33,58) sugiere una condición de sobreventa, acercándose a niveles que podrían atraer compras técnicas, aunque el indicador MACD (-2,93) por debajo de su señal (-0,53) confirma la debilidad del impulso.
+**Resumen Ejecutivo**
+Acciona (ANA.MC) atraviesa un momento de alta volatilidad y presión bajista. A fecha de 20 de noviembre de 2026, la acción cotiza a 184,70 EUR, lo que representa una caída significativa del 3,55% en la última sesión y una contracción anual cercana al 10-13%. La compañía se encuentra bajo escrutinio debido a la debilidad operativa, recortes en valoraciones por parte de analistas (ej. BNP Paribas) y preocupaciones sobre su estructura de capital.
 
-**Catalizadores Recientes y Noticias**
-El desempeño reciente de **ANA.MC** ha sido duramente afectado por la frustración de planes de desinversión, lo que provocó una caída bursátil notable durante la semana del 15 de noviembre. Informes de *Merca2.es* y *OCU* (15 y 16 de noviembre) vinculan esta presión vendedora al fracaso en la venta de activos de su filial, Acciona Energía. Adicionalmente, el recorte de valoración por parte de BNP Paribas (17 de noviembre) ha exacerbado el sentimiento negativo, a pesar de que la empresa mantiene una política de apoyo a filiales, como la reciente inyección de capital en Mostostal Warszawa (*Expansión*, 16 de noviembre).
+#### 1. Análisis Técnico y Sentimiento de Mercado
+*   **Tendencia:** El precio actual (184,70 EUR) se encuentra por debajo de sus medias móviles clave (SMA20: 208,35 EUR; SMA50: 209,57 EUR; SMA200: 224,99 EUR), lo que confirma una tendencia bajista consolidada.
+*   **Momentum:** El RSI(14) de 29,73 indica que el valor se encuentra en territorio de sobreventa. No obstante, el MACD (-4,39) se sitúa por debajo de su línea de señal (-1,30), lo que sugiere que la presión vendedora aún predomina.
+*   **Sentimiento:** Las noticias recientes (16-17 de noviembre) destacan una "caída del 7%" y recortes en valoraciones, lo cual ha deteriorado la confianza inversora a corto plazo.
 
-**Fundamentos Financieros**
-*   **Valoración:** El forward PE de 17,01x frente al trailing PE de 28,93x refleja una expectativa de mejora en los beneficios por acción (pasando de 6,62 a 11,25 EUR). Sin embargo, la estructura de capital es una preocupación central: la compañía presenta una ratio de deuda neta/EBITDA de 6,14x, lo cual es elevado en un entorno de tipos de interés que se mantienen bajo vigilancia en la Eurozona.
-*   **Rentabilidad:** Con un *dividend yield* del 3,00%, el inversor recibe una compensación mientras espera una posible estabilización, aunque el *payout ratio* de 1,66 indica que el dividendo actual está ejerciendo una presión considerable sobre el flujo de caja, dado que el *free cash flow* reportado en 2025 fue de 379 millones de EUR, frente a caídas previas.
+#### 2. Fundamentos y Riesgos
+*   **Endeudamiento:** El factor más crítico es su ratio de **Net Debt/EBITDA de 6,14x**. Con una deuda total de 14,57 mil millones de EUR frente a una capitalización de mercado de 9,83 mil millones de EUR, Acciona presenta una estructura apalancada que la hace muy sensible a las condiciones de tipos de interés en la Eurozona.
+*   **Rentabilidad:** Aunque presenta un crecimiento de ingresos del 4%, sus márgenes de beneficio neto son muy estrechos (1,64%). El flujo de caja libre (FCF) fue negativo en 2024 (-492M EUR) y 2023, aunque mostró una ligera recuperación en 2025 (379M EUR).
+*   **Valoración:** La acción cotiza a un Forward PE de 16,41, cercano a la mediana de sus comparables (16,45), lo que sugiere que, tras las caídas, la valoración es más razonable, aunque no necesariamente "barata" dado el riesgo de ejecución y el apalancamiento.
 
-**Factores Macroeconómicos**
-El contexto macroeconómico para el sector industrial en la Eurozona es complejo. El BCE advierte que el encarecimiento de la financiación puede frenar el crecimiento (*El Boletín*, 16 de noviembre). La incertidumbre sobre la política monetaria y los tipos reales negativos para el ahorrador (*Vozpopuli*, 14 de noviembre) sugieren un entorno donde la disciplina financiera de las grandes corporaciones, como **ANA.MC**, será puesta a prueba por el mercado.
+#### 3. Contexto Macroeconómico
+El entorno macro es desafiante. Las noticias del 19 de noviembre sugieren que el BCE podría endurecer las condiciones de financiación indirectamente mediante el incremento de reservas mínimas obligatorias a los bancos. Este escenario de tipos "más altos por más tiempo" penaliza directamente a empresas intensivas en capital como Acciona.
 
-**Conclusiones y Riesgos**
-La falta de confirmación de desinversiones estratégicas ha eliminado un catalizador alcista clave, dejando a la acción vulnerable a la sensibilidad de sus fundamentales frente a los tipos de interés. La divergencia entre el consenso de analistas (Precio objetivo medio 218,05 EUR, lo que implica un potencial alcista del 13,87%) y la acción del precio actual sugiere una valoración de mercado que descuenta un riesgo de ejecución mayor al que prevén los analistas.
+#### 4. Evidencia Contradictoria y Factores a Favor
+*   **Consenso de Analistas:** A pesar del pesimismo, el precio objetivo medio es de 224,86 EUR, lo que implica un **upside potencial del 21,74%**.
+*   **Dividendos:** Ofrece una rentabilidad por dividendo del 3,11%, lo que podría proporcionar un suelo a la cotización si la empresa mantiene su política de distribución, a pesar de que su ratio de pago (payout) es superior a 1 (1,66), lo cual es financieramente insostenible a largo plazo sin una mejora en el FCF.
 
-**Información faltante:** No se dispone de detalles específicos sobre el vencimiento detallado de la deuda (calendario de amortización) ni desgloses prospectivos de impacto por la fallida desinversión en los estados financieros post-2025.
+#### 5. Datos Faltantes
+*   No se dispone de detalles sobre el vencimiento específico de la deuda a corto plazo para 2027.
+*   Se carece de información detallada sobre la posible venta de activos de "Acciona Energía", un rumor que genera incertidumbre adicional sobre el perímetro del negocio.
 
-**Rating**: REVIEW
+**Rating**: HOLD
 
-FINAL TRANSACTION PROPOSAL: NO ACTION
-
-| Concepto | Valor / Estado |
+| Indicador | Valor / Estado |
 | :--- | :--- |
-| **Precio de cierre (ANA.MC)** | 191,5 EUR |
-| **Capitalización de mercado** | 10.188,6 M EUR |
-| **Ratio Deuda Neta / EBITDA** | 6,14x |
-| **RSI (14 días)** | 33,58 (Sobreventa) |
-| **Objetivo Analista (Medio)** | 218,05 EUR |
-| **Rentabilidad Dividendos** | 3,00% |
-| **Sentimiento en prensa** | Bajista / Negativo |
+| Precio Actual | 184,70 EUR |
+| Recomendación Media | 224,86 EUR (Upside 21,7%) |
+| Ratio Deuda/EBITDA | 6,14x |
+| RSI(14) | 29,73 (Sobrevendido) |
+| Yield Dividendo | 3,11% |
+| Tendencia Técnica | Bajista (bajo SMA200) |
+
+FINAL TRANSACTION PROPOSAL: No position should be initiated. The technical indicators suggest overselling, but the high debt ratio and deteriorating sentiment warrant a "Wait and See" approach until stabilization occurs near support levels.

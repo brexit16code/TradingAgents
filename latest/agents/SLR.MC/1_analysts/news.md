@@ -1,33 +1,40 @@
-El siguiente informe analiza la situación de **Solaria Energía y Medio Ambiente, S.A. (`SLR.MC`)** basándose en los datos financieros, técnicos y noticias corporativas consolidadas a fecha de 19 de noviembre de 2026.
+### Informe de Análisis: Solaria Energía y Medio Ambiente, S.A. (SLR.MC)
 
-### Análisis de la Situación Actual: `SLR.MC`
+**Fecha:** 20 de noviembre de 2026
 
-**1. Desempeño Financiero y Reacción del Mercado:**
-Tras la presentación de sus resultados de los nueve primeros meses de 2026 y la actualización de su plan estratégico, `SLR.MC` ha sufrido una caída significativa del **5,41%** en la sesión del 19 de noviembre, cerrando a **14,16 EUR**. Aunque la compañía reportó un crecimiento sólido (duplicando ventas a 260 millones de euros y un incremento del 30% en el EBITDA), el mercado parece haber castigado la actualización de sus perspectivas y la nueva estrategia enfocada en centros de datos (*Bolsamania*, 19/11/2026; *Europa Press*, 19/11/2026).
+#### 1. Situación Actual y Desempeño Reciente
+Solaria (SLR.MC) atraviesa un momento de alta volatilidad y presión vendedora tras la presentación de sus resultados de los primeros nueve meses de 2026 y la actualización de su plan estratégico. El valor cerró la sesión del 20 de noviembre en **13,77 EUR**, lo que representa una caída del **2,72%** en la jornada, acumulando una corrección significativa (-5,4% el 19 de noviembre) tras su *Capital Markets Day*.
 
-**2. Fundamentos y Valoración:**
-*   **Valoración:** La compañía presenta múltiplos atractivos bajo criterios de PER (7,57x trailing) en comparación con el sector, lo cual sugiere una infravaloración según el consenso de mercado (upside potencial del 57%). Sin embargo, la estructura de capital refleja presiones: el ratio de *Net Debt/EBITDA* se sitúa en 4,14x y el *Free Cash Flow* sigue siendo negativo (-438 millones de EUR), lo que indica una fase intensiva en capital y alto apalancamiento.
-*   **Debilidades Técnicas:** El precio de 14,16 EUR cotiza significativamente por debajo de sus medias móviles de 20 (15,42), 50 (15,90) y 200 días (19,50), confirmando una tendencia bajista de medio y largo plazo con una volatilidad implícita elevada (54,9%).
+La reacción negativa del mercado se centra en la decepción respecto a las expectativas del plan a 2029. A pesar de informar un incremento del 26% en el beneficio neto (177,94 millones de euros), el mercado ha castigado la acción, reflejando una falta de confianza o una revalorización de los riesgos asociados a la ejecución de sus proyectos.
 
-**3. Contexto Macroeconómico:**
-El entorno operativo está marcado por la advertencia del BCE sobre el impacto del encarecimiento de la financiación en el crecimiento de la Eurozona (*El Boletín*, 16/11/2026). Para una empresa como `SLR.MC`, con una deuda total de aproximadamente 1.560 millones de EUR, las condiciones de tipos de interés y la política monetaria del BCE son factores críticos de riesgo.
+#### 2. Análisis Técnico
+*   **Tendencia:** El valor se encuentra en una fase correctiva severa con un *drawdown* del **46,50%**.
+*   **Momentum:** Los indicadores técnicos confirman la debilidad; el RSI(14) en **35,63** sugiere una zona cercana a la sobreventa, mientras que el MACD se mantiene por debajo de su línea de señal (-0,305 vs -0,116), indicando un claro sesgo bajista.
+*   **Medias Móviles:** El precio actual (13,77 EUR) cotiza por debajo de sus medias móviles de 20, 50 y 200 sesiones, confirmando una tendencia bajista a largo plazo.
 
-### Resumen de Datos Clave
+#### 3. Fundamentos y Valoración
+*   **Eficiencia:** Solaria mantiene márgenes de beneficio sólidos (48,57%) y un ROE elevado (20,44%). Sin embargo, presenta un **Free Cash Flow negativo** (-437,97 millones), lo que subraya la intensidad de capital necesaria para sus inversiones en expansión.
+*   **Valoración:** La compañía cotiza a un ratio Forward P/E de **7,87x**, lo cual, bajo el criterio de "PER relativo inferior" comparado con sus pares del sector (ratio 0,47), sugeriría una infravaloración teórica. No obstante, el mercado parece estar descontando una ralentización o riesgos en el despliegue del plan estratégico.
+*   **Deuda:** El apalancamiento es un factor crítico, con una ratio Deuda Neta/EBITDA de **4,14x**, situándose en niveles que exigen un control riguroso, especialmente en un entorno donde se especula con ajustes en la política monetaria del BCE (incremento de reservas mínimas).
 
-| Indicador / Métrica | Valor / Situación |
-| :--- | :--- |
-| Precio de Cierre (`SLR.MC`) | 14,16 EUR (-5,41%) |
-| PER Forward | 8,32x |
-| EBITDA (LTM) | 326,1 M EUR |
-| Deuda Neta / EBITDA | 4,14x |
-| RSI (14 días) | 37,98 (Zona neutral-baja) |
-| Sentimiento de Noticias | Negativo (Reacción a CMD y resultados) |
-| Consenso Target Price | 22,27 EUR |
+#### 4. Contexto Macroeconómico
+El entorno es complejo. La Eurozona enfrenta discusiones sobre la política de tipos de interés y una gestión de liquidez bancaria más restrictiva. La incertidumbre sobre la inflación y las proyecciones para 2027 impactan directamente a las empresas *utilities* con alta intensidad de inversión, como Solaria.
 
-### Consideraciones Finales
-La discrepancia entre el sólido crecimiento operativo (ventas y EBITDA) y la caída en bolsa sugiere que el mercado está descontando riesgos ejecutivos o una preocupación por la sostenibilidad del apalancamiento ante un escenario de tipos persistentes. El FCF negativo es una variable que los inversores deben monitorear estrechamente en los próximos trimestres.
+#### 5. Resumen de Puntos Clave
 
-**Falta de información:** No se dispone de detalles granulares sobre el coste específico de la deuda variable ni sobre la tasa de éxito de los proyectos de centros de datos mencionados, lo cual es vital para validar la tesis alcista del consenso de analistas.
+| Categoría | Situación | Observación |
+| :--- | :--- | :--- |
+| **Precio Acción** | 13,77 EUR | Fuerte presión vendedora (-2,72% hoy) |
+| **Tendencia** | Bajista | Por debajo de SMA20, SMA50 y SMA200 |
+| **Valoración** | PER 7,87x | Aparentemente baja vs sector (ratio 0,47) |
+| **Salud Financiera** | Deuda neta/EBITDA 4,14x | Nivel de apalancamiento a vigilar |
+| **Sentimiento** | Negativo | Decepción tras el Capital Markets Day |
 
-**Rating**: HOLD
-FINAL TRANSACTION PROPOSAL: No action recommended; wait for technical stabilization near the 14.00 EUR support level, which aligns with the analyst 'targetLowPrice'.
+**Conclusión:**
+La discrepancia entre los fundamentales (PER bajo, crecimiento de ingresos del 38,8%) y la acción del precio sugiere que los inversores están priorizando los riesgos de ejecución sobre las métricas de valor actuales. La falta de un dividendo (payout 0%) también puede desincentivar a inversores en este contexto de aversión al riesgo.
+
+**Información faltante:** No se dispone del detalle desglosado del nuevo plan estratégico a 2029, más allá de la reacción negativa del mercado.
+
+**Rating**: REVIEW
+
+FINAL TRANSACTION PROPOSAL: No execution (Neutral/Hold observation).

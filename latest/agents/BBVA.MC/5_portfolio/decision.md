@@ -1,9 +1,9 @@
 **Rating**: Overweight
 
-**Executive Summary**: Iniciamos una posición gradual de Overweight en BBVA.MC, comenzando con una asignación prudente para capturar su atractiva valoración fundamental. La estrategia se basa en aprovechar el margen de seguridad que ofrece el consenso de analistas frente a la cotización actual, manteniendo liquidez para ajustar la posición si se vulnera el soporte técnico de la media móvil de 200 sesiones en 21,20 EUR.
+**Executive Summary**: Iniciamos una posición long en BBVA.MC con un dimensionamiento conservador del 0.5% del portafolio, aprovechando el soporte de la media móvil de 200 días (21.21 EUR). La estrategia busca capturar el valor fundamental mientras se mantiene un stop-loss estricto en 20.95 EUR para proteger el capital contra una posible ruptura del soporte técnico.
 
-**Investment Thesis**: La tesis alcista se fundamenta en la solidez operativa de BBVA.MC, destacada por un ROE del 19,8% y un Forward PE de 9,60x, lo cual es significativamente atractivo respecto a la mediana del sector bancario. Aunque los analistas conservadores señalan correctamente la debilidad técnica (precio bajo la SMA50) y los riesgos macro del BCE, el analista agresivo aporta evidencia sobre el crecimiento del 20,3% en la cartera de crédito, lo que sugiere que la capacidad de generación de ingresos del banco compensa el ruido macroeconómico. El consenso de analistas sitúa el objetivo en 24,47 EUR, proporcionando un margen de seguridad implícito del 8,36% sobre el precio de cierre actual. Esta recomendación de Overweight equilibra la solidez de los fundamentales con una gestión de riesgos activa, mitigando la volatilidad del 25,65% mediante un escalonamiento de la entrada.
+**Investment Thesis**: La tesis alcista se apoya en una valoración fundamental sólida: un Forward PE de 9.28x, un ROE del 19.84% y un crecimiento de beneficios del 23.8%, lo que sugiere que el mercado ha sobrecompensado los riesgos macroeconómicos. Si bien el analista conservador advierte sobre un momentum técnico negativo y la volatilidad del sector bancario ante posibles cambios regulatorios del BCE, la solidez operativa de BBVA.MC —evidenciada por un aumento del 20.3% en crédito corporativo— ofrece un margen de seguridad suficiente. El punto de entrada se justifica por el descuento actual frente a sus comparables y una rentabilidad por dividendo del 4.29%. El escenario cambiaría a negativo si el precio consolida por debajo de 21.00 EUR, lo que invalidaría la estructura de soporte técnico actual y sugeriría una mayor debilidad sistémica.
 
-**Price Target**: 24.47
+**Price Target**: 24.478
 
-**Time Horizon**: 6-12 meses
+**Time Horizon**: 3-6 meses

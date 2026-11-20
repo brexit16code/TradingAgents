@@ -1,11 +1,11 @@
-**Action**: Hold
+**Action**: Sell
 
-**Reasoning**: La estructura técnica de TEF.MC sigue siendo bajista al cotizar por debajo de la media móvil de 200 días (3,584 EUR), lo que indica una falta de impulso comprador institucional. Aunque el ratio forward PE de 8,26x sugiere una valoración atractiva, el elevado apalancamiento (Deuda Neta/EBITDA de 5,11x) y un payout ratio insostenible de 2,5x actúan como riesgos estructurales significativos. Se recomienda mantener posiciones actuales y esperar a que el precio supere la resistencia de la media móvil de 200 días para confirmar una mejora real de la tendencia antes de incrementar la exposición.
+**Reasoning**: La recomendación de infraponderación (Underweight) del plan de inversión se traduce en una acción de venta (Sell) debido a las debilidades estructurales críticas, incluyendo un resultado neto de -4.318 millones de euros, una destrucción progresiva del patrimonio neto y un elevado apalancamiento con una deuda neta sobre EBITDA superior a 5x. Aunque el valor cotiza a un atractivo PER adelantado de 8,28x y ofrece una rentabilidad por dividendo del 4,46%, la tendencia técnica bajista por debajo de las medias móviles clave (SMA 20 en 3,39 EUR y SMA 50 en 3,41 EUR) aconseja recortar la exposición para evitar una trampa de valor.
 
-**Entry Price**: not provided
+**Entry Price**: 3.36
 
-**Stop Loss**: 3.1
+**Stop Loss**: 3.58
 
-**Position Sizing**: Máximo 1% del portafolio
+**Position Sizing**: 5% of portfolio
 
-FINAL TRANSACTION PROPOSAL: **HOLD**
+FINAL TRANSACTION PROPOSAL: **SELL**

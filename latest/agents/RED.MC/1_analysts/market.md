@@ -1,30 +1,45 @@
-Análisis financiero de **Redeia (RED.MC)** a fecha de 19 de noviembre de 2026.
+**Rating**: HOLD  
+FINAL TRANSACTION PROPOSAL: Mantener posición actual sin realizar nuevas compras ni ventas especulativas, a la espera de mayor claridad sobre la retribución regulada y los flujos de caja libres negativos derivados del plan inversor.
 
-### Análisis de Tendencia y Momentum
-Redeia (RED.MC) muestra un comportamiento técnico interesante dentro del sector de servicios públicos regulados. Con un precio de cierre de **15,92 EUR**, la acción se sitúa por encima de sus medias móviles de 50 días (15,16 EUR) y 200 días (14,85 EUR), lo que confirma una estructura alcista de medio a largo plazo. 
+---
 
-El indicador **RSI(14)** se sitúa en **62,38**, lo cual indica un momentum positivo pero sin alcanzar niveles de sobrecompra extrema (que comenzarían en 70). Por otro lado, el **MACD (0,294)** se encuentra por encima de su señal **(0,255)**, lo que refuerza la persistencia de una tendencia compradora. Esta configuración sugiere que el valor mantiene un sesgo alcista moderado, respaldado por un retorno positivo del 10,28% en los últimos 252 días.
+### Análisis detallado y matizado de Redeia (`RED.MC`)
 
-### Fundamentos y Valoración
-El perfil de Redeia es el de una compañía defensiva con alta intensidad de capital.
-*   **Valoración:** Cotiza a un **PE Forward de 16,58x**, alineado con la mediana del sector. Su **dividend yield del 5,03%** destaca como un componente clave para los inversores, aunque su alto *payout ratio* del 85,3% limita el margen para incrementos agresivos en la retribución al accionista.
-*   **Salud Financiera:** La empresa presenta una carga de deuda relevante, con un **Net Debt/EBITDA de 4,96x**. Aunque es común en el sector de redes eléctricas, es un nivel que requiere vigilancia estricta en un entorno donde el BCE ha advertido sobre el encarecimiento de la financiación (noticia del 16-11-2026, *El Boletín*).
-*   **Crecimiento:** El flujo de caja libre es negativo (-585,48 millones de EUR a 2025), reflejando un fuerte esfuerzo inversor en infraestructura (CAPEX de 1.407 millones de EUR en 2025).
+#### 1. Contexto de Mercado y Situación Actual
+A fecha de 20 de noviembre de 2026, las acciones de **Redeia (`RED.MC`)** cotizan a un precio de cierre de **16,20 EUR**, registrando una rentabilidad diaria del **+1,76%** y acumulando un avance a 21 sesiones del **+9,16%** y un retorno anual (252 sesiones) del **+12,22%**. La compañía muestra una tendencia alcista a corto y medio plazo, apoyada por una directriz favorable y superación de niveles de resistencia recientes (según fuentes de *Estrategias de Inversión* del 20 de noviembre de 2026).
 
-### Contexto de Mercado
-Las noticias recientes vinculan el comportamiento positivo de la acción (alzas recurrentes los días 13, 16 y 18 de noviembre) con informes de analistas como Berenberg, que enfocan sus proyecciones de crecimiento hacia el horizonte 2030 (MarketScreener, 16-11-2026). Existe también un componente de "valor refugio" ante posibles cambios en el panorama político español, donde se especula con el beneficio para las *utilities* reguladas bajo ciertos escenarios de coalición.
+#### 2. Análisis Técnico e Indicadores de Momentum
+Los datos técnicos y de indicadores recopilados en la instantánea revelan los siguientes valores clave:
+* **RSI (14)**: Se sitúa en **68,25**, rozando la zona de sobrecompra (70), lo que indica una fuerte presión compradora reciente pero advierte de un posible agotamiento temporal del impulso alcista.
+* **MACD**: Muestra un valor positivo de **0,2997** por encima de su línea de señal (**0,2639**), confirmando el sesgo alcista del impulso.
+* **Medias Móviles**: El precio actual (16,20 EUR) se encuentra holgadamente por encima de su **SMA 20** (15,67 EUR), **SMA 50** (15,18 EUR) y **SMA 200** (14,86 EUR), lo que corrobora una estructura de tendencia alcista consolidada en todos los horizontes temporales.
+* **Volatilidad y Drawdown**: La volatilidad anualizada se sitúa moderada en el **13,64%**, con un *drawdown* muy limitado del **-0,61%** respecto a sus referencias recientes.
 
-### Consideraciones sobre la información
-Los datos presentados son sólidos, aunque se observa la ausencia de una estimación precisa de "Earnings Growth" en el reporte de fundamentales, lo cual dificulta proyectar la expansión de beneficios a corto plazo.
+#### 3. Fundamentales, Valoración y Dividendos
+Desde la perspectiva fundamental, **Redeia** presenta un perfil defensivo característico del sector de servicios de electricidad regulada (*Utilities - Regulated Electric*):
+* **Capitalización de Mercado**: 8.741,45 millones de EUR.
+* **PER (Trailing)**: 17,23x / **PER Forward**: 16,87x, con un beneficio por acción estimado (*forward EPS*) de 0,96 EUR.
+* **Valor En Búsqueda de Consenso (*Target Mean Price*)**: El precio objetivo medio de los analistas (con base en 22 opiniones) es de **16,435 EUR**, lo que deja un potencial alcista (*consensus upside*) muy reducido, de apenas **+1,45%** frente al precio actual de 16,20 EUR (con un rango que va desde un mínimo de 13,50 EUR hasta un máximo de 19,40 EUR).
+* **Dividendo**: Ofrece una rentabilidad por dividendo (*dividend yield*) atractiva de aproximadamente **4,94%** a **5,03%**, con un dividendo por acción de **0,80 EUR** y una ratio de reparto (*payout ratio*) del **85,30%**.
+* **Deuda y Flujos de Caja**: La deuda total asciende a **5.982,5 millones de EUR** (con una deuda neta sobre EBITDA de **4,96x**). Un aspecto crítico a vigilar es el **Free Cash Flow (FCF)**, que se mantiene en terreno negativo (**-585,48 millones de EUR** en la lectura más reciente y -393,87 millones de EUR al cierre del ejercicio 2025), impulsado por un ambicioso plan de inversiones (*CapEx*) destinado a expandir la base de activos regulados hasta 2030 (según análisis de *Merca2.es* del 20 de noviembre de 2026).
 
-| Indicador / Métrica | Valor / Estado | Interpretación |
-| :--- | :--- | :--- |
-| Precio Actual | 15,92 EUR | Tendencia alcista sobre medias 50/200 días |
-| RSI (14) | 62,38 | Momentum positivo sin sobrecompra |
-| MACD vs Señal | 0,294 vs 0,255 | Señal de continuación alcista |
-| Dividend Yield | 5,03% | Atractivo como activo de renta |
-| Net Debt/EBITDA | 4,96x | Apalancamiento sectorial moderado-alto |
-| Consensus Upside | 3,24% | Potencial limitado según analistas |
+#### 4. Evidencia de Noticias y Factores Externos
+* **Plan Inversor y Retribución**: Las noticias recientes destacan que el tope inversor hasta 2030 incrementa la base de activos de Redeia, pero la tasa de retribución regulada vigente (fijada en el **6,58%**) limita un entusiasmo bursátil mayor, generando opiniones divididas entre los analistas (*MarketScreener*, *Merca2.es*).
+* **Macroeconomía y Tipos**: El contexto de tipos de interés en la Eurozona y la evolución de la inflación continúan marcando el atractivo relativo de los bonos frente a las acciones de alta rentabilidad por dividendo como Redeia.
 
-**Rating**: HOLD
-FINAL TRANSACTION PROPOSAL: Mantener posiciones actuales debido a la estructura técnica favorable y el atractivo dividendo, monitoreando el costo de la deuda frente a las advertencias del BCE y el elevado nivel de CAPEX.
+#### 5. Datos Faltantes y Limitaciones
+No se dispone de un desglose detallado pormenorizado por segmentos de negocio internacionales (como el operador de satélites Hispasat) dentro del breve resumen proporcionado, ni de los detalles exactos del calendario de pagos del próximo dividendo. La valoración descansa en estimaciones de consenso de analistas, las cuales no constituyen por sí mismas un valor intrínseco garantizado.
+
+---
+
+### Tabla Resumen de Puntos Clave
+
+| Categoría | Métrica / Indicador | Valor / Estado | Implicación para el Inversor |
+| :--- | :--- | :--- | :--- |
+| **Precio y Tendencia** | Precio de Cierre (`RED.MC`) | 16,20 EUR (20-11-2026) | Tendencia alcista sostenida sobre medias móviles clave. |
+| **Momentum** | RSI (14) | 68,25 | Cercano a zona de sobrecompra; precaución ante posibles correcciones a corto plazo. |
+| **Tendencia Técnica** | SMA 20 / SMA 50 / SMA 200 | 15,67 / 15,18 / 14,86 EUR | Alineación alcista en corto, medio y largo plazo. |
+| **Valoración** | PER Forward / PER Trailing | 16,87x / 17,23x | Valoración en línea con la mediana del sector regulado. |
+| **Consenso de Mercado** | Target Mean Price | 16,435 EUR | Escaso potencial alcista de corto plazo (+1,45% vs precio actual). |
+| **Retribución** | Dividend Yield | ~4,94% - 5,03% | Atractivo flujo de rentabilidad por dividendo para perfiles conservadores. |
+| **Salud Financiera** | Free Cash Flow & Net Debt | -585,48 M€ / Net Debt/EBITDA ~4,96x | FCF negativo debido al fuerte esfuerzo inversor (*CapEx*) hasta 2030. |

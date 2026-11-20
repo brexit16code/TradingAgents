@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La tesis de inversión para GRF.MC se encuentra en un punto de equilibrio técnico y fundamental. Aunque el flujo de caja ha mejorado significativamente, el alto apalancamiento (5.04x Deuda Neta/EBITDA) y un entorno de tipos de interés restrictivos en la eurozona limitan el potencial alcista a corto plazo. La cotización actual se encuentra en una zona de consolidación, operando por debajo de la media de 20 días pero por encima de los soportes clave de 50 y 200 días, lo que sugiere una postura de espera hasta que la tendencia se defina con mayor claridad.
+**Reasoning**: A pesar de que el PER forward de 9.97x y el precio objetivo medio de consenso en 15.25 EUR sugieren un potencial atractivo de revalorización, la ratio de deuda neta sobre EBITDA de 5.04x y unos indicadores técnicos neutrales con un RSI en 48.55 aconsejan cautela. El apalancamiento financiero contrarresta las mejoras operativas en los ingresos y el EBITDA, justificando mantener la posición sin ampliar exposición hasta que se rompa con claridad la resistencia de la media móvil de 20 sesiones en 11.19 EUR.
 
-**Entry Price**: 10.32
+**Entry Price**: not provided
 
 **Stop Loss**: 9.69
 
-**Position Sizing**: 2-3% de la cartera total
+**Position Sizing**: 3% of portfolio
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

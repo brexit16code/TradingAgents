@@ -1,11 +1,11 @@
-**Action**: Hold
+**Action**: Buy
 
-**Reasoning**: IAG.MC muestra una estructura técnica sólida con el precio operando por encima de sus medias móviles y un momentum positivo, respaldado por un PER forward atractivo de 7,32x frente a la mediana sectorial. Sin embargo, los riesgos macroeconómicos persistentes, como la presión inflacionaria y el encarecimiento de la financiación, junto con la sensibilidad de los márgenes al precio del petróleo, sugieren mantener una postura de cautela. La proximidad del precio actual al objetivo bajo de los analistas limita el margen de seguridad para nuevas compras agresivas, justificando esperar a que se aclare la dirección ante una posible consolidación.
+**Reasoning**: IAG.MC muestra una valoración fundamental atractiva con un PER forward de 7.07x y una estructura de deuda saludable (Net Debt/EBITDA 0.78x). La acción se mantiene por encima de su SMA 200 y SMA 50, confirmando una tendencia alcista estructural que justifica una entrada aprovechando la consolidación técnica cerca de los 5.06 EUR.
 
-**Entry Price**: 5.3
+**Entry Price**: 5.238
 
-**Stop Loss**: 5.05
+**Stop Loss**: 5.06
 
-**Position Sizing**: 0.5% del portafolio
+**Position Sizing**: 50-75% de una asignación estándar
 
-FINAL TRANSACTION PROPOSAL: **HOLD**
+FINAL TRANSACTION PROPOSAL: **BUY**

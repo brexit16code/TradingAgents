@@ -1,30 +1,34 @@
-El análisis técnico y fundamental de **Endesa, S.A. (ELE.MC)**, basado en la información al cierre del 19 de noviembre de 2026, refleja una situación de consolidación con presiones mixtas provenientes del entorno macroeconómico y legal.
+El análisis técnico y fundamental de **Endesa, S.A. (`ELE.MC`)** al cierre del 20 de noviembre de 2026 muestra una compañía en una fase de consolidación técnica, enfrentando presiones legales externas y cotizando con una prima respecto al consenso de analistas.
 
 ### Análisis Técnico
-*   **Tendencia:** ELE.MC cotiza a 43,06 €, situándose prácticamente en línea con su media móvil de 50 sesiones (43,05 €), lo que sugiere una falta de dirección clara en el corto plazo. No obstante, se mantiene cómodamente por encima de su media de 200 sesiones (38,59 €), confirmando una tendencia alcista estructural a largo plazo.
-*   **Momentum:** El RSI (14) en 44,51 indica una zona neutral, sin señales claras de sobrecompra o sobreventa. El MACD (0,31) se encuentra por debajo de su señal (0,51), lo que sugiere un debilitamiento del impulso alcista reciente.
-*   **Volatilidad:** Con una volatilidad del 19,56% y un *drawdown* del -6,37%, el valor muestra un perfil defensivo típico del sector *Utilities*, aunque ha experimentado un retorno positivo del 46,85% en los últimos 252 días.
+La acción se sitúa en **43,12 EUR**, un nivel que coincide casi exactamente con su media móvil simple de 50 sesiones (`sma50`: 43,07 EUR), lo que indica una falta de dirección clara a medio plazo. 
+*   **Momentum:** El indicador RSI (14) en **45,02** sugiere una posición neutral, sin signos de sobrecompra o sobreventa. El MACD (0,21) se encuentra por debajo de su señal (0,45), lo que refleja una debilidad en el impulso alcista reciente.
+*   **Tendencia:** Aunque la acción mantiene un rendimiento anual positivo notable (+47,54%), ha experimentado una corrección del 6,24% desde sus máximos, situándose actualmente por debajo de su media de 20 sesiones (44,12 EUR).
+*   **Soporte/Resistencia:** La SMA de 200 (38,65 EUR) actúa como el soporte estructural a largo plazo, mientras que la SMA de 20 el nivel a recuperar para retomar la tendencia alcista.
 
-### Análisis Fundamental y Entorno de Mercado
-*   **Valoración:** La empresa cotiza a un *Forward PE* de 17,79x, con un beneficio por acción (EPS) estimado de 2,42 €. El *dividend yield* del 3,66% sigue siendo un atractivo clave para el inversor, respaldado por un *payout ratio* del 66,55%.
-*   **Eventos Recientes:** El sentimiento del mercado se ha visto afectado recientemente por noticias negativas:
-    *   **Controversia Legal:** La demanda interpuesta por Repsol contra Endesa, Naturgy e Iberdrola por daños derivados de un apagón ha introducido incertidumbre legal (*Bolsamania*, 2026-11-16).
-    *   **Perspectivas Operativas:** Existe optimismo analítico derivado de la posible prórroga de las nucleares y ajustes fiscales que podrían elevar el beneficio un 6% (*Merca2.es*, 2026-11-17), lo cual ha motivado a entidades como RBC a revisar al alza sus precios objetivos (*MarketScreener*, 2026-11-16).
+### Análisis Fundamental
+*   **Valoración:** Con un PER adelantado de **17,82x** y un ratio respecto a sus competidores del sector de **1,06x**, la acción muestra una valoración que refleja una prima frente a la mediana de sus pares (16,87x).
+*   **Rentabilidad:** Endesa mantiene una rentabilidad por dividendo atractiva del **3,68%**, con una tasa de pago (*payout ratio*) del 66,55%, lo cual es sostenible pero limita el capital disponible para reinversión agresiva.
+*   **Situación Financiera:** El apalancamiento es moderado con un ratio Deuda Neta/EBITDA de **2,10x**. La empresa ha mostrado una mejora en el flujo de caja operativo (4.081M EUR) frente al cierre de 2024, aunque su crecimiento de ingresos es modesto (0,27%).
 
-### Conclusión y Estrategia
-ELE.MC se comporta como un activo de renta variable con componente defensivo. El precio actual está un 14,34% por encima del precio objetivo medio del consenso (36,89 €), lo que sugiere que el mercado podría estar sobrevalorando las expectativas de crecimiento o infravalorando los riesgos operativos/legales. Se recomienda cautela, ya que el cruce negativo del MACD y la proximidad a la SMA de 50 días sugieren una posible corrección o fase de lateralización.
+### Contexto de Mercado y Riesgos
+La noticia más relevante que afecta a la cotización es la **demanda presentada por Repsol** contra Iberdrola, Naturgy y Endesa derivada de un apagón (fuente: *Bolsamania*, 16-11-2026). Este litigio introduce incertidumbre legal y riesgo reputacional a corto plazo. Adicionalmente, el entorno macroeconómico europeo muestra señales de endurecimiento monetario implícito por parte del BCE, lo que históricamente afecta a las empresas con elevada carga de deuda, aunque Endesa parece gestionar su estructura financiera de manera prudente.
 
-**Missing Data:** No se dispone del *guidance* específico de la dirección para el ejercicio 2027 ni detalles pormenorizados sobre el impacto financiero de la demanda judicial de Repsol.
+### Conclusión
+`ELE.MC` presenta una valoración técnica neutral en el corto plazo. El consenso de analistas, con un precio objetivo medio de **36,89 EUR**, sitúa a la acción con un riesgo de caída potencial del **14,46%** respecto al precio actual. Se recomienda cautela ante la resolución de los conflictos legales mencionados.
 
-| Indicador | Valor | Interpretación |
+**Rating**: Neutral
+
+FINAL TRANSACTION PROPOSAL: None. This is a research report.
+
+| Indicador / Métrica | Valor / Estado | Observación |
 | :--- | :--- | :--- |
-| Precio Actual | 43,06 € | Neutral (Cerca de SMA 50) |
-| RSI (14) | 44,51 | Neutral |
-| SMA 200 | 38,59 € | Soporte estructural a largo plazo |
-| Forward PE | 17,79 | Valoración premium frente a media histórica |
-| Dividend Yield | 3,66% | Atractivo para perfil conservador |
-| Consensus Upside | -14,34% | Indica posible sobrevaloración actual |
+| Precio Actual | 43,12 EUR | Cotizando sobre SMA 50 |
+| RSI (14) | 45,02 | Zona neutral |
+| PER (Forward) | 17,82x | Prima frente al sector |
+| Dividend Yield | 3,68% | Atractivo para renta fija |
+| Net Debt / EBITDA | 2,10x | Apalancamiento controlado |
+| Consenso Objetivo | 36,89 EUR | Sugiere sobrevaloración actual |
+| MACD | 0,21 | Por debajo de señal (0,45) |
 
-**Rating**: HOLD
-
-FINAL TRANSACTION PROPOSAL: Mantener posiciones existentes; esperar a que el precio testee el soporte de la media de 200 días (38,59 €) antes de considerar incremento de exposición, dado el desajuste con el precio objetivo del consenso.
+*Nota: Datos extraídos del snapshot de mercado del 20-11-2026. Falta información sobre la resolución específica de la demanda de Repsol y detalles sobre el impacto directo de las nuevas políticas de reservas mínimas del BCE en el coste de capital de la compañía.*

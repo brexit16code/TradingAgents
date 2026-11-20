@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: Repsol muestra una consolidación técnica necesaria tras un rally anual superior al 90%, con el precio cotizando por debajo de las medias móviles de corto plazo (20 y 50 días) pero manteniéndose sólido sobre la media de 200 días. Fundamentalmente, la compañía está infravalorada con un PER de 5,09, pero el momentum actual sugiere presión vendedora a corto plazo, lo que aconseja no incrementar exposición hasta observar una estabilización del indicador MACD y una superación de las resistencias inmediatas.
+**Reasoning**: Repsol presenta una valoración fundamental atractiva con un PER bajo y un balance sólido, lo cual limita el riesgo a la baja. Sin embargo, el deterioro en el momento técnico al perder las medias móviles de corto plazo (20 y 50 días) y la presión vendedora actual en el IBEX 35 aconsejan esperar a una estabilización del precio antes de aumentar la exposición. Se recomienda mantener posiciones actuales dado que la tendencia estructural de largo plazo sigue vigente sobre la media de 200 días.
 
 **Entry Price**: not provided
 
-**Stop Loss**: 24.45
+**Stop Loss**: 24.51
 
-**Position Sizing**: Mantener posición actual, no incrementar exposición.
+**Position Sizing**: 50% de la asignación estándar recomendada
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

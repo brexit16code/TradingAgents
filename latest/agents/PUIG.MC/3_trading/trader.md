@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La acción se mantiene en una zona neutral, cotizando justo por encima de su media móvil de 20 días, pero con un MACD que sugiere debilidad a corto plazo. A pesar de contar con fundamentales sólidos, como una reducción de deuda y un ROE saludable, el potencial alcista según el consenso es limitado (7%) y la presión vendedora tras la salida a bolsa sugiere cautela ante una posible consolidación hacia niveles de soporte técnicos. Se requiere una señal de momentum alcista más clara o un retroceso a zonas de valor mayor antes de aumentar exposición.
+**Reasoning**: La acción se encuentra en una fase de consolidación técnica, cotizando por debajo de su media móvil de 20 sesiones (19.75) pero manteniéndose sobre soportes clave como la SMA50 (18.78). Aunque los fundamentales muestran una solvencia sólida con un ratio de deuda/EBITDA de 1.63x, la contracción en el crecimiento de los beneficios (-4.4%) y el entorno macroeconómico incierto aconsejan prudencia. Mantenemos una postura neutral hasta observar una ruptura confirmada de la resistencia en los 20.00 EUR o una señal de soporte más clara en la media de 50 sesiones.
 
-**Entry Price**: not provided
+**Entry Price**: 20.0
 
-**Stop Loss**: 17.09
+**Stop Loss**: 18.78
 
-**Position Sizing**: Mantener posición actual, no añadir exposición
+**Position Sizing**: Mantener exposición actual; evitar aumentar peso hasta confirmar reversión de la tendencia de beneficios.
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

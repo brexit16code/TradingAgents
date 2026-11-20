@@ -1,36 +1,42 @@
-El siguiente informe presenta un análisis fundamental de **MERLIN Properties SOCIMI, S.A. (MRL.MC)**, basado en los datos financieros y de mercado actualizados al 19 de noviembre de 2026.
+Este informe técnico-fundamental sobre **MERLIN Properties SOCIMI, S.A. (MRL.MC)** se basa en los datos financieros y de mercado actualizados al 20 de noviembre de 2026.
 
-### Perfil y Situación Estratégica
-Merlin Properties es una SOCIMI líder en el sector de oficinas en España, que también gestiona activos en logística y centros de datos. Actualmente, la compañía enfrenta un desafío regulatorio y de sentimiento de mercado significativo relacionado con el decreto de centros de datos, que según informes de *El Boletín* (13/11/2026), le supondría un coste extra estimado de 863 millones de euros. A pesar de que sus ingresos del 3T 2026 superaron las previsiones, el mercado ha reaccionado con cautela, limitando el impulso alcista de la acción (fuente: *Investing.com España*, 13/11/2026).
+### Análisis Fundamental y Situación Actual
 
-### Análisis Financiero
-*   **Rentabilidad y Valoración:** La compañía presenta una capitalización bursátil de 7.021 millones de EUR. Con un P/E (PER) de 7,82x y un ratio Precio/Valor Contable de 0,81, los múltiplos sugieren un descuento respecto a su valor contable, aunque el P/E forward (20,2x) refleja una expectativa de contracción en el beneficio por acción futuro (pasando de 1,45 EUR a 0,56 EUR).
-*   **Balance y Deuda:** La deuda total se sitúa en 5.386 millones de EUR frente a una caja de 1.476 millones. Aunque la empresa ha incrementado sus activos (14.268 millones de EUR a cierre de 2025), la presión sobre la rentabilidad y el entorno de tipos de interés altos siguen siendo un factor de riesgo para el sector inmobiliario, como ha advertido recientemente el BCE (*El Boletín*, 16/11/2026).
-*   **Dividendos:** La rentabilidad por dividendo se mantiene en torno al 3,5%, lo cual es atractivo en el contexto actual, con un payout ratio prudente del 14,8%.
+MERLIN Properties (MRL.MC), un actor clave en el sector de oficinas en España, atraviesa un periodo de volatilidad significativa. Con una capitalización bursátil de ~6.77 mil millones de EUR, la compañía opera bajo una estructura de SOCIMI que requiere un análisis detallado más allá de los múltiplos industriales convencionales.
 
-### Análisis Técnico y Perspectivas
-La cotización (11,34 EUR) se encuentra por debajo de sus medias móviles de 20, 50 y 200 días, lo que confirma una tendencia bajista a largo plazo. El RSI de 40,37 indica que, si bien la presión vendedora es dominante, no se encuentra en territorio de sobreventa extrema inmediata.
+**1. Desempeño Financiero y Balance:**
+*   **Rentabilidad y Crecimiento:** La compañía mostró una mejora notable en los resultados de 2025 frente a 2024, con un EBITDA de 954.2 millones EUR y un beneficio neto de 786.1 millones EUR. Sin embargo, el crecimiento de los ingresos sigue siendo un desafío, con una variación anual de -0.006%.
+*   **Solidez del Balance:** MRL.MC presenta un nivel de deuda significativo (Total Debt: 5.39 mil millones EUR). Aunque la empresa ha incrementado sus activos totales (14.27 mil millones EUR en 2025 frente a 13.46 mil millones en 2024), el apalancamiento es un factor de riesgo en el entorno actual de tipos de interés, especialmente con la especulación sobre posibles ajustes en las políticas del BCE (referencia: *El Economista*, 19/11/2026).
 
-### Riesgos y Oportunidades
-1.  **Riesgo Regulatorio:** El decreto mencionado es el mayor catalizador negativo a corto plazo. La incertidumbre sobre el impacto operativo y financiero de esta normativa está pesando más que los resultados operativos positivos.
-2.  **Oportunidad:** El consenso de analistas mantiene un precio objetivo medio de 17,00 EUR, lo que implica un potencial de revalorización significativo (~50%) sobre el precio actual, asumiendo que el mercado ha sobrerreaccionado negativamente a las noticias regulatorias.
+**2. Contexto de Mercado y Sentimiento:**
+*   **Presión Bajista:** Noticias recientes (*CapitalMadrid*, 19/11/2026) indican un incremento en la presión de los vendedores en corto ("bajistas") tras la publicación de los resultados. El mercado parece haber reaccionado con escepticismo, lo que ha limitado el impulso alcista esperado tras las cifras reportadas (*CapitalMadrid*, 18/11/2026).
+*   **Incertidumbre Estratégica:** Existe una creciente cautela sobre su estrategia de centros de datos (*Bankinter*, 17/11/2026), lo que añade una capa de riesgo operativo a su modelo tradicional de oficinas.
 
-### Información Faltante
-No se dispone de datos detallados sobre el flujo de caja operativo (operating cashflow) y flujo de caja libre (free cashflow) en tiempo real para el ejercicio 2026, limitando la visibilidad sobre la capacidad de generación de efectivo inmediata tras las últimas inversiones.
+**3. Valoración Técnica y Consenso:**
+*   La acción cotiza a 10.93 EUR, con un RSI(14) de 36.18, lo que sugiere que se acerca a terreno de sobreventa pero sin señales claras de reversión.
+*   El precio medio objetivo de los analistas es de 17.00 EUR, lo que implica un potencial alcista teórico del 55.57%. No obstante, este consenso debe tomarse con prudencia dado el actual entorno de incertidumbre macroeconómica.
 
-**Rating**: HOLD
+### Resumen de Riesgos y Oportunidades
+*   **Factores Positivos:** Dividend Yield sólido (~3.5-3.6%); fuerte generación de flujo de caja operativo en 2025 (415.6 millones EUR).
+*   **Factores Negativos:** Alta deuda neta; presión bajista actual; sector de oficinas bajo escrutinio por cambios en las tendencias laborales y tipos de interés.
 
-FINAL TRANSACTION PROPOSAL: Mantener posiciones existentes mientras se monitoriza la evolución del decreto sobre centros de datos; evitar nuevas entradas hasta que la volatilidad técnica (25,9%) se estabilice y haya claridad sobre el impacto del gasto extraordinario de 863M€.
+**Missing Data:** Los datos de flujos de caja operativos y libres para el año en curso (2026) no están disponibles en el conjunto de datos proporcionado, lo que limita la capacidad de evaluar la liquidez inmediata post-resultados.
 
----
+**Rating**: REVIEW
 
-| Métrica | Valor / Detalle |
+FINAL TRANSACTION PROPOSAL: No actionable signal. Wait for stabilization of the technical trend and clarification on the impact of interest rate policy on the valuation of the data center portfolio before establishing any position.
+
+### Cuadro Resumen de Indicadores Clave
+
+| Indicador | Valor |
 | :--- | :--- |
-| **Precio Actual (MRL.MC)** | 11,34 EUR |
-| **Capitalización Bursátil** | 7.021 M€ |
-| **P/E (Trailing)** | 7,82x |
-| **Precio/Valor Contable** | 0,81x |
-| **Rentabilidad Dividendos** | 3,5% |
-| **Potencial de Subida (Consenso)** | +49,9% |
-| **RSI (14 días)** | 40,37 |
-| **Sentimiento de Noticias** | Negativo (incertidumbre regulatoria) |
+| Precio Actual | 10.93 EUR |
+| Capitalización Bursátil | 6.77 mil millones EUR |
+| Ratio P/B | 0.78 |
+| Yield de Dividendo | 3.66% |
+| EPS (Trailing) | 1.46 EUR |
+| Upside Consenso | +55.57% |
+| RSI (14) | 36.18 |
+| Deuda Total | 5.39 mil millones EUR |
+
+*Fuentes: Yahoo Finance (MRL.MC), Bankinter, CapitalMadrid, El Economista (14-20 Nov 2026).*

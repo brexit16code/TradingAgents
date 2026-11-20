@@ -1,32 +1,70 @@
-### Informe de Análisis: Amadeus IT Group, S.A. (AMS.MC)
+**Rating**: REVIEW
 
-**Fecha de análisis:** 19 de noviembre de 2026
+### Informe de Investigación y Análisis de Mercado: Amadeus IT Group, S.A. (`AMS.MC`)
 
-#### 1. Contexto Macroeconómico
-El entorno macroeconómico actual, tal como se desprende de las noticias de la última semana, está marcado por una creciente preocupación sobre el impacto del encarecimiento de la financiación en el crecimiento de la Eurozona (El Boletín, 16/11/2026). Existe una clara tensión entre la resiliencia operativa de las empresas y un entorno de tipos reales negativos, lo que erosiona el ahorro privado y presiona a los mercados bursátiles (Vozpopuli, 14/11/2026). La volatilidad es una constante, con el mercado analizando el binomio inflación-política monetaria, exacerbado por la incertidumbre política local (El Boletín, 15/11/2026).
+#### 1. Identidad y Contexto General
+* **Ticker:** `AMS.MC` (Bolsa de Madrid, cotizado en EUR, benchmark de referencia ^IBEX).
+* **Clasificación Sectorial:** Tecnología / Servicios de Tecnologías de la Información.
+* **Fecha de Análisis:** 20 de noviembre de 2026.
+* **Capitalización de Mercado:** 25.090.316.288 EUR.
 
-#### 2. Análisis de AMS.MC
-**Amadeus IT Group, S.A.** presenta un desempeño mixto en el contexto del IBEX 35. A pesar de haber registrado un retroceso reciente del 0,79% (19/11/2026), su tendencia de medio plazo es positiva, cotizando por encima de sus medias móviles de 50 y 200 sesiones.
+#### 2. Análisis Fundamental y Financiero
+Basado en los datos financieros y estimaciones más recientes de `AMS.MC`:
+* **Resultados Históricos (Ingresos y EBITDA):** 
+  * Año 2023: Ingresos Totales de 5.441,2 M EUR, EBITDA de 2.134,2 M EUR, Beneficio Neto de 1.117,6 M EUR.
+  * Año 2024: Ingresos Totales de 6.141,7 M EUR, EBITDA de 2.353,2 M EUR, Beneficio Neto de 1.253,0 M EUR.
+  * Año 2025: Ingresos Totales de 6.517,0 M EUR, EBITDA de 2.534,7 M EUR, Beneficio Neto de 1.335,7 M EUR.
+* **Múltiplos de Valoración:** 
+  * PER Histórico (Trailing P/E): 19.21x.
+  * PER Adelantado (Forward P/E): 15.28x.
+  * Precio sobre Valor en Libros (Price to Book): 5.03x.
+  * Valor de Empresa sobre EBITDA (EV/EBITDA): 11.18x.
+* **Solvencia y Flujo de Caja:**
+  * Deuda Total: 3.500.400.128 EUR (Deuda Neta / EBITDA de aproximadamente 1.03x, mostrando una estructura de apalancamiento moderada y saludable).
+  * Caja Total: 913.100.032 EUR.
+  * Flujo de Caja Operativo (2025): 2.200,9 M EUR; Flujo de Caja Libre (FCF 2025): 1.386,3 M EUR.
+* **Dividendos:** Tasa de dividendo de 1,54 EUR por acción, lo que representa una rentabilidad por dividendo (*dividend yield*) aproximada del 2,54% al 2,58%, con un *payout ratio* del 49,52%.
 
-*   **Fundamentos:** La compañía muestra una salud financiera sólida, con un beneficio neto creciente (1.335,7 millones de EUR en 2025) y una generación de flujo de caja libre robusta (1.386,3 millones de EUR en 2025). El ratio de endeudamiento neto sobre EBITDA es bajo (1,03x), lo que le otorga una ventaja defensiva en un entorno de tipos de interés elevados.
-*   **Valoración:** Con un forward PE de 15,5x y una previsión de EPS de 3,91 EUR, la acción parece estar valorada de forma razonable respecto a su capacidad de crecimiento. El consenso de analistas (22 opiniones) apunta a un precio objetivo de 71,13 EUR, lo que implica un potencial alcista del 17,3%.
-*   **Técnicos:** El RSI de 14 días en 58,2 indica una posición neutral/alcista sin signos evidentes de sobrecompra. La volatilidad del 25,7% refleja la sensibilidad del sector tecnológico a los cambios macroeconómicos recientes.
+#### 3. Análisis Técnico y Comportamiento de Precio
+* **Precio de Cierre (20/11/2026):** 59,74 EUR.
+* **Medias Móviles:** 
+  * SMA 20: 59,89 EUR.
+  * SMA 50: 56,28 EUR.
+  * SMA 200: 52,70 EUR. (La tendencia a medio y largo plazo se mantiene alcista, encontrándose el precio por encima de las medias de 50 y 200 sesiones).
+* **Indicadores de Momento:** 
+  * RSI (14 sesiones): 53,21 (zona neutral, sin sobrecompra ni sobreventa).
+  * MACD: 1,507 (ligeramente por debajo de su línea de señal en 1,720, indicando una fase de consolidación a corto plazo).
+* **Volatilidad y Retornos:** Volatilidad del 25,82%; rentabilidad a 21 sesiones del +4,95% y a 63 sesiones del +3,90%. El retroceso máximo (*drawdown*) reciente es del -5,85%.
 
-#### 3. Evidencia contradictoria y riesgos
-A pesar de la solidez financiera, el sector tecnológico se enfrenta a riesgos sistémicos. La advertencia del BCE (16/11/2026) sobre el coste de la deuda es un factor crítico para Amadeus. Si bien su endeudamiento es manejable, cualquier desaceleración en el tráfico aéreo mundial (debido a la presión sobre el consumo por la inflación) impactaría directamente en sus ingresos por reservas, su principal motor de crecimiento. Asimismo, la falta de datos comparativos sectoriales específicos en la instantánea proporcionada limita la capacidad de evaluar si su valoración es una prima justa frente a sus competidores directos.
+#### 4. Consenso de Analistas y Precios Objetivo
+* **Precio Objetivo Medio (Consenso):** 70,86 EUR.
+* **Precio Objetivo Mínimo:** 53,00 EUR.
+* **Precio Objetivo Máximo:** 82,00 EUR.
+* **Número de Opiniones:** 23 analistas.
+* **Potencial de Subida (*Consensus Upside*):** +18,62% respecto al precio de cotización actual (59,74 EUR).
 
-#### 4. Resumen de datos clave
+#### 5. Contexto Macroeconómico y Noticias Recientes
+* **Entorno de Mercado:** Las noticias recientes de mediados de noviembre de 2026 reflejan un entorno europeo marcado por la atención en las decisiones del Banco Central Europeo (BCE) relativas a tipos de interés y reservas mínimas, así como la evolución de la inflación y las rentabilidades de la deuda soberana y letras.
+* **Noticias Corporativas:** Cobertura de Morningstar y Estrategias de Inversión tras la publicación de resultados y movimientos en el IBEX 35, donde `AMS.MC` ha mostrado comportamiento mixto pero con sólidos fundamentales operativos apoyados en la recuperación y expansión continuada del sector de tecnología de viajes.
 
-| Métrica | Valor | Observación |
+#### 6. Evidencia Faltante y Limitaciones
+* No se dispone de un desglose detallado de los segmentos operativos exactos (Distribución Aérea vs. Soluciones de TI para Aerolíneas) en el conjunto de datos estático proporcionado.
+* No se han incorporado proyecciones de flujo de caja descontado (DCF) propias, limitándose la valoración a múltiplos de mercado y precios objetivo de consenso.
+
+---
+
+FINAL TRANSACTION PROPOSAL: REVIEW
+
+### Tabla Resumen de Datos Clave (`AMS.MC`)
+
+| Métrica / Concepto | Valor / Dato | Comentario / Contexto |
 | :--- | :--- | :--- |
-| Precio Cierre (19/11/26) | 60,64 EUR | Tendencia positiva sobre SMA 200 |
-| Forward P/E | 15,51x | Valoración razonable |
-| Deuda Neta / EBITDA | 1,03x | Apalancamiento controlado |
-| Consenso de analistas | 71,13 EUR | Upside del 17,3% |
-| Margen Neto | 19,86% | Eficiencia operativa alta |
-
-**Missing Data:** No se dispone de datos de comparación sectorial (peer analysis) ni de proyecciones específicas de flujo de caja para el ejercicio 2027, lo que impide un modelado de descuento de flujos (DCF) preciso.
-
-**Rating:** Neutral
-
-FINAL TRANSACTION PROPOSAL: Mantener posición, dada la solidez del balance y el descuento respecto al precio objetivo de consenso, vigilando el soporte de la SMA 50.
+| **Precio Actual (Cierre)** | 59,74 EUR | Fecha de referencia: 20/11/2026 |
+| **Capitalización Bursátil** | ~25.090 M EUR | Empresa de gran capitalización en el IBEX 35 |
+| **PER Adelantado (Forward P/E)** | 15,28x | Basado en un BPA estimado (*Forward EPS*) de 3,91 EUR |
+| **EV / EBITDA** | 11,18x | Valuación moderada para el sector tecnológico |
+| **Deuda Neta / EBITDA** | ~1,03x | Apalancamiento contenido y equilibrado |
+| **Flujo de Caja Libre (2025)** | 1.386,3 M EUR | Sólida generación de caja operativa y FCF |
+| **Precio Objetivo Consenso** | 70,86 EUR | Margen alcista estimado (*upside*) de +18,62% |
+| **Rentabilidad por Dividendo** | ~2,58% | Payout aproximado del 49,52% |
+| **Indicadores Técnicos (RSI / SMA)** | RSI: 53,21 / Por encima de SMA200 | Estructura técnica neutral-alcista en consolidación |

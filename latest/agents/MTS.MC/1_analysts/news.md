@@ -1,33 +1,35 @@
-Este informe analiza la situación de **MTS.MC** (ArcelorMittal) al 19 de noviembre de 2026, basándose en la evidencia proporcionada.
+A continuación se presenta el informe de situación de **MTS.MC** (ArcelorMittal) basado en los datos proporcionados con fecha de corte al 20 de noviembre de 2026.
 
-### Análisis de ArcelorMittal (MTS.MC)
+### Análisis de Situación: ArcelorMittal (MTS.MC)
 
-**Estado Fundamental y Técnico:**
-*   **Valoración:** MTS.MC cotiza a una relación precio-beneficio (trailing PE) de 46.39x, lo que contrasta fuertemente con un forward PE de 9.89x, sugiriendo que el mercado anticipa una recuperación significativa en los beneficios futuros (con un EPS proyectado de 5.53 EUR). La acción cotiza con un ratio Precio/Valor Contable (P/B) de 0.86, indicando que se negocia con un descuento respecto a su valor contable, una característica común en el sector cíclico del acero.
-*   **Situación Técnica:** El precio actual de 54.74 EUR muestra una tendencia bajista de corto plazo, con un RSI de 43.79 (zona neutral-baja) y un MACD que ha cruzado positivamente su línea de señal, aunque todavía se mantiene en terreno negativo. La acción ha corregido un 18.77% desde sus máximos, reflejando la presión vendedora mencionada en las noticias recientes.
-*   **Desempeño:** A pesar de la corrección reciente y la presión sobre el IBEX 35 (donde MTS.MC aparece como uno de los valores más castigados, según *Estrategias de Inversión* del 17-11-2026), la compañía mantiene una rentabilidad anual del 43% (*El Economista*, 18-11-2026), lo que la posiciona como líder del sector en Europa este año.
+**Situación Fundamental y Técnica**
+ArcelorMittal está atravesando un periodo de presión correctiva significativa. Con un precio de cierre de 51,64 EUR, la acción ha registrado una caída del 5,66% en la última sesión y acumula un *drawdown* del 23,37%. Técnicamente, el valor se encuentra por debajo de sus medias móviles de 20, 50 y 200 sesiones, lo que confirma una tendencia bajista de corto y medio plazo. El RSI de 14 días (34,83) se aproxima a zona de sobreventa, pero el MACD sigue en territorio negativo, lo que sugiere que la presión vendedora aún no se ha agotado.
 
-**Contexto Macroeconómico:**
-El entorno es complejo. La inflación persiste como una preocupación central en la Eurozona (*Negocios.com*, 13-11-2026), y el BCE advierte que el encarecimiento del crédito podría limitar el crecimiento económico (*El Boletín*, 16-11-2026). Esto impacta directamente a industrias intensivas en capital como la siderurgia. La preferencia de los inversores por activos como las letras del tesoro, con siete meses de crecimiento en demanda (*Radio Intereconomía*, 16-11-2026), refleja una actitud defensiva del mercado ante la incertidumbre.
+Desde el punto de vista fundamental, la empresa presenta una valoración mixta. Aunque el *forward PE* es atractivo (9,33), el *trailing PE* es elevado (43,76), reflejando una contracción en los beneficios recientes. La rentabilidad sobre el capital (ROE) es modesta (1,83%) y el flujo de caja libre es negativo (-802,87 millones de EUR), lo que indica una presión significativa sobre la liquidez operativa y una alta intensidad de capital (CAPEX).
 
-**Evidencia contradictoria y riesgos:**
-*   **Favorables:** El sólido forward EPS y la valoración por debajo del valor contable sugieren un potencial de valor a largo plazo si las condiciones industriales mejoran.
-*   **Contrarios:** El flujo de caja libre es negativo (-802 millones EUR), lo que indica una presión significativa por los altos gastos de capital (*CAPEX*). La deuda neta sobre EBITDA se sitúa en 2.08x, un nivel que exige vigilancia en un entorno de tipos de interés altos.
+**Contexto Macroeconómico**
+El sentimiento inversor en el Ibex 35 ha estado condicionado por un entorno de cautela en la Eurozona. Las noticias del 19 y 20 de noviembre señalan una posible restricción monetaria "por la puerta de atrás" mediante el incremento de reservas mínimas obligatorias por parte del BCE, lo que añade incertidumbre sobre el coste de financiación para empresas industriales como ArcelorMittal. La volatilidad del sector básico se ve agravada por la percepción de una política monetaria que busca mantener los tipos elevados para controlar la inflación, limitando el apetito por activos cíclicos.
 
-**Datos faltantes:**
-No se dispone de proyecciones detalladas de demanda de acero por parte de China o Estados Unidos, ni datos específicos sobre el impacto de las elecciones en España en los proyectos de infraestructura a corto plazo.
+**Perspectiva del Mercado**
+La prensa local (Estrategias de Inversión, 20/11/2026) sitúa a MTS.MC como uno de los valores más castigados del índice, lo que refleja un posicionamiento defensivo del capital ante la debilidad del sector. A pesar de esto, el consenso de los analistas mantiene un precio objetivo medio de 59,10 EUR, lo que implica un potencial de revalorización teórico del 14,45% sobre el precio actual, aunque este consenso se basa en una muestra muy reducida (solo 2 opiniones).
+
+### Resumen de Datos Clave
+
+| Indicador | Valor / Estado | Nota |
+| :--- | :--- | :--- |
+| **Precio Actual** | 51,64 EUR | Caída del 5,66% (20/11/2026) |
+| **Ratio PE (Forward)** | 9,33 | Indica valoración barata futura |
+| **Net Debt/EBITDA** | 2,08x | Apalancamiento controlado |
+| **RSI (14)** | 34,83 | Tendencia bajista, cerca de sobreventa |
+| **Tendencia** | Bajista | Por debajo de SMA 20, 50, 200 |
+| **Consenso Upside** | +14,45% | Basado en 2 opiniones |
+
+**Evidencia faltante:**
+*   El dato de *earningsGrowth* aparece como "null", lo que dificulta una proyección precisa de la rentabilidad futura.
+*   No se dispone de un desglose geográfico actualizado de la demanda de acero, lo cual es crítico dado el entorno de tipos de interés en la zona Euro.
+
+**Consideraciones Finales**
+La acción muestra signos de agotamiento bajista, pero la ausencia de catalizadores positivos y el entorno de tipos de interés restrictivos en Europa sugieren que el valor podría consolidar en estos niveles antes de intentar un rebote. La alta volatilidad (34,5%) recomienda prudencia extrema.
 
 **Rating**: REVIEW
-
-### Resumen de indicadores clave
-
-| Indicador | Valor / Estado | Comentario |
-| :--- | :--- | :--- |
-| **Precio de mercado** | 54.74 EUR | Corrección tras máximos anuales. |
-| **Forward PE** | 9.90x | Atractivo comparado con el trailing PE. |
-| **Yield de dividendo** | 1.00% | Pago modesto, payout ratio del 52.9%. |
-| **Net Debt/EBITDA** | 2.08x | Apalancamiento moderado. |
-| **Sentimiento (Noticias)** | Negativo/Neutral | Corrección técnica tras repuntes. |
-| **Consenso Analista** | 59.10 EUR | Upside potencial del 7.96%. |
-
-FINAL TRANSACTION PROPOSAL: No trade execution or recommendation provided. This is a analytical summary.
+FINAL TRANSACTION PROPOSAL: No action recommended until the stock stabilizes above its 20-day SMA or shows signs of reversal in the MACD indicator.

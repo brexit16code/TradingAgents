@@ -1,36 +1,39 @@
-Este informe presenta un análisis fundamental detallado de **Repsol, S.A. (REP.MC)** basado en los datos proporcionados al 19 de noviembre de 2026.
+El siguiente análisis fundamental de **Repsol, S.A. (REP.MC)** se basa en los datos financieros y de mercado proporcionados a fecha de 20 de noviembre de 2026.
 
-### Análisis Fundamental y Situación Financiera
-Repsol opera actualmente en un entorno de mercado exigente, manteniendo una capitalización bursátil de aproximadamente **30.480 millones de EUR**.
+### Perfil y Situación Fundamental
+Repsol es una compañía integrada de petróleo y gas que cotiza en el mercado español. A pesar de haber tenido un desempeño sólido en los últimos 252 días (+93,39%), la acción ha experimentado una presión vendedora reciente, siendo citada como "farolillo rojo" en sesiones bursátiles recientes (18 de noviembre de 2026), lo que ha contribuido a que el IBEX 35 retrocediera.
 
-*   **Rentabilidad y Valoración:** La compañía presenta múltiplos de valoración atractivos con un **PER (Trailing) de 5,09x** y un **PER (Forward) de 6,02x**, lo que sugiere que el mercado está descontando cautela sobre sus beneficios futuros. El valor en libros por acción (23,11 EUR) frente a su precio actual (28,65 EUR) arroja un ratio **Price-to-Book de 1,24x**.
-*   **Fortaleza Financiera:** Con un ratio **Net Debt/EBITDA de 0,32x**, la posición de apalancamiento es conservadora y sólida, lo cual es fundamental en el sector de petróleo y gas integrado. La empresa reportó una utilidad neta de 1.899 millones de EUR en 2025, una mejora respecto a los 1.756 millones de 2024, aunque aún por debajo de los 3.168 millones de 2023.
-*   **Flujo de Caja:** El flujo de caja libre (FCF) se situó en 1.619 millones de EUR al cierre de 2025, recuperándose tras el flujo negativo observado en 2024 (-1.410 millones de EUR), lo que demuestra una mejor gestión del capital de trabajo y las inversiones de capital (CapEx).
+**Fortalezas:**
+*   **Valoración atractiva:** Cotiza con un ratio PER (*Trailing PE*) de 5,06x y un *Forward PE* de 5,98x, lo que sugiere una valoración modesta frente a sus beneficios.
+*   **Salud financiera:** La relación Deuda Neta/EBITDA es muy saludable, situada en 0,32x, indicando una capacidad robusta de repago.
+*   **Retorno al accionista:** Ofrece una rentabilidad por dividendo atractiva del 3,67%.
+*   **Crecimiento:** Ha reportado un crecimiento de beneficios (*earnings growth*) del 4,22% y una sólida rentabilidad sobre el capital propio (ROE) del 21,07%.
 
-### Análisis de Mercado y Sentimiento
-La acción ha tenido un rendimiento destacado a 252 días (+94,18%), pero se enfrenta a una corrección a corto plazo. La cotización actual de **28,65 EUR** se sitúa por debajo de sus medias móviles de 20 y 50 sesiones (ambas en ~29,65 EUR), lo que indica una presión vendedora técnica reciente.
+**Riesgos y debilidades:**
+*   **Volatilidad operativa:** El flujo de caja libre (*Free Cash Flow*) ha sido volátil, pasando de 2.222 M€ en 2023 a una cifra negativa en 2024 (-1.410 M€), recuperándose hasta 1.770 M€ en los últimos datos disponibles.
+*   **Tendencia técnica reciente:** Se sitúa por debajo de sus medias móviles de 20 y 50 días (29,60€ y 29,61€ respectivamente), lo que refleja una corrección de corto plazo tras el máximo reciente.
+*   **Entorno macroeconómico:** El mercado refleja dudas respecto a las perspectivas de los tipos de interés en la Eurozona y una posible presión adicional sobre sectores cíclicos.
 
-*   **Contexto Reciente:** Según las noticias del 18 de noviembre de 2026, Repsol ha sido identificada como el "farolillo rojo" en las caídas del IBEX 35, afectada por la volatilidad general del mercado y posiblemente por una toma de beneficios tras su fuerte ascenso anual.
-*   **Consenso de Analistas:** El precio objetivo medio es de **31,08 EUR**, lo que sugiere una **upside potencial del 8,46%** desde los niveles actuales.
+### Análisis Financiero
+*   **Ingresos y Márgenes:** Los ingresos han mostrado una ligera contracción entre 2023 (58.948 M€) y 2025 (54.861 M€). Los márgenes de beneficio se sitúan en el 9,36%, lo cual es estándar para el sector de integración energética.
+*   **Balance:** La empresa mantiene una posición de activos de 59.428 M€ frente a una deuda total de 13.238 M€, lo cual es manejable dada la generación de EBITDA de 10.696 M€.
 
-### Perspectiva para el Inversor
-La estrategia a seguir debe considerar el equilibrio entre su atractiva rentabilidad por dividendo (3,66%) y la volatilidad intrínseca del sector energético. La empresa está bien capitalizada, pero el crecimiento de sus ingresos ha sido errático.
+### Insights para Traders
+1.  **Soporte Técnico:** La media móvil de 200 días se encuentra en los 24,51€, sirviendo como un soporte de largo plazo significativo frente al precio actual de 28,46€.
+2.  **Consenso:** El precio objetivo medio es de 31,16€, lo que implica un potencial alcista del 9,49% según los analistas (23 opiniones).
+3.  **Acción de precio:** La reciente debilidad (según fuentes como *Bolsamania* y *El Boletín*) parece estar vinculada a una rotación de sectores y a la resaca post-resultados de grandes tecnológicas, más que a un deterioro estructural de Repsol.
 
-**Datos faltantes:** No se dispone de un desglose geográfico detallado de los ingresos para 2026, ni proyecciones específicas sobre el impacto de la transición energética en el flujo de caja operativo a largo plazo.
-
-### Tabla Resumen de Datos Clave
+**Faltantes:** No se dispone de un desglose detallado de la estrategia de inversión en transición energética ni el impacto desglosado de los impuestos especiales al sector energético español vigentes en 2026.
 
 | Indicador | Valor |
 | :--- | :--- |
-| **Precio Actual (REP.MC)** | 28,65 EUR |
-| **Capitalización de Mercado** | 30.476 M EUR |
-| **PER (Forward)** | 6,02x |
-| **Dividend Yield** | 3,66% |
-| **Net Debt / EBITDA** | 0,32x |
-| **Consensus Target Price** | 31,08 EUR |
-| **Consensus Upside** | 8,46% |
-| **RSI (14)** | 44,27 |
+| **Precio Actual** | 28,46 EUR |
+| **Capitalización** | 30.147 M€ |
+| **PER (Trailing)** | 5,06x |
+| **Rentabilidad Dividendo** | 3,67% |
+| **Deuda Neta/EBITDA** | 0,32x |
+| **Consenso Upside** | +9,49% |
+| **Tendencia técnica (200d)** | Alcista (Precio > SMA200) |
 
-**Rating**: REVIEW
-
-FINAL TRANSACTION PROPOSAL: NO ACTION. Dada la presión técnica bajista a corto plazo y que el precio actual se encuentra por debajo de las medias móviles clave, se recomienda esperar a una estabilización en la zona de soporte (24,45 EUR en su media de 200 sesiones) antes de buscar puntos de entrada para capturar el upside del consenso.
+**Rating**: HOLD
+FINAL TRANSACTION PROPOSAL: No trade execution suggested. Given the current RSI (43,26) and the position near short-term SMAs, a patient accumulation strategy or waiting for a stabilization above the 30€ resistance level is recommended.

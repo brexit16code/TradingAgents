@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: El activo presenta una divergencia clara entre su valor intrínseco, con un ratio Precio/Valor Contable de 0.81 que sugiere infravaloración, y los riesgos regulatorios inmediatos tras el decreto de centros de datos que implican un coste extraordinario de 863 millones de euros. Técnicamente, la acción sigue bajo presión bajista cotizando por debajo de sus medias móviles clave, pero su cercanía a niveles de sobreventa en el RSI desaconseja una venta precipitada. Se requiere esperar a que la volatilidad disminuya y se clarifique el impacto financiero del nuevo marco regulatorio antes de tomar una decisión direccional.
+**Reasoning**: La acción se encuentra en una clara tendencia bajista técnica, cotizando por debajo de todas las medias móviles principales (SMA20, SMA50, SMA200), lo que sugiere evitar nuevas compras ('catch a falling knife'). Aunque los fundamentos presentan un descuento atractivo en el Price-to-Book (0,78x), la presión de los inversores bajistas tras los resultados y el endurecimiento de la política monetaria del BCE añaden riesgos de corto plazo que justifican mantener la cautela. Se recomienda observar la consolidación del soporte en 10,50 EUR antes de considerar cualquier cambio en la exposición.
 
-**Entry Price**: not provided
+**Entry Price**: 11.35
 
-**Stop Loss**: not provided
+**Stop Loss**: 10.45
 
-**Position Sizing**: Mantener peso neutral; no aumentar la exposición hasta la recuperación de la media móvil simple de 50 días.
+**Position Sizing**: Mantener posición actual; no incrementar exposición
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

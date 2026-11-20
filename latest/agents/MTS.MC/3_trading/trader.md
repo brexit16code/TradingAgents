@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La acción se encuentra técnicamente presionada por debajo de sus medias móviles clave (SMA20, SMA50 y SMA200), lo que indica una falta de impulso comprador a corto plazo. A pesar de contar con una valoración fundamental atractiva mediante un Forward PE de 9.89, la persistencia de un flujo de caja libre negativo y el entorno macroeconómico restrictivo justifican mantener una posición neutral hasta observar una estabilización sólida sobre los 55.78 EUR.
+**Reasoning**: Aunque el PER forward de 9.34x ofrece un valor atractivo, la estructura técnica es claramente bajista al cotizar por debajo de todas las medias móviles principales (SMA20, SMA50, SMA200). La alta volatilidad del 34.5% y el flujo de caja libre negativo exigen paciencia para observar una estabilización en los niveles de soporte antes de arriesgar capital, priorizando la preservación de activos sobre la entrada prematura en un mercado a la baja.
 
-**Entry Price**: 55.78
+**Entry Price**: not provided
 
-**Stop Loss**: 52.7
+**Stop Loss**: 48.5
 
-**Position Sizing**: Mantener exposición actual; no incrementar ponderación
+**Position Sizing**: 0% (Wait for reversal)
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

@@ -1,36 +1,68 @@
-### Informe de Análisis: ACS, Actividades de Construcción y Servicios, S.A. (ACS.MC)
+**Rating**: REVIEW
 
-**Fecha de referencia:** 19 de noviembre de 2026
-**Situación de mercado:** El entorno macroeconómico actual refleja tensiones inflacionistas en la Eurozona y una preocupación creciente por el encarecimiento de la financiación, como reporta el BCE (*El Boletín*, 16 de noviembre). A pesar de esto, **ACS.MC** mantiene un desempeño bursátil relevante en el Ibex 35.
+**Análisis Fundamental, Técnico y Macroeconómico de ACS.MC**
 
-#### 1. Análisis Fundamental y Desempeño
-*   **Resultados y Crecimiento:** ACS ha reportado un crecimiento sólido, destacando un aumento del 35% en beneficios atribuido, en parte, a la expansión en la construcción de centros de datos en Estados Unidos (*Líder Actual*, 17 de noviembre). Los ingresos pasaron de 41.633M EUR en 2024 a 49.847M EUR en 2025.
-*   **Valoración:** La acción cotiza a 86,70 EUR con un ratio P/E (Price-to-Earnings) de 17,8. El ratio Precio/Valor Contable es de 3,99. Aunque el consenso de analistas (17 opiniones) sitúa el precio objetivo medio en 128,54 EUR, lo que implica un potencial alcista del 48,26%, la acción ha sufrido un retroceso del 17,19% en los últimos 63 días, reflejando la volatilidad del sector.
-*   **Salud Financiera:** La empresa presenta una relación Deuda Neta/EBITDA de 1,02, lo cual es una señal prudente dado su carácter industrial. El flujo de caja libre ha mostrado una tendencia positiva, alcanzando los 2.303M EUR en 2025 frente a los 1.006M EUR de 2023.
-
-#### 2. Noticias y Sentimiento del Mercado
-*   **Sentimiento Alcista:** Las noticias recientes destacan a **ACS.MC** como líder de las subidas en el Ibex 35 (*Estrategias de Inversión*, 19 de noviembre). Existe optimismo derivado de su nuevo plan estratégico y su dividendo, con estimaciones de hasta 4,90 euros por acción (*Artículo 14*, 17 de noviembre).
-*   **Factores de Riesgo:** El entorno de tipos de interés sigue siendo la principal sombra. El BCE ha advertido que el endurecimiento de las condiciones financieras podría frenar el crecimiento en la eurozona, lo cual afecta directamente a los costes de capital de empresas intensivas en activos como ACS.
-
-#### 3. Análisis Técnico
-*   **Indicadores:** El RSI(14) en 40,5 sugiere que la acción no está sobrecomprada, acercándose a niveles neutrales/bajos. El MACD se encuentra en -0,86, por debajo de su línea de señal (-0,82), indicando una tendencia bajista a corto plazo. La cotización se sitúa por debajo de su media móvil de 200 días (108,55 EUR), lo que confirma una estructura de debilidad en el medio plazo a pesar del optimismo fundamental.
-
-#### 4. Conclusión e Insights
-ACS muestra una divergencia entre su fuerte capacidad de ejecución operativa (impulso por IA y centros de datos) y el sentimiento de mercado presionado por el entorno macroeconómico de la eurozona. El potencial alcista, según los analistas, parece fundamentarse en la revalorización de sus activos y su capacidad para generar caja.
-
-**Missing Data:** No se dispone de detalles desglosados sobre la estructura específica de la deuda a tipo fijo vs. variable (excluyendo la capacidad de cubrir riesgos de tipos), lo cual es crítico dado el entorno de financiación mencionado por el BCE.
+### 1. Resumen Ejecutivo e Identidad del Instrumento
+* **Instrumento analizado**: `ACS.MC` (ACS, Actividades de Construcción y Servicios, S.A.).
+* **Negocio / Sector**: Industrials / Engineering & Construction (Cotizada en la Bolsa de Madrid - MCE, en EUR, referencia al índice ^IBEX).
+* **Fecha de referencia**: 20 de noviembre de 2026.
 
 ---
 
-| Métrica / Punto Clave | Valor / Detalle |
-| :--- | :--- |
-| **Precio Actual** | 86,70 EUR |
-| **Consenso Analista (Media)** | 128,54 EUR (+48,26%) |
-| **ROE** | 25,01% |
-| **Net Debt / EBITDA** | 1,02x |
-| **Dividendo (Yield)** | 2,68% |
-| **Sentimiento en Prensa** | Positivo (Enfoque en IA y centros de datos) |
-| **Riesgo Macro** | Encarecimiento de financiación (BCE) |
+### 2. Análisis Fundamental y Financiero
+De acuerdo con los estados financieros y métricas fundamentales disponibles más recientes:
+* **Capitalización Bursátil**: 21.525.891.072 EUR (~21.530 millones de EUR).
+* **Resultados e Ingresos (Ejercicio 2025)**: 
+  * Ingresos Totales: 49.847.681.000 EUR (frente a 41.633.120.000 EUR en 2024 y 35.737.759.000 EUR en 2023), mostrando un crecimiento interanual de los ingresos del 19,4%.
+  * EBITDA: 3.387.885.000 EUR (EBITDA consolidado en la instantánea de 2.458.636.032 EUR).
+  * Beneficio Neto (Net Income): 950.340.000 EUR (frente a 827.580.000 EUR en 2024), con un crecimiento de las ganancias del 35,5%.
+* **Valuación**:
+  * PER histórico (*Trailing P/E*): 17,00x.
+  * PER adelantado (*Forward P/E*): 16,45x.
+  * Precio sobre Valor en Libros (*Price to Book*): 3,82x.
+  * Valor de Empresa / EBITDA (*EV/EBITDA*): 10,33x.
+* **Solvencia y Deuda**:
+  * Deuda Total: 14.428.000.256 EUR (Balance a fin de 2025 registra Total Debt de 15.333.768.000 EUR frente a activos totales de 45.189.213.000 EUR).
+  * Efectivo Total (*Total Cash*): 11.918.000.128 EUR.
+  * Ratio Deuda Neta / EBITDA: ~1,02x, lo cual denota una estructura financiera saneada.
+* **Flujo de Caja y Dividendos**:
+  * Flujo de caja operativo (*Operating Cash Flow*): 3.220.761.088 EUR (3.046.761.000 EUR en 2025).
+  * Flujo de caja libre (*Free Cash Flow*): 1.300.349.312 EUR (2.303.003.000 EUR en 2025 tras un CapEx de 743.758.000 EUR).
+  * Rentabilidad por dividendo (*Dividend Yield*): ~2,80% (dividendo anual de 2,32 EUR por acción con un ratio de pago o *payout ratio* de 57,13%).
+* **Consenso de Analistas**:
+  * Precio objetivo medio (*Target Mean Price*): 128,54 EUR (Precio objetivo mínimo: 99,75 EUR; máximo: 153,10 EUR, basado en 17 opiniones de analistas).
+  * Potencial alcista de consenso (*Consensus Upside*): ~55,24% respecto al precio actual de cierre (82,80 EUR).
 
-**Rating**: HOLD
-FINAL TRANSACTION PROPOSAL: Mantener posiciones existentes a la espera de una consolidación por encima de la media de 50 sesiones (91,37 EUR) antes de considerar aumentar exposición, debido a la actual divergencia técnica bajista.
+---
+
+### 3. Análisis Técnico y de Mercado
+* **Precio de Cierre (20 de noviembre de 2026)**: 82,80 EUR.
+* **Cambio reciente**: Descenso diario del -4,50%. Acumula una caída del -4,77% a 21 sesiones y del -20,61% a 63 sesiones (*relative return* negativo de -14,71 puntos porcentuales respecto al índice de referencia). A 252 sesiones, registra una rentabilidad positiva del 7,84%.
+* **Indicadores Técnicos**:
+  * RSI (14 sesiones): 33,74, acercándose a la zona de sobreventa, lo que sugiere presión vendedora reciente pero proximidad a niveles de soporte potencial.
+  * MACD: -1,33 (con línea de señal en -0,92), indicando momento bajista vigente.
+  * Medias Móviles: El precio se sitúa por debajo de su SMA20 (89,61 EUR), SMA50 (91,06 EUR) y SMA200 (108,48 EUR), reflejando una tendencia bajista de medio y largo plazo.
+  * Volatilidad anualizada: 33,95%.
+  * *Drawdown* actual: -40,15% desde máximos recientes.
+
+---
+
+### 4. Contexto Macroeconómico e Informativo Reciente
+* **Noticias y Noticias de Mercado (Noviembre de 2026)**:
+  * El comportamiento bursátil de ACS se ha visto sacudido por la volatilidad general en el Ibex 35. Mientras que en sesiones anteriores lideraba avances impulsada por expectativas de negocio en la construcción de centros de datos en Estados Unidos (con estimaciones de crecimiento de beneficios de doble dígito, según publicaciones sectoriales como *Líder Actual* del 17 de noviembre de 2026), las jornadas recientes han estado marcadas por correcciones severas y presión en el selectivo español (referencias de *Estrategias de Inversión* del 19 y 20 de noviembre de 2026).
+* **Entorno Macroeconómico de la Eurozona**:
+  * Los inversores vigilan de cerca las decisiones del Banco Central Europeo (BCE), con debates en curso sobre ajustes monetarios encubiertos vía reservas mínimas obligatorias y la senda de los tipos de interés para finales de 2026 y 2027 (informes de *Bankinter* y *El Economista* de noviembre de 2026). La persistencia de tipos reales negativos y la preferencia de los hogares por activos de bajo riesgo (letras del tesoro) condicionan la liquidez de los mercados europeos.
+
+---
+
+### 5. Datos Faltantes y Asuntos a Monitorear
+* **Datos Faltantes**: No se dispone de un desglose detallado en tiempo real de la cartera de pedidos (*backlog*) desglosada por divisiones geográficas específicas para el cierre exacto de noviembre de 2026, ni de las actas de la próxima reunión de política monetaria del BCE. No se deben extrapolar estos datos de memoria.
+* **Métodos y Supuestos**: La valoración se basa en los múltiplos financieros directos (PER forward de ~16,45x, EV/EBITDA de 10,33x) provistos por los estados financieros auditados de 2025 y los objetivos de consenso de analistas. Los objetivos de analistas reflejan estimaciones de mercado y no constituyen un valor intrínseco garantizado.
+
+---
+
+### 6. Tabla Resumen Clave
+
+| Métrica / Concepto | Valor / Indicador | Evidencia y Notas Clave |
+| :--- | :--- | :--- |
+| **Precio de la Acción (`ACS.MC`)** | 82,80 EUR | Cierre a 20 de noviembre de 

@@ -1,38 +1,61 @@
-Este informe presenta un análisis fundamental de **Ferrovial N.V. (FER.MC)**, una compañía líder en el sector de Ingeniería y Construcción, con sede en España y cotizada en el mercado de Madrid (MCE).
+**Rating**: REVIEW
 
-### Análisis de Situación Fundamental (a 19 de noviembre de 2026)
+**ANÁLISIS FUNDAMENTAL Y TÉCNICO DE FERROVIAL N.V. (`FER.MC`)**
 
-**1. Perfil y Estado de Mercado**
-Ferrovial se encuentra en una fase de consolidación técnica interesante. Con un precio de cierre de **54,14 EUR** y una capitalización bursátil de aproximadamente **38.890 millones de EUR**, la empresa ha mostrado un comportamiento relativo positivo, con una rentabilidad a 63 días del **+2,26%** frente al índice de referencia, a pesar de una caída del **2,06%** en la última sesión. La volatilidad implícita del 30,5% indica un mercado activo, pero la proximidad a su media móvil de 200 días (54,23 EUR) sugiere un punto de decisión técnica crítico.
+### 1. Perfil de la Compañía y Resumen de Negocio
+* **Identidad Resuelta:** Ferrovial N.V. (`FER.MC`), cotizada en la bolsa de Madrid (MCE), dentro del sector de **Industrials** y la industria de **Engineering & Construction**.
+* **Modelo de Negocio y Posicionamiento:** Ferrovial es un operador global de infraestructuras con un enfoque destacado en el desarrollo, construcción y gestión de autopistas (especialmente en mercados clave como Norteamérica, EE. UU. y Canadá) y aeropuertos. 
+* **Contexto Reciente de Mercado:** Las noticias recientes de noviembre de 2026 apuntan a un fuerte dinamismo bursátil. La acción ha registrado repuntes importantes (superando el 25%-30% desde mínimos anuales previos), impulsada por el optimismo y la atención en el rendimiento de sus autopistas en EE. UU., así como la prueba de resistencias técnicas clave en el índice Ibex 35 (`^IBEX`).
 
-**2. Análisis Financiero (Histórico y Actual)**
-*   **Ingresos y Rentabilidad:** La compañía reportó ingresos de 9.627 millones de EUR en el ejercicio 2025, un crecimiento moderado respecto a 2024 (9.148 millones). Sin embargo, se observa una volatilidad significativa en los beneficios netos: tras un pico de 3.239 millones en 2024 (impulsado probablemente por factores extraordinarios o ventas de activos), el beneficio neto de 2025 se situó en 888 millones.
-*   **Solidez del Balance:** Presenta una deuda total de 10.657 millones de EUR, con una ratio de **Net Debt/EBITDA de 4,39x**. Esta cifra refleja una estructura de capital intensiva en deuda, típica de empresas de gestión de infraestructuras con proyectos a largo plazo.
-*   **Generación de Caja:** El flujo de caja operativo de 1.926 millones de EUR y un flujo de caja libre (FCF) de 1.739 millones en 2025 demuestran una capacidad saludable para financiar sus operaciones y dividendos.
+---
 
-**3. Valoración y Expectativas del Mercado**
-*   **Múltiplos:** La acción cotiza con un PER (Price to Earnings) *trailing* de 34,7x, mientras que el forward PER se sitúa en 46,55x, lo que implica que los analistas esperan una contracción temporal en los beneficios o una inversión intensa que afecta la comparativa a futuro. La ratio Price-to-Book (P/B) de 6,82x denota una valoración premium respecto a su valor contable, reflejo de la confianza del mercado en sus concesiones de autopistas en EE. UU.
-*   **Consenso de Analistas:** El precio objetivo medio es de **59,90 EUR**, lo que sugiere un potencial de revalorización del **10,63%** sobre el precio actual.
+### 2. Análisis de Estados Financieros y Fundamentales
+A partir de los datos financieros provistos (con cierre fiscal reciente en los períodos 2023, 2024 y 2025):
 
-**4. Contexto Reciente (Noticias)**
-Las noticias recientes (13-17 nov 2026) destacan el interés de los inversores por la exposición de Ferrovial a sus autopistas en EE. UU., las cuales actúan como motor de crecimiento. No obstante, existe cautela por parte de analistas (como RBC) debido al incremento en la rentabilidad de los bonos, lo que presiona las valoraciones de empresas con deuda, a pesar de que la acción ha rebotado más de un 30% desde sus mínimos del año.
+* **Evolución de Ingresos y Rentabilidad:**
+  * **Ingresos Totales:** Se observa un crecimiento sostenido de la cifra de negocios, pasando de 8.515 millones de euros en 2023 a 9.148 millones en 2024 y alcanzando los **9.627 millones de euros** al cierre de 2025 (lo que representa un crecimiento de ingresos interanual del orden del 5,2%).
+  * **EBITDA y Márgenes:** El EBITDA registrado en 2025 se sitúa en 1.998 millones de euros (frente a los 4.539 millones de 2024, año que pudo incluir impactos extraordinarios por desinversiones o reestructuraciones corporativas como su traslado internacional). El margen de beneficio neto reportado se sitúa en torno al **6,15%**.
+  * **Beneficio Neto (Net Income):** En el ejercicio 2025, el beneficio neto fue de **888 millones de euros** (comparado con los 3.239 millones de 2024 y 341 millones de 2023).
 
-### Insights para Traders
-*   **A favor:** La sólida generación de flujo de caja libre y el papel defensivo/estratégico de sus activos de infraestructura en EE. UU. proporcionan un suelo fundamentado.
-*   **En contra:** La elevada ratio de apalancamiento (Net Debt/EBITDA > 4) es un factor de riesgo en entornos de tipos de interés persistentes. La valoración actual es elevada respecto al sector (PER relativo de 2,73x superior a sus pares).
-*   **Faltantes:** No se dispone de detalles sobre la composición específica del vencimiento de la deuda a corto plazo o el desglose geográfico detallado de los ingresos post-2025.
+* **Balance de Situación:**
+  * **Activos Totales:** 27.420 millones de euros (cierre de 2025), ligeramente por debajo de los 28.999 millones de 2024.
+  * **Deuda Total y Endeudamiento:** La deuda total asciende a **10.657 millones de euros** (con variaciones similares reportadas en los balances anuales de 10.732 millones a cierre de 2025). La posición de caja declarada es de 3.864 millones de euros.
+  * **Ratio de Apalancamiento:** El indicador de Deuda Neta sobre EBITDA (*net_debt_ebitda*) se ubica en **4.39x**, un nivel que refleja la intensidad de capital típica de una compañía de infraestructuras concesionales, pero que requiere un seguimiento estricto de la generación de caja.
+  * **Patrimonio Neto (Stockholders' Equity):** Se sitúa en 5.908 millones de euros a cierre de 2025.
 
-**Rating**: HOLD
-FINAL TRANSACTION PROPOSAL: N/A (Solo análisis fundamental)
+* **Flujo de Caja (*Cash Flow*):**
+  * El flujo de caja operativo (*Operating Cash Flow*) ha mostrado solidez, alcanzando **1.926 millones de euros** en 2025 (superior a los 1.293 millones de 2024).
+  * El flujo de caja libre (*Free Cash Flow*) se sitúa en niveles robustos, reportando 1.739 millones de euros para 2025 (según estados) y una cifra en torno a los 889,6 millones de euros en métricas consolidadas recientes. Esto respalda la política de retribución al accionista.
 
-| Indicador | Valor |
-| :--- | :--- |
-| Precio Actual | 54,14 EUR |
-| Precio Objetivo Medio | 59,90 EUR |
-| PER Forward | 46,55x |
-| Dividend Yield | 3,60% |
-| Net Debt/EBITDA | 4,39x |
-| Capitalización Bursátil | 38.886 M EUR |
-| Upside Consenso | 10,63% |
+---
 
-*Descargo de responsabilidad: Este informe se basa únicamente en los datos proporcionados y no constituye asesoramiento financiero. Toda inversión conlleva riesgos.*
+### 3. Valoración y Métricas de Mercado
+* **Capitalización Bursátil:** ~37.923 millones de euros.
+* **Múltiplos de Valoración:**
+  * **PER Tailing (trailingPE):** 33.85x.
+  * **PER Forward (forwardPE):** 45.40x.
+  * **Precio/Valor en Libros (Price-to-Book):** 6.65x.
+  * **EV/EBITDA:** 30.69x.
+  * *Nota sectorial:* El PER relativo de Ferrovial frente a la mediana de comparables (*peers* de referencia en el mercado español como `ANA.MC`, `ACS.MC`, `AENA.MC`, etc.) muestra un ratio de 2.76x, evidenciando que cotiza con una prima de valoración elevada justificada por la calidad y predictibilidad de sus activos concesionales internacionales.
+* **Dividendos:**
+  * Ofrece una rentabilidad por dividendo (*dividend yield*) estimada en el **3,69%**, con un dividendo por acción (*dividend rate*) de 1,95 EUR y un *payout ratio* del 71,2%.
+* **Consenso de Analistas:**
+  * El precio objetivo medio (*targetMeanPrice*) fijado por el consenso de analistas es de **59,90 EUR** (con un rango que va desde un mínimo de 48,50 EUR hasta un máximo de 80,00 EUR basado en 20 opiniones). Con una cotización actual de **52,80 EUR**, el potencial de revalorización implícito (*consensus upside*) es de aproximadamente **13,44%**.
+
+---
+
+### 4. Análisis Técnico Breve
+* **Precio Actual:** 52,80 EUR (con una caída intradía del -2,48% en la última sesión registrada a 20 de noviembre de 2026).
+* **Medias Móviles:** El precio se sitúa ligeramente por encima de su media móvil de 20 sesiones (SMA20 en 52,31 EUR) y de 50 sesiones (SMA50 en 48,24 EUR), aunque por debajo de su media de 200 sesiones (SMA200 en 54,20 EUR), lo que denota una recuperación de corto plazo tras tantear zonas de mínimos anuales.
+* **Indicadores Técnicos:** El RSI de 14 períodos se encuentra en **56,68** (zona neutral-favorable sin signos de sobrecompra extrema). El MACD muestra lectura positiva (2,09) aunque condicionado por su línea de señal (2,13). La volatilidad anualizada se registra en el 30,93%, y el valor experimenta un *drawdown* del -14,23% respecto a sus referencias de máximos.
+
+---
+
+### 5. Datos Faltantes y Limitaciones
+* No se dispone de un desglose detallado pormenorizado en tiempo real de transacciones de iniciados (*insider transactions*) en este informe resumido.
+* No se ha suministrado una cartera de inversión particular, por lo que cualquier inferencia de asignación de activos debe ser estrictamente considerada de carácter hipotético.
+
+---
+
+### 6. Conclusiones y Perspectivas para Traders
+Ferrovial (`FER.MC`) mantiene un perfil fundamental sólido respaldado por la progresión favorable de sus ingresos, una sólida generación de flujos de caja operativos (por encima de los 1.900 millones de euros) y un posicionamiento estratégico inmejorable en el sector de autopistas de Norteamérica. No obstante, los múltiplos de valoración (PER forward superior a 45

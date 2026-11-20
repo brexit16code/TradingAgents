@@ -1,31 +1,54 @@
-A continuación, presento el análisis fundamental detallado de **Enagás, S.A. (`ENG.MC`)** basado en la información financiera y de mercado disponible al 19 de noviembre de 2026.
+**Rating**: REVIEW
 
-### Perfil y Estado Actual
-Enagás es una empresa líder en el sector de servicios públicos (utilities) y transporte de gas natural. Con una capitalización de mercado de aproximadamente 4.560 millones de euros, la compañía opera bajo una estructura de ingresos regulados. Actualmente, el mercado cotiza la acción a 17,53 EUR, mostrando una leve tendencia a la baja en la última sesión (-1,07%).
+**FINAL TRANSACTION PROPOSAL**: HOLD
 
-### Análisis Financiero y Desempeño
-*   **Rentabilidad y Dividendos:** Uno de los puntos focales para el inversor es su política de dividendos. Con un rendimiento (yield) del 5,70% y un dividendo de 1,0 EUR por acción, Enagás se mantiene como un activo orientado a la renta. Recientemente (17-19 de noviembre de 2026), se ha confirmado el pago de un dividendo de 0,4 EUR brutos por acción, programado para el 16 de diciembre de 2026 (*fuentes: Valencia Plaza, Finect*).
-*   **Resultados y Arbitraje:** Un hito fundamental reciente es la resolución favorable del arbitraje contra Perú respecto a sus inversiones en TGP y COGA (*Cinco Días, 18-11-2026*). Esto podría mitigar riesgos reputacionales y operativos anteriores.
-*   **Salud Financiera:** La empresa presenta una relación deuda neta/EBITDA de 6,15x, lo cual es considerable y debe monitorearse dado el entorno de tipos de interés mencionados en las noticias macroeconómicas (preocupación por el encarecimiento de la financiación). El flujo de caja operativo ha mostrado volatilidad, pasando de 568M€ en 2023 a 212M€ en 2025, lo cual requiere atención por parte de los inversores.
+---
 
-### Perspectiva de Mercado y Valoración
-*   **Valoración:** Con un PER adelantado (forward PE) de 15,44x y un PER histórico de 12,79x, la acción cotiza cerca de su media objetivo (17,18 EUR). Existe un ligero potencial de caída (-1,98%) según el consenso de los 20 analistas que siguen el valor.
-*   **Análisis Técnico:** La acción se encuentra operando cerca de su media móvil de 20 días (17,78 EUR) y por encima de la de 200 días (16,41 EUR), lo que sugiere una tendencia a largo plazo consolidada, aunque con un RSI neutral (48,38) que no indica sobrecompra ni sobreventa.
+### Informe Fundamental Integral: Enagás, S.A. (`ENG.MC`)
 
-### Consideraciones para el Inversor
-*   **A favor:** Pago de dividendo confirmado a corto plazo, resolución favorable de litigios en Perú y carácter defensivo del sector regulado.
-*   **En contra:** Elevado apalancamiento (Net Debt/EBITDA > 6x), crecimiento de ingresos negativo (-9,1% reciente) y entorno macroeconómico europeo con riesgos de endurecimiento de condiciones financieras.
-*   **Datos faltantes:** No se dispone del desglose detallado de la deuda por vencimientos a corto plazo ni proyecciones específicas sobre el impacto exacto en el flujo de caja del laudo arbitral ganado.
+Fecha del informe: 20 de noviembre de 2026.  
+Cotización actual de referencia: **17,67 EUR** (al cierre del 20 de noviembre de 2026).
 
-**Rating**: HOLD
+---
 
-| Métrica | Valor / Nota |
-| :--- | :--- |
-| **Precio Actual** | 17,53 EUR |
-| **Consenso Analistas** | 17,18 EUR |
-| **Dividend Yield** | 5,70% |
-| **Net Debt/EBITDA** | 6,15x |
-| **Tendencia 63 días** | +4,47% |
-| **Evento Próximo** | Pago dividendo (0,4 EUR) el 16-dic |
+#### 1. Perfil de la Empresa y Contexto de Negocio
+**Enagás, S.A.** (`ENG.MC`) es el principal gestor técnico del sistema gasista en España y transportista de gas natural, clasificado dentro del sector de **Utilities (Utilities - Regulated Gas)** y cotizando en la Bolsa de Madrid (`MCE`) formando parte del índice de referencia `^IBEX`. Su modelo de negocio se basa en infraestructuras reguladas de gas, con una exposición creciente a la transición energética (hidrógeno verde y gases renovables), aunque fuertemente condicionada por la retribución regulada fijada por los reguladores nacionales y los laudos arbitrales internacionales.
 
-FINAL TRANSACTION PROPOSAL: No transaction executed. Hold position due to high dividend yield balanced against elevated debt-to-EBITDA levels.
+#### 2. Análisis Financiero y Estados Financieros (2023 - 2025)
+
+Los datos financieros extraídos de los estados contables reflejan una evolución mixta en los últimos ejercicios:
+
+*   **Cuenta de Resultados (Income Statement):**
+    *   *Ingresos Totales (Total Revenue):* 907,57 millones de euros en 2023, 905,55 millones en 2024 y un repunte hasta los **960,40 millones de euros** al cierre del ejercicio 2025.
+    *   *EBITDA:* Se situó en 810,84 millones de euros en 2023, experimentando una fuerte contracción contable en 2024 hasta los 80,65 millones (debido a minusvalías/provisiones o reestructuraciones de activos), recuperándose a **762,75 millones de euros** en 2025.
+    *   *Beneficio Neto (Net Income):* 342,53 millones de euros en 2023, una fuerte pérdida de **-299,31 millones de euros** en 2024, y un retorno a terreno positivo en 2025 con **339,11 millones de euros**.
+
+*   **Balance de Situación (Balance Sheet):**
+    *   *Activos Totales:* Pasaron de 8.507,27 millones de euros en 2023 a 7.495,94 millones en 2024, situándose en **6.823,44 millones de euros** al cierre de 2025 (reducción del perímetro de activos).
+    *   *Deuda Total (Total Debt):* Se ha reducido de forma constante desde 3.806,16 millones de euros en 2023 hasta 3.313,73 millones en 2024 y **2.822,89 millones de euros** al cierre de 2025 (la herramienta de métricas actuales sitúa la deuda total ligeramente superior en torno a 3.155,80 millones debido a pasivos corrientes/financieros recientes).
+    *   *Patrimonio Neto (Stockholders Equity):* 2.983,69 millones de euros en 2023, 2.375,76 millones en 2024 y **2.301,11 millones de euros** al cierre de 2025.
+
+*   **Flujo de Caja (Cash Flow):**
+    *   *Flujo de Caja Operativo:* 568,84 millones de euros (2023), 454,99 millones (2024) y **212,54 millones de euros** (2025).
+    *   *Inversión en CapEx:* -156,97 millones de euros (2023), -97,89 millones (2024) y **-118,12 millones de euros** (2025).
+    *   *Flujo de Caja Libre (FCF):* 411,87 millones de euros en 2023, 357,10 millones en 2024 y **94,42 millones de euros** en 2025 (la métrica FCF anualizada actual se sitúa en torno a 192,77 millones de euros).
+
+#### 3. Métricas Clave de Valoración y Fundamentales Actuales (`ENG.MC`)
+*   **Capitalización Bursátil:** ~4.599,47 millones de EUR.
+*   **PER (Trailing):** 12,90x | **PER (Forward):** 15,57x.
+*   **BPA (Trailing):** 1,37 EUR | **BPA (Forward):** 1,14 EUR.
+*   **Precio / Valor en Libros (P/B):** 1,93x.
+*   **Valor de Empresa / EBITDA (EV/EBITDA):** 16,91x.
+*   **Rentabilidad por Dividendo (Dividend Yield):** **5,66%** a **5,70%**, con un dividendo anual de 1,00 EUR por acción y un *payout ratio* del 79,96%.
+*   **Endeudamiento:** Deuda Neta / EBITDA de **6,15x** (nivel de apalancamiento elevado, típico de utilities reguladas intensivas en capital).
+*   **Consenso de Analistas:** Precio objetivo medio de **17,18 EUR** (con un rango entre un mínimo de 13,00 EUR y un máximo de 19,80 EUR, basado en la opinión de 20 analistas). Esto implica una ligera sobrevaloración a corto plazo frente al precio actual de 17,67 EUR (-2,76% de upside de consenso).
+
+#### 4. Análisis Técnico y de Mercado Reciente
+*   **Precio:** 17,67 EUR (+0,80% en la última sesión).
+*   **Medias Móviles:** SMA20 en 17,80 EUR, SMA50 en 17,13 EUR y SMA200 en 16,43 EUR. La cotización se encuentra ligeramente por debajo de su media de 20 sesiones pero consolidando por encima de la de 50 y 200 sesiones, mostrando una tendencia alcista a medio plazo (+34,61% a 12 meses).
+*   **Indicadores de Momentum:** RSI(14) en **52,04** (zona neutral). MACD en 0,187 (señal en 0,258). Volatilidad anualizada moderada del **14,64%**.
+
+#### 5. Noticias y Eventos Recientes (Noviembre de 2026)
+Durante la semana del 17 al 20 de noviembre de 2026, se han producido eventos corporativos y noticias clave para `ENG.MC`:
+1.  **Retribución al Accionista:** Enagás ha confirmado el pago de un dividendo a cuenta del ejercicio 2026 de **0,40 euros brutos por acción**, que se hará efectivo el próximo **16 de diciembre de 2026** (Fuentes: *Finect*, *Bolsamania*, *Valencia Plaza*, 17-19 de noviembre de 2026).
+2.  **Laudo Arbitral en Perú:** Se ha anunciado la resolución favorable del arbitraje contra Perú en relación con sus inversiones en TGP (Transportadora de Gas del Perú) y COGA (Compañía Operadora de Gas del Amazonas), un hito relevante para despejar incertidumbres legales y

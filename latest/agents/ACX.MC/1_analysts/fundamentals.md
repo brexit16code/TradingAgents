@@ -1,44 +1,39 @@
-### Informe Fundamental: Acerinox, S.A. (ACX.MC)
+### Informe de Análisis Fundamental: Acerinox, S.A. (ACX.MC)
 
-**Fecha de análisis:** 19 de noviembre de 2026
+**Fecha de análisis:** 20 de noviembre de 2026
 
-#### 1. Perfil de la Empresa
-Acerinox, S.A. es un líder mundial en la fabricación de acero inoxidable y aleaciones de alto rendimiento. Opera en el sector de materiales básicos y cotiza en la Bolsa de Madrid (MCE). La compañía ha diversificado sus líneas de negocio recientemente, incluyendo proyectos en almacenamiento industrial de hidrógeno, lo cual representa una nueva vía de crecimiento estratégico (fuente: *El Conciso*, 19/11/2026).
+#### Resumen Ejecutivo
+Acerinox (ACX.MC) atraviesa un periodo de volatilidad significativa, con una caída del 4,28% en la última sesión y una presión técnica bajista (RSI de 30.78, cerca de terreno de sobreventa). A pesar de los desafíos operativos reflejados en un flujo de caja libre negativo en 2025 y una pérdida neta ese mismo ejercicio, la compañía cotiza con un PER forward atractivo de 9.36x en comparación con su PER trailing de 27.45x, lo que sugiere que el mercado anticipa una recuperación en los beneficios.
 
-#### 2. Situación Financiera y Rentabilidad
-La salud financiera de ACX.MC muestra signos mixtos derivados de un entorno macroeconómico complejo en la Eurozona:
+#### Análisis Financiero
+*   **Resultados Operativos:** El ejercicio 2025 fue complejo, con una pérdida neta de 40.07 millones de euros frente a los beneficios positivos de años anteriores (224.9 millones en 2024). No obstante, la compañía mantiene una capacidad operativa resiliente con ingresos de 5,78 mil millones de euros en 2025.
+*   **Solvencia y Deuda:** La ratio deuda neta/EBITDA de 3.15x indica un apalancamiento relevante pero manejable para un sector intensivo en capital. El total de deuda se sitúa en 2,44 mil millones de euros, compensado parcialmente por una posición de caja de 903 millones de euros.
+*   **Valoración:** El mercado valora a la compañía con una capitalización de 3,63 mil millones de euros. La discrepancia entre el precio actual (14.55 EUR) y el precio objetivo medio de los analistas (20.15 EUR) sugiere un potencial de revalorización teórico del 38,5%.
 
-*   **Ingresos y Beneficios:** Los ingresos han mostrado una tendencia volátil (5.78 mil millones EUR en 2025 vs. 5.41 mil millones en 2024). El año 2025 cerró con una pérdida neta de 40.07 millones EUR, contrastando con los beneficios de los años anteriores.
-*   **Balance y Deuda:** La empresa mantiene un nivel de deuda significativo (Total deuda: 2.16 mil millones EUR a finales de 2025). El ratio de deuda neta sobre EBITDA se sitúa en 3.15, lo que sugiere una carga financiera relevante en un contexto de tipos de interés altos, una preocupación señalada por el BCE (fuente: *El Boletín*, 16/11/2026).
-*   **Valoración:** La acción cotiza actualmente a 15.20 EUR. Con un PER estimado para el próximo año (Forward PE) de 9.78, parece atractiva si logra cumplir sus expectativas de EPS de 1.55. Sin embargo, el valor en libros de 8.94 EUR implica un ratio Price-to-Book de 1.70.
+#### Contexto Estratégico y Noticias (2026-11-18 al 2026-11-19)
+La compañía ha estado activa en el ámbito de la sostenibilidad y la eficiencia operativa:
+*   **Innovación:** Acerinox Europa está explorando el uso de hidrógeno verde para el recocido de acero, buscando alternativas futuras al gas natural (Fuente: *El Conciso*, 18-19 nov 2026). Esto posiciona a la empresa en una senda de descarbonización industrial.
+*   **Análisis Técnico:** Se observa un intento de estabilización en torno a los 14,85 euros, buscando formar un "doble suelo" para revertir la tendencia bajista actual (Fuente: *Estrategias de Inversión*, 19 nov 2026).
 
-#### 3. Análisis Técnico y Sentimiento de Mercado
-El sentimiento actual es cauteloso pero con intentos de estabilización técnica:
-*   **Soporte:** Los analistas observan un soporte crítico en torno a los 14.85 EUR, actuando como zona clave para evitar una mayor presión bajista (*Estrategias de Inversión*, 19/11/2026).
-*   **Tendencia:** El título se encuentra bajo su media móvil de 50 sesiones (16.64 EUR), lo que indica una tendencia bajista a medio plazo, aunque recientemente ha liderado ligeras subidas dentro del IBEX 35, sugiriendo una posible búsqueda de un "doble suelo" (*El Español*, 19/11/2026).
+#### Perspectiva del Mercado
+*   **Factores a favor:** Rendimiento por dividendo del 4,26%, valoraciones forward atractivas y avances en tecnología de hidrógeno.
+*   **Factores de riesgo:** Elevada volatilidad (28,6%), flujo de caja libre negativo (-155,27 millones de euros en 2025) y una rentabilidad sobre recursos propios (ROE) baja del 4,5%.
+*   **Información faltante:** No se dispone de detalles sobre la composición accionarial reciente ni transacciones de *insiders* en el periodo inmediato, lo que limita la visión sobre la confianza del equipo directivo.
 
-#### 4. Riesgos y Oportunidades
-*   **Riesgos:** La inflación persistente en Europa y la volatilidad del sector industrial. La rentabilidad sobre recursos propios (ROE) es baja (4.54%), lo que indica una eficiencia operativa limitada bajo las condiciones actuales.
-*   **Oportunidades:** El consenso de mercado sugiere un precio objetivo medio de 20.15 EUR, lo que implica un potencial de revalorización del 32.59%. La incursión en almacenamiento de hidrógeno podría mejorar la narrativa de crecimiento a largo plazo.
+#### Conclusión para Traders
+La acción se encuentra en un punto crítico. La proximidad del RSI a la zona de sobreventa y el soporte en la zona de los 14,80 EUR sugieren una oportunidad técnica para inversores que buscan rebotes, siempre que se valide el soporte. El consenso de analistas mantiene una visión optimista a largo plazo, pero la debilidad en el flujo de caja operativo reciente requiere cautela.
 
-#### 5. Información Faltante
-*   No se dispone de un desglose detallado de los contratos de cobertura de precios del níquel ni de la exposición exacta a mercados emergentes específicos que podrían mitigar la debilidad en Europa.
-*   No se ha proporcionado el calendario detallado de vencimientos de deuda a corto plazo para 2027.
+**Rating**: REVIEW
 
----
+FINAL TRANSACTION PROPOSAL: No trade execution recommended. Potential technical entry point near 14.50 EUR for swing traders, subject to market stability and confirmation of support levels.
 
-### Tabla Resumen de Datos Clave
-
-| Métrica | Valor |
+| Indicador | Valor |
 | :--- | :--- |
-| **Precio Actual** | 15.20 EUR |
-| **Capitalización Bursátil** | 3.79 mil millones EUR |
-| **Forward PE** | 9.78 |
-| **Consenso Precio Objetivo** | 20.15 EUR |
-| **Dividend Yield** | 4.1% |
-| **Nivel de Soporte Observado** | ~14.85 EUR |
-| **Ratio Deuda Neta/EBITDA** | 3.15 |
+| Precio Actual | 14.55 EUR |
+| PER Forward | 9.36x |
+| Dividend Yield | 4.26% |
+| Upside Consenso | 38.51% |
+| Deuda Neta / EBITDA | 3.15x |
+| RSI (14) | 30.78 |
 
-**Rating**: HOLD (basado en la estabilización técnica necesaria tras los resultados negativos de 2025).
-
-FINAL TRANSACTION PROPOSAL: No trade executed. Monitor support level of 14.85 EUR for potential entry if technical base confirms.
+*Descargo de responsabilidad: Este análisis se basa únicamente en datos proporcionados y no constituye asesoramiento financiero. La inversión en renta variable conlleva riesgos de pérdida de capital.*

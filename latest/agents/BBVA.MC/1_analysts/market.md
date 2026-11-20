@@ -1,35 +1,30 @@
-Análisis de mercado para **BBVA.MC** (Banco Bilbao Vizcaya Argentaria, S.A.)
-Fecha de referencia: 19 de noviembre de 2026
+El análisis técnico y fundamental de **BBVA.MC** (Banco Bilbao Vizcaya Argentaria, S.A.), con fecha de corte al 20 de noviembre de 2026, refleja una situación de consolidación tras un periodo de volatilidad. La acción cotiza a 21,83 EUR, mostrando una corrección reciente del 3,36% en la última sesión y una presión vendedora que ha situado al RSI(14) en 37,31, niveles cercanos a la zona de sobreventa pero aún en terreno neutral.
 
-### Resumen del Perfil Financiero y Técnico
-El valor **BBVA.MC** presenta una situación técnica mixta. Con un precio de cierre de **22.59 EUR** al 19/11/2026, la acción se encuentra operando por debajo de su media móvil de 50 sesiones (**23.35 EUR**), lo que sugiere una presión bajista a medio plazo. No obstante, se mantiene por encima de la media móvil de 200 sesiones (**21.20 EUR**), lo que indica que la tendencia estructural de largo plazo sigue siendo constructiva.
+### Análisis Técnico y de Tendencias
+- **Tendencia a Largo Plazo:** El precio se mantiene por encima de su media móvil de 200 días (21,21 EUR), lo que indica que, a pesar de la caída reciente, la tendencia estructural a largo plazo sigue siendo alcista.
+- **Debilidad a Corto/Medio Plazo:** La cotización se encuentra por debajo de las medias móviles de 20 y 50 días (22,67 EUR y 23,29 EUR, respectivamente), lo que sugiere una corrección activa o fase de consolidación. El indicador MACD (-0,09) se sitúa por debajo de su línea de señal (-0,06), confirmando el momentum negativo actual.
+- **Volatilidad:** La volatilidad reportada del 26,31% sugiere un entorno de mercado que requiere gestión del riesgo, especialmente dado el *drawdown* del -12,72% desde máximos recientes.
 
-#### Indicadores Clave:
-*   **Momentum:** El RSI de 14 sesiones se sitúa en **44.73**, situándose en zona neutral, lo cual no ofrece una señal clara de sobrecompra o sobreventa.
-*   **MACD:** El valor del MACD es **0.0024** y su señal es **-0.0527**. El hecho de que el MACD esté oscilando cerca de la línea de cero y la señal sea ligeramente negativa refleja una falta de impulso direccional claro en el corto plazo.
-*   **Volatilidad:** La volatilidad reportada es de **25.65%**, indicando una dispersión moderada en los precios.
-*   **Valoración:** Con un **Forward PE de 9.60** frente a un **Trailing PE de 11.53**, el mercado anticipa un crecimiento en los beneficios por acción (Forward EPS 2.35). El Ratio Precio/Libro (P/B) de **2.14** es consistente con un sector bancario diversificado que muestra un **ROE del 19.8%**, lo cual es un indicador positivo de eficiencia operativa.
-
-### Análisis de Fundamentos y Noticias
-BBVA ha demostrado fortaleza en sus carteras de crédito, con un crecimiento del **20.3%** en su cartera de empresas hasta septiembre (Fuente: *Bolsamania*, 16/11/2026). La estrategia de digitalización, apoyada en la IA para mejorar la relación con el cliente (Fuente: *El Independiente*, 16/11/2026), parece ser un pilar fundamental para sostener su competitividad. La entidad consolida su fortaleza en bolsa frente a otros pares del sector, según informes recientes (Fuente: *Merca2.es*, 16/11/2026).
+### Fundamentos y Contexto de Mercado
+BBVA presenta indicadores sólidos desde el punto de vista del valor relativo:
+- **Valoración:** Con un *Forward PE* de 9,28 y un *Trailing PE* de 11,14, el banco cotiza con un descuento respecto a la media de sus pares (Ratio 0,93 según los datos proporcionados).
+- **Crecimiento y Solidez:** La compañía reporta un crecimiento de ingresos del 18,4% y de beneficios del 23,8% a finales de 2025, respaldado por una rentabilidad sobre el capital (ROE) del 19,8%. La cartera de crédito a empresas muestra un crecimiento robusto (+20,3% a septiembre), lo que sugiere una actividad comercial fuerte según *Bolsamania* (2026-11-16).
+- **Entorno Macroeconómico:** Los inversores observan de cerca la política del BCE respecto a las reservas mínimas obligatorias y los tipos de interés (El Economista, 2026-11-19). La fortaleza de BBVA en Bolsa parece persistir a pesar de estos desafíos (Merca2.es, 2026-11-16).
 
 ### Consideraciones Estratégicas
-*   **Soporte/Resistencia:** La SMA200 (21.20 EUR) constituye el soporte crítico de largo plazo. La zona de 23.35 EUR (SMA50) actúa actualmente como resistencia dinámica que el precio debe recuperar para retomar una tendencia alcista clara.
-*   **Dividendos:** Con una rentabilidad por dividendo (**dividend yield**) del **4.26%** y un **payout ratio de 46.59%**, BBVA sigue siendo una opción atractiva para inversores enfocados en ingresos, manteniendo un balance sostenible entre retribución al accionista y reinversión.
+La discrepancia entre la valoración fundamental atractiva y el momentum técnico negativo (cruce bajista en el MACD y precio bajo las medias cortas) sugiere cautela. El soporte crítico se sitúa en la proximidad de la SMA200 (21,21 EUR). La recuperación de la tendencia alcista requeriría romper el nivel de la SMA50 (23,29 EUR) con un incremento en el volumen.
 
-### Evidencia Faltante
-*   No se dispone de datos de **Enterprise Value / EBITDA** ni **Free Cash Flow** actualizados para el trimestre más reciente de 2026 (los datos de flujo de caja en las declaraciones están limitados hasta 2025).
-*   La falta de un *EBITDA* consolidado para el sector financiero dificulta comparativas de deuda industrial, por lo que el análisis se ha centrado en los ratios bancarios estándar (P/B, ROE, Forward PE).
+**Nota sobre datos faltantes:** No se dispone de datos de EBITDA ni de *Enterprise Value*, dado que el sector bancario requiere metodologías distintas a las industriales, por lo cual se han priorizado ratios como el Price-to-Book (2,07) y dividend yield (4,29%) para la evaluación.
 
-### Resumen de indicadores clave
-
-| Indicador | Valor | Interpretación |
+| Indicador / Métrica | Valor / Estado | Interpretación |
 | :--- | :--- | :--- |
-| Precio Cierre | 22.59 EUR | Debajo SMA50, encima SMA200 |
-| RSI (14) | 44.73 | Zona Neutral |
-| Dividend Yield | 4.26% | Atractivo para ingresos |
-| ROE | 19.8% | Alta rentabilidad operativa |
-| Forward PE | 9.60 | Valoración razonable vs peers |
+| Precio Actual | 21,83 EUR | Soporte inmediato cerca de SMA200 |
+| RSI (14) | 37,31 | Neutral, acercándose a zona de sobreventa |
+| SMA 50 / 200 | 23,29 / 21,21 | Resistencia técnica / Soporte estructural |
+| Forward PE | 9,28 | Valoración atractiva frente al sector |
+| Dividend Yield | 4,29% | Retorno por dividendo sólido |
+| Tendencia MACD | Negativa | Momentum bajista a corto plazo |
 
 **Rating**: HOLD
-FINAL TRANSACTION PROPOSAL: No trade executed. This analysis is for informational purposes only and does not constitute financial advice. Any allocation mentioned is purely hypothetical.
+
+FINAL TRANSACTION PROPOSAL: Mantener posiciones existentes mientras el precio se mantenga por encima del soporte de los 21,21 EUR (SMA200). Dada la volatilidad, no se recomienda incrementar exposición hasta que el MACD confirme un cruce alcista o el precio consolide por encima de la SMA50 (23,29 EUR).

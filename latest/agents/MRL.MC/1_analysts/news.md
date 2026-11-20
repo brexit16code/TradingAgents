@@ -1,33 +1,38 @@
-Este informe analiza la situación actual de **MERLIN Properties (MRL.MC)**, una SOCIMI española enfocada en oficinas, basándose en los datos proporcionados al 19 de noviembre de 2026.
+### Informe de Análisis: MERLIN Properties SOCIMI, S.A. (MRL.MC)
 
-### Análisis Fundamental y Operativo
-MRL.MC presenta una situación financiera robusta pero bajo presión debido a riesgos regulatorios específicos. A pesar de superar las expectativas de ingresos en el tercer trimestre de 2026, la cotización se ha visto lastrada por la incertidumbre jurídica.
+**Situación Actual del Mercado y Activos**
+A fecha de 20 de noviembre de 2026, **MRL.MC** cotiza a 10,93 EUR, experimentando una caída del 1,88% en la sesión. El valor se encuentra bajo presión técnica significativa, cotizando por debajo de sus medias móviles de 20, 50 y 200 días (SMA200: 13,61 EUR), lo que indica una tendencia bajista a largo plazo. Con un RSI14 de 36,18, el activo se aproxima a zona de sobreventa, pero sin señales claras de reversión alcista.
 
-*   **Riesgo Regulatorio (Data Centers):** Según *El Boletín* (13/11/2026), MRL.MC estima un coste extra de 863 millones de euros derivado de un reciente decreto sobre centros de datos. La empresa ha expresado críticas abiertas, preparándose para "lo peor", lo que ha generado una desconfianza palpable en el mercado que eclipsa los buenos resultados trimestrales (*Bolsamania*, 13/11/2026).
-*   **Valoración:** Con un ratio Precio/Valor Contable (P/B) de 0.81, la acción cotiza con un descuento sobre sus activos netos, lo cual es típico en momentos de alta incertidumbre macroeconómica. El *forward P/E* de 20.2 sugiere que el mercado anticipa una contracción o estancamiento en los beneficios futuros, compensado parcialmente por un *dividend yield* del 3.5%.
-*   **Salud Financiera:** La empresa muestra resiliencia con un incremento constante en el flujo de caja operativo (415M€ en 2025 vs 316M€ en 2024). Sin embargo, el nivel de deuda total (5.38 mil millones de euros) frente a un entorno de tipos de interés que el BCE advierte que encarecen la financiación (*El Boletín*, 16/11/2026), requiere vigilancia constante.
+**Fundamentos y Valoración**
+MRL.MC presenta una estructura financiera compleja tras sus resultados recientes. A pesar de un *Price-to-Book* (P/B) de 0,78x (indicando una valoración por debajo de su valor contable de 13,94 EUR), el mercado mantiene un escepticismo marcado.
+*   **Valoración:** El *trailing PE* es de 7,48x, pero el *forward PE* se dispara a 19,47x, sugiriendo expectativas de una contracción significativa en los beneficios futuros o una prima de riesgo elevada.
+*   **Deuda y Solvencia:** Con una deuda total de 5.386 millones de EUR frente a un EBITDA de 451 millones de EUR, la empresa enfrenta retos en el apalancamiento, exacerbados por el actual entorno de tipos de interés en la Eurozona.
 
-### Contexto Macroeconómico
-El entorno actual en la eurozona es complejo:
-1.  **Inflación y tipos:** Se observa una persistente preocupación por la inflación en Europa, lo que, unido a la advertencia del BCE sobre el coste del capital, crea un viento en contra para los REITs, que son intensivos en deuda.
-2.  **Rentabilidad:** Existe una presión creciente sobre el ahorro en la zona euro, donde los tipos reales negativos (o ajustados por inflación) están desplazando a los inversores hacia alternativas más seguras (como las letras del tesoro), restando flujo hacia la renta variable sectorial.
+**Análisis de Sentimiento y Noticias**
+Las noticias recientes reflejan un entorno adverso:
+*   **Presión Bajista:** La prensa financiera (*CapitalMadrid*, 19/11/2026) reporta que los inversores bajistas han incrementado sus posiciones contra MRL.MC y su competidor Colonial tras la publicación de resultados.
+*   **Incertidumbre Estratégica:** Informes de *Bankinter* (17/11/2026) destacan una creciente incertidumbre sobre la rentabilidad y el futuro de sus inversiones en centros de datos, un pilar clave en su estrategia de crecimiento.
 
-### Análisis Técnico
-*   **Tendencia:** El precio (11.34€) se sitúa por debajo de las medias móviles de 20, 50 y 200 días (11.56€, 11.90€ y 13.87€ respectivamente), lo que indica una clara tendencia bajista a largo plazo.
-*   **Momentum:** El RSI de 40.37 sugiere que el valor no está en territorio de sobreventa extrema, pero carece de impulso alcista, reflejando el estancamiento tras la publicación de los resultados.
-*   **Volatilidad:** Con una volatilidad del 25.9% y un *drawdown* del 28%, el valor presenta una alta sensibilidad a noticias negativas.
+**Contexto Macroeconómico**
+El BCE continúa supervisando una inflación persistente y ajustando la política monetaria. El sector inmobiliario sigue presionado por el coste de la deuda y la posibilidad de que se mantengan tipos elevados o se implementen medidas de reservas obligatorias para bancos, lo que afecta indirectamente la liquidez del sector (noticia *El Economista*, 19/11/2026).
 
-### Resumen de hallazgos
-| Factor | Estado | Impacto |
+**Evidencia de apoyo y contraria:**
+*   *Apoyo:* El consenso de los analistas mantiene un precio objetivo medio de 17,00 EUR, lo que implica una fuerte infravaloración según el mercado (upside teórico del 55,5%). El *dividend yield* del 3,53% ofrece un retorno recurrente.
+*   *Contraria:* El *drawdown* del 29,35% desde máximos y la tendencia técnica negativa confirman que la confianza de los inversores institucionales ha disminuido. La volatilidad del 26,07% refleja un alto nivel de riesgo.
+
+**Datos faltantes:** No se dispone de información sobre el *Net Debt/EBITDA* calculado de forma directa ni el detalle desagregado de los flujos de caja operativos a futuro, lo cual limita la precisión en la evaluación de la capacidad de desapalancamiento.
+
+**Rating**: REVIEW
+
+FINAL TRANSACTION PROPOSAL: No se recomienda la compra en el momento actual debido a la tendencia técnica negativa y la presión de los inversores bajistas. La prudencia sugiere esperar a una estabilización del soporte técnico y una clarificación en la estrategia de los centros de datos.
+
+| Indicador | Valor / Estado | Comentario |
 | :--- | :--- | :--- |
-| **Sentimiento** | Negativo | Elevado por el impacto legal de los centros de datos. |
-| **Valoración** | Atractiva | P/B < 1, sugiere posible valor latente si se resuelve la incertidumbre. |
-| **Tendencia** | Bajista | Por debajo de todas las medias móviles principales. |
-| **Dividendo** | Sostenible | *Yield* del 3.5% con un *payout* conservador (~15%). |
+| Precio Actual | 10,93 EUR | Tendencia bajista, bajo SMA200 |
+| P/B Ratio | 0,78 | Valoración atractiva por activos, riesgo alto |
+| Dividend Yield | 3,53% | Rendimiento estable |
+| Sentimiento | Negativo | Presión de bajistas post-resultados |
+| RSI (14) | 36,18 | Zona de debilidad, cerca de sobreventa |
+| Target Mean Price | 17,00 EUR | Discrepancia con mercado actual |
 
-**Rating**: HOLD
-
-FINAL TRANSACTION PROPOSAL: Mantener posiciones actuales. La prudencia es necesaria hasta que el impacto del decreto de centros de datos se cuantifique legalmente, evitando aumentar la exposición ante la debilidad técnica observada bajo los 12€.
-
-***
-*Nota: Faltan datos sobre las proyecciones detalladas de CAPEX para 2027 y el desglose de vencimientos de deuda a corto plazo tras el impacto del nuevo decreto. La información se basa estrictamente en la evidencia suministrada el 19/11/2026.*
+*Nota: Este análisis se basa únicamente en los datos proporcionados y no constituye asesoramiento financiero.*

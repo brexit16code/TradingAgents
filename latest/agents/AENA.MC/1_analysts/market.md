@@ -1,34 +1,34 @@
-Análisis detallado de **AENA.MC** (Aena S.M.E., S.A.) con fecha de corte al 19 de noviembre de 2026.
+El análisis de **Aena S.M.E., S.A. (`AENA.MC`)** revela una situación técnica y fundamental caracterizada por una consolidación dentro de un rango operativo equilibrado, respaldada por indicadores que muestran una estabilidad a largo plazo pero una falta de momentum alcista claro en el corto plazo.
 
-### Panorama Fundamental y Técnico
-Aena presenta una situación técnica mixta, reflejando una consolidación en el mercado. Con un precio de cierre de 27.70 EUR, la acción se encuentra ligeramente por encima de su media móvil de 50 sesiones (26.47 EUR) y 200 sesiones (25.74 EUR), lo que indica una estructura alcista de largo plazo aún intacta, aunque la tendencia reciente es de corrección (-1.84% en la última sesión).
+### Análisis Técnico
+A fecha de 20 de noviembre de 2026, `AENA.MC` cotiza a **27,64 EUR**. La estructura de medias móviles sugiere un sesgo alcista sostenido en el largo plazo, ya que el precio actual se encuentra por encima de su SMA200 (25,76 EUR) y SMA50 (26,53 EUR). Sin embargo, la SMA20 (27,98 EUR) actúa actualmente como una resistencia dinámica inmediata, habiendo sido superada a la baja recientemente.
 
-**Indicadores clave:**
-*   **Momentum y Tendencia:** El RSI(14) en 51.28 sugiere un estado neutral, sin signos claros de sobrecompra o sobreventa. El MACD (0.58) se sitúa por debajo de su señal (0.67), confirmando una pérdida de impulso alcista en el corto plazo.
-*   **Valoración:** Con un Forward PE de 16.96 y un Yield de dividendo del 3.86%, Aena cotiza en niveles coherentes con su sector (Industrials / Airports & Air Services). Su capacidad de generación de caja es notable, con un FCF de 1,526 millones de euros en 2025, respaldando su política de dividendos.
-*   **Salud Financiera:** La relación Deuda Neta/EBITDA de 1.38 muestra un balance sólido y bajo control, facilitando el despliegue de capital necesario para las inversiones operativas (Capex de 1,059 millones en 2025).
+*   **Momentum y Volatilidad:** El RSI(14) en 50,52 indica un mercado en zona de equilibrio, sin señales claras de sobrecompra o sobreventa. El indicador MACD (0,497) se encuentra por debajo de su línea de señal (0,643), lo que confirma una fase de corrección técnica o consolidación.
+*   **Desempeño:** Con un rendimiento a 252 sesiones del +23,83 %, el activo ha tenido un año positivo, aunque su rendimiento reciente (return21_pct: +4,78 %) muestra una desaceleración en la tendencia.
 
-### Factores a Considerar
-1.  **Consenso:** El precio objetivo medio de 27.49 EUR sugiere que el mercado considera que la acción está correctamente valorada en los niveles actuales, con una ligera desventaja respecto al precio actual (-0.77%).
-2.  **Entorno Macroeconómico:** El BCE ha advertido sobre el encarecimiento de la financiación (fuente: *El Boletín*, 2026-11-16), lo cual puede presionar a empresas intensivas en capital como Aena a pesar de su buen historial operativo. La inversión de los hogares en letras del tesoro, al alza según *Radio Intereconomía* (2026-11-16), indica un desplazamiento hacia activos de renta fija más seguros, lo que podría restar atractivo a la renta variable.
-3.  **Riesgos:** La volatilidad (21.39%) y el hecho de que el precio haya retrocedido desde los máximos recientes (drawdown -5.07%) sugieren precaución ante una posible ruptura del soporte de la SMA20 (27.93 EUR).
+### Fundamentos y Valoración
+La valoración de la empresa refleja una sólida salud financiera:
+*   **Rentabilidad:** Presenta un ROE del 25,79 % y márgenes de beneficio del 34,26 %, lo que subraya la eficiencia operativa de Aena como operador aeroportuario.
+*   **Deuda y Solvencia:** Con un ratio deuda neta/EBITDA de 1,38x, su balance es robusto. El crecimiento de ingresos (11,5 %) y beneficios (13,6 %) en los periodos recientes muestra una trayectoria de expansión saludable.
+*   **Valoración:** El PER actual (13,75x) es inferior al forward PER (16,95x), lo que indica que el mercado anticipa una moderación en el crecimiento de las ganancias para el próximo periodo. La rentabilidad por dividendo (3,94 %) es un atractivo significativo para perfiles de renta variable.
+
+### Contexto de Mercado
+El entorno macroeconómico europeo sigue condicionado por la política monetaria del BCE. Las recientes noticias sobre el posible endurecimiento de las condiciones de financiación (incremento de reservas mínimas) y la persistencia de tipos de interés altos suponen un viento en contra para las empresas con altas necesidades de capital, aunque el nivel de endeudamiento de Aena parece manejable.
 
 ### Conclusión
-Aena es un activo de calidad industrial con sólidos fundamentales. La prudencia es necesaria dado que los indicadores de momentum (MACD) han girado a la baja y el precio se sitúa apenas por encima de sus medias de corto plazo. Se recomienda observar la reacción del título ante la SMA50 como soporte técnico clave antes de considerar cualquier nueva exposición.
+`AENA.MC` presenta una posición estable dentro de su sector. El consenso de analistas sitúa el precio objetivo medio en 27,49 EUR, lo que implica una ligera sobrevaloración actual respecto a la cotización de cierre. La falta de un catalizador claro y la proximidad al precio objetivo sugieren cautela.
 
-**Rating**: HOLD
-
-| Indicador / Métrica | Valor / Estado | Interpretación |
+| Indicador / Métrica | Valor | Observación |
 | :--- | :--- | :--- |
-| Precio Actual | 27.70 EUR | Neutral |
-| RSI(14) | 51.28 | Neutral / Sin dirección |
-| SMA 200 (Tendencia) | 25.75 EUR | Alcista a largo plazo |
-| Forward PE | 16.96 | Valoración justa de sector |
-| Yield Dividendo | 3.86% | Atractivo |
-| Net Debt/EBITDA | 1.38 | Salud financiera sólida |
-| Consenso Upside | -0.77% | Valoración plena |
+| **Precio Actual** | 27,64 EUR | En zona de equilibrio (SMA20-50) |
+| **RSI(14)** | 50,52 | Neutral |
+| **Dividendo** | 3,94 % | Atractivo para valor |
+| **Forward EPS** | 1,63 | Anticipa moderación |
+| **Net Debt/EBITDA** | 1,38x | Solvencia sólida |
+| **Consensus Upside** | -0,56 % | Precio ajustado al consenso |
 
-FINAL TRANSACTION PROPOSAL: Mantener posiciones actuales. Esperar un retesteo a la zona de 26.50 EUR (SMA50) para evaluar entradas adicionales, dado que el MACD sugiere un periodo de ajuste.
+**Rating**: Neutral
 
-*Fuentes consultadas:* Yahoo Finance (datos de mercado y financieros al 2026-11-19), noticias vía Google News (fechas entre 2026-11-13 y 2026-11-19).
-*Nota:* La información financiera proviene de los snapshots suministrados. Se advierte la ausencia de informes de analistas específicos de los últimos 7 días.
+FINAL TRANSACTION PROPOSAL: Mantener posiciones existentes para capturar el rendimiento por dividendo. No se recomienda incrementar exposición dada la proximidad al precio objetivo medio de los analistas y la neutralidad de los indicadores técnicos de corto plazo.
+
+*Fuentes: Yahoo Finance (https://finance.yahoo.com/quote/AENA.MC/), datos procesados al 2026-11-20. Nota: Los datos de analistas son estimaciones de consenso.*

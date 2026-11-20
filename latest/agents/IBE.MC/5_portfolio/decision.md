@@ -1,9 +1,9 @@
 **Rating**: Hold
 
-**Executive Summary**: Se recomienda mantener la posición actual en IBE.MC, evitando compras adicionales en los niveles de máximos históricos actuales. La estrategia consiste en capturar el rendimiento por dividendo del 2,99% mientras se espera una corrección técnica hacia la zona de los 21,50 EUR para considerar una expansión de la posición.
+**Executive Summary**: Se recomienda mantener la posicion actual en IBE.MC sin realizar nuevas compras en la zona de maximos historicos de 22.67 EUR. La estrategia se basa en proteger el capital existente utilizando un stop loss dinamico alineado con la media movil de 50 sesiones en 21.58 EUR, esperando una correccion hacia el objetivo de consenso para evaluar futuras entradas.
 
-**Investment Thesis**: La decisión de mantener se fundamenta en el equilibrio entre el momentum técnico positivo y una valoración fundamental estirada. IBE.MC cotiza con un PER Forward de 20,28x, lo que representa una prima del 22% frente a sus pares, y el consenso de analistas sugiere una sobrevaloración con un potencial de caída del 4,52%. Aunque el Analista Agresivo destaca el liderazgo en la transición energética, el Analista Conservador advierte correctamente sobre los riesgos asociados a un apalancamiento de 3,95x Neta/EBITDA en un entorno de tipos de interés restrictivos, especialmente con un crecimiento de beneficios interanual del -13,4%. Esta tesis se revisaría hacia la venta si el flujo de caja operativo sigue contrayéndose o si el ratio de endeudamiento supera los niveles actuales sin una mejora proporcional en el EBITDA.
+**Investment Thesis**: El analisis detallado de la deuda, la valoracion y el debate entre analistas revela una situacion de equilibrio donde la excelente calidad fundamental y la solidez operativa de Iberdrola (EBITDA superior a 16.000 millones de EUR y caja operativa de mas de 11.600 millones) se ven contrarrestadas por una valoracion exigente. Con un PER historico de 30.64x, una prima sectorial del 20.6% y un precio objetivo medio de consenso en 21.57 EUR que se situa ligeramente por debajo de la cotizacion actual, el margen de seguridad a corto plazo es limitado. Adicionalmente, factores como la venta de acciones por parte de la vicepresidencia en maximos y los riesgos derivados de litigios sectoriales neutralizan la fuerte inercia tecnica alcista por encima de las medias moviles. Esta balanza equilibrada de argumentos justifica mantener la exposicion actual sin incurrir en compras precipitadas ni ventas inmotivadas.
 
-**Price Target**: 21.5
+**Price Target**: 21.57
 
-**Time Horizon**: 6-12 meses
+**Time Horizon**: 3-6 months

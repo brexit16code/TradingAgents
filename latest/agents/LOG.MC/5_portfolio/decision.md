@@ -1,9 +1,9 @@
 **Rating**: Hold
 
-**Executive Summary**: Maintain the current position in LOG.MC without further accumulation at current levels. The strategy focuses on waiting for a tactical confirmation, either a successful test of the 36.10 EUR support level or a breakout above 38.00 EUR. Use a stop loss at 33.50 EUR to mitigate downside risk from current technical exhaustion.
+**Executive Summary**: Mantener la posición actual para capitalizar el rendimiento por dividendo del 5,58% mientras se espera una mayor claridad técnica. No realizar compras adicionales por debajo de 37,00 EUR, estableciendo el nivel de vigilancia en la media móvil de 50 días (36,13 EUR) para cualquier posible reevaluación táctica.
 
-**Investment Thesis**: The decision to maintain a Hold rating balances LOG.MC's robust financial health against significant technical and valuation headwinds. While the company's strong cash generation (510M EUR operating cash flow) and 5.5% dividend yield provide a compelling floor, the 95% payout ratio limits room for organic growth, justifying the conservative concern regarding capital sustainability. Technically, the stock is currently neutral (RSI 46.17) with a bearish MACD signal, suggesting the momentum is insufficient to justify aggressive buying at 36.40 EUR, especially when the current price sits above the consensus target of 33.90 EUR. I find the aggressive analyst's case for growth premature given the 7.4x price-to-book ratio, which suggests that much of the quality is already priced in. The thesis for a Hold remains strong until the stock resolves its proximity to the 50-day moving average (36.10 EUR); a breakdown below this would trigger a re-evaluation of the long-term trend.
+**Investment Thesis**: La tesis de inversión se apoya en el equilibrio entre la robustez financiera de Logista (deuda neta sobre EBITDA de 0,60x y un ROE del 43,6%) y la realidad técnica y de mercado. Aunque el Analista Agresivo destaca acertadamente la eficiencia operativa y la generación de flujo de caja libre, la valoración actual, que se sitúa por encima del precio objetivo medio del consenso de analistas (34,05 EUR), y la estricta consolidación técnica bajo la media de 20 sesiones, justifican la neutralidad. El elevado payout ratio del 95,3% limita el margen de seguridad para reinversiones frente a posibles presiones inflacionarias o cambios en los tipos de interés. Un cambio en esta postura requeriría una ruptura confirmada de la resistencia de 37,00 EUR que valide un momentum alcista, o un ajuste hacia la SMA50 (36,13 EUR) que mejore el perfil riesgo-beneficio ante una posible capitulación del mercado.
 
-**Price Target**: 33.9
+**Price Target**: 34.05
 
-**Time Horizon**: 3-6 months
+**Time Horizon**: 6-12 meses

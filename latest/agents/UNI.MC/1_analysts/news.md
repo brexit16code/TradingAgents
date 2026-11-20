@@ -1,35 +1,36 @@
-### Informe de Análisis: Unicaja Banco, S.A. (UNI.MC)
+### Informe de Análisis: Unicaja (UNI.MC)
 
-**Resumen Ejecutivo**
-A fecha de 19 de noviembre de 2026, Unicaja Banco (UNI.MC) cotiza a 3,316 EUR, mostrando una estabilidad relativa en un contexto de mercado marcado por la incertidumbre macroeconómica en la Eurozona. La entidad ha consolidado su estructura corporativa con la reciente reelección de Isidro Rubiales como Consejero Delegado, mientras mantiene un sólido balance operativo con un margen de beneficio del 32,8 %.
+**Contexto del Instrumento:**
+Unicaja (UNI.MC) opera en el sector de servicios financieros como banco regional. Con una capitalización de mercado de aproximadamente 8.29 mil millones de EUR, se posiciona en un entorno de tipos de interés en la Eurozona que siguen siendo un punto focal para la rentabilidad bancaria.
 
-#### Análisis Fundamental y Financiero
-Unicaja presenta métricas que reflejan una valoración moderada:
-*   **Valoración:** El PER forward (11,63x) se sitúa por encima de la mediana de sus comparables (10,26x), lo que sugiere una valoración ligeramente premium en el sector bancario regional. El ratio Precio/Valor Contable de 1,35x indica que el mercado valora el capital del banco por encima de su valor en libros, reflejando confianza en sus retornos.
-*   **Dividendos:** Con una rentabilidad por dividendo del 5,73 % y una tasa de payout del 73,8 %, la entidad se mantiene como una opción atractiva para inversores enfocados en ingresos pasivos.
-*   **Desempeño Operativo:** Aunque los ingresos crecieron un 6,8 % interanual, el flujo de caja operativo ha mostrado volatilidad en 2025 (-1.420 millones de EUR), lo cual requiere monitoreo, a pesar de que el beneficio neto aumentó significativamente respecto a 2023.
+#### 1. Análisis Fundamental y Valuación
+*   **Métricas Clave:** La acción cotiza a un ratio Precio/Valor Contable (P/B) de 1.31x y un PER adelantado (Forward PE) de 11.31x. El dividendo reportado es atractivo, con un yield del 5.76% (tasa del 0.19 EUR), lo que refleja una política de remuneración al accionista activa, respaldada por un payout ratio del 73.82%.
+*   **Desempeño Financiero:** La entidad mostró una mejora significativa en el beneficio neto en 2025 (632.35M EUR) frente a 2024 (573.33M EUR). Sin embargo, los estados de flujo de efectivo muestran cifras de flujo operativo negativas para 2025 (-1.42B EUR), lo cual requiere una revisión profunda de la composición de estos activos y pasivos.
+*   **Consenso:** El precio objetivo medio es de 3.27 EUR, lo que implica un potencial alcista limitado del 1.33% frente al cierre de 3.226 EUR al 20/11/2026.
 
-#### Análisis Técnico
-*   **Tendencia:** UNI.MC se mantiene operando cerca de su media móvil de 20 sesiones (3,309 EUR) y por encima de la de 200 sesiones (3,001 EUR), lo que técnicamente sugiere una tendencia alcista a largo plazo subyacente.
-*   **Momento:** El RSI de 14 días (47,4) se encuentra en zona neutral, indicando ausencia de condiciones de sobrecompra o sobreventa inmediatas. El MACD muestra un leve cruce positivo sobre la señal, reflejando una presión compradora moderada.
-*   **Volatilidad:** Con una volatilidad del 22,78 %, el activo muestra un perfil de riesgo acorde al sector, con una caída máxima desde máximos del 8,55 %.
+#### 2. Eventos Recientes y Gobernanza
+El sentimiento corporativo se ha centrado en la estabilidad de su cúpula directiva. La junta de accionistas ha confirmado la reelección de Isidro Rubiales como Consejero Delegado por otros tres años (17/11/2026, *Cinco Días*). A pesar de esta certidumbre operativa, persiste una nota de cautela en la prensa (*Hispanidad*) respecto a la falta de un sucesor claro para la presidencia tras la salida de Pepe Sevilla, lo que podría generar incertidumbre de gobierno corporativo a medio plazo.
 
-#### Contexto Macro y Noticias Recientes
-El entorno macroeconómico europeo presiona a las entidades financieras. El BCE advierte que el encarecimiento de la financiación (16 de noviembre) podría frenar el crecimiento, lo que impacta directamente en el margen de interés de los bancos. No obstante, Unicaja ha demostrado capacidad de captación, con más de 1.800 millones en fondos de inversión hasta octubre. La reelección de la alta dirección (17 de noviembre) aporta estabilidad corporativa, factor clave tras años de transición.
+#### 3. Macroeconomía y Entorno de Mercado
+El sector bancario europeo se enfrenta a un entorno complejo:
+*   **Política Monetaria:** Existe presión sobre el BCE debido al posible incremento de las reservas mínimas obligatorias, lo que equivale a una restricción monetaria "por la puerta de atrás" (*El Economista*, 19/11/2026). Esto impacta directamente en los márgenes de interés neto de los bancos regionales.
+*   **Comportamiento del Ahorro:** Los hogares españoles continúan moviendo su capital hacia activos seguros como las letras del tesoro (más de 23.000 millones, *Radio Intereconomía*, 16/11/2026), lo que compite directamente con los productos de ahorro tradicionales de Unicaja, aunque la entidad ha logrado captar 1.800 millones en fondos de inversión.
 
-#### Riesgos y Datos Faltantes
-*   **Faltan:** Datos detallados de *EBITDA* y *Operating Cash Flow* desglosados en proyecciones trimestrales para 2027, lo cual impide un análisis más preciso de la capacidad de generación de efectivo a corto plazo.
-*   **Riesgo Clave:** La dependencia de los tipos de interés del BCE y la presión por la desaceleración del crecimiento en la Eurozona podrían comprimir los márgenes operativos de Unicaja en futuros ejercicios.
+#### 4. Análisis Técnico
+*   **Tendencia:** El RSI(14) de 39.95 sugiere una zona cercana a la sobreventa, sin estar en terreno extremo. La acción cotiza por debajo de sus medias móviles de 20 (3.31) y 50 sesiones (3.35), pero mantiene una estructura superior a la media de 200 sesiones (3.00), indicando una tendencia alcista de largo plazo que actualmente atraviesa una corrección técnica.
 
-| Categoría | Dato / Indicador |
+#### 5. Consideraciones Finales
+La falta de datos desglosados sobre el riesgo de crédito (NPL) y el detalle pormenorizado del flujo de caja operativo en los estados financieros adjuntos dificulta una valoración intrínseca precisa. Se recomienda a los inversores vigilar la evolución de la política de reservas del BCE, ya que impactará en los márgenes de UNI.MC.
+
+| Indicador / Punto Clave | Valor / Estado |
 | :--- | :--- |
-| **Precio Actual** | 3,316 EUR |
-| **Consenso Precio Objetivo** | 3,269 EUR |
-| **Potencial (Consenso)** | -1,42% |
-| **Rentabilidad Dividendos** | 5,73% |
-| **PER Forward** | 11,63x |
-| **Tendencia Técnica** | Neutral / Alcista |
-| **Sentimiento Corporativo** | Estable (Renovación CEO) |
+| **Precio de Cierre (2026-11-20)** | 3.226 EUR |
+| **Consenso Upside** | +1.33% |
+| **Dividend Yield** | 5.76% |
+| **P/B Ratio** | 1.309x |
+| **Sentimiento Gobernanza** | Neutro (Continuidad CEO, vacante Presidencia) |
+| **Tendencia Técnica** | Corrección (por debajo de SMA20/50) |
 
-**Rating**: HOLD
-FINAL TRANSACTION PROPOSAL: The equity is currently trading slightly above its consensus price target with a neutral RSI, suggesting current prices have priced in the stability of recent management appointments. Investors might wait for a pullback towards the 3,00 EUR level (near the SMA200) to improve the dividend yield entry point.
+**Rating**: REVIEW
+
+FINAL TRANSACTION PROPOSAL: N/A (Read-only analysis)

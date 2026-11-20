@@ -1,36 +1,34 @@
-Este informe presenta un análisis fundamental de **Endesa, S.A. (ELE.MC)**, basado en la información financiera y de mercado disponible a fecha de 19 de noviembre de 2026.
+Informe de Análisis Fundamental: Endesa, S.A. (ELE.MC)
 
-### Perfil y Desempeño Reciente
-Endesa (ELE.MC) opera en el sector de servicios públicos (Utilities - Electricidad regulada). Con una capitalización bursátil de 43.690 millones de EUR, la empresa mantiene una posición sólida, aunque se encuentra bajo escrutinio debido a recientes eventos legales y noticias sectoriales.
+**Resumen Ejecutivo**
+Endesa, S.A. (ELE.MC) cotiza actualmente a 43,12 EUR (al 20 de noviembre de 2026), mostrando una estabilidad técnica neutral (RSI 14 de 45,02). La empresa se posiciona como un actor clave en el sector de servicios públicos regulados. Aunque los analistas presentan un precio objetivo medio de 36,89 EUR —lo que implica un potencial bajista desde los niveles actuales—, el valor ha mostrado un rendimiento anual sólido del 47,54%.
 
-**Eventos Clave y Noticias Recientes:**
-*   **Litigios:** Endesa ha sido demandada por Repsol junto con Iberdrola y Naturgy por los daños derivados de un apagón, lo que añade una capa de incertidumbre legal (fuente: *Bolsamania*, 2026-11-16).
-*   **Perspectivas Financieras:** RBC ha elevado recientemente las previsiones y el precio objetivo para Endesa tras la publicación de resultados, lo que indica una valoración positiva por parte de los analistas sobre su desempeño operativo reciente (fuente: *MarketScreener*, 2026-11-16).
-*   **Impulsores de Valor:** Existen reportes sobre una potencial mejora del 6% en el beneficio debido a la posible prórroga de las centrales nucleares y una rebaja fiscal, factores que los inversores deben monitorizar de cerca (fuente: *Merca2.es*, 2026-11-17).
+**Análisis Financiero y Desempeño**
+*   **Resultados Operativos:** Los ingresos de Endesa se han mantenido resilientes, con 21.020 millones de EUR al cierre de 2025, superando ligeramente los 20.927 millones de 2024. El EBITDA ha mostrado una trayectoria de recuperación, pasando de 3.324 millones en 2023 a 5.314 millones en 2025.
+*   **Solvencia y Capital:** Con una ratio de deuda neta/EBITDA de 2,1x, la estructura de capital se mantiene dentro de rangos manejables para una utility regulada. El flujo de caja libre (FCF) alcanzó los 2.207 millones de EUR en 2025, respaldando su política de dividendos (rentabilidad del 3,68%).
+*   **Valoración:** La empresa cotiza a un Forward PE de 17,82, ligeramente por encima de la mediana del sector (16,87), lo que podría sugerir que el mercado ya ha descontado gran parte del valor actual o que existe una prima por su posición competitiva.
 
-### Análisis Financiero
-*   **Rentabilidad y Valoración:** La empresa presenta un PER forward de 17,79, ligeramente superior a la mediana de sus comparables (16,58), con un ratio de 1,07. La rentabilidad por dividendo es atractiva, situándose en el 3,66%.
-*   **Situación de Deuda:** La deuda neta/EBITDA se sitúa en 2,10x, lo cual es saludable para una empresa de servicios públicos de este tamaño. El beneficio neto ha mostrado una recuperación sostenida, pasando de 742 millones (2023) a 2.198 millones (2025).
-*   **Flujo de Caja:** La compañía generó 1.439 millones de EUR en Free Cash Flow en 2025, respaldada por un flujo de caja operativo sólido de 4.051 millones de EUR.
+**Eventos Recientes y Riesgos**
+*   **Litigios y Reputación:** Se han reportado noticias (Bolsamania, 16/11/2026) sobre demandas presentadas por Repsol contra grandes energéticas, incluida Endesa, a raíz de daños ocasionados por un apagón. Este factor añade una capa de incertidumbre legal a corto plazo.
+*   **Análisis Externo:** A pesar de las noticias negativas, el consenso de analistas (RBC) ha elevado previsiones y objetivos de precio tras sus últimos resultados, lo que contrasta con la visión media de mercado que sitúa el precio objetivo por debajo del valor actual.
+*   **Contexto Macroeconómico:** La volatilidad en el sector energético, sumada a las perspectivas de tipos de interés en la Eurozona, sigue siendo el principal motor macroeconómico que afecta a las utilities intensivas en capital.
 
-### Consideraciones para el Inversor
-*   **Soporte Técnico:** El precio actual (43,06 EUR) está muy cerca de su media móvil de 50 sesiones (43,05 EUR), sugiriendo una zona de consolidación importante.
-*   **Consenso:** El precio objetivo medio es de 36,89 EUR, lo que representa una **consenso de bajada del 14,34%** respecto al precio actual. Esto sugiere que el mercado podría haber descontado demasiado optimismo en la cotización reciente.
+**Conclusiones para el Inversor**
+La valoración fundamental sugiere que ELE.MC está operando cerca de sus niveles óptimos según el consenso. Los inversores deben equilibrar el atractivo de un dividendo estable contra el riesgo legal derivado de los litigios actuales y la aparente sobrevaloración respecto al precio objetivo de los analistas.
 
-### Datos Faltantes
-No se dispone de datos detallados sobre transacciones internas (insider trading) en el periodo analizado, ni información sobre el desglose geográfico específico de los ingresos para el cierre de 2026, por lo que el análisis se limita a la información consolidada proporcionada.
+**Faltas de Información:**
+*   No se dispone de datos detallados sobre transacciones internas (insider trading) recientes.
+*   No hay acceso a proyecciones de flujo de caja más allá de 2025 en los estados financieros suministrados.
 
-### Resumen de Datos Clave
-
-| Métrica | Valor |
+| Indicador | Valor / Nota |
 | :--- | :--- |
-| **Precio de Cierre (19/11/2026)** | 43,06 EUR |
-| **Capitalización Bursátil** | 43.690 M EUR |
-| **PER Forward** | 17,79 |
-| **Dividend Yield** | 3,66% |
-| **Net Debt / EBITDA** | 2,10x |
-| **Consensus Upside/Downside** | -14,34% |
-| **EBITDA (2025)** | 5.314 M EUR |
+| **Precio Actual** | 43,12 EUR |
+| **Forward PE** | 17,82 |
+| **Dividend Yield** | 3,68% |
+| **Net Debt/EBITDA** | 2,10x |
+| **Consensus Target Price** | 36,89 EUR |
+| **Tendencia (RSI 14)** | 45,02 (Neutral) |
+| **Retorno 252 días** | 47,54% |
 
 **Rating**: HOLD
-FINAL TRANSACTION PROPOSAL: Mantener posiciones existentes a la espera de claridad sobre la resolución de la demanda por el apagón y la confirmación oficial sobre la política de prórroga nuclear, dada la sobrevaloración respecto al precio objetivo de consenso.
+FINAL TRANSACTION PROPOSAL: Mantener posiciones actuales considerando el riesgo de litigio y la sobrevaloración respecto a los precios objetivo. No ejecutar compras adicionales hasta observar resolución de los conflictos legales.

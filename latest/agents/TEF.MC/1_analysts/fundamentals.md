@@ -1,33 +1,83 @@
-Este informe presenta un análisis fundamental de **Telefónica, S.A. (TEF.MC)**, basado en los datos financieros y de mercado actualizados al 19 de noviembre de 2026.
+**Rating**: REVIEW
 
-### Perfil y Situación Actual
-Telefónica es un pilar del sector de servicios de telecomunicaciones en el índice ^IBEX. Con una capitalización de mercado de 18.88 mil millones de euros, la compañía navega un entorno macroeconómico complejo caracterizado por la presión inflacionaria y el endurecimiento de las condiciones financieras en la eurozona.
+# Informe Fundamental y Análisis de Telefónica, S.A. (`TEF.MC`)
 
-### Análisis Financiero
-*   **Rentabilidad y Valoración:** La compañía presenta una pérdida neta reportada en 2025 de 4.31 mil millones de euros. A pesar de los desafíos, se proyecta un beneficio por acción (Forward EPS) de 0.406 EUR, reflejando una recuperación operativa. El ratio Precio/Valor Contable es de 1.22, situándose en niveles moderados para el sector.
-*   **Balance y Solvencia:** El nivel de deuda sigue siendo el principal foco de atención para los inversores. La deuda total asciende a 42.48 mil millones de euros (frente a 5.37 mil millones en efectivo), resultando en un ratio Deuda Neta/EBITDA de 5.10x. Este apalancamiento es significativo y limita la flexibilidad financiera en un contexto de tipos de interés altos.
-*   **Generación de Caja:** La capacidad de generación de flujo de caja libre ha sido volátil: 1.40 mil millones de euros en el último periodo reportado, con un gasto de capital (Capex) constante destinado a la modernización de redes.
+Este informe presenta una revisión detallada de la información fundamental, financiera y de mercado de **Telefónica, S.A. (`TEF.MC`)**, cotizada en las Bolsas Españolas (MCE) dentro del sector de Servicios de Comunicación (*Communication Services*) e industria de Telecomunicaciones (*Telecom Services*). El análisis integra los datos financieros y las noticias recientes disponibles a fecha de noviembre de 2026.
 
-### Insights para Traders
-1.  **Sentimiento de Mercado:** El mercado ha reaccionado a las noticias sobre una posible expansión en Brasil y resultados sólidos en España/Brasil, lo que ha llevado a analistas a elevar previsiones (ver noticias del 13-16 de noviembre).
-2.  **Dividendos:** Con una rentabilidad por dividendo del 4.47%, la acción mantiene su atractivo para inversores de renta, aunque el *payout ratio* de 2.5 sugiere que el dividendo se financia fuera del beneficio neto actual, lo que requiere monitorear la sostenibilidad del flujo de caja.
-3.  **Análisis Técnico:** Con un RSI de 45.1 y cotizando por debajo de sus medias móviles de 50 (3.41) y 200 días (3.58), el valor muestra debilidad técnica. El precio actual (3.35) está cerca del suelo de las estimaciones de los analistas (3.10), sugiriendo un potencial soporte.
+---
 
-### Evidencia Contradictoria y Riesgos
-*   **Contras:** La empresa reportó pérdidas netas crecientes en 2025 y un flujo de caja libre decreciente en comparación con 2024. El entorno de tipos de interés elevados (advertido por el BCE) incrementa el coste de servicio de su elevada deuda.
-*   **Pros:** Fortaleza operativa en mercados clave (España y Brasil) y una consolidación de previsiones para 2026 que sugiere una mejora en la eficiencia.
+## 1. Perfil de la Compañía y Contexto de Mercado
 
-### Resumen de Datos
-| Indicador | Valor / Detalle |
-| :--- | :--- |
-| **Precio Actual (TEF.MC)** | 3.356 EUR |
-| **Capitalización de Mercado** | 18.88 B EUR |
-| **Ratio Deuda Neta/EBITDA** | 5.10x |
-| **Dividend Yield** | 4.47% |
-| **Target Mean Price** | 3.79 EUR |
-| **Consensus Upside** | 12.96% |
+Telefónica, S.A. es uno de los principales proveedores de servicios de telecomunicaciones del mundo, con una fuerte presencia en Europa (con especial peso en España) y en América Latina (destacando Brasil). 
+* **Ticker:** `TEF.MC` (Moneda: EUR)
+* **Precio de Cierre (20-11-2026):** 3.36 €
+* **Capitalización Bursátil:** ~18.930 millones de EUR
+* **Valor medio de los analistas (*Target Mean Price*):** 3.79 € (con un rango entre 3.10 € y 4.80 € basado en 22 opiniones de analistas, lo que representa un potencial alcista de consenso del ~12.59%).
 
-**Información faltante:** El reporte carece de detalles granulares sobre el desglose de deuda por vencimiento (próximos 12-24 meses) y la composición detallada de los accionistas institucionales post-reparto de dividendos de STC.
+### Noticias y Eventos Recientes (Noviembre de 2026)
+* **Resultados y Solidez Operativa:** Los últimos análisis de resultados de la compañía (publicados a mediados de noviembre por entidades como Bankinter y Merca2.es) destacan la solidez de los negocios en **España y Brasil**. 
+* **Expansión y Movimientos Estratégicos:** Surgen informaciones sobre el interés de Telefónica en realizar operaciones corporativas en Brasil (*"Telefónica quiere irse de compras por Brasil"*), lo que podría redefinir su estrategia de crecimiento en la región.
+* **Entorno Accionarial:** Se ha reportado que **STC** (Saudi Telecom Company), uno de los principales accionistas de la compañía, planea repartir 661,5 millones de euros entre sus propios accionistas, manteniendo su relevancia en el panorama corporativo de Telefónica.
 
-**Rating**: HOLD
-FINAL TRANSACTION PROPOSAL: None. This is research analysis only.
+---
+
+## 2. Análisis Financiero y Estados Contables
+
+### 2.1. Cuenta de Resultados (*Income Statement*)
+Los ingresos y la rentabilidad neta de los últimos ejercicios fiscales muestran los siguientes datos:
+* **Ingresos Totales (*Total Revenue*):**
+  * **2025:** 35.120 millones de EUR
+  * **2024:** 35.671 millones de EUR
+  * **2023:** 40.652 millones de EUR
+* **EBITDA:**
+  * **2025:** 8.408 millones de EUR (frente a 12.594 millones de EUR en 2024 y 10.338 millones de EUR en 2023).
+* **Beneficio Neto (*Net Income*):**
+  * **2025:** -4.318 millones de EUR
+  * **2024:** -49 millones de EUR
+  * **2023:** -892 millones de EUR
+  * *Nota fundamental:* La compañía registra pérdidas netas significativas en el ejercicio 2025 (-4.318 millones de EUR) y un beneficio por acción histórico negativo (*trailing EPS* de -0.43 €), lastrado por provisiones, deterioros o costes extraordinarios, a pesar de que las estimaciones de futuro proyectan un beneficio por acción positivo para el ejercicio adelantado (*forward EPS* de 0.41 €).
+
+### 2.2. Balance de Situación (*Balance Sheet*)
+* **Activos Totales:** 92.017 millones de EUR (2025), reduciéndose desde los 100.502 millones de EUR en 2024 y 104.324 millones de EUR en 2023.
+* **Patrimonio Neto (*Stockholders' Equity*):** 14.258 millones de EUR (2025), por debajo de los 19.347 millones de EUR (2024) y 21.852 millones de EUR (2023).
+* **Deuda Total:** 39.653 millones de EUR al cierre de 2025 (la métrica general de deuda total reportada en snapshot se sitúa en 42.481 millones de EUR, con un endeudamiento neto sobre EBITDA de aproximadamente 5.11x).
+
+### 2.3. Flujo de Caja (*Cash Flow*)
+* **Flujo de Caja Libre (*Free Cash Flow*):**
+  * **2025:** 4.667 millones de EUR (FandF reporta un FCF anual aproximado de 1.405 millones en métricas móviles recientes).
+  * **2024:** 6.143 millones de EUR
+  * **2023:** 5.488 millones de EUR
+* **Inversión en Capital (*Capital Expenditure / CapEx*):** -5.055 millones de EUR en 2025 (-4.851 millones en 2024).
+
+---
+
+## 3. Valoración y Métricas Clave
+
+* **PER Forward (*Forward P/E*):** 8.28x (basado en un *forward EPS* de 0.41 €).
+* **PER Trailing (*Trailing P/E*):** No aplicable/negativo debido a las pérdidas netas del último ejercicio.
+* **Precio sobre Valor en Libros (*Price to Book*):** 1.23x (con un valor contable por acción de 2.74 €).
+* **EV/EBITDA:** 8.22x.
+* **Política de Dividendos:** Ofrece una rentabilidad por dividendo (*dividend yield*) atractiva del **4.47%** (con un dividendo anual de 0.15 €), aunque la ratio de pago (*payout ratio*) se sitúa en 2.5, reflejando el impacto de los resultados netos negativos sobre la cobertura tradicional del dividendo.
+
+---
+
+## 4. Datos y Evidencias Faltantes
+* **Datos de transacciones de insiders (*Insider Transactions*):** No se incluyeron registros detallados de compras o ventas recientes por parte de la directiva en el conjunto de datos suministrado.
+* **Comparativa sectorial detallada:** Los ratios comparativos directos frente a competidores específicos del sector no están computados en la valoración actual.
+
+---
+
+## 5. Conclusión e Insights Accionables para Traders
+
+Telefónica (`TEF.MC`) presenta un perfil dual: por un lado, cuenta con fortalezas operativas reconocidas en sus mercados clave (España y Brasil), un flujo de caja libre operativo positivo y una rentabilidad por dividendo atractiva (~4.5%). Por otro lado, arrastra un balance con niveles elevados de endeudamiento neto (ratio Deuda Neta/EBITDA superior a 5x) y ha reportado pérdidas contables notables en el cierre del ejercicio 2025. 
+
+Técnicamente, el valor cotiza en un rango neutral/bajista a corto plazo (RSI de 45.75, cotizando por debajo de sus medias móviles de 20, 50 y 200 sesiones), con un soporte relativo cercano a los mínimos recientes y un consenso de analistas que ve un potencial de recuperación hacia la zona de los 3.79 €. Debido a las contradicciones entre las pérdidas netas reportadas y la recuperación proyectada de beneficios para los próximos periodos, se emite una calificación de revisión cautelosa.
+
+FINAL TRANSACTION PROPOSAL: REVIEW
+
+---
+
+### Resumen de Datos Clave
+
+| Métrica / Concepto | Valor / Dato |
+| :--- |

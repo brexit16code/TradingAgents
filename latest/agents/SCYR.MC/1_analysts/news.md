@@ -1,28 +1,74 @@
-Este informe analiza la situación de **SCYR.MC** (Sacyr, S.A.) basándose en los datos financieros y de mercado al 19 de noviembre de 2026.
-
-### Análisis Fundamental y Técnico de SCYR.MC
-
-Sacyr presenta una situación financiera compleja caracterizada por un alto apalancamiento, pero con una sólida generación de flujo de caja operativo.
-
-*   **Situación Financiera:** La empresa muestra una relación **Net Debt/EBITDA de 5.41x**, lo cual es elevado para el sector de ingeniería y construcción. A pesar de esto, el Flujo de Caja Libre (Free Cash Flow) mejoró significativamente en 2025, alcanzando los 1.103 millones de EUR frente a los 961 millones de 2024.
-*   **Valoración:** La acción cotiza a un **Forward PE de 17.85x**, lo que, al compararlo con su ratio de valoración por PER relativo (1.049) frente a sus pares del sector (ANA.MC, ACS.MC, etc.), sugiere que está valorada en línea con el mercado, aunque con una prima moderada. Su rentabilidad por dividendo (**4.75%**) es un punto de apoyo importante para los inversores de renta.
-*   **Aspectos Técnicos:** El precio actual de 4.168 EUR se sitúa ligeramente por encima de su media móvil de 50 días (4.074 EUR), pero por debajo de la media de 200 días (4.367 EUR), lo que indica una tendencia neutral a medio plazo. El RSI de 52.33 confirma la ausencia de condiciones de sobrecompra o sobreventa.
-
-### Contexto Macroeconómico
-Las noticias recientes (13-19 de noviembre de 2026) reflejan una preocupación creciente en la Eurozona por el encarecimiento de la financiación, un factor crítico para una empresa intensiva en capital como Sacyr. El BCE advierte que las condiciones financieras podrían frenar el crecimiento, lo que exige vigilancia sobre la capacidad de la empresa para refinanciar su deuda de 9.557 millones de EUR en un entorno de tipos que, aunque potencialmente a la baja, se mantienen en niveles reales desafiantes.
-
-### Resumen de hallazgos
-| Indicador | Valor / Observación | Implicación |
-| :--- | :--- | :--- |
-| **Precio Actual** | 4.168 EUR | Neutral |
-| **Consenso Upside** | +27.85% | Potencial alcista según analistas |
-| **Net Debt/EBITDA** | 5.41x | Riesgo operativo elevado |
-| **Dividend Yield** | 4.75% | Atractivo para ingresos |
-| **Tendencia técnica** | RSI 52.33 / SMA200 4.37 | Lateralización |
-
-### Consideraciones Finales
-La empresa no presenta datos de "Operating Cash Flow" ni "Free Cash Flow" para los trimestres más recientes del año en curso en la instantánea proporcionada, lo cual limita la precisión del análisis de solvencia inmediata. La alta carga de deuda es el principal riesgo contra la tesis de inversión. Se recomienda cautela hasta ver una desapalancamiento más marcado.
-
 **Rating**: REVIEW
 
-FINAL TRANSACTION PROPOSAL: Hold
+### Resumen y Análisis del Estado Actual (SCYR.MC)
+
+A continuación se presenta un análisis exhaustivo de **Sacyr, S.A. (`SCYR.MC`)**, cotizada en la Bolsa de Madrid dentro del sector industrial (Ingeniería y Construcción), utilizando exclusivamente los datos y la evidencia provistos en el snapshot institucional a fecha **20 de noviembre de 2026**.
+
+---
+
+### 1. Datos Clave de Mercado y Técnicos
+- **Precio de cierre**: 4,056 EUR (a 20 de noviembre de 2026).
+- **Variación reciente**: Descenso diario del -2,69%.
+- **Capitalización bursátil**: 3.225.051.904 EUR (~3.225 millones de EUR).
+- **Indicadores Técnicos**:
+  - **RSI (14)**: 43,65 (zona neutral, ligeramente inclinada hacia la debilidad).
+  - **MACD**: 0,0353 frente a una línea de señal de 0,0405 (momentum plano/bajista a corto plazo).
+  - **Medias móviles**: SMA20 en 4,14 EUR; SMA50 en 4,07 EUR; SMA200 en 4,36 EUR. El precio actual (4,056 EUR) perfora a la baja las medias de corto y medio plazo, situándose en un nivel de *drawdown* del -17,63% respecto a sus referencias recientes.
+  - **Rentabilidades**: Retorno a 21 sesiones del +2,42%, pero con caídas a 63 sesiones del -6,33% y un rendimiento a 252 sesiones del +11,27%.
+
+---
+
+### 2. Fundamentales y Valoración Financiera
+- **Múltiplos de Valoración**:
+  - **Trailing P/E**: 22,53x.
+  - **Forward P/E**: 17,36x (con un BPA estimado *forward* de 0,234 EUR frente al BPA histórico de 0,18 EUR).
+  - **Price to Book (P/B)**: 3,03x (sobre un valor contable por acción de 1,34 EUR).
+  - **EV/EBITDA**: 8,80x.
+- **Estructura Financiera y Deuda**:
+  - **Deuda Total**: 9.347.476.000 EUR (según el balance a cierre de 2025; la cifra reportada en el snapshot consolida en ~9.557 millones de EUR).
+  - **EBITDA**: 1.344.260.480 EUR.
+  - **Ratio Deuda Neta / EBITDA**: 5,41x, un nivel elevado que exige un seguimiento riguroso de su generación de caja operativa y desinversiones en activos concesionales.
+- **Dividendos**:
+  - **Rentabilidad por dividendo (Dividend Yield)**: ~4,93% (tasa de dividendo de 0,20 EUR), con un *payout ratio* del 83,83%.
+- **Consenso de Analistas**:
+  - **Precio Objetivo Medio**: 5,329 EUR (con rango bajo de 4,80 EUR y alto de 5,75 EUR, basado en 10 opiniones de analistas).
+  - **Upside de consenso**: +31,39% sobre el precio de cierre actual.
+  - **Etiqueta de Valoración relativa**: PER relativo intermedio (ratio de 1,05x frente a la mediana del grupo de pares `[ANA.MC, ACS.MC, AENA.MC, FER.MC, IAG.MC, LOG.MC, SCYR.MC]`, cuyo PER *forward* mediano se sitúa en 16,45x).
+
+---
+
+### 3. Estados Financieros (Histórico Reciente)
+- **Ingresos Totales**: 
+  - 2023: 4.609.428.000 EUR
+  - 2024: 4.571.004.000 EUR
+  - 2025: 4.659.539.000 EUR (crecimiento interanual de los ingresos del 14% según métricas fundamentales).
+- **EBITDA**: 
+  - 2023: 1.431.868.000 EUR
+  - 2024: 1.341.614.000 EUR
+  - 2025: 1.301.616.000 EUR
+- **Beneficio Neto (Net Income)**: 
+  - 2023: 153.222.000 EUR
+  - 2024: 113.373.000 EUR
+  - 2025: 85.787.000 EUR (evidencia una contracción en el beneficio neto a pesar de la estabilidad de los ingresos).
+- **Flujo de Caja (Cash Flow)**:
+  - **Operating Cash Flow (2025)**: 1.358.605.000 EUR (vs 1.293.882.000 EUR en 2024).
+  - **Free Cash Flow (2025)**: 1.103.552.000 EUR (vs 961.336.000 EUR en 2024), mostrando una sólida capacidad de conversión de caja libre tras capex (-255 millones de EUR).
+
+---
+
+### 4. Contexto Macroeconómico y Noticias Recientes
+- La muestra de titulares macroeconómicos fechados entre el 14 y el 20 de noviembre de 2026 destaca la atención de los mercados en:
+  - Las perspectivas de los tipos de interés en la Eurozona y las decisiones en torno a las reservas mínimas del BCE (El Economista, 19 de noviembre de 2026).
+  - El apetito por activos de renta fija a corto plazo por parte de los hogares españoles (letras del tesoro) y los niveles de tipos reales (Radio Intereconomía, Vozpópuli).
+  - *Advertencia de datos faltantes*: La muestra de titulares específicos de noticias corporativas (`news` array) se encuentra vacía (`[]`), y la advertencia adjunta indica que la muestra de titulares no cubre esta empresa en los últimos siete días. No se dispone de fuentes directas adicionales de Sacyr posteriores al 20 de noviembre de 2026 más allá de los estados financieros cerrados y los metadatos bursátiles actuales.
+
+---
+
+### 5. Conclusión y Datos Faltantes
+A pesar de que el potencial alcista según el precio objetivo de consenso de los analistas es atractivo (+31,39%) y la empresa muestra un flujo de caja libre sólido en 2025 (superando los 1.100 millones de euros), la ratio de endeudamiento neto sobre EBITDA (5,41x) y la compresión observada en el beneficio neto de los últimos ejercicios invitan a la prudencia. 
+
+**Datos faltantes**: No se dispone de los detalles cualitativos de la última semana sobre la cartera de adjudicaciones concesionales ni de comunicados de prensa recientes de la compañía debido a la ausencia de titulares específicos en el flujo de noticias corporativas del periodo.
+
+| Métrica / Dimensión | Valor Actual / Referencia | Comentario / Implicación |
+| :--- | :--- | :--- |
+| **Precio de Cierre** | 4,056 EUR | Cotización a 20 de noviembre de 2026; bajo la SMA

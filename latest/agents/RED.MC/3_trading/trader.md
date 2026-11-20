@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: Redeia mantiene una estructura técnica alcista sobre sus medias móviles y ofrece un rendimiento por dividendo atractivo que sostiene el valor. No obstante, el alto apalancamiento operativo con un FCF negativo y el limitado margen de revalorización (3,24% sobre consenso) aconsejan cautela, especialmente ante el entorno de financiación advertido por el BCE. Mantener es la postura prudente hasta que el precio defina su tendencia por encima de la resistencia actual o el perfil de deuda mejore.
+**Reasoning**: Redeia cotiza en 16,20 EUR con una tendencia alcista respaldada por medias móviles y un RSI en 68,25 que sugiere un momentum próximo a zonas de sobrecompra. No obstante, el escaso potencial frente al precio objetivo de consenso (16,435 EUR) y el flujo de caja libre negativo impulsado por el plan de inversiones hasta 2030 aconsejan no incrementar exposición.
 
-**Entry Price**: not provided
+**Entry Price**: 16.2
 
-**Stop Loss**: 14.85
+**Stop Loss**: 14.8
 
-**Position Sizing**: Posición actual neutral, sin incremento recomendado.
+**Position Sizing**: 4% de la cartera
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

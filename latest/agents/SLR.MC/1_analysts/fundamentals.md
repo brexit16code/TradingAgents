@@ -1,34 +1,46 @@
-Este informe presenta un análisis fundamental detallado de **Solaria Energía y Medio Ambiente, S.A. (`SLR.MC`)** basado en los datos financieros y de mercado actualizados al 19 de noviembre de 2026.
+### Informe Fundamental: Solaria Energía y Medio Ambiente, S.A. (SLR.MC)
 
-### Resumen del Perfil y Situación Actual
-Solaria (`SLR.MC`) es una empresa española líder en el sector de las energías renovables. La compañía atraviesa un momento de alta volatilidad tras la presentación de sus resultados de los primeros nueve meses de 2026 y la actualización de su plan estratégico. El 19 de noviembre de 2026, la acción experimentó una caída del **5,41%**, situándose en **14,16 EUR**.
+**Fecha de análisis:** 20 de noviembre de 2026
 
-### Análisis Fundamental y Financiero
-*   **Desempeño Operativo:** Solaria reportó unas ventas de 260 millones de euros en los nueve primeros meses de 2026, duplicando sus cifras respecto al año anterior. El EBITDA aumentó un 30%, reflejando una capacidad de generación sólida, aunque el mercado ha reaccionado negativamente a las nuevas guías estratégicas y planes de expansión (especialmente en centros de datos).
-*   **Valuación:** Cotiza a un **PER (Trailing PE) de 7,57** y un **Forward PE de 8,32**, lo cual es significativamente inferior a la mediana de sus pares del sector (16,58), sugiriendo que el mercado está descontando riesgos elevados o dudas sobre la ejecución futura.
-*   **Balance y Solvencia:** La compañía presenta una deuda total de 1.559 millones de EUR frente a un efectivo de 209 millones. Su ratio de **Net Debt/EBITDA de 4,14x** indica un apalancamiento que requiere atención, especialmente en un contexto donde el BCE advierte sobre el encarecimiento de la financiación.
-*   **Flujo de Caja:** Existe una discrepancia significativa entre el beneficio neto (137,39 millones en 2025) y el flujo de caja libre (negativo en -260 millones en 2025), lo cual es coherente con una empresa en fase de alta inversión (CAPEX de -398 millones en 2025).
+#### 1. Perfil de la Compañía
+Solaria Energía y Medio Ambiente, S.A. es una empresa líder en el sector de las **Utilities (Energías Renovables)**, centrada en el desarrollo y generación de energía solar fotovoltaica. Cotiza en el mercado continuo español (MCE) y forma parte del índice selectivo ^IBEX. Su modelo de negocio se basa en el desarrollo, construcción y operación de grandes plantas fotovoltaicas.
 
-### Perspectiva del Mercado
-La caída reciente del 5,41% tras la presentación de resultados refleja decepción respecto a las nuevas previsiones estratégicas. A pesar de que el consenso de los analistas apunta a un precio objetivo medio de **22,27 EUR** (un potencial alcista del 57,3%), el valor se encuentra actualmente probando niveles cercanos a su precio objetivo mínimo (14,0 EUR), lo que indica un sentimiento de mercado bajista a corto plazo.
+#### 2. Situación Financiera y Desempeño Reciente
+Tras la presentación de sus resultados de los primeros nueve meses del ejercicio 2026 (publicados el 19 de noviembre), la compañía muestra una dicotomía entre el crecimiento operativo y la reacción del mercado:
 
-### Riesgos y Consideraciones
-1.  **Dependencia de la Financiación:** La estructura de capital es intensiva en deuda; el entorno de tipos de interés altos representa un riesgo crítico para los nuevos proyectos de CAPEX.
-2.  **Volatilidad:** Con una volatilidad del 54,9%, el título no es apto para perfiles de riesgo conservador.
-3.  **Información faltante:** No se dispone de datos sobre transacciones de *insiders* en la última semana, ni se cuenta con el desglose detallado del *guidance* del nuevo plan estratégico más allá de los titulares.
+*   **Resultados Operativos:** La empresa ha reportado un beneficio neto de 177,94 millones de euros en los primeros nueve meses de 2026, lo que representa un **incremento del 26%** respecto al ejercicio anterior.
+*   **Reacción de Mercado:** A pesar de este crecimiento en beneficios, la acción sufrió una caída del 5,4% el 19 de noviembre, liderando las pérdidas del IBEX 35. Los analistas apuntan a una "decepción" en relación con la actualización de su plan estratégico a 2029 (*Fuente: Rankia, 2026-11-20*).
+*   **Fundamentales Clave:**
+    *   **Capitalización bursátil:** ~1.813 millones de EUR.
+    *   **Múltiplos:** Presenta un PER (trailing) de 7,7x y un Forward PER de 7,87x, lo cual se sitúa significativamente por debajo de la mediana de sus comparables del sector (16,87x), sugiriendo una infravaloración según el ratio PER relativo (0,46x).
+    *   **Solidez:** El margen de beneficio neto es robusto (~48,57%). Sin embargo, la compañía mantiene una carga de deuda significativa, con una deuda total de 1.559 millones de EUR y un ratio de Deuda Neta/EBITDA de 4,14x.
+    *   **Flujo de Caja:** El Free Cash Flow (FCF) es negativo (-437,97 millones de EUR a fecha de reporte), lo cual es coherente con una empresa en fase de fuerte despliegue de capital (Capex intensivo).
 
-### Resumen de Datos Clave
+#### 3. Análisis de Mercado y Sentimiento
+La caída reciente en la cotización (que acumula un descenso del 46,5% desde sus máximos, con una volatilidad del 55%) refleja preocupaciones sobre la ejecución de su plan estratégico a largo plazo. Los inversores parecen haber descontado el crecimiento de los beneficios actuales frente a las expectativas de capital intensivo necesarias para alcanzar sus objetivos de 2029.
 
-| Métrica | Valor / Dato |
+*   **Riesgos:** La alta volatilidad y la tendencia bajista (la acción cotiza por debajo de sus medias móviles de 20, 50 y 200 sesiones) sugieren un sentimiento vendedor predominante. El RSI (14) en 35,6 indica una zona de debilidad, aunque cercana a niveles de sobreventa.
+
+#### 4. Conclusión para Traders
+Solaria se encuentra en una situación compleja: fundamentalmente parece barata bajo criterios de PER (7,7x), pero el mercado está penalizando la estrategia futura tras el "Capital Markets Day". La falta de dividendos y el flujo de caja libre negativo exigen una alta tolerancia al riesgo. La recomendación de los analistas (con una subida potencial consensuada del 61%) contrasta con la debilidad técnica inmediata.
+
+**Datos faltantes:** No se dispone del detalle desglosado de las inversiones específicas en Uruguay mencionadas en *El Observador* ni el detalle completo de las condiciones de refinanciación de su deuda en el nuevo plan.
+
+---
+
+### Resumen de Datos Clave (SLR.MC)
+
+| Métrica | Valor |
 | :--- | :--- |
-| **Precio Actual** | 14,16 EUR |
-| **Market Cap** | 1.864 millones EUR |
-| **PER (Forward)** | 8,32x |
-| **Variación Diaria** | -5,41% |
-| **Net Debt / EBITDA** | 4,14x |
-| **Target Price (Mean)** | 22,27 EUR |
-| **RSI (14)** | 37,98 (zona neutral/tendencia bajista) |
+| **Precio Actual** | 13,77 EUR |
+| **Variación Diaria** | -2,72% |
+| **PER (Forward)** | 7,87x |
+| **Consenso Precio Objetivo** | 22,27 EUR |
+| **Upside Consenso** | 61,69% |
+| **Deuda Neta / EBITDA** | 4,14x |
+| **Rentabilidad por Dividendo** | 0,00% |
+| **RSI (14)** | 35,63 |
 
-**Rating**: NEUTRAL (Bajo valoración técnica pero alta incertidumbre estratégica).
+**Rating**: Neutral
 
-FINAL TRANSACTION PROPOSAL: NO EXECUTION. La empresa presenta una valoración atractiva por múltiplos, pero la reacción bajista del mercado a su plan estratégico y los niveles técnicos de soporte sugieren esperar una estabilización del precio antes de considerar posiciones.
+FINAL TRANSACTION PROPOSAL: Hold position if currently held; maintain a cautious stance due to negative momentum and technical breakdown, despite deep value metrics.

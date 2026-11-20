@@ -1,39 +1,59 @@
-El análisis técnico y fundamental de **Iberdrola, S.A. (IBE.MC)**, basado en la información disponible al 19 de noviembre de 2026, refleja una empresa en una posición de mercado robusta, aunque con valoraciones que requieren cautela tras alcanzar máximos históricos recientes.
+**Rating**: HOLD
+**FINAL TRANSACTION PROPOSAL**: Mantenimiento de posición (HOLD) en niveles de máximos históricos, vigilando la zona de soporte clave de la media móvil de 50 sesiones y gestionando el riesgo ante un PER relativo elevado frente a peers.
 
-### Análisis Técnico
-El comportamiento de `IBE.MC` muestra una tendencia alcista consolidada:
-*   **Tendencia:** El precio actual de 22.59 EUR se sitúa por encima de sus medias móviles de 50 días (21.53 EUR) y 200 días (20.29 EUR), confirmando un entorno de mercado alcista.
-*   **Momentum:** Con un RSI de 54.31, la acción se encuentra en territorio neutral, lo que sugiere que, tras las recientes subidas (10 semanas consecutivas según *El Boletín*), el activo ha digerido parte de la sobrecompra sin entrar en una fase de corrección profunda.
-*   **Volatilidad y MACD:** El valor del MACD (0.42) se encuentra ligeramente por debajo de su señal (0.48), lo cual es una señal técnica a vigilar, sugiriendo una pausa en el impulso alcista a corto plazo.
+---
 
-### Análisis Fundamental
-*   **Valoración:** Iberdrola cotiza a un ratio Forward P/E de 20.28, lo que, al compararlo con la mediana de sus pares (16.57), indica un PER relativo superior (1.22x). Esto sugiere que el mercado está pagando una prima por su liderazgo en el sector de servicios públicos diversificados.
-*   **Solvencia:** La deuda neta/EBITDA de 3.94x se sitúa en un nivel estándar para el sector, aunque es un punto a monitorear dado que el BCE ha advertido que el encarecimiento de la financiación (noticia del 16 de noviembre) podría presionar el crecimiento en la eurozona.
-*   **Crecimiento:** Los estados financieros muestran una recuperación en el EBITDA (16.76 mil millones en 2025 vs. 15.19 mil millones en 2024). Sin embargo, el crecimiento de las ganancias (-13.4%) es un dato que contrasta con la euforia de los máximos históricos alcanzados.
+### Informe de Análisis Técnico y Fundamental: Iberdrola (`IBE.MC`)
 
-### Consideraciones Estratégicas
-La acción ha superado una capitalización de 158.000 millones de EUR, respaldada por la confianza en su modelo de negocio. No obstante, el consenso de analistas (24 opiniones) establece un precio objetivo medio de 21.56 EUR, lo que implica un **consenso de potencial de caída del 4.52%** respecto al cierre actual.
+#### 1. Contexto de Mercado y Datos Fundamentales
+A fecha de 20 de noviembre de 2026, la compañía energética española **Iberdrola, S.A.** (`IBE.MC`), cotizada en las Bolsas de Madrid (MCE) dentro del sector de Utilities diversificadas, muestra una capitalización bursátil de aproximadamente **150.486 millones de euros** (con referencias recientes en prensa situándola por encima de los 158.000 millones en máximos históricos de noviembre de 2026). La acción cotiza a un precio de cierre de **22,67 EUR**.
 
-**Evidencia contradictoria:** Mientras que el análisis técnico sugiere fortaleza por el posicionamiento sobre las medias móviles, el consenso de analistas sugiere que el activo podría estar sobrevalorado en los niveles actuales, acercándose a su techo de valoración.
+*   **Valoración y Múltiplos:** El PER histórico (*trailing PE*) se sitúa en **30.64x**, mientras que el PER estimado a futuro (*forward PE*) desciende a **20.36x**, apoyado en un beneficio por acción (*forward EPS*) estimado de 1,11 EUR. El ratio *Enterprise Value to EBITDA* (EV/EBITDA) se encuentra en **14.90x**. 
+*   **Comparativa Sectorial (Peer Comparison):** Según el análisis de valoración relativa proporcionado, el PER adelantado de `IBE.MC` muestra un ratio respecto a la mediana del sector (*peer median forward PE* de 16.87x) de **1.21**, lo que indica que cotiza con una prima de valoración superior (*PER relativo superior*) frente a sus comparables en el mercado español (tales como Endesa, Naturgy, Redia, etc.).
+*   **Solvencia y Dividendos:** La compañía presenta una deuda total de 63.837 millones de euros (una deuda neta sobre EBITDA de **3.95x**). Ofrece una rentabilidad por dividendo (*dividend yield*) del **3,01%** (con un dividendo anual de 0,68 EUR por acción y un *payout ratio* del 87,06%).
+*   **Consenso de Analistas:** El precio objetivo medio de consenso se sitúa en **21,57 EUR** (con un rango entre 18,00 EUR y 26,00 EUR basado en 24 opiniones de analistas), lo que representa una ligera corrección potencial implícita (*consensus downside*) del **-4,86%** respecto al precio de cotización actual de 22,67 EUR.
 
-**Datos faltantes:** No se dispone del *Free Cash Flow* ni del *Operating Cash Flow* desglosados en la fuente para el año fiscal actual (2026), lo cual limita la capacidad de calcular con precisión el rendimiento sobre el capital invertido inmediato.
+---
 
-### Tabla Resumen de Indicadores
+#### 2. Análisis Técnico e Indicadores de Momento
+La acción de `IBE.MC` mantiene una estructura alcista de medio y largo plazo muy sólida, respaldada por la siguiente evidencia técnica recogida en el snapshot verificado a 20 de noviembre de 2026:
 
-| Indicador | Valor | Interpretación |
+*   **Tendencia de Mediano y Largo Plazo:** El precio de cierre (22,67 EUR) se mantiene cómodamente por encima de sus principales medias móviles:
+    *   **SMA 20:** 22,64 EUR
+    *   **SMA 50:** 21,58 EUR (actúa como soporte dinámico intermedio)
+    *   **SMA 200:** 20,32 EUR (confirma la tendencia alcista estructural de fondo)
+*   **Momento y Osciladores:**
+    *   **RSI (14 periodos):** Se sitúa en **55,68**, una lectura neutral-alcista que descarta condiciones de sobrecompra extrema (por encima de 70) a pesar de las recientes cotas récord, dejando margen operativo.
+    *   **MACD:** Se sitúa en **0,38** con su línea de señal (*macd_signal*) en **0,45**, mostrando un ligero tono plano o de consolidación a corto plazo tras las subidas.
+*   **Volatilidad y Drawdown:** La volatilidad anualizada a 511 sesiones se sitúa en un moderado **15,09%**, mientras que el retroceso desde máximos (*drawdown_pct*) es de apenas un **-4,35%**, lo que refleja una baja fricción bajista y una alta resiliencia en la cotización.
+*   **Rentabilidades Históricas:** Acumula una rentabilidad a 21 sesiones (*return21_pct*) del **+4,28%**, a 63 sesiones (*return63_pct*) del **+12,62%** (con un rendimiento relativo positivo frente al índice de referencia *^IBEX* de +18,52 pp), y a 252 sesiones (*return252_pct*) del **+29,99%**.
+
+---
+
+#### 3. Evidencia de Noticias y Contexto Macroeconómico
+*   **Hitos Bursátiles:** Durante la primera quincena de noviembre de 2026, `IBE.MC` ha registrado máximos históricos consecutivos en bolsa, impulsando su capitalización por encima de los 158.000 millones de euros (según fuentes como *Merca2.es* y *El Periódico de la Energía* del 13 de noviembre de 2026).
+*   **Operativa de Insiders:** Se ha reportado actividad de venta por parte de miembros de la directiva (ej. el vicepresidente aprovechando las subidas históricas para realizar operaciones de venta por valor de 2,3 millones de euros, según *Economía Digital* del 15 de noviembre de 2026), un factor a tener en cuenta en zonas de máximos.
+*   **Litigios y Riesgos Legales:** Destaca la demanda interpuesta por Repsol contra las principales energéticas del país (Iberdrola, Endesa, Naturgy y Red Eléctrica) por daños relacionados con un apagón (*Radio Intereconomía*, 16 de noviembre de 2026), cuyo impacto fundamental a medio plazo sigue bajo monitorización.
+*   **Entorno Macroeconómico:** El contexto general de los mercados europeos sigue condicionado por las perspectivas de los tipos de interés del Banco Central Europeo (BCE) y la evolución de la inflación en la Eurozona a finales de 2026.
+
+---
+
+#### 4. Selección Óptima de Indicadores Técnicos
+Para complementar el análisis técnico y de riesgo sin redundancias, se han priorizado los siguientes 8 indicadores clave de la plataforma:
+1.  `close_50_sma`: Para identificar la dirección del soporte dinámico a medio plazo.
+2.  `close_200_sma`: Como referencia estructural de largo plazo para la confirmación de tendencia.
+3.  `rsi`: Para la medición del impulso y control de umbrales de sobrecompra/sobreventa.
+4.  `macd`: Para la detección de divergencias y cruces de impulso.
+5.  `macds`: Como línea de señal suavizada para validar los cambios del MACD.
+6.  `atr`: Para la medición de la volatilidad real orientada al cálculo de stops dinámicos y gestión del riesgo.
+7.  `boll_ub`: Para delimitar la banda superior de resistencia en zonas de máximos históricos.
+8.  `boll_lb`: Para identificar la banda inferior en caso de correcciones severas de mercado.
+
+---
+
+#### 5. Resumen y Tabla Clave
+
+| Concepto Clave | Valor / Dato | Implicación para el Inversor |
 | :--- | :--- | :--- |
-| Precio Cierre | 22.59 EUR | En máximos históricos |
-| RSI (14) | 54.31 | Neutral |
-| SMA 200 | 20.29 EUR | Soporte estructural a largo plazo |
-| Forward P/E | 20.28 | Valoración premium frente a pares |
-| Dividend Yield | 2.99% | Atractivo como renta variable defensiva |
-| Net Debt/EBITDA | 3.94x | Nivel de apalancamiento operativo |
-| Consenso Upside | -4.52% | Cautela por parte de los analistas |
-
-**Rating**: Hold
-
-FINAL TRANSACTION PROPOSAL: Mantener posiciones existentes aprovechando el dividendo del 2.99%, pero evitar nuevas entradas en niveles de máximos históricos hasta que la relación entre el precio de mercado y el consenso de analistas se normalice.
-
-*Fuentes consultadas:*
-- Yahoo Finance (IBE.MC): [Cotización](https://finance.yahoo.com/quote/IBE.MC/) y [Financieros](https://finance.yahoo.com/quote/IBE.MC/financials/).
-- Noticias: *El Periódico de la Energía* (13/11/2026), *El Boletín* (16/11/2026).
+| **Precio Actual (`close`)** | 22,67 EUR | Cotización en zona de máximos históricos recientes. |
+| **Tendencia (SMA 50 / 200)** | 21,58 EUR / 20,32 EUR | Estructura alcista intacta; el precio cot

@@ -1,11 +1,11 @@
-**Action**: Hold
+**Action**: Sell
 
-**Reasoning**: La cotizacion de ANE.MC a 19,37 EUR se encuentra bajo una fuerte presion bajista tecnica, cotizando por debajo de sus medias moviles clave y con un RSI de 32,95 que refleja debilidad, aunque cerca de soportes. A nivel fundamental, el elevado apalancamiento con una ratio de deuda neta sobre EBITDA superior a 5x y un flujo de caja libre negativo contrarrestan el atractivo del potencial alcista del consenso (23,33 EUR). Por consiguiente, ante la incertidumbre generada por la frustracion de los planes de desinversion y un entorno de financiacion restrictivo, se adopta una postura neutral de mantenimiento y observacion hasta que aparezcan catalizadores de estabilizacion.
+**Reasoning**: El valor presenta un perfil técnico muy deteriorado, cotizando muy por debajo de sus medias móviles (SMA20 de 21.12 EUR, SMA50 de 21.48 EUR y SMA200 de 21.80 EUR) y con un MACD claramente bajista y un RSI de 29.23 en zona de sobreventa. Los fundamentales agravan este escenario debido a un apalancamiento elevado con una ratio Deuda Neta/EBITDA de 5.06x, flujos de caja libre negativos persistentes y contratiempos recientes en sus planes de desinversión, lo que justifica recortar exposición según las directrices estratégicas de infraponderación.
 
-**Entry Price**: not provided
+**Entry Price**: 18.69
 
-**Stop Loss**: not provided
+**Stop Loss**: 20.12
 
-**Position Sizing**: 0% de exposicion adicional o mantener posicion neutral
+**Position Sizing**: 5% of portfolio
 
-FINAL TRANSACTION PROPOSAL: **HOLD**
+FINAL TRANSACTION PROPOSAL: **SELL**

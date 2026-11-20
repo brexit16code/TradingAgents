@@ -1,35 +1,60 @@
-### Informe de Análisis de Mercado: Mapfre, S.A. (MAP.MC)
+**Rating**: REVIEW
 
-**Fecha:** 19 de noviembre de 2026
+### Informe de Análisis y Contexto Macroeconómico para `MAP.MC` (Mapfre, S.A.)
 
-#### 1. Resumen Ejecutivo y Estado Actual
-Mapfre, S.A. (`MAP.MC`) se sitúa en un entorno de mercado volátil, marcado por una corrección reciente del 1,39% en la última sesión, situándose en 4,106 EUR. La acción ha experimentado un retroceso del 10,07% desde sus máximos, con indicadores técnicos como el RSI (41,6) sugiriendo una zona neutral que se acerca a terreno de sobreventa, mientras que el MACD se mantiene en territorio negativo (-0,021).
+Basado en la evidencia precargada y los datos de mercado a fecha de **20 de noviembre de 2026**, a continuación se presenta un análisis detallado sobre la situación actual de **Mapfre (`MAP.MC`)**, entidad cotizada en la bolsa de Madrid (MCE) perteneciente al sector financiero y de seguros diversificados, junto con el contexto macroeconómico reciente.
 
-#### 2. Análisis de Fundamentos y Valoración
-*   **Valoración:** La compañía cotiza a un PER estimado para 2026 (forward) de 9,66x, lo que refleja una valoración atractiva en comparación con su histórico y su sector. Su relación Precio/Valor Contable es de 1,33x.
-*   **Dividendos:** Uno de los pilares de la tesis de inversión para `MAP.MC` es su política de remuneración al accionista. Se ha confirmado el pago de un dividendo de aproximadamente 0,08 EUR por acción para el próximo 26 de noviembre (fuentes: *Radio Intereconomía*, *Finect*, 2026-11-18). La rentabilidad por dividendo (yield) es del 4,38%, con un *payout ratio* del 47,4%, lo que sugiere sostenibilidad en la distribución de efectivo.
-*   **Solidez Financiera:** Mapfre ha demostrado resiliencia con unos ingresos totales de 26.355 millones de EUR a cierre de 2025 y un beneficio neto de 1.132 millones de EUR, superando los niveles de 2024 (967 millones de EUR). Sin embargo, el aumento de la deuda total a 2.980 millones de EUR en 2025 requiere monitoreo constante en un entorno de tipos de interés que el BCE advierte pueden presionar el crecimiento (*El Boletín*, 2026-11-16).
+---
 
-#### 3. Contexto Macroeconómico
-El mercado europeo se enfrenta a incertidumbres persistentes:
-*   **Política Monetaria:** El Banco Central Europeo (BCE) ha emitido advertencias sobre cómo el encarecimiento de la financiación está frenando el crecimiento en la Eurozona.
-*   **Inflación y Ahorro:** Existe una tendencia de los hogares a migrar hacia activos de menor riesgo (letras del tesoro), acumulando siete meses de crecimiento en inversión minorista, lo cual compite indirectamente por el capital que podría destinarse a renta variable como la de `MAP.MC`.
-*   **Sentimiento:** Las noticias recientes (*Bolsamania*, 2026-11-17) señalan que los desplomes sectoriales en el Ibex 35 han alejado al índice de la cota psicológica de los 20.000 puntos, lo que ejerce presión vendedora técnica sobre Mapfre a pesar de sus fundamentales sólidos.
+### 1. Datos Técnicos y de Valoración de `MAP.MC`
+- **Precio de cierre actual**: 4.09 EUR (con una ligera caída del 0.44% en la última sesión).
+- **Indicadores Técnicos**:
+  - RSI (14): 40.65 (zona neutral, con sesgo bajista a corto plazo).
+  - MACD: -0.0299 (señal: -0.0236), reflejando presión bajista reciente.
+  - Medias móviles: La cotización se sitúa por debajo de su SMA20 (4.18 EUR) y SMA50 (4.27 EUR), pero ligeramente por encima de su SMA200 (4.15 EUR), lo que indica una corrección a corto plazo dentro de una estructura de medio/largo plazo más estable.
+  - Rentabilidades: -7.09% a 21 sesiones y -7.68% a 63 sesiones, experimentando un retroceso reciente que ha alejado al valor (junto con Indra) del IBEX 35 en los titulares recientes de mediados de noviembre de 2026.
+- **Fundamentales y Valoración**:
+  - **Capitalización de mercado**: 12,547 millones de EUR.
+  - **PER (Trailing)**: 10.76x | **PER (Forward)**: 9.62x.
+  - **Precio/Valor en Libros (P/B)**: 1.33x (sobre un valor contable por acción de 3.07 EUR).
+  - **Rentabilidad por dividendo (Dividend Yield)**: 4.40%, respaldado por un *payout ratio* de aproximadamente 47.4%.
+  - **Resultados financieros recientes (Cierre 2025)**: Ingresos totales de 26,355 millones de EUR y un beneficio neto de 1,132.6 millones de EUR (superior a los 967.5 millones de 2024 y 677.2 millones de 2023), mostrando una tendencia positiva en la generación de resultados de la aseguradora.
+  - **Consenso de analistas**: Precio objetivo medio de 4.325 EUR (con un rango entre 3.80 EUR y 5.00 EUR), lo que implica un potencial alcista (*consensus upside*) cercano al 5.8%.
 
-#### 4. Riesgos y Evidencia Contradictoria
-*   **Factores Positivos:** Crecimiento constante de ingresos y beneficio, junto con una política de dividendos atractiva y un PER moderado (forward 9,66x).
-*   **Factores Negativos:** El entorno macro (tipos de interés reales, presión sobre el crecimiento europeo) y el sentimiento bajista que afecta a todo el Ibex 35. Falta información sobre el flujo de caja operativo actualizado para 2026, lo que limita la visibilidad sobre la capacidad de reinversión inmediata.
+---
 
-#### 5. Conclusión
-La acción se encuentra en un punto de consolidación. Mientras que la rentabilidad por dividendo y los beneficios crecientes proporcionan un suelo, la presión macroeconómica y técnica a corto plazo mantiene a los inversores en cautela.
+### 2. Eventos Corporativos y Noticias Recientes (Noviembre 2026)
+- **Política de Dividendos**: Mapfre ha fijado recientemente el pago de su dividendo de noviembre de 2026 en **0,080248 euros por acción** (habitualmente citado como 0,08 EUR), el cual se hará efectivo el próximo **26 de noviembre de 2026**. Esto mantiene el atractivo de la compañía para los inversores orientados a rentas (*dividend yield* superior al 4.4%).
+- **Comportamiento Bursátil**: A mediados de noviembre (17 de noviembre de 2026), los títulos de Mapfre registraron descensos destacados (como una caída del 3.23% reseñada por Bolsamania), arrastrados por correcciones puntuales en el mercado que temporalmente alejaron al índice de referencia (^IBEX) de cotas clave.
+- **Declaraciones y Perspectivas**: Mapfre AM ha destacado recientemente la importancia de la evolución de los beneficios empresariales ("a las bolsas les gustan los beneficios, beneficios y beneficios"), un factor clave en un entorno donde las aseguradoras se benefician de la diversificación geográfica y la disciplina técnica de suscripción.
 
-| Factor | Estado / Valor | Observaciones |
-| :--- | :--- | :--- |
-| **Precio (`MAP.MC`)** | 4,106 EUR | En fase de corrección (-10% desde máximos). |
-| **Rentabilidad Dividendo** | 4,38% | Atractiva; pago confirmado para el 26/11. |
-| **Forward PER** | 9,66x | Valoración razonable vs. sector. |
-| **RSI (14)** | 41,6 | Neutral, sin señales claras de sobrecompra. |
-| **Tendencia Macro** | Bajista / Cauta | Incertidumbre por tipos de interés (BCE). |
+---
 
-**Rating**: HOLD
-FINAL TRANSACTION PROPOSAL: No trade execution suggested; maintain existing positions for dividend yield capture if part of a long-term income strategy.
+### 3. Contexto Macroeconómico de la Eurozona
+El panorama macroeconómico global y europeo de noviembre de 2026 muestra varios frentes abiertos que impactan de manera directa en el sector asegurador y financiero:
+- **Tipos de Interés y Política del BCE**: Los mercados siguen de cerca los movimientos del Banco Central Europeo (BCE). A mediados de noviembre de 2026 (por ejemplo, reportado por *El Economista* el 19 de noviembre), se analiza cómo el BCE prepara ajustes técnicos de política monetaria mediante el incremento de las reservas mínimas obligatorias a los bancos, mientras persisten los debates sobre tipos reales y la evolución de los costes de financiación.
+- **Mercado de Deuda y Ahorro de los Hogares**: La inversión de los hogares en activos seguros (como letras del Tesoro) acumula siete meses al alza en España superando los 23.000 millones de euros, compitiendo de alguna manera por la liquidez minorista, aunque las aseguradoras mantienen flujos estables a través de productos de vida y ahorro tradicionales.
+- **Agenda Económica y Geopolítica**: La semana del 15 al 20 de noviembre de 2026 ha estado marcada por la atención a la inflación en la eurozona, la evolución de los tipos de interés reales negativos y eventos políticos locales en España, lo que genera cierta volatilidad transversal en los mercados de renta variable.
+
+---
+
+### 4. Datos Faltantes y Advertencias
+- No se dispone de estimaciones detalladas sobre flujos de caja operativos (*operating cashflow*) ni flujos de caja libre específicos actualizados para el trimestre en curso debido a limitaciones en los extractos de la instantánea proporcionada.
+- No se han aplicado reglas de deuda industrial a la aseguradora, respetando la naturaleza de su balance (activos y pasivos bajo normativa de seguros/solvencia).
+- *Nota*: Los precios objetivos de los analistas son estimaciones de consenso y no deben interpretarse como valores intrínsecos definitivos.
+
+---
+
+### Resumen de Puntos Clave
+
+| Categoría | Indicador / Evento | Detalle / Dato Clave | Fuente / Referencia |
+| :--- | :--- | :--- | :--- |
+| **Valoración** | Precio de cotización (`MAP.MC`) | 4.09 EUR (al 20/11/2026) | Yahoo Finance / Snapshot |
+| **Valoración** | PER Forward / Trailing | 9.62x (Forward) / 10.76x (Trailing) | Snapshot Fundamental |
+| **Rentabilidad** | Dividend Yield | ~4.40% (Dividendo de 0.08 EUR a abonar el 26/11/2026) | Radio Intereconomía / Finect (Nov 2026) |
+| **Fundamentales** | Beneficio Neto (2025) | 1,132.6 millones de EUR (vs. 967.5M en 2024) | Estados Financieros Anuales |
+| **Técnico** | RSI (14) y Tendencia | 40.65 (Neutral/Bajista a corto plazo); corrección del -7% a 21 sesiones | Snapshot Técnico |
+| **Consenso** | Precio Objetivo Medio | 4.325 EUR (Potencial alcista de ~5.8%) | Snapshot Fundamental |
+| **Macro** | Política Monetaria BCE | Discusiones sobre reservas mínimas y tipos en la eurozona | El Economista (19/11/2026) |
+
+FINAL TRANSACTION PROPOSAL: REVIEW

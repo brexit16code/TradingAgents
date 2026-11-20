@@ -1,31 +1,76 @@
-### Informe de Situación: Laboratorios Farmacéuticos Rovi, S.A. (ROVI.MC)
+**Rating**: REVIEW
 
-**Fecha de análisis:** 19 de noviembre de 2026
+### Informe de Investigación y Análisis de Mercado: Laboratorios Farmaceuticos Rovi, S.A. (`ROVI.MC`)
 
-#### 1. Análisis del Mercado y Contexto Macroeconómico
-El entorno macroeconómico actual presenta desafíos significativos para los activos de renta variable en la Eurozona. Las noticias del 13 al 19 de noviembre de 2026 subrayan una persistente preocupación por la inflación y el impacto del endurecimiento de las condiciones de financiación sobre el crecimiento económico. El BCE ha advertido explícitamente que el coste de la financiación podría frenar la expansión en la eurozona, lo que añade presión a los márgenes de las compañías. Paralelamente, los inversores muestran un aumento en la demanda de activos refugio, como las Letras del Tesoro, que han encadenado siete meses de crecimiento en inversión de los hogares.
+#### 1. Resumen de Identidad y Contexto Bursátil
+* **Ticker:** `ROVI.MC` (Bolsa de Madrid, MCE)
+* **Sector / Industria:** *Healthcare / Drug Manufacturers - Specialty & Generic*
+* **Divisa:** EUR
+* **Precio de Cierre (20-11-2026):** 63.10 EUR
+* **Variación en la sesión:** -4.54%
+* **RSI (14):** 43.49 (zona neutral, ligeramente débil)
+* **MACD:** 1.73 (por debajo de su línea de señal en 2.30)
+* **Drawdown Actual:** -24.96% desde máximos recientes, con una volatilidad del 27.11%.
 
-#### 2. Situación de ROVI.MC
-Laboratorios Farmacéuticos Rovi, S.A. muestra una estructura financiera sólida, con una relación deuda neta/EBITDA muy baja (0.15x), lo que le proporciona una posición defensiva ante el entorno de tipos de interés altos.
+---
 
-*   **Desempeño Técnico:** La acción cotiza a 66.10 EUR, con una caída reciente del 2.22%. Se encuentra operando cerca de su media móvil de 20 días (65.87) y 200 días (65.08), lo que sugiere una fase de consolidación técnica después de un rendimiento positivo del 14.6% en el último año. El indicador RSI (54.44) indica una zona neutral, sin sobreventa ni sobrecompra.
-*   **Fundamentales:** La empresa mantiene márgenes de beneficio sólidos (24.8%). A pesar de una previsión de crecimiento en los beneficios por acción (Forward EPS) de 3.29 EUR frente a los 4.08 EUR actuales, el mercado parece estar compensando esta moderación mediante el impulso positivo en su negocio **CDMO** (Contract Development and Manufacturing Organization), tal como destacó Jefferies el 13 de noviembre tras revisar al alza el precio objetivo.
-*   **Valoración:** La capitalización bursátil es de 3.38 mil millones de EUR. Con un Forward PE de 20.06x, la acción cotiza con una prima respecto a su PER histórico reciente (16.20x), lo que refleja expectativas de crecimiento sostenido a pesar del entorno macro adverso.
+#### 2. Fundamentos y Estado Financiero
+* **Capitalización de Mercado:** ~3.230 millones de EUR.
+* **PER (Trailing):** 15.70x; **PER (Forward):** 19.09x, reflejando una contracción en las expectativas de beneficios a corto plazo.
+* **BPA (Trailing):** 4.02 EUR; **BPA Forward:** 3.31 EUR.
+* **Valor en Libros (Price-to-Book):** 4.14x (con un valor contable por acción de 15.25 EUR).
+* **Deuda y Solvencia:** Deuda total de ~100.95M EUR frente a una caja de ~70.92M EUR. La ratio de deuda neta sobre EBITDA se sitúa en un sólido **0.15x**, evidenciando un balance muy saneado.
+* **Rentabilidad y Márgenes:** ROE del 28.71% y márgenes de beneficio neto robustos del **24.81%**.
+* **Flujo de Caja:** Flujo de caja operativo de 196.72M EUR y un FCF de ~97.15M EUR (con variaciones reportadas en los estados anuales de cierre a 2025 que alcanzan los 119.27M EUR).
+* **Dividendos:** Rentabilidad por dividendo (*dividend yield*) estimada en el **1.52%** (dividendo por acción de 0.96 EUR), con un *payout ratio* conservador del 25.83%.
 
-#### 3. Evidencia de Riesgos y Catalizadores
-*   **Argumentos a favor:** El fuerte negocio CDMO y la baja carga de deuda posicionan a ROVI.MC como un activo defensivo dentro del sector salud. El respaldo de analistas (Jefferies) tras los resultados es una señal de confianza.
-*   **Argumentos en contra:** El descenso en los beneficios previstos para el próximo periodo sugiere una posible normalización tras los niveles excepcionales previos. El sentimiento macroeconómico en la zona euro es negativo, con temores a una ralentización económica generalizada que podría afectar a los presupuestos sanitarios públicos.
+---
 
-#### 4. Datos faltantes
-No se dispone de una comparativa sectorial detallada (valuation label: "no disponible" en la fuente) para realizar un benchmarking ajustado con competidores directos en la industria de genéricos y especialidad. Tampoco contamos con el dato de "earningsGrowth" actual, lo que limita la capacidad de proyectar la aceleración real del beneficio neto.
+#### 3. Cuentas Anuales (Estados Financieros de Referencia)
+* **Ingresos Totales:** 
+  * 2025: 743.48M EUR
+  * 2024: 763.75M EUR
+  * 2023: 829.51M EUR
+*(Se observa una leve tendencia a la baja en la cifra de negocios anual tras el pico de los años anteriores asociado a la pandemia y la fabricación a terceros de vacunas).*
+* **Beneficio Neto:** 
+  * 2025: 140.44M EUR
+  * 2024: 136.88M EUR
+  * 2023: 170.34M EUR
+* **EBITDA:** 
+  * 2025: 216.20M EUR
+  * 2024: 207.69M EUR
+  * 2023: 245.41M EUR
 
-| Indicador | Valor / Estado | Nota |
+---
+
+#### 4. Consenso de Analistas y Precios Objetivo
+* **Número de Opiniones:** 9 analistas.
+* **Precio Objetivo Medio:** 75.22 EUR.
+* **Precio Objetivo Mínimo:** 67.00 EUR.
+* **Precio Objetivo Máximo:** 89.00 EUR.
+* **Potencial de Revalorización (*Consensus Upside*):** **+19.21%** respecto al precio actual de 63.10 EUR.
+
+---
+
+<h4>5. Contexto Macroeconómico y Noticias Recientes (Noviembre 2026)</h4>
+* Las fuentes de noticias y titulares fechados del 14 al 20 de noviembre de 2026 reflejan un escenario europeo marcado por la política monetaria del BCE (discusiones sobre el incremento de reservas mínimas obligatorias y la senda de tipos de interés para 2026/2027), la inflación y la colocación de activos seguros por parte de los hogares. 
+* *Nota de cobertura de noticias:* La muestra específica de titulares recientes no contiene eventos corporativos de última hora directamente imputables a `ROVI.MC`, manteniéndose la cotización sujeta a dinámicas técnicas y sectoriales de salud en Europa.
+* *URLs de referencia y fuentes:* Datos extraídos de los portales financieros y repositorios de Yahoo Finance (`https://finance.yahoo.com/quote/ROVI.MC/` y subpágina de estados financieros) y agregadores de noticias monetarias (Google RSS / Bankinter / El Economista / Radio Intereconomía).
+
+---
+
+#### 6. Datos Faltantes y Limitaciones
+* No se dispone de estimaciones detalladas sobre el desglose futuro del negocio de fabricación a terceros (LSD) más allá del consenso de BPA forward y de ingresos. 
+* Ausencia de datos en tiempo real sobre carteras de inversión institucional y ausencia de estimaciones de crecimiento a largo plazo (Earnings Growth nulo o no disponible en los registros instantáneos).
+
+---
+
+| Concepto Clave | Valor / Dato Actual | Comentario / Implicación |
 | :--- | :--- | :--- |
-| Precio Cierre | 66.10 EUR | Fecha 2026-11-19 |
-| Ratio Deuda/EBITDA | 0.15 | Excelente salud financiera |
-| Target Mean Price | 75.0 EUR | Potencial alcista del 13.46% |
-| Margen Beneficio | 24.81% | Sólida rentabilidad operativa |
-| Tendencia Técnica | Neutral | SMA20 (65.87) vs SMA200 (65.08) |
+| **Precio de Cierre (`ROVI.MC`)** | 63.10 EUR | Descenso diario del 4.54%; cotiza cerca del soporte de su media de 200 sesiones (65.03 EUR). |
+| **Valoración (PER Forward)** | 19.09x | Descuento moderado frente a máximos históricos, reflejando normalización post-vacuna. |
+| **Solvencia (Deuda Neta / EBITDA)** | 0.15x | Estructura de capital muy conservadora, riesgo financiero prácticamente nulo. |
+| **Consenso de Mercado (Target Mean)** | 75.22 EUR | Implica un potencial alcista del **19.21%** desde el nivel actual. |
+| **Rentabilidad por Dividendo** | 1.52% | Retorno modesto, respaldado por un *payout* sostenible inferior al 26%. |
 
-**Rating**: HOLD
-FINAL TRANSACTION PROPOSAL: No trade execution suggested. Any potential entry should consider the proximity to technical support levels near 65.00 EUR, maintaining a defensive posture given the macro volatility mentioned in the news analysis.
+FINAL TRANSACTION PROPOSAL: REVIEW

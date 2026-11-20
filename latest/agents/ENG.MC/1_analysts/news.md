@@ -1,33 +1,36 @@
-### Informe de Análisis: Enagás, S.A. (ENG.MC)
+**Rating**: HOLD
 
-**Fecha de análisis:** 19 de noviembre de 2026
+**Informe de Análisis y Coyuntura Macroeconómica para ENG.MC**
 
-#### 1. Situación Financiera y Operativa
-Enagás (ENG.MC) presenta un perfil de riesgo característico de las *utilities* reguladas, con una fuerte dependencia de la deuda y un enfoque marcado en la retribución al accionista.
-*   **Valoración:** La compañía cotiza a 17,53 EUR con un PER *trailing* de 12,8x. Su *dividend yield* es destacado (5,64%), lo cual sigue siendo el principal motor de inversión para los accionistas minoristas, confirmado por el anuncio reciente de un dividendo de 0,4 EUR por acción para el 16 de diciembre (Finect, 2026-11-19).
-*   **Solidez del Balance:** La situación de deuda sigue siendo un punto de observación crítico; con un ratio *net debt/EBITDA* de 6,15x, la palanca financiera es elevada. No obstante, el reciente éxito legal en el arbitraje contra Perú por las inversiones en TGP y COGA (Cinco Días, 2026-11-18) constituye un catalizador positivo para el flujo de caja a medio plazo.
-*   **Rentabilidad:** El ROE se sitúa en 11,88%, con márgenes de beneficio robustos (30,14%), típicos de su naturaleza regulada.
+### 1. Resumen Ejecutivo y Tesis de Inversión
+Enagás, S.A. (`ENG.MC`) cotiza a 17,67 EUR por acción (al 20 de noviembre de 2026), situándose cerca de sus medias móviles de corto y medio plazo (SMA20 en 17,80 EUR, SMA50 en 17,13 EUR) y con una sólida resequía alcista anual del 34,6%. La compañía mantiene una atractiva rentabilidad por dividendo estimada en torno al 5,66% - 5,7%, destacando el próximo pago de un dividendo a cuenta de 0,40 euros por acción programado para el 16 de diciembre de 2026. 
 
-#### 2. Entorno Macroeconómico
-El contexto actual, según las fuentes proporcionadas, se caracteriza por:
-*   **Incertidumbre en tipos de interés:** Existe preocupación en la Eurozona sobre cómo el encarecimiento de la financiación puede frenar el crecimiento (El Boletín, 2026-11-16). Para una empresa intensiva en capital y deuda como ENG.MC, esto supone un viento en contra persistente.
-*   **Inflación y Ahorro:** La persistencia de tipos reales negativos y la volatilidad inflacionaria (Negocios.com, 2026-11-13) han motivado una migración de ahorro doméstico hacia activos más conservadores como las letras, lo que compite por el capital de los inversores que buscan rentabilidad por dividendo.
+Recientemente, el flujo de noticias corporativas ha recibido un catalizador positivo de gran relevancia: Enagás ganó el arbitraje internacional contra Perú en relación con sus inversiones en TGP y COGA, lo que elimina incertidumbres legales y financieras históricas en Latinoamérica. No obstante, los fundamentales y estados financieros muestran un ejercicio 2025 con ingresos totales de 960,4 millones de euros, un EBITDA de 762,7 millones y un beneficio neto de 339,1 millones de euros, acompañados por un ratio de endeudamiento neto/EBITDA elevado (6,15x) y un flujo de caja operativo y libre que se ha contraído respecto a ejercicios anteriores (Free Cash Flow de 94,4 millones en 2025 frente a más de 350 millones en 2024).
 
-#### 3. Perspectiva Técnica y Valoración
-*   **Tendencia:** ENG.MC muestra una tendencia de recuperación moderada, cotizando por encima de sus medias móviles de 50 días (17,11 EUR) y 200 días (16,41 EUR), aunque con una ligera corrección reciente del 1,07%.
-*   **Consenso:** Con un precio objetivo medio de 17,18 EUR y una cotización actual de 17,53 EUR, el valor se encuentra operando marginalmente por encima del consenso de los analistas (-1,98% de *upside* esperado), sugiriendo que la acción podría estar correctamente valorada o ligeramente sobrecomprada en el corto plazo tras las noticias positivas de Perú.
+### 2. Contexto Macroeconómico e Internacional
+El análisis del entorno macroeconómico europeo muestra señales mixtas en noviembre de 2026:
+* **Tipos de interés y Política Monetaria:** El Banco Central Europeo (BCE) vigila de cerca la inflación y prepara ajustes o subidas de tipos "por la puerta de atrás" mediante el incremento de las reservas mínimas obligatorias a los bancos, mientras el ahorro de los hogares en letras acumula meses al alza con tipos reales que siguen desafiando la rentabilidad del ahorrador minorista.
+* **Clima bursátil:** Las bolsas europeas y el IBEX 35 digieren las expectativas de tipos de interés para el cierre de 2026 e inicios de 2027, en un contexto donde los inversores buscan refugio en valores defensivos y de alta retribución por dividendo (como las utilities reguladas).
 
-#### 4. Resumen de hallazgos
-| Factor | Estado | Impacto para ENG.MC |
+### 3. Análisis Fundamental, Valoración y Catalizadores para `ENG.MC`
+* **Valoración:** El PER histórico se sitúa en 12,90x, mientras que el PER forward estimado asciende a 15,57x. El ratio frente a la mediana de peers del sector (PER relativo intermedio de 0,92) sugiere que cotiza en línea o ligeramente descontada respecto al sector de Utilities - Regulated Gas en España (`ANE.MC`, `ELE.MC`, `IBE.MC`, `NTGY.MC`, `RED.MC`, `SLR.MC`).
+* **Dividendos:** Se confirma el abono de 0,40 EUR brutos por título el 16 de diciembre de 2026 (anunciado a mediados de noviembre por Finect, Bolsamania y Valencia Plaza), respaldando el atractivo para el inversor enfocado en rentas.
+* **Catalizador Geopolítico/Arbitraje:** La victoria en el arbitraje contra Perú (publicada por *Cinco Días* el 18 de noviembre de 2026) sobre TGP y COGA representa una resolución largamente esperada que mitiga riesgos en activos internacionales.
+
+### 4. Evidencia, Fechas y Datos Faltantes
+* **Fuentes y URLs citadas:** 
+  * Noticias de dividendos y arbitraje: [Finect](https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMUVoM1lBNHhRWGctcjh2ZS1OOHRYVG9oSHc2aURRdGljNGJFQ2xhb09oVF91MDlacWFURmxWblhYU1g3cmphWTlGMFhHWG5abXFzYXo3bzlnUFM3ZVVZanU4TF9RZDdQNXhkcENTbmRZbzY3NmNnSzVrX2FxMTBsRmZJU3RGUHVUeFhJOFdKMjlxRmNNT0xyZlFTc0VvQjUybmpuZXNSSGVfbzJJeVY1WGd6TmFIWUdPWVB3WGYtRzI?oc=5), [Cinco Días](https://news.google.com/rss/articles/CBMixgFBVV95cUxPQWFueXBNWlQ5YUotYjU0X01JTFZvXzhON2N4WnhCdTFHaTVJcExPc3ZZcldHdDU2OGhIZ1RJVW5kQ0k1bkRSQUtoWnBIZmxJNFRGOTR0Zi10VGdsd2txaUNFYjJsRjdkNDJmd2tEMS1BWm9iLWJsT0FCVG5aaUJrbnpKdERsY3BXQ08xSWVnU1RFVV9EMzd5ZUdadGNaU2ZCYVVhYUpuQV9nRWRfZGNJMU1qazVURVFSaF9mcHREMUNsV3Z2aGfSAdoBQVVfeXFMTkNhUzFHX1hXNllDaVMwN3JILW8zQ3BBc3BjNWJEcG55RVU4V1JXQ1RYT0ZVSnR1aFBzaklSYzRmb0pEYmNueHhrT2JEOTJvLUJTV1BHTFRXVXBfWTJhUzBxS2xKZldjdF9waHM3Nmw2MGlGY1MwRXV0YWhMMnVKSk9XV2E5YnRfajlGamZNTGFGUmJLX0t5UUtiaWxub3pvandpY1JNTUxBaGJWWGVXblpFblZ1LWd6WDEwMHlBMXNjY0UxdlQtUkNMdDBrM2JjMldVMktobnhoQ0E?oc=5) (18-19 de noviembre de 2026).
+  * Cotización e indicadores técnicos extraídos el 20 de noviembre de 2026.
+* **Datos Faltantes:** No se dispone en el snapshot actual de proyecciones detalladas de flujo de caja libre más allá de 2025 ni de los detalles cuantitativos exactos de la compensación económica neta derivada del laudo arbitral en Perú.
+
+---
+
+### Tabla Resumen de Datos Clave (`ENG.MC`)
+
+| Métrica / Concepto | Valor / Detalle | Fuente / Referencia Temporal |
 | :--- | :--- | :--- |
-| **Dividend Yield** | 5,64% | Elevado; atractivo para rentistas. |
-| **Ratio Neto Deuda/EBITDA** | 6,15x | Riesgo financiero significativo. |
-| **Catalizador Legal** | Positivo | Ganancia arbitraje en Perú mejora perspectiva de caja. |
-| **Entorno Tipos (BCE)** | Restrictivo | Presión sobre el coste de la deuda. |
-| **Consenso Analistas** | 17,18 EUR | Valoración actual (17,53 EUR) al límite superior. |
-
-**Missing Data:** No se dispone de las proyecciones detalladas de crecimiento de dividendos a largo plazo más allá del pago inmediato de diciembre, ni el impacto exacto en el flujo de caja del arbitraje ganado (solo se conoce el hecho del éxito).
-
-**Rating:** HOLD
-
-FINAL TRANSACTION PROPOSAL: Mantener posiciones existentes para capturar el cupón anunciado en diciembre, evitando nuevas entradas a los niveles actuales de mercado dado que el precio se sitúa por encima del objetivo medio de los analistas.
+| **Precio de Cierre** | 17,67 EUR | Snapshot (2026-11-20) |
+| **Rentabilidad por Dividendo** | ~5,66% (1,00 EUR tasa anual) | Snapshot / Dividendos Diciembre 2026 |
+| **Próximo Dividendo** | 0,40 EUR / acción (Pago: 16 Dic 2026) | Bolsamania / Finect (2026-11-19) |
+| **PER Trailing / Forward** | 12,90x / 15,57x | Snapshot (2026-11-20) |
+| **Endeudamiento Net Debt / EBITDA**| 6,15

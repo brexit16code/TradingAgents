@@ -1,11 +1,11 @@
-**Action**: Hold
+**Action**: Sell
 
-**Reasoning**: ACX.MC se encuentra operando cerca de soportes críticos en 14,85 EUR, con indicadores técnicos como el RSI mostrando agotamiento de la presión vendedora pero sin confirmación clara de reversión en el MACD. Aunque los múltiplos forward sugieren una infravaloración, los riesgos estructurales en el flujo de caja libre y el alto apalancamiento justifican mantener una postura prudente a la espera de un cambio de tendencia más definido.
+**Reasoning**: El activo ha perforado soportes técnicos clave en 14,85 EUR, invalidando la hipótesis de un rebote técnico a corto plazo. La debilidad fundamental, marcada por un flujo de caja libre negativo y una estructura de deuda apalancada (3,15x Deuda Neta/EBITDA), sugiere una continuación de la presión bajista. Se recomienda reducir la exposición hasta que se recupere la SMA20 para confirmar un cambio de tendencia.
 
-**Entry Price**: 15.92
+**Entry Price**: not provided
 
-**Stop Loss**: 14.85
+**Stop Loss**: 15.82
 
-**Position Sizing**: 0.5% del portafolio, dada la alta volatilidad del 27,46%
+**Position Sizing**: Reducción de la posición actual en un 50% para mitigar riesgo bajista.
 
-FINAL TRANSACTION PROPOSAL: **HOLD**
+FINAL TRANSACTION PROPOSAL: **SELL**

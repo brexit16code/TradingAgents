@@ -1,36 +1,37 @@
-Este informe detalla el análisis fundamental de **Aena S.M.E., S.A. (`AENA.MC`)**, basado en los datos financieros proporcionados a fecha de 19 de noviembre de 2026.
+Este informe presenta un análisis fundamental de **Aena S.M.E., S.A. (AENA.MC)** basado en los datos proporcionados al 20 de noviembre de 2026.
 
-### Perfil y Visión General
-Aena, clasificada en el sector de **Industriales (Servicios Aeroportuarios)**, opera bajo el ticker `AENA.MC` en el mercado de Madrid (MCE). Con una capitalización de mercado de aproximadamente 41.550 millones de euros, la compañía mantiene una posición sólida dentro del índice ^IBEX. Su modelo de negocio se refleja en un margen de beneficio operativo robusto (34,26%) y un retorno sobre el capital propio (ROE) del 25,79%, lo que subraya una alta eficiencia en la generación de valor para los accionistas.
+### Perfil de la Empresa
+Aena, clasificada en el sector de **Industriales (Servicios Aeroportuarios)**, es el principal operador aeroportuario en España y cuenta con presencia internacional. Su modelo de negocio se beneficia de una fuerte recuperación post-pandémica y una alta rentabilidad operativa, respaldada por flujos de caja recurrentes.
 
 ### Análisis Financiero
-*   **Ingresos y Crecimiento:** La tendencia de ingresos muestra una trayectoria ascendente clara: 5.047M€ (2023), 5.784M€ (2024) y 6.294M€ (2025). Este crecimiento del 11,5% en ingresos y 13,6% en beneficios refleja una recuperación y expansión sostenida tras periodos de volatilidad.
-*   **Balance y Solvencia:** A fecha de cierre de 2025, la deuda total se sitúa en 7.281M€, frente a activos totales de 18.192M€. La ratio **Net Debt/EBITDA de 1,38x** es considerada saludable para una empresa de infraestructura intensiva en capital, indicando una gestión prudente del endeudamiento.
-*   **Flujo de Caja:** El flujo de caja operativo se ha mantenido consistente (2.787M€ en 2025). A pesar de un aumento en el gasto de capital (CAPEX) a 1.059M€ en 2025, la generación de flujo de caja libre (1.728M€) es suficiente para cubrir los compromisos de dividendos.
+*   **Resultados Recientes:** La compañía muestra una trayectoria de crecimiento sólido. Los ingresos totales pasaron de 5.047 millones de euros en 2023 a 6.294 millones en 2025. El EBITDA también ha escalado significativamente, alcanzando los 3.909 millones de euros al cierre de 2025.
+*   **Rentabilidad:** Presenta un **ROE (Retorno sobre el Capital) del 25,79%**, lo cual es excelente y refleja una eficiencia operativa destacable. Sus márgenes de beneficio se sitúan en un robusto 34,26%.
+*   **Solvencia:** La deuda total se ha mantenido controlada (7.281 millones de euros al cierre de 2025) con un ratio de **deuda neta/EBITDA de 1,38**, lo que indica una posición financiera saludable.
+*   **Flujo de Caja:** Generó 1.728 millones de euros en Free Cash Flow (FCF) en 2025, lo que le permite mantener una política de dividendos atractiva (Yield del 3,94%).
 
-### Valoración y Sentimiento de Mercado
-*   **Valoración:** La acción cotiza a un **PER (Price to Earnings) histórico de 13,78x**, lo cual, comparado con el PER forward de 16,96x, sugiere que los analistas esperan una ligera moderación en el crecimiento de beneficios o un ajuste en las valoraciones a corto plazo. La relación con respecto a la media de sus pares del sector es de 0,99x, sugiriendo una valoración en línea con el mercado (Fairly Valued).
-*   **Dividendos:** Con una rentabilidad por dividendo (dividend yield) del 3,86% y un ratio de pago (payout ratio) del 70,32%, Aena se posiciona como un valor atractivo para inversores orientados a la renta, aunque el payout elevado limita el margen para incrementos agresivos a corto plazo.
-*   **Riesgos:** La volatilidad actual es del 21,38%. Las advertencias macroeconómicas recientes citan que el encarecimiento de la financiación (advierte el BCE) podría impactar el crecimiento futuro de la eurozona, lo que representa un viento en contra para el sector industrial/transporte.
+### Valoración y Perspectiva de Mercado
+*   **Múltiplos:** Cotiza con un **PER (Price-to-Earnings) adelantado de 16,95x**, que se alinea con la mediana del sector (16,45x), reflejando una valoración justa frente a sus pares.
+*   **Sentimiento:** La acción cotiza a 27,64 EUR, muy cerca de su media móvil de 50 días (26,53 EUR) y 200 días (25,76 EUR), mostrando una tendencia alcista a largo plazo. Sin embargo, el precio actual se encuentra ligeramente por debajo del objetivo medio de los analistas (27,49 EUR según la fuente, aunque los datos muestran un pequeño *upside* negativo del -0,56% según consenso, lo que sugiere una valoración actual considerada "madura").
 
-### Información Faltante
-No se dispone de datos sobre transacciones de "insiders" (ejecutivos o directores) para el periodo reciente. Asimismo, los titulares de noticias son una muestra limitada y no constituyen un análisis exhaustivo del sentimiento corporativo actual.
+### Consideraciones para Traders
+1.  **Fundamentos sólidos:** El crecimiento constante en ingresos y el control de deuda hacen de Aena un activo de calidad.
+2.  **Riesgo Macro:** Debe vigilarse la política monetaria del BCE (incremento de reservas mínimas obligatorias mencionado en las noticias del 19/11/2026) y las perspectivas de tipos de interés, ya que el sector de infraestructuras es sensible al costo del capital.
+3.  **Dividendos:** Con un Payout Ratio del 70,32%, el dividendo parece sostenible dado el fuerte flujo de caja operativo (3.073 millones de euros).
 
-### Resumen Técnico-Fundamental
-La acción cotiza a 27,70 EUR, situándose ligeramente por encima de su media móvil de 50 días (26,47 EUR) y de 200 días (25,74 EUR), lo que indica una tendencia de medio-largo plazo alcista pero con señales de consolidación o corrección técnica (cambio porcentual negativo del 1,84% reciente).
+**Información faltante:** No se dispone de datos sobre transacciones de *insiders* recientes ni detalles pormenorizados de eventos corporativos o cambios en el accionariado en los últimos 7 días.
 
 **Rating**: HOLD
 
-| Indicador | Valor |
+FINAL TRANSACTION PROPOSAL: Mantener posiciones actuales debido a la valoración en línea con la media del sector y la proximidad al precio objetivo de consenso.
+
+| Indicador | Valor / Dato |
 | :--- | :--- |
-| Capitalización de mercado | 41.550 M€ |
-| PER (Trailing) | 13,78x |
-| Dividend Yield | 3,86% |
-| Net Debt / EBITDA | 1,38x |
-| Precio Actual | 27,70 EUR |
-| Upside Consenso | -0,77% |
-| Margen de Beneficio | 34,26% |
+| Capitalización de mercado | 41.460 M EUR |
+| PER (Forward) | 16,95x |
+| Dividend Yield | 3,94% |
+| ROE | 25,79% |
+| Deuda Neta / EBITDA | 1,38x |
+| Precio Actual | 27,64 EUR |
+| Objetivo Analistas (Medio) | 27,49 EUR |
 
-FINAL TRANSACTION PROPOSAL: No action recommended. The stock is fairly valued relative to peers, and while financial health is robust, the current price is close to the analyst consensus mean target, limiting immediate upside potential.
-
-***Fuentes consultadas:** Yahoo Finance (Quote: https://finance.yahoo.com/quote/AENA.MC/, Financials: https://finance.yahoo.com/quote/AENA.MC/financials/). Fecha de referencia: 2026-11-19.*
+*Fuentes: Yahoo Finance (AENA.MC), noticias indexadas a 20/11/2026.*

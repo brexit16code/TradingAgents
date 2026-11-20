@@ -1,29 +1,31 @@
-El análisis de **MERLIN Properties SOCIMI, S.A. (MRL.MC)**, basado en la información disponible al 19 de noviembre de 2026, revela una situación técnica y fundamental compleja, marcada por una presión bajista significativa y una incertidumbre operativa a corto plazo.
+El análisis de **MERLIN Properties SOCIMI, S.A. (MRL.MC)**, basado en la información disponible al 20 de noviembre de 2026, muestra una situación técnica delicada con una presión bajista significativa en el corto y medio plazo.
 
 ### Análisis Técnico
-El precio de cierre actual de **11.34 EUR** refleja una tendencia negativa. La acción cotiza por debajo de sus medias móviles clave (SMA20: 11.56, SMA50: 11.90, SMA200: 13.87), lo que confirma una estructura de mercado bajista a largo plazo. 
-*   **Momentum y Volatilidad:** El RSI(14) en 40.37 indica que el activo se acerca a territorio de sobreventa, pero aún no ha alcanzado niveles críticos (menor a 30) que sugieran un agotamiento de la tendencia bajista. El MACD se sitúa en -0.115, ligeramente por encima de su línea de señal (-0.125), lo que sugiere una leve estabilización pero sin señales claras de cambio de tendencia alcista.
-*   **Contexto de Mercado:** La volatilidad se sitúa en el 25.95% con un *drawdown* del 28%, lo que subraya un sentimiento de cautela entre los inversores tras el rendimiento negativo del último trimestre (-18.42%).
+*   **Tendencia:** El precio actual de 10,93 EUR se sitúa por debajo de sus medias móviles clave (SMA20: 11,35 EUR, SMA50: 11,65 EUR y SMA200: 13,62 EUR), confirmando una estructura bajista consolidada. La cotización muestra una caída acumulada del 29,36% desde sus máximos (drawdown).
+*   **Momento:** El indicador RSI (14) en 36,18 indica que el activo se acerca a territorio de sobreventa, pero sin mostrar aún una señal clara de agotamiento vendedor. El MACD (-0,139) permanece por debajo de su línea de señal (-0,126), lo que refuerza la persistencia de la debilidad.
+*   **Volatilidad:** La volatilidad del 26,07% sugiere un entorno de mercado inestable para el valor.
 
-### Análisis Fundamental y Operativo
-La divergencia entre la valoración de mercado y las expectativas de los analistas es notable.
-*   **Valoración:** Con un ratio P/B (Precio/Valor Contable) de 0.81, la acción cotiza con descuento respecto a sus activos netos, lo que podría atraer a inversores de valor. No obstante, el forward P/E de 20.20 es considerablemente más alto que el trailing P/E (7.82), reflejando las preocupaciones del mercado sobre la rentabilidad futura.
-*   **Riesgo Regulatorio:** La noticia más impactante es la estimación de un coste extra de **863 millones de euros** derivado del nuevo decreto sobre centros de datos (*El Boletín*, 13-11-2026). Esta carga financiera extraordinaria está eclipsando unos resultados trimestrales que, según *Investing.com*, superaron las previsiones de ingresos. La incertidumbre legal y el impacto en el flujo de caja operativo (415.6 millones en 2025) son los principales frenos para la cotización.
+### Fundamentos y Contexto
+*   **Valoración:** Con un ratio P/E (Forward) de 19,47 y un Price-to-Book de 0,78, el mercado parece descontar una prima de riesgo elevada en comparación con su valor contable (13,94 EUR). El consenso de analistas sitúa el precio objetivo medio en 17,00 EUR, lo que implica una divergencia notable respecto al precio de mercado actual.
+*   **Sentimiento:** Las noticias recientes (CapitalMadrid, 19/11/2026) destacan el posicionamiento de inversores bajistas tras la presentación de resultados. La incertidumbre sobre el segmento de centros de datos, señalada por Bankinter (17/11/2026), añade un componente de riesgo operativo.
+*   **Dividendos:** La rentabilidad por dividendo del 3,53% (dividendo anual de 0,4 EUR) actúa como un soporte psicológico limitado dado el contexto bajista actual.
 
-### Consideraciones Estratégicas
-*   **Argumentos a favor:** El dividendo (Yield ~3.5%) ofrece un incentivo de rentabilidad. La capacidad de superar expectativas de ingresos sugiere una resiliencia operativa en el segmento de oficinas.
-*   **Argumentos en contra:** El riesgo de ejecución y el coste del decreto de centros de datos actúan como un lastre estructural. La tendencia técnica bajista sugiere que no hay un suelo firme, y los inversores parecen estar descontando los riesgos regulatorios de forma agresiva.
+### Factores a Considerar
+1.  **Soporte/Resistencia:** La SMA20 y la SMA50 actúan actualmente como resistencias dinámicas inmediatas. Cualquier intento de recuperación enfrentará presión vendedora en la zona de los 11,35 - 11,65 EUR.
+2.  **Datos Faltantes:** No se dispone del detalle del *cashflow* operativo proyectado para 2027 ni de un desglose preciso del impacto de las tasas de interés del BCE en su estructura de deuda específica (net_debt_ebitda no disponible).
+3.  **Riesgo macro:** El entorno de tipos de interés en la Eurozona (el BCE prepara medidas de ajuste, según El Economista, 19/11/2026) presiona al sector inmobiliario al elevar los costes de financiación.
 
-**Missing Data:** No se dispone del *Free Cash Flow* actualizado para 2026 ni de la guía de dividendos específica tras el impacto del decreto, lo cual es crítico para una valoración precisa del valor.
+**Rating**: Underweight
 
-| Indicador / Métrica | Valor / Estado | Interpretación |
+| Indicador / Métrica | Valor | Observación |
 | :--- | :--- | :--- |
-| Precio Actual | 11.34 EUR | Tendencia bajista, bajo medias móviles. |
-| RSI (14) | 40.37 | Neutral-bajista, acercándose a sobreventa. |
-| P/B Ratio | 0.81 | Valoración atractiva respecto al activo. |
-| Forward P/E | 20.20 | Expectativa de menor beneficio futuro. |
-| Upside Consenso | 49.94% | Gran brecha entre analistas y precio. |
-| Riesgo Clave | Decreto Data Centers | Impacto estimado de 863M EUR. |
+| Precio Actual (EUR) | 10,93 | Por debajo de todas las SMA |
+| RSI (14) | 36,18 | Zona de debilidad, acercándose a sobreventa |
+| MACD | -0,139 | Tendencia bajista confirmada |
+| Price-to-Book | 0,78 | Cotiza con descuento sobre valor contable |
+| Dividend Yield | 3,53% | Rendimiento atractivo pero riesgo de precio |
+| Target Mean Price | 17,00 EUR | Potencial teórico (consenso) |
 
-**Rating**: Neutral
-FINAL TRANSACTION PROPOSAL: Mantener una postura de vigilancia; el descuento contable es atractivo, pero el riesgo regulatorio exige una mayor clarificación sobre el impacto real en el balance antes de buscar puntos de entrada.
+***
+
+**FINAL TRANSACTION PROPOSAL:** No se recomienda la apertura de posiciones largas hasta que el activo muestre una estabilización del soporte en niveles inferiores o un cruce al alza del MACD que valide un cambio en el momentum. La estrategia actual debe ser de monitorización (WATCH) debido a la presión bajista y la incertidumbre del sector.

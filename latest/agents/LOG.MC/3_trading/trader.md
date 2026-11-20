@@ -1,7 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La recomendación de **Hold** se fundamenta en el equilibrio entre la solidez financiera de **LOG.MC** (ratio Deuda/EBITDA de 0,60x y una atractiva rentabilidad por dividendo del 5,58%) y el riesgo técnico y fundamental existente. A corto plazo, el cruce bajista del MACD y el hecho de que el precio cotice ligeramente por debajo de su media de 20 sesiones (36,87 EUR) indican una falta de momentum alcista. Además, existe una clara divergencia con el consenso de analistas, cuyo precio objetivo medio (33,90 EUR) sugiere una posible sobrevaloración del 6,86% respecto al nivel actual. Dada la neutralidad del RSI (46,17), no hay señales claras para operar en ninguna dirección; es prudente esperar a que el precio testee el soporte de la media de 50 sesiones (36,10 EUR) antes de tomar una decisión direccional.
+**Reasoning**: Logista presenta una estructura fundamental sólida con una rentabilidad por dividendo atractiva, lo que justifica mantener la posición actual para el devengo de ingresos pasivos. No obstante, técnicamente el precio se encuentra consolidando por debajo de su media móvil de 20 sesiones y existe un riesgo de sobrevaloración dado que el precio actual supera el precio objetivo medio del consenso de analistas. Ante la falta de catalizadores alcistas inmediatos y la fase neutral del RSI, es prudente evitar nuevas compras hasta que se confirme una ruptura al alza sobre los 37,00 EUR o se busque una mejor entrada técnica tras un ajuste hacia la media móvil de 50 días.
 
-**Entry Price**: No aplicable (se recomienda mantener posiciones existentes).
-**Stop Loss**: 33,50 EUR (nivel técnico próximo a la media móvil de 200 días y al objetivo de consenso).
-**Position Sizing**: Mantener la asignación actual; se sugiere limitar cualquier aumento de posición a un máximo del 2% al 3% del capital total destinado a renta variable en caso de una ruptura confirmada por encima de los 38,00 EUR.
+**Entry Price**: 36.13
+
+**Stop Loss**: 33.78
+
+**Position Sizing**: Mantener posición actual, no incrementar exposición.
+
+FINAL TRANSACTION PROPOSAL: **HOLD**

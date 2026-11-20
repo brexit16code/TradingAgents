@@ -1,30 +1,29 @@
-El análisis de **Cellnex (CLNX.MC)**, conforme a los datos proporcionados con fecha de corte al 19 de noviembre de 2026, refleja una situación técnica y fundamental compleja. La empresa, clasificada en el sector de servicios inmobiliarios (infraestructura de telecomunicaciones), opera en un entorno marcado por la presión de los tipos de interés y una estructura financiera intensiva en capital.
+El análisis de **Cellnex (CLNX.MC)**, líder en infraestructura de telecomunicaciones, revela una situación de cautela técnica y una estructura financiera que refleja la intensidad de capital propia del sector inmobiliario de servicios (torres de telecomunicaciones). A continuación, el desglose detallado:
 
 ### Análisis Técnico
-*   **Tendencia:** El valor cotiza a 25,09 EUR, situándose exactamente sobre su media móvil de 50 sesiones (SMA50: 25,09 EUR). Esto marca un punto de inflexión crítico; perder este nivel podría confirmar una tendencia bajista de corto plazo al romper el soporte dinámico. La media de 200 sesiones (SMA200: 26,94 EUR) actúa como resistencia estructural, indicando que el sesgo a largo plazo sigue bajo presión.
-*   **Momentum:** El RSI (14) en 41,87 sugiere un sentimiento bajista moderado sin llegar a condiciones de sobreventa extrema. El cruce del MACD (0,17) respecto a su señal (0,38) es negativo, lo que confirma una pérdida de impulso comprador.
-*   **Volatilidad:** Con una volatilidad del 28,12% y un *drawdown* del 21,58%, el valor muestra un comportamiento defensivo pero errático, coherente con una empresa que, aunque genera flujos de caja operativos (2.286 millones EUR en 2025), mantiene una carga de deuda significativa.
+Al cierre del 20 de noviembre de 2026, el precio de **CLNX.MC** se sitúa en **24,90 EUR**, mostrando una tendencia bajista de corto y mediano plazo.
+*   **Medias Móviles:** El precio cotiza por debajo de la SMA20 (26,06 EUR), SMA50 (25,07 EUR) y SMA200 (26,92 EUR), lo que confirma un sesgo bajista estructural. La proximidad del precio a la SMA50 sugiere que, aunque hay presión vendedora, la acción se encuentra cerca de niveles de consolidación.
+*   **Momentum:** Con un RSI14 de **40,15**, el valor se aleja de la zona de sobreventa (30) sin mostrar fortaleza alcista. El MACD (0,07) está por debajo de su señal (0,31), confirmando la falta de tracción alcista necesaria para romper las resistencias móviles.
+*   **Volatilidad:** Con una volatilidad del 27,9%, el valor muestra un desgaste acumulado, con un *drawdown* del 22,17% respecto a sus máximos, reflejando un entorno de mercado donde los inversores valoran negativamente la carga de deuda en un entorno de tipos de interés altos.
 
-### Fundamentos y Contexto
-*   **Situación Financiera:** Cellnex presenta una ratio de **Deuda Neta/EBITDA cercana a 7,96x**, un nivel elevado que el mercado vigila estrechamente ante el endurecimiento de la financiación en la Eurozona (según lo advertido por el BCE el 16-11-2026).
-*   **Valoración:** El consenso de analistas sitúa el precio objetivo medio en 34,18 EUR, lo que implica un potencial de revalorización del 36,22%. Sin embargo, el PER *forward* negativo (-624,28) y los beneficios netos negativos reportados en 2025 (-360 millones EUR) reflejan las dificultades para alcanzar rentabilidad neta tras los costes financieros y depreciaciones.
-*   **Dividendos:** Ofrece una rentabilidad por dividendo del 2,98%, lo cual puede atraer a inversores de perfil de renta, aunque la sostenibilidad del mismo debe analizarse en el contexto de un flujo de caja libre positivo (525 millones EUR en 2025, tras ser negativo en 2023).
+### Análisis Fundamental
+*   **Balance y Solvencia:** La empresa presenta una deuda total de **22.127 millones de EUR** y una ratio **Net Debt/EBITDA de 7,96x**. Esta cifra es significativamente elevada y constituye el principal factor de riesgo en el escenario macro actual (donde los tipos de interés se mantienen bajo escrutinio del BCE, según las noticias del 19 de noviembre de 2026).
+*   **Rentabilidad:** El ROE es negativo (-2,24%) y los márgenes de beneficio neto se sitúan en -7,5%, lo que subraya la dificultad de la empresa para generar beneficios netos positivos tras los costes financieros y de amortización.
+*   **Valoración:** Con un Forward PE de -619,5 y un Price to Book de 1,26, el mercado parece estar castigando la falta de rentabilidad a corto plazo. No obstante, el consenso de analistas (23 opiniones) sitúa el precio objetivo medio en **34,18 EUR**, lo que representa un potencial alcista del **37,26%** desde el precio actual, sugiriendo que el mercado podría estar sobre-reaccionando a la baja.
 
-### Observaciones
-La ausencia de noticias específicas sobre la compañía en los últimos siete días, en un contexto macroeconómico volátil donde el ahorro en letras del Estado es una opción competitiva, sugiere que CLNX.MC se mueve principalmente por factores sectoriales y de mercado global.
+### Conclusión y Estrategia
+El perfil de **CLNX.MC** es el de un activo de alto apalancamiento que depende de la estabilidad o reducción de los tipos de interés para reducir costes financieros. La tendencia técnica es claramente bajista; cualquier entrada requeriría señales de reversión por encima de la SMA50 y una mejora en la política monetaria de la Eurozona.
 
-| Indicador | Valor / Estado | Interpretación |
+**Rating**: Underweight
+
+| Indicador / Métrica | Valor / Estado | Interpretación |
 | :--- | :--- | :--- |
-| Precio Cierre | 25,09 EUR | Soporte crítico en SMA50 |
-| RSI (14) | 41,87 | Bajista moderado, zona neutral-baja |
-| SMA 200 | 26,94 EUR | Resistencia de largo plazo |
-| Deuda Neta/EBITDA | 7,96x | Apalancamiento elevado |
-| Consenso Upside | +36,22% | Optimismo analítico vs. realidad técnica |
-| Yield | 2,99% | Atractivo para renta pero riesgo de sostenibilidad |
+| Precio Actual | 24,90 EUR | Por debajo de SMA50 y SMA200 |
+| RSI (14) | 40,15 | Neutral, sin fuerza compradora |
+| Net Debt / EBITDA | 7,96x | Riesgo financiero elevado |
+| Consenso Analistas | 34,18 EUR | Potencial teórico alto (+37,3%) |
+| SMA200 | 26,92 EUR | Resistencia principal de largo plazo |
 
-**Rating**: Neutral
+**Datos faltantes:** No se dispone de un flujo de caja operativo (OCF) o flujo de caja libre (FCF) detallado para el periodo 2026, lo cual limita la capacidad de proyectar la capacidad de desapalancamiento real para este ejercicio.
 
-FINAL TRANSACTION PROPOSAL: Mantener posiciones existentes mientras el precio se sostenga sobre la SMA50 (25,09 EUR). La alta deuda y el entorno de tipos sugieren cautela; no se recomienda incrementar exposición hasta observar una ruptura clara y sostenida de los 26,94 EUR (SMA200) con aumento de volumen.
-
-*Fuentes consultadas: [Yahoo Finance CLNX.MC](https://finance.yahoo.com/quote/CLNX.MC/), [Yahoo Finance Financials](https://finance.yahoo.com/quote/CLNX.MC/financials/), headlines vía Google News (Rankia, Radio Intereconomía, El Boletín).*
-*Datos faltantes: No se dispone de datos de sentimiento social en tiempo real ni de proyecciones de flujo de caja detalladas más allá de 2025.*
+FINAL TRANSACTION PROPOSAL: Hold/Wait for trend reversal above 25.10 EUR.

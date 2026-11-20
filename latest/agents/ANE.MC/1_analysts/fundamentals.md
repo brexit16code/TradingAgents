@@ -1,70 +1,66 @@
-**Corporación Acciona Energías Renovables, S.A. (`ANE.MC`)**  
-**Fecha del informe:** 19 de noviembre de 2026  
-**Ticker:** `ANE.MC` (MCE, EUR, benchmark ^IBEX)  
+**Rating**: REVIEW
+
+**FINAL TRANSACTION PROPOSAL**: HOLD
 
 ---
 
-### **1. Resumen de la Compañía y Perfil de Negocio**
-* **Identidad:** Corporación Acciona Energías Renovables, S.A. (`ANE.MC`) opera en el sector de *Utilities* (Servicios Públicos) dentro de la subindustria de Energías Renovables (*Utilities - Renewable*). Cotiza en la bolsa de Madrid (MCE) en Euros (EUR).
-* **Capitalización de Mercado:** 6.286.522.880 EUR (~6.290 millones de EUR).
-* **Actividad:** Desarrollo, construcción, operación y gestión de activos de generación de energía renovable a nivel global (principalmente eólica, solar fotovoltaica e hidráulica).
+### Informe Fundamental Integral: Corporación Acciona Energías Renovables, S.A. (`ANE.MC`)
+
+#### 1. Perfil de la Compañía y Contexto de Negocio
+Corporación Acciona Energías Renovables, S.A. (`ANE.MC`), cotizada en el mercado español (MCE) y perteneciente al sector de *Utilities* (subsector de energías renovables), opera como un actor global dedicado al desarrollo, construcción, operación y gestión de activos de generación de energía limpia. Al 20 de noviembre de 2026, la capitalización bursátil de la compañía asciende a aproximadamente 6.070 millones de euros, situándose como un referente en la transición energética ibérica y global.
+
+#### 2. Análisis Financiero e Histórico (Estados Financieros)
+Los datos financieros extraídos de los últimos ejercicios muestran una evolución mixta en la cuenta de resultados y una estructura de balance intensiva en capital:
+
+*   **Ingresos Totales (Total Revenue):**
+    *   Ejercicio 2023: 3.547.000.000 €
+    *   Ejercicio 2024: 3.048.000.000 €
+    *   Ejercicio 2025: 2.925.000.000 €
+    *(Se observa una tendencia decreciente en los ingresos consolidados interanuales, con un descenso de ingresos del 34,4% según métricas recientes).*
+
+*   **EBITDA:**
+    *   Ejercicio 2023: 1.407.000.000 €
+    *   Ejercicio 2024: 1.183.000.000 €
+    *   Ejercicio 2025: 1.484.000.000 €
+    *(El EBITDA muestra una recuperación notable al cierre de 2025, respaldando la generación operativa de los activos renovables instalados).*
+
+*   **Beneficio Neto (Net Income):**
+    *   Ejercicio 2023: 524.000.000 €
+    *   Ejercicio 2024: 357.000.000 €
+    *   Ejercicio 2025: 655.000.000 €
+
+*   **Balance y Deuda:**
+    *   Activos Totales (2025): 14.718.000.000 € (frente a 16.244.000.000 € en 2024).
+    *   Deuda Total: 5.164.000.000 € al cierre de 2025 (la instantánea de mercado sitúa la deuda total actual en ~5.411 millones de euros).
+    *   Ratio de Deuda Neta sobre EBITDA: 5,06x, lo que evidencia un apalancamiento elevado característico de empresas promotoras de infraestructura energética intensiva en capex.
+
+*   **Flujos de Caja (Cash Flow) y Capex:**
+    *   Los flujos de caja operativos y libres reflejan una fuerte presión inversora (Capex de 979 millones de euros en 2025 y 1.630 millones en 2024), lo que genera un flujo de caja libre negativo recurrente (-596 millones en 2025 y -408 millones en la instantánea actual).
+
+#### 3. Valoración y Métricas de Mercado
+*   **PER (Trailing P/E):** 32,79x | **PER Adelantado (Forward P/E):** 27,76x.
+*   **Precio sobre Valor en Libros (Price-to-Book):** 0,98x (cotiza ligeramente por debajo de su valor contable, fijado en 19,10 € por acción frente a un precio de cotización de 18,69 €).
+*   **EV/EBITDA:** 11,90x.
+*   **Valoración Relativa:** El PER adelantado muestra una prima significativa frente a la mediana del sector en el índice comparativo (PER peer median de 16,87x), con un ratio relativo de 1,65x, lo que indica que `ANE.MC` cotiza con valoración superior a sus homólogos tradicionales en el mercado español.
+*   **Dividendos:** Ofrece una rentabilidad por dividendo (*dividend yield*) teórica elevada del 16,05% con un dividendo por acción de 0,03 € (nota: sujeto a la estructura de retribución corporativa y políticas de pago de la matriz/filial).
+
+#### 4. Análisis Técnico y Sentimiento Reciente de Mercado
+*   **Precio de Cierre (20/11/2026):** 18,69 €.
+*   **Indicadores Técnicos:** RSI de 14 sesiones en 29,23 (zona de clara sobreventa técnica). MACD negativo (-0,53) por debajo de su línea de señal. Las medias móviles simples (SMA20: 21,12 €, SMA50: 21,48 €, SMA200: 21,80 €) confirman una tendencia bajista de medio y largo plazo. El retroceso (*drawdown*) actual alcanza el -23,30% desde máximos recientes.
+*   **Noticias y Eventos Recientes:** Las noticias publicadas a mediados de noviembre de 2026 apuntan a descensos acusados en la cotización de Acciona y Acciona Energía debido a la frustración o demoras en sus planes de desinversión de activos renovables (destacando el acuerdo con MIP por activos en México) (*Merca2.es, 15/11/2026*; *Petróleo y Energía, 14/11/2026*). Esto genera incertidumbre sobre la rotación de activos y la reducción del apalancamiento financiero.
+*   **Consenso de Analistas:** El precio objetivo medio de los analistas se sitúa en 23,33 € (con un rango entre 17,00 € y 28,30 € y 19 opiniones), lo que otorga un potencial de revalorización (*consensus upside*) del 24,81% desde los niveles actuales de 18,69 €.
+
+#### 5. Datos Faltantes y Advertencias
+*   Faltan datos detallados desagregados de la producción exacta en GWh para el trimestre en curso y desglose pormenorizado por geografías regulatorias en la instantánea estática.
+*   *Advertencia:* Las previsiones y valoraciones se basan en los datos suministrados y los precios objetivo de consenso a fecha de noviembre de 2026. No constituyen una recomendación de ejecución de operaciones comerciales o financieras.
 
 ---
 
-### **2. Análisis Financiero y Estados Financieros**
+### Resumen de Puntos Clave
 
-Los datos financieros históricos e internos extraídos de los estados financieros presentados reflejan la evolución reciente de la compañía:
-
-* **Cuenta de Resultados (Ingresos, EBITDA y Beneficio Neto):**
-  * *Ejercicio 2023:* Ingresos totales de 3.547 millones de EUR; EBITDA de 1.407 millones de EUR; Beneficio Neto de 524 millones de EUR.
-  * *Ejercicio 2024:* Ingresos totales de 3.048 millones de EUR; EBITDA de 1.183 millones de EUR; Beneficio Neto de 357 millones de EUR.
-  * *Ejercicio 2025:* Ingresos totales de 2.925 millones de EUR; EBITDA de 1.484 millones de EUR; Beneficio Neto de 655 millones de EUR.
-  * *Tendencia:* Se observa una contracción en la cifra de ingresos en los últimos periodos (-34,4% de crecimiento de ingresos según métricas de balance), compensada parcialmente por una recuperación en los márgenes de EBITDA y un repunte del beneficio neto en 2025.
-
-* **Balance de Situación (Activos, Deuda y Patrimonio):**
-  * *Activos Totales:* 14.718 millones de EUR (cierre 2025), frente a los 16.244 millones de EUR en 2024.
-  * *Deuda Total:* 5.164 millones de EUR (2025), con estimaciones actualizadas de deuda total en el entorno de los 5.411 millones de EUR.
-  * *Efectivo Total:* 495 millones de EUR.
-  * *Patrimonio Neto (Stockholders Equity):* 5.836 millones de EUR (2025) y 5.843 millones de EUR (2024).
-  * *Ratio de Endeudamiento:* Deuda neta / EBITDA de aproximadamente 5.06x, lo que representa una carga de apalancamiento considerable típica de desarrolladores de infraestructuras renovables intensivos en capital.
-
-* **Flujo de Caja (Cash Flow):**
-  * *Flujo de Caja Operativo:* 383 millones de EUR (2025), por debajo de los 681 millones de EUR de 2024.
-  * *Gastos de Capital (CapEx):* -979 millones de EUR (2025) y -1.630 millones de EUR (2024).
-  * *Flujo de Caja Libre (FCF):* Negativo en -596 millones de EUR en 2025 (-408,7 millones de EUR según la última instantánea de flujos de caja y -949 millones de EUR en 2024), debido a la fuerte intensidad inversora en nuevas capacidades.
-
----
-
-### **3. Valoración y Métricas de Mercado**
-* **Múltiplos de Valoración:**
-  * **Trailing P/E:** 33,98x
-  * **Forward P/E:** 28,77x
-  * **Precio a Valor en Libros (Price-to-Book):** 1,01x (Valor contable por acción de 19,10 EUR frente a un precio de cotización de 19,37 EUR).
-  * **EV/EBITDA:** 12,12x.
-  * **Ratio Sectorial:** El PER forward relativo muestra una prima frente a la mediana de comparables (*peer median forward PE* de 16,58x), arrojando un ratio de 1,74x.
-* **Dividendos:**
-  * Dividend Yield de 15,49% (con una tasa de dividendo anunciada de 0,03 EUR y *payout ratio* estimado en 5,27%). *Nota:* Conviene contrastar la sostenibilidad de este rendimiento operativo con los flujos de caja libres negativos recurrentes.
-* **Consenso de Analistas:**
-  * Precio objetivo medio (*target mean price*): 23,33 EUR (con un rango bajo de 17,00 EUR y alto de 28,30 EUR), basado en 19 opiniones de analistas.
-  * Upside de consenso (*consensus upside pct*): ~20,42% desde el precio de cierre actual de 19,37 EUR.
-
----
-
-### **4. Análisis Técnico y Contexto de Mercado Reciente**
-* **Precio Actual:** 19,37 EUR (19 de noviembre de 2026), registrando una caída del -3,25% en la sesión y acumulando un descenso a 21 días del -10,82%.
-* **Medias Móviles:** SMA20 en 21,27 EUR, SMA50 en 21,54 EUR y SMA200 en 21,82 EUR. El precio cotiza por debajo de todas las medias principales, confirmando una tendencia bajista de corto y medio plazo.
-* **Osciladores:** RSI(14) en 32,95 (acercándose a niveles de sobreventa), MACD negativo (-0,40) y volatilidad anualizada del 35,52%. El *drawdown* actual se sitúa en el -20,51%.
-* **Catalizadores y Noticias Recientes (Noviembre 2026):**
-  * La cotización ha sufrido fuertes descensos recientes (como el desplome del 7,26% reportado a mediados de noviembre) debido a la **frustración de los planes de desinversión** de Acciona y Acciona Energía, lo que ha generado incertidumbre sobre su estrategia de rotación de activos y reducción de apalancamiento (Merca2.es, 15 de noviembre de 2026; Investing.com España, 13 de noviembre de 2026).
-  * El contexto macroeconómico europeo sigue marcado por la advertencia del BCE sobre el encarecimiento de la financiación, un factor adverso para empresas con elevada deuda neta y necesidades intensivas de capital como `ANE.MC` (El Boletín, 16 de noviembre de 2026).
-
----
-
-### **5. Datos Faltantes y Advertencias**
-* **Datos Faltantes:** No se dispone de desglose detallado de transacciones de iniciados (*insider transactions*) en el bloque de datos inmediatos.
-* **Supuestos y Limitaciones:** La valoración se basa en estimaciones de consenso de analistas y estados financieros auditados hasta el cierre de 2025. La estrategia de desinversión bloqueada añade incertidumbre sobre las previsiones de reducción de deuda neta/EBITDA (actualmente en torno a 5,06x).
-
----
-
-### **6. Conclusión y Recomendación para Traders**
-El título `ANE.MC` se encuentra bajo una presión
+| Concepto Clave | Valor / Métrica | Implicación para el inversor |
+| :--- | :--- | :--- |
+| **Precio de Accionariado (`ANE.MC`)** | 18,69 € (20/11/2026) | Cotización afectada por caídas recientes y sobreventa técnica (RSI 29,2). |
+| **Capitalización Bursátil** | ~6.066 Millones de € | Empresa de gran capitalización en el sector renovable español. |
+| **Valoración (Forward P/E)** | 27,76x (Ratio vs peers: 1,65) | Prima de valoración elevada frente a la mediana de utilities de la competencia. |
+| **Apalancamiento (Deuda Neta/EBITDA)**| ~5,06x | Nivel de endeudamiento elevado, típico de desarroll

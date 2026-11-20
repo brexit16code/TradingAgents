@@ -1,9 +1,9 @@
-**Rating**: Overweight
+**Rating**: Hold
 
-**Executive Summary**: Iniciamos una posición táctica con sobreponderación gradual, ajustando el tamaño de la entrada al 75% de la asignación estándar para gestionar la volatilidad técnica. Ejecutaremos las compras en torno a los 86,70 EUR con un stop-loss estricto en 78,50 EUR, priorizando la resiliencia de los fundamentales frente al ruido técnico a corto plazo. Revisaremos la posición si el precio rompe el soporte crítico o si el entorno de tipos de interés del BCE endurece los márgenes operativos.
+**Executive Summary**: Maintain the current position in ACS.MC without adding new capital or cutting exposure. Entry strategy requires waiting for the price to reclaim the 20-day moving average at 89.61 EUR before increasing allocation. Time horizon is medium to long term.
 
-**Investment Thesis**: La tesis alcista se apoya en la robustez fundamental de ACS.MC, con un crecimiento de beneficios del 35,5% y un flujo de caja operativo sólido de 3.046 millones de EUR, factores que el mercado parece estar infravalorando dado el descuento significativo frente al consenso (upside del 48,26%). Aunque el Analista Conservador advierte correctamente sobre la debilidad técnica (drawdown del 37,33% y cotización bajo la SMA200), la gestión financiera prudente de la empresa (deuda neta/EBITDA de 1,02x) mitiga el riesgo de insolvencia frente al encarecimiento de la financiación. Siguiendo la recomendación del Analista Neutral, hemos moderado el tamaño de la posición respecto a la propuesta original del 125% al 75% para proteger el capital contra una posible persistencia de la tendencia bajista técnica, mientras capitalizamos el potencial de revalorización a largo plazo. La ausencia de datos sobre el impacto exacto de las futuras políticas del BCE sobre los proyectos de infraestructura a largo plazo de ACS.MC es la principal incertidumbre que requiere una supervisión constante.
+**Investment Thesis**: The investment thesis balances robust fundamental performance against severe short-term technical deterioration. On the fundamental side, ACS.MC exhibits strong operational health driven by a 19.4% revenue increase, net income growth of 35.5%, robust free cash flow exceeding 1,300 million EUR, and a conservative net debt to EBITDA ratio of 1.02x, supported by data center expansions in the US. Conversely, the technical structure shows persistent selling pressure, with the stock trading at 82.80 EUR—well below its 20-day (89.61 EUR), 50-day (91.06 EUR), and 200-day (108.48 EUR) moving averages—alongside a 40.15% drawdown from highs and an RSI of 33.74. Because fundamental catalysts and strong cash generation are countered by broken technical momentum and downward pressure, the evidence remains balanced, justifying a neutral Hold rating until technical stability is confirmed.
 
-**Price Target**: 128.54
+**Price Target**: 128.53824
 
-**Time Horizon**: 6-12 meses
+**Time Horizon**: 3-6 months

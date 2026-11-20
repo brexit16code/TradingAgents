@@ -1,29 +1,76 @@
-Este informe analiza la situación financiera y bursátil de **GRF.MC** (Grifols, S.A.) a fecha de 19 de noviembre de 2026, basándose en los datos fundamentales, técnicos y de mercado suministrados.
+**Grifols, S.A. (`GRF.MC`) - Informe de Análisis Macroeconómico, Fundamental y Técnico**
 
-### Análisis de Situación de Grifols (GRF.MC)
+### 1. Resumen Ejecutivo y Identidad de la Empresa
+* **Ticker:** `GRF.MC` (Bolsa de Madrid, cotización en EUR)
+* **Empresa y Sector:** Grifols, S.A. / Sector Healthcare (Fabricantes de Productos Farmacéuticos Generales).
+* **Precio actual (20-11-2026):** 10.90 EUR
+* **Capitalización Bursátil:** 7,421.73 millones de EUR
+* **Rating:** REVIEW
+* **FINAL TRANSACTION PROPOSAL:** HOLD
 
-**Situación Financiera y Valoración:**
-Grifols presenta una situación financiera compleja marcada por un elevado apalancamiento. Con una **deuda total de 9.240 millones de EUR** y un ratio **Net Debt/EBITDA de 5,04x**, la compañía enfrenta presiones financieras significativas en un entorno donde el encarecimiento de la financiación (señalado por el BCE el 16/11/2026) podría limitar su margen de maniobra. No obstante, la empresa ha mostrado una mejora en su capacidad de generación de caja, alcanzando un **Free Cash Flow de 624 millones de EUR** al cierre de 2025, frente a los -93 millones de 2023.
+---
 
-**Perspectiva Técnica:**
-El valor cerró a 11,06 EUR el 19/11/2026, experimentando una caída del 3,07% en la sesión. La acción cotiza por encima de sus medias móviles de 50 y 200 días (10,32 y 9,69 respectivamente), lo que sugiere una tendencia alcista estructural a largo plazo, a pesar del retroceso reciente. El RSI (53,4) se encuentra en zona neutral, sin sobrecompra ni sobreventa, y el MACD muestra señales mixtas (por debajo de su línea de señal), lo que sugiere una fase de consolidación técnica.
+### 2. Análisis Fundamental y Financiero
+Basado en los estados financieros anuales (`income_stmt`, `balance_sheet`, `cashflow`) correspondientes al cierre de ejercicio 2025 y los datos fundamentales proporcionados:
+* **Ingresos y Crecimiento:** Los ingresos totales en 2025 ascendieron a **7,524 millones de EUR**, mostrando un crecimiento constante respecto a los 7,212 millones de 2024 y los 6,592 millones de 2023. La tasa de crecimiento interanual de los ingresos (`revenueGrowth`) se sitúa en un sólido **9.4%**.
+* **Rentabilidad y Márgenes:** 
+  * Beneficio Neto en 2025: **402 millones de EUR** (frente a 157 millones en 2024 y 42 millones en 2023), reflejando una recuperación notable en la bottom-line.
+  * Margen de Beneficio Neto (`profitMargins`): **6.44%**.
+  * Retorno sobre el Capital (ROE): **7.33%**.
+  * EBITDA 2025: **1,641 millones de EUR** (y una estimación de 1,736 millones en la métrica ttm de fundamentos).
+* **Valoración:** 
+  * PER Histórico (`trailingPE`): **15.36x**.
+  * PER Adelantado (`forwardPE`): **9.97x**, basado en un beneficio por acción estimado (`forwardEps`) de 1.09 EUR (frente al EPS histórico de 0.71 EUR).
+  * Precio/Valor en Libros (`priceToBook`): **1.28x** (Valor en libros por acción de 8.51 EUR).
+  * EV/EBITDA: **10.79x**.
+* **Deuda y Solvencia:**
+  * La deuda total se sitúa en **9,240 millones de EUR** (según datos agregados a 2026; 9,566 millones a cierre de 2025).
+  * Efectivo y equivalentes: **486 millones de EUR**.
+  * Ratio Deuda Neta / EBITDA (`net_debt_ebitda`): **5.04x**, un nivel de apalancamiento elevado que continúa siendo un foco crítico para la valoración y el perfil de riesgo de la compañía.
+* **Flujo de Caja:** 
+  * Flujo de Caja Operativo (`Operating Cashflow`) en 2025: **1,047 millones de EUR** (902 millones en 2024).
+  * Flujo de Caja Libre (`Free Cash Flow`): **624 millones de EUR** en 2025, mejorando sustancialmente frente a los 530 millones de 2024 y los -93 millones de 2023.
+* **Consenso de Analistas:** 
+  * Precio objetivo medio (`targetMeanPrice`): **15.25 EUR** (con un rango entre 9.00 EUR de mínimo y 23.70 EUR de máximo, basado en 11 opiniones de analistas).
+  * Potencial de subida estimado (`consensus_upside_pct`): **+39.89%**.
 
-**Contexto Macroeconómico:**
-El mercado europeo se ve afectado por la persistente preocupación inflacionaria y el riesgo de que la política de tipos de interés reste dinamismo al crecimiento económico. La reciente noticia sobre el apoyo a Hernández de Cos en el contexto del BCE (18/11/2026) y la advertencia sobre el coste de la financiación subrayan un entorno donde las empresas intensivas en capital, como Grifols, requieren una gestión prudente de su balance.
+---
 
-### Puntos clave y hallazgos
-*   **Valoración:** La acción cotiza a un PER forward de 10,11x, significativamente menor que su PER histórico reciente (15,36x), lo que indica una expectativa de crecimiento de beneficios por parte del consenso de analistas.
-*   **Consenso:** El precio objetivo medio es de 15,25 EUR, lo que implica un **upside potencial del 37,9%**, aunque la dispersión entre el mínimo (9,0 EUR) y el máximo (23,7 EUR) es elevada, reflejando la incertidumbre sobre la ejecución del plan estratégico.
-*   **Información faltante:** No se dispone de las actas detalladas de la última reunión de refinanciación de deuda ni proyecciones de tipos de interés específicos que la empresa está asumiendo para el ejercicio 2027.
+### 3. Análisis Técnico
+* **Precio de Cierre:** 10.90 EUR (variación diaria de -1.40%).
+* **Medias Móviles:** 
+  * SMA 20: 11.19 EUR (el precio cotiza ligeramente por debajo de la media a corto plazo).
+  * SMA 50: 10.34 EUR.
+  * SMA 200: 9.69 EUR (tendencia de fondo alcista al mantenerse el precio por encima de la media de 200 sesiones).
+* **Osciladores y Momento:**
+  * RSI (14 periodos): **48.55** (zona neutral, sin sobreventa ni sobrecompra).
+  * MACD: 0.27; Línea de Señal MACD: 0.35 (momentum mixto/neutral).
+* **Volatilidad y Retornos:**
+  * Volatilidad anualizada: **23.96%**.
+  * Drawdown actual: **-6.48%** desde máximos recientes.
+  * Rentabilidad a 21 sesiones: +8.18%; a 63 sesiones: +8.56%.
 
-| Indicador | Valor / Estado | Comentario |
-| :--- | :--- | :--- |
-| **Precio (GRF.MC)** | 11,06 EUR | Caída del 3,07% en la última sesión. |
-| **Net Debt/EBITDA** | 5,04x | Nivel de apalancamiento que requiere atención. |
-| **Upside (Consenso)** | 37,9% | Potencial alcista según analistas. |
-| **RSI (14)** | 53,4 | Zona neutral; tendencia lateral. |
-| **Tendencia técnica** | Consolidación | Por encima de SMA 200 pero bajo presión a corto plazo. |
+---
 
-**Rating**: REVIEW
+### 4. Contexto Macroeconómico
+* **Tipos de Interés y Banco Central Europeo (BCE):** Los titulares macroeconómicos recientes de noviembre de 2026 apuntan a un entorno de tipos de interés en la Eurozona donde el BCE evalúa ajustes técnicos e incrementos de reservas mínimas obligatorias a los bancos, con expectativas de tipos en la eurozona estables pero con vigilancia estrecha de la inflación y los tipos reales negativos (según fuentes como *El Economista* y *Vozpopuli* fechadas entre el 14 y el 19 de noviembre de 2026).
+* **Impacto en `GRF.MC`:** Un entorno de tipos elevados o restrictivos afecta directamente a las empresas altamente endeudadas como Grifols (Deuda Neta/EBITDA superior a 5x), ya que encarece el coste de servicio de la deuda, aunque la generación positiva de flujo de caja libre en 2025 (624 millones de EUR) alivia parcialmente estas presiones.
 
-FINAL TRANSACTION PROPOSAL: No trade recommendation provided. Equity warrants further fundamental monitoring regarding debt reduction progress before considering entry.
+---
+
+### 5. Datos Faltantes y Limitaciones
+* No se dispone de un desglose detallado en tiempo real de la evolución trimestral exacta de la deuda neta posterior al cierre del ejercicio fiscal 2025 más allá de las cifras consolidadas provistas en la base de datos de noviembre de 2026.
+* No se han aplicado reglas de deuda industrial a entidades financieras, dado que Grifols pertenece al sector farmacéutico.
+
+---
+
+### 6. Tabla Resumen Estructurada
+
+| Categoría | Métrica / Indicador | Valor Actual / Dato Clave | Implicación para el Trading / Macro |
+| :--- | :--- | :--- | :--- |
+| **Valoración** | Precio de Cierre | 10.90 EUR (20-11-2026) | Cotización estable en soporte técnico de corto plazo. |
+| **Valoración** | Forward P/E | 9.97x | Valuación atractiva basada en estimaciones de beneficios futuros. |
+| **Fundamentales** | Crecimiento de Ingresos | 9.40% (2025) | Expansión sólida de la cifra de negocios. |
+| **Fundamentales** | Free Cash Flow | 624 millones de EUR (2025) | Mejora sustancial en la generación de liquidez libre. |
+| **Solvencia** | Deuda Neta / EBITDA | 5.04x | Apalancamiento elevado; principal riesgo estructural de la compañía. |
+| **Técnico** | SMA 200 y RSI (14) | SMA 200: 9.69
