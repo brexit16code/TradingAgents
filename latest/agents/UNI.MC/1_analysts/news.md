@@ -1,36 +1,37 @@
+A continuación, presento el informe de análisis fundamental y macroeconómico para **UNI.MC** (Unicaja Banco, S.A.) basado en los datos proporcionados con fecha de corte al 21 de noviembre de 2026.
+
 ### Informe de Análisis: Unicaja (UNI.MC)
 
-**Contexto del Instrumento:**
-Unicaja (UNI.MC) opera en el sector de servicios financieros como banco regional. Con una capitalización de mercado de aproximadamente 8.29 mil millones de EUR, se posiciona en un entorno de tipos de interés en la Eurozona que siguen siendo un punto focal para la rentabilidad bancaria.
+**Situación Financiera y Operativa:**
+Unicaja muestra una posición de solvencia robusta con un ratio precio-valor contable (*Price-to-Book*) de 1.31. A pesar de una reciente caída del 2.71% en su cotización (al 20 de noviembre de 2026), el valor presenta una revalorización anual del 38.42%. La entidad mantiene un beneficio neto constante, alcanzando los 632.36 millones de euros al cierre de 2025. Un factor clave para el inversor es su rentabilidad por dividendo del 5.92%, respaldada por un *payout ratio* del 72.87%.
 
-#### 1. Análisis Fundamental y Valuación
-*   **Métricas Clave:** La acción cotiza a un ratio Precio/Valor Contable (P/B) de 1.31x y un PER adelantado (Forward PE) de 11.31x. El dividendo reportado es atractivo, con un yield del 5.76% (tasa del 0.19 EUR), lo que refleja una política de remuneración al accionista activa, respaldada por un payout ratio del 73.82%.
-*   **Desempeño Financiero:** La entidad mostró una mejora significativa en el beneficio neto en 2025 (632.35M EUR) frente a 2024 (573.33M EUR). Sin embargo, los estados de flujo de efectivo muestran cifras de flujo operativo negativas para 2025 (-1.42B EUR), lo cual requiere una revisión profunda de la composición de estos activos y pasivos.
-*   **Consenso:** El precio objetivo medio es de 3.27 EUR, lo que implica un potencial alcista limitado del 1.33% frente al cierre de 3.226 EUR al 20/11/2026.
+**Contexto Macroeconómico y Sectorial:**
+El sector bancario regional enfrenta un entorno de vigilancia regulatoria creciente. Las noticias recientes destacan un enfoque en la sostenibilidad (aumento del 16% en financiación ESG) y la estabilidad en la gobernanza, con la reelección de su consejero delegado, Isidro Rubiales, por tres años adicionales. 
 
-#### 2. Eventos Recientes y Gobernanza
-El sentimiento corporativo se ha centrado en la estabilidad de su cúpula directiva. La junta de accionistas ha confirmado la reelección de Isidro Rubiales como Consejero Delegado por otros tres años (17/11/2026, *Cinco Días*). A pesar de esta certidumbre operativa, persiste una nota de cautela en la prensa (*Hispanidad*) respecto a la falta de un sucesor claro para la presidencia tras la salida de Pepe Sevilla, lo que podría generar incertidumbre de gobierno corporativo a medio plazo.
+Externamente, el entorno es complejo:
+1. **Política Monetaria:** Existe incertidumbre respecto a las futuras decisiones del BCE (próxima reunión el 17 de diciembre), con informaciones sobre posibles presiones en los requisitos de reservas obligatorias para bancos.
+2. **Tendencia de Inversión:** Se observa un flujo positivo hacia productos de gestión de activos, con Unicaja captando 1.818 millones de euros en fondos de inversión hasta octubre de 2026, lo cual diversifica sus fuentes de ingresos más allá del margen de intereses tradicional.
 
-#### 3. Macroeconomía y Entorno de Mercado
-El sector bancario europeo se enfrenta a un entorno complejo:
-*   **Política Monetaria:** Existe presión sobre el BCE debido al posible incremento de las reservas mínimas obligatorias, lo que equivale a una restricción monetaria "por la puerta de atrás" (*El Economista*, 19/11/2026). Esto impacta directamente en los márgenes de interés neto de los bancos regionales.
-*   **Comportamiento del Ahorro:** Los hogares españoles continúan moviendo su capital hacia activos seguros como las letras del tesoro (más de 23.000 millones, *Radio Intereconomía*, 16/11/2026), lo que compite directamente con los productos de ahorro tradicionales de Unicaja, aunque la entidad ha logrado captar 1.800 millones en fondos de inversión.
+**Análisis Técnico:**
+Con un RSI de 39.95, el valor se encuentra cerca de zona de sobreventa, lo que podría sugerir un agotamiento de la presión vendedora a corto plazo. No obstante, el precio cotiza por debajo de su media móvil de 20 días (3.316€) y de 50 días (3.358€), aunque se mantiene por encima de la media de 200 días (3.004€), indicando una tendencia alcista de fondo aún vigente, aunque con corrección técnica en el corto plazo.
 
-#### 4. Análisis Técnico
-*   **Tendencia:** El RSI(14) de 39.95 sugiere una zona cercana a la sobreventa, sin estar en terreno extremo. La acción cotiza por debajo de sus medias móviles de 20 (3.31) y 50 sesiones (3.35), pero mantiene una estructura superior a la media de 200 sesiones (3.00), indicando una tendencia alcista de largo plazo que actualmente atraviesa una corrección técnica.
+**Riesgos y Datos Faltantes:**
+* **Datos Faltantes:** No disponemos de datos desglosados de morosidad (NPL ratio) ni de la exposición específica a tipos de interés variables en la cartera hipotecaria post-ajuste de política monetaria. Asimismo, el flujo de caja operativo de 2025 aparece como negativo (-1.42 mil millones de euros), lo cual requiere una revisión profunda del desglose de flujos de efectivo, ya que suele ser contraintuitivo para una entidad financiera de estas características y podría deberse a cambios en activos financieros o pasivos operativos.
+* **Incertidumbre:** El posible incremento de las reservas obligatorias del BCE podría comprimir los márgenes operativos del sector bancario español.
 
-#### 5. Consideraciones Finales
-La falta de datos desglosados sobre el riesgo de crédito (NPL) y el detalle pormenorizado del flujo de caja operativo en los estados financieros adjuntos dificulta una valoración intrínseca precisa. Se recomienda a los inversores vigilar la evolución de la política de reservas del BCE, ya que impactará en los márgenes de UNI.MC.
+---
 
-| Indicador / Punto Clave | Valor / Estado |
-| :--- | :--- |
-| **Precio de Cierre (2026-11-20)** | 3.226 EUR |
-| **Consenso Upside** | +1.33% |
-| **Dividend Yield** | 5.76% |
-| **P/B Ratio** | 1.309x |
-| **Sentimiento Gobernanza** | Neutro (Continuidad CEO, vacante Presidencia) |
-| **Tendencia Técnica** | Corrección (por debajo de SMA20/50) |
+### Resumen de Datos Clave
 
-**Rating**: REVIEW
+| Indicador | Valor / Estado | Notas |
+| :--- | :--- | :--- |
+| **Precio Actual** | 3.226 € | Al 20-11-2026 |
+| **Dividend Yield** | 5.92% | Atractivo para inversores de renta |
+| **Forward PE** | 11.31 | Valuación moderada respecto al sector |
+| **Tendencia (SMA200)** | 3.004 € | Soporte de largo plazo |
+| **Eventos Recientes** | Reelección CEO / ESG Growth | Estabilidad institucional |
+| **Consenso Analista** | 3.268 € | Upside marginal de 1.33% |
 
-FINAL TRANSACTION PROPOSAL: N/A (Read-only analysis)
+**Rating**: HOLD
+
+FINAL TRANSACTION PROPOSAL: The evidence suggests a period of consolidation. Given the proximity to the 200-day moving average and the upcoming ECB meeting, a neutral stance is advised until technical support at 3.00 € is confirmed or macroeconomic clarity regarding reserve requirements is provided.

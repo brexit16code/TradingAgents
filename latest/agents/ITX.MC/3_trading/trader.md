@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La cotizacion actual de ITX.MC se encuentra en 57,78 EUR, respaldada por fundamentales impecables y una sólida posición de caja neta, pero con un PER exigente de 28,05x y un potencial alcista de consenso muy ajustado del 4,95%. Dado que la tendencia técnica a medio plazo se mantiene por encima de la media de 50 sesiones (55,19 EUR) pero muestra neutralidad en el RSI (50,54) y una ligera pérdida de impulso en el MACD, no existen incentivos suficientes para ampliar posiciones ni para liquidarlas.
+**Reasoning**: ITX.MC cotiza a 57.78 EUR con múltiplos elevados (PER trailing de 28.05x y Price-to-Book superior a 10x) que ya descuentan su excelente calidad operativa, un ROE del 36.82% y una sólida posición de caja neta. Aunque los fundamentales y la generación de flujo de caja libre (~6.490 millones de EUR) son impecables, el potencial alcista según el precio objetivo de consenso es limitado (~5.3%) y el momento técnico actual es neutral (RSI en 50.54), lo que aconseja mantener la posición existente sin realizar nuevas adquisiciones en estos niveles.
 
 **Entry Price**: not provided
 
 **Stop Loss**: 53.71
 
-**Position Sizing**: Mantener asignación actual sin nuevas compras
+**Position Sizing**: Mantener la asignación actual en cartera
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

@@ -1,32 +1,31 @@
-Para realizar este análisis técnico y fundamental de **Repsol (REP.MC)**, se ha tomado como referencia la información verificada al 20 de noviembre de 2026.
+El análisis técnico y fundamental de **REP.MC** (Repsol, S.A.) a fecha de 21 de noviembre de 2026 refleja un activo que atraviesa una fase de corrección de corto plazo tras un rendimiento anual notable, cotizando actualmente a 28,46 EUR.
 
 ### Análisis Técnico
-El activo se encuentra en una fase de consolidación bajista tras un periodo de rendimiento excepcional anual (aumento del 93,39% en 252 sesiones). Actualmente, **REP.MC** cotiza a **28,46 EUR**, situándose por debajo tanto de su media móvil de 20 días (29,60 EUR) como de la de 50 días (29,61 EUR).
-
-*   **Tendencia:** El cruce a la baja de las medias de corto y medio plazo confirma una presión vendedora reciente. Sin embargo, se mantiene significativamente por encima de la media de 200 días (24,51 EUR), lo que indica que la tendencia estructural de largo plazo sigue siendo alcista.
-*   **Momentum y Volatilidad:** Con un RSI(14) de 43,26, el valor no presenta condiciones de sobreventa extrema, sugiriendo un espacio para una corrección mayor si no encuentra soporte. El indicador MACD (-0,05) se encuentra por debajo de su línea de señal (0,10), confirmando el impulso negativo actual. La volatilidad implícita del 35,65% es moderada, reflejando la incertidumbre tras los recientes recortes en el IBEX 35 mencionados en la prensa (ej. *El Boletín*, 18/11/2026).
-*   **Soporte/Resistencia:** La acción ha sufrido un *drawdown* del 9,77%, situándose en un punto técnico crítico donde el respeto a la media de 200 sesiones será clave para evitar un cambio de tendencia mayor.
+*   **Tendencia:** El valor muestra una estructura contradictoria. Mientras que el precio se mantiene significativamente por encima de la media móvil de 200 sesiones (24,51 EUR), lo que denota una tendencia alcista estructural a largo plazo, el comportamiento reciente es bajista. Las medias de 20 y 50 sesiones, situadas en 29,60 EUR y 29,61 EUR respectivamente, actúan actualmente como una resistencia dinámica inmediata tras haber perdido el soporte de corto plazo.
+*   **Momento:** El indicador RSI (14) en 43,26 indica una ausencia de tendencia clara, situándose en territorio neutral, lejos de las zonas de sobrecompra o sobreventa. La convergencia del MACD (-0,05) por debajo de su señal (0,10) confirma un sesgo bajista en el corto plazo, sugiriendo una falta de fuerza compradora.
+*   **Volatilidad:** La volatilidad anualizada del 35,65% es moderada para el sector, pero la reciente caída del 9,76% desde máximos recientes (según el *drawdown* reportado) ha posicionado al valor como uno de los más castigados del IBEX 35 en las últimas jornadas, como señalan fuentes de *El Boletín* y *Yahoo Finance* (18 de noviembre de 2026).
 
 ### Análisis Fundamental
-Repsol presenta métricas de valoración muy atractivas para el sector energético:
-*   **Valoración:** Un *Trailing PE* de 5,06x y un *Forward PE* de 5,98x sugieren que el mercado está descontando el valor con un descuento significativo respecto a sus beneficios históricos. El ratio *Price-to-Book* de 1,23x es razonable para un productor integrado.
-*   **Rentabilidad y Deuda:** La empresa mantiene un balance sólido con un ratio *Net Debt/EBITDA* de 0,32x, lo cual es muy conservador y dota a la compañía de flexibilidad financiera. Con una rentabilidad por dividendo del 3,67% y un *payout* del 20,45%, la política de retribución al accionista parece sostenible y tiene espacio para crecer.
-*   **Desafíos:** La caída en el flujo de caja libre (*Free Cash Flow*) de 2.222 millones en 2023 a 1.619 millones en 2025, junto con los titulares sobre la gestión de activos en Reino Unido (*Finanzas.com*, 20/11/2026), indica que el mercado está monitoreando de cerca la eficiencia operativa en su despliegue de capital.
+*   **Valoración:** Repsol presenta ratios de valoración muy atractivos para el sector energético, con un *Trailing PE* de 5,06 y un *Forward PE* de 5,98. Su ratio *Price-to-Book* de 1,23 sugiere que no está excesivamente cara frente a su valor contable.
+*   **Solvencia y Flujo de Caja:** La compañía mantiene un balance sólido con una deuda neta sobre EBITDA de 0,32x, lo que otorga flexibilidad financiera. Sin embargo, el flujo de caja libre (FCF) reportado para 2025 (1.619 millones de EUR) muestra una presión respecto al año anterior, condicionada por inversiones (CAPEX) de 3.746 millones de EUR.
+*   **Consenso:** El precio objetivo medio de los analistas es de 31,16 EUR, lo que implica un potencial alcista (upside) cercano al 9,5% respecto al precio de cierre del 20 de noviembre.
 
-### Resumen de Indicadores Clave
-| Indicador | Valor | Interpretación |
+### Perspectiva y Consideraciones
+El mercado ha reaccionado negativamente en los últimos días, posiblemente debido a una combinación de rotación de activos y la incertidumbre macroeconómica comentada en los informes de *Bolsamania* y *Bankinter*. La falta de momentum alcista en el corto plazo sugiere prudencia.
+
+**Evidencia Contradictoria y Riesgos:**
+*   **Soporte:** La SMA 200 actúa como el nivel técnico fundamental. Una ruptura por debajo de este nivel invalidaría la tesis alcista estructural.
+*   **Faltante de información:** No se dispone de un análisis comparativo sectorial detallado en los datos suministrados, por lo que la valoración relativa queda supeditada a los ratios absolutos presentados.
+
+### Resumen de Indicadores
+| Indicador | Valor / Estado | Interpretación |
 | :--- | :--- | :--- |
-| Precio Cierre | 28,46 EUR | Por debajo de SMA 50 (Soporte perdido) |
-| RSI (14) | 43,26 | Neutral, con tendencia bajista leve |
-| MACD | -0,05 | Momentum bajista confirmado |
-| Trailing PE | 5,06x | Valoración atractiva |
-| Net Debt/EBITDA | 0,32x | Solidez financiera muy alta |
-| Consenso Upside | 9,49% | Perspectiva positiva de los analistas |
+| Precio Actual | 28,46 EUR | Por debajo de SMA 20 y 50 |
+| SMA 200 | 24,51 EUR | Soporte estructural a largo plazo |
+| RSI 14 | 43,26 | Zona neutral, sin tendencia clara |
+| MACD | -0,05 | Momentum bajista (bajo la señal) |
+| Volatilidad | 35,65% | Moderada |
+| Consenso Analista | 31,16 EUR | Potencial alcista del 9,5% |
 
-### Conclusión
-**REP.MC** es un valor que combina fundamentos sólidos (baja deuda, múltiplos de beneficio bajos) con un momento técnico delicado. La divergencia entre la excelente rentabilidad anual y la corrección reciente sugiere que el mercado está equilibrando la valoración tras un rally muy fuerte.
-
-**Rating**: Neutral
-FINAL TRANSACTION PROPOSAL: Mantener posiciones existentes a la espera de una estabilización por encima de la media de 200 días. La valoración fundamental justifica compras a largo plazo si el precio se acerca al soporte técnico mencionado.
-
-*Nota: La información sobre la comparación sectorial detallada no estaba disponible en el snapshot, lo que limita la capacidad de comparar directamente con competidores directos. Se recomienda precaución ante la volatilidad del sector energético global.*
+**Rating**: HOLD
+FINAL TRANSACTION PROPOSAL: Mantener posiciones actuales esperando una estabilización por encima de los 29,60 EUR (SMA 50) o una consolidación de soporte cerca de la media de 200 sesiones. No se observa una señal clara de entrada inmediata (compra) debido al momentum negativo actual.

@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La evidencia para ENG.MC se encuentra equilibrada entre catalizadores positivos como la rentabilidad por dividendo del 5,66% y el arbitraje ganado en Perú, frente a fundamentos de deuda neta elevada y un flujo de caja libre contraído. Dado que el precio actual de 17,67 EUR supera el objetivo de consenso de los analistas de 17,18 EUR, no se justifica abrir nuevas posiciones ni liquidar las actuales, recomendando mantener la asignación neutral.
+**Reasoning**: La cotizacion actual de ENG.MC se situa en 17,67 EUR, mostrando estabilidad tecnica por encima de sus medias moviles de 50 y 200 sesiones pero con un impulso debilitado reflejado por el MACD y un precio ligeramente superior al objetivo de consenso de analistas de 17,18 EUR. Aunque ofrece una atractiva rentabilidad por dividendo del 5,66% con un pago proximo de 0,40 EUR en diciembre de 2026, el elevado apalancamiento con una ratio de deuda neta sobre EBITDA de 6,15x limita la flexibilidad financiera y aconseja mantener la posicion existente sin realizar nuevas compras.
 
 **Entry Price**: not provided
 
-**Stop Loss**: not provided
+**Stop Loss**: 16.43
 
-**Position Sizing**: Mantener la ponderación actual en la cartera
+**Position Sizing**: 3% of portfolio
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

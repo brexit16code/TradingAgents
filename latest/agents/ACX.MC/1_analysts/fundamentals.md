@@ -1,39 +1,37 @@
-### Informe de Análisis Fundamental: Acerinox, S.A. (ACX.MC)
+A continuación, se presenta un informe fundamental detallado sobre **Acerinox, S.A. (ACX.MC)**, basado en los datos proporcionados con fecha de corte al 21 de noviembre de 2026.
 
-**Fecha de análisis:** 20 de noviembre de 2026
+### Análisis Fundamental: Acerinox (ACX.MC)
 
-#### Resumen Ejecutivo
-Acerinox (ACX.MC) atraviesa un periodo de volatilidad significativa, con una caída del 4,28% en la última sesión y una presión técnica bajista (RSI de 30.78, cerca de terreno de sobreventa). A pesar de los desafíos operativos reflejados en un flujo de caja libre negativo en 2025 y una pérdida neta ese mismo ejercicio, la compañía cotiza con un PER forward atractivo de 9.36x en comparación con su PER trailing de 27.45x, lo que sugiere que el mercado anticipa una recuperación en los beneficios.
+**Perfil de Negocio y Contexto**
+Acerinox es una empresa clave en el sector de materiales básicos (acero), cotizando en la Bolsa de Madrid. La compañía se encuentra en una fase de estabilización tras un periodo de volatilidad. Recientemente, ha ganado atención mediática debido a noticias sobre su incursión en el almacenamiento industrial de hidrógeno y reportes de prensa que señalan intentos de la acción por encontrar un soporte técnico (referencias de *El Español* y *Estrategias de Inversión*, 19/11/2026).
 
-#### Análisis Financiero
-*   **Resultados Operativos:** El ejercicio 2025 fue complejo, con una pérdida neta de 40.07 millones de euros frente a los beneficios positivos de años anteriores (224.9 millones en 2024). No obstante, la compañía mantiene una capacidad operativa resiliente con ingresos de 5,78 mil millones de euros en 2025.
-*   **Solvencia y Deuda:** La ratio deuda neta/EBITDA de 3.15x indica un apalancamiento relevante pero manejable para un sector intensivo en capital. El total de deuda se sitúa en 2,44 mil millones de euros, compensado parcialmente por una posición de caja de 903 millones de euros.
-*   **Valoración:** El mercado valora a la compañía con una capitalización de 3,63 mil millones de euros. La discrepancia entre el precio actual (14.55 EUR) y el precio objetivo medio de los analistas (20.15 EUR) sugiere un potencial de revalorización teórico del 38,5%.
+**Análisis Financiero**
+*   **Rentabilidad y Valoración:** La empresa presenta una valoración mixta. Con un *Trailing P/E* de 27.45, parece estar cotizando a múltiplos elevados basados en beneficios pasados; sin embargo, el *Forward P/E* de 9.36 sugiere una expectativa de mejora significativa en los beneficios futuros (con un *Forward EPS* estimado de 1.55).
+*   **Situación de Deuda:** La estructura de capital es relevante, con una deuda total de 2,438 millones de EUR frente a una caja de 903 millones de EUR. El ratio *Net Debt/EBITDA* se sitúa en 3.15x, lo que indica un apalancamiento moderado que requiere monitoreo frente a la volatilidad cíclica del sector.
+*   **Dividendos:** La rentabilidad por dividendo (*Dividend Yield*) del 4.26% es atractiva, aunque el *Payout Ratio* superior al 144% en términos de beneficios netos sugiere que la sostenibilidad del dividendo depende críticamente de una recuperación en el flujo de caja operativo y en los beneficios netos.
+*   **Desempeño reciente:** Los estados financieros muestran una presión considerable en 2025, con una pérdida neta de 40 millones de EUR, a pesar de unos ingresos de 5,780 millones de EUR. El flujo de caja libre positivo (145.6 millones en 2025) es una señal de recuperación operativa en comparación con el desempeño del ejercicio anterior.
 
-#### Contexto Estratégico y Noticias (2026-11-18 al 2026-11-19)
-La compañía ha estado activa en el ámbito de la sostenibilidad y la eficiencia operativa:
-*   **Innovación:** Acerinox Europa está explorando el uso de hidrógeno verde para el recocido de acero, buscando alternativas futuras al gas natural (Fuente: *El Conciso*, 18-19 nov 2026). Esto posiciona a la empresa en una senda de descarbonización industrial.
-*   **Análisis Técnico:** Se observa un intento de estabilización en torno a los 14,85 euros, buscando formar un "doble suelo" para revertir la tendencia bajista actual (Fuente: *Estrategias de Inversión*, 19 nov 2026).
+**Perspectivas y Riesgos**
+*   **Argumentos a favor:** El consenso de analistas mantiene un precio objetivo medio de 20.15 EUR, lo que implica un potencial de revalorización del 38.5% desde el precio de cierre de 14.55 EUR. La diversificación hacia el hidrógeno industrial podría abrir nuevas fuentes de ingresos.
+*   **Argumentos en contra:** El RSI de 14 días (30.78) sitúa a la acción cerca de terreno de sobreventa, lo que confirma una debilidad técnica reciente (-4.27% en la última sesión y una rentabilidad a 21 días del -11.66%). El sector acero es altamente cíclico y sensible a las condiciones macroeconómicas globales y a las decisiones de tipos de interés del BCE.
 
-#### Perspectiva del Mercado
-*   **Factores a favor:** Rendimiento por dividendo del 4,26%, valoraciones forward atractivas y avances en tecnología de hidrógeno.
-*   **Factores de riesgo:** Elevada volatilidad (28,6%), flujo de caja libre negativo (-155,27 millones de euros en 2025) y una rentabilidad sobre recursos propios (ROE) baja del 4,5%.
-*   **Información faltante:** No se dispone de detalles sobre la composición accionarial reciente ni transacciones de *insiders* en el periodo inmediato, lo que limita la visión sobre la confianza del equipo directivo.
+**Datos faltantes:** No se dispone de detalles sobre transacciones internas (insider trading) recientes ni una comparación sectorial detallada en el reporte automatizado, lo que limita la capacidad de evaluar si la dirección está comprando acciones durante esta caída.
 
-#### Conclusión para Traders
-La acción se encuentra en un punto crítico. La proximidad del RSI a la zona de sobreventa y el soporte en la zona de los 14,80 EUR sugieren una oportunidad técnica para inversores que buscan rebotes, siempre que se valide el soporte. El consenso de analistas mantiene una visión optimista a largo plazo, pero la debilidad en el flujo de caja operativo reciente requiere cautela.
+---
 
-**Rating**: REVIEW
-
-FINAL TRANSACTION PROPOSAL: No trade execution recommended. Potential technical entry point near 14.50 EUR for swing traders, subject to market stability and confirmation of support levels.
+### Tabla Resumen de Datos Fundamentales
 
 | Indicador | Valor |
 | :--- | :--- |
-| Precio Actual | 14.55 EUR |
-| PER Forward | 9.36x |
-| Dividend Yield | 4.26% |
-| Upside Consenso | 38.51% |
-| Deuda Neta / EBITDA | 3.15x |
-| RSI (14) | 30.78 |
+| **Precio de Cierre (20/11/2026)** | 14.55 EUR |
+| **Capitalización de Mercado** | 3,625.26 M EUR |
+| **Forward P/E** | 9.36x |
+| **Consenso Precio Objetivo** | 20.15 EUR |
+| **Potencial de Upside (Consenso)** | 38.51% |
+| **Rentabilidad por Dividendo** | 4.26% |
+| **Net Debt / EBITDA** | 3.15x |
+| **SMA 200 (Media móvil)** | 15.40 EUR |
 
-*Descargo de responsabilidad: Este análisis se basa únicamente en datos proporcionados y no constituye asesoramiento financiero. La inversión en renta variable conlleva riesgos de pérdida de capital.*
+**Rating**: REVIEW
+
+FINAL TRANSACTION PROPOSAL: The evidence indicates high volatility and a potential technical "double bottom" formation around 14.85 EUR, with a favorable Forward P/E suggesting recovery. However, the high payout ratio and recent net losses warrant a cautious approach. No immediate transaction is recommended until the stock demonstrates firm support above the 14.55-14.85 EUR range.

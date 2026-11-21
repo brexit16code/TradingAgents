@@ -1,48 +1,73 @@
-**Rating**: HOLD  
-FINAL TRANSACTION PROPOSAL: Mantener la posición actual (HOLD) a la espera de una estabilización de soportes técnicos y una mayor claridad en el entorno de tipos de interés del Banco Central Europeo (BCE).
+**Rating**: REVIEW
+
+**FINAL TRANSACTION PROPOSAL**: HOLD
 
 ---
 
-### Informe Técnico y Fundamental de Bankinter, S.A. (`BKT.MC`)
+### Informe de Análisis Técnico y Fundamental: Bankinter, S.A. (`BKT.MC`)
 
-#### 1. Contexto de Mercado y Estado Actual
-A fecha de 20 de noviembre de 2026, la entidad financiera española **Bankinter, S.A.** (`BKT.MC`), clasificada dentro del sector de Servicios Financieros y Banca Regional en el mercado continuo de Madrid (MCE), cotiza a un precio de cierre de **13,68 EUR**. El valor experimenta una corrección a corto plazo del **-3,22%** en la sesión reciente, situándose significativamente por debajo de sus medias móviles clave de corto y medio plazo (SMA 20 en 14,36 EUR, SMA 50 en 15,21 EUR y SMA 200 en 14,79 EUR). La caída acumulada desde sus máximos recientes sitúa el *drawdown* en el **-19,32%**.
-
-#### 2. Análisis Técnico e Indicadores Seleccionados
-Dada la situación de corrección y volatilidad moderada-alta (volatilidad anualizada del **26,56%**), se seleccionan los siguientes indicadores complementarios y no redundantes para evaluar el momento operativo de `BKT.MC`:
-- **close_50_sma** (50 SMA): Media móvil de medio plazo que marca la tendencia bajista actual al encontrarse el precio por debajo de la misma (15,22 EUR).
-- **close_200_sma** (200 SMA): Referencia de largo plazo situada en 14,79 EUR, cuya pérdida confirma un sesgo correctivo estructural en el horizonte temporal amplio.
-- **rsi** (RSI 14): Mide el impulso de la cotización. Actualmente se sitúa en **32,40**, rozando la zona de sobreventa (30), lo que sugiere que la presión vendedora reciente podría estar desacelerándose, aunque sin confirmación de giro alcista.
-- **macd** y **macds** (MACD y Línea de Señal): El MACD se encuentra en **-0,245** frente a su señal en **-0,234**, manteniendo un cruce bajista y un histograma ligeramente negativo (`macdh`), lo que denota persistencia en el momento bajista a corto plazo.
-- **boll_ub** / **boll_lb** (Bandas de Bollinger): El precio cotiza en la franja inferior del canal de volatilidad, reflejando el fuerte castigo reciente y la proximidad a zonas donde suelen producirse rebotes técnicos de alivio.
-- **atr** (Average True Range): Útil para medir la amplitud de las oscilaciones diarias y dimensionar adecuadamente el riesgo o la colocación de niveles de protección (*stop-loss*) ante repuntes de volatilidad.
-- **close_10_ema** (10 EMA): Captura con sensibilidad los giros inmediatos de corto plazo, muy útil para identificar el primer signo de suelo operativo tras la racha bajista de las últimas semanas.
-
-#### 3. Análisis Fundamental y Valuation
-Desde una perspectiva fundamental, `BKT.MC` muestra solidez en su negocio principal:
-- **Capitalización de mercado**: 12.294,17 millones de EUR.
-- **PER (Trailing)**: 10,77x y **PER Forward**: 9,42x, lo que sitúa la valoración relativa (`valuation.ratio` de 0,94 frente a la mediana de comparables del sector en MCE como `SAB.MC`, `SAN.MC`, `BBVA.MC`, `CABK.MC` y `UNI.MC`) en un rango intermedio razonable y ligeramente descontado frente a la media de sus pares.
-- **Ratio Precio/Valor en Libros (P/B)**: 1,84x, con un valor contable por acción de **7,455 EUR**.
-- **Rentabilidad Financiera (RoE)**: Robusta, situada en el **17,64%**, con unos márgenes de beneficio sobre ingresos del **41,13%**.
-- **Dividendos**: Ofrece una rentabilidad por dividendo estimada de **4,37%** (con un *dividend rate* de 0,62 EUR y un *payout ratio* del 48,64%), lo que aporta un atractivo colchón de retribución al accionista mientras se estabiliza la cotización.
-- **Consenso de Analistas**: El precio objetivo medio (*target mean price*) se sitúa en **16,78 EUR** (con un rango entre 10,30 EUR y 22,50 EUR según 22 opiniones de analistas), lo que implica un potencial alcista de consenso (*consensus upside*) del **22,68%**.
-
-#### 4. Contexto Macroeconómico y Noticias Recientes
-El sector bancario europeo se encuentra condicionado por la evolución de los tipos de interés de la Eurozona y las recientes discusiones en torno a las reservas mínimas obligatorias exigidas por el BCE (según informes publicados a mediados de noviembre de 2026 en la prensa económica y boletines especializados). Asimismo, los análisis publicados por la propia entidad (*Bankinter Análisis*) monitorizan de cerca la curva de tipos para 2026 y 2027, afectando a las expectativas de margen de intermediación de la banca comercial y regional.
-
-#### 5. Evidencias, Datos Faltantes y Advertencias
-- **Fuentes y Fechas**: Datos extraídos de la instantánea oficial de mercado de `BKT.MC` con fecha **20 de noviembre de 2026** (fuentes: Yahoo Finance / cotizaciones oficiales MCE).
-- **Datos Faltantes**: No se dispone de flujos de caja operativos o libres normalizados consistentes para el último ejercicio completo en los estados suministrados (mostrando valores negativos puntuales de OCF/FCF en los resúmenes automatizados de estados contables correspondientes a cierre de 2025, derivados de ajustes contables internos o variaciones de activos operativos típicos de balances bancarios). No se emplean reglas industriales de deuda/EBITDA ni PER industrial por tratarse de una entidad financiera regulada.
-- **Advertencias**: Las alertas del sistema indican que la muestra de titulares recientes de noticias específicas de la compañía en la última semana es reducida, por lo que el análisis descansa primordialmente sobre los estados financieros, la estructura de valoración y los indicadores técnicos verificados.
+Fecha de análisis: 21 de noviembre de 2026.  
+Cotización de referencia (cierre al 20/11/2026): **13.68 EUR**.
 
 ---
 
-### Resumen Clave (Tabla Resumen)
+### 1. Resumen Ejecutivo y Contexto de Mercado
+Bankinter, S.A. (`BKT.MC`) opera como un banco regional de primer orden en España (clasificado dentro de Servicios Financieros en la bolsa de Madrid - MCE). El título cotiza actualmente a 13.68 EUR, reflejando una corrección significativa a corto plazo del **-3.22%** en la última sesión y acumulando descensos del **-18.47%** en los últimos 63 días (aproximadamente 3 meses). A pesar de esta presión vendedora reciente, la rentabilidad anual a 252 sesiones se mantiene ligeramente en terreno positivo con un **+4.46%**, situándose su máximo de capitalización de mercado en los 12.290 millones de euros.
 
-| Categoría | Métrica / Indicador | Valor / Estado | Implicación Operativa |
-| :--- | :--- | :--- | :--- |
-| **Precio y Tendencia** | Precio de Cierre (`BKT.MC`) | 13,68 EUR (-3,22%) | Por debajo de SMA 20, 50 y 200; fase correctiva de corto plazo. |
-| **Momentum** | RSI (14 periodos) | 32,40 | Próximo a la zona de sobreventa; sugiere posible agotamiento vendedor. |
-| **Tendencia / Cruces** | MACD y Señal | MACD: -0,245 / Señal: -0,234 | Momento bajista vigente a la espera de convergencia o giro. |
-| **Valoración** | PER / P/B / RoE | PER fwd: 9,42x / P/B: 1,84x / RoE: 17,64% | Valoración atractiva frente al sector con alta rentabilidad sobre recursos propios. |
-| **Retribución** | Dividend Yield | 4,37% (Payout: 48,64%) | Atractivo flujo de rentabilidad por dividendo para inversores
+El entorno macroeconómico europeo viene marcado por las discusiones en torno al calendario de tipos del BCE (reunión prevista para el 17 de diciembre de 2026) y la presión sobre las reservas mínimas obligatorias de las entidades financieras, en un contexto donde los hogares españoles mantienen un apetito elevado por activos de renta fija a corto plazo como las letras del tesoro.
+
+---
+
+### 2. Análisis Técnico
+El comportamiento técnico de `BKT.MC` muestra claros síntomas de debilidad a corto y medio plazo, aunque ciertos indicadores apuntan a condiciones de sobreventa que merecen cautela:
+* **Medias Móviles**: El precio actual (13.68 EUR) se encuentra por debajo de su media móvil de 20 sesiones (`sma20` en 14.36 EUR), de la de 50 sesiones (`sma50` en 15.22 EUR) y de la de 200 sesiones (`sma200` en 14.79 EUR). Esta disposición bajista confirma una tendencia correctiva consolidada.
+* **RSI (14)**: Se sitúa en **32.39**, bordeando el umbral técnico de sobreventa (30). Esto sugiere que el valor ha sufrido ventas intensas recientes, pero aún no ha confirmado un suelo técnico definitivo.
+* **MACD**: Muestra un valor de `-0.245` frente a una línea de señal `macds` de `-0.234`, manteniendo un sesgo negativo y confirmando el impulso bajista actual.
+* **Volatilidad y Drawdown**: La volatilidad anualizada se ubica en el **26.56%**, con un *drawdown* máximo reciente de **-19.32%** desde sus referencias altas, situándose el precio cerca de la parte inferior de su rango operativo reciente.
+
+---
+
+### 3. Análisis Fundamental y Valoración
+Los datos fundamentales extraídos de los estados financieros de `BKT.MC` muestran una sólida salud operativa y de negocio:
+* **Cuentas y Resultados**: Los ingresos totales (*Total Revenue*) cerraron el ejercicio 2025 en **3.128 millones de EUR** (frente a 3.082 millones en 2024 y 2.914 millones en 2023). El beneficio neto (*Net Income*) alcanzó los **1.090 millones de EUR** en 2025, superando los 953 millones de 2024 y los 845 millones de 2023, lo que evidencia una trayectoria de crecimiento sostenida en los beneficios.
+* **Métricas de Valoración**: 
+  - PER histórico (*trailing PE*): **10.77x**.
+  - PER adelantado (*forward PE*): **9.42x**, lo que compara de forma atractiva frente a la mediana de sus comparables sectoriales (*peer median forward PE* de 9.98x), situándose el ratio en **0.94x**.
+  - Ratio Precio/Valor en Libros (*Price to Book*): **1.84x**, con un valor contable por acción (*book value*) de **7.45 EUR**.
+  - Rentabilidad por dividendo (*Dividend Yield*): Atractiva, situada en el **4.53%**, con un *payout ratio* comedido del **48.64%** y un dividendo por acción de **0.62 EUR**.
+  - Rentabilidad sobre el capital (*Return on Equity* - ROE): Destacable en el **17.64%**, con unos márgenes de beneficio neto (*profit margins*) sobresalientes del **41.13%**.
+* **Consenso de Analistas**: El precio objetivo medio de consenso (*target mean price*) se sitúa en **16.78 EUR** (con un rango entre 10.30 EUR y 22.50 EUR aportado por 22 analistas), lo que implica un potencial de revalorización (*consensus upside*) estimado del **22.68%**.
+
+---
+
+### 4. Datos Faltantes y Limitaciones
+* No se dispone de flujos de caja operativos o libres normalizados consistentes para el ejercicio 2025 (reportando flujos negativos en el estado de flujos de caja de dicho año, lo cual es habitual en la contabilidad específica de balance de ciertas entidades bancarias pero requiere una auditoría analítica detallada de pasivos comerciales y circulantes).
+* La muestra de noticias específicas de la compañía en los titulares recientes es reducida, dependiendo principalmente de la macroeconomía general del sector bancario europeo.
+
+---
+
+### 5. Selección de Indicadores Técnicos Recomendados
+De acuerdo con la estrategia analítica y para un seguimiento riguroso y complementario de `BKT.MC`, se seleccionan los siguientes indicadores sin redundancias:
+1. `close_50_sma` (Tendencia a medio plazo).
+2. `close_200_sma` (Benchmark de tendencia a largo plazo).
+3. `close_10_ema` (Captura de giros rápidos de precio).
+4. `macd` (Momento general).
+5. `macdh` (Histograma MACD para visualizar la fuerza del impulso).
+6. `rsi` (Índice de fuerza relativa para zonas de sobrecompra/sobreventa).
+7. `boll_ub` / `boll_lb` (Bandas de Bollinger superior e inferior para canales de volatilidad).
+8. `atr` (Rango verdadero promedio para la gestión de riesgos y stops).
+
+---
+
+### Tabla Resumen Clave
+
+| Categoría / Métrica | Valor / Dato | Comentario Analítico |
+| :--- | :--- | :--- |
+| **Ticker y Cotización** | `BKT.MC` / 13.68 EUR | Cierre de sesión a 20/11/2026. |
+| **Tendencia (SMA 50 / 200)** | 15.22 EUR / 14.79 EUR | Presión bajista a corto y medio plazo. |
+| **RSI (14)** | 32.39 | Próximo a zona de sobreventa técnica. |
+| **PER Adelantado** | 9.42x | Atractivo frente al sector (mediana de pares: 9.98x). |
+| **ROE y Márgenes** | 17.64% / 41.13% | Alta eficiencia operativa y rentabilidad sobre fondos propios. |
+| **Beneficio Neto (2025)** | 1.090 Millones EUR | Crecimiento constante respecto a ejercicios anteriores. |
+| **Rentabilidad por Dividendo** | 4.53% | Atractivo retorno mediante retribución al accionista. |
+| **Precio Objetivo Consenso**

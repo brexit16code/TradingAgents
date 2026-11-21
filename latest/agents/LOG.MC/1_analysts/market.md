@@ -1,35 +1,36 @@
-El análisis de **Logista Integral, S.A. (LOG.MC)**, basado en los datos proporcionados al 20 de noviembre de 2026, revela una situación técnica consolidada, caracterizada por un entorno de rentabilidad por dividendo atractiva, pero con una presión vendedora técnica que limita su momentum alcista inmediato.
+El análisis de **Logista (LOG.MC)**, basado en la información financiera y técnica consolidada al 21 de noviembre de 2026, refleja una empresa con una base fundamental sólida, caracterizada por una alta rentabilidad sobre capital (ROE del 43.6%) y una política de dividendos atractiva, aunque con desafíos en su valoración técnica actual.
 
 ### Análisis Técnico
-Logista cotiza actualmente a **36,48 EUR**, situándose ligeramente por debajo de su media móvil de 20 sesiones (SMA20: 36,85 EUR), lo que indica una ligera debilidad en el corto plazo. Sin embargo, se mantiene cómodamente por encima de la SMA50 (36,13 EUR) y, significativamente, por encima de la SMA200 (33,79 EUR), confirmando que la tendencia de fondo sigue siendo alcista en el largo plazo.
+La acción cotiza a **36.48 EUR**, situándose ligeramente por debajo de su media móvil de 20 sesiones (**36.85 EUR**), pero manteniendo una estructura de tendencia alcista a largo plazo, al encontrarse por encima de su media móvil de 200 sesiones (**33.79 EUR**).
 
-*   **Momentum:** El RSI de 14 días se sitúa en **47,20**, lo que refleja una zona neutral sin señales claras de sobrecompra o sobreventa, sugiriendo un periodo de consolidación lateral. El MACD (0,209) se encuentra por debajo de su línea de señal (0,310), confirmando la fase de corrección técnica observada en el último mes (-2,09% de retorno a 21 días).
-*   **Volatilidad:** Con una volatilidad del 15,43%, el valor muestra un comportamiento relativamente estable, propio de su perfil de empresa logística con ingresos recurrentes.
+*   **Momentum:** El RSI(14) en **47.20** indica un sentimiento neutral; el mercado no se encuentra en territorio de sobrecompra ni sobreventa, lo que sugiere una fase de consolidación.
+*   **MACD:** La línea MACD (**0.209**) se encuentra por debajo de su señal (**0.310**), lo cual, junto con un histograma decreciente, sugiere una debilidad reciente en el impulso comprador.
+*   **Volatilidad:** Con una volatilidad del **15.43%**, la acción muestra un comportamiento moderado. La posición relativa respecto al índice IBEX (outperformance de **8.09 pp** en 63 sesiones) subraya una fortaleza relativa del activo frente al mercado español.
 
 ### Fundamentos y Valoración
-La compañía presenta indicadores fundamentales sólidos:
-1.  **Rentabilidad por Dividendo:** Con un **5,58%**, el dividendo es uno de sus pilares fundamentales, siendo destacado por el mercado (*OCU, 2026-11-17*).
-2.  **Solvencia:** Su ratio de endeudamiento (**Net Debt/EBITDA: 0,60x**) es muy conservador, lo que le otorga una gran flexibilidad financiera en un contexto de tipos de interés que, aunque evolucionan, mantienen una presión sobre las rentas variables.
-3.  **Valoración:** Cotiza a un PER forward de **14,55x**, lo que representa un descuento del **11,5%** respecto a la mediana de sus comparables del sector (PER 16,45x), lo que podría sugerir un valor infravalorado según el modelo *PER relativo intermedio*.
+*   **Dividendos:** Logista destaca por su rentabilidad por dividendo del **5.56%**, un factor clave según fuentes como *OCU.org* (17/11/2026). Sin embargo, el *payout ratio* es elevado (**95.3%**), lo que limita el margen para incrementos futuros sin un crecimiento sostenido en los beneficios.
+*   **Valoración:** La compañía presenta un PER *forward* de **14.43x**, lo cual, comparado con el valor teórico derivado de sus comparables (*peer median forward PE* de 16.45x), sugiere que la acción cotiza con un ligero descuento (ratio de **0.88**). 
+*   **Salud Financiera:** Con un ratio deuda neta/EBITDA de **0.60x**, la empresa mantiene un balance saneado y una capacidad operativa robusta (flujo de caja libre de **453.97 millones EUR** a sep-2026).
 
-### Riesgos y Consideraciones
-*   **Consenso:** El precio objetivo medio de los analistas es de **34,05 EUR**, lo que implica una caída potencial del **6,66%** respecto al precio actual, indicando que el mercado podría considerar que el valor ha alcanzado un techo temporal en las valoraciones recientes.
-*   **Entorno Macroeconómico:** Los titulares del 18 y 19 de noviembre de 2026 sugieren que el BCE mantiene un control estricto sobre las reservas bancarias y la política de tipos, lo que afecta el coste de capital y el atractivo relativo de las empresas de alta rentabilidad por dividendo como Logista en comparación con la deuda pública.
+### Consideraciones Estratégicas
+*   **A favor:** La sólida capacidad de generación de caja, el bajo apalancamiento financiero y su comportamiento superior al índice de referencia en el medio plazo.
+*   **En contra:** La proximidad a su techo de valoración según analistas (con una subida estimada limitada al ser el precio actual cercano al *target mean* de **34.32 EUR**, lo que implica una sobrevaloración según el consenso de analistas del -5.9%).
+*   **Incertidumbre:** La política de tipos del BCE (próximas decisiones en diciembre, *Rankia*, 18/11/2026) y el entorno macroeconómico incierto podrían presionar los costes financieros o los múltiplos de valoración de sectores industriales.
 
 ### Conclusión
-Logista muestra una robustez operativa envidiable (Free Cash Flow de 453,97 millones EUR en el cierre de 2026), pero su cotización actual parece estar digiriendo el rendimiento positivo anual del 32,57%. La estrategia técnica sugiere cautela: mientras no recupere la SMA20, el riesgo de un retroceso hacia la SMA50 persiste.
+Logista presenta un perfil de renta variable enfocado en valor y dividendos. El soporte clave se sitúa en la zona de su media de 50 sesiones (**36.13 EUR**); si el precio pierde este nivel, podría buscar apoyo en la media de 200 días. La falta de un fuerte momentum alcista actual sugiere cautela antes de tomar posiciones.
 
-**Rating**: Hold
+**Rating**: Neutral
 
-FINAL TRANSACTION PROPOSAL: Mantener posiciones existentes para capturar el dividendo (Yield 5,58%), dada la solidez del balance y el descuento respecto a peers. Evitar nuevas compras hasta una confirmación de ruptura alcista sobre los 37,00 EUR.
-
-| Indicador | Valor / Estado | Implicación Técnica |
+| Indicador | Valor | Interpretación |
 | :--- | :--- | :--- |
-| Precio Actual | 36,48 EUR | Consolidación bajo SMA20 |
-| SMA50 | 36,13 EUR | Soporte dinámico clave |
-| RSI (14) | 47,20 | Neutral (sin señal de giro) |
-| Yield Dividendo | 5,56% | Atractivo para renta |
-| Net Debt/EBITDA | 0,60x | Balance muy sólido |
-| Consenso Upside | -6,66% | Riesgo de sobrevaloración |
+| Precio Actual | 36.48 EUR | Consolidación |
+| RSI (14) | 47.20 | Neutral |
+| SMA 200 | 33.79 EUR | Tendencia alcista de largo plazo |
+| Rentabilidad Dividendo | 5.56% | Atractiva |
+| PER Forward | 14.43x | Descuento relativo |
+| Deuda Neta/EBITDA | 0.60x | Balance sólido |
 
-*Nota: La información se basa en los estados financieros cerrados al 30 de septiembre de 2026 y la sesión bursátil del 20 de noviembre de 2026. Falta información detallada sobre las proyecciones de margen para 2027 en el contexto de las presiones de costes logísticos globales.*
+FINAL TRANSACTION PROPOSAL: Mantener / Observación para entrada en retrocesos.
+
+*Nota: La información sobre el desglose detallado de los estados financieros de 2025 no está disponible en el reporte proporcionado. Se ha trabajado con los datos de cierre 2024 y 2026.*

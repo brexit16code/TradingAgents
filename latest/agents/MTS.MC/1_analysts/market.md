@@ -1,32 +1,29 @@
-El análisis de **ArcelorMittal (MTS.MC)**, con fecha de referencia 20 de noviembre de 2026, muestra una situación técnica de debilidad significativa dentro de un contexto fundamental mixto.
+El análisis de ArcelorMittal (**MTS.MC**) al cierre del 20 de noviembre de 2026 muestra un escenario técnico complejo y bajista en el corto plazo, contrastado con una valoración fundamental atractiva según los consensos de mercado.
 
 ### Análisis Técnico
-La acción se encuentra bajo presión bajista, cotizando a **51,64 EUR**, lo que representa un descenso del **5,66%** en la sesión. Los indicadores técnicos confirman una tendencia correctiva:
-*   **Momentum:** El RSI(14) en **34,83** se aproxima a niveles de sobreventa, pero aún no ha entrado formalmente en ellos, sugiriendo que la presión vendedora podría persistir. El indicador MACD (**-0,63**) se mantiene por debajo de su señal (**-0,44**), confirmando la ausencia de fuerza compradora a corto plazo.
-*   **Medias Móviles:** El precio actual (51,64) se sitúa por debajo de la SMA20 (55,24), la SMA50 (57,40) y la SMA200 (55,78), lo cual es una señal técnica de tendencia bajista estructural confirmada por el cruce a la baja de las medias de corto y medio plazo frente a la de largo plazo.
-*   **Volatilidad y Tendencia:** Con un retroceso máximo (*drawdown*) del **23,37%**, MTS.MC ha perdido impulso frente al mercado, con un rendimiento relativo negativo de **-11,53 pp** en el último trimestre.
+*   **Tendencia:** El valor se sitúa en 51,64 €, cotizando por debajo de sus medias móviles clave (SMA20: 55,24 €; SMA50: 57,40 €; SMA200: 55,78 €). La pérdida de la media de 200 días confirma una debilidad estructural a largo plazo.
+*   **Momento:** El RSI(14) en 34,83 indica una presión vendedora significativa, acercándose a niveles de sobreventa pero sin haber tocado aún la zona crítica de 30. El MACD (-0,63) se encuentra por debajo de su línea de señal (-0,44), confirmando una tendencia bajista vigente.
+*   **Volatilidad:** Con una volatilidad del 34,50 % y un retroceso reciente del 23,37 % desde máximos, el activo muestra alta sensibilidad, lo que se refleja en su reciente caída diaria del 5,66 %.
 
 ### Análisis Fundamental
-*   **Valoración:** La compañía presenta una divergencia interesante entre su PER *trailing* (**43,76**) y su PER *forward* (**9,34**), lo que implica que el mercado anticipa una mejora sustancial en los beneficios futuros (estimados en un EPS *forward* de 5,53 EUR). 
-*   **Salud Financiera:** La empresa mantiene un ratio de deuda neta sobre EBITDA de **2,08x**, nivel manejable para el sector. Sin embargo, el flujo de caja libre (*free cash flow*) es negativo (**-802,88 millones de EUR**), lo que refleja la intensidad de capital necesaria para la operación (CapEx de 4.337 millones en 2025).
-*   **Contexto:** Las noticias recientes (e.g., *Estrategias de Inversión*, 20/11/2026) señalan que ArcelorMittal es uno de los valores más castigados del Ibex 35. Aunque acumula una subida anual del **43%**, la tendencia de corto plazo es de corrección, viéndose afectada por el entorno macroeconómico incierto en la Eurozona, donde se anticipan presiones en los tipos de interés.
+*   **Valoración:** La discrepancia entre el PER histórico (43,76x) y el PER adelantado (*forward*) de 9,34x sugiere que el mercado anticipa una recuperación sustancial en los beneficios operativos (EPS esperado: 5,53 €). 
+*   **Salud Financiera:** La relación Deuda Neta/EBITDA de 2,08x es manejable para una empresa del sector siderúrgico, aunque el flujo de caja libre (*Free Cash Flow*) es negativo (-802,88 M€), lo que presiona el dividendo (1,06 % de rentabilidad).
+*   **Sentimiento:** Las noticias recientes (Estrategias de Inversión, 20/11/2026) destacan a **MTS.MC** como uno de los valores más penalizados en el IBEX 35, lo que sugiere que la corrección técnica está siendo exacerbada por un sentimiento de mercado negativo en el sector de materiales básicos.
 
-### Factores a Considerar
-1.  **Soporte/Resistencia:** La acción está probando zonas críticas. Su objetivo de precio medio según consenso es **59,1 EUR**, lo que sugiere un potencial alcista del **14,4%**, aunque el precio mínimo de consenso está en **52,7 EUR**, nivel que ha sido perforado recientemente.
-2.  **Riesgos:** La falta de crecimiento en el beneficio (*earnings growth* reportado como *null*) y la volatilidad del sector del acero (34,5%) exigen cautela extrema. La dependencia de los ciclos económicos europeos es total.
+### Riesgos y Consideraciones
+*   **Datos faltantes:** No se dispone de un desglose detallado del crecimiento de las ganancias (*earnings growth*) para los próximos periodos, lo que dificulta la validación del PER *forward* tan optimista.
+*   **Contexto macro:** La inminente presión por los tipos de interés y el entorno económico europeo (headline de El Economista, 19/11/2026, sobre el BCE) añade incertidumbre a sectores cíclicos como el acero.
 
-### Conclusión
-La estructura actual muestra una tendencia técnica bajista que está pesando más que las proyecciones de beneficio futuro. La ausencia de soporte en la SMA200 indica que la confianza de los inversores a largo plazo está siendo puesta a prueba.
-
+### Resumen de indicadores clave
 | Indicador | Valor | Interpretación |
 | :--- | :--- | :--- |
-| Precio Actual | 51,64 EUR | Bajista (bajo todas las SMA) |
-| RSI (14) | 34,83 | Debilidad, acercándose a sobreventa |
-| MACD | -0,63 | Bajista (por debajo de señal) |
-| PER Forward | 9,34 | Valoración atractiva si se cumple estimación |
-| Upside Consenso | 14,45% | Potencial teórico positivo |
-| Volatilidad | 34,5% | Elevada, riesgo operativo alto |
+| Precio Cierre | 51,64 € | Debajo de medias móviles |
+| RSI (14) | 34,83 | Tendencia bajista, zona neutral-baja |
+| SMA 200 | 55,78 € | Resistencia técnica clave |
+| PER Forward | 9,34x | Valoración atractiva a futuro |
+| Upside Consenso | 14,45 % | Potencial de revalorización según analistas |
 
-**Rating**: Neutral
+**Rating**: HOLD
+FINAL TRANSACTION PROPOSAL: Given the technical breakdown below the 200-day SMA and the current negative momentum, a cautious "wait and see" approach is recommended until the price stabilizes or confirms support above the 50.00 € psychological level. Entry points should be considered only if RSI diverges and momentum turns positive.
 
-FINAL TRANSACTION PROPOSAL: Mantener cautela; la acción muestra debilidad técnica y está operando bajo sus medias móviles clave, lo que sugiere esperar una estabilización en los niveles de soporte antes de considerar cualquier posición.
+*Fuentes consultadas:* Yahoo Finance (Precios y fundamentales), El Economista, Estrategias de Inversión (Noticias 17-20 noviembre 2026).

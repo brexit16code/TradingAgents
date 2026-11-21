@@ -1,35 +1,42 @@
-Este informe presenta un análisis fundamental de **ArcelorMittal (MTS.MC)**, basado en los datos financieros y de mercado disponibles a fecha de 20 de noviembre de 2026.
+### Informe de Análisis Fundamental: ArcelorMittal (MTS.MC)
 
-### Perfil y Desempeño Reciente
-ArcelorMittal opera en el sector de Materiales Básicos (acero). Actualmente, la compañía enfrenta una presión correctiva significativa, habiendo caído un 5,66% en la última sesión. A pesar de esta debilidad reciente, mantiene una rentabilidad anual positiva del 43,27% (return252_pct), consolidándose como uno de los actores destacados del sector en Europa durante el año, aunque las noticias recientes de *Estrategias de Inversión* (20/11/2026) la sitúan como uno de los valores más castigados del Ibex 35.
+**Fecha de análisis:** 21 de noviembre de 2026
+**Ticker:** MTS.MC (ArcelorMittal S.A.)
+**Sector:** Materiales Básicos / Acero
 
-### Análisis Financiero
-*   **Valoración:** La empresa cotiza a un ratio Precio/Beneficio (P/E) forward de 9,34, significativamente más bajo que su P/E histórico (trailing) de 43,76, lo que sugiere que el mercado anticipa una recuperación en los beneficios por acción (estimados en 5,53 EUR frente a los 1,18 EUR actuales). La relación Precio/Libro (P/B) de 0,81 indica que el activo cotiza con un descuento respecto a su valor contable, lo cual podría ser atractivo bajo una tesis de valor.
-*   **Solidez del Balance:** La deuda neta sobre EBITDA se sitúa en 2,08x, un nivel manejable para una empresa del sector industrial. El total de deuda asciende a 13.565 millones de EUR, frente a una posición de caja de 3.191 millones de EUR.
-*   **Rentabilidad y Flujo de Caja:** Los márgenes de beneficio son ajustados (1,64%). Es preocupante observar que el flujo de caja libre (Free Cash Flow) es negativo (-802 millones de EUR según datos de snapshot), a pesar de los esfuerzos por mantener una política de dividendos (Yield: 1,06%).
+#### 1. Perfil y Situación Actual
+ArcelorMittal, líder mundial en la industria siderúrgica, cotiza en la Bolsa de Madrid. A fecha de 20 de noviembre de 2026, la acción cerró en **51,64 EUR**, experimentando una corrección significativa del **5,66%** en la última sesión, situándose un **23,37% por debajo** de sus máximos recientes. A pesar de la volatilidad actual, el valor mantiene una rentabilidad anual positiva del **43,27%** en los últimos 252 días, aunque el impulso a corto plazo (retorno a 63 días: -17,43%) muestra una tendencia correctiva clara.
 
-### Factores de Riesgo y Perspectivas
-1.  **Entorno Macroeconómico:** La incertidumbre sobre las políticas de tipos de interés del BCE y la presión sobre los ahorradores (tipos reales negativos) afectan el sentimiento del inversor minorista.
-2.  **Análisis Técnico:** Con un RSI de 34,8, la acción se acerca a territorio de sobreventa, lo que podría sugerir un rebote técnico a corto plazo, aunque el MACD (-0,63) confirma una tendencia bajista vigente.
-3.  **Consenso:** El precio objetivo medio es de 59,1 EUR, lo que representa un potencial de revalorización del 14,4% desde los niveles actuales de 51,64 EUR.
+#### 2. Análisis Financiero
+*   **Resultados y Rentabilidad:** Los estados financieros anuales muestran una estabilidad en los ingresos (61.352 millones de EUR en 2025 frente a 62.441 millones en 2024). Sin embargo, el margen de beneficio neto es estrecho (1,64%) y el ROE reportado es bajo (1,83%), lo que subraya la naturaleza intensiva en capital y cíclica del negocio.
+*   **Valoración:** La compañía cotiza a un ratio Precio/Valor en Libros (P/B) de **0,81**, lo que sugiere que la acción podría estar infravalorada respecto a sus activos netos. El PER forward (9,34x) es significativamente inferior al PER trailing (43,76x), reflejando las expectativas de mejora en los beneficios para el próximo ejercicio (EPS forward de 5,53 EUR frente a 1,18 EUR actual).
+*   **Solidez y Flujo de Caja:** La deuda neta sobre EBITDA se sitúa en **2,08x**, un nivel moderado para el sector industrial. Sin embargo, el flujo de caja libre (FCF) es negativo (-802,88 millones de EUR a fecha de reporte), lo cual es una señal de alerta que los inversores deben monitorear, dada la necesidad constante de inversiones de capital (CAPEX) para mantener la competitividad operativa.
 
-### Datos faltantes o limitaciones
-No se dispone de información detallada sobre la tasa de crecimiento de los beneficios futuros (earningsGrowth es nulo), lo que limita la capacidad de proyectar el valor intrínseco con precisión. Tampoco se cuenta con un desglose de transacciones *insider* recientes para evaluar la confianza de la directiva.
+#### 3. Contexto de Mercado y Riesgos
+Las noticias recientes (Estrategias de Inversión, 20-11-2026) sitúan a MTS.MC como uno de los valores más castigados en el Ibex 35. El análisis técnico refuerza esta debilidad, con el precio por debajo de sus medias móviles de 20, 50 y 200 sesiones, y un RSI(14) en 34,8, acercándose a niveles de sobreventa, lo que sugiere que la presión vendedora ha sido intensa.
+
+**Consideraciones para el inversor:**
+*   **A favor:** La valoración por fundamentales (P/B y PER forward) indica una oportunidad de valor si la empresa logra cumplir con las expectativas de crecimiento de beneficios.
+*   **En contra:** La tendencia técnica es bajista, con una alta volatilidad (34,5%) y una clara falta de flujo de caja libre positivo, lo que dificulta la capacidad de aumentar dividendos o reducir deuda rápidamente sin endeudamiento adicional.
+
+#### 4. Información faltante
+No se dispone de datos detallados sobre el "earnings growth" (crecimiento de ganancias proyectado), información sobre transacciones recientes de insiders (ejecutivos o directivos), ni un desglose geográfico específico de los márgenes operativos para 2026, lo cual es esencial para evaluar el impacto de las políticas monetarias del BCE mencionadas en los titulares de prensa (ej. incremento de reservas obligatorias).
 
 ---
 
-### Tabla de Datos Clave (MTS.MC)
+### Resumen de Datos Clave
 
-| Indicador | Valor / Dato |
+| Indicador | Valor |
 | :--- | :--- |
-| Precio Actual | 51,64 EUR |
-| Capitalización Bursátil | 38.830 M EUR |
-| Forward P/E | 9,34x |
-| Precio/Libro | 0,81x |
-| Deuda Neta/EBITDA | 2,08x |
-| Consenso Objetivo | 59,10 EUR |
-| RSI (14 días) | 34,83 |
-| Dividend Yield | 1,07% |
+| Precio de cierre | 51,64 EUR |
+| Market Cap | 38.829 M EUR |
+| P/B Ratio | 0,81 |
+| Forward PER | 9,34x |
+| Dividend Yield | 1,06% |
+| Net Debt / EBITDA | 2,08x |
+| RSI (14) | 34,83 |
+| Consenso Analista (Media) | 59,10 EUR |
 
-**Rating**: HOLD
-FINAL TRANSACTION PROPOSAL: No trade recommendation; investors should monitor the support levels near 50 EUR before considering entry given the negative momentum and recent market correction.
+**Rating**: REVIEW
+
+FINAL TRANSACTION PROPOSAL: No action recommended. The technical indicators are currently in a bearish phase, and the lack of free cash flow suggests a need for caution despite the attractive P/B valuation. Wait for stabilization in the 50-day moving average trend before considering an entry.

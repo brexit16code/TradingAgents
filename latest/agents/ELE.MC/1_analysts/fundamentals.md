@@ -1,34 +1,38 @@
-Informe de Análisis Fundamental: Endesa, S.A. (ELE.MC)
+A continuación presento el informe de análisis fundamental para **Endesa, S.A. (ELE.MC)**, basado en los datos proporcionados con fecha de corte al 21 de noviembre de 2026.
 
-**Resumen Ejecutivo**
-Endesa, S.A. (ELE.MC) cotiza actualmente a 43,12 EUR (al 20 de noviembre de 2026), mostrando una estabilidad técnica neutral (RSI 14 de 45,02). La empresa se posiciona como un actor clave en el sector de servicios públicos regulados. Aunque los analistas presentan un precio objetivo medio de 36,89 EUR —lo que implica un potencial bajista desde los niveles actuales—, el valor ha mostrado un rendimiento anual sólido del 47,54%.
+### Informe de Análisis Fundamental: Endesa, S.A. (ELE.MC)
+
+**Perfil y Situación Actual**
+Endesa es una empresa líder en el sector de servicios públicos (utilities) en el mercado español. Actualmente, la acción cotiza a **43,12 EUR**, mostrando una sólida tendencia de recuperación anual con una revalorización del 47,5% en los últimos 252 días. La empresa presenta una capitalización bursátil de aproximadamente 43.750 millones de EUR.
 
 **Análisis Financiero y Desempeño**
-*   **Resultados Operativos:** Los ingresos de Endesa se han mantenido resilientes, con 21.020 millones de EUR al cierre de 2025, superando ligeramente los 20.927 millones de 2024. El EBITDA ha mostrado una trayectoria de recuperación, pasando de 3.324 millones en 2023 a 5.314 millones en 2025.
-*   **Solvencia y Capital:** Con una ratio de deuda neta/EBITDA de 2,1x, la estructura de capital se mantiene dentro de rangos manejables para una utility regulada. El flujo de caja libre (FCF) alcanzó los 2.207 millones de EUR en 2025, respaldando su política de dividendos (rentabilidad del 3,68%).
-*   **Valoración:** La empresa cotiza a un Forward PE de 17,82, ligeramente por encima de la mediana del sector (16,87), lo que podría sugerir que el mercado ya ha descontado gran parte del valor actual o que existe una prima por su posición competitiva.
+*   **Rentabilidad:** Endesa mantiene un margen de beneficio saludable del 10,9% y un ROE (Return on Equity) del 27,2%, lo que indica una gestión eficiente de los recursos de los accionistas.
+*   **Resultados Recientes:** Los ingresos se mantuvieron estables entre 2024 y 2025 (aprox. 21.000 millones de EUR), mientras que el EBITDA mostró un crecimiento positivo, pasando de 4.949 millones (2024) a 5.314 millones (2025).
+*   **Valoración:** Con un PER adelantado de 17,8x y una relación precio/valor contable de 5,6x, el mercado valora a la compañía por encima de su valor en libros, reflejando expectativas de estabilidad. La rentabilidad por dividendo se sitúa en un atractivo **3,67%**.
+*   **Endeudamiento:** La empresa reporta una deuda total de 11.905 millones de EUR. El ratio Deuda Neta/EBITDA de 2,1x se considera manejable para una utilidad regulada, aunque titulares recientes de *Expansión* (20-11-2026) señalan un incremento generalizado de deuda en los grupos del Ibex.
 
-**Eventos Recientes y Riesgos**
-*   **Litigios y Reputación:** Se han reportado noticias (Bolsamania, 16/11/2026) sobre demandas presentadas por Repsol contra grandes energéticas, incluida Endesa, a raíz de daños ocasionados por un apagón. Este factor añade una capa de incertidumbre legal a corto plazo.
-*   **Análisis Externo:** A pesar de las noticias negativas, el consenso de analistas (RBC) ha elevado previsiones y objetivos de precio tras sus últimos resultados, lo que contrasta con la visión media de mercado que sitúa el precio objetivo por debajo del valor actual.
-*   **Contexto Macroeconómico:** La volatilidad en el sector energético, sumada a las perspectivas de tipos de interés en la Eurozona, sigue siendo el principal motor macroeconómico que afecta a las utilities intensivas en capital.
+**Catalizadores y Riesgos**
+*   **Oportunidades:** El mercado especula con una mejora del 6% en el beneficio neto debido a la posible prórroga de la vida útil de las centrales nucleares y una rebaja fiscal, según *Merca2.es* (17-11-2026). Analistas como RBC han revisado al alza tanto sus previsiones como el precio objetivo tras la publicación de resultados (*MarketScreener*, 16-11-2026).
+*   **Riesgos:** La empresa enfrenta litigios (ej. la demanda de Repsol por el apagón, *Radio Intereconomía*, 16-11-2026) y un entorno de tipos de interés que, aunque no se detalla en el balance, es una preocupación constante para el sector según el flujo de noticias del BCE.
 
-**Conclusiones para el Inversor**
-La valoración fundamental sugiere que ELE.MC está operando cerca de sus niveles óptimos según el consenso. Los inversores deben equilibrar el atractivo de un dividendo estable contra el riesgo legal derivado de los litigios actuales y la aparente sobrevaloración respecto al precio objetivo de los analistas.
+**Opinión del Analista**
+Endesa presenta un perfil defensivo con crecimiento operativo. A pesar de que el precio actual (43,12 EUR) está ligeramente por encima de la media de analistas (36,89 EUR), lo que sugiere una sobrevaloración según el consenso, la mejora constante en las expectativas de beneficio sugiere una confianza renovada. La recomendación debe considerar que el mercado ya ha descontado gran parte del optimismo.
 
-**Faltas de Información:**
-*   No se dispone de datos detallados sobre transacciones internas (insider trading) recientes.
-*   No hay acceso a proyecciones de flujo de caja más allá de 2025 en los estados financieros suministrados.
+### Tabla Resumen de Datos Clave
 
-| Indicador | Valor / Nota |
+| Métrica | Valor |
 | :--- | :--- |
-| **Precio Actual** | 43,12 EUR |
-| **Forward PE** | 17,82 |
-| **Dividend Yield** | 3,68% |
-| **Net Debt/EBITDA** | 2,10x |
-| **Consensus Target Price** | 36,89 EUR |
-| **Tendencia (RSI 14)** | 45,02 (Neutral) |
-| **Retorno 252 días** | 47,54% |
+| **Precio Acción** | 43,12 EUR |
+| **Capitalización Bursátil** | 43.751 M EUR |
+| **Dividend Yield** | 3,67% |
+| **PER (Forward)** | 17,81x |
+| **EBITDA (2025)** | 5.314 M EUR |
+| **Deuda Neta/EBITDA** | 2,10x |
+| **Rentabilidad 1 año** | 47,54% |
+| **Consensus Upside** | -14,46% |
+
+**Información faltante:** No se dispone del detalle del desglose de ingresos por segmento de negocio (regulado vs. mercado libre) ni el detalle específico del calendario de amortización de la deuda a largo plazo tras el cierre de 2025.
 
 **Rating**: HOLD
-FINAL TRANSACTION PROPOSAL: Mantener posiciones actuales considerando el riesgo de litigio y la sobrevaloración respecto a los precios objetivo. No ejecutar compras adicionales hasta observar resolución de los conflictos legales.
+
+FINAL TRANSACTION PROPOSAL: No action recommended; wait for technical consolidation near the 50-day SMA (43,07 EUR) before reassessing entry points.

@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La estructura financiera de CLNX.MC, caracterizada por un alto apalancamiento (Net Debt/EBITDA de 7,96x), mantiene al valor bajo presión en un entorno de tipos de interés inciertos. Aunque existe un potencial teórico de revalorización significativo según el consenso, los indicadores técnicos (RSI en 40,15 y cotización por debajo de las medias móviles SMA50/SMA200) confirman la falta de impulso comprador. Se recomienda mantener una postura de espera para evitar el riesgo bajista mientras el precio no logre consolidarse sobre la resistencia técnica inmediata.
+**Reasoning**: La estructura técnica de CLNX.MC muestra una tendencia bajista persistente, con el precio cotizando por debajo de sus medias móviles clave (SMA20, SMA50 y SMA200). Aunque el valor tiene un potencial alcista según el consenso de analistas, el elevado ratio de endeudamiento Net Debt/EBITDA de 7,96x y la incertidumbre sobre los tipos de interés del BCE justifican una postura prudente de espera hasta ver una mejora en el apalancamiento operativo.
 
-**Entry Price**: not provided
+**Entry Price**: 26.92
 
 **Stop Loss**: 21.0
 
-**Position Sizing**: 0.5% del portafolio
+**Position Sizing**: Mantener exposición actual; no incrementar peso hasta superar la SMA200.
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

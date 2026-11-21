@@ -1,44 +1,39 @@
-**Rating**: HOLD  
-FINAL TRANSACTION PROPOSAL: REVIEW  
+**Rating**: HOLD
 
-### Informe de Análisis y Perspectiva de Mercado para CaixaBank, S.A. (`CABK.MC`)
+### Informe de Análisis y Perspectiva de Mercado: CaixaBank, S.A. (`CABK.MC`)
 
-#### 1. Resumen Ejecutivo y Estado Actual
-A fecha de 20 de noviembre de 2026, las acciones de **CaixaBank, S.A. (`CABK.MC`)** cotizan a 11,45 EUR en la bolsa de Madrid (`MCE`), experimentando una caída diaria del 2,18%. El valor presenta una capitalización de mercado de aproximadamente 79.453 millones de euros y opera bajo la clasificación del sector financiero como banco regional. 
+#### 1. Resumen Ejecutivo y Tesis de Inversión
+CaixaBank, S.A. (`CABK.MC`) cotiza a 11,45 EUR (al cierre del 20/11/2026), situándose cerca de sus medias móviles clave (SMA20 en 11,73 EUR y SMA50 en 11,97 EUR) tras experimentar una corrección de -2,18% en la última sesión y un descenso del -11,86% en los últimos 63 días. Con una capitalización bursátil de aproximadamente 79.453 millones de EUR, el banco mantiene fundamentos sólidos respaldados por una rentabilidad sobre recursos propios (ROE) del 16,52%, un margen de beneficio neto elevado del 40,56% y un ratio PER adelantado (*forward PE*) de 10,54x. 
 
-El valor se sitúa cerca de su media móvil de 200 sesiones (`sma200` de 11,50 EUR), mientras que la media de 20 sesiones (`sma20` en 11,73 EUR) y la de 50 sesiones (`sma50` en 11,98 EUR) reflejan un tono correctivo a corto plazo, con un descenso del 11,86% en los últimos 63 días (`return63_pct`). El RSI de 14 períodos se sitúa en 41,72, indicando un sesgo bajista pero sin entrar en territorio de sobreventa extrema.
+El contexto macroeconómico y político presenta tanto catalizadores positivos (como la sólida ejecución de su programa de recompra de acciones, que alcanza el 76,59% de los 500 millones programados) como riesgos regulatorios y de titularidad estatal debatidos recientemente en la prensa (*El País*, *Mundiario*). 
 
 #### 2. Fundamentos Financieros y Valoración
-* **PER y Beneficios:** El ratio Precio/Beneficio histórico (*trailing PE*) se sitúa en 12,05x, mientras que el *forward PE* estimado es de 10,54x, respaldado por un beneficio por acción proyectado (*forward EPS*) de 1,09 EUR (frente a 0,95 EUR del *trailing EPS*).
-* **Solvencia y Rentabilidad:** El rendimiento sobre el capital (*Return on Equity* - ROE) alcanza el 16,52%, con unos márgenes de beneficio netos elevados del 40,56%. Los fondos propios (*Stockholders Equity*) ascendieron a 38.510 millones de euros al cierre de 2025, frente a unos activos totales de 664.040 millones de euros.
-* **Retribución al Accionista:** `CABK.MC` ofrece una atractiva rentabilidad por dividendo (*dividend yield*) del orden del 4,41% - 4,54%, con un *payout ratio* del 56,81% y un dividendo por acción de 0,52 EUR. Además, la entidad continúa ejecutando programas de recompra de acciones propias (como el programa en curso de 500 millones de euros, que ya alcanza un avance del 76,59% según noticias del 20 de noviembre de 2026).
-* **Consenso de Analistas:** El precio objetivo medio de consenso se sitúa en 13,29 EUR (con un rango entre 6,80 EUR y 15,30 EUR basado en 21 opiniones de analistas), lo que implica un potencial de revalorización (*consensus upside*) del 16,03%.
+- **Ingresos y Beneficios**: En el ejercicio cerrado a 31/12/2025, CaixaBank reportó unos ingresos totales de 16.762 millones de EUR y un beneficio neto de 5.891 millones de EUR, superando los registros de 2024 (16.951 millones de ingresos y 5.787 millones de beneficio neto).
+- **Valoración relacional**: El PER adelantado de `CABK.MC` es de 10,54x frente a una mediana del sector de pares (*SAB.MC*, *SAN.MC*, *BKT.MC*, *BBVA.MC*, *UNI.MC*) de 9,98x, lo que otorga un ratio de valoración relativa de 1,06x (PER relativo intermedio).
+- **Dividendos**: Ofrece una rentabilidad por dividendo (*dividend yield*) estimada en el 4,54% (dividendo de 0,52 EUR por acción), con un *payout ratio* del 56,81%.
+- **Consenso de Analistas**: El precio objetivo medio de los analistas se sitúa en 13,29 EUR (con un rango entre 6,80 EUR y 15,30 EUR según 21 opiniones), lo que representa un potencial alcista (*consensus upside*) del 16,03%.
 
-#### 3. Contexto Macroeconómico y Sectorial
-El entorno macroeconómico en la Eurozona sigue condicionado por los movimientos de política monetaria del Banco Central Europeo (BCE). A mediados de noviembre de 2026, los mercados analizan las implicaciones de las proyecciones de tipos de interés y los ajustes en las reservas mínimas obligatorias a los bancos, interpretados por algunos analistas como subidas de tipos encubiertas. Adicionalmente, el ahorro de los hogares en productos de renta fija a corto plazo (como letras) continúa mostrando flujos positivos en España, compitiendo de forma indirecta con los depósitos bancarios tradicionales.
+#### 3. Contexto Macroeconómico y Noticias Recientes (Noviembre 2026)
+- **Política Monetaria y BCE**: El Banco Central Europeo (BCE) vigila de cerca la inflación y prepara posibles movimientos en las reservas mínimas obligatorias de los bancos ("subida de tipos por la puerta de atrás", según informes de prensa de mediados de noviembre de 2026), además de contemplar su próxima reunión de tipos el 17 de diciembre de 2027/2026. Los hogares españoles continúan incrementando su inversión en letras del tesoro (superando los 23.000 millones, siete meses al alza).
+- **Noticias Corporativas y Debate Político**: 
+  - La ejecución de la recompra de acciones avanza de forma sólida (76,59% completado de un tramo de 500 millones, según *Estrategias de Inversión*).
+  - Han surgido debates en la opinión pública (*El País*, *Mundiario*, 19-21 de noviembre de 2026) en torno a la postura del Partido Popular y la posible repercusión en la participación estatal derivada de las ayudas a Bankia, un factor de ruido político que genera volatilidad en el sector pero sin alterar de momento la operativa fundamental del banco.
 
-#### 4. Evidencia y Fuentes de Datos
-* **Precios y Datos Técnicos:** Yahoo Finance (`CABK.MC`), cotización a 20/11/2026 (`https://finance.yahoo.com/quote/CABK.MC/`).
-* **Estados Financieros y Fundamentales:** Datos extraídos de la plataforma de estados financieros corporativos de la entidad al cierre del ejercicio 2025 (`https://finance.yahoo.com/quote/CABK.MC/financials/`).
-* **Titulares y Noticias del Sector:** 
-  * *Estrategias de Inversión* (20/11/2026): "CaixaBank ejecuta el 76,59% de su recompra de acciones de 500 millones" (`https://news.google.com/rss/articles/...`).
-  * *TradingView* (16/11/2026): "Cuatro razones para comprar acciones de CaixaBank después de los resultados".
-  * *El Economista* (19/11/2026): "El BCE prepara una subida de tipos inminente...".
-
-#### 5. Datos Faltantes y Advertencias
-No se dispone de estimaciones detalladas sobre el EBITDA ni flujos de caja operativos normalizados debido a la naturaleza específica de la contabilidad bancaria. Por lo tanto, los múltiplos basados en EBITDA no son aplicables. No se ha suministrado cartera de inversión ni restricciones de asignación de capital; cualquier mención al respecto es puramente hipotética.
+#### 4. Factores de Riesgo y Datos Faltantes
+- **Riesgos**: Presión regulatoria europea sobre los márgenes de intermediación, volatilidad en los tipos de interés de referencia del BCE y sensibilidad a titulares políticos locales en España.
+- **Datos faltantes**: No se dispone de flujos de caja operativos o de libre flujo de caja normalizados completos para el trimestre actual en la muestra resumida; el análisis se apoya en los estados financieros anuales auditados y métricas de balance.
 
 ---
 
-### Resumen en Tabla
+### Tabla Resumen de Puntos Clave (`CABK.MC`)
 
-| Concepto Clave | Valor / Métrica | Fuente / Referencia |
-| :--- | :--- | :--- |
-| **Ticker y Cotización** | `CABK.MC` (11,45 EUR, -2,18%) | Yahoo Finance (20/11/2026) |
-| **Capitalización Bursátil** | 79.453 millones EUR | Datos Fundamentales (2026) |
-| **PER Estimado (Forward PE)** | 10,54x | Datos Fundamentales (2026) |
-| **Rentabilidad por Dividendo** | ~4,54% | Datos Fundamentales (2026) |
-| **ROE** | 16,52% | Datos Fundamentales (2026) |
-| **Precio Objetivo de Consenso** | 13,29 EUR (+16,03% potencial) | Consenso de 21 Analistas |
-| **Indicadores Técnicos** | RSI: 41,72; SMA200: 11,50 EUR | Yahoo Finance (20/11/2026) |
-| **Noticia Relevante** | Recompra de acciones ejecutada al 76,59% | Estrategias de Inversión (20/11/2026) |
+| Categoría | Métrica / Indicador | Valor / Detalle Actual | Implicación para el Inversor |
+| :--- | :--- | :--- | :--- |
+| **Precio y Técnica** | Precio de Cierre | 11,45 EUR (20/11/2026) | Corrección a corto plazo; cotiza por debajo de SMA20 (11,73) y SMA50 (11,97). |
+| **Valoración** | PER Adelantado (*Forward PE*) / PER Histórico | 10,54x / 12,05x | Valoración intermedia respecto a sus comparables ibéricos (mediana sectorial 9,98x). |
+| **Rentabilidad** | ROE y Margen Neto | ROE: 16,52% \| Margen: 40,56% | Excelente eficiencia operativa y alta capacidad de generación de beneficios. |
+| **Retorno al Accionista**| Dividend Yield / Recompra | 4,54% (0,52 EUR) / 76,59% ejec. | Atractiva retribución vía dividendo y programa de recompra de acciones en curso. |
+| **Consenso** | Precio Objetivo Medio | 13,29 EUR (Upside: +16,03%) | Potencial alcista moderado respaldado por 21 analistas. |
+| **Macro / Entorno** | Tipos BCE y Deuda Pública | Reunión BCE dic; Inversión en letras >23.000M€ | Entorno de tipos exigente que requiere gestión activa del margen de intereses. |
+
+FINAL TRANSACTION PROPOSAL: HOLD

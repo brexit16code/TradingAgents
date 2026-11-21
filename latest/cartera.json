@@ -12,7 +12,7 @@
     "dividends": "Brutos devengados en exfecha; separados del efectivo y sin reinversión."
   },
   "started_at": "2026-11-01T15:07:55.196232+01:00",
-  "updated_at": "2026-11-20T21:44:37.489580+01:00",
+  "updated_at": "2026-11-21T21:34:52.595082+01:00",
   "cursor": "2026-11-20",
   "cash": 173.6,
   "positions": {
@@ -305,6 +305,18 @@
       "requested_at": "2026-11-20T21:44:37.489580+01:00",
       "after": "2026-11-20",
       "source": "paper-history/2026-11-20_f923e59d40528daf807ff369.json",
+      "status": "cancelled",
+      "note": "Una señal posterior sustituye la orden pendiente."
+    },
+    {
+      "id": "67bccf3b6a984f63a774aa69",
+      "ticker": "REP.MC",
+      "name": "Repsol",
+      "side": "BUY",
+      "rating": "Overweight",
+      "requested_at": "2026-11-21T21:34:52.595082+01:00",
+      "after": "2026-11-21",
+      "source": "paper-history/2026-11-21_1a9fb8ce0304f05cca1c36cc.json",
       "status": "pending"
     }
   ],
@@ -550,6 +562,14 @@
       "id": "f923e59d40528daf807ff369",
       "observed_at": "2026-11-20T21:44:37.489580+01:00",
       "path": "paper-history/2026-11-20_f923e59d40528daf807ff369.json"
+    },
+    {
+      "report_date": "2026-11-21",
+      "generated_at": "2026-11-21T20:30:14.155428+01:00",
+      "universe_verified": true,
+      "id": "1a9fb8ce0304f05cca1c36cc",
+      "observed_at": "2026-11-21T21:34:52.595082+01:00",
+      "path": "paper-history/2026-11-21_1a9fb8ce0304f05cca1c36cc.json"
     }
   ],
   "latest_signals": [
@@ -565,8 +585,8 @@
     {
       "ticker": "ACX.MC",
       "name": "Acerinox",
-      "rating": "Underweight",
-      "action": "SELL",
+      "rating": "Hold",
+      "action": "HOLD",
       "model": "gemini-3.1-flash-lite",
       "price_date": "2026-11-20",
       "close": 14.550000190734863
@@ -583,8 +603,8 @@
     {
       "ticker": "AMS.MC",
       "name": "Amadeus",
-      "rating": "Overweight",
-      "action": "BUY",
+      "rating": "Hold",
+      "action": "HOLD",
       "model": "gemini-3.5-flash-lite",
       "price_date": "2026-11-20",
       "close": 59.7400016784668
@@ -745,8 +765,8 @@
     {
       "ticker": "MAP.MC",
       "name": "Mapfre",
-      "rating": "Overweight",
-      "action": "BUY",
+      "rating": "Hold",
+      "action": "HOLD",
       "model": "gemini-3.5-flash-lite",
       "price_date": "2026-11-20",
       "close": 4.0879998207092285
@@ -799,8 +819,8 @@
     {
       "ticker": "REP.MC",
       "name": "Repsol",
-      "rating": "Hold",
-      "action": "HOLD",
+      "rating": "Overweight",
+      "action": "BUY",
       "model": "gemini-3.1-flash-lite",
       "price_date": "2026-11-20",
       "close": 28.459999084472656
@@ -826,8 +846,8 @@
     {
       "ticker": "SAN.MC",
       "name": "Banco Santander",
-      "rating": "Hold",
-      "action": "HOLD",
+      "rating": "Overweight",
+      "action": "BUY",
       "model": "gemini-3.1-flash-lite",
       "price_date": "2026-11-20",
       "close": 10.319999694824219
@@ -853,8 +873,8 @@
     {
       "ticker": "TEF.MC",
       "name": "Telefónica",
-      "rating": "Underweight",
-      "action": "SELL",
+      "rating": "Hold",
+      "action": "HOLD",
       "model": "gemini-3.5-flash-lite",
       "price_date": "2026-11-20",
       "close": 3.36299991607666

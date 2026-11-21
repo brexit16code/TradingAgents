@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La acción se encuentra en un estado de sobreventa técnica (RSI 27.25) tras una caída severa, lo que desaconseja ventas en pánico. Sin embargo, la incertidumbre legal derivada de las investigaciones de Anticorrupción y la tendencia bajista por debajo de las medias móviles de 50 y 200 días impiden una entrada en compra hasta que el precio confirme una estabilización sobre el nivel de 50.00 EUR.
+**Reasoning**: La acción presenta una divergencia clara entre indicadores técnicos de sobreventa (RSI 27.25) y un contexto de noticias negativas relacionado con investigaciones de anticorrupción. Aunque los fundamentales de crecimiento son sólidos, el deterioro del flujo de caja libre y la ruptura de la media móvil de 200 días aconsejan cautela, ya que el valor carece de una base técnica estabilizada para justificar una entrada en largo.
 
-**Entry Price**: 50.0
+**Entry Price**: not provided
 
 **Stop Loss**: 45.0
 
-**Position Sizing**: 0.5% de la cartera una vez confirmada la consolidación sobre el soporte
+**Position Sizing**: Mantener exposición reducida (Underweight) o neutral dado el alto riesgo de volatilidad.
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

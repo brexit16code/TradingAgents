@@ -1,11 +1,11 @@
-**Action**: Sell
+**Action**: Hold
 
-**Reasoning**: La recomendación de infraponderación (Underweight) del plan de inversión se traduce en una acción de venta (Sell) debido a las debilidades estructurales críticas, incluyendo un resultado neto de -4.318 millones de euros, una destrucción progresiva del patrimonio neto y un elevado apalancamiento con una deuda neta sobre EBITDA superior a 5x. Aunque el valor cotiza a un atractivo PER adelantado de 8,28x y ofrece una rentabilidad por dividendo del 4,46%, la tendencia técnica bajista por debajo de las medias móviles clave (SMA 20 en 3,39 EUR y SMA 50 en 3,41 EUR) aconseja recortar la exposición para evitar una trampa de valor.
+**Reasoning**: El valor cotiza a 3,363 EUR, por debajo de sus medias móviles clave (SMA 20, 50 y 200), reflejando una tendencia bajista de medio plazo enmarcada por un drawdown del -14,78%. Aunque la valoración por múltiplos forward (P/E de 8,28x) y la rentabilidad por dividendo del 4,46% resultan atractivas, el elevado endeudamiento (deuda neta/EBITDA de 5,11x) y las pérdidas netas recientes desaconsejan incrementar la exposición. Se recomienda mantener posiciones actuales para capturar la retribución al accionista, pero sin realizar nuevas compras netas hasta observar una recuperación consistente por encima de las resistencias técnicas y una mejora en los fundamentales de beneficio neto.
 
-**Entry Price**: 3.36
+**Entry Price**: not provided
 
-**Stop Loss**: 3.58
+**Stop Loss**: not provided
 
-**Position Sizing**: 5% of portfolio
+**Position Sizing**: Mantener la posición actual sin aportaciones adicionales
 
-FINAL TRANSACTION PROPOSAL: **SELL**
+FINAL TRANSACTION PROPOSAL: **HOLD**

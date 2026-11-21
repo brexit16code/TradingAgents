@@ -1,42 +1,52 @@
-**Rating**: HOLD
-FINAL TRANSACTION PROPOSAL: HOLD
-
-Análisis detallado de **SAB.MC** (Banco de Sabadell, S.A.), cotizado en la Bolsa de Madrid (MCE) en EUR, con base en la instantánea de mercado verificada a fecha 20 de noviembre de 2026.
-
-### 1. Contexto de Mercado y Situación Fundamental
-Banco Sabadell (`SAB.MC`) opera dentro del sector financiero (*Financial Services / Banks - Diversified*), con una capitalización bursátil de aproximadamente 16.598 millones de euros. 
-- **Precio actual de cierre**: 3,546 EUR (sesión del 20 de noviembre de 2026), experimentando una caída diaria del -2,34%.
-- **Valor en libros y valoración**: Presenta un *Price-to-Book* (P/B) de 1,385 y un PER estimado a futuro (*forward PE*) de 10,62 (frente a un *trailing PE* de 14,18), con un beneficio por acción proyectado (*forward EPS*) de 0,33 EUR. Su ratio frente a la mediana de PER de sus comparables (*peers*: `SAN.MC`, `BKT.MC`, `BBVA.MC`, `CABK.MC`, `UNI.MC`) se sitúa en 1,06 (clasificado como *PER relativo intermedio*).
-- **Dividendos**: Ofrece una rentabilidad por dividendo (*dividend yield*) de aproximadamente el 1,93% al 1,97%, con un *dividend rate* de 0,07 EUR y un *payout ratio* del 28,51%.
-- **Hitos recientes**: Según las noticias y titulares recientes de noviembre de 2026 (como el publicado por CapitalMadrid el 19/11/2026), el banco da carpetazo definitivo a la OPA de BBVA apoyándose en la retribución al accionista de diciembre, mientras avanza en su programa de recompra de acciones alcanzando el 94,77% de ejecución (Yahoo, 17/11/2026). Asimismo, el sector bancario europeo vigila de cerca los movimientos de liquidez y tipos del BCE (como el incremento de las reservas mínimas obligatorias reportado por *El Economista* el 19/11/2026).
-
-### 2. Análisis Técnico e Indicadores Seleccionados
-Para evaluar la estructura de precios de `SAB.MC` sin redundancias y abarcando múltiples dimensiones analíticas (tendencia, momentum, volatilidad), se seleccionan los siguientes 7 indicadores clave de la lista permitida:
-
-1. **`close_50_sma`** (Media Móvil Simple de 50 sesiones): Sitúa el valor de referencia a medio plazo en torno a 3,610 EUR, muy alineado con la media de 20 sesiones (`sma20` en 3,615 EUR), lo que denota una fase de consolidación de precios justo por debajo de la zona de soporte clave de 3,64 EUR mencionada por *Traders Union* el 18/11/2026.
-2. **`close_200_sma`** (Media Móvil Simple de 200 sesiones): Se encuentra en 3,172 EUR, evidenciando que la tendencia de fondo a largo plazo sigue siendo alcista, encontrándose el precio actual (3,546 EUR) significativamente por encima de este benchmark estructural.
-3. **`rsi`** (Índice de Fuerza Relativa de 14 periodos): Registra un valor de 43,25, situándose en una zona neutral-bajista (ligeramente inclinada hacia la infravaloración a corto plazo, pero sin alcanzar los niveles de sobreventa estricta de 30). Esto refleja la presión vendedora a corto plazo experimentada en las últimas sesiones.
-4. **`macd`** (Convergencia/Divergencia de Medidas Móviles): Marca 0,0243, lo que muestra un terreno positivo muy estrecho.
-5. **`macds`** (Línea de Señal MACD): Se sitúa en 0,0299, quedando ligeramente por encima de la línea MACD, lo que corrobora un momentum plano o de ligera desaceleración a corto plazo tras las últimas correcciones.
-6. **`atr`** (Rango Verdadero Medio): Refleja una volatilidad porcentual del 24,13% anualizada/ajustada, permitiendo dimensionar adecuadamente el riesgo y la colocación de niveles de *stop-loss*.
-7. **`boll_ub`** / **`boll_lb`** (Bandas de Bollinger Superior e Inferior): Delimitadas a partir de la banda intermedia (`boll`, equivalente a la SMA de 20 sesiones en 3,615 EUR), sirven para vigilar la compresión de precios y posibles rupturas de volatilidad, encontrándose la cotización actual presionando la zona media-baja del canal.
-
-*(Nota sobre indicadores omitidos: Se prescinde de `close_10_ema` y `macdh` para evitar redundancias con las medias de corto plazo y el propio sistema MACD).*
-
-### 3. Evidencia, Datos Faltantes y Advertencias
-- **Datos faltantes**: No se dispone de flujos de caja operativos o de inversión cerrados para los trimestres más recientes de 2026 en las líneas de *cashflow* descargadas (mostrando nulos o pendientes de actualización en los extractos normalizados), ni se cuenta con un desglose completo de estimaciones de capitalización libre de riesgo más allá del consenso de analistas (*targetMeanPrice* de 3,703 EUR, con rango entre 2,30 EUR y 4,50 EUR basados en 20 opiniones de analistas y un potencial alcista de consenso del 4,43%).
-- **Advertencias**: Las valoraciones de analistas y precios objetivos son estimaciones de consenso y no valores intrínsecos garantizados. No se deben aplicar reglas de deuda industrial a entidades financieras como los bancos.
+**Rating**: HOLD  
+FINAL TRANSACTION PROPOSAL: Mantener posición / Neutral (No ejecutar nuevas compras netas ni posiciones cortas agresivas en este nivel a la espera de la confirmación de ruptura de soportes/resistencias y la asimilación del dividendo de diciembre).
 
 ---
 
-### Tabla Resumen de Indicadores y Métricas Clave (`SAB.MC`)
+### Informe de Análisis de Inversión y Tendencia para `SAB.MC` (Banco Sabadell, S.A.)
 
-| Categoría | Indicador / Métrica | Valor Actual / Referencia | Implicación para el Trading |
+#### 1. Contexto de Mercado y Situación Actual
+A fecha de 21 de noviembre de 2026 (con datos de cierre al 20 de noviembre de 2026), las acciones de Banco de Sabadell, S.A. (`SAB.MC`) cotizan a **3,546 EUR** en la Bolsa de Madrid (`MCE`), encontrándose en una fase de consolidación técnica tras las turbulencias corporativas recientes y a las puertas del cierre del año, con especial atención al dividendo de diciembre que dará carpetazo definitivo a la fallida OPA de BBVA (según noticias del sector de CapitalMadrid del 19 de noviembre de 2026).
+
+El valor muestra un comportamiento mixto en el corto plazo:
+- **Rentabilidad a 21 sesiones:** +3,84%
+- **Rentabilidad a 63 sesiones:** -3,95%
+- **Rentabilidad a 252 sesiones (interanual):** +35,99%
+- **Distancia al máximo reciente (Drawdown):** -5,87%
+
+#### 2. Análisis Técnico y de Indicadores
+Conforme a los datos oficiales de la instantánea verificada para `SAB.MC`, los indicadores técnicos clave seleccionados ofrecen el siguiente diagnóstico complementario:
+
+- **`close_50_sma` (SMA 50: 3,610 EUR) y `close_200_sma` (SMA 200: 3,172 EUR):** El precio actual (3,546 EUR) cotiza ligeramente por debajo de su media móvil de 50 sesiones (3,616 EUR en SMA20 y 3,610 EUR en SMA50), lo que denota una presión vendedora a corto plazo y un proceso de consolidación lateral-bajista. Sin embargo, se mantiene cómodamente por encima de la media de 200 sesiones (3,172 EUR), confirmando que la tendencia secular a largo plazo sigue siendo alcista.
+- **`rsi` (RSI 14: 43,25):** Se sitúa por debajo de la línea neutral de 50 pero sin alcanzar niveles de sobreventa (30). Esto refleja una ligera pérdida de momentum comprador a corto plazo, sugiriendo indecisión en el mercado y un sesgo neutral o levemente bajista.
+- **`macd` (0,0243) y `macds` (0,0299):** El indicador MACD se encuentra ligeramente por debajo de su línea de señal (`macds`), lo que corrobora la desaceleración del impulso alcista observada en las últimas semanas.
+- **Volatilidad (`volatility_pct`: 24,13%):** Muestra un nivel de volatilidad moderado, acorde con el sector bancario europeo diversificado en el parqué madrileño.
+
+#### 3. Fundamentos, Valoración y Catalizadores
+- **Capitalización de Mercado:** ~16.598 millones de EUR.
+- **PER (Trailing):** 14,18x; **PER Forward:** 10,63x, reflejando una expectativa de mejora en los beneficios por acción futuros (`forwardEps` de 0,33 EUR frente a los 0,25 EUR de `trailingEps`).
+- **Precio sobre Valor en Libros (Price to Book):** 1,39x, con un valor contable (`bookValue`) de 2,56 EUR.
+- **Rentabilidad por Dividendos (`dividendYield`):** 1,97% (con un `dividendRate` de 0,07 EUR y una ratio de pago prudente de 28,51%).
+- **Consenso de Analistas:** El precio objetivo medio ponderado de los analistas se sitúa en **3,70 EUR** (con un rango entre 2,30 EUR y 4,50 EUR basados en 20 opiniones), lo que otorga un potencial de revalorización (*consensus upside*) del **4,43%** desde el precio actual de 3,546 EUR.
+
+#### 4. Factores Macroeconómicos y Noticias Relevantes
+- **Política Monetaria del BCE:** Las tensiones en los tipos y las perspectivas sobre las reservas mínimas obligatorias de los bancos (como se observa en las publicaciones recientes de *El Economista* y *Rankia* de mediados de noviembre de 2026) siguen marcando el pulso del sector financiero europeo.
+- **Operativa Corporativa:** El mercado valora positivamente la normalización de la retribución al accionista con el dividendo de diciembre, disipando la incertidumbre generada por los movimientos corporativos previos.
+
+---
+
+### Resumen de Datos Clave
+
+| Categoría | Métrica / Indicador | Valor / Estado | Implicación Analítica |
 | :--- | :--- | :--- | :--- |
-| **Precio y Retorno** | Precio de Cierre (`close`) | 3,546 EUR (20-11-2026) | Corrección diaria del -2,34%; consolidando cerca del soporte de 3,64 EUR. |
-| **Tendencia (Medias)** | SMA 50 sesiones (`close_50_sma`) | 3,610 EUR | Resistencia dinámica inmediata a medio plazo. |
-| **Tendencia (Largo Plazo)**| SMA 200 sesiones (`close_200_sma`) | 3,172 EUR | Confirma la estructura alcista de fondo a largo plazo. |
-| **Momentum** | RSI (14) (`rsi`) | 43,25 | Zona neutral, sin sobreventa profunda a pesar de la presión vendedora. |
-| **Momentum / MACD** | MACD y Señal (`macd` / `macds`) | 0,0243 / 0,0299 | Ligero cruce bajista o compresión de momentum en el corto plazo. |
-| **Volatilidad** | Volatilidad Histórica (`volatility_pct`) | 24,12% | Mide el riesgo de fluctuación diaria para dimensionar posiciones. |
-| **Consenso de Mercado** | Precio Objetivo Medio (`targetMeanPrice`) | 3,703 EUR (20 analistas) | Potencial alcista moderado de consenso (+4,43% frente al precio actual). |
+| **Precio y Tendencia** | Cierre Actual (`close`) | 3,546 EUR | Cotiza en zona de soporte/consolidación a corto plazo. |
+| **Medias Móviles** | SMA 50 (`close_50_sma`) | 3,610 EUR | Resistencia dinámica inmediata de corto plazo. |
+| **Medias Móviles** | SMA 200 (`close_200_sma`) | 3,172 EUR | Sólido soporte estructural a largo plazo. |
+| **Momentum** | RSI (14) | 43,25 | Neutral-bajista, sin señales de sobreventa ni sobrecompra. |
+| **MACD** | MACD / Señal | 0,0243 / 0,0299 | Ligero cruce bajista o compresión de momentum. |
+| **Valoración** | Forward P/E | 10,63x | Valoración razonable frente al sector diversificado. |
+| **Consenso** | Precio Objetivo Medio | 3,703 EUR | Margen alcista moderado (~4,43%). |
+
+### Datos Faltantes y Advertencias
+- No se dispone de flujos de caja operativos normalizados completos debido a desviaciones contables reportadas en ejercicios previos.
+- Las estimaciones de analistas son de carácter consensual y no representan valoraciones intrínsecas garantizadas.

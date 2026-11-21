@@ -1,11 +1,11 @@
-**Action**: Sell
+**Action**: Hold
 
-**Reasoning**: El activo ha perforado soportes técnicos clave en 14,85 EUR, invalidando la hipótesis de un rebote técnico a corto plazo. La debilidad fundamental, marcada por un flujo de caja libre negativo y una estructura de deuda apalancada (3,15x Deuda Neta/EBITDA), sugiere una continuación de la presión bajista. Se recomienda reducir la exposición hasta que se recupere la SMA20 para confirmar un cambio de tendencia.
+**Reasoning**: La acción se encuentra en una tendencia bajista clara, cotizando por debajo de sus medias móviles de 50 y 200 días. Aunque el PER forward de 9,36x sugiere valor, el flujo de caja libre negativo y el payout ratio insostenible de 144% justifican cautela extrema. Es prudente esperar a que el precio confirme un soporte sólido y detenga el momentum bajista antes de comprometer capital adicional.
 
 **Entry Price**: not provided
 
-**Stop Loss**: 15.82
+**Stop Loss**: 14.0
 
-**Position Sizing**: Reducción de la posición actual en un 50% para mitigar riesgo bajista.
+**Position Sizing**: 0% de aumento; mantener la exposición actual existente bajo vigilancia estrecha.
 
-FINAL TRANSACTION PROPOSAL: **SELL**
+FINAL TRANSACTION PROPOSAL: **HOLD**

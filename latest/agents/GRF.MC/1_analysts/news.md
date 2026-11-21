@@ -1,76 +1,52 @@
-**Grifols, S.A. (`GRF.MC`) - Informe de Análisis Macroeconómico, Fundamental y Técnico**
+**Rating**: REVIEW
 
-### 1. Resumen Ejecutivo y Identidad de la Empresa
-* **Ticker:** `GRF.MC` (Bolsa de Madrid, cotización en EUR)
-* **Empresa y Sector:** Grifols, S.A. / Sector Healthcare (Fabricantes de Productos Farmacéuticos Generales).
-* **Precio actual (20-11-2026):** 10.90 EUR
-* **Capitalización Bursátil:** 7,421.73 millones de EUR
-* **Rating:** REVIEW
-* **FINAL TRANSACTION PROPOSAL:** HOLD
+**Análisis Fundamental, Técnico y Macroeconómico de Grifols, S.A. (`GRF.MC`)**
+
+### 1. Resumen Ejecutivo y Resolución de Identidad
+El presente análisis examina la empresa española **Grifols, S.A.** (`GRF.MC`), cotizada en las Bolsas de Madrid dentro del índice de referencia `^IBEX`, bajo la clasificación sectorial de Salud / Fabricantes de Productos Farmacéuticos - General. Todos los cálculos y datos están denominados en Euros (`EUR`). Con un precio de cierre de **10,90 EUR** a fecha 20 de noviembre de 2026, la acción muestra una capitalización bursátil aproximada de **7.421,7 millones de EUR**.
 
 ---
 
-### 2. Análisis Fundamental y Financiero
-Basado en los estados financieros anuales (`income_stmt`, `balance_sheet`, `cashflow`) correspondientes al cierre de ejercicio 2025 y los datos fundamentales proporcionados:
-* **Ingresos y Crecimiento:** Los ingresos totales en 2025 ascendieron a **7,524 millones de EUR**, mostrando un crecimiento constante respecto a los 7,212 millones de 2024 y los 6,592 millones de 2023. La tasa de crecimiento interanual de los ingresos (`revenueGrowth`) se sitúa en un sólido **9.4%**.
-* **Rentabilidad y Márgenes:** 
-  * Beneficio Neto en 2025: **402 millones de EUR** (frente a 157 millones en 2024 y 42 millones en 2023), reflejando una recuperación notable en la bottom-line.
-  * Margen de Beneficio Neto (`profitMargins`): **6.44%**.
-  * Retorno sobre el Capital (ROE): **7.33%**.
-  * EBITDA 2025: **1,641 millones de EUR** (y una estimación de 1,736 millones en la métrica ttm de fundamentos).
-* **Valoración:** 
-  * PER Histórico (`trailingPE`): **15.36x**.
-  * PER Adelantado (`forwardPE`): **9.97x**, basado en un beneficio por acción estimado (`forwardEps`) de 1.09 EUR (frente al EPS histórico de 0.71 EUR).
-  * Precio/Valor en Libros (`priceToBook`): **1.28x** (Valor en libros por acción de 8.51 EUR).
-  * EV/EBITDA: **10.79x**.
-* **Deuda y Solvencia:**
-  * La deuda total se sitúa en **9,240 millones de EUR** (según datos agregados a 2026; 9,566 millones a cierre de 2025).
-  * Efectivo y equivalentes: **486 millones de EUR**.
-  * Ratio Deuda Neta / EBITDA (`net_debt_ebitda`): **5.04x**, un nivel de apalancamiento elevado que continúa siendo un foco crítico para la valoración y el perfil de riesgo de la compañía.
-* **Flujo de Caja:** 
-  * Flujo de Caja Operativo (`Operating Cashflow`) en 2025: **1,047 millones de EUR** (902 millones en 2024).
-  * Flujo de Caja Libre (`Free Cash Flow`): **624 millones de EUR** en 2025, mejorando sustancialmente frente a los 530 millones de 2024 y los -93 millones de 2023.
-* **Consenso de Analistas:** 
-  * Precio objetivo medio (`targetMeanPrice`): **15.25 EUR** (con un rango entre 9.00 EUR de mínimo y 23.70 EUR de máximo, basado en 11 opiniones de analistas).
-  * Potencial de subida estimado (`consensus_upside_pct`): **+39.89%**.
+### 2. Análisis Financiero y Fundamental
+Basado en los estados financieros y estimaciones de mercado disponibles para `GRF.MC`:
+* **Crecimiento e Ingresos:** Los ingresos totales alcanzaron los **7.524 millones de EUR** al cierre del ejercicio 2025, frente a los 7.212 millones de EUR de 2024 y los 6.592 millones de EUR de 2023, mostrando una tendencia de crecimiento de ingresos sostenida (~9,4%).
+* **Rentabilidad y Márgenes:** El beneficio neto en 2025 repuntó hasta los **402 millones de EUR** (comparado con 157 millones de EUR en 2024 y 42 millones de EUR en 2023). El EBITDA de 2025 se sitúa en **1.641 millones de EUR** (con un EBITDA reportado en los datos recientes de 1.736 millones de EUR). Los márgenes de beneficio se sitúan en el **6,44%** y la rentabilidad sobre el capital (ROE) en el **7,33%**.
+* **Valoración:** La compañía opera con un PER histórico (*trailing PE*) de **15,15x** y un PER adelantado (*forward PE*) de **9,98x**, apoyado en un beneficio por acción estimado (*forward EPS*) de **1,09 EUR** (frente al EPS histórico de **0,72 EUR**). El ratio precio/valor en libros (*price-to-book*) es de **1,28x** sobre un valor contable por acción de **8,51 EUR**. El EV/EBITDA se encuentra en **10,73x**.
+* **Endeudamiento y Solvencia:** Presenta una deuda total de **9.240 millones de EUR** (y 9.566 millones de EUR en el cierre de 2025), con una posición de efectivo de **486 millones de EUR**. Esto arroja una ratio de deuda neta sobre EBITDA elevada, situada en **5,04x**.
+* **Flujo de Caja:** El flujo de caja operativo de 2025 se situó en **1.047 millones de EUR** (1.116 millones de EUR en datos agregados recientes), con un flujo de caja libre (*Free Cash Flow*) de **624 millones de EUR** (194,5 millones de EUR según la instantánea actual).
+* **Dividendo:** Ofrece un dividendo por acción de **0,08 EUR**, lo que representa una rentabilidad por dividendo (*dividend yield*) del **0,73%** - **0,76%** con un *payout ratio* conservador del **11,57%**.
+* **Consenso de Analistas:** El precio objetivo medio fijado por los analistas se sitúa en **15,25 EUR**, con un rango que va desde un mínimo de **9,00 EUR** hasta un máximo de **23,70 EUR** (basado en un panel de 11 analistas). Esto implica un potencial alcista (*consensus upside*) del **39,89%** respecto al precio de cotización actual.
 
 ---
 
 ### 3. Análisis Técnico
-* **Precio de Cierre:** 10.90 EUR (variación diaria de -1.40%).
-* **Medias Móviles:** 
-  * SMA 20: 11.19 EUR (el precio cotiza ligeramente por debajo de la media a corto plazo).
-  * SMA 50: 10.34 EUR.
-  * SMA 200: 9.69 EUR (tendencia de fondo alcista al mantenerse el precio por encima de la media de 200 sesiones).
-* **Osciladores y Momento:**
-  * RSI (14 periodos): **48.55** (zona neutral, sin sobreventa ni sobrecompra).
-  * MACD: 0.27; Línea de Señal MACD: 0.35 (momentum mixto/neutral).
-* **Volatilidad y Retornos:**
-  * Volatilidad anualizada: **23.96%**.
-  * Drawdown actual: **-6.48%** desde máximos recientes.
-  * Rentabilidad a 21 sesiones: +8.18%; a 63 sesiones: +8.56%.
+A fecha 20 de noviembre de 2026, los indicadores técnicos de `GRF.MC` reflejan lo siguiente:
+* **Precio de Cierre:** 10,90 EUR (variación diaria de -1,40%).
+* **Medias Móviles:** El precio se encuentra por debajo de su media móvil de 20 sesiones (`sma20` de 11,19 EUR), pero se mantiene por encima de la media de 50 sesiones (`sma50` de 10,34 EUR) y de la media de largo plazo de 200 sesiones (`sma900 / sma200` de 9,69 EUR), lo que indica un soporte de medio plazo intacto.
+* **Momentum y Volatilidad:** El RSI de 14 períodos se ubica en **48,55**, indicando neutralidad. El indicador MACD registra un valor de **0,27** con su línea de señal en **0,35**, señalando un leve sesgo correctivo a corto plazo tras las subidas previas. 
+* **Rentabilidades Recientes:** La rentabilidad a 21 sesiones es del **+8,18%** y a 63 sesiones del **+8,56%** (con un rendimiento superior relativo al índice del mercado de +14,46 pp). La volatilidad de 511 sesiones se sitúa en el **23,96%** con un *drawdown* actual limitado al **-6,48%**.
 
 ---
 
-### 4. Contexto Macroeconómico
-* **Tipos de Interés y Banco Central Europeo (BCE):** Los titulares macroeconómicos recientes de noviembre de 2026 apuntan a un entorno de tipos de interés en la Eurozona donde el BCE evalúa ajustes técnicos e incrementos de reservas mínimas obligatorias a los bancos, con expectativas de tipos en la eurozona estables pero con vigilancia estrecha de la inflación y los tipos reales negativos (según fuentes como *El Economista* y *Vozpopuli* fechadas entre el 14 y el 19 de noviembre de 2026).
-* **Impacto en `GRF.MC`:** Un entorno de tipos elevados o restrictivos afecta directamente a las empresas altamente endeudadas como Grifols (Deuda Neta/EBITDA superior a 5x), ya que encarece el coste de servicio de la deuda, aunque la generación positiva de flujo de caja libre en 2025 (624 millones de EUR) alivia parcialmente estas presiones.
+### 4. Contexto Macroeconómico e Información Reciente
+Las noticias recientes de mercado y macroeconómicas recopiladas para la semana del 15 al 20 de noviembre de 2026 destacan:
+* **Política Monetaria (BCE):** Los mercados siguen de cerca las perspectivas sobre los tipos de interés del Banco Central Europeo (BCE), con reuniones previstas para diciembre de 2026 y debates abiertos sobre el incremento de las reservas mínimas obligatorias y la posible hoja de ruta para 2027.
+* **Evolución de Mercados:** Las bolsas europeas y el selectivo español se mueven en un entorno de atención a la inflación, los datos de emisiones de deuda a corto plazo y la evolución de los principales índices tecnológicos e industriales globales.
+* **Noticias de `GRF.MC`:** Las menciones recientes incluyen análisis técnicos periódicos en medios especializados (como MarketScreener España del 19 de noviembre de 2026), sin eventos corporativos de ruptura o reestructuración extraordinaria informados en el flujo de noticias de la ventana de análisis.
 
 ---
 
-### 5. Datos Faltantes y Limitaciones
-* No se dispone de un desglose detallado en tiempo real de la evolución trimestral exacta de la deuda neta posterior al cierre del ejercicio fiscal 2025 más allá de las cifras consolidadas provistas en la base de datos de noviembre de 2026.
-* No se han aplicado reglas de deuda industrial a entidades financieras, dado que Grifols pertenece al sector farmacéutico.
+### 5. Datos Faltantes y Advertencias
+* **Datos Faltantes:** No se dispone de estimaciones formales de crecimiento de beneficios (*earnings growth*) para los próximos periodos en los campos normalizados, y la valoración sectorial comparativa específica no está detallada de forma cuantitativa adicional en la instantánea. 
+* **Advertencia:** Los precios objetivo de los analistas representan estimaciones de consenso y no deben interpretarse como un valor intrínseco garantizado. Ninguna recomendación de este informe constituye una ejecución de órdenes o asignación de cartera.
 
 ---
 
 ### 6. Tabla Resumen Estructurada
 
-| Categoría | Métrica / Indicador | Valor Actual / Dato Clave | Implicación para el Trading / Macro |
+| Categoría | Métrica / Indicador | Valor Actual (`GRF.MC`) | Comentario / Implicación |
 | :--- | :--- | :--- | :--- |
-| **Valoración** | Precio de Cierre | 10.90 EUR (20-11-2026) | Cotización estable en soporte técnico de corto plazo. |
-| **Valoración** | Forward P/E | 9.97x | Valuación atractiva basada en estimaciones de beneficios futuros. |
-| **Fundamentales** | Crecimiento de Ingresos | 9.40% (2025) | Expansión sólida de la cifra de negocios. |
-| **Fundamentales** | Free Cash Flow | 624 millones de EUR (2025) | Mejora sustancial en la generación de liquidez libre. |
-| **Solvencia** | Deuda Neta / EBITDA | 5.04x | Apalancamiento elevado; principal riesgo estructural de la compañía. |
-| **Técnico** | SMA 200 y RSI (14) | SMA 200: 9.69
+| **Valoración** | Precio de Cierre | 10,90 EUR (20-nov-2026) | Corrección moderada a corto plazo (-1,40%). |
+| **Valoración** | Capitalización Bursátil | 7.421,7 millones de EUR | Empresa de mediana-gran capitalización en el `^IBEX`. |
+| **Valoración** | Forward PE / Trailing PE | 9,98x / 15,15x | Mejora de múltiplos hacia adelante por expectativas de beneficio. |
+| **Fundamentales** | Ingresos

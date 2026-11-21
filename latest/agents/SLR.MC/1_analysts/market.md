@@ -1,31 +1,30 @@
-El análisis de **Solaria Energía y Medio Ambiente, S.A. (SLR.MC)** revela una situación técnica y fundamental compleja tras los resultados y la presentación de su nuevo plan estratégico. A continuación, presento el desglose detallado basado en la información disponible al 20 de noviembre de 2026.
+El análisis técnico y fundamental de **Solaria Energía y Medio Ambiente, S.A. (`SLR.MC`)** revela una situación de presión bajista significativa y una reevaluación por parte del mercado tras su reciente "Capital Markets Day".
 
 ### Análisis Técnico
-*   **Tendencia:** SLR.MC muestra una clara tendencia bajista. Cotizando a **13,77 EUR**, el valor se encuentra significativamente por debajo de sus medias móviles clave: **SMA20 (15,43 EUR)**, **SMA50 (15,81 EUR)** y **SMA200 (19,48 EUR)**. La pendiente negativa de estas medias confirma el deterioro estructural del precio.
-*   **Momentum:** El **RSI(14)** se sitúa en **35,63**, aproximándose a la zona de sobreventa (por debajo de 30), lo que sugiere que, si bien la presión vendedora es intensa, podría haber una pausa o rebote técnico a corto plazo. El **MACD (-0,30)** se encuentra por debajo de su señal (-0,12), confirmando la debilidad bajista.
-*   **Volatilidad:** Con una volatilidad del **55,10%** y una caída desde máximos (*drawdown*) del **46,50%**, el valor presenta un perfil de riesgo elevado. La presión vendedora tras el "Capital Markets Day" ha sido notable, con una caída diaria del 2,72% hoy y un desplome del 5,4% mencionado en noticias del 19 de noviembre.
+El precio de cierre al 20 de noviembre de 2026 es de **13,77 EUR**. La acción muestra una tendencia claramente bajista a largo plazo:
+*   **Medias Móviles:** El precio se sitúa significativamente por debajo de sus medias móviles de 20 días (15,42 EUR), 50 días (15,80 EUR) y 200 días (19,47 EUR), lo que confirma un dominio de los vendedores.
+*   **Osciladores:** El **RSI (14)** se encuentra en **35,63**, situándose cerca del territorio de sobreventa (habitualmente <30), lo que sugiere que, aunque el impulso es negativo, la caída podría empezar a encontrar soporte pronto o al menos mostrar signos de agotamiento.
+*   **MACD:** Tanto el `macd` (-0,305) como su señal `macds` (-0,116) se encuentran en terreno negativo, confirmando una tendencia bajista persistente.
+*   **Volatilidad:** Con una volatilidad del 55,1%, el título presenta un riesgo elevado, y el `drawdown` del 46,5% refleja el castigo acumulado en el último ejercicio.
 
 ### Análisis Fundamental
-*   **Valoración:** SLR.MC cotiza a un **PER (Trailing) de 7,7x**, lo cual es notablemente inferior al de sus pares del sector (PER relativo 0,47). A pesar de un crecimiento de ingresos del 38,8% y de beneficios del 44,4%, el mercado ha castigado la acción, posiblemente por las expectativas depositadas en su plan a 2029 que no han cumplido con el optimismo del consenso.
-*   **Solidez Financiera:** La empresa presenta una deuda neta sobre EBITDA de **4,14x**. Aunque los beneficios netos han crecido un 26% en lo que va de 2026, el **flujo de caja libre (FCF) es negativo (-437,97 millones EUR)**, lo que refleja una fuerte intensidad de capital y un desafío para la sostenibilidad del dividendo o el desapalancamiento a corto plazo.
+El mercado ha reaccionado negativamente a las nuevas previsiones y estrategia presentadas el 19 de noviembre de 2026 (caída del 5,4% tras el Capital Markets Day).
+*   **Valoración:** La empresa cotiza a un **PER forward de 8,02**, lo cual es bajo en comparación con la mediana de sus comparables del sector (16,83). Esto indica una valoración de "descuento" relativo, pero que debe interpretarse con cautela ante la caída en la recomendación de los analistas.
+*   **Resultados:** A pesar de una caída en el crecimiento de los ingresos (-3,9%), la empresa muestra un margen de beneficio sólido del 47,25% y un ROE del 18,94%. Sin embargo, el **Free Cash Flow** es negativo (-260,1 millones de EUR a cierre de 2025), lo que presiona su nivel de deuda (Net Debt/EBITDA de 4,42).
+*   **Consenso:** El precio objetivo medio es de 22,04 EUR, lo que implica una percepción de infravaloración por parte del consenso (upside potencial del 60%), aunque las recientes caídas tras los anuncios de resultados sugieren que el mercado está descontando riesgos no capturados plenamente por las estimaciones de los analistas.
 
-### Contexto de Mercado
-Las noticias recientes (19-20 de noviembre de 2026, *Rankia*, *Europa Press*) señalan que, aunque la compañía reitera sus objetivos estratégicos, el mercado ha reaccionado negativamente. La percepción de incertidumbre sobre los plazos de ejecución y la rentabilidad futura del plan de inversión parecen pesar más que los resultados operativos actuales.
+### Riesgos y Observaciones
+La principal incertidumbre radica en la capacidad de Solaria para financiar su plan de crecimiento (megainversiones como la de Uruguay) dado su alto nivel de endeudamiento en un entorno de tipos de interés que siguen siendo una preocupación latente según los titulares del BCE (ej. 19 de noviembre de 2026). La falta de dividendos y la quema de caja (`Free Cash Flow` negativo) refuerzan un perfil de inversión de alto riesgo.
 
-### Conclusión
-SLR.MC es un caso de "valor atrapado" donde los múltiplos fundamentales atractivos chocan con una tendencia técnica agresivamente bajista y una estructura de flujo de caja que requiere grandes desembolsos de capital.
-
-**Rating**: Underweight
-
-| Indicador / Métrica | Valor / Estado | Interpretación |
+| Indicador | Valor | Interpretación |
 | :--- | :--- | :--- |
-| Precio Actual | 13,77 EUR | Soporte débil; tendencia bajista |
-| RSI (14) | 35,63 | Cercano a sobreventa |
-| SMA 200 | 19,48 EUR | Resistencia mayor a largo plazo |
-| PER (Trailing) | 7,70x | Infravalorado frente a pares |
-| Deuda Neta/EBITDA | 4,14x | Apalancamiento moderado/alto |
-| Cambio 63 sesiones | -19,44% | Debilidad relativa significativa |
+| Precio Actual | 13,77 EUR | Tendencia bajista, por debajo de SMAs |
+| RSI (14) | 35,63 | Cercano a sobreventa, impulso negativo |
+| PER Forward | 8,02 | Valoración barata vs sector (16,83) |
+| Net Debt/EBITDA | 4,42 | Apalancamiento elevado |
+| Consenso Upside | 60,0% | Expectativa de analistas vs precio actual |
 
-**Advertencia:** Los datos de flujos de caja y deuda indican que, a pesar de los beneficios, la empresa consume mucha liquidez para su expansión. Cualquier deterioro en las condiciones de financiación (alza de tipos implícita en noticias del BCE) podría afectar la valoración.
+**Rating**: HOLD
+FINAL TRANSACTION PROPOSAL: Mantener una postura de vigilancia; la acción muestra señales de sobreventa, pero carece de catalizadores alcistas inmediatos tras la decepción del mercado en el Capital Markets Day. El bajo PER es atractivo, pero el flujo de caja operativo debe mejorar antes de considerar una entrada de capital.
 
-FINAL TRANSACTION PROPOSAL: No position. Wait for technical stabilization above the SMA 50 or a clear reversal in momentum indicators before considering entry.
+*Datos basados en el snapshot proporcionado a fecha de 2026-11-21. Falta información detallada sobre el *guidance* específico a largo plazo post-2027 y el detalle de la ejecución de la deuda en el Q4 2026.*

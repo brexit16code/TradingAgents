@@ -1,8 +1,8 @@
 # Trading Analysis Report: ENG.MC
 
-- Analysis date: 2026-11-20
+- Analysis date: 2026-11-21
 - Rating: Hold
-- Generated: 2026-11-20 21:06:49
+- Generated: 2026-11-21 20:58:33
 - TradingAgents 0.7.1: google, deep gemini-3.5-flash-lite, quick gemini-3.5-flash-lite
 - Analysts: market, news, fundamentals; research debate rounds 1, risk debate rounds 1
 - Data vendors: core_stock_apis yfinance, technical_indicators yfinance, fundamental_data yfinance, news_data yfinance, macro_data fred, prediction_markets polymarket, get_news ibex_sample, get_global_news ibex_sample
@@ -10,101 +10,132 @@
 ## I. Analyst Team Reports
 
 ### Market Analyst
-**Análisis Técnico y Fundamental de Enagás, S.A. (`ENG.MC`)**
+**Rating**: NEUTRAL
 
-### 1. Resumen Ejecutivo y Contexto de Mercado
-El valor analizado es **Enagás, S.A. (`ENG.MC`)**, compañía cotizada en la Bolsa de Madrid dentro del sector de *Utilities* (Gas Regulado). Con fecha de referencia a 20 de noviembre de 2026, el precio de cierre se sitúa en **17,67 EUR**, registrando una variación positiva del **0,80%** en la sesión. La capitalización bursátil de la compañía asciende aproximadamente a **4.599 millones de euros**.
+**FINAL TRANSACTION PROPOSAL:** HOLD / NEUTRAL (Hipótesis analítica sin cartera asignada)
 
-El contexto macroeconómico reciente muestra un panorama europeo marcado por la atención constante a los tipos de interés del Banco Central Europeo (BCE) y la evolución de la inflación. En el ámbito corporativo específico de `ENG.MC`, destacan noticias recientes de gran relevancia:
-* **Arbitraje ganado en Perú:** Enagás comunicó el 18 de noviembre de 2026 que ha ganado el arbitraje contra Perú sobre sus inversiones en TGP y COGA (*Cinco Días*).
-* **Remuneración al accionista:** La compañía ha anunciado el pago de un dividendo a cuenta del ejercicio 2026 de **0,40 euros brutos por acción**, previsto para el próximo **16 de diciembre de 2026** (fuentes: *Finect*, *Bolsamania*, *Valencia Plaza*).
+### Informe de Análisis Financiero y Técnico: Enagás, S.A. (`ENG.MC`)
 
----
-
-### 2. Análisis de Indicadores Técnicos Seleccionados
-De acuerdo con la estrategia de selección de indicadores no redundantes y complementarios para evaluar la tendencia, el impulso, la volatilidad y el volumen de `ENG.MC`, se han considerado los siguientes parámetros clave extraídos del snapshot verificado:
-
-1. **`close_50_sma` (Media Móvil Simple de 50 sesiones):** Se sitúa en **17,13 EUR** (`sma50`). El precio actual (17,67 EUR) cotiza por encima de esta media, lo que denota una estructura de tendencia alcista a medio plazo.
-2. **`close_200_sma` (Media Móvil Simple de 200 sesiones):** Se ubica en **16,43 EUR** (`sma200`). Al encontrarse el precio de cotización holgadamente por encima de la media de 200 sesiones, se confirma la salud de la tendencia alcista a largo plazo.
-3. **`close_10_ema` (Media Móvil Exponencial de 10 sesiones):** Captura el dinamismo a muy corto plazo, encontrándose en sintonía con la cotización reciente y el tono positivo mensual (retorno a 21 sesiones del **1,20%** y a 63 sesiones del **4,62%**).
-4. **`rsi` (Índice de Fuerza Relativa de 14 periodos):** Registra un valor de **52,04** (`rsi14`). Este nivel refleja una condición neutral (lejos de zonas de sobrecompra o sobreventa), indicando espacio para que el precio continúe su evolución sin indicios inmediatos de agotamiento alcista.
-5. **`macd` y `macds` (Convergencia/Divergencia de Medidas Móviles):** El valor de la línea MACD es de **0,187** frente a una señal (`macd_signal`) de **0,258**. Aunque el MACD se mantiene en terreno positivo, la línea de MACD se encuentra ligeramente por debajo de su señal, lo que sugiere una fase de consolidación o pausa temporal en el impulso de corto plazo.
-6. **`boll_ub` / `boll_lb` (Bandas de Bollinger):** La volatilidad de 14 periodos se sitúa en un moderado **14,64%** (`volatility_pct`). El precio actual de 17,67 EUR se encuentra muy próximo a la media móvil de 20 partes (`sma20` en **17,80 EUR**), oscilando de forma estable dentro de las bandas sin registrar rupturas extremas por la banda superior ni inferior.
+#### 1. Resumen de Identidad y Contexto Macroeconómico
+* **Ticker y Empresa**: Enagás, S.A. (`ENG.MC`), cotizada en Bolsas y Mercados Españoles (MCE), clasificada en el sector *Utilities / Utilities - Regulated Gas*.
+* **Moneda de referencia**: EUR.
+* **Fecha de referencia / análisis**: 21 de noviembre de 2026 (con datos de cierre al 20 de noviembre de 2026 proporcionados por el *snapshot* verificado).
+* **Entorno macroeconómico y catalizadores**: El contexto europeo reciente se mantiene influenciado por las perspectivas de la política monetaria del Banco Central Europeo (BCE), con fechas clave como la próxima reunión del BCE programada para el 17 de diciembre de 2026 y debates sobre reservas mínimas y tipos de interés (según titulares de prensa económica de noviembre de 2026 como Bankinter, El Economista y Rankia). Asimismo, un catalizador corporativo inmediato para `ENG.MC` es el anuncio del pago de un dividendo de **0,4 euros por acción** previsto para el **16 de diciembre de 2026** (fuentes: Finect y Valencia Plaza, 17-19 de noviembre de 2026).
 
 ---
 
-### 3. Fundamentos y Valoración
-* **Rentabilidad por Dividendo:** Uno de los principales atractivos de `ENG.MC` sigue siendo su política de retribución. Presenta una rentabilidad por dividendo (*dividend yield*) estimada en torno al **5,66% - 5,7%**, con un dividendo anual de **1,00 EUR** por título y un *payout ratio* del **79,96%**.
-* **Valoración y Múltiplos:** 
-  * Ratio PER histórico (*trailing PE*) de **12,90x**, mientras que el PER estimado a futuro (*forward PE*) se sitúa en **15,57x**.
-  * Ratio Precio/Valor en Libros (*price to book*) de **1,93x**.
-  * Deuda neta sobre EBITDA elevada, situada en **6,15x**, reflejo de la naturaleza intensiva en capital del sector de gas regulado.
-* **Consenso de Analistas:** El precio objetivo medio de consenso (*target mean price*) facilitado por los analistas es de **17,18 EUR** (con un rango entre 13,00 EUR y 19,80 EUR y una muestra de 20 opiniones), lo que arroja una leve sobrevaloración teórica frente al precio de mercado actual de 17,67 EUR (consiguiendo una variación implícita de consenso del **-2,76%**).
+#### 2. Análisis Técnico (`ENG.MC`)
+Basado estrictamente en el *snapshot* verificado al 20 de noviembre de 2026:
+* **Precio de cierre actual**: 17,67 EUR (`close_2026-11-20`).
+* **Medias Móviles**: 
+  * `sma20`: 17,79 EUR.
+  * `sma50`: 17,13 EUR.
+  * `sma200`: 16,43 EUR.
+  * *Interpretación*: El precio se sitúa ligeramente por debajo de su media de 20 sesiones (17,79 EUR), pero se mantiene por encima de la media de 50 sesiones (17,13 EUR) y de la media de largo plazo de 200 sesiones (16,43 EUR), lo que refleja una estructura de tendencia alcista moderada a medio-largo plazo, aunque consolidando en el corto plazo.
+* **Indicadores de Momento y Osciladores**:
+  * `rsi14`: 52,03 (zona neutral, sin sobreventa ni sobrecompra).
+  * `macd`: 0,1865 y `macd_signal`: 0,2577. El MACD se encuentra ligeramente por debajo de su línea de señal, indicando una fase de menor impulso comprador a corto plazo o ligera corrección técnica.
+* **Volatilidad y Drawdown**:
+  * `volatility_pct`: 14,64%.
+  * `drawdown_pct`: -3,96% respecto a máximos recientes.
+* **Rentabilidades históricas**:
+  * Retorno a 21 sesiones (`return21_pct`): +1,20%.
+  * Retorno a 63 sesiones (`return63_pct`): +4,61% (con un rendimiento relativo positivo frente al índice de referencia `^IBEX` de +10,52 puntos porcentuales).
+  * Retorno a 252 sesiones (`return252_pct`): +34,60%.
 
 ---
 
-### 4. Evidencia, Datos Faltantes y Advertencias
-* **Datos faltantes:** No se dispone de desglose detallado de flujos de caja proyectados a 5 años más allá de los estados financieros históricos cerrados al 31/12/2025 y los datos de balance actuales. Tampoco se cuenta con una cartera de inversión propia o asignación de activos particular del usuario (la operativa debe considerarse estrictamente hipotética).
-* **Fuentes y Fechas:** Datos extraídos de los snapshots oficiales verificados a **2026-11-20**. Noticias corporativas referidas a los días 17, 18 y 19 de noviembre de 2026 (*Finect*, *Cinco Días*, *Bolsamania*, *Valencia Plaza*).
+#### 3. Análisis Fundamental y Valoración
+* **Capitalización de mercado**: ~4.600 millones de EUR (`marketCap`: 4.599.466.496 EUR).
+* **Múltiplos de Valoración**:
+  * `trailingPE`: 12,89x (con `trailingEps` de 1,37 EUR).
+  * `forwardPE`: 15,57x (con `forwardEps` de 1,135 EUR).
+  * `priceToBook`: 1,93x (`bookValue`: 9,14 EUR).
+  * `enterpriseToEbitda`: 16,99x.
+* **Deuda y Solvencia**:
+  * `totalDebt`: 3.155.800.064 EUR (frente a `totalCash` de 537.299.968 EUR).
+  * Ratio `net_debt_ebitda`: 6,15x, lo que refleja un apalancamiento elevado característico del sector de infraestructuras reguladas de gas, requiriendo un seguimiento estrecho de la generación de caja operativa.
+* **Rentabilidad por Dividendo**:
+  * `dividendYield` / `dividend_yield_pct`: **5,66%**, respaldado por un dividendo anual de 1,00 EUR por acción y un *payout ratio* de 79,96%.
+* **Consenso de Analistas**:
+  * Precio objetivo medio (*targetMeanPrice*): 17,18 EUR (con un rango entre 13,00 EUR y 19,80 EUR, basado en 20 opiniones de analistas).
+  * *Consensus upside*: -2,76% frente al precio actual de 17,67 EUR, lo que sugiere que la acción cotiza actualmente ligeramente por encima de la valoración media de consenso de los analistas.
 
 ---
 
-### Tabla Resumen de Indicadores y Métricas Clave (`ENG.MC`)
-
-| Métrica / Indicador | Valor Actual | Interpretación / Contexto de Mercado |
-| :--- | :--- | :--- |
-| **Precio de Cierre** | 17,67 EUR | Cotización a fecha 20 de noviembre de 2026 (+0,80% diario). |
-| **SMA 50** | 17,13 EUR | Soporte dinámico de medio plazo; precio cotiza por encima. |
-| **SMA 200** | 16,43 EUR | Referencia de tendencia a largo plazo (superada al alza). |
-| **RSI (14)** | 52,04 | Zona neutral, sin señales extremas de sobrecompra/sobreventa. |
-| **MACD / Señal** | 0,187 / 0,258 | Impulso positivo pero en fase de consolidación a corto plazo. |
-| **Volatilidad (Pct)** | 14,64% | Volatilidad anualizada moderada típica de *Utilities* reguladas. |
-| **Rentabilidad por Dividendo** | ~5,66% | Atractivo flujo de caja para el inversor por dividendo. |
-| **PER (Trailing / Forward)** | 12,90x / 15,57x | Valoración moderada en línea con el sector regulado europeo. |
+#### 4. Selección de Indicadores Técnicos Recomendados
+Siguiendo la metodología requerida de seleccionar hasta 8 indicadores complementarios y sin redundancias de la lista autorizada, se eligen los siguientes para el seguimiento operativo de `ENG.MC`:
+1. `close_50_sma`: Para identificar la tendencia a medio plazo y actuar como soporte dinámico.
+2. `close_200_sma`: Para confirmar la tendencia estructural a largo plazo.
+3. `close_10_ema`: Para capturar giros rápidos de corto plazo ante la proximidad del pago de dividendos.
+4. `macd`: Para evaluar la divergencia y la fuerza del impulso de la tendencia actual.
+5. `macds`: Como línea de señal para filtrar cruces operativos junto con el MACD.
+6. `rsi`: Para monitorizar niveles neutrales (actualmente en 52,03) y descartar excesos de sobrecompra/sobreventa.
+7. `atr`: Esencial para la gestión de riesgo, dimensionamiento de posiciones y establecimiento de *stop-loss* dada la volatilidad del valor (14,64%).
+8. `vwma`: Para contrastar los movimientos de precio con el volumen de negociación en el mercado español.
 
 ---
 
-**Rating**: HOLD
+#### 5. Evidencia Contaria y Datos Faltantes
+* **Evidencia contraria / Riesgos**: El ratio de deuda neta sobre EBITDA se sitúa en 6,15x, un nivel elevado que limita la flexibilidad financiera si los tipos de interés se mantienen altos. Además, el precio actual de mercado (17,67 EUR) supera ligeramente el precio objetivo de consenso de los analistas (17,18 EUR), implicando un potencial de retornos limitado a corto plazo según las estimaciones de analistas.
+* **Datos faltantes**: No se dispone de un desglose detallado en tiempo real de las proyecciones de flujo de caja libre operativo más allá de las cifras anuales cerradas y ratios proporcionados en el *snapshot*. No se ha suministrado cartera de inversión (cualquier asignación es estrictamente hipotética).
 
-FINAL TRANSACTION PROPOSAL: Mantener posiciones existentes en `ENG.MC` a la espera
+---
+
+### Resumen en Tabla (Key Points)
+
+| Categoría | Métrica / Indicador | Valor / Estado para `ENG.MC` | Implicación Analítica |
+| :--- | :--- | :--- | :--- |
+| **Precio y Tendencia** | Precio de Cierre (20/11/202
 
 ### News Analyst
-**Rating**: HOLD
+**Rating**: HOLD  
 
-**Informe de Análisis y Coyuntura Macroeconómica para ENG.MC**
+**FINAL TRANSACTION PROPOSAL**: HELD / NEUTRAL HYPOTHETICAL ALLOCATION
 
-### 1. Resumen Ejecutivo y Tesis de Inversión
-Enagás, S.A. (`ENG.MC`) cotiza a 17,67 EUR por acción (al 20 de noviembre de 2026), situándose cerca de sus medias móviles de corto y medio plazo (SMA20 en 17,80 EUR, SMA50 en 17,13 EUR) y con una sólida resequía alcista anual del 34,6%. La compañía mantiene una atractiva rentabilidad por dividendo estimada en torno al 5,66% - 5,7%, destacando el próximo pago de un dividendo a cuenta de 0,40 euros por acción programado para el 16 de diciembre de 2026. 
+### Informe de Análisis Financiero y Macroeconómico: Enagás, S.A. (`ENG.MC`)
 
-Recientemente, el flujo de noticias corporativas ha recibido un catalizador positivo de gran relevancia: Enagás ganó el arbitraje internacional contra Perú en relación con sus inversiones en TGP y COGA, lo que elimina incertidumbres legales y financieras históricas en Latinoamérica. No obstante, los fundamentales y estados financieros muestran un ejercicio 2025 con ingresos totales de 960,4 millones de euros, un EBITDA de 762,7 millones y un beneficio neto de 339,1 millones de euros, acompañados por un ratio de endeudamiento neto/EBITDA elevado (6,15x) y un flujo de caja operativo y libre que se ha contraído respecto a ejercicios anteriores (Free Cash Flow de 94,4 millones en 2025 frente a más de 350 millones en 2024).
+#### 1. Resumen Ejecutivo y Estado Actual
+Enagás, S.A. (`ENG.MC`) cotiza a **17,67 EUR** (precio al cierre del 20 de noviembre de 2026), mostrando una tendencia técnica favorable a corto y medio plazo. Se sitúa por encima de sus medias móviles clave de 50 y 200 sesiones (SMA50 en 17,13 EUR y SMA200 en 16,43 EUR), con un retorno a 252 días del 34,6%. La compañía opera en el sector de *Utilities - Regulated Gas* en la bolsa de Madrid (`MCE`), bajo el índice de referencia `^IBEX`. 
 
-### 2. Contexto Macroeconómico e Internacional
-El análisis del entorno macroeconómico europeo muestra señales mixtas en noviembre de 2026:
-* **Tipos de interés y Política Monetaria:** El Banco Central Europeo (BCE) vigila de cerca la inflación y prepara ajustes o subidas de tipos "por la puerta de atrás" mediante el incremento de las reservas mínimas obligatorias a los bancos, mientras el ahorro de los hogares en letras acumula meses al alza con tipos reales que siguen desafiando la rentabilidad del ahorrador minorista.
-* **Clima bursátil:** Las bolsas europeas y el IBEX 35 digieren las expectativas de tipos de interés para el cierre de 2026 e inicios de 2027, en un contexto donde los inversores buscan refugio en valores defensivos y de alta retribución por dividendo (como las utilities reguladas).
-
-### 3. Análisis Fundamental, Valoración y Catalizadores para `ENG.MC`
-* **Valoración:** El PER histórico se sitúa en 12,90x, mientras que el PER forward estimado asciende a 15,57x. El ratio frente a la mediana de peers del sector (PER relativo intermedio de 0,92) sugiere que cotiza en línea o ligeramente descontada respecto al sector de Utilities - Regulated Gas en España (`ANE.MC`, `ELE.MC`, `IBE.MC`, `NTGY.MC`, `RED.MC`, `SLR.MC`).
-* **Dividendos:** Se confirma el abono de 0,40 EUR brutos por título el 16 de diciembre de 2026 (anunciado a mediados de noviembre por Finect, Bolsamania y Valencia Plaza), respaldando el atractivo para el inversor enfocado en rentas.
-* **Catalizador Geopolítico/Arbitraje:** La victoria en el arbitraje contra Perú (publicada por *Cinco Días* el 18 de noviembre de 2026) sobre TGP y COGA representa una resolución largamente esperada que mitiga riesgos en activos internacionales.
-
-### 4. Evidencia, Fechas y Datos Faltantes
-* **Fuentes y URLs citadas:** 
-  * Noticias de dividendos y arbitraje: [Finect](https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMUVoM1lBNHhRWGctcjh2ZS1OOHRYVG9oSHc2aURRdGljNGJFQ2xhb09oVF91MDlacWFURmxWblhYU1g3cmphWTlGMFhHWG5abXFzYXo3bzlnUFM3ZVVZanU4TF9RZDdQNXhkcENTbmRZbzY3NmNnSzVrX2FxMTBsRmZJU3RGUHVUeFhJOFdKMjlxRmNNT0xyZlFTc0VvQjUybmpuZXNSSGVfbzJJeVY1WGd6TmFIWUdPWVB3WGYtRzI?oc=5), [Cinco Días](https://news.google.com/rss/articles/CBMixgFBVV95cUxPQWFueXBNWlQ5YUotYjU0X01JTFZvXzhON2N4WnhCdTFHaTVJcExPc3ZZcldHdDU2OGhIZ1RJVW5kQ0k1bkRSQUtoWnBIZmxJNFRGOTR0Zi10VGdsd2txaUNFYjJsRjdkNDJmd2tEMS1BWm9iLWJsT0FCVG5aaUJrbnpKdERsY3BXQ08xSWVnU1RFVV9EMzd5ZUdadGNaU2ZCYVVhYUpuQV9nRWRfZGNJMU1qazVURVFSaF9mcHREMUNsV3Z2aGfSAdoBQVVfeXFMTkNhUzFHX1hXNllDaVMwN3JILW8zQ3BBc3BjNWJEcG55RVU4V1JXQ1RYT0ZVSnR1aFBzaklSYzRmb0pEYmNueHhrT2JEOTJvLUJTV1BHTFRXVXBfWTJhUzBxS2xKZldjdF9waHM3Nmw2MGlGY1MwRXV0YWhMMnVKSk9XV2E5YnRfajlGamZNTGFGUmJLX0t5UUtiaWxub3pvandpY1JNTUxBaGJWWGVXblpFblZ1LWd6WDEwMHlBMXNjY0UxdlQtUkNMdDBrM2JjMldVMktobnhoQ0E?oc=5) (18-19 de noviembre de 2026).
-  * Cotización e indicadores técnicos extraídos el 20 de noviembre de 2026.
-* **Datos Faltantes:** No se dispone en el snapshot actual de proyecciones detalladas de flujo de caja libre más allá de 2025 ni de los detalles cuantitativos exactos de la compensación económica neta derivada del laudo arbitral en Perú.
+Entre los eventos corporativos recientes más destacados figura el próximo pago de dividendo anunciado para el **16 de diciembre de 2026**, por un importe de **0,40 euros brutos por acción** (según publicaciones de Finect y Valencia Plaza del 17 al 19 de noviembre de 2026). Su rentabilidad por dividendo anualizada (*dividend yield*) se sitúa en torno al **5,66%**, respaldada por un *payout ratio* estimado cercano al 80%.
 
 ---
 
-### Tabla Resumen de Datos Clave (`ENG.MC`)
+#### 2. Fundamentos Financieros y Valoración
+* **Capitalización de mercado:** ~4.600 millones de EUR.
+* **Múltiplos de valoración:** PER histórico (*trailing P/E*) de 12,90x y un PER adelantado (*forward P/E*) de 15,57x. El ratio frente a sus pares (*peer median forward PE* de 16,83x) arroja un valor relativo de 0,92x, lo que indica que cotiza con un ligero descuento frente a la mediana sectorial.
+* **Endeudamiento:** La deuda neta sobre EBITDA se sitúa en **6,15x** (deuda total de aproximadamente 3.156 millones de EUR frente a un EBITDA de 425,7 millones de EUR en el último ejercicio reportado). El ratio Deuda Total / Fondos Propios muestra la exposición financiera típica de una utility regulada con activos intensivos en capital.
+* **Márgenes y Rentabilidad:** Mantiene unos márgenes de beneficio sólidos (margen de beneficios netos del 30,14%) y una rentabilidad sobre los recursos propios (*ROE*) del 11,88%.
+* **Consenso de Analistas:** El precio objetivo medio de consenso se sitúa en **17,18 EUR**, con un rango que oscila entre los 13,00 EUR (mínimo) y los 19,80 EUR (máximo), abarcando la opinión de 20 analistas. Con el precio actual de 17,67 EUR, el potencial de retorno respecto al objetivo medio es ligeramente negativo (-2,76%), lo que justifica una postura de cautela u *HOLD*.
 
-| Métrica / Concepto | Valor / Detalle | Fuente / Referencia Temporal |
-| :--- | :--- | :--- |
-| **Precio de Cierre** | 17,67 EUR | Snapshot (2026-11-20) |
-| **Rentabilidad por Dividendo** | ~5,66% (1,00 EUR tasa anual) | Snapshot / Dividendos Diciembre 2026 |
-| **Próximo Dividendo** | 0,40 EUR / acción (Pago: 16 Dic 2026) | Bolsamania / Finect (2026-11-19) |
-| **PER Trailing / Forward** | 12,90x / 15,57x | Snapshot (2026-11-20) |
-| **Endeudamiento Net Debt / EBITDA**| 6,15
+---
+
+#### 3. Contexto Macroeconómico e Incidencias del Entorno
+El análisis del entorno macroeconómico durante la semana del 16 al 21 de noviembre de 2026 está marcado por las expectativas en torno a los tipos de interés del Banco Central Europeo (BCE). Los titulares financieros destacan la preparación de una subida de tipos encubierta mediante el incremento de reservas mínimas obligatorias a los bancos y la cercanía de la reunión del BCE fijada para el **17 de diciembre de 2026** (Rankia, El Economista). Asimismo, en el mercado de renta fija nacional, los hogares españoles continúan incrementando su inversión en letras del tesoro, acumulando siete meses consecutivos al alza y superando los 23.000 millones de euros (Radio Intereconomía). 
+
+Para las *utilities* reguladas como `ENG.MC`, un entorno de tipos de interés altos o persistentes incrementa los costes de refinanciación de su deuda corporativa y compite directamente con el atractivo de su dividendo frente a activos libres de riesgo o de renta fija a corto plazo.
+
+---
+
+#### 4. Evidencia Científica, Limitaciones y Datos Faltantes
+* **Evidencia de Precios y Balances:** Extraída directamente del snapshot del ticker `ENG.MC` con fecha de recuperación 21 de noviembre de 2026.
+* **Fuentes de Noticias:** Artículos de prensa recopilados de Finect y Valencia Plaza (fechados el 17 y 19 de noviembre de 2026) y boletines macroeconómicos de Bankinter, Radio Intereconomía y Rankia.
+* **Datos Faltantes / Limitaciones:** No se dispone de un portfolio de inversión asignado (la asignación se evalúa de forma estrictamente hipotética). Las estimaciones de beneficio por acción futuro (*forward EPS*) y los precios objetivos reflejan el consenso de analistas y no constituyen una valoración intrínseca propia independiente. No se aplican reglas de deuda industrial a entidades financieras, ni métricas industriales a REITs, operando bajo la clasificación correcta de *Utilities - Regulated Gas*.
+
+---
+
+#### 5. Tabla Resumen de Puntos Clave
+
+| Categoría | Métrica / Indicador | Valor / Dato | Implicación para el Trader |
+| :--- | :--- | :--- | :--- |
+| **Identidad** | Ticker / Empresa | `ENG.MC` (Enagás, S.A.) | Empresa regulada de gas natural en Madrid (MCE). |
+| **Precio y Técnica** | Cierre Actual (`2026-11-20`) | 17,67 EUR | Por encima de SMA50 (17,13) y SMA200 (16,43); tendencia alcista a medio plazo. |
+| **Valoración** | PER Trailing / Forward | 12,90x / 15,57x | Valoración intermedia respecto a pares sectoriales (ratio 0,92x). |
+| **Retorno / Consenso**| Target Mean Price | 17,18 EUR | Ligera sobrevaloración frente al precio actual (-2,76% de upside de consenso). |
+| **Retribución** | Dividendo Próximo | 0,40 EUR (Pago: 16-Dic-2026) | Atractiva rentabilidad por dividendo anualizada del 5,66%. |
+| **Endeudamiento** | Deuda Neta / EBITDA | 6,15x | Nivel de apalancamiento elevado típico del sector reguladointensivo en capital. |
+| **Macroeconomía** | BCE y Tipos de Interés | Reunión clave el 17 de diciembre de 2026 | Presión potencial sobre los costes de financiación y competencia con renta fija. |
 
 ### Fundamentals Analyst
 **Rating**: REVIEW
@@ -115,135 +146,158 @@ El análisis del entorno macroeconómico europeo muestra señales mixtas en novi
 
 ### Informe Fundamental Integral: Enagás, S.A. (`ENG.MC`)
 
-Fecha del informe: 20 de noviembre de 2026.  
-Cotización actual de referencia: **17,67 EUR** (al cierre del 20 de noviembre de 2026).
+#### 1. Perfil de la Compañía y Negocio
+Enagás, S.A. (`ENG.MC`) es el principal gestor técnico del sistema gasista en España y transportista de gas natural, operando dentro del sector de **Utilities (Utilities - Regulated Gas)**. Su modelo de negocio se basa en infraestructuras reguladas de transporte de gas y regasificación, con ingresos y retornos fuertemente condicionados por el marco regulatorio nacional e internacional. Con cotización en la Bolsa de Madrid (`MCE`) y formando parte del selectivo español (`^IBEX`), la compañía se encuentra en plena transición energética hacia vectores verdes como el hidrógeno renovable y los gases renovables.
+
+#### 2. Datos Financieros Básicos y Valoración Actual
+A fecha de la última instantánea de mercado (20 de noviembre de 2026):
+* **Precio de Cotización**: 17,67 EUR
+* **Capitalización de Mercado**: 4.599.466.496 EUR
+* **PER (Trailing)**: 12,89x
+* **PER Forward**: 15,57x
+* **Precio sobre Valor en Libros (P/B)**: 1,93x
+* **EV/EBITDA**: 16,99x
+* **BPA (Trailing)**: 1,37 EUR | **BPA Forward**: 1,135 EUR
+* **Rentabilidad por Dividendo (Dividend Yield)**: 5,66% (con un dividendo de 1,00 EUR por acción y un *payout ratio* estimado en torno al 79,96%).
+* **Deuda Neta / EBITDA**: 6,15x (Deuda total de 3.155,8 M€ frente a un EBITDA de 425,7 M€ y caja de 537,3 M€).
+* **Consenso de Analistas (Target Price)**: Media de 17,18 EUR (con un rango bajo de 13,00 EUR y alto de 19,80 EUR, basado en 20 opiniones de analistas), arrojando un potencial de revalorización (*consensus upside*) ligeramente negativo de **-2,76%**.
+
+#### 3. Análisis Histórico de Estados Financieros (2023 - 2025)
+De acuerdo con los estados financieros consolidados:
+* **Ingresos Totales**: 
+  * 2023: 907.570.000 EUR
+  * 2024: 905.546.000 EUR
+  * 2025: 960.401.000 EUR (Crecimiento de ingresos del 6,05% interanual respecto a 2024, a pesar de la tasa de crecimiento general reportada en métricas a plazo de -9,1%).
+* **EBITDA**:
+  * 2023: 810.839.000 EUR
+  * 2024: 80.654.000 EUR (Fuerte impacto por deterioros de activos o plusvalías/minusvalías extraordinarias en desinversiones internacionales).
+  * 2025: 762.752.000 EUR (Recuperación operativa notable).
+* **Beneficio Neto (Net Income)**:
+  * 2023: 342.528.000 EUR
+  * 2024: -299.309.000 EUR (Pérdidas netas sustanciales derivadas del ajuste en la valoración de participadas internacionales, como Tallgrass Energy).
+  * 2025: 339.112.000 EUR (Retorno a la senda de beneficios positivos estables).
+* **Flujo de Caja Libre (Free Cash Flow)**:
+  * 2023: 411.872.000 EUR
+  * 2024: 357.100.000 EUR
+  * 2025: 94.420.000 EUR (Presión en caja por menores flujos operativos y capex de mantenimiento).
+
+#### 4. Eventos Recientes y Noticias de la Semana (Noviembre 2026)
+* **Retribución al Accionista**: El 17 de noviembre y 19 de noviembre de 2026 se confirmó oficialmente que Enagás abonará un dividendo a cuenta de **0,40 euros brutos por acción** el próximo **16 de diciembre de 2026** (Fuente: *Valencia Plaza*, *Finect*, 17-19 de noviembre de 2026). Esto refuerza el atractivo para inversores orientados a rentas (*yield*), manteniendo su compromiso retributivo.
+* **Contexto Macroeconómico y Tipos de Interés**: Las noticias macroeconómicas recientes de la semana del 16 al 20 de noviembre de 2026 apuntan a la expectativa de las próximas reuniones del Banco Central Europeo (BCE) fijadas para diciembre de 2026, con debates sobre la política monetaria y la inflación, factores que influyen de manera directa en el coste de financiación de utilities altamente endeudadas como Enagás.
+
+#### 5. Indicadores Técnicos Clave
+* **Precio Actual**: 17,67 EUR (por encima de las medias móviles de 50 sesiones - 17,13 EUR y de 200 sesiones - 16,43 EUR, lo que denota una tendencia alcista de fondo).
+* **RSI (14)**: 52,04 (zona neutral, sin sobrecompra ni sobreventa).
+* **MACD**: 0,187 con línea de señal en 0,258.
+* **Volatilidad (14 periodos)**: 14,64% (moderada).
+* **Rentabilidades acumuladas**: Retorno a 21 sesiones de +1,20% y retorno anualizado a 252 sesiones de +34,61%, superando al índice de referencia (*relative63_pp* de +10,51 pp).
+
+#### 6. Datos Faltantes y Limitaciones
+* No se dispone de un desglose pormenorizado del capital circulante de los trimestres de 2026 ni de transacciones recientes de iniciados (*insider trading*) en el conjunto de datos analizado.
+
+#### 7. Insights Accionables para Traders
+1. **Atractivo por Dividendo vs. Apalancamiento**: Con una rentabilidad por dividendo superior al 5,6% y un próximo pago de 0,40 € el 16 de diciembre, `ENG.MC` actúa como un valor defensivo refugio a corto plazo. No obstante, una ratio de apalancamiento neta sobre EBITDA de más de 6x exige cautela ante cualquier movimiento restrictivo en los tipos de interés del BCE.
+2. **Valoración Justa**: Cotiza muy cerca del precio objetivo medio del consenso de analistas (17,18 EUR frente a los 17,67 EUR actuales), lo que sugiere que el mercado ya ha descontado la recuperación tras el bache contable de 2024.
+3. **Estrategia (HOLD)**: Se recomienda mantener posiciones existentes para capturar el dividendo de diciembre, desaconsejando nuevas posiciones agresivas de compra por el limitado potencial alcista según el consenso y la elevada ratio de endeudamiento financiero.
 
 ---
 
-#### 1. Perfil de la Empresa y Contexto de Negocio
-**Enagás, S.A.** (`ENG.MC`) es el principal gestor técnico del sistema gasista en España y transportista de gas natural, clasificado dentro del sector de **Utilities (Utilities - Regulated Gas)** y cotizando en la Bolsa de Madrid (`MCE`) formando parte del índice de referencia `^IBEX`. Su modelo de negocio se basa en infraestructuras reguladas de gas, con una exposición creciente a la transición energética (hidrógeno verde y gases renovables), aunque fuertemente condicionada por la retribución regulada fijada por los reguladores nacionales y los laudos arbitrales internacionales.
-
-#### 2. Análisis Financiero y Estados Financieros (2023 - 2025)
-
-Los datos financieros extraídos de los estados contables reflejan una evolución mixta en los últimos ejercicios:
-
-*   **Cuenta de Resultados (Income Statement):**
-    *   *Ingresos Totales (Total Revenue):* 907,57 millones de euros en 2023, 905,55 millones en 2024 y un repunte hasta los **960,40 millones de euros** al cierre del ejercicio 2025.
-    *   *EBITDA:* Se situó en 810,84 millones de euros en 2023, experimentando una fuerte contracción contable en 2024 hasta los 80,65 millones (debido a minusvalías/provisiones o reestructuraciones de activos), recuperándose a **762,75 millones de euros** en 2025.
-    *   *Beneficio Neto (Net Income):* 342,53 millones de euros en 2023, una fuerte pérdida de **-299,31 millones de euros** en 2024, y un retorno a terreno positivo en 2025 con **339,11 millones de euros**.
-
-*   **Balance de Situación (Balance Sheet):**
-    *   *Activos Totales:* Pasaron de 8.507,27 millones de euros en 2023 a 7.495,94 millones en 2024, situándose en **6.823,44 millones de euros** al cierre de 2025 (reducción del perímetro de activos).
-    *   *Deuda Total (Total Debt):* Se ha reducido de forma constante desde 3.806,16 millones de euros en 2023 hasta 3.313,73 millones en 2024 y **2.822,89 millones de euros** al cierre de 2025 (la herramienta de métricas actuales sitúa la deuda total ligeramente superior en torno a 3.155,80 millones debido a pasivos corrientes/financieros recientes).
-    *   *Patrimonio Neto (Stockholders Equity):* 2.983,69 millones de euros en 2023, 2.375,76 millones en 2024 y **2.301,11 millones de euros** al cierre de 2025.
-
-*   **Flujo de Caja (Cash Flow):**
-    *   *Flujo de Caja Operativo:* 568,84 millones de euros (2023), 454,99 millones (2024) y **212,54 millones de euros** (2025).
-    *   *Inversión en CapEx:* -156,97 millones de euros (2023), -97,89 millones (2024) y **-118,12 millones de euros** (2025).
-    *   *Flujo de Caja Libre (FCF):* 411,87 millones de euros en 2023, 357,10 millones en 2024 y **94,42 millones de euros** en 2025 (la métrica FCF anualizada actual se sitúa en torno a 192,77 millones de euros).
-
-#### 3. Métricas Clave de Valoración y Fundamentales Actuales (`ENG.MC`)
-*   **Capitalización Bursátil:** ~4.599,47 millones de EUR.
-*   **PER (Trailing):** 12,90x | **PER (Forward):** 15,57x.
-*   **BPA (Trailing):** 1,37 EUR | **BPA (Forward):** 1,14 EUR.
-*   **Precio / Valor en Libros (P/B):** 1,93x.
-*   **Valor de Empresa / EBITDA (EV/EBITDA):** 16,91x.
-*   **Rentabilidad por Dividendo (Dividend Yield):** **5,66%** a **5,70%**, con un dividendo anual de 1,00 EUR por acción y un *payout ratio* del 79,96%.
-*   **Endeudamiento:** Deuda Neta / EBITDA de **6,15x** (nivel de apalancamiento elevado, típico de utilities reguladas intensivas en capital).
-*   **Consenso de Analistas:** Precio objetivo medio de **17,18 EUR** (con un rango entre un mínimo de 13,00 EUR y un máximo de 19,80 EUR, basado en la opinión de 20 analistas). Esto implica una ligera sobrevaloración a corto plazo frente al precio actual de 17,67 EUR (-2,76% de upside de consenso).
-
-#### 4. Análisis Técnico y de Mercado Reciente
-*   **Precio:** 17,67 EUR (+0,80% en la última sesión).
-*   **Medias Móviles:** SMA20 en 17,80 EUR, SMA50 en 17,13 EUR y SMA200 en 16,43 EUR. La cotización se encuentra ligeramente por debajo de su media de 20 sesiones pero consolidando por encima de la de 50 y 200 sesiones, mostrando una tendencia alcista a medio plazo (+34,61% a 12 meses).
-*   **Indicadores de Momentum:** RSI(14) en **52,04** (zona neutral). MACD en 0,187 (señal en 0,258). Volatilidad anualizada moderada del **14,64%**.
-
-#### 5. Noticias y Eventos Recientes (Noviembre de 2026)
-Durante la semana del 17 al 20 de noviembre de 2026, se han producido eventos corporativos y noticias clave para `ENG.MC`:
-1.  **Retribución al Accionista:** Enagás ha confirmado el pago de un dividendo a cuenta del ejercicio 2026 de **0,40 euros brutos por acción**, que se hará efectivo el próximo **16 de diciembre de 2026** (Fuentes: *Finect*, *Bolsamania*, *Valencia Plaza*, 17-19 de noviembre de 2026).
-2.  **Laudo Arbitral en Perú:** Se ha anunciado la resolución favorable del arbitraje contra Perú en relación con sus inversiones en TGP (Transportadora de Gas del Perú) y COGA (Compañía Operadora de Gas del Amazonas), un hito relevante para despejar incertidumbres legales y
+| Concepto Clave | Valor / Métrica | Implicación para el Trader |
+| :--- | :--- | :--- |
+| **Precio de Cierre** | 
 
 ## II. Research Team Decision
 
 ### Bull Researcher
 
-Bull Analyst: ¡Hola a todos! Comprendo perfectamente que el analista bajista intente poner el foco en la ratio de endeudamiento o en la volatilidad de los flujos de caja pasados, pero mirar a **Enagás, S.A. (`ENG.MC`)** solo a través del espejo retrovisor es ignorar una historia de transformación y solidez defensiva envidiable. Como alcista convencido, te invito a analizar los datos con objetividad: estamos ante un activo cotizando a **17,67 EUR**, respaldado por una tendencia técnica alcista impecable a medio y largo plazo (holgadamente por encima de su SMA de 200 sesiones en 16,43 EUR) y con un perfil de retribución al accionista que pocos valores en el mercado europeo pueden igualar hoy en día.
+Bull Analyst: **Rating**: NEUTRAL
 
-Vamos a desglosar por qué la tesis alcista sobre `ENG.MC` es mucho más sólida de lo que los osos pretenden hacer creer:
+**FINAL TRANSACTION PROPOSAL**: HOLD
 
-### 1. Crecimiento Potencial y Catalizadores de Valor Absoluto
-Los osos suelen argumentar que el crecimiento de los ingresos está estancado debido a la naturaleza regulada del sector. Sin embargo, ignoran por completo los catalizadores corporativos recientes y de gran calado. Hace apenas unos días, el 18 de noviembre de 2026, conocimos una noticia fundamental: **Enagás ha ganado el arbitraje internacional contra Perú** sobre sus inversiones estratégicas en TGP y COGA (*Cinco Días*). Esto no es un detalle menor; elimina de un plumazo una de las mayores fuentes de incertidumbre legal y financiera en los activos internacionales de la compañía, despejando el horizonte para la monetización o revalorización de dichos activos y liberando presión sobre el balance.
+¡Hola a todos! Comprendo perfectamente que el lado bajista suela centrarse en los titulares pesimistas sobre el sector regulado, pero analicemos los números fríos y la realidad operativa de **`ENG.MC`** con objetividad. No podemos meter a todas las *utilities* en el mismo saco ni ignorar los sólidos fundamentales que respaldan a Enagás en este tramo final de 2026. 
 
-Además, en el frente operativo, los ingresos totales del ejercicio 2025 repuntaron hasta los **960,40 millones de euros**, demostrando la resiliencia del negocio principal de transporte y gestión técnica del gas, mientras la compañía adapta progresivamente sus infraestructuras hacia los gases renovables y el hidrógeno verde en el marco de la transición energética europea.
+Aquí te detallo por qué la tesis alcista tiene argumentos de mucho peso para sostener la cotización actual en los **17,67 EUR**:
 
-### 2. Ventajas Competitivas Inigualables (Moat Estructural)
-¿Dónde está el *moat* de `ENG.MC`? En su condición de **monopolio natural regulado** y operador esencial del sistema gasista en España. No existe competidor que pueda replicar una red mallada de gasoductos de alta presión y plantas de regasificación de tal magnitud. Esta posición dominante garantiza flujos de caja estables y predecibles respaldados por el marco regulatorio nacional, protegiendo a la compañía frente a turbulencias macroeconómicas externas —como las fluctuaciones en los tipos de interés del BCE que tanto preocupan al mercado—. 
+### 1. Crecimiento, Escalabilidad y Recuperación Operativa Más Allá del Bache
+El mercado a menudo sufre de "miopía temporal" recordando el impacto contable extraordinario de 2024. ¡Mirad los datos reales! Los ingresos totales de Enagás se han recuperado sólidamente hasta alcanzar los **960,4 millones de EUR en 2025**, y el EBITDA repuntó hasta los **762,7 millones de EUR**, dejando atrás los baches extraordinarios de participadas internacionales anteriores. 
 
-### 3. Indicadores Positivos: Rentabilidad por Dividendo y Solidez Financiera
-Los inversores buscan refugio y rentabilidad real en un entorno macroeconómico donde los tipos y la inflación siguen erosionando el ahorro. Aquí es donde `ENG.MC` brilla con luz propia:
-* **Dividendo de alta rentabilidad:** Ofrece un *dividend yield* estimado en torno al **5,66% - 5,7%**, respaldado por un dividendo anual de 1,00 EUR por acción.
-* **Flujo inmediato de caja para el inversor:** La compañía acaba de confirmar el pago de un dividendo a cuenta del ejercicio 2026 de **0,40 euros brutos por acción** para el próximo **16 de diciembre de 2026** (*Finect*, *Bolsamania*, *Valencia Plaza*). Esto demuestra el compromiso absoluto de la directiva con la retribución al accionista.
-* **Métricas de valoración atractivas:** Con un PER *trailing* moderado de **12,90x** y un PER *forward* de **15,57x**, `ENG.MC` cotiza con un descuento relativo frente a la mediana de sus pares europeos del sector regulado (*ratio peer median* de 0,92), lo que evidencia que el precio actual no refleja plenamente su verdadero valor intrínseco.
+Además, estamos hablando de un líder indiscutible en infraestructuras gasistas que está posicionándose de manera impecable en la transición hacia los gases renovables y el hidrógeno verde. Su escalabilidad como gestor técnico del sistema le otorga una posición de dominio absoluto que ningún nuevo entrante puede replicar fácilmente.
 
-### 4. Refutación de los Contraargumentos Bajistas (El Oso al Descubierto)
-¿Qué dicen los bajistas? Su argumento favorito es el apalancamiento, señalando un ratio de Deuda Neta sobre EBITDA de **6,15x**. 
-* **La realidad:** Para una *utility* regulada con ingresos garantizados por ley, un apalancamiento elevado es la estructura de capital estándar y eficiente para maximizar el retorno sobre el capital empleado (ROE del **11,88%**). Además, la compañía ha demostrado una clara disciplina financiera, logrando reducir su deuda total desde los 3.806 millones de euros en 2023 hasta los niveles actuales de aproximadamente 2.822 - 3.155 millones. 
-* En cuanto al beneficio neto, tras el saneamiento contable de 2024, la compañía recuperó la senda de beneficios en 2025 con **339,11 millones de euros**, demostrando capacidad de recuperación operativa.
+### 2. Ventajas Competitivas y un Dividendo que Marca la Pauta
+¿Hablamos de retornos reales para el inversor? La rentabilidad por dividendo (*dividend yield*) de `ENG.MC` se sitúa en un atractivo **5,66%**, respaldada por un dividendo anual de 1,00 EUR por acción. Y no estamos hablando de promesas a largo plazo: ¡el próximo pago de **0,40 euros brutos por acción** está a la vuelta de la esquina, fechado para el **16 de diciembre de 2026**! 
 
-### Conclusión y Perspectiva
-Con un RSI neutral en **52,04** (lo que indica que hay un amplísimo margen técnico para seguir subiendo sin estar en sobrecompra), una tendencia alcista consolidada a 12 meses (+34,6%) y catalizadores tan potentes como la resolución arbitral en Perú y el jugoso dividendo de diciembre, `ENG.MC` es una apuesta defensiva y de crecimiento por valor ineludible en cualquier cartera equilibrada. ¡Mantener y acumular en cada recortes es la estrategia ganadora!
+En un entorno donde los inversores buscan refugio frente a la volatilidad macroeconómica y las dudas sobre las próximas reuniones del BCE, ofrecer un flujo de caja y una retribución al accionista de esta magnitud es una ventaja competitiva imbatible frente a otros activos.
 
-**Rating**: HOLD
+### 3. Indicadores Positivos y Fortaleza Técnica
+Técnicamente, el valor demuestra una salud envidiable. Cotiza a **17,67 EUR**, manteniéndose cómodamente por encima de su media móvil de 50 sesiones (SMA50 en **17,13 EUR**) y de la media de largo plazo de 200 sesiones (SMA200 en **16,43 EUR**). Con un retorno acumulado a 252 sesiones del **34,6%** y batiendo al índice general `^IBEX` en más de 10,5 puntos porcentuales a 63 sesiones, el impulso alcista de fondo es innegable. Su RSI se encuentra en una zona perfectamente equilibrada (52,03), lo que indica que hay gasolina en el depósito para seguir consolidando niveles sin temor a sobrecompras.
 
-FINAL TRANSACTION PROPOSAL: Mantener posiciones en `ENG.MC` ante su atractivo dividendo, la resolución favorable del arbitraje en Perú y su sólida posición como monopolio regulado.
+### 4. Rebatimiento de los Argumentos Bajistas (El "Bear Counterpoint")
+* **"La deuda neta sobre EBITDA es alta (6,15x)"**: Es cierto que el apalancamiento es elevado, pero es la naturaleza intrínseca de una infraestructura regulada intensiva en capital. La compañía cuenta con una sólida caja de más de 537 millones de euros y un flujo de caja operativo estable que respalda holgadamente sus obligaciones financieras sin poner en riesgo la continuidad del negocio.
+* **"El precio actual (17,67 EUR) supera ligeramente el precio objetivo medio de consenso de los analistas (17,18 EUR)"**: El consenso es una foto fija del pasado que suele ir por detrás de la realidad del mercado. Con un rendimiento superior al índice de referencia y un dividendo inminente en diciembre, el mercado está premiando justamente la estabilidad y la visibilidad de flujos de caja de `ENG.MC`, justificando perfectamente que cotice ligeramente por encima de esas medias teóricas.
+
+En definitiva, `ENG.MC` combina defensa, rentabilidad por dividendo y una tendencia técnica alcista muy sólida a medio plazo. Mantener posiciones es la jugada más inteligente para capturar todo el valor de este gigante regulado.
 
 ### Bear Researcher
 
-Bear Analyst: ¡Vaya discurso optimista nos acaba de soltar el colega alcista! Parece que se ha quedado deslumbrado por el brillo del dividendo y ha decidido ignorar por completo las señales de alarma que gritan los números. Decir que **Enagás, S.A. (`ENG.MC`)** es una "apuesta de crecimiento ineludible" es simplemente cerrar los ojos ante una realidad financiera bastante más precaria de lo que nos quieren hacer creer. Vamos a poner los pies en la tierra y a desmontar, dato a dato, ese castillo de naipes.
+Bear Analyst: **Rating**: NEUTRAL
 
-### 1. ¿Crecimiento y catalizadores o espejismo contable?
-El analista alcista saca pecho con la reciente victoria en el arbitraje contra Perú sobre TGP y COGA (*Cinco Días*, 18 de noviembre de 2026) y el repunte de los ingresos en 2025 hasta los 960,40 millones de euros. Pero vamos a ver: ¿dónde se refleja eso en el flujo de caja real de la compañía? 
+FINAL TRANSACTION PROPOSAL: HOLD
 
-Si rascamos la superficie de los estados financieros, nos encontramos con un dato desastroso que el bando alcista prefiere obviar: el **flujo de caja libre (*Free Cash Flow*) se desplomó hasta los 94,42 millones de euros al cierre de 2025**, una caída abismal si lo comparamos con los más de 357 millones de 2024 o los 411 millones de 2023. ¿De qué sirve ganar un arbitraje internacional si la capacidad orgánica de generar caja libre se ha contraído de manera tan drástica? Además, no olvidemos el negro historial reciente de la compañía: ¡en 2024 Enagás se comió unas pérdidas netas de **-299,31 millones de euros**! Celebrar una recuperación puntual tras un año catastrófico es puro triunfalismo.
+¡Hola colega! Comprendo perfectamente el entusiasmo por aferrarse a los destellos de recuperación y al dulce canto de sirena del dividendo, pero como analista bajista de **`ENG.MC`**, tengo la obligación de mirar más allá del espejo retrovisor y advertir sobre los graves riesgos estructurales que estás pasando por alto. 
 
-### 2. El peligro real del apalancamiento: Un ratio de 6,15x no es una "comodidad"
-El colega intenta justificar el endeudamiento diciendo que un apalancamiento elevado es "la estructura estándar para una *utility* regulada". ¡Cuidado con normalizar lo insostenible! 
+Vamos a desmontar esa aparente "bonanza" con datos fríos y una dosis de realidad financiera:
 
-La **deuda neta sobre EBITDA se sitúa en un escalofriante 6,15x**. Con un volumen de deuda total que ronda los 3.155 millones de euros y un entorno macroeconómico en la Eurozona donde el Banco Central Europeo sigue tensionando las condiciones de liquidez (con subidas encubiertas de reservas mínimas y tipos reales que no dan tregua), un perfil de endeudamiento tan rígido deja a `ENG.MC` en una posición de extrema vulnerabilidad. Si los tipos de interés se mantienen altos o la regulación nacional aprieta las tuercas a la retribución de las redes —algo muy habitual en el sector gasista europeo a medida que se acelera la descarbonización—, el servicio de esa deuda pesará como una losa sobre los beneficios futuros.
+### 1. El espejismo de la recuperación y la trampa del apalancamiento (Deuda Neta/EBITDA de 6,15x)
+Hablas de una sólida recuperación operativa basándote en los ingresos de 2025 (960,4 millones de EUR) y el EBITDA, pero prefieres ignorar el elefante en la habitación: una **deuda neta sobre EBITDA de 6,15x**. 
+* Con una deuda total que ronda los **3.155,8 millones de EUR** frente a una caja de apenas 537 millones, `ENG.MC` está fuertemente atada de pies y manos. 
+* En un entorno macroeconómico donde el Banco Central Europeo mantiene la presión (con reuniones clave en el horizonte de diciembre de 2026 y la constante vigilancia sobre las reservas y los tipos de interés), refinanciar esta mole de pasivos no es un paseo militar. Cada punto básico de coste de financiación erosiona el beneficio real y pone en entremesa la sostenibilidad a largo plazo de ese mismo dividendo que tanto alabas.
 
-### 3. El señuelo del dividendo y la sobrevaloración del consenso
-Nos venden a bombo y platillo el jugoso dividendo del 5,66% y el próximo pago de 0,40 euros por acción para el 16 de diciembre de 2026. Pero analicemos el *payout ratio*: se encuentra en un elevadísimo **79,96%**. La compañía está destinando casi el 80% de sus beneficios a retribuir al accionista en un momento en el que su flujo de caja operativo (212,54 millones en 2025) apenas cubre con holgura semejante esfuerzo retributivo y las inversiones necesarias en transición energética. Esto huele a un dividendo artificialmente sostenido para mantener contentos a los inversores minoristas, comprometiendo la flexibilidad financiera a largo plazo.
+### 2. Un dividendo atractivo... ¿sostenible o financiado artificialmente?
+Te encanta destacar el dividendo de 1,00 EUR por acción (y el próximo pago de 0,40 € el 16 de diciembre de 2026), que ofrece una rentabilidad del 5,66%. Pero analicemos el *payout ratio*: se encuentra en un alarmante **79,96%**. 
+* Cuando destinas casi el 80% de tus beneficios a remunerar al accionista mientras cargas con un ap
+alancamiento superior a 6 veces tu EBITDA, estás sacrificando la inversión en crecimiento futuro y la flexibilidad financiera indispensable para afrontar la transición energética. 
+* ¿Qué pasa cuando el flujo de caja libre sufre vaivenes —recuerda que el FCF cayó drásticamente a 94,4 millones de EUR al cierre del ejercicio reciente frente a los más de 400 millones de años anteriores—? Ese dividendo deja de ser un activo defensivo para convertirse en una bomba de relojería para el balance.
 
-Además, si miramos objetivamente el **consenso de los 20 analistas**, el precio objetivo medio se sitúa en **17,18 EUR**. Cotizando actualmente a **17,67 EUR**, la acción **ya está cara** frente a la valoración teórica de consenso (arroja una variación implícita negativa del **-2,76%**). El mercado ya ha descontado las buenas noticias, dejando al título sin margen de seguridad. El PER *forward* ha repuntado hasta las **15,57x**, lo que demuestra que ya no estamos ante una ganga, sino ante un valor exigente en múltiplos para lo estancado de su negocio tradicional.
+### 3. Sobrevaloración frente al consenso y agotamiento técnico
+Ignorar el precio objetivo medio de los analistas (17,18 EUR) argumentando que "el consenso siempre va por detrás" es una falacia muy peligrosa. La realidad actual es que a **17,67 EUR**, `ENG.MC` ya cotiza por encima de la media de los expertos, arrojando un potencial de retorno de consenso **negativo (-2,76%)**. 
+* El mercado ya ha descontado con creces la euforia técnica y el rebote que la llevó a acumular un retorno a 252 sesiones del 34,6%. 
+* Además, los osciladores de corto plazo muestran fatiga: el MACD (0,186) se encuentra por debajo de su línea de señal (0,257), lo que indica que el impulso comprador se está desvaneciendo. Comprar en estos niveles es, literalmente, subirse al tren en la última parada antes de la corrección.
 
-### 4. ¿Tendencia técnica sólida o trampa de corto plazo?
-Es cierto que el precio cotiza por encima de sus medias de 50 y 200 sesiones (17,13 EUR y 16,43 EUR respectivamente) y que el RSI en 52,04 marca neutralidad. Pero el MACD (0,187 frente a una señal de 0,258) ya muestra signos claros de desaceleración y una fase de consolidación plana. La subida anual del 34,6% ha agotado gran parte del recorrido alcista defensivo. En un entorno donde los inversores pueden conseguir rentabilidades seguras en activos monetarios o letras del tesoro sin asumir riesgo regulatorio, apostar fuerte por una *utility* con alta palanca financiera y flujos de caja menguantes es correr un riesgo innecesario.
+### 4. Réplica directa a tus argumentos alcistas
+* **"Dominio absoluto en infraestructuras de hidrógeno y gases renovables"**: El hidrógeno verde suena muy bonito en los folletos corporativos, pero la realidad regulatoria y la lentitud en el despliegue de los PERTEs europeos y fondos de transición hacen que la retribución de estos nuevos activos sea todavía una incógnita incierta. Hoy por hoy, no compensan el declive natural de la demanda de gas convencional regulada.
+* **"Salud técnica envidiable por encima de la SMA50 y SMA200"**: Sostenerse por encima de las medias móviles en un mercado lateral-alcista no inmuniza a la compañía ante un catalizador macroeconómico negativo o un recorte inesperado en las retribuciones reguladas por parte de la CNMC. La volatilidad del 14,64% y un *drawdown* del -3,96% muestran que la paciencia de los inversores institucionales es frágil.
 
-### Conclusión
-`ENG.MC` no es el refugio idílico que nos pintan. Detrás de la cortina de humo del dividendo de diciembre y la alegría por el laudo de Perú, se esconde una empresa con un endeudamiento asfixiante (6,15x EBITDA), una generación de caja libre muy debilitada frente a años anteriores y un precio de mercado que ya supera el consenso de los analistas. En lugar de acumular, lo prudente es extremar la cautela y mantenerse al margen de falsas ilusiones defensivas.
-
-**Rating**: REVIEW
-
-FINAL TRANSACTION PROPOSAL: REVIEW
+En conclusión, `ENG.MC` es un valor defensivo clásico atrapado en un corsé de alta deuda y con un recorrido alcista totalmente agotado. Las campanas del dividendo de diciembre no deben cegarte ante los riesgos estructurales. Mantenerse al margen o asegurar beneficios es una estrategia mucho más prudente que comprar en máximos de consenso.
 
 ### Research Manager
-**Recommendation**: Hold
+- **Recommendation**: Hold
+- **Rationale**: 
+Ambos analistas coinciden en la recomendación de **HOLD** (`Hold`), y los datos fundamentales reflejan un escenario de equilibrio entre fortalezas defensivas y vulnerabilidades financieras que justifica mantener la postura actual en **`ENG.MC`**. 
 
-**Rationale**: El debate entre el analista alcista y el bajista pone de manifiesto una dualidad compleja en ENG.MC. Por un lado, el bando alcista destaca catalizadores sólidos como la reciente victoria en el arbitraje contra Perú en TGP y COGA, una tendencia técnica alcista sostenida por encima de la SMA de 200 sesiones (16,43 EUR), un PER forward de 15,57x y una atractiva rentabilidad por dividendo del 5,66% respaldada por el próximo pago de 0,40 euros por acción en diciembre. Por otro lado, los argumentos bajistas señalan con acierto debilidades fundamentales importantes, como la fuerte contracción del flujo de caja libre en 2025 (94,42 millones de euros), un ratio de endeudamiento elevado (deuda neta sobre EBITDA de 6,15x) y un precio de cotización actual (17,67 EUR) que ya se sitúa ligeramente por encima del precio objetivo medio de consenso de los analistas (17,18 EUR). Tras sopesar ambas posturas, la evidencia se mantiene equilibrada: los aspectos positivos de retribución y resolución legal compensan los riesgos de endeudamiento y la presión sobre el flujo de caja, lo que impide un sesgo direccional claro hacia la compra o la venta.
+Por el lado alcista, la compañía ofrece un atractivo dividendo con una rentabilidad (*dividend yield*) del **5,66%** y un próximo pago de **0,40 EUR por acción** fechado para el **16 de diciembre de 2026**, respaldado por unos ingresos recuperados en 2025 de **960,4 millones de EUR** y un EBITDA de **762,7 millones de EUR**. Desde una perspectiva técnica, el valor cotiza a **17,67 EUR**, manteniéndose por encima de su media móvil de 50 sesiones (**17,13 EUR**) y de 200 sesiones (**16,43 EUR**), con un retorno a 252 sesiones del **34,6%** y un RSI neutral de **52,04**.
 
-**Strategic Actions**: Mantener la asignación actual neutral en ENG.MC sin realizar nuevas compras ni reducciones de posición. Evitar incrementar la exposición debido a que la cotización actual supera el precio objetivo medio de consenso y el ratio de apalancamiento sigue siendo exigente frente al entorno macroeconómico actual. Supervisar de cerca la evolución del flujo de caja operativo en los próximos trimestres y la materialización efectiva de los flujos derivados del laudo arbitral en Perú.
+Por el lado bajista y de cautela, existen riesgos estructurales claros: la **deuda neta sobre EBITDA se sitúa en un elevado 6,15x** (con una deuda total de unos **3.155,8 millones de EUR** frente a **537,3 millones de EUR** en caja) y el *payout ratio* es del **79,96%**, lo que limita la flexibilidad financiera ante un entorno de tipos de interés vigilado por el BCE. Además, el precio actual de **17,67 EUR** supera ligeramente el precio objetivo medio de consenso de los analistas (**17,18 EUR**), arrojando un potencial de consenso negativo del **-2,76%**, mientras que el MACD (**0,186**) se encuentra por debajo de su línea de señal (**0,257**), evidenciando agotamiento a corto plazo. 
+
+La balanza entre la retribución al accionista y los soportes técnicos frente al alto apalancamiento y la valoración ligeramente por encima del consenso dictan que no hay motivos suficientes para inclinar la balanza hacia la compra agresiva ni hacia la liquidación, haciendo del **Hold** la decisión más coherente.
+
+- **Strategic Actions**: 
+  - **Exposición actual (Hipótesis)**: Mantener la posición ponderada existente en **`ENG.MC`** dentro de una asignación estándar de renta variable defensiva o de servicios públicos (*utilities*), sin realizar ampliaciones de cartera (*no buying the dip or scaling up*).
+  - **Gestión de flujos y dividendos**: Capturar el próximo dividendo de **0,40 EUR por acción** programado para el **16 de diciembre de 2026**, pero destinando preferentemente este flujo de caja a liquidez o a desapalancamiento operativo en lugar de reinvertirlo automáticamente en el valor dada la ratio de deuda neta/EBITDA de **6,15x**.
+  - **Niveles de control y stop-loss técnico**: Establecer una vigilancia estricta sobre la media móvil de 50 sesiones (**17,13 EUR**) y la SMA200 (**16,43 EUR**). Una perforación sostenida a la baja de la media de 200 sesiones, combinada con un empeoramiento en el flujo de caja libre (que cerró en **94,4 millones de EUR** en 2025 frente a periodos anteriores más elevados), debe servir como activador para revisar la tesis y pasar a una postura de recorte (*Underweight* / *Sell*).
+  - **Seguimiento macroeconómico**: Monitorear las decisiones del Banco Central Europeo de cara a la reunión del 17 de diciembre de 2026 y la evolución de los costes de refinanciación corporativa en Europa.
 
 ## III. Trading Team Plan
 
 ### Trader
 **Action**: Hold
 
-**Reasoning**: La evidencia para ENG.MC se encuentra equilibrada entre catalizadores positivos como la rentabilidad por dividendo del 5,66% y el arbitraje ganado en Perú, frente a fundamentos de deuda neta elevada y un flujo de caja libre contraído. Dado que el precio actual de 17,67 EUR supera el objetivo de consenso de los analistas de 17,18 EUR, no se justifica abrir nuevas posiciones ni liquidar las actuales, recomendando mantener la asignación neutral.
+**Reasoning**: La cotizacion actual de ENG.MC se situa en 17,67 EUR, mostrando estabilidad tecnica por encima de sus medias moviles de 50 y 200 sesiones pero con un impulso debilitado reflejado por el MACD y un precio ligeramente superior al objetivo de consenso de analistas de 17,18 EUR. Aunque ofrece una atractiva rentabilidad por dividendo del 5,66% con un pago proximo de 0,40 EUR en diciembre de 2026, el elevado apalancamiento con una ratio de deuda neta sobre EBITDA de 6,15x limita la flexibilidad financiera y aconseja mantener la posicion existente sin realizar nuevas compras.
 
 **Entry Price**: not provided
 
-**Stop Loss**: not provided
+**Stop Loss**: 16.43
 
-**Position Sizing**: Mantener la ponderación actual en la cartera
+**Position Sizing**: 3% of portfolio
 
 FINAL TRANSACTION PROPOSAL: **HOLD**
 
@@ -251,43 +305,46 @@ FINAL TRANSACTION PROPOSAL: **HOLD**
 
 ### Aggressive Analyst
 
-Aggressive Analyst: ¡Atención a todos los analistas! Mientras el bando conservador y el neutral se inmovilizan en el miedo y la indefinición, están dejando pasar una oportunidad de oro con **ENG.MC** que los inversores audaces no podemos desaprovechar. 
+Aggressive Analyst: ¡Basta ya de tanto inmovilismo y timidez innecesaria! Mientras el analista conservador y el neutral se escudan en excusas tibias y se paralizan ante una ratio de apalancamiento o un hipotético desfase milimétrico frente al consenso de analistas, están ignorando por completo la verdadera fuerza y el enorme potencial alcista que **ENG.MC** tiene sobre la mesa. 
 
-Viendo la postura neutral que aboga por la parálisis bajo la excusa de que el precio de 17,67 EUR roza ligeramente el objetivo de consenso de 17,18 EUR, y las habituales advertencias cobardes sobre la deuda, os digo que estáis midiendo el valor con una regla rota. ¿De verdad vais a ignorar que acabamos de ganar el arbitraje internacional en Perú contra TGP y COGA? Este catalizador descomunal, publicado por *Cinco Días* el 18 de noviembre, elimina de un plumazo una de las incertidumbres legales y financieras más pesadas de los últimos años, abriendo la puerta a una revalorización explosiva de los activos latinoamericanos y liberando un potencial alcista que los analistas tradicionales aún no han tenido tiempo de recalcular en sus modelos obsoletos.
+Hablemos claro y con datos duros: la acción cotiza a 17,67 EUR, manteniéndose con una solidez envidiable por encima de su media móvil de 50 sesiones (17,13 EUR) y, sobre todo, destrozando expectativas con un impresionante retorno anual del 34,6% y superando al propio IBEX en más de 10 puntos porcentuales a 63 sesiones. Pretender que una compañía con esta inercia alcista y un margen de beneficios netos superior al 30% se quede estancada en un simple "mantener" por miedo a los tipos del BCE es renunciar a ganancias extraordinarias. 
 
-Además, hablan de la deuda neta sobre EBITDA de 6,15x como si fuera una sentencia de muerte, ignorando por completo la naturaleza de una *utility* regulada de infraestructura crítica. La compañía está reduciendo su deuda total de forma constante desde los 3.806 millones en 2023 hasta los niveles actuales de balance, mientras genera un flujo de caja operativo sólido y mantiene una rentabilidad por dividendo del **5,66%**, respaldada por el inminente pago de 0,40 euros por acción el próximo 16 de diciembre. ¿Dónde vais a encontrar un rendimiento de rentas así en un entorno de tipos donde el ahorrador sufre rentabilidades reales negativas?
+¿Qué nos dice el analista conservador sobre la deuda? Se obsesiona con una ratio de deuda neta sobre EBITDA de 6,15x, ignorando que estamos ante una infraestructura regulada esencial, un monopolio natural con flujos de caja predecibles y un EBITDA operativo que en 2025 se recuperó de forma sobresaliente hasta superar los 762 millones de euros. Esa deuda no es un ancla estéril; es el capital invertido en activos críticos que sostienen una de las mejores rentabilidades por dividendo del mercado: un imponente 5,66%, con un suculento pago confirmado de 0,40 EUR por acción listo para caramelo este próximo 16 de diciembre de 2026. ¡Ignorar este flujo de caja inmediato por pura cabezonería conservadora es tirar dinero a la basura!
 
-La tendencia técnica nos acompaña de forma rotunda: cotizamos holgadamente por encima de la media de 50 sesiones (17,13 EUR) y de la de 200 sesiones (16,43 EUR), acumulando una rentabilidad anual superior al 34% y con un RSI de 52,04 que muestra un terreno absolutamente neutral, listo para el siguiente impulso. Quedarse de brazos cruzados o "mantener la ponderación neutral" por miedo a un desfase de unos céntimos con el consenso es de mediocre; aquí hay catalizadores de crecimiento, resolución de litigios internacionales y una retribución al accionista de primer nivel que justifican plenamente apostar fuerte por la compañía. ¡No nos quedemos mirando desde la barrera mientras el mercado despega!
+Por su parte, el analista neutral se ampara cobardemente en que el precio actual supera ligeramente el objetivo medio de consenso de 17,18 EUR. ¡Despertad ya! Los precios objetivos de los analistas son simplemente medias estáticas del pasado, mientras que el mercado premia la innovación estratégica y la resiliencia corporativa. Con un PER *trailing* muy atractivo de 12,89x y cotizando con descuento frente a la mediana de sus pares sectoriales, **ENG.MC** está infravalorada en su capacidad de liderar la transición hacia los gases renovables y el hidrógeno verde. 
 
-**Rating**: HOLD
-FINAL TRANSACTION PROPOSAL: **HOLD**
+Adoptar una postura puramente neutral o defensiva nos hace perder el tren de la verdadera creación de valor. La volatilidad está controlada en un 14,6% y el RSI en 52 muestra un terreno neutral perfecto para acumular con valentía antes del siguiente gran impulso técnico. No nos quedemos mirando desde la barrera: hay que arriesgar para ganar, aprovechar el dividendo, exprimir la tendencia alcista de fondo y proyectar una estrategia audaz que deje atrás las dudas mediocres.
+
+**Rating**: BUY
+
+FINAL TRANSACTION PROPOSAL: **BUY**
 
 ### Conservative Analyst
 
-Conservative Analyst: Estimado colega analista agresivo, entiendo perfectamente el atractivo de buscar retornos rápidos y dejarse deslumbrar por titulares rimbombantes, pero como analista de riesgos debo recordarle que el optimismo ciego es la vía más rápida hacia la destrucción de capital. Calificar nuestra prudencia de "cobardía" o "parálisis" demuestra una peligrosa ligereza a la hora de evaluar amenazas reales que amenazan la estabilidad de nuestra cartera.
+Conservative Analyst: Escuchar al analista agresivo abogar por compras incontroladas en **ENG.MC** resulta sumamente alarmante para cualquier gestor de riesgos que vele por la integridad del capital. Calificar nuestra prudencia de "inmovilismo" o "cobardía" denota una peligrosa falta de perspectiva ante las vulnerabilidades estructurales reales que arrastra la compañía. 
 
-Primero, minimiza usted con total alegría un ratio de endeudamiento neto sobre EBITDA que se sitúa en un alarmante 6,15x. Descartar este dato bajo el argumento de que se trata de una *utility* regulada es un error imperdonable; un apalancamiento superior a seis veces el EBITDA deja a la compañía extremadamente vulnerable en un escenario macroeconómico donde el Banco Central Europeo mantiene la presión sobre la liquidez y las exigencias de reservas mínimas a los bancos. Si los costes de refinanciación aumentan o se producen desvíos en los flujos de caja —como ya vimos con la contracción del flujo de caja libre en el ejercicio 2025 hasta los 94,4 millones de euros frente a los más de 350 millones del año anterior—, esa "solidez" de balance se evapora de inmediato, poniendo en riesgo la propia sostenibilidad del dividendo que tanto defiende.
+Comencemos por rebatir su falsa seguridad respecto a la deuda. Minimizar una ratio de deuda neta sobre EBITDA de 6,15x bajo el argumento de que se trata de un monopolio regulado es ignorar por completo el actual escenario macroeconómico y las tensiones en los costes de financiación. Con un entorno donde el Banco Central Europeo mantiene la presión sobre la política monetaria y las reservas bancarias de cara a su próxima reunión de diciembre, cargar la cartera con un activo hiperapalancado expone a la firma a un riesgo de refinanciación severo. Esa deuda no es un mero adorno contable: es un pasivo exigible que presiona de forma directa la generación de flujos de caja libre, los cuales, como reflejan los estados financieros, cayeron bruscamente hasta los 94,4 millones de euros al cierre de 2025.
 
-Segundo, confía ciegamente en el impacto del arbitraje ganado en Perú contra TGP y COGA, publicado por *Cinco Días* el pasado 18 de noviembre, asumiendo una revalorización milagrosa. La realidad fundamental es que los analistas institucionales, con 20 opiniones de consenso sobre la mesa, sitúan el precio objetivo medio en 17,18 EUR. Con el título cotizando a 17,67 EUR, el mercado ya está pagando una prima sobre el valor fundamental estimado, ofreciendo una rentabilidad de consenso implícita negativa del -2,76%. Comprar o ampliar posiciones en este nivel técnico —muy cerca además de la resistencia de la media móvil de 20 sesiones en 17,80 EUR y con un MACD perdiendo vigor frente a su señal— no es ser audaz, es perseguir el precio en la parte alta de la valoración lógica.
+El analista agresivo también ensalza ciegamente el atractivo del dividendo del 5,66% y el próximo pago de 0,40 EUR por acción previsto para el 16 de diciembre de 2026. Olvida convenientemente que un *payout ratio* cercano al 80% (79,96%) sobre unos beneficios por acción que el consenso proyecta a la baja (*forward EPS* de 1,135 EUR frente a los 1,37 EUR anteriores) pone en entresiguiente la sostenibilidad a largo plazo de dicha retribución si la compañía no prioriza la desapalancación. Perseguir un dividendo en un valor cuya cotización actual (17,67 EUR) ya supera el precio objetivo medio del consenso de analistas (17,18 EUR) es una receta clásica para quedar atrapados en una trampa de rendimiento mientras el principal se devalúa.
 
-Por último, apoyarse exclusivamente en la rentabilidad por dividendo del 5,66% y el próximo abono de 0,40 euros el 16 de diciembre ignora que un *payout ratio* cercano al 80% (79,96%) sobre unos beneficios netos que sufrieron pérdidas dramáticas de -299 millones de euros en 2024 deja un margen de maniobra sumamente ajustado si el negocio regulado sufre recortes retributivos. 
+Descartar el consenso del mercado bajo la excusa de que "las medias son estáticas" es una temeridad especulativa. El hecho de que el precio se sitúe por encima del objetivo de los analistas indica que gran parte de la recuperación técnica y el entusiasmo por el valor ya están descontados en el precio actual. Con un MACD que muestra un impulso debilitado por debajo de su línea de señal, asumir un riesgo de compra en este preciso nivel técnico expone a la cartera a correcciones innecesarias. 
 
-Proteger los activos de la firma exige rigor, no euforia. Mantener una postura neutral y no arriesgar capital fresco pagando por encima del consenso es la única decisión responsable para garantizar la seguridad a largo plazo.
+La estabilidad, la seguridad y la mitigación de riesgos deben prevalecer siempre sobre la euforia desmedida. Mantener la posición existente sin realizar nuevas adquisiciones es la única vía sensata para proteger nuestros activos, evitar la exposición a un endeudamiento excesivo y asegurar que el capital permanezca a salvo de volantazos macroeconómicos.
 
 **Rating**: HOLD
+
 FINAL TRANSACTION PROPOSAL: **HOLD**
 
 ### Neutral Analyst
 
-Neutral Analyst: Escuchando las posturas de ambos, queda claro que tanto el analista agresivo como el conservador caen en extremos que no reflejan la realidad actual de **ENG.MC**. 
+Neutral Analyst: Escuchando tanto la postura eufórica del analista agresivo como la extrema cautela del analista conservador, queda claro que ambos extremos pecan de parcialidad. El analista agresivo acierta al señalar la excelente inercia técnica de **ENG.MC**, con un retorno anual del 34,6% que supera al IBEX y un sólido rendimiento por dividendo del 5,66% respaldado por el próximo pago de 0,40 EUR el 16 de diciembre de 2026. Sin embargo, ignora peligrosamente la realidad financiera de la compañía: tachar de irrelevante una ratio de deuda neta sobre EBITDA de 6,15x en plena antesala de las decisiones de tipos del Banco Central Europeo es una temeridad que menosprecia el riesgo de refinanciación y la presión sobre el flujo de caja libre, el cual descendió notablemente a 94,4 millones al cierre de 2025. 
 
-Por un lado, el analista agresivo descarta con demasiada ligereza los riesgos estructurales de la compañía. Afirmar que un ratio de deuda neta sobre EBITDA de 6,15x es irrelevante solo porque se trata de una *utility* regulada es ignorar la presión financiera real que imponen los costes de refinanciación en un entorno europeo donde el BCE mantiene la cautela y la exigencia de liquidez. Apostar ciegamente por una revalorización "explosiva" basándose únicamente en la victoria del arbitraje en Perú contra TGP y COGA —publicada el 18 de noviembre de 2026 en *Cinco Días*— peca de un optimismo desmedido, olvidando que los modelos de consenso de 20 analistas sitúan el precio objetivo medio en 17,18 EUR, por debajo de los 17,67 EUR a los que cotiza actualmente el valor. Perseguir el precio pagando una prima sobre el consenso técnico (con un MACD perdiendo algo de fuerza frente a su señal) no es audacia, es asumir un riesgo innecesario.
+Por otro lado, el analista conservador se refugia en un inmovilismo defensivo absoluto, argumentando que la cotización actual de 17,67 EUR supera el objetivo de consenso de 17,18 EUR y condenando el dividendo por un payout del 79,96%. No obstante, su visión es excesivamente pesimista al ignorar que **ENG.MC** opera bajo un marco regulado de infraestructuras esenciales con un PER trailing atractivo de 12,89x y una valoración relativa favorable frente a sus pares. Asustar a los inversores con catastrofismos macroeconómicos obvia que el valor se mantiene holgadamente por encima de sus medias móviles de 50 y 200 sesiones (17,13 EUR y 16,43 EUR respectivamente), demostrando una resiliencia estructural incuestionable.
 
-Por otro lado, el analista conservador se refugia en un inmovilismo excesivo que paraliza cualquier gestión activa de la cartera. Pintar la situación financiera como una catástrofe inminente por el hecho de tener un *payout* del 79,96% o una contracción puntual en el flujo de caja libre de 2025 ignora la sólida tendencia alcista a medio y largo plazo —con el precio holgadamente por encima de la SMA50 en 17,13 EUR y la SMA200 en 16,43 EUR— y el atractivo indiscutible de una rentabilidad por dividendo del 5,66%, respaldada por el inminente pago de 0,40 euros por acción previsto para el 16 de diciembre de 2026. Despreciar este flujo de rentas en un contexto donde los inversores buscan refugio defensivo es perder de vista el propósito principal del activo.
+La respuesta sensata no es lanzarse a comprar de manera descontrolada ni tampoco paralizarse por completo ante la deuda; la clave reside en una gestión equilibrada que valide mantener o adoptar una posición moderada y diversificada (hipotéticamente un 3% de la cartera) protegiéndola con un stop-loss riguroso en 16,43 EUR. Esto permite capturar el jugoso dividendo y la tendencia técnica alcista sin descuidar el perfil de riesgo ni ignorar el endeudamiento. Una perspectiva verdaderamente neutral demuestra que se puede aprovechar el potencial del valor sin caer en la euforia ciega ni en el miedo paralizante.
 
-La estrategia verdaderamente sensata no es ni comprar con euforia ni liquidar por miedo, sino mantener una postura equilibrada. La posición actual en **ENG.MC** debe preservarse intacta: la combinación de catalizadores fundamentales positivos, como la resolución de los litigios internacionales y la retribución al accionista, equilibra perfectamente los riesgos de endeudamiento y valoración justa. Mantener la ponderación neutral nos permite capturar el dividendo y disfrutar de la estabilidad técnica sin exponernos a sobrecostes innecesarios.
+**Rating**: NEUTRAL
 
-**Rating**: HOLD
 FINAL TRANSACTION PROPOSAL: **HOLD**
 
 ## V. Portfolio Manager Decision
@@ -295,9 +352,9 @@ FINAL TRANSACTION PROPOSAL: **HOLD**
 ### Portfolio Manager
 **Rating**: Hold
 
-**Executive Summary**: Mantener la asignación actual en ENG.MC sin realizar nuevas compras ni reducciones de posición. La cotización actual de 17,67 EUR se sitúa ligeramente por encima del precio objetivo medio de consenso de 17,18 EUR, y el ratio de endeudamiento neto sobre EBITDA de 6,15x exige prudencia. El horizonte de inversión se proyecta a medio plazo para capturar la rentabilidad por dividendo del 5,66% y el próximo pago de 0,40 euros por acción en diciembre.
+**Executive Summary**: Mantener la posicion actual en ENG.MC sin realizar nuevas adquisiciones para capturar el dividendo del 5,66% (pago de 0,40 EUR el 16 de diciembre de 2026) mientras se vigila de cerca la sostenibilidad financiera. La exposicion debe limitarse al 3% de la cartera, utilizando un stop-loss estricto en 16,43 EUR para cubrir los riesgos derivados del elevado apalancamiento.
 
-**Investment Thesis**: La decisión de mantener la calificación de Hold se fundamenta en el equilibrio de fuerzas expuesto en el debate de los analistas. Por un lado, los catalizadores alcistas son innegables: la reciente victoria en el arbitraje internacional en Perú contra TGP y COGA (publicada por Cinco Días el 18 de noviembre de 2026), una sólida tendencia técnica por encima de la SMA de 200 sesiones (16,43 EUR) y una atractiva rentabilidad por dividendo del 5,66% respaldada por el inminente pago de 0,40 euros por acción el 16 de diciembre de 2026. Por otro lado, los argumentos de riesgo señalan con acierto debilidades financieras estructurales, como un elevado apalancamiento con una ratio de deuda neta sobre EBITDA de 6,15x, una contracción del flujo de caja libre en 2025 hasta los 94,42 millones de euros y un precio de cotización (17,67 EUR) que ya rebasa el precio objetivo medio de consenso de los analistas (17,18 EUR), lo que arroja una rentabilidad implícita negativa del -2,76%. Dado que los aspectos positivos de retribución y resolución legal compensan los riesgos de endeudamiento pero no justifican pagar una prima sobre el consenso, la evidencia se mantiene equilibrada. Lo que cambiaría esta tesis hacia una postura compradora sería una reducción significativa del apalancamiento o una revisión al alza del consenso de analistas tras materializarse los flujos del laudo peruano.
+**Investment Thesis**: La tesis de retencion se fundamenta en un equilibrio de fuerzas entre la resiliencia tecnica y los fundamentos operativos del valor. Por un lado, el analista agresivo acierta al destacar la solidez del soporte tecnico por encima de las medias moviles de 50 (17,13 EUR) y 200 sesiones (16,43 EUR), el atractivo retorno anual del 34,6% y la rentabilidad por dividendo del 5,66% respaldada por unos ingresos recuperados en 2025 de 960,4 millones de EUR. Sin embargo, las advertencias del analista conservador sobre la vulnerabilidad financiera no pueden ser ignoradas: la ratio de deuda neta sobre EBITDA se situa en un elevado 6,15x, el payout ratio roza el 80% y el flujo de caja libre cayo a 94,4 millones de EUR, lo que limita la flexibilidad ante la politica de tipos del BCE. Aunque el precio actual de 17,67 EUR supera ligeramente el objetivo de consenso de 17,18 EUR, la cotizacion muestra un impulso debilitado en el MACD. La evidencia combinada demuestra que los riesgos de apalancamiento neutralizan el entusiasmo alcista, justificando mantener la posicion existente sin escalar exposicion hasta que mejore la generacion de caja o la relacion deuda/EBITDA.
 
 **Price Target**: 17.1825
 

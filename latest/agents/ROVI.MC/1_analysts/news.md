@@ -1,76 +1,76 @@
-**Rating**: REVIEW
+**Rating**: HOLD
 
-### Informe de Investigación y Análisis de Mercado: Laboratorios Farmaceuticos Rovi, S.A. (`ROVI.MC`)
+**FINAL TRANSACTION PROPOSAL**: HYPOTHETICAL HOLD - No trade executed.
 
-#### 1. Resumen de Identidad y Contexto Bursátil
-* **Ticker:** `ROVI.MC` (Bolsa de Madrid, MCE)
-* **Sector / Industria:** *Healthcare / Drug Manufacturers - Specialty & Generic*
-* **Divisa:** EUR
-* **Precio de Cierre (20-11-2026):** 63.10 EUR
-* **Variación en la sesión:** -4.54%
-* **RSI (14):** 43.49 (zona neutral, ligeramente débil)
-* **MACD:** 1.73 (por debajo de su línea de señal en 2.30)
-* **Drawdown Actual:** -24.96% desde máximos recientes, con una volatilidad del 27.11%.
+### Informe de Análisis y Estado de Situación: Laboratorios Farmaceuticos Rovi, S.A. (`ROVI.MC`)
+
+A continuación se presenta un análisis exhaustivo y estructurado de la compañía farmacéutica española **Laboratorios Farmaceuticos Rovi, S.A. (`ROVI.MC`)** cotizada en la Bolsa de Madrid (MCE) y vinculada al índice de referencia Ibex 35, basándose estrictamente en la evidencia de datos financieros y de mercado disponible a fecha de 21 de noviembre de 2026.
 
 ---
 
-#### 2. Fundamentos y Estado Financiero
+### 1. Perfil y Datos Bursátiles Clave (`ROVI.MC`)
+* **Ticker:** `ROVI.MC`
+* **Sector / Industria:** Healthcare / Drug Manufacturers - Specialty & Generic
+* **Precio de Cierre (2026-11-20):** 63.10 EUR
+* **Variación Reciente (Sesión / Drawdown):** Descenso del -4.54% en la última sesión registrada; drawdown de -24.96% respecto a máximos recientes, con una volatilidad histórica anualizada del 27.11%.
+* **Medias Móviles:** Cotiza ligeramente por debajo de su media móvil de 20 sesiones (SMA20: 66.02 EUR) y de su media de 200 sesiones (SMA200: 65.03 EUR), aunque se mantiene por encima de la SMA50 (61.50 EUR). El RSI de 14 períodos se sitúa en 43.49 (zona neutral, sin sobreventa ni sobrecompra).
+
+### 2. Fundamentos Financieros
 * **Capitalización de Mercado:** ~3.230 millones de EUR.
-* **PER (Trailing):** 15.70x; **PER (Forward):** 19.09x, reflejando una contracción en las expectativas de beneficios a corto plazo.
-* **BPA (Trailing):** 4.02 EUR; **BPA Forward:** 3.31 EUR.
-* **Valor en Libros (Price-to-Book):** 4.14x (con un valor contable por acción de 15.25 EUR).
-* **Deuda y Solvencia:** Deuda total de ~100.95M EUR frente a una caja de ~70.92M EUR. La ratio de deuda neta sobre EBITDA se sitúa en un sólido **0.15x**, evidenciando un balance muy saneado.
-* **Rentabilidad y Márgenes:** ROE del 28.71% y márgenes de beneficio neto robustos del **24.81%**.
-* **Flujo de Caja:** Flujo de caja operativo de 196.72M EUR y un FCF de ~97.15M EUR (con variaciones reportadas en los estados anuales de cierre a 2025 que alcanzan los 119.27M EUR).
-* **Dividendos:** Rentabilidad por dividendo (*dividend yield*) estimada en el **1.52%** (dividendo por acción de 0.96 EUR), con un *payout ratio* conservador del 25.83%.
+* **Valoración (PER y Múltiplos):** 
+  * *Trailing P/E:* 15.47x con un EPS histórico de 4.08 EUR.
+  * *Forward P/E:* 19.15x basado en un EPS estimado de 3.29 EUR.
+  * *Precio / Valor en Libros (P/B):* 4.14x (Valor en libros por acción: 15.25 EUR).
+  * *EV / EBITDA:* 16.74x.
+* **Rentabilidad y Márgenes:**
+  * Margen de Beneficio Neto (*Profit Margins*): 24.81%.
+  * Retorno sobre el Capital (ROE): 28.71%.
+* **Solvencia y Liquidez:**
+  * Deuda Total: ~100.95 millones de EUR (con una deuda neta sobre EBITDA muy baja, estimada en 0.15x).
+  * Efectivo Total (*Total Cash*): ~70.92 millones de EUR.
+  * Flujo de Caja Libre (*Free Cash Flow*): ~97.15 millones de EUR (con un flujo operativo de 196.72 millones de EUR).
+* **Política de Dividendos:**
+  * Tasa de dividendo anual: 0.96 EUR por acción.
+  * Rentabilidad por dividendo (*Dividend Yield*): 1.52%.
+  * Ratio de Payout: 25.83%.
 
----
-
-#### 3. Cuentas Anuales (Estados Financieros de Referencia)
+### 3. Estados Financieros Históricos Recientes (2023 - 2025)
 * **Ingresos Totales:** 
-  * 2025: 743.48M EUR
-  * 2024: 763.75M EUR
-  * 2023: 829.51M EUR
-*(Se observa una leve tendencia a la baja en la cifra de negocios anual tras el pico de los años anteriores asociado a la pandemia y la fabricación a terceros de vacunas).*
-* **Beneficio Neto:** 
-  * 2025: 140.44M EUR
-  * 2024: 136.88M EUR
-  * 2023: 170.34M EUR
-* **EBITDA:** 
-  * 2025: 216.20M EUR
-  * 2024: 207.69M EUR
-  * 2023: 245.41M EUR
+  * 2023: 829.51 M€
+  * 2024: 763.75 M€
+  * 2025: 743.48 M€ (Refleja una ligera contracción interanual en la cifra de negocio tras los años de pico asociados a la fabricación de vacunas).
+* **Beneficio Neto:**
+  * 2023: 170.34 M€
+  * 2024: 136.88 M€
+  * 2025: 140.44 M€
+* **EBITDA:**
+  * 2023: 245.41 M€
+  * 2024: 207.69 M€
+  * 2025: 216.20 M€
 
----
-
-#### 4. Consenso de Analistas y Precios Objetivo
-* **Número de Opiniones:** 9 analistas.
-* **Precio Objetivo Medio:** 75.22 EUR.
+### 4. Consenso de Analistas y Precios Objetivo
+* **Número de analistas:** 9 opiniones recopiladas.
+* **Precio Objetivo Medio (*Target Mean Price*):** 74.78 EUR.
 * **Precio Objetivo Mínimo:** 67.00 EUR.
 * **Precio Objetivo Máximo:** 89.00 EUR.
-* **Potencial de Revalorización (*Consensus Upside*):** **+19.21%** respecto al precio actual de 63.10 EUR.
+* **Potencial de Revalorización Consenso (*Consensus Upside*):** +18.51% frente al precio de cierre actual de 63.10 EUR.
+
+### 5. Contexto Macroeconómico y Noticiario
+El contexto macroeconómico europeo viene marcado por las expectativas en torno a las próximas reuniones del Banco Central Europeo (BCE) de diciembre de 2026, la evolución de los tipos de interés y la creciente inversión de los hogares en activos refugio a corto plazo en España. Las noticias sectoriales e indexadas muestran un clima general de cautela en los mercados de renta variable española, con un enfoque particular en la inflación y las decisiones monetarias.
+
+### 6. Evidencia Contraria, Soporte y Datos Faltantes
+* **Evidencias de Soporte:** Sólidos márgenes de beneficio operativo y neto (~24.8%), un apalancamiento financiero sumamente bajo (ratio de deuda neta sobre EBITDA de ~0.15x), un ROE elevado (28.7%) y un potencial alcista de consenso de doble dígito (+18.5%) respaldado por analistas profesionales.
+* **Evidencias Contrarias:** Contracción gradual en los ingresos totales desde el ejercicio 2023 (829.5M€) hasta 2025 (743.5M€), lo que indica normalización post-pandemia; cotización actual por debajo de la SMA20 y SMA200; y una rentabilidad por dividendo relativamente baja (1.52%).
+* **Datos Faltantes:** No se dispone de estimaciones detalladas de beneficios o ingresos más allá del consenso general de analistas para los ejercicios posteriores a 2026, ni desglose pormenorizado del impacto divisional de los acuerdos de fabricación a terceros (CMO) en los últimos trimestres analizados. Las fuentes consultadas se limitan a los datos proporcionados por Yahoo Finance y los titulares macroeconómicos asociados.
 
 ---
 
-<h4>5. Contexto Macroeconómico y Noticias Recientes (Noviembre 2026)</h4>
-* Las fuentes de noticias y titulares fechados del 14 al 20 de noviembre de 2026 reflejan un escenario europeo marcado por la política monetaria del BCE (discusiones sobre el incremento de reservas mínimas obligatorias y la senda de tipos de interés para 2026/2027), la inflación y la colocación de activos seguros por parte de los hogares. 
-* *Nota de cobertura de noticias:* La muestra específica de titulares recientes no contiene eventos corporativos de última hora directamente imputables a `ROVI.MC`, manteniéndose la cotización sujeta a dinámicas técnicas y sectoriales de salud en Europa.
-* *URLs de referencia y fuentes:* Datos extraídos de los portales financieros y repositorios de Yahoo Finance (`https://finance.yahoo.com/quote/ROVI.MC/` y subpágina de estados financieros) y agregadores de noticias monetarias (Google RSS / Bankinter / El Economista / Radio Intereconomía).
+### Resumen en Tabla de Puntos Clave
 
----
-
-#### 6. Datos Faltantes y Limitaciones
-* No se dispone de estimaciones detalladas sobre el desglose futuro del negocio de fabricación a terceros (LSD) más allá del consenso de BPA forward y de ingresos. 
-* Ausencia de datos en tiempo real sobre carteras de inversión institucional y ausencia de estimaciones de crecimiento a largo plazo (Earnings Growth nulo o no disponible en los registros instantáneos).
-
----
-
-| Concepto Clave | Valor / Dato Actual | Comentario / Implicación |
-| :--- | :--- | :--- |
-| **Precio de Cierre (`ROVI.MC`)** | 63.10 EUR | Descenso diario del 4.54%; cotiza cerca del soporte de su media de 200 sesiones (65.03 EUR). |
-| **Valoración (PER Forward)** | 19.09x | Descuento moderado frente a máximos históricos, reflejando normalización post-vacuna. |
-| **Solvencia (Deuda Neta / EBITDA)** | 0.15x | Estructura de capital muy conservadora, riesgo financiero prácticamente nulo. |
-| **Consenso de Mercado (Target Mean)** | 75.22 EUR | Implica un potencial alcista del **19.21%** desde el nivel actual. |
-| **Rentabilidad por Dividendo** | 1.52% | Retorno modesto, respaldado por un *payout* sostenible inferior al 26%. |
-
-FINAL TRANSACTION PROPOSAL: REVIEW
+| Categoría | Métrica / Indicador | Valor Actual (`ROVI.MC`) | Implicación para el Análisis |
+| :--- | :--- | :--- | :--- |
+| **Precio y Valoración** | Precio de Cierre | 63.10 EUR (2026-11-20) | Corrección reciente (-4.54% en la sesión); cotiza cerca del soporte de la SMA50. |
+| **Valoración Fundamental** | Forward P/E / Trailing P/E | 19.15x / 15.47x | Valoración razonable para el sector farmacéutico especializado. |
+| **Solvencia y Deuda** | Deuda Neta / EBITDA | 0.15x | Estructura de capital muy sólida y bajo riesgo de impago. |
+| **Rentabilidad** | ROE y Margen Neto | ROE: 28.71% / Margen: 24.81% | Alta eficiencia operativa en la generación de valor para el accionista. |
+| **Expectativas de Mercado** | Target Mean Price | 74.78 EUR (+18.51% upside) | Potencial alcista de doble

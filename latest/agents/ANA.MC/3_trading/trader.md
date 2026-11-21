@@ -1,11 +1,11 @@
-**Action**: Hold
+**Action**: Sell
 
-**Reasoning**: El activo presenta una señal técnica de sobreventa (RSI 29,73), lo que sugiere que una caída adicional sin un catalizador fundamental podría ser limitada. Sin embargo, la estructura financiera de la compañía con un ratio Net Debt/EBITDA de 6,14x y un flujo de caja libre negativo justifica la prudencia, ya que los riesgos de solvencia en un entorno de tipos elevados superan el potencial de revalorización técnica a corto plazo.
+**Reasoning**: La acción se encuentra en una tendencia bajista clara con una estructura técnica deteriorada, situándose por debajo de sus medias móviles clave (SMA20, 50, 200). La fragilidad fundamental, caracterizada por un ratio de deuda neta sobre EBITDA de 6.14x, flujo de caja libre negativo y una política de dividendos potencialmente insostenible, justifica la venta frente a la debilidad del mercado y la incertidumbre corporativa sobre sus divisiones energéticas.
 
-**Entry Price**: 208.34
+**Entry Price**: 184.7
 
-**Stop Loss**: 170.0
+**Stop Loss**: 209.6
 
-**Position Sizing**: Mantener posición actual; no incrementar exposición hasta la superación de la media móvil de 20 días.
+**Position Sizing**: Reducir la posición actual en un 50% o cerrar completamente si la exposición es especulativa.
 
-FINAL TRANSACTION PROPOSAL: **HOLD**
+FINAL TRANSACTION PROPOSAL: **SELL**

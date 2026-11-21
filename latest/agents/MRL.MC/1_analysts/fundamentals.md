@@ -1,42 +1,36 @@
-Este informe técnico-fundamental sobre **MERLIN Properties SOCIMI, S.A. (MRL.MC)** se basa en los datos financieros y de mercado actualizados al 20 de noviembre de 2026.
+Informe fundamental sobre **MERLIN Properties SOCIMI, S.A. (MRL.MC)**
 
-### Análisis Fundamental y Situación Actual
+### Perfil de la Empresa
+Merlin Properties es una SOCIMI (Sociedad Anónima Cotizada de Inversión en el Mercado Inmobiliario) líder en la Península Ibérica, centrada principalmente en el segmento de oficinas, además de centros logísticos y centros de datos. Su modelo de negocio se basa en la gestión de activos inmobiliarios de alta calidad para generar ingresos recurrentes por alquileres.
 
-MERLIN Properties (MRL.MC), un actor clave en el sector de oficinas en España, atraviesa un periodo de volatilidad significativa. Con una capitalización bursátil de ~6.77 mil millones de EUR, la compañía opera bajo una estructura de SOCIMI que requiere un análisis detallado más allá de los múltiplos industriales convencionales.
+### Análisis Financiero y Desempeño
+Basado en los datos al 20 de noviembre de 2026:
 
-**1. Desempeño Financiero y Balance:**
-*   **Rentabilidad y Crecimiento:** La compañía mostró una mejora notable en los resultados de 2025 frente a 2024, con un EBITDA de 954.2 millones EUR y un beneficio neto de 786.1 millones EUR. Sin embargo, el crecimiento de los ingresos sigue siendo un desafío, con una variación anual de -0.006%.
-*   **Solidez del Balance:** MRL.MC presenta un nivel de deuda significativo (Total Debt: 5.39 mil millones EUR). Aunque la empresa ha incrementado sus activos totales (14.27 mil millones EUR en 2025 frente a 13.46 mil millones en 2024), el apalancamiento es un factor de riesgo en el entorno actual de tipos de interés, especialmente con la especulación sobre posibles ajustes en las políticas del BCE (referencia: *El Economista*, 19/11/2026).
+*   **Valoración:** La compañía cotiza a un ratio Precio/Valor Contable (P/B) de 0,78x, lo que sugiere que el mercado valora la acción por debajo de su valor en libros, un escenario común en el sector REIT en entornos de tipos de interés restrictivos. El P/E (trailing) es de 7,54x, con un P/E forward de 19,36x, reflejando una expectativa de menor beneficio por acción ajustado.
+*   **Resultados Recientes:** Los ingresos cerraron 2025 en 538,96 millones de euros, mostrando una mejora respecto a 2024 (494,57 millones). El EBITDA también ha mostrado una tendencia ascendente, pasando de 430,5 millones en 2024 a 954,2 millones en 2025.
+*   **Deuda y Solvencia:** La empresa mantiene un nivel de deuda significativo de 5.062 millones de euros (datos de 2025), lo cual es crítico en un sector intensivo en capital. La capacidad de generar flujo de caja operativo (415,6 millones en 2025) es fundamental para sostener su dividendo del 3,66%.
+*   **Sentimiento del Mercado:** El sentimiento reciente es de cautela. Analistas (Bankinter, 19/11/2026) han expresado incertidumbre respecto a la división de centros de datos, y la reacción del mercado a los últimos resultados ha sido tibia, con la acción cayendo un 1,89% en la última sesión y acumulando un descenso del 20,4% en los últimos 63 días (datos al 20/11/2026).
 
-**2. Contexto de Mercado y Sentimiento:**
-*   **Presión Bajista:** Noticias recientes (*CapitalMadrid*, 19/11/2026) indican un incremento en la presión de los vendedores en corto ("bajistas") tras la publicación de los resultados. El mercado parece haber reaccionado con escepticismo, lo que ha limitado el impulso alcista esperado tras las cifras reportadas (*CapitalMadrid*, 18/11/2026).
-*   **Incertidumbre Estratégica:** Existe una creciente cautela sobre su estrategia de centros de datos (*Bankinter*, 17/11/2026), lo que añade una capa de riesgo operativo a su modelo tradicional de oficinas.
+### Consideraciones para Traders
+*   **A favor:** La acción cotiza con un descuento importante sobre su valor en libros y presenta un consenso de analistas que estima un precio objetivo de 17,01 EUR, lo que representa un potencial de revalorización significativo (casi un 55% de upside según el promedio).
+*   **En contra:** La tendencia técnica es bajista, con el precio (10,93 EUR) muy por debajo de sus medias móviles de 50 (11,65 EUR) y 200 días (13,62 EUR). El RSI de 36,18 indica que, si bien se acerca a zona de sobreventa, no hay una señal clara de reversión alcista inmediata. La incertidumbre macroeconómica respecto al BCE (reunión del 17 de diciembre) añade volatilidad.
 
-**3. Valoración Técnica y Consenso:**
-*   La acción cotiza a 10.93 EUR, con un RSI(14) de 36.18, lo que sugiere que se acerca a terreno de sobreventa pero sin señales claras de reversión.
-*   El precio medio objetivo de los analistas es de 17.00 EUR, lo que implica un potencial alcista teórico del 55.57%. No obstante, este consenso debe tomarse con prudencia dado el actual entorno de incertidumbre macroeconómica.
-
-### Resumen de Riesgos y Oportunidades
-*   **Factores Positivos:** Dividend Yield sólido (~3.5-3.6%); fuerte generación de flujo de caja operativo en 2025 (415.6 millones EUR).
-*   **Factores Negativos:** Alta deuda neta; presión bajista actual; sector de oficinas bajo escrutinio por cambios en las tendencias laborales y tipos de interés.
-
-**Missing Data:** Los datos de flujos de caja operativos y libres para el año en curso (2026) no están disponibles en el conjunto de datos proporcionado, lo que limita la capacidad de evaluar la liquidez inmediata post-resultados.
+### Datos Faltantes
+*   No se dispone de desglose detallado del flujo de caja operativo actualizado para los tres trimestres de 2026.
+*   Faltan datos de transacciones de *insider trading* recientes para confirmar si la directiva está aprovechando el descuento en cotización para realizar compras.
 
 **Rating**: REVIEW
 
-FINAL TRANSACTION PROPOSAL: No actionable signal. Wait for stabilization of the technical trend and clarification on the impact of interest rate policy on the valuation of the data center portfolio before establishing any position.
-
-### Cuadro Resumen de Indicadores Clave
+FINAL TRANSACTION PROPOSAL: El título se encuentra en una tendencia bajista técnica clara y bajo presión por la incertidumbre sectorial en sus centros de datos. La recomendación es mantener o esperar a una señal técnica de estabilización (cruces positivos de MACD o rebote en niveles de soporte históricos) antes de aumentar exposición, dado que el descuento por valor contable puede ser una "trampa de valor" si los tipos de interés se mantienen altos por más tiempo.
 
 | Indicador | Valor |
 | :--- | :--- |
-| Precio Actual | 10.93 EUR |
-| Capitalización Bursátil | 6.77 mil millones EUR |
-| Ratio P/B | 0.78 |
-| Yield de Dividendo | 3.66% |
-| EPS (Trailing) | 1.46 EUR |
-| Upside Consenso | +55.57% |
-| RSI (14) | 36.18 |
-| Deuda Total | 5.39 mil millones EUR |
+| Precio Actual | 10,93 EUR |
+| Market Cap | 6.767,67 M EUR |
+| P/B Ratio | 0,78x |
+| Dividend Yield | 3,66% |
+| Precio Objetivo (Consenso) | 17,01 EUR |
+| Variación 63 días | -20,41% |
+| RSI (14) | 36,18 |
 
-*Fuentes: Yahoo Finance (MRL.MC), Bankinter, CapitalMadrid, El Economista (14-20 Nov 2026).*
+*Fuentes consultadas: Yahoo Finance (MRL.MC), Bankinter (19/11/2026), CapitalMadrid (18/11/2026), Morningstar (16/11/2026).*

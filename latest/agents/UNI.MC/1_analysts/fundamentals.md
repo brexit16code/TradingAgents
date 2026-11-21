@@ -1,44 +1,37 @@
-### Informe de Análisis Fundamental: Unicaja Banco, S.A. (UNI.MC)
+Aquí presento un informe detallado de la situación fundamental de **Unicaja Banco, S.A. (`UNI.MC`)**, basado en los datos proporcionados con fecha de corte al 21 de noviembre de 2026.
 
-**Fecha del informe:** 20 de noviembre de 2026
-**Ticker:** UNI.MC
-**Mercado:** MCE (Madrid)
+### Informe de Análisis Fundamental: Unicaja Banco (`UNI.MC`)
 
-#### Perfil y Situación Actual
-Unicaja Banco, S.A. es una entidad financiera regional española que opera bajo el sector de banca minorista. El precio de cotización a 20 de noviembre de 2026 es de 3,226 EUR, experimentando una caída reciente del 2,71%. La acción muestra una volatilidad del 23,38% y se sitúa por debajo de sus medias móviles de 20 (3,31 EUR) y 50 sesiones (3,35 EUR), aunque se mantiene por encima de la media de 200 días (3,00 EUR), lo que sugiere una tendencia alcista a largo plazo que enfrenta una corrección a corto plazo.
+#### 1. Perfil y Contexto Corporativo
+Unicaja Banco opera como una entidad bancaria regional en España. En la última semana, el enfoque mediático se ha centrado en su estabilidad corporativa y estrategia de crecimiento. Destaca la reelección de Isidro Rubiales como Consejero Delegado (anunciada el 17 de noviembre de 2026 en *Cinco Días* y *El Español*), lo que sugiere una continuidad en la dirección estratégica. Además, la entidad ha mostrado un dinamismo positivo en captación de fondos y financiación sostenible, con un incremento del 16% en financiación ESG y la captación de 1.818 millones en fondos de inversión hasta octubre (fuente: *Economía Digital*, *Estrategias de Inversión*).
 
-#### Análisis Financiero y de Valoración
-*   **Valoración:** La entidad presenta un PER *trailing* de 12,41 y un PER *forward* de 11,31, lo cual es superior a la mediana del sector (9,98), con un ratio de 1,13. El Precio/Libro (P/B) de 1,31 indica que el mercado valora la entidad por encima de su valor contable tangible.
-*   **Rentabilidad y Dividendos:** Unicaja mantiene una política de dividendos atractiva con una rentabilidad (yield) del 5,76% - 5,89%. La ratio de pago (*payout ratio*) es del 73,82%, lo que refleja un esfuerzo significativo por retribuir al accionista, aunque limita la reinversión inmediata en capital.
-*   **Resultados Financieros:** Los ingresos totales han mostrado una tendencia positiva, pasando de 1.977 millones en 2023 a 2.097 millones en 2025. El beneficio neto también ha crecido significativamente, desde 266,7 millones en 2023 a 632,3 millones en 2025, evidenciando una mejora en la eficiencia operativa. Sin embargo, el flujo de caja operativo muestra volatilidad, registrando cifras negativas en el último ejercicio reportado (2025), lo cual requiere atención por parte de los inversores.
+#### 2. Análisis Financiero (Datos a 31/12/2025)
+*   **Resultados:** Unicaja muestra una trayectoria ascendente en ingresos, pasando de 1.977 millones en 2023 a 2.097 millones en 2025. El beneficio neto se ha recuperado notablemente, situándose en 632 millones en 2025 frente a los 266 millones de 2023.
+*   **Balance:** La solvencia parece mantenerse estable con un patrimonio neto (Stockholders Equity) que ha crecido progresivamente desde 6.643 millones (2023) hasta 7.073 millones (2025). La deuda total se ha reducido significativamente de 5.089 millones en 2023 a 4.113 millones en 2025.
+*   **Valoración:** Con una capitalización de mercado de aproximadamente 8.289 millones de EUR y un PER adelantado (forward PE) de 11,31, la acción cotiza con una prima (ratio 1,13) respecto a la mediana de sus comparables (peer median forward PE 9,98).
 
-#### Eventos Recientes y Gobierno Corporativo
-Las noticias de la última semana se han centrado en la gobernanza: la junta ha renovado a Isidro Rubiales como Consejero Delegado por otros tres años. Adicionalmente, el banco está reforzando su estrategia ESG (16% de aumento en financiación sostenible) y ha captado más de 1.800 millones de euros en fondos de inversión hasta octubre, lo que diversifica sus fuentes de ingresos más allá del margen de intereses tradicional.
+#### 3. Métricas de Mercado e Indicadores Técnicos
+*   **Precio:** La acción cerró el 20 de noviembre de 2026 a 3,226 EUR.
+*   **Dividendos:** Ofrece un rendimiento por dividendo (dividend yield) del 5,92%, lo cual es atractivo para inversores en busca de ingresos, respaldado por un ratio de pago (payout ratio) del 72,87%.
+*   **Sentimiento Técnico:** El RSI(14) en 39,95 sugiere que la acción se acerca a niveles de sobreventa, mientras que el MACD se encuentra cerca de su señal, indicando una tendencia lateral-bajista a corto plazo tras un retroceso reciente del 2,71% en la última sesión.
 
-#### Perspectivas de Mercado
-Los analistas mantienen un precio objetivo medio de 3,26 EUR, con un rango que oscila entre los 2,90 EUR y 3,90 EUR. Con una cotización actual de 3,226 EUR, el consenso del mercado sugiere un potencial alcista limitado (aprox. 1,33%), lo que sugiere una valoración justa en los niveles actuales.
+#### 4. Riesgos y Observaciones
+*   **Macroeconomía:** El entorno de tipos de interés sigue siendo una variable crítica. El sector está atento a posibles ajustes en las reservas mínimas obligatorias por parte del BCE, lo cual podría impactar la rentabilidad del margen de intereses (fuente: *El Economista*, 19/11/2026).
+*   **Datos faltantes:** No se dispone de datos detallados de flujo de caja operativo o flujo de caja libre positivos para el último ejercicio reportado (2025), lo que requiere cautela al analizar la capacidad de generación de efectivo orgánica del banco.
 
-#### Datos Faltantes
-*   No se dispone de datos sobre el *operating cashflow* o el *free cashflow* actualizados más allá de los estados financieros anuales, lo que impide una valoración por flujo de caja descontado de alta precisión.
-*   No existen informes detallados de transacciones internas (insiders) en este periodo.
-
----
-
-### Tabla de Datos Clave
-
-| Métrica | Valor |
-| :--- | :--- |
-| **Precio Actual** | 3,226 EUR |
-| **Capitalización Bursátil** | 8.289 M EUR |
-| **PER (Forward)** | 11,31 |
-| **Rentabilidad por Dividendo** | 5,89% |
-| **Precio/Libro** | 1,31 |
-| **EPS (Forward)** | 0,285 EUR |
-| **Analistas (Opiniones)** | 18 |
-| **Precio Objetivo Medio** | 3,26 EUR |
-
----
+#### 5. Conclusión para Traders
+Unicaja presenta fundamentales sólidos con una mejora constante en sus beneficios y una política de dividendos competitiva. La estabilidad en su equipo directivo es una señal positiva para el mercado. Sin embargo, la valoración actual es superior a la media del sector bancario español, por lo que el potencial alcista podría verse limitado a corto plazo según el consenso de analistas (target mean price 3,26 EUR, que implica un upside muy limitado del 1,33%).
 
 **Rating**: HOLD
 
-FINAL TRANSACTION PROPOSAL: Mantener posiciones existentes; esperar una estabilización técnica por encima de 3,35 EUR (SMA50) antes de considerar incremento de exposición, dado el potencial alcista limitado según el consenso de analistas.
+| Concepto | Valor / Nota |
+| :--- | :--- |
+| **Precio de cierre (20/11/2026)** | 3,226 EUR |
+| **PER Adelantado (Forward PE)** | 11,31 |
+| **Rentabilidad por dividendo** | 5,92% |
+| **Capitalización bursátil** | 8.289 M EUR |
+| **Precio objetivo (Consenso)** | 3,26 EUR |
+| **RSI (14)** | 39,95 |
+| **Tendencia (63 días)** | -7,81% |
+
+FINAL TRANSACTION PROPOSAL: Neutral position. Monitor support at 3,00 EUR (SMA200) before considering accumulation, given the current premium over sector peers and limited analyst upside.

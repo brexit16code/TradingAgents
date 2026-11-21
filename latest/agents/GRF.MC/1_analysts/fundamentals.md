@@ -1,45 +1,70 @@
 **Rating**: REVIEW
 
-### Informe Fundamental Integral: Grifols, S.A. (`GRF.MC`)
-
-#### 1. Perfil de la Compañía y Contexto de Negocio
-* **Identidad y Sector:** Grifols, S.A. (`GRF.MC`) es una compañía multinacional española del sector sanitario (*Healthcare*), clasificada específicamente dentro del subsector de fabricantes de productos farmacéuticos y hemoderivados (*Drug Manufacturers - General*), cotizada en la Bolsa de Madrid (MCE) y componente del selectivo IBEX 35 (`^IBEX`).
-* **Situación de Mercado (Fecha de referencia: 20 de noviembre de 2026):**
-  * Precio de cotización: `10.90 EUR`
-  * Capitalización bursátil: `~7.420 millones de EUR`
-  * Rango de analistas (Precio Objetivo Consensus): `15.25 EUR` (con un mínimo de `9.00 EUR` y un máximo de `23.70 EUR`, basados en 11 opiniones de analistas, lo que arroja un potencial de revalorización estimado del `39.89%`).
-
-#### 2. Análisis de los Estados Financieros y Fundamentales
-A partir de los datos históricos de los estados financieros suministrados para los ejercicios cerrados entre 2023 y 2025, se observa la siguiente evolución:
-
-* **Cuenta de Resultados (Income Statement):**
-  * **Ingresos Totales:** Crecimiento sostenido. Pasaron de `6.592 millones de EUR` en 2023 a `7.212 millones de EUR` en 2024, alcanzando los `7.524 millones de EUR` al cierre de 2025 (lo que refleja una tasa de crecimiento interanual de los ingresos (*revenue growth*) cercana al `9.4%`).
-  * **EBITDA:** Muestra una sólida recuperación operativa, escalando desde los `1.168 millones de EUR` (2023) hasta los `1.484 millones de EUR` (2024) y cerrando 2025 en `1.641 millones de EUR` (el snapshot indica un EBITDA de `1.736 millones de EUR` en métricas consolidadas recientes).
-  * **Beneficio Neto (Net Income):** Tras un ejercicio 2023 deprimido (`42 millones de EUR`), el beneficio neto se recuperó a `157 millones de EUR` en 2024 y experimentó un avance significativo en 2025 hasta los `402 millones de EUR`, lo que se traduce en un *Trailing EPS* de `0.71 EUR` y un *Forward EPS* estimado de `1.09 EUR`.
-
-* **Balance de Situación (Balance Sheet):**
-  * **Activos Totales:** Se mantuvieron estables en torno a los `19.712 millones de EUR` al cierre de 2025 (ligeramente por debajo de los `21.405 millones de EUR` de 2024 y `20.992 millones de EUR` en 2023).
-  * **Deuda y Apalancamiento:** La deuda total se sitúa en `9.240 millones de EUR` (según métricas actuales del snapshot; `9.566 millones de EUR` al cierre fiscal de 2025 frente a `10.113 millones de EUR` en 2024), contrastando con una posición de caja de `486 millones de EUR`. Esto deja una deuda neta elevada que sitúa la ratio **Deuda Neta / EBITDA en torno a 5.04x**, un factor de riesgo crítico a vigilar para los inversores en renta variable debido al coste de servicio de la deuda en un entorno de tipos de interés de la eurozona aún restrictivos.
-  * **Patrimonio Neto (*Stockholders Equity*):** `5.271 millones de EUR` en 2025 (`5.883 millones de EUR` en 2024), con un valor en libros por acción (*Book Value*) de `8.51 EUR` y un múltiplo Precio/Valor en Libros (*Price-to-Book*) de `1.28x`.
-
-* **Flujos de Caja (Cash Flow):**
-  * El flujo de caja operativo (*Operating Cash Flow*) ha mostrado una notable mejora, pasando de solo `217 millones de EUR` en 2023 a `902 millones de EUR` en 2024 y superando la cota de los `1.047 - 1.116 millones de EUR` en las mediciones recientes de 2025.
-  * El flujo de caja libre (*Free Cash Flow*) se ha recuperado desde un saldo negativo de `-93 millones de EUR` en 2023 hasta los `530 millones de EUR` (2024) y `624 millones de EUR` (2025), permitiendo un perfil de conversión de caja más saludable para hacer frente a los compromisos financieros.
-
-#### 3. Valoración y Múltiplos
-* **PER (Price-to-Earnings):** El *Trailing PE* se sitúa en `15.36x`, mientras que el *Forward PE* desciende atractivamente hasta `9.98x` impulsado por la expansión prevista de beneficios (*Forward EPS* de `1.09 EUR`).
-* **EV/EBITDA:** `10.79x`, un múltiplo razonable para el sector farmacéutico y biotecnológico, condicionado no obstante por la pesada estructura de pasivos financieros de la compañía.
-* **Política de Retribución al Accionista:** Ofrece un *Dividend Yield* modesto del `0.73%` (con un dividendo por acción de `0.08 EUR` y un *payout ratio* conservador del `11.57%`), priorizando la retención de caja para la desapalancación y el gasto de capital (*CapEx* de `423 millones de EUR` en 2025).
-
-#### 4. Análisis Técnico y Noticias Recientes (Noviembre de 2026)
-* **Indicadores Técnicos:** Cotizando a `10.90 EUR`, `GRF.MC` se encuentra operando ligeramente por encima de su media móvil de 50 sesiones (*SMA50* en `10.34 EUR`) y de la media de 200 sesiones (*SMA200* en `9.69 EUR`), aunque bajo la *SMA20* (`11.19 EUR`). Presenta un RSI de `48.55` (zona neutral) y una volatilidad anualizada del `23.96%`. El valor acumula una rentabilidad a 21 sesiones del `8.18%` y del `8.56%` a 63 sesiones.
-* **Noticias y Contexto Macroeconómico:** 
-  * Los resultados del tercer trimestre de 2026 han aportado respaldo fundamental a las acciones, aunque los analistas técnicos apuntan a indicadores mixtos que limitan por el momento un movimiento direccional agresivo en el corto plazo (según fuentes como *Traders Union* y *Bankinter* del 16-17 de noviembre de 2026).
-  * El contexto macroeconómico europeo viene marcado por el debate sobre la senda de los tipos de interés del Banco Central Europeo (BCE) y la gestión de la liquidez bancaria, factores que inciden directa e indirectamente sobre los costes de financiación corporativa en la eurozona.
-
-#### 5. Datos Faltantes y Limitaciones
-* No se dispone de datos detallados sobre transacciones recientes de iniciados (*insider transactions*) en el snapshot actual, ni de la distribución detallada por segmentos geográficos de ingresos fuera de los agregados anuales principales.
+**FINAL TRANSACTION PROPOSAL**: HOLD
 
 ---
 
-### Resumen de Puntos
+### Informe Fundamental Integral: Grifols, S.A. (`GRF.MC`)
+
+#### 1. Perfil de la Compañía y Resumen de Negocio
+* **Identidad Resuelta**: Grifols, S.A. (`GRF.MC`), cotizada en la Bolsa de Madrid (MCE) y parte del selectivo nacional (referencia al índice ^IBEX).
+* **Clasificación Sectorial**: Sanidad / Fabricantes de Productos Farmacéuticos - General (*Healthcare / Drug Manufacturers - General*).
+* **Moneda de Denominación**: EUR.
+* **Contexto Operativo y de Negocio**: Grifols es una compañía global del sector de la salud dedicada principalmente a la investigación, desarrollo, producción y comercialización de medicamentos derivados del plasma sanguíneo (terapias con proteínas plasmáticas), así como a soluciones de diagnóstico y tecnología para laboratorios y hospitales.
+
+---
+
+<h4>2. Análisis Financiero e Historial de Resultados</h4>
+Los datos financieros extraídos de los estados contables reflejan la evolución reciente de la compañía (cifras en EUR):
+
+* **Cuenta de Resultados (Ingresos, EBITDA y Beneficio Neto)**:
+  * **Ejercicio 2023**: Ingresos Totales de 6.592.000.000 EUR, EBITDA de 1.168.000.000 EUR y un Beneficio Neto de 42.000.000 EUR.
+  * **Ejercicio 2024**: Ingresos Totales de 7.212.000.000 EUR, EBITDA de 1.484.000.000 EUR y un Beneficio Neto de 157.000.000 EUR.
+  * **Ejercicio 2025**: Ingresos Totales de 7.524.000.000 EUR, EBITDA de 1.641.000.000 EUR y un Beneficio Neto de 402.000.000 EUR.
+  * *Observación*: Se aprecia una sólida trayectoria de crecimiento continuado en el volumen de ingresos, márgenes de EBITDA y recuperación progresiva del beneficio neto en los últimos tres ejercicios fiscales analizados.
+
+* **Balance de Situación**:
+  * **Ejercicio 2023**: Activos Totales de 20.992.103.000 EUR, Deuda Total de 10.972.953.000 EUR y Patrimonio Neto (*Stockholders Equity*) de 5.368.376.000 EUR.
+  * **Ejercicio 2024**: Activos Totales de 21.405.000.000 EUR, Deuda Total de 10.113.000.000 EUR y Patrimonio Neto de 5.883.000.000 EUR.
+  * **Ejercicio 2025**: Activos Totales de 19.712.000.000 EUR, Deuda Total de 9.566.000.000 EUR y Patrimonio Neto de 5.271.000.000 EUR.
+  * *Observación*: La estructura de pasivo muestra una reducción paulatina de la deuda total desde los niveles de 2023 (cercanos a 11.000 millones de euros) hasta situarse en 9.566 millones de euros al cierre de 2025, evidenciando un esfuerzo de desapalancamiento.
+
+* **Flujos de Caja (*Cash Flow*)**:
+  * **Ejercicio 2023**: Flujo de Caja Operativo de 217.000.000 EUR, Inversión de Capital (CapEx) de -310.000.000 EUR y Flujo de Caja Libre (FCF) de -93.000.000 EUR.
+  * **Ejercicio 2024**: Flujo de Caja Operativo de 902.000.000 EUR, CapEx de -372.000.000 EUR y FCF de 530.000.000 EUR.
+  * **Ejercicio 2025**: Flujo de Caja Operativo de 1.047.000.000 EUR, CapEx de -423.000.000 EUR y FCF de 624.000.000 EUR.
+  * *Observación*: Fuerte repunte operativo a partir de 2024, consolidando un flujo de caja libre positivo y creciente en 2025 (624 millones de euros).
+
+---
+
+<h4>3. Métricas de Valoración y Fundamentales Actuales</h4>
+* **Precio de Cierre (2026-11-20)**: 10,90 EUR (con un cambio diario de -1,40%).
+* **Capitalización de Mercado**: ~7.421.718.016 EUR.
+* **Múltiplos de Valoración**: 
+  * `trailingPE`: 15,15x
+  * `forwardPE`: 9,98x
+  * `priceToBook`: 1.28x
+  * `enterpriseToEbitda`: 10,73x
+* **Endeudamiento**: Deuda total de 9.240.000.512 EUR frente a una caja de 486.000.000 EUR. Ratio Deuda Neta / EBITDA estimado en torno a **5,04x**, lo que denota una carga de apalancamiento todavía elevada pese a las reducciones de deuda en balance.
+* **Rentabilidad y Dividendos**:
+  * Beneficio por acción (EPS trailing): 0,72 EUR; estimado (forward): 1,09 EUR.
+  * Rentabilidad sobre recursos propios (ROE): 7,33%.
+  * Margen de beneficio neto: 6,44%.
+  * Dividendo por acción / Yield: Rentabilidad por dividendo aproximada del 0,73% (Tasa de dividendo de 0,08 EUR con un *payout ratio* del 11,57%).
+* **Consenso de Analistas**:
+  * Precio objetivo medio (*targetMeanPrice*): 15,25 EUR (con un rango bajo de 9,00 EUR y alto de 23,70 EUR basado en 11 opiniones).
+  * *Upside* de consenso: +39,89% respecto al precio actual.
+
+---
+
+<h4>4. Aspectos Técnicos e Indicadores de Mercado</h4>
+* **RSI (14)**: 48,55 (zona neutral, sin sobreventa ni sobrecompra clara).
+* **MACD**: 0,27 (por debajo de su línea de señal 0,35).
+* **Medias Móviles**: Cotiza por debajo de su SMA20 (11,19 EUR), pero por encima de su SMA50 (10,34 EUR) y de su SMA200 (9,69 EUR), lo que indica una tendencia de recuperación a medio y largo plazo.
+* **Volatilidad (24%)** y Rendimiento a 21 y 63 sesiones positivos (+8,18% y +8,56% respectivamente).
+
+---
+
+<h4>5. Información de Noticias y Entorno Macroeconómico Reciente</h4>
+* Las fuentes de noticias recientes recogen consultas de análisis técnico de mercado en España sobre Grifols junto a otros valores (MarketScreener España, 2026-11-19).
+* El entorno macroeconómico está marcado por la atención a las decisiones de política monetaria del BCE (re

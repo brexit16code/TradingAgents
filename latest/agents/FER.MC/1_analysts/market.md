@@ -1,88 +1,43 @@
-# Informe de Análisis Técnico y Fundamental: Ferrovial N.V. (`FER.MC`)
-
-**Fecha de análisis:** 20 de noviembre de 2026  
-**Ticker:** `FER.MC` (Bolsa de Madrid, EUR, benchmark ^IBEX)  
-**Clasificación de negocio:** Industrials / Engineering & Construction  
-
----
-
-### 1. Contexto de Mercado y Evidencia Verificada
-
-El presente análisis evalúa la situación de la compañía **Ferrovial N.V.** (`FER.MC`) basándose en los datos verificados del cierre a fecha **20 de noviembre de 2026**. 
-
-* **Precio de cierre actual:** 52,80 EUR (`close`: 52.79999923706055)
-* **Cambio porcentual diario:** -2,48% (`change_pct`: -2.4750649569532435)
-* **RSI (14):** 56,68 (`rsi14`: 56.68211348119268), lo cual denota una zona neutral-alcista, sin señales inmediatas de sobrecompra (>70) ni sobreventa (<30).
-* **MACD:** 2,09 (`macd`: 2.0855518183682094) y línea de señal MACD (`macd_signal`): 2,13, mostrando un leve cruce o convergencia bajista a corto plazo dado que el MACD se sitúa ligeramente por debajo de su señal.
-* **Medias Móviles:**
-  * SMA 20: 52,31 EUR (`sma20`)
-  * SMA 50: 48,24 EUR (`sma50`)
-  * SMA 200: 54,20 EUR (`sma200`)
-  * *Observación:* El precio actual (52,80 EUR) se encuentra por encima de la SMA 20 y de la SMA 50, reflejando la recuperación de corto y mediano plazo, pero permanece por debajo de la SMA 200 (54,20 EUR), indicando que la tendencia macro de largo plazo aún enfrenta resistencia.
-* **Rentabilidades Históricas:**
-  * Retorno a 21 sesiones: +21,86% (`return21_pct`), reflejando el fuerte impulso alcista reciente reseñado por los medios ("rebota más de un 30% desde los mínimos del año" / Finanzas.com y El Economista).
-  * Retorno a 63 sesiones: -0,83% (`return63_pct`), con un rendimiento relativo positivo de +5,08 pp frente al benchmark (`relative63_pp`).
-  * Retorno a 252 sesiones: -3,20% (`return252_pct`).
-* **Volatilidad y Drawdown:**
-  * Volatilidad anualizada: 30,93% (`volatility_pct`).
-  * Máximo retroceso (*Drawdown*): -14,23% (`drawdown_pct`).
-
----
-
-### 2. Análisis Fundamental y Valoración
-
-* **Capitalización de Mercado:** 37.923.184.640 EUR (~37.920 M EUR)
-* **PER (Trailing):** 33,85x | **PER Forward:** 45,40x
-* **Beneficio por Acción (EPS):** Trailing 1,56 EUR / Forward 1,16 EUR
-* **Valor en Libros (Book Value):** 7,94 EUR | **Precio/Libro (P/B):** 6,65x
-* **EV/EBITDA:** 30,69x
-* **Deuda y Liquidez:** 
-  * Deuda Total: 10.657.000.448 EUR (Balance 2025: 10.732 M EUR)
-  * Efectivo Total: 3.864.000.000 EUR
-  * Ratio Deuda Neta / EBITDA: 4,39x (`net_debt_ebitda`)
-* **Dividendos:** 
-  * Dividendo anual estimado: 1,95 EUR (`dividendRate`)
-  * Rentabilidad por dividendo (*Dividend Yield*): ~3,69% (`dividend_yield_pct`)
-* **Consenso de Analistas:**
-  * Precio objetivo medio (*Target Mean Price*): 59,90 EUR
-  * Rango de precios: Mínimo 48,50 EUR / Máximo 80,00 EUR
-  * Número de opiniones: 20 analistas
-  * Potencial alcista según consenso (*Consensus Upside*): +13,44%
-
----
-
-### 3. Selección de Indicadores Técnicos Complementarios
-
-De acuerdo con la metodología solicitada y excluyendo redundancias, se seleccionan los siguientes **8 indicadores** para el seguimiento y gestión operativa de `FER.MC`:
-
-1. `close_50_sma`: Para identificar la dirección de la tendencia a medio plazo y actuar como soporte dinámico.
-2. `close_200_sma`: Como referencia estructural de largo plazo para confirmar cambios de ciclo.
-3. `close_10_ema`: Para capturar giros rápidos de momentum en las entradas a corto plazo.
-4. `macd`: Para evaluar la divergencia y convergencia de la tendencia a través de las diferencias de medias móviles exponenciales.
-5. `macds`: Señal del MACD para filtrar cruces operativos.
-6. `rsi`: Índice de Fuerza Relativa para vigilar niveles de sobrecompra y sobreventa.
-7. `boll_ub`: Banda superior de Bollinger para identificar zonas de potencial sobrecompra y resistencia técnica de volatilidad.
-8. `atr`: Rango verdadero promedio para dimensionar adecuadamente el riesgo y la colocación de *stop-loss*.
-
----
-
-### 4. Resumen y Conclusiones
-
-Ferrovial (`FER.MC`) muestra una fuerte recuperación estacional en el último mes (+21,86% a 21 sesiones), impulsada por la atención en sus autopistas en EE. UU. y el optimismo del mercado. No obstante, cotiza a múltiplos exigentes (PER forward superior a 45x y ratio EV/EBITDA superior a 30x), reflejando altas expectativas de crecimiento que ya se aproximan al objetivo medio de los analistas (59,90 EUR).
-
 **Rating**: HOLD  
-FINAL TRANSACTION PROPOSAL: HOLD
+FINAL TRANSACTION PROPOSAL: Neutral posture with a focus on risk management given the high valuation metrics and recent recovery rally.
+
+### Informe de Análisis Financiero y Técnico para `FER.MC` (Ferrovial N.V.)
+
+#### 1. Contexto de Mercado y Estado Actual
+Ferrovial N.V. (`FER.MC`) cotiza en la bolsa de Madrid (MCE) dentro del sector industrial y de ingeniería y construcción. A fecha de la instantánea de mercado (20 de noviembre de 2026), el precio de cierre de la acción se sitúa en **52,80 EUR**, reflejando una corrección en la última sesión del -2,48%. No obstante, los datos técnicos y las noticias recientes muestran que el valor ha experimentado un fuerte rebote técnico (aproximadamente un 25% a 30% desde los mínimos anuales recientes), impulsado por el optimismo en torno a sus activos de autopistas en EE. UU. (fuente: *El Economista* y *Finanzas.com*, 17-20 de noviembre de 2026).
+
+#### 2. Análisis Fundamental y de Valoración
+Los fundamentos de `FER.MC` presentan métricas mixtas con primas de valoración elevadas:
+- **Capitalización de Mercado**: 37.923 millones de EUR.
+- **PER (Trailing / Forward)**: El PER histórico se sitúa en 33.85x, mientras que el PER *forward* asciende a 45.43x, lo que indica expectativas de compresión de beneficios o múltiplos exigentes en comparación con la mediana de sus pares sectoriales (ratio de PER relativo de aproximadamente 2.76x frente a la mediana de pares).
+- **Precio / Valor en Libros (P/B)**: 6.65x, reflejando una valoración robusta respaldada por la calidad de sus infraestructuras concesionales.
+- **Deuda y Apalancamiento**: Presenta una deuda total de aproximadamente 10.657 millones de EUR y un ratio de Deuda Neta / EBITDA de **4.39x** (con un EBITDA de 1.548 millones de EUR y caja de 3.864 millones de EUR).
+- **Consenso de Analistas**: El precio objetivo medio de consenso se sitúa en **59,90 EUR** (con un rango entre 48,50 EUR y 80,00 EUR basado en 20 analistas), lo que ofrece un potencial alcista (*upside*) estimado del **13,44%** desde el precio actual de 52,80 EUR.
+- **Dividendos**: Ofrece una rentabilidad por dividendo (*dividend yield*) del **3,69%** (dividendo anual de 1,95 EUR por acción con un *payout ratio* del 71,24%).
+
+#### 3. Análisis Técnico y Dinámica de Precios
+El comportamiento técnico reciente muestra señales de recuperación a medio plazo, aunque con signos de consolidación a corto plazo:
+- **Medias Móviles**: El precio actual (52,80 EUR) se encuentra por encima de su media móvil de 20 sesiones (SMA20 en 52,31 EUR) y de la SMA50 (48,24 EUR), lo que corrobora el impulso alcista de las últimas semanas. Sin embargo, se mantiene ligeramente por debajo de la SMA200 (54,20 EUR), nivel clave de resistencia a largo plazo.
+- **Momentum (RSI y MACD)**: El RSI de 14 períodos se sitúa en **56,68**, indicando una zona neutral con sesgo alcista moderado (lejos de condiciones de sobrecompra extrema). El MACD registra un valor de 2,09 frente a su línea de señal de 2,13, mostrando una leve convergencia bajista o pausa en el ritmo de aceleración del impulso previo.
+- **Volatilidad y Drawdown**: La volatilidad anualizada se sitúa en el 30,93%, y el valor experimenta un *drawdown* del -14,23% respecto a sus máximos previos.
+
+#### 4. Evidencia y Contexto Macroeconómico
+El entorno macroeconómico europeo viene marcado por la evolución de los tipos de interés del Banco Central Europeo (BCE), con reuniones previstas para diciembre de 2026 y debates sobre la gestión de reservas y la política monetaria. En el ámbito doméstico español, la atención de los inversores se divide entre la renta fija a corto plazo (letras del tesoro) y valores defensivos o de infraestructura con flujos de caja estables en dólares y euros como Ferrovial.
+
+#### 5. Datos Faltantes y Limitaciones
+No se dispone de un desglose detallado pormenorizado por tramos geográficos exactos de los contratos de autopistas más allá de las referencias genéricas de prensa sobre EE. UU., ni de las estimaciones detalladas de flujo de caja libre para los próximos tres ejercicios fiscales más allá de los cierres anuales provistos.
 
 ---
 
-### 5. Tabla Resumen de Datos Clave
+### Resumen Estructurado (Tabla Clave)
 
-| Métrica / Indicador | Valor Actual / Referencia | Comentario Técnico / Fundamental |
+| Concepto / Indicador | Valor / Métrica | Implicación para el Inversor |
 | :--- | :--- | :--- |
-| **Precio de Cierre** | 52,80 EUR | Retroceso diario de -2,48%; consolidando tras rebote mensual. |
-| **Media Móvil (SMA 50)** | 48,24 EUR | Superada con holgura; sirve como soporte de mediano plazo. |
-| **Media Móvil (SMA 200)** | 54,20 EUR | Resistencia clave de largo plazo situada por encima del precio actual. |
-| **RSI (14)** | 56,68 | Zona neutral-alcista; sin señales extremas. |
-| **MACD / Señal** | 2,09 / 2,13 | Leve convergencia bajista a vigilar en el muy corto plazo. |
-| **PER (Forward)** | 45,40x | Valoración exigente respecto al sector de Infraestructuras y Construcción. |
-| **Deuda Neta / EBITDA** | 4,39x | Nivel de apalancamiento típico de concesionarias de peajes pesados en capital. |
+| **Precio de Cierre (`FER.MC`)** | 52,80 EUR (20-11-2026) | Corrección moderada (-2,48%) tras el rally mensual. |
+| **Capitalización Bursátil** | 37.923 millones de EUR | Gran capitalización, alta liquidez en MCE. |
+| **Forward P/E** | 45.43x | Valoración exigente; descuenta crecimiento futuro elevado. |
+| **Ratio Deuda Neta / EBITDA** | 4.39x | Apalancamiento moderado-alto propio del sector de concesiones. |
+| **RSI (14)** | 56,68 | Zona neutral-alcista, sin señales de sobrecompra inminente. |
+| **Medias Móviles (SMA50 / SMA200)** | SMA50: 48,24 EUR \| SMA200: 54,20 EUR | Precio superando la SMA50 pero batallando con la resistencia de la SMA200. |
+| **Precio Objetivo Consenso** | 59,90 EUR | Margen alcista estimado del 13,44% según analistas. |
+| **Rentabilidad por Dividendo** | 3,69% (1,95 EUR/acc.) | Atractivo flujo de retorno para inversores por dividendo. |

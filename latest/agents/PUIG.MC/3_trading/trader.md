@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La acción se encuentra en una fase de consolidación técnica, cotizando por debajo de su media móvil de 20 sesiones (19.75) pero manteniéndose sobre soportes clave como la SMA50 (18.78). Aunque los fundamentales muestran una solvencia sólida con un ratio de deuda/EBITDA de 1.63x, la contracción en el crecimiento de los beneficios (-4.4%) y el entorno macroeconómico incierto aconsejan prudencia. Mantenemos una postura neutral hasta observar una ruptura confirmada de la resistencia en los 20.00 EUR o una señal de soporte más clara en la media de 50 sesiones.
+**Reasoning**: La acción de Puig Brands se encuentra en una fase de consolidación técnica, cotizando ligeramente por debajo de su media móvil de 20 periodos (19,75 EUR) y con un MACD que muestra una divergencia bajista. Aunque la salud financiera y la generación de flujo de caja son sólidas, el crecimiento negativo de los beneficios y la ausencia de catalizadores a corto plazo sugieren esperar una ruptura definitiva por encima de 19,75 EUR o una confirmación de soporte en la media móvil de 50 periodos antes de tomar nuevas decisiones.
 
-**Entry Price**: 20.0
+**Entry Price**: 19.75
 
 **Stop Loss**: 18.78
 
-**Position Sizing**: Mantener exposición actual; evitar aumentar peso hasta confirmar reversión de la tendencia de beneficios.
+**Position Sizing**: Mantener posición actual; no exceder una asignación táctica estándar del 2-3% de la cartera total mientras persista la consolidación lateral.
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

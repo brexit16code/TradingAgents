@@ -1,12 +1,10 @@
 
-Conservative Analyst: Es comprensible que el analista agresivo se deje seducir por las cifras de margen neto del 24.81% o por una ratio de deuda neta sobre EBITDA de 0.15x en `ROVI.MC`. Nadie niega que los fundamentos de la compañía y su flujo de caja operativo de casi 197 millones de euros dibujan un balance saneado y envidiable. Sin embargo, calificar esta situación de "oportunidad de oro" basándose en que el precio está "tirado" es ignorar peligrosamente los riesgos bajistas del entorno técnico actual y la realidad de la normalización operativa tras el boom pandémico.
-
-En primer lugar, calificar la caída de los ingresos —que pasaron de 829.51 millones de euros en 2023 a 743.48 millones en 2025— como una simple "digestión sana" es subestimar el riesgo de contracción secular en su división de fabricación a terceros. Confiar ciegamente en un PER forward de 19.09x cuando los beneficios por acción estimados (`forwardEps` de 3.31 EUR) se reducen frente al histórico (`trailingEps` de 4.02 EUR) no es ser audaz; es exponer a la firma a una compresión de múltiplos si el mercado decide penalizar la desaceleración del crecimiento. 
-
-Además, desestimar el aspecto técnico argumentando que un RSI de 43.49 y una cotización por debajo de las medias móviles de 20 y 200 sesiones son solo "pequeños detalles" es una temeridad inaceptable para la gestión de riesgos. Un valor con una volatilidad anualizada del 27.11% y un *drawdown* del -24.96% no está en una zona de acumulación segura, sino en pleno proceso de consolidación lateral-bajista sin una dirección clara. Pretender anticipar un rebote hacia la resistencia solo porque el consenso de analistas sitúa el precio objetivo medio en 75.22 EUR ignora que dichos objetivos son estimaciones a largo plazo y no garantías intrínsecas a corto plazo. Si el soporte cede, un stop loss situado en 58.00 EUR puede acarrear una pérdida dolorosa sobre esa asignación del 5% de la cartera.
-
-La prudencia no es miedo, es disciplina patrimonial. Preservar el capital y minimizar la volatilidad exige esperar a que se rompa claramente la resistencia o se confirme un soporte sólido antes de arriesgar un céntimo en `ROVI.MC`.
-
-**Rating**: HOLD
+Conservative Analyst: **Rating**: REVIEW
 
 FINAL TRANSACTION PROPOSAL: **HOLD**
+
+Colega agresivo, tus argumentos sobre la solidez fundamental de `ROVI.MC` son ciertos en teoría, pero desestiman por completo los riesgos bajistas tangibles que amenazan el capital de la firma. Celebrar un ROE del 28.71% y una deuda neta sobre EBITDA de 0.15x es correcto, pero ignorar que los ingresos netos de la compañía se han contraído de 829.5 millones de euros en 2023 a 743.4 millones en 2025 es una peligrosa miopía que pone en riesgo la sostenibilidad a largo plazo. 
+
+Tachas de "temor coyuntural" la bajada del -4.54% y la debilidad del MACD, pero olvidas que el valor cotiza actualmente a 63.10 EUR, muy cerca de su media móvil de 50 sesiones en 61.50 EUR, un nivel crítico de soporte que, de romperse, activará un riesgo de pérdida de capital mucho mayor. Un perfil prudente no puede permitirse minimizar una volatilidad del 27.11% ni un drawdown del -24.96%. Confiar ciegamente en un precio objetivo medio de consenso de 74.78 EUR sin exigir evidencias técnicas de suelo o un giro real en el momentum es especular, no analizar riesgos. 
+
+Por estas razones, mantener la posición sin realizar ninguna adición es la única respuesta sensata para proteger nuestros activos y evitar una exposición prematura a una tendencia bajista que aún no ha demostrado su agotamiento.

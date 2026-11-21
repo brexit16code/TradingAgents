@@ -1,11 +1,11 @@
-**Action**: Buy
+**Action**: Hold
 
-**Reasoning**: Mapfre presenta fundamentos muy sólidos respaldados por unos ingresos récord en 2025 de 26.355 millones de euros, un beneficio neto de 1.132,6 millones y un ROE del 18,38%, junto a una atractiva rentabilidad por dividendo del 4,40% con próximo pago el 26 de noviembre. Aunque la cotización de 4,09 EUR sufre una corrección técnica a corto plazo por debajo de sus medias móviles de 50 y 200 sesiones y un RSI en 40,65, la valoración sigue siendo atractiva con un PER forward de 9,62x y el consenso sitúa el precio objetivo medio en 4,325 EUR, lo que justifica una acumulación gradual aprovechando este soporte.
+**Reasoning**: A pesar de la solidez fundamental de Mapfre, destacando su ROE del 18,38% y una rentabilidad por dividendo del 4,40%, el momento técnico es desfavorable con el precio en 4,088 EUR perforando las medias móviles de corto plazo y un potencial alcista limitado respecto al objetivo de consenso. La combinación de fundamentales sólidos pero métricas técnicas bajistas justifica mantener la posición actual y no realizar nuevas compras.
 
-**Entry Price**: 4.09
+**Entry Price**: not provided
 
-**Stop Loss**: 3.85
+**Stop Loss**: not provided
 
-**Position Sizing**: 5% of portfolio
+**Position Sizing**: Mantenimiento de la posición existente; 0% de incremento táctico.
 
-FINAL TRANSACTION PROPOSAL: **BUY**
+FINAL TRANSACTION PROPOSAL: **HOLD**

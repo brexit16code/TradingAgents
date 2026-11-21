@@ -1,60 +1,71 @@
-**Rating**: HOLD  
-**FINAL TRANSACTION PROPOSAL**: HOLD (SAB.MC)
+**Rating**: HOLD
 
-### Informe de Análisis Financiero y Macroeconómico: Banco de Sabadell, S.A. (`SAB.MC`)
+**Informe de Análisis y Coyuntura Macroeconómica para Banco Sabadell (`SAB.MC`)**
 
-A continuación se presenta un análisis exhaustivo de la situación de **Banco de Sabadell, S.A. (`SAB.MC`)** cotizada en la Bolsa de Madrid (MCE) en EUR, enmarcada en el sector de Servicios Financieros (Bancos Diversificados) frente al índice de referencia `^IBEX`. El presente informe se basa estrictamente en la evidencia suministrada con fecha de corte a 20 de noviembre de 2026.
-
----
-
-### 1. Contexto Macroeconómico y del Mercado
-El panorama macroeconómico de la eurozona durante noviembre de 2026 viene marcado por la evolución de los tipos de interés del Banco Central Europeo (BCE), la persistencia de tipos reales negativos (según publicaciones recientes de prensa financiera como *Vozpópuli* y *El Economista* a mediados de noviembre) y un endurecimiento por la "puerta de atrás" mediante el incremento de las reservas mínimas obligatorias exigidas a las entidades bancarias. Asimismo, se observa una fuerte demanda de activos conservadores por parte de los hogares (como las letras del tesoro en España, que superan los 23.000 millones, según datos de *Radio Intereconomía* del 16 de noviembre de 2026).
+### 1. Resumen Ejecutivo e Identidad del Instrumento
+* **Instrumento analizado**: `SAB.MC` (Banco de Sabadell, S.A.), cotizado en la Bolsa de Madrid (MCE) en EUR y vinculado al índice de referencia `^IBEX`.
+* **Clasificación sectorial**: Servicios Financieros / Bancos Diversificados.
+* **Precio de cierre actual (al 20-11-2026)**: 3.546 EUR, registrando una caída del -2.34% en la sesión reciente.
+* **Valoración general**: Se emite una recomendación de **HOLD** a la espera de mayor claridad en la consolidación técnica y el impacto de los próximos eventos corporativos (como el dividendo de diciembre que da carpetazo a la fallida OPA de BBVA).
 
 ---
 
-### 2. Análisis Fundamental y Situación Corporativa de `SAB.MC`
-* **Valor de cotización actual:** 3,546 EUR (cierre a 20 de noviembre de 2026), registrando una caída diaria del 2,34%.
-* **Capitalización Bursátil:** ~16.598 millones de EUR.
-* **Métricas de Valoración y Rentabilidad:**
-  * **Trailing P/E:** 14,18x | **Forward P/E:** 10,63x.
-  * **Price to Book (P/B):** 1,39x (Valor contable por acción o *Book Value*: 2,559 EUR).
-  * **ROE (Return on Equity):** 8,90%.
-  * **Márgenes de Beneficio (Profit Margins):** 41,57%, reflejando una alta eficiencia operativa.
-  * **Dividendo:** Rentabilidad por dividendo (*Dividend Yield*) estimada en el 1,93% al 1,97% (Dividendo anual de 0,07 EUR por acción, *payout ratio* del 28,51%).
-* **Evolución Reciente y Catalizadores:**
-  * Según la noticia de *CapitalMadrid* del 19 de noviembre de 2026, el banco se dispone a dar carpetazo definitivo a la fallida OPA de BBVA con el próximo reparto de dividendo previsto para diciembre.
-  * Adicionalmente, el programa de recompra de acciones (*share buyback*) avanza de forma sólida, habiendo alcanzado el 94,77% de su ejecución según información de Yahoo del 17 de noviembre de 2026.
-* **Consenso de Analistas:** El precio objetivo medio (*target mean price*) fijado por el consenso de analistas (sobre 20 opiniones) se sitúa en **3,703 EUR** (con un rango entre 2,30 EUR y 4,50 EUR), lo que representa una **upside potencial de consenso de aproximadamente el 4,43%** desde los niveles actuales de 3,546 EUR.
+### 2. Análisis Fundamental y Valoración
+* **Métricas de Valoración**: 
+  * Capitalización de mercado: ~16.598 millones de EUR.
+  * PER histórico (*trailing P/E*): 14.18x con un BPA de 0.25 EUR.
+  * PER Adelantado (*forward P/E*): 10.63x (BPA estimado a futuro de 0.33 EUR).
+  * Relación con pares (*peer median forward PE*): 9.98x, lo que sitúa a `SAB.MC` con un ratio de PER relativo intermedio de 1.06x frente a sus comparables en el mercado español (`SAN.MC`, `BBVA.MC`, `CABK.MC`, etc.).
+  * Precio sobre Valor en Libros (*Price to Book*): 1.39x, con un valor contable por acción de 2.56 EUR.
+* **Dividendos**: Ofrece una rentabilidad por dividendo (*dividend yield*) de aproximadamente el 1.97% (con un dividendo anual de 0.07 EUR por acción y un *payout ratio* del 28.51%).
+* **Fundamentos Financieros**: 
+  * Ingresos totales en el ejercicio 2025: 4.882 millones de EUR (frente a los 5.141 millones de 2024).
+  * Beneficio neto en 2025: 1.775 millones de EUR (margen de beneficio neto del 41.57%).
+  * Solidez patrimonial: Activos totales de 245.392 millones de EUR y un patrimonio neto (*Stockholders Equity*) de 14.047 millones de EUR. La deuda total consolidada se sitúa en 22.534 millones de EUR (nota: no se aplican reglas industriales de deuda/EBITDA a entidades bancarias).
 
 ---
 
-### 3. Análisis Técnico
-* **Medias Móviles:** La cotización actual (3,546 EUR) se encuentra ligeramente por debajo de su media móvil de 20 sesiones (SMA20: 3,616 EUR) y de 50 sesiones (SMA50: 3,610 EUR), pero se mantiene por encima de su media móvil de largo plazo de 200 sesiones (SMA200: 3,172 EUR), lo que denota una tendencia alcista estructural a largo plazo con consolidación a corto plazo.
-* **Indicadores de Momentum:**
-  * **RSI (14):** 43,25 (zona neutral, ligeramente sesgada hacia la debilidad a corto plazo sin llegar a sobreventa).
-  * **MACD:** 0,024, situándose ligeramente por debajo de su línea de señal (0,029), evidenciando un momento plano o de ligera corrección técnica.
-* **Volatilidad y Retornos:** Volatilidad anualizada del 24,13%. El rendimiento a 252 días (1 año) registra un positivo 35,99%, aunque en los últimos 63 días (aproximadamente un trimestre) acumula un retroceso del -3,95%. El precio actual experimenta un *drawdown* del -5,87% respecto a sus máximos recientes.
+### 3. Análisis Técnico y Dinámica de Mercado
+* **Medias Móviles**: 
+  * SMA de 20 sesiones: 3.616 EUR.
+  * SMA de 50 sesiones: 3.610 EUR.
+  * SMA de 200 sesiones: 3.172 EUR (el precio actual de 3.546 EUR se mantiene holgadamente por encima de la tendencia de largo plazo).
+* **Indicadores de Momento**:
+  * RSI (14): 43.25 (zona neutral, ligeramente sesgada a la baja).
+  * MACD: 0.0243 frente a su línea de señal en 0.0299, indicando una fase de compresión o consolidación a corto plazo.
+* **Volatilidad y Retornos**: 
+  * Volatilidad anualizada: 24.13%.
+  * Drawdown actual: -5.87% desde sus máximos recientes.
+  * Retornos: Rentabilidad a 21 sesiones del +3.84%, a 63 sesiones del -3.95% (superando ligeramente al índice de referencia con un *relative63_pp* de +1.95 pp) y a 252 sesiones del +35.99%.
+* **Consenso de Analistas**: El precio objetivo medio (*target mean price*) se sitúa en 3.703 EUR, con un rango entre 2.30 EUR (mínimo) y 4.50 EUR (máximo) basado en la opinión de 20 analistas. Esto otorga un potencial alcista de consenso (*consensus upside*) del 4.43%.
 
 ---
 
-### 4. Datos Financieros y Balances
-* **Ingresos y Beneficios Netos:** 
-  * Ejercicio 2025: Ingresos Totales de 4.882,89 millones de EUR y Beneficio Neto de 1.775,41 millones de EUR (comparado con 5.141,26 millones de ingresos y 1.826,81 millones de beneficio neto en 2024).
-* **Balance:** Total de activos en 2025 de 245.392 millones de EUR, con una deuda total de 22.534 millones de EUR y fondos propios (*Stockholders Equity*) de 14.047 millones de EUR.
-* **Flujos de Caja:** En el ejercicio 2025, el flujo de caja operativo se situó en 1.677,98 millones de EUR, con un flujo de caja libre (*Free Cash Flow*) de 1.067,18 millones de EUR tras un gasto de capital (CapEx) de 610,80 millones de EUR.
+### 4. Contexto Macroeconómico y Noticias Recientes
+* **Entorno Bancario y Monetario en la Eurozona**: 
+  * Las noticias de la semana apuntan a un debate activo sobre los movimientos del Banco Central Europeo (BCE), destacando preparativos para ajustes encubiertos a través del incremento de las reservas mínimas obligatorias a los bancos de la eurozona, así como expectativas de reuniones clave de tipos de interés de cara a diciembre de 2026.
+  * A nivel nacional, el ahorro de los hogares en letras del Tesoro acumula siete meses al alza (superando los 23.000 millones de euros), compitiendo por la captación de pasivo minorista en el sistema financiero español.
+* **Catalizadores Específicos de `SAB.MC`**:
+  * Los titulares recientes destacan que Banco Sabadell se dispone a dar carpetazo definitivo a la fallida OPA de BBVA mediante el abono del dividendo previsto para el mes de diciembre.
+  * Técnicamente, la acción se encuentra consolidando en las proximidades del soporte de 3.60 EUR, con fuerzas compradoras y vendedoras equilibradas en el corto plazo.
 
 ---
 
-### 5. Evidencia y Datos Faltantes (Aviso de Limitaciones)
-* **Datos Faltantes / No Aplicables:** Dado que se trata de una entidad bancaria (`kind: bank`), las métricas industriales como *Enterprise to EBITDA*, deuda neta sobre EBITDA o reglas industriales de deuda/EBITDA no aplican y no están disponibles de forma relevante, al igual que los flujos de caja operativos reportados en los estados contables de 2024 y 2023 afectados por reclasificaciones contables propias del sector financiero (mostrados como negativos en el extracto estándar bruto sin normalizar por intermediación financiera). No se dispone de un portfolio de inversión específico suministrado.
+### 5. Datos Faltantes y Limitaciones
+* No se dispone de estimaciones detalladas de EBITDA ni flujos de caja operativos para el sector bancario debido a la naturaleza específica de sus estados financieros (intermediación financiera).
+* Las cifras de valoración se basan en los datos cerrados más recientes facilitados por la infraestructura del mercado y el consenso de analistas vigente al 20 de noviembre de 2026.
 
 ---
 
-### Resumen de Puntos Clave
+### Tabla Resumen de Puntos Clave
 
-| Categoría | Indicador / Métrica | Valor Actual / Referencia | Implicación para el Trading / Análisis |
+| Categoría | Métrica / Indicador | Valor / Detalle Actual (`SAB.MC`) | Implicación para el Inversor |
 | :--- | :--- | :--- | :--- |
-| **Precio y Valoración** | Cotización y PER | 3.546 EUR / Forward P/E: 10,63x | Valoración razonable frente a pares (PER relativo intermedio de 1,06x frente a la mediana sectorial). |
-| **Consenso de Mercado** | Target Mean Price | 3.703 EUR (Upside: +4,43%) | Potencial alcista limitado a corto plazo según el consenso de 20 analistas. |
-| **Técnico** | SMA20, SMA50 y SMA200 | SMA20: 3,61 EUR / SMA200: 3,17 EUR | Soporte clave en torno a 3,64 EUR / 3,55 EUR con presión vendedora a corto plazo. |
-| **Fundamentales** | Beneficio Neto (2025) / ROE | 1.775,4
+| **Valoración** | Precio de Cierre | 3.546 EUR (20-11-2026) | Corrección del -2.34% en la última sesión. |
+| **Valoración** | PER Adelantado (*Forward P/E*) | 10.63x | Alineado de forma intermedia frente a la mediana de sus pares (9.98x). |
+| **Técnico** | RSI (14) & SMA 200 | RSI: 43.25 \| SMA 200: 3.172 EUR | Zona neutral a corto plazo; tendencia estructural alcista intacta a largo plazo. |
+| **Fundamental** | Beneficio Neto (2025) | 1.775 millones de EUR | Sólida generación de beneficios y márgenes netos elevados (41.57%). |
+| **Mercado** | Consenso y Objetivo | 3.703 EUR (Upside: +4.43%) | Potencial moderado a corto plazo según el consenso de 20 analistas. |
+| **Catalizador** | Evento Corporativo | Dividendo de diciembre | Cierre definitivo del ciclo marcado por la tentativa de OPA de BBVA. |
+
+FINAL TRANSACTION PROPOSAL: HOLD

@@ -1,32 +1,25 @@
 
-Bear Analyst: ¡Hola, colega! Comprendo perfectamente tu entusiasmo y tu intento de pintar a `ROVI.MC` como una especie de refugio inexpugnable. Es muy fácil dejarse deslumbrar por un ROE del 28.71% y una ratio de deuda neta sobre EBITDA de 0.15x cuando solo miramos la foto fija del balance. Pero en el mercado real, los inversores no compran fotos fijas del pasado; compran expectativas de crecimiento futuro, y ahí es exactamente donde la narrativa alcista hace aguas.
+Bear Analyst: ¡Hola colega! Comprendo perfectamente tu entusiasmo y tu intento por arrojar brillo sobre los fundamentales de **`ROVI.MC`**, pero te estás enamorando de una foto fija del pasado mientras el mercado ya está descontando un futuro mucho más gris. Calificar a este valor como una "joya inquebrantable" a estos precios es ignorar las claras señales de fatiga estructural y de valoración exigente que los datos nos están gritando. 
 
-Vamos a desarmar punto por punto esa supuesta "joya fundamental" con los datos sobre la mesa:
+Vamos a desmontar punto por punto ese optimismo exagerado:
 
-### 1. El espejismo de la "normalización" y el declive de los ingresos
-Intentas justificar la caída de los ingresos totales desde los 829,51 millones de EUR en 2023 hasta los 743,48 millones de EUR reportados para el cierre de 2025 achacándola a una simple "normalización post-vacuna". ¡Cuidado con subestimar esta tendencia! No estamos hablando de un pequeño bache, sino de una **pérdida estructural de más de 86 millones de euros en la cifra de negocio superior al 10%**. 
+### 1. El espejismo del flujo de caja y la sangría de ingresos
+Celebras que el flujo de caja libre (FCF) haya repuntado hasta los 119,26 millones de euros en 2025 frente a los 76,06 millones de 2024, pero olvidas la tendencia macro que realmente importa para un inversor de crecimiento: **los ingresos totales llevan tres años consecutivos encogiéndose**. Venimos de 829,5 millones de euros en 2023, pasamos a 763,7 millones en 2024 y cerramos 2025 en 743,4 millones. 
+¿Qué significa esto? Que la resaca post-pandemia y el fin del fabuloso negocio extraordinario de fabricación de vacunas para terceros están golpeando el núcleo del negocio. El "efecto vacuna" ya no sostiene el crecimiento orgánico, y la división de fabricación (CDMO) se enfrenta a una competencia encarnizada y a una normalización de la demanda que el mercado terminará castigando con múltiplos más bajos.
 
-La realidad es que el negocio de fabricación a terceros (CDMO) vinculado a los contratos pandémicos se está desvaneciendo, y la compañía **no está encontrando nuevos motores comerciales con la suficiente potencia de fuego** como para reemplazar esos volúmenes extraordinarios. Si los ingresos decrecen año tras año, mantener márgenes altos exprimiendo costos tiene un límite matemático. ¿De qué sirve tener un margen neto del 24.81% si la tarta total cada vez es más pequeña?
+### 2. Un PER *Forward* de 19.15x: ¿Pagando primas por un negocio que decrece?
+Hablas de su excelente ROE (28,71%) y de sus sólidos márgenes netos (24,81%), y te lo compro: nadie niega que **`ROVI.MC`** es una compañía rentable y con un balance limpio (con un ratio de deuda neta sobre EBITDA de 0,15x). Pero aquí viene la gran trampa para los toros: **¿por qué deberíamos pagar un PER estimado (*forward*) de 19.15x por una empresa cuyos beneficios por acción (EPS) van a contraerse?** 
+Fíjate en los datos fríos de la propia instantánea: el EPS histórico (*trailing*) se sitúa en 4,08 EUR, pero el BPA estimado (*forward EPS*) cae drásticamente hasta los **3,29 EUR**. Estás pagando una prima de valoración cada vez más cara por una compañía que va a ganar *menos* dinero el próximo año. Eso no es valor con descuento; eso es una trampa de múltiplos en plena compresión.
 
-### 2. Contracción de beneficios y un PER Forward que asusta
-Aquí es donde la valoración del toro se vuelve peligrosamente optimista. Hablas de un PER *trailing* de 15.70x como si fuera un chollo, pero olvidas intencionadamente el **PER *forward*, que asciende hasta las 19.09x**. 
+### 3. ¿Una "oportunidad de oro" o una caída con soporte pendiendo de un hilo?
+Me pides que vea un *drawdown* del -24.96% desde máximos como una ganga. Yo lo veo como un aviso muy serio de que el mercado está perdiendo la paciencia. El valor cotiza por debajo de su media móvil de 20 sesiones (SMA20: 66,02 EUR) y de su media de 200 sesiones (SMA65,03 EUR), mientras que el MACD (1,73) sigue por debajo de su línea de señal (2,30), confirmando que el *momentum* bajista está intacto. 
+¿Te agarras a la media de 50 sesiones en 61,50 EUR como si fuera un muro infranqueable? Con un RSI neutral en 43,49 y un mercado europeo a la expectativa de las decisiones del BCE sobre tipos y liquidez, romper ese frágil soporte dinámico hacia la zona de los 60 EUR es un escenario técnico totalmente plausible. Un -25% de caída no es una simple "pausa", es el reflejo de que los inversores institucionales están rotando fuera del valor.
 
-¿Por qué se encarece el PER *forward* si la acción ha estado corrigiendo? Muy sencillo: porque **el beneficio por acción (BPA) estimado se desploma** de un *trailing* EPS de 4.02 EUR a un *forward* EPS de apenas 3.31 EUR. ¡Una caída de más del 17% en las previsiones de beneficios! Pagar casi 19 veces beneficios por una compañía cuyos ingresos se contraen y cuyas proyecciones de ganancias van cuesta abajo no es "comprar valor"; es pagar una prima injustificada por una empresa en fase de decrecimiento operativo.
-
-### 3. El peligro técnico y el castigo del mercado
-Dices que los bajistas nos asustamos con el "ruido diario", pero los gráficos y el comportamiento del precio no mienten. `ROVI.MC` arrastra un **drawdown del -24.96%** desde sus máximos recientes y cotiza en **63.10 EUR**, perdiendo claramente las medias móviles clave de 20 y 200 sesiones. 
-
-Un RSI en 43.49 y un MACD cruzado a la baja con una señal débil muestran que el dinero institucional está huyendo, no acumulando. Esa supuesta "oportunidad de compra" de la que hablas se parece mucho a una **trampa de valor (*value trap*)** donde el cuchillo sigue cayendo mientras los optimistas intentan atraparlo.
-
-### 4. ¿Y el dividendo? Una limosna defensiva
-Presumes de un dividendo sostenible respaldado por un *payout* del 25.83%. Pero seamos honestos: una **rentabilidad por dividendo (*dividend yield*) del 1.45% o 1.52%** (con un pago de apenas 0.96 EUR por acción) es completamente irrelevante en un contexto macroeconómico donde los ahorradores europeos pueden obtener rentabilidades libres de riesgo mucho más atractivas en activos monetarios o deuda a corto plazo sin asumir la volatilidad anualizada del 27.11% que sufre `ROVI.MC`. Para un inversor que busca retornos reales, ese dividendo es pura calderilla.
+### 4. Cuidado con el canto de sirena del consenso
+Te escudas en el precio objetivo medio del consenso de analistas en 74,78 EUR para justificar un *upside* del 18,51%. Pero recuerda que los analistas suelen ir siempre por detrás de la curva en las farmacéuticas medianas cuando el ciclo de beneficios cambia de signo. Si las estimaciones de beneficios caen (como refleja ese *forward EPS* de 3,29 EUR), esos precios objetivos van a ser recortados tarde o temprano en cadena.
 
 ### Conclusión
-`ROVI.MC` es una empresa solvente, sí, nadie niega que su caja y su balance son limpios. Pero un balance saneado no compensa la **ausencia de crecimiento orgánico, la contracción de beneficios esperados y una tendencia técnica claramente bajista**. Confiar ciegamente en un precio objetivo de consenso (75.22 EUR) mientras los fundamentales operativos se erosionan es un acto de fe ciega. 
-
-El riesgo de caídas adicionales hacia la zona de soporte o de estancamiento prolongado es demasiado elevado. No es momento de comprar ilusión; es momento de extremar la cautela.
-
----
+**`ROVI.MC`** es una excelente compañía desde el punto de vista patrimonial, pero **financieramente está perdiendo tracción y cotiza a un múltiplo futuro difícil de justificar** con unos ingresos estancados a la baja y un beneficio por acción en retroceso. Comprar en este punto técnico con el MACD girado a la baja y el *momentum* debilitado es asumir un riesgo innecesario. Mejor mantenerse al margen hasta ver una estabilización real de los beneficios.
 
 **Rating**: REVIEW
-FINAL TRANSACTION PROPOSAL: Mantener una postura de estricta cautela (REVIEW) frente a `ROVI.MC`, evitando nuevas compras ante la contracción de beneficios prevista (*forward EPS* a la baja) y la debilidad técnica, a pesar de la solidez puntual de su balance.
+FINAL TRANSACTION PROPOSAL: HOLD

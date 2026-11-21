@@ -1,30 +1,36 @@
-Este informe presenta un análisis actualizado de **IAG.MC** (International Consolidated Airlines Group S.A.) basado en los datos financieros y de mercado disponibles a fecha 20 de noviembre de 2026.
+### Informe de Análisis: International Consolidated Airlines Group S.A. (IAG.MC)
 
-### Análisis Fundamental y de Mercado
-IAG.MC cotiza a 5,238 EUR, mostrando una solidez técnica moderada (RSI de 52,44). El valor se sitúa por encima de sus medias móviles de 50 y 200 días (5,06 EUR y 4,86 EUR respectivamente), lo que sugiere una tendencia alcista estructural a largo plazo, a pesar del retroceso del 2,2% en la última sesión.
+**Fecha de análisis:** 21 de noviembre de 2026
 
-*   **Valoración:** La compañía presenta una valoración atractiva comparada con sus fundamentales. Con un PER a plazo (forward PE) de 7,07 frente a una mediana del sector de 16,45, el ratio de 0,43 indica un descuento significativo frente a sus pares del índice español.
-*   **Rentabilidad y Deuda:** La gestión de deuda ha mostrado una mejora sustancial; el ratio de deuda neta sobre EBITDA se sitúa en 0,78, lo que refleja una capacidad de apalancamiento controlada y saludable. La rentabilidad por dividendo del 1,91% añade un componente de retorno al accionista en un entorno de tipos de interés que se mantienen bajo vigilancia en la eurozona.
-*   **Perspectivas:** Los analistas mantienen un consenso positivo con un precio objetivo medio de 6,10 EUR, lo que implica un potencial de revalorización del 16,5%. La principal preocupación, según las noticias recientes (*Estrategias de Inversión*, 15/11/2026), sigue siendo la volatilidad del precio del petróleo, factor clave para sus márgenes operativos.
+#### 1. Resumen Ejecutivo
+IAG.MC muestra una posición financiera sólida con un flujo de caja operativo de 6.588 millones de euros al cierre de 2025 y una reducción notable de la deuda neta en relación con su EBITDA (0,78x). A pesar de una corrección reciente del 2,2% en la última sesión, el valor cotiza por encima de sus medias móviles clave (SMA20, SMA50 y SMA200), lo que sugiere una tendencia alcista a medio y largo plazo.
 
-### Entorno Macroeconómico
-El contexto actual está marcado por la incertidumbre sobre la política monetaria. El BCE se enfrenta a un escenario donde se discute la subida de reservas mínimas obligatorias a los bancos, lo que se interpreta como un ajuste monetario indirecto (El Economista, 19/11/2026). La persistencia de tipos reales negativos y la inflación siguen siendo temas centrales para la confianza del consumidor en Europa, lo cual impacta directamente en la demanda de viajes de ocio.
+#### 2. Fundamentos y Valoración
+*   **Valoración:** La compañía presenta múltiplos atractivos con un PER forward de 7,07x frente a una mediana del sector de 16,45x, lo que justifica la etiqueta de "PER relativo inferior".
+*   **Rentabilidad y Endeudamiento:** Con un ratio de deuda neta/EBITDA de 0,78, IAG demuestra una gestión de balance mucho más eficiente que en años anteriores. La rentabilidad por dividendo (1,87%) y el ratio de reparto (15,19%) indican espacio para una mayor retribución al accionista si los flujos de caja se mantienen estables.
+*   **Desafíos:** Los costes de combustible siguen siendo el principal factor de riesgo para los márgenes, según informes recientes de *Estrategias de Inversión* (15/11/2026).
 
-### Información Faltante
-*   El flujo de caja operativo y el flujo de caja libre no están disponibles en la instantánea actual, lo que dificulta un cálculo preciso de la capacidad de generación de efectivo más allá de los datos anuales de 2025.
-*   No hay datos de *guidance* detallado sobre la cobertura de combustible (fuel hedging) para el ejercicio 2027.
+#### 3. Análisis Técnico
+*   **Indicadores:** El RSI(14) en 52,44 indica una zona neutral, sin sobrecompra ni sobreventa. El MACD se sitúa ligeramente por encima de su línea de señal, lo que confirma un momentum constructivo aunque moderado.
+*   **Tendencia:** El precio de cierre (5,24 €) se mantiene por encima de la SMA200 (4,86 €), validando una estructura alcista.
 
-### Resumen de Datos Clave
+#### 4. Contexto Macroeconómico
+El entorno actual está dominado por la incertidumbre sobre la política monetaria del BCE. Las noticias indican posibles incrementos en las reservas mínimas obligatorias y una próxima reunión clave el 17 de diciembre. Este endurecimiento de condiciones, sumado a la inflación persistente, podría presionar los costes operativos de empresas intensivas en capital como IAG. El interés de los hogares españoles en las letras del Tesoro sugiere un entorno de aversión al riesgo que podría afectar la liquidez del sector minorista en la bolsa.
 
-| Indicador | Valor / Detalle |
-| :--- | :--- |
-| **Precio Actual (IAG.MC)** | 5,238 EUR |
-| **Forward PE** | 7,07 |
-| **Consenso Upside** | +16,54% |
-| **Net Debt/EBITDA** | 0,78 |
-| **RSI (14)** | 52,44 |
-| **Contexto** | Perspectivas positivas, vigilando costes energéticos |
+#### 5. Evidencia y Datos Faltantes
+*   **Datos disponibles:** Estados financieros completos (2023-2025), técnicos actualizados y consenso de analistas (11 opiniones).
+*   **Datos faltantes:** Falta información detallada sobre el *guidance* específico de capacidad de pasajeros para 2027 y proyecciones de precios de combustible a largo plazo. No se dispone de datos de flujo de caja libre proyectados de forma explícita.
 
-**Rating**: Neutral-Positive
+#### 6. Tabla de Resumen
+| Indicador | Valor / Estado | Nota |
+| :--- | :--- | :--- |
+| **Precio Actual** | 5,238 EUR | Cierre al 20/11/2026 |
+| **Consenso Target** | 6,12 EUR | Potencial de subida ~16,9% |
+| **PER Forward** | 7,07x | Infravalorado vs sector (16,45x) |
+| **Deuda Neta/EBITDA** | 0,77x | Nivel de solvencia controlado |
+| **Tendencia** | Alcista moderada | Por encima de SMA200 |
+| **Riesgo Macro** | Medio/Alto | Incertidumbre BCE y costes energía |
 
-FINAL TRANSACTION PROPOSAL: No trade execution suggested. Given the attractive forward valuation and robust balance sheet, a "Hold" or "Accumulate" approach during volatility is supported by the consensus target price of 6,10 EUR.
+**Rating**: BUY (basado en valoración fundamental atractiva y fortaleza técnica).
+
+FINAL TRANSACTION PROPOSAL: Mantener exposición actual y considerar acumulación si el precio retrocede hacia la zona de 5,06 EUR (SMA50), dado el margen de seguridad frente al precio objetivo de consenso.

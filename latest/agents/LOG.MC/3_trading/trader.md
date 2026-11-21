@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: Logista presenta una estructura fundamental sólida con una rentabilidad por dividendo atractiva, lo que justifica mantener la posición actual para el devengo de ingresos pasivos. No obstante, técnicamente el precio se encuentra consolidando por debajo de su media móvil de 20 sesiones y existe un riesgo de sobrevaloración dado que el precio actual supera el precio objetivo medio del consenso de analistas. Ante la falta de catalizadores alcistas inmediatos y la fase neutral del RSI, es prudente evitar nuevas compras hasta que se confirme una ruptura al alza sobre los 37,00 EUR o se busque una mejor entrada técnica tras un ajuste hacia la media móvil de 50 días.
+**Reasoning**: A pesar de sus sólidos fundamentales y atractivo dividendo, LOG.MC se encuentra en una fase de consolidación técnica sin un catalizador claro de impulso. La proximidad del precio actual al objetivo medio de los analistas y la debilidad del momentum (indicada por el MACD) sugieren esperar a un nivel de soporte más definido o a una ruptura de resistencia para optimizar el riesgo.
 
-**Entry Price**: 36.13
+**Entry Price**: not provided
 
-**Stop Loss**: 33.78
+**Stop Loss**: 36.13
 
-**Position Sizing**: Mantener posición actual, no incrementar exposición.
+**Position Sizing**: Mantener posición actual; no incrementar exposición hasta superar los 37.00 EUR.
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

@@ -1,51 +1,35 @@
-# Informe de Análisis Fundamental: Acciona, S.A. (ANA.MC)
+Este informe presenta un análisis fundamental de **Acciona, S.A. (`ANA.MC`)** con fecha de corte al 21 de noviembre de 2026, basado en la información financiera y de mercado proporcionada.
 
-**Fecha del informe:** 20 de noviembre de 2026
+### Análisis Fundamental y Situación Actual
+**Acciona, S.A.** opera en los sectores de ingeniería, construcción y energía. Actualmente, la compañía enfrenta una presión significativa en su cotización, con una caída del 3.55% en la última sesión y una corrección acumulada del 33.62% desde sus máximos.
 
-## 1. Perfil y Situación Actual
-Acciona (ANA.MC) es una compañía líder en el sector industrial y de ingeniería y construcción, con una capitalización de mercado de aproximadamente 9.830 millones de EUR. Cotiza en el IBEX 35 y se enfrenta a un momento de volatilidad significativa, habiendo registrado una caída del 3,55% en la última sesión y una corrección acumulada del 33,62% desde sus máximos.
+#### Estado Financiero
+*   **Valoración:** La compañía cotiza a un *Forward PE* de 16.41x, lo que sugiere una valoración más atractiva en comparación con su *Trailing PE* de 27.90x, reflejando expectativas de una recuperación en los beneficios por acción (estimados en 11.26 EUR frente a los 6.62 EUR actuales).
+*   **Balance y Endeudamiento:** El nivel de endeudamiento es un punto de atención crítico. Con una deuda total de 14,574 millones de EUR y un ratio *Net Debt/EBITDA* de 6.14x, la compañía se encuentra en una situación de apalancamiento elevada, lo cual ha sido resaltado en titulares recientes (*Expansión*, 20/11/2026) como un factor de riesgo para los grupos del IBEX.
+*   **Flujo de Caja:** A pesar de una generación de caja operativa de 2,148 millones de EUR en 2025, el flujo de caja libre (*Free Cash Flow*) ha sido negativo en varios periodos, influenciado por inversiones intensivas (CapEx de 1,769 millones en 2025).
 
-### Indicadores Técnicos clave:
-*   **Precio actual:** 184,70 EUR.
-*   **RSI (14):** 29,73 (indica zona de sobreventa).
-*   **SMA 200:** 224,99 EUR (el precio cotiza significativamente por debajo de su media móvil a largo plazo).
-*   **Volatilidad:** 35,50% (alta).
+#### Sentimiento y Noticias
+La acción ha sido objeto de recortes en valoraciones por parte de analistas (BNP Paribas, 17/11/2026) y se enfrenta a la incertidumbre sobre el futuro de su división de energía. Los inversores están atentos a cualquier movimiento corporativo relacionado con la venta de dicha unidad, lo cual genera volatilidad en el precio de la acción.
 
-## 2. Análisis Financiero
-### Estado de Resultados
-La compañía mostró un crecimiento en ingresos, pasando de 17.021 millones en 2023 a 20.236 millones en 2025. Sin embargo, el beneficio neto ha sido volátil (803 millones en 2025 frente a 422 millones en 2024), reflejando los retos operativos y la carga de deuda. El margen de beneficio neto es estrecho (1,64%).
+### Perspectiva para el Trader
+La evidencia técnica muestra un RSI de 29.7, lo que indica condiciones de sobreventa (*oversold*). Sin embargo, el MACD negativo y las medias móviles (SMA20, 50 y 200) por encima del precio actual confirman una tendencia bajista clara.
 
-### Balance y Solvencia
-*   **Deuda total:** 14.574 millones de EUR.
-*   **Efectivo:** 5.824 millones de EUR.
-*   **Ratio Deuda Neta/EBITDA:** 6,14x. Este nivel de apalancamiento es una señal de advertencia que presiona el valor en un entorno de posibles tensiones en los tipos de interés de la Eurozona.
+*   **Argumentos a favor:** El potencial de subida según el precio objetivo de consenso (*upside* del 21.7%) y una rentabilidad por dividendo del 3.11%.
+*   **Argumentos en contra:** Elevado apalancamiento (6.14x deuda/EBITDA), tendencia bajista en los indicadores técnicos y presión constante por parte de los analistas.
 
-### Flujo de Caja
-Aunque el flujo de caja operativo ha sido positivo (2.148 millones en 2025), el alto nivel de CAPEX (1.769 millones en 2025) mantiene el flujo de caja libre (FCF) en niveles modestos o negativos en años anteriores, lo que limita la flexibilidad financiera.
-
-## 3. Hechos Relevantes y Noticias (Última semana)
-*   **Presión vendedora:** La acción ha sufrido recortes de valoración, notablemente por parte de BNP Paribas (Yahoo, 17/11/2026).
-*   **Riesgos operativos:** Acciona inyectará hasta 62 millones en su filial Mostostal Warszawa (Expansión, 16/11/2026), lo que añade presión a la liquidez.
-*   **Contexto macro:** El mercado está atento a la posibilidad de un endurecimiento monetario en la Eurozona (incremento de reservas mínimas por el BCE, El Economista, 19/11/2026), lo que impacta negativamente a empresas con altos niveles de deuda como ANA.MC.
-
-## 4. Perspectivas y Valoración
-El consenso de analistas sitúa el precio objetivo medio en 224,86 EUR, lo que implica un potencial alcista del 21,74%. No obstante, la estructura financiera actual exige cautela. La valoración por PER Forward (16,41x) está alineada con el sector, pero la ejecución operativa bajo un ciclo de tipos más altos sigue siendo el principal factor de riesgo.
-
-### Evidencia contraria y de apoyo:
-*   **Apoyo:** El valor está en zona de sobreventa técnica (RSI < 30) y ofrece una rentabilidad por dividendo atractiva (~3,1%).
-*   **Contraria:** El ratio Deuda/EBITDA superior a 6x y la tendencia bajista de los promedios móviles (SMA 20, 50, 200) sugieren que la presión vendedora podría persistir.
-
-**Datos faltantes:** No se dispone de un desglose detallado de los vencimientos de deuda a corto plazo para 2027 ni de las proyecciones de gasto en dividendos para el próximo ejercicio.
-
-| Indicador | Valor |
+### Resumen de Datos Clave
+| Indicador | Valor / Detalle |
 | :--- | :--- |
-| Precio Actual | 184,70 EUR |
-| PER Forward | 16,41x |
-| Rentabilidad por Dividendo | 3,11% |
-| Deuda Neta / EBITDA | 6,14x |
-| Potencial según Consenso | +21,74% |
-| RSI (14) | 29,73 |
+| **Precio Actual** | 184.70 EUR |
+| **Market Cap** | 9,826.87 M EUR |
+| **Forward PE** | 16.41x |
+| **Net Debt / EBITDA** | 6.14x |
+| **Dividend Yield** | 3.11% |
+| **Consensus Upside** | 21.74% |
+| **Tendencia Técnica** | Bajista (SMA200 en 224.99) |
 
-**Rating**: HOLD (Debido a la alta deuda y la tendencia técnica negativa, pese a la valoración atractiva a largo plazo).
+**Rating**: UNDERWEIGHT
 
-FINAL TRANSACTION PROPOSAL: No execution advised. Current technicals suggest potential for further downside despite the oversold RSI, given the macroeconomic pressure on highly levered industrials. Monitor stabilization of moving averages before considering entry.
+FINAL TRANSACTION PROPOSAL: No se recomienda ninguna ejecución de compra en este momento debido a la tendencia técnica bajista predominante y al riesgo crediticio implícito en sus ratios de deuda; se sugiere esperar a una estabilización de la directriz bajista y una mejora en los ratios de cobertura de deuda.
+
+*Nota: La información proporcionada es exclusivamente para fines informativos y no constituye asesoramiento financiero. Se desconocen los detalles específicos de los contratos de deuda a largo plazo y las condiciones exactas de los proyectos en curso en Mostostal Warszawa.*

@@ -1,9 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La recomendación de mantener responde a la actual estructura técnica y el contexto macroeconómico. Aunque Unicaja (UNI.MC) muestra fundamentos sólidos, como su atractivo dividendo del 5,89%, el precio actual (3,226 EUR) se encuentra atrapado entre la resistencia técnica de la media de 50 días (3,358 EUR) y el soporte estructural de la media de 200 días (3,004 EUR). El RSI en 39,95 y la debilidad del MACD indican que, a corto plazo, la presión vendedora es dominante tras la caída del 2,71% en la sesión. La incertidumbre sobre la estructura de gobierno corporativo (falta de presidente) y el reciente flujo de caja operativo negativo limitan el potencial alcista inmediato, haciendo que el margen de seguridad para nuevas compras sea insuficiente ante un consenso de analistas que apenas proyecta un alza del 1,33%.
+**Reasoning**: El valor presenta señales mixtas donde la solidez en el pago de dividendos y la estabilidad institucional son compensadas por una tendencia técnica de corto plazo bajista, con el precio cotizando por debajo de sus medias móviles de 20 y 50 días. El RSI y el MACD indican una falta de impulso comprador, y la valoración actual ya cotiza con una prima respecto al sector, lo que sugiere limitar la exposición hasta que se recupere la zona de resistencia técnica de los 3.35 EUR.
 
-**Entry Price**: 3.00 (Entrada técnica sugerida solo tras testeo del soporte en caso de retrocesos).
+**Entry Price**: 3.0
 
-**Stop Loss**: 2.85 (Nivel de seguridad por debajo de la media de 200 días para evitar la ruptura de la tendencia estructural).
+**Stop Loss**: 2.9
 
-**Position Sizing**: Mantener la posición actual (sin incrementos) y limitar la exposición a no más de un 2-3% del capital total del portafolio, dada la volatilidad del 23,37% y el riesgo de contracción del margen de intereses por las políticas del BCE.
+**Position Sizing**: Mantener posición actual, no incrementar exposición neta.
+
+FINAL TRANSACTION PROPOSAL: **HOLD**

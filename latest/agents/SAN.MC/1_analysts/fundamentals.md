@@ -1,43 +1,38 @@
-A continuación se presenta el informe fundamental de **Banco Santander, S.A. (SAN.MC)** basado en los datos proporcionados con fecha de corte al 20 de noviembre de 2026.
+Este informe de investigación fundamental sobre **Banco Santander, S.A. (SAN.MC)** se basa en los datos suministrados a fecha de 21 de noviembre de 2026.
 
-### Informe Fundamental: Banco Santander (SAN.MC)
+### Perfil y Situación Actual
+Banco Santander (SAN.MC) opera como una entidad financiera diversificada dentro del sector bancario europeo. Con una capitalización de mercado de aproximadamente 148,67 mil millones de EUR, la acción cotiza actualmente a 10,32 EUR. La empresa presenta una tendencia técnica bajista en el corto plazo (RSI de 34,81, acercándose a niveles de sobreventa) y se sitúa por debajo de sus medias móviles de 20, 50 y 200 días.
 
-#### 1. Perfil y Situación Actual
-Banco Santander (SAN.MC) es una entidad bancaria diversificada con sede en España. A fecha de 20 de noviembre de 2026, la acción cotiza a **10,32 EUR**, reflejando una caída del 2,25% en la última sesión y una corrección técnica significativa desde sus máximos recientes (acumula una caída del 19,36% desde su *drawdown*).
+### Análisis Financiero
+*   **Resultados:** La compañía ha mostrado una evolución positiva en sus ingresos, pasando de 56,69 mil millones de EUR en 2023 a 60,02 mil millones de EUR en 2025. El beneficio neto también ha experimentado un crecimiento sostenido, alcanzando los 14,10 mil millones de EUR al cierre del ejercicio 2025.
+*   **Valoración:** Con un ratio precio-beneficio (PER) histórico de 11,34x y un PER forward estimado de 8,27x, el mercado anticipa un crecimiento en las ganancias futuras. La relación precio-valor contable (P/B) es de 1,31x.
+*   **Dividendos:** La entidad mantiene una política de remuneración al accionista con una rentabilidad por dividendo del 2,46% y un payout ratio del 25,42%.
+*   **Flujo de Caja:** Se observa una divergencia en el flujo de caja operativo, que fue negativo en 2025 (-14,84 mil millones de EUR), un aspecto que requiere seguimiento, ya que difiere de la rentabilidad contable reportada.
 
-#### 2. Análisis Financiero
-*   **Valoración:** La acción presenta ratios de valoración atractivos, con un *trailing PE* de 11,34 y un *forward PE* estimado de 8,30, lo que sugiere una valoración descontada respecto a sus beneficios futuros proyectados. El *price-to-book* (P/B) es de 1,31, lo cual es coherente con su modelo de negocio.
-*   **Rentabilidad:** El ROE (Return on Equity) se sitúa en un sólido 13,06%. El margen de beneficio neto es del 32,58%, indicando una eficiencia operativa robusta en el sector bancario.
-*   **Dividendos:** Con una rentabilidad por dividendo (*dividend yield*) del 2,42% y un ratio de *payout* del 25,42%, la empresa mantiene una política de retribución al accionista conservadora y sostenible.
-*   **Balance:** El banco muestra un crecimiento constante en activos (1,86 billones EUR en 2025) y un patrimonio neto de 103,17 mil millones EUR. Sin embargo, se observa una alta carga de deuda total (423 mil millones EUR reportados), aunque es estándar en la estructura de capital de instituciones financieras diversificadas.
+### Perspectiva de Mercado y Noticiario (Contexto)
+El sentimiento analista es mayoritariamente optimista. Según reportes de medios (fuentes: Yahoo, Rankia, Finanzas.com), diversas entidades como UBS sugieren un potencial de revalorización superior al 25%. El consenso de analistas sitúa el precio objetivo medio en 13,67 EUR, lo que representa un **upside potencial del 32,44%**.
 
-#### 3. Perspectiva de Mercado y Noticiario
-El sentimiento de mercado actual se divide entre la cautela técnica y el optimismo de los analistas:
-*   **Opinión de Analistas:** El precio objetivo medio es de **13,67 EUR**, lo que implica un **potencial alcista de consenso del 32,44%**. Diversos informes (ej. *Estrategias de Inversión*, 20/11/2026) citan que entidades como UBS ven potenciales superiores al 25%.
-*   **Factores de Riesgo:** El entorno macroeconómico está marcado por la política monetaria del BCE (posibles ajustes en reservas mínimas, según *El Economista* del 19/11/2026) y la incertidumbre política local.
+**Riesgos y Factores a considerar:**
+1.  **Entorno Regulatorio:** El BCE está evaluando cambios en las reservas mínimas obligatorias, lo que podría impactar el margen de intermediación bancaria (El Economista, 19/11/2026).
+2.  **Volatilidad:** El activo presenta una volatilidad del 31,33% y un drawdown del 19,36%.
+3.  **Datos faltantes:** No se dispone del EBITDA ni del Free Cash Flow (según los datos de mercado proporcionados, el EBITDA se marca como nulo o no disponible para la metodología de análisis), lo cual limita el uso de ratios de valoración basados en múltiplos de EBITDA.
 
-#### 4. Análisis Técnico (Contexto)
-La cotización se encuentra por debajo de sus medias móviles de 20, 50 y 200 días, lo que confirma una tendencia bajista a corto y medio plazo. El RSI de 14 días (34,81) indica que el valor se acerca a terreno de sobreventa, lo que algunos analistas consideran una zona de oportunidad para compras estratégicas.
+### Insights para Traders
+La acción se encuentra en un punto de corrección técnica (-9,05% en el último mes). La distancia respecto al precio objetivo medio (consenso de 21 analistas) sugiere una infravaloración según el mercado, respaldada por la ausencia de recomendaciones de venta en los reportes recientes.
 
-#### 5. Información Faltante
-No se dispone de:
-*   Cifras de deuda neta sobre EBITDA (inaplicable para este sector).
-*   Flujo de caja libre positivo (los estados reportan flujos operativos negativos en los últimos periodos, lo cual debe ser analizado con cautela en el contexto contable bancario).
+**Rating**: HOLD (basado en el entorno técnico actual de sobreventa y el potencial de upside fundamental a largo plazo).
 
----
+### Tabla de Datos Clave (SAN.MC)
 
-### Resumen de Datos Clave
-
-| Métrica | Valor / Detalle |
+| Indicador | Valor / Dato |
 | :--- | :--- |
-| **Precio Actual** | 10,32 EUR |
-| **Consenso Precio Objetivo** | 13,67 EUR |
-| **Upside Potencial** | 32,44% |
-| **PE Forward** | 8,30 |
-| **ROE** | 13,06% |
-| **Dividend Yield** | 2,42% |
-| **RSI (14)** | 34,81 |
+| Precio Actual | 10,32 EUR |
+| Capitalización de Mercado | 148,67 Mld EUR |
+| PER Forward | 8,27x |
+| Precio Objetivo Medio | 13,67 EUR |
+| Upside Consenso | +32,44% |
+| Dividend Yield | 2,46% |
+| Payout Ratio | 25,42% |
+| RSI (14) | 34,81 |
 
-**Rating**: Review
-
-FINAL TRANSACTION PROPOSAL: The analysis shows that while the stock is under technical pressure, the significant gap between the current price (10.32 EUR) and the analyst consensus (13.67 EUR) suggests a "Long" bias for value-oriented investors, provided that macroeconomic headwinds regarding ECB policies remain contained. Investors should watch the 10.00 EUR support level.
+FINAL TRANSACTION PROPOSAL: No trade execution recommended. Research indicates a potential medium-to-long term entry point due to market consensus upside, subject to technical stabilization at current support levels.

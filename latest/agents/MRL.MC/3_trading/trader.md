@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La acción se encuentra en una clara tendencia bajista técnica, cotizando por debajo de todas las medias móviles principales (SMA20, SMA50, SMA200), lo que sugiere evitar nuevas compras ('catch a falling knife'). Aunque los fundamentos presentan un descuento atractivo en el Price-to-Book (0,78x), la presión de los inversores bajistas tras los resultados y el endurecimiento de la política monetaria del BCE añaden riesgos de corto plazo que justifican mantener la cautela. Se recomienda observar la consolidación del soporte en 10,50 EUR antes de considerar cualquier cambio en la exposición.
+**Reasoning**: La acción se encuentra en una tendencia bajista técnica clara, cotizando por debajo de sus medias móviles clave (SMA 50 y 200). Aunque existe un descuento significativo frente al valor contable y un alto potencial alcista según el consenso de analistas, la incertidumbre sobre el sector de centros de datos y el entorno de tipos de interés sugieren que el riesgo de mayor deterioro a corto plazo es elevado. Mantener es la opción prudente a la espera de señales técnicas de reversión.
 
-**Entry Price**: 11.35
+**Entry Price**: not provided
 
-**Stop Loss**: 10.45
+**Stop Loss**: not provided
 
-**Position Sizing**: Mantener posición actual; no incrementar exposición
+**Position Sizing**: not provided
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

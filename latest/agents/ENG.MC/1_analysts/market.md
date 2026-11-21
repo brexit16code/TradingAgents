@@ -1,57 +1,77 @@
-**Análisis Técnico y Fundamental de Enagás, S.A. (`ENG.MC`)**
+**Rating**: NEUTRAL
 
-### 1. Resumen Ejecutivo y Contexto de Mercado
-El valor analizado es **Enagás, S.A. (`ENG.MC`)**, compañía cotizada en la Bolsa de Madrid dentro del sector de *Utilities* (Gas Regulado). Con fecha de referencia a 20 de noviembre de 2026, el precio de cierre se sitúa en **17,67 EUR**, registrando una variación positiva del **0,80%** en la sesión. La capitalización bursátil de la compañía asciende aproximadamente a **4.599 millones de euros**.
+**FINAL TRANSACTION PROPOSAL:** HOLD / NEUTRAL (Hipótesis analítica sin cartera asignada)
 
-El contexto macroeconómico reciente muestra un panorama europeo marcado por la atención constante a los tipos de interés del Banco Central Europeo (BCE) y la evolución de la inflación. En el ámbito corporativo específico de `ENG.MC`, destacan noticias recientes de gran relevancia:
-* **Arbitraje ganado en Perú:** Enagás comunicó el 18 de noviembre de 2026 que ha ganado el arbitraje contra Perú sobre sus inversiones en TGP y COGA (*Cinco Días*).
-* **Remuneración al accionista:** La compañía ha anunciado el pago de un dividendo a cuenta del ejercicio 2026 de **0,40 euros brutos por acción**, previsto para el próximo **16 de diciembre de 2026** (fuentes: *Finect*, *Bolsamania*, *Valencia Plaza*).
+### Informe de Análisis Financiero y Técnico: Enagás, S.A. (`ENG.MC`)
 
----
-
-### 2. Análisis de Indicadores Técnicos Seleccionados
-De acuerdo con la estrategia de selección de indicadores no redundantes y complementarios para evaluar la tendencia, el impulso, la volatilidad y el volumen de `ENG.MC`, se han considerado los siguientes parámetros clave extraídos del snapshot verificado:
-
-1. **`close_50_sma` (Media Móvil Simple de 50 sesiones):** Se sitúa en **17,13 EUR** (`sma50`). El precio actual (17,67 EUR) cotiza por encima de esta media, lo que denota una estructura de tendencia alcista a medio plazo.
-2. **`close_200_sma` (Media Móvil Simple de 200 sesiones):** Se ubica en **16,43 EUR** (`sma200`). Al encontrarse el precio de cotización holgadamente por encima de la media de 200 sesiones, se confirma la salud de la tendencia alcista a largo plazo.
-3. **`close_10_ema` (Media Móvil Exponencial de 10 sesiones):** Captura el dinamismo a muy corto plazo, encontrándose en sintonía con la cotización reciente y el tono positivo mensual (retorno a 21 sesiones del **1,20%** y a 63 sesiones del **4,62%**).
-4. **`rsi` (Índice de Fuerza Relativa de 14 periodos):** Registra un valor de **52,04** (`rsi14`). Este nivel refleja una condición neutral (lejos de zonas de sobrecompra o sobreventa), indicando espacio para que el precio continúe su evolución sin indicios inmediatos de agotamiento alcista.
-5. **`macd` y `macds` (Convergencia/Divergencia de Medidas Móviles):** El valor de la línea MACD es de **0,187** frente a una señal (`macd_signal`) de **0,258**. Aunque el MACD se mantiene en terreno positivo, la línea de MACD se encuentra ligeramente por debajo de su señal, lo que sugiere una fase de consolidación o pausa temporal en el impulso de corto plazo.
-6. **`boll_ub` / `boll_lb` (Bandas de Bollinger):** La volatilidad de 14 periodos se sitúa en un moderado **14,64%** (`volatility_pct`). El precio actual de 17,67 EUR se encuentra muy próximo a la media móvil de 20 partes (`sma20` en **17,80 EUR**), oscilando de forma estable dentro de las bandas sin registrar rupturas extremas por la banda superior ni inferior.
+#### 1. Resumen de Identidad y Contexto Macroeconómico
+* **Ticker y Empresa**: Enagás, S.A. (`ENG.MC`), cotizada en Bolsas y Mercados Españoles (MCE), clasificada en el sector *Utilities / Utilities - Regulated Gas*.
+* **Moneda de referencia**: EUR.
+* **Fecha de referencia / análisis**: 21 de noviembre de 2026 (con datos de cierre al 20 de noviembre de 2026 proporcionados por el *snapshot* verificado).
+* **Entorno macroeconómico y catalizadores**: El contexto europeo reciente se mantiene influenciado por las perspectivas de la política monetaria del Banco Central Europeo (BCE), con fechas clave como la próxima reunión del BCE programada para el 17 de diciembre de 2026 y debates sobre reservas mínimas y tipos de interés (según titulares de prensa económica de noviembre de 2026 como Bankinter, El Economista y Rankia). Asimismo, un catalizador corporativo inmediato para `ENG.MC` es el anuncio del pago de un dividendo de **0,4 euros por acción** previsto para el **16 de diciembre de 2026** (fuentes: Finect y Valencia Plaza, 17-19 de noviembre de 2026).
 
 ---
 
-### 3. Fundamentos y Valoración
-* **Rentabilidad por Dividendo:** Uno de los principales atractivos de `ENG.MC` sigue siendo su política de retribución. Presenta una rentabilidad por dividendo (*dividend yield*) estimada en torno al **5,66% - 5,7%**, con un dividendo anual de **1,00 EUR** por título y un *payout ratio* del **79,96%**.
-* **Valoración y Múltiplos:** 
-  * Ratio PER histórico (*trailing PE*) de **12,90x**, mientras que el PER estimado a futuro (*forward PE*) se sitúa en **15,57x**.
-  * Ratio Precio/Valor en Libros (*price to book*) de **1,93x**.
-  * Deuda neta sobre EBITDA elevada, situada en **6,15x**, reflejo de la naturaleza intensiva en capital del sector de gas regulado.
-* **Consenso de Analistas:** El precio objetivo medio de consenso (*target mean price*) facilitado por los analistas es de **17,18 EUR** (con un rango entre 13,00 EUR y 19,80 EUR y una muestra de 20 opiniones), lo que arroja una leve sobrevaloración teórica frente al precio de mercado actual de 17,67 EUR (consiguiendo una variación implícita de consenso del **-2,76%**).
+#### 2. Análisis Técnico (`ENG.MC`)
+Basado estrictamente en el *snapshot* verificado al 20 de noviembre de 2026:
+* **Precio de cierre actual**: 17,67 EUR (`close_2026-11-20`).
+* **Medias Móviles**: 
+  * `sma20`: 17,79 EUR.
+  * `sma50`: 17,13 EUR.
+  * `sma200`: 16,43 EUR.
+  * *Interpretación*: El precio se sitúa ligeramente por debajo de su media de 20 sesiones (17,79 EUR), pero se mantiene por encima de la media de 50 sesiones (17,13 EUR) y de la media de largo plazo de 200 sesiones (16,43 EUR), lo que refleja una estructura de tendencia alcista moderada a medio-largo plazo, aunque consolidando en el corto plazo.
+* **Indicadores de Momento y Osciladores**:
+  * `rsi14`: 52,03 (zona neutral, sin sobreventa ni sobrecompra).
+  * `macd`: 0,1865 y `macd_signal`: 0,2577. El MACD se encuentra ligeramente por debajo de su línea de señal, indicando una fase de menor impulso comprador a corto plazo o ligera corrección técnica.
+* **Volatilidad y Drawdown**:
+  * `volatility_pct`: 14,64%.
+  * `drawdown_pct`: -3,96% respecto a máximos recientes.
+* **Rentabilidades históricas**:
+  * Retorno a 21 sesiones (`return21_pct`): +1,20%.
+  * Retorno a 63 sesiones (`return63_pct`): +4,61% (con un rendimiento relativo positivo frente al índice de referencia `^IBEX` de +10,52 puntos porcentuales).
+  * Retorno a 252 sesiones (`return252_pct`): +34,60%.
 
 ---
 
-### 4. Evidencia, Datos Faltantes y Advertencias
-* **Datos faltantes:** No se dispone de desglose detallado de flujos de caja proyectados a 5 años más allá de los estados financieros históricos cerrados al 31/12/2025 y los datos de balance actuales. Tampoco se cuenta con una cartera de inversión propia o asignación de activos particular del usuario (la operativa debe considerarse estrictamente hipotética).
-* **Fuentes y Fechas:** Datos extraídos de los snapshots oficiales verificados a **2026-11-20**. Noticias corporativas referidas a los días 17, 18 y 19 de noviembre de 2026 (*Finect*, *Cinco Días*, *Bolsamania*, *Valencia Plaza*).
+#### 3. Análisis Fundamental y Valoración
+* **Capitalización de mercado**: ~4.600 millones de EUR (`marketCap`: 4.599.466.496 EUR).
+* **Múltiplos de Valoración**:
+  * `trailingPE`: 12,89x (con `trailingEps` de 1,37 EUR).
+  * `forwardPE`: 15,57x (con `forwardEps` de 1,135 EUR).
+  * `priceToBook`: 1,93x (`bookValue`: 9,14 EUR).
+  * `enterpriseToEbitda`: 16,99x.
+* **Deuda y Solvencia**:
+  * `totalDebt`: 3.155.800.064 EUR (frente a `totalCash` de 537.299.968 EUR).
+  * Ratio `net_debt_ebitda`: 6,15x, lo que refleja un apalancamiento elevado característico del sector de infraestructuras reguladas de gas, requiriendo un seguimiento estrecho de la generación de caja operativa.
+* **Rentabilidad por Dividendo**:
+  * `dividendYield` / `dividend_yield_pct`: **5,66%**, respaldado por un dividendo anual de 1,00 EUR por acción y un *payout ratio* de 79,96%.
+* **Consenso de Analistas**:
+  * Precio objetivo medio (*targetMeanPrice*): 17,18 EUR (con un rango entre 13,00 EUR y 19,80 EUR, basado en 20 opiniones de analistas).
+  * *Consensus upside*: -2,76% frente al precio actual de 17,67 EUR, lo que sugiere que la acción cotiza actualmente ligeramente por encima de la valoración media de consenso de los analistas.
 
 ---
 
-### Tabla Resumen de Indicadores y Métricas Clave (`ENG.MC`)
-
-| Métrica / Indicador | Valor Actual | Interpretación / Contexto de Mercado |
-| :--- | :--- | :--- |
-| **Precio de Cierre** | 17,67 EUR | Cotización a fecha 20 de noviembre de 2026 (+0,80% diario). |
-| **SMA 50** | 17,13 EUR | Soporte dinámico de medio plazo; precio cotiza por encima. |
-| **SMA 200** | 16,43 EUR | Referencia de tendencia a largo plazo (superada al alza). |
-| **RSI (14)** | 52,04 | Zona neutral, sin señales extremas de sobrecompra/sobreventa. |
-| **MACD / Señal** | 0,187 / 0,258 | Impulso positivo pero en fase de consolidación a corto plazo. |
-| **Volatilidad (Pct)** | 14,64% | Volatilidad anualizada moderada típica de *Utilities* reguladas. |
-| **Rentabilidad por Dividendo** | ~5,66% | Atractivo flujo de caja para el inversor por dividendo. |
-| **PER (Trailing / Forward)** | 12,90x / 15,57x | Valoración moderada en línea con el sector regulado europeo. |
+#### 4. Selección de Indicadores Técnicos Recomendados
+Siguiendo la metodología requerida de seleccionar hasta 8 indicadores complementarios y sin redundancias de la lista autorizada, se eligen los siguientes para el seguimiento operativo de `ENG.MC`:
+1. `close_50_sma`: Para identificar la tendencia a medio plazo y actuar como soporte dinámico.
+2. `close_200_sma`: Para confirmar la tendencia estructural a largo plazo.
+3. `close_10_ema`: Para capturar giros rápidos de corto plazo ante la proximidad del pago de dividendos.
+4. `macd`: Para evaluar la divergencia y la fuerza del impulso de la tendencia actual.
+5. `macds`: Como línea de señal para filtrar cruces operativos junto con el MACD.
+6. `rsi`: Para monitorizar niveles neutrales (actualmente en 52,03) y descartar excesos de sobrecompra/sobreventa.
+7. `atr`: Esencial para la gestión de riesgo, dimensionamiento de posiciones y establecimiento de *stop-loss* dada la volatilidad del valor (14,64%).
+8. `vwma`: Para contrastar los movimientos de precio con el volumen de negociación en el mercado español.
 
 ---
 
-**Rating**: HOLD
+#### 5. Evidencia Contaria y Datos Faltantes
+* **Evidencia contraria / Riesgos**: El ratio de deuda neta sobre EBITDA se sitúa en 6,15x, un nivel elevado que limita la flexibilidad financiera si los tipos de interés se mantienen altos. Además, el precio actual de mercado (17,67 EUR) supera ligeramente el precio objetivo de consenso de los analistas (17,18 EUR), implicando un potencial de retornos limitado a corto plazo según las estimaciones de analistas.
+* **Datos faltantes**: No se dispone de un desglose detallado en tiempo real de las proyecciones de flujo de caja libre operativo más allá de las cifras anuales cerradas y ratios proporcionados en el *snapshot*. No se ha suministrado cartera de inversión (cualquier asignación es estrictamente hipotética).
 
-FINAL TRANSACTION PROPOSAL: Mantener posiciones existentes en `ENG.MC` a la espera
+---
+
+### Resumen en Tabla (Key Points)
+
+| Categoría | Métrica / Indicador | Valor / Estado para `ENG.MC` | Implicación Analítica |
+| :--- | :--- | :--- | :--- |
+| **Precio y Tendencia** | Precio de Cierre (20/11/202
