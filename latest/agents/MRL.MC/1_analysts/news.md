@@ -1,31 +1,32 @@
-Aquí presento el análisis de situación para **MRL.MC** (MERLIN Properties SOCIMI, S.A.) basado en la información financiera y de mercado disponible a fecha de 21 de noviembre de 2026.
+Este informe analiza la situación actual de **MRL.MC** (MERLIN Properties SOCIMI, S.A.) basándose en la evidencia proporcionada a fecha de 22 de noviembre de 2026.
 
-### Informe de Situación: MRL.MC
+### Análisis de Mercado y Contexto Macroeconómico
+El entorno macroeconómico actual, caracterizado por una posible restricción monetaria "por la puerta de atrás" mediante el incremento de reservas mínimas por parte del BCE (19-11-2026) y la expectativa de nuevas reuniones sobre tipos de interés, genera un clima de incertidumbre para el sector inmobiliario español.
 
-**Análisis Fundamental y Financiero:**
-MERLIN Properties muestra una valoración atractiva desde una perspectiva de valor contable, con un *Price-to-Book* (P/B) de 0.78, lo que sugiere que la acción cotiza con un descuento respecto a su valor contable (13.94 EUR). Sin embargo, el mercado refleja una postura cautelosa. La empresa reportó una deuda total de 5,386 millones de EUR frente a un valor de mercado (Market Cap) de 6,767 millones de EUR. Aunque el beneficio neto aumentó significativamente en 2025 (786 millones de EUR) frente a las pérdidas de 2023, la cotización ha sufrido una caída del 29.35% desde su máximo reciente (drawdown), situándose actualmente en 10.93 EUR.
+**MRL.MC** enfrenta presiones bajistas significativas tras sus resultados recientes. A pesar de haber reportado un aumento en los ingresos (538,96M EUR en 2025 vs 494,57M EUR en 2024), el mercado ha reaccionado con cautela. La acción cotiza a 10,93 EUR, lo que representa una caída del 29,36% desde sus máximos, situándose por debajo de sus medias móviles de 20, 50 y 200 días.
 
-**Contexto Macroeconómico y Sectorial:**
-El sector de oficinas y centros de datos, núcleo del negocio de MRL.MC, enfrenta incertidumbres operativas. Según *Bankinter* (19-11-2026), existe una creciente preocupación específicamente sobre los proyectos de centros de datos de la compañía. En el plano macro, el entorno es de vigilancia sobre las políticas del BCE, con menciones a posibles ajustes en reservas mínimas (El Economista, 19-11-2026) y una atención continua a la trayectoria de los tipos de interés de cara a diciembre de 2026. La rentabilidad por dividendo del 3.66% proporciona un cierto soporte al inversor, pero no ha sido suficiente para evitar una tendencia técnica bajista (cotizando por debajo de sus medias móviles de 20, 50 y 200 días).
+### Situación Financiera y Valoración
+*   **Fundamentos:** MRL.MC presenta un PER (Trailing PE) de 7,54x, que resulta engañoso debido a la naturaleza de las SOCIMIs; el Price-to-Book de 0,78 sugiere una valoración descontada respecto a su valor contable (13,94 EUR). Sin embargo, el consenso de analistas mantiene un precio objetivo medio de 17,01 EUR, lo que implica un potencial alcista del 55,66%.
+*   **Desafíos:** Existe una clara preocupación por la incertidumbre en los centros de datos (Bankinter, 19-11-2026) y el aumento de la actividad de los inversores bajistas (CapitalMadrid, 19-11-2026).
+*   **Dividendos:** Con una rentabilidad por dividendo del 3,66% y un ratio de pago (payout) contenido del 14,8%, la compañía parece mantener una política de retribución sostenible, aunque el mercado penaliza la falta de impulso tras la publicación de resultados.
 
-**Factores de Riesgo y Oportunidades:**
-*   **A favor:** Valoración descontada (P/B < 1), recuperación en el flujo de caja operativo (415M EUR en 2025) y una política de dividendos constante.
-*   **En contra:** Debilidad técnica clara (RSI de 36.18, cercano a zona de sobreventa pero sin señales de reversión fuerte), aumento de deuda acumulada y volatilidad sectorial.
-*   **Información faltante:** No se dispone de datos desglosados de deuda neta/EBITDA actualizados post-resultados, lo cual es crítico para una SOCIMI. Asimismo, faltan detalles sobre el impacto de la inflación reciente en los costes operativos de los activos de datos.
+### Datos Faltantes
+No se dispone de datos de flujo de caja operativo o libre para el periodo actual, ni una comparación sectorial detallada. El ratio "Net Debt/EBITDA" no está disponible en la instantánea, lo cual es crítico para evaluar el apalancamiento de una REIT.
 
-### Resumen de Datos Clave
+### Conclusión para el Inversor
+El perfil técnico es bajista (RSI en 36,18, cerca de sobreventa pero sin señales de reversión). La divergencia entre el valor contable y el precio de mercado, sumada al consenso de analistas, sugiere que el mercado está descontando riesgos sectoriales o de refinanciación por encima de la calidad intrínseca de los activos.
 
-| Métrica | Valor | Observación |
+**Rating**: HOLD
+
+FINAL TRANSACTION PROPOSAL: None. No trades executed.
+
+| Indicador | Valor / Estado | Nota |
 | :--- | :--- | :--- |
-| **Precio Actual** | 10.93 EUR | Tendencia técnica negativa |
-| **Consenso Precio Objetivo** | 17.01 EUR | Indica un potencial upside significativo |
-| **P/B Ratio** | 0.78 | Infravaloración respecto a activos |
-| **Yield (Dividendo)** | 3.66% | Soporte al accionista |
-| **SMA 200** | 13.62 EUR | La acción cotiza por debajo de su media anual |
-| **Sentimiento (News)** | Mixto/Bajista | Incertidumbre sobre centros de datos |
+| Precio Actual | 10,93 EUR | Cambio -1,89% |
+| Precio Objetivo (Consenso) | 17,01 EUR | Upside 55,66% |
+| P/B Ratio | 0,78x | Valoración atractiva |
+| Rentabilidad por Dividendo | 3,66% | Sostenible |
+| Tendencia Técnica | Bajista | SMA200 (13,62) superior a precio |
+| Sentimiento de Noticias | Negativo | Presión bajista tras resultados |
 
-**Rating:** REVIEW
-
-FINAL TRANSACTION PROPOSAL: Mantener una postura de espera ("Watch-list") para observar si la zona de 10.50-10.70 EUR actúa como soporte técnico sólido antes de considerar posiciones, dado que la valoración fundamental es atractiva pero el momentum técnico es marcadamente bajista.
-
-*Descargo de responsabilidad: Este informe es para fines informativos y no constituye asesoramiento financiero. Toda inversión en activos cotizados conlleva riesgos.*
+*Fuentes consultadas: Yahoo Finance, OCU, Bankinter, CapitalMadrid, Morningstar, El Economista (16-22 nov 2026).*

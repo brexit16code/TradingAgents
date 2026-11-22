@@ -1,35 +1,34 @@
-Este informe analiza la situación fundamental de **International Consolidated Airlines Group S.A. (IAG.MC)** basándose en los datos proporcionados al 21 de noviembre de 2026.
+Este informe presenta un análisis fundamental de **International Consolidated Airlines Group S.A. (IAG.MC)** basado en los datos financieros y de mercado disponibles a fecha de 22 de noviembre de 2026.
 
-### Perfil de la Empresa
-IAG es un grupo aerolíneo líder a nivel mundial, clasificado dentro del sector de **Industriales/Aerolíneas**. Cotiza en la Bolsa de Madrid y es un componente relevante del índice ^IBEX. Su modelo de negocio se basa en la gestión de varias aerolíneas de red y bajo coste, con una fuerte exposición a rutas transatlánticas y europeas.
+### Perfil y Desempeño Financiero
+IAG, operadora de aerolíneas como British Airways e Iberia, muestra una estructura financiera que refleja una sólida recuperación pospandemia. Con una capitalización bursátil de 22.670 millones de EUR, la empresa mantiene unos ratios de valoración atractivos en comparación con su sector.
 
-### Análisis Financiero
-*   **Valoración y Rentabilidad:** IAG presenta una valoración atractiva con un **PER (Trailing) de 8.06x** y un **PER Forward de 7.07x**, situándose significativamente por debajo de la mediana del sector (16.45x), lo cual sugiere una infravaloración relativa frente a sus pares. La rentabilidad por dividendo es del **1.87%**, con un ratio de pago (payout) conservador del **15.19%**, lo que indica margen para futuras políticas de retribución.
-*   **Resultados Recientes:** Los ingresos han mostrado una tendencia alcista constante, pasando de 29.453 millones en 2023 a 33.213 millones en 2025. El beneficio neto también ha experimentado una evolución positiva, consolidándose en 3.342 millones al cierre de 2025.
-*   **Balance y Deuda:** La compañía ha logrado gestionar su balance de manera eficaz; su ratio **Net Debt/EBITDA de 0.78x** es un indicador saludable para una aerolínea, reflejando una reducción sustancial del endeudamiento en comparación con años anteriores. El efectivo disponible (9.175 millones) proporciona una base de liquidez sólida frente a una deuda total de 13.867 millones.
+*   **Rentabilidad y Valoración:** El ratio PER (Trailing PE) es de 8,06x, con un PER forward estimado de 7,07x. Este bajo nivel de múltiplos sugiere que, según las expectativas del mercado, el precio actual de 5,24 EUR podría estar infravalorado si se cumplen las proyecciones de BPA (Forward EPS de 0,74 EUR).
+*   **Balance y Solvencia:** La empresa presenta una deuda total de 13.867 millones de EUR frente a una caja de 9.175 millones de EUR. Su ratio de deuda neta/EBITDA se sitúa en 0,78x, una cifra notablemente saludable para una aerolínea de gran escala, lo que indica un balance mucho más robusto que en años anteriores (véase la evolución de la deuda de 17.345M en 2024 a 14.267M en 2025).
+*   **Generación de Efectivo:** El flujo de caja libre (Free Cash Flow) fue de 3.146 millones de EUR en 2025, manteniendo una tendencia positiva y constante desde 2023, lo que respalda su política de dividendos (Yield actual de 1,87%).
 
-### Consideraciones Estratégicas
-*   **Entorno Macroeconómico:** Los titulares recientes (20 de noviembre de 2026) señalan un entorno de incertidumbre en las bolsas y posibles presiones por las políticas de reservas mínimas del BCE, lo que podría impactar en los costes financieros.
-*   **Costes Operativos:** Según *Estrategias de Inversión* (15 de noviembre de 2026), los márgenes de IAG están altamente condicionados por el precio del petróleo. La eficiencia en el control de costes de combustible es el principal motor para la mejora de sus márgenes operativos a corto plazo.
-*   **Consenso de Mercado:** El precio objetivo medio de los analistas es de **6.12 EUR**, lo que representa un potencial de revalorización (upside) del **16.89%** respecto al precio de cierre de 5.24 EUR.
+### Análisis de Mercado y Sentimiento
+*   **Consenso:** El precio objetivo medio de los analistas es de 6,12 EUR, lo que implica un potencial de revalorización (upside) del 16,89%. El rango estimado oscila entre 5,30 EUR y 7,00 EUR.
+*   **Contexto Macro:** Las noticias recientes (2026-11-19) indican que el BCE está ajustando la política monetaria (reservas obligatorias), lo que podría incrementar los costes financieros. No obstante, IAG se mantiene en un entorno de tipos donde su capacidad de desapalancamiento ha sido efectiva.
+*   **Indicadores Técnicos:** El precio actual (5,24 EUR) se encuentra por encima de sus medias móviles de 20, 50 y 200 días, lo que sugiere una tendencia alcista estructural a largo plazo, a pesar del retroceso del 2,20% en la última sesión registrada.
 
-### Análisis Técnico
-La acción se sitúa por encima de sus medias móviles de 20, 50 y 200 días (5.19, 5.06 y 4.86 respectivamente), lo que denota una tendencia alcista estructural a largo plazo. Sin embargo, el RSI de 52.44 se encuentra en terreno neutral, sugiriendo una falta de momento direccional claro a muy corto plazo.
+### Riesgos y Consideraciones
+*   **Datos faltantes:** No se dispone de datos detallados sobre el *Operating Cash Flow* ni *Free Cash Flow* actualizados a noviembre de 2026 (los datos de estados financieros llegan hasta el cierre de 2025).
+*   **Contexto Sectorial:** Aunque el ratio PER es bajo, la industria aérea es altamente cíclica y sensible a los precios del combustible y la macroeconomía europea (IPC y PIB), tal como destaca el resumen de prensa del 22 de noviembre.
 
-### Conclusión para Inversores
-IAG presenta fundamentos sólidos con una baja carga de deuda y valoraciones atractivas. El principal riesgo reside en la volatilidad de los precios del combustible y el entorno de tipos de interés en la Eurozona.
+**Rating**: HOLD (basado en el potencial de subida del 16,89% frente a la ciclicidad del sector).
 
-**Rating**: Neutral to Positive
+FINAL TRANSACTION PROPOSAL: No trade execution suggested. Any potential long-term position should consider the 5,30 EUR floor (analyst low) as a critical support level.
 
-| Indicador | Valor |
+| Indicador | Valor / Dato |
 | :--- | :--- |
-| **Precio Actual** | 5.24 EUR |
-| **PER Forward** | 7.07x |
-| **Upside Consenso** | 16.89% |
-| **Net Debt/EBITDA** | 0.78x |
-| **Dividend Yield** | 1.87% |
-| **Tendencia (SMA200)** | Alcista (4.86 EUR) |
+| **Precio de Cierre (IAG.MC)** | 5,238 EUR |
+| **Capitalización Bursátil** | 22.670 M EUR |
+| **PER (Forward)** | 7,07x |
+| **Precio Objetivo (Media)** | 6,12 EUR |
+| **Consenso Upside** | +16,89% |
+| **Deuda Neta/EBITDA** | 0,78x |
+| **Dividend Yield** | 1,87% |
+| **Fuente Datos** | Yahoo Finance (2026-11-22) |
 
-*Nota: La información sobre el flujo de caja operativo y libre de 2026 está incompleta en el conjunto de datos proporcionado. Los cálculos se basan en los estados financieros cerrados a diciembre de 2025.*
-
-FINAL TRANSACTION PROPOSAL: None (Observation only).
+*Nota: La información ha sido extraída de los estados financieros auditados a 31/12/2025 y datos de mercado a 20/11/2026. Se recomienda cautela ante la ausencia de reportes trimestrales de 2026.*

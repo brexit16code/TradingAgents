@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La acción se encuentra en una tendencia bajista técnica clara, cotizando por debajo de sus medias móviles clave (SMA 50 y 200). Aunque existe un descuento significativo frente al valor contable y un alto potencial alcista según el consenso de analistas, la incertidumbre sobre el sector de centros de datos y el entorno de tipos de interés sugieren que el riesgo de mayor deterioro a corto plazo es elevado. Mantener es la opción prudente a la espera de señales técnicas de reversión.
+**Reasoning**: MRL.MC muestra una dicotomía importante: mientras el valor contable y el PER sugieren un descuento atractivo, la presión técnica bajista y el entorno de tipos de interés presionan a la baja el precio, manteniéndolo por debajo de las medias móviles clave. La incertidumbre sobre la valoración de activos y la carga de deuda recomiendan mantener la cautela hasta observar una estabilización de los niveles técnicos o una mejora en los fundamentales operativos.
 
 **Entry Price**: not provided
 
-**Stop Loss**: not provided
+**Stop Loss**: 10.5
 
-**Position Sizing**: not provided
+**Position Sizing**: Mantener posición actual; no aumentar exposición hasta superar los 13.62 EUR.
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

@@ -1,81 +1,61 @@
-**Rating:** REVIEW
+**Rating**: REVIEW
 
-**FINAL TRANSACTION PROPOSAL:** HOLD
-
----
-
-### Informe Fundamental Integral: Corporación Acciona Energ
-ías Renovables, S.A. (`ANE.MC`)
-
-Fecha de análisis: 21 de noviembre de 2026.  
-Cotización de referencia: 18,69 EUR (cierre al 20 de noviembre de 2026).
+**FINAL TRANSACTION PROPOSAL**: HOLD
 
 ---
 
-### 1. Perfil de la Empresa y Contexto de Mercado
-Corporación Acciona Energías Renovables, S.A. (`ANE.MC`) es una compañía líder global en el sector de servicios públicos (*Utilities*) y energías renovables (*Utilities - Renewable*), cotizada en la Bolsa de Madrid (`MCE`) y componente del índice de referencia ibérico (`^IBEX`). 
+### Informe Fundamental Integral: Corporación Acciona Energías Renovables, S.A. (`ANE.MC`)
 
-Recientemente, el valor se ha visto presionado a la baja. De acuerdo con las noticias del mercado de mediados de noviembre de 2026 (como el reporte de *Merca2.es* del 15 de noviembre), las acciones de Acciona y `ANE.MC` sufrieron caídas pronunciadas tras frustrarse sus planes de desinversión previstos, lo que ha generado incertidumbre a corto plazo sobre la optimización de su estructura de capital y rotación de activos.
+#### 1. Perfil de la Compañía y Negocio
+- **Ticker y Símbolo:** `ANE.MC` (Bolsa de Madrid, cotizada en EUR, incluido en el índice de referencia `^IBEX`).
+- **Clasificación Sectorial:** Utilities / Utilities - Renovable (Energías Renovables).
+- **Identidad Resuelta:** Corporación Acciona Energías Renovables, S.A. es una de las mayores compañías mundiales dedicadas exclusivamente a la generación de energía 100% renovable, con una sólida presencia internacional en tecnologías eólica, solar fotovoltaica e hidroeléctrica.
 
-### 2. Análisis Técnico y Situación Bursátil Actual
-- **Precio actual**: 18,69 EUR.
-- **Rendimiento reciente**: Acumula una caída del 3,51% en la última sesión, un descenso del 12,58% en los últimos 21 días (*return21_pct*) y un retroceso del 12,50% a 63 días (*return63_pct*).
-- **Indicadores de momentum**: El RSI de 14 períodos se sitúa en **29,23**, lo que indica que el valor se encuentra en territorio de **sobreventa técnica**. El MACD (-0,533) se mantiene por debajo de su línea de señal (-0,231), confirmando la tendencia bajista de corto plazo.
-- **Medias móviles**: Cotiza notablemente por debajo de sus medias móviles clave: SMA20 (21,12 EUR), SMA50 (21,48 EUR) y SMA200 (21,80 EUR).
-- **Drawdown**: Se encuentra a un -23,30% de sus niveles de referencia recientes (*drawdown_pct*), con una volatilidad anualizada elevada del 35,85%.
+#### 2. Análisis Financiero e Historial de Resultados
+Los estados financieros consolidados y las métricas fundamentales recientes (según el conjunto de datos integrado hasta noviembre de 2026) muestran la siguiente evolución:
 
-### 3. Análisis Financiero y Fundamental
+* **Cuenta de Resultados (Ingresos, EBITDA y Beneficio Neto):**
+  - **Ejercicio 2025:** Total Revenue de 2.925.000.000 EUR, EBITDA de 1.484.000.000 EUR, y un Beneficio Neto de 655.000.000 EUR.
+  - **Ejercicio 2024:** Total Revenue de 3.048.000.000 EUR, EBITDA de 1.183.000.000 EUR, y un Beneficio Neto de 357.000.000 EUR.
+  - **Ejercicio 2023:** Total Revenue de 3.547.000.000 EUR, EBITDA de 1.407.000.000 EUR, y un Beneficio Neto de 524.000.000 EUR.
+  *(Nota de análisis: Se observa una contracción en los ingresos totales entre 2023 y 2025 del orden del 34.4% de crecimiento reportado negativo interanual en métricas recientes, reflejando un entorno de precios de la energía más moderado frente a los picos anteriores, aunque con recuperación de márgenes de EBITDA en 2025).*
 
-#### A. Cuenta de Resultados (*Income Statement*)
-De acuerdo con los estados financieros consolidados:
-- **Ingresos Totales (*Total Revenue*)**: 
-  - 2025: 2.925 millones de EUR.
-  - 2024: 3.048 millones de EUR.
-  - 2023: 3.547 millones de EUR.  
-  *(Se observa una tendencia a la baja en la cifra de negocios de los últimos ejercicios).*
-- **EBITDA**: 
-  - 2025: 1.484 millones de EUR (superior a los 1.183 millones de EUR de 2024 y 1.407 millones de EUR de 2023).
-- **Beneficio Neto (*Net Income*)**: 
-  - 2025: 655 millones de EUR.
-  - 2024: 357 millones de EUR.
-  - 2023: 524 millones de EUR.
+* **Balance de Situación:**
+  - **Activos Totales (2025):** 14.718.000.000 EUR (frente a 16.244.000.000 EUR en 2024 y 14.672.000.000 EUR en 2023).
+  - **Deuda Total:** Registrada en 5.410.999.808 EUR (con pasivos financieros totales en torno a 5.164.000.000 EUR al cierre de 2025). El ratio de Deuda Neta a EBITDA se sitúa en 5.06x, lo que evidencia un apalancamiento elevado típico de empresas de infraestructuras intensivas en capital.
+  - **Patrimonio Neto (Stockholders Equity):** 5.836.000.000 EUR en 2025, con un valor contable (*Book Value*) por acción de 19,10 EUR.
 
-#### B. Balance de Situación (*Balance Sheet*)
-- **Activos Totales**: 14.718 millones de EUR (cierre 2025), frente a 16.244 millones de EUR en 2024.
-- **Deuda Total (*Total Debt*)**: 5.164 millones de EUR (2025), mostrando una ligera reducción frente a los 5.442 millones de EUR de 2024 (el snapshot actual registra la deuda total en aproximadamente 5.411 millones de EUR con un efectivo de 495 millones de EUR).
-- **Patrimonio Neto (*Stockholders Equity*)**: 5.836 millones de EUR (2025).
-- **Apalancamiento**: El ratio de Deuda Neta sobre EBITDA se sitúa en **5,06x**, un nivel elevado que exige especial atención por parte de los inversores en un entorno de tipos de interés todavía restrictivos por parte del Banco Central Europeo (BCE).
+* **Flujos de Caja (Cash Flow):**
+  - **Flujo de Caja Operativo:** 383.000.000 EUR en 2025 (por debajo de los 681.000.000 EUR de 2024).
+  - **Inversión en CapEx:** -979.000.000 EUR en 2025 (-1.630.000.000 EUR en 2024 y -1.907.000.000 EUR en 2023).
+  - **Flujo de Caja Libre (Free Cash Flow):** Negativo en los últimos ejercicios (-596.000.000 EUR en 2025; -949.000.000 EUR en 2024), impulsado por el ambicioso plan de inversiones en capacidad renovable.
 
-#### C. Flujo de Caja (*Cash Flow*)
-- **Flujo de Caja Operativo (*Operating Cash Flow*)**: 383 millones de EUR en 2025 (por debajo de los 681 millones de EUR de 2024).
-- **Inversión en CapEx**: -979 millones de EUR en 2025 (-1.630 millones de EUR en 2024).
-- **Flujo de Caja Libre (*Free Cash Flow*)**: Negativo en los últimos ejercicios (-596 millones de EUR en 2025; -949 millones de EUR en 2024), derivado del fuerte ritmo de inversiones en capacidad renovable.
+#### 3. Valoración, Múltiplos y Datos de Mercado
+- **Precio de Cierre Actual (a 20 de noviembre de 2026):** 18,69 EUR.
+- **Capitalización Bursátil:** 6.065.829.376 EUR.
+- **Múltiplos de Valoración:**
+  - PER Trailing: 32,79x.
+  - PER Forward: 27,76x.
+  - Precio/Valor en Libros (Price to Book): 0,98x (cotiza ligeramente por debajo de su valor contable, reflejando el castigo del sector).
+  - EV/EBITDA: 11,67x.
+- **Rentabilidad por Dividendo:** El *dividend yield* oficial reportado asciende al 16,05% (con un *dividend rate* de 0,03 EUR y un *payout ratio* de 5,27%). *Precaución analítica: se debe verificar la consistencia de este rendimiento nominal frente a eventos corporativos extraordinarios o ajustes de folletos, dado que el ratio de pago es bajo pero la rentabilidad porcentual indicada es anómala debido a fluctuaciones recientes de cotización.*
+- **Consenso de Analistas:** El precio objetivo medio (*target mean price*) de los analistas es de 23,33 EUR (con un rango bajo de 17,00 EUR y alto de 28,30 EUR), basado en un panel de 19 opiniones. Esto implica un potencial de revalorización (*consensus upside*) del **24,81%**.
 
-#### D. Valoración y Múltiplos
-- **Capitalización Bursátil**: ~6.066 millones de EUR.
-- **PER Trailing (Trailing P/E)**: 32,79x.
-- **PER Forward (Forward P/E)**: 27,76x.
-- **Valor en Libros (*Book Value*)**: 19,10 EUR por acción (Precio/Valor en Libros de 0,98x, lo que indica que cotiza ligeramente por debajo de su valor contable).
-- **EV/EBITDA**: 11,67x.
-- **Dividendos**: Ofrece una rentabilidad por dividendo (*dividend yield*) estimada del **16,05%** (con una tasa de dividendo nominal de 0,03 EUR y un *payout* reportado del 5,27%). *Nota: Este elevado porcentaje nominal de yield requiere cautela analítica y comprobación de sostenibilidad ante los flujos de caja libres negativos.*
-- **Consenso de Analistas**: El precio objetivo medio (*targetMeanPrice*) de los analistas se sitúa en **23,33 EUR** (con un rango entre 17,00 EUR y 28,30 EUR y la opinión de 19 analistas), lo que arroja un potencial de revalorización (*consensus_upside_pct*) del **24,81%** respecto al precio actual de 18,69 EUR.
+#### 4. Análisis Técnico Breve
+- **Tendencia y Momento:** Cotizando a 18,69 EUR, `ANE.MC` experimenta una caída mensual del 12,58% y un *drawdown* del -23,30% respecto a sus referencias de medio plazo. Las medias móviles (SMA20: 21,12 EUR, SMA50: 21,48 EUR y SMA200: 21,80 EUR) dibujan una tendencia bajista clara.
+- **RSI (14):** 29,23, lo que sitúa al valor en niveles de **sobreventa técnica**. El MACD permanece en territorio negativo (-0,53), sugiriendo ausencia de giro alcista confirmado a corto plazo.
 
----
+#### 5. Contexto Macroeconómico Reciente (Noviembre de 2026)
+Las noticias financieras de la semana del 16 al 22 de noviembre de 2026 destacan:
+- Incertidumbre en torno a la evolución de los tipos de interés del BCE (reunión prevista para el 17 de diciembre de 2027 / ajustes en reservas mínimas y tipos de interés), lo que impacta directamente en las valoraciones por descuento de flujos de las utilities endeudadas.
+- Agenda marcada por datos macroeconómicos en España (IPC, elecciones generales) y de EE. UU., afectando el apetito por el riesgo en activos de renta variable europea regulada y renovable.
 
-### 4. Evidencia, Fuentes y Fechas
-- **Datos de cotización y técnicos**: Proveedor Yahoo Finance / Snapshot del 20 de noviembre de 2026.
-- **Noticias clave**: 
-  - *Merca2.es* (15 de noviembre de 2026): "Acciona y Acciona Energía se desploman en bolsa al frustrarse sus planes de desinversión".
-  - *Bankinter* (19 de noviembre de 2026): "Acciones de Acciona Energía: Análisis fundamental y recomendaciones".
-  - *Rankia* (16 de noviembre de 2026): "Acciones de Acciona Energía (ANE): ¿merece la pena invertir?".
-- **Datos macroeconómicos contextuales**: Reuniones y proyecciones del BCE publicadas por *El Economista*, *Radio Intereconomía* y *Rankia* entre el 16 y el 20 de noviembre de 2026 sobre la evolución de tipos y reservas mínimas.
+#### 6. Datos Faltantes y Limitaciones
+- No se dispone de detalles granulares sobre operaciones con información privilegiada (*insider transactions*) en este extracto.
+- Las estimaciones de crecimiento de beneficios (*earnings growth*) no están tabuladas en firme para los próximos trimestres beyond forward EPS (0,67 EUR).
 
 ---
 
-### 5. Datos Faltantes / Limitaciones
-- No se dispone de un desglose detallado de transacciones de iniciados (*insider transactions*) en el snapshot actual.
-- Faltan previsiones detalladas de crecimiento orgánico a más de 3 años vista más allá del consenso general de analistas.
+### Tabla Resumen de Puntos Clave
 
----
-
-### 6. Tabla Resumen de Puntos Cl
+| Métrica / Concepto | Valor / Dato | Implicación para el Inversionista

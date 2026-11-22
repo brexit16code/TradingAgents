@@ -1,11 +1,11 @@
-**Action**: Sell
+**Action**: Hold
 
-**Reasoning**: La recomendación de infraponderar (Underweight) y la evidencia fundamental desfavorable, marcada por un apalancamiento excesivo con un Net Debt / EBITDA de 5.06x, un flujo de caja libre negativo y el fracaso reciente en los planes de desinversión, justifican una salida vendedora. Desde una perspectiva técnica, la cotización de ANE.MC en 18,69 EUR se sitúa netamente por debajo de sus medias móviles de 50 y 200 sesiones, confirmando una clara tendencia bajista a pesar de la sobreventa puntual en el RSI.
+**Reasoning**: El valor cotiza en 18.69 EUR, por debajo de sus medias móviles clave de 50 y 200 sesiones, con un RSI de 29.23 que indica sobreventa pero sin un patrón de giro confirmado. Aunque existe un descuento frente al valor contable y un potencial alcista de consenso del 24.81% hasta 23.33 EUR, la quema persistente de flujo de caja libre y un apalancamiento elevado de 5.06x Deuda Neta/EBITDA justifican una postura de espera prudente para evitar riesgos bajistas adicionales.
 
-**Entry Price**: 18.69
+**Entry Price**: not provided
 
-**Stop Loss**: 21.48
+**Stop Loss**: not provided
 
-**Position Sizing**: Reducción recomendada de la exposición teórica o infraponderación en la cartera hipotética.
+**Position Sizing**: 5% de la cartera
 
-FINAL TRANSACTION PROPOSAL: **SELL**
+FINAL TRANSACTION PROPOSAL: **HOLD**

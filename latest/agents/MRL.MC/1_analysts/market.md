@@ -1,33 +1,34 @@
-El análisis de **MERLIN Properties SOCIMI, S.A. (MRL.MC)**, basado en la información financiera y técnica proporcionada a fecha de 21 de noviembre de 2026, refleja una situación de cautela operativa con una presión bajista persistente en el corto y medio plazo.
+El análisis técnico y fundamental de **MRL.MC** (MERLIN Properties SOCIMI, S.A.) revela una situación de mercado compleja, caracterizada por una presión bajista a corto plazo, pero con una valoración atractiva bajo ciertos parámetros fundamentales.
 
-### Análisis Técnico y Tendencia
-A fecha de 20 de noviembre de 2026, la acción cotiza a **10,93 EUR**, acumulando una caída del 1,89% en la última sesión y una pérdida del 20,41% en los últimos 63 días. La estructura técnica es claramente bajista:
-*   **Medias Móviles:** El precio (10,93 EUR) se encuentra por debajo de sus medias de 20 días (11,35 EUR), 50 días (11,65 EUR) y 200 días (13,61 EUR), lo cual es una señal técnica de tendencia negativa consolidada.
-*   **Momentum:** El RSI de 14 sesiones se sitúa en 36,18. Aunque se acerca a la zona de sobreventa (habitualmente <30), no muestra una divergencia clara que sugiera un rebote inminente. El MACD (-0,139) está por debajo de su línea de señal (-0,126), lo que confirma el dominio vendedor.
-*   **Volatilidad:** Con un *drawdown* del 29,36%, el activo atraviesa un periodo de corrección significativo, exacerbado por una volatilidad del 26,07%.
+### Análisis de la Situación Actual (a 22 de noviembre de 2026)
 
-### Contexto Fundamental y Noticias
-Los resultados financieros muestran una contradicción entre el crecimiento de los ingresos (anualizados en los estados) y la percepción del mercado.
-*   **Valoración:** Con un *Price-to-Book* de 0,78x, la acción cotiza con un descuento respecto a su valor contable (13,94 EUR), lo cual suele atraer a inversores de valor (*value investing*), pero no ha sido suficiente para frenar la tendencia bajista.
-*   **Perspectiva del Sector:** El sector de REITs de oficinas enfrenta incertidumbre. Noticias recientes (Bankinter, 19/11/2026) señalan dudas específicas sobre la estrategia en centros de datos, un pilar fundamental de crecimiento esperado. Además, el entorno de tipos de interés (reunión BCE del 17/12/2026, *Rankia*) sigue siendo una fuente de volatilidad para el sector inmobiliario.
-*   **Consenso de Analistas:** A pesar de la caída, el precio objetivo medio de los analistas es de **17,01 EUR**, lo que representa un *upside* implícito del 55,66% según las 21 opiniones recopiladas. Esta brecha entre precio actual y objetivo sugiere una divergencia entre el sentimiento de mercado a corto plazo y la valoración fundamental de los analistas.
+**MRL.MC** cotiza actualmente a **10,93 EUR**, tras haber experimentado un retroceso del **1,88%** en la última sesión. La acción muestra un comportamiento técnico débil:
+*   **Tendencia:** El precio se sitúa por debajo de sus medias móviles de 20 días (11,35 EUR), 50 días (11,65 EUR) y 200 días (13,62 EUR), lo que confirma una tendencia bajista consolidada en múltiples horizontes temporales.
+*   **Momentum y Volatilidad:** El **RSI(14)** se encuentra en **36,18**, acercándose a terreno de sobreventa, lo que sugiere que, aunque la tendencia es negativa, la velocidad de la caída podría estar moderándose. El **MACD** (-0,139) está por debajo de su línea de señal (-0,126), lo que refuerza la persistencia de la presión vendedora.
+*   **Sentimiento:** Según las noticias recientes (fuente: Bankinter, CapitalMadrid), existe una creciente incertidumbre respecto al segmento de centros de datos y una actividad significativa por parte de los inversores en corto (bajistas) tras la publicación de resultados, lo que ha limitado el impacto positivo de las cuentas trimestrales.
 
-### Consideraciones Estratégicas
-La falta de datos sobre *Operating Cash Flow* y *Free Cash Flow* actualizados impide realizar una valoración por flujo de caja descontado rigurosa. La rentabilidad por dividendo (3,66%) ofrece cierto soporte, pero la prioridad del mercado parece centrarse actualmente en la gestión de la deuda (5,39 mil millones de EUR) y la capacidad de refinanciación.
+### Perspectiva Fundamental
+La compañía presenta una contradicción: un **PER (Trailing)** bajo de **7,54x**, pero un **PER (Forward)** significativamente más elevado de **19,36x**, lo que indica que el mercado anticipa una contracción importante en el beneficio por acción (EPS) futuro o una valoración ajustada a las condiciones del sector.
+*   **Solidez:** La ratio **Precio/Valor Contable (P/B)** de **0,78** sugiere que la acción cotiza con un descuento sobre su valor patrimonial (13,94 EUR), un dato común en el sector inmobiliario bajo entornos de tipos de interés restrictivos.
+*   **Rentabilidad:** Con una rentabilidad por dividendo del **3,66%** y un payout ratio controlado del **14,8%**, la compañía mantiene capacidad para remunerar al accionista, aunque el crecimiento de ingresos ha sido ligeramente negativo (-0,6%).
 
-**Rating:** UNDERWEIGHT
-**FINAL TRANSACTION PROPOSAL:** No se recomienda la toma de posiciones hasta que el precio logre consolidar por encima de la SMA de 50 días (11,65 EUR) y se observe una reversión en el histograma del MACD, confirmando un cambio en el momentum vendedor actual.
+### Consideraciones de Riesgo
+Los datos de deuda total alcanzan los **5.386 millones EUR**. En el contexto actual de política monetaria del BCE (posibles ajustes en tipos y reservas, según noticias del 19-20 de noviembre), el coste del apalancamiento es una variable crítica que los inversores están monitorizando estrechamente.
 
-### Resumen de Datos Clave
+**Datos faltantes:** No se dispone del *Net Debt/EBITDA* explícito ni de proyecciones detalladas de flujo de caja libre operativo para 2027, lo cual limita la capacidad de evaluar la sostenibilidad exacta de la deuda bajo escenarios de estrés financiero.
 
-| Indicador | Valor / Estado | Nota |
+### Resumen Técnico y Estratégico
+
+| Indicador | Valor Actual | Interpretación |
 | :--- | :--- | :--- |
-| Precio Cierre | 10,93 EUR | Tendencia bajista |
-| RSI (14) | 36,18 | Zona neutral-baja |
-| SMA 200 | 13,61 EUR | Resistencia a largo plazo |
-| P/B Ratio | 0,78x | Cotiza con descuento contable |
-| Dividend Yield | 3,66% | Soporte para inversores |
-| Upside Consenso | +55,66% | Alta divergencia analítica |
+| **Precio** | 10,93 EUR | Bajista (bajo todas las SMA) |
+| **RSI (14)** | 36,18 | Zona de debilidad, no sobreventa clara |
+| **MACD** | -0,139 | Momentum negativo |
+| **P/B Ratio** | 0,78 | Descuento sobre valor contable |
+| **Dividend Yield**| 3,66% | Moderado, compensa en parte la volatilidad |
 
-***
-*Fuentes: Yahoo Finance (MRL.MC), noticias indexadas (Bankinter, CapitalMadrid, Morningstar, OCU) al 20/11/2026. La información no constituye asesoramiento financiero ni ejecución de órdenes. Datos financieros sujetos a auditorías.*
+**Rating**: Neutral
+
+FINAL TRANSACTION PROPOSAL: El escenario actual es de "espera" (wait-and-see). Dada la presión bajista y la posición por debajo de la SMA200, no hay una señal clara de reversión alcista. Los inversores a largo plazo podrían encontrar valor en el descuento sobre el P/B, pero la prudencia técnica recomienda esperar una consolidación del soporte en torno a los 10,50-10,70 EUR o la ruptura al alza de la SMA20 para confirmar un cambio de tendencia. Evitar posiciones agresivas mientras el MACD permanezca en terreno negativo.
+
+***Descargo de responsabilidad:** Este informe se basa únicamente en datos históricos y públicos suministrados. No constituye una recomendación de inversión. Las decisiones de trading son responsabilidad exclusiva del usuario.*

@@ -1,36 +1,39 @@
-Este informe presenta un análisis fundamental de **Aena S.M.E., S.A. (AENA.MC)** basado en los datos financieros y de mercado disponibles a fecha de 21 de noviembre de 2026.
+### Informe de Análisis Fundamental: Aena S.M.E., S.A. (AENA.MC)
 
-### Perfil Corporativo y Contexto de Mercado
-Aena es el principal operador aeroportuario del mundo por volumen de pasajeros, operando bajo un modelo de negocio de servicios industriales y aeroportuarios. Cotiza en el Mercado Continuo Español (MCE) y es un componente del índice ^IBEX. Su rendimiento reciente muestra una revalorización anual del 23,83% a pesar de un leve retroceso mensual del 0,21%.
+**Fecha de análisis:** 22 de noviembre de 2026
 
-### Análisis Financiero
-*   **Resultados Recientes:** Los estados financieros muestran una tendencia de crecimiento constante. Los ingresos totales pasaron de 5.047 millones de euros en 2023 a 6.294 millones de euros al cierre de 2025. El beneficio neto también ha seguido una trayectoria ascendente, alcanzando los 2.136 millones de euros en 2025.
-*   **Solidez del Balance:** La empresa presenta una estructura patrimonial robusta. A finales de 2025, el ratio de deuda total sobre EBITDA se situaba en 1,38x, lo que refleja una gestión prudente del apalancamiento, habiendo reducido significativamente la deuda total desde 2023 (de 8.585 millones a 7.281 millones de euros).
-*   **Flujos de Caja:** La compañía demuestra una alta capacidad de generación de efectivo. El flujo de caja libre (Free Cash Flow) fue de 1.728 millones de euros en 2025, lo que soporta una política de dividendos constante (rendimiento del 3,94%).
+#### 1. Perfil y Situación Actual
+Aena S.M.E., S.A. opera en el sector de servicios aeroportuarios e industriales. La compañía ha mostrado una evolución positiva en sus resultados financieros recientes, con un incremento constante tanto en ingresos como en EBITDA. Sin embargo, la acción se encuentra bajo escrutinio tras incidentes operativos recientes (averías técnicas en el aeropuerto de Barajas, reportadas el 22/11/2026 por *Merca2.es*), lo cual añade una capa de riesgo operativo a corto plazo.
 
-### Valoración
-*   **Métricas de Valoración:** Aena cotiza a un ratio Precio/Beneficio (PE) de 13,75x (trailing) y 16,92x (forward). Con un ratio EV/EBITDA de 12,22x, la empresa se encuentra alineada con sus comparables sectoriales (ratio relativo de 1,02).
-*   **Consenso de Analistas:** El precio objetivo medio es de 27,48 EUR. Dado que el precio actual es de 27,64 EUR, la acción se encuentra ligeramente por encima de las expectativas del consenso, lo que sugiere una valoración justa o una leve sobrevaloración según la media de 22 analistas.
+#### 2. Análisis Financiero
+*   **Desempeño reciente:** En el cierre de 2025, Aena reportó unos ingresos totales de 6.294 millones de EUR y un beneficio neto de 2.137 millones de EUR, superando las cifras de 2024 (5.784 millones de ingresos y 1.934 millones de beneficio neto).
+*   **Valoración:** La compañía cotiza con un ratio PER *trailing* de 13,75x y un PER *forward* de 16,93x. Su ratio P/B (Precio/Valor Contable) de 4,46x indica una valoración de mercado premium respecto a su valor contable.
+*   **Solidez:** Aena presenta un *Net Debt/EBITDA* de 1,38x, lo que sugiere una estructura de capital saludable y bajo apalancamiento financiero para su sector, habiendo reducido su deuda total de 8.586 millones en 2023 a 7.281 millones al cierre de 2025.
+*   **Dividendos:** Con una rentabilidad por dividendo del 3,94% y un *payout ratio* del 70,32%, Aena continúa siendo un activo atractivo para inversores orientados a ingresos, aunque la política de dividendos debe equilibrarse con el gasto de capital (Capex) necesario para mantener y mejorar la infraestructura.
 
-### Riesgos y Consideraciones
-*   **Contrario:** El "upside" del consenso es ligeramente negativo (-0,55%), lo que sugiere que gran parte del valor ya ha sido descontado por el mercado tras la subida del último año.
-*   **Macro:** Los titulares recientes (19 de noviembre de 2026, *Bankinter*) indican atención continua sobre el análisis de resultados. Factores externos, como el entorno de tipos de interés (mencionado en *El Economista* el 19 de noviembre sobre el BCE), podrían impactar en el coste de la deuda y el sentimiento inversor hacia valores de corte infraestructural.
+#### 3. Perspectiva del Mercado
+El precio actual de 27,64 EUR se sitúa ligeramente por debajo del precio objetivo medio de los analistas (27,49 EUR, aunque este dato parece indicar una consolidación o leve sobrevaloración según la "consensus upside" negativa del -0,56%). Las medias móviles (SMA20: 27,98; SMA50: 26,53; SMA200: 25,76) muestran que la acción está operando cerca de sus niveles de soporte técnico a corto plazo, con una tendencia alcista a largo plazo intacta.
 
-### Conclusión para el Inversor
-Aena es una empresa con fundamentales sólidos, márgenes operativos elevados (34,26%) y una gestión de deuda eficiente. El principal desafío actual es la limitada capacidad de crecimiento adicional según el consenso de analistas. Se recomienda vigilancia sobre el nivel de soporte de la media móvil de 50 sesiones (26,53 EUR) y 200 sesiones (25,75 EUR).
+#### 4. Evidencia Contraria y Riesgos
+*   **Riesgos operativos:** La reciente incidencia en la T4 de Madrid-Barajas pone en relieve la vulnerabilidad de la infraestructura ante fallos técnicos, lo cual puede generar costes de reparación y potenciales sanciones o daños reputacionales.
+*   **Entorno Macroeconómico:** La presión al alza sobre las tasas de interés (mencionada en *El Economista* el 19/11/2026 respecto al BCE) podría aumentar el coste del servicio de la deuda, aunque Aena ha demostrado capacidad de gestión de su pasivo.
+*   **Carencia de datos:** No se dispone de datos sobre transacciones de *insiders* en el periodo actual, lo que impide evaluar la confianza de la directiva en la valoración actual de la acción.
 
-**Información faltante:** No se dispone de datos detallados sobre la cartera actual de proyectos de expansión a largo plazo ni el desglose geográfico específico del tráfico de pasajeros post-2025 en el reporte adjunto.
+#### 5. Conclusión
+Aena presenta unos fundamentales sólidos con un crecimiento sostenido en ingresos. La valoración actual es justa dentro de sus pares sectoriales (ratio 1,03), aunque el corto plazo está marcado por la volatilidad operativa. Se recomienda cautela ante posibles reacciones bajistas derivadas de las noticias recientes de fallos operativos.
 
 **Rating**: HOLD
 
-| Concepto | Valor / Detalle |
-| :--- | :--- |
-| Precio Actual | 27,64 EUR |
-| Capitalización Bursátil | 41.460 M EUR |
-| Forward PE | 16,93 |
-| Dividend Yield | 3,94% |
-| Margen Neto | 34,26% |
-| Net Debt/EBITDA | 1,38x |
-| Precio Objetivo (Media) | 27,49 EUR |
+FINAL TRANSACTION PROPOSAL: No trade execution suggested; maintain current position if existing, pending clarity on operational stability.
 
-FINAL TRANSACTION PROPOSAL: None. (Research purposes only).
+| Concepto | Valor / Nota |
+| :--- | :--- |
+| **Precio Actual** | 27,64 EUR |
+| **Capitalización Bursátil** | 41.460 Millones EUR |
+| **PER (Trailing)** | 13,75 |
+| **Rentabilidad Dividendo** | 3,94% |
+| **Deuda Neta/EBITDA** | 1,38x |
+| **Margen Neto (Profit Margin)** | 34,26% |
+| **Consensus Upside** | -0,56% |
+
+*Fuentes consultadas:* Yahoo Finance (datos de mercado y fundamentales), Merca2.es, El Economista, Bankinter (notas de prensa y resultados, 19-22 de noviembre de 2026).

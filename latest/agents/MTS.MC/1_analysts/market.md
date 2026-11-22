@@ -1,29 +1,32 @@
-El análisis de ArcelorMittal (**MTS.MC**) al cierre del 20 de noviembre de 2026 muestra un escenario técnico complejo y bajista en el corto plazo, contrastado con una valoración fundamental atractiva según los consensos de mercado.
+Análisis detallado de **MTS.MC** (ArcelorMittal S.A.) al 22 de noviembre de 2026.
 
-### Análisis Técnico
-*   **Tendencia:** El valor se sitúa en 51,64 €, cotizando por debajo de sus medias móviles clave (SMA20: 55,24 €; SMA50: 57,40 €; SMA200: 55,78 €). La pérdida de la media de 200 días confirma una debilidad estructural a largo plazo.
-*   **Momento:** El RSI(14) en 34,83 indica una presión vendedora significativa, acercándose a niveles de sobreventa pero sin haber tocado aún la zona crítica de 30. El MACD (-0,63) se encuentra por debajo de su línea de señal (-0,44), confirmando una tendencia bajista vigente.
-*   **Volatilidad:** Con una volatilidad del 34,50 % y un retroceso reciente del 23,37 % desde máximos, el activo muestra alta sensibilidad, lo que se refleja en su reciente caída diaria del 5,66 %.
+### Estado Técnico Actual
+Basado en la instantánea de mercado del 20 de noviembre de 2026, **MTS.MC** cotiza a **51,64 EUR**, reflejando una corrección significativa del **5,66%** en la última sesión y una caída acumulada del **23,37%** desde sus máximos recientes (drawdown).
 
-### Análisis Fundamental
-*   **Valoración:** La discrepancia entre el PER histórico (43,76x) y el PER adelantado (*forward*) de 9,34x sugiere que el mercado anticipa una recuperación sustancial en los beneficios operativos (EPS esperado: 5,53 €). 
-*   **Salud Financiera:** La relación Deuda Neta/EBITDA de 2,08x es manejable para una empresa del sector siderúrgico, aunque el flujo de caja libre (*Free Cash Flow*) es negativo (-802,88 M€), lo que presiona el dividendo (1,06 % de rentabilidad).
-*   **Sentimiento:** Las noticias recientes (Estrategias de Inversión, 20/11/2026) destacan a **MTS.MC** como uno de los valores más penalizados en el IBEX 35, lo que sugiere que la corrección técnica está siendo exacerbada por un sentimiento de mercado negativo en el sector de materiales básicos.
+*   **Indicadores de Tendencia:** El precio se sitúa por debajo de sus medias móviles clave: SMA20 (55,24 EUR), SMA50 (57,40 EUR) y SMA200 (55,78 EUR), lo que confirma una estructura técnica bajista a corto y medio plazo.
+*   **Momento:** El RSI(14) en **34,83** sugiere que el activo se acerca a territorio de sobreventa (habitualmente <30), indicando una presión vendedora predominante pero con una posible ralentización en el ritmo de las caídas. El MACD (-0,63) y su línea de señal (-0,44) se mantienen en territorio negativo, confirmando la falta de tracción alcista.
 
-### Riesgos y Consideraciones
-*   **Datos faltantes:** No se dispone de un desglose detallado del crecimiento de las ganancias (*earnings growth*) para los próximos periodos, lo que dificulta la validación del PER *forward* tan optimista.
-*   **Contexto macro:** La inminente presión por los tipos de interés y el entorno económico europeo (headline de El Economista, 19/11/2026, sobre el BCE) añade incertidumbre a sectores cíclicos como el acero.
+### Análisis Fundamental y Contexto
+*   **Valoración:** La compañía presenta un PER forward de **9,34x**, que contrasta con un PER trailing de **43,76x**. La divergencia sugiere que el mercado anticipa una mejora sustancial en los beneficios futuros (Forward EPS estimado en 5,53 EUR) frente a un 2025 de márgenes comprimidos (profit margins: 1,64%).
+*   **Situación Financiera:** ArcelorMittal mantiene un apalancamiento moderado con un Ratio Neto de Deuda/EBITDA de **2,08x**. El Free Cash Flow negativo de **-802,87 millones de EUR** destaca la intensidad de capital necesaria para sus operaciones, aunque la rentabilidad por dividendo se mantiene en un **1,06%**.
+*   **Sentimiento y Noticias:** La acción ha sido objeto de volatilidad reciente, destacada por el castigo en el IBEX 35 el 20 de noviembre. No obstante, informes recientes (Merca2.es, 22 de noviembre) sugieren que analistas como Citi proyectan un potencial alcista del 34% para 2027, condicionado a la mejora en los precios del acero, lo que ofrece un contrapunto optimista a la debilidad técnica actual.
 
-### Resumen de indicadores clave
+### Factores de Riesgo y Observaciones
+La volatilidad del activo es alta (34,50%). La ruptura de la SMA200 es una señal de precaución importante. La falta de datos sobre "Earnings Growth" en el reporte actual limita la capacidad de proyectar la aceleración del beneficio neto, dejando el análisis fundamental dependiente de las estimaciones del lado vendedor (Consensus Target Price: 59,10 EUR).
+
+### Resumen de Indicadores Clave
+
 | Indicador | Valor | Interpretación |
 | :--- | :--- | :--- |
-| Precio Cierre | 51,64 € | Debajo de medias móviles |
-| RSI (14) | 34,83 | Tendencia bajista, zona neutral-baja |
-| SMA 200 | 55,78 € | Resistencia técnica clave |
-| PER Forward | 9,34x | Valoración atractiva a futuro |
-| Upside Consenso | 14,45 % | Potencial de revalorización según analistas |
+| Precio Cierre | 51,64 EUR | Tendencia Bajista |
+| RSI (14) | 34,83 | Cercano a sobreventa |
+| SMA 200 | 55,78 EUR | Resistencia técnica clave |
+| MACD | -0,63 | Momento negativo |
+| Volatilidad | 34,50% | Riesgo alto |
+| Consenso Objetivo | 59,10 EUR | Potencial +14,45% |
 
-**Rating**: HOLD
-FINAL TRANSACTION PROPOSAL: Given the technical breakdown below the 200-day SMA and the current negative momentum, a cautious "wait and see" approach is recommended until the price stabilizes or confirms support above the 50.00 € psychological level. Entry points should be considered only if RSI diverges and momentum turns positive.
+**Rating**: Neutral
 
-*Fuentes consultadas:* Yahoo Finance (Precios y fundamentales), El Economista, Estrategias de Inversión (Noticias 17-20 noviembre 2026).
+FINAL TRANSACTION PROPOSAL: Mantener posición a la espera de un suelo técnico claro o señales de reversión en el RSI, dada la divergencia entre el mal momento técnico a corto plazo y las proyecciones de analistas a largo plazo. No se recomienda aumentar exposición mientras el precio continúe por debajo de la SMA200.
+
+***Nota:** Los datos proporcionados provienen del snapshot verificado al 22/11/2026. Se carece de datos actualizados sobre el crecimiento real de los beneficios (earnings growth) para el ejercicio en curso, lo que requiere cautela adicional al usar el PER forward.*

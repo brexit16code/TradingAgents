@@ -1,11 +1,11 @@
-**Action**: Hold
+**Action**: Sell
 
-**Reasoning**: El valor cotiza a 3,363 EUR, por debajo de sus medias móviles clave (SMA 20, 50 y 200), reflejando una tendencia bajista de medio plazo enmarcada por un drawdown del -14,78%. Aunque la valoración por múltiplos forward (P/E de 8,28x) y la rentabilidad por dividendo del 4,46% resultan atractivas, el elevado endeudamiento (deuda neta/EBITDA de 5,11x) y las pérdidas netas recientes desaconsejan incrementar la exposición. Se recomienda mantener posiciones actuales para capturar la retribución al accionista, pero sin realizar nuevas compras netas hasta observar una recuperación consistente por encima de las resistencias técnicas y una mejora en los fundamentales de beneficio neto.
+**Reasoning**: La estructura técnica de TEF.MC muestra una tendencia bajista persistente con el precio cotizando por debajo de sus medias móviles de 20, 50 y 200 días. A nivel fundamental, el ratio de deuda neta/EBITDA de 5,11x y una pérdida neta significativa en 2025 socavan la sostenibilidad de la inversión. Siguiendo el plan de inversión de infraponderar el valor, la falta de impulso alcista y los riesgos de balance justifican la salida de posiciones.
 
 **Entry Price**: not provided
 
-**Stop Loss**: not provided
+**Stop Loss**: 3.59
 
-**Position Sizing**: Mantener la posición actual sin aportaciones adicionales
+**Position Sizing**: Reducción gradual de la posición actual.
 
-FINAL TRANSACTION PROPOSAL: **HOLD**
+FINAL TRANSACTION PROPOSAL: **SELL**

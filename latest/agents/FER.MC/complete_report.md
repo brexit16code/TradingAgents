@@ -1,300 +1,185 @@
 # Trading Analysis Report: FER.MC
 
-- Analysis date: 2026-11-21
+- Analysis date: 2026-11-22
 - Rating: Hold
-- Generated: 2026-11-21 21:02:07
-- TradingAgents 0.7.1: google, deep gemini-3.5-flash-lite, quick gemini-3.5-flash-lite
+- Generated: 2026-11-22 21:11:47
+- TradingAgents 0.7.1: google, deep gemini-3.1-flash-lite, quick gemini-3.1-flash-lite
 - Analysts: market, news, fundamentals; research debate rounds 1, risk debate rounds 1
 - Data vendors: core_stock_apis yfinance, technical_indicators yfinance, fundamental_data yfinance, news_data yfinance, macro_data fred, prediction_markets polymarket, get_news ibex_sample, get_global_news ibex_sample
 
 ## I. Analyst Team Reports
 
 ### Market Analyst
-**Rating**: HOLD  
-FINAL TRANSACTION PROPOSAL: Neutral posture with a focus on risk management given the high valuation metrics and recent recovery rally.
+El análisis de **Ferrovial N.V. (`FER.MC`)** al cierre del 20 de noviembre de 2026 muestra un activo en una fase de recuperación técnica significativa, respaldado por un impulso alcista reciente a pesar de un entorno de valoración exigente.
 
-### Informe de Análisis Financiero y Técnico para `FER.MC` (Ferrovial N.V.)
+### Análisis Técnico
+A fecha de 20 de noviembre de 2026, el precio de cierre se sitúa en **52,80 EUR**. Tras observar los indicadores técnicos proporcionados:
+*   **Tendencia:** El activo se encuentra operando por encima de su SMA 50 (48,24 EUR), lo cual es una señal de fortaleza a corto/medio plazo. Sin embargo, sigue por debajo de su SMA 200 (54,20 EUR), lo que indica que aún no ha revertido completamente su tendencia bajista de largo plazo.
+*   **Momentum:** El RSI(14) en **56,68** sugiere una zona neutral-alcista, indicando que aún existe margen antes de entrar en terreno de sobrecompra. El MACD se sitúa en **2,08** y su señal en **2,13**; la proximidad entre ambos sugiere una posible consolidación o una señal de cruce alcista pendiente de confirmación.
+*   **Volatilidad:** Con una volatilidad del **30,93%** y un *drawdown* del **-14,23%**, el activo muestra una recuperación importante, reflejada en el retorno de 21 días del **21,86%**.
 
-#### 1. Contexto de Mercado y Estado Actual
-Ferrovial N.V. (`FER.MC`) cotiza en la bolsa de Madrid (MCE) dentro del sector industrial y de ingeniería y construcción. A fecha de la instantánea de mercado (20 de noviembre de 2026), el precio de cierre de la acción se sitúa en **52,80 EUR**, reflejando una corrección en la última sesión del -2,48%. No obstante, los datos técnicos y las noticias recientes muestran que el valor ha experimentado un fuerte rebote técnico (aproximadamente un 25% a 30% desde los mínimos anuales recientes), impulsado por el optimismo en torno a sus activos de autopistas en EE. UU. (fuente: *El Economista* y *Finanzas.com*, 17-20 de noviembre de 2026).
+### Fundamentos y Valoración
+La valoración de `FER.MC` es el punto de mayor cautela. Con un **Forward PE de 45,40** frente a una mediana de sus pares de 16,45, la acción cotiza con una prima sustancial (ratio 2,76).
+*   **Deuda:** La compañía presenta una estructura financiera con un ratio *net debt/EBITDA* de **4,39**, lo cual es elevado para el sector industrial, requiriendo un seguimiento estricto del flujo de caja operativo (2.488 millones EUR en 2025).
+*   **Crecimiento:** Aunque la empresa muestra un crecimiento de ingresos del 5,2%, el crecimiento de las ganancias ha sido negativo (-52%), sugiriendo presiones en márgenes que el mercado parece estar compensando con expectativas futuras en activos como las autopistas en EE. UU. (según noticias del 16 de noviembre de 2026).
 
-#### 2. Análisis Fundamental y de Valoración
-Los fundamentos de `FER.MC` presentan métricas mixtas con primas de valoración elevadas:
-- **Capitalización de Mercado**: 37.923 millones de EUR.
-- **PER (Trailing / Forward)**: El PER histórico se sitúa en 33.85x, mientras que el PER *forward* asciende a 45.43x, lo que indica expectativas de compresión de beneficios o múltiplos exigentes en comparación con la mediana de sus pares sectoriales (ratio de PER relativo de aproximadamente 2.76x frente a la mediana de pares).
-- **Precio / Valor en Libros (P/B)**: 6.65x, reflejando una valoración robusta respaldada por la calidad de sus infraestructuras concesionales.
-- **Deuda y Apalancamiento**: Presenta una deuda total de aproximadamente 10.657 millones de EUR y un ratio de Deuda Neta / EBITDA de **4.39x** (con un EBITDA de 1.548 millones de EUR y caja de 3.864 millones de EUR).
-- **Consenso de Analistas**: El precio objetivo medio de consenso se sitúa en **59,90 EUR** (con un rango entre 48,50 EUR y 80,00 EUR basado en 20 analistas), lo que ofrece un potencial alcista (*upside*) estimado del **13,44%** desde el precio actual de 52,80 EUR.
-- **Dividendos**: Ofrece una rentabilidad por dividendo (*dividend yield*) del **3,69%** (dividendo anual de 1,95 EUR por acción con un *payout ratio* del 71,24%).
+### Consideraciones Estratégicas
+El consenso de analistas sitúa el precio objetivo medio en **59,90 EUR**, lo que implica un potencial de revalorización del **13,44%**. La estrategia actual parece favorecer a quienes buscan exposición a infraestructura, aunque los niveles de deuda y la valoración actual sugieren que gran parte del optimismo ya está descontado.
 
-#### 3. Análisis Técnico y Dinámica de Precios
-El comportamiento técnico reciente muestra señales de recuperación a medio plazo, aunque con signos de consolidación a corto plazo:
-- **Medias Móviles**: El precio actual (52,80 EUR) se encuentra por encima de su media móvil de 20 sesiones (SMA20 en 52,31 EUR) y de la SMA50 (48,24 EUR), lo que corrobora el impulso alcista de las últimas semanas. Sin embargo, se mantiene ligeramente por debajo de la SMA200 (54,20 EUR), nivel clave de resistencia a largo plazo.
-- **Momentum (RSI y MACD)**: El RSI de 14 períodos se sitúa en **56,68**, indicando una zona neutral con sesgo alcista moderado (lejos de condiciones de sobrecompra extrema). El MACD registra un valor de 2,09 frente a su línea de señal de 2,13, mostrando una leve convergencia bajista o pausa en el ritmo de aceleración del impulso previo.
-- **Volatilidad y Drawdown**: La volatilidad anualizada se sitúa en el 30,93%, y el valor experimenta un *drawdown* del -14,23% respecto a sus máximos previos.
+**Rating**: HOLD
 
-#### 4. Evidencia y Contexto Macroeconómico
-El entorno macroeconómico europeo viene marcado por la evolución de los tipos de interés del Banco Central Europeo (BCE), con reuniones previstas para diciembre de 2026 y debates sobre la gestión de reservas y la política monetaria. En el ámbito doméstico español, la atención de los inversores se divide entre la renta fija a corto plazo (letras del tesoro) y valores defensivos o de infraestructura con flujos de caja estables en dólares y euros como Ferrovial.
-
-#### 5. Datos Faltantes y Limitaciones
-No se dispone de un desglose detallado pormenorizado por tramos geográficos exactos de los contratos de autopistas más allá de las referencias genéricas de prensa sobre EE. UU., ni de las estimaciones detalladas de flujo de caja libre para los próximos tres ejercicios fiscales más allá de los cierres anuales provistos.
-
----
-
-### Resumen Estructurado (Tabla Clave)
-
-| Concepto / Indicador | Valor / Métrica | Implicación para el Inversor |
+| Indicador | Valor | Interpretación |
 | :--- | :--- | :--- |
-| **Precio de Cierre (`FER.MC`)** | 52,80 EUR (20-11-2026) | Corrección moderada (-2,48%) tras el rally mensual. |
-| **Capitalización Bursátil** | 37.923 millones de EUR | Gran capitalización, alta liquidez en MCE. |
-| **Forward P/E** | 45.43x | Valoración exigente; descuenta crecimiento futuro elevado. |
-| **Ratio Deuda Neta / EBITDA** | 4.39x | Apalancamiento moderado-alto propio del sector de concesiones. |
-| **RSI (14)** | 56,68 | Zona neutral-alcista, sin señales de sobrecompra inminente. |
-| **Medias Móviles (SMA50 / SMA200)** | SMA50: 48,24 EUR \| SMA200: 54,20 EUR | Precio superando la SMA50 pero batallando con la resistencia de la SMA200. |
-| **Precio Objetivo Consenso** | 59,90 EUR | Margen alcista estimado del 13,44% según analistas. |
-| **Rentabilidad por Dividendo** | 3,69% (1,95 EUR/acc.) | Atractivo flujo de retorno para inversores por dividendo. |
+| Precio de cierre | 52,80 EUR | Recuperación técnica en curso |
+| SMA 50 | 48,24 EUR | Soporte dinámico importante |
+| SMA 200 | 54,20 EUR | Resistencia clave a largo plazo |
+| RSI (14) | 56,68 | Neutral-Alcista |
+| Forward PE | 45,40 | Valoración alta respecto a pares |
+| Consenso Upside | 13,44% | Potencial alcista según analistas |
+
+**Notas:** La información se basa en los datos al 22 de noviembre de 2026. La métrica de *net debt/EBITDA* se ha calculado con base en la evidencia suministrada. Falta información sobre el impacto específico de los cambios en las reservas mínimas del BCE anunciados el 19 de noviembre de 2026 sobre el costo de financiamiento futuro de la compañía.
+
+FINAL TRANSACTION PROPOSAL: Monitorizar la consolidación por encima de la SMA 50 antes de considerar nuevas posiciones, dado que la valoración actual (PE elevado) limita el margen de seguridad. No se recomienda aumentar exposición si el precio no logra romper y sostener la SMA 200.
 
 ### News Analyst
+A continuación, presento el análisis detallado de **Ferrovial N.V. (FER.MC)** basado en los datos proporcionados hasta el 22 de noviembre de 2026.
+
+### Informe de Situación: Ferrovial (FER.MC)
+
+**1. Análisis Técnico y de Mercado**
+`FER.MC` muestra una tendencia de recuperación reciente, habiendo rebotado más de un 30% desde sus mínimos anuales. A pesar de una ligera caída del 2,47% en la última sesión, cotizando a **52,80 EUR**, el valor mantiene un RSI de 56,6, lo que indica un impulso moderado pero positivo. El precio se sitúa por encima de su media móvil de 50 días (48,24 EUR), aunque aún lucha por superar la media de 200 días (54,20 EUR), lo que marca una zona de resistencia técnica crítica.
+
+**2. Fundamentos y Valoración**
+*   **Valoración:** La compañía cotiza a múltiplos exigentes. Su *Forward PE* de 45,4x es significativamente superior a la mediana del sector (16,4x), con una ratio de 2,76, lo que sugiere que el mercado ha descontado expectativas de crecimiento muy elevadas, posiblemente ligadas a su exposición a autopistas en EE. UU.
+*   **Solvencia:** La empresa mantiene una deuda neta sobre EBITDA de 4,39x. Aunque es una métrica alta, es común en su sector de infraestructura. El *Free Cash Flow* ha mostrado una mejora notable en 2025 (1.739 M EUR frente a 1.067 M EUR en 2024), lo cual es una señal positiva de gestión operativa.
+*   **Dividendos:** Con una rentabilidad por dividendo del 3,69% y un *payout ratio* del 71%, la empresa equilibra la retribución al accionista con su necesidad de reinversión intensiva en capital.
+
+**3. Contexto Macroeconómico**
+El entorno está marcado por la incertidumbre sobre la política monetaria del BCE (reunión del 17 de diciembre). Existe preocupación por la presión sobre las reservas bancarias y la evolución del IPC en España. Los inversores parecen buscar refugio o exposición a activos con activos tangibles (infraestructuras) ante la volatilidad macroeconómica.
+
+**4. Evidencia Contrapuesta y Riesgos**
+*   **Apoyo:** El consenso de analistas mantiene una perspectiva de revalorización con un precio objetivo medio de 59,90 EUR (13,4% de potencial alcista). Las noticias destacan el enfoque positivo en sus activos en Estados Unidos.
+*   **Contrario:** El *Earnings Growth* ha sido negativo (-52%), y la valoración actual (PE forward) parece estirada. La dependencia de la regulación en infraestructuras fuera de España añade una capa de riesgo político/geopolítico no cuantificado.
+
+**5. Datos Faltantes**
+No se dispone de proyecciones detalladas de flujo de caja libre más allá de 2025, ni un desglose específico de la sensibilidad de la deuda a los tipos de interés vigentes del BCE para el próximo ciclo.
+
 **Rating**: REVIEW
 
-### Informe de Investigación y Análisis de Mercado: Ferrovial N.V. (`FER.MC`)
-
-**Fecha de análisis**: 21 de noviembre de 2026  
-**Ticker**: `FER.MC` (Ferrovial N.V.)  
-**Sector / Industria**: Industrials / Engineering & Construction  
-**Bolsa**: MCE (Madrid) | Divisa: EUR  
-
----
-
-### 1. Resumen Ejecutivo y Estado Actual de la Acción
-
-Ferrovial (`FER.MC`) cotiza a un precio de cierre reciente de **52,80 EUR** (al 20/11/2026), mostrando un fuerte impulso a corto plazo con un retorno a 21 sesiones de **+21,86%**. La acción ha rebotado más de un 30% desde sus mínimos anuales, impulsada por el optimismo en torno al rendimiento y valoración de sus autopistas clave en EE. UU., cotizando actualmente cerca de su media móvil de 20 sesiones (52,31 EUR) y por encima de la de 50 sesiones (48,23 EUR), aunque todavía ligeramente por debajo de su media de 200 sesiones (54,19 EUR).
-
-No obstante, la valoración fundamental y las métricas de múltiplos exigen prudencia táctica. 
-
----
-
-### 2. Análisis Fundamental y Valuación
-
-* **Capitalización de Mercado**: 37.923 millones de EUR.
-* **Múltiplos de Valoración**: 
-  * *Trailing P/E*: 33,85x
-  * *Forward P/E*: 45,43x
-  * *Price-to-Book (P/B)*: 6,65x
-  * *EV/EBITDA*: 30,07x
-* **Rentabilidad y Apalancamiento**:
-  * Deuda total de 10.657 millones de EUR frente a una caja de 3.864 millones de EUR (Net Debt / EBITDA en torno a **4,39x**).
-  * ROE del **11,62%** y márgenes de beneficio neto del **6,15%**.
-  * Dividendo por acción de 1,95 EUR, ofreciendo una rentabilidad por dividendo (*dividend yield*) del **3,69%** con un *payout ratio* de 71,24%.
-* **Consenso de Analistas**:
-  * Precio objetivo medio (*target mean price*): **59,90 EUR**.
-  * Rango de precios: Desde un mínimo de 48,50 EUR hasta un máximo de 80,00 EUR (20 analistas encuestados).
-  * *Upside* potencial según el consenso: **+13,44%**.
-
-En comparación con sus pares del sector y del selectivo español (incluyendo ANA.MC, ACS.MC, AENA.MC, IAG.MC, LOG.MC, SCYR.MC), `FER.MC` presenta un **PER relativo superior** (ratio de 2,76 frente a la mediana del grupo de pares de 16,45x), lo que refleja el reconocimiento de calidad de sus activos concesionales internacionales pero también un riesgo de sobrevaloración si las expectativas de crecimiento de beneficios no se materializan plenamente (con un *forward EPS* estimado de 1,16 EUR frente a los 1,56 EUR *trailing*).
-
----
-
-### 3. Contexto Macroeconómico y Noticias Recientes
-
-* **Dinámica Bursátil**: Los titulares de los medios especializados destacan que `FER.MC` se ha disparado alrededor de un 25-30% en el último mes (fuentes: *Finanzas.com*, *El Economista*, *El Boletín*), con especial atención a las expectativas de sus autopistas de peaje en EE. UU.
-* **Entorno de Tipos y Bancos Centrales**: Las noticias macroeconómicas de la semana (16-20 de noviembre de 2026) apuntan a la cautela en Europa, destacando los debates en el Banco Central Europeo (BCE) sobre la evolución de tipos de interés de cara a su reunión de diciembre, así como la sólida demanda de activos conservadores por parte de los hogares españoles (letras del tesoro al alza).
-
----
-
-### 4. Datos Faltantes y Limitaciones
-* No se dispone de un desglose pormenorizado en tiempo real del tráfico exacto desglosado por cada autopista de peaje norteamericana para el mes en curso más allá de las menciones generales en prensa.
-* No se ha suministrado una cartera de inversión real o simulada, por lo que toda ponderación o asignación de activos mencionada es meramente teórica.
-
----
-
-### 5. Tabla Resumen Clave
-
-| Concepto | Valor / Dato | Comentario / Referencia |
+| Indicador | Valor / Estado | Nota |
 | :--- | :--- | :--- |
-| **Precio de Cierre (`FER.MC`)** | 52,80 EUR | Fecha: 20/11/2026 |
-| **Rentabilidad 21 sesiones** | +21,86% | Fuerte rebote mensual reciente |
-| **Forward P/E** | 45,43x | Valoración exigente frente a pares |
-| **Net Debt / EBITDA** | 4,39x | Apalancamiento moderado-alto típico de concesionarias |
-| **Dividendo Anual (Yield)** | 1,95 EUR (3,69%) | Payout del 71,24% |
-| **Precio Objetivo Consenso** | 59,90 EUR | Upside potencial de +13,44% (20 analistas) |
+| Precio Actual | 52,80 EUR | Tendencia alcista reciente |
+| Forward PE | 45,40x | Valuación premium vs pares |
+| Upside Consenso | +13,44% | Basado en 20 opiniones |
+| Deuda Neta/EBITDA | 4,39x | Estándar en sector infraestructura |
+| RSI (14) | 56,68 | Zona neutral-optimista |
+| Dividend Yield | 3,69% | Atractivo para perfil ingreso |
 
----
-
-FINAL TRANSACTION PROPOSAL: REVIEW
+FINAL TRANSACTION PROPOSAL: NO ACTION (WAITING FOR TECHNICAL BREAKOUT ABOVE 55.00 EUR OR BETTER FUNDAMENTAL ENTRY MULTIPLES)
 
 ### Fundamentals Analyst
-**Rating**: REVIEW
+Este informe presenta un análisis fundamental detallado de **Ferrovial N.V. (FER.MC)**, basado en los datos financieros y de mercado recopilados hasta el 22 de noviembre de 2026.
 
-**FINAL TRANSACTION PROPOSAL:**
-- **Action**: HOLD / NEUTRAL
-- **Ticker**: FER.MC
-- **Hypothetical Allocation**: N/A (No portfolio supplied)
+### Perfil de la Compañía y Situación Actual
+Ferrovial es una compañía líder en el sector de **Ingeniería y Construcción** (clasificación industrial: Industrials). La empresa ha mostrado una dinámica bursátil significativa recientemente, con un repunte superior al 30% desde sus mínimos anuales y una subida del 25% en el último mes, impulsada en parte por la atención a sus activos estratégicos en autopistas en Estados Unidos.
 
----
+### Análisis Financiero y Valoración
+*   **Valoración:** Con un **PE forward de 45.4x** y un ratio de **Precio/Valor Contable (P/B) de 6.65x**, la valoración de Ferrovial se sitúa significativamente por encima de la mediana del sector (Ratio respecto a pares de 2.76).
+*   **Resultados:** Los ingresos han mostrado un crecimiento constante (5.2%), alcanzando los 9,627 millones de euros en 2025. Sin embargo, el **EBITDA** ha experimentado una fluctuación notable, pasando de 4,539 millones en 2024 a 1,998 millones en 2025.
+*   **Deuda y Solvencia:** La empresa mantiene una estructura de capital con una deuda total de 10,657 millones de euros frente a una caja de 3,864 millones. El ratio **Net Debt/EBITDA de 4.38x** indica una carga financiera considerable que debe ser monitoreada de cerca, especialmente en un entorno de tipos de interés que sigue siendo un foco de atención del BCE (reunión prevista para el 17 de diciembre).
+*   **Rentabilidad:** El **Dividend Yield del 3.69%** y una ratio de reparto (payout) del 71% ofrecen un incentivo claro para el accionista, respaldado por un flujo de caja libre positivo (889 millones EUR a cierre del último periodo).
 
-### Informe Fundamental Integral: Ferrovial N.V. (`FER.MC`)
+### Perspectiva de Mercado
+El consenso de los analistas establece un precio objetivo medio de **59.90 EUR**, lo que sugiere un potencial de revalorización (upside) del **13.4%** desde el precio de cierre de 52.80 EUR. No obstante, la volatilidad (30.9%) y el hecho de que la acción cotice cerca de su media móvil de 200 días (54.19 EUR) sugieren una fase de consolidación tras la reciente recuperación.
 
-Fecha de análisis: 21 de noviembre de 2026.  
-Cotización de referencia: **52.80 EUR** (al cierre del 20 de noviembre de 2026).  
-Sector: Industrials / Engineering & Construction (Industriales / Ingeniería y Construcción).  
-Bolsa: Madrid (MCE), cotizado en EUR frente al índice de referencia `^IBEX`.
+### Riesgos y Consideraciones
+1.  **Valoración cara:** El PER forward de 45.4x frente al promedio de los comparables indica que el mercado ya ha descontado gran parte del optimismo.
+2.  **Contexto Macro:** La política monetaria del BCE y las expectativas de tipos de interés influyen directamente en la refinanciación de la deuda de las empresas de infraestructuras.
+3.  **Datos faltantes:** No se dispone de información reciente sobre transacciones de *insiders* (compra/venta de directivos) en la última semana, ni detalles pormenorizados de las condiciones contractuales de los nuevos proyectos en EE. UU. que justifiquen plenamente la prima de valoración actual.
 
----
+**Rating**: HOLD
 
-### 1. Perfil de la Compañía y Resumen de Negocio
+FINAL TRANSACTION PROPOSAL: None. This report is for informational purposes only and does not constitute financial advice or an execution order.
 
-Ferrovial N.V. (`FER.MC`) es un operador global de infraestructuras y compañía de ingeniería y construcción de origen español (actualmente con sede corporativa en los Países Bajos y cotización principal en Madrid). Su negocio principal se centra en el desarrollo, construcción, financiación
- y operación de grandes proyectos de infraestructuras de transporte, con un peso estratégico muy relevante en autopistas de peaje en Norteamérica (EE. UU. y Canadá) y aeropuertos. 
+### Resumen de Datos Clave (FER.MC)
 
-Durante el mes de noviembre de 2026, la acción ha mostrado un comportamiento alcista notable, rebotando más de un 25-30% desde sus mínimos anuales previos, impulsada especialmente por el optimismo y seguimiento en torno a sus activos de autopistas en EE. UU. (según titulares de prensa de *Finanzas.com*, *El Economista* y *El Boletín* entre el 16 y el 20 de noviembre de 2026).
+| Indicador | Valor |
+| :--- | :--- |
+| **Precio Actual** | 52.80 EUR |
+| **Capitalización de Mercado** | 37,923 M EUR |
+| **Consenso Precio Objetivo** | 59.90 EUR |
+| **Upside Estimado** | 13.44% |
+| **Dividend Yield** | 3.69% |
+| **Trailing PE** | 33.85x |
+| **Ratio Net Debt/EBITDA** | 4.38x |
+| **RSI (14 días)** | 56.68 |
 
----
-
-### 2. Análisis Financiero y Datos Fundamentales
-
-A partir de los datos proporcionados en el snapshot del 21 de noviembre de 2026, la radiografía financiera de `FER.MC` es la siguiente:
-
-- **Capitalización de Mercado**: 37.923.184.640 EUR (~37.92 mil millones de EUR), lo que la sitúa como un valor de gran capitalización (*large-cap*) en el mercado español.
-- **Valoración y Múltiplos**:
-  - **Trailing P/E**: 33.85x
-  - **Forward P/E**: 45.43x (con un BPA estimado (*forward EPS*) de 1.16 EUR frente al BPA histórico de 1.56 EUR).
-  - **Price to Book (P/B)**: 6.65x, reflejando una prima elevada sobre su valor contable tangible.
-  - **Enterprise Value to EBITDA (EV/EBITDA)**: 30.07x, un múltiplo exigente comparado con la mediana del sector, aunque justificado por la estabilidad de sus flujos concesionales.
-  - **Ratio de valoración relativa (PER relativo superior)**: La ratio frente a comparadores del sector (*peers*: `ANA.MC`, `ACS.MC`, `AENA.MC`, `IAG.MC`, `LOG.MC`, `SCYR.MC`) se sitúa en 2.76x (frente a una mediana *forward* de peers de 16.45x), evidenciando que cotiza a una valoración superior en términos relativos.
-- **Solvencia y Estructura de Capital**:
-  - **Deuda Total**: 10.657.000.448 EUR (aprox. 10.73 mil millones en el cierre de 2025).
-  - **Caja Total**: 3.864.000.000 EUR.
-  - **EBITDA**: 1.548.000.000 EUR (últimos doce meses / base snapshot).
-  - **Net Debt / EBITDA**: 4.39x (calculado sobre deuda neta y EBITDA operativo), un nivel de apalancamiento típico de infraestructuras concesionales pesadas pero que requiere supervisión ante subidas de tipos.
-- **Rentabilidad y Dividendos**:
-  - **Return on Equity (ROE)**: 11.62%
-  - **Profit Margins**: 6.15%
-  - **Dividendo**: Rentabilidad por dividendo (*dividend yield*) de **3.69%**, con un dividendo anual de 1.95 EUR por acción y un *payout ratio* del 71.24%.
-
----
-
-### 3. Histórico de Estados Financieros (2023 - 2025)
-
-#### Cuenta de Resultados (*Income Statement*)
-- **2023**: Total Revenue = 8.515 M€ | EBITDA = 1.478 M€ | Net Income = 341 M€
-- **2024**: Total Revenue = 9.148 M€ | EBITDA = 4.539 M€ (incremento extraordinario por operaciones corporativas/desinversiones) | Net Income = 3.239 M€
-- **2025**: Total Revenue = 9.627 M€ | EBITDA = 1.998 M€ | Net Income = 888 M€
-
-*Nota sobre crecimiento*: Los ingresos muestran una tendencia alcista constante y sólida (crecimiento anual de ingresos del 5.2%), mientras que el beneficio neto y el EBITDA de 2024 reflejan efectos no recurrentes (como plusvalías por rotación de activos o revalorizaciones) que se normalizan en el ejercicio 2025.
-
-#### Balance de Situación (*Balance Sheet*)
-- **Total Activos**: 26.318 M€ (2023) -> 28.999 M€ (2024) -> 27.420 M€ (2025)
-- **Deuda Total**: 11.565 M€ (2023) -> 11.533 M€ (2024) -> 10.732 M€ (2025) (muestra un desapalancamiento paulatino).
-- **Patrimonio Neto (*Stockholders Equity*)**: 3.766 M€ (2023) -> 6.075 M€ (2024) -> 5.908 M€ (2025).
-
-#### Flujo de Caja (*Cash Flow*)
-- **Operating Cash Flow**: 1.263 M€ (2023) -> 1.293 M€ (2024) -> 1.926 M€ (2025).
-- **Capital Expenditure (CapEx)**: -86 M€ (2023) -> -226 M€ (2024) -> -187 M€ (2025).
-- **Free Cash Flow (FCF)**: 1.177 M€ (2023) -> 1.067 M€ (2024) -> 1.739 M€ (2025).
-
----
-
-### 4. Aspectos Técnicos y Consenso de Mercado
-
-- **Precio Actual**: 52.80 EUR (20-11-2026).
-- **Indicadores Técnicos**:
-  - RSI (14): 56.68 (zona neutral/alcista moderada).
-  - MACD: 2.09 (señal MACD: 2.13).
-  - Medias móviles: SMA 20 en 52.31 EUR; SMA 50 en 48.24 EUR; SMA 200 en 54.19 EUR. La cotización se sitúa ligeramente por encima de su media de 20 y 50 sesiones, reflejando el fuerte rebote reciente del último mes (+21.8% a 21 sesiones).
-  - Volatilidad (anualizada): 30.93%.
-  - Drawdown actual: -14.23% desde máximos.
-- **Consenso de Analistas**:
-  - Número de analistas: 20 opiniones.
-  - Precio objetivo medio (*Target Mean Price*): **59.90 EUR**.
-  - Rango de precios objetivo: Mínimo de 48.50 EUR y Máximo de 80.00 EUR.
-  - Upside estimado sobre el precio actual: **+13.44%**.
-
----
-
-### 5. Datos Faltantes y Limitaciones
-
-- No se dispone de un portfolio de usuario detallado (la asignación debe ser estrictamente hipotética).
-- No se han reportado transacciones recientes de iniciados (*insider transactions*) en el conjunto de datos snapshot proporcionado, por lo que no se evalúa la actividad compradora/vendedora de la directiva en este informe.
-- El entorno macroeconómico europeo sigue condicionado por los movimientos de tipos de interés del Banco Central Europeo
+*Fuentes consultadas: Yahoo Finance, Finanzas.com, El Economista, Bolsamania (datos hasta 2026-11-22).*
 
 ## II. Research Team Decision
 
 ### Bull Researcher
 
-Bull Analyst: ¡Hola a todos! Entiendo perfectamente la cautela que algunos analistas muestran ante los múltiplos de valoración de `FER.MC`, pero creo que mirar únicamente el PER *forward* o el ratio de apalancamiento sin entender la naturaleza única del negocio de Ferrovial nos hace perdernos una de las tesis de inversión más sólidas del mercado europeo actual. Como analista alcista, defiendo firmemente que la prima de valoración que paga el mercado está más que justificada por su liderazgo mundial, la calidad excepcional de sus activos concesionales y su impresionante capacidad de generación de caja.
+Bull Analyst: Como analista alcista, es fundamental mirar más allá del ruido de corto plazo y centrarse en la tesis de valor fundamental que hace de **Ferrovial N.V. (`FER.MC`)** una pieza angular en cualquier cartera de infraestructuras a largo plazo. Si bien mis colegas "osos" se detienen en los múltiplos contables, ignoran la calidad excepcional de los activos subyacentes.
 
-Vamos a desglosar por qué el caso alcista de `FER.MC` es extraordinariamente fuerte y por qué las críticas bajistas se quedan cortas:
+### Mi Argumento: La Fortaleza del Activo Estratégico
 
-### 1. Crecimiento Potencial y Escalabilidad: El Poder de las Autopistas en Norteamérica
-El motor de crecimiento de `FER.MC` no es una promesa a largo plazo; es una realidad tangible que ya se refleja en los flujos de caja. Recientemente, el valor se ha disparado con fuerza —experimentando un rebote de más del 25-30% desde mínimos anuales— impulsado por el optimismo y el excelente rendimiento operativo de sus autopistas de peaje en EE. UU., como las vías en Texas (Managed Lanes). 
-- **Crecimiento de ingresos y caja:** La compañía ha demostrado una evolución sólida en su cuenta de resultados, elevando sus ingresos totales hasta los 9.627 millones de EUR en el cierre de 2025.
-- **Generación de FCF robusta:** El flujo de caja libre (*Free Cash Flow*) escaló de manera impresionante hasta los 1.739 millones de EUR al cierre de 2025 (frente a los 1.067 millones del año previo), lo que demuestra una escalabilidad operativa formidable y una conversión de EBITDA a caja envidiable.
+1.  **Dominio de Autopistas en EE. UU. (El catalizador real):** La narrativa bajista se enfoca en el *Forward PE* de 45,4x. Sin embargo, este múltiplo ignora la naturaleza de los activos de Ferrovial. No somos una constructora tradicional; somos un operador de infraestructuras de transporte críticas con un "foso" (*moat*) defensivo envidiable. Sus activos en Estados Unidos son activos regulados con alta visibilidad de ingresos y protección contra la inflación, un refugio perfecto frente a la incertidumbre macroeconómica del BCE que tanto preocupa al mercado.
+2.  **Recuperación del Flujo de Caja:** Los escépticos señalan un crecimiento de beneficios volátil (-52%), pero omiten el dato más revelador: el *Free Cash Flow* de 2025 se situó en 1.739 millones de euros, una mejora sustancial respecto a los 1.067 millones de 2024. Estamos viendo una transformación exitosa hacia la generación de caja, lo cual justifica con creces una prima de valoración sobre competidores con menor calidad de activo.
+3.  **El mercado ya está votando:** Ferrovial ha rebotado más de un 30% desde sus mínimos, lo que valida nuestra tesis de que el mercado está rotando hacia la calidad. La resistencia de 54,20 EUR (SMA 200) es el último escollo antes de confirmar una tendencia alcista estructural.
 
-### 2. Ventajas Competitivas inigualables (*Moat*)
-Ferrovial no es una constructora tradicional expuesta a los márgenes estrechos de la obra civil convencional. Es un **operador global de infraestructuras de transporte de primer nivel** con concesiones a muy largo plazo (muchas de ellas de tipo *greenfield* y *brownfield* en mercados dolarizados y con marcos regulatorios estables como Norteamérica). 
-- Su barrera de entrada es monumental: diseñar, financiar, construir y operar autopistas de alta capacidad en corredores urbanos congestionados crea un monopolio natural con capacidad de fijación de precios ligada a la inflación. Ningún competidor en el selectivo español (`^IBEX`) cuenta con esa diversificación geográfica y esa exposición estratégica al dólar.
+### Debatiendo las preocupaciones "Bajistas"
 
-### 3. Solidez Financiera e Indicadores Positivos
-Los osos suelen agitar la bandera de la deuda, pero hay que saber leer el balance. Con una deuda total de unos 10.657 millones de EUR respaldada por una generosa posición de caja de 3.864 millones de EUR, el apalancamiento neto (Deuda Neta / EBITDA de aproximadamente 4.39x) es perfectamente manejable y estándar para un negocio concesional pesado intensivo en capital. 
-- Además, la compañía ofrece una atractiva **rentabilidad por dividendo (*dividend yield*) del 3,69%** (con un pago anual de 1.95 EUR por acción), recompensando al inversor a largo plazo mientras disfruta de la revalorización de los activos.
-- **Respaldo del consenso:** El precio objetivo medio de los analistas se sitúa en **59,90 EUR**, lo que ofrece un *upside* potencial estimado superior al **13,44%** desde su cotización actual de 52,80 EUR, con techos de analistas que alcanzan los 80,00 EUR.
-- **Dinámica técnica favorable:** La cotización de `FER.MC` se sitúa holgadamente por encima de su media móvil de 50 sesiones (48,24 EUR), consolidando un momento de mercado muy positivo y un RSI de 14 períodos en 56,68 (totalmente saludable, sin sobrecompra extrema).
+*   **Sobre la deuda (Net Debt/EBITDA de 4,39x):** Entiendo la cautela, pero en el sector de infraestructuras de concesión, el apalancamiento es una herramienta de optimización de capital, no un riesgo de insolvencia. Con una liquidez sólida y un flujo de caja operativo de 2.488 millones de euros, la compañía tiene plena capacidad para gestionar sus obligaciones. La comparación con industrias manufactureras es simplista; aquí estamos financiando activos que generan peajes durante décadas.
+*   **Sobre el PE elevado:** Calificar a `FER.MC` como "cara" solo porque su múltiplo es alto es un error de principiante. La valoración de 59,90 EUR (precio objetivo medio) no es solo una cifra, es el reconocimiento de los analistas de que los activos de Ferrovial son "Premium". Pagas un precio más alto por una empresa que está posicionada en el epicentro de la inversión en infraestructuras norteamericanas, el mercado más rentable y seguro para este tipo de negocio.
 
-### Respondiendo a los Contraargumentos Bajistas (Bear Counterpoints)
-* **Argumento bajista típico:** *"El PER forward de más de 45x y el PER relativo superior frente a sus pares indican que la acción está cara y sobrevalorada."*
-* **Réplica alcista:** Medir a una concesionaria de infraestructuras globales con los múltiplos de una constructora tradicional o un valor industrial común es un error analítico grave. Los activos de Ferrovial generan flujos de caja protegidos contra la inflación a décadas vista. Pagar una prima por activos de la categoría de las autopistas de Texas o aeropuertos internacionales es el coste de comprar calidad defensiva de categoría mundial. El crecimiento de su flujo de caja libre demuestra que el valor intrínseco respalda esos múltiplos.
+**Resumen:** No estamos comprando una constructora de márgenes bajos; estamos comprando una máquina de generar efectivo con activos de larga duración. Mientras el mercado debate el IPC y los tipos del BCE, Ferrovial se consolida. Los indicadores técnicos (RSI en 56,6) sugieren que aún hay gasolina en el tanque para atacar los 60 EUR.
 
-En resumen, `FER.MC` combina crecimiento estructural, un baluarte competitivo inexpugnable y un momento técnico alcista respaldado por el consenso. La estrategia inteligente es mantener una perspectiva constructiva y aprovechar cualquier consolidación de corto plazo para acumular valor.
+**Rating**: BUY
 
-**Rating**: HOLD  
-FINAL TRANSACTION PROPOSAL: Neutral posture with a focus on risk management given the high valuation metrics and recent recovery rally.
+FINAL TRANSACTION PROPOSAL: Mantener posiciones actuales y aprovechar cualquier retroceso hacia la zona de 50-51 EUR para incrementar exposición, con objetivo de 60 EUR a corto plazo.
 
 ### Bear Researcher
 
-Bear Analyst: ¡Hola, colega! Entiendo perfectamente el entusiasmo con el que defiendes a `FER.MC`. Es fácil dejarse seducir por el brillo de las autopistas norteamericanas y el atractivo titular de un rebote del 30% desde mínimos anuales. Pero como analista bajista, creo que estás ignorando deliberadamente los graves desequilibrios y la extrema asfixia de valoración que arrastra la compañía tras esa subida eufórica. 
+Bear Analyst: Es fascinante escuchar el optimismo del colega alcista, pero desde una perspectiva prudente, su análisis parece confundir "calidad de activos" con "justificación de precio". Como analista bajista, mi trabajo no es negar que Ferrovial es una compañía operativa sólida, sino advertir que el mercado está pagando un precio desorbitado por un crecimiento que simplemente no aparece en los estados financieros.
 
-Vamos a desmontar punto por punto esa tesis optimista, porque los números fríos cuentan una historia muy diferente a la de los folletos comerciales.
+Aquí presento mis argumentos contra la euforia actual sobre `FER.MC`:
 
-### 1. La Trampa del PER *Forward* de 45x y la Desconexión con el Beneficio
-Te escudas en que `FER.MC` no es una constructora tradicional y que merece una prima por sus concesiones. Concedido: nadie discute la calidad de los activos en Texas. **Pero los múltiplos tienen un límite matemático que el mercado no puede ignorar indefinidamente.**
-- Hablas de una valoración justificada, pero un **PER *forward* de 45,43x** (frente a un PER histórico ya exigente de 33,85x) y un ratio de PER relativo de casi 2,76x frente a la mediana de sus comparables sectoriales es, sencillamente, una barbaridad desproporcionada. 
-- Lo más alarmante es que el beneficio por acción estimado (*forward EPS*) cae drásticamente hasta los **1,16 EUR**, en comparación con los 1,56 EUR del ejercicio anterior. Es decir, ¡el mercado está pagando un 45 veces los beneficios esperados de una empresa cuyas ganancias por acción van a contraerse! Eso no es comprar calidad; eso es pagar una prima ridícula en un momento de compresión de beneficios.
+### Refutando la tesis alcista: El peligro de los múltiplos estirados
 
-### 2. El Espejismo del Flujo de Caja y el Riesgo de Apalancamiento
-Celebras el salto en el flujo de caja libre (*Free Cash Flow*) hasta los 1.739 millones de EUR al cierre de 2025, olvidando el contexto cíclico y los compromisos de capital futuros. Pero miremos al balance con lupa:
-- La compañía arrastra una **deuda total de 10.657 millones de EUR** (unos 10.730 millones al cierre del último periodo oficial), lo que deja un ratio de **Deuda Neta / EBITDA de 4,39x**. 
-- En un entorno macroeconómico donde el Banco Central Europeo sigue tensionando las condiciones con medidas de restricción de liquidez y los tipos de interés siguen siendo un dolor de cabeza, un apalancamiento de casi 4.4 veces EBITDA deja a `FER.MC` con un margen de maniobra peligrosamente estrecho si el tráfico en sus autopistas se desacelera por una crisis de consumo o un bache en EE. UU. 
+1.  **La falacia del "Activo Premium":** El colega menciona que comparar `FER.MC` con otras empresas es simplista. Yo diría que es necesario. Un **Forward PE de 45,4x** frente a una mediana sectorial de **16,4x** no es una "prima por calidad"; es una burbuja de expectativas. Estás pagando casi tres veces más por cada euro de beneficio futuro que en empresas comparables. Si el crecimiento prometido en EE. UU. se ralentiza o si la regulación cambia, no habrá "foso" que proteja al inversor de una corrección severa.
+2.  **La trampa del crecimiento:** Se destaca el *Free Cash Flow* de 2025, pero se ignora el elefante en la habitación: el **crecimiento de las ganancias fue de -52%**. ¿Cómo podemos justificar una valoración tan alta cuando la capacidad de generar beneficios netos se ha desplomado a la mitad? Confiar ciegamente en que las autopistas en EE. UU. compensarán este deterioro es una apuesta, no una estrategia de inversión conservadora.
+3.  **El riesgo de la Deuda:** El colega minimiza el **Net Debt/EBITDA de 4,39x** como "optimización de capital". Con tipos de interés que el BCE aún mantiene bajo vigilancia y una inflación persistente, el servicio de esta deuda es una losa. Si el costo de refinanciación sube, ese flujo de caja operativo, que hoy parece saludable, se verá rápidamente erosionado por los gastos financieros.
 
-### 3. Réplica a tu Defensa del "Moat" y el Consenso
-Dices que el consenso de analistas marca un precio objetivo de 59,90 EUR con un *upside* del 13,44% y que la media móvil de 50 sesiones (48,24 EUR) respalda una fiesta alcista. Te olvidas de advertir de varios riesgos técnicos y estructurales:
-- **Resistencia crítica y agotamiento:** La acción cotiza a 52,80 EUR, lo que significa que ya se está estrellando contra su media móvil de 200 sesiones (54,20 EUR). El MACD muestra una clara convergencia bajista y una pérdida de aceleración tras el calentón del último mes. El rally ya se ha consumido.
-- **¿Y el margen de seguridad?** Un *upside* del 13% sobre un PER de 45x es un perfil de riesgo/recompensa lamentable. Estás asumiendo todo el riesgo macroeconómico e inflacionario a cambio de una rentabilidad por dividendo del **3,69%** que apenas compensa los riesgos de mercado y volatilidad (que ya ronda el 31%).
+### Por qué el "rebote" es una señal de alerta
+El hecho de que `FER.MC` haya subido un 30% desde mínimos solo sugiere que el mercado ha comprado el optimismo antes de tiempo. Con el precio estancado bajo la **SMA 200 (54,20 EUR)**, estamos viendo a los compradores agotarse frente a una resistencia técnica crítica. La euforia de las últimas semanas ha dejado a la acción en una posición vulnerable: si el precio no logra consolidar este nivel, el riesgo de una caída hacia la SMA 50 o niveles inferiores es muy alto.
 
-En definitiva, `FER.MC` está sobrecomprada a corto plazo, cotiza a múltiplos astronómicos que descuentan un crecimiento artificialmente inflado y se enfrenta a un entorno de tipos y deuda que no perdona excesos de optimismo. No es momento de acumular; es momento de extremar la cautela y proteger el capital.
+### Mi postura frente al debate
+El colega propone "comprar retrocesos". Yo sugiero "vender o esperar". La rentabilidad por dividendo del 3,69% es insuficiente para compensar el riesgo de una valoración estirada y una tendencia que aún no ha confirmado un cambio real a largo plazo por encima de sus medias móviles clave. Mientras el mercado se distrae con el ruido, los números fundamentales de `FER.MC` nos invitan a la cautela, no a la compra.
 
-**Rating**: REVIEW
-FINAL TRANSACTION PROPOSAL: Neutral posture with a focus on risk management given the high valuation metrics and recent recovery rally.
+**Rating**: SELL
+
+FINAL TRANSACTION PROPOSAL: Mantenerse al margen. No iniciar posiciones nuevas hasta que el Forward PE se ajuste a niveles sectoriales más razonables o el crecimiento de beneficios muestre una reversión clara de su tendencia negativa. La sobrevaloración actual hace que el riesgo de "drawdown" supere el potencial alcista del 13%.
 
 ### Research Manager
 **Recommendation**: Hold
 
-**Rationale**: El debate entre el analista alcista y el bajista pone de manifiesto una divergencia fundamental sobre FER.MC. Por un lado, el argumento alcista destaca con razón la excelente calidad de los activos concesionales de la compañía, en particular las autopistas en Norteamérica, y un flujo de caja libre sólido que escaló hasta los 1.739 millones de EUR en 2025. Por otro lado, el bando bajista advierte con sólidos fundamentos sobre los riesgos de valoración: un PER forward de 45,43x con un beneficio por acción proyectado a la baja (1,16 EUR), una deuda total superior a los 10.600 millones de EUR con un apalancamiento de casi 4,4x Deuda Neta/EBITDA, y una cotización cercana a la resistencia de su media móvil de 200 sesiones (54,20 EUR) tras un rebote acumulado de más del 25-30%. Aunque los fundamentos de los activos son de primera categoría, los múltiplos actuales ya descuentan gran parte del optimismo y dejan un perfil de riesgo/recompensa muy ajustado. Ponderando la gran calidad del negocio frente al exceso de valoración y la compresión de beneficios esperados, la balanza se inclina hacia una postura neutral de mantenimiento, ya que las pruebas no justifican una fuerte compra ni una venta precipitada.
+**Rationale**: El debate entre la calidad de los activos de Ferrovial y su exigente valoración actual nos sitúa en un punto de equilibrio. Mientras el ala alcista destaca correctamente el valor defensivo de sus activos en EE. UU. y la mejora en la generación de flujo de caja libre, el ala bajista presenta un argumento sólido sobre la desconexión entre la valoración (Forward PE de 45,4x vs 16,4x del sector) y una contracción real en el crecimiento de los beneficios. La acción se encuentra técnicamente en un punto crítico, rebotando significativamente pero aún lidiando con la resistencia de la SMA 200 en 54,20 EUR. Dado que los fundamentales de crecimiento están bajo presión (-52% en el crecimiento de beneficios) y el múltiplo es prohibitivo, una postura de 'Buy' es prematura; sin embargo, la calidad operativa justifica evitar una venta directa ('Sell').
 
-**Strategic Actions**: Mantener la postura actual sin realizar nuevas adiciones a la cartera teórica. Para el trader, se recomienda establecer una directriz de seguimiento estricto en torno a la resistencia técnica de la media móvil de 200 sesiones (54,20 EUR) y vigilar de cerca la evolución del soporte de la media de 50 sesiones (48,24 EUR). No asignar capital fresco en este nivel de PER forward de 45x; evaluar posibles entradas únicamente ante correcciones significativas que ofrezcan un margen de seguridad más amplio.
+**Strategic Actions**: Mantener las posiciones existentes y no iniciar nuevas compras en los niveles actuales cercanos a 52,80 EUR. Esperar a una consolidación técnica por encima de la SMA 200 (54,20 EUR) o una corrección hacia los niveles de soporte de la SMA 50 (48,24 EUR) para reevaluar la entrada. Limitar la exposición a una ponderación neutral dentro de la cartera hasta que el crecimiento de los beneficios muestre signos de reversión o se produzca una compresión de múltiplos más favorable.
 
 ## III. Trading Team Plan
 
 ### Trader
 **Action**: Hold
 
-**Reasoning**: Ferrovial N.V. cotiza a 52.80 EUR con un PER forward exigente de 45.43x y un apalancamiento de 4.39x Deuda Neta/EBITDA, lo que limita el potencial alcista a pesar de la calidad de sus activos de autopistas. Aunque el valor ha mostrado un fuerte rebote técnico superando la SMA50 (48.24 EUR), actualmente se enfrenta a la resistencia clave de la SMA200 (54.20 EUR) y los múltiplos actuales ya reflejan el optimismo del mercado. Por lo tanto, se adopta una postura neutral de mantenimiento, evitando nuevas compras hasta que se observe una corrección más profunda o una compresión de múltiplos.
+**Reasoning**: Ferrovial se encuentra en una zona de consolidación técnica crítica. Si bien el activo ha recuperado fuerza operando por encima de la SMA 50, su valoración actual con un Forward PE de 45,40 es significativamente superior a la media del sector, lo que limita el potencial alcista a corto plazo. Hasta que el precio no logre consolidarse sobre la resistencia clave de la SMA 200 en 54,20 EUR, o bien se produzca una corrección técnica hacia soportes más sólidos, la relación riesgo-beneficio no justifica abrir nuevas posiciones.
 
-**Entry Price**: not provided
+**Entry Price**: 54.2
 
 **Stop Loss**: 48.24
 
-**Position Sizing**: 0% of portfolio
+**Position Sizing**: Mantener posición actual, sin incremento de exposición.
 
 FINAL TRANSACTION PROPOSAL: **HOLD**
 
@@ -302,51 +187,58 @@ FINAL TRANSACTION PROPOSAL: **HOLD**
 
 ### Aggressive Analyst
 
-Aggressive Analyst: ¡Vaya falta de visión y exceso de timidez veo en las posturas que rondan el mercado para FER.MC! Mientras algunos se asustan por una valoración supuestamente exigente o se esconden detrás de medias móviles estáticas, ignoran por completo la auténtica fuerza impulsora de este gigante de las infraestructuras. Nos encontramos ante una compañía de clase mundial cuyas joyas de la corona —sus autopistas de peaje en Norteamérica— están generando un flujo de caja operativo récord, habiendo alcanzado los 1.926 millones de euros y un flujo de caja libre de 1.739 millones de euros al cierre de 2025. 
+Aggressive Analyst: Escuchen bien, porque su exceso de cautela es exactamente lo que impide que los inversores transformen el capital en verdadera riqueza. Tanto el analista conservador como el neutral parecen estar paralizados por el retrovisor, obsesionados con un Forward PE que, a decir verdad, solo demuestra que el mercado está premiando la calidad superior y el posicionamiento estratégico de `FER.MC` en Estados Unidos.
 
-¿Quién se fija en un PER forward de 45.43x cuando estamos hablando de activos de infraestructuras concesionales de carácter monopólico y escasa elasticidad precio en regiones con un dinamismo económico envidiable? Los múltiplos elevados no son más que el reflejo de la altísima calidad y previsibilidad de sus ingresos a largo plazo, algo que los analistas más conservadores y neutrales tachan erróneamente de "burbuja" o "sobreoptimismo". ¡Pura miopía financiera! El consenso de 20 analistas sitúa el precio objetivo medio en 59,90 EUR, con techos ambiciosos que alcanzan los 80,00 EUR, lo que proyecta un recorrido alcista directo de más del 13,4%, sin contar el atractivo dividendo con una rentabilidad superior al 3,6%. 
+¿De verdad vamos a ignorar un rebote del 25% en el último mes? Eso no es una casualidad técnica, es el mercado reconociendo que los fundamentales de Ferrovial están cambiando a una velocidad que sus modelos estáticos no alcanzan a captar. Ustedes se escudan en la SMA 200 de 54,20 EUR como si fuera un muro infranqueable. Yo lo veo como un punto de inflexión. Si esperamos a que el precio rompa esa resistencia para actuar, ya habremos dejado sobre la mesa una parte significativa del movimiento alcista. 
 
-Además, los datos técnicos demuestran que el valor no está parado: un rendimiento a 21 sesiones superior al 21% y un RSI en 56,68 muestran un momentum impecable, superando con solidez la SMA50 en 48,24 EUR y preparándose claramente para romper con decisión la resistencia de la SMA200 en 54,20 EUR. Quedarse de brazos cruzados o adoptar una postura neutral de mantenimiento, esperando correcciones hipotéticas que probablemente nunca lleguen debido a la presión compradora institucional, es la receta perfecta para perderse el verdadero tren del crecimiento. El apalancamiento de 4.39x en Deuda Neta/EBITDA es perfectamente manejable y está más que respaldado por una sólida posición de caja de más de 3.800 millones de euros y un desapalancamiento progresivo evidente en el balance. 
+Sobre la valoración, dejen de comparar a `FER.MC` con la mediana del sector industrial tradicional. Ferrovial es una empresa de infraestructuras globales con activos de primer nivel que operan con márgenes y flujos de caja recurrentes que justifican perfectamente esa prima. Su obsesión con el ratio de deuda 4,39x ignora el hecho fundamental de que estamos ante un negocio que genera un flujo de caja operativo de casi 2.500 millones de euros. No tienen un problema de solvencia, tienen una estructura de capital perfectamente optimizada para financiar el crecimiento futuro. 
 
-No podemos dejar que el miedo a una aparente "resistencia técnica" frene una estrategia agresiva y de alta convicción. Ferrovial no es una constructora tradicional expuesta a ciclos efímeros; es un operador global de infraestructuras de primer orden que merece una prima de valoración. Quedarse fuera o mantener una postura neutral es sinónimo de dejar dinero sobre la mesa. ¡Es el momento de apostar fuerte por la expansión de FER.MC y capitalizar este momento de mercado!
+Mientras ustedes debaten si la consolidación técnica es "crítica", el consenso de analistas ya apunta a un objetivo de 59,90 EUR. Eso es un 13,44% de rentabilidad que se pierde por estar esperando a que las medias móviles se alineen perfectamente. El inversor inteligente no compra cuando todo es seguro; compra cuando el valor tiene impulso, cuando el sentimiento empieza a volverse agresivamente positivo y cuando hay una historia de crecimiento real, como la expansión de sus autopistas en suelo americano.
+
+Mantener una posición "Hold" es una forma elegante de decir que estamos perdiendo dinero por costo de oportunidad. Si el mercado nos está dando una señal de 21 días con un retorno del 21,86%, la lógica de riesgo-beneficio dictamina que debemos aprovechar el momentum ahora. La cautela es para los que se conforman con rendimientos mediocres; la estrategia es para los que entienden que el precio de entrada de 54,20 EUR que proponen es un nivel de consolidación, no una barrera. El momento es ahora, no después de que la oportunidad se haya esfumado.
 
 **Rating**: BUY
-FINAL TRANSACTION PROPOSAL: **BUY**
+
+FINAL TRANSACTION PROPOSAL: **BUY (Aggressive accumulation targeting the 60.00 EUR breakout level)**
 
 ### Conservative Analyst
 
-Conservative Analyst: Como Analista de Riesgos Conservador, debo rechazar de manera categórica la postura excesivamente optimista y carente de rigor defensivo propuesta por el Analista Agresivo para `FER.MC`. Calificar de "miopía financiera" el análisis de métricas de valoración y riesgo técnico es ignorar deliberadamente las amenazas reales que acechan el patrimonio de la firma. 
+Conservative Analyst: Compañeros, entiendo el entusiasmo por el momentum reciente en `FER.MC`, pero mi deber es proteger el capital frente a la exuberancia irracional. El analista agresivo nos insta a ignorar la valoración, argumentando que una "calidad superior" justifica un Forward PE de 45,40. Eso no es inversión, es especulación basada en una prima de valoración que es casi tres veces superior a la mediana del sector (ratio 2,76). Comprar con un multiplicador tan estirado no es "transformar capital en riqueza", es comprar en el pico de optimismo, justo cuando el riesgo de una corrección técnica es más elevado.
 
-En primer lugar, minimizar un PER *forward* de 45.43x bajo el argumento de que estamos ante activos de calidad es una imprudencia imperdonable. Pagar una prima tan extrema —que multiplica por más de 2.7 veces la mediana de los pares del sector— implica asumir un escenario de perfección operativa donde cualquier mínimo desvío en el tráfico o en el entorno macroeconómico castigará severamente la cotización. El argumento del Analista Agresivo de que "los múltiplos elevados reflejan calidad" ignora que una sobrevaloración de esta magnitud deja un margen de seguridad nulo frente a correcciones de mercado.
+Ustedes desestiman el ratio de deuda neta sobre EBITDA de 4,39 como si fuera un simple detalle operativo. Olvidan que nos encontramos en un escenario de incertidumbre macroeconómica global; cualquier endurecimiento de las condiciones financieras o un traspié en la ejecución de los proyectos en EE. UU. pondría una presión inmensa sobre una estructura de capital tan apalancada. La rentabilidad operativa de 2.500 millones es sólida, sí, pero con un crecimiento de las ganancias del -52%, la realidad fundamental dista mucho de la narrativa alcista que proponen.
 
-En segundo lugar, se pasa por alto de manera ligera un apalancamiento de 4.39x en Deuda Neta/EBITDA. Aunque la compañía cuenta con una sólida caja de 3.864 millones de euros, una deuda total superior a los 10.600 millones de euros en un entorno donde los bancos centrales y el BCE debaten sobre la contracción de liquidez y la gestión de tipos representa una vulnerabilidad latente que no podemos obviar. El apalancamiento elevado penaliza la flexibilidad financiera si las condiciones económicas se endurecen.
+El analista agresivo dice que esperar a la ruptura de la SMA 200 en 54,20 EUR es "perderse el movimiento". Yo lo llamo "confirmación de tendencia". Operar sin ella es lanzar una moneda al aire. Si compramos ahora, nuestro stop loss en 48,24 EUR (cerca de la SMA 50) nos expone a un riesgo de caída que no compensa el supuesto beneficio. No estoy aquí para capturar el último céntimo de una subida volátil, estoy aquí para asegurar que nuestra firma no sea la que termine pagando la factura cuando el mercado corrija hacia niveles de valoración más razonables.
 
-Desde el punto de vista técnico, el entusiasmo del Analista Agresivo por el rebote del 21% a 21 sesiones ignora la realidad de la resistencia clave de la SMA200 situada en 54,20 EUR, frente a un precio actual de 52,80 EUR. El valor se encuentra batallando con una barrera técnica de largo plazo y un *drawdown* del -14,23% desde sus máximos. Asumir que romperá esta resistencia sin pausa es especular, no gestionar riesgos.
-
-Por todo ello, mantener una postura prudente de espera y proteger los activos frente a una exposición desmedida es la única decisión responsable. No podemos arriesgar capital en máximos de corto plazo cuando los múltiplos ya están descontando un optimismo excesivo.
+Mantener el "Hold" no es parálisis, es una gestión disciplinada del riesgo. Mientras el mercado siga sin consolidar la resistencia de los 54,20 EUR, la relación riesgo-beneficio es desfavorable. Prefiero sacrificar una parte del potencial alcista hoy que ver cómo nuestro capital se erosiona mañana por un exceso de confianza ante una valoración inflada y una estructura de deuda que exige prudencia absoluta. La estabilidad no es un rendimiento mediocre, es la garantía de que seguiremos aquí cuando el ciclo cambie.
 
 **Rating**: HOLD
-FINAL TRANSACTION PROPOSAL: **HOLD**
+
+FINAL TRANSACTION PROPOSAL: **HOLD (Prioritizing capital preservation until technical breakout above 54.20 EUR and fundamental valuation compression occurs).**
 
 ### Neutral Analyst
 
-Neutral Analyst: Escuchando tanto al Analista Agresivo como al Analista Conservador, es evidente que cada uno defiende una trinchera muy cómoda pero incompleta. Por un lado, el Analista Agresivo desestima con demasiada ligereza los riesgos estructurales y se ciega con el excelente flujo de caja libre de 1.739 millones de euros alcanzado al cierre de 2025 y el impulso del último mes. Pretender que un PER forward de 45.43x y un ratio de PER relativo de 2.76x frente a la mediana de los pares del sector no importan simplemente porque Ferrovial opera activos monopólicos en Norteamérica es ignorar que el precio pagado importa, y que entrar de forma agresiva en estos niveles es comprar optimismo puro sin margen de seguridad.
+Neutral Analyst: Entiendo perfectamente la tensión entre ambos enfoques, pero permitidme ser franco: ambos estáis cayendo en la trampa de los extremos.
 
-Por otro lado, el Analista Conservador cae en el extremo opuesto al paralizarse por completo ante el apalancamiento de 4.39x Deuda Neta/EBITDA y la resistencia de la media móvil de 200 sesiones situada en 54,20 EUR (frente al precio de cierre actual de 52,80 EUR). Si bien es cierto que una deuda total de más de 10.657 millones de euros en un entorno macroeconómico vigilado por el BCE exige cautela, calificar cualquier intento de exposición como una "imprudencia" ignora la sólida posición de caja de 3.864 millones de euros y el atractivo dividendo del 3,69% que ofrece la compañía. Quedarse totalmente fuera de un activo de esta calidad priva al inversor de capturar el consenso de analistas, cuyo precio objetivo medio se sitúa en 59,90 EUR.
+Al analista agresivo le diría que el optimismo ciego sobre el posicionamiento estratégico en EE. UU. no anula la cruda realidad de los números. Un Forward PE de 45,40x no es simplemente una "prima por calidad"; es una valoración que descuenta perfección en un entorno donde Ferrovial ha reportado una contracción del 52% en sus ganancias. Ignorar eso no es visión de futuro, es negligencia. Comprar con un multiplicador tan estirado es comprar la esperanza de que el mercado seguirá expandiendo múltiplos, algo extremadamente arriesgado en un contexto donde el BCE mantiene una presión latente sobre el coste del crédito y las reservas bancarias.
 
-La solución más sensata y equilibrada no es comprar de golpe ni tampoco quedarse de brazos cruzados. Una postura moderada y de gestión de riesgos sugiere adoptar una estrategia de acumulación táctica escalonada. En lugar de arriesgar el capital con una entrada masiva justo por debajo de la resistencia de la SMA200, o perderse el valor por miedo a un PER exigente, el enfoque inteligente consiste en esperar pequeñas correcciones hacia la media móvil de 20 sesiones (en torno a 52,31 EUR) o establecer compras fraccionadas solo si se confirma la ruptura limpia de los 54,20 EUR con volumen institucional. De esta manera, equilibramos el apetito por el crecimiento de los formidables activos de autopistas de Ferrovial con la disciplina de no sobreexponernos en un momento de valoración ajustada.
+Por otro lado, al analista conservador le diría que su parálisis técnica es igual de peligrosa. Esperar a una confirmación en los 54,20 EUR de la SMA 200 es una estrategia válida en mercados laterales, pero en un activo con una volatilidad del 31%, los niveles técnicos a menudo se perforan con violencia y luego se retiran. Pretender que un stop loss en 48,24 EUR es una garantía de seguridad absoluta mientras se ignora la inercia de una empresa que ha rebotado un 30% desde mínimos es, francamente, contraintuitivo. Estamos perdiendo el valor de una tendencia clara por miedo a la corrección.
+
+Mi postura es la del equilibrio: ¿por qué elegir entre la especulación pura y la inacción total? `FER.MC` es una empresa con un flujo de caja operativo de 2.488 millones que, si bien tiene una deuda importante, también cuenta con una rentabilidad por dividendo del 3,69% que sirve de suelo natural. La estrategia moderada no es "Hold" por miedo, ni "Buy" por codicia; es una gestión de exposición. Si ya estamos dentro, mantengamos. Si no, no busquemos entrar a este precio. La consolidación bajo la SMA 200 no es una invitación a comprar, sino una advertencia de que la oferta aún es fuerte en esos niveles. 
+
+Propongo una postura de "espera activa": mantengamos la exposición actual, pero aprovechemos cualquier retroceso técnico hacia la SMA 50 (48,24 EUR) para reducir el precio medio de entrada si creemos en la historia de largo plazo, o pongamos una orden de compra condicionada solo si el volumen acompaña una ruptura limpia y sostenida de los 55,00 EUR. No se trata de adivinar el futuro, sino de construir una posición donde el ratio riesgo-beneficio deje de ser una moneda al aire.
 
 **Rating**: HOLD
-FINAL TRANSACTION PROPOSAL: **HOLD**
+
+FINAL TRANSACTION PROPOSAL: **HOLD (Maintain current position; monitor for a consolidation above 55.00 EUR or a pull-back to 48.25 EUR before considering any tactical adjustment)**
 
 ## V. Portfolio Manager Decision
 
 ### Portfolio Manager
 **Rating**: Hold
 
-**Executive Summary**: Mantener la exposición actual en FER.MC sin realizar nuevas compras, equilibrando la excepcional calidad de sus activos de autopistas norteamericanas con una valoración exigente de 45.43x PER forward. Se recomienda vigilar de cerca la resistencia de la media móvil de 200 sesiones (54.20 EUR) y acumular únicamente en correcciones hacia la zona de la media de 50 sesiones (48.24 EUR). Horizonte temporal de 6-12 meses.
+**Executive Summary**: Mantener la posición actual sin realizar nuevas compras, dado que el precio de mercado en 52,80 EUR se sitúa en un punto muerto técnico por debajo de la resistencia de la SMA 200 en 54,20 EUR. La estrategia es esperar a que se produzca una consolidación alcista más clara por encima de los 55,00 EUR o una corrección hacia la zona de soporte de la SMA 50 en 48,24 EUR para reevaluar la exposición.
 
-**Investment Thesis**: El análisis ponderado de los argumentos presentados por los analistas decanta la balanza hacia una postura neutral de mantenimiento (Hold). Por un lado, el analista agresivo acierta al destacar la extraordinaria calidad de los activos concesionales de Ferrovial y su sólida generación de flujo de caja libre, que alcanzó los 1.739 millones de EUR al cierre de 2025, respaldando un consenso de precio medio de 59.90 EUR y un atractivo dividendo del 3.69%. Sin embargo, los argumentos del analista conservador y del neutral resultan determinantes: un PER forward de 45.43x y un PER relativo de 2.76x frente a la mediana de los pares del sector implican que gran parte del optimismo ya está descontado en precio, sin ofrecer margen de seguridad. Asimismo, la deuda total superior a los 10.600 millones de EUR, un apalancamiento neto sobre EBITDA de 4.39x y la resistencia técnica en la SMA200 (54.20 EUR) impiden justificar una recomendación de compra en los niveles actuales de 52.80 EUR. Para cambiar la tesis hacia una recomendación de compra ('Buy'), sería necesario observar una consolidación técnica que rompa con volumen los 54.20 EUR o una corrección significativa hacia el soporte de la media de 50 sesiones en 48.24 EUR que comprima los múltiplos de valoración.
+**Investment Thesis**: La decisión de mantener se fundamenta en la divergencia insalvable entre la calidad operativa del activo, demostrada por su capacidad de generar un flujo de caja operativo de 2.488 millones de euros, y una valoración actual excesivamente exigente. Con un Forward PE de 45,40x, que supera significativamente la mediana sectorial, y un crecimiento de beneficios negativo del -52%, no existe margen de seguridad para una recomendación de compra (Buy), pese al momentum positivo reciente. Los analistas coinciden en que el ratio de deuda neta/EBITDA de 4,39x y la resistencia técnica de la SMA 200 justifican cautela frente a la euforia del corto plazo. Un cambio a una postura de compra requeriría una normalización del múltiplo de valoración o una superación sostenida del nivel de resistencia clave, mientras que un giro hacia la venta dependería de una ruptura bajista de la SMA 50 que invalide la tesis de soporte de calidad.
 
 **Price Target**: 59.9
 

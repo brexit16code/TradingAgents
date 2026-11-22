@@ -1,30 +1,33 @@
-El análisis técnico y fundamental de **Solaria Energía y Medio Ambiente, S.A. (`SLR.MC`)** revela una situación de presión bajista significativa y una reevaluación por parte del mercado tras su reciente "Capital Markets Day".
+Análisis de **Solaria Energía y Medio Ambiente, S.A. (SLR.MC)**
+
+A fecha de 22 de noviembre de 2026, la situación técnica y fundamental de **SLR.MC** refleja un escenario de cautela tras una reacción adversa del mercado a su reciente actualización estratégica.
 
 ### Análisis Técnico
-El precio de cierre al 20 de noviembre de 2026 es de **13,77 EUR**. La acción muestra una tendencia claramente bajista a largo plazo:
-*   **Medias Móviles:** El precio se sitúa significativamente por debajo de sus medias móviles de 20 días (15,42 EUR), 50 días (15,80 EUR) y 200 días (19,47 EUR), lo que confirma un dominio de los vendedores.
-*   **Osciladores:** El **RSI (14)** se encuentra en **35,63**, situándose cerca del territorio de sobreventa (habitualmente <30), lo que sugiere que, aunque el impulso es negativo, la caída podría empezar a encontrar soporte pronto o al menos mostrar signos de agotamiento.
-*   **MACD:** Tanto el `macd` (-0,305) como su señal `macds` (-0,116) se encuentran en terreno negativo, confirmando una tendencia bajista persistente.
-*   **Volatilidad:** Con una volatilidad del 55,1%, el título presenta un riesgo elevado, y el `drawdown` del 46,5% refleja el castigo acumulado en el último ejercicio.
+El precio de cierre de 13,77 EUR (a 20 de noviembre de 2026) sitúa a la acción en una fase de debilidad técnica clara.
+*   **Tendencia:** La cotización se encuentra significativamente por debajo de sus medias móviles clave: SMA20 (15,42 EUR), SMA50 (15,80 EUR) y la SMA200 (19,47 EUR), lo cual confirma una tendencia bajista de medio y largo plazo.
+*   **Momentum y Volatilidad:** El RSI(14) en 35,63 sugiere que la acción se acerca a territorio de sobreventa, aunque aún no ha tocado niveles extremos. El MACD (-0,305) se encuentra por debajo de su línea de señal (-0,115), indicando una presión vendedora persistente.
+*   **Rendimiento:** Con una caída del 19,44% en los últimos 63 días y un *drawdown* del 46,5%, la acción ha mostrado una volatilidad elevada (55,09%), lo que sugiere un entorno de alta incertidumbre operativa.
 
 ### Análisis Fundamental
-El mercado ha reaccionado negativamente a las nuevas previsiones y estrategia presentadas el 19 de noviembre de 2026 (caída del 5,4% tras el Capital Markets Day).
-*   **Valoración:** La empresa cotiza a un **PER forward de 8,02**, lo cual es bajo en comparación con la mediana de sus comparables del sector (16,83). Esto indica una valoración de "descuento" relativo, pero que debe interpretarse con cautela ante la caída en la recomendación de los analistas.
-*   **Resultados:** A pesar de una caída en el crecimiento de los ingresos (-3,9%), la empresa muestra un margen de beneficio sólido del 47,25% y un ROE del 18,94%. Sin embargo, el **Free Cash Flow** es negativo (-260,1 millones de EUR a cierre de 2025), lo que presiona su nivel de deuda (Net Debt/EBITDA de 4,42).
-*   **Consenso:** El precio objetivo medio es de 22,04 EUR, lo que implica una percepción de infravaloración por parte del consenso (upside potencial del 60%), aunque las recientes caídas tras los anuncios de resultados sugieren que el mercado está descontando riesgos no capturados plenamente por las estimaciones de los analistas.
+A pesar de la caída en el precio, los fundamentales muestran resultados operativos robustos, aunque el mercado penaliza la incertidumbre sobre el crecimiento futuro.
+*   **Valoración:** SLR.MC presenta un *Forward PE* de 8,02x, lo que la sitúa como una opción de valoración atractiva frente a la mediana de sus comparables (16,83x). No obstante, el crecimiento de los ingresos ha sido negativo (-3,9%).
+*   **Deuda y Solidez:** Con un ratio de *Net Debt/EBITDA* de 4,41x y un *Price to Book* de 1,65x, la compañía mantiene una base patrimonial sólida, pero la necesidad de reinversión (CapEx de 398 millones EUR en 2025) ha derivado en un *Free Cash Flow* negativo (-260 millones EUR).
+*   **Sentiment:** Según las noticias recientes (2026-11-19, *Merca2.es*), la caída del 5,4% tras el *Capital Markets Day* refleja una desconexión entre la solidez de los resultados presentados (beneficio neto de 177,94 millones EUR) y las expectativas de los inversores respecto a proyectos internacionales como el de Uruguay (*Diario La R*, 2026-11-22).
 
-### Riesgos y Observaciones
-La principal incertidumbre radica en la capacidad de Solaria para financiar su plan de crecimiento (megainversiones como la de Uruguay) dado su alto nivel de endeudamiento en un entorno de tipos de interés que siguen siendo una preocupación latente según los titulares del BCE (ej. 19 de noviembre de 2026). La falta de dividendos y la quema de caja (`Free Cash Flow` negativo) refuerzan un perfil de inversión de alto riesgo.
+### Perspectiva
+La discrepancia entre la valoración fundamental barata (*PER* bajo) y el impulso bajista técnico sugiere que, aunque la compañía es rentable, el mercado exige una mayor claridad en su estrategia de despliegue de capital antes de iniciar una reversión alcista.
 
-| Indicador | Valor | Interpretación |
+**Rating**: Neutral
+
+| Indicador | Valor / Estado | Interpretación |
 | :--- | :--- | :--- |
-| Precio Actual | 13,77 EUR | Tendencia bajista, por debajo de SMAs |
-| RSI (14) | 35,63 | Cercano a sobreventa, impulso negativo |
-| PER Forward | 8,02 | Valoración barata vs sector (16,83) |
-| Net Debt/EBITDA | 4,42 | Apalancamiento elevado |
-| Consenso Upside | 60,0% | Expectativa de analistas vs precio actual |
+| Precio Cierre | 13,77 EUR | Tendencia bajista |
+| RSI(14) | 35,63 | Próximo a sobreventa |
+| SMA200 | 19,47 EUR | Resistencia técnica fuerte |
+| Forward PE | 8,02x | Valoración atractiva vs sector |
+| Consenso Upside | +59,99% | Potencial alcista teórico alto |
+| Net Debt/EBITDA | 4,41x | Apalancamiento moderado/alto |
 
-**Rating**: HOLD
-FINAL TRANSACTION PROPOSAL: Mantener una postura de vigilancia; la acción muestra señales de sobreventa, pero carece de catalizadores alcistas inmediatos tras la decepción del mercado en el Capital Markets Day. El bajo PER es atractivo, pero el flujo de caja operativo debe mejorar antes de considerar una entrada de capital.
+*Datos faltantes: No se dispone de datos de flujo de caja operativo y libre a futuro fuera del histórico 2025. Los targets de analistas (15 opiniones) son estimaciones de consenso y no garantizan rentabilidad futura.*
 
-*Datos basados en el snapshot proporcionado a fecha de 2026-11-21. Falta información detallada sobre el *guidance* específico a largo plazo post-2027 y el detalle de la ejecución de la deuda en el Q4 2026.*
+FINAL TRANSACTION PROPOSAL: **Hold** - Se recomienda mantener posiciones existentes a la espera de estabilización técnica, dada la infravaloración por PER compensada por el riesgo de ejecución en proyectos internacionales y la tendencia bajista vigente.

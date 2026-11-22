@@ -12,7 +12,7 @@
     "dividends": "Brutos devengados en exfecha; separados del efectivo y sin reinversión."
   },
   "started_at": "2026-11-01T15:07:55.196232+01:00",
-  "updated_at": "2026-11-21T21:34:52.595082+01:00",
+  "updated_at": "2026-11-22T21:50:21.431800+01:00",
   "cursor": "2026-11-20",
   "cash": 173.6,
   "positions": {
@@ -317,7 +317,8 @@
       "requested_at": "2026-11-21T21:34:52.595082+01:00",
       "after": "2026-11-21",
       "source": "paper-history/2026-11-21_1a9fb8ce0304f05cca1c36cc.json",
-      "status": "pending"
+      "status": "cancelled",
+      "note": "Una señal posterior sustituye la orden pendiente."
     }
   ],
   "trades": [
@@ -570,6 +571,14 @@
       "id": "1a9fb8ce0304f05cca1c36cc",
       "observed_at": "2026-11-21T21:34:52.595082+01:00",
       "path": "paper-history/2026-11-21_1a9fb8ce0304f05cca1c36cc.json"
+    },
+    {
+      "report_date": "2026-11-22",
+      "generated_at": "2026-11-22T20:34:11.831098+01:00",
+      "universe_verified": true,
+      "id": "1dd654b046a4b112765ad3d9",
+      "observed_at": "2026-11-22T21:50:21.431800+01:00",
+      "path": "paper-history/2026-11-22_1dd654b046a4b112765ad3d9.json"
     }
   ],
   "latest_signals": [
@@ -585,8 +594,8 @@
     {
       "ticker": "ACX.MC",
       "name": "Acerinox",
-      "rating": "Hold",
-      "action": "HOLD",
+      "rating": "Underweight",
+      "action": "SELL",
       "model": "gemini-3.1-flash-lite",
       "price_date": "2026-11-20",
       "close": 14.550000190734863
@@ -612,8 +621,8 @@
     {
       "ticker": "ANA.MC",
       "name": "Acciona",
-      "rating": "Hold",
-      "action": "HOLD",
+      "rating": "Underweight",
+      "action": "SELL",
       "model": "gemini-3.1-flash-lite",
       "price_date": "2026-11-20",
       "close": 184.6999969482422
@@ -621,8 +630,8 @@
     {
       "ticker": "ANE.MC",
       "name": "Acciona Energía",
-      "rating": "Underweight",
-      "action": "SELL",
+      "rating": "Hold",
+      "action": "HOLD",
       "model": "gemini-3.5-flash-lite",
       "price_date": "2026-11-20",
       "close": 18.690000534057617
@@ -650,7 +659,7 @@
       "name": "CaixaBank",
       "rating": "Hold",
       "action": "HOLD",
-      "model": "gemini-3.5-flash-lite",
+      "model": "gemini-3.1-flash-lite",
       "price_date": "2026-11-20",
       "close": 11.449999809265137
     },
@@ -686,15 +695,15 @@
       "name": "Enagás",
       "rating": "Hold",
       "action": "HOLD",
-      "model": "gemini-3.5-flash-lite",
+      "model": "gemini-3.1-flash-lite",
       "price_date": "2026-11-20",
       "close": 17.670000076293945
     },
     {
       "ticker": "FDR.MC",
       "name": "Fluidra",
-      "rating": "Hold",
-      "action": "HOLD",
+      "rating": "Overweight",
+      "action": "BUY",
       "model": "gemini-3.1-flash-lite",
       "price_date": "2026-11-20",
       "close": 18.030000686645508
@@ -704,7 +713,7 @@
       "name": "Ferrovial",
       "rating": "Hold",
       "action": "HOLD",
-      "model": "gemini-3.5-flash-lite",
+      "model": "gemini-3.1-flash-lite",
       "price_date": "2026-11-20",
       "close": 52.79999923706055
     },
@@ -713,7 +722,7 @@
       "name": "Grifols",
       "rating": "Hold",
       "action": "HOLD",
-      "model": "gemini-3.5-flash-lite",
+      "model": "gemini-3.1-flash-lite",
       "price_date": "2026-11-20",
       "close": 10.904999732971191
     },
@@ -731,7 +740,7 @@
       "name": "Iberdrola",
       "rating": "Hold",
       "action": "HOLD",
-      "model": "gemini-3.5-flash-lite",
+      "model": "gemini-3.1-flash-lite",
       "price_date": "2026-11-20",
       "close": 22.670000076293945
     },
@@ -749,7 +758,7 @@
       "name": "Inditex",
       "rating": "Hold",
       "action": "HOLD",
-      "model": "gemini-3.5-flash-lite",
+      "model": "gemini-3.1-flash-lite",
       "price_date": "2026-11-20",
       "close": 57.779998779296875
     },
@@ -767,7 +776,7 @@
       "name": "Mapfre",
       "rating": "Hold",
       "action": "HOLD",
-      "model": "gemini-3.5-flash-lite",
+      "model": "gemini-3.1-flash-lite",
       "price_date": "2026-11-20",
       "close": 4.0879998207092285
     },
@@ -794,7 +803,7 @@
       "name": "Naturgy",
       "rating": "Hold",
       "action": "HOLD",
-      "model": "gemini-3.5-flash-lite",
+      "model": "gemini-3.1-flash-lite",
       "price_date": "2026-11-20",
       "close": 30.020000457763672
     },
@@ -812,15 +821,15 @@
       "name": "Redeia",
       "rating": "Hold",
       "action": "HOLD",
-      "model": "gemini-3.5-flash-lite",
+      "model": "gemini-3.1-flash-lite",
       "price_date": "2026-11-20",
       "close": 16.200000762939453
     },
     {
       "ticker": "REP.MC",
       "name": "Repsol",
-      "rating": "Overweight",
-      "action": "BUY",
+      "rating": "Hold",
+      "action": "HOLD",
       "model": "gemini-3.1-flash-lite",
       "price_date": "2026-11-20",
       "close": 28.459999084472656
@@ -830,7 +839,7 @@
       "name": "Laboratorios Rovi",
       "rating": "Hold",
       "action": "HOLD",
-      "model": "gemini-3.5-flash-lite",
+      "model": "gemini-3.1-flash-lite",
       "price_date": "2026-11-20",
       "close": 63.099998474121094
     },
@@ -857,7 +866,7 @@
       "name": "Sacyr",
       "rating": "Hold",
       "action": "HOLD",
-      "model": "gemini-3.5-flash-lite",
+      "model": "gemini-3.1-flash-lite",
       "price_date": "2026-11-20",
       "close": 4.056000232696533
     },
@@ -873,9 +882,9 @@
     {
       "ticker": "TEF.MC",
       "name": "Telefónica",
-      "rating": "Hold",
-      "action": "HOLD",
-      "model": "gemini-3.5-flash-lite",
+      "rating": "Underweight",
+      "action": "SELL",
+      "model": "gemini-3.1-flash-lite",
       "price_date": "2026-11-20",
       "close": 3.36299991607666
     },

@@ -1,8 +1,8 @@
 # Trading Analysis Report: AMS.MC
 
-- Analysis date: 2026-11-21
+- Analysis date: 2026-11-22
 - Rating: Hold
-- Generated: 2026-11-21 20:44:29
+- Generated: 2026-11-22 20:48:19
 - TradingAgents 0.7.1: google, deep gemini-3.5-flash-lite, quick gemini-3.5-flash-lite
 - Analysts: market, news, fundamentals; research debate rounds 1, risk debate rounds 1
 - Data vendors: core_stock_apis yfinance, technical_indicators yfinance, fundamental_data yfinance, news_data yfinance, macro_data fred, prediction_markets polymarket, get_news ibex_sample, get_global_news ibex_sample
@@ -10,259 +10,256 @@
 ## I. Analyst Team Reports
 
 ### Market Analyst
-**Rating**: Hold
+**Rating**: HOLD  
 
-**FINAL TRANSACTION PROPOSAL:**
-- **Action**: HOLD
-- **Ticker**: AMS.MC
-- **Horizonte Temporal**: Medio a largo plazo (6-12 meses)
-- **Precio de Entrada Sug
-erido / Rango Actual**: 59.74 EUR (cierre al 2026-11-20)
-- **Objetivo de Precio Consenso**: 70.86 EUR (con un rango estimado de analistas entre 53.00 EUR y 82.00 EUR)
-- **Nivel de Stop-Loss Sugerido**: 53.00 EUR (coincidiendo con el soporte inferior de analistas y próximo a la media móvil de 200 sesiones)
+FINAL TRANSACTION PROPOSAL: Neutral posture with a focus on risk management near current moving average supports.
 
 ---
 
 ### Informe de Análisis Financiero y Técnico para `AMS.MC` (Amadeus IT Group, S.A.)
 
-#### 1. Contexto de Mercado y Datos Fundamentales
-A fecha de 21 de noviembre de 2026, la compañía española **Amadeus IT Group, S.A.** (`AMS.MC`), cotizada en las Bolsas de Madrid dentro del sector tecnológico (Information Technology Services), presenta una capitalización bursátil aproximada de 25.090 millones de euros. 
+#### 1. Contexto de Mercado y Estado Actual
+Amadeus IT Group, S.A. (`AMS.MC`), cotizada en la bolsa de Madrid (MCE) dentro del sector de Tecnología / Servicios de Tecnología de la Información, presenta un cierre de precio reciente de **59.74 EUR** (con fecha de precio a 20 de noviembre de 2026). La acción opera bajo una capitalización bursátil aproximada de 25.090 millones de euros. 
 
-- **Precio de Cierre (2026-11-20)**: 59.74 EUR
-- **Valoración y Múltiplos**: La compañía opera con un *Trailing P/E* de 19.21x y un *Forward P/E* de 15.28x. El ratio *Price-to-Book* se sitúa en 5.03x, mientras que el *Enterprise Value to EBITDA* (EV/EBITDA) se sitúa en 11.03x. 
-- **Salud Financiera y Deuda**: La deuda neta sobre EBITDA se sitúa en un moderado 1.03x (deuda total de aproximadamente 3.500 millones de euros frente a un caja de 913 millones y un EBITDA anual de unos 2.509 millones de euros).
-- **Rentabilidad por Dividendo**: Ofrece una rentabilidad por dividendo del **2.58%** (dividendo por acción de 1.54 EUR, con un *payout ratio* del 49.52%).
-- **Consenso de Analistas**: El precio objetivo medio de consenso recopilado entre 23 analistas se sitúa en **70.86 EUR**, lo que representa un potencial de revalorización (*consensus upside*) del **18.62%** desde los niveles actuales de 59.74 EUR (con un objetivo mínimo de 53.00 EUR y un máximo de 82.00 EUR).
+La compañía ha mostrado un comportamiento resiliente a corto plazo, registrando un retorno a 21 sesiones de **+4.95%** y una volatilidad anualizada del **25.82%**. No obstante, el rendimiento a 252 sesiones se mantiene levemente negativo en **-3.18%**, situándose a una distancia del **-5.85%** respecto a sus máximos recientes (drawdown).
 
-#### 2. Análisis Técnico
-El comportamiento técnico de `AMS.MC` refleja un sesgo neutral a alcista a medio plazo, consolidando por encima de sus principales medias móviles:
-- **Medias Móviles**: El precio actual (59.74 EUR) se encuentra ligeramente por debajo de su SMA de 20 sesiones (59.89 EUR), pero se mantiene holgadamente por encima de su SMA de 50 sesiones (56.28 EUR) y de su SMA de 200 sesiones (52.70 EUR), confirmando la persistencia de una estructura de tendencia alcista a largo plazo.
-- **RSI (14)**: Se sitúa en **53.21**, un nivel neutral que indica ausencia de condiciones extremas de sobrecompra o sobreventa, permitiendo un margen de maniobra amplio en ambas direcciones.
-- **MACD y Señal**: El indicador MACD registra un valor de 1.51 frente a una línea de señal (*macd_signal*) de 1.72, reflejar un leve enfriamiento o consolidación tras los recientes avances, aunque manteniéndose en terreno constructivo.
-- **Volatilidad y Amplitud**: La volatilidad anualizada se registra en el 25.82%, con un *drawdown* actual limitado al -5.85%. En términos de rendimiento temporal, el título anota un retorno a 21 sesiones del +4.95% y un +3.90% a 63 sesiones, superando al índice de referencia ^IBEX en el medio plazo (relative63_pp de +9.80%).
+#### 2. Análisis Fundamental y Financiero
+Basado en los estados financieros y datos fundamentales proporcionados:
+- **Crecimiento e Ingresos:** En el ejercicio cerrado a 31 de diciembre de 2025, Amadeus reportó ingresos totales por **6.517 millones de euros** (superior a los 6.141 millones de 2024 y 5.441 millones de 2023), reflejando una sólida expansión de la demanda en servicios de tecnología turística y distribución.
+- **Rentabilidad y Márgenes:** El beneficio neto correspondiente a 2025 se situó en **1.335,7 millones de euros**, con un margen de beneficio neto cercano al **19.86%** y un Return on Equity (ROE) muy destacado del **26.43%**.
+- **Valoración:** Cotiza a un P/E retrospectivo (*trailing P/E*) de **19.21x** y un P/E adelantado (*forward P/E*) de **15.28x**. El beneficio por acción (*EPS*) estimado a futuro se sitúa en **3.91 EUR**, frente a los 3.11 EUR anteriores. 
+- **Estructura de Capital:** La deuda total asciende a **3.500 millones de euros** (con una deuda neta sobre EBITDA de aproximadamente **1.03x**), respaldada por un flujo de caja operativo de **2.211 millones de euros** y un flujo de caja libre (*FCF*) de unos **1.106 millones de euros**.
+- **Consenso de Analistas:** El precio objetivo medio (*target mean price*) de los analistas se sitúa en **70.86 EUR**, con un rango que va desde los 53.00 EUR (mínimo) hasta los 82.00 EUR (máximo), amparado por 23 opiniones de analistas y ofreciendo un potencial alcista (*consensus upside*) del **18.62%**. El rendimiento por dividendo (*dividend yield*) se encuentra en el **2.58%**.
 
-#### 3. Evidencia y Noticias Recientes
-Durante el mes de noviembre de 2026, el flujo informativo en torno al valor ha estado marcado por la publicación de resultados y su desempeño relativo dentro del IBEX 35 (que ha sufrido presiones macroeconómicas generales, tal como recogen portales como Morningstar y Estrategias de Inversión en fechas recientes, ej. 16 de noviembre de 2026). Las políticas monetarias del Banco Central Europeo (BCE) y las expectativas de tipos de interés marcan la agenda macroeconómica de la bolsa española, sin impacto estructural adverso directo sobre los fundamentales de la compañía.
+#### 3. Análisis Técnico y Dinámica de Indicadores
+El análisis técnico revela una estructura de medias móviles convergentes:
+- **Medias Móviles:** El precio de cierre (59.74 EUR) se encuentra muy próximo a su Media Móvil de 20 sesiones (*sma20*) situada en **59.89 EUR**, por encima de la media de 50 sesiones (*sma50*) en **56.28 EUR** y netamente por encima de la media de largo plazo de 200 sesiones (*sma200*) ubicada en **52.70 EUR**, lo que confirma una estructura de tendencia alcista primaria de medio a largo plazo.
+- **Momentum (RSI y MACD):** El RSI de 14 períodos se sitúa en **53.21**, reflejando una zona neutral sin señales inmediatas de sobrecompra ni de sobreventa. El MACD se encuentra en **1.51** con su línea de señal (*macd_signal*) en **1.72**, denotando una ligera fase de consolidación tras el reciente impulso alcista.
 
-#### 4. Factores de Riesgo y Datos Faltantes
-- **Datos Faltantes**: No se dispone de un desglose detallado de la sensibilidad ante variaciones cambiarias puntuales para el trimestre en curso más allá de las cifras anuales consolidadas reportadas (ej. ingresos de 6.517 millones de euros en 2025). 
-- **Riesgos**: Dependencia de la recuperación continuada del sector de viajes y aerolíneas a nivel global, así como la sensibilidad de las valoraciones tecnológicas a los cambios en los tipos de interés de la Eurozona.
+#### 4. Evidencia Externa y Noticias de la Agenda
+Durante el periodo de análisis de mediados de noviembre de 2026, la agenda macroeconómica europea e internacional se ha visto condicionada por la evolución de los tipos de interés del Banco Central Europeo (BCE), la publicación de datos de IPC y PIB, y la atención de los inversores en la renta fija a corto plazo (como el auge de la inversión de los hogares en letras). A nivel bursátil local, `AMS.MC` ha mantenido un comportamiento mixto dentro del selectivo Ibex 35 frente a la volatilidad general de los mercados.
+
+*(Fuentes de referencia de noticias y datos: Yahoo Finance, Bolsamania, Morningstar, Estrategias de Inversión, El Economista, Rankia; con fecha de recuperación de datos a 22 de noviembre de 2026).*
 
 ---
 
-### Resumen Estructurado (Tabla Clave)
+### Resumen Clave en Tabla
 
-| Métrica / Indicador | Valor / Condición | Implicación para el Inversionista |
-| :--- | :--- | :--- |
-| **Precio de Cierre (AMS.MC)** | 59.74 EUR (2026-11-20) | Punto de partida para evaluación táctica. |
-| **SMA 50 / SMA 200** | 56.28 EUR / 52.70 EUR | Estructura de medio y largo plazo alcista; soporte dinámico clave. |
-| **RSI (14)** | 53.21 | Zona neutral; sin señales inmediatas de sobrecompra/sobreventa. |
-| **MACD vs Señal** | 1.51 / 1.72 | Ligera consolidación del impulso tras el rally reciente. |
-| **Forward P/E** | 15.28x | Valoración atractiva en relación con las expectativas de beneficios. |
-| **Deuda Neta / EBITDA** | 1.03x | Estructura de capital sólida y bajo riesgo de apalancamiento. |
-| **Consenso de Analistas** | 70.86 EUR (+18.62% potencial) | Margen de revalorización alcista según analistas institucionales. |
-| **Rating / Decisión** | HOLD | Mantener posiciones actuales a la espera de confirmación de ruptura de resistencia. |
+| Categoría | Métrica / Indicador | Valor Actual / Observación | Implicación para el Inversor |
+| :--- | :--- | :--- | :--- |
+| **Valor de Mercado** | Precio de Cierre (`AMS.MC`) | 59.74 EUR (20-Nov-2026) | Cotización estable cercana a soportes de corto plazo. |
+| **Valoración** | P/E Prospectivo (*Forward P/E*) | 15.28x | Valoración razonable en relación con las expectativas de beneficios. |
+| **Fundamentales** | Crecimiento de Ingresos (2025) | 6.517 millones de EUR | Expansión sostenida del negocio principal de TI turística. |
+| **Solvencia** | Deuda Neta / EBITDA | 1.03x | Apalancamiento controlado y bajo riesgo financiero. |
+| **Tendencia** | SMA 200 y SMA 50 | 52.70 EUR / 56.28 EUR | Tendencia alcista de fondo intacta al cotizar por encima de ambas. |
+| **Momentum** | RSI (14) | 53.21 | Zona neutral; ausencia de excesos direccionales inmediatos. |
+| **Consenso** | Precio Objetivo Medio | 70.86 EUR | Potencial de revalorización estimada (*upside*) del 18.62%. |
+| **Retorno** | Dividendo por Acción (*Yield*) | 2.58% | Retorno complementario moderado para el accionista. |
 
 ### News Analyst
-**Rating**: HOLD
+**Rating**: REVIEW
 
-### Informe de Análisis y Estado Actual de Amadeus IT Group, S.A. (`AMS.MC`)
+**Análisis Integral y Macrofinanciero para AMS.MC (Amadeus IT Group, S.A.)**
 
-#### 1. Resumen Ejecutivo y Entorno Macroeconómico
-El análisis se realiza sobre la compañía española **Amadeus IT Group, S.A. (`AMS.MC`)**, cotizada en el mercado continuo de Madrid (`MCE`) en euros (EUR) y vinculada al sector de tecnología y servicios de TI (así como altamente correlacionada con el comportamiento del índice de referencia `^IBEX`). 
+### 1. Resumen Ejecutivo y Estado Actual
+Amadeus IT Group, S.A. (`AMS.MC`), cotizada en la Bolsa de Madrid dentro del sector de Tecnología e Informática (Information Technology Services), muestra una cotización reciente de **59.74 EUR** (cierre al 20 de noviembre de 2026). La compañía experimentó una variación reciente del -1.48% y presenta un RSI de 14 sesiones en 53.21, lo que denota una zona de neutralidad técnica sin signos claros de sobrecompra o sobreventa. 
 
-En el plano macroeconómico reciente (noviembre de 2026), los mercados europeos monitorizan de cerca las próximas decisiones de política monetaria del Banco Central Europeo (BCE), con reuniones programadas para diciembre de 2026 y debates abiertos sobre los tipos de interés y los niveles de reservas mínimas obligatorias para las entidades financieras. A nivel nacional, el entorno muestra un dinamismo moderado en los flujos de inversión de los hogares (con un peso creciente en letras del Tesoro) y la atención puesta en los indicadores de inflación y crecimiento.
+Los datos fundamentales reflejan una capitalización bursátil de aproximadamente **25.090 millones de euros**, un ratio EV/EBITDA de 11.03x, un PER histórico de 19.21x y un PER forward estimado de 15.28x. El BPA (EPS) estimado para el futuro se sitúa en 3.91 EUR frente a los 3.11 EUR actuales, con una rentabilidad por dividendo (dividend yield) cercana al **2.58%** y un payout ratio del 49.52%.
 
-#### 2. Fundamentos Financieros y Valoración
-Los datos financieros y de mercado extraídos de los estados contables más recientes muestran una sólida salud financiera de Amadeus:
-* **Capitalización Bursátil:** ~25.090 millones de EUR.
-* **Precio de Cierre (20 de noviembre de 2026):** 59,74 EUR.
-* **Rendimiento Reciente:** Rentabilidad a 21 sesiones de +4,95% y a 63 sesiones de +3,90%, situándose con una rentabilidad relativa positiva frente al índice general de 9,79 puntos porcentuales a 3 trimestres.
-* **Valoración y Múltiplos:** 
-  * PER histórico (*trailing P/E*): 19,21x.
-  * PER estimado a futuro (*forward P/E*): 15,28x.
-  * EV/EBITDA: 11,03x.
-  * Ratio Deuda Neta / EBITDA: ~1,03x (Deuda total de ~3.500 millones de EUR frente a un EBITDA de ~2.508 millones de EUR), lo que indica un apalancamiento moderado y manejable.
-* **Crecimiento y Rentabilidad:** Crecimiento de ingresos del 6,4% y de beneficios del 9,8%. Margen de beneficios netos del 19,86% y un sólido Retorno sobre el Capital (ROE) del 26,44%.
-* **Flujo de Caja:** Fuerte generación de caja operativa (2.211 millones de EUR) y flujo de caja libre (*free cash flow*) superior a 1.100 millones de EUR.
-* **Dividendo:** Rentabilidad por dividendo (*dividend yield*) del 2,58% con una tasa de pago (*payout ratio*) cercana al 49,5%.
-* **Consenso de Analistas:** El precio objetivo medio fijado por el consenso de analistas (sobre un panel de 23 opiniones) se sitúa en **70,86 EUR**, con un rango que va desde un mínimo de 53,00 EUR hasta un máximo de 82,00 EUR. Esto arroja un potencial de revalorización estimado (*consensus upside*) del **18,62%**.
+### 2. Contexto Macroeconómico e Internacional
+El análisis del entorno macroeconómico actual (noviembre de 2026) está marcado por diversos hitos de gran relevancia para los mercados europeos y globales:
+* **Política Monetaria del BCE y Tipos de Interés:** El mercado sigue de cerca los movimientos del Banco Central Europeo (BCE), con reuniones previstas para diciembre de 2026 y debates sobre las reservas mínimas obligatorias y posibles subidas de tipos "por la puerta atrás" (según reportes de prensa del 19 de noviembre de 2026). Las tensiones en los tipos afectan directamente al coste de financiación y a la estructura de deuda de las grandes tecnológicas europeas.
+* **Agenda Económica y Elecciones:** La semana financiera en España y Europa está condicionada por la publicación de datos de IPC, el contexto de elecciones generales y los datos de PIB en EE.UU., además de las decisiones de la OPEP+ (según el boletín macroeconómico del 22 de noviembre de 2026). 
+* **Sentimiento del Mercado:** El IBEX 35 transita por niveles clave y cotiza en torno a los 20.000 puntos, con jornadas de contrastes donde valores como Amadeus y Solaria muestran comportamientos divergentes (caras y cruces de la sesión bursátil del 16 de noviembre de 2026).
 
-#### 3. Evidencia Reciente y Noticias
-Las referencias de noticias de mediados de noviembre de 2026 señalan la asimilación por parte del mercado de los últimos resultados corporativos (cubiertos por firmas como Morningstar) y la volatilidad general en el Ibex 35, donde Amadeus ha mostrado un comportamiento alterno de sesiones de ganancias y ajustes condicionados por el pulso macroeconómico europeo y el sector tecnológico global.
+### 3. Evidencia Financiera y Fundamental (`AMS.MC`)
+Tomando como base los estados financieros y métricas aportadas:
+* **Ingresos y Rentabilidad:** Amadeus reportó unos ingresos totales de **6.517 millones de euros** en el ejercicio cerrado a diciembre de 2025 (superior a los 6.141 millones de 2024 y 5.441 millones de 2023), con un beneficio neto de **1.335,7 millones de euros** (frente a los 1.253 millones en 2024). El margen de beneficio neto se sitúa en torno al **19.86%** y el ROE (Return on Equity) alcanza un sólido **26.43%**.
+* **Estructura de Capital y Deuda:** La deuda total de la compañía asciende a **3.500 millones de euros** (con una deuda neta/EBITDA de aproximadamente **1.03x**), respaldada por un total de efectivo de 913 millones y un EBITDA de 2.508 millones de euros.
+* **Flujo de Caja:** La compañía mantiene una excelente generación de caja operativa (**2.211 millones de euros** en OCF) y un flujo de caja libre (FCF) de **1.106 millones de euros**, lo que garantiza solidez financiera para afrontar el pago de dividendos y capex.
 
-#### 4. Datos Faltantes y Limitaciones
-* No se dispone de un desglose detallado diario en tiempo real intradía ni de carteras de inversión específicas de clientes (el análisis de asignación debe ser estrictamente hipotético).
-* Faltan estimaciones detalladas desglosadas por cada uno de los trimestres de 2027 más allá de los agregados anuales y las previsiones de consenso (*forward EPS* de 3,91 EUR).
+### 4. Valoración y Consenso de Analistas
+* **Precio Objetivo de Consenso:** El precio objetivo medio fijado por los analistas se sitúa en **70.86 EUR**, con un rango que oscila entre un precio objetivo bajo de **53.00 EUR** y un precio objetivo alto de **82.00 EUR**, basado en el seguimiento de 23 analistas.
+* **Potencial de Subida (Upside):** Tomando como referencia el precio de cotización de 59.74 EUR, el potencial de revalorización implícito según el consenso (*consensus upside*) es del **18.62%**.
+* **Opiniones Recientes:** Publicaciones especializadas y notas de analistas (como Morningstar y Bolsamania a mediados de noviembre de 2026) evalúan positivamente los resultados recientes de la compañía, destacando su resiliencia operativa a pesar de la volatilidad del índice bursátil de referencia (^IBEX).
 
----
+### 5. Datos Faltantes y Limitaciones
+* No se han suministrado carteras de inversión hipotéticas específicas ni simulaciones de asignación de activos.
+* Los datos de predicción de mercados basados en plataformas de probabilidad externa no se encuentran disponibles en el conjunto de datos actual.
+* Las estimaciones de valoración y precios objetivos provienen del consenso de analistas de mercado recopilados en las fuentes de datos, los cuales no constituyen una valoración intrínseca definitiva.
 
-| Concepto Clave | Valor / Métrica | Fuente y Fecha de Referencia |
+| Concepto Clave | Valor / Métrica Actual | Comentario / Implicación Macro |
 | :--- | :--- | :--- |
-| **Ticker e Identidad** | `AMS.MC` (Amadeus IT Group, S.A.) | Registro MCE / Captura de datos (2026-11-21) |
-| **Precio Actual** | 59,74 EUR (al 2026-11-20) | Historial de precios de Yahoo Finance |
-| **Capitalización de Mercado** | ~25.090 millones de EUR | Datos fundamentales (2026-11-21) |
-| **PER Estimado (Forward P/E)** | 15,28x | Datos fundamentales (2026-11-21) |
-| **EV/EBITDA** | 11,03x | Datos fundamentales (2026-11-21) |
-| **Deuda Neta / EBITDA** | 1,03x | Balance y Cuentas de Resultados (2025/2026) |
-| **Precio Objetivo Consenso** | 70,86 EUR (+18,62% potencial) | Consenso de Analistas / Yahoo Finance |
-| **Rentabilidad por Dividendo** | 2,58% | Datos fundamentales (2026-11-21) |
-| **Últimos Eventos Macero** | Decisiones y calendario BCE (Dic 2026) | Titulares de prensa económica (Nov 2026) |
+| **Ticker y Mercado** | `AMS.MC` (Bolsa de Madrid, EUR) | Cotización de cierre reciente en 59.74 EUR |
+| **Capitalización Bursátil** | ~25.090 millones de EUR | Gran capitalización dentro del sector tecnológico europeo |
+| **PER (Trailing / Forward)** | 19.21x / 15.28x | Valuación atractiva de cara al crecimiento estimado de beneficios |
+| **Crecimiento de Ingresos** | ~6.4% (Último ejercicio reportado) | Demanda sostenida en servicios de tecnología de viajes |
+| **Deuda Neta / EBITDA** | 1.03x | Estructura financiera saludable y bajo riesgo de apalancamiento |
+| **Consenso de Analistas** | 70.86 EUR (Objetivo Medio) | Potencial alcista estimado de +18.62% |
+| **Contexto Macroeconómico** | Tipos del BCE y volatilidad del IBEX | Entorno de tipos restrictivos vigilado de cerca por el mercado |
 
-FINAL TRANSACTION PROPOSAL: HOLD
+FINAL TRANSACTION PROPOSAL: REVIEW
 
 ### Fundamentals Analyst
-**Rating**: HOLD
+**Rating**: REVIEW
 
 **FINAL TRANSACTION PROPOSAL:**
-- **Action**: HOLD (Hypothetical)
-- **Asset**: `AMS.MC` (Amadeus IT Group, S.A.)
-- **Rationale**: Amadeus IT Group, S.A. (`AMS.MC`) demonstra una sólida salud financiera con crecimiento constante en ingresos y EBITDA, márgenes de beneficios operativos atractivos (profit margin cercana al 19.86%), y una sólida generación de flujo de caja libre (Free Cash Flow de más de 1.100 millones de EUR). Con un ratio EV/EBITDA de 11.03x y un PER forward de 15.28x, la valoración actual refleja expectativas estables. El precio de cotización más reciente (`59.74` EUR a fecha de 20 de noviembre de 2026) se sitúa cerca de sus medias móviles clave (SMA20 de `59.89` EUR y SMA50 de `56.28` EUR) con un RSI de 53.21 neutral, mientras que el precio objetivo medio de los analistas se sitúa significativamente por encima (`70.86` EUR, ofreciendo un potencial de subida del orden del 18.6%). No obstante, dado el entorno macroeconómico incierto en Europa y la volatilidad general de la renta variable española, se recomienda mantener posiciones existentes a la espera de un punto de entrada más claro o mayores catalizadores operativos.
+- **Ticker**: AMS.MC
+- **Action**: HOLD / REVIEW
+- **Hypothetical Allocation**: 0% (Read-only analysis based on preloaded data)
+- **Time Horizon**: Medium term (6-12 months)
+- **Risk Profile**: Moderate to High (Technology sector volatility, travel industry sensitivity)
 
 ---
 
-### Informe Fundamental Completo de Amadeus IT Group, S.A. (`AMS.MC`)
+### Informe Fundamental Integral: Amadeus IT Group, S.A. (`AMS.MC`)
 
-#### 1. Perfil de la Empresa y Datos Generales
-- **Ticker asignado**: `AMS.MC`
-- **Nombre de la compañía**: Amadeus IT Group, S.A.
-- **Bolsa y Sector**: Mercado de Madrid (MCE), Sector Tecnológico (Servicios de Tecnología de la Información / Information Technology Services).
-- **Capitalización de mercado**: 25.090.316.288 EUR (~25.09 mil millones de EUR).
-- **Divisa**: EUR.
+#### 1. Perfil de la Empresa y Resumen de Negocio
+Amadeus IT Group, S.A. (`AMS.MC`) es una de las mayores empresas tecnológicas del mundo especializadas en el sector de los viajes y el turismo. Clasificada dentro del sector de **Tecnología / Servicios de Tecnologías de la Información**, cotiza en la Bolsa de Madrid (MCE) y forma parte del índice de referencia español, el IBEX 35 (`^IBEX`). 
 
-#### 2. Fundamentos Financieros Clave y Valoración
-Los datos fundamentales extraídos muestran las siguientes métricas clave para `AMS.MC`:
-- **Precio actual de cotización**: `59.74` EUR (fecha de precio: 20 de noviembre de 2026).
-- **PER (Trailing P/E)**: 19.21x
-- **PER Estimado (Forward P/E)**: 15.28x (con un EPS estimado forward de 3.91 EUR frente a los 3.11 EUR trailing).
-- **Precio / Valor en Libros (Price to Book)**: 5.03x.
-- **Valor de Empresa / EBITDA (Enterprise to EBITDA)**: 11.03x.
-- **Crecimiento de ingresos (Revenue Growth)**: ~6.4%.
-- **Crecimiento de beneficios (Earnings Growth)**: ~9.8%.
-- **Rentabilidad sobre recursos propios (ROE)**: 26.44%.
-- **Márgenes de beneficio (Profit Margins)**: 19.86%.
-- **Deuda Total y Posición de Caja**: Deuda total de 3.500.400.128 EUR frente a una caja total de 913.100.032 EUR. La deuda neta respecto al EBITDA (`net_debt_ebitda`) se sitúa en un moderado 1.03x.
-- **Flujo de Caja Libre (Free Cash Flow)**: 1.106.249.984 EUR (con flujos operativos de caja de 2.211.200.000 EUR).
-- **Política de Dividendos**: Rentabilidad por dividendo (*dividend yield*) del 2.58%, con un dividendo por acción (*dividend rate*) de 1.54 EUR y un *payout ratio* del 49.52%.
-- **Consenso de Analistas**: Precio objetivo medio (*targetMeanPrice*) de 70.86 EUR (con un rango entre 53.0 EUR y 82.0 EUR) basado en 23 opiniones de analistas, lo que representa un potencial de revalorización (*consensus upside*) del 18.62%.
+El modelo de negocio de Amadeus se divide principalmente en dos grandes áreas:
+- **Distribución Aérea y de Viajes**: Conexión entre proveedores de servicios turísticos (aerolíneas, hoteles, agencias de viaje) y los canales de venta.
+- **Soluciones de TI**: Proveedor tecnológico de sistemas de gestión de pasajeros (PSS), reservas, control de salidas y soluciones operativas para aerolíneas y proveedores de servicios de viaje.
 
-#### 3. Estados Financieros Históricos
-A partir de los datos financieros anuales facilitados para los últimos periodos:
-- **Cuenta de Resultados (Income Statement)**:
-  - *2025*: Ingresos Totales de 6.517.000.000 EUR, EBITDA de 2.534.700.000 EUR y Beneficio Neto (*Net Income*) de 1.335.700.000 EUR.
-  - *2024*: Ingresos Totales de 6.141.700.000 EUR, EBITDA de 2.353.200.000 EUR y Beneficio Neto de 1.253.000.000 EUR.
-  - *2023*: Ingresos Totales de 5.441.200.000 EUR, EBITDA de 2.134.200.000 EUR y Beneficio Neto de 1.117.600.000 EUR.
-  *(Demuestra una tendencia de crecimiento constante y sostenida en ingresos, EBITDA y beneficio neto a lo largo del trienio)*.
+#### 2. Análisis Financiero y Evolución Histórica
+Tomando como base los estados financieros consolidados proporcionados en el contexto (períodos anuales finalizados a 31 de diciembre):
 
-- **Balance de Situación (Balance Sheet)**:
-  - *2025*: Activos Totales de 11.470.900.000 EUR, Deuda Total de 3.223.600.000 EUR, Fondos Propios (*Stockholders Equity*) de 4.853.700.000 EUR.
-  - *2024*: Activos Totales de 11.784.300.000 EUR, Deuda Total de 3.375.700.000 EUR, Fondos Propios de 5.063.600.000 EUR.
-  - *2023*: Activos Totales de 10.795.400.000 EUR, Deuda Total de 3.308.500.000 EUR, Fondos Propios de 4.483.400.000 EUR.
+*   **Ingresos Totales (Total Revenue)**:
+    *   Ejercicio 2023: 5.441,2 millones de EUR
+    *   Ejercicio 2024: 6.141,7 millones de EUR
+    *   Ejercicio 2025: 6.517,0 millones de EUR
+    *   *Tendencia*: Demuestra una sólida senda de crecimiento interanual sostenida en la recuperación y expansión del volumen de viajes globales tras los años de disrupción pandémica.
+*   **EBITDA**:
+    *   Ejercicio 2023: 2.134,2 millones de EUR
+    *   Ejercicio 2024: 2.353,2 millones de EUR
+    *   Ejercicio 2025: 2.534,7 millones de EUR
+    *   *Tendencia*: Acompaña el incremento de ingresos, reflejando una sólida eficiencia operativa. El EBITDA actual a nivel de balance general se sitúa en torno a los 2.508,8 millones de EUR.
+*   **Beneficio Neto (Net Income)**:
+    *   Ejercicio 2023: 1.117,6 millones de EUR
+    *   Ejercicio 2024: 1.253,0 millones de EUR
+    *   Ejercicio 2025: 1.335,7 millones de EUR
+    *   *Tendencia*: Crecimiento continuo de la rentabilidad neta de la compañía.
 
-- **Flujo de Caja (Cash Flow Statement)**:
-  - *2025*: Flujo de Caja Operativo de 2.200.900.000 EUR, Gasto de Capital (CapEx) de -814.600.000 EUR, Flujo de Caja Libre resultante de 1.386.300.000 EUR.
-  - *2024*: Flujo de Caja Operativo de 2.146.000.000 EUR, CapEx de -788.100.000 EUR, FCF de 1.357.900.000 EUR.
-  - *2023*: Flujo de Caja Operativo de 1.794.900.000 EUR, CapEx de -600.500.000 EUR, FCF de 1.194.400.000 EUR.
+#### 3. Estructura de Balance y Flujos de Caja
+*   **Activos Totales**: 11.470,9 millones de EUR (cierre 2025).
+*   **Patrimonio Neto (Stockholders Equity)**: 4.853,7 millones de EUR (cierre 2025).
+*   **Deuda Total**: 3.223,6 millones de EUR (cierre 2025), manteniéndose relativamente estable frente a los 3.375,7 millones de EUR de 2024. Con un efectivo total de aproximadamente 913,1 millones de EUR, la ratio de **Deuda Neta sobre EBITDA** se sitúa en un saludable **1,03x**, lo que indica un apalancamiento financiero bajo y manejable.
+*   **Flujo de Caja Operativo y Libre (Free Cash Flow)**:
+    *   Ejercicio 2025: Flujo de caja operativo de 2.200,9 millones de EUR, con una inversión en capital (CapEx) de -814,6 millones de EUR, arrojando un **Free Cash Flow** de **1.386,3 millones de EUR** (superando los 1.357,9 millones de EUR de 2024).
 
-#### 4. Aspectos Técnicos e Indicadores de Mercado
-- **Medias Móviles**: SMA20 en `59.89` EUR, SMA50 en `56.28` EUR y SMA200 en `52.70` EUR, lo que indica una estructura de medio y largo plazo alcista o en fase de consolidación positiva por encima de su media de
+#### 4. Valoración y Datos Bursátiles Actuales
+- **Precio de cierre actual**: 59,74 EUR (a fecha de cotización 2026-11-20).
+- **Capitalización de mercado**: 25.090,3 millones de EUR.
+- **PER (Trailing P/E)**: 19,21x.
+- **PER Estimado (Forward P/E)**: 15,28x.
+- **Precio/Valor en Libros (Price-to-Book)**: 5,03x.
+- **Valor de Empresa / EBITDA (EV/EBITDA)**: 11,03x.
+- **Rentabilidad por Dividendo (Dividend Yield)**: 2,58% (dividendo anual por acción de 1,54 EUR, con un *payout ratio* del 49,52%).
+- **Consenso de Analistas (Target Mean Price)**: El precio objetivo medio del consenso de analistas se sitúa en **70,86 EUR** (con un rango que va desde un mínimo de 53,00 EUR hasta un máximo de 82,00 EUR, basado en 23 opiniones de analistas), lo que implica una revalorización potencial (*consensus upside*) del **18,62%** respecto al precio actual.
+
+#### 5. Análisis Técnico Reciente
+- **RSI (14)**: 53,21 (zona neutral, sin señales claras de sobrecompra o sobreventa).
+- **MACD**: 1,51 frente a línea de señal de 1,72.
+- **Medias Móviles**: 
+  - SMA 20: 59,89 EUR
+  - SMA 50: 56,28 EUR
+  - SMA 200: 52,70 EUR
+- *Contexto técnico*: La cotización se encuentra ligeramente por debajo de su media de 20 sesiones, pero mantiene una tendencia estructural alcista a medio-largo plazo al cotizar holgadamente por encima de sus medias de 50 y 200 días. La volatilidad anualizada se registra en 25,82%.
+
+#### 6. Evidencia de Noticias y Contexto Macroeconómico Reciente (Noviembre 2026)
+Durante la semana del 16 al 22 de noviembre de 2026, la agenda macroeconómica europea e internacional se ha visto marcada por la evolución del IPC en España, la atención sobre las próximas decisiones de política monetaria del BCE (reunión prevista para el 17 de diciembre de 2026) y la evolución general de los mercados de renta variable (con el IBEX 35 lidiando con resistencias clave). 
+Específicamente en las sesiones bursátiles de mediados de noviembre, Amadeus ha mostrado un comportamiento mixto en línea con la volatilidad del selectivo español (noticias destacadas en Bolsamania, Morningstar y Estrategias de Inversión), manteniendo el interés de los inversores institucionales tras la asimilación de sus dinámicas operativas.
+
+#### 7. Datos Faltantes y Limitaciones
+- No se dispone de un desglose detallado de transacciones recientes de iniciados (*insider transactions*) en el conjunto de datos suministrado para esta sesión específica.
+- No se han suministrado comparativas sectoriales detalladas (*peer comparison* en la etiqueta de valoración).
+
+---
+
+### Tabla Resumen de Puntos Clave
+
+| Métrica / Indicador | Valor / Dato | Comentario / Implicación |
+| :--- | :--- | :--- |
 
 ## II. Research Team Decision
 
 ### Bull Researcher
 
-Bull Analyst: **Rating**: Hold
+Bull Analyst: **Rating**: HOLD
 
-### El Caso Alcista (Bull Case) para **
-AMS.MC** (Amadeus IT Group, S.A.)
+¡Hola a todos! Entremos de lleno en materia con **AMS.MC** (Amadeus IT Group, S.A.), porque si analizamos fríamente los números y la realidad operativa de esta compañía, la tesis alcista es incuestionable. Mientras algunos prefieren quedarse mirando los fantasmas de la volatilidad macroeconómica a corto plazo o la sombra de los tipos del BCE, los datos fundamentales de `AMS.MC` demuestran que estamos ante una auténtica apisonadora tecnológica dentro del sector de viajes global. 
 
-¡Hola! Comprendo perfectamente que el analista bajista prefiera la cautela en este momento, especialmente con un trasfondo macroeconómico europeo donde el Banco Central Europeo sigue vigilando de cerca los tipos de interés y la liquidez interbancaria. Sin embargo, catalogar a **AMS.MC** bajo una óptica estrictamente defensiva o escéptica es pasar por alto la formidable máquina de generar caja y el indiscutible liderazgo tecnológico que posee esta compañía. 
+Vamos a desglosarlo punto por punto para responder a cualquier visión excesivamente cautelosa o bajista:
 
-Vamos a debatir punto por punto por qué la tesis alcista tiene argumentos de mucho más peso y por qué los temores bajistas se quedan cortos frente a la realidad operativa de Amadeus.
+### 1. Crecimiento Potencial y Escalabilidad Sólida
+¿De verdad podemos hablar de estancamiento cuando vemos los números de Amadeus? ¡Los hechos dicen lo contrario! En el ejercicio cerrado a diciembre de 2025, la compañía reportó unos **ingresos totales de 6.517 millones de euros**, superando con solidez los 6.141 millones de 2024 y los 5.441 millones de 2023. La senda de crecimiento interanual es clara y constante. 
+Además, la rentabilidad acompaña de forma brillante: un beneficio neto que escaló hasta los **1.335,7 millones de euros**, un margen neto cercano al **19.86%** y un **ROE (Return on Equity) sobresaliente del 26.43%**. ¿Cómo se puede ser bajista ante una empresa capaz de generar un flujo de caja libre (*Free Cash Flow*) de **1.106 millones de euros** (e incluso superando los 1.386 millones en el último ejercicio)? Esta capacidad de conversión de caja permite a `AMS.MC` invertir en innovación, retribuir al accionista con un dividendo saludable (rentabilidad por dividendo del **2.58%** con un *payout* prudente del 49.52%) y seguir liderando el mercado sin asfixiarse.
 
----
+### 2. Ventajas Competitivas Inigualables y Posicionamiento Dominante
+Amadeus no es una simple agencia de viajes online; es la columna vertebral tecnológica de la industria aeronáutica y turística mundial. Su doble modelo —conectando aerolíneas, hoteles y agencias a través de su plataforma de distribución y proveyendo los sistemas críticos de gestión de pasajeros (PSS)— crea un **foso defensivo (*moat*) altísimo**. Las aerolíneas y los proveedores turísticos no pueden cambiar de proveedor tecnológico de la noche a la mañana: los costes de cambio (*switching costs*) son prohibitivos. Esta posición de monopolio de facto en el tejido crítico de la aviación comercial le otorga un poder de fijación de precios y una resiliencia estructural que pocas tecnológicas europeas pueden replicar.
 
-### 1. Crecimiento Potencial y Escalabilidad: Las Cifras Hablan por Sí Solas
+### 3. Positivos Indicadores Financieros y de Mercado
+Si miramos la salud financiera, los osos se quedan sin argumentos:
+* **Apalancamiento Controlado:** La deuda total se sitúa en 3.500 millones de euros, pero con un EBITDA de más de 2.500 millones, la ratio de **deuda neta sobre EBITDA es de apenas 1.03x**. ¡Un riesgo financiero prácticamente imperceptible!
+* **Valoración Atractiva:** Cotizando a un **Forward P/E de 15.28x** (frente a un P/E histórico de 19.21x) y con un beneficio por acción proyectado que sube de 3.11 EUR a **3.91 EUR**, la acción no está cara; está ofreciendo un punto de entrada sumamente razonable para el valor que aporta.
+* **Consenso del Mercado:** El precio objetivo medio de los analistas se sitúa en **70.86 EUR**, lo que dibuja un **potencial alcista (*consensus upside*) del 18.62%** respecto al precio actual de 59.74 EUR. 
 
-El oso suele argumentar que el crecimiento del sector de viajes podría desacelerarse o que la valoración actual ya ha descontado lo mejor. Pero miremos los estados financieros auditados:
-* **Evolución Imparable de Ingresos y EBITDA:** Los ingresos totales han escalado de forma ininterrumpida desde los 5.441 millones de euros en 2023 hasta los **6.517 millones de euros al cierre de 2025**. En paralelo, el EBITDA se ha impulsado hasta los **2.535 millones de euros**, reflejando una escalabilidad operativa soberbia.
-* **Proyecciones de Beneficios:** El *Forward P/E* de **15.28x** (frente al *trailing* de 19.21x) demuestra que la compañía no está sobrevalorada; al contrario, su beneficio por acción estimado (*forward EPS*) de 3.91 EUR muestra que el crecimiento de las ganancias (estimado en un saludable 9.8%) va a aburar la valoración actual de forma muy atractiva.
-* **Potencial de Mercado (Upside):** El consenso de los 23 analistas que cubren el valor sitúa el precio objetivo medio en **70.86 EUR**. Tomando el cierre actual de **59.74 EUR** (al 20 de noviembre de 2026), esto deja un margen de revalorización cercano al **18.62%**, con un techo optimista que alcanza los 82.00 EUR.
+### 4. Respondiendo al Contraargumento Bajista (Bear Counterpoints)
+Los escépticos suelen argumentar que la volatilidad del IBEX 35, las incertidumbres en torno a las políticas del BCE o el contexto de tipos de interés restrictivos penalizan a las compañías de gran capitalización. ¡Pamplinas! 
+Primero, el balance de `AMS.MC` está fuertemente acorazado con una sólida generación de caja operativa superior a los 2.200 millones de euros, lo que la independiza de las tensiones severas de financiación ajena. Segundo, a nivel técnico, aunque la cotización experimente recortes puntuales y se sitúe cerca de su media de 20 sesiones (59.89 EUR), **la tendencia estructural de fondo sigue intacta**: la acción cotiza holgadamente por encima de su media de 50 sesiones (56.28 EUR) y, sobre todo, muy por encima de su media de 200 sesiones (52.70 EUR). El RSI en 53.21 muestra un mercado perfectamente equilibrado, sin euforias peligrosas pero consolidando bases sólidas para el siguiente tramo alcista.
 
-### 2. Ventajas Competitivas y Foso Económico (*Moat*)
+En definitiva, ignorar los fundamentos de `AMS.MC` por ruido macroeconómico pasajero es perderse una de las mejores propuestas de valor tecnológico en Europa. La escala global, el foso competitivo y la sólida conversión de caja respaldan con creces la postura alcista.
 
-¿Dónde encuentra el oso fallos en el modelo de negocio? Amadeus no es una simple empresa de software; es el sistema circulatorio global de la industria de viajes y distribución turística. 
-* Su posición dominante en la infraestructura de reservas aéreas y soluciones tecnológicas para aerolíneas y agencias crea un efecto de red masivo que los competidores simplemente no pueden replicar fácilmente. 
-* Con unos márgenes de beneficio neto cercanos al **19.86%** y un **ROE (Return on Equity) sobresaliente del 26.44%**, Amadeus demuestra una eficiencia en el uso del capital que ya quisieran para sí muchos gigantes puramente tecnológicos o industriales.
-
-### 3. Indicadores Positivos y Salud Financiera a Prueba de Balas
-
-Frente al miedo a un posible endeudamiento en entornos de tipos elevados, los números de `AMS.MC` desarman por completo el argumento bajista:
-* **Deuda Neta Controlada:** La ratio de **Deuda Neta sobre EBITDA se sitúa en un cómodo 1.03x**. Con una deuda total de unos 3.500 millones de euros respaldada por un EBITDA de más de 2.500 millones y una sólida caja de más de 913 millones, el riesgo de apalancamiento es prácticamente nulo.
-* **Generación Brutal de Flujo de Caja Libre (FCF):** Hablamos de un *Free Cash Flow* que supera los **1.100 millones de euros** (1.386 millones en el último ejercicio reportado). Esta capacidad de conversión de caja permite a Amadeus invertir fuertemente en innovación sin descuidar al accionista.
-* **Retorno Atractivo:** Ofrece una rentabilidad por dividendo del **2.58%** (1.54 EUR por acción) con un *payout* comedido del 49.52%, lo que garantiza la sostenibilidad del pago y un atractivo extra mientras el título consolida su tendencia alcista.
-
-### 4. Análisis Técnico: Una Estructura Constructiva
-
-Desde el punto de vista técnico, el gráfico respalda a los toros. El precio de 59.74 EUR se mantiene holgadamente por encima de su **SMA de 50 sesiones (56.28 EUR)** y de su **SMA de 200 sesiones (52.70 EUR)**. Un RSI en zona neutral de **53.21** nos indica que no hay euforia desmedida, sino una consolidación sana tras un rendimiento a 21 sesiones del +4.95% que sigue superando al propio índice de referencia ^IBEX.
-
-### Conclusión del Analista Alcista
-
-Los osos pueden seguir preocupados por la volatilidad macroeconómica general de las bolsas europeas o los matices de la política del BCE, pero **AMS.MC** es un activo de primer orden, con fundamentales de hierro, un foso competitivo inexpugnable y un potencial de doble dígito hacia los 70.86 EUR respaldado por el consenso. Mantener la posición con un stop-loss técnico en la zona de los 53.00 EUR (coincidiendo con la media de 200 sesiones y el suelo de analistas) es la jugada más inteligente para capitalizar la próxima gran fase alcista.
-
-FINAL TRANSACTION PROPOSAL: HOLD
+FINAL TRANSACTION PROPOSAL: Neutral posture with a focus on risk management near current moving average supports.
 
 ### Bear Researcher
 
-Bear Analyst: ¡Hola colega! Comprendo perfectamente tu entusiasmo y los números tan pulidos que presentas sobre la mesa. Es fácil dejarse seducir por un ROE del 26.44% y una generación de flujo de caja libre superior a los 1.100 millones de euros en **AMS.MC**. Los toros siempre miran el espejo retrovisor aplaudiendo el crecimiento histórico de ingresos hasta los 6.517 millones de euros en 2025 y el cómodo ratio de deuda neta sobre EBITDA de 1.03x. 
+Bear Analyst: **Rating**: SELL
 
-Sin embargo, estás cometiendo el clásico error de confundir una excelente empresa con una gran inversión **en este preciso momento**. Estás ignorando vientos en contra estructurales, valoraciones exigentes y amenazas competitivas latentes que el consenso del mercado de 70.86 EUR está subestimando peligrosamente. 
+FINAL TRANSACTION PROPOSAL: Bearish posture focusing on structural risks, high valuation multiples relative to organic growth constraints, and macroeconomic exposure in `AMS.MC`.
 
-Vamos a desmontar punto por punto tu optimismo desmedido:
+---
 
-### 1. El espejismo del "Upside" y la trampa del consenso
-Te agarras con fuerza a ese potencial de subida del 18.62% hacia los 70.86 EUR que predice el panel de analistas. Pero olvidaste mirar el suelo de ese mismo consenso: **53.00 EUR**. 
-* Con un precio actual en **59.74 EUR**, la acción está peligrosamente suspendida en tierra de nadie, apenas a un suspiro de perder su media móvil de 20 sesiones (59.89 EUR). 
-* ¿Y qué pasa si el entorno macroeconómico europeo se tuerce? Con el Banco Central Europeo (BCE) tensionando las reservas mínimas obligatorias y manteniendo la presión sobre los tipos de interés, las valoraciones tecnológicas sufren compresión de múltiplos. Un Forward P/E de 15.28x puede parecer razonable hasta que las proyecciones de crecimiento de beneficios (ese 9.8% que mencionas) se frenen por una desaceleración en el gasto de los consumidores en viajes globales. Si el beneficio por acción no cumple, el mercado castigará el múltiplo y `AMS.MC` caerá en picado directa hacia el soporte de los 53 EUR.
+¡Vaya discurso optimista nos acaba de soltar nuestro compañero alcista! Es muy fácil deslumbrarse con los titulares de ingresos récord y mirar los flujos de caja operativos como si fueran un cheque en blanco perpetuo. Pero como analista bajista, mi deber es quitarle el barniz de marketing a la situación y mirar la letra pequeña. Porque detrás de ese aparente "monopolio intocable", `AMS.MC` esconde vulnerabilidades críticas que el mercado está comenzando a cuestionar. 
 
-### 2. El foso competitivo (*Moat*) no es inexpugnable: Amenazas de desintermediación
-Hablas de un sistema circulatorio global intocable y de un efecto de red masivo. ¡Despierta! El sector de la distribución turística y la tecnología para aerolíneas está sufriendo una transformación radical. 
-* Las grandes aerolíneas llevan años empujando con fuerza hacia la adopción del estándar **NDC (New Distribution Capability)**, buscando puentear y eludir los costosos sistemas globales de distribución (GDS) tradicionales de Amadeus para comercializar sus servicios de manera directa y ahorrar costes. 
-* Además, la presión de las tecnológicas nativas de la nube y los agregadores basados en inteligencia artificial están erosionando la exclusividad de las soluciones B2B de Amadeus. Confiar ciegamente en que su posición de monopolio u oligopolio durará eternamente en un entorno digital tan disruptivo es una apuesta muy peligrosa.
+Desmontemos esa narrativa optimista punto por punto:
 
-### 3. El riesgo oculto en la estructura de costes y CapEx
-Miras con devoción los márgenes operativos, pero obvias el esfuerzo de capital necesario para mantenerse en la cresta de la ola. El Gasto de Capital (*CapEx*) de la compañía ha escalado de forma notable (superando los 814 millones de euros en el último ejercicio reportado). 
-* Amadeus opera en un sector donde la obsolescencia tecnológica se paga cara. Para competir contra soluciones modernas y mantener su cuota de mercado, la empresa se ve obligada a realizar inversiones masivas recurrentes en I+D y actualización de infraestructuras. 
-* Esto significa que gran parte de ese flujo de caja libre que tanto alabas está atado de pies y manos, limitando el verdadero retorno disponible para el accionista más allá de un exiguo *dividend yield* del 2.58% que apenas bate la inflación actual en la Eurozona.
+### 1. ¿Crecimiento Sólido o Rebote Post-Pandemia Agotado?
+El toro nos saca pecho con los ingresos de 6.517 millones de euros en 2025 y el crecimiento interanual. Pero se olvida de un detalle fundamental: **la tasa de crecimiento se está desacelerando**. Un crecimiento de ingresos del 6.4% y un incremento de ganancias del 9.8% no son cifras de una "apisonadora tecnológica"; son las de una empresa madura y cíclica que ya ha cosechado los frutos del rebote masivo del turismo tras la crisis sanitaria. ¿Y qué pasa cuando el tráfico aéreo mundial alcance su meseta estructural? La capacidad de `AMS.MC` para mantener expansiones de doble dígito sin realizar inversiones masivas es extremadamente limitada.
 
-### 4. Realidad técnica: Agotamiento del impulso
-En el plano técnico, tu lectura es demasiado benévola. Dices que el RSI en 53.21 es una "consolidación sana", pero el MACD (1.51) cruzando por debajo de su línea de señal (1.72) nos está advirtiendo de un claro **enfriamiento del impulso alcista**. El título ha rebotado, sí, pero está perdiendo fuerza compradora en un IBEX 35 que sufre por mantener soportes clave frente a la incertidumbre macroeconómica de finales de 2026. Entrar largos aquí, con un potencial de caída del -11% hasta el soporte de los 53 EUR frente a una subida teórica basada en las esperanzas de los analistas, ofrece una relación riesgo/recompensa nefasta.
+### 2. El Mito del "Foso Defensivo" (Moat) y la Amenaza Tecnológica
+Nos venden la moto de que las aerolíneas no pueden cambiar de proveedor debido a los prohibitivos costes de cambio (*switching costs*). Eso era verdad en el año 2010. Hoy en día, la industria del transporte aéreo y la distribución turística están sufriendo una presión inmensa hacia la desintermediación. Las grandes aerolíneas están invirtiendo masivamente en sus propias capacidades de venta directa (como los estándares NDC - *New Distribution Capability*) para puentear a los GDS tradicionales y evitar las elevadas comisiones que cobra Amadeus. 
+Además, la irrupción de la inteligencia artificial y nuevos actores tecnológicos en el sector de la reserva y la gestión de pasajeros amenaza con erosionar silenciosamente su cuota de mercado. Confiar en que un modelo de negocio tradicional se mantendrá intacto frente a la disrupción digital es, como poco, ingenuo.
 
-### Conclusión del Analista Bajista
-Amadeus IT Group, S.A. (`AMS.MC`) es una compañía fantástica sobre el papel, con un balance saneado y números sólidos. Pero comprarla a casi 60 EUR, en plena desaceleración del impulso técnico, con riesgos de desintermediación tecnológica y un entorno de tipos del BCE que amenaza los múltiplos de valoración, es sencillamente imprudente. No es momento de comprar ni de mantener con los ojos cerrados: es momento de extremar la cautela, reconocer los desafíos estructurales y esperar a que el precio corrija de verdad hacia niveles de valor real antes de arriesgar el capital.
+### 3. Una Valoración Exigente ante el Riesgo Macroeconómico
+El colega alcista descarta el ruido macroeconómico llamándolo "pamplinas". ¡Cuidado con eso! Vivimos en un entorno donde el Banco Central Europeo mantiene una política monetaria restrictiva, con debates sobre tipos y la presión sobre las reservas bancarias que encarecen el coste del dinero. 
+Aunque la ratio de deuda neta sobre EBITDA de `AMS.MC` parezca controlada en **1.03x** (con una deuda total de 3.500 millones de euros), un P/E forward de **15.28x** y un múltiplo EV/EBITDA de **11.03x** dejan un margen de error peligrosamente estrecho si el consumo global de viajes se desacelera por la presión inflacionaria y el aumento del coste de la vida de los hogares. Si las previsiones de beneficio por acción (EPS de 3.91 EUR) sufren cualquier revisión a la baja por un entorno macro más débil, esa "atractiva valoración" se evaporará de inmediato.
 
-**Rating**: Hold
-FINAL TRANSACTION PROPOSAL: HOLD
+### 4. Vulnerabilidad Técnica y Falta de Momento Real
+Miremos el gráfico de `AMS.MC` sin gafas de color de rosa. La acción cotiza en los **59.74 EUR**, estancada y flirteando peligrosamente con su media móvil de 20 sesiones (59.89 EUR). El RSI está en una tibia zona neutral de **53.21**, y el MACD muestra indicios claros de agotamiento frente a su línea de señal. Un rendimiento a 252 sesiones en terreno negativo (**-3.18%**) y un *drawdown* del **-5.85%** desde máximos recientes demuestran que el dinero institucional no está comprando con alegría esa supuesta "ganga alcista". La acción carece de un catalizador de momentum a corto plazo.
+
+### Conclusión Bajista
+Confiar ciegamente en un precio objetivo de consenso de 70.86 EUR cuando el entorno de tipos es restrictivo, la disrupción tecnológica acecha el modelo de distribución y el crecimiento orgánico se normaliza, es un ejercicio de optimismo injustificado. `AMS.MC` no es una mala compañía, pero a estos precios, **los riesgos superan con creces los potenciales beneficios**. Es momento de recortar exposición, proteger capital y mantenerse al margen de falsas euforias.
 
 ### Research Manager
 **Recommendation**: Hold
 
-**Rationale**: El debate entre el analista alcista y el bajista expone una empresa con fundamentales excepcionales, un balance robusto (ratio de deuda neta sobre EBITDA de 1.03x) y una sólida generación de flujo de caja libre, frente a riesgos reales de compresión de múltiplos por el entorno macroeconómico de tipos en Europa, el reto de la desintermediación tecnológica (estandares NDC) y un impulso técnico neutral (RSI en 53.21 y MACD cruzando por debajo de su señal). Aunque el consenso sitúa el precio objetivo en 70.86 EUR (ofreciendo un atractivo potencial alcista), el precio actual de cotización de 59.74 EUR se encuentra en tierra de nadie frente a un suelo de analistas en 53.00 EUR. Por tanto, la balanza se inclina hacia una postura neutral de mantenimiento, ya que los sólidos argumentos operativos chocan con vientos en contra estructurales y técnicos que desaconsejan modificar la exposición actual en este momento.
+**Rationale**: El debate ha estado disputado entre la solidez fundamental de Amadeus IT Group, S.A. (AMS.MC) —que destaca por una generación de caja libre superior a 1.100 millones de euros, una rentabilidad sobre recursos propios (ROE) del 26.43%, un apalancamiento bajo control (deuda neta sobre EBITDA de 1.03x) y un atractivo forward P/E de 15.28x frente a un consenso alcista en 70.86 EUR— y los riesgos señalados por el bando bajista, centrados en la desaceleración del crecimiento orgánico, la presión de la desintermediación en la industria y un entorno macroeconómico restrictivo con resistencia técnica en torno a su media de 20 sesiones (59.89 EUR) y un rendimiento anual negativo (-3.18%). Tras sopesar ambas posturas, la balanza se equilibra: los sólidos fundamentales y el foso competitivo contrarrestan el agotamiento técnico a corto plazo y la madurez del ciclo post-pandemia, justificando una postura neutral de mantenimiento sin sobreexponerse.
 
-**Strategic Actions**: Mantener la posición actual en AMS.MC sin realizar nuevas compras ni reducciones. Establecer una vigilancia estricta sobre el soporte técnico de los 53.00 EUR (coincidente con la media móvil de 200 sesiones y el suelo del consenso de analistas) para evaluar posibles reasignaciones si el precio sufre una corrección significativa.
+**Strategic Actions**: Mantener la asignación actual en AMS.MC sin realizar nuevas compras ni reducciones drásticas. Se sugiere al trader establecer alertas de gestión de riesgo ante posibles rupturas de la media móvil de 50 sesiones (56.28 EUR) y reevaluar la exposición si el precio se acerca al soporte del target bajo de los analistas (53.00 EUR), o bien si rompe con volumen por encima de la media de 20 sesiones (59.89 EUR) para considerar incrementos futuros.
 
 ## III. Trading Team Plan
 
 ### Trader
 **Action**: Hold
 
-**Reasoning**: El valor AMS.MC cotiza en 59.74 EUR, manteniendo una estructura técnica neutral con el RSI en 53.21 y consolidando por encima de su SMA de 200 sesiones situada en 52.70 EUR. Aunque los fundamentales son sólidos con un Forward P/E de 15.28x y un potencial de consenso hasta 70.86 EUR, los indicadores de impulso como el MACD muestran un enfriamiento a corto plazo. Por ello, se recomienda mantener la posición actual y no ejecutar nuevas entradas hasta observar una superación clara de resistencias o un acercamiento al soporte fundamental.
+**Reasoning**: Amadeus IT Group, S.A. (AMS.MC) cotiza a 59.74 EUR, mostrando sólidos fundamentales con un ROE del 26.43% y un forward P/E de 15.28x que respalda el consenso alcista de 70.86 EUR. Sin embargo, técnicamente el valor muestra signos de consolidación neutral con un RSI en 53.21 y una cotización oscilando sobre su media móvil de 20 sesiones (59.89 EUR), lo que justifica una postura de espera sin ampliar posiciones.
 
-**Entry Price**: 59.74
+**Entry Price**: not provided
 
-**Stop Loss**: 53.0
+**Stop Loss**: 56.28
 
-**Position Sizing**: Mantener exposición actual
+**Position Sizing**: 5% of portfolio
 
 FINAL TRANSACTION PROPOSAL: **HOLD**
 
@@ -270,43 +267,44 @@ FINAL TRANSACTION PROPOSAL: **HOLD**
 
 ### Aggressive Analyst
 
-Aggressive Analyst: ¡Basta ya de vacilaciones y de ver fantasmas donde solo hay una oportunidad de oro para ganar dinero a lo grande! Analistas conservadores y neutrales se escudan en un "enfriamiento a corto plazo" del MACD o en miedos infundados sobre la volatilidad macroeconómica y las decisiones del BCE para frenar el ímpetu del inversor. ¡Qué error tan grave! Estar anclados en la cautela cuando evaluamos a **AMS.MC** (Amadeus IT Group, S.A.) es sencillamente regalar rentabilidad en bandeja de plata.
+Aggressive Analyst: **Rating**: REVIEW
 
-Miremos los fríos y duros datos que el bando de la precaución prefiere ignorar u opacar con su miedo crónico. Amadeus cotiza actualmente a 59.74 EUR, pero cuenta con un consenso de analistas brutal que apunta directamente a un precio objetivo medio de **70.86 EUR**. ¡Estamos hablando de un potencial de revalorización (*consensus upside*) del **18.62%**! Con un objetivo máximo que alcanza los **82.00 EUR**, conformarse con un simple "Hold" pasivo y esperar a que el precio toque soportes lejanos de 53.00 EUR es una estrategia mediocre que nos hace perder el tren del crecimiento tecnológico.
+Como analista de riesgo agresivo, rechazo categóricamente cualquier intento de paralización o conformismo. Mientras que las posturas conservadoras y neutrales se aferran al miedo ante una mínima consolidación técnica y al ruido macroeconómico de corto plazo, ignoran deliberadamente el extraordinario potencial de crecimiento y la solidez estructural que presenta Amadeus IT Group, S.A. (`AMS.MC`). 
 
-¿Que el MACD se está enfriando? ¡Por favor! Eso no es más que una pausa táctica saludable tras un retorno a 21 sesiones del +4.95% y superando con creces al propio índice ^IBEX con una rentabilidad relativa trimestral de +9.80 pp. El RSI se encuentra en un comodísimo 53.21, lo que significa que el valor tiene total libertad y oxígeno para dispararse al alza en cualquier momento sin el lastre de estar sobrecomprado. Además, operamos con una estructura técnica perfectamente respaldada: el precio está holgadamente por encima de su media móvil de 200 sesiones (52.70 EUR) y de su SMA de 50 sesiones (56.28 EUR). La tendencia de fondo es inequívocamente alcista.
+Fijémonos en los datos reales que desestiman la sobrerreacción de la cautela: la compañía cuenta con un ROE excepcional del 26.43%, un margen de beneficio neto cercano al 19.86% y un flujo de caja libre masivo que supera los 1.100 millones de euros. ¿Cómo pueden calificar de "espera innecesaria" o "riesgo excesivo" a un valor que cotiza a un atractivo *forward P/E* de 15.28x y que ofrece un potencial alcista de consenso (*consensus upside*) del 18.62% hasta los 70.86 EUR? 
 
-¿Y qué me dicen de los fundamentales? Mientras los timoratos tiemblan por la deuda, la realidad contable es blindada: una ratio de deuda neta sobre EBITDA de apenas **1.03x**, respaldada por una generación monstruosa de flujo de caja libre (*free cash flow*) que supera los 1.100 millones de euros y un ROE estelar del **26.44%**. Con un *Forward P/E* sumamente atractivo de **15.28x** frente a los beneficios estimados por acción que suben a 3.91 EUR, la compañía está barata para la máquina de imprimir valor que representa en el sector de tecnología y servicios de TI.
+Los analistas conservadores se obsesionan con la media móvil de 20 sesiones en 59.89 EUR o con un RSI neutral en 53.21, perdiendo de vista el panorama general: la tendencia alcista estructural de fondo está intacta, respaldada holgadamente por una media de 200 sesiones en 52.70 EUR y una deuda neta sobre EBITDA sumamente controlada de apenas 1.03x. Detenerse o dudar ante la volatilidad macroeconómica del BCE o las fluctuaciones del IBEX 35 es regalar rentabilidad en bandeja de plata. El mercado recompensa a los audaces que aprovechan estas pausas técnicas antes del siguiente gran impulso alcista. ¡Es el momento de apostar fuerte por la expansión tecnológica de `AMS.MC` y dejar atrás la parálisis por análisis!
 
-Adoptar una postura excesivamente conservadora frente a **AMS.MC** es dejar que la timidez arruine una ganancia potencial de doble dígito. No podemos permitirnos perder posiciones ni quedarnos mirando desde la barrera mientras el mercado reconoce el verdadero valor intrínseco de esta compañía. ¡Hay que atacar la oportunidad con agresividad y visión de crecimiento!
-
-**Rating**: BUY
-FINAL TRANSACTION PROPOSAL: **BUY**
+FINAL TRANSACTION PROPOSAL: **HOLD**
 
 ### Conservative Analyst
 
-Conservative Analyst: Escuchar al Analista Agresivo hablar con tanta ligereza de "ganar dinero a lo grande" y calificar la prudencia de timidez es una irresponsabilidad flagrante con el patrimonio de la firma. Exponer capital comprando de manera desbocada en **AMS.MC** (Amadeus IT Group, S.A.) ignorando las señales de alerta técnica y el entorno macroeconómico es exactamente el tipo de error de cálculo que destruye carteras durante los cambios de ciclo. 
+Conservative Analyst: **Rating**: REVIEW
 
-El Analista Agresivo se aferra ciegamente al precio objetivo de consenso de 70.86 EUR y al potencial del 18.62%, olvidando convenientemente que los objetivos de los analistas son estimaciones a largo plazo, no garantías a corto plazo. ¿De qué sirve mirar un objetivo máximo de 82.00 EUR si el título se encuentra cotizando a 59.74 EUR bajo un claro enfriamiento del MACD, donde la línea de MACD (1.51) ya ha perforado a la baja su línea de señal (1.72)? Esa no es una "pausa táctica saludable", es una clara señal de pérdida de momento alcista que podría precipitar correcciones adicionales hacia la media móvil de 50 sesiones en 56.28 EUR o, en un escenario de mayor tensión, hacia el soporte crítico de 53.00 EUR. Lanzarse a comprar en este preciso momento de debilidad técnica es regalar un margen de caída inaceptable para cualquier gestor de riesgos sensato.
+Como Analista de Riesgo Conservador, debo responder enérgicamente a la postura excesivamente optimista de la analista agresiva, cuya prisa por lanzarse al mercado ignora peligrosamente las vulnerabilidades a las que nos exponemos. Afirmar que el atractivo *forward P/E* de 15.28x y un potencial alcista del 18.62% hacia los 70.86 EUR justifican una actitud audaz es pasar por alto que dichos precios objetivos son meras estimaciones de consenso, no garantías intrínsecas. Pretender ignorar la consolidación actual argumentando que la tendencia de fondo compensa todo es un error de cálculo imperdonable en la gestión de capital.
 
-Además, minimizar los riesgos macroeconómicos actuales es un acto de soberbia. Estamos en un contexto donde el Banco Central Europeo mantiene la presión sobre los tipos y las reservas bancarias, y la volatilidad anualizada de **AMS.MC** ya se sitúa en un respetable 25.82%. Un valor con esa volatilidad y un *drawdown* reciente del -5.85% no puede ser tratado como un valor refugio exento de sobresaltos. Aunque es innegable que los fundamentales de Amadeus son sólidos —con una ratio de deuda neta sobre EBITDA de 1.03x y un flujo de caja libre superior a los 1.100 millones de euros—, un balance saneado no inmuniza a la acción frente a un cambio repentino en el apetito por el riesgo global o a revisiones bajistas en el sector tecnológico y de viajes. 
+La analista agresiva descarta con ligereza la frágil estabilidad técnica del valor. Señala que el RSI neutral de 53.21 y la oscilación alrededor de la media móvil de 20 sesiones en 59.89 EUR son meras pausas inofensivas; sin embargo, no contempla el riesgo de corrección bajista si el precio perfora estos soportes a corto plazo. Con una volatilidad anualizada del 25.82% y un *drawdown* reciente del -5.85%, cualquier turbulencia macroeconómica —como la incertidumbre sobre la política monetaria del Banco Central Europeo, la evolución del IPC en España o la volatilidad del IBEX 35 en torno a los 20.000 puntos— puede desencadenar una salida repentina de capital institucional que ponga en grave aprieto nuestra posición.
 
-Comprar ahora, como propone el Analista Agresivo, expone a la firma a un riesgo de bajada innecesario justo cuando los indicadores de impulso se apagan y los mercados europeos navegan en terreno de alta incertidumbre. La estrategia correcta para proteger los activos y minimizar la volatilidad no es lanzarse a ciegas buscando un espejismo de doble dígito, sino mantener la posición actual, blindar el capital con un stop-loss riguroso en los 53.00 EUR y esperar con paciencia disciplinada a que el precio confirme una superación real de resistencias o retroceda hacia soportes donde la relación riesgo-beneficio sea verdaderamente favorable. La preservación del capital es nuestra máxima prioridad, y frente a la euforia infundada, la cautela y la retención son nuestras mejores aliadas.
+Además, aunque es innegable que Amadeus IT Group, S.A. (`AMS.MC`) exhibe métricas fundamentales robustas, como un ROE del 26.43% y un flujo de caja libre superior a 1.100 millones de euros, basar una decisión de ampliación de riesgo en el endeudamiento controlado (ratio de deuda neta sobre EBITDA de 1.03x) o en la media móvil de 200 sesiones en 52.70 EUR es una lectura incompleta del riesgo sistémico. La protección del patrimonio exige disciplina y preservación de capital, no dejarse seducir por un optimismo desmedido que olvida los costes de oportunidad y el impacto de los giros imprevistos del mercado. 
 
-**Rating**: Hold
+Por todo ello, mantener una postura prudente sin ampliar posiciones, apoyándonos en el nivel de stop loss fijado en 56.28 EUR, es la única estrategia responsable para blindar los activos de la firma frente a sorpresas bajistas. El mercado no recompensa la audacia ciega, sino la gestión rigurosa del riesgo.
+
 FINAL TRANSACTION PROPOSAL: **HOLD**
 
 ### Neutral Analyst
 
-Neutral Analyst: Ambos analistas cometen el error de llevar sus posturas al extremo, ignorando que la gestión de riesgos eficiente en Amadeus IT Group, S.A. (`AMS.MC`) exige un punto de equilibrio pragmático. 
+Neutral Analyst: **Rating**: REVIEW
 
-Por un lado, el Analista Agresivo comete una imprudencia al desestimar el cruce bajista del MACD (1.51 frente a la señal de 1.72) y calificar el enfriamiento actual como una mera bagatela. Cuestionar la cautela ignorando la volatilidad anualizada del 25.82% y las tensiones monetarias del Banco Central Europeo es apostar a ciegas en un entorno donde los precios objetivos de consenso (70.86 EUR) son metas a mediano y largo plazo, no una garantía de inmediatez. Comprar de manera agresiva con indicadores de impulso a la baja es exponer innecesariamente el capital a un retroceso técnico hacia la media de 50 sesiones en 56.28 EUR.
+Como Analista de Riesgo Neutral, debo intervenir para señalar los excesos y las debilidades en los argumentos tanto de nuestra compañera del bando agresivo como del analista conservador. 
 
-Por otro lado, el Analista Agresivo acierta al señalar que el Analista Conservador se inmoviliza en exceso por el miedo al ciclo macroeconómico. El balance de `AMS.MC` es francamente sólido: cuenta con una ratio de deuda neta sobre EBITDA contenida en 1.03x, una generación de flujo de caja libre (*free cash flow*) superior a 1.100 millones de euros y un atractivo *Forward P/E* de 15.28x. Quedarse petrificado esperando un desplome hasta los 53.00 EUR —coincidente con la media móvil de 200 sesiones y el soporte inferior de analistas— podría significar perderse la continuidad de una tendencia alcista estructural que registra un rendimiento trimestral positivo frente al IBEX de +9.80 puntos porcentuales. 
+Por un lado, la postura agresiva peca de un optimismo desmedido al minimizar por completo el riesgo técnico actual. Descartar la consolidación de `AMS.MC` simplemente porque su ROE es del 26.43% o porque el *forward P/E* se sitúa en 15.28x es ignorar la realidad del precio. Citar un potencial alcista de consenso de 70.86 EUR (un *upside* del 18.62%) como si fuera una ganancia garantizada olvida que los objetivos de los analistas son estimaciones dinámicas, no verdades absolutas. Pretender cargar posiciones de golpe en medio de una fase lateral, con un RSI neutral en 53.21 y oscilando milimétricamente sobre la media móvil de 20 sesiones (59.89 EUR), es una invitación innecesaria a sufrir un desgaste por *timing* desafortunado.
 
-En lugar de comprar con euforia o congelar la operativa por pánico, la estrategia moderada y sostenible consiste en mantener la exposición actual sin incrementar el riesgo direccional en tanto el MACD no recupere tracción al alza. Esto permite capturar el potencial del 18.62% hacia el precio objetivo medio de consenso sin quedar expuestos a correcciones de corto plazo, manteniendo un estricto control de riesgos con el nivel de stop-loss en 53.00 EUR.
+Por otro lado, el extremo conservador cae en la parálisis por exceso de miedo. Agitar el fantasma de una corrección masiva escudándose en la volatilidad anualizada del 25.82% y en los rumores macroeconómicos del BCE o el IPC en España ignora que la estructura de fondo de `AMS.MC` sigue siendo sólidamente alcista. Sostener que un ratio de deuda neta sobre EBITDA de 1.03x y un flujo de caja libre superior a 1.100 millones de euros son datos menores frente a la tormenta sistémica es una lectura sesgada. El analista conservador se refugia tanto en el stop loss situado en 56.28 EUR que prefiere renunciar por completo al potencial de crecimiento de una de las mejores empresas tecnológicas del sector de viajes en Europa.
 
-**Rating**: Hold
+La verdadera virtud de un enfoque equilibrado radica en tomar lo mejor de ambos mundos: reconocer la excelente salud financiera, el ROE del 26.43% y la sólida generación de caja que defiende la postura agresiva, pero aplicando la estricta disciplina de gestión de riesgo y protección patrimonial que exige el bando conservador. No necesitamos comprar de forma masiva ni tampoco quedarnos paralizados viendo cómo el precio se consolida. 
+
+La estrategia moderada y sostenible consiste en mantener la asignación hipotética actual del 5% del portafolio en `AMS.MC`, respetando estrictamente el stop loss en 56.28 EUR —que coincide prácticamente con la media móvil de 50 sesiones en 56.28 EUR—, y vigilar de cerca la ruptura limpia de la resistencia a corto plazo antes de contemplar cualquier ampliación futura de capital. Así logramos proteger el capital frente a giros imprevistos del mercado sin perder la oportunidad de participar en la tendencia de fondo alcista.
+
 FINAL TRANSACTION PROPOSAL: **HOLD**
 
 ## V. Portfolio Manager Decision
@@ -314,10 +312,10 @@ FINAL TRANSACTION PROPOSAL: **HOLD**
 ### Portfolio Manager
 **Rating**: Hold
 
-**Executive Summary**: Mantener la exposición actual en AMS.MC sin realizar nuevas compras ni reducciones de tamaño. La estrategia de entrada prioriza la paciencia a la espera de una confirmación de tendencia o un retroceso al soporte técnico de 53.00 EUR, nivel crítico que coincide con la media móvil de 200 sesiones. Se establece un horizonte temporal de 3 a 6 meses.
+**Executive Summary**: Mantener la asignación actual en AMS.MC sin realizar nuevas compras ni reducciones drásticas. Se sugiere al trader fijar alertas y un stop loss en 56.28 EUR (coincidente con la media móvil de 50 sesiones), esperando una ruptura limpia de la resistencia técnica antes de ampliar exposición.
 
-**Investment Thesis**: La decisión de mantener el valor se fundamenta en un equilibrio de fuerzas entre la solidez fundamental y el deterioro temporal del impulso técnico expuesto en el debate. Por un lado, el bando alcista destaca la excelente salud financiera de Amadeus IT Group, S.A., reflejada en una ratio de deuda neta sobre EBITDA contenida en 1.03x, una generación robusta de flujo de caja libre superior a 1.100 millones de euros y un Forward P/E atractivo de 15.28x, acompañado de un potencial de consenso hasta los 70.86 EUR (+18.62%). No obstante, los analistas conservadores y neutrales argumentan correctamente que el cruce bajista del MACD (1.51 frente a la línea de señal de 1.72) y la volatilidad anualizada del 25.82% advierten sobre un enfriamiento a corto plazo que desaconseja compras precipitadas a los precios actuales de 59.74 EUR. La tesis se inclina hacia la neutralidad (Hold) porque, a pesar de los excelentes datos operativos, no existen catalizadores inmediatos de impulso que justifiquen incrementar riesgo direccional frente a las tensiones macroeconómicas del BCE. La postura cambiaría a compra si el MACD recupera tracción alcista con volumen o si se produce un retesteo limpio del soporte en 53.00 EUR.
+**Investment Thesis**: La decisión de mantener se basa en un análisis equilibrado del debate entre analistas. Por un lado, la postura agresiva destaca la solidez fundamental de Amadeus IT Group, S.A. (AMS.MC), evidenciada por un ROE del 26.43%, un margen de beneficio neto del 19.86%, un flujo de caja libre superior a 1.100 millones de euros y un atractivo forward P/E de 15.28x frente a un consenso de 70.86 EUR. Por otro lado, los analistas conservador y neutral advierten sobre la consolidación técnica a corto plazo, el RSI neutral en 53.21 y la volatilidad macroeconómica (como las dudas sobre el BCE y el IPC), sugiriendo que la entrada masiva es prematura. Aunque los fundamentos son excelentes, la falta de un impulso técnico claro y la necesidad de gestionar el riesgo aconsejan una postura de espera neutral. La tesis cambiaría hacia una compra si el precio rompe con fuerza al alza o hacia una reducción si perfora el soporte de 56.28 EUR.
 
-**Price Target**: 70.86
+**Price Target**: 70.86174
 
 **Time Horizon**: 3-6 meses

@@ -1,52 +1,64 @@
 **Rating**: REVIEW
 
-**Análisis Fundamental e Informe de Inversión para Bankinter, S.A. (`BKT.MC`)**
+**FINAL TRANSACTION PROPOSAL:** HOLD
 
-### 1. Perfil de la Compañía y Resumen de Negocio
-Bankinter, S.A. (`BKT.MC`) opera en el sector de Servicios Financieros dentro de la industria de Banca Regional, cotizando en la Bolsa de Madrid (`MCE`) en Euros (EUR). La entidad destaca por su enfoque en banca comercial, corporativa y de inversión, manteniendo sólidas métricas de rentabilidad y eficiencia dentro del panorama bancario europeo y español (tomando como referencia el índice benchmark `^IBEX`).
+***
 
-### 2. Análisis de Estados Financieros e Historial Financiero
-De acuerdo con los datos financieros provistos en los estados contables anuales consolidados:
+### Informe Fundamental de Bankinter, S.A. (`BKT.MC`)
 
-*   **Cuenta de Resultados (Income Statement):**
-    *   **Total Revenue (Ingresos Totales):** 
-        *   Ejercicio 2023: 2.913.716.000 EUR
-        *   Ejercicio 2024: 3.082.391.000 EUR
-        *   Ejercicio 2025: 3.128.426.000 EUR (Muestra una trayectoria de crecimiento sostenido en la cifra de negocios).
-    *   **Net Income (Beneficio Neto):**
-        *   Ejercicio 2023: 844.787.000 EUR
-        *   Ejercicio 2024: 952.971.000 EUR
-        *   Ejercicio 2025: 1.089.976.000 EUR (Crecimiento sólido y progresivo de la rentabilidad neta de la entidad).
+#### 1. Perfil de la Compañía y Contexto de Negocio
+* **Identidad Resuelta**: Bankinter, S.A. (`BKT.MC`) es una entidad financiera española englobada en el sector de Servicios Financieros / Bancos Regionales, cotizada en la Bolsa de Madrid (MCE) y componente del índice de referencia `^IBEX`.
+* **Actividad y Posicionamiento**: Opera como uno de los bancos medianos más eficientes y diversificados del mercado español, con presencia en banca comercial, corporativa, gestión de patrimonios y banca digital (Evo Banco). 
+* **Fecha de Análisis**: 22 de noviembre de 2026.
 
-*   **Balance de Situación (Balance Sheet):**
-    *   **Total Assets (Activos Totales):** 113.011.642.000 EUR (2023) -> 121.971.823.000 EUR (2024) -> 131.018.892.000 EUR (2025). Expansión continuada del balance.
-    *   **Total Debt (Deuda Total):** 9.466.693.000 EUR (2023) -> 9.706.475.000 EUR (2024) -> 11.940.846.000 EUR (2025). *(Nota analítica: No se deben aplicar reglas de deuda industrial o EBITDA a entidades bancarias, ya que la estructura de financiación y pasivos forma parte del núcleo operativo de intermediación financiera).*
-    *   **Stockholders Equity (Patrimonio Neto):** 5.322.940.000 EUR (2023) -> 5.877.665.000 EUR (2024) -> 6.411.484.000 EUR (2025).
+#### 2. Análisis de los Estados Financieros Históricos
+Los datos financieros extraídos de los estados contables oficiales muestran la evolución reciente de la entidad:
 
-*   **Flujos de Caja (Cash Flow):**
-    *   **Operating Cash Flow:** -598.882.000 EUR en 2025 (frente a 1.941.443.000 EUR en 2024 y 658.419.000 EUR en 2023).
-    *   **Free Cash Flow:** -766.619.000 EUR en 2025 (frente a 1.790.342.000 EUR en 2024). *(Nota: En instituciones financieras, las fluctuaciones del flujo de caja operativo reflejan variaciones en la inversión de activos líquidos y depósitos, por lo que su lectura difiere estructuralmente de las empresas no financieras).*
+* **Cuenta de Resultados (Ingresos Totales y Beneficio Neto)**:
+  * *Ejercicio 2023*: Ingresos Totales de 2.913.716.000 EUR; Beneficio Neto de 844.787.000 EUR.
+  * *Ejercicio 2024*: Ingresos Totales de 3.082.391.000 EUR; Beneficio Neto de 952.971.000 EUR.
+  * *Ejercicio 2025*: Ingresos Totales de 3.128.426.000 EUR; Beneficio Neto de 1.089.976.000 EUR.
+  * *Tendencia*: Demuestra un crecimiento constante y sostenido tanto en la cifra de negocios como en la rentabilidad neta final año tras año.
 
-### 3. Métricas Financieras Clave y Valoración
-*   **Capitalización Bursátil:** 12.294.165.504 EUR.
-*   **PER (Trailing PE):** 10.77x | **PER Adelantado (Forward PE):** 9.42x.
-*   **Precio sobre Valor en Libros (Price to Book):** 1.84x (con un valor contable por acción de 7.455 EUR).
-*   **Rentabilidad sobre el Capital (ROE):** 17.64%, evidenciando una excelente eficiencia y generación de valor sobre los recursos propios.
-*   **Márgenes:** Margen de beneficio (Profit Margins) de 41.13%.
-*   **Dividendos:** Rentabilidad por dividendo (*Dividend Yield*) estimada en torno al **4.53%** (con un *dividend rate* de 0.62 EUR y un *payout ratio* del 48.64%).
-*   **Valoración Relativa:** Se sitúa con un ratio de PER relativo intermedio de 0.94 frente a la mediana de sus pares comparables del sector (`SAB.MC`, `SAN.MC`, `BBVA.MC`, `CABK.MC`, `UNI.MC`), cotizando ligeramente por debajo de la mediana del grupo (peer median forward PE: ~9.98x).
-*   **Consenso de Analistas:** Precio objetivo medio de consenso de **16.78 EUR** (con un rango que va desde un mínimo de 10.30 EUR hasta un máximo de 22.50 EUR a partir de 22 opiniones de analistas), lo que arroja un potencial de revalorización (*consensus upside*) del **22.68%** sobre el precio de cierre actual de **13.68 EUR** (a fecha 20 de noviembre de 2026).
+* **Balance de Situación**:
+  * *Activos Totales*: 113.011.642.000 EUR (2023) $\rightarrow$ 121.971.823.000 EUR (2024) $\rightarrow$ 131.018.892.000 EUR (2025).
+  * *Patrimonio Neto (Stockholders Equity)*: 5.322.940.000 EUR (2023) $\rightarrow$ 5.877.665.000 EUR (2024) $\rightarrow$ 6.411.484.000 EUR (2025).
+  * *Deuda Total*: 9.466.693.000 EUR (2023) $\rightarrow$ 9.706.475.000 EUR (2024) $\rightarrow$ 11.940.846.000 EUR (2025). *(Nota metodológica: No se aplican reglas de deuda industrial a entidades bancarias/aseguradoras).*
 
-### 4. Análisis Técnico y Contexto de Mercado
-*   **Precio de Cierre (20/11/2026):** 13.68 EUR.
-*   **Variación y Tendencia:** El valor acumula un retroceso reciente (-3.22% en la última sesión, -3.18% a 21 sesiones y -18.47% a 63 sesiones), encontrándose en una fase de corrección de corto plazo.
-*   **Indicadores Técnicos:** 
-    *   RSI (14): 32.40, aproximándose a niveles de sobreventa técnica.
-    *   MACD: -0.245 (señal: -0.234), mostrando presión vendedora a corto plazo.
-    *   Medias Móviles: Cotiza por debajo de su SMA20 (14.36 EUR), SMA50 (15.22 EUR) y SMA200 (14.79 EUR), situándose en un tramo de drawdown del -19.32% respecto a sus referencias recientes.
-*   **Titulares Macroeconómicos Recientes:** El contexto del mercado incluye debates sobre la política monetaria del Banco Central Europeo (BCE), con la atención puesta en las reuniones de tipos e incrementos de reservas mínimas obligatorias a bancos (informes de fechas 16 a 20 de noviembre de 2026 en fuentes como *El Economista* y *Radio Intereconomía*), así como la evolución de las inversiones de los hogares en activos de renta fija a corto plazo.
+* **Flujos de Caja**:
+  * *Ejercicio 2023*: Flujo de Caja Operativo de 658.419.000 EUR; Capex de -90.382.000 EUR; FCF de 568.037.000 EUR.
+  * *Ejercicio 2024*: Flujo de Caja Operativo de 1.941.443.000 EUR; Capex de -151.101.000 EUR; FCF de 1.790.342.000 EUR.
+  * *Ejercicio 2025*: Flujo de Caja Operativo de -598.882.000 EUR; Capex de -167.737.000 EUR; FCF de -766.619.000 EUR. *(Nota: La volatilidad en los flujos de caja operativos y libres es habitual en balances bancarios debido a las variaciones en los activos/pasivos de operación y circulante interbancario, debiendo complementarse con la evolución de solvencia y capital).*
 
-### 5. Datos Faltantes y Limitaciones
-*   No se dispone de datos detallados sobre transacciones de iniciados (*insider transactions*) en la instantánea actual.
-*   La muestra de noticias específicas de la compañía en los titulares recientes es limitada (señalado en las advertencias del sistema), requiriendo prudencia en cuanto a catalizadores corporativos puntuales no recurrentes fuera de los informes periódicos oficiales.
-*   *Nota metodológica:* No se han aplicado reglas de deuda industrial/EBITDA ni múltiplos de PER industrial, adapt
+#### 3. Métricas Financieras y Valoración Actual
+* **Precio de Cotización (a 20 de noviembre de 2026)**: 13,68 EUR.
+* **Capitalización Bursátil**: ~12.294 millones de EUR.
+* **Valuación y Múltiplos**:
+  * *Trailing P/E*: 10,77x.
+  * *Forward P/E*: 9,42x (frente a la mediana sectorial de pares en PER forward de ~9,98x, lo que sitúa la ratio de comparación en 0,94, indicando una valoración ligeramente descontada respecto a sus comparables).
+  * *Price to Book (P/B)*: 1,84x (con un valor contable por acción de 7,455 EUR).
+* **Rentabilidad y Dividendos**:
+  * *Return on Equity (ROE)*: 17,64%, reflejando una excelente eficiencia en la generación de retornos sobre el capital de los accionistas.
+  * *Profit Margins*: 41,13%, muy sólidos.
+  * *Dividend Yield*: 4,53% (dividendo anual por acción de 0,62 EUR, con un *payout ratio* del 48,64%).
+* **Consenso de Analistas**:
+  * Precio objetivo medio (*Target Mean Price*): 16,78 EUR (basado en 22 opiniones de analistas).
+  * *Target Low*: 10,30 EUR | *Target High*: 22,50 EUR.
+  * *Consensus Upside*: +22,68% de potencial alcista desde los niveles actuales.
+
+#### 4. Análisis Técnico y Contexto de Mercado
+* **Indicadores Técnicos**:
+  * Cierre reciente: 13,68 EUR.
+  * RSI (14): 32,39 (en zona de debilidad cercana a la sobreventa, lo que sugiere presión vendedora a corto plazo).
+  * MACD: -0,245 (señal: -0,234), mostrando un sesgo bajista temporal.
+  * Medias Móviles: SMA 20 en 14,36 EUR, SMA 50 en 15,22 EUR y SMA 200 en 14,79 EUR. La cotización se encuentra por debajo de sus principales medias móviles, experimentando un retroceso de corto plazo (*drawdown* del -19,32 desde máximos recientes).
+* **Entorno Macroeconómico Reciente (Titulares de la semana)**:
+  * El BCE mantiene la atención sobre la política monetaria y los tipos de interés de cara a su próxima reunión del 17 de diciembre de 2026, con debates abiertos sobre las reservas mínimas obligatorias (*El Economista*, 19 de noviembre de 2026).
+  * La agenda financiera en España viene marcada por la evolución del IPC y los datos macroeconómicos de finales de año (*El Boletín*, 22 de noviembre de 2026).
+
+#### 5. Información Faltante y Limitaciones
+* No se dispone de datos detallados sobre transacciones internas (*insider transactions*) en la instantánea analizada.
+* La muestra de noticias específicas de la compañía en los últimos siete días es reducida, por lo que el análisis de sentimiento descansa fundamentalmente en los indicadores cuantitativos, técnicos y el contexto macroeconómico general del sector bancario europeo.
+
+#### 6. Conclusión y Recomendación para Traders
+Bankinter (`BKT.MC`) muestra unos fundamentales sólidos con un ROE elevado (17,64%), un margen de beneficio superior al 41% y

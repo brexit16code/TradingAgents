@@ -2,46 +2,54 @@
 
 ### Informe de Análisis y Estado Actual para ACS.MC
 
-**Identificación de la Empresa y Contexto de Mercado**
-* **Ticker:** `ACS.MC` (Actividades de Construcción y Servicios, S.A., listada en la Bolsa de Madrid / MCE, cotizando en EUR bajo el índice de referencia `^IBEX`).
-* **Sectores y Negocio:** Industriales / Ingeniería y Construcción.
-* **Precio de Cierre Actual (al 2026-11-20):** 82.80 EUR.
-* **Rendimiento Reciente:** Descenso semanal del -4.50%, caída mensual (21 sesiones) del -4.77%, y retroceso trimestral (63 sesiones) del -20.61%, acumulando un *drawdown* del -40.15% desde máximos recientes, con un RSI(14) de 33.74 (acercándose a niveles de sobreventa técnica).
+Basado en la evidencia precargada correspondiente al cierre técnico del 20 de noviembre de 2026 y los datos fundamentales e informativos recientes, se presenta un análisis detallado del contexto macroeconómico y operativo para **ACS.MC** (Actividades de Construcción y Servicios, S.A., cotizada en BME/Madrid en EUR).
 
 ---
 
-### Análisis Fundamental y Financiero
-* **Capitalización de Mercado:** ~21.530 millones de EUR.
-* **Valoraciones Clave:** PER histórico (*Trailing PE*) de 17.00x y PER adelantado (*Forward PE*) de 16.44x. Relación Precio/Valor en Libros (*Price to Book*) de 3.82x. EV/EBITDA de 9.92x.
-* **Crecimiento e Ingresos:** Los estados financieros anuales de 2025 muestran unos ingresos totales de 49.850 millones de EUR (frente a los 41.633 millones de 2024), con un EBITDA de 3.388 millones de EUR y un beneficio neto de 950,34 millones de EUR.
-* **Estructura de Deuda y Solvencia:** Deuda total de 14.428 millones de EUR (frente a un efectivo total de 11.918 millones de EUR), lo que resulta en una ratio neta de Deuda/EBITDA de aproximadamente 1.02x, mostrando un perfil de apalancamiento saludable y manejable para el sector industrial.
-* **Flujo de Caja:** Fuerte generación de caja operativa (3.220 millones de EUR) y un flujo de caja libre (*Free Cash Flow*) de 1.300 millones de EUR, respaldando un rendimiento por dividendo (*Dividend Yield*) estimado en torno al 2.80% (con una tasa de dividendo de 2.32 EUR y *payout ratio* de 57.13%).
-* **Consenso de Analistas:** A pesar de la reciente corrección bursátil, el precio objetivo medio de los analistas se sitúa en 128.54 EUR (con un rango entre un mínimo de 99.75 EUR y un máximo de 153.10 EUR, basado en 17 opiniones), lo que implica un potencial alcista de consenso (*consensus upside*) del 55.24%.
+### 1. Situación Técnica y Bursátil
+* **Precio de cierre actual**: 82.80 EUR (al 20 de noviembre de 2026).
+* **Rendimiento reciente**: Acumula una caída del 4.50% en la última sesión y un retroceso del 20.61% en los últimos 63 días (con un *drawdown* del 40.15% desde máximos), situándose bajo presión vendedora junto con otros valores del IBEX 35 (según informes de *Estrategias de Inversión* del 20 de noviembre de 2026).
+* **Indicadores técnicos**:
+  * RSI de 14 períodos en **33.74**, acercándose a niveles de sobreventa.
+  * MACD en **-1.33** y línea de señal en **-0.92**, mostrando debilidad de tendencia bajista a medio plazo.
+  * Medias móviles: SMA20 en 89.61 EUR, SMA50 en 91.06 EUR y SMA200 en 108.48 EUR, reflejando una estructura bajista clara en el corto y largo plazo.
 
----
+### 2. Fundamentos y Valoración Financiera
+* **Capitalización de Mercado**: ~21.530 millones de EUR.
+* **Múltiplos de Valoración**: 
+  * PER Histórico (*Trailing P/E*): **17.00x**.
+  * PER Estimado (*Forward P/E*): **16.44x**.
+  * Ratio Precio/Valor en Libros (*Price-to-Book*): **3.82x**.
+  * EV/EBITDA: **9.92x**.
+* **Crecimiento y Rentabilidad**:
+  * Ingresos totales (cierre fiscal 2025): **49.850 millones de EUR** (frente a 41.630 millones en 2024).
+  * Beneficio neto (2025): **950,34 millones de EUR** (frente a 827,58 millones en 2024).
+  * Margen de Beneficio Neto: **1.99%** y ROE: **25.01%**.
+  * Flujo de Caja Libre (*Free Cash Flow* 2025): **2.303 millones de EUR**.
+* **Dividendos y Consenso**:
+  * Rentabilidad por dividendo (*Dividend Yield*): **2.81%** (Dividendo por acción estimado de 2.32 EUR, con opiniones de analistas que sugieren retornos atractivos o potenciales de dividendo elevados según prensa especializada de noviembre de 2026).
+  * Precio objetivo medio de consenso de analistas: **128.54 EUR** (con un rango entre 99.75 EUR y 153.10 EUR), lo que implica un potencial alcista teórico (*consensus upside*) del **55.24%** con 17 opiniones de analistas.
 
-### Análisis de Noticias Recientes y Sentimiento de Mercado (Noviembre 2026)
-* **Presión Bajista y Titulares Bursátiles:** El valor se ha visto presionado a la baja a mediados de noviembre de 2026, arrastrado junto a otros valores industriales y acereros en las sesiones del IBEX 35 (mencionándose en crónicas de *Estrategias de Inversión* y *Yahoo* del 20 de noviembre de 2026).
-* **Perspectivas de Analistas e Impulso de la IA:** Informes recientes de entidades como *Bank of America* (con un precio objetivo elevado hasta los 136 EUR y un potencial estimado del 50%) y menciones en *OkDiario* (15 de noviembre de 2026) y *Artículo 14* destacan que `ACS.MC` seduce al mercado gracias al crecimiento de su beneficio (+35%) y las oportunidades de expansión ligadas a infraestructuras de centros de datos e inteligencia artificial, además de proyecciones de retornos atractivos vía dividendo.
-* **Contexto Macroeconómico Europeo:** Las noticias macroeconómicas de la semana del 16 al 20 de noviembre de 2026 recogen la atención sobre los próximos movimientos del Banco Central Europeo (BCE), con reuniones previstas para diciembre de 2026 y debates sobre requisitos de reservas mínimas y tipos de interés, lo que influye en la volatilidad de los activos cotizados en euros y la renta variable española.
+### 3. Contexto Macroecónomico y Noticias Recientes
+* **Agenda Macro y Geopolítica**: La semana del 22 de noviembre de 2026 en España y Europa está marcada por la publicación del IPC, las expectativas en torno a las decisiones de tipos de interés del Banco Central Europeo (BCE), así como la evolución de las letras del tesoro e inversiones de los hogares (que acumulan varios meses al alza según datos de noviembre de 2026).
+* **Catalizadores Sectoriales para ACS.MC**:
+  * Informes recientes de prensa económica (*La Vanguardia*, 21 de noviembre de 2026) destacan que **los centros de datos continúan llenando la cartera de pedidos de ACS**, posicionando a la compañía en un segmento tecnológico con alta demanda estructural.
+  * Pese al atractivo fundamental y las recomendaciones favorables (como las de Bankinter o notas de analistas recogidas en noviembre de 2026), el valor ha sufrido presiones vendedoras arrastrado por dinámicas generales del selectivo español (IBEX 35 intentando sostener soportes clave).
 
----
-
-### Datos Faltantes y Advertencias
-* **Datos Faltantes:** No se dispone en el conjunto de datos predefinidos de probabilidades en mercados de predicción en tiempo real (*prediction markets*) específicos para la evolución regulatoria de infraestructuras en España para finales de 2026, ni desgloses detallados de contratos específicos de centros de datos por división geográfica más allá de las cifras contables anuales consolidadas a cierre de 2025.
-* **Supuestos de Valoración:** Las estimaciones de PER adelantado y precios objetivos se basan en medias de consenso de analistas y no deben interpretarse como un valor intrínseco garantizado.
+### 4. Datos Faltantes y Limitaciones
+* No se dispone de detalles granulares actualizados sobre los estados financieros intermedios del Q3 de 2026 en tiempo real más allá de los cierres fiscales anuales consolidados hasta 2025 y las métricas forward provistas. Los precios objetivos son estimaciones de consenso de analistas y no constituyen una valoración intrínseca cerrada.
 
 ---
 
 ### Resumen de Puntos Clave
 
-| Categoría | Métrica / Indicador | Valor Actual / Observación | Implicación para el Trading |
+| Categoría | Métrica / Indicador | Valor / Detalle Actual | Implicación para el Trading |
 | :--- | :--- | :--- | :--- |
-| **Precio y Técnica** | Precio de Cierre (`ACS.MC`) | 82.80 EUR (2026-11-20) | Corrección de corto plazo (-4.5% diario, -20.6% trimestral). RSI en 33.74 (cercano a sobreventa). |
-| **Valoración** | Forward PE / EV to EBITDA | 16.44x / 9.92x | Valoración razonable frente al sector de ingeniería y construcción industrial. |
-| **Fundamentales** | Crecimiento de Ingresos y Net Income | Ingresos 2025: 49.850 M€ / Beneficio Neto: 950 M€ | Sólido crecimiento interanual de los ingresos y expansión del margen operativo. |
-| **Solvencia** | Deuda Neta / EBITDA | 1.02x | Estructura de balance conservadora con un apalancamiento inferior a 1.1x. |
-| **Retorno al Accionista** | Dividend Yield / FCF | 2.80% (Div. Rate: 2.32 EUR) / FCF: ~1.300 M€ | Atractivo flujo de caja libre que respalda la política de retribución al accionista. |
-| **Sentimiento / Objetivo**| Consenso de Analistas y Potencial | Precio objetivo medio: 128.54 EUR (+55.2% potencial) | Fuerte optimismo institucional a doce meses, a pesar del castigo bursátil reciente. |
+| **Precio y Tendencia** | Cierre (20/11/2026) | 82.80 EUR | Corrección reciente (-4.5% diario, -20.6% trimestral). |
+| **Indicadores Técnicos** | RSI (14) / MACD | 33.74 / -1.33 | Entorno bajista de corto plazo, aproximándose a zonas de sobreventa. |
+| **Valoración** | Forward P/E / EV/EBITDA | 16.45x / 9.92x | Valoración intermedia en línea con pares del sector industrial. |
+| **Solvencia / Flujo** | Free Cash Flow (2025) | 2.303 millones de EUR | Sólida generación de caja operativa y libre. |
+| **Consenso de Mercado** | Target Mean Price | 128.54 EUR (Upside: ~55%) | Potencial teórico elevado según el consenso de analistas. |
+| **Catalizador Clave** | Cartera de Negocio | Expansión en centros de datos | Impulso estructural en nichos de alta demanda tecnológica. |
 
 FINAL TRANSACTION PROPOSAL: REVIEW

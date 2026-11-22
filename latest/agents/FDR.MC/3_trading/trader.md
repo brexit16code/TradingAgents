@@ -1,11 +1,11 @@
-**Action**: Hold
+**Action**: Buy
 
-**Reasoning**: A pesar de que el valor intrínseco teórico parece atractivo con un Forward PE de 11,53x, la estructura técnica es bajista, con el precio cotizando por debajo de las medias móviles de 50 y 200 días. Existe un riesgo significativo derivado de un ratio de endeudamiento elevado (2,95x Net Debt/EBITDA) en un entorno de posibles tensiones monetarias por parte del BCE. Se requiere una confirmación de suelo técnico o la superación de la SMA200 antes de asignar nuevo capital.
+**Reasoning**: A pesar de la tendencia técnica bajista actual, el valor presenta un Forward PE muy atractivo de 11,53x, significativamente inferior al histórico, y un potencial alcista de consenso superior al 43%. La estrategia de entrada escalonada aprovecha la debilidad actual cerca de niveles clave, permitiendo capturar valor intrínseco antes de una probable reversión a la media mientras se gestiona el riesgo de volatilidad.
 
-**Entry Price**: 19.35
+**Entry Price**: 17.75
 
-**Stop Loss**: 17.15
+**Stop Loss**: 17.0
 
-**Position Sizing**: Mantener posición actual, no exceder 2% de exposición total en nuevas entradas.
+**Position Sizing**: 5% del portafolio (ejecución inicial del 50% de la posición)
 
-FINAL TRANSACTION PROPOSAL: **HOLD**
+FINAL TRANSACTION PROPOSAL: **BUY**

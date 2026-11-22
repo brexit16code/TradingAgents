@@ -1,71 +1,47 @@
 **Rating**: HOLD
 
-**Informe de Análisis y Coyuntura Macroeconómica para Banco Sabadell (`SAB.MC`)**
+### Informe de Análisis y Macroeconomía para Banco Sabadell (`SAB.MC`)
 
-### 1. Resumen Ejecutivo e Identidad del Instrumento
-* **Instrumento analizado**: `SAB.MC` (Banco de Sabadell, S.A.), cotizado en la Bolsa de Madrid (MCE) en EUR y vinculado al índice de referencia `^IBEX`.
-* **Clasificación sectorial**: Servicios Financieros / Bancos Diversificados.
-* **Precio de cierre actual (al 20-11-2026)**: 3.546 EUR, registrando una caída del -2.34% en la sesión reciente.
-* **Valoración general**: Se emite una recomendación de **HOLD** a la espera de mayor claridad en la consolidación técnica y el impacto de los próximos eventos corporativos (como el dividendo de diciembre que da carpetazo a la fallida OPA de BBVA).
+#### 1. Resumen Ejecutivo y Entorno Macroeconómico
+El análisis se centra en **Banco de Sabadell, S.A. (`SAB.MC`)**, entidad cotizada en la Bolsa de Madrid (MCE) dentro del sector de Servicios Financieros (Bancos Diversificados) y referenciada al índice selectivo español `^IBEX`. 
 
----
+A fecha de 22 de noviembre de 2026, el entorno macroeconómico europeo y español se encuentra marcado por citas clave en la agenda financiera: la evolución del IPC y los acontecimientos políticos y generales en España, así como las expectativas sobre las decisiones de política monetaria del Banco Central Europeo (BCE). Destaca especialmente la noticia publicada el 19 de noviembre de 2026 por *El Economista* acerca de cómo el BCE prepara una subida de tipos encubierta mediante el incremento de las reservas mínimas obligatorias a los bancos, con vistas a la próxima reunión de tipos fijada para el 17 de diciembre de 2026 (*Rankia*, 18 de noviembre de 2026). Adicionalmente, el sector financiero europeo y español asiste a la oficialización del apoyo a José Luis Hernández de Cos como candidato a economista jefe del BCE (*Radio Intereconomía*, 18 de noviembre de 2026), y a un contexto de inversión de los hogares en letras del tesoro que supera los 23.000 millones de euros (*Radio Intereconomía*, 16 de noviembre de 2026).
 
-### 2. Análisis Fundamental y Valoración
-* **Métricas de Valoración**: 
-  * Capitalización de mercado: ~16.598 millones de EUR.
-  * PER histórico (*trailing P/E*): 14.18x con un BPA de 0.25 EUR.
-  * PER Adelantado (*forward P/E*): 10.63x (BPA estimado a futuro de 0.33 EUR).
-  * Relación con pares (*peer median forward PE*): 9.98x, lo que sitúa a `SAB.MC` con un ratio de PER relativo intermedio de 1.06x frente a sus comparables en el mercado español (`SAN.MC`, `BBVA.MC`, `CABK.MC`, etc.).
-  * Precio sobre Valor en Libros (*Price to Book*): 1.39x, con un valor contable por acción de 2.56 EUR.
-* **Dividendos**: Ofrece una rentabilidad por dividendo (*dividend yield*) de aproximadamente el 1.97% (con un dividendo anual de 0.07 EUR por acción y un *payout ratio* del 28.51%).
-* **Fundamentos Financieros**: 
-  * Ingresos totales en el ejercicio 2025: 4.882 millones de EUR (frente a los 5.141 millones de 2024).
-  * Beneficio neto en 2025: 1.775 millones de EUR (margen de beneficio neto del 41.57%).
-  * Solidez patrimonial: Activos totales de 245.392 millones de EUR y un patrimonio neto (*Stockholders Equity*) de 14.047 millones de EUR. La deuda total consolidada se sitúa en 22.534 millones de EUR (nota: no se aplican reglas industriales de deuda/EBITDA a entidades bancarias).
+#### 2. Análisis Técnico de `SAB.MC`
+- **Precio de cierre (20 de noviembre de 2026):** 3,546 EUR (retroceso del -2,34% en la sesión).
+- **Rango y medias móviles:** El valor cotiza ligeramente por debajo de su media móvil de 20 sesiones (SMA20: 3,616 EUR) y de 50 sesiones (SMA50: 3,610 EUR), aunque se mantiene de forma sólida por encima de su media de 200 sesiones (SMA200: 3,172 EUR).
+- **Indicadores de impulso:** El RSI de 14 períodos se sitúa en 43,25 (zona neutral, con ligera inclinación bajista a corto plazo). El MACD se sitúa en 0,0243, ligeramente por debajo de su línea de señal (0,0299), reflejando una moderación del impulso comprador y una fase de consolidación cerca del soporte de 3,64 EUR comentado por analistas técnicos (*Traders Union*, 18 de noviembre de 2026).
+- **Volatilidad y rentabilidad:** La volatilidad anualizada a corto plazo es del 24,13% y la rentabilidad acumulada a 252 sesiones alcanza un +35,99%.
 
----
+#### 3. Fundamentos y Valoración
+- **Capitalización de Mercado:** ~16.598 millones de EUR.
+- **Múltiplos de Valoración:** 
+  - PER histórico (Trailing P/E): 14,18x.
+  - PER estimado (Forward P/E): 10,63x, lo que sitúa su ratio frente a la mediana de peers comparables en la bolsa española (`SAN.MC`, `BKT.MC`, `BBVA.MC`, `CABK.MC`, `UNI.MC`) en torno a 1,06x (PER relativo intermedio).
+  - Price-to-Book (P/B): 1,39x (con un valor contable por acción de 2,559 EUR).
+- **Dividendos:** Ofrece una rentabilidad por dividendo (*dividend yield*) del 1,97% (dividendo anual de 0,07 EUR, con un *payout ratio* del 28,51%).
+- **Consenso de Analistas:** El precio objetivo medio de consenso (*target mean price*) se sitúa en 3,703 EUR, con un rango que va desde un mínimo de 2,3 EUR hasta un máximo de 4,5 EUR (sobre una base de 20 opiniones de analistas). Esto arroja un potencial alcista de consenso (*consensus upside*) del +4,43% desde los niveles actuales de 3,546 EUR.
 
-### 3. Análisis Técnico y Dinámica de Mercado
-* **Medias Móviles**: 
-  * SMA de 20 sesiones: 3.616 EUR.
-  * SMA de 50 sesiones: 3.610 EUR.
-  * SMA de 200 sesiones: 3.172 EUR (el precio actual de 3.546 EUR se mantiene holgadamente por encima de la tendencia de largo plazo).
-* **Indicadores de Momento**:
-  * RSI (14): 43.25 (zona neutral, ligeramente sesgada a la baja).
-  * MACD: 0.0243 frente a su línea de señal en 0.0299, indicando una fase de compresión o consolidación a corto plazo.
-* **Volatilidad y Retornos**: 
-  * Volatilidad anualizada: 24.13%.
-  * Drawdown actual: -5.87% desde sus máximos recientes.
-  * Retornos: Rentabilidad a 21 sesiones del +3.84%, a 63 sesiones del -3.95% (superando ligeramente al índice de referencia con un *relative63_pp* de +1.95 pp) y a 252 sesiones del +35.99%.
-* **Consenso de Analistas**: El precio objetivo medio (*target mean price*) se sitúa en 3.703 EUR, con un rango entre 2.30 EUR (mínimo) y 4.50 EUR (máximo) basado en la opinión de 20 analistas. Esto otorga un potencial alcista de consenso (*consensus upside*) del 4.43%.
+#### 4. Evidencia y Fuentes de Datos
+- **Fechas y Precios:** Datos extraídos de la instantánea de mercado de Yahoo Finance con fecha 22 de noviembre de 2026 (sesión de referencia 2026-11-20).
+- **Noticias Corporativas y de Mercado:** 
+  - *Investing.com España* (2026-11-20): Foro de Banco Sabadell.
+  - *Bolsamania* (2026-11-20): Cotización de Banco Sabadell.
+  - *Traders Union* (2026-11-18 & 2026-11-17): Consolidación de las acciones de Banco Sabadell cerca de soportes.
+  - *El Economista* (2026-11-19): Subida de tipos indirecta del BCE vía reservas mínimas.
+  - *Rankia* (2026-11-18): Próxima reunión del BCE el 17 de diciembre de 2026.
+- **Datos faltantes:** No se dispone en esta instantánea de estimaciones detalladas de flujo de caja libre operativo proyectado a futuro más allá de los estados históricos cerrados a 2025 (ingresos totales de 4.882,89 millones de EUR y beneficio neto de 1.775,41 millones de EUR).
 
 ---
 
-### 4. Contexto Macroeconómico y Noticias Recientes
-* **Entorno Bancario y Monetario en la Eurozona**: 
-  * Las noticias de la semana apuntan a un debate activo sobre los movimientos del Banco Central Europeo (BCE), destacando preparativos para ajustes encubiertos a través del incremento de las reservas mínimas obligatorias a los bancos de la eurozona, así como expectativas de reuniones clave de tipos de interés de cara a diciembre de 2026.
-  * A nivel nacional, el ahorro de los hogares en letras del Tesoro acumula siete meses al alza (superando los 23.000 millones de euros), compitiendo por la captación de pasivo minorista en el sistema financiero español.
-* **Catalizadores Específicos de `SAB.MC`**:
-  * Los titulares recientes destacan que Banco Sabadell se dispone a dar carpetazo definitivo a la fallida OPA de BBVA mediante el abono del dividendo previsto para el mes de diciembre.
-  * Técnicamente, la acción se encuentra consolidando en las proximidades del soporte de 3.60 EUR, con fuerzas compradoras y vendedoras equilibradas en el corto plazo.
-
----
-
-### 5. Datos Faltantes y Limitaciones
-* No se dispone de estimaciones detalladas de EBITDA ni flujos de caja operativos para el sector bancario debido a la naturaleza específica de sus estados financieros (intermediación financiera).
-* Las cifras de valoración se basan en los datos cerrados más recientes facilitados por la infraestructura del mercado y el consenso de analistas vigente al 20 de noviembre de 2026.
-
----
-
-### Tabla Resumen de Puntos Clave
-
-| Categoría | Métrica / Indicador | Valor / Detalle Actual (`SAB.MC`) | Implicación para el Inversor |
-| :--- | :--- | :--- | :--- |
-| **Valoración** | Precio de Cierre | 3.546 EUR (20-11-2026) | Corrección del -2.34% en la última sesión. |
-| **Valoración** | PER Adelantado (*Forward P/E*) | 10.63x | Alineado de forma intermedia frente a la mediana de sus pares (9.98x). |
-| **Técnico** | RSI (14) & SMA 200 | RSI: 43.25 \| SMA 200: 3.172 EUR | Zona neutral a corto plazo; tendencia estructural alcista intacta a largo plazo. |
-| **Fundamental** | Beneficio Neto (2025) | 1.775 millones de EUR | Sólida generación de beneficios y márgenes netos elevados (41.57%). |
-| **Mercado** | Consenso y Objetivo | 3.703 EUR (Upside: +4.43%) | Potencial moderado a corto plazo según el consenso de 20 analistas. |
-| **Catalizador** | Evento Corporativo | Dividendo de diciembre | Cierre definitivo del ciclo marcado por la tentativa de OPA de BBVA. |
+| Concepto Clave | Valor / Dato | Fuente / Referencia |
+| :--- | :--- | :--- |
+| **Ticker e Instrumento** | `SAB.MC` (Banco de Sabadell, S.A.) | Yahoo Finance / MCE |
+| **Precio de Cierre** | 3,546 EUR (2026-11-20) | Yahoo Finance |
+| **Media Móvil (SMA 200)** | 3,172 EUR | Yahoo Finance |
+| **PER Adelantado (Forward P/E)** | 10,63x | Yahoo Finance |
+| **Precio Objetivo Medio (Consenso)** | 3,703 EUR (+4,43% de potencial) | 20 analistas (Yahoo Finance) |
+| **Próxima Reunión Clave BCE** | 17 de diciembre de 2026 | Rankia (2026-11-18) |
+| **Noticia Macroeconómica Relevante** | Incremento de reservas mínimas obligatorias del BCE | El Economista (2026-11-19) |
 
 FINAL TRANSACTION PROPOSAL: HOLD

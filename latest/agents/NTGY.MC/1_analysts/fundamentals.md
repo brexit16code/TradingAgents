@@ -1,80 +1,32 @@
-**Reporte Fundamental e Integral de Naturgy Energy Group, S.A. (`NTGY.MC`)**
+Este informe analiza la situación fundamental de **Naturgy Energy Group, S.A. (`NTGY.MC`)** basándose en los datos financieros y de mercado actualizados al 22 de noviembre de 2026.
 
-### 1. Perfil de la Compañía y Negocio
-Naturgy Energy Group, S.A. (`NTGY.MC`) es una empresa cotizada en la Bolsa de Madrid (MCE) e integrada en el selectivo español ^IBEX. Su clasificación sectorial principal corresponde a **Utilities / Utilities - Regulated Gas**. 
+### Perfil y Visión General
+Naturgy, clasificada dentro del sector de **Utilities (Gas regulado)**, opera en un entorno de mercado marcado por una sólida capitalización bursátil de aproximadamente **27.810 millones de EUR**. La compañía muestra un comportamiento técnico estable, cotizando a 30,02 EUR, con un alza del 21% en los últimos 252 días, situándose por encima de sus medias móviles de 20, 50 y 200 días, lo que sugiere una tendencia alcista estructural a largo plazo.
 
-La compañía opera de manera integrada en los mercados de gas y electricidad, abarcando actividades reguladas de distribución y transporte de gas natural, así como la generación, comercialización de energía eléctrica y gas, con una fuerte presencia en España y Latinoamérica.
+### Análisis Financiero
+*   **Resultados Operativos:** Los ingresos se han mantenido relativamente estables en los últimos tres años, cerrando 2025 con 19.455 millones de EUR. El EBITDA ha mostrado una mejora constante, pasando de 5.192 millones (2023) a 5.543 millones (2025), lo que demuestra una gestión operativa eficiente a pesar de los desafíos del sector.
+*   **Solidez del Balance:** La empresa presenta una relación deuda neta/EBITDA de **2,42x**, un nivel razonable para un actor del sector de servicios públicos. El patrimonio neto se sitúa en 9.342 millones de EUR, con una carga de deuda total de 16.747 millones de EUR a finales de 2025.
+*   **Valoración:** Con un **PER (Trailing PE) de 13,90x** y un ratio precio/valor contable de **3,31x**, la valoración se sitúa por debajo de la mediana de sus pares (16,83x), lo que podría indicar un descuento relativo. La rentabilidad por dividendo (**7,89%**) es notable y representa uno de los mayores atractivos para el inversor, aunque su ratio de pago (*payout ratio*) del **75,92%** requiere vigilancia para asegurar la sostenibilidad a largo plazo.
 
----
+### Contexto y Riesgos Recientes
+La compañía enfrenta riesgos legales recientes. Según reportes de *Bolsamania* y *Radio Intereconomía* (16 de noviembre de 2026), Naturgy ha sido demandada por **Repsol** junto a Iberdrola y Endesa por supuestos daños derivados de un apagón. Aunque no se cuantifica el impacto financiero, este tipo de litigios entre gigantes energéticos añade incertidumbre jurídica y reputacional. Asimismo, el entorno macroeconómico español (elecciones generales e IPC) y la agenda del BCE respecto a tipos de interés (reunión del 17 de diciembre) influyen directamente en la volatilidad de las *utilities* cotizadas.
 
-### 2. Análisis Financiero Reciente y Estados Financieros
+### Información Faltante
+*   No se dispone de datos de *Cash Flow* operativo o libre desglosado para el año en curso (2026), lo que limita la capacidad de proyectar la capacidad de generación de caja actual.
+*   No hay información pública reciente sobre transacciones de *insiders* que pudiera sugerir confianza o desinversión de la directiva.
 
-A partir de los datos financieros consolidados y las métricas fundamentales recopiladas al cierre de noviembre de 2026, se observa la evolución de los principales estados contables (cifras en EUR):
+### Conclusión para Traders
+Naturgy presenta fundamentales sólidos con una valoración atractiva respecto a sus competidores y una rentabilidad por dividendo muy competitiva. La tendencia técnica es favorable, pero la reciente demanda judicial y la incertidumbre de los tipos de interés en la Eurozona sugieren prudencia. Se recomienda observar la evolución del litigio mencionado.
 
-#### A. Cuenta de Resultados (Income Statement)
-* **Ingresos Totales (Total Revenue):** 
-  * 2025: 19.455.000.000 € ($19.45B$)
-  * 2024: 19.267.000.000 € ($19.27B$)
-  * 2023: 22.617.000.000 € ($22.62B$)
-* **EBITDA:** 
-  * 2025: 5.543.000.000 €
-  * 2024: 5.471.000.000 €
-  * 2023: 5.192.000.000 €
-* **Beneficio Neto (Net Income):** 
-  * 2025: 2.023.000.000 €
-  * 2024: 1.901.000.000 €
-  * 2023: 1.986.000.000 €
+**Rating**: HOLD
 
-*Análisis:* La compañía muestra una sólida estabilidad en su cifra de ingresos tras la normalización post-crisis energética de 2023, consolidando un beneficio neto superior a los 2.000 millones de euros al cierre de 2025 y márgenes de beneficio robustos (márgenes netos reportados en torno al 10.44%).
+| Indicador | Valor / Dato |
+| :--- | :--- |
+| Precio Actual | 30,02 EUR |
+| Capitalización de Mercado | 27.810 M EUR |
+| Rentabilidad por Dividendo | 7,89% |
+| PER (Trailing) | 13,90x |
+| Deuda Neta / EBITDA | 2,42x |
+| Upside Consenso | 4,37% |
 
-#### B. Balance de Situación (Balance Sheet)
-* **Activos Totales:** 39.101.000.000 € (2025) / 40.836.000.000 € (2024)
-* **Deuda Total (Total Debt):** 16.747.000.000 € (2025) / 17.978.000.000 € (2024)
-* **Patrimonio Neto (Stockholders Equity):** 9.342.000.000 € (2025) / 9.478.000.000 € (2024)
-
-*Análisis:* La estructura de deuda se mantiene bajo control, registrando un ratio de Deuda Neta / EBITDA de aproximadamente **2,42x**, nivel prudente y manejable para el sector de utilities reguladas.
-
-#### C. Flujo de Caja (Cash Flow)
-* **Flujo de Caja Operativo (Operating Cash Flow):** 4.525.000.000 € (2025) / 3.992.000.000 € (2024)
-* **Gastos de Capital (Capital Expenditure):** -2.149.000.000 € (2025) / -2.197.000.000 € (2024)
-* **Flujo de Caja Libre (Free Cash Flow):** 2.376.000.000 € (2025) / 1.795.000.000 € (2024)
-
----
-
-### 3. Métricas de Valoración y Mercado (`NTGY.MC`)
-
-* **Precio de Cierre (2026-11-20):** 30,02 €
-* **Capitalización de Mercado:** ~27.810 millones de EUR
-* **PER (Trailing P/E):** 13,89x
-* **PER Forward (Forward P/E):** 13,89x
-* **Precio / Valor en Libros (Price to Book):** 3,31x
-* **EV / EBITDA:** 8,24x
-* **Rentabilidad por Dividendo (Dividend Yield):** 7,89% (con un dividendo anual de 2,37 € por acción y un *payout ratio* de 75,92%)
-* **Consenso de Analistas (Target Mean Price):** 31,33 € (con un rango entre 24,30 € y 35,50 €, respaldado por 18 opiniones de analistas, lo que arroja un potencial alcista de consenso del **4,37%**).
-* **Ratio de Valoración Sectorial (PER relativo intermedio):** Cotiza con un ratio de 0,83 respecto a la mediana del PER *forward* de sus pares en el sector (`ANE.MC`, `ENG.MC`, `ELE.MC`, `IBE.MC`, `NTGY.MC`, `RED.MC`, `SLR.MC`), cuya mediana se sitúa en 16,83x, sugiriendo un descuento relativo moderado frente al sector.
-
----
-
-### 4. Aspectos Técnicos y Noticias Recientes
-
-* **Indicadores Técnicos:** 
-  * Cierre actual por encima de sus medias móviles clave (SMA20: 29,83 €, SMA50: 29,44 €, SMA200: 27,33%), lo que denota una tendencia alcista estructural a medio y largo plazo.
-  * RSI (14) en 52,37 (neutral). 
-  * Volatilidad anualizada del 15,95% y un retroceso (*drawdown*) de -3,22% desde máximos recientes.
-* **Noticias y Eventos de la Semana (Noviembre de 2026):**
-  * Se ha reportado en medios financieros (*Bolsamania*, *Radio Intereconomía*) que Repsol ha interpuesto demandas contra las principales energéticas del país —incluyendo a Iberdrola, Naturgy y Endesa, así como a Red Eléctrica— reclamando daños asociados a incidencias y apagones recientes. Este frente judicial introduce un elemento de riesgo regulatorio/legal a vigilar, aunque sin impacto financiero inmediato cuantificado de forma oficial en los estados contables básicos.
-  * Por otra parte, la compañía mantiene su agenda corporativa ordinaria y compromisos fiscales y sociales (como la financiación de proyectos sociales mediante el Impuesto sobre Sociedades reportado por *Bolsa Digital* el 17-11-2026).
-
----
-
-### 5. Datos Faltantes y Limitaciones
-* No se dispone de detalles granulares sobre el desglose de pasivos corrientes y no corrientes exactos fuera de la deuda total consolidada provista en los estados.
-* Faltan datos desagregados de transacciones de inversores internos (*insider transactions*) en la instantánea analizada.
-
----
-
-### 6. Resumen en Tabla Organizada
-
-| Concepto Clave | Valor / Dato | Observaciones / Referencia |
-| :--- | :--- | :--- |
-| **Ticker / Mercado** |
+FINAL TRANSACTION PROPOSAL: No transaction; maintain current position pending legal developments.

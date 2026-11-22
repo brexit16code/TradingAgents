@@ -1,59 +1,55 @@
 **Rating**: REVIEW
 
-**ANÁLISIS FUNDAMENTAL Y TÉCNICO - BANCO DE SABADELL, S.A. (`SAB.MC`)**
+### Informe Fundamental de Banco de Sabadell, S.A. (`SAB.MC`)
 
-### 1. Perfil de la Compañía y Resumen General
-Banco de Sabadell, S.A. (`SAB.MC`) es una entidad financiera española englobada dentro del sector de Servicios Financieros (*Financial Services / Banks - Diversified*) y cotiza en la Bolsa de Madrid (MCE) en Euros (EUR). Con una capitalización bursátil aproximada de 16.598 millones de euros, el banco se encuentra en una fase de consolidación de su cotización tras los acontecimientos recientes relacionados con la OPA de BBVA, apuntando al dividendo de diciembre como cierre de ciclo corporativo relevante (según fuentes de prensa de noviembre de 2026).
+#### 1. Perfil de la Empresa y Datos Generales
+* **Identidad y Clasificación**: Banco de Sabadell, S.A. (`SAB.MC`) opera dentro del sector de Servicios Financieros (*Financial Services*) como un banco diversificado (*Banks - Diversified*), cotizando en la Bolsa de Madrid (MCE) en Euros (EUR).
+* **Capitalización de Mercado**: 16.598.039.552,00 EUR (aproximadamente 16.600 millones de EUR).
+* **Acción y Datos Técnicos**: 
+  * Precio de cierre reciente (a 20 de noviembre de 2026): **3,546 EUR**.
+  * Rango de medias móviles: SMA20 en 3,616 EUR, SMA50 en 3,610 EUR, SMA200 en 3,172 EUR.
+  * RSI (14): 43,25 (zona neutral, con ligera tendencia a la baja a corto plazo).
+  * Volatilidad anualizada: 24,13%.
+  * Descenso desde máximos (*drawdown*): -5,87%.
 
-### 2. Análisis Financiero e Historial de Resultados
-Tomando como base los estados financieros y métricas fundamentales facilitados a fecha de noviembre de 2026:
-- **Cuenta de Resultados (Ingresos y Beneficios Netos):**
-  - **Ejercicio 2025:** Total de Ingresos de 4.882.892.000 EUR y un Beneficio Neto de 1.775.411.000 EUR.
-  - **Ejercicio 2024:** Total de Ingresos de 5.141.263.000 EUR y un Beneficio Neto de 1.826.805.000 EUR.
-  - **Ejercicio 2023:** Total de Ingresos de 6.282.439.000 EUR y un Beneficio Neto de 1.332.181.000 EUR.
-  *Evidencia de contracción:* Se observa un descenso en los ingresos totales entre 2023, 2024 y 2025 (ingresos bajando de ~6.28B€ a ~4.88B€), reflejado también en una tasa interanual de crecimiento de ingresos (*revenueGrowth*) de -15.1%. No obstante, los márgenes de beneficio se mantienen sólidos (*profitMargins* de 41.57%).
-- **Balance y Solvencia:**
-  - **Activos Totales (2025):** 245.392.394.000 EUR (frente a los 239.597.927.000 EUR de 2024).
-  - **Patrimonio Neto (*Stockholders Equity*):** 14.047.096.000 EUR en 2025 y 14.998.139.000 EUR en 2024.
-  - **Deuda Total:** 22.534.811.000 EUR (cierre 2025), mejorando sustancialmente desde los 32.366.982.000 EUR de 2024. *(Nota analítica: no se aplican reglas de deuda industrial/EBITDA a bancos).*
-- **Flujos de Caja:**
-  - Flujo de Caja Operativo reportado en 2025 por valor de 1.677.979.000 EUR, con un Capex de -610.795.000 EUR y un Flujo de Caja Libre (*Free Cash Flow*) positivo de 1.067.184.000 EUR (recuperándose de cifras negativas anteriores debido a la contabilidad de flujos de efectivo bancarios).
+#### 2. Análisis Financiero y Valoración
+* **PER y Múltiplos**: 
+  * PER Histórico/Último (*Trailing P/E*): **14,18x** (basado en un BPA histórico de 0,25 EUR).
+  * PER Previsto (*Forward P/E*): **10,63x** (con un BPA estimado de 0,33 EUR).
+  * Ratio Precio/Valor en Libros (*Price to Book*): **1,39x** (con un valor contable por acción de 2,559 EUR y un patrimonio neto de 14.047 millones de EUR a cierre de 2025).
+  * Mediana del PER adelantado en el sector/pares (`SAB.MC`, `SAN.MC`, `BKT.MC`, `BBVA.MC`, `CABK.MC`, `UNI.MC`): **9,98x**, lo que sitúa a `SAB.MC` en un ratio de valoración relativa de **1,06x** frente a sus comparables (PER relativo intermedio).
+* **Dividendos**:
+  * Rentabilidad por dividendo (*Dividend Yield*): **1,97%** (con un dividendo por acción de 0,07 EUR y un *payout ratio* del 28,51%).
+* **Rentabilidad y Márgenes**:
+  * Rentabilidad sobre recursos propios (*Return on Equity* - ROE): **8,90%**.
+  * Márgenes de beneficio neto (*Profit Margins*): **41,57%**.
+  * Crecimiento de ingresos (*Revenue Growth*): **-15,10%**.
+  * Crecimiento de beneficios (*Earnings Growth*): **+4,40%**.
+* **Consenso de Analistas**:
+  * Precio objetivo medio (*Target Mean Price*): **3,703 EUR** (con un precio bajo de 2,30 EUR y un precio alto de 4,50 EUR).
+  * Número de analistas: 20 opiniones.
+  * Potencial de subida estimado (*Consensus Upside*): **+4,43%** respecto al precio actual.
 
-### 3. Valoración y Métricas de Mercado
-- **Precio actual de cotización:** 3,546 EUR (precio de cierre a 20 de noviembre de 2026).
-- **PER (Trailing P/E):** 14,18x.
-- **PER Adelantado (Forward P/E):** 10,63x (frente a una mediana del sector de pares de ~9,98x, lo que arroja una ratio de PER relativo intermedio de 1,06x).
-- **Precio a Valor en Libros (*Price to Book*):** 1,39x, con un valor contable por acción (*book value*) de 2,559 EUR.
-- **Rentabilidad por Dividendo (*Dividend Yield*):** 1,97% (con un *dividend rate* de 0,07 EUR y un *payout ratio* del 28,51%).
-- **Valoración de Analistas:** El precio objetivo medio de consenso (*targetMeanPrice*) se sitúa en 3,703 EUR, con un rango que oscila entre un mínimo de 2,30 EUR y un máximo de 4,50 EUR (opiniones de 20 analistas), lo que representa un potencial alcista de consenso (*consensus_upside_pct*) aproximado del 4,43%.
+#### 3. Estados Financieros Clave (Últimos Ejercicios)
+* **Cuenta de Resultados (*Income Statement* - Ingresos Totales y Beneficio Neto)**:
+  * **2025**: Ingresos Totales de 4.882.892.000 EUR | Beneficio Neto de 1.775.411.000 EUR.
+  * **2024**: Ingresos Totales de 5.141.263.000 EUR | Beneficio Neto de 1.826.805.000 EUR.
+  * **2023**: Ingresos Totales de 6.282.439.000 EUR | Beneficio Neto de 1.332.181.000 EUR.
+* **Balance de Situación (*Balance Sheet* - Activos, Deuda y Patrimonio Neto)**:
+  * **2025**: Activos Totales: 245.392.394.000 EUR | Deuda Total: 22.534.811.000 EUR | Patrimonio Neto (*Stockholders Equity*): 14.047.096.000 EUR.
+  * **2024**: Activos Totales: 239.597.927.000 EUR | Deuda Total: 32.366.982.000 EUR | Patrimonio Neto: 14.998.139.000 EUR.
+  * **2023**: Activos Totales: 235.172.955.000 EUR | Deuda Total: 30.112.199.000 EUR | Patrimonio Neto: 13.844.993.000 EUR.
+* **Flujos de Caja (*Cash Flow* - Operativo, CAPEX y FCF)**:
+  * **2025**: Flujo de Caja Operativo: 1.677.979.000 EUR | CAPEX: -610.795.000 EUR | FCF: 1.067.184.000 EUR.
+  * **2024**: Flujo de Caja Operativo: -11.063.733.000 EUR | CAPEX: -552.186.000 EUR | FCF: -11.615.919.000 EUR.
+  * **2023**: Flujo de Caja Operativo: -10.523.303.000 EUR | CAPEX: -532.505.000 EUR | FCF: -11.055.808.000 EUR. *(Nota analítica: los flujos operativos reportados para banca suelen reflejar variaciones masivas en activos y pasivos financieros de explotación/interbancarios, por lo que el análisis de solvencia bancaria debe priorizar el balance y los coeficientes de capital sobre el flujo de caja libre estándar).*
 
-### 4. Análisis Técnico
-- **Medias Móviles:** La cotización de `SAB.MC` se encuentra ligeramente por debajo de su media móvil de 20 sesiones (3,616 EUR) y de 50 sesiones (3,610 EUR), pero se mantiene cómodamente por encima de la media de 200 sesiones (3,172 EUR), lo que denota una tendencia alcista de fondo a medio/largo plazo, aunque con consolidación a corto plazo.
-- **Indicadores de Momento:**
-  - RSI (14): 43,25 (zona neutral, con ligera inclinación bajista a corto plazo).
-  - MACD: 0,024 (ligeramente por debajo de su línea de señal en 0,029).
-- **Volatilidad y Drawdown:** Volatilidad anualizada del 24,13% y un descenso desde máximos (*drawdown_pct*) del -5,87%.
+#### 4. Contexto de Mercado y Noticias Recientes (Noviembre de 2026)
+* Las acciones de `SAB.MC` se consolidan en torno a la zona de soporte técnico de 3,64 EUR (cierre actual en 3,546 EUR), experimentando presiones vendedoras a corto plazo pero con un moderado apoyo comprador (*Traders Union*, 17-18 de noviembre de 2026).
+* En el plano macroeconómico y del sector financiero europeo, la agenda está marcada por los movimientos de los tipos del BCE (con expectativas en torno a las reservas mínimas y la reunión del 17 de diciembre), la evolución del IPC y los datos de PIB, así como la fuerte inversión de los hogares en letras en España, que continúa al alza (*El Economista*, *Radio Intereconomía*, noviembre de 2026).
 
-### 5. Datos Faltantes y Limitaciones
-- No se dispone de detalles pormenorizados sobre transacciones recientes de iniciados (*insider transactions*) en la instantánea proporcionada.
-- Las cifras de EBITDA e ingresos operativos tradicionales no aplican de forma estándar al análisis de entidades bancarias diversificadas.
+#### 5. Datos Faltantes
+* No se dispone de datos detallados sobre transacciones recientes de iniciados (*insider transactions*) en la instantánea analizada.
+* Cifras provisionales o intradía correspondientes al cierre exacto posterior al 20 de noviembre de 2026 no están integradas en este reporte estático.
 
-### 6. Conclusión e Insights Accionables
-Banco Sabadell (`SAB.MC`) muestra una valoración equilibrada con un PER adelantado de ~10,6x y un precio sobre valor en libros de 1,39x. El soporte técnico inmediato ronda la zona de los 3,60 EUR, con la media de 200 sesiones actuando como soporte estructural profundo en los 3,17 EUR. A pesar de una leve contracción interanual de los ingresos, el margen de beneficio neto sigue siendo muy elevado (>41%) y la solvencia del balance se ha visto reforzada con una reducción de la deuda total.
-
-Dado que el potencial alcista respecto al consenso de analistas es estrecho (~4,43%) y los indicadores técnicos a corto plazo (RSI y MACD) muestran una fase de consolidación y ligera presión vendedora, se emite una postura de revisión prudente.
-
-FINAL TRANSACTION PROPOSAL: REVIEW
-
----
-
-### Tabla Resumen de Datos Clave (`SAB.MC`)
-
-| Métrica / Concepto | Valor / Dato |
-| :--- | :--- |
-| **Ticker / Instrumento** | `SAB.MC` (Banco Sabadell, S.A.) |
-| **Bolsa / Divisa** | MCE (Madrid) / EUR |
-| **Precio de Cierre (20-11-2026)** | 3,546 EUR |
-| **Capitalización Bursátil** | ~16.598 millones EUR |
-| **PER Trailing / Forward** | 14,18x / 10,63x |
-| **Precio a Valor en Lib
+####

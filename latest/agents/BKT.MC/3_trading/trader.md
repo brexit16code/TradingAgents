@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: Bankinter presenta sólidos fundamentales con un PER adelantado de 9.42x y un ROE del 17.64%, respaldado por el crecimiento constante de sus beneficios netos. Sin embargo, la estructura técnica muestra una fuerte corrección bajista con una caída del -18.47% en los últimos 63 días y un RSI en 32.39 cerca de sobreventa, lo que indica ausencia de un suelo técnico claro. Dado el conflicto entre la atractiva valoración fundamental y la presión vendedora a corto plazo por debajo de las medias móviles, la postura prudente es mantener una recomendación de espera.
+**Reasoning**: Bankinter presenta unos fundamentales excelentes con un ROE del 17.64% y un PER forward atractivo de 9.42x, compensando la presión técnica de corto plazo reflejada en un RSI de 32.4 y una cotización por debajo de sus medias móviles clave. Ante este equilibrio entre la fortaleza fundamental de largo plazo y el castigo correctivo reciente, la estrategia óptima es mantener la posición y monitorizar el soporte crítico de 13.68 EUR.
 
 **Entry Price**: not provided
 
-**Stop Loss**: not provided
+**Stop Loss**: 12.5
 
-**Position Sizing**: Posición neutral estándar
+**Position Sizing**: 5% of portfolio
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

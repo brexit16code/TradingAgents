@@ -1,33 +1,36 @@
-### Informe de Análisis: Acciona, S.A. (ANA.MC)
+**Informe de Análisis: Acciona, S.A. (ANA.MC)**
 
-**Fecha de análisis:** 21 de noviembre de 2026
+**Fecha de reporte:** 22 de noviembre de 2026
+**Instrumento:** ANA.MC (Madrid, EUR)
 
-#### 1. Panorama Macroeconómico y Contexto de Mercado
-El entorno macroeconómico actual, a fecha de 21 de noviembre de 2026, está marcado por una notable volatilidad y una presión alcista sobre los rendimientos de la deuda. La reciente noticia de que el BCE podría incrementar las reservas mínimas obligatorias a los bancos, interpretado como una "subida de tipos por la puerta de atrás" (El Economista, 19/11/2026), subraya un clima de endurecimiento de las condiciones de financiación. Este escenario es particularmente sensible para empresas con altos niveles de apalancamiento como Acciona (ANA.MC).
+### Resumen del Mercado y Entorno Macroeconómico
+El entorno macroeconómico actual, con fecha 22 de noviembre de 2026, se caracteriza por una creciente incertidumbre en la Eurozona. Los titulares recientes (*El Economista*, 19 de nov.) sugieren que el BCE podría endurecer las condiciones de financiación mediante el incremento de reservas mínimas obligatorias, lo que presiona los costes de capital. Además, el mercado sigue atento a la reunión del BCE del 17 de diciembre, que definirá la trayectoria de tipos para 2027 (*Rankia*, 18 de nov.). En España, el contexto político y el IPC son los focos principales de volatilidad para el Ibex 35 (*El Boletín*, 22 de nov.).
 
-#### 2. Análisis de Acciona (ANA.MC)
-Acciona atraviesa un periodo de debilidad técnica y fundamental. Con un cierre de 184,70 EUR (-3,55% en la última sesión), la acción cotiza por debajo de sus medias móviles de 20, 50 y 200 días, lo que sugiere una tendencia bajista consolidada.
+### Análisis de Acciona (ANA.MC)
+Acciona se encuentra en un momento técnico delicado, cotizando a 184,70 EUR, lo que representa un retroceso del 33,62% respecto a su máximo. El RSI14 en 29,73 indica una señal de **sobreventa** técnica, mientras que el MACD se mantiene en territorio negativo (-4,38), sugiriendo una tendencia bajista persistente a corto plazo.
 
-*   **Situación Financiera y Deuda:** La compañía enfrenta desafíos significativos en su balance. La deuda total asciende a ~14,57 mil millones de EUR frente a un EBITDA de ~1,42 mil millones de EUR, resultando en un ratio **Net Debt/EBITDA de 6,14x**. Esta métrica es preocupante en un entorno de tipos de interés restrictivos, lo que ha llevado a analistas (como BNP Paribas, según Yahoo, 17/11/2026) a recortar su valoración.
-*   **Desempeño Operativo:** Aunque los ingresos crecieron un 4% en 2025, el beneficio neto y el flujo de caja libre (-722 millones de EUR en el TTM) reflejan una presión intensa sobre los márgenes (1,64%). La inyección de capital en Mostostal Warszawa (Expansión, 16/11/2026) es un indicativo adicional de que la empresa debe dedicar recursos a apuntalar subsidiarias en un momento de ajuste.
-*   **Sentimiento del Mercado:** Las noticias recientes destacan preocupaciones sectoriales sobre el aumento de deuda en los grupos del Ibex (Expansión, 20/11/2026) y la incertidumbre en torno a Acciona Energía, lo que ha generado una corrección acumulada significativa (-33,6% desde máximos recientes).
+**Factores Fundamentales:**
+*   **Valoración:** La empresa cotiza a un PER forward de 16,41, lo cual es cercano al PER de sus pares (16,45). Aunque parece estar valorada de forma justa en relación con el sector, el crecimiento del BPA se ha contraído significativamente (-84,1%).
+*   **Solidez Financiera:** La empresa enfrenta una carga de deuda neta sobre EBITDA de 6,14x. Esto es particularmente relevante dado que, según *Expansión* (20 de nov.), Acciona figura entre los grupos del Ibex que han elevado su deuda, lo que incrementa el riesgo ante un posible endurecimiento monetario.
+*   **Liquidez y Cash Flow:** El flujo de caja libre (FCF) es negativo (-722,75 M EUR), a pesar de que el flujo de caja operativo es positivo (1,76 B EUR), lo que refleja una alta intensidad de capital (CAPEX) en sus proyectos de ingeniería y energía.
 
-#### 3. Valoración y Expectativas
-*   **Consenso:** El precio objetivo medio se sitúa en 224,86 EUR, lo que implicaría un potencial alcista del 21,7%. Sin embargo, dado el RSI de 29,7, la acción se encuentra en zona de sobreventa técnica, lo que podría atraer compras tácticas, aunque no soluciona el problema de fondo del desapalancamiento necesario.
-*   **Riesgos:** La estructura de capital y el elevado apalancamiento son el principal riesgo ante cualquier endurecimiento adicional de la política monetaria en la Eurozona.
+**Catalizadores y Riesgos:**
+*   **Positivo:** El precio de mercado actual (184,70 EUR) está por debajo de la media del objetivo de los analistas (224,86 EUR), sugiriendo una potencial subida del 21,74% según el consenso actual.
+*   **Negativo:** Las recientes rebajas de valoración por parte de entidades como BNP Paribas (*Yahoo*, 17 de nov.) han añadido presión vendedora. La rentabilidad por dividendo del 3,11% es atractiva, pero el ratio de pago (payout) superior a 1,66 plantea interrogantes sobre la sostenibilidad de la política de dividendos en un entorno de alta deuda.
 
-#### 4. Resumen de Datos Clave
+### Conclusión
+Acciona presenta una divergencia entre su valoración por consenso de mercado (que ve potencial de revalorización) y su realidad fundamental de alta deuda y presión en márgenes (1,64%). La recomendación técnica es de cautela debido a la proximidad a soportes clave y la tendencia bajista señalada por el MACD y las medias móviles (SMA20, 50 y 200).
 
-| Indicador | Valor / Estado | Nota |
+**Missing Data:** No se dispone de detalles pormenorizados sobre la ejecución específica de los proyectos de infraestructura a largo plazo ni el desglose del impacto del reciente aumento de deuda en sus costes de interés variables para 2027.
+
+| Indicador | Valor | Estado |
 | :--- | :--- | :--- |
-| **Precio Actual** | 184,70 EUR | Tendencia bajista (bajo SMA200) |
-| **Net Debt / EBITDA** | 6,14x | Elevado, riesgo de refinanciación |
-| **RSI (14 días)** | 29,7 | Zona de sobreventa |
-| **Consenso Upside** | +21,7% | Basado en 10 opiniones de analistas |
-| **Dividend Yield** | 3,11% | Mantenido, pero con payout > 166% |
-
-**Conclusión:** La situación de ANA.MC es de alta cautela. Mientras que el consenso de analistas sugiere un descuento sobre el valor intrínseco, la realidad operativa (flujo de caja libre negativo) y el apalancamiento exigen una vigilancia estrecha del coste de la deuda y las próximas decisiones del BCE. Se requiere una mejora en la generación de caja operativa para estabilizar el balance.
+| Precio Actual | 184,70 EUR | -3,55% (última sesión) |
+| RSI (14) | 29,73 | Sobreventa |
+| Net Debt / EBITDA | 6,14x | Elevado |
+| PER Forward | 16,41 | Alineado con pares |
+| Consenso Upside | +21,74% | Moderadamente alcista |
 
 **Rating**: REVIEW
 
-FINAL TRANSACTION PROPOSAL: No action recommended until further clarity on debt reduction strategy and stabilization of the SMA200 trend.
+FINAL TRANSACTION PROPOSAL: The instrument is currently in a state of technical oversold conditions but remains fundamentally burdened by a high debt-to-EBITDA ratio and negative free cash flow. Given the macro uncertainty regarding ECB policy and potential financing costs, a "Hold" or "Wait" stance is appropriate until the next ECB meeting clarifies interest rate directions. No trades suggested.

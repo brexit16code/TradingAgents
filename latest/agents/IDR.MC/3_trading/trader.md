@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La acción presenta una divergencia clara entre indicadores técnicos de sobreventa (RSI 27.25) y un contexto de noticias negativas relacionado con investigaciones de anticorrupción. Aunque los fundamentales de crecimiento son sólidos, el deterioro del flujo de caja libre y la ruptura de la media móvil de 200 días aconsejan cautela, ya que el valor carece de una base técnica estabilizada para justificar una entrada en largo.
+**Reasoning**: La acción presenta una fuerte sobreventa técnica (RSI de 27.25) y una valoración fundamental atractiva con un PER forward de 14.98, pero la reciente ruptura bajista de la media móvil de 200 días y la incertidumbre legal generada por la investigación de Anticorrupción justifican una pausa. Se debe esperar a que el precio confirme un soporte sólido cerca de los 45.00 EUR para evitar el riesgo de una mayor presión bajista vinculada a la alta volatilidad del 36.9%. Mantener la posición actual permite protegerse contra el riesgo reputacional sin descartar la oportunidad de valor a largo plazo.
 
-**Entry Price**: not provided
+**Entry Price**: 45.0
 
-**Stop Loss**: 45.0
+**Stop Loss**: 41.5
 
-**Position Sizing**: Mantener exposición reducida (Underweight) o neutral dado el alto riesgo de volatilidad.
+**Position Sizing**: Mantener posición actual, no incrementar exposición hasta estabilización de tendencia.
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

@@ -1,39 +1,37 @@
-Este informe presenta un análisis fundamental de **Indra Sistemas, S.A. (IDR.MC)**, basado en la información financiera y de mercado disponible a fecha de 21 de noviembre de 2026.
+Aquí tiene el informe fundamental detallado sobre Indra Sistemas, S.A. (**IDR.MC**), basado en los datos proporcionados con fecha de corte al 22 de noviembre de 2026.
 
-### Perfil y Estado Actual
-Indra es una compañía tecnológica líder en servicios de tecnología de la información, cotizada en el Mercado Continuo Español (MCE). Actualmente, la acción enfrenta una presión bajista significativa, reflejada en una caída del 3,37% en la última sesión y un descenso acumulado del 20% en los últimos 21 días.
+### Análisis Fundamental: Indra Sistemas, S.A. (IDR.MC)
 
-### Análisis Financiero
-*   **Resultados:** La compañía ha mostrado una trayectoria de crecimiento sostenido. Los ingresos anuales aumentaron de 4.343 millones de euros en 2023 a 5.456 millones en 2025. El EBITDA ha seguido una tendencia ascendente, pasando de 455 millones en 2023 a 768 millones en 2025.
-*   **Balance:** Se observa un aumento considerable en la deuda total, que pasó de 1.036 millones (2023) a 3.358 millones (2025). Sin embargo, la compañía mantiene una posición de caja robusta (2.611 millones de euros), resultando en una ratio de Deuda Neta/EBITDA de -1,43, lo que indica que, a nivel operativo, la caja supera a la deuda.
-*   **Valoración:** Con un PER adelantado (*forward PE*) de 14,98 y una capitalización bursátil de 8.678 millones de euros, el mercado muestra un sentimiento cauteloso. El consenso de analistas sitúa el precio objetivo medio en 69,32 EUR, lo que implica un potencial alcista teórico del 39,5%, a pesar de la volatilidad actual.
+#### Perfil y Situación Actual
+Indra es una compañía tecnológica líder en servicios de TI. Actualmente, la empresa atraviesa un periodo de volatilidad significativa. Con un precio de cierre de 49,67 EUR (al 20 de noviembre de 2026), la acción ha experimentado un retroceso del 24,05% desde sus máximos, reflejando una corrección técnica severa (RSI de 27,24, en zona de sobreventa).
 
-### Contexto y Sentimiento de Mercado
-La caída reciente de **IDR.MC** parece estar vinculada a una combinación de factores macroeconómicos y noticias específicas:
-1.  **Presión Regulatoria:** Noticias sobre investigaciones de la oficina anticorrupción han impactado negativamente en la confianza del inversor (Rankia, 18-11-2026).
-2.  **Entorno Macroeconómico:** El IBEX 35, índice de referencia, ha sufrido retrocesos ante el temor a políticas monetarias restrictivas del BCE y la incertidumbre en los sectores tecnológicos globales (Bolsamania, 18-11-2026).
-3.  **Técnicos:** Con un RSI de 27,24, la acción se encuentra en zona de sobreventa, lo que a menudo precede a correcciones técnicas, aunque el MACD negativo (-2,45) confirma una tendencia bajista persistente a corto plazo.
+#### Análisis Financiero
+*   **Desempeño y Crecimiento:** La compañía muestra una salud operativa sólida con un crecimiento de ingresos del 22,7% y un notable crecimiento de beneficios (EPS) del 77,9%. Los ingresos han escalado de 4.343 millones EUR en 2023 a 5.456 millones EUR en 2025.
+*   **Rentabilidad y Valoración:** La empresa cotiza a un ratio P/E (PER) de 15,14, con una previsión de forward P/E de 14,98. El ROE (Return on Equity) se sitúa en un saludable 26,3%, lo que indica una eficiencia alta en la generación de beneficios a partir del capital de los accionistas.
+*   **Endeudamiento y Caja:** Indra cuenta con una posición de caja muy fuerte (2.611 millones EUR frente a una deuda total de 1.441 millones EUR), resultando en una deuda neta negativa (-1,43x EBITDA), lo cual proporciona una excelente flexibilidad financiera. Sin embargo, el flujo de caja libre (FCF) ha pasado a ser negativo (-106,6 millones EUR) en el último ejercicio reportado, un punto crítico a vigilar.
+*   **Consenso de Mercado:** El consenso de los 16 analistas que cubren el valor sitúa el precio objetivo medio en 69,31 EUR, lo que implica un potencial de revalorización del 39,5% desde los niveles actuales.
 
-### Insights para Traders
-*   **Soporte/Resistencia:** La acción está cotizando por debajo de sus medias móviles de 20, 50 y 200 días, lo cual es una señal técnica de debilidad bajista. La proximidad del precio actual (49,67 EUR) al precio objetivo bajo (50,00 EUR) sugiere que el mercado ya ha descontado un escenario de pesimismo extremo.
-*   **Riesgos:** La principal preocupación fundamental es el incremento en los niveles de deuda reflejado en el balance de 2025. Los inversores deben monitorear cómo Indra gestionará el servicio de esta deuda en un entorno de tipos de interés que se mantienen en el foco del BCE (noticia BCE del 19-11-2026).
-*   **Oportunidad:** La brecha entre el precio de mercado y el consenso de analistas (aprox. 40%) sugiere una desconexión, aunque el sentimiento bajista actual es fuerte. La prudencia es necesaria hasta ver una estabilización del RSI.
+#### Factores de Riesgo y Noticias Recientes
+El sentimiento del mercado se ha visto afectado negativamente en la última semana por varios factores:
+1.  **Investigaciones:** Noticias sobre investigaciones por parte de la Fiscalía Anticorrupción han generado incertidumbre, siendo un factor de presión bajista (Rankia, 18-11-2026).
+2.  **Volatilidad del Sector:** El comportamiento del mercado (miedo a Nvidia y el sector tecnológico global) ha arrastrado a Indra, que ha liderado caídas en el IBEX 35 recientemente (Finanzas.com, 17-11-2026).
+3.  **Entorno Macroeconómico:** La atención se centra en la agenda del BCE y las expectativas de tipos de interés, lo que influye en el costo de capital para empresas tecnológicas.
+
+#### Conclusión y Perspectiva
+Indra muestra fundamentos sólidos a nivel operativo, con un balance saneado y una valoración atractiva si se cumplen las previsiones de beneficios. Sin embargo, el contexto técnico actual es débil y las noticias legales añaden un "riesgo de titulares" que los inversores deben gestionar. La divergencia entre el consenso de analistas (potencial alcista) y el precio de mercado sugiere una oportunidad de valor para perfiles de riesgo tolerantes a la volatilidad, siempre que la incertidumbre legal se disipe.
 
 **Rating**: REVIEW
-
-### Resumen de Datos Clave
 
 | Indicador | Valor / Dato |
 | :--- | :--- |
 | Precio Actual | 49,67 EUR |
-| Capitalización | 8.678 M EUR |
-| PER (Forward) | 14,98 |
-| Deuda Total | 3.358 M EUR |
-| EBITDA (2025) | 768,7 M EUR |
-| Consenso Upside | +39,56% |
-| RSI (14) | 27,25 (Sobreventa) |
-| Dividend Yield | 0,60% |
+| Capitalización de Mercado | 8.678,8 M EUR |
+| P/E Ratio (Trailing) | 15,14 |
+| Consenso Precio Objetivo | 69,31 EUR |
+| Potencial de Upside | +39,56% |
+| Margen de Beneficio | 7,69% |
+| Deuda Neta / EBITDA | -1,43x |
 
-*Nota: La información sobre la comparación sectorial detallada no estaba disponible en la instantánea. Los datos financieros históricos fueron extraídos de las declaraciones de resultados y balance general proporcionadas.*
+*Nota: La información proviene de los datos proporcionados al 22 de noviembre de 2026. Se requiere cautela debido a la volatilidad técnica y las noticias sobre investigaciones internas. No se dispone de comparativa sectorial detallada en el dataset.*
 
-FINAL TRANSACTION PROPOSAL: No trade executed; hold for technical recovery sign.
+FINAL TRANSACTION PROPOSAL: None. (Investor research only).

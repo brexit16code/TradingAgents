@@ -1,57 +1,34 @@
-**Rating**: HOLD  
-FINAL TRANSACTION PROPOSAL: Mantener la posición actual en MAP.MC (Mapfre, S.A.) con enfoque táctico en renta por dividendo, vigilando soporte de corto plazo y la resistencia técnica en torno a la media de 200 sesiones.
+El análisis de **Mapfre, S.A. (MAP.MC)**, basado en la información proporcionada con fecha de corte al 22 de noviembre de 2026, refleja una situación de consolidación técnica con un componente fundamental sólido apoyado por su política de dividendos.
 
----
+### Análisis Técnico
+A fecha de 20 de noviembre de 2026, el precio de cierre se situó en **4,088 EUR**. Observamos una estructura técnica delicada:
+*   **Medias Móviles:** El precio cotiza por debajo de la SMA20 (4,18 EUR) y la SMA50 (4,27 EUR), lo que indica una presión vendedora a corto y medio plazo. Sin embargo, se mantiene muy cerca de la SMA200 (4,14 EUR), actuando esta última como un nivel de soporte crítico.
+*   **Momentum:** El RSI(14) en 40,65 se sitúa en territorio neutral, sin mostrar condiciones de sobreventa extrema, lo que sugiere que el mercado está en un periodo de indecisión. El MACD (-0,029) y su señal (-0,023) se encuentran en zona negativa y con una pendiente descendente, confirmando que la tendencia predominante reciente es bajista.
+*   **Volatilidad:** Con un valor de 23,64%, la acción muestra una volatilidad moderada. El rendimiento acumulado a 63 sesiones es negativo (-7,68%), reflejando una corrección tras los niveles alcanzados previamente.
 
-### Análisis Financiero, Fundamental y Técnico de MAP.MC (Mapfre, S.A.)
+### Análisis Fundamental
+*   **Valoración:** La compañía presenta ratios atractivos con un *forward PE* de 9,62x frente a un *trailing PE* de 10,76x, lo que sugiere una expectativa de crecimiento de beneficios. El *Price to Book* de 1,33x es coherente con su modelo de negocio de servicios financieros.
+*   **Dividendos:** Este es el pilar central del interés actual para el inversor. Mapfre abonará un dividendo de 0,08 EUR por acción el 26 de noviembre (según *CapitalMadrid*, 18/11/2026), con un *dividend yield* anualizado del 4,40%. Es crucial notar que, según *El Economista* (21/11/2026), el lunes es el último día para adquirir acciones con derecho a este cobro.
+*   **Solvencia:** Los estados financieros muestran una estabilidad razonable, con una cifra de capital propio de 9.409 millones de EUR a finales de 2025 y un flujo de caja libre positivo de 1.423 millones de EUR, lo que respalda la sostenibilidad del dividendo.
 
-#### 1. Contexto de Mercado y Datos Fundamentales
-A fecha de noviembre de 2026, **MAP.MC** cotiza en la Bolsa de Madrid dentro del sector financiero (seguros diversificados). Según la instantánea de mercado verificada, el precio de cierre más reciente a 20 de noviembre de 2026 se sitúa en **4,088 EUR**, registrando una ligera variación intradía del -0,44%. 
+### Riesgos y Consideraciones
+*   **Contexto Macroeconómico:** La atención del mercado se centra en el IPC español y la política del BCE. Las noticias recientes sobre la posible subida de tipos "por la puerta de atrás" (incremento de reservas mínimas) podrían afectar a los márgenes financieros de las aseguradoras.
+*   **Consenso de Analistas:** El precio objetivo medio es de 4,325 EUR, lo que implica una revalorización potencial del 5,80% desde el precio actual. No obstante, los analistas mantienen rangos amplios (entre 3,8 y 5,0 EUR).
 
-* **Capitalización de Mercado**: ~12.550 millones de EUR.
-* **Valoraciones**: Presenta un *trailing P/E* de **10,76x** y un *forward P/E* de **9,62x**, con un beneficio por acción (*EPS*) estimado a futuro de **0,425 EUR**. Su ratio *Price-to-Book* (*P/B*) se sitúa en **1,33x**, reflejando una valoración moderada para el sector asegurador europeo.
-* **Rentabilidad por Dividendo**: Uno de los atractivos fundamentales clave de MAP.MC es su política de retribución al accionista. Ofrece una rentabilidad por dividendo (*dividend yield*) del **4,40%** (con un *dividend rate* de **0,18 EUR** y un *payout ratio* del **47,42%**). Cabe destacar las noticias recientes del mercado que señalan un próximo pago de dividendo de **0,08 EUR** (concretamente fijado en 0,080248 euros por acción, con fecha de abono el 26 de noviembre de 2026 y fecha de corte inminente a principios de semana, según informes de *El Economista* y *Radio Intereconomía*).
-* **Solidez Financiera y Crecimiento**: Los estados financieros muestran una evolución positiva de los ingresos totales, pasando de 25.639 millones de EUR en 2023 a 26.355 millones de EUR al cierre de 2025. El beneficio neto (*Net Income*) se incrementó sustancialmente hasta los **1.132,6 millones de EUR** en 2025 (frente a los 967,5 millones de 2024 y 677,2 millones de 2023). El *Return on Equity* (ROE) alcanza un sólido **18,38%**.
+### Conclusión
+MAP.MC se encuentra en un punto de inflexión. Mientras que los indicadores técnicos sugieren cautela ante la pérdida de niveles clave, el componente fundamental y la inminencia del pago de dividendos actúan como un suelo temporal. La falta de datos sobre el flujo de caja operativo reciente limita una visión más precisa de la generación de efectivo pura, pero la tendencia de resultados anuales es ascendente.
 
-#### 2. Análisis Técnico e Indicadores de Momento
-El comportamiento técnico de **MAP.MC** refleja un periodo de consolidación y corrección a corto plazo tras haber cedido un **-7,09%** en los últimos 21 días y un **-7,68%** en el horizonte de 63 sesiones, situándose un **-10,47%** por debajo de sus máximos recientes (drawdown).
+**Rating**: Neutral
 
-* **Medias Móviles**: 
-  * El precio actual (4,088 EUR) perfora ligeramente la media móvil simple de 20 sesiones (**SMA20**: 4,184 EUR) y la de 50 sesiones (**SMA50**: 4,274 EUR), lo que denota presión vendedora a corto plazo. 
-  * Sin embargo, se mantiene muy cerca de la media móvil de 200 sesiones (**SMA200**: 4,149 EUR), la cual actúa como un nivel crítico de referencia para confirmar la tendencia a largo plazo.
-* **Momento y Osciladores**:
-  * El **RSI (14)** se sitúa en **40,65**, reflejar un sesgo bajista a corto plazo pero sin alcanzar aún condiciones de sobreventa extrema (<30), lo que deja margen para la estabilización o rebotes técnicos puntuales.
-  * El **MACD** registra un valor de **-0,0299** y su línea de señal (*macd_signal*) se ubica en **-0,0236**, confirmando un leve impulso bajista que requiere supervisión para evitar mayores correcciones.
-* **Volatilidad y Bandas**:
-  * La volatilidad anualizada calculada es del **23,64%**, un rango moderado y típico para valores aseguradores de alta capitalización en el mercado español.
-
-#### 3. Factores Macroeconómicos y Catalizadores
-Las perspectivas macroeconómicas para el cierre de 2026 vienen marcadas por la evolución de los tipos de interés del Banco Central Europeo (BCE), con reuniones previstas para diciembre de 2026, y la preferencia de los inversores institucionales por valores defensivos con sólidos flujos de caja y retornos por dividendo atractivos. El foco inmediato para MAP.MC gira en torno al cupón de noviembre de 0,08 EUR por acción, un evento que tradicionalmente sostiene el interés comprador a corto plazo.
-
----
-
-### Selección Óptima de Indicadores Técnicos
-Siguiendo las directrices analíticas y evitando redundancias, los 8 indicadores seleccionados para el seguimiento continuo de MAP.MC son:
-1. **close_200_sma**: Clave para la confirmación de la tendencia macro y soporte estructural de largo plazo.
-2. **close_50_sma**: Indicador de tendencia a medio plazo para evaluar cambios de dirección tácticos.
-3. **close_10_ema**: Sensible a los cambios rápidos de precio y optimización de entradas a corto plazo.
-4. **macd**: Para identificar divergencias y cruces de impulso tendencial.
-5. **rsi**: Índice de fuerza relativa para vigilar zonas de sobrecompra y sobreventa sin redundar con estocásticos.
-6. **boll_ub**: Banda superior de Bollinger para detectar zonas de resistencia dinámica y sobrecompra.
-7. **boll_lb**: Banda inferior de Bollinger para identificar soportes dinámicos y posibles suelos de corrección.
-8. **atr**: Medida indispensable de la volatilidad real para la correcta gestión del riesgo y colocación de *stop-loss*.
-
----
-
-### Resumen Estructurado (Tabla Clave)
-
-| Categoría / Métrica | Valor / Dato Clave | Implicación Analítica |
+| Indicador / Métrica | Valor / Estado | Significado |
 | :--- | :--- | :--- |
-| **Cotización Actual** | 4,088 EUR (20-11-2026) | Ligera corrección a corto plazo (-0,44% en la última sesión). |
-| **Rango de Valoración (P/E)** | 10,76x (Trailing) / 9,62x (Forward) | Valoración atractiva en comparación con la media del sector financiero. |
-| **Rentabilidad por Dividendo** | 4,40% (Dividendo: 0,18 EUR) | Atractivo flujo de rentabilidad para el inversor por dividendo. |
-| **Próximo Dividendo** | 0,08 EUR (Pago: 26 de noviembre de 2026) | Catalizador inmediato de soporte para la cotización en el corto plazo. |
-| **Medias Móviles (SMA20 / 200)** | SMA20: 4,18 EUR \| SMA200: 4,15 EUR | Cotización oscilando alrededor de la media de largo plazo; vigilancia de soporte. |
-| **RSI (14)** | 40,65 | Zona neutral-bajista, sin sobreventa profunda. |
-| **Volatilidad (21s / Anualizada)** | 23,64% | Volatilidad moderada, acorde a un valor defensivo/financiero. |
-| **Consenso de Analistas** | Target medio: 4,325 EUR (Mín: 3
+| Precio Actual | 4,088 EUR | Debajo de medias de 20 y 50 días |
+| RSI (14) | 40,65 | Zona neutral, sin sobreventa |
+| Dividend Yield | 4,40% | Atractivo para renta fija |
+| Consenso Upside | +5,80% | Potencial alcista moderado |
+| MACD | -0,029 | Tendencia bajista actual |
+| SMA 200 | 4,148 | Soporte estratégico en juego |
+
+FINAL TRANSACTION PROPOSAL: Mantener posición para capturar el dividendo próximo; esperar a una ruptura confirmada sobre la SMA200 (4,15 EUR) para considerar nuevas posiciones largas.
+
+*Descargo de responsabilidad: Esta es una revisión analítica basada en datos públicos y herramientas técnicas. No constituye una recomendación de inversión. Las decisiones financieras deben ser consultadas con un asesor certificado.*

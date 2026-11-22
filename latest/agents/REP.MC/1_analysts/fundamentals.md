@@ -1,34 +1,43 @@
-El presente informe analiza la situación fundamental de **Repsol, S.A. (REP.MC)** basándose en los datos financieros y de mercado actualizados al 21 de noviembre de 2026.
+### Informe Fundamental: Repsol, S.A. (REP.MC)
 
-### Perfil y Desempeño Reciente
-Repsol es una compañía integrada de petróleo y gas con sede en España. Recientemente, el valor ha mostrado un comportamiento bajista en el corto plazo, siendo señalado en la prensa financiera española como uno de los "farolillos rojos" del Ibex 35 durante la semana del 18 de noviembre de 2026. Este sentimiento negativo parece estar vinculado a la volatilidad del mercado y factores macroeconómicos, situándose actualmente por debajo de los 19.600 puntos en el índice de referencia.
+**Fecha del informe:** 22 de noviembre de 2026
 
-### Análisis Financiero
-*   **Valoración:** Repsol cotiza a un ratio **P/E (Price-to-Earnings) de 5.06**, lo que sugiere una valoración atractiva en comparación con el mercado general, típica de empresas energéticas cíclicas. El valor contable (Price-to-Book) es de 1.23, indicando una valoración moderada respecto a sus activos.
-*   **Solidez del Balance:** La empresa presenta una estructura financiera saneada con una deuda neta sobre EBITDA de **0.32**, lo que refleja una capacidad de apalancamiento muy controlada. La liquidez también es notable, con 9.736 millones de euros en caja frente a una deuda total de 13.170 millones.
-*   **Flujo de Caja y Rentabilidad:** La compañía mantiene un ROE (Return on Equity) saludable del 21.07%. Aunque el flujo de caja libre (Free Cash Flow) fue de 1.770 millones de euros, se observa una diferencia significativa en la ejecución de inversiones (CAPEX) entre 2024 y 2025, impactando la generación de caja disponible para accionistas.
-*   **Dividendos:** Con una rentabilidad por dividendo del **3.69%** y una tasa de payout del 20.45%, la política de retribución al accionista aparece sostenible y conservadora.
+#### 1. Perfil de la Compañía
+Repsol, S.A. es una empresa integrada de petróleo y gas con sede en España, que cotiza en el mercado bursátil de Madrid (MCE). Como actor clave en el sector energético, su modelo de negocio abarca desde la exploración y producción hasta el refino, la comercialización y la transición hacia energías renovables.
 
-### Perspectiva de Mercado y Riesgos
-*   **Consenso de Analistas:** Existe un optimismo moderado con un precio objetivo medio de 31.16 EUR, lo que implica un **upside potencial del 9.49%** respecto al cierre reciente de 28.46 EUR.
-*   **Factores Técnicos:** El RSI de 43.26 indica una zona neutral, no sobrevendida ni sobrecomprada. Sin embargo, la cotización se encuentra por debajo de sus medias móviles de 20 y 50 días (ambas en 29.61 EUR), lo que refleja una debilidad técnica de corto plazo.
-*   **Riesgos:** La dependencia de los precios del crudo y las presiones macroeconómicas (como las expectativas sobre tipos de interés del BCE, mencionadas en noticias del 19 y 20 de noviembre) son los principales riesgos. La falta de datos comparativos sectoriales específicos en este informe impide una valoración relativa precisa contra competidores directos.
+#### 2. Análisis Financiero y de Valoración
+Basado en los datos al 20 de noviembre de 2026:
+*   **Capitalización bursátil:** 30.150 millones de EUR.
+*   **Valoración:** La compañía presenta múltiplos de valoración atractivos con un PER *trailing* (histórico) de 5,06x y un PER *forward* (proyectado) de 5,98x. Su valor contable (*price-to-book*) es de 1,23x.
+*   **Endeudamiento:** Muestra una posición financiera sólida con una relación deuda neta/EBITDA de 0,32x, reflejando una gestión conservadora del apalancamiento.
+*   **Rentabilidad y Dividendos:** Ofrece una rentabilidad por dividendo del 3,69%, con un ratio de pago (*payout ratio*) prudente del 20,45%, lo que sugiere sostenibilidad en los pagos a los accionistas.
+*   **Rendimiento reciente:** La acción ha mostrado una recuperación notable en el largo plazo (+93,39% en 252 sesiones), aunque se observa presión vendedora a corto plazo, cerrando el 20 de noviembre a 28,46 EUR (-0,66%).
 
-### Conclusión para el Inversor
-Repsol presenta fundamentos sólidos con una baja carga de deuda y un ratio de valoración atractivo. La presión bajista reciente parece más asociada a una rotación de mercado y a la volatilidad del Ibex 35 que a un deterioro estructural en los estados financieros de la compañía. Se recomienda vigilancia sobre la capacidad de la empresa para mantener su margen de beneficio (9.36%) ante posibles fluctuaciones en los precios de las materias primas.
+#### 3. Análisis Operativo y Estados Financieros
+*   **Ingresos y Beneficios:** Los ingresos han mostrado una ligera tendencia a la baja en el último trienio (58.948 millones en 2023 vs 54.861 millones en 2025). El EBITDA se situó en 10.696 millones según datos actuales.
+*   **Flujo de Caja:** El flujo de caja operativo de 2025 fue de 5.365 millones de EUR, frente a un CAPEX (gasto de capital) de 3.746 millones, permitiendo un flujo de caja libre (*Free Cash Flow*) positivo de 1.619 millones, a pesar de los desafíos sectoriales.
+*   **Crecimiento:** Se registra un crecimiento de ganancias (*earnings growth*) del 4,22%, lo que indica una resiliencia operativa a pesar de la volatilidad en los precios de las materias primas.
+
+#### 4. Contexto de Mercado y Sentimiento
+La acción ha sido identificada recientemente en titulares de prensa como el "farolillo rojo" del IBEX 35, con caídas en varias sesiones consecutivas (18 de noviembre). El sentimiento del mercado se ve afectado por:
+*   La incertidumbre sobre el sector energético global y la OPEP+.
+*   Reacciones negativas ante resultados sectoriales y presiones macroeconómicas (política del BCE y tipos de interés).
+*   Análisis técnicos que sitúan a la acción por debajo de sus medias móviles de 20 y 50 días (sma20: 29,60; sma50: 29,61), indicando una fase de consolidación o corrección técnica.
+
+#### 5. Resumen de hallazgos
+*   **Fortalezas:** Valoración atractiva (PER bajo), solidez de balance (baja deuda neta) y rentabilidad por dividendo estable.
+*   **Riesgos:** Tendencia bajista a corto plazo, debilidad en la cotización comparada con el resto del índice en las últimas sesiones y presión macroeconómica sobre el sector.
+*   **Datos faltantes:** No se dispone de un desglose detallado de la deuda por tramos de vencimiento o una comparación sectorial explícita en los datos proporcionados, lo que limita una valoración relativa precisa frente a pares (ej. TotalEnergies, BP).
 
 **Rating**: HOLD
 
-| Concepto | Valor / Estado |
+| Indicador | Valor |
 | :--- | :--- |
-| **Precio Actual (EUR)** | 28.46 |
-| **P/E (Trailing)** | 5.06 |
-| **Deuda Neta / EBITDA** | 0.32 |
-| **Rentabilidad Dividendo** | 3.69% |
-| **Upside (Consenso)** | 9.49% |
-| **Tendencia (SMA 200)** | Alcista (Precio > SMA 200: 24.51) |
-| **Sentimiento (Prensa)** | Bajista (Corto plazo) |
+| Precio Cierre (20/11/2026) | 28,46 EUR |
+| PER (Trailing) | 5,06x |
+| Dividend Yield | 3,69% |
+| Net Debt/EBITDA | 0,32x |
+| Precio Objetivo (Consenso) | 31,16 EUR |
+| Upside Potencial | 9,49% |
 
-***Nota:** Este informe no constituye una recomendación de inversión. Las decisiones de compra/venta deben basarse en su propia evaluación de riesgos. Los datos provienen de la información proporcionada al 21/11/2026. Falta información sobre el detalle de los segmentos de negocio operativos (Upstream vs Downstream) para un análisis de resiliencia más profundo.*
-
-FINAL TRANSACTION PROPOSAL: None. This is a research report.
+FINAL TRANSACTION PROPOSAL: No trade execution suggested. Monitor support levels near 24.50 EUR (SMA200) for potential long-term entry points, given current short-term technical weakness.

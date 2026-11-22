@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: Ferrovial N.V. cotiza a 52.80 EUR con un PER forward exigente de 45.43x y un apalancamiento de 4.39x Deuda Neta/EBITDA, lo que limita el potencial alcista a pesar de la calidad de sus activos de autopistas. Aunque el valor ha mostrado un fuerte rebote técnico superando la SMA50 (48.24 EUR), actualmente se enfrenta a la resistencia clave de la SMA200 (54.20 EUR) y los múltiplos actuales ya reflejan el optimismo del mercado. Por lo tanto, se adopta una postura neutral de mantenimiento, evitando nuevas compras hasta que se observe una corrección más profunda o una compresión de múltiplos.
+**Reasoning**: Ferrovial se encuentra en una zona de consolidación técnica crítica. Si bien el activo ha recuperado fuerza operando por encima de la SMA 50, su valoración actual con un Forward PE de 45,40 es significativamente superior a la media del sector, lo que limita el potencial alcista a corto plazo. Hasta que el precio no logre consolidarse sobre la resistencia clave de la SMA 200 en 54,20 EUR, o bien se produzca una corrección técnica hacia soportes más sólidos, la relación riesgo-beneficio no justifica abrir nuevas posiciones.
 
-**Entry Price**: not provided
+**Entry Price**: 54.2
 
 **Stop Loss**: 48.24
 
-**Position Sizing**: 0% of portfolio
+**Position Sizing**: Mantener posición actual, sin incremento de exposición.
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

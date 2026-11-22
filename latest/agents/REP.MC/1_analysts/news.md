@@ -1,36 +1,35 @@
-Este informe analiza la situación de **REP.MC (Repsol, S.A.)** al 21 de noviembre de 2026, integrando datos fundamentales, técnicos y el contexto macroeconómico reciente.
+Este informe presenta un análisis actualizado de **Repsol, S.A. (REP.MC)**, basado en los datos financieros y de mercado disponibles a fecha de 22 de noviembre de 2026.
 
-### Análisis Fundamental y Técnico
-Repsol muestra una valoración atractiva bajo métricas tradicionales, con un **PER trailing de 5.06** y un **PER forward de 5.98**, lo que sugiere que el mercado descuenta un crecimiento limitado o riesgos sectoriales persistentes. Con una capitalización de mercado de 30.150 millones de EUR, la empresa mantiene una salud financiera sólida, evidenciada por un ratio **Net Debt/EBITDA de 0.32**, lo que indica una posición de apalancamiento conservadora.
+### Análisis de Situación de REP.MC
 
-Desde el punto de vista técnico, la acción cotiza a 28,46 EUR, situándose por debajo de sus medias móviles de 20 y 50 días (ambas en ~29,60 EUR), pero manteniéndose por encima de la media de 200 días (24,51 EUR). El RSI de 43,26 indica una tendencia neutra, mientras que el MACD (-0,05) muestra un ligero impulso bajista respecto a su señal. La alta volatilidad (35,65%) refleja la sensibilidad de la acción al entorno macro y energético.
+**Rendimiento y Aspectos Técnicos:**
+La acción ha experimentado una presión vendedora significativa en los últimos días, actuando como "farolillo rojo" en el IBEX 35 durante la semana del 18 de noviembre (según *Yahoo* y *Bolsamanía*). Con una caída reciente y una cotización de 28,46 EUR, el activo se sitúa por debajo de sus medias móviles de 20 y 50 días (ambas en ~29,60 EUR), lo que sugiere una debilidad técnica a corto plazo. Sin embargo, mantiene una rentabilidad interanual del 93,39%, mostrando una tendencia alcista estructural a largo plazo que actualmente atraviesa una fase de consolidación/corrección.
 
-### Contexto Macro y Noticias
-En la última semana, **REP.MC** ha sufrido presión vendedora, destacando como "farolillo rojo" en varias jornadas del IBEX 35 (noticias del 18 de noviembre). El sentimiento del mercado parece estar influenciado por:
-1.  **Dudas sectoriales:** La volatilidad en los precios de la energía y la correlación con la incertidumbre global (IA y resultados de Nvidia, mencionados en la prensa local el 18 de noviembre).
-2.  **Entorno de tipos:** La expectativa de movimientos del BCE y la atención sobre el calendario de tipos de interés (reunión del 17 de diciembre) mantienen a los inversores cautelosos ante cambios en las condiciones de financiación.
-3.  **Análisis técnico:** Analistas como Víctor Galán señalan niveles de "oxígeno" tras los recortes, sugiriendo que la corrección reciente podría ser una oportunidad técnica, a pesar del ruido bajista del corto plazo.
+**Fundamentos y Valoración:**
+*   **Valoración atractiva:** La empresa cotiza a un ratio P/E (PER) *trailing* de 5,06x y un *forward* de 5,98x, lo que indica una valoración conservadora en comparación con su capacidad de generación de beneficios.
+*   **Salud Financiera:** La compañía mantiene un balance sólido con un ratio deuda neta/EBITDA de 0,32x, reflejando una gestión prudente del apalancamiento.
+*   **Dividendos:** Con una rentabilidad por dividendo del 3,69% y un *payout ratio* moderado (~20%), Repsol continúa ofreciendo un retorno atractivo al accionista sin comprometer su flujo de caja, a pesar de los desafíos en el CAPEX (que alcanzó los 3.746 millones EUR en 2025).
 
-### Hallazgos Clave
-*   **Fortaleza:** El ratio de deuda neta sobre EBITDA es muy saludable (0.32), ofreciendo resiliencia operativa.
-*   **Dividendo:** Una rentabilidad por dividendo del 3,69% es un punto de apoyo para el valor en periodos de incertidumbre.
-*   **Retorno:** El retorno acumulado a 252 días es del 93,39%, lo cual es notablemente positivo a pesar del reciente retroceso del -9,77% desde máximos locales.
+**Contexto Macroeconómico:**
+El entorno financiero actual (a 22 de noviembre de 2026) está marcado por una agenda dominada por la inflación en España, el PIB de EE. UU. y las decisiones de la OPEP+. La incertidumbre sobre las políticas de tipos del BCE (reunión del 17 de diciembre) y posibles ajustes en las reservas mínimas bancarias están generando volatilidad en el IBEX 35.
 
-### Riesgos y Datos Faltantes
-*   **Datos faltantes:** No se dispone de un desglose detallado por segmento de negocio (Upstream vs. Downstream) para el Q3/Q4 2026, ni proyecciones específicas sobre la evolución del precio del barril Brent integrado en el modelo forward.
-*   **Riesgo:** La alta dependencia de la política monetaria del BCE y los precios de las materias primas siguen siendo los mayores catalizadores de riesgo exógeno.
+**Riesgos y Consideraciones:**
+Las noticias recientes citan una correlación entre el mal comportamiento del sector energético y las dudas sobre el crecimiento económico global tras los resultados de Nvidia, lo que sugiere una rotación de capital o una aversión al riesgo generalizada en el mercado español.
 
-### Resumen de Mercado
+### Conclusión
+Repsol presenta fundamentales sólidos y una valoración muy barata. La debilidad reciente parece estar más ligada a factores macroeconómicos y técnicos que a un deterioro operativo de la compañía. La recomendación de consenso de los analistas apunta a un precio objetivo medio de 31,16 EUR, lo que representa un potencial de revalorización del 9,49%.
 
-| Indicador | Valor / Estado | Nota |
+**Rating**: HOLD
+
+| Factor | Estado / Valor | Observaciones |
 | :--- | :--- | :--- |
-| **Precio (REP.MC)** | 28,46 EUR | Al cierre del 20/11/2026 |
-| **PER Forward** | 5,98 | Valoración barata vs histórico |
-| **Consenso Upside** | +9,49% | Media de analistas: 31,16 EUR |
-| **Net Debt/EBITDA** | 0,32 | Balance sólido |
-| **Tendencia 200 días** | Alcista (24,51 < 28,46) | Soporte estructural clave |
-| **Sentimiento reciente** | Bajista (noticias del 18/11) | Presión en el IBEX 35 |
+| **Precio Actual** | 28,46 EUR | Por debajo de SMA 50 (29,61 EUR) |
+| **P/E (Forward)** | 5,98x | Valoración fundamental atractiva |
+| **Upside Consenso** | +9,49% | Basado en 23 opiniones de analistas |
+| **Dividend Yield** | 3,69% | Sostenible con payout del 20,45% |
+| **Net Debt/EBITDA**| 0,32x | Balance muy sólido |
+| **Sentimiento (News)**| Negativo | Presión bajista en la última semana |
 
-**Rating**: REVIEW
+**Información faltante:** No se dispone de un desglose detallado de la exposición a proyectos específicos de transición energética ni el impacto directo de las próximas políticas fiscales de España sobre el impuesto a las energéticas, factores que podrían alterar las previsiones de flujo de caja libre.
 
-FINAL TRANSACTION PROPOSAL: No se recomienda ninguna acción. El valor se encuentra en una fase de corrección técnica dentro de una tendencia alcista a largo plazo, con fundamentales robustos pero presión de sentimiento a corto plazo. Se sugiere esperar a una consolidación por encima de la media de 50 días (29,61 EUR) para confirmar el fin de la tendencia bajista actual.
+FINAL TRANSACTION PROPOSAL: NO EXECUTION. Hold position for long-term dividend yield and potential mean reversion to analyst price target (31.16 EUR).

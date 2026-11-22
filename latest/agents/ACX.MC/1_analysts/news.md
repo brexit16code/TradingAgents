@@ -1,34 +1,33 @@
-Este informe presenta el análisis del estado actual de **Acerinox, S.A. (ACX.MC)** y el entorno macroeconómico relevante, basado en la información proporcionada con fecha de corte al 21 de noviembre de 2026.
+### Informe de Análisis: Acerinox, S.A. (ACX.MC)
+**Fecha de informe:** 22 de noviembre de 2026
 
-### Análisis de Acerinox (ACX.MC)
+#### Resumen Ejecutivo
+Acerinox (`ACX.MC`) se encuentra en una fase de estabilización técnica tras una corrección reciente. Con una cotización de 14,55 EUR, la acción experimenta una presión vendedora significativa (-4,27% en la última sesión y una caída del 21,26% desde máximos recientes). A pesar de los fundamentales operativos, la empresa muestra señales de fatiga técnica con un RSI14 de 30,78 (cercano a niveles de sobreventa) y un MACD en territorio negativo, lo que sugiere cautela en el corto plazo.
 
-**Situación Técnica:**
-ACX.MC muestra signos de debilidad técnica significativa. Con un cierre de 14,55 EUR (al 20/11/2026), la acción ha caído un 4,28% en la última sesión y presenta un RSI de 30,78, situándose muy cerca de la zona de sobreventa. El precio cotiza por debajo de sus medias móviles de 20, 50 y 200 días, lo que confirma una tendencia bajista a corto y medio plazo. Los analistas observan intentos de estabilización en torno a los 14,85 EUR, con la posibilidad de formar un "doble suelo" como catalizador de una reacción técnica (*El Español*, 19/11/2026).
+#### Análisis Fundamental
+*   **Valoración y Crecimiento:** La valoración actual presenta una dicotomía: un PER histórico (trailing) de 27,45 frente a un PER forward proyectado más atractivo de 9,35. Esto implica que el mercado espera una recuperación sustancial en los beneficios (forward EPS de 1,55).
+*   **Salud Financiera:** La ratio de deuda neta/EBITDA de 3,15 es un punto de atención crítico en el sector de materiales básicos. El flujo de caja libre es negativo (-155,27 millones de EUR en 2025), lo que presiona el pago de dividendos (payout ratio de 1,44).
+*   **Catalizadores Estratégicos:** La prensa reciente (Europa Sur, El Conciso, 19/11/2026) destaca el posicionamiento de Acerinox Europa en el sector de almacenamiento industrial de hidrógeno. Aunque es prometedor a largo plazo, este desarrollo no compensa todavía los vientos en contra del sector siderúrgico tradicional.
 
-**Fundamentales y Valoración:**
-*   **Valoración:** La acción cotiza con un Forward PE de 9,36x frente a un Trailing PE de 27,45x, lo que sugiere que el mercado anticipa una mejora sustancial en los beneficios futuros (EPS proyectado de 1,55 EUR).
-*   **Deuda y Solvencia:** La empresa mantiene un apalancamiento considerable con una ratio deuda neta/EBITDA de 3,15x, lo cual es un punto de atención en un entorno de tipos de interés persistentes.
-*   **Dividendos:** Con una rentabilidad por dividendo del 4,26%, la compañía sigue siendo atractiva para inversores de renta, aunque el payout ratio superior al 100% (1,44) indica una tensión financiera notable en la sostenibilidad del dividendo si no se recuperan los niveles de flujo de caja libre negativos observados en 2025 (-155M EUR).
+#### Entorno Macroeconómico
+El mercado español (Ibex 35) opera bajo la sombra de la incertidumbre política y la agenda del BCE. Las noticias del 19 de noviembre sugieren que el índice busca consolidar el nivel de los 19.400 puntos, donde ACX.MC ha sido citada como un valor que intenta liderar rebotes técnicos. Sin embargo, la preocupación por un endurecimiento monetario implícito (incremento de reservas mínimas del BCE, *El Economista* 19/11/2026) añade volatilidad a las empresas con apalancamiento intensivo como Acerinox.
 
-**Catalizadores:**
-Recientemente, la empresa ha mostrado interés en diversificar sus operaciones hacia el almacenamiento industrial de hidrógeno, lo cual podría proporcionar una nueva narrativa de crecimiento a largo plazo (*El Conciso*, 19/11/2026).
+#### Riesgos y Evidencia
+*   **Contrario:** El flujo de caja libre negativo y la alta deuda sugieren que la rentabilidad por dividendo del 4,26% podría ser insostenible si no mejora la generación de caja operativa. La debilidad técnica es evidente al cotizar por debajo de sus medias móviles de 20 y 50 sesiones.
+*   **Soporte:** El consenso de analistas mantiene un precio objetivo medio de 20,15 EUR, lo que implica una subida teórica del 38,51%, sugiriendo que el mercado ve la caída actual como una sobrecorrección.
+*   **Datos faltantes:** No se dispone de datos sectoriales comparativos detallados para un análisis relativo de eficiencia frente a competidores directos (ej. ArcelorMittal o Aperam).
 
-### Entorno Macroeconómico
-El mercado español se mantiene expectante ante las políticas monetarias del BCE. La próxima reunión de diciembre será clave para definir la trayectoria de los tipos en 2027 (*Rankia*, 18/11/2026). Existe una preocupación latente por el posible incremento de las reservas mínimas obligatorias a los bancos, lo que se interpreta como un endurecimiento monetario "por la puerta de atrás" (*El Economista*, 19/11/2026).
+#### Conclusión
+ACX.MC muestra un patrón de "doble suelo" en los 14,85 EUR (El Español, 19/11/2026), actuando como zona crítica de soporte. La inversión es de alto riesgo debido a la estructura de balance, pero los analistas ven un valor intrínseco significativamente superior al precio actual de mercado.
 
-### Evidencia y Limitaciones
-*   **Datos faltantes:** No se dispone de comparativas sectoriales detalladas (valuation: "Comparación sectorial no disponible"). Se carece de datos actualizados de inflación (IPC) y tipos de interés específicos de la Eurozona en tiempo real para este reporte, basándonos únicamente en titulares macroeconómicos.
-*   **Riesgos:** La alta volatilidad (28,6%) y la caída acumulada del 11,6% en los últimos 21 días subrayan un entorno de alta incertidumbre.
-
-### Resumen de hallazgos
-
-| Factor | Estado | Impacto en ACX.MC |
+| Indicador | Valor / Estado | Nota |
 | :--- | :--- | :--- |
-| **Precio Actual** | 14,55 EUR | Soporte crítico en 14,85 EUR (perforado) |
-| **Tendencia Técnica** | Bajista (SMA 20/50/200) | Negativo |
-| **Valoración (Fwd PE)** | 9,36x | Atractivo vs histórico si se cumplen estimaciones |
-| **Solvencia** | 3,15x Deuda/EBITDA | Riesgo ante tipos altos |
-| **Consenso Analista** | 20,15 EUR (Target) | Potencial alcista del 38,5% |
+| Precio Actual | 14,55 EUR | Soporte técnico en 14,85 EUR |
+| Forward PE | 9,35 | Indica expectativa de recuperación |
+| Net Debt / EBITDA | 3,15 | Apalancamiento elevado |
+| RSI (14) | 30,78 | Cercano a condiciones de sobreventa |
+| Upside Consenso | +38,51% | Basado en 13 opiniones de analistas |
 
-**Rating**: HOLD
-FINAL TRANSACTION PROPOSAL: Mantener posiciones actuales a la espera de confirmar el soporte técnico en la zona de 14,00 - 14,50 EUR, dado el potencial de revalorización por consenso frente a la debilidad actual del momentum.
+**Rating**: REVIEW
+
+FINAL TRANSACTION PROPOSAL: HOLD

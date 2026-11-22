@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: Laboratorios Farmaceuticos Rovi presenta una sólida posición financiera con baja deuda y un elevado ROE, pero sufre contracción en ingresos y menor beneficio previsto, cotizando actualmente por debajo de sus medias móviles clave. Mantener la posición permite evaluar si el soporte en la zona de los 61.50 EUR se consolida antes de tomar nuevas decisiones de asignación.
+**Reasoning**: La acción presenta una estructura técnica de consolidación con soporte clave en la media móvil de 50 sesiones (61,50 EUR) y una presión bajista persistente bajo la media de 20 sesiones. Aunque los fundamentales son sólidos, el forward P/E de 19,09x frente a la falta de catalizadores inmediatos sugiere una valoración cautelosa. Mantener permite evitar el riesgo de ruptura del soporte ante la volatilidad macroeconómica actual, a la espera de una confirmación alcista sobre 66,02 EUR.
 
-**Entry Price**: not provided
+**Entry Price**: 66.02
 
-**Stop Loss**: 61.5
+**Stop Loss**: 60.0
 
-**Position Sizing**: Mantener exposición actual sin incrementos
+**Position Sizing**: 0.5x de una asignación estándar
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

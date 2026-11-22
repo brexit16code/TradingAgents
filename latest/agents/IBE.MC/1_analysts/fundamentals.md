@@ -1,61 +1,40 @@
-**Rating**: HOLD  
-**FINAL TRANSACTION PROPOSAL:** No portfolio has been supplied; any allocation is strictly hypothetical. Hold existing long positions, maintaining caution given valuation premiums relative to utility peers and recent negative headline news regarding legal actions and debt trends.
+Esta es una revisión fundamental de **Iberdrola, S.A. (IBE.MC)**, basada en los datos financieros y de mercado proporcionados a fecha de 22 de noviembre de 2026.
+
+### Perfil y Desempeño Financiero
+Iberdrola es una empresa diversificada del sector de servicios públicos (*Utilities*). Cotiza en el Mercado Continuo Español (MCE) y forma parte del índice ^IBEX. 
+
+**Análisis de Valoración y Rentabilidad:**
+*   **Capitalización Bursátil:** ~150,49 mil millones de EUR.
+*   **Valoración:** La compañía presenta un *trailing PE* de 30,64x y un *forward PE* de 20,36x. El ratio precio-valor contable (*Price-to-Book*) es de 2,93x. Estos múltiplos sugieren una valoración premium en comparación con la mediana de sus pares (*peers*), que se sitúa en 16,83x para el *forward PE*.
+*   **Salud Financiera:** La empresa muestra un nivel de deuda neta sobre EBITDA de 3,95x, lo cual es relevante para el sector. El flujo de caja operativo ha mostrado una tendencia decreciente, pasando de 12,13 mil millones en 2023 a 11,64 mil millones en 2025. El beneficio neto ha experimentado un crecimiento notable, alcanzando los 6,29 mil millones de EUR al cierre de 2025 frente a los 4,80 mil millones en 2023.
+
+### Contexto Reciente y Riesgos
+En la última semana, el sentimiento de mercado se ha visto afectado por noticias negativas:
+1.  **Litigios:** Iberdrola, junto a otras eléctricas (Endesa, Naturgy, Red Eléctrica), enfrenta una demanda por parte de Repsol vinculada a los daños derivados de un apagón. Esto introduce un riesgo legal y de reputación (Bolsamania, 2026-11-16).
+2.  **Contexto Macroeconómico:** Los informes indican que la deuda de los grupos energéticos del Ibex ha subido (Expansión, 2026-11-20). Además, existe una presión latente en los mercados de renta fija ante la posible postura del BCE, lo que puede influir en los costes financieros de empresas con elevado apalancamiento como Iberdrola.
+3.  **Desempeño Técnico:** La acción cotiza a 22,67 EUR, con un RSI de 55,68, lo que indica un territorio neutral. La acción se encuentra por encima de sus medias móviles de 50 y 200 sesiones, sugiriendo una tendencia alcista a largo plazo a pesar de la volatilidad reciente.
+
+### Perspectivas para el Inversor
+*   **Puntos a Favor:** Fuerte crecimiento en los ingresos y beneficios netos en los últimos tres años, junto con una rentabilidad por dividendo atractiva (~3,0%).
+*   **Puntos de Cuidado:** Valoración cara respecto a sus pares, alta carga de deuda y riesgos legales derivados de las demandas interpuestas por Repsol. El *target mean price* de los analistas (21,57 EUR) se sitúa por debajo del precio de mercado actual (22,67 EUR), lo que sugiere que el consenso ve un riesgo de corrección a corto plazo.
+
+### Datos Faltantes
+No se dispone de datos detallados sobre el desglose por segmentos geográficos actualizados al Q3 2026, ni el impacto financiero específico proyectado de las demandas legales mencionadas en los reportes de prensa.
 
 ---
 
-### Informe Fundamental Integral: Iberdrola, S.A. (`IBE.MC`)
+### Resumen de Datos Clave (IBE.MC)
 
-#### 1. Perfil Corporativo y Contexto de Negocio
-* **Compañía:** Iberdrola, S.A. (`IBE.MC`)
-* **Clasificación de Negocio:** Utilities / Utilities - Diversified
-* **Mercado Bursátil:** Bolsas y Mercados Españoles (MCE), cotizado en Euros (EUR) y componente del índice de referencia `^IBEX`.
-* **Resumen de Actividad:** Iberdrola es uno de los líderes mundiales en energías renovables y una de las mayores empresas eléctricas del mundo por capitalización bursátil. Su modelo de negocio abarca la generación, distribución y comercialización de electricidad con un fuerte enfoque en redes de transporte y distribución, así como en tecnologías limpias (solar, eólica terrestre y marina, e hidroeléctrica).
+| Indicador | Valor / Dato |
+| :--- | :--- |
+| Precio de Cierre | 22,67 EUR |
+| Capitalización de Mercado | 150,49 MM EUR |
+| Forward PE | 20,36x |
+| Dividend Yield | 3,00% |
+| Net Debt / EBITDA | 3,95x |
+| Target Mean Price | 21,57 EUR |
+| Tendencia (SMA 200) | 20,32 EUR |
+| Consenso de Analistas | 24 opiniones |
 
----
-
-#### 2. Datos Financieros Clave y Valoración
-Basado en los datos suministrados a fecha de corte de 21 de noviembre de 2026:
-* **Precio de Cierre Actual:** 22,67 EUR (al 2026-11-20).
-* **Capitalización Bursátil:** ~150.487 millones de EUR.
-* **PER Histórico (Trailing P/E):** 30,64x.
-* **PER Estimado (Forward P/E):** 20,36x.
-* **Beneficio por Acción (EPS):** 0,74 EUR (Trailing) / 1,11 EUR (Forward).
-* **Precio sobre Valor en Libros (Price to Book):** 2,93x (Valor en libros por acción: 7,74 EUR).
-* **Valor de Empresa / EBITDA (EV/EBITDA):** 14,94x.
-* **Dividendo:** Rentabilidad por dividendo (*Dividend Yield*) estimada en el **3,00%** (con un *Dividend Rate* de 0,68 EUR y un *payout ratio* del 87,06%).
-* **Estructura de Deuda:** Deuda total de aproximadamente 63.837 millones de EUR, con un efectivo total de 6.634 millones de EUR. El indicador de **Deuda Neta / EBITDA** se sitúa en **3,95x**.
-* **Consenso de Analistas:** Precio objetivo medio (*Target Mean Price*) de 21,57 EUR, con un rango que oscila entre un objetivo bajo de 18,00 EUR y un objetivo alto de 26,00 EUR (basado en la opinión de 24 analistas). Esto implica una rentabilidad potencial de consenso (*consensus upside*) del **-4,86%** frente al precio actual de mercado, situando a la acción cotizando ligeramente por encima de la valoración media de los analistas.
-* **Valoración Relativa:** El PER adelantado (*Forward P/E*) de Iberdrola muestra un ratio frente a la mediana de sus comparables del sector de **1,21x**, lo que indica que cotiza con una prima de valoración sobre sus pares en el mercado nacional e internacional (`ANE.MC`, `ENG.MC`, `ELE.MC`, `NTGY.MC`, `RED.MC`, `SLR.MC`).
-
----
-
-#### 3. Análisis de Estados Financieros Históricos
-* **Cuenta de Resultados (Ingresos y Beneficios Netos):**
-  * *Año 2023:* Ingresos Totales de 49.335 millones de EUR; EBITDA de 14.906 millones de EUR; Beneficio Neto de 4.803 millones de EUR.
-  * *Año 2024:* Ingresos Totales de 42.988 millones de EUR; EBITDA de 15.192 millones de EUR; Beneficio Neto de 5.612 millones de EUR.
-  * *Año 2025:* Ingresos Totales de 44.076 millones de EUR; EBITDA de 16.763 millones de EUR; Beneficio Neto de 6.285 millones de EUR.
-  * *Tendencia:* Se observa un incremento constante en la rentabilidad neta y operativa en el trienio analizado a pesar de la volatilidad en las cifras de ingresos totales (que experimentaron un ajuste a la baja en 2024 antes de repuntar en 2025).
-
-* **Balance de Situación:**
-  * *Activos Totales:* Pasaron de 150.033 millones de EUR en 2023 a 160.762 millones de EUR en 2025.
-  * *Patrimonio Neto (Stockholders Equity):* Creció de manera sostenida desde 43.111 millones de EUR (2023) hasta 50.068 millones de EUR (2025).
-  * *Deuda Total:* Registró 61.646 millones de EUR en 2023, 57.731 millones de EUR en 2024 y 57.231 millones de EUR al cierre del ejercicio 2025 (mostrando un ligero proceso de desapalancamiento en los estados auditados previos).
-
-* **Flujos de Caja (Cash Flow):**
-  * *Flujo de Caja Operativo:* 12.130 millones de EUR (2023), 11.925 millones de EUR (2024) y 11.635 millones de EUR (2025).
-  * *Gastos de Capital (CapEx):* -7.877 millones de EUR (2023), -8.375 millones de EUR (2024) y -8.318 millones de EUR (2025).
-  * *Flujo de Caja Libre (FCF):* 4.253 millones de EUR en 2023, 3.550 millones de EUR en 2024 y 3.317 millones de EUR en 2025, reflejando una sólida capacidad de generación de caja a pesar del fuerte esfuerzo inversor en transición energética.
-
----
-
-#### 4. Aspectos Técnicos Recientes
-* **Precio de Cierre (2026-11-20):** 22,67 EUR.
-* **Medias Móviles:** SMA 20 en 22,64 EUR, SMA 50 en 21,58 EUR y SMA 200 en 20,31 EUR. La cotización se sitúa por encima de las principales medias móviles, confirmando una tendencia alcista a medio y largo plazo.
-* **Indicadores de Momento:** RSI de 14 períodos en 55,68 (zona neutral con sesgo positivo). El MACD se sitúa en 0,38 con su línea de señal en 0,46.
-* **Rentabilidades Históricas Recientes:** Retorno a 21 sesiones del +4,28%; a 63 sesiones del +12,62% (con un *relative performance* positivo de +18,52 puntos porcentuales frente al índice); y un retorno anual de 252 sesiones del +29,99%.
-* **Volatilidad y Drawdown:** Volatilidad anualizada del 15,09% y un *drawdown* actual del -4,35% desde máximos recientes.
-
----
-
-#### 5. Noticias Recientes y Factores Exógenos (Noviembre de 2026)
-* **Informes de Deuda Sectorial:** Expansión destacó recientemente a Iberdrola junto con otras
+**Rating**: HOLD
+FINAL TRANSACTION PROPOSAL: No action recommended until further clarity on the legal dispute with Repsol and the resolution of the current valuation premium relative to sector peers.

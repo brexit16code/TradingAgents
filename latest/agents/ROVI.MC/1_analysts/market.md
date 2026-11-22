@@ -1,45 +1,35 @@
-**Rating**: REVIEW
+El análisis de **Laboratorios Farmaceuticos Rovi, S.A. (`ROVI.MC`)** al cierre del 20 de noviembre de 2026 revela una situación técnica y fundamental compleja, marcada por un reciente periodo de corrección tras alcanzar niveles de resistencia en un entorno de mercado español influenciado por la macroeconomía europea.
 
-**Análisis Técnico y Fundamental de Laboratorios Farmaceuticos Rovi, S.A. (`ROVI.MC`)**
+### Análisis Técnico
+Con un precio de cierre de **63,10 EUR**, `ROVI.MC` muestra una tendencia debilitada en el corto plazo:
+*   **Tendencia:** El precio se encuentra por debajo de su media móvil simple de 20 sesiones (66,02 EUR) y de la de 200 sesiones (65,03 EUR), lo que indica una presión vendedora predominante. Sin embargo, se mantiene ligeramente por encima de su media de 50 sesiones (61,50 EUR), actuando esta como un soporte dinámico clave.
+*   **Momentum:** El RSI(14) en **43,49** sugiere que el valor no está sobrevendido ni sobrecomprado, situándose en una zona neutral-bajista que permite mayor recorrido en ambas direcciones. La divergencia negativa entre el MACD (1,73) y su señal (2,29) confirma la pérdida de fuerza en el impulso comprador reciente.
+*   **Volatilidad:** La volatilidad se sitúa en un **27,11%**, reflejando una incertidumbre moderada. El retroceso desde máximos reciente (drawdown del -24,96%) ha corregido los excesos de valoración previos.
 
-### 1. Contexto de Mercado y Datos Actuales
-Con fecha de referencia del 20 de noviembre de 2026, las acciones de Laboratorios Farmaceuticos Rovi, S.A. (`ROVI.MC`) cotizan a un precio de **63.10 EUR**, experimentando una caída en la última sesión registrada de **-4.54%**. El instrumento opera dentro del sector de salud (Healthcare), específicamente en fabricantes de medicamentos especializados y genéricos en el mercado MCE.
+### Análisis Fundamental
+*   **Valoración:** La empresa cotiza a un **trailing P/E de 15,70x** y un **forward P/E de 19,09x**, lo que sugiere que el mercado anticipa un estancamiento o ajuste en el crecimiento de las ganancias para el próximo periodo fiscal.
+*   **Solidez Financiera:** Con un ratio **Net Debt/EBITDA de 0,15x**, la estructura de capital es extremadamente robusta. La capacidad de la empresa para generar flujo de caja libre (97,15 millones de EUR) respalda su política de dividendos, aunque el *payout ratio* actual (25,83%) indica que hay margen para futuras subidas o reinversión estratégica.
+*   **Crecimiento:** Aunque la empresa muestra una tasa de crecimiento de ingresos del 26,4%, los datos de flujo de caja operativo (196,7 millones de EUR) frente a las necesidades de capex (67,8 millones en 2025) confirman que el negocio sigue siendo intensivo en capital pero altamente rentable (ROE del 28,71%).
 
-A continuación, se detallan los indicadores clave recopilados en la instantánea verificada del mercado:
-- **Precio de cierre actual**: 63.10 EUR (`price_date`: 2026-11-20).
-- **RSI (14)**: 43.49, situándose en una zona neutral, ligeramente inclinada hacia la debilidad a corto plazo pero sin alcanzar condiciones de sobreventa estricta (<30).
-- **MACD**: 1.73, frente a una línea de señal (`macd_signal`) de 2.30. La divergencia negativa del MACD respecto a su señal apunta a un momentum reciente a la baja.
-- **Medias Móviles**: 
-  - SMA 20: 66.02 EUR
-  - SMA 50: 61.50 EUR
-  - SMA 200: 65.03 EUR
-- **Volatilidad (27.11%)** y **Drawdown (-24.96%)** desde máximos recientes, lo que refleja un comportamiento de corrección moderada en el medio plazo.
+### Consideraciones Estratégicas
+El consenso de analistas sitúa el precio objetivo medio en **74,78 EUR**, lo que implica un **upside potencial del 18,51%** desde el precio actual. No obstante, la falta de noticias específicas en los últimos 7 días y la atención macroeconómica centrada en los tipos del BCE (reunión del 17 de diciembre) podrían mantener a `ROVI.MC` en un rango de consolidación.
 
-### 2. Análisis Fundamental y Valoración
-Los datos financieros de la compañía reflejan un negocio sólido pero con ciertos ajustes en la previsión de beneficios a corto plazo:
-- **Capitalización de mercado**: 3,227,131,136 EUR.
-- **PER (Trailing)**: 15.47x frente a un PER estimado Forward de 19.15x, lo que sugiere que el mercado anticipa una contracción temporal en el beneficio por acción (BPA pasa de un EPS histórico de 4.08 EUR a un Forward EPS de 3.29 EUR).
-- **Ratio Precio/Valor en Libros (P/B)**: 4.14x.
-- **Deuda y Liquidez**: Deuda total de 100,946,000 EUR y efectivo de 70,916,000 EUR. El ratio de deuda neta sobre EBITDA se sitúa en un saludable **0.15x**, lo que demuestra una posición financiera muy conservadora y bajo apalancamiento.
-- **Rentabilidad por Dividendos (Dividend Yield)**: 1.52%, respaldado por un pago de dividendo anual de 0.96 EUR (payout ratio del 25.83%).
-- **Consenso de Analistas**: El precio objetivo medio fijado por el consenso es de **74.78 EUR** (con un rango entre un mínimo de 67.00 EUR y un máximo de 89.00 EUR a partir de 9 opiniones de analistas), lo que arroja un potencial de revalorización o **upside del 18.51%** sobre el precio actual de 63.10 EUR.
+**Evidencia contradictoria:** Aunque los indicadores de tendencia señalan debilidad, el retorno a 252 días sigue siendo positivo (9,84%), sugiriendo que la corrección actual es una fluctuación dentro de una estructura mayor que aún mantiene fundamentos sólidos.
 
-### 3. Evidencia Cruzada y Fuentes
-- Datos de cotización y fundamentales extraídos directamente de la instantánea de Yahoo Finance (`ROVI.MC`) con fecha de recuperación 2026-11-21.
-- Titulares macroeconómicos recientes de referencia (fechados entre el 15 y el 20 de noviembre de 2026) muestran un entorno de mercados europeo expectante ante las decisiones de tipos del Banco Central Europeo y la evolución macroeconómica general, sin noticias corporativas extraordinarias directas que afecten de forma exclusiva a `ROVI.MC` en los últimos siete días (según la advertencia de que la muestra de titulares no cubre esta empresa en dicho tramo).
+### Resumen de indicadores clave
 
-### 4. Conclusión y Recomendación
-A pesar de que el potencial alcista según el consenso de analistas (18.51%) es atractivo y los fundamentales reflejan una estructura de deuda muy sana y rentabilidades sobre recursos propios elevadas (ROE del 28.71%), el análisis técnico a corto plazo muestra presión vendedora tras la caída del 4.54% y un cruce desfavorable del MACD frente a su señal. Por consiguiente, se clasifica la recomendación como **REVIEW**, aconsejando esperar a una estabilización técnica por encima de la media móvil de 50 sesiones (61.50 EUR) o una confirmación de giro en los indicadores de momentum antes de asumir posiciones.
-
----
-
-| Indicador / Métrica Clave | Valor Actual | Interpretación / Implicación Táctica |
+| Indicador | Valor | Interpretación |
 | :--- | :--- | :--- |
-| **Precio de Cierre (`ROVI.MC`)** | 63.10 EUR | Nivel actual de cotización (sesión del 20-11-2026). |
-| **RSI (14)** | 43.49 | Zona neutral-débil; sin señales claras de sobrecompra ni sobreventa. |
-| **MACD vs Señal** | 1.73 (vs 2.30) | Momentum reciente desfavorable a corto plazo. |
-| **SMA 50 / SMA 200** | 61.50 EUR / 65.03 EUR | Soporte dinámico intermedio en torno a la SMA de 50 periodos. |
-| **Net Debt / EBITDA** | 0.15x | Estructura financiera muy sólida, bajo riesgo de endeudamiento. |
-| **Consenso Target Price** | 74.78 EUR | Potencial teórico alcista del 18.51% según analistas. |
+| Precio Cierre | 63,10 EUR | Debajo de SMA20 y SMA200 |
+| RSI(14) | 43,49 | Neutral (tendencia bajista) |
+| SMA50 | 61,50 EUR | Soporte técnico crítico |
+| Forward P/E | 19,09 | Valoración exigente |
+| Dividend Yield | 1,52% | Rentabilidad moderada |
+| Consensus Upside | 18,51% | Potencial alcista según analistas |
 
-FINAL TRANSACTION PROPOSAL: REVIEW
+**Rating**: Neutral
+
+FINAL TRANSACTION PROPOSAL: Mantener posiciones actuales a la espera de una ruptura clara de la SMA20 (66,02 EUR) para confirmar el cambio de tendencia. Evitar compras incrementales mientras el precio oscile cerca de la SMA50 para reducir el riesgo de "stop-out" en caso de mayor volatilidad macroeconómica.
+
+*Fuentes: [Yahoo Finance ROVI.MC](https://finance.yahoo.com/quote/ROVI.MC/), [Yahoo Finance Financials](https://finance.yahoo.com/quote/ROVI.MC/financials/), noticias macroeconómicas vía El Boletín y Bankinter (20-22 Nov 2026).*
+*Nota: Datos de deuda y flujo de caja basados en estados financieros cerrados al 31-12-2025.*

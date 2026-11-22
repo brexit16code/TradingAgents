@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: ACS.MC presenta una fuerte divergencia entre sus sólidos fundamentales operativos y de crecimiento de beneficios (PER forward de 16.45x y un potencial analítico superior al 55%) frente al castigo técnico severo que sufre la acción, la cual cotiza a 82.80 EUR con un descuento del 40.15% respecto a sus máximos y muy por debajo de la SMA200 (108.48 EUR). Con un RSI en 33.74 acercándose a la sobreventa y un MACD netamente bajista, la evidencia actual aconseja no incrementar exposición ni realizar ventas precipitadas, justificando una postura de mantenimiento hasta que se confirme una reversión técnica.
+**Reasoning**: ACS.MC cotiza a 82.80 EUR mostrando una fuerte corrección técnica y situándose por debajo de sus medias móviles de 50 y 200 sesiones, con un RSI en niveles de debilidad de 33.74 y un drawdown del 40.15 por ciento. No obstante, los sólidos fundamentales de la compañía, su baja ratio de deuda neta sobre EBITDA de 1.02x y la atractiva rentabilidad por dividendo respaldan la tesis de no vender, justificando mantener la postura actual a la espera de una estabilización clara en el soporte.
 
 **Entry Price**: not provided
 
-**Stop Loss**: not provided
+**Stop Loss**: 75.0
 
-**Position Sizing**: Mantener asignación actual neutral
+**Position Sizing**: 3% of portfolio
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

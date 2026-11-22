@@ -1,43 +1,30 @@
-**Rating**: HOLD  
-FINAL TRANSACTION PROPOSAL: Neutral posture with a focus on risk management given the high valuation metrics and recent recovery rally.
+El análisis de **Ferrovial N.V. (`FER.MC`)** al cierre del 20 de noviembre de 2026 muestra un activo en una fase de recuperación técnica significativa, respaldado por un impulso alcista reciente a pesar de un entorno de valoración exigente.
 
-### Informe de Análisis Financiero y Técnico para `FER.MC` (Ferrovial N.V.)
+### Análisis Técnico
+A fecha de 20 de noviembre de 2026, el precio de cierre se sitúa en **52,80 EUR**. Tras observar los indicadores técnicos proporcionados:
+*   **Tendencia:** El activo se encuentra operando por encima de su SMA 50 (48,24 EUR), lo cual es una señal de fortaleza a corto/medio plazo. Sin embargo, sigue por debajo de su SMA 200 (54,20 EUR), lo que indica que aún no ha revertido completamente su tendencia bajista de largo plazo.
+*   **Momentum:** El RSI(14) en **56,68** sugiere una zona neutral-alcista, indicando que aún existe margen antes de entrar en terreno de sobrecompra. El MACD se sitúa en **2,08** y su señal en **2,13**; la proximidad entre ambos sugiere una posible consolidación o una señal de cruce alcista pendiente de confirmación.
+*   **Volatilidad:** Con una volatilidad del **30,93%** y un *drawdown* del **-14,23%**, el activo muestra una recuperación importante, reflejada en el retorno de 21 días del **21,86%**.
 
-#### 1. Contexto de Mercado y Estado Actual
-Ferrovial N.V. (`FER.MC`) cotiza en la bolsa de Madrid (MCE) dentro del sector industrial y de ingeniería y construcción. A fecha de la instantánea de mercado (20 de noviembre de 2026), el precio de cierre de la acción se sitúa en **52,80 EUR**, reflejando una corrección en la última sesión del -2,48%. No obstante, los datos técnicos y las noticias recientes muestran que el valor ha experimentado un fuerte rebote técnico (aproximadamente un 25% a 30% desde los mínimos anuales recientes), impulsado por el optimismo en torno a sus activos de autopistas en EE. UU. (fuente: *El Economista* y *Finanzas.com*, 17-20 de noviembre de 2026).
+### Fundamentos y Valoración
+La valoración de `FER.MC` es el punto de mayor cautela. Con un **Forward PE de 45,40** frente a una mediana de sus pares de 16,45, la acción cotiza con una prima sustancial (ratio 2,76).
+*   **Deuda:** La compañía presenta una estructura financiera con un ratio *net debt/EBITDA* de **4,39**, lo cual es elevado para el sector industrial, requiriendo un seguimiento estricto del flujo de caja operativo (2.488 millones EUR en 2025).
+*   **Crecimiento:** Aunque la empresa muestra un crecimiento de ingresos del 5,2%, el crecimiento de las ganancias ha sido negativo (-52%), sugiriendo presiones en márgenes que el mercado parece estar compensando con expectativas futuras en activos como las autopistas en EE. UU. (según noticias del 16 de noviembre de 2026).
 
-#### 2. Análisis Fundamental y de Valoración
-Los fundamentos de `FER.MC` presentan métricas mixtas con primas de valoración elevadas:
-- **Capitalización de Mercado**: 37.923 millones de EUR.
-- **PER (Trailing / Forward)**: El PER histórico se sitúa en 33.85x, mientras que el PER *forward* asciende a 45.43x, lo que indica expectativas de compresión de beneficios o múltiplos exigentes en comparación con la mediana de sus pares sectoriales (ratio de PER relativo de aproximadamente 2.76x frente a la mediana de pares).
-- **Precio / Valor en Libros (P/B)**: 6.65x, reflejando una valoración robusta respaldada por la calidad de sus infraestructuras concesionales.
-- **Deuda y Apalancamiento**: Presenta una deuda total de aproximadamente 10.657 millones de EUR y un ratio de Deuda Neta / EBITDA de **4.39x** (con un EBITDA de 1.548 millones de EUR y caja de 3.864 millones de EUR).
-- **Consenso de Analistas**: El precio objetivo medio de consenso se sitúa en **59,90 EUR** (con un rango entre 48,50 EUR y 80,00 EUR basado en 20 analistas), lo que ofrece un potencial alcista (*upside*) estimado del **13,44%** desde el precio actual de 52,80 EUR.
-- **Dividendos**: Ofrece una rentabilidad por dividendo (*dividend yield*) del **3,69%** (dividendo anual de 1,95 EUR por acción con un *payout ratio* del 71,24%).
+### Consideraciones Estratégicas
+El consenso de analistas sitúa el precio objetivo medio en **59,90 EUR**, lo que implica un potencial de revalorización del **13,44%**. La estrategia actual parece favorecer a quienes buscan exposición a infraestructura, aunque los niveles de deuda y la valoración actual sugieren que gran parte del optimismo ya está descontado.
 
-#### 3. Análisis Técnico y Dinámica de Precios
-El comportamiento técnico reciente muestra señales de recuperación a medio plazo, aunque con signos de consolidación a corto plazo:
-- **Medias Móviles**: El precio actual (52,80 EUR) se encuentra por encima de su media móvil de 20 sesiones (SMA20 en 52,31 EUR) y de la SMA50 (48,24 EUR), lo que corrobora el impulso alcista de las últimas semanas. Sin embargo, se mantiene ligeramente por debajo de la SMA200 (54,20 EUR), nivel clave de resistencia a largo plazo.
-- **Momentum (RSI y MACD)**: El RSI de 14 períodos se sitúa en **56,68**, indicando una zona neutral con sesgo alcista moderado (lejos de condiciones de sobrecompra extrema). El MACD registra un valor de 2,09 frente a su línea de señal de 2,13, mostrando una leve convergencia bajista o pausa en el ritmo de aceleración del impulso previo.
-- **Volatilidad y Drawdown**: La volatilidad anualizada se sitúa en el 30,93%, y el valor experimenta un *drawdown* del -14,23% respecto a sus máximos previos.
+**Rating**: HOLD
 
-#### 4. Evidencia y Contexto Macroeconómico
-El entorno macroeconómico europeo viene marcado por la evolución de los tipos de interés del Banco Central Europeo (BCE), con reuniones previstas para diciembre de 2026 y debates sobre la gestión de reservas y la política monetaria. En el ámbito doméstico español, la atención de los inversores se divide entre la renta fija a corto plazo (letras del tesoro) y valores defensivos o de infraestructura con flujos de caja estables en dólares y euros como Ferrovial.
-
-#### 5. Datos Faltantes y Limitaciones
-No se dispone de un desglose detallado pormenorizado por tramos geográficos exactos de los contratos de autopistas más allá de las referencias genéricas de prensa sobre EE. UU., ni de las estimaciones detalladas de flujo de caja libre para los próximos tres ejercicios fiscales más allá de los cierres anuales provistos.
-
----
-
-### Resumen Estructurado (Tabla Clave)
-
-| Concepto / Indicador | Valor / Métrica | Implicación para el Inversor |
+| Indicador | Valor | Interpretación |
 | :--- | :--- | :--- |
-| **Precio de Cierre (`FER.MC`)** | 52,80 EUR (20-11-2026) | Corrección moderada (-2,48%) tras el rally mensual. |
-| **Capitalización Bursátil** | 37.923 millones de EUR | Gran capitalización, alta liquidez en MCE. |
-| **Forward P/E** | 45.43x | Valoración exigente; descuenta crecimiento futuro elevado. |
-| **Ratio Deuda Neta / EBITDA** | 4.39x | Apalancamiento moderado-alto propio del sector de concesiones. |
-| **RSI (14)** | 56,68 | Zona neutral-alcista, sin señales de sobrecompra inminente. |
-| **Medias Móviles (SMA50 / SMA200)** | SMA50: 48,24 EUR \| SMA200: 54,20 EUR | Precio superando la SMA50 pero batallando con la resistencia de la SMA200. |
-| **Precio Objetivo Consenso** | 59,90 EUR | Margen alcista estimado del 13,44% según analistas. |
-| **Rentabilidad por Dividendo** | 3,69% (1,95 EUR/acc.) | Atractivo flujo de retorno para inversores por dividendo. |
+| Precio de cierre | 52,80 EUR | Recuperación técnica en curso |
+| SMA 50 | 48,24 EUR | Soporte dinámico importante |
+| SMA 200 | 54,20 EUR | Resistencia clave a largo plazo |
+| RSI (14) | 56,68 | Neutral-Alcista |
+| Forward PE | 45,40 | Valoración alta respecto a pares |
+| Consenso Upside | 13,44% | Potencial alcista según analistas |
+
+**Notas:** La información se basa en los datos al 22 de noviembre de 2026. La métrica de *net debt/EBITDA* se ha calculado con base en la evidencia suministrada. Falta información sobre el impacto específico de los cambios en las reservas mínimas del BCE anunciados el 19 de noviembre de 2026 sobre el costo de financiamiento futuro de la compañía.
+
+FINAL TRANSACTION PROPOSAL: Monitorizar la consolidación por encima de la SMA 50 antes de considerar nuevas posiciones, dado que la valoración actual (PE elevado) limita el margen de seguridad. No se recomienda aumentar exposición si el precio no logra romper y sostener la SMA 200.

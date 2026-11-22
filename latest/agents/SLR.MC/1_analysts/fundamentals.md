@@ -1,36 +1,42 @@
-Este informe presenta un análisis fundamental de **Solaria Energía y Medio Ambiente, S.A. (`SLR.MC`)** basado en los datos financieros y de mercado disponibles a fecha del 21 de noviembre de 2026.
+Aquí presento un informe fundamental detallado sobre **SLR.MC** (Solaria Energía y Medio Ambiente, S.A.) basado en los datos proporcionados al 22 de noviembre de 2026.
 
-### 1. Perfil y Contexto Estratégico
-Solaria, clasificada dentro del sector de *Utilities - Renewable*, se encuentra en un momento crítico tras la presentación de sus resultados de los primeros nueve meses de 2026 y la celebración de su *Capital Markets Day*. A pesar de un crecimiento operativo sólido, el mercado ha reaccionado con escepticismo, provocando una caída del 5,4% el 19 de noviembre de 2026, lo que subraya una sensibilidad alta a la actualización de sus previsiones y nuevas estrategias (especialmente en centros de datos).
+### Análisis de la Situación Actual: Solaria Energía y Medio Ambiente, S.A. (SLR.MC)
 
-### 2. Análisis Financiero
-*   **Resultados Recientes:** Solaria ha demostrado capacidad de crecimiento con un beneficio neto de 177,94 millones de euros en los primeros nueve meses de 2026. Las ventas han duplicado hasta los 260 millones de euros y el EBITDA ha crecido un 30% respecto al mismo periodo anterior (Fuente: *Solaria – Energía y Medio Ambiente*, 19/11/2026).
-*   **Valoración:** La compañía cotiza con un PER *forward* de 8,02x y un *trailing PE* de 7,69x. Esto, comparado con una mediana del sector de 16,83x, sugiere que el mercado valora a Solaria con un descuento significativo (ratio 0,47x), lo que podría indicar una infravaloración o, alternativamente, una prima de riesgo elevada por parte de los inversores debido a su estrategia de endeudamiento.
-*   **Balance y Solvencia:** El endeudamiento total asciende a 1.547 millones de euros frente a 126,8 millones en efectivo. La ratio *Net Debt/EBITDA* se sitúa en 4,41x, un nivel que requiere un monitoreo estrecho en un entorno de tipos de interés que aún generan incertidumbre (véase titulares sobre el BCE).
+Solaria, una empresa del sector de servicios públicos renovables (Utilities - Renewable) que cotiza en el mercado continuo español (MCE), atraviesa un momento de alta volatilidad y presión bajista.
 
-### 3. Perspectivas y Riesgos
-*   **Factores Positivos:** El crecimiento constante en los estados financieros (aumento de activos de 1.648M€ en 2023 a 2.443M€ en 2025) y una sólida rentabilidad sobre fondos propios (*ROE*) del 18,9% respaldan la viabilidad del negocio principal.
-*   **Factores Negativos:** El mercado penalizó las nuevas previsiones y el plan de centros de datos, sugiriendo dudas sobre la ejecución o la carga financiera que esto implica. El flujo de caja libre (*Free Cash Flow*) ha sido negativo en los periodos recientes (-260M€ en 2025) debido a un elevado gasto de capital (*Capex*), lo cual es típico en empresas en expansión, pero presiona la liquidez.
-*   **Análisis Técnico (Contexto):** Con un RSI de 35,6, la acción se acerca a territorio de sobreventa, aunque el *momentum* (MACD negativo) y una SMA20 (15,42) significativamente por debajo de la SMA200 (19,47) confirman una tendencia bajista de medio plazo.
+#### 1. Desempeño Financiero y Valoración
+*   **Rentabilidad:** Solaria muestra una capacidad de generación de ingresos interesante, con un margen de beneficio del 47,25%. El beneficio neto hasta septiembre de 2026 alcanzó los 177,94 millones de euros.
+*   **Valoración:** La empresa cotiza a un ratio Precio/Beneficio (PE) de 7,7x (trailing) y 8,02x (forward), lo cual se considera bajo en comparación con su sector (peer median forward PE de 16,83x), lo que indica una valoración descontada respecto a sus comparables. Sin embargo, su ratio P/B es de 1,66x.
+*   **Deuda y Solvencia:** Presenta una situación financiera tensa con una deuda total de 1.547 millones de euros y un nivel de endeudamiento neto/EBITDA de 4,42x, lo que limita su flexibilidad financiera ante entornos de tipos de interés altos o restrictivos.
+*   **Flujo de Caja:** Los datos de 2025 muestran una fuerte inversión (Capex) de -398,26 millones de euros, lo que resultó en un flujo de caja libre negativo (-260,10 millones). Esto subraya el carácter intensivo en capital de su estrategia de expansión.
 
-### 4. Datos Faltantes
-*   No se dispone de datos de *Operating Cash Flow* ni *Free Cash Flow* actualizados para el año 2026 completo, lo que dificulta evaluar si la conversión de beneficios a caja ha mejorado tras el intenso *capex* de 2025.
-*   No hay registros de transacciones internas (insider trading) disponibles en este conjunto de datos.
+#### 2. Sentimiento de Mercado y Noticias Recientes
+El sentimiento inversor ha sido predominantemente negativo durante la última semana:
+*   **Reacción tras Capital Markets Day:** Las acciones cayeron un 5,4% el 19 de noviembre de 2026, tras presentar resultados y actualizar su estrategia, lo que sugiere que el mercado no encontró suficientes catalizadores positivos o que los objetivos no cumplieron las expectativas más optimistas.
+*   **Cuestionamientos operativos:** Han surgido dudas sobre sus proyectos internacionales, específicamente interrogantes sobre sus operaciones en Uruguay, lo que ha añadido presión al valor en los mercados internacionales (Noticia: *Diario La R*, 22/11/2026).
+*   **Recomendaciones:** El consenso de analistas (15 opiniones) mantiene un precio objetivo medio de 22,04 EUR, lo que implica una fuerte divergencia con el precio actual de 13,77 EUR (upside potencial del 60%).
 
-### Resumen de Indicadores Clave
+#### 3. Análisis Técnico
+*   **Tendencia:** El valor muestra una tendencia bajista clara, cotizando por debajo de sus medias móviles clave (SMA20: 15,43; SMA50: 15,81; SMA200: 19,48).
+*   **Momentum:** El RSI de 35,62 sugiere que el valor se acerca a una zona de sobreventa, pero el MACD se mantiene por debajo de su señal, indicando que la tendencia bajista sigue vigente.
+*   **Volatilidad:** La volatilidad es elevada (55,1%), y el valor ha sufrido un drawdown del 46,5%, reflejando una pérdida significativa de confianza por parte de los inversores en el último año.
 
-| Indicador | Valor / Nota |
+### Perspectiva para el Inversor
+El perfil de Solaria es el de un activo de alto riesgo con una valoración fundamental atractiva (bajo múltiplo de beneficios) pero con una ejecución técnica muy debilitada. La falta de dividendo y la necesidad de altos niveles de capital para el crecimiento son factores críticos. Los inversores deben vigilar si la empresa logra estabilizar sus flujos de caja y resolver las dudas operativas en el extranjero.
+
+**Rating**: HOLD
+
+| Concepto | Valor / Nota |
 | :--- | :--- |
-| **Precio Actual** | 13,77 EUR |
-| **Market Cap** | 1.813 M€ |
-| **PER Forward** | 8,02x |
-| **Consensus Upside** | 60% |
-| **Net Debt/EBITDA** | 4,41x |
-| **RSI (14)** | 35,6 (Tendencia bajista) |
-| **Tendencia Precio** | -2,7% (diario) / -19,4% (trimestral) |
+| **Precio Actual (20-nov-2026)** | 13,77 EUR |
+| **Capitalización de Mercado** | 1.813,43 M EUR |
+| **PE Forward** | 8,02x |
+| **Margen de Beneficio** | 47,25% |
+| **Net Debt/EBITDA** | 4,42x |
+| **Consenso Precio Objetivo** | 22,04 EUR |
+| **Tendencia técnica** | Bajista (bajo SMA 20, 50, 200) |
+| **RSI (14)** | 35,62 (Cerca de sobreventa) |
 
-**Rating**: REVIEW
+*Nota: La información está basada en datos suministrados a fecha 22/11/2026. Los estados financieros consolidados para el ejercicio 2026 completo aún no están disponibles, lo cual supone una limitación temporal para proyectar el cierre del año actual.*
 
-*Nota: La disparidad entre el precio de mercado (13,77 €) y el precio objetivo medio de los analistas (22,04 €) sugiere un potencial alcista teórico considerable, pero los inversores deben considerar la alta volatilidad (55%) y la reacción negativa reciente a los anuncios estratégicos.*
-
-FINAL TRANSACTION PROPOSAL: No trade execution or recommendation provided. This is for informational purposes based on historical and reported data.
+FINAL TRANSACTION PROPOSAL: None.

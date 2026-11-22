@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: El valor presenta señales mixtas donde la solidez en el pago de dividendos y la estabilidad institucional son compensadas por una tendencia técnica de corto plazo bajista, con el precio cotizando por debajo de sus medias móviles de 20 y 50 días. El RSI y el MACD indican una falta de impulso comprador, y la valoración actual ya cotiza con una prima respecto al sector, lo que sugiere limitar la exposición hasta que se recupere la zona de resistencia técnica de los 3.35 EUR.
+**Reasoning**: Unicaja Banco muestra una estructura técnica delicada al situarse bajo su SMA20 y SMA50, reflejando una presión vendedora a corto plazo. Aunque su valoración por dividendo y su posición sobre la SMA200 (3.004) ofrecen un soporte sólido, la incertidumbre sobre la gobernanza y los riesgos regulatorios del BCE limitan el potencial de subida a corto plazo. Dada la escasez de flujo de caja libre, la estrategia prudente es mantener la posición actual y esperar una estabilización por encima del soporte técnico antes de considerar aumentar la exposición.
 
 **Entry Price**: 3.0
 
 **Stop Loss**: 2.9
 
-**Position Sizing**: Mantener posición actual, no incrementar exposición neta.
+**Position Sizing**: No exceder el 3% de la cartera
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: El valor AMS.MC cotiza en 59.74 EUR, manteniendo una estructura técnica neutral con el RSI en 53.21 y consolidando por encima de su SMA de 200 sesiones situada en 52.70 EUR. Aunque los fundamentales son sólidos con un Forward P/E de 15.28x y un potencial de consenso hasta 70.86 EUR, los indicadores de impulso como el MACD muestran un enfriamiento a corto plazo. Por ello, se recomienda mantener la posición actual y no ejecutar nuevas entradas hasta observar una superación clara de resistencias o un acercamiento al soporte fundamental.
+**Reasoning**: Amadeus IT Group, S.A. (AMS.MC) cotiza a 59.74 EUR, mostrando sólidos fundamentales con un ROE del 26.43% y un forward P/E de 15.28x que respalda el consenso alcista de 70.86 EUR. Sin embargo, técnicamente el valor muestra signos de consolidación neutral con un RSI en 53.21 y una cotización oscilando sobre su media móvil de 20 sesiones (59.89 EUR), lo que justifica una postura de espera sin ampliar posiciones.
 
-**Entry Price**: 59.74
+**Entry Price**: not provided
 
-**Stop Loss**: 53.0
+**Stop Loss**: 56.28
 
-**Position Sizing**: Mantener exposición actual
+**Position Sizing**: 5% of portfolio
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

@@ -1,10 +1,12 @@
 
-Conservative Analyst: **Rating**: REVIEW
+Conservative Analyst: Es imperativo que abordemos la euforia del Analista Agresivo con una dosis de realidad financiera. Calificar a `ROVI.MC` como una "joya infravalorada" basándose únicamente en el ROE y el nivel de deuda es una simplificación peligrosa que ignora la dinámica actual del mercado. Si bien la solidez del balance es indiscutible, estamos operando en un entorno de incertidumbre macroeconómica donde la política del BCE, con una posible subida de tipos encubierta mediante el incremento de reservas mínimas, puede comprimir los múltiplos de valoración de todo el sector salud.
+
+Mi colega sugiere que la volatilidad del 27% es una "prima de riesgo", pero desde una perspectiva de gestión de activos, esto es un riesgo operativo real. El Analista Agresivo ignora que el forward P/E de 19,09x frente a un histórico de 15,70x sugiere que el mercado ya está descontando una contracción en las ganancias futuras. Comprar hoy, bajo la premisa de que el precio está "regalado", es ignorar que el precio ha caído un 25% desde máximos. ¿Es un regalo o estamos atrapando un cuchillo cayendo hacia el soporte de los 61,50 EUR? La ruptura de este nivel técnico no es una posibilidad remota, es una amenaza latente si el sentimiento macro empeora.
+
+Propongo que la disciplina supera a la ambición. Mantener una posición de 0,5x es la medida correcta para proteger el capital mientras la tendencia de medio plazo (SMA20 y SMA200) sigue presionando a la baja. No debemos confundir una buena empresa con una buena oportunidad de entrada inmediata. La "plataforma de lanzamiento" que menciona el analista agresivo puede convertirse fácilmente en un suelo que cede bajo el peso de la presión vendedora. Un gestor de riesgos no busca el retorno máximo en cada sesión, sino la supervivencia y la preservación del capital para desplegarlo cuando la confirmación técnica —por encima de los 66,02 EUR— reduzca nuestra exposición al riesgo de "stop-out".
+
+La prudencia no es parálisis, es la salvaguarda que impide que los errores de juicio de otros se conviertan en pérdidas reales para nuestra firma. Si el mercado corrige, estaremos posicionados con liquidez para comprar más barato; si sube, habremos confirmado una tendencia real. En ambos casos, nuestra postura asegura la sostenibilidad del activo a largo plazo.
+
+**Rating**: HOLD
 
 FINAL TRANSACTION PROPOSAL: **HOLD**
-
-Colega agresivo, tus argumentos sobre la solidez fundamental de `ROVI.MC` son ciertos en teoría, pero desestiman por completo los riesgos bajistas tangibles que amenazan el capital de la firma. Celebrar un ROE del 28.71% y una deuda neta sobre EBITDA de 0.15x es correcto, pero ignorar que los ingresos netos de la compañía se han contraído de 829.5 millones de euros en 2023 a 743.4 millones en 2025 es una peligrosa miopía que pone en riesgo la sostenibilidad a largo plazo. 
-
-Tachas de "temor coyuntural" la bajada del -4.54% y la debilidad del MACD, pero olvidas que el valor cotiza actualmente a 63.10 EUR, muy cerca de su media móvil de 50 sesiones en 61.50 EUR, un nivel crítico de soporte que, de romperse, activará un riesgo de pérdida de capital mucho mayor. Un perfil prudente no puede permitirse minimizar una volatilidad del 27.11% ni un drawdown del -24.96%. Confiar ciegamente en un precio objetivo medio de consenso de 74.78 EUR sin exigir evidencias técnicas de suelo o un giro real en el momentum es especular, no analizar riesgos. 
-
-Por estas razones, mantener la posición sin realizar ninguna adición es la única respuesta sensata para proteger nuestros activos y evitar una exposición prematura a una tendencia bajista que aún no ha demostrado su agotamiento.

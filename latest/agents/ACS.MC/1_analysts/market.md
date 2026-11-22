@@ -1,56 +1,45 @@
-**Rating**: REVIEW
-
-# Informe de Análisis Técnico y Fundamental: ACS.MC (Actividades de Construcción y Servicios, S.A.)
-
-## 1. Contexto de Mercado y Estado Actual
-A fecha de 21 de noviembre de 2026 (con datos de cierre de sesión a 20 de noviembre de 2026), la acción de **ACS.MC** cotiza a un precio de **82.80 EUR**, experimentando un retroceso diario del **-4.50%**. El valor se encuentra inmerso en una fase bajista a corto y medio plazo, acumulando una caída del **-4.77%** en los últimos 21 días y del **-20.61%** en los últimos 63 días. Su *drawdown* actual alcanza el **-40.15%** desde sus máximos, situándose significativamente por debajo de sus medias móviles clave (SMA20 en 89.61 EUR, SMA50 en 91.06 EUR y SMA200 en 108.48 EUR).
-
-A nivel macroeconómico y de sentimiento de mercado, el valor se ha visto presionado recientemente en el contexto del IBEX 35 (según informes de agencias como Estrategias de Inversión y Yahoo del 20 de noviembre de 2026), mientras que por otro lado mantiene un atractivo fundamental respaldado por expectativas de analistas y sólidos datos financieros.
+**Rating**: HOLD  
+FINAL TRANSACTION PROPOSAL: Mantener posición a la espera de una estabilización en los niveles de soporte actuales (~82.80 EUR) o una confirmación de recuperación de la media móvil de 50 sesiones, evitando nuevas entradas en tanto el impulso bajista a corto plazo siga activo.
 
 ---
 
-## 2. Análisis Fundamental y Financiero
-Basado en los estados financieros y métricas fundamentales proporcionados:
-* **Capitalización de mercado:** ~21.530 millones de EUR.
-* **Ingresos (2025):** 49.847,68 millones de EUR (frente a 41.633,12 millones en 2024), mostrando un crecimiento interanual de los ingresos del **19.4%**.
-* **Beneficio Neto (2025):** 950,34 millones de EUR (superando los 827,58 millones de 2024), con un crecimiento de beneficios del **35.5%**.
-* **EBITDA (2025):** 3.387,89 millones de EUR (EBITDA reportado en instantánea de 2.458,64 millones, con deuda total de 14.428 millones y caja de 11.918 millones).
-* **Ratio de endeudamiento (Net Debt / EBITDA):** 1.02x, lo que refleja una estructura de capital relativamente saneada y controlada para el sector industrial.
-* **Valoraciones y Múltiplos:** PER histórico (*trailing*) de **17.00x** y PER adelantado (*forward*) de **16.45x**. El ratio precio/valor en libros (*Price to Book*) es de **3.82x**.
-* **Dividendos:** Rentabilidad por dividendo (*dividend yield*) del **2.80%**, con un dividendo por acción de 2.32 EUR y un *payout ratio* del 57.13%.
-* **Consenso de Analistas:** El precio objetivo medio de consenso se sitúa en **128.54 EUR** (con un rango entre un mínimo de 99.75 EUR y un máximo de 153.10 EUR, analizado a partir de 17 opiniones), lo que representa un potencial alcista estimado del **55.24%** desde el nivel actual de 82.80 EUR. Entidades como Bank of America han emitido valoraciones destacando un potencial alcista reseñable (informes publicados a mediados de noviembre de 2026).
+### Informe de Análisis Técnico y Fundamental: ACS.MC (Actividades de Construcción y Servicios, S.A.)
+
+#### 1. Contexto de Mercado y Datos de Cotización
+A fecha de 22 de noviembre de 2026 (con última sesión de precios del 20 de noviembre de 2026), la acción de **ACS.MC** cotiza a un precio de **82.80 EUR**, reflejando una corrección significativa en el corto plazo con una caída del **-4.50%** en la última sesión registrada y un descenso del **-4.77%** en los últimos 21 días (retorno a 63 sesiones del **-20.61%**). El título se encuentra experimentando un retroceso importante desde sus máximos, situándose en un *drawdown* del **-40.15%**, aunque mantiene una rentabilidad interanual positiva del **+7.84%** en el horizonte de 252 sesiones.
+
+#### 2. Análisis Técnico e Indicadores Seleccionados
+De acuerdo con las directrices de selección de indicadores diversificados para evaluar la situación actual de mercado de **ACS.MC**, se han analizado los siguientes parámetros técnicos clave extraídos de la instantánea verificada:
+*   **close_50_sma (91.06 EUR)** y **close_200_sma (108.48 EUR)**: Ambas medias móviles reflejan la tendencia bajista de medio y largo plazo en la que se encuentra el valor. El precio de 82.80 EUR se sitúa netamente por debajo de ambas referencias, confirmando una estructura de corrección profunda. La SMA de 50 actúa actualmente como resistencia dinámica inmediata.
+*   **close_10_ema**: Al encontrarse el precio por debajo de las medias de referencia rápida, refleja la presión vendedora inmediata.
+*   **rsi (33.74)**: El Índice de Fuerza Relativa se encuentra en las proximidades del nivel de sobreventa (30), lo que sugiere que la intensidad vendedora reciente es elevada, abriendo la puerta a posibles rebotes técnicos de alivio o consolidación en el corto plazo, aunque sin mostrar todavía una divergencia alcista consolidada.
+*   **macd (-1.33)** y **macds (-0.92)**: El indicador MACD y su línea de señal se sitúan en terreno negativo, con la línea MACD por debajo de su señal, validando la persistencia del impulso bajista.
+*   **atr (Volatilidad del 33.95%)**: Muestra un perfil de volatilidad elevado, lo que exige precaución en la dimensionamiento de posiciones y en la colocación de *stop-losses*.
+*   **boll (Bollinger Middle / SMA 20: 89.61 EUR)**, **boll_ub** y **boll_lb**: El precio actual (82.80 EUR) perfora la banda inferior de Bollinger, un indicio técnico de sobrextensión bajista a corto plazo que incrementa la probabilidad de movimientos de reversión hacia la media en ausencia de noticias adversas adicionales.
+
+#### 3. Análisis Fundamental y Situación Financiera
+Los datos fundamentales de **ACS.MC** reflejan una compañía de gran solidez en el sector de Industrials / Engineering & Construction, con una capitalización bursátil de **21.525.891.072 EUR**. 
+*   **Valoración**: Presenta un *Trailing P/E* de **17.00x** y un *Forward P/E* de **16.44x**, con un beneficio por acción estimado (*Forward EPS*) de **5.03 EUR** (frente a un EPS histórico de **4.87 EUR**). El ratio Precio/Valor en Libros (*Price to Book*) se sitúa en **3.82x** sobre un valor contable por acción de **21.70 EUR**.
+*   **Rentabilidad y Dividendos**: Ofrece una rentabilidad por dividendo (*dividend yield*) atractiva del **2.81%** (tasa de dividendo de **2.32 EUR**, con *payout ratio* del **57.13%**).
+*   **Endeudamiento y Solvencia**: La deuda total asciende a **14.428.000.256 EUR** (frente a una caja total de **11.918.000.128 EUR**), lo que sitúa la ratio de deuda neta sobre EBITDA (*net_debt_ebitda*) en un nivel moderado de **1.02x**, evidenciando una sólida estructura de balance. El EBITDA reportado alcanza los **2.458.636.032 EUR** (con ingresos totales en 2025 de **49.847.681.000 EUR** y un beneficio neto de **950.340.000 EUR**).
+*   **Consenso de Analistas**: El precio objetivo medio de consenso (*targetMeanPrice*) se sitúa en **128.54 EUR** (con un rango entre un mínimo de **99.75 EUR** y un máximo de **153.10 EUR** aportado por 17 analistas), lo que representa un potencial alcista estimado (*consensus_upside_pct*) del **+55.24%**.
+
+#### 4. Noticias Recientes y Factores Catalizadores
+*   **Centros de Datos**: La compañía continúa diversificando su cartera de pedidos con un fuerte foco en el desarrollo de centros de datos, según informes recientes de prensa económica (*La Vanguardia*, 21 de noviembre de 2026), lo que refuerza su posicionamiento estratégico en sectores de alta demanda tecnológica.
+*   **Contexto Macro y Bursátil**: Las tensiones recientes en el selectivo español (Ibex 35) han presionado a la baja a valores industriales como ACS, en una semana marcada por la agenda macroeconómica global y europea (tipos del BCE, IPC y PIB), según fuentes de *Estrategias de Inversión* y *Bankinter* (20 de noviembre de 2026).
+
+#### 5. Datos Faltantes y Advertencias
+*   *Datos faltantes*: No se dispone del desglose pormenorizado diario de volúmenes institucionales específicos fuera del consolidado de la instantánea.
+*   *Advertencias*: Las estimaciones de analistas y precios objetivos representan expectativas de consenso y no constituyen garantías de rentabilidad futura. Las decisiones de inversión deben ajustarse al perfil de riesgo individual.
 
 ---
 
-## 3. Indicadores Técnicos Seleccionados y Dinámica de Momento
-De acuerdo con las directrices de selección de indicadores complementarios y no redundantes para evaluar la situación técnica de **ACS.MC**:
+### Resumen de Indicadores y Métricas Clave (ACS.MC)
 
-1. **close_50_sma (50 SMA - 91.06 EUR):** Actúa como referencia de tendencia a medio plazo. Al encontrarse la cotización (82.80 EUR) claramente por debajo, confirma el sesgo bajista actual.
-2. **close_200_sma (200 SMA - 108.48 EUR):** Confirma la tendencia de largo plazo. La distancia al precio actual evidencia un mercado bajista prolongado.
-3. **macd (MACD - -1.33):** Situado en terreno negativo, refleja la pérdida de tracción compradora y el dominio de la presión vendedora.
-4. **macds (MACD Signal - -0.92):** Línea de señal superior al MACD, manteniendo un cruce bajista activo que corrobora la debilidad temporal.
-5. **rsi (RSI 14 - 33.74):** Indicador de momento que se aproxima peligrosamente a la zona de sobreventa (situada por debajo de 30). Esto sugiere que, si bien la presión bajista es intensa, el valor podría experimentar rebotes técnicos de alivio a corto plazo, aunque requiere confirmación de tendencia.
-6. **atr (Volatilidad ATR / Volatilidad porcentual - 33.95%):** Muestra un perfil de volatilidad elevado, lo que exige precaución en la gestión del riesgo y dimensionamiento de posiciones mediante stop-loss dinámicos.
-
----
-
-## 4. Evidencia y Fuentes Consultadas
-* **Datos de cotización y técnicos:** Extraídos de la instantánea de mercado de `ACS.MC` con fecha de precio 2026-11-20 (Cierre: 82.80 EUR, RSI: 33.74, SMA200: 108.48 EUR).
-* **Noticias y contexto:**
-  * *Estrategias de Inversión / Yahoo* (20 de noviembre de 2026): "El Ibex 35 intenta aguantar los 19.000 puntos pese al castigo liderado por las acereras y ACS".
-  * *Estrategias de Inversión* (16 de noviembre de 2026): "Bank of America ve un potencial alcista del 50% en ACS".
-  * *OkDiario* (15 de noviembre de 2026): "ACS convence a los analistas con el impulso de la IA: ven potencial en Bolsa tras disparar un 35% su beneficio".
-* **Datos faltantes / Limitaciones:** No se dispone de un desglose detallado de flujos de caja intradía ni de carteras de inversión simuladas. Las valoraciones de analistas son estimaciones de consenso y no garantías de rendimiento futuro.
-
----
-
-## 5. Tabla Resumen de Indicadores y Métricas Clave
-
-| Métrica / Indicador | Valor / Nivel Actual | Interpretación Técnica / Fundamental |
+| Categoría / Métrica | Indicador / Valor | Interpretación y Estado Técnico |
 | :--- | :--- | :--- |
-| **Precio de Cierre (`ACS.MC`)** | 82.80 EUR (20-11-2026) | Corrección bajista pronunciada (-4.50% diario). |
-| **RSI (14)** | 33.74 | Próximo a sobreventa; alerta de posible agotamiento bajista a corto plazo. |
-| **MACD / Señal** | -1.33 / -0.92 | Momento bajista activo con cruce desfavorable. |
-| **SMA 50 / SMA 200** | 91.06 EUR / 108.48 EUR | Tendencia bajista definida a medio y largo plazo (precio por debajo de ambas). |
-| **Volatilidad (Vol. Pct)** | 33.95% | Alta volatilidad; requiere gestión estricta del riesgo. |
-| **PER Forward** | 16.45x | Valoración moderada en relación con el crecimiento de beneficios. |
+| **Precio de Cotización** | 82.80 EUR (20-11-2026) | Corrección de corto plazo (-4.50% diario, -40.15% desde máximos). |
+| **Tendencia Corto/Medio** | `close_50_sma` (91.06 EUR) | Precio cotiza por debajo de la media de 50 sesiones (resistencia dinámica). |
+| **Tendencia Largo Plazo** | `close_200_sma` (108.48 EUR) | Estructura de largo plazo presionado a la baja; tendencia principal bajista. |
+| **Momentum / Sobreventa**| `rsi` (33.74) | Próximo al nivel crítico de sobreventa (30); potencial rebote técnico. |
+| **Dirección de Impulso** | `macd` (-1.3

@@ -1,25 +1,42 @@
 **Rating**: REVIEW
 
-**ANÁLISIS DE CORPORACIÓN ACCIONA ENERGÍAS RENOVABLES, S.A. (`ANE.MC`) Y CONTEXTO MACROECONÓMICO**
+**FINAL TRANSACTION PROPOSAL**: HOLD
 
-### 1. Resumen Ejecutivo y Estado Actual de `ANE.MC`
-Corporación Acciona Energías Renovables, S.A. (`ANE.MC`) cotiza a **18,69 EUR** por acción (cierre al 20/11/2026), registrando una caída diaria del **-3,51%** y acumulando un descenso del **-12,58%** en los últimos 21 días y un **-23,30%** desde sus máximos recientes (drawdown). La capitalización bursátil de la compañía se sitúa en aproximadamente **6.065,8 millones de EUR**.
+### Informe de Análisis Macroeconómico y Fundamental: Corporación Acciona Energías Renovables, S.A. (`ANE.MC`)
 
-Recientemente, la acción se ha visto penalizada de manera directa por noticias corporativas adversas. Tal como destaca el titular de prensa de *Merca2.es* del 15 de noviembre de 2026: *"Acciona y Acciona Energía se desploman en bolsa al frustrarse sus planes de desinversión"*. Este contratiempo estratégico ha incrementado la presión bajista sobre el valor, situando el indicador técnico RSI(14) en **29,23** (territorio de sobreventa), con un MACD negativo (-0,533) y cotizando por debajo de sus medias móviles clave (SMA20: 21,12 EUR, SMA50: 21,48 EUR y SMA200: 21,80 EUR).
+#### 1. Resumen Ejecutivo y Estado Actual
+Corporación Acciona Energías Renovables, S.A. (`ANE.MC`) cotiza en la Bolsa de Madrid (MCE) dentro del sector de Utilities (Energías Renovables) bajo el índice de referencia IBEX 35 (`^IBEX`). A fecha del último precio disponible (20 de noviembre de 2026), la acción se sitúa en **18,69 EUR**, experimentando una caída intradía del -3,51% y acumulando un descenso del -12,58% en el último mes y un -23,30% desde sus máximos recientes (drawdown). 
 
-### 2. Fundamentos Financieros y Valoración
-* **Ingresos y Rentabilidad:** En el ejercicio cerrado a 31 de diciembre de 2025, `ANE.MC` reportó unos ingresos totales de **2.925 millones de EUR** (frente a los 3.048 millones de 2024 y 3.547 millones de 2023), con un beneficio neto de **655 millones de EUR** y un EBITDA de **1.484 millones de EUR**.
-* **Múltiplos de Valoración:** El PER histórico (Trailing P/E) se sitúa en **32,79x**, mientras que el PER forward estimado es de **27,76x**. El ratio EV/EBITDA se sitúa en **11,67x**. En comparación con el sector de utilities analizado en el entorno de referencia (mediana del forward PE de pares de **16,83x**), `ANE.MC` presenta un PER relativo superior con un ratio de **1,65x**, lo que denota una valoración exigente frente a sus comparables domésticos (como Iberdrola, Endesa o Naturgy).
-* **Deuda y Flujo de Caja:** La deuda total asciende a **5.410,9 millones de EUR** (con un endeudamiento neto sobre EBITDA de **5,06x**), y la compañía mantiene una posición de caja de **495 millones de EUR**. El flujo de caja libre (*free cash flow*) anualizado se mantiene en terreno negativo (**-408,7 millones de EUR** en las métricas actuales / **-596 millones de EUR** en el cierre fiscal 2025), lastrado por un intenso esfuerzo inversor en CapEx (**-979 millones de EUR** en 2025).
-* **Dividendo:** Ofrece una rentabilidad por dividendo (*dividend yield*) declarada del **16,05%** (con un dividendo por acción de 3,00 EUR y un *payout ratio* del 5,27% sobre las métricas reportadas).
-* **Consenso de Analistas:** El precio objetivo medio de consenso se sitúa en **23,33 EUR** (con un rango entre un mínimo de 17,00 EUR y un máximo de 28,30 EUR según 19 analistas), lo que implica un potencial alcista (*consensus upside*) teórico del **24,81%** desde el precio actual de 18,69 EUR.
+El análisis técnico refleja una situación de debilidad a corto plazo: el RSI de 14 períodos se encuentra en **29,23**, lo que indica que el valor roza la zona de sobreventa, mientras que el MACD se mantiene en terreno negativo (-0,533) por debajo de su línea de señal. Las medias móviles simples a 20, 50 y 200 sesiones se ubican en 21,12 EUR, 21,49 EUR y 21,80 EUR respectivamente, confirmando una tendencia bajista de medio y largo plazo.
 
-### 3. Contexto Macroeconómico e Incertidumbre de Tipos
-El comportamiento bursátil del sector de energías renovables en España y Europa continúa condicionado por la política monetaria del Banco Central Europeo (BCE). Los titulares de la semana del 16 al 20 de noviembre de 2026 apuntan a una alta atención sobre los movimientos de tipos de interés y la próxima reunión del BCE programada para el **17 de diciembre de 2026**. Informes de medios como *El Economista* y *Radio Intereconomía* señalan la preparación de ajustes normativos e incrementos en las reservas mínimas obligatorias bancarias (interpretados como subidas de tipos "por la puerta atrás"), en un contexto donde los hogares españoles mantienen un apetito elevado por activos seguros como las letras del tesoro (superando los 23.000 millones de euros invertidos). Unos tipos de interés persistentemente elevados incrementan los costes financieros de la elevada deuda de `ANE.MC` y comprimen la valoración de sus flujos de caja futuros descontados.
+#### 2. Fundamentos Financieros y Valoración
+* **Capitalización de Mercado:** ~6.065 millones de EUR.
+* **Múltiplos de Valoración:** PER histórico (trailing) de **32,79x** y PER adelantado (forward) de **27,76x**. Su Price-to-Book (P/B) se sitúa en **0,98x**, reflejando que cotiza ligeramente por debajo de su valor contable (Book Value de 19,10 EUR por acción).
+* **Deuda y Solvencia:** La compañía presenta una deuda total de 5.411 millones de EUR (frente a 5.164 millones en 2025 y 5.442 millones en 2024), con un apalancamiento expresado como Deuda Neta / EBITDA de **5,06x** (EBITDA de 971 millones de EUR).
+* **Flujos de Caja:** Los datos muestran flujos de caja libres negativos (Free Cash Flow de -408,7 millones de EUR en los datos agregados y -596 millones en el cierre fiscal de 2025), impulsados por un ambicioso plan de inversión/Capex histórico (-979 millones en 2025).
+* **Dividendos:** Ofrece una rentabilidad por dividendo (*dividend yield*) teórica del **16,05%** sobre el precio actual (con un dividendo por acción de 0,03 EUR reportado, sujeto a políticas de retribución corporativa y su sostenibilidad frente al FCF negativo).
+* **Consenso de Analistas:** El precio objetivo medio de los analistas (*target mean price*) se sitúa en **23,33 EUR**, lo que representa un potencial de revalorización (*consensus upside*) del **24,81%** respecto al nivel actual de 18,69 EUR, abarcando un rango entre un mínimo de 17,00 EUR y un máximo de 28,30 EUR (basado en 19 opiniones).
 
-### 4. Evidencias, Fuentes y Datos Faltantes
-* **Fuentes y Enlaces:** 
-  * Analisis fundamental Bankinter (19/11/2026): [Google RSS Link](https://news.google.com/rss/articles/CBMifEFVX3lxTE5SdmNDbmpSc0Z2dVpLU1hHN3dkNjk2akpWN1lqSnNvZGFKZnhhNTNWT19HSTRvaGw4THNSYUJoTm9DUy10ZVJKcWd0Vmk1VVhWbHgwSU1TcGlzbkx2RVUydk1sdy0zWjFvUTJhR18ydTFacTEzQ2tiUmh2MDE?oc=5)
-  * Rankia - Análisis ANE (16/11/2026): [Google RSS Link](https://news.google.com/rss/articles/CBMiugFBVV95cUxQaEJLbk9HVHEzVHNQZnpIcUw0SUlOeXBYYjFzQUZIU25URjV2RS14MkxDbU9UR0VkdUFDNGFDd28wakdnWFFDby1tOUgyNVVzdktZSVVtbVdFRU9FTDJYcktsZm1LR05mbHJ5LUUzbTQ5VWI5bmFJWmdSd2pmR2Q2QWNHWUpwUUVHNGtVSmlta0NyaXItZ0E3Q1p0eTItZWxsVG43aXQyM3dFZHBoMTN3UW1PbjBuM0xUYXc?oc=5)
-  * Merca2.es - Desinversión frustrada (15/11/2026): [Google RSS Link](https://news.google.com/rss/articles/CBMiekFVX3lxTE1QeUpta1NHRHBCYk50TE5Ecm5fR0JIZHB4c0w0c2MtWTRXZzRWR29DeG94M09ocUk0bllGbjVOQmVibF93N2pBMGRwWUQwQ2V6V0V6bGJNWkpaaUhSZTN0TERlckNYMGhHMW54VVRwS3NITHhtNlNJb3FB?oc=5)
-  * Próxima reunión del BCE (18/12/2026 / 17/12 convocatoria): [Rankia RSS Link](https://news.google.com/rss/articles/CBMifEFVX3lxTE8tNHI2RnlDUnpqb
+#### 3. Contexto Macroeconómico (Noviembre de 2026)
+El entorno macroeconómico europeo y español para finales de noviembre de 2026 está marcado por los siguientes factores clave extraídos de la agenda y titulares recientes:
+* **Política Monetaria del BCE:** La atención de los mercados se centra en la próxima reunión del Banco Central Europeo fijada para el 17 de diciembre de 2027/2026, con discusiones en torno a las reservas mínimas obligatorias y la senda de tipos de interés, lo cual impacta directamente en los costes de financiación de las empresas con alta intensidad de capital y deuda como las renovables.
+* **Agenda Económica Local:** Los inversores monitorizan de cerca la evolución del IPC y las elecciones generales en España, así como la publicación de datos clave de PIB en EE.UU. y las decisiones de la OPEP+ (referencia temporal: semana del 22 de noviembre de 2026).
+* **Renta Fija Alternativa:** La inversión de los hogares españoles en letras del Tesoro acumula siete meses al alza (superando los 23.000 millones de euros), compitiendo de manera directa con la rentabilidad por dividendo de los valores cotizados del sector energético.
+
+#### 4. Evidencia Recopilada y Fuentes
+* **Cotización y Datos Técnicos / Fundamentales:** Extraídos del dataset integrado de Yahoo Finance para `ANE.MC` con fecha de recuperación 2026-11-22 y precio de cierre al 2026-11-20 (URLs fuentes: `https://finance.yahoo.com/quote/ANE.MC/` y `https://finance.yahoo.com/quote/ANE.MC/financials/`).
+* **Noticias y Análisis de Mercado:** Cobertura de Bankinter ("Acciones de Acciona Energía: Análisis fundamental y recomendaciones", 19 de noviembre de 2026) y agenda macroeconómica semanal recogida por medios especializados españoles como *El Boletín*, *Bolsamania*, *Radio Intereconomía* y *Rankia* entre el 16 y el 22 de noviembre de 2026.
+
+#### 5. Datos Faltantes y Limitaciones
+* No se dispone de un desglose detallado en tiempo real de los flujos de caja operativos correspondientes estrictamente al tercer trimestre de 2026 más allá de los agregados anuales y de balance consolidados provistos. 
+* Las estimaciones de PER adelantado y BPA se basan en el consenso actual de analistas recopilado por proveedores externos y están sujetas a revisión en función de la evolución de los precios energéticos (pool eléctrico) y los tipos de interés.
+
+| Concepto / Métrica | Valor Actual / Referencia | Comentario Clave |
+| :--- | :--- | :--- |
+| **Ticker / Instrumento** | `ANE.MC` (Corporación Acciona Energías Renovables, S.A.) | Negociada en MCE (Bolsa de Madrid), sector Utilities Renovables. |
+| **Precio de Cierre** | 18,69 EUR (2026-11-20) | Descenso del -3,51% en la sesión; RSI en 29,23 (próximo a sobreventa). |
+| **Valor Contable (Book Value)** | 19,10 EUR | Ratio P/B de 0,98x (cotiza ligeramente bajo valor en libros). |
+| **PER Adelantado (Forward PE)** | 27,76x | Valoración exigente frente a la mediana sectorial de pares (16,83x). |
+| **Deuda Neta / EBITDA** | ~5,06x | Apalancamiento elevado típico del sector, sensible a tipos de interés. |
+| **Potencial de Consenso** | 23,33 EUR (+24,81% upside) | Precio objetivo medio de los analistas (19 opiniones). |
+| **Contexto Macroeconómico** | Expectativas BCE (Reunión 17 dic), IPC y entorno de tipos. | Competencia de la renta fija a corto plazo (letras del tesoro al alza en España). |

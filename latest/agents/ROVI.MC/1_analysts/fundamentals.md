@@ -1,96 +1,32 @@
-**INFORME DE ANÁLISIS FUNDAMENTAL Y TÉCNICO**
+Este informe presenta un análisis fundamental de **Laboratorios Farmacéuticos Rovi, S.A. (ROVI.MC)**, una compañía española del sector salud especializada en la fabricación de fármacos de especialidad y genéricos, basado en la información financiera y de mercado disponible al 22 de noviembre de 2026.
 
-**Rating**: REVIEW
-**FINAL TRANSACTION PROPOSAL**: HOLD
+### Perfil y Desempeño Financiero
+Rovi es una compañía consolidada en el sector farmacéutico (MCE). Con una capitalización de mercado de aproximadamente 3.230 millones de EUR, la empresa mantiene una estructura financiera sólida con un ratio de deuda neta sobre EBITDA muy bajo (0,15x), lo que indica una gestión prudente del apalancamiento.
 
----
+*   **Resultados Recientes:** Los estados financieros muestran una evolución interesante. Aunque los ingresos bajaron de 829,5 millones en 2023 a 743,5 millones en 2025, la compañía ha demostrado una capacidad robusta para generar flujo de caja. El flujo de caja libre (Free Cash Flow) aumentó significativamente a 119,3 millones de EUR en 2025, frente a los 58,1 millones de 2023, reflejando una mayor eficiencia operativa a pesar de la consolidación de ingresos.
+*   **Valoración:** Con un PER (Price-to-Earnings) histórico de 15,7x y un forward PER de 19,1x, los analistas sugieren una expectativa de crecimiento o un ajuste en los beneficios esperados a futuro. El consenso de mercado apunta a un precio objetivo medio de 74,78 EUR, lo que implica un potencial de revalorización del 18,5% sobre el precio de cierre del 20 de noviembre (63,10 EUR).
 
-### 1. Resumen de la Compañía y Perfil de Negocio
-* **Ticker:** `ROVI.MC`
-* **Nombre de la Compañía:** Laboratorios Farmaceuticos Rovi, S.A.
-* **Clasificación Sectorial:** Healthcare / Drug Manufacturers - Specialty & Generic
-* **Bolsa / Divisa:** MCE (Madrid) / EUR
-* **Capitalización de Mercado:** 3.227.131.136 EUR
+### Análisis Técnico y Contexto de Mercado
+A fecha de 20 de noviembre de 2026, la acción cotiza a 63,10 EUR, situándose ligeramente por debajo de su media móvil de 200 días (65,03 EUR), pero por encima de la de 50 días (61,50 EUR). El RSI de 43,49 indica que no se encuentra en territorio de sobreventa ni de sobrecompra, sugiriendo una fase de consolidación. La volatilidad del 27,1% debe ser tenida en cuenta por los traders, dado que el valor ha experimentado un descenso desde sus máximos, acumulando un *drawdown* del 24,96%.
 
-Laboratorios Farmaceuticos Rovi, S.A. es una compañía farmacéutica paneuropea con sede en España, especializada en la investigación, desarrollo, fabricación y comercialización de productos farmacéuticos tanto de prescripción como de especialidades y genéricos. Destaca especialmente por su división de fabricación a terceros (CDMO) y su plataforma tecnológica puntera de liberación prolongada de fármacos (tecnología *ISM*).
+### Consideraciones para Traders
+*   **Factores Positivos:** Sólido retorno sobre el patrimonio (ROE del 28,7%) y márgenes de beneficio saludables cercanos al 24,8%. La baja carga de deuda es un pilar fundamental que protege a la empresa en un entorno de tipos de interés que siguen siendo foco de atención por parte del BCE (reunión prevista para el 17 de diciembre).
+*   **Riesgos:** La falta de noticias específicas en los últimos siete días sugiere un periodo de baja intensidad informativa. El mercado se mueve bajo la influencia de variables macro como el PIB de EE. UU., la OPEP+ y la agenda del BCE, que pueden generar volatilidad indirecta en valores de salud.
+*   **Información Faltante:** No se dispone de datos detallados sobre el *insider trading* reciente ni desgloses específicos del crecimiento de ganancias futuras, lo cual limita la visibilidad sobre la confianza de los ejecutivos en la trayectoria a corto plazo.
 
----
+**Rating**: HOLD
 
-### 2. Análisis Financiero e Historial de Resultados
+FINAL TRANSACTION PROPOSAL: Hypothetical: Given the 18.5% upside target versus the current consolidation phase, a moderate accumulation strategy near the 60 EUR support level could be considered for long-term positions, provided the dividend yield (1.52%) remains stable.
 
-Los datos financieros oficiales extraídos de los estados contables más recientes muestran la siguiente evolución (cifras en EUR):
+| Métrica | Valor |
+| :--- | :--- |
+| Capitalización de mercado | 3.227.131.136 EUR |
+| Precio actual | 63,10 EUR |
+| Precio objetivo medio (Analistas) | 74,78 EUR |
+| ROE | 28,71% |
+| Dividend Yield | 1,52% |
+| Net Debt / EBITDA | 0,15x |
+| RSI (14) | 43,49 |
+| Ratio P/E (Trailing) | 15,70x |
 
-* **Ingresos Totales (Total Revenue):**
-  * Ejercicio 2025: 743.483.000 EUR
-  * Ejercicio 2024: 763.749.000 EUR
-  * Ejercicio 2023: 829.509.000 EUR
-  *(Nota: Se observa una contracción moderada en la línea de ingresos durante los últimos periodos).*
-
-* **Beneficio Neto (Net Income):**
-  * Ejercicio 2025: 140.442.000 EUR
-  * Ejercicio 2024: 136.881.000 EUR
-  * Ejercicio 2023: 170.335.000 EUR
-
-* **EBITDA:**
-  * Ejercicio 2025: 216.201.000 EUR
-  * Ejercicio 2024: 207.693.000 EUR
-  * Ejercicio 2023: 245.406.000 EUR
-
-* **Flujo de Caja Operativo y Libre (Cash Flow):**
-  * Flujo de Caja Operativo (2025): 187.078.000 EUR (Frente a 138.278.000 EUR en 2024).
-  * Flujo de Caja Libre / FCF (2025): 119.265.000 EUR (Frente a 76.059.000 EUR en 2024 y 58.060.000 EUR en 2023), reflejando una notable mejora en la capacidad de conversión de caja a pesar del ajuste en ingresos.
-
-* **Balance y Endeudamiento:**
-  * Total Activos (2025): 955.691.000 EUR
-  * Deuda Total (2025): 121.724.000 EUR
-  * Patrimonio Neto / Stockholders Equity (2025): 664.415.000 EUR
-  * Ratio Deuda Neta / EBITDA: 0.153x (Muestra una posición financiera extremadamente sólida y un bajo apalancamiento).
-
----
-
-### 3. Valoración y Múltiplos Clave
-
-* **PER (Trailing PE):** 15.47x
-* **PER Estimado (Forward PE):** 19.15x
-* **Precio / Valor Contable (Price to Book):** 4.14x
-* **EV / EBITDA:** 16.74x
-* **Rentabilidad por Dividendo (Dividend Yield):** 1.52% (con un dividendo por acción de 0.96 EUR y un ratio de reparto/payout conservador del 25.83%).
-* **Rentabilidad sobre el Patrimonio (ROE):** 28.71% (demuestra alta eficiencia en la generación de beneficios sobre los recursos propios).
-* **Consenso de Analistas:** El precio objetivo medio fijado por el consenso de analistas se sitúa en **74.78 EUR** (con un rango que oscila entre un precio mínimo de 67.00 EUR y un máximo de 89.00 EUR), lo que representa una **subida potencial de consenso (consensus upside)** del **18.51%** sobre el precio de cierre actual de 63.10 EUR. El número de opiniones de analistas analizadas es de 9.
-
----
-
-### 4. Situación Técnica (Cierre a 20 de noviembre de 2026)
-
-* **Precio de Cierre:** 63.10 EUR
-* **Variación reciente:** -4.54% en la última sesión registrada.
-* **RSI (14):** 43.49 (zona neutral, ligeramente sesgada hacia la debilidad a corto plazo).
-* **MACD:** 1.73 (por debajo de su línea de señal en 2.30, indicando impulso bajista a corto plazo).
-* **Medias Móviles:** 
-  * SMA 20: 66.02 EUR
-  * SMA 50: 61.50 EUR
-  * SMA 200: 65.03 EUR
-* **Volatilidad (27.11%):** Moderada-alta.
-* **Drawdown:** -24.96% desde máximos recientes, situando a la acción en una corrección profunda pero respetando soportes intermedios en torno a la media de 50 sesiones.
-
----
-
-### 5. Contexto Macro y Noticias Recientes
-
-* **Fuentes y Fechas Clave de Contexto:** 
-  * Headlines macroeconómicos del entorno europeo y español recopilados entre el 15 y el 20 de noviembre de 2026 (ej. coberturas de Bankinter, Bolsamania, El Economista y Radio Intereconomía sobre decisiones del BCE y expectativas de mercado). 
-  * Las muestras de noticias específicas sobre `ROVI.MC` no cubren la empresa en los últimos siete días (*advertencia registrada en metadatos: "La muestra de titulares no cubre esta empresa en los últimos siete días"*).
-
----
-
-### 6. Datos Faltantes y Limitaciones
-* No se dispone de datos pormenorizados de transacciones de insiders (*insider transactions*) para la última semana debido a restricciones de la instantánea de datos aportada.
-* La comparativa sectorial específica en formato automatizado no está disponible (`valuation.label: Comparación sectorial no disponible`).
-
----
-
-### 7. Conclusión y Recomendación para Traders
-
-`ROVI.MC` presenta una salud financiera excelente con un bajo ratio de endeudamiento (Deuda Neta/EBITDA de 0.15x), un fuerte retorno sobre el capital (ROE del 28.71%) y una generación de flujo de caja libre al alza (119,26 millones de euros en 2025). Cotiza a un PER moderado de 15.47x con un potencial de revalorización de consenso del 18.51% hacia los 74.78 EUR. Técnicamente, la acción atraviesa una fase de corrección de corto plazo (RSI en 43.49, cotizando por debajo de su SMA 20 pero consolidando sobre la SMA 50).
-
-Ante la ausencia de catalizadores corporativos informados en los últimos siete días y una estructura técnica neutral-bajista a corto plazo, la recomendación prudente es mantener posiciones existentes (**
+*Fuentes consultadas:* [Yahoo Finance - ROVI.MC](https://finance.yahoo.com/quote/ROVI.MC/), [Yahoo Finance - Financials](https://finance.yahoo.com/quote/ROVI.MC/financials/). La información aquí presentada es para fines informativos y no constituye asesoramiento financiero.

@@ -1,11 +1,11 @@
 **Action**: Sell
 
-**Reasoning**: La acción se encuentra en una tendencia bajista clara con una estructura técnica deteriorada, situándose por debajo de sus medias móviles clave (SMA20, 50, 200). La fragilidad fundamental, caracterizada por un ratio de deuda neta sobre EBITDA de 6.14x, flujo de caja libre negativo y una política de dividendos potencialmente insostenible, justifica la venta frente a la debilidad del mercado y la incertidumbre corporativa sobre sus divisiones energéticas.
+**Reasoning**: Acciona presenta un perfil de riesgo elevado con una ratio de deuda neta sobre EBITDA de 6,14x y márgenes operativos muy estrechos del 1,64%. La tendencia bajista técnica, confirmada por la cotización por debajo de las medias móviles de 50 y 200 días y un momentum negativo, prevalece sobre el potencial de revalorización por consenso. La sobreventa en el RSI no es suficiente para justificar una compra frente al deterioro del balance y las presiones financieras del sector.
 
-**Entry Price**: 184.7
+**Entry Price**: not provided
 
-**Stop Loss**: 209.6
+**Stop Loss**: 208.35
 
-**Position Sizing**: Reducir la posición actual en un 50% o cerrar completamente si la exposición es especulativa.
+**Position Sizing**: Reducción de exposición. Si se mantiene, limitar el riesgo al 0,5% del valor de la cartera.
 
 FINAL TRANSACTION PROPOSAL: **SELL**

@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: Aena.MC muestra una salud fundamental sólida, pero se encuentra en una zona de consolidación técnica sin catalizadores de corto plazo. El precio actual está ligeramente por encima del objetivo de consenso y el momentum del MACD indica un estancamiento, por lo que no hay argumentos suficientes para abrir nuevas posiciones tácticas frente a una valoración que ya parece descontada.
+**Reasoning**: La valoración actual de AENA.MC cotiza por encima del precio objetivo medio del consenso de analistas, lo que sugiere un agotamiento del potencial alcista inmediato. Aunque la calidad fundamental y el dividendo son sólidos, la proximidad del precio a las medias móviles de corto plazo y el riesgo operativo puntual en Barajas desaconsejan nuevas compras, prefiriendo esperar a una corrección hacia soportes técnicos más robustos.
 
-**Entry Price**: 26.5
+**Entry Price**: 25.75
 
-**Stop Loss**: 25.0
+**Stop Loss**: 24.5
 
-**Position Sizing**: Mantener la ponderación actual de mercado; no realizar nuevas compras por encima de 27.0.
+**Position Sizing**: 5% del portafolio en una posición de entrada escalonada
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

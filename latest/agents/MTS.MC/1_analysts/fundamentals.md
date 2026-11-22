@@ -1,42 +1,39 @@
 ### Informe de Análisis Fundamental: ArcelorMittal (MTS.MC)
 
-**Fecha de análisis:** 21 de noviembre de 2026
-**Ticker:** MTS.MC (ArcelorMittal S.A.)
-**Sector:** Materiales Básicos / Acero
+**Fecha de análisis:** 22 de noviembre de 2026
+**Instrumento:** ArcelorMittal (MTS.MC)
 
 #### 1. Perfil y Situación Actual
-ArcelorMittal, líder mundial en la industria siderúrgica, cotiza en la Bolsa de Madrid. A fecha de 20 de noviembre de 2026, la acción cerró en **51,64 EUR**, experimentando una corrección significativa del **5,66%** en la última sesión, situándose un **23,37% por debajo** de sus máximos recientes. A pesar de la volatilidad actual, el valor mantiene una rentabilidad anual positiva del **43,27%** en los últimos 252 días, aunque el impulso a corto plazo (retorno a 63 días: -17,43%) muestra una tendencia correctiva clara.
+ArcelorMittal (MTS.MC) se mantiene como un referente en el sector de materiales básicos/acero en la bolsa de Madrid. Con una capitalización bursátil de 38.830 millones de EUR, la empresa enfrenta una fase de volatilidad tras una corrección reciente del 5,66% en la última sesión registrada (20/11/2026), cotizando a 51,64 EUR. A pesar de esta caída, el valor muestra un rendimiento anual positivo del 43,27%, superando significativamente a su sector en Europa, aunque los indicadores técnicos (RSI14: 34,83; MACD negativo) sugieren una presión bajista a corto plazo.
 
-#### 2. Análisis Financiero
-*   **Resultados y Rentabilidad:** Los estados financieros anuales muestran una estabilidad en los ingresos (61.352 millones de EUR en 2025 frente a 62.441 millones en 2024). Sin embargo, el margen de beneficio neto es estrecho (1,64%) y el ROE reportado es bajo (1,83%), lo que subraya la naturaleza intensiva en capital y cíclica del negocio.
-*   **Valoración:** La compañía cotiza a un ratio Precio/Valor en Libros (P/B) de **0,81**, lo que sugiere que la acción podría estar infravalorada respecto a sus activos netos. El PER forward (9,34x) es significativamente inferior al PER trailing (43,76x), reflejando las expectativas de mejora en los beneficios para el próximo ejercicio (EPS forward de 5,53 EUR frente a 1,18 EUR actual).
-*   **Solidez y Flujo de Caja:** La deuda neta sobre EBITDA se sitúa en **2,08x**, un nivel moderado para el sector industrial. Sin embargo, el flujo de caja libre (FCF) es negativo (-802,88 millones de EUR a fecha de reporte), lo cual es una señal de alerta que los inversores deben monitorear, dada la necesidad constante de inversiones de capital (CAPEX) para mantener la competitividad operativa.
+#### 2. Análisis Financiero (Basado en datos suministrados)
+*   **Ingresos y Rentabilidad:** Los ingresos han mostrado una tendencia de moderación, pasando de 68.275 millones (2023) a 61.352 millones (2025). El margen de beneficio neto reportado es estrecho (1,64%), lo que refleja la naturaleza cíclica e intensiva en capital del negocio.
+*   **Estructura de Capital:** La compañía mantiene una deuda total de 13.565 millones de EUR frente a una tesorería de 3.191 millones. El ratio *Net Debt/EBITDA* se sitúa en 2,08x, lo cual es manejable para una empresa industrial de su envergadura, aunque el flujo de caja libre (FCF) fue negativo (-802 millones EUR), lo que indica un fuerte compromiso de capital (Capex) que presiona la liquidez inmediata.
+*   **Valoración:** El PER *forward* de 9,34x sugiere que el mercado anticipa una mejora en las ganancias (Eps forward: 5,53 EUR), contrastando con un PER *trailing* elevado (43,76x). El ratio *Price-to-Book* de 0,81x indica que la acción cotiza con un descuento respecto a su valor contable, a menudo asociado a la incertidumbre cíclica del sector siderúrgico.
 
-#### 3. Contexto de Mercado y Riesgos
-Las noticias recientes (Estrategias de Inversión, 20-11-2026) sitúan a MTS.MC como uno de los valores más castigados en el Ibex 35. El análisis técnico refuerza esta debilidad, con el precio por debajo de sus medias móviles de 20, 50 y 200 sesiones, y un RSI(14) en 34,8, acercándose a niveles de sobreventa, lo que sugiere que la presión vendedora ha sido intensa.
+#### 3. Perspectivas y Noticias Recientes
+*   **Potencial de crecimiento:** Analistas de Citi, citados por Merca2.es (22/11/2026), señalan un potencial alcista del 34% para 2027 fundamentado en una posible subida en los precios del acero, lo que podría elevar el beneficio en unos 650 millones de EUR.
+*   **Entorno macro:** La incertidumbre sobre las políticas del BCE, con posibles ajustes en las reservas mínimas obligatorias y reuniones clave en diciembre, impacta la volatilidad del sector industrial.
 
-**Consideraciones para el inversor:**
-*   **A favor:** La valoración por fundamentales (P/B y PER forward) indica una oportunidad de valor si la empresa logra cumplir con las expectativas de crecimiento de beneficios.
-*   **En contra:** La tendencia técnica es bajista, con una alta volatilidad (34,5%) y una clara falta de flujo de caja libre positivo, lo que dificulta la capacidad de aumentar dividendos o reducir deuda rápidamente sin endeudamiento adicional.
+#### 4. Riesgos y Observaciones
+*   **Evidencia contraria:** La caída reciente de la acción (recogida por Estrategias de Inversión el 20/11) y el hecho de que el valor haya anulado intentos de rebote sugieren que los niveles de soporte actuales son críticos.
+*   **Datos faltantes:** No se dispone del *Earnings Growth* (crecimiento de ganancias histórico) y la comparación sectorial de valoración está marcada como no disponible. Los analistas presentan una cobertura limitada (solo 2 opiniones), lo que reduce la robustez del precio objetivo medio (59,10 EUR).
 
-#### 4. Información faltante
-No se dispone de datos detallados sobre el "earnings growth" (crecimiento de ganancias proyectado), información sobre transacciones recientes de insiders (ejecutivos o directivos), ni un desglose geográfico específico de los márgenes operativos para 2026, lo cual es esencial para evaluar el impacto de las políticas monetarias del BCE mencionadas en los titulares de prensa (ej. incremento de reservas obligatorias).
+#### 5. Conclusión para Traders
+La acción se encuentra en una zona de sobreventa técnica (RSI ~35). El descuento sobre el valor contable y las proyecciones positivas de Citi para 2027 podrían atraer inversores de valor, siempre que la demanda de acero se estabilice frente a los tipos de interés.
 
----
+**Rating**: HOLD
 
-### Resumen de Datos Clave
+FINAL TRANSACTION PROPOSAL: No trade execution implied. Analysis suggests close monitoring of the 51 EUR support level; potential accumulation for long-term outlook contingent on 2027 steel price recovery.
 
 | Indicador | Valor |
 | :--- | :--- |
-| Precio de cierre | 51,64 EUR |
-| Market Cap | 38.829 M EUR |
-| P/B Ratio | 0,81 |
+| Precio Actual | 51,64 EUR |
+| Precio Objetivo Medio | 59,10 EUR |
 | Forward PER | 9,34x |
 | Dividend Yield | 1,06% |
-| Net Debt / EBITDA | 2,08x |
-| RSI (14) | 34,83 |
-| Consenso Analista (Media) | 59,10 EUR |
+| Ratio Deuda/EBITDA | 2,08x |
+| Precio/Valor Contable | 0,81x |
+| Tendencia 252 días | +43,27% |
 
-**Rating**: REVIEW
-
-FINAL TRANSACTION PROPOSAL: No action recommended. The technical indicators are currently in a bearish phase, and the lack of free cash flow suggests a need for caution despite the attractive P/B valuation. Wait for stabilization in the 50-day moving average trend before considering an entry.
+*Fuentes: Yahoo Finance (MTS.MC), Merca2.es (22/11/2026), Estrategias de Inversión (20/11/2026), Bankinter (19/11/2026).*

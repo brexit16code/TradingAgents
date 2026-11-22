@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La cotizacion actual de ENG.MC se situa en 17,67 EUR, mostrando estabilidad tecnica por encima de sus medias moviles de 50 y 200 sesiones pero con un impulso debilitado reflejado por el MACD y un precio ligeramente superior al objetivo de consenso de analistas de 17,18 EUR. Aunque ofrece una atractiva rentabilidad por dividendo del 5,66% con un pago proximo de 0,40 EUR en diciembre de 2026, el elevado apalancamiento con una ratio de deuda neta sobre EBITDA de 6,15x limita la flexibilidad financiera y aconseja mantener la posicion existente sin realizar nuevas compras.
+**Reasoning**: Enagás presenta un equilibrio entre una valoración relativa atractiva (0,92x la mediana del sector) y un rendimiento por dividendo del 5,66%, frente a fundamentales operativos en deterioro con un flujo de caja decreciente y un alto apalancamiento (6,15x deuda/EBITDA). Técnicamente, el activo se encuentra en una zona neutral (RSI 52,03) cotizando cerca de su media móvil de 50 sesiones (17,13 EUR), lo que desaconseja nuevas compras hasta confirmar soporte tras el pago del dividendo de diciembre. El consenso de analistas sugiere que la acción está plenamente valorada respecto a su precio objetivo medio, reforzando la postura de espera.
 
-**Entry Price**: not provided
+**Entry Price**: 17.13
 
 **Stop Loss**: 16.43
 
-**Position Sizing**: 3% of portfolio
+**Position Sizing**: Mantener exposición actual
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

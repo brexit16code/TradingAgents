@@ -1,52 +1,73 @@
-**Rating**: HOLD  
-FINAL TRANSACTION PROPOSAL: Mantener posición / Neutral (No ejecutar nuevas compras netas ni posiciones cortas agresivas en este nivel a la espera de la confirmación de ruptura de soportes/resistencias y la asimilación del dividendo de diciembre).
+**Rating**: REVIEW
+
+**FINAL TRANSACTION PROPOSAL**: HOLD
 
 ---
 
-### Informe de Análisis de Inversión y Tendencia para `SAB.MC` (Banco Sabadell, S.A.)
+### Informe
+ de Análisis Financiero y Técnico: Banco de Sabadell, S.A. (`SAB.MC`)
 
-#### 1. Contexto de Mercado y Situación Actual
-A fecha de 21 de noviembre de 2026 (con datos de cierre al 20 de noviembre de 2026), las acciones de Banco de Sabadell, S.A. (`SAB.MC`) cotizan a **3,546 EUR** en la Bolsa de Madrid (`MCE`), encontrándose en una fase de consolidación técnica tras las turbulencias corporativas recientes y a las puertas del cierre del año, con especial atención al dividendo de diciembre que dará carpetazo definitivo a la fallida OPA de BBVA (según noticias del sector de CapitalMadrid del 19 de noviembre de 2026).
-
-El valor muestra un comportamiento mixto en el corto plazo:
-- **Rentabilidad a 21 sesiones:** +3,84%
-- **Rentabilidad a 63 sesiones:** -3,95%
-- **Rentabilidad a 252 sesiones (interanual):** +35,99%
-- **Distancia al máximo reciente (Drawdown):** -5,87%
-
-#### 2. Análisis Técnico y de Indicadores
-Conforme a los datos oficiales de la instantánea verificada para `SAB.MC`, los indicadores técnicos clave seleccionados ofrecen el siguiente diagnóstico complementario:
-
-- **`close_50_sma` (SMA 50: 3,610 EUR) y `close_200_sma` (SMA 200: 3,172 EUR):** El precio actual (3,546 EUR) cotiza ligeramente por debajo de su media móvil de 50 sesiones (3,616 EUR en SMA20 y 3,610 EUR en SMA50), lo que denota una presión vendedora a corto plazo y un proceso de consolidación lateral-bajista. Sin embargo, se mantiene cómodamente por encima de la media de 200 sesiones (3,172 EUR), confirmando que la tendencia secular a largo plazo sigue siendo alcista.
-- **`rsi` (RSI 14: 43,25):** Se sitúa por debajo de la línea neutral de 50 pero sin alcanzar niveles de sobreventa (30). Esto refleja una ligera pérdida de momentum comprador a corto plazo, sugiriendo indecisión en el mercado y un sesgo neutral o levemente bajista.
-- **`macd` (0,0243) y `macds` (0,0299):** El indicador MACD se encuentra ligeramente por debajo de su línea de señal (`macds`), lo que corrobora la desaceleración del impulso alcista observada en las últimas semanas.
-- **Volatilidad (`volatility_pct`: 24,13%):** Muestra un nivel de volatilidad moderado, acorde con el sector bancario europeo diversificado en el parqué madrileño.
-
-#### 3. Fundamentos, Valoración y Catalizadores
-- **Capitalización de Mercado:** ~16.598 millones de EUR.
-- **PER (Trailing):** 14,18x; **PER Forward:** 10,63x, reflejando una expectativa de mejora en los beneficios por acción futuros (`forwardEps` de 0,33 EUR frente a los 0,25 EUR de `trailingEps`).
-- **Precio sobre Valor en Libros (Price to Book):** 1,39x, con un valor contable (`bookValue`) de 2,56 EUR.
-- **Rentabilidad por Dividendos (`dividendYield`):** 1,97% (con un `dividendRate` de 0,07 EUR y una ratio de pago prudente de 28,51%).
-- **Consenso de Analistas:** El precio objetivo medio ponderado de los analistas se sitúa en **3,70 EUR** (con un rango entre 2,30 EUR y 4,50 EUR basados en 20 opiniones), lo que otorga un potencial de revalorización (*consensus upside*) del **4,43%** desde el precio actual de 3,546 EUR.
-
-#### 4. Factores Macroeconómicos y Noticias Relevantes
-- **Política Monetaria del BCE:** Las tensiones en los tipos y las perspectivas sobre las reservas mínimas obligatorias de los bancos (como se observa en las publicaciones recientes de *El Economista* y *Rankia* de mediados de noviembre de 2026) siguen marcando el pulso del sector financiero europeo.
-- **Operativa Corporativa:** El mercado valora positivamente la normalización de la retribución al accionista con el dividendo de diciembre, disipando la incertidumbre generada por los movimientos corporativos previos.
+#### 1. Resumen de Identidad y Contexto de Mercado
+* **Compañía**: Banco de Sabadell, S.A. (`SAB.MC`)
+* **Sector / Industria**: Financial Services / Banks - Diversified
+* **Bolsa / Moneda**: MCE (Bolsa de Madrid) / EUR
+* **Fecha de Referencia**: 22 de noviembre de 2026 (con datos de cotización y técnicos cerrados a fecha de 20 de noviembre de 2026).
+* **Cotización actual**: 3.546 EUR (ajustado).
+* **Contexto Macroeconómico**: La agenda financiera europea e internacional de finales de noviembre de 2026 viene marcada por la evolución del IPC en España, las previsiones sobre las próximas decisiones de tipos del Banco Central Europeo (BCE) previstas para diciembre de 2026, así como el incremento de las reservas mínimas obligatorias a los bancos, lo que ejerce presión indirecta sobre los márgenes de intermediación financiera.
 
 ---
 
-### Resumen de Datos Clave
+<h4>2. Análisis Técnico</h4>
+De acuerdo con los datos de mercado adjuntos al cierre del 20 de noviembre de 2026, la acción de Banco de Sabadell presenta los siguientes parámetros técnicos clave:
 
-| Categoría | Métrica / Indicador | Valor / Estado | Implicación Analítica |
+* **Precio de Cierre**: 3.5460 EUR.
+* **Medias Móviles**: 
+  * SMA 20: 3.6158 EUR.
+  * SMA 50: 3.6103 EUR.
+  * SMA 200: 3.1722 EUR.
+  * *Observación*: El precio cotiza ligeramente por debajo de sus medias móviles de corto y medio plazo (SMA 20 y SMA 50), lo que denota una fase de consolidación y presión vendedora a corto plazo, si bien la tendencia de fondo a largo plazo se mantiene alcista al sostenerse holgadamente por encima de la SMA 200.
+* **Indicadores de Momento y Volatilidad**:
+  * **RSI (14)**: 43.25, situándose en una zona neutral-bajista, sin indicios claros de sobrecompra ni de sobreventa extrema.
+  * **MACD**: 0.0243 frente a su línea de señal (MACD Signal: 0.0299), mostrando un histograma ligeramente comprimido o negativo que refleja una moderación en el impulso comprador reciente.
+  * **Volatilidad (24.13%)** y **Drawdown (-5.87%)**: Sugieren una corrección moderada y ordenada tras los máximos recientes, con las acciones consolidando soportes clave en el entorno de los 3.50€ - 3.64€.
+
+---
+
+#### 3. Análisis Fundamental y Valoración
+* **Capitalización de Mercado**: 16.598 millones de EUR.
+* **Múltiplos de Valoración**:
+  * **Trailing P/E**: 14.18x.
+  * **Forward P/E**: 10.62x (con un EPS proyectado de 0.334 EUR frente a los 0.25 EUR anteriores).
+  * **Price to Book (P/B)**: 1.39x (sobre un valor en libros por acción de 2.559 EUR).
+* **Rentabilidad y Dividendos**:
+  * **Rentabilidad por Dividendo (Dividend Yield)**: ~1.97% (basado en un dividendo anual de 0.07 EUR por acción con un ratio de payout del 28.51%).
+  * **Return on Equity (ROE)**: 8.89%, mostrando una rentabilidad sobre recursos propios moderada para el sector bancario diversificado.
+* **Consenso de Analistas**:
+  * **Precio Objetivo Medio (Target Mean Price)**: 3.703 EUR (con un rango entre un mínimo de 2.30 EUR y un máximo de 4.50 EUR, cubierto por un panel de 20 analistas).
+  * **Potencial de Revalorización Consenso (Consensus Upside)**: +4.43% respecto al precio actual de 3.546 EUR.
+
+---
+
+#### 4. Evidencias de Noticias y Datos Relevantes
+* Se observa cobertura mediática reciente (mediados de noviembre de 2026 en fuentes como *Bolsamania*, *Traders Union* y *Investing.com España*) que destaca procesos de consolidación de la acción cerca de los soportes de 3.64 € y presiones bajistas a corto plazo.
+* Asimismo, los acontecimientos en torno a la política monetaria del BCE (subidas de reservas mínimas y expectativas de tipos para la reunión de diciembre de 2026) actúan como factores exógenos determinantes para la banca cotizada en España.
+
+---
+
+#### 5. Datos Faltantes y Limitaciones
+* No se dispone de flujos de caja operativos o libres normalizados consistentes para el ejercicio actual debido a la naturaleza de balance de las entidades financieras (métodos industriales no aplicables).
+* Faltan detalles pormenorizados sobre desgloses de morosidad (NPLs) y ratios de capital CET1 correspondientes al cierre exacto del tercer trimestre de 2026 más allá de los estados financieros anuales facilitados (cierre fiscal 2025).
+
+---
+
+#### 6. Tabla Resumen Estructurada
+
+| Categoría | Métrica / Indicador | Valor Actual / Referencia | Implicación Analítica |
 | :--- | :--- | :--- | :--- |
-| **Precio y Tendencia** | Cierre Actual (`close`) | 3,546 EUR | Cotiza en zona de soporte/consolidación a corto plazo. |
-| **Medias Móviles** | SMA 50 (`close_50_sma`) | 3,610 EUR | Resistencia dinámica inmediata de corto plazo. |
-| **Medias Móviles** | SMA 200 (`close_200_sma`) | 3,172 EUR | Sólido soporte estructural a largo plazo. |
-| **Momentum** | RSI (14) | 43,25 | Neutral-bajista, sin señales de sobreventa ni sobrecompra. |
-| **MACD** | MACD / Señal | 0,0243 / 0,0299 | Ligero cruce bajista o compresión de momentum. |
-| **Valoración** | Forward P/E | 10,63x | Valoración razonable frente al sector diversificado. |
-| **Consenso** | Precio Objetivo Medio | 3,703 EUR | Margen alcista moderado (~4,43%). |
-
-### Datos Faltantes y Advertencias
-- No se dispone de flujos de caja operativos normalizados completos debido a desviaciones contables reportadas en ejercicios previos.
-- Las estimaciones de analistas son de carácter consensual y no representan valoraciones intrínsecas garantizadas.
+| **Precio y Tendencia** | Cierre (`close`) | 3.546 EUR (20/11/2026) | Corrección a corto plazo, cotizando por debajo de SMA20 y SMA50. |
+| **Medias Móviles** | SMA 200 / SMA 50 | 3.172 EUR / 3.610 EUR | Tendencia estructural alcista a largo plazo intacta; resistencia estática en el medio plazo. |
+| **Momento** | RSI (14) | 43.25 | Zona neutral, sin señales claras de giro por sobreventa/sobrecompra. |
+| **Momento** | MACD vs Signal | 0.0243 vs 0.0299 | Ligera debilidad en el impulso de corto plazo. |
+| **Valoración** | Forward P/E / P/B | 10.63x / 1.39x | Valoración razonable en línea con la media sectorial ponderada en EUR. |
+| **Consenso** | Target Mean Price | 3.703 EUR | Potencial alcista limitado a corto plazo (+4.43%). |
+| **Retorno** | ROE / Dividend Yield | 8.90% / 1.97% | Rentabilidad operativa modesta con retribución al accionista conservadora. |

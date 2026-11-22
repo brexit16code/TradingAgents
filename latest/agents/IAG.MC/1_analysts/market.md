@@ -1,42 +1,33 @@
-Análisis de situación para **IAG.MC** (International Consolidated Airlines Group S.A.) con fecha de corte al 21 de noviembre de 2026.
+El análisis técnico y fundamental de **IAG.MC** (International Consolidated Airlines Group S.A.), con fecha de corte al 22 de noviembre de 2026, revela una situación de mercado caracterizada por una tendencia de consolidación y una valoración atractiva, respaldada por fundamentales sólidos pero bajo un entorno macroeconómico incierto.
 
-### Análisis Técnico y de Mercado
-El valor cotiza actualmente a **5,24 EUR**, situándose técnicamente en una fase de consolidación tras un periodo de volatilidad. 
+### Análisis Técnico
+El precio de cierre del 20 de noviembre de 2026 fue de **5,238 EUR**. Actualmente, la acción se encuentra operando por encima de sus medias móviles de 50 (5,062 EUR) y 200 días (4,860 EUR), lo que confirma una estructura alcista de largo plazo.
 
-*   **Tendencia:** El precio se mantiene por encima de sus medias móviles clave (SMA20: 5,19; SMA50: 5,06; SMA200: 4,86), lo cual denota una tendencia alcista estructural a largo plazo. La pendiente de estas medias confirma que el soporte dinámico se ha desplazado gradualmente al alza.
-*   **Momentum:** El RSI(14) en 52,44 indica una zona neutral, sugiriendo que la presión compradora reciente se ha equilibrado. El MACD se sitúa en 0,10, apenas por encima de su línea de señal (0,10), lo que refleja una falta de dirección clara en el corto plazo, consistente con el retroceso del 2,20% observado en la última sesión.
-*   **Volatilidad:** Con una volatilidad del 26,88% y un *drawdown* del 7,52%, el valor muestra una sensibilidad moderada a las noticias del sector.
+*   **Momentum:** Con un RSI(14) en **52,44**, el activo se encuentra en una zona neutral, alejándose de condiciones de sobrecompra o sobreventa. El MACD (0,1017) se sitúa ligeramente por encima de su línea de señal (0,1001), sugiriendo una presión compradora muy leve, sin fuerza direccional clara a corto plazo.
+*   **Volatilidad:** La volatilidad reportada del 26,88% indica un entorno de riesgo moderado. El precio ha tenido un desempeño positivo en los últimos 252 días (+19,67%), aunque presenta un *drawdown* del -7,52%, lo que refleja correcciones naturales en su tendencia alcista.
 
-### Fundamentos y Contexto Estratégico
-IAG presenta una valoración atractiva bajo el ratio PER (*trailing* de 8,06 y *forward* de 7,07), situándose significativamente por debajo de la mediana de sus comparables del sector (*peer median forward PE* de 16,45). 
+### Análisis Fundamental
+IAG.MC mantiene una salud financiera mejorada en comparación con periodos anteriores.
+*   **Valoración:** Con un Forward PE de **7,07x** y un ratio respecto a los pares del sector de **0,43**, la acción cotiza con un descuento significativo frente a sus comparables (mediana de 16,45x), lo que podría indicar una infravaloración por parte del mercado.
+*   **Solidez:** La empresa muestra una capacidad generadora de caja destacable con un Free Cash Flow de 3.146 millones de euros en 2025. El ratio de Deuda Neta/EBITDA de **0,78x** es saludable, sugiriendo una gestión prudente del apalancamiento tras los años complejos del sector aéreo.
+*   **Dividendos:** Ofrece una rentabilidad por dividendo del 1,91%, con un payout ratio bajo (15,19%), lo que deja espacio para potenciales incrementos futuros.
 
-*   **Fortaleza Financiera:** La compañía ha reportado un flujo de caja libre (*Free Cash Flow*) de 3.146 millones de EUR para el ejercicio 2025, respaldando su capacidad de desapalancamiento, con un ratio deuda neta/EBITDA de 0,78, una métrica saludable para el sector industrial aéreo.
-*   **Riesgos y Catalizadores:** La rentabilidad por dividendo (~1,9%) es modesta pero estable. El principal desafío operativo sigue siendo la gestión de márgenes frente a la volatilidad del precio del petróleo, factor clave mencionado por *Estrategias de Inversión* (15-nov-2026). La incertidumbre macroeconómica, vinculada a las expectativas de tipos del BCE y la situación inflacionista, añade una capa de cautela para el corto plazo.
-
-### Indicadores Seleccionados
-Para un seguimiento estratégico, se recomienda observar los siguientes indicadores:
-1.  **close_200_sma**: Como filtro de tendencia de largo plazo.
-2.  **close_50_sma**: Para identificar el soporte dinámico de medio plazo.
-3.  **rsi**: Para detectar condiciones de sobrecompra/sobreventa.
-4.  **macd**: Para capturar cambios en la tendencia del momentum.
-5.  **macds**: Para confirmar las señales de cruce del MACD.
-6.  **atr**: Para ajustar niveles de *stop-loss* dada la volatilidad actual del 26,88%.
-7.  **vwma**: Para validar si los movimientos de precio tienen respaldo real de volumen.
-8.  **boll**: (Media central) para evaluar la reversión a la media.
+### Factores Macro y Riesgos
+El mercado está atento a la agenda financiera marcada por el PIB de EE. UU. y las decisiones del BCE, especialmente ante la posible subida de reservas mínimas obligatorias que afecta al sector bancario y, por extensión, al sentimiento inversor general en España. No hay eventos específicos de IAG.MC en los últimos siete días, lo que sugiere que su comportamiento reciente es puramente técnico y sectorial.
 
 ### Conclusión
-IAG.MC muestra fundamentales sólidos con una valoración inferior a sus pares. Sin embargo, el estancamiento técnico actual (RSI neutral y MACD convergiendo) sugiere esperar una ruptura del rango de consolidación actual antes de tomar posiciones. La falta de datos sobre *Operating Cash Flow* y *Free Cash Flow* actualizados para el año en curso (los datos finalizan en 2025) limita la precisión del análisis de solvencia reciente.
+IAG.MC muestra una tendencia técnica constructiva y fundamentos financieros sólidos con una valoración barata. Sin embargo, la falta de un impulso fuerte en el RSI y la proximidad a la media de 20 días (5,19 EUR) sugieren cautela.
 
-**Rating**: HOLD
+**Rating**: Neutral
 
-FINAL TRANSACTION PROPOSAL: Mantener posiciones actuales y observar el soporte en la zona de los 5,06 EUR (SMA50). No se recomienda incrementar exposición hasta que el MACD muestre una divergencia alcista clara o se supere la resistencia implícita cerca de los 5,50-5,70 EUR.
-
-| Indicador | Valor | Interpretación |
+| Indicador / Métrica | Valor | Interpretación |
 | :--- | :--- | :--- |
-| Precio Cierre | 5,238 EUR | Soporte sobre SMA50 (5,06) |
-| RSI(14) | 52,44 | Zona neutral |
-| PER (Forward) | 7,07 | Infravalorado vs sector |
-| Deuda Neta/EBITDA | 0,78 | Apalancamiento controlado |
-| Consenso Objetivo | 6,12 EUR | Potencial alcista del 16,9% |
+| Precio (2026-11-20) | 5,238 EUR | Soporte sobre SMA 50 y 200 |
+| RSI (14) | 52,44 | Zona neutral |
+| Forward PE | 7,07x | Infravalorado vs sector |
+| Consenso Upside | 16,89% | Potencial alcista según analistas |
+| Net Debt / EBITDA | 0,78x | Solvencia financiera sólida |
 
-*Descargo: Esta es una revisión analítica basada en datos históricos. No constituye una recomendación de inversión. Los datos financieros y de mercado deben ser validados con fuentes oficiales antes de cualquier toma de decisiones.*
+FINAL TRANSACTION PROPOSAL: Mantener posiciones actuales. Esperar un quiebre sostenido por encima del máximo reciente o una corrección hacia el soporte de la media de 50 días (5,06 EUR) para considerar nuevas entradas.
+
+*Nota: La información proporcionada se basa en datos históricos y snapshots; no constituye una recomendación de inversión directa. Los cálculos de valoración asumen la continuidad de los flujos de caja reportados.*

@@ -1,11 +1,11 @@
 **Action**: Buy
 
-**Reasoning**: La valoración fundamental es atractiva con un PER forward de 7.07x y un balance sólido (Deuda Neta/EBITDA de 0.78). A pesar de la volatilidad sectorial, la acción cotiza por encima de sus medias móviles clave (SMA20, SMA50, SMA200), lo que confirma una tendencia alcista a largo plazo. Se propone una entrada gradual alineada con el plan estratégico para capturar el potencial de revalorización hasta el precio objetivo de consenso de 6.12 EUR.
+**Reasoning**: IAG.MC muestra fundamentos sólidos, incluyendo un apalancamiento bajo (0,78x Net Debt/EBITDA) y una valoración atractiva (7,07x Forward PE) que justifica una entrada. La estrategia busca aprovechar la proximidad al soporte técnico de la media móvil de 50 días para acumular posición, alineándose con el plan de 'Overweight' del equipo de investigación a pesar de la incertidumbre macroeconómica del BCE.
 
-**Entry Price**: 5.238
+**Entry Price**: 5.06
 
-**Stop Loss**: 4.86
+**Stop Loss**: 4.85
 
-**Position Sizing**: 5% del capital asignado al sector con estrategia de entrada gradual (DCA)
+**Position Sizing**: 75% de una asignación estándar
 
 FINAL TRANSACTION PROPOSAL: **BUY**

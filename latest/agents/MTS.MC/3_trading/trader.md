@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: ArcelorMittal (MTS.MC) presenta una divergencia clara entre su valoración fundamental atractiva, con un PER forward de 9.34x, y un deterioro técnico preocupante tras romper su media móvil de 200 días. La presión vendedora actual y el flujo de caja libre negativo aconsejan evitar la compra hasta que el precio logre consolidar un suelo por encima de los 50.00 EUR y revertir la tendencia bajista del RSI.
+**Reasoning**: La estructura técnica de MTS.MC muestra una tendencia bajista pronunciada tras perder la media móvil de 200 días y registrar un retroceso del 23% desde sus máximos. Aunque la valoración fundamental sugiere un potencial alcista según el consenso, los indicadores de momento (RSI y MACD) permanecen débiles y el flujo de caja libre negativo añade incertidumbre operativa. Se recomienda esperar a una consolidación por encima de los 55,78 EUR para confirmar un cambio de tendencia antes de incrementar exposición.
 
-**Entry Price**: 50.0
+**Entry Price**: 55.78
 
-**Stop Loss**: 47.5
+**Stop Loss**: 49.5
 
-**Position Sizing**: Mantener posición actual, no exceder 2% de exposición total en nuevas entradas.
+**Position Sizing**: 0.5% del portafolio (especulativo)
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

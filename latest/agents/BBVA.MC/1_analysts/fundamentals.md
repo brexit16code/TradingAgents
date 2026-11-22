@@ -1,36 +1,33 @@
-Aquí presento un análisis fundamental detallado de **BBVA.MC** (Banco Bilbao Vizcaya Argentaria, S.A.), basado en los datos financieros y de mercado proporcionados con fecha de corte al 21 de noviembre de 2026.
+Este informe presenta un análisis fundamental de **BBVA.MC** (Banco Bilbao Vizcaya Argentaria, S.A.), basado en los datos financieros y de mercado proporcionados a fecha de 22 de noviembre de 2026.
 
 ### Perfil y Desempeño Financiero
-BBVA.MC es una institución financiera diversificada con una capitalización bursátil de 119.080 millones de EUR. La entidad ha mostrado una trayectoria de crecimiento sólida, con ingresos totales que aumentaron de 33.427 millones de EUR en 2023 a 39.415 millones de EUR al cierre de 2025. Su beneficio neto refleja esta tendencia positiva, pasando de 8.019 millones a 10.511 millones de EUR en el mismo periodo.
+BBVA.MC es una entidad bancaria diversificada con una capitalización bursátil de 119.080 millones de EUR. La empresa ha mostrado un crecimiento sólido en ingresos (18,4%) y beneficios (23,8%) según sus últimos reportes anuales. A cierre de 2025, el beneficio neto alcanzó los 10.511 millones de EUR, frente a los 10.054 millones en 2024, evidenciando una tendencia alcista en su capacidad de generación de valor.
 
-**Puntos clave:**
-*   **Rentabilidad:** El Retorno sobre el Patrimonio (ROE) se sitúa en un saludable 19,83%, con márgenes de beneficio del 32,6%.
-*   **Valoración:** Cotizando a un PER de 11,14 (trailing) y 9,29 (forward), el valor muestra una valoración moderada frente a sus pares. Su ratio Precio/Valor Contable es de 2,07, lo que indica que el mercado valora la entidad por encima de su valor en libros.
-*   **Solidez:** La entidad reportó activos totales de 859.576 millones de EUR al cierre de 2025. Aunque los niveles de deuda total son significativos (89.302 millones de EUR), esta es una estructura operativa estándar en el sector bancario.
+*   **Valuación:** Cotiza a un PER *trailing* de 11,14x y un PER *forward* estimado de 9,29x. Con un ratio Precio/Valor Contable (P/B) de 2,07, se sitúa en un nivel de valoración que refleja la confianza del mercado en su rentabilidad sobre recursos propios (ROE del 19,84%).
+*   **Dividendos:** La política de remuneración al accionista se mantiene atractiva con una rentabilidad por dividendo del 4,44% y una tasa de *payout* del 46,59%, lo que sugiere sostenibilidad en los pagos.
 
-### Contexto de Mercado y Estrategia
-El sentimiento reciente hacia BBVA.MC es constructivo. Informes de mercado sugieren que la entidad está consolidando su fortaleza en bolsa, apoyada en el crecimiento de su cartera de crédito a empresas (+20,3% hasta septiembre). Adicionalmente, BBVA.MC está apostando fuerte por la digitalización y la Inteligencia Artificial (IA) para mejorar la personalización de sus servicios, lo cual es visto como un diferenciador competitivo clave.
+### Análisis Técnico y Sentimiento
+La acción muestra volatilidad (26,3%) y ha experimentado un ajuste del -3,36% en la última sesión, situándose en 21,83 EUR. Se encuentra cotizando por encima de su media móvil de 200 días (21,21 EUR), pero por debajo de sus medias de 20 y 50 días, lo que indica un momento de consolidación o corrección técnica tras un periodo de fortaleza. El RSI de 14 días (37,31) sugiere que el valor se aleja de la zona de sobrecompra, acercándose a niveles neutrales.
 
-**Factores de Riesgo y Observaciones:**
-*   **Contexto macro:** La inminente presión del BCE respecto a las reservas mínimas obligatorias y los tipos de interés (reunión del 17 de diciembre) añade volatilidad e incertidumbre al sector bancario en su conjunto.
-*   **Técnicos:** La acción se sitúa con un RSI de 37,3, acercándose a niveles que algunos analistas consideran de sobreventa, aunque el MACD negativo (-0,09) sugiere una presión bajista a corto plazo. El precio actual (21,83 EUR) está por debajo de sus medias móviles de 20 (22,67 EUR) y 50 sesiones (23,29 EUR), pero por encima de la de 200 sesiones (21,21 EUR).
-*   **Consenso:** Los analistas mantienen un precio objetivo medio de 24,48 EUR, lo que implica un potencial alcista (consensus upside) del 12,13%.
+*   **Noticias recientes:** El mercado destaca la fortaleza operativa de BBVA, mencionando un crecimiento del 20,3% en su cartera de crédito a empresas hasta septiembre (Bolsamania, 16/11/2026). Asimismo, la entidad está capitalizando la inteligencia artificial para mejorar la relación con el cliente (El Independiente, 16/11/2026).
 
-### Resumen para Traders
-BBVA.MC presenta fundamentales sólidos y un dividendo atractivo (4,44% yield), respaldado por una política de payout del 46,6%. Sin embargo, el corto plazo está supeditado a las decisiones de política monetaria del BCE. La estrategia parece orientada a mantener posiciones de largo plazo aprovechando el liderazgo tecnológico del banco, mientras se vigila el soporte clave cerca de los 21,21 EUR (SMA 200).
+### Evidencia de Riesgos y Desafíos
+1.  **Entorno Macroeconómico:** La agenda financiera está marcada por la política del BCE y la incertidumbre en los tipos de interés (reunión del 17/12/2026). La posible presión sobre las reservas obligatorias de los bancos añade un factor de riesgo regulatorio.
+2.  **Deuda:** El nivel de deuda total reportado a cierre de 2025 es de 89.302 millones de EUR. Es crucial recordar que, dada la naturaleza bancaria de BBVA.MC, no deben aplicarse métricas de deuda industrial, ya que el apalancamiento es parte intrínseca de su modelo de negocio.
+3.  **Datos Faltantes:** No se dispone del EBITDA ni de indicadores de *free cash flow* ajustados a largo plazo bajo criterios industriales estrictos, ni detalles de transacciones *insider* recientes en la muestra proporcionada.
 
-**Missing Data:** No se dispone del detalle desglosado de la exposición geográfica específica ni de las actas detalladas de la última reunión del comité de riesgos, lo cual es crucial para medir la exposición a mercados emergentes en un entorno de inflación global variable.
+### Conclusión para Traders
+La tendencia fundamental es positiva, apoyada por el crecimiento del crédito corporativo y una valoración relativa atractiva frente a sus pares del sector (ratio de PER relativo 0,93). La estrategia de los analistas, con un precio objetivo medio de 24,48 EUR, sugiere un potencial alcista cercano al 12,13%. Se recomienda vigilar el soporte en la media de 200 días.
+
+**Rating**: HOLD
 
 | Indicador | Valor |
 | :--- | :--- |
-| **Precio Actual** | 21,83 EUR |
-| **PER (Forward)** | 9,29 |
-| **ROE** | 19,84% |
-| **Dividend Yield** | 4,44% |
-| **Consensus Upside** | 12,13% |
-| **RSI (14)** | 37,31 |
-| **Capitalización (EUR)** | 119.080 M |
+| Precio Actual | 21,83 EUR |
+| PER Forward | 9,29x |
+| Dividend Yield | 4,44% |
+| ROE | 19,84% |
+| Precio Objetivo Medio | 24,48 EUR |
+| Upside Consenso | 12,13% |
 
-**Rating**: Neutral / Bullish (a largo plazo por fundamentales, cautela técnica a corto plazo).
-
-FINAL TRANSACTION PROPOSAL: N/A (Solo análisis informativo, no ejecutar ninguna orden).
+FINAL TRANSACTION PROPOSAL: No transaction executed. Investors should consider the divergence between the current price and the analyst target of 24,48 EUR while monitoring ECB interest rate decisions scheduled for December 2026.

@@ -1,36 +1,33 @@
-### Informe de Análisis: International Consolidated Airlines Group S.A. (IAG.MC)
+Este informe presenta un análisis de **IAG.MC** (International Consolidated Airlines Group S.A.) basado en los datos financieros y de mercado proporcionados a fecha de 22 de noviembre de 2026.
 
-**Fecha de análisis:** 21 de noviembre de 2026
+### Análisis Fundamental y Valoración
+**IAG.MC** presenta una situación financiera robusta en comparación con ejercicios anteriores. La compañía ha mostrado una mejora significativa en su eficiencia operativa:
+*   **Rentabilidad:** El EBITDA ha crecido consistentemente de 6.214 millones (2023) a 7.951 millones (2025). Con una capitalización bursátil de 22.670 millones de euros y una deuda neta sobre EBITDA de **0.78x**, la estructura de capital se considera saludable para el sector de aerolíneas.
+*   **Valoración:** Cotiza a un PER estimado para 2027 (forward) de **7.07x**, lo cual es significativamente inferior a la mediana de sus comparables del sector (16.45x). Esto sugiere un potencial de revalorización, respaldado por un consenso de analistas que sitúa el precio objetivo medio en 6.12 EUR, implicando una **upside del 16.89%**.
+*   **Dividendos:** Ofrece una rentabilidad por dividendo del 1.91%, con un payout ratio bajo (15.19%), lo que sugiere margen para mantener o incrementar la retribución al accionista.
 
-#### 1. Resumen Ejecutivo
-IAG.MC muestra una posición financiera sólida con un flujo de caja operativo de 6.588 millones de euros al cierre de 2025 y una reducción notable de la deuda neta en relación con su EBITDA (0,78x). A pesar de una corrección reciente del 2,2% en la última sesión, el valor cotiza por encima de sus medias móviles clave (SMA20, SMA50 y SMA200), lo que sugiere una tendencia alcista a medio y largo plazo.
+### Análisis Técnico
+A fecha de 20 de noviembre de 2026, la acción cotiza a **5.24 EUR**.
+*   **Tendencia:** El precio se sitúa por encima de sus medias móviles de 20, 50 y 200 días (5.19, 5.06 y 4.86 EUR respectivamente), confirmando una tendencia alcista a largo plazo.
+*   **Indicadores:** El RSI(14) en 52.44 indica una zona neutral, sin sobrecompra ni sobreventa, mientras que el MACD muestra una señal ligeramente positiva (0.1017 vs 0.1001).
+*   **Volatilidad:** La volatilidad del 26.88% refleja la naturaleza cíclica del sector.
 
-#### 2. Fundamentos y Valoración
-*   **Valoración:** La compañía presenta múltiplos atractivos con un PER forward de 7,07x frente a una mediana del sector de 16,45x, lo que justifica la etiqueta de "PER relativo inferior".
-*   **Rentabilidad y Endeudamiento:** Con un ratio de deuda neta/EBITDA de 0,78, IAG demuestra una gestión de balance mucho más eficiente que en años anteriores. La rentabilidad por dividendo (1,87%) y el ratio de reparto (15,19%) indican espacio para una mayor retribución al accionista si los flujos de caja se mantienen estables.
-*   **Desafíos:** Los costes de combustible siguen siendo el principal factor de riesgo para los márgenes, según informes recientes de *Estrategias de Inversión* (15/11/2026).
+### Entorno Macroeconómico
+El contexto está marcado por la incertidumbre sobre la política monetaria del BCE. Las noticias recientes destacan la preocupación por el incremento de las reservas obligatorias bancarias, visto como una subida de tipos "por la puerta de atrás", y la atención sobre el PIB de EE.UU. y las políticas de la OPEP+. Para una aerolínea, la estabilidad de los tipos de interés y el coste del combustible son fundamentales; sin embargo, no se dispone de datos directos sobre coberturas de combustible en este reporte.
 
-#### 3. Análisis Técnico
-*   **Indicadores:** El RSI(14) en 52,44 indica una zona neutral, sin sobrecompra ni sobreventa. El MACD se sitúa ligeramente por encima de su línea de señal, lo que confirma un momentum constructivo aunque moderado.
-*   **Tendencia:** El precio de cierre (5,24 €) se mantiene por encima de la SMA200 (4,86 €), validando una estructura alcista.
+### Factores de Riesgo y Datos Faltantes
+*   **Datos faltantes:** No se dispone del flujo de caja operativo ni flujo de caja libre (Free Cash Flow) más reciente, ni del ROE actual, lo que limita el análisis de la calidad del beneficio. La muestra de noticias específicas sobre IAG.MC es insuficiente (no hay titulares en los últimos 7 días), lo que impide evaluar noticias corporativas inmediatas (ej. fusiones, huelgas o problemas regulatorios).
+*   **Contrario:** El sector aéreo es extremadamente sensible al precio del petróleo y al ciclo económico. Una recesión económica en 2027 invalidaría las estimaciones de beneficio forward.
 
-#### 4. Contexto Macroeconómico
-El entorno actual está dominado por la incertidumbre sobre la política monetaria del BCE. Las noticias indican posibles incrementos en las reservas mínimas obligatorias y una próxima reunión clave el 17 de diciembre. Este endurecimiento de condiciones, sumado a la inflación persistente, podría presionar los costes operativos de empresas intensivas en capital como IAG. El interés de los hogares españoles en las letras del Tesoro sugiere un entorno de aversión al riesgo que podría afectar la liquidez del sector minorista en la bolsa.
+**Rating**: HOLD (Debido a la solidez financiera y valoración atractiva, pero cautela por la falta de noticias frescas y el entorno de tipos de interés).
 
-#### 5. Evidencia y Datos Faltantes
-*   **Datos disponibles:** Estados financieros completos (2023-2025), técnicos actualizados y consenso de analistas (11 opiniones).
-*   **Datos faltantes:** Falta información detallada sobre el *guidance* específico de capacidad de pasajeros para 2027 y proyecciones de precios de combustible a largo plazo. No se dispone de datos de flujo de caja libre proyectados de forma explícita.
+FINAL TRANSACTION PROPOSAL: No trade initiated. Monitor for 2027 earnings guidance updates.
 
-#### 6. Tabla de Resumen
-| Indicador | Valor / Estado | Nota |
+| Indicador | Valor | Comentario |
 | :--- | :--- | :--- |
-| **Precio Actual** | 5,238 EUR | Cierre al 20/11/2026 |
-| **Consenso Target** | 6,12 EUR | Potencial de subida ~16,9% |
-| **PER Forward** | 7,07x | Infravalorado vs sector (16,45x) |
-| **Deuda Neta/EBITDA** | 0,77x | Nivel de solvencia controlado |
-| **Tendencia** | Alcista moderada | Por encima de SMA200 |
-| **Riesgo Macro** | Medio/Alto | Incertidumbre BCE y costes energía |
-
-**Rating**: BUY (basado en valoración fundamental atractiva y fortaleza técnica).
-
-FINAL TRANSACTION PROPOSAL: Mantener exposición actual y considerar acumulación si el precio retrocede hacia la zona de 5,06 EUR (SMA50), dado el margen de seguridad frente al precio objetivo de consenso.
+| Precio Cierre (IAG.MC) | 5.24 EUR | Por encima de SMA200 |
+| Forward PER | 7.07x | Atractivo vs sector (16.45x) |
+| Net Debt/EBITDA | 0.78x | Nivel de solvencia sólido |
+| Upside Consenso | 16.89% | Potencial alcista según analistas |
+| Volatilidad (1 año) | 26.88% | Típica del sector aerolíneas |
+| Rentabilidad Div. | 1.91% | Payout conservador (15%) |

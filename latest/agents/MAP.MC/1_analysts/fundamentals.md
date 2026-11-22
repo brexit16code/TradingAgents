@@ -1,54 +1,38 @@
-**Rating**: REVIEW
+Este informe presenta un análisis fundamental de **MAP.MC** (Mapfre, S.A.), empresa líder en el sector de seguros diversificados en España, basado en la información proporcionada con fecha de corte al 22 de noviembre de 2026.
 
-### Informe Fundamental Integral: Mapfre, S.A. (`MAP.MC`)
+### Análisis Fundamental y Situación Financiera
 
-#### 1. Perfil de la Compañía y Contexto de Negocio
-* **Identidad y Sector:** Mapfre, S.A. (`MAP.MC`) cotiza en la Bolsa de Madrid (MCE) y opera en el sector de Servicios Financieros dentro de la industria de Seguros Diversificados (*Insurance - Diversified*). 
-* **Capitalización de Mercado:** 12.547,38 millones de EUR (según la instantánea de datos con precio de cierre al 20 de noviembre de 2026 en 4,088 EUR).
-* **Situación Técnica y de Mercado:** Las acciones registran un nivel de RSI de 14 en 40,65 (neutral-débil), con una volatilidad del 23,64% y un retroceso (*drawdown*) de -10,47% desde máximos recientes. El precio actual se encuentra ligeramente por debajo de sus medias móviles de 20, 50 y 200 sesiones (SMA20: 4,18 EUR, SMA50: 4,27 EUR, SMA200: 4,15 EUR).
+**Perfil y Desempeño Financiero:**
+Mapfre muestra una solidez financiera estable. A cierre del ejercicio 2025, la compañía reportó ingresos totales de 26.355 millones de euros, con un beneficio neto de 1.132,6 millones de euros, lo que representa un crecimiento positivo frente a los 967,5 millones de 2024 y los 677,2 millones de 2023. La tendencia de los beneficios ha sido ascendente durante los últimos tres años, reflejando una recuperación operativa significativa.
 
-#### 2. Análisis de Estados Financieros y Historial
-A partir de los estados financieros consolidados recientes, se observa la evolución de los principales agregados contables:
+**Valuación y Métricas Clave:**
+*   **Valoración:** Cotizando a 4,088 EUR, la acción presenta un ratio Precio/Beneficio (P/E) *trailing* de 10,76 y un P/E *forward* más atractivo de 9,62, lo que sugiere que el mercado anticipa un incremento en los beneficios para los próximos periodos.
+*   **Balance y Liquidez:** La compañía reportó un valor en libros (*Book Value*) de 3,077 EUR, con un ratio Precio/Valor en Libros (P/B) de 1,33, situándose en rangos razonables para una aseguradora consolidada. La deuda total de 2.980 millones de euros frente a unos activos totales de 58.512 millones indica un apalancamiento conservador, típico del sector asegurador.
+*   **Retorno al Accionista:** Uno de los puntos focales actuales es su política de dividendos. La rentabilidad por dividendo (*Dividend Yield*) se sitúa en un 4,40%, con un *payout ratio* del 47,42%, lo que indica que el dividendo es sostenible con cargo a los beneficios actuales.
 
-* **Cuenta de Resultados (*Income Statement*):**
-  * **Ingresos Totales (*Total Revenue*):** 25.639,6 millones de EUR en 2023, 25.833,4 millones de EUR en 2024, y un incremento hasta 26.355,1 millones de EUR al cierre del ejercicio 2025.
-  * **Beneficio Neto (*Net Income*):** 677,2 millones de EUR (2023), que ascendieron a 967,5 millones de EUR (2024) y se consolidaron en 1.132,6 millones de EUR al término de 2025, reflejando una senda clara de crecimiento en rentabilidad.
+### Análisis Técnico Breve
+La acción muestra una tendencia correctiva reciente con un retorno a 21 días del -7,09%. El RSI de 14 días en 40,65 sugiere que el activo se encuentra alejado de condiciones de sobreventa extrema, consolidándose cerca de su media móvil de 200 días (4,148 EUR).
 
-* **Balance de Situación (*Balance Sheet*):**
-  * **Activos Totales:** 54.947,1 millones de EUR (2023), 56.706,8 millones de EUR (2024) y 58.512,7 millones de EUR (2025).
-  * **Patrimonio Neto (*Stockholders Equity*):** 8.466,6 millones de EUR (2023), 8.887,0 millones de EUR (2024) y 9.409,9 millones de EUR (2025).
-  * **Deuda Total (*Total Debt*):** 3.052,4 millones de EUR (2023), 2.672,8 millones de EUR (2024) y 2.980,0 millones de EUR (2025). *Nota metodológica:* No se aplican reglas de deuda industrial/EBITDA a aseguradoras.
+### Eventos Recientes y Contexto de Mercado
+La noticia más relevante para los inversores en el corto plazo es el pago de un dividendo de 0,08 EUR por acción previsto para el 26 de noviembre de 2026. Los medios financieros (El Economista, Radio Intereconomía) señalan que el lunes es la última fecha clave para capturar este dividendo, lo cual explica parte del interés comercial actual.
 
-* **Flujo de Caja (*Cash Flow*):**
-  * **Flujo de Caja Libre (*Free Cash Flow*):** 1.398,8 millones de EUR en 2023, 1.211,6 millones de EUR en 2024, y 1.423,8 millones de EUR en 2025, respaldados por un gasto de capital (*Capital Expenditure*) contenido (-217,0 millones de EUR en 2025).
+### Evidencia y Datos Faltantes
+*   **Evidencia:** Todos los datos financieros y de mercado provienen de la instantánea proporcionada con fecha 2026-11-22.
+*   **Datos faltantes:** No se dispone del flujo de caja operativo actual ni de una comparación sectorial detallada (la herramienta reportó "Comparación sectorial no disponible"). Tampoco se cuenta con una estimación de crecimiento de beneficios (*earnings growth*) consolidada para el próximo año.
 
-#### 3. Métricas Clave de Valoración y Fundamentales
-* **PER (*Trailing P/E*):** 10,76x; **PER Adelantado (*Forward P/E*):** 9,62x.
-* **Beneficio por Acción (BPA):** 0,38 EUR (*trailing*) y estimación *forward* de 0,425 EUR.
-* **Valor en Libros por Acción y Precio/Valor en Libros:** El valor contable por acción (*book value*) es de 3,077 EUR, situando la ratio Precio/Valor en Libros (*Price-to-Book*) en 1,33x.
-* **Rentabilidad por Dividendos (*Dividend Yield*):** Atractiva rentabilidad del dividendo de aproximadamente 4,40% - 4,42%, con una tasa de pago (*payout ratio*) del 47,42%.
-* **Retorno sobre el Capital (*ROE*):** Sólido, situado en el 18,38%.
-* **Consenso de Analistas:** El precio objetivo medio (*target mean price*) se sitúa en 4,325 EUR (con un rango entre 3,80 EUR y 5,00 EUR basado en 10 opiniones de analistas), lo que ofrece un potencial de revalorización (*consensus upside*) del 5,80% frente al precio de cotización de 4,088 EUR.
+### Consideraciones para el Trader
+Mapfre se posiciona como una opción defensiva dentro del sector financiero, respaldada por un historial de dividendos robusto y una tendencia de beneficios crecientes. Los inversores deben vigilar el nivel de soporte en torno a los 4,00 EUR. La proximidad del pago del dividendo podría generar volatilidad técnica en los días inmediatos tras la fecha de corte.
 
-#### 4. Eventos Recientes y Noticias (Semana del 18 al 21 de noviembre de 2026)
-* **Dividendo Inminente:** Numerosos medios económicos (como *El Economista*, *Radio Intereconomía*, *Finect* y *CapitalMadrid*) han recordado que el lunes próximo es el último día para capturar el dividendo de Mapfre, fijado en un importe bruto de **0,080248 EUR** (ajustado a 0,08 EUR) por acción, cuyo abono efectivo está programado para el **26 de noviembre de 2026**. Esto aporta un atractivo flujo de rentabilidad a corto plazo para los accionistas (aproximadamente un 2% de retorno en este pago específico).
-* **Contexto Macroeconómico:** Los mercados europeos siguen de cerca las expectativas sobre las próximas reuniones del Banco Central Europeo (BCE previstas para diciembre) y la evolución de los tipos de interés, lo cual incide directamente en la valoración de las carteras de renta fija de las aseguradoras.
+**Rating**: HOLD
 
-#### 5. Datos Faltantes
-* No se dispone de datos desagregados oficiales sobre flujos de caja operativos trimestrales exactos ni métricas detalladas de siniestralidad combinada en los registros suministrados, limitándose la evaluación a los estados anuales auditados y métricas consolidadas.
+| Métrica | Valor / Detalle |
+| :--- | :--- |
+| **Precio Actual (MAP.MC)** | 4,088 EUR |
+| **Capitalización de Mercado** | 12.547,38 Millones EUR |
+| **Yield de Dividendo** | 4,40% |
+| **Ratio P/E (Forward)** | 9,62 |
+| **Consenso Precio Objetivo (Media)**| 4,325 EUR |
+| **UPSIDE Consenso** | 5,80% |
+| **Último Beneficio Neto (2025)** | 1.132,6 Millones EUR |
 
----
-
-### Resumen de Puntos Clave
-
-| Concepto | Valor / Detalle | Fuente / Referencia |
-| :--- | :--- | :--- |
-| **Ticker y Mercado** | `MAP.MC` (MCE, EUR) | Contexto de instrumento |
-| **Precio de Cierre** | 4.088 EUR (al 20/11/2026) | Datos técnicos de mercado |
-| **Capitalización de Mercado** | ~12.547,38 millones de EUR | `get_fundamentals` |
-| **PER Trailing / Forward** | 10,76x / 9,62x | `get_fundamentals` |
-| **Beneficio Neto (2025)** | 1.132,6 millones de EUR | `get_income_stmt` |
-| **Patrimonio Neto (2025)** | 9.409,9 millones de EUR | `get_balance_sheet` |
-| **Rentabilidad por Dividendo** | ~4,40% | `get_fundamentals` |
-| **Próximo Dividendo** | 0,080248 EUR (Pago: 26/11/2026) | Cobertura de prensa (18-21 Nov 2026) |
-| **Precio Objetivo Consenso** | 4,325 EUR (Upside: +5,80%) | `get_fundamentals` |
+FINAL TRANSACTION PROPOSAL: Mantener posiciones existentes para capturar el rendimiento del dividendo del 26 de noviembre, evaluando nuevas entradas solo si se observan cierres sostenidos por encima de la media móvil de 50 días (4,27 EUR).
