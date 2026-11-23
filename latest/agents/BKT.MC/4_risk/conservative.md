@@ -1,9 +1,0 @@
-
-Conservative Analyst: **Rating**: HOLD  
-FINAL TRANSACTION PROPOSAL: **HOLD**
-
-Escuchando la intervención del analista agresivo, es evidente que el entusiasmo por las métricas de rentabilidad a largo plazo está nublando la visión del riesgo real al que se expone el capital de la firma. Celebrar un *drawdown* del 19,32% como si fuera una simple "alfombra roja" es ignorar peligrosamente que la caída responde a un deterioro técnico claro y persistente. Afirmar que el RSI en 32,4 y un MACD con sesgo negativo de -0,245 son tan solo ruido menor es una temeridad que puede costar muy caro si el soporte crítico cede.
-
-El analista agresivo descarta las medias móviles tildándolas de "espejo retrovisor", pero olvidar que la cotización de `BKT.MC` en 13,68 EUR opera netamente por debajo de su SMA de 20 (14,36 EUR), de su SMA de 50 (15,22 EUR) y de su SMA de 200 (14,79 EUR) es caminar con los ojos vendados en medio de una tormenta de volatilidad del 26,56%. Un ROE del 17,64% y un beneficio neto de 1.090 millones de euros al cierre de 2025 son datos excelentes, nadie lo niega, pero los fundamentales sólidos no inmunizan a una acción frente a los cambios en el ciclo de tipos del Banco Central Europeo o la creciente competencia de las letras del tesoro en España, que ya superan los 23.000 millones de euros en manos de los hogares. 
-
-Confiarse únicamente en un precio objetivo de consenso de 16.78 EUR sin respetar el riesgo bajista actual expone a la cartera a caídas prolongadas. Por ello, aunque los fundamentos justifican retener la posición actual para no cristalizar pérdidas precipitadas, la gestión de riesgo debe ser innegociable: el *stop loss* en 12,50 EUR y la asignación prudente del 5% de la cartera son los únicos escudos reales que protegen nuestros activos frente a la excesiva euforia y la volatilidad latente. La estabilidad y la seguridad del capital deben estar siempre por encima de cualquier promesa de rebote explosivo.

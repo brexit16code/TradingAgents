@@ -1,9 +1,0 @@
-**Rating**: Hold
-
-**Executive Summary**: Se recomienda mantener la postura actual (Hold) sin incrementar la exposición en ANE.MC. La estrategia exige paciencia táctica, vigilando de cerca la evolución de la deuda neta y la estabilización del flujo de caja libre negativo antes de considerar cambios, evitando comprar en plena tendencia bajista por debajo de las medias móviles clave.
-
-**Investment Thesis**: El debate entre los analistas refleja una profunda divergencia que justifica mantener una postura neutral equilibrada. Por un lado, el analista agresivo argumenta que ANE.MC ofrece un atractivo descuento patrimonial (Price to Book de 0,98x frente a un valor en libros de 19,10 EUR frente a un precio de cierre de 18,69 EUR), un RSI en sobreventa de 29,23 que sugiere agotamiento vendedor y un potencial de revalorización del consenso del +24,81% hacia los 23,33 EUR, respaldado por un EBITDA sólido de 1.484 millones de euros en 2025 y activos renovables de primer nivel. Por otro lado, los analistas conservador y neutral advierten sobre riesgos estructurales severos: una quema persistente de flujo de caja libre (-596 millones de euros en 2025, -949 millones en 2024), una ratio elevada de deuda neta sobre EBITDA de 5,06x con una deuda total de 5.411 millones de euros, y un contexto técnico desfavorable donde el valor cotiza claramente por debajo de sus medias móviles de 50 y 200 sesiones y con un MACD negativo. Aunque los activos industriales justifican parte del apalancamiento, los riesgos de liquidez y la ausencia de un patrón técnico de giro neutralizan el atractivo del descuento patrimonial. La tesis cambiaría si se observa una reversión efectiva en la generación de flujo de caja libre, una reducción del endeudamiento y una superación confirmada de las resistencias de las medias móviles.
-
-**Price Target**: 23.33
-
-**Time Horizon**: 3-6 meses

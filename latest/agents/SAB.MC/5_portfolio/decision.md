@@ -1,9 +1,0 @@
-**Rating**: Hold
-
-**Executive Summary**: Mantener la posición actual en SAB.MC sin realizar nuevas compras ni salidas precipitadas. El horizonte temporal sugerido es de 3 a 6 meses con una asignación neutral recomendada del 2% al 3% del portfolio, vigilando estrictamente el soporte técnico clave en la media móvil de 200 sesiones (3.172 EUR).
-
-**Investment Thesis**: La decisión de mantener se basa en la persistencia de fuerzas equilibradas y contrapuestas expuestas en la ronda de debate. Por un lado, la tesis alcista destaca una valoración atractiva con un Forward P/E de 10.63x, un margen de beneficio neto del 41.57% y una sólida tendencia a largo plazo con el precio cotizando holgadamente por encima de su SMA 200 en 3.172 EUR, respaldada por un rendimiento a 252 sesiones del 35.99%. Por otro lado, la tesis bajista y neutral advierte sobre debilidades fundamentales innegables, como la contracción interanual de los ingresos del -15.10% y el escaso potencial alcista frente al precio objetivo de consenso (3.703 EUR, un +4.43% desde los 3.546 EUR actuales), agravado por los vientos en contra regulatorios del BCE (incremento de reservas mínimas) y una fase de consolidación a corto plazo por debajo de las medias de 20 y 50 sesiones. Dado que la evidencia se equilibra entre la solidez estructural de largo plazo y el estancamiento de los ingresos a corto plazo, la postura de retención es la única analíticamente coherente. Un cambio de postura requeriría una estabilización de los ingresos orgánicos o una ruptura clara de la resistencia con volumen.
-
-**Price Target**: 3.70325
-
-**Time Horizon**: 3-6 meses

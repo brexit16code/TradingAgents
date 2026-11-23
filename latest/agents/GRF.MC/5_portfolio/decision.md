@@ -1,9 +1,0 @@
-**Rating**: Hold
-
-**Executive Summary**: Mantener la posición actual de GRF.MC sin añadir capital. Se recomienda aguardar a una ruptura consolidada sobre la media móvil de 20 sesiones (11,19 EUR) o una mejora tangible en la estructura de capital antes de aumentar la exposición. El objetivo es preservar capital ante la elevada volatilidad y la incertidumbre macroeconómica.
-
-**Investment Thesis**: La tesis de 'Hold' se sustenta en el equilibrio precario entre la recuperación operativa y la vulnerabilidad financiera. Por un lado, el analista agresivo destaca con acierto la mejora en el flujo de caja libre, que pasó de -93 millones EUR en 2023 a +624 millones EUR en 2025, lo cual justifica el potencial alcista del 39%. No obstante, la postura conservadora prevalece al señalar que un ratio de Deuda Neta/EBITDA de 5,04x sitúa a la compañía en una posición de alta vulnerabilidad frente a posibles endurecimientos en las condiciones del BCE o el coste de refinanciación. Técnicamente, aunque la acción cotiza sobre la SMA de 50 sesiones (10,34 EUR), la divergencia bajista en el MACD y un RSI neutro (48,55) sugieren una falta de momentum claro. La estrategia de esperar a una ruptura confirmada por encima de los 11,19 EUR minimiza el riesgo de trampa alcista, permitiendo validar que el mercado efectivamente está premiando la mejora fundamental sobre las preocupaciones macroeconómicas. Cualquier señal de incumplimiento en el desapalancamiento o una ruptura del soporte en 10,34 EUR invalidaría la tesis de mantenimiento y forzaría una revisión hacia una postura bajista.
-
-**Price Target**: 15.25
-
-**Time Horizon**: 3-6 meses
