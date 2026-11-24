@@ -12,8 +12,8 @@
     "dividends": "Brutos devengados en exfecha; separados del efectivo y sin reinversión."
   },
   "started_at": "2026-11-01T15:07:55.196232+01:00",
-  "updated_at": "2026-11-23T20:52:22.428464+01:00",
-  "cursor": "2026-11-23",
+  "updated_at": "2026-11-24T21:03:38.803442+01:00",
+  "cursor": "2026-11-24",
   "cash": 173.6,
   "positions": {
     "SAN.MC": {
@@ -22,8 +22,8 @@
       "basis": 999.26,
       "opened_on": "2026-11-02",
       "source": "paper-history/2026-11-01_7993a337800b77b28efd15c8.json",
-      "last_close": 10.574000358581543,
-      "price_date": "2026-11-23"
+      "last_close": 10.442000389099121,
+      "price_date": "2026-11-24"
     },
     "BBVA.MC": {
       "name": "BBVA",
@@ -31,8 +31,8 @@
       "basis": 996.1,
       "opened_on": "2026-11-02",
       "source": "paper-history/2026-11-01_0b3cdbf2495eb4a606b8ce53.json",
-      "last_close": 22.5,
-      "price_date": "2026-11-23"
+      "last_close": 21.940000534057617,
+      "price_date": "2026-11-24"
     },
     "BKT.MC": {
       "name": "Bankinter",
@@ -40,8 +40,8 @@
       "basis": 992.73,
       "opened_on": "2026-11-02",
       "source": "paper-history/2026-11-01_0b3cdbf2495eb4a606b8ce53.json",
-      "last_close": 13.885000228881836,
-      "price_date": "2026-11-23"
+      "last_close": 13.805000305175781,
+      "price_date": "2026-11-24"
     },
     "PUIG.MC": {
       "name": "Puig",
@@ -49,8 +49,8 @@
       "basis": 987.28,
       "opened_on": "2026-11-02",
       "source": "paper-history/2026-11-01_0b3cdbf2495eb4a606b8ce53.json",
-      "last_close": 20.100000381469727,
-      "price_date": "2026-11-23"
+      "last_close": 20.139999389648438,
+      "price_date": "2026-11-24"
     },
     "SCYR.MC": {
       "name": "Sacyr",
@@ -58,8 +58,8 @@
       "basis": 997.33,
       "opened_on": "2026-11-02",
       "source": "paper-history/2026-11-01_0b3cdbf2495eb4a606b8ce53.json",
-      "last_close": 4.145999908447266,
-      "price_date": "2026-11-23"
+      "last_close": 4.0320000648498535,
+      "price_date": "2026-11-24"
     },
     "SLR.MC": {
       "name": "Solaria",
@@ -67,8 +67,8 @@
       "basis": 999.2,
       "opened_on": "2026-11-02",
       "source": "paper-history/2026-11-01_0b3cdbf2495eb4a606b8ce53.json",
-      "last_close": 14.03499984741211,
-      "price_date": "2026-11-23"
+      "last_close": 13.4350004196167,
+      "price_date": "2026-11-24"
     },
     "ACS.MC": {
       "name": "ACS",
@@ -76,8 +76,8 @@
       "basis": 938.94,
       "opened_on": "2026-11-13",
       "source": "paper-history/2026-11-12_ce6a0fae195ca947915f49dd.json",
-      "last_close": 86.0999984741211,
-      "price_date": "2026-11-23"
+      "last_close": 82.75,
+      "price_date": "2026-11-24"
     },
     "IAG.MC": {
       "name": "IAG",
@@ -85,8 +85,8 @@
       "basis": 996.44,
       "opened_on": "2026-11-13",
       "source": "paper-history/2026-11-12_ce6a0fae195ca947915f49dd.json",
-      "last_close": 5.432000160217285,
-      "price_date": "2026-11-23"
+      "last_close": 5.343999862670898,
+      "price_date": "2026-11-24"
     },
     "AMS.MC": {
       "name": "Amadeus",
@@ -94,8 +94,8 @@
       "basis": 938.64,
       "opened_on": "2026-11-16",
       "source": "paper-history/2026-11-15_facb97ac04bb78280051e020.json",
-      "last_close": 59.86000061035156,
-      "price_date": "2026-11-23"
+      "last_close": 60.91999816894531,
+      "price_date": "2026-11-24"
     },
     "FDR.MC": {
       "name": "Fluidra",
@@ -103,8 +103,8 @@
       "basis": 980.48,
       "opened_on": "2026-11-16",
       "source": "paper-history/2026-11-15_facb97ac04bb78280051e020.json",
-      "last_close": 18.469999313354492,
-      "price_date": "2026-11-23"
+      "last_close": 18.549999237060547,
+      "price_date": "2026-11-24"
     }
   },
   "orders": [
@@ -587,6 +587,14 @@
       "id": "6450227b0675ddd6fc37b1f0",
       "observed_at": "2026-11-23T20:52:22.428464+01:00",
       "path": "paper-history/2026-11-23_6450227b0675ddd6fc37b1f0.json"
+    },
+    {
+      "report_date": "2026-11-24",
+      "generated_at": "2026-11-24T20:45:13.124557+01:00",
+      "universe_verified": true,
+      "id": "f3510834bd77b444c71e725b",
+      "observed_at": "2026-11-24T21:03:38.803442+01:00",
+      "path": "paper-history/2026-11-24_f3510834bd77b444c71e725b.json"
     }
   ],
   "latest_signals": [
@@ -596,8 +604,8 @@
       "rating": "",
       "action": "REVIEW",
       "model": null,
-      "price_date": "2026-11-23",
-      "close": 86.0999984741211
+      "price_date": "2026-11-24",
+      "close": 82.75
     },
     {
       "ticker": "ACX.MC",
@@ -605,8 +613,8 @@
       "rating": "",
       "action": "REVIEW",
       "model": null,
-      "price_date": "2026-11-23",
-      "close": 14.899999618530273
+      "price_date": "2026-11-24",
+      "close": 14.25
     },
     {
       "ticker": "AENA.MC",
@@ -614,8 +622,8 @@
       "rating": "",
       "action": "REVIEW",
       "model": null,
-      "price_date": "2026-11-23",
-      "close": 27.979999542236328
+      "price_date": "2026-11-24",
+      "close": 28.079999923706055
     },
     {
       "ticker": "AMS.MC",
@@ -623,8 +631,8 @@
       "rating": "",
       "action": "REVIEW",
       "model": null,
-      "price_date": "2026-11-23",
-      "close": 59.86000061035156
+      "price_date": "2026-11-24",
+      "close": 60.91999816894531
     },
     {
       "ticker": "ANA.MC",
@@ -632,8 +640,8 @@
       "rating": "",
       "action": "REVIEW",
       "model": null,
-      "price_date": "2026-11-23",
-      "close": 190.5
+      "price_date": "2026-11-24",
+      "close": 185.0
     },
     {
       "ticker": "ANE.MC",
@@ -641,8 +649,8 @@
       "rating": "",
       "action": "REVIEW",
       "model": null,
-      "price_date": "2026-11-23",
-      "close": 19.059999465942383
+      "price_date": "2026-11-24",
+      "close": 18.760000228881836
     },
     {
       "ticker": "BBVA.MC",
@@ -650,8 +658,8 @@
       "rating": "",
       "action": "REVIEW",
       "model": null,
-      "price_date": "2026-11-23",
-      "close": 22.5
+      "price_date": "2026-11-24",
+      "close": 21.940000534057617
     },
     {
       "ticker": "BKT.MC",
@@ -659,8 +667,8 @@
       "rating": "",
       "action": "REVIEW",
       "model": null,
-      "price_date": "2026-11-23",
-      "close": 13.885000228881836
+      "price_date": "2026-11-24",
+      "close": 13.805000305175781
     },
     {
       "ticker": "CABK.MC",
@@ -668,8 +676,8 @@
       "rating": "",
       "action": "REVIEW",
       "model": null,
-      "price_date": "2026-11-23",
-      "close": 11.619999885559082
+      "price_date": "2026-11-24",
+      "close": 11.449999809265137
     },
     {
       "ticker": "CLNX.MC",
@@ -677,8 +685,8 @@
       "rating": "",
       "action": "REVIEW",
       "model": null,
-      "price_date": "2026-11-23",
-      "close": 24.84000015258789
+      "price_date": "2026-11-24",
+      "close": 25.59000015258789
     },
     {
       "ticker": "COL.MC",
@@ -686,8 +694,8 @@
       "rating": "",
       "action": "REVIEW",
       "model": null,
-      "price_date": "2026-11-23",
-      "close": 4.894000053405762
+      "price_date": "2026-11-24",
+      "close": 4.8979997634887695
     },
     {
       "ticker": "ELE.MC",
@@ -695,8 +703,8 @@
       "rating": "",
       "action": "REVIEW",
       "model": null,
-      "price_date": "2026-11-23",
-      "close": 43.22999954223633
+      "price_date": "2026-11-24",
+      "close": 42.619998931884766
     },
     {
       "ticker": "ENG.MC",
@@ -704,8 +712,8 @@
       "rating": "",
       "action": "REVIEW",
       "model": null,
-      "price_date": "2026-11-23",
-      "close": 17.729999542236328
+      "price_date": "2026-11-24",
+      "close": 17.799999237060547
     },
     {
       "ticker": "FDR.MC",
@@ -713,8 +721,8 @@
       "rating": "",
       "action": "REVIEW",
       "model": null,
-      "price_date": "2026-11-23",
-      "close": 18.469999313354492
+      "price_date": "2026-11-24",
+      "close": 18.549999237060547
     },
     {
       "ticker": "FER.MC",
@@ -722,8 +730,8 @@
       "rating": "",
       "action": "REVIEW",
       "model": null,
-      "price_date": "2026-11-23",
-      "close": 54.02000045776367
+      "price_date": "2026-11-24",
+      "close": 53.599998474121094
     },
     {
       "ticker": "GRF.MC",
@@ -731,8 +739,8 @@
       "rating": "",
       "action": "REVIEW",
       "model": null,
-      "price_date": "2026-11-23",
-      "close": 10.954999923706055
+      "price_date": "2026-11-24",
+      "close": 11.045000076293945
     },
     {
       "ticker": "IAG.MC",
@@ -740,8 +748,8 @@
       "rating": "",
       "action": "REVIEW",
       "model": null,
-      "price_date": "2026-11-23",
-      "close": 5.432000160217285
+      "price_date": "2026-11-24",
+      "close": 5.343999862670898
     },
     {
       "ticker": "IBE.MC",
@@ -749,8 +757,8 @@
       "rating": "",
       "action": "REVIEW",
       "model": null,
-      "price_date": "2026-11-23",
-      "close": 22.829999923706055
+      "price_date": "2026-11-24",
+      "close": 22.850000381469727
     },
     {
       "ticker": "IDR.MC",
@@ -758,8 +766,8 @@
       "rating": "",
       "action": "REVIEW",
       "model": null,
-      "price_date": "2026-11-23",
-      "close": 51.540000915527344
+      "price_date": "2026-11-24",
+      "close": 52.02000045776367
     },
     {
       "ticker": "ITX.MC",
@@ -767,8 +775,8 @@
       "rating": "",
       "action": "REVIEW",
       "model": null,
-      "price_date": "2026-11-23",
-      "close": 58.68000030517578
+      "price_date": "2026-11-24",
+      "close": 58.29999923706055
     },
     {
       "ticker": "LOG.MC",
@@ -776,8 +784,8 @@
       "rating": "",
       "action": "REVIEW",
       "model": null,
-      "price_date": "2026-11-23",
-      "close": 36.58000183105469
+      "price_date": "2026-11-24",
+      "close": 36.599998474121094
     },
     {
       "ticker": "MAP.MC",
@@ -785,8 +793,8 @@
       "rating": "",
       "action": "REVIEW",
       "model": null,
-      "price_date": "2026-11-23",
-      "close": 4.124000072479248
+      "price_date": "2026-11-24",
+      "close": 4.026000022888184
     },
     {
       "ticker": "MRL.MC",
@@ -794,8 +802,8 @@
       "rating": "",
       "action": "REVIEW",
       "model": null,
-      "price_date": "2026-11-23",
-      "close": 11.1899995803833
+      "price_date": "2026-11-24",
+      "close": 11.010000228881836
     },
     {
       "ticker": "MTS.MC",
@@ -803,8 +811,8 @@
       "rating": "",
       "action": "REVIEW",
       "model": null,
-      "price_date": "2026-11-23",
-      "close": 54.400001525878906
+      "price_date": "2026-11-24",
+      "close": 50.2400016784668
     },
     {
       "ticker": "NTGY.MC",
@@ -812,8 +820,8 @@
       "rating": "",
       "action": "REVIEW",
       "model": null,
-      "price_date": "2026-11-23",
-      "close": 29.780000686645508
+      "price_date": "2026-11-24",
+      "close": 30.059999465942383
     },
     {
       "ticker": "PUIG.MC",
@@ -821,8 +829,8 @@
       "rating": "",
       "action": "REVIEW",
       "model": null,
-      "price_date": "2026-11-23",
-      "close": 20.100000381469727
+      "price_date": "2026-11-24",
+      "close": 20.139999389648438
     },
     {
       "ticker": "RED.MC",
@@ -830,8 +838,8 @@
       "rating": "",
       "action": "REVIEW",
       "model": null,
-      "price_date": "2026-11-23",
-      "close": 16.389999389648438
+      "price_date": "2026-11-24",
+      "close": 16.790000915527344
     },
     {
       "ticker": "REP.MC",
@@ -839,8 +847,8 @@
       "rating": "",
       "action": "REVIEW",
       "model": null,
-      "price_date": "2026-11-23",
-      "close": 27.81999969482422
+      "price_date": "2026-11-24",
+      "close": 27.969999313354492
     },
     {
       "ticker": "ROVI.MC",
@@ -848,8 +856,8 @@
       "rating": "",
       "action": "REVIEW",
       "model": null,
-      "price_date": "2026-11-23",
-      "close": 64.55000305175781
+      "price_date": "2026-11-24",
+      "close": 65.0
     },
     {
       "ticker": "SAB.MC",
@@ -857,8 +865,8 @@
       "rating": "",
       "action": "REVIEW",
       "model": null,
-      "price_date": "2026-11-23",
-      "close": 3.6089999675750732
+      "price_date": "2026-11-24",
+      "close": 3.51200008392334
     },
     {
       "ticker": "SAN.MC",
@@ -866,8 +874,8 @@
       "rating": "",
       "action": "REVIEW",
       "model": null,
-      "price_date": "2026-11-23",
-      "close": 10.574000358581543
+      "price_date": "2026-11-24",
+      "close": 10.442000389099121
     },
     {
       "ticker": "SCYR.MC",
@@ -875,8 +883,8 @@
       "rating": "",
       "action": "REVIEW",
       "model": null,
-      "price_date": "2026-11-23",
-      "close": 4.145999908447266
+      "price_date": "2026-11-24",
+      "close": 4.0320000648498535
     },
     {
       "ticker": "SLR.MC",
@@ -884,8 +892,8 @@
       "rating": "",
       "action": "REVIEW",
       "model": null,
-      "price_date": "2026-11-23",
-      "close": 14.03499984741211
+      "price_date": "2026-11-24",
+      "close": 13.4350004196167
     },
     {
       "ticker": "TEF.MC",
@@ -893,8 +901,8 @@
       "rating": "",
       "action": "REVIEW",
       "model": null,
-      "price_date": "2026-11-23",
-      "close": 3.319000005722046
+      "price_date": "2026-11-24",
+      "close": 3.4040000438690186
     },
     {
       "ticker": "UNI.MC",
@@ -902,8 +910,8 @@
       "rating": "",
       "action": "REVIEW",
       "model": null,
-      "price_date": "2026-11-23",
-      "close": 3.2980000972747803
+      "price_date": "2026-11-24",
+      "close": 3.2260000705718994
     }
   ],
   "valuations": [
@@ -1130,6 +1138,20 @@
       "date": "2026-11-23",
       "ibex_return_pct": 2.4341335471705747,
       "drawdown_pct": -5.354837235343183
+    },
+    {
+      "cash": 173.6,
+      "market_value": 9624.68,
+      "dividends": 0.0,
+      "equity": 9798.28,
+      "profit": -201.72,
+      "return_pct": -2.0172,
+      "realized": 0.0,
+      "unrealized": -201.72,
+      "fees": 20.0,
+      "date": "2026-11-24",
+      "ibex_return_pct": 1.5513769492604528,
+      "drawdown_pct": -6.703306329673175
     }
   ],
   "benchmark": {
@@ -1137,8 +1159,8 @@
     "units": 0.5340368155801903,
     "started_on": "2026-11-02",
     "entry": 18725.30078125,
-    "last_close": 19181.099609375,
-    "price_date": "2026-11-23"
+    "last_close": 19015.80078125,
+    "price_date": "2026-11-24"
   },
   "warnings": [
     "35 empresas sin señal utilizable; no se inventan recomendaciones."
@@ -1146,13 +1168,13 @@
   "status": "ok",
   "summary": {
     "cash": 173.6,
-    "market_value": 9766.3,
+    "market_value": 9624.68,
     "dividends": 0.0,
-    "equity": 9939.9,
-    "profit": -60.1,
-    "return_pct": -0.601,
+    "equity": 9798.28,
+    "profit": -201.72,
+    "return_pct": -2.0172,
     "realized": 0.0,
-    "unrealized": -60.1,
+    "unrealized": -201.72,
     "fees": 20.0
   }
 }
