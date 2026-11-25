@@ -1,0 +1,15 @@
+
+Aggressive Analyst: **Rating**: REVIEW
+
+FINAL TRANSACTION PROPOSAL: **HOLD**
+
+Aquí se equivocan de medio lado quienes pretenden ver solo fantasmas de deuda y parálisis en `ANA.MC`. Los analistas conservadores y neutrales están mirando el retroceso actual como si fuera un abismo insondable, cuando en realidad están ignorando el potencial explosivo que ofrece una compañía líder en infraestructuras y energías renovables cuando se encuentra en zona de profunda sobreventa. ¡Es una miopía imperdonable dejar escapar una oportunidad de esta magnitud solo por temores coyunturales!
+
+Veamos las excusas que ponen los prudentes: se escandalizan por un ratio de deuda neta sobre EBITDA de 6,14x y un flujo de caja libre negativo de -722,75 millones de euros. Pero, ¿dónde queda su visión estratégica? Estamos hablando de un sector intensivo en capital donde el crecimiento masivo exige inversiones pesadas (CapEx) hoy para cosechar gigantescos beneficios mañana. La propia AlphaValue/Baader Europe acaba de elevar las previsiones de BPA para Acciona impulsada por el rendimiento estelar de Nordex. Ignorar este catalizador operativo y centrarse exclusivamente en la foto fija del endeudamiento es perderse el panorama completo de la transición energética global. 
+
+Además, se quejan de que el precio cotiza en 182,40 EUR, muy por debajo de su SMA20 en 204,66 EUR y de la SMA200 en 225,01 EUR, con un RSI en un nivel de 31,76 que roza la sobreventa. ¡Despierten! Precisamente esa es la definición de un activo en oferta con un perfil de riesgo-recompensa asimétrico y sumamente atractivo. Las grandes fortunas no se hacen comprando en máximos de euforia, sino acumulando cuando el mercado descuenta el pesimismo de manera exagerada. No olvidemos que el consenso de analistas sitúa el precio objetivo medio en 224,86 EUR, lo que representa un potencial alcista del 23,28% desde los niveles actuales, con techos que alcanzan los 266,00 EUR. 
+
+¿Y qué me dicen del argumento macroeconómico de los tipos de interés elevados y la inflación persistente hasta 2028 según S&P Global? Es un riesgo,
+ por supuesto, pero Acciona demuestra una capacidad de generación de ingresos descomunal, con unas ventas totales que escalaron hasta los 20.236 millones de euros y un EBITDA de 3.446 millones al cierre de 2025. Un PER forward moderado de 16,21x no refleja para nada la verdadera capacidad de retorno de la compañía cuando el ciclo monetario dé un respiro o cuando los proyectos en cartera maduren plenamente. 
+
+Mantener una ponderación neutral de cartera es lo mínimo que podemos exigir mientras el mercado digiere esta fase bajista del -34,45% de drawdown, pero descartar el valor por puro miedo cortoplacista es un grave error de cálculo. ¡Hay que tener audacia y capitalizar las caídas antes de que el mercado reconozca el verdadero valor intrínseco de `ANA.MC` y sea demasiado tarde!

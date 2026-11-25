@@ -1,0 +1,9 @@
+**Rating**: Hold
+
+**Executive Summary**: Mantener una asignación neutral en ANA.MC sin realizar nuevas compras ni incrementar exposición. Se recomienda una postura de espera prudente para proteger el capital frente al entorno de tipos elevados y la presión de la deuda, a la espera de una confirmación técnica de giro por encima de la SMA de 20 sesiones.
+
+**Investment Thesis**: La tesis se fundamenta en la persistencia de riesgos financieros y técnicos críticos expuestos en el debate, como un apalancamiento elevado con una deuda neta sobre EBITDA de 6,14x, un flujo de caja libre negativo de -722,75 millones de euros y una cotización de 182,40 EUR situada muy por debajo de sus medias móviles clave (SMA20 en 204,66 EUR y SMA200 en 225,01 EUR) bajo una clara tendencia bajista y un drawdown del -34,45%. Aunque el analista agresivo destaca la escala de ingresos (20.236 millones de euros), un PER forward moderado de 16,21x y un potencial de consenso de analistas hacia los 224,86 EUR impulsado por Nordex, el analista conservador y el neutral advierten acertadamente sobre el peligro de intentar cazar un suelo en un entorno de tipos de interés altos según S&P Global. La decisión de mantener responde a que, si bien el valor fundamental de los activos es considerable, el castigo técnico y las tensiones de liquidez a corto plazo impiden justificar un aumento de exposición. La postura cambiaría a Buy u Overweight si la compañía demuestra una reducción efectiva en su apalancamiento y el precio logra recuperar de forma sostenible niveles por encima de la SMA20.
+
+**Price Target**: 224.86
+
+**Time Horizon**: 3-6 meses

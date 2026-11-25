@@ -1,0 +1,9 @@
+**Rating**: Underweight
+
+**Executive Summary**: Se instruye al operador a mantener una postura de Underweight sobre ANE.MC, reduciendo la exposición actual en un 50% frente a la asignación estándar para activos de servicios públicos renovables. No se deben abrir nuevas posiciones largas debido al elevado apalancamiento y la quema de caja, aprovechando cualquier repunte técnico para continuar recortando tamaño.
+
+**Investment Thesis**: La tesis bajista se impone con claridad frente al optimismo infundado del bando agresivo. Aunque el bando alcista destaca un atractivo múltiplo contable con un P/B de 0.97x, un RSI en sobreventa de 30.76 y un potencial de consenso superior al 25%, estos argumentos ignoran vulnerabilidades fundamentales críticas: un ratio de Deuda Neta a EBITDA asfixiante de 5.06x, una persistente quema de caja libre (-408,7 millones de EUR en 2025), y un Forward P/E exigente de 27.62x que representa una prima del 58% frente a la mediana de los comparables del sector (17.46x). En un entorno macroeconómico restrictivo con tipos de interés elevados según S&P Global, este endeudamiento de más de 5.400 millones de EUR expone a la compañía a un riesgo de refinanciación inaceptable. El deterioro técnico, con el precio cotizando netamente por debajo de sus medias móviles clave (SMA 50 en 21.34 EUR y SMA 200 en 21.76 EUR), confirma que la tendencia bajista estructural predomina sobre cualquier rebote táctico. Lo que invalidaría esta postura sería una reducción tangible del ratio de endeudamiento por debajo de 4x, la cristalización efectiva de desinversiones y la recuperación técnica de las medias móviles.
+
+**Price Target**: 23.32632
+
+**Time Horizon**: 3-6 months
