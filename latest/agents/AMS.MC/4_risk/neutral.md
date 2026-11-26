@@ -1,0 +1,12 @@
+
+Neutral Analyst: Estimados compañeros, he escuchado atentamente tanto la postura excesivamente eufórica del analista agresivo como la extrema cautela defensiva del analista conservador respecto a Amadeus IT Group, S.A. (`AMS.MC`), y creo que ambos pecan de caer en sesgos peligrosos al evaluar la situación actual del valor a 61,90 EUR. 
+
+Por un lado, el analista agresivo comete el error de ignorar el riesgo de mercado subyacente y la volatilidad real del activo. Lanzarse a una compra total basándose ciegamente en un precio objetivo de consenso de 71,47 EUR o en el impulso alcista actual de las bolsas europeas desatiende el hecho de que una volatilidad anualizada del 26,05% y un entorno macroeconómico complejo —marcado por un euríbor por encima del 3,3%— pueden desencadenar correcciones rápidas. Asumir un stop-loss en 56,5 EUR implica encajar una pérdida potencial superior al 8% en la posición, algo que no se puede despachar con triunfalismo.
+
+Por otro lado, el analista conservador se refugia en una parálisis por análisis excesiva. Descartar la operación por completo exigiendo correcciones profundas significa ignorar la excelente salud fundamental de `AMS.MC`. No podemos pretender comprar una compañía de la categoría de Amadeus con un ROE del 26,44%, un flujo de caja libre superior a los 1.100 millones de euros y una ratio de deuda neta sobre EBITDA sumamente controlada de 1,03x a precios de saldo. Argumentar que un Forward P/E de 15,83x es prohibitivo ignora que estamos ante un líder tecnológico con un negocio de distribución y soluciones aéreas en plena recuperación estructural. 
+
+La clave para equilibrar ambas posturas no es el blanco ni el negro, sino una gestión de riesgos moderada y sostenible. En lugar de descartar la oportunidad o sobreexponer el capital con una entrada masiva e inmediata al 5%, la estrategia equilibrada consiste en modular el riesgo mediante una asignación escalonada o un tamaño de posición inicial prudente (por ejemplo, dividiendo la entrada) y respetando estrictamente el soporte técnico de la media móvil de 50 sesiones en 56,75 EUR o el stop propuesto en 56,5 EUR. Esto nos permite capturar el potencial alcista del 15,46% que señalan los fundamentales sin quedar expuestos indefensos ante la volatilidad a corto plazo. Una perspectiva sensata aprovecha la fortaleza técnica sin ignorar los riesgos macroeconómicos, encontrando el punto óptimo entre crecimiento y preservación de capital.
+
+**Rating**: HOLD
+
+FINAL TRANSACTION PROPOSAL: **HOLD**

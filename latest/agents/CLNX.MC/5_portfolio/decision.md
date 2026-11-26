@@ -1,0 +1,9 @@
+**Rating**: Hold
+
+**Executive Summary**: Se recomienda mantener la posición actual en CLNX.MC, evitando compras agresivas ante la atonía técnica y el elevado apalancamiento financiero. La estrategia consiste en conservar el tamaño estándar de cartera, vigilando el soporte dinámico en torno a la media móvil de 50 sesiones (25,07 EUR) y un stop loss técnico estricto en 25,00 EUR.
+
+**Investment Thesis**: La tesis de inversión se decanta firmemente por la prudencia del analista neutral y conservador frente a la impaciencia del analista agresivo. Si bien el flujo de caja libre mejoró notablemente hasta los 525,8 millones de euros en 2025 y el EBITDA alcanza los 2.591 millones, la estructura financiera sigue arrastrando vulnerabilidades críticas: una deuda total cercana a los 22.127 millones de euros, un ratio de deuda neta sobre EBITDA de 7,96x y un resultado neto profundamente negativo de -360,78 millones. Todo ello en un entorno macroeconómico donde el euríbor se mantiene firmemente por encima del 3,3% a finales de noviembre de 2026. Técnicamente, el valor cotiza atrapado en un rango neutral estricto entre su media móvil de 50 sesiones (25,07 EUR) y la de 200 sesiones (26,85 EUR), con un RSI plano de 48,33 que descarta cualquier impulso alcista inmediato. Aunque el consenso de analistas sitúa el precio objetivo en 34,18 EUR, confiar en este potencial sin una confirmación técnica de ruptura o sin indicios claros de desapalancamiento real sería una apuesta prematura. La calificación cambiaría a compra (Buy) si se observa una ruptura sostenida y con volumen por encima de la media de 200 sesiones o una reducción tangible en el coste de la deuda; por el contrario, una pérdida del soporte en 25,00 EUR forzaría una salida defensiva.
+
+**Price Target**: 34.18
+
+**Time Horizon**: 6-12 meses

@@ -1,0 +1,21 @@
+
+Bear Analyst: ¡Hola colega! Entiendo perfectamente el entusiasmo por las infraestructuras de transición energética y los monopolios naturales, pero dejar que la euforia técnica nos nuble el juicio financiero es un peligro muy serio en el contexto macroeconómico actual. Permíteme desmontar punto por punto esa visión color de rosa sobre **`RED.MC`**, porque los números y los riesgos regulatorios cuentan una historia bastante más incómoda de lo que sugieres.
+
+### 1. ¿Crecimiento de la base de activos o trampa de inversión intensiva en capital?
+Celebras que el mayor tope inversor hasta 2030 dispare la base de activos regulados, pero olvidas deliberadamente el coste de esa expansión y cómo se financia. Los estados financieros no perdonan: las inversiones de capital (*CapEx*) se han disparado hasta los **1.400,7 millones de euros** al cierre de 2025, superando con creces los 1.078,6 millones del año anterior y los 877,5 millones de 2023. 
+
+¿El resultado inevitable de este frenesí inversor? Un **flujo de caja libre (*Free Cash Flow*) profundamente negativo de -393,8 millones de euros** en 2025 (y arrastrando cifras negativas consecutivas de -123 millones y -495 millones en los ejercicios previos). Al mismo tiempo, la deuda total roza los **6.000 millones de euros** (con una ratio de deuda neta sobre EBITDA que se sitúa en unos alarmantes **4,96x**). Con un euríbor por encima del 3,3%, pretender financiar este gigantesco esfuerzo inversor y sostener la retribución al accionista sin tensionar aún más el balance es, como poco, un ejercicio de optimismo peligroso. La tasa de retribución regulada en torno al 6,58% que vigila la CNMC no es un "matiz menor"; es un corsé estricto que limita la rentabilidad real de todo ese capital desplegado en un entorno de costes de financiación elevados.
+
+### 2. El dividendo del 4,73%: ¿Un refugio o una promesa bajo presión?
+Es cierto que ese 4,73% de *dividend yield* y el dividendo de 0,80 EUR por acción resultan atractivos visualmente, pero hay que mirar la letra pequeña de la sostenibilidad. Presumes de que los flujos de caja operativos superan los 1.000 millones de euros (1.013 millones en 2025), pero omites que cuando restas el *CapEx* masivo necesario para mantener la red, el flujo de caja libre es rojo intenso. Con un ***payout ratio* del 85,3%**, la compañía está exprimiendo casi la totalidad de sus beneficios netos (505,6 millones en 2025) para pagar dividendos, obligándola a apoyarse constantemente en financiación ajena en plena fase de subida de tipos de interés. Si la CNMC apriete las clavijas en la retribución para 2027, ese dividendo dejará de ser una roca y pasará a ser una carga financiera insostenible.
+
+### 3. Cuidado con el vértigo: El rally técnico grita "Sobrecompra"
+Te amparas en la fortaleza de la media móvil de 200 sesiones (`sma200` en 14,89 EUR) y en el buen comportamiento frente al `^IBEX` para justificar la compra a 16,92 EUR. Sin embargo, ignoras deliberadamente el **RSI de 14 períodos, que está en 78,38**. Estamos ante una clara condición de **sobrecompra técnica extrema** a corto plazo. 
+
+Además, tu argumento de que "los precios objetivos de los analistas van por detrás de la realidad" es una falacia alcista clásica. El consenso de mercado sitúa el precio objetivo medio (*targetMeanPrice*) en **16,44 EUR**, lo que arroja una **divergencia de consenso negativa del -2,86%** respecto a la cotización actual. Es decir, los 22 analistas que siguen el valor ya consideran que `RED.MC` está sobrevalorada a estos niveles y cotiza por encima de su valor intrínseco fundamental. Perseguir a la acción en máximos técnicos recientes, con un RSI desbocado y cotizando por encima del consenso, es buscar una corrección inminente.
+
+### Conclusión y Postura
+`RED.MC` es una excelente utilidad regulada, pero su valoración actual ignora por completo la pesada losa de su apalancamiento (deuda neta/EBITDA de casi 5x), su flujo de caja libre negativo debido al fuerte *CapEx* y la presión regulatoria de la CNMC. Comprar hoy en sobrecompra y por encima del precio objetivo medio del consenso es asumir un riesgo innecesario cuando los vientos macroeconómicos y de deuda soplan en contra.
+
+**Rating**: SELL  
+FINAL TRANSACTION PROPOSAL: SELL

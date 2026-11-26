@@ -1,0 +1,592 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'">
+<title>CLNX.MC 2026-11-26 Hold: TradingAgents report</title>
+<style>
+:root {
+  --paper: #fbfbfa; --ink: #1c2126; --muted: #5d6670; --rule: #e2e5e8; --wash: #f2f4f5;
+  --accent: #087a59; --up: #087a59; --down: #b4372f; --level: #5d6670; --edge: #d3d8dc; --mark: #878f97;
+  --serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #131a1f; --ink: #e4e8eb; --muted: #9aa6af; --rule: #263239; --wash: #1a242a;
+    --accent: #14c290; --up: #14c290; --down: #ef6f63; --level: #9aa6af; --edge: #3d4c55; --mark: #66737c;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .masthead .logo [stroke="#363636"] { stroke: var(--muted); }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font: 17px/1.62 var(--serif); font-kerning: normal;
+}
+.page { max-width: 46rem; margin: 0 auto; padding: 3.5rem 1.5rem 6rem; }
+main h2, main h3 { scroll-margin-top: 1rem; }
+a { color: var(--accent); text-underline-offset: 0.15em; }
+h1, h2, h3, h4 { text-wrap: balance; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.masthead { padding-bottom: 1.75rem; border-bottom: 1px solid var(--rule); }
+/* The logo leads at the top left, where readers look for it, 24px tall (the usual
+   on-screen floor for a wordmark) with at least its height clear below. */
+.masthead .logo { display: block; width: fit-content; margin: 0 0 2.25rem; }
+.masthead .logo svg { display: block; height: 1.5rem; width: auto; }
+.masthead h1 {
+  margin: 0; font: 600 2.6rem/1.1 var(--sans); letter-spacing: -0.02em;
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.2em 0.5em;
+}
+.masthead .rating { font-weight: 500; }
+.rating.up { color: var(--up); } .rating.down { color: var(--down); } .rating.level { color: var(--level); }
+.rating.review { color: var(--muted); font-style: italic; }
+.masthead .date { margin: 0.55rem 0 1.5rem; font: 1rem/1.4 var(--sans); color: var(--muted); }
+.run { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: 0.45rem 1.25rem;
+  font: 0.85rem/1.5 var(--sans); }
+.run > div { display: contents; }
+.run dt { color: var(--muted); }
+.run dd { margin: 0; overflow-wrap: anywhere; }
+.run .note dd { color: var(--down); }
+.field { display: inline-block; margin: 0 0.15rem 0.15rem 0; padding: 0 0.4rem; border: 1px solid var(--edge);
+  border-radius: 4px; background: var(--wash); font: 0.8rem/1.6 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+.run .group { display: inline-block; margin-right: 0.9rem; white-space: nowrap; }
+.run .group > .name { color: var(--muted); margin-right: 0.3rem; }
+.run .then { color: var(--muted); margin: 0 0.2rem; }
+
+/* The sections: listed under the header on narrow screens. On wide ones, a
+   quiet rail centred on the left edge (numerals for the sections, short bars
+   for their agents) that opens into the full list when pointed at or focused. */
+.contents { margin: 2.25rem 0 0; font: 0.9rem/1.45 var(--sans); }
+.contents ul { margin: 0; padding: 0; list-style: none; }
+.contents > ul > li { margin: 0 0 0.75rem; }
+.contents ul ul { margin-top: 0.2rem; padding-left: 1.6rem; font-size: 0.85rem; }
+.contents ul ul li { margin: 0.1rem 0; }
+.contents a { display: flex; align-items: center; gap: 0.6rem; color: var(--muted); text-decoration: none; }
+.contents > ul > li > a { color: var(--ink); }
+.contents .num { min-width: 1.6rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.contents .bar { display: none; }
+.contents a:hover .label, .contents a:focus-visible .label { color: var(--accent); text-decoration: underline; }
+.to-top { position: fixed; right: 1rem; bottom: calc(1rem + env(safe-area-inset-bottom));
+  padding: 0.25rem 0.6rem; border: 1px solid var(--edge); border-radius: 4px; background: var(--paper);
+  color: var(--muted); font: 0.8rem/1.4 var(--sans); text-decoration: none; }
+
+@media (min-width: 60rem) {
+  .contents { position: fixed; left: 1rem; top: 50%; transform: translateY(-50%); z-index: 1;
+    max-height: 86vh; overflow-y: auto; overscroll-behavior: contain; margin: 0;
+    padding: 0.7rem 0.9rem; border: 1px solid transparent; border-radius: 6px;
+    transition: background-color 0.15s, border-color 0.15s, box-shadow 0.15s; }
+  .contents > ul > li { margin: 0 0 0.35rem; }
+  .contents ul ul { margin-top: 0; padding-left: 0; }
+  .contents ul ul li { margin: 0; }
+  /* Marks reach 3:1 contrast and rows 24px, the WCAG 2.2 floors for a control's
+     visual cue and its pointer target. */
+  .contents a { min-height: 1.5rem; }
+  .contents .num { min-width: 1.4rem; }
+  .contents .bar { display: block; flex: none; width: 1.25rem; height: 2px; margin-left: 0.2rem;
+    border-radius: 1px; background: var(--mark); }
+  .contents .label { max-width: 0; opacity: 0; overflow: hidden; white-space: nowrap;
+    transition: opacity 0.15s, max-width 0.2s; }
+  .contents:hover, .contents:focus-within { background: var(--paper); border-color: var(--rule);
+    box-shadow: 0 6px 24px rgb(0 0 0 / 0.08); }
+  .contents:hover .label, .contents:focus-within .label { max-width: 18rem; opacity: 1; }
+  .contents a:hover .bar, .contents a:focus-visible .bar { background: var(--accent); }
+  .to-top { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .contents, .contents .label { transition: none; }
+}
+
+/* The maker's credit: one quiet line at the foot. */
+.credit { margin-top: 4.5rem; padding-top: 1.25rem; border-top: 1px solid var(--rule);
+  color: var(--muted); font: 0.8rem/1.4 var(--sans); }
+.credit a { color: inherit; text-decoration: none; }
+.credit a.brand { color: var(--accent); }
+.credit a:hover, .credit a:focus-visible { text-decoration: underline; }
+
+/* Three levels of separation: the five groups, the agents within a group, and
+   breaks an agent draws inside its own text. */
+main h2 {
+  margin: 4.5rem 0 0.25rem; padding-top: 1.5rem; border-top: 2px solid var(--ink);
+  font: 600 1.45rem/1.3 var(--sans); letter-spacing: -0.01em;
+}
+main section:first-child h2 { margin-top: 3rem; }
+main h3 { margin: 2.75rem 0 0.75rem; padding-top: 1.1rem; border-top: 1px solid var(--rule);
+  font: 600 1.15rem/1.35 var(--sans); color: var(--accent); }
+main h2 + h3 { margin-top: 1.25rem; padding-top: 0; border-top: 0; }
+main h4, main h5, main h6 { margin: 1.75rem 0 0.5rem; font: 600 1rem/1.4 var(--sans); }
+main h5, main h6 { color: var(--muted); }
+main p, main ul, main ol { margin: 0 0 1rem; }
+main li { margin: 0.25rem 0; }
+main strong { font-weight: 650; }
+main blockquote { margin: 1.25rem 0; padding: 0.1rem 0 0.1rem 1rem; border-left: 3px solid var(--rule);
+  color: var(--muted); }
+main code { font: 0.88em/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  background: var(--wash); padding: 0.1em 0.3em; border-radius: 3px; }
+main pre { background: var(--wash); padding: 0.9rem 1rem; border-radius: 4px; overflow-x: auto; }
+main pre code { background: none; padding: 0; }
+main hr { width: 3rem; margin: 2rem auto; border: 0; border-top: 1px solid var(--rule); }
+
+.table { overflow-x: auto; margin: 0 0 1.25rem; }
+table { border-collapse: collapse; width: 100%; font: 0.86rem/1.45 var(--sans);
+  font-variant-numeric: tabular-nums; }
+th, td { padding: 0.45rem 0.7rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--rule); }
+th { font-weight: 600; border-bottom-color: var(--muted); }
+tbody tr:last-child td { border-bottom: 0; }
+
+@media (max-width: 34rem) {
+  body { font-size: 16px; }
+  .page { padding: 2rem 1rem 3rem; }
+  .masthead h1 { font-size: 2rem; }
+  .masthead .logo svg { height: 1.25rem; }
+  .run { grid-template-columns: 1fr; gap: 0 0; }
+  .run dd { margin-bottom: 0.45rem; }
+  .run .group { white-space: normal; }
+}
+@media print {
+  :root { --paper: #fff; --ink: #000; --muted: #444; --rule: #bbb; --accent: #000; --wash: #f2f2f2;
+    --edge: #bbb; --up: #087a59; --down: #b4372f; --level: #444; }
+  body { font-size: 11pt; }
+  .table { overflow: visible; }
+  .page { max-width: none; padding: 0; }
+  .contents, .to-top { display: none; }
+  main h2 { break-before: page; border-top: 0; margin-top: 0; }
+  main section:first-child h2 { break-before: auto; }
+  main h3, main h4 { break-after: avoid; }
+  a { color: inherit; text-decoration: none; }
+  table { break-inside: avoid; }
+}
+</style>
+</head>
+<body>
+<div class="page" id="top">
+<header class="masthead">
+<a class="logo" href="https://tauric.ai" rel="noopener" aria-label="Tauric Research"><svg width="993" height="115" viewBox="0 0 993 115" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M189.86 95.0459V37.9779H165.924V29.9259H223.74V37.9779H199.804V95.0459H189.86ZM251.026 46.4259C256.071 46.4259 260.178 47.0272 263.345 48.2299C266.514 49.4032 268.89 51.3686 270.474 54.1259C272.058 56.8832 272.85 60.6379 272.85 65.3899V95.0459H264.666L263.961 89.8979H263.434C261.644 91.7752 259.386 93.2419 256.657 94.2979C253.929 95.3246 251.025 95.8379 247.946 95.8379C244.426 95.8379 241.419 95.2952 238.925 94.2099C236.432 93.0952 234.54 91.5406 233.249 89.5459C231.959 87.5512 231.313 85.2046 231.313 82.5059C231.313 78.2526 232.897 74.9672 236.065 72.6499C239.263 70.3032 244.337 68.8219 251.29 68.2059L263.258 67.0179V64.7299C263.258 61.9139 262.774 59.7139 261.806 58.1299C260.838 56.5459 259.371 55.4312 257.406 54.7859C255.47 54.1406 252.888 53.8179 249.662 53.8179C247.432 53.8179 245.012 54.0086 242.401 54.3899C239.82 54.7712 237.341 55.3432 234.965 56.1059V48.8019C237.312 48.0392 239.908 47.4526 242.754 47.0419C245.628 46.6312 248.386 46.4259 251.026 46.4259ZM250.541 89.0619C252.888 89.0619 255.162 88.6512 257.362 87.8299C259.562 86.9792 261.527 85.7179 263.258 84.0459V72.8259L252.038 73.9259C248.136 74.3659 245.35 75.2166 243.678 76.4779C242.005 77.7099 241.169 79.4699 241.169 81.7579C241.169 84.0752 241.947 85.8792 243.501 87.1699C245.056 88.4312 247.403 89.0619 250.541 89.0619ZM313.339 95.8379C307.59 95.8379 303.087 94.2979 299.831 91.2179C296.575 88.1086 294.947 83.2686 294.947 76.6979V47.1739H304.715V76.1699C304.715 80.1886 305.624 83.0779 307.443 84.8379C309.291 86.5979 311.916 87.4779 315.319 87.4779C317.871 87.4779 320.379 86.9939 322.843 86.0259C325.336 85.0286 327.492 83.5766 329.311 81.6699V47.1739H339.079V95.0459H330.983L330.367 89.9419H329.883C327.624 91.8486 325.072 93.3152 322.227 94.3419C319.382 95.3392 316.419 95.8379 313.339 95.8379ZM362.371 47.1739H370.423L371.171 53.2899H371.743C373.474 51.2072 375.703 49.5792 378.431 48.4059C381.188 47.2326 384.063 46.6459 387.055 46.6459C388.756 46.6459 390.355 46.7926 391.851 47.0859V55.8419C390.414 55.5779 388.654 55.4459 386.571 55.4459C383.99 55.4459 381.364 55.9446 378.695 56.9419C376.026 57.9392 373.84 59.4206 372.139 61.3859V95.0459H362.371V47.1739ZM409.069 95.0459V47.1739H418.837V95.0459H409.069ZM413.953 37.8459C411.871 37.8459 410.287 37.3912 409.201 36.4819C408.145 35.5726 407.617 34.2672 407.617 32.5659C407.617 30.8352 408.145 29.5152 409.201 28.6059C410.287 27.6672 411.871 27.1979 413.953 27.1979C416.036 27.1979 417.605 27.6672 418.661 28.6059C419.747 29.5152 420.289 30.8352 420.289 32.5659C420.289 34.2672 419.747 35.5726 418.661 36.4819C417.605 37.3912 416.036 37.8459 413.953 37.8459ZM464.85 95.9259C456.607 95.9259 450.315 93.8432 445.974 89.6779C441.662 85.5126 439.506 79.3526 439.506 71.1979C439.506 63.0139 441.779 56.8392 446.326 52.6739C450.902 48.5086 457.575 46.4259 466.346 46.4259C470.716 46.4259 474.735 46.9246 478.402 47.9219V55.7099C476.378 55.2406 474.486 54.8886 472.726 54.6539C470.966 54.4192 469.118 54.3019 467.182 54.3019C461.168 54.3019 456.71 55.6512 453.806 58.3499C450.931 61.0486 449.494 65.2872 449.494 71.0659C449.494 76.8739 450.858 81.1566 453.586 83.9139C456.343 86.6712 460.42 88.0499 465.818 88.0499C467.695 88.0499 469.616 87.8886 471.582 87.5659C473.547 87.2139 475.82 86.6712 478.402 85.9379V93.7259C474.236 95.1926 469.719 95.9259 464.85 95.9259ZM574.428 95.0459L553.704 69.0859C553.176 69.1152 552.37 69.1299 551.284 69.1299C548.38 69.1299 544.978 68.9832 541.076 68.6899V95.0459H531.308V31.4659C537.967 29.9699 544.846 29.2219 551.944 29.2219C561.595 29.2219 568.752 30.8059 573.416 33.9739C578.08 37.1126 580.412 42.1286 580.412 49.0219C580.412 54.0086 579.004 58.0859 576.188 61.2539C573.402 64.4219 569.266 66.6366 563.78 67.8979L585.648 95.0459H574.428ZM541.076 61.2099C543.071 61.4152 544.816 61.5619 546.312 61.6499C547.838 61.7379 549.627 61.7819 551.68 61.7819C558.427 61.7819 563.34 60.7699 566.42 58.7459C569.5 56.6926 571.04 53.4952 571.04 49.1539C571.04 46.0739 570.395 43.6099 569.104 41.7619C567.843 39.9139 565.863 38.5792 563.164 37.7579C560.495 36.9366 556.975 36.5259 552.604 36.5259C550.404 36.5259 548.424 36.6139 546.664 36.7899C544.904 36.9659 543.042 37.2299 541.076 37.5819V61.2099ZM642.947 74.0139H608.231C608.407 77.4752 609.155 80.2766 610.475 82.4179C611.795 84.5299 613.775 86.0846 616.415 87.0819C619.055 88.0792 622.443 88.5779 626.579 88.5779C630.686 88.5779 635.233 87.9472 640.219 86.6859V93.9459C635.027 95.2659 630.026 95.9259 625.215 95.9259C616.298 95.9259 609.61 93.9166 605.151 89.8979C600.722 85.8499 598.507 79.6166 598.507 71.1979C598.507 65.9179 599.402 61.4299 601.191 57.7339C602.981 54.0379 605.562 51.2366 608.935 49.3299C612.338 47.3939 616.43 46.4259 621.211 46.4259C628.251 46.4259 633.634 48.5819 637.359 52.8939C641.085 57.1766 642.947 63.3659 642.947 71.4619V74.0139ZM621.079 52.8939C616.973 52.8939 613.834 54.1406 611.663 56.6339C609.493 59.0979 608.334 62.9259 608.187 68.1179H633.751C633.634 62.9259 632.519 59.0979 630.407 56.6339C628.295 54.1406 625.186 52.8939 621.079 52.8939ZM677.365 95.9259C671.352 95.9259 665.896 95.2219 660.997 93.8139V86.7299C666.248 88.1966 671.718 88.9299 677.409 88.9299C681.809 88.9299 684.977 88.3432 686.913 87.1699C688.849 85.9672 689.817 84.2219 689.817 81.9339C689.817 80.7019 689.597 79.6899 689.157 78.8979C688.717 78.0766 687.969 77.4019 686.913 76.8739C685.857 76.3166 684.405 75.8912 682.557 75.5979L674.065 74.2779C669.137 73.4859 665.573 71.9899 663.373 69.7899C661.202 67.5899 660.117 64.6419 660.117 60.9459C660.117 56.4579 661.965 52.9232 665.661 50.3419C669.386 47.7312 675.062 46.4259 682.689 46.4259C685.094 46.4259 687.485 46.5872 689.861 46.9099C692.266 47.2032 694.481 47.6432 696.505 48.2299V55.2699C692.046 54.0379 687.456 53.4219 682.733 53.4219C677.893 53.4219 674.476 54.0526 672.481 55.3139C670.486 56.5752 669.489 58.3206 669.489 60.5499C669.489 62.2219 670.002 63.5859 671.029 64.6419C672.056 65.6686 673.889 66.4166 676.529 66.8859L685.021 68.2059C689.92 68.9686 693.513 70.3766 695.801 72.4299C698.089 74.4832 699.233 77.4606 699.233 81.3619C699.233 84.3832 698.412 86.9792 696.769 89.1499C695.156 91.3206 692.706 92.9926 689.421 94.1659C686.165 95.3392 682.146 95.9259 677.365 95.9259ZM760.579 74.0139H725.863C726.039 77.4752 726.787 80.2766 728.107 82.4179C729.427 84.5299 731.407 86.0846 734.047 87.0819C736.687 88.0792 740.075 88.5779 744.211 88.5779C748.317 88.5779 752.864 87.9472 757.851 86.6859V93.9459C752.659 95.2659 747.657 95.9259 742.847 95.9259C733.929 95.9259 727.241 93.9166 722.783 89.8979C718.353 85.8499 716.139 79.6166 716.139 71.1979C716.139 65.9179 717.033 61.4299 718.823 57.7339C720.612 54.0379 723.193 51.2366 726.567 49.3299C729.969 47.3939 734.061 46.4259 738.843 46.4259C745.883 46.4259 751.265 48.5819 754.991 52.8939C758.716 57.1766 760.579 63.3659 760.579 71.4619V74.0139ZM738.711 52.8939C734.604 52.8939 731.465 54.1406 729.295 56.6339C727.124 59.0979 725.965 62.9259 725.819 68.1179H751.383C751.265 62.9259 750.151 59.0979 748.039 56.6339C745.927 54.1406 742.817 52.8939 738.711 52.8939ZM796.986 46.4259C802.032 46.4259 806.138 47.0272 809.306 48.2299C812.474 49.4032 814.85 51.3686 816.434 54.1259C818.018 56.8832 818.81 60.6379 818.81 65.3899V95.0459H810.626L809.922 89.8979H809.394C807.605 91.7752 805.346 93.2419 802.618 94.2979C799.89 95.3246 796.986 95.8379 793.906 95.8379C790.386 95.8379 787.38 95.2952 784.886 94.2099C782.393 93.0952 780.501 91.5406 779.21 89.5459C777.92 87.5512 777.274 85.2046 777.274 82.5059C777.274 78.2526 778.858 74.9672 782.026 72.6499C785.224 70.3032 790.298 68.8219 797.25 68.2059L809.218 67.0179V64.7299C809.218 61.9139 808.734 59.7139 807.766 58.1299C806.798 56.5459 805.332 55.4312 803.366 54.7859C801.43 54.1406 798.849 53.8179 795.622 53.8179C793.393 53.8179 790.973 54.0086 788.362 54.3899C785.781 54.7712 783.302 55.3432 780.926 56.1059V48.8019C783.273 48.0392 785.869 47.4526 788.714 47.0419C791.589 46.6312 794.346 46.4259 796.986 46.4259ZM796.502 89.0619C798.849 89.0619 801.122 88.6512 803.322 87.8299C805.522 86.9792 807.488 85.7179 809.218 84.0459V72.8259L797.998 73.9259C794.097 74.3659 791.31 75.2166 789.638 76.4779C787.966 77.7099 787.13 79.4699 787.13 81.7579C787.13 84.0752 787.908 85.8792 789.462 87.1699C791.017 88.4312 793.364 89.0619 796.502 89.0619ZM841.524 47.1739H849.576L850.324 53.2899H850.896C852.627 51.2072 854.856 49.5792 857.584 48.4059C860.341 47.2326 863.216 46.6459 866.208 46.6459C867.909 46.6459 869.508 46.7926 871.004 47.0859V55.8419C869.567 55.5779 867.807 55.4459 865.724 55.4459C863.143 55.4459 860.517 55.9446 857.848 56.9419C855.179 57.9392 852.993 59.4206 851.292 61.3859V95.0459H841.524V47.1739ZM909.164 95.9259C900.921 95.9259 894.629 93.8432 890.288 89.6779C885.976 85.5126 883.82 79.3526 883.82 71.1979C883.82 63.0139 886.093 56.8392 890.64 52.6739C895.216 48.5086 901.889 46.4259 910.66 46.4259C915.03 46.4259 919.049 46.9246 922.716 47.9219V55.7099C920.692 55.2406 918.8 54.8886 917.04 54.6539C915.28 54.4192 913.432 54.3019 911.496 54.3019C905.482 54.3019 901.024 55.6512 898.12 58.3499C895.245 61.0486 893.808 65.2872 893.808 71.0659C893.808 76.8739 895.172 81.1566 897.9 83.9139C900.657 86.6712 904.734 88.0499 910.132 88.0499C912.009 88.0499 913.93 87.8886 915.896 87.5659C917.861 87.2139 920.134 86.6712 922.716 85.9379V93.7259C918.55 95.1926 914.033 95.9259 909.164 95.9259ZM941.796 23.9419H951.564V52.2779H952.048C954.248 50.3712 956.756 48.9192 959.572 47.9219C962.417 46.9246 965.395 46.4259 968.504 46.4259C974.019 46.4259 978.375 47.9952 981.572 51.1339C984.769 54.2432 986.368 59.0686 986.368 65.6099V95.0459H976.6V66.0939C976.6 62.0459 975.661 59.1566 973.784 57.4259C971.936 55.6952 969.237 54.8299 965.688 54.8299C963.048 54.8299 960.481 55.3286 957.988 56.3259C955.524 57.2939 953.383 58.7312 951.564 60.6379V95.0459H941.796V23.9419Z" fill="#14C290"/>
+<rect x="0.205322" y="14.873" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="14.679" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="14.679" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="86.6055" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="86.6055" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="101.284" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="58.7158" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="58.7158" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="87.1592" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="87.1592" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="73.0205" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="73.0205" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="87.3262" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="87.3262" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="101.631" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="101.631" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="101.284" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="15.0187" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.2668" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.2668" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.445" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.7506" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="100.716" y="14.873" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+</svg></a>
+<h1><span class="ticker">CLNX.MC</span> <span class="rating level">Hold</span></h1>
+<p class="date">Analysis of 2026-11-26</p>
+<dl class="run"><div class="detail"><dt>Generated</dt><dd>2026-11-26 21:26</dd></div><div class="detail"><dt>Deep model</dt><dd><span class="field">google</span> <span class="field">gemini-3.5-flash-lite</span></dd></div><div class="detail"><dt>Quick model</dt><dd><span class="field">google</span> <span class="field">gemini-3.5-flash-lite</span></dd></div><div class="detail"><dt>Analysts</dt><dd><span class="field">market</span> <span class="field">news</span> <span class="field">fundamentals</span></dd></div><div class="detail"><dt>Debate rounds</dt><dd><span class="group"><span class="name">research</span><span class="field">1</span></span> <span class="group"><span class="name">risk</span><span class="field">1</span></span></dd></div><div class="detail"><dt>Data vendors</dt><dd><span class="group"><span class="name">Prices</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Indicators</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Fundamentals</span><span class="field">yfinance</span></span> <span class="group"><span class="name">News</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Macro</span><span class="field">fred</span></span> <span class="group"><span class="name">Prediction markets</span><span class="field">polymarket</span></span> <span class="group"><span class="name">get_news</span><span class="field">ibex_sample</span></span> <span class="group"><span class="name">get_global_news</span><span class="field">ibex_sample</span></span></dd></div><div class="detail"><dt>Version</dt><dd>TradingAgents 0.7.1</dd></div></dl>
+</header>
+<nav class="contents" aria-label="Sections"><ul><li><a href="#s1"><span class="num">I</span> <span class="label">Analyst Team Reports</span></a><ul><li><a href="#s1-1"><span class="bar"></span> <span class="label">Market Analyst</span></a></li><li><a href="#s1-2"><span class="bar"></span> <span class="label">News Analyst</span></a></li><li><a href="#s1-3"><span class="bar"></span> <span class="label">Fundamentals Analyst</span></a></li></ul></li><li><a href="#s2"><span class="num">II</span> <span class="label">Research Team Decision</span></a><ul><li><a href="#s2-1"><span class="bar"></span> <span class="label">Bull Researcher</span></a></li><li><a href="#s2-2"><span class="bar"></span> <span class="label">Bear Researcher</span></a></li><li><a href="#s2-3"><span class="bar"></span> <span class="label">Research Manager</span></a></li></ul></li><li><a href="#s3"><span class="num">III</span> <span class="label">Trading Team Plan</span></a><ul><li><a href="#s3-1"><span class="bar"></span> <span class="label">Trader</span></a></li></ul></li><li><a href="#s4"><span class="num">IV</span> <span class="label">Risk Management Team Decision</span></a><ul><li><a href="#s4-1"><span class="bar"></span> <span class="label">Aggressive Analyst</span></a></li><li><a href="#s4-2"><span class="bar"></span> <span class="label">Conservative Analyst</span></a></li><li><a href="#s4-3"><span class="bar"></span> <span class="label">Neutral Analyst</span></a></li></ul></li><li><a href="#s5"><span class="num">V</span> <span class="label">Portfolio Manager Decision</span></a><ul><li><a href="#s5-1"><span class="bar"></span> <span class="label">Portfolio Manager</span></a></li></ul></li></ul></nav>
+<main>
+<section id="s1"><h2>I. Analyst Team Reports</h2><h3 id="s1-1">Market Analyst</h3>
+<p><strong>Análisis Técnico y Fundamental de Cellnex Telecom, S.A. (<code>CLNX.MC</code>)</strong></p>
+<h6>1. Contexto de Mercado y Estado Actual</h6>
+<p>El presente informe analiza la evolución de <strong>Cellnex Telecom, S.A. (<code>CLNX.MC</code>)</strong>, compañía cotizada en la Bolsa de Madrid (MCE) y clasificada bajo el sector inmobiliario/servicios inmobiliarios (<code>Real Estate Services</code>), cotizando en Euros (EUR) y formando parte de índices de referencia como el IBEX 35 (<code>^IBEX</code>). A fecha de 26 de noviembre de 2026, el valor de cierre de la acción se sitúa en <strong>25,50 EUR</strong>, registrando una variación positiva del <strong>+0,59%</strong> en la sesión reciente.</p>
+<p>El contexto macroeconómico europeo de finales de noviembre de 2026 viene marcado por fuertes rebotes en las bolsas europeas impulsados por el sector bancario y tecnológico, tras nombramientos clave en el Banco Central Europeo (como Pablo Hernández de Cos como presidente del BCE) y unos tipos de interés y euríbor elevados que siguen tensionando la financiación corporativa.</p>
+<h6>2. Análisis de Indicadores Técnicos Clave (Selección de Indicadores)</h6>
+<p>Para evaluar el comportamiento bursátil de <code>CLNX.MC</code>, se seleccionan los siguientes 8 indicadores técnicos complementarios y no redundantes disponibles en el ecosistema analítico:</p>
+<ol>
+<li><strong><code>close_50_sma</code></strong>: Media móvil simple de 50 sesiones (situada en <strong>25,07 EUR</strong>), actúa como referencia de tendencia a medio plazo. El precio actual (25,50 EUR) cotiza ligeramente por encima de esta media, sugiriendo un soporte dinámico cercano.</li>
+<li><strong><code>close_200_sma</code></strong>: Media móvil simple de 200 sesiones (<strong>26,85 EUR</strong>), benchmark clave a largo plazo para confirmar la estructura general de mercado.</li>
+<li><strong><code>close_10_ema</code></strong>: Media móvil exponencial rápida de 10 sesiones para capturar giros dinámicos de corto plazo en el precio.</li>
+<li><strong><code>macd</code></strong>: Indicador de convergencia/divergencia de medias móviles (valor de <strong>-0,047</strong>), que refleja la atonía de impulso tendencial a corto plazo.</li>
+<li><strong><code>macds</code></strong>: Línea de señal del MACD (<strong>0,110</strong>), que se encuentra por encima de la línea MACD, denotando presión bajista leve o consolidación.</li>
+<li><strong><code>rsi</code></strong>: Índice de Fuerza Relativa a 14 periodos, situado en <strong>48,33</strong>. Este valor neutral (cerca de la zona media de 50) indica ausencia de condiciones extremas de sobrecompra o sobreventa, mostrando un equilibrio temporal entre compradores y vendedores.</li>
+<li><strong><code>atr</code></strong>: Rango Verdadero Medio para medir la volatilidad histórica reciente (volatilidad porcentual anualizada del <strong>28,34%</strong> y <em>drawdown</em> actual del <strong>-20,30%</strong> respecto a máximos).</li>
+<li><strong><code>boll</code></strong>: Banda media de Bollinger (equivalente a la SMA de 20 sesiones en <strong>26,05 EUR</strong>), que sirve de referencia central de volatilidad junto a sus bandas superior e inferior.</li>
+</ol>
+<h6>3. Análisis Fundamental y Financiero</h6>
+<p>De acuerdo con los estados financieros y estimaciones recientes integradas:</p>
+<ul>
+<li><strong>Capitalización de Mercado</strong>: 16.715.203.584,00 EUR.</li>
+<li><strong>Ingresos y Rentabilidad</strong>: En el ejercicio cerrado a 31 de diciembre de 2025 (<code>2025-12-31</code>), Cellnex registró unos ingresos totales de <strong>4.120.257.000,00 EUR</strong> (frente a 4.070.205.000,00 EUR en 2024), con un EBITDA de <strong>2.988.078.000,00 EUR</strong> y un resultado neto negativo de <strong>-360.776.000,00 EUR</strong>.</li>
+<li><strong>Estructura de Deuda</strong>: La deuda total asciende a <strong>22.126.999.552,00 EUR</strong> (con un total de deuda en balance de 21.88,9 mil millones en 2025), y un ratio de deuda neta sobre EBITDA (<code>net_debt_ebitda</code>) estimado en <strong>7,96x</strong>, lo que refleja un apalancamiento elevado característico de la industria de infraestructuras de torres de telecomunicaciones.</li>
+<li><strong>Flujos de Caja</strong>: El flujo de caja operativo en 2025 se situó en <strong>2.286.046.000,00 EUR</strong>, con unas inversiones de capital (<em>CapEx</em>) de <strong>-1.760.224.000,00 EUR</strong>, resultando en un flujo de caja libre (<em>Free Cash Flow</em>) positivo de <strong>525.822.000,00 EUR</strong> (una mejora sustancial frente a los 276,2 millones de 2024 y negativo en 2023).</li>
+<li><strong>Dividendos</strong>: Ofrece una política de dividendo con una rentabilidad por dividendo (<em>dividend yield</em>) del <strong>2,97%</strong> (un dividendo por acción de 0,75 EUR y ratio de reparto <em>payout ratio</em> del 16,04%).</li>
+<li><strong>Consenso de Analistas</strong>: El precio objetivo medio de consenso de los analistas se sitúa en <strong>34,18 EUR</strong> (con un rango entre un mínimo de 21,00 EUR y un máximo de 45,80 EUR cubierto por 23 opiniones de analistas), lo que implica un potencial de revalorización teórico (<em>consensus upside</em>) del <strong>34,03%</strong>.</li>
+</ul>
+<h6>4. Evidencia y Fuentes de Datos</h6>
+<ul>
+<li><strong>Fechas y Cotización</strong>: Datos extraídos directamente de la instantánea de mercado de <code>CLNX.MC</code> fechada el <strong>2026-11-26</strong>.</li>
+<li><strong>Noticias y Contexto</strong>: Menciones de análisis fundamental en Bolsamania y ExtraETF con fecha de noviembre de 2026. Entorno macroeconómico europeo reportado por El Boletín y Negocios.com (<code>2026-11-26</code>).</li>
+<li><strong>Datos Faltantes</strong>: Cifras exactas detalladas de flujo de caja operativo y libre desglosadas por trimestre para el ejercicio en curso no completas en la muestra parcial; se emplean los estados anuales auditados hasta 2025.</li>
+</ul>
+<h6>5. Conclusión y Recomendación Hipotélica</h6>
+<p>Cellnex Telecom (<code>CLNX.MC</code>) cotiza en un rango de consolidación a medio camino entre su media móvil de 50 sesiones (25,07 EUR) y la de 200 sesiones (26,85 EUR). El RSI en 48,33 y un MACD neutral sugieren paciencia operativa, a la espera de una ruptura clara de soportes o resistencias dinámicas. El elevado apalancamiento (net debt/EBITDA superior a 7x) sigue siendo un factor crítico a vigilar en entornos de tipos de interés altos, a pesar de la mejora constante en la generación de flujo de caja libre y un potencial analítico de consenso superior al 34%.</p>
+<p><strong>Rating</strong>: HOLD</p>
+<p>FINAL TRANSACTION PROPOSAL:</p>
+<ul>
+<li><strong>Hypothetical Action</strong>: Mantener / Posicionamiento neutral de vigilancia (<em>Hold</em>).</li>
+<li><strong>Target Price (Consensus)</strong>: 34.18 EUR.</li>
+<li><strong>Stop-Loss / Risk Management Guidance</strong>: Establecer niveles de protección dinámicos basados en ATR y soporte en la media de 50 sesiones (aprox. 25,00 EUR).</li>
+</ul>
+<hr />
+<h6>Resumen en Tabla de Puntos Clave</h6>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Categoría</th>
+<th style="text-align:left">Indicador / Métrica</th>
+<th style="text-align:left">Valor Actual / Referencia</th>
+<th style="text-align:left">Implicación Analítica</th>
+</tr>
+</thead>
+</table></div>
+<h3 id="s1-2">News Analyst</h3>
+<p><strong>Rating</strong>: HOLD</p>
+<p><strong>Informe de Análisis y Coyuntura Macroeconómica para Cellnex Telecom, S.A. (<code>CLNX.MC</code>)</strong></p>
+<h6>1. Resumen Ejecutivo y Estado Actual de <code>CLNX.MC</code></h6>
+<p>Cellnex Telecom, S.A. (<code>CLNX.MC</code>) cotiza a 25.50 EUR a fecha de 26 de noviembre de 2026, con una capitalización de mercado de aproximadamente 16.715 millones de euros. La acción muestra un rendimiento reciente moderado (subida del 2,12% a 21 sesiones, aunque acumula una corrección del 3,70% a 63 sesiones y una caída del 20,30% desde sus máximos recientes/drawdown). La compañía opera bajo la clasificación sectorial de Inmobiliaria / Servicios Inmobiliarios en la bolsa española (MCE), cotizando en euros con un dividendo estimado por acción de 0.75 EUR (rendimiento por dividendo del ~2.94%).</p>
+<h6>2. Análisis Fundamental y Financiero</h6>
+<p>Basado en los estados financieros y métricas proporcionadas:</p>
+<ul>
+<li><strong>Ingresos y Rentabilidad:</strong> Los ingresos totales alcanzaron los 4.120 millones de euros al cierre del ejercicio 2025, frente a los 4.070 millones en 2024 y 3.804 millones en 2023, mostrando un crecimiento constante de la cifra de negocio (crecimiento de ingresos del 30,1% reportado en métricas consolidadas). No obstante, el resultado neto permanece en terreno negativo (-360,78 millones de euros en 2025, frente a -28,04 millones en 2024), lastrado por una estructura de costes financieros y amortizaciones elevados.</li>
+<li><strong>Deuda y Apalancamiento:</strong> La deuda total asciende a 22.127 millones de euros (con una deuda neta/EBITDA de aproximadamente 7.96x sobre un EBITDA de 2.591 millones).</li>
+<li><strong>Flujo de Caja:</strong> El flujo de caja operativo en 2025 se situó en 2.286 millones de euros, con unas inversiones de capital (CapEx) de 1.760 millones, resultando en un flujo de caja libre (FCF) positivo de 525,8 millones de euros, mejorando considerablemente frente a los -126 millones de 2023 y los 276 millones de 2024.</li>
+<li><strong>Valoración y Consenso:</strong> El ratio Precio/Valor en Libros (P/B) se sitúa en 1.29x, con un EV/EBITDA de 14.45x. El precio objetivo medio de los analistas se sitúa en 34.18 EUR (con un rango entre 21.00 EUR y 45.80 EUR), lo que implica un potencial alcista (consensus upside) estimado del 34,03% sobre el precio de cotización actual de 25.50 EUR, respaldado por 23 opiniones de analistas.</li>
+</ul>
+<h6>3. Contexto Macroeconómico y Entorno de Mercado (Noviembre 2026)</h6>
+<p>El análisis macroeconómico de finales de noviembre de 2026 destaca los siguientes hitos relevantes:</p>
+<ul>
+<li><strong>Tipos de Interés y Bancos Centrales:</strong> Las bolsas europeas han cerrado con fuertes subidas impulsadas por el sector bancario y tecnológico (ej. Euro Stoxx 50 y DAX avanzando más de un 2% el 26 de noviembre de 2026). En el ámbito institucional, Pablo Hernández de Cos ha sido elegido presidente del Banco Central Europeo (BCE), convirtiéndose en el primer español al frente de la entidad. Paralelamente, el euríbor supera el 3,3%, encareciendo las hipotecas y reflejando un entorno de tipos de interés restrictivos que impacta directamente en el coste del servicio de la ingente deuda de empresas intensivas en capital como <code>CLNX.MC</code>.</li>
+<li><strong>Titulares de Prensa Relevantes:</strong>
+<ul>
+<li><em>Bolsamania</em> (2026-11-20): Noticias sobre análisis fundamental de Cellnex.</li>
+<li><em>extraETF</em> (2026-11-20): Actualización de cotización, dividendos y noticias (ISIN: ES0105066007).</li>
+<li><em>20 Minutos</em> (2026-11-26): El euríbor supera el 3,3% a las puertas de la última subida de tipos de 2026.</li>
+</ul>
+</li>
+</ul>
+<h6>4. Evidencia Contradictoria y Factores de Riesgo</h6>
+<ul>
+<li><strong>Apoyo (Supporting Evidence):</strong> Mejora secuencial del flujo de caja libre positivo (525M€ en 2025), incremento de ingresos operativos y un potencial de revalorización hasta el precio objetivo de consenso de 34.18 EUR (+34%).</li>
+<li><strong>Contrario (Contrary Evidence):</strong> Elevada carga de endeudamiento (deuda total superior a 22.000 millones de euros y ratio de endeudamiento neto/EBITDA cercano a 8x), en un contexto donde el euríbor se mantiene elevado sobre el 3,3%, lo que encarece la refinanciación. Pérdidas netas recurrentes a nivel contable (-360M€ en 2025).</li>
+<li><strong>Datos Faltantes:</strong> No se dispone de ratios detallados de cobertura de intereses a corto plazo ni de estimaciones desagregadas de desapalancamiento trimestral posterior a noviembre de 2026.</li>
+</ul>
+<h6>Tabla Resumen</h6>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Concepto / Métrica</th>
+<th style="text-align:left">Valor Actual / Dato Clave</th>
+<th style="text-align:left">Implicación para <code>CLNX.MC</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Precio de Cotización</strong></td>
+<td style="text-align:left">25.50 EUR (al 26-11-2026)</td>
+<td style="text-align:left">Corrección del -20,3% desde máximos del periodo</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Capitalización Bursátil</strong></td>
+<td style="text-align:left">~16.715 millones EUR</td>
+<td style="text-align:left">Escala grande dentro del sector inmobiliario/infraestructuras</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>EBITDA</strong></td>
+<td style="text-align:left">2.591 millones EUR</td>
+<td style="text-align:left">Base operativa sólida para el servicio de activos</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Deuda Total / Neta / EBITDA</strong></td>
+<td style="text-align:left">Deuda Total: ~22.126 M€ / Net Debt/EBITDA: ~7.96x</td>
+<td style="text-align:left">Riesgo de apalancamiento elevado en entorno de tipos altos</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Flujo de Caja Libre (2025)</strong></td>
+<td style="text-align:left">525,8 millones EUR</td>
+<td style="text-align:left">Mejora notable frente a ejercicios anteriores</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Precio Objetivo de Consenso</strong></td>
+<td style="text-align:left">34.18 EUR (Upside: ~34.03%)</td>
+<td style="text-align:left">Potencial alcista según el panel de analistas (23 opiniones)</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Entorno de Tipos (Euríbor)</strong></td>
+<td style="text-align:left">Supera el 3,3% (Nov 2026)</td>
+<td style="text-align:left">Presión sobre el coste financiero de la deuda</td>
+</tr>
+</tbody>
+</table></div>
+<p>FINAL TRANSACTION PROPOSAL: HOLD</p>
+<h3 id="s1-3">Fundamentals Analyst</h3>
+<p><strong>Rating</strong>: REVIEW</p>
+<p><strong>FINAL TRANSACTION PROPOSAL:</strong> HOLD</p>
+<hr />
+<h4>Informe Fundamental de Cellnex Telecom, S.A. (<code>CLNX.MC</code>)</h4>
+<p>Este informe presenta un análisis exhaustivo de la información fundamental, financiera y de mercado para <strong>Cellnex Telecom, S.A.</strong> (<code>CLNX.MC</code>), cotizada en las Bolsas de Madrid (MCE) y perteneciente al sector inmobiliario/servicios inmobiliarios (infraestructura de telecomunicaciones). La presente investigación se basa estrictamente en la evidencia suministrada con fecha de referencia a 26 de noviembre de 2026.</p>
+<hr />
+<h5>1. Perfil de la Compañía y Datos de Mercado</h5>
+<ul>
+<li><strong>Identidad Resuelta:</strong> Cellnex Telecom, S.A.</li>
+<li><strong>Ticker:</strong> <code>CLNX.MC</code> (Bolsa de Madrid, EUR)</li>
+<li><strong>Sector / Industria:</strong> Real Estate / Real Estate Services (Infraestructuras de telecomunicaciones inalámbricas)</li>
+<li><strong>Precio de Cierre Actual:</strong> 25,50 EUR (al 26/11/2026)</li>
+<li><strong>Capitalización de Mercado:</strong> 16.715.203.584 EUR</li>
+<li><strong>Acciones y Consenso de Analistas:</strong>
+<ul>
+<li>Precio objetivo medio (<em>targetMeanPrice</em>): 34,18 EUR</li>
+<li>Precio objetivo mínimo (<em>targetLowPrice</em>): 21,00 EUR</li>
+<li>Precio objetivo máximo (<em>targetHighPrice</em>): 45,80 EUR</li>
+<li>Número de analistas (<em>numberOfAnalystOpinions</em>): 23</li>
+<li>Potencial alcista de consenso (<em>consensus_upside_pct</em>): ~34,03%</li>
+</ul>
+</li>
+<li><strong>Rentabilidad por Dividendo:</strong> 2,94% / 2,97% (Dividendo anual de 0,75 EUR por acción, ratio de pago de 16,04%).</li>
+</ul>
+<hr />
+<h5>2. Análisis de Estados Financieros Históricos</h5>
+<p>Los datos financieros correspondientes a los cierres de ejercicio económico de 2023, 2024 y 2025 muestran la evolución operativa y patrimonial de la compañía:</p>
+<h6>Cuenta de Resultados (<em>Income Statement</em>)</h6>
+<ul>
+<li><strong>Ingresos Totales (<em>Total Revenue</em>):</strong>
+<ul>
+<li>2023: 3.804.076.000 EUR</li>
+<li>2024: 4.070.205.000 EUR</li>
+<li>2025: 4.120.257.000 EUR <em>(Crecimiento interanual de ingresos del 30,1% reportado en fundamentos)</em>.</li>
+</ul>
+</li>
+<li><strong>EBITDA:</strong>
+<ul>
+<li>2023: 2.940.863.000 EUR</li>
+<li>2024: 2.723.866.000 EUR</li>
+<li>2025: 2.988.078.000 EUR <em>(EBITDA actual de la compañía según la instantánea: 2.591.459.072 EUR)</em>.</li>
+</ul>
+</li>
+<li><strong>Ingreso Neto (<em>Net Income</em>):</strong>
+<ul>
+<li>2023: -297.220.000 EUR</li>
+<li>2024: -28.043.000 EUR</li>
+<li>2025: -360.776.000 EUR
+<em>(La compañía continúa reportando resultados netos negativos debido al peso de las amortizaciones y costes financieros asociados a su expansión histórica).</em></li>
+</ul>
+</li>
+</ul>
+<h6>Balance de Situación (<em>Balance Sheet</em>)</h6>
+<ul>
+<li><strong>Activos Totales (<em>Total Assets</em>):</strong>
+<ul>
+<li>2023: 44.365.244.000 EUR</li>
+<li>2024: 43.668.415.000 EUR</li>
+<li>2025: 42.063.557.000 EUR</li>
+</ul>
+</li>
+<li><strong>Deuda Total (<em>Total Debt</em>):</strong>
+<ul>
+<li>2023: 21.509.928.000 EUR</li>
+<li>2024: 21.439.802.000 EUR</li>
+<li>2025: 21.889.472.000 EUR <em>(Deuda total actual registrada: 22.126.999.552 EUR)</em>.</li>
+</ul>
+</li>
+<li><strong>Patrimonio Neto (<em>Stockholders Equity</em>):</strong>
+<ul>
+<li>2023: 13.936.758.000 EUR</li>
+<li>2024: 14.157.978.000 EUR</li>
+<li>2025: 12.116.349.000 EUR <em>(Valor en libros por acción de 19,72 EUR).</em></li>
+</ul>
+</li>
+</ul>
+<h6>Flujo de Caja (<em>Cash Flow</em>)</h6>
+<ul>
+<li><strong>Flujo de Caja Operativo (<em>Operating Cash Flow</em>):</strong>
+<ul>
+<li>2023: 2.067.775.000 EUR</li>
+<li>2024: 2.306.573.000 EUR</li>
+<li>2025: 2.286.046.000 EUR</li>
+</ul>
+</li>
+<li><strong>Gastos de Capital (<em>Capital Expenditure</em>):</strong>
+<ul>
+<li>2023: -2.193.778.000 EUR</li>
+<li>2024: -2.030.336.000 EUR</li>
+<li>2025: -1.760.224.000 EUR</li>
+</ul>
+</li>
+<li><strong>Flujo de Caja Libre (<em>Free Cash Flow</em>):</strong>
+<ul>
+<li>2023: -126.003.000 EUR</li>
+<li>2024: 276.237.000 EUR</li>
+<li>2025: 525.822.000 EUR
+<em>(Se observa una clara trayectoria de mejora hacia la generación de caja libre positiva tras moderar los niveles de CapEx).</em></li>
+</ul>
+</li>
+</ul>
+<hr />
+<h5>3. Valoración, Fundamentos Clave y Apalancamiento</h5>
+<ul>
+<li><strong>Múltiplos de Valoración:</strong>
+<ul>
+<li>PER histórico (<em>Trailing P/E</em>): No disponible / Negativo por pérdidas netas.</li>
+<li>PER Adelantado (<em>Forward P/E</em>): -634,49 (indica beneficios netos previstos muy reducidos o negativos a corto plazo).</li>
+<li>Precio sobre Valor en Libros (<em>Price to Book</em>): 1,29x (valoración razonable sobre activos netos tangibles/intangibles).</li>
+<li>Valor de Empresa a EBITDA (<em>EV/EBITDA</em>): 14,45x.</li>
+</ul>
+</li>
+<li><strong>Apalancamiento:</strong>
+<ul>
+<li>Ratio Deuda Neta / EBITDA (<em>net_debt_ebitda</em>): <strong>7,96x</strong>.</li>
+<li>Este nivel de apalancamiento es elevado, lo que expone a la compañía a las fluctuaciones de los tipos de interés en la Eurozona (el euríbor supera el 3,3% a finales de 2026, según titulares macroeconómicos recientes).</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h5>4. Análisis Técnico y Contexto Macroeconómico</h5>
+<ul>
+<li><strong>Indicadores Técnicos:</strong>
+<ul>
+<li>Cierre: 25,50 EUR.</li>
+<li>RSI (14): 48,33 (zona neutral, sin sobreventa ni sobrecompra).</li>
+<li>MACD: -0,047 (ligeramente por debajo de su línea de señal 0,109).</li>
+<li>Medias Móviles: SMA20 en 26,05 EUR, SMA50 en 25,07 EUR y SMA200 en 26,85 EUR. La cotización</li>
+</ul>
+</li>
+</ul>
+</section><section id="s2"><h2>II. Research Team Decision</h2><h3 id="s2-1">Bull Researcher</h3>
+<p>Bull Analyst: ¡Hola a todos! Comprendo perfectamente que el mercado observe a <strong><code>CLNX.MC</code></strong> con cierta cautela, especialmente cuando los titulares macroeconómicos nos recuerdan constantemente que el euríbor se mantiene por encima del 3,3% y que el apalancamiento es un tema recurrente en las conversaciones de sobremesa. Pero los osos del mercado se están quedando anclados en los viejos fantasmas del pasado y están ignorando por completo la increíble transformación y el momento operativo tan sólido que está demostrando Cellnex Telecom.</p>
+<p>Vamos a desmontar ese pesimismo con datos duros y a ver por qué la tesis alcista tiene un peso infinitamente superior:</p>
+<h6>1. El mito de la caja y la transformación real del Free Cash Flow</h6>
+<p>Los analistas más bajistas suelen machacar con el resultado neto negativo (-360,8 millones de euros en 2025) debido a las amortizaciones contables y los costes financieros históricos. ¡Pero miran el dedo en lugar de la luna! Lo que realmente importa para valorar la sostenibilidad y la creación de valor en una empresa de infraestructuras de torres es la caja.
+¿Y qué nos dicen los números? El <strong>Flujo de Caja Libre (<em>Free Cash Flow</em>)</strong> ha dado un vuelco espectacular: pasamos de un terreno negativo de -126 millones en 2023 a 276 millones en 2024, ¡y nos plantamos en unos impresionantes <strong>525,8 millones de euros al cierre de 2025</strong>! Esto ocurre porque la compañía ha sabido disciplinar sus inversiones de capital (<em>CapEx</em>), reduciéndolas desde los casi 2.200 millones en 2023 hasta los 1.760 millones en 2025. Cellnex ya no está en una fase desaforada de compras; está optimizando su gigantesca red y transformando sus torres en pura liquidez.</p>
+<h6>2. Una ventaja competitiva inexpugnable (Moat)</h6>
+<p>Hablemos claro: ¿cuántas empresas en Europa pueden replicar la infraestructura de más de 100.000 emplazamientos de telecomunicaciones que posee <code>CLNX.MC</code>? Prácticamente ninguna. Las barreras de entrada en este sector inmobiliario de servicios de telecomunicaciones son colosales. Operadores móviles como Vodafone, Orange o Telefónica necesitan anclarse a las torres de Cellnex por una cuestión de pura supervivencia y eficiencia de costes a través de coinversión (<em>co-locación</em>). Con un ratio EV/EBITDA de 14,45x y un precio sobre valor en libros de apenas 1,29x, estamos hablando de un activo esencial de la economía digital europea cotizando con un descuento operativo muy atractivo frente a su potencial.</p>
+<h6>3. Crecimiento de ingresos y solidez del EBITDA</h6>
+<p>Mientras los osos argumentan que el crecimiento se ha frenado, los datos demuestran lo contrario: la cifra de negocios consolidada ha escalado hasta los <strong>4.120 millones de euros</strong> en 2025 (un crecimiento interanual del 30,1% reportado en métricas de fondo), respaldada por un EBITDA masivo de <strong>2.591 millones de euros</strong>. Esta robustez operativa es la que permite a la compañía mantener un dividendo constante (rentabilidad por dividendo de aproximadamente el 2,94% con un <em>payout</em> sostenible del 16,04%), retribuyendo al accionista mientras consolida su balance.</p>
+<h6>4. ¿Y el apalancamiento? La respuesta al argumento bajista</h6>
+<p>El talón de Aquiles que siempre esgrimen los bajistas es la ratio de deuda neta sobre EBITDA (situada en torno a 7,96x). Sí, es un sector intensivo en capital, nadie lo niega. Pero mirar esta cifra de forma aislada sin entender la tendencia es un error de bulto. Con un flujo de caja operativo que supera los 2.286 millones de euros anuales y un CapEx a la baja, Cellnex cuenta con la cobertura perfecta para hacer frente a sus obligaciones financieras, beneficiándose además de un entorno bursátil general europeo fuertemente impulsado tras nombramientos clave en el BCE como el de Pablo Hernández de Cos, que aportan estabilidad a la gobernanza monetaria a largo plazo.</p>
+<h6>Conclusión y Consenso del Mercado</h6>
+<p>No lo digo solo yo: el panel de consenso de los 23 analistas que cubren el valor sitúa el precio objetivo medio en unos rotundos <strong>34,18 EUR</strong>, lo que representa un <strong>potencial alcista (<em>consensus upside</em>) superior al 34%</strong> desde los 25,50 EUR actuales. Con un RSI neutral en 48,33 y la acción apoyándose dinámicamente sobre su media móvil de 50 sesiones (25,07 EUR), nos encontramos ante una ventana de entrada magnífica antes de que el mercado reconozca el verdadero valor intrínseco de su flujo de caja libre.</p>
+<p><strong>Rating</strong>: BUY</p>
+<p>FINAL TRANSACTION PROPOSAL:</p>
+<ul>
+<li><strong>Hypothetical Action</strong>: Comprar / Posicionamiento alcista (<em>Buy</em>).</li>
+<li><strong>Target Price (Consensus)</strong>: 34.18 EUR.</li>
+<li><strong>Risk Management / Stop-Loss</strong>: Ajustar soporte técnico en la zona de la media de 50 sesiones (aprox. 25,00 EUR) para proteger la inversión ante volatilidad coyuntural.</li>
+</ul>
+<h3 id="s2-2">Bear Researcher</h3>
+<p>Bear Analyst: ¡Hola, colega! Comprendo perfectamente tu entusiasmo y cómo intentas arrojar optimismo basándote en los últimos destellos de flujo de caja libre y en el consenso de los analistas. Pero permíteme decirte que estás pintando un cuadro color de rosa sobre un lienzo que se está agrietando por el peso de su propia estructura financiera. Dejar a un lado los &quot;fantasmas del pasado&quot; cuando hablamos de <strong><code>CLNX.MC</code></strong> es un ejercicio de amnesia peligrosa en un entorno macroeconómico que no perdona la debilidad del balance.</p>
+<p>Vamos a desmontar punto por punto esa tesis alcista que minimiza los riesgos reales de Cellnex Telecom:</p>
+<h6>1. ¿Flujo de caja libre milagroso o un simple alivio temporal?</h6>
+<p>Celebrar que el <em>Free Cash Flow</em> (FCF) haya subido hasta los <strong>525,8 millones de euros</strong> en 2025 está muy bien para un titular, pero olvidamos el contexto completo. Es lógico que la caja mejore cuando se frena el frenesí de adquisiciones y se recorta el CapEx a 1.760 millones; sin embargo, ¿es eso un modelo de crecimiento sostenible o un síntoma de que la compañía ha tenido que poner el freno de mano porque su capacidad de expansión se ha visto estrangulada por el coste de la deuda?
+Además, el elefante en la habitación sigue siendo el <strong>resultado neto negativo de -360,8 millones de euros</strong> al cierre de 2025. No estamos hablando de una &quot;simple anécdota contable por amortizaciones&quot;: son pérdidas reales que demuestran que el negocio, tras absorber la pesada carga de sus gastos financieros, sigue sin ser rentable para el accionista a nivel neto. ¿De qué sirve generar 525 millones de FCF cuando tienes un volumen de pasivo gigantesco tragándose gran parte de esa liquidez?</p>
+<h6>2. El espejismo del apalancamiento y el &quot;efecto Euríbor&quot;</h6>
+<p>Aquí es donde la defensa alcista hace aguas por completo. Descartar un ratio de <strong>deuda neta sobre EBITDA de 7,96x</strong> diciendo que &quot;es un sector intensivo en capital y hay que mirar la tendencia&quot; es ignorar la realidad macroeconómica. Con una deuda total que ronda los <strong>22.127 millones de euros</strong> y un euríbor que se mantiene por encima del <strong>3,3%</strong> a finales de 2026, cada operación de refinanciación o tramo de deuda a tipo variable es una soga que se aprieta un poco más alrededor del cuello de Cellnex.
+Atribuirle tranquilidad a la compañía simplemente porque el BCE esté liderado ahora por Pablo Hernández de Cos es una falacia: la política monetaria sigue siendo restrictiva y los tipos altos encarecen el servicio de la deuda de forma implacable. Pretender que con 525 millones de FCF se gobiernan más de 22.000 millones de deuda en un entorno de tipos elevados es hacer cuentas alegres.</p>
+<h6>3. Competencia, presiones de los operadores y desapalancamiento forzoso</h6>
+<p>Hablas de un <em>moat</em> inexpugnable basándote en sus más de 100.000 emplazamientos. Es indiscutible que la infraestructura física está ahí, pero los grandes clientes de Cellnex —operadores como Vodafone, Orange o Telefónica— están bajo una presión de márgenes feroz y buscando constantemente la eficiencia de costes. Lejos de ser una posición de absoluta comodidad, Cellnex se enfrenta a un poder de negociación asimétrico donde los operadores buscan reducir costes de alquiler o exigen coinversiones que limitan el poder de fijación de precios de la propia Cellnex. De hecho, la propia necesidad de recortar CapEx e iniciar desinversiones de activos en determinados mercados demuestra que el modelo de &quot;crecer a cualquier precio&quot; ha mutado en una huida hacia adelante para evitar la degradación del balance.</p>
+<h6>4. ¿Cuidado con el Espejismo del Consenso?</h6>
+<p>Te agarras con fuerza al precio objetivo medio de 34,18 EUR y a ese jugoso potencial alcista del 34% que proyectan los analistas. Pero olvidamos que los analistas de consenso suelen ir a remolque de los rebotes técnicos de corto plazo y rara vez ponderan adecuadamente el riesgo de compresión de múltiplos si los tipos de interés tardan más de lo previsto en normalizarse a la baja. Con una cotización actual en 25,50 EUR, un MACD bajista/neutral y un volumen de contratación que no muestra un apetito comprador desbordado, la acción está atrapada entre su media de 50 sesiones (25,07 EUR) y la de 200 sesiones (26,85 EUR). El mercado huele el riesgo y no está dispuesto a pagar los múltiplos que los analistas optimistas sugieren.</p>
+<h6>Conclusión</h6>
+<p><code>CLNX.MC</code> no es una ganga preparada para despegar, sino una trampa de valor (<em>value trap</em>) fuertemente endeudada que depende demasiado de factores macroeconómicos que escapan a su control. Mientras el apalancamiento siga cerca de las 8x EBITDA y el resultado neto continúe arrojando números rojos profundos, asumir riesgos en esta compañía es ignorar las señales de alarma más evidentes del balance.</p>
+<p><strong>Rating</strong>: SELL</p>
+<p>FINAL TRANSACTION PROPOSAL:</p>
+<ul>
+<li><strong>Hypothetical Action</strong>: Vender / Posicionamiento bajista o infraponderar (<em>Sell</em>).</li>
+<li><strong>Target Price (Consensus)</strong>: 34.18 EUR (Referencia de consenso de mercado, no asumida como valor intrínseco fundamental debido al riesgo de apalancamiento).</li>
+<li><strong>Risk Management / Stop-Loss</strong>: Limitar exposición y establecer un stop de protección estricto ante perforaciones de la media móvil de 50 sesiones (25,00 EUR).</li>
+</ul>
+<h3 id="s2-3">Research Manager</h3>
+<p><strong>Recommendation</strong>: Hold</p>
+<p><strong>Rationale</strong>: El debate entre el analista alcista y el bajista pone de manifiesto una divergencia crítica en la valoración de CLNX.MC. Por un lado, la tesis alcista defiende la mejora sustancial del flujo de caja libre hasta los 525,8 millones de euros al cierre de 2025, la disciplina en el CapEx y un inexpugnable foso defensivo basado en más de 100.000 emplazamientos, respaldado por un consenso de analistas que sitúa el precio objetivo en 34,18 EUR. Por otro lado, la tesis bajista argumenta con contundencia que el resultado neto sigue siendo profundamente negativo (-360,8 millones de euros), que la ratio de deuda neta sobre EBITDA se mantiene elevada en 7,96x y que los costes financieros siguen amenazados por un euríbor por encima del 3,3%. Al ponderar ambas posturas, la sólida generación operativa de caja y las ventajas de infraestructura compiten de forma directa contra los riesgos severos del apalancamiento y la rentabilidad neta negativa. Como la balanza de riesgos se mantiene equilibrada y los datos sugieren cautela técnica y fundamental, la recomendación justa es Hold, evitando adoptar un sesgo direccional prematuro.</p>
+<p><strong>Strategic Actions</strong>: Mantener la asignación actual sin incrementar ni reducir la exposición a CLNX.MC (posicionamiento neutral equivalente al tamaño estándar de cartera). Supervisar de cerca la evolución del soporte técnico en la media móvil de 50 sesiones (en torno a 25,00 EUR) y la zona de la media de 200 sesiones (26,85 EUR). Esperar señales más claras de desapalancamiento real o una consolidación de la tendencia del flujo de caja antes de reevaluar una toma de posición direccional.</p>
+</section><section id="s3"><h2>III. Trading Team Plan</h2><h3 id="s3-1">Trader</h3>
+<p><strong>Action</strong>: Hold</p>
+<p><strong>Reasoning</strong>: Cellnex Telecom cotiza actualmente en 25,50 EUR, en un rango técnico neutral situado entre su media móvil de 50 sesiones (25,07 EUR) y la de 200 sesiones (26,85 EUR), con un RSI de 48,33 que refleja equilibrio de mercado. Aunque los analistas muestran un precio objetivo de consenso de 34,18 EUR y el flujo de caja libre mejoró hasta los 525,8 millones de euros, el apalancamiento elevado (ratio de deuda neta sobre EBITDA de 7,96x) y la persistencia de un resultado neto negativo aconsejan mantener una postura neutral a la espera de mayor claridad.</p>
+<p><strong>Entry Price</strong>: not provided</p>
+<p><strong>Stop Loss</strong>: 25.0</p>
+<p><strong>Position Sizing</strong>: Posicionamiento neutral de vigilancia equivalente a un tamaño estándar de cartera</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+</section><section id="s4"><h2>IV. Risk Management Team Decision</h2><h3 id="s4-1">Aggressive Analyst</h3>
+<p>Aggressive Analyst: ¡Basta ya de vacilar ante la mediocridad del estatus quo! Mientras los analistas conservadores y neutrales se escandalizan por el apalancamiento y tiemblan ante cada oscilación del euríbor sobre el 3,3%, están ignorando por completo el verdadero motor de creación de valor que representa Cellnex Telecom (<code>CLNX.MC</code>). Nos proponen una postura de &quot;Hold&quot; cobarde y pusilánime, paralizados por un resultado neto contable negativo que ignora la realidad operativa de un gigante de infraestructuras. ¿Acaso no ven los datos? ¡El flujo de caja libre (<em>Free Cash Flow</em>) se ha disparado hasta los 525,8 millones de euros en 2025, doblando con creces los registros anteriores, mientras que el CapEx se reduce de forma disciplinada a 1.760 millones!</p>
+<p>Los tímidos que abogan por la cautela se aferran obsesivamente a un ratio de deuda neta sobre EBITDA de 7,96x como si fuera una sentencia de muerte, ignorando que en el sector de torres de telecomunicaciones, la intensidad de capital es la naturaleza misma del negocio y el EBITDA se sitúa en unos colosales 2.591 millones de euros. Nos acusan de imprudentes por mirar más allá del rango neutral técnico actual (con un precio en 25,50 EUR, cómodamente sostenido por encima de la media móvil de 50 sesiones en 25,07 EUR y con un RSI equilibrado de 48,33), pero su miedo paralizante les impide ver el elefante en la habitación: ¡el consenso de 23 analistas sitúa el precio objetivo medio en 34,18 EUR, lo que representa un potencial alcista (<em>consensus upside</em>) mastodóntico del 34,03%!</p>
+<p>Esperar a que desaparezca toda la incertidumbre macroeconómica y a que los tipos de interés bajen por arte de magia es la receta perfecta para quedarse fuera del tren del crecimiento. Los grandes retornos exigen asumir riesgos calculados cuando el mercado cotiza con un <em>drawdown</em> del 20,30% desde máximos y un ratio P/B muy razonable de 1,29x. Conformarse con mirar desde la barrera es regalar las ganancias a los inversores audaces. ¡Es el momento de adoptar una estrategia agresiva, acumular posiciones con convicción y aprovechar este descuento estructural antes de que el mercado despierte y descuente el verdadero valor de los activos de <code>CLNX.MC</code>!</p>
+<p><strong>Rating</strong>: BUY</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>BUY</strong></p>
+<h3 id="s4-2">Conservative Analyst</h3>
+<p>Conservative Analyst: El analista agresivo acusa de cobardía lo que en realidad es una gestión de riesgos rigurosa y prudente con el patrimonio de la firma. Califica nuestro enfoque de &quot;pusilánime&quot;, pero ignorar los riesgos estructurales de <code>CLNX.MC</code> en aras de un optimismo desmedido es una auténtica irresponsabilidad. Pretende minimizar el ratio de deuda neta sobre EBITDA de 7,96x como si fuera un mero detalle estético propio del sector, pero olvida que con una deuda total que roza los 22.127 millones de euros y un euríbor que se mantiene firmemente por encima del 3,3% a finales de noviembre de 2026, el coste de servicio de esta ingente estructura financiera es una amenaza real y palpable para la viabilidad de cualquier ganancia futura.</p>
+<p>Es muy fácil desestimar los resultados netos negativos —que en 2025 alcanzaron los -360,78 millones de euros— bajo la excusa de la contabilidad de infraestructuras, pero la realidad es que la compañía sigue sin ser rentable a nivel neto, lastrada por amortizaciones y cargas financieras que erosionan los recursos propios. Cierto es que el flujo de caja libre mejoró hasta los 525,8 millones de euros y que el EBITDA se sitúa en 2.591 millones, pero celebrar esta mejora como una patente de corso para comprar de manera agresiva ignora que la empresa arrastra un <em>drawdown</em> del 20,30% desde sus máximos y que cotiza atrapada en un rango técnico estrictamente neutral, encerrada entre su media móvil de 50 sesiones en 25,07 EUR y la de 200 sesiones en 26,85 EUR, con un MACD plano y un RSI de 48,33 que gritan ausencia de impulso alcista.</p>
+<p>Apelar al precio objetivo de consenso de 34,18 EUR y a su supuesto potencial alcista del 34,03% es caer en el sesgo de confiar ciegamente en estimaciones de terceros mientras el mercado real muestra una atonía evidente y un panorama macroeconómico europeo donde la presión de los tipos de interés sigue latente. Exponer a la firma a una posición compradora en este escenario, sin una tendencia alcista confirmada y con semejante mochila de endeudamiento, no es valentía; es especulación ciega. Para proteger los activos y minimizar la volatilidad, la única alternativa sensata es mantener una postura defensiva de vigilancia estricta y rechazar de plano cualquier asunción de riesgo prematura.</p>
+<p>Rating: HOLD</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+<h3 id="s4-3">Neutral Analyst</h3>
+<p>Neutral Analyst: Ambos extremos, tanto el entusiasmo desenfrenado del analista agresivo como el inmovilismo defensivo del conservador, pecan de parcialidad al mirar solo una cara de la moneda de Cellnex Telecom (<code>CLNX.MC</code>).</p>
+<p>El analista agresivo comete un error grave al restar importancia al apalancamiento financiero. Descartar un ratio de deuda neta sobre EBITDA de 7,96x y una deuda total que roza los 22.127 millones de euros en un entorno donde el euríbor supera el 3,3% a finales de noviembre de 2026 no es ser audaz, es ignorar el riesgo de recálculo en los costes de financiación. Además, confiar ciegamente en el potencial alcista del 34,03% basado en el precio objetivo de consenso de 34,18 EUR sin exigir una confirmación técnica es caer en un optimismo ingenuo, especialmente cuando el valor cotiza atrapado en un rango neutral estricto entre la media móvil de 50 sesiones en 25,07 EUR y la de 200 sesiones en 26,85 EUR, con un RSI de 48,33 que refleja clara atonía.</p>
+<p>Por otro lado, el analista conservador se refugia en un exceso de cautela que paraliza cualquier toma de decisiones constructiva. Al aferrarse únicamente al resultado neto negativo de -360,78 millones de euros de 2025 y a los riesgos macroeconómicos, pasa por alto la realidad operativa fundamental del negocio: Cellnex ha demostrado una disciplina encomiable reduciendo su CapEx y elevando su flujo de caja libre hasta los 525,8 millones de euros, respaldada por un EBITDA colosal de 2.591 millones. Quedarse de brazos cruzados esperando a que desaparezca toda incertidumbre ignora que los mejores puntos de acumulación suelen encontrarse precisamente durante los periodos de consolidación y corrección, como el <em>drawdown</em> del 20,30% que experimenta el valor desde sus máximos.</p>
+<p>La postura verdaderamente inteligente y equilibrada no es comprar de forma masiva ni tampoco mantenerse al margen por miedo, sino adoptar una estrategia moderada y táctica. Dado que <code>CLNX.MC</code> se encuentra en una zona de equilibrio técnico con un soporte dinámico claro en su media móvil de 50 sesiones (25,07 EUR) y un stop loss ya planteado en la zona de 25,00 EUR, la solución óptima es mantener una posición neutral vigilante pero abierta a la acumulación escalonada. Esto permite capturar el atractivo descuento estructural y el potencial de su flujo de caja libre sin quedar expuestos de manera imprudente ante los rigores de la deuda en un entorno de tipos elevados.</p>
+<p><strong>Rating</strong>: HOLD</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+</section><section id="s5"><h2>V. Portfolio Manager Decision</h2><h3 id="s5-1">Portfolio Manager</h3>
+<p><strong>Rating</strong>: Hold</p>
+<p><strong>Executive Summary</strong>: Se recomienda mantener la posición actual en CLNX.MC, evitando compras agresivas ante la atonía técnica y el elevado apalancamiento financiero. La estrategia consiste en conservar el tamaño estándar de cartera, vigilando el soporte dinámico en torno a la media móvil de 50 sesiones (25,07 EUR) y un stop loss técnico estricto en 25,00 EUR.</p>
+<p><strong>Investment Thesis</strong>: La tesis de inversión se decanta firmemente por la prudencia del analista neutral y conservador frente a la impaciencia del analista agresivo. Si bien el flujo de caja libre mejoró notablemente hasta los 525,8 millones de euros en 2025 y el EBITDA alcanza los 2.591 millones, la estructura financiera sigue arrastrando vulnerabilidades críticas: una deuda total cercana a los 22.127 millones de euros, un ratio de deuda neta sobre EBITDA de 7,96x y un resultado neto profundamente negativo de -360,78 millones. Todo ello en un entorno macroeconómico donde el euríbor se mantiene firmemente por encima del 3,3% a finales de noviembre de 2026. Técnicamente, el valor cotiza atrapado en un rango neutral estricto entre su media móvil de 50 sesiones (25,07 EUR) y la de 200 sesiones (26,85 EUR), con un RSI plano de 48,33 que descarta cualquier impulso alcista inmediato. Aunque el consenso de analistas sitúa el precio objetivo en 34,18 EUR, confiar en este potencial sin una confirmación técnica de ruptura o sin indicios claros de desapalancamiento real sería una apuesta prematura. La calificación cambiaría a compra (Buy) si se observa una ruptura sostenida y con volumen por encima de la media de 200 sesiones o una reducción tangible en el coste de la deuda; por el contrario, una pérdida del soporte en 25,00 EUR forzaría una salida defensiva.</p>
+<p><strong>Price Target</strong>: 34.18</p>
+<p><strong>Time Horizon</strong>: 6-12 meses</p>
+</section>
+</main>
+<footer class="credit"><a href="https://github.com/TauricResearch/TradingAgents" rel="noopener">TradingAgents</a> powered by <a class="brand" href="https://github.com/TauricResearch" rel="noopener">Tauric Research</a></footer>
+</div>
+<a class="to-top" href="#top">Top</a>
+</body>
+</html>

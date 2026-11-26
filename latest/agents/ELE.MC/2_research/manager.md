@@ -1,0 +1,5 @@
+**Recommendation**: Hold
+
+**Rationale**: El debate enfrenta una visión alcista centrada en la solidez de la caja operativa de ELE.MC (más de 4.000 millones de euros), un ROE excepcional del 27,21% y una retribución atractiva al accionista, frente a una postura bajista que advierte sobre un beneficio neto a la baja (-26,7%), una deuda total de casi 11.900 millones de euros y un precio de mercado (43,32 EUR) que supera con creces el precio objetivo medio del consenso (36,89 EUR, con un potencial de -14,85%). Tras sopesar ambos argumentos, los riesgos macroeconómicos de tipos altos y la sobrevaloración respecto al consenso neutralizan la fuerte generación de caja y el impulso técnico reciente, justificando mantener una postura neutral sin sobreexposición.
+
+**Strategic Actions**: Mantener la posición actual en ELE.MC sin realizar nuevas compras ni ventas (asignación estándar neutral). Monitorizar de cerca la evolución del apalancamiento frente a los tipos de interés en Europa y el cumplimiento de los pagos de dividendos previstos para enero de 2027.

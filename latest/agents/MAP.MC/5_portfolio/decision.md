@@ -1,0 +1,9 @@
+**Rating**: Hold
+
+**Executive Summary**: Mantener la ponderación actual en MAP.MC sin realizar nuevas compras ni ventas. Se recomienda vigilar de cerca la zona de soporte técnico en torno a los 4,00 EUR y la media móvil de 200 periodos (~4,07 EUR), manteniendo el horizonte temporal de medio plazo (3-6 meses) para capturar el rendimiento del dividendo mientras se disipa la fase de consolidación.
+
+**Investment Thesis**: El debate entre los analistas refleja un equilibrio bien argumentado entre la solidez fundamental y la debilidad técnica a corto plazo. Por un lado, el analista agresivo destaca con acierto los excelentes resultados financieros de Mapfre, S.A., incluyendo un beneficio neto récord de 1.132,6 millones de euros, un ROE del 18,37% y una atractiva rentabilidad por dividendo del 4,79%, respaldados por un Forward P/E de 9,47x y un precio objetivo medio de consenso de 4,35 EUR (que implica un upside del 8,63%). Por otro lado, los analistas conservador y neutral advierten con prudencia que el valor cotiza actualmente a 4,002 EUR, por debajo de sus medias móviles clave (SMA20 en 4,08 EUR, SMA50 en 4,16 EUR y SMA200 en 4,07 EUR), con un MACD negativo y un retroceso técnico que coincide con las advertencias de Barclays sobre posibles riesgos y correcciones adicionales de hasta el 10%. Dado que los sólidos fundamentales y el dividendo ofrecen un suelo de contención defensivo pero los indicadores técnicos no muestran aún un giro alcista confirmado, la evidencia se mantiene equilibrada. Esto justifica plenamente una postura neutral de mantenimiento (Hold), evitando tanto la sobreexposición en una fase de corrección como la liquidación precipitada de un activo con fundamentales robustos.
+
+**Price Target**: 4.35
+
+**Time Horizon**: 3-6 meses

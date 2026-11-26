@@ -1,0 +1,9 @@
+**Rating**: Hold
+
+**Executive Summary**: Mantener la posicion actual en SCYR.MC sin realizar nuevas incorporaciones ni ventas de panico, asignando una exposicion neutral o estandar en cartera. La estrategia equilibra la excelente generacion de flujo de caja libre y el atractivo dividendo con los riesgos derivados de un elevado apalancamiento y la resistencia tecnica en la media de 200 sesiones (4,36 EUR).
+
+**Investment Thesis**: La tesis de inversion se mantiene neutral tras sopesar los argumentos del debate analitico. Por un lado, el bando alcista destaca con acierto la solidez operativa de Sacyr como operador concesional global, respaldada por la reciente adjudicacion del metro de Fortaleza por 190 millones de euros, un flujo de caja libre elevado de 1.103 millones de euros en 2025 y una rentabilidad por dividendo atractiva cercana al 4,87%, lo que sustenta un potencial de consenso alcista superior al 29% frente a los 4,11 EUR actuales. Por otro lado, la prudencia conservadora y neutral advierte con fundamentos validos sobre el riesgo financiero derivado de un apalancamiento con deuda neta sobre EBITDA de 5,41x en un contexto de euríbor superior al 3,3%, junto con una notable contraccion del beneficio neto contable hasta 85,8 millones de euros en 2025 y un payout ratio elevado del 83,83%. Tecnicamente, el valor cotiza de manera timorata entre la SMA50 (4,06 EUR) y la SMA20 (4,15 EUR), manteniendose por debajo de la SMA200 (4,36 EUR) con un RSI neutral de 49,20. Ante la coexistencia de fundamentales operativos robustos y tensiones de endeudamiento que anulan una directionalidad clara, la evidencia permanece equilibrada, justificando mantener la posicion actual hasta observar una ruptura confirmada de resistencias o una reduccion efectiva del apalancamiento.
+
+**Price Target**: 5.329
+
+**Time Horizon**: 3-6 meses

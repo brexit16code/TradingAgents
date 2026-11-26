@@ -1,0 +1,9 @@
+**Rating**: Hold
+
+**Executive Summary**: Mantener la asignación actual de cartera para NTGY.MC de forma neutral, sin incrementar exposición ni ejecutar recortes. La estrategia se basa en conservar la posición para capturar la atractiva rentabilidad por dividendo del 7,92% mientras el precio se mantenga por encima del soporte de la media móvil de 200 sesiones (27,44 EUR), evitando nuevas compras debido al limitado potencial alcista de apenas un 3,96% hasta el precio objetivo de consenso de 31,33 EUR.
+
+**Investment Thesis**: Tras sopesar el debate de los analistas, se adopta una postura de mantenimiento (Hold) al persistir un equilibrio de fuerzas en el mercado. Por un lado, la tesis alcista resalta la solidez fundamental de Naturgy Energy Group, S.A. (`NTGY.MC`), cotizando a un PER forward de 13,95x frente a la mediana sectorial de 17,58x, un flujo de caja libre cercano a los 2.380 millones de EUR, un apalancamiento controlado con una ratio de deuda neta sobre EBITDA de 2,42x y un soporte técnico sólido por encima de su media móvil de 200 sesiones (27,44 EUR) con una volatilidad reducida del 16,08%. Por otro lado, la postura conservadora advierte correctamente sobre las restricciones macroeconómicas, como un euríbor superior al 3,3% en noviembre de 2026 que eleva los costes de refinanciación, y un margen de revalorización pírrico del 3,96% respecto al objetivo del consenso (31,33 EUR) que limita el atractivo de nuevas entradas agresivas. Dado que los argumentos de solidez operativa y retorno por dividendo neutralizan la necesidad de venta, pero la escasez de recorrido al alza desaconseja ampliar posiciones, la evidencia se mantiene equilibrada. Un cambio en la tesis hacia la compra requeriría una corrección técnica que amplíe el margen de seguridad o una mejora sustancial en los catalizadores de crecimiento orgánico.
+
+**Price Target**: 31.33222
+
+**Time Horizon**: 3-6 meses

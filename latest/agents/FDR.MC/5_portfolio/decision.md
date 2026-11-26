@@ -1,0 +1,9 @@
+**Rating**: Overweight
+
+**Executive Summary**: Iniciamos una acumulación gradual en FDR.MC con una asignación moderada del 5% del portafolio, aprovechando el atractivo Forward P/E de 11,95x y la sólida generación de flujo de caja libre (271,5M EUR). Se establece un stop loss disciplinado en 17,20 EUR y se recomienda una entrada fraccionada para gestionar la debilidad técnica bajo la media móvil de 200 sesiones (19,21 EUR).
+
+**Investment Thesis**: La tesis se inclina decisivamente a favor del análisis constructivo y neutral tras sopesar los argumentos presentados. Por un lado, el bando comprador y el analista neutro aciertan al señalar que un castigo anual del -19,06% y una valoración normalizada (Forward P/E de 11,95x frente a un histórico superior a 21x) ya descuentan en gran medida el estrés macroeconómico derivado de un euríbor superior al 3,3% y el ratio de deuda neta sobre EBITDA de 2,95x. Además, la robusta generación de caja libre de más de 271 millones de euros y una atractiva rentabilidad por dividendo del 3,53% proporcionan un suelo defensivo sólido, respaldando un potencial alcista de consenso del 38,67% hasta los 25,93 EUR. Por otro lado, la cautela del analista conservador está justificada en el plano técnico —el valor cotiza por debajo de la SMA200 (19,21 EUR)—, lo que invalida una entrada agresiva de golpe pero no justifica la inacción o una postura bajista, ya que el mercado ya refleja dichos riesgos. Por tanto, la estrategia óptima es un enfoque de 'Overweight' mediante una acumulación fraccionada y escalonada, protegiendo el capital con un stop loss en 17,20 EUR y esperando una confirmación de ruptura por encima de las medias móviles para completar la posición.
+
+**Price Target**: 25.932
+
+**Time Horizon**: 3-6 meses

@@ -1,0 +1,12 @@
+
+Neutral Analyst: **Rating**: REVIEW
+
+FINAL TRANSACTION PROPOSAL: **HOLD**
+
+Señores analistas, deténganse un momento y dejen de extremar posturas que no reflejan la realidad operativa y financiera de `SCYR.MC`. 
+
+Por un lado, el analista agresivo cae en una peligrosa miopía optimista al tachar de cobarde la prudencia y calificar el título de "oportunidad de oro" ignorando la evidencia. Es insensato minimizar un apalancamiento donde la deuda neta sobre EBITDA se sitúa en 5,41x y la deuda total roza los 9.557 millones de euros en un entorno macroeconómico donde el euríbor supera el 3,3% a finales de noviembre de 2026. Aunque Sacyr demuestre músculo con contratos internacionales de la talla del metro de Fortaleza por 190 millones de euros anunciado el 25 de noviembre de 2026 y genere un flujo de caja libre de 1.103 millones de euros al cierre de 2025, el beneficio neto se ha contraído de 153,2 millones en 2023 a 85,7 millones en 2025. Ignorar esta compresión de la ganancia neta y pretender que un RSI neutral de 49,20 y una cotización atrapada bajo la SMA200 (4,36 €) configuran un despegue inminente es puro voluntarismo sin sustento técnico.
+
+Por otro lado, el analista conservador se refugia en un inmovilismo alarmista, demonizando la estructura de deuda típica del sector concesional e infraestructuras, y tratando el atractivo *dividend yield* del 4,87% con un payout del 83,83% como un peligro inminente de quiebra, cuando en realidad refleja un compromiso de retribución respaldado por un sólido flujo de caja operativo. Descartar por completo el potencial alcista de casi el 30% que marca el consenso de analistas (con un precio objetivo medio de 5,33 € frente a los 4,11 € actuales) por puro miedo a la volatilidad es renunciar a la rentabilidad equilibrada que busca cualquier cartera diversificada.
+
+La verdadera perspectiva analítica y moderada exige un término medio. No debemos comprar agresivamente a ciegas ni paralizar la estrategia descartando un valor con sólidos cimientos concesionales e internacionales. La postura de mantener una exposición estándar o neutral en cartera con una recomendación de retención (`HOLD`) es la más sensata: nos permite cobrar el atractivo dividendo y participar del upside proyectado por el consenso, mientras respetamos estrictamente las resistencias técnicas actuales (como la SMA200 en 4,36 €) y vigilamos de cerca la evolución del apalancamiento en este ciclo de tipos de interés elevados. Ni euforia ciega ni parálisis defensiva; disciplina y gestión equilibrada del riesgo.

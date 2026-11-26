@@ -1,0 +1,621 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'">
+<title>REP.MC 2026-11-26 Overweight: TradingAgents report</title>
+<style>
+:root {
+  --paper: #fbfbfa; --ink: #1c2126; --muted: #5d6670; --rule: #e2e5e8; --wash: #f2f4f5;
+  --accent: #087a59; --up: #087a59; --down: #b4372f; --level: #5d6670; --edge: #d3d8dc; --mark: #878f97;
+  --serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #131a1f; --ink: #e4e8eb; --muted: #9aa6af; --rule: #263239; --wash: #1a242a;
+    --accent: #14c290; --up: #14c290; --down: #ef6f63; --level: #9aa6af; --edge: #3d4c55; --mark: #66737c;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .masthead .logo [stroke="#363636"] { stroke: var(--muted); }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font: 17px/1.62 var(--serif); font-kerning: normal;
+}
+.page { max-width: 46rem; margin: 0 auto; padding: 3.5rem 1.5rem 6rem; }
+main h2, main h3 { scroll-margin-top: 1rem; }
+a { color: var(--accent); text-underline-offset: 0.15em; }
+h1, h2, h3, h4 { text-wrap: balance; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.masthead { padding-bottom: 1.75rem; border-bottom: 1px solid var(--rule); }
+/* The logo leads at the top left, where readers look for it, 24px tall (the usual
+   on-screen floor for a wordmark) with at least its height clear below. */
+.masthead .logo { display: block; width: fit-content; margin: 0 0 2.25rem; }
+.masthead .logo svg { display: block; height: 1.5rem; width: auto; }
+.masthead h1 {
+  margin: 0; font: 600 2.6rem/1.1 var(--sans); letter-spacing: -0.02em;
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.2em 0.5em;
+}
+.masthead .rating { font-weight: 500; }
+.rating.up { color: var(--up); } .rating.down { color: var(--down); } .rating.level { color: var(--level); }
+.rating.review { color: var(--muted); font-style: italic; }
+.masthead .date { margin: 0.55rem 0 1.5rem; font: 1rem/1.4 var(--sans); color: var(--muted); }
+.run { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: 0.45rem 1.25rem;
+  font: 0.85rem/1.5 var(--sans); }
+.run > div { display: contents; }
+.run dt { color: var(--muted); }
+.run dd { margin: 0; overflow-wrap: anywhere; }
+.run .note dd { color: var(--down); }
+.field { display: inline-block; margin: 0 0.15rem 0.15rem 0; padding: 0 0.4rem; border: 1px solid var(--edge);
+  border-radius: 4px; background: var(--wash); font: 0.8rem/1.6 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+.run .group { display: inline-block; margin-right: 0.9rem; white-space: nowrap; }
+.run .group > .name { color: var(--muted); margin-right: 0.3rem; }
+.run .then { color: var(--muted); margin: 0 0.2rem; }
+
+/* The sections: listed under the header on narrow screens. On wide ones, a
+   quiet rail centred on the left edge (numerals for the sections, short bars
+   for their agents) that opens into the full list when pointed at or focused. */
+.contents { margin: 2.25rem 0 0; font: 0.9rem/1.45 var(--sans); }
+.contents ul { margin: 0; padding: 0; list-style: none; }
+.contents > ul > li { margin: 0 0 0.75rem; }
+.contents ul ul { margin-top: 0.2rem; padding-left: 1.6rem; font-size: 0.85rem; }
+.contents ul ul li { margin: 0.1rem 0; }
+.contents a { display: flex; align-items: center; gap: 0.6rem; color: var(--muted); text-decoration: none; }
+.contents > ul > li > a { color: var(--ink); }
+.contents .num { min-width: 1.6rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.contents .bar { display: none; }
+.contents a:hover .label, .contents a:focus-visible .label { color: var(--accent); text-decoration: underline; }
+.to-top { position: fixed; right: 1rem; bottom: calc(1rem + env(safe-area-inset-bottom));
+  padding: 0.25rem 0.6rem; border: 1px solid var(--edge); border-radius: 4px; background: var(--paper);
+  color: var(--muted); font: 0.8rem/1.4 var(--sans); text-decoration: none; }
+
+@media (min-width: 60rem) {
+  .contents { position: fixed; left: 1rem; top: 50%; transform: translateY(-50%); z-index: 1;
+    max-height: 86vh; overflow-y: auto; overscroll-behavior: contain; margin: 0;
+    padding: 0.7rem 0.9rem; border: 1px solid transparent; border-radius: 6px;
+    transition: background-color 0.15s, border-color 0.15s, box-shadow 0.15s; }
+  .contents > ul > li { margin: 0 0 0.35rem; }
+  .contents ul ul { margin-top: 0; padding-left: 0; }
+  .contents ul ul li { margin: 0; }
+  /* Marks reach 3:1 contrast and rows 24px, the WCAG 2.2 floors for a control's
+     visual cue and its pointer target. */
+  .contents a { min-height: 1.5rem; }
+  .contents .num { min-width: 1.4rem; }
+  .contents .bar { display: block; flex: none; width: 1.25rem; height: 2px; margin-left: 0.2rem;
+    border-radius: 1px; background: var(--mark); }
+  .contents .label { max-width: 0; opacity: 0; overflow: hidden; white-space: nowrap;
+    transition: opacity 0.15s, max-width 0.2s; }
+  .contents:hover, .contents:focus-within { background: var(--paper); border-color: var(--rule);
+    box-shadow: 0 6px 24px rgb(0 0 0 / 0.08); }
+  .contents:hover .label, .contents:focus-within .label { max-width: 18rem; opacity: 1; }
+  .contents a:hover .bar, .contents a:focus-visible .bar { background: var(--accent); }
+  .to-top { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .contents, .contents .label { transition: none; }
+}
+
+/* The maker's credit: one quiet line at the foot. */
+.credit { margin-top: 4.5rem; padding-top: 1.25rem; border-top: 1px solid var(--rule);
+  color: var(--muted); font: 0.8rem/1.4 var(--sans); }
+.credit a { color: inherit; text-decoration: none; }
+.credit a.brand { color: var(--accent); }
+.credit a:hover, .credit a:focus-visible { text-decoration: underline; }
+
+/* Three levels of separation: the five groups, the agents within a group, and
+   breaks an agent draws inside its own text. */
+main h2 {
+  margin: 4.5rem 0 0.25rem; padding-top: 1.5rem; border-top: 2px solid var(--ink);
+  font: 600 1.45rem/1.3 var(--sans); letter-spacing: -0.01em;
+}
+main section:first-child h2 { margin-top: 3rem; }
+main h3 { margin: 2.75rem 0 0.75rem; padding-top: 1.1rem; border-top: 1px solid var(--rule);
+  font: 600 1.15rem/1.35 var(--sans); color: var(--accent); }
+main h2 + h3 { margin-top: 1.25rem; padding-top: 0; border-top: 0; }
+main h4, main h5, main h6 { margin: 1.75rem 0 0.5rem; font: 600 1rem/1.4 var(--sans); }
+main h5, main h6 { color: var(--muted); }
+main p, main ul, main ol { margin: 0 0 1rem; }
+main li { margin: 0.25rem 0; }
+main strong { font-weight: 650; }
+main blockquote { margin: 1.25rem 0; padding: 0.1rem 0 0.1rem 1rem; border-left: 3px solid var(--rule);
+  color: var(--muted); }
+main code { font: 0.88em/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  background: var(--wash); padding: 0.1em 0.3em; border-radius: 3px; }
+main pre { background: var(--wash); padding: 0.9rem 1rem; border-radius: 4px; overflow-x: auto; }
+main pre code { background: none; padding: 0; }
+main hr { width: 3rem; margin: 2rem auto; border: 0; border-top: 1px solid var(--rule); }
+
+.table { overflow-x: auto; margin: 0 0 1.25rem; }
+table { border-collapse: collapse; width: 100%; font: 0.86rem/1.45 var(--sans);
+  font-variant-numeric: tabular-nums; }
+th, td { padding: 0.45rem 0.7rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--rule); }
+th { font-weight: 600; border-bottom-color: var(--muted); }
+tbody tr:last-child td { border-bottom: 0; }
+
+@media (max-width: 34rem) {
+  body { font-size: 16px; }
+  .page { padding: 2rem 1rem 3rem; }
+  .masthead h1 { font-size: 2rem; }
+  .masthead .logo svg { height: 1.25rem; }
+  .run { grid-template-columns: 1fr; gap: 0 0; }
+  .run dd { margin-bottom: 0.45rem; }
+  .run .group { white-space: normal; }
+}
+@media print {
+  :root { --paper: #fff; --ink: #000; --muted: #444; --rule: #bbb; --accent: #000; --wash: #f2f2f2;
+    --edge: #bbb; --up: #087a59; --down: #b4372f; --level: #444; }
+  body { font-size: 11pt; }
+  .table { overflow: visible; }
+  .page { max-width: none; padding: 0; }
+  .contents, .to-top { display: none; }
+  main h2 { break-before: page; border-top: 0; margin-top: 0; }
+  main section:first-child h2 { break-before: auto; }
+  main h3, main h4 { break-after: avoid; }
+  a { color: inherit; text-decoration: none; }
+  table { break-inside: avoid; }
+}
+</style>
+</head>
+<body>
+<div class="page" id="top">
+<header class="masthead">
+<a class="logo" href="https://tauric.ai" rel="noopener" aria-label="Tauric Research"><svg width="993" height="115" viewBox="0 0 993 115" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M189.86 95.0459V37.9779H165.924V29.9259H223.74V37.9779H199.804V95.0459H189.86ZM251.026 46.4259C256.071 46.4259 260.178 47.0272 263.345 48.2299C266.514 49.4032 268.89 51.3686 270.474 54.1259C272.058 56.8832 272.85 60.6379 272.85 65.3899V95.0459H264.666L263.961 89.8979H263.434C261.644 91.7752 259.386 93.2419 256.657 94.2979C253.929 95.3246 251.025 95.8379 247.946 95.8379C244.426 95.8379 241.419 95.2952 238.925 94.2099C236.432 93.0952 234.54 91.5406 233.249 89.5459C231.959 87.5512 231.313 85.2046 231.313 82.5059C231.313 78.2526 232.897 74.9672 236.065 72.6499C239.263 70.3032 244.337 68.8219 251.29 68.2059L263.258 67.0179V64.7299C263.258 61.9139 262.774 59.7139 261.806 58.1299C260.838 56.5459 259.371 55.4312 257.406 54.7859C255.47 54.1406 252.888 53.8179 249.662 53.8179C247.432 53.8179 245.012 54.0086 242.401 54.3899C239.82 54.7712 237.341 55.3432 234.965 56.1059V48.8019C237.312 48.0392 239.908 47.4526 242.754 47.0419C245.628 46.6312 248.386 46.4259 251.026 46.4259ZM250.541 89.0619C252.888 89.0619 255.162 88.6512 257.362 87.8299C259.562 86.9792 261.527 85.7179 263.258 84.0459V72.8259L252.038 73.9259C248.136 74.3659 245.35 75.2166 243.678 76.4779C242.005 77.7099 241.169 79.4699 241.169 81.7579C241.169 84.0752 241.947 85.8792 243.501 87.1699C245.056 88.4312 247.403 89.0619 250.541 89.0619ZM313.339 95.8379C307.59 95.8379 303.087 94.2979 299.831 91.2179C296.575 88.1086 294.947 83.2686 294.947 76.6979V47.1739H304.715V76.1699C304.715 80.1886 305.624 83.0779 307.443 84.8379C309.291 86.5979 311.916 87.4779 315.319 87.4779C317.871 87.4779 320.379 86.9939 322.843 86.0259C325.336 85.0286 327.492 83.5766 329.311 81.6699V47.1739H339.079V95.0459H330.983L330.367 89.9419H329.883C327.624 91.8486 325.072 93.3152 322.227 94.3419C319.382 95.3392 316.419 95.8379 313.339 95.8379ZM362.371 47.1739H370.423L371.171 53.2899H371.743C373.474 51.2072 375.703 49.5792 378.431 48.4059C381.188 47.2326 384.063 46.6459 387.055 46.6459C388.756 46.6459 390.355 46.7926 391.851 47.0859V55.8419C390.414 55.5779 388.654 55.4459 386.571 55.4459C383.99 55.4459 381.364 55.9446 378.695 56.9419C376.026 57.9392 373.84 59.4206 372.139 61.3859V95.0459H362.371V47.1739ZM409.069 95.0459V47.1739H418.837V95.0459H409.069ZM413.953 37.8459C411.871 37.8459 410.287 37.3912 409.201 36.4819C408.145 35.5726 407.617 34.2672 407.617 32.5659C407.617 30.8352 408.145 29.5152 409.201 28.6059C410.287 27.6672 411.871 27.1979 413.953 27.1979C416.036 27.1979 417.605 27.6672 418.661 28.6059C419.747 29.5152 420.289 30.8352 420.289 32.5659C420.289 34.2672 419.747 35.5726 418.661 36.4819C417.605 37.3912 416.036 37.8459 413.953 37.8459ZM464.85 95.9259C456.607 95.9259 450.315 93.8432 445.974 89.6779C441.662 85.5126 439.506 79.3526 439.506 71.1979C439.506 63.0139 441.779 56.8392 446.326 52.6739C450.902 48.5086 457.575 46.4259 466.346 46.4259C470.716 46.4259 474.735 46.9246 478.402 47.9219V55.7099C476.378 55.2406 474.486 54.8886 472.726 54.6539C470.966 54.4192 469.118 54.3019 467.182 54.3019C461.168 54.3019 456.71 55.6512 453.806 58.3499C450.931 61.0486 449.494 65.2872 449.494 71.0659C449.494 76.8739 450.858 81.1566 453.586 83.9139C456.343 86.6712 460.42 88.0499 465.818 88.0499C467.695 88.0499 469.616 87.8886 471.582 87.5659C473.547 87.2139 475.82 86.6712 478.402 85.9379V93.7259C474.236 95.1926 469.719 95.9259 464.85 95.9259ZM574.428 95.0459L553.704 69.0859C553.176 69.1152 552.37 69.1299 551.284 69.1299C548.38 69.1299 544.978 68.9832 541.076 68.6899V95.0459H531.308V31.4659C537.967 29.9699 544.846 29.2219 551.944 29.2219C561.595 29.2219 568.752 30.8059 573.416 33.9739C578.08 37.1126 580.412 42.1286 580.412 49.0219C580.412 54.0086 579.004 58.0859 576.188 61.2539C573.402 64.4219 569.266 66.6366 563.78 67.8979L585.648 95.0459H574.428ZM541.076 61.2099C543.071 61.4152 544.816 61.5619 546.312 61.6499C547.838 61.7379 549.627 61.7819 551.68 61.7819C558.427 61.7819 563.34 60.7699 566.42 58.7459C569.5 56.6926 571.04 53.4952 571.04 49.1539C571.04 46.0739 570.395 43.6099 569.104 41.7619C567.843 39.9139 565.863 38.5792 563.164 37.7579C560.495 36.9366 556.975 36.5259 552.604 36.5259C550.404 36.5259 548.424 36.6139 546.664 36.7899C544.904 36.9659 543.042 37.2299 541.076 37.5819V61.2099ZM642.947 74.0139H608.231C608.407 77.4752 609.155 80.2766 610.475 82.4179C611.795 84.5299 613.775 86.0846 616.415 87.0819C619.055 88.0792 622.443 88.5779 626.579 88.5779C630.686 88.5779 635.233 87.9472 640.219 86.6859V93.9459C635.027 95.2659 630.026 95.9259 625.215 95.9259C616.298 95.9259 609.61 93.9166 605.151 89.8979C600.722 85.8499 598.507 79.6166 598.507 71.1979C598.507 65.9179 599.402 61.4299 601.191 57.7339C602.981 54.0379 605.562 51.2366 608.935 49.3299C612.338 47.3939 616.43 46.4259 621.211 46.4259C628.251 46.4259 633.634 48.5819 637.359 52.8939C641.085 57.1766 642.947 63.3659 642.947 71.4619V74.0139ZM621.079 52.8939C616.973 52.8939 613.834 54.1406 611.663 56.6339C609.493 59.0979 608.334 62.9259 608.187 68.1179H633.751C633.634 62.9259 632.519 59.0979 630.407 56.6339C628.295 54.1406 625.186 52.8939 621.079 52.8939ZM677.365 95.9259C671.352 95.9259 665.896 95.2219 660.997 93.8139V86.7299C666.248 88.1966 671.718 88.9299 677.409 88.9299C681.809 88.9299 684.977 88.3432 686.913 87.1699C688.849 85.9672 689.817 84.2219 689.817 81.9339C689.817 80.7019 689.597 79.6899 689.157 78.8979C688.717 78.0766 687.969 77.4019 686.913 76.8739C685.857 76.3166 684.405 75.8912 682.557 75.5979L674.065 74.2779C669.137 73.4859 665.573 71.9899 663.373 69.7899C661.202 67.5899 660.117 64.6419 660.117 60.9459C660.117 56.4579 661.965 52.9232 665.661 50.3419C669.386 47.7312 675.062 46.4259 682.689 46.4259C685.094 46.4259 687.485 46.5872 689.861 46.9099C692.266 47.2032 694.481 47.6432 696.505 48.2299V55.2699C692.046 54.0379 687.456 53.4219 682.733 53.4219C677.893 53.4219 674.476 54.0526 672.481 55.3139C670.486 56.5752 669.489 58.3206 669.489 60.5499C669.489 62.2219 670.002 63.5859 671.029 64.6419C672.056 65.6686 673.889 66.4166 676.529 66.8859L685.021 68.2059C689.92 68.9686 693.513 70.3766 695.801 72.4299C698.089 74.4832 699.233 77.4606 699.233 81.3619C699.233 84.3832 698.412 86.9792 696.769 89.1499C695.156 91.3206 692.706 92.9926 689.421 94.1659C686.165 95.3392 682.146 95.9259 677.365 95.9259ZM760.579 74.0139H725.863C726.039 77.4752 726.787 80.2766 728.107 82.4179C729.427 84.5299 731.407 86.0846 734.047 87.0819C736.687 88.0792 740.075 88.5779 744.211 88.5779C748.317 88.5779 752.864 87.9472 757.851 86.6859V93.9459C752.659 95.2659 747.657 95.9259 742.847 95.9259C733.929 95.9259 727.241 93.9166 722.783 89.8979C718.353 85.8499 716.139 79.6166 716.139 71.1979C716.139 65.9179 717.033 61.4299 718.823 57.7339C720.612 54.0379 723.193 51.2366 726.567 49.3299C729.969 47.3939 734.061 46.4259 738.843 46.4259C745.883 46.4259 751.265 48.5819 754.991 52.8939C758.716 57.1766 760.579 63.3659 760.579 71.4619V74.0139ZM738.711 52.8939C734.604 52.8939 731.465 54.1406 729.295 56.6339C727.124 59.0979 725.965 62.9259 725.819 68.1179H751.383C751.265 62.9259 750.151 59.0979 748.039 56.6339C745.927 54.1406 742.817 52.8939 738.711 52.8939ZM796.986 46.4259C802.032 46.4259 806.138 47.0272 809.306 48.2299C812.474 49.4032 814.85 51.3686 816.434 54.1259C818.018 56.8832 818.81 60.6379 818.81 65.3899V95.0459H810.626L809.922 89.8979H809.394C807.605 91.7752 805.346 93.2419 802.618 94.2979C799.89 95.3246 796.986 95.8379 793.906 95.8379C790.386 95.8379 787.38 95.2952 784.886 94.2099C782.393 93.0952 780.501 91.5406 779.21 89.5459C777.92 87.5512 777.274 85.2046 777.274 82.5059C777.274 78.2526 778.858 74.9672 782.026 72.6499C785.224 70.3032 790.298 68.8219 797.25 68.2059L809.218 67.0179V64.7299C809.218 61.9139 808.734 59.7139 807.766 58.1299C806.798 56.5459 805.332 55.4312 803.366 54.7859C801.43 54.1406 798.849 53.8179 795.622 53.8179C793.393 53.8179 790.973 54.0086 788.362 54.3899C785.781 54.7712 783.302 55.3432 780.926 56.1059V48.8019C783.273 48.0392 785.869 47.4526 788.714 47.0419C791.589 46.6312 794.346 46.4259 796.986 46.4259ZM796.502 89.0619C798.849 89.0619 801.122 88.6512 803.322 87.8299C805.522 86.9792 807.488 85.7179 809.218 84.0459V72.8259L797.998 73.9259C794.097 74.3659 791.31 75.2166 789.638 76.4779C787.966 77.7099 787.13 79.4699 787.13 81.7579C787.13 84.0752 787.908 85.8792 789.462 87.1699C791.017 88.4312 793.364 89.0619 796.502 89.0619ZM841.524 47.1739H849.576L850.324 53.2899H850.896C852.627 51.2072 854.856 49.5792 857.584 48.4059C860.341 47.2326 863.216 46.6459 866.208 46.6459C867.909 46.6459 869.508 46.7926 871.004 47.0859V55.8419C869.567 55.5779 867.807 55.4459 865.724 55.4459C863.143 55.4459 860.517 55.9446 857.848 56.9419C855.179 57.9392 852.993 59.4206 851.292 61.3859V95.0459H841.524V47.1739ZM909.164 95.9259C900.921 95.9259 894.629 93.8432 890.288 89.6779C885.976 85.5126 883.82 79.3526 883.82 71.1979C883.82 63.0139 886.093 56.8392 890.64 52.6739C895.216 48.5086 901.889 46.4259 910.66 46.4259C915.03 46.4259 919.049 46.9246 922.716 47.9219V55.7099C920.692 55.2406 918.8 54.8886 917.04 54.6539C915.28 54.4192 913.432 54.3019 911.496 54.3019C905.482 54.3019 901.024 55.6512 898.12 58.3499C895.245 61.0486 893.808 65.2872 893.808 71.0659C893.808 76.8739 895.172 81.1566 897.9 83.9139C900.657 86.6712 904.734 88.0499 910.132 88.0499C912.009 88.0499 913.93 87.8886 915.896 87.5659C917.861 87.2139 920.134 86.6712 922.716 85.9379V93.7259C918.55 95.1926 914.033 95.9259 909.164 95.9259ZM941.796 23.9419H951.564V52.2779H952.048C954.248 50.3712 956.756 48.9192 959.572 47.9219C962.417 46.9246 965.395 46.4259 968.504 46.4259C974.019 46.4259 978.375 47.9952 981.572 51.1339C984.769 54.2432 986.368 59.0686 986.368 65.6099V95.0459H976.6V66.0939C976.6 62.0459 975.661 59.1566 973.784 57.4259C971.936 55.6952 969.237 54.8299 965.688 54.8299C963.048 54.8299 960.481 55.3286 957.988 56.3259C955.524 57.2939 953.383 58.7312 951.564 60.6379V95.0459H941.796V23.9419Z" fill="#14C290"/>
+<rect x="0.205322" y="14.873" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="14.679" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="14.679" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="86.6055" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="86.6055" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="101.284" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="58.7158" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="58.7158" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="87.1592" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="87.1592" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="73.0205" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="73.0205" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="87.3262" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="87.3262" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="101.631" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="101.631" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="101.284" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="15.0187" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.2668" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.2668" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.445" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.7506" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="100.716" y="14.873" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+</svg></a>
+<h1><span class="ticker">REP.MC</span> <span class="rating up">Overweight</span></h1>
+<p class="date">Analysis of 2026-11-26</p>
+<dl class="run"><div class="detail"><dt>Generated</dt><dd>2026-11-26 22:08</dd></div><div class="detail"><dt>Deep model</dt><dd><span class="field">google</span> <span class="field">gemini-3.5-flash-lite</span></dd></div><div class="detail"><dt>Quick model</dt><dd><span class="field">google</span> <span class="field">gemini-3.5-flash-lite</span></dd></div><div class="detail"><dt>Analysts</dt><dd><span class="field">market</span> <span class="field">news</span> <span class="field">fundamentals</span></dd></div><div class="detail"><dt>Debate rounds</dt><dd><span class="group"><span class="name">research</span><span class="field">1</span></span> <span class="group"><span class="name">risk</span><span class="field">1</span></span></dd></div><div class="detail"><dt>Data vendors</dt><dd><span class="group"><span class="name">Prices</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Indicators</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Fundamentals</span><span class="field">yfinance</span></span> <span class="group"><span class="name">News</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Macro</span><span class="field">fred</span></span> <span class="group"><span class="name">Prediction markets</span><span class="field">polymarket</span></span> <span class="group"><span class="name">get_news</span><span class="field">ibex_sample</span></span> <span class="group"><span class="name">get_global_news</span><span class="field">ibex_sample</span></span></dd></div><div class="detail"><dt>Version</dt><dd>TradingAgents 0.7.1</dd></div></dl>
+</header>
+<nav class="contents" aria-label="Sections"><ul><li><a href="#s1"><span class="num">I</span> <span class="label">Analyst Team Reports</span></a><ul><li><a href="#s1-1"><span class="bar"></span> <span class="label">Market Analyst</span></a></li><li><a href="#s1-2"><span class="bar"></span> <span class="label">News Analyst</span></a></li><li><a href="#s1-3"><span class="bar"></span> <span class="label">Fundamentals Analyst</span></a></li></ul></li><li><a href="#s2"><span class="num">II</span> <span class="label">Research Team Decision</span></a><ul><li><a href="#s2-1"><span class="bar"></span> <span class="label">Bull Researcher</span></a></li><li><a href="#s2-2"><span class="bar"></span> <span class="label">Bear Researcher</span></a></li><li><a href="#s2-3"><span class="bar"></span> <span class="label">Research Manager</span></a></li></ul></li><li><a href="#s3"><span class="num">III</span> <span class="label">Trading Team Plan</span></a><ul><li><a href="#s3-1"><span class="bar"></span> <span class="label">Trader</span></a></li></ul></li><li><a href="#s4"><span class="num">IV</span> <span class="label">Risk Management Team Decision</span></a><ul><li><a href="#s4-1"><span class="bar"></span> <span class="label">Aggressive Analyst</span></a></li><li><a href="#s4-2"><span class="bar"></span> <span class="label">Conservative Analyst</span></a></li><li><a href="#s4-3"><span class="bar"></span> <span class="label">Neutral Analyst</span></a></li></ul></li><li><a href="#s5"><span class="num">V</span> <span class="label">Portfolio Manager Decision</span></a><ul><li><a href="#s5-1"><span class="bar"></span> <span class="label">Portfolio Manager</span></a></li></ul></li></ul></nav>
+<main>
+<section id="s1"><h2>I. Analyst Team Reports</h2><h3 id="s1-1">Market Analyst</h3>
+<p><strong>Rating</strong>: BUY</p>
+<h6>Informe de Análisis Técnico y Fundamental: Repsol, S.A. (<code>REP.MC</code>)</h6>
+<h6>1. Contexto de Mercado y Situación Actual</h6>
+<p>A fecha de 26 de noviembre de 2026, la cotización de <strong>Repsol, S.A. (<code>REP.MC</code>)</strong> en la Bolsa de Madrid se sitúa en <strong>27,52 EUR</strong>, registrando una variación intradía positiva del <strong>+0,66%</strong> (<code>change_pct: 0.658</code>). El valor opera en un contexto macroeconómico europeo dinámico, marcado por fuertes subidas bursátiles impulsadas por el sector bancario y tecnológico, y un entorno de tipos de interés donde el euríbor supera el 3,3% (según noticias recientes de noviembre de 2026).</p>
+<h6>2. Análisis de Indicadores Técnicos y Selección de Herramientas</h6>
+<p>Tomando como base los datos técnicos oficiales proporcionados para <code>REP.MC</code>, los indicadores clave muestran el siguiente panorama:</p>
+<ul>
+<li><strong>Tendencia a Medio y Largo Plazo</strong>: El precio de cierre (27,52 EUR) se encuentra por debajo de la media móvil simple de 20 sesiones (<code>sma20</code>: 29,34 EUR) y de la de 50 sesiones (<code>sma50</code>: 29,49 EUR), reflejando una corrección a corto plazo. Sin embargo, se mantiene por encima de la media de 200 sesiones (<code>sma200</code>: 24,73 EUR), lo que confirma que la estructura alcista de fondo a largo plazo sigue intacta.</li>
+<li><strong>Momentum y Osciladores</strong>: El <strong>RSI (14)</strong> se sitúa en <strong>39,31</strong>, lo que indica una zona de debilidad a corto plazo sin llegar todavía a niveles de sobreventa extrema (generalmente por debajo de 30). El <strong>MACD</strong> registra un valor de <strong>-0,448</strong> con su línea de señal (<code>macd_signal</code>) en <strong>-0,158</strong>, reflejando una presión bajista reciente coherente con el retorno a 21 días de <strong>-3,57%</strong>.</li>
+<li><strong>Volatilidad y Drawdown</strong>: La volatilidad anualizada se ubica en el <strong>35,71%</strong>, mientras que el título experimenta un <em>drawdown</em> del <strong>-12,75%</strong> respecto a sus máximos recientes.</li>
+</ul>
+<p><em>Selección óptima de indicadores complementarios recomendados para el seguimiento de <code>REP.MC</code>:</em></p>
+<ol>
+<li><code>close_50_sma</code>: Para identificar la resistencia intermedia a mediano plazo.</li>
+<li><code>close_200_sma</code>: Como referencia estructural de largo plazo.</li>
+<li><code>rsi</code>: Para vigilar zonas de sobreventa o posibles suelos de rebote.</li>
+<li><code>macd</code>: Para evaluar cambios en el impulso de la tendencia.</li>
+<li><code>macds</code>: Línea de señal para confirmar cruces de momentum.</li>
+<li><code>macdh</code>: Histograma para visualizar divergencias tempranas.</li>
+<li><code>atr</code>: Para dimensionar el riesgo y establecer niveles dinámicos de <em>stop-loss</em>.</li>
+<li><code>boll</code>: Banda media de Bollinger (SMA de 20) como referencia de reversión a la media.</li>
+</ol>
+<h6>3. Análisis Fundamental y Valoración Financiera</h6>
+<p>Desde una perspectiva fundamental, <strong>Repsol, S.A. (<code>REP.MC</code>)</strong> presenta métricas muy atractivas para inversión en valor:</p>
+<ul>
+<li><strong>Valoración y Beneficios</strong>: Presenta un <strong>Trailing P/E</strong> muy moderado de <strong>4,89x</strong> y un <strong>Forward P/E</strong> de <strong>5,78x</strong>. El beneficio por acción histórico más reciente se sitúa en <strong>5,63 EUR</strong> (con un Forward EPS estimado de <strong>4,76 EUR</strong>).</li>
+<li><strong>Solidez Patrimonial y Deuda</strong>: La capitalización bursátil asciende a <strong>28.998 millones de EUR</strong>. La compañía muestra una excelente salud financiera con una deuda neta sobre EBITDA muy controlada (<strong>0,32x</strong>, con una deuda total de aproximadamente 13.170 millones y efectivo de 9.736 millones de EUR).</li>
+<li><strong>Retribución al Accionista</strong>: Ofrece una sólida rentabilidad por dividendo (<strong>dividend yield</strong>) del <strong>3,82%</strong> con un <em>payout ratio</em> conservador del <strong>20,45%</strong>, lo que garantiza la sostenibilidad de los pagos.</li>
+<li><strong>Consenso de Analistas</strong>: El precio objetivo medio de consenso (<em>targetMeanPrice</em>) se sitúa en <strong>31,16 EUR</strong>, lo que ofrece un potencial de revalorización (<em>consensus upside</em>) estimado del <strong>13,23%</strong> sobre el precio actual de 27,52 EUR (con un rango que va desde un mínimo de 23,70 EUR hasta un máximo de 38,00 EUR basado en 23 analistas).</li>
+</ul>
+<h6>4. Evidencia y Fuentes</h6>
+<ul>
+<li>Datos de cotización y técnicos extraídos de la instantánea oficial de <code>REP.MC</code> con fecha de precio <strong>2026-11-26</strong>.</li>
+<li>Fuente de cotización: Yahoo Finance (<code>https://finance.yahoo.com/quote/REP.MC/</code>).</li>
+<li>Cobertura de noticias recientes sobre el contexto macroeconómico europeo y sectorial de noviembre de 2026 (Google News RSS / Bankinter / El Boletín).</li>
+</ul>
+<h6>5. Datos Faltantes y Advertencias</h6>
+<ul>
+<li><em>Datos faltantes</em>: No se dispone del desglose pormenorizado diario de flujos institucionales intradía ni de proyecciones detalladas de inventarios de crudo a fecha exacta de este informe; sin embargo, los estados financieros anuales hasta el ejercicio 2025 y los múltiplos de valoración fundamentales están plenamente integrados.</li>
+<li><em>Advertencia</em>: Los precios objetivos de los analistas son estimaciones de consenso y no garantías de valor intrínseco.</li>
+</ul>
+<hr />
+<h6>Tabla Resumen de Puntos Clave</h6>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Categoría</th>
+<th style="text-align:left">Métrica / Indicador</th>
+<th style="text-align:left">Valor / Estado</th>
+<th style="text-align:left">Implicación Operativa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Precio y Mercado</strong></td>
+<td style="text-align:left">Cotización Actual (<code>REP.MC</code>)</td>
+<td style="text-align:left">27,52 EUR (+0,66%)</td>
+<td style="text-align:left">Rebote técnico intradía en entorno alcista europeo.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Tendencia</strong></td>
+<td style="text-align:left">SMA 200 / SMA 50</td>
+<td style="text-align:left">SMA 200: 24,73 EUR / SMA 50: 29,49 EUR</td>
+<td style="text-align:left">Tendencia alcista de fondo intacta; corrección a medio plazo.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Momentum</strong></td>
+<td style="text-align:left">RSI (14) / MACD</td>
+<td style="text-align:left">RSI: 39,31 / MACD: -0,448</td>
+<td style="text-align:left">Zona neutral-débil a corto plazo, sin sobreventa extrema.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Fundamental</strong></td>
+<td style="text-align:left">P/E Ratio (Trailing / Forward)</td>
+<td style="text-align:left">4,89x / 5,78x</td>
+<td style="text-align:left">Valoración atractiva en comparación con el promedio sectorial.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Solidez</strong></td>
+<td style="text-align:left">Deuda Neta / EBITDA</td>
+<td style="text-align:left">0,32x</td>
+<td style="text-align:left">Estructura financiera muy sólida y bajo apalancamiento.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Retorno</strong></td>
+<td style="text-align:left">Dividend Yield</td>
+<td style="text-align:left">3,82% (Payout: 20,45%)</td>
+<td style="text-align:left">Atractiva retribución al accionista con alta sostenibilidad.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Consenso</strong></td>
+<td style="text-align:left">Target Mean Price</td>
+<td style="text-align:left">31,16 EUR</td>
+<td style="text-align:left">Potencial de revalorización estimado en +13,23%.</td>
+</tr>
+</tbody>
+</table></div>
+<p>FINAL TRANSACTION PROPOSAL: BUY</p>
+<h3 id="s1-2">News Analyst</h3>
+<p><strong>Reporte de Investigación Macroeconómica y de Noticias - REP.MC</strong></p>
+<h6>1. Resumen de Mercado y Contexto Macroeconómico</h6>
+<p>Durante la semana analizada hasta el 26 de noviembre de 2026, los mercados bursátiles europeos han registrado un comportamiento positivo con fuertes subidas impulsadas por el sector bancario y tecnológico. El Euro Stoxx 50 y el DAX alemán avanzaron más de un 2%, respaldados por un contexto en el que se destaca el nombramiento de Pablo Hernández de Cos como presidente del Banco Central Europeo (BCE), siendo el primer español al frente del organismo. Por otro lado, el Euríbor continúa cotizando por encima del 3,3%, lo que mantiene un entorno de tipos de interés restrictivos que impacta en el coste de financiación de hogares y empresas.</p>
+<h6>2. Análisis Fundamental y Situación Financiera de Repsol (<code>REP.MC</code>)</h6>
+<ul>
+<li><strong>Cotización actual:</strong> 27,52 EUR (al 26/11/2026).</li>
+<li><strong>Capitalización bursátil:</strong> Aprox. 28.998 millones de EUR.</li>
+<li><strong>Valoración:</strong> Presenta múltiplos muy atractivos, con un <em>trailing P/E</em> de 4,89x y un <em>forward P/E</em> de 5,78x. Su EV/EBITDA se sitúa en 3,36x, reflejando una sólida generación de caja operativa (8.015 millones de EUR de flujo de caja operativo y un flujo de caja libre de 1.770 millones de EUR en los datos disponibles).</li>
+<li><strong>Endeudamiento:</strong> La deuda neta sobre EBITDA se mantiene baja, en torno a 0,32x (con una deuda total de 13.170 millones frente a una caja de 9.736 millones de EUR).</li>
+<li><strong>Retribución al accionista:</strong> Ofrece una rentabilidad por dividendo (<em>dividend yield</em>) del 3,82%, con un ratio de pago (<em>payout ratio</em>) conservador cercano al 20,45%.</li>
+<li><strong>Consenso de Analistas:</strong> El precio objetivo medio fijado por el consenso de analistas se sitúa en 31,16 EUR, lo que implica un potencial alcista (<em>consensus upside</em>) aproximado del 13,23% desde los niveles actuales de 27,52 EUR (rango de analistas entre 23,70 EUR y 38,00 EUR con 23 opiniones).</li>
+</ul>
+<h6>3. Análisis Técnico</h6>
+<ul>
+<li><strong>Precio:</strong> 27,52 EUR.</li>
+<li><strong>Medias Móviles:</strong> La cotización se sitúa por debajo de su SMA20 (29,34 EUR) y SMA50 (29,48 EUR), pero se mantiene por encima de la SMA200 (24,73 EUR), lo que indica una corrección a corto plazo dentro de una tendencia alcista estructural de medio-largo plazo (+79,5% en los últimos 252 días).</li>
+<li><strong>Indicadores de Momento:</strong> RSI(14) en 39,31 (zona neutral tirando a sobreventa leve) y MACD negativo (-0,44), lo que sugiere cautela en el corto plazo a la espera de consolidar soportes tras el reciente retroceso mensual (-3,57% a 21 sesiones).</li>
+</ul>
+<h6>4. Evidencia y Fuentes de Noticias</h6>
+<ul>
+<li><strong>Titular macroeconómico:</strong> &quot;Las bolsas europeas cierran con fuertes subidas impulsadas por la banca y la tecnología&quot; (26/11/2026, <em>el boletin</em>).</li>
+<li><strong>Titular corporativo:</strong> &quot;Análisis de los últimos resultados de Repsol - Bankinter&quot; (20/11/2026, <em>Bankinter</em>).</li>
+<li><em>Nota sobre datos faltantes:</em> No se han suministrado carteras de inversión hipotéticas, por lo que cualquier alusión a dimensionamiento de posiciones es estrictamente conceptual.</li>
+</ul>
+<hr />
+<h6>Tabla Resumen de Datos Clave</h6>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Métrica / Indicador</th>
+<th style="text-align:left">Valor / Detalle</th>
+<th style="text-align:left">Fuente / Referencia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Ticker analizado</td>
+<td style="text-align:left"><code>REP.MC</code> (Repsol, S.A., MCE, EUR)</td>
+<td style="text-align:left">Contexto institucional / Yahoo Finance</td>
+</tr>
+<tr>
+<td style="text-align:left">Precio de cierre</td>
+<td style="text-align:left">27,52 EUR (26/11/2026)</td>
+<td style="text-align:left">Datos técnicos provistos</td>
+</tr>
+<tr>
+<td style="text-align:left">Capitalización de mercado</td>
+<td style="text-align:left">~28.998 millones de EUR</td>
+<td style="text-align:left">Fundamentos provistos</td>
+</tr>
+<tr>
+<td style="text-align:left">P/E Trailing / Forward</td>
+<td style="text-align:left">4,89x / 5,78x</td>
+<td style="text-align:left">Fundamentos provistos</td>
+</tr>
+<tr>
+<td style="text-align:left">EV / EBITDA</td>
+<td style="text-align:left">3,36x</td>
+<td style="text-align:left">Fundamentos provistos</td>
+</tr>
+<tr>
+<td style="text-align:left">Deuda Neta / EBITDA</td>
+<td style="text-align:left">0,32x</td>
+<td style="text-align:left">Fundamentos provistos</td>
+</tr>
+<tr>
+<td style="text-align:left">Dividend Yield</td>
+<td style="text-align:left">3,82%</td>
+<td style="text-align:left">Fundamentos provistos</td>
+</tr>
+<tr>
+<td style="text-align:left">Objetivo de consenso (Mean)</td>
+<td style="text-align:left">31,16 EUR (+13,23% potencial)</td>
+<td style="text-align:left">Fundamentos provistos (23 opiniones)</td>
+</tr>
+<tr>
+<td style="text-align:left">Entorno macro europeo</td>
+<td style="text-align:left">Bolsas al alza (+2%), Euríbor &gt;3,3%</td>
+<td style="text-align:left">Titulares macro (26/11/2026)</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Rating</strong>: REVIEW</p>
+<p>FINAL TRANSACTION PROPOSAL: HOLD</p>
+<h3 id="s1-3">Fundamentals Analyst</h3>
+<p><strong>Rating</strong>: HOLD<br />
+FINAL TRANSACTION PROPOSAL: REVIEW</p>
+<h6>Informe Fundamental Integral para <code>REP.MC</code> (Repsol, S.A.)</h6>
+<h6>1. Perfil de la Compañía y Contexto de Negocio</h6>
+<p>Repsol, S.A. (<code>REP.MC</code>) es una compañía energética global e integrada cotizada en la bolsa de Madrid (MCE) y clasificada dentro del sector de Petróleo y Gas Integrado. La empresa opera en toda la cadena de valor de los hidrocarburos (exploración, producción, refino, química y comercialización), además de desarrollar una importante presencia en energías renovables y transición energética.</p>
+<p>A fecha de noviembre de 2026, la cotización de cierre de <code>REP.MC</code> se sitúa en <strong>27.52 EUR</strong>, con una capitalización bursátil aproximada de <strong>29.000 millones de EUR</strong> (28.998.309.888 EUR).</p>
+<h6>2. Análisis Financiero y de Resultados</h6>
+<p>Los datos financieros extraídos de los estados contables más recientes reflejan la evolución económica de la compañía entre los ejercicios 2023 y 2025:</p>
+<ul>
+<li><strong>Ingresos (Total Revenue):</strong>
+<ul>
+<li>Ejercicio 2023: 58.948 millones de EUR.</li>
+<li>Ejercicio 2024: 57.122 millones de EUR.</li>
+<li>Ejercicio 2025: 54.861 millones de EUR. <em>(Muestra una contracción moderada en la línea de ingresos brutos).</em></li>
+</ul>
+</li>
+<li><strong>EBITDA:</strong>
+<ul>
+<li>Ejercicio 2023: 7.251 millones de EUR.</li>
+<li>Ejercicio 2024: 5.605 millones de EUR.</li>
+<li>Ejercicio 2025: 5.728 millones de EUR. <em>(Ligera recuperación en 2025 tras el descenso del año anterior).</em></li>
+</ul>
+</li>
+<li><strong>Beneficio Neto (Net Income):</strong>
+<ul>
+<li>Ejercicio 2023: 3.168 millones de EUR.</li>
+<li>Ejercicio 2024: 1.756 millones de EUR.</li>
+<li>Ejercicio 2025: 1.899 millones de EUR.</li>
+</ul>
+</li>
+<li><strong>Flujo de Caja y Inversión (Cash Flow):</strong>
+<ul>
+<li>Flujo de caja operativo en 2025: 5.365 millones de EUR (frente a 4.965 millones en 2024 y 6.511 millones en 2023).</li>
+<li>Inversión de capital (CapEx) en 2025: -3.746 millones de EUR.</li>
+<li>Flujo de caja libre (Free Cash Flow) en 2025: 1.619 millones de EUR (recuperándose del terreno negativo de -141 millones de EUR registrado en 2024).</li>
+</ul>
+</li>
+</ul>
+<h6>3. Balance y Solvencia</h6>
+<ul>
+<li><strong>Activos Totales:</strong> 59.428 millones de EUR (cierre de 2025).</li>
+<li><strong>Deuda Total (Total Debt):</strong> 13.238 millones de EUR (2025) / 13.170 millones de EUR según datos actualizados de fundamentales.</li>
+<li><strong>Efectivo Total (Total Cash):</strong> 9.736 millones de EUR.</li>
+<li><strong>Ratio de Deuda Neta / EBITDA:</strong> Se sitúa en un bajo nivel de <strong>0.32x</strong>, lo que demuestra una sólida disciplina financiera y un balance robusto.</li>
+<li><strong>Patrimonio Neto (Stockholders Equity):</strong> 25.140 millones de EUR (2025), respaldando un valor contable por acción (<em>book value</em>) de <strong>23.11 EUR</strong>.</li>
+</ul>
+<h6>4. Valoración y Múltiplos</h6>
+<ul>
+<li><strong>PER (Trailing P/E):</strong> 4.89x, indicando una valoración aparente muy atractiva frente a los beneficios históricos recientes.</li>
+<li><strong>PER Estimado (Forward P/E):</strong> 5.78x (con un beneficio por acción estimado <em>forward EPS</em> de 4.76 EUR, frente a un EPS histórico de 5.63 EUR).</li>
+<li><strong>Precio sobre Valor en Libros (Price to Book):</strong> 1.19x.</li>
+<li><strong>EV/EBITDA:</strong> 3.36x, reflejando múltiplos de valoración moderados en comparación con la media histórica del sector energético integrado.</li>
+<li><strong>Retorno sobre el Capital (ROE):</strong> 21.07%, lo que denota una alta eficiencia en la generación de valor para los accionistas.</li>
+<li><strong>Dividend Yield:</strong> <strong>3.82%</strong> (con un dividendo ordinario de 1.05 EUR por acción y un ratio de reparto (<em>payout ratio</em>) moderado del 20.45%, lo que garantiza la sostenibilidad del pago).</li>
+</ul>
+<h6>5. Análisis Técnico y Consenso de Analistas</h6>
+<ul>
+<li><strong>Datos Técnicos (<code>REP.MC</code>):</strong>
+<ul>
+<li>Precio actual: 27.52 EUR.</li>
+<li>RSI (14 sesiones): 39.31 (zona neutral tirando a sobreventa leve).</li>
+<li>MACD: -0.448 (señal en -0.158), sugiriendo impulso bajista a corto plazo.</li>
+<li>Medias Móviles: SMA20 en 29.34 EUR y SMA50 en 29.49 EUR (el precio cotiza por debajo de ambas, evidenciando corrección a corto plazo), mientras que la SMA200 se sitúa en 24.73 EUR (manteniendo la tendencia alcista de fondo a largo plazo).</li>
+<li>Volatilidad anualizada: 35.71%.</li>
+<li>Descenso desde máximos (<em>drawdown</em>): -12.75%.</li>
+<li>Retornos: -3.57% a 21 sesiones, +0.99% a 63 sesiones y +79.51% a 252 sesiones.</li>
+</ul>
+</li>
+<li><strong>Consenso de Analistas:</strong>
+<ul>
+<li>Número de opiniones analistas: 23.</li>
+<li>Precio objetivo medio (<em>Target Mean Price</em>): <strong>31.16 EUR</strong> (con un rango entre un mínimo de 23.70 EUR y un máximo de 38.00 EUR).</li>
+<li>Potencial alcista de consenso (<em>Consensus Upside</em>): <strong>13.23%</strong>.</li>
+</ul>
+</li>
+</ul>
+<h6>6. Evidencia Macroeconómica Reciente y Noticias</h6>
+<p>El contexto macroeconómico reciente (noviembre de 2026) muestra bolsas europeas con fuertes repuntes impulsados por banca y tecnología, en un entorno donde el euríbor supera el 3.3% y se anticipan decisiones de tipos en la Eurozona (con Pablo Hernández de Cos como presidente del BCE). Por su parte, entidades como Bankinter han publicado revisiones recientes sobre los resultados de Repsol (20 de noviembre de 2026), sin alterar sustancialmente el perfil de estabilidad de la compañía.</p>
+<ul>
+<li><strong>Datos faltantes:</strong> No se dispone en el suministro de un desglose pormenorizado del libro de órdenes intradía ni de transacciones recientes de iniciados (<em>insider transactions</em>).</li>
+</ul>
+<hr />
+<h6>Resumen Estructurado (Tabla de Puntos Clave)</h6>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Concepto Clave</th>
+<th style="text-align:left">Valor / Métrica</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Instrumento / Ticker</strong></td>
+<td style="text-align:left"><code>REP.MC</code> (Repsol, S.A.)</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Precio de Cierre</strong></td>
+<td style="text-align:left">27.52 EUR (al 2026-11-26)</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Capitalización Bursátil</strong></td>
+<td style="text-align:left">~29.000 millones de EUR</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>PER (Trailing / Forward)</strong></td>
+<td style="text-align:left">4.89x / 5.78x</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>EV / EBITDA</strong></td>
+<td style="text-align:left">3.36x</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Deuda Neta / EBITDA</strong></td>
+<td style="text-align:left">0.3</td>
+</tr>
+</tbody>
+</table></div>
+</section><section id="s2"><h2>II. Research Team Decision</h2><h3 id="s2-1">Bull Researcher</h3>
+<p>Bull Analyst: ¡Hola a todos! Qué bueno abrir el debate hoy sobre <strong><code>REP.MC</code></strong>. Entiendo que los compañeros del bando bajista estén mirando con lupa los vaivenes a corto plazo y la reciente corrección mensual, pero se están perdiendo el bosque por mirar un solo árbol. Como analista alcista, defiendo firmemente que <strong>Repsol (<code>REP.MC</code>)</strong> es una de las grandes oportunidades de valor y generación de caja en la Bolsa de Madrid.</p>
+<p>Vamos a desmontar los argumentos de prudencia con datos contundentes y demostrar por qué el caso alcista es infinitamente superior:</p>
+<h6>1. Crecimiento Potencial y Escalabilidad Financiera: Una máquina de flujo de caja</h6>
+<p>Los osos suelen asustarse cuando ven que los ingresos totales pasaron de 58.948 millones en 2023 a 54.861 millones en 2025. ¡Pero eso es leer mal la contabilidad energética! Lo que importa de verdad es la eficiencia operativa y la capacidad de transformar negocio en efectivo.
+Fijémonos en los datos: <code>REP.MC</code> generó un flujo de caja operativo imponente de <strong>8.015 millones de EUR</strong> y un flujo de caja libre (<em>free cash flow</em>) de <strong>1.770 millones de EUR</strong>, recuperándose con creces de los baches anteriores. Además, las proyecciones del consenso de analistas sitúan el precio objetivo medio en <strong>31,16 EUR</strong>, lo que representa un <strong>potencial alcista (<em>consensus upside</em>) del 13,23%</strong> desde los actuales 27,52 EUR, con techos de analistas que alcanzan los 38,00 EUR.</p>
+<h6>2. Ventajas Competitivas y Posicionamiento Dominante</h6>
+<p>¿Por qué Repsol destaca frente a sus pares europeos? Primero, por su transformación estratégica integrada: no es solo una petrolera tradicional sujeta a la volatilidad del crudo, sino que ha construido un posicionamiento diversificado hacia la transición energética y los renovables, manteniendo un refino altamente competitivo.
+Segundo, su balance es una auténtica roca. Con una <strong>deuda neta sobre EBITDA de apenas 0,32x</strong> (respaldada por 13.170 millones de deuda total frente a casi 9.736 millones en efectivo), Repsol cuenta con una flexibilidad financiera envidiable para capear cualquier entorno macroeconómico restrictivo —incluso con un euríbor por encima del 3,3% en la eurozona—.</p>
+<h6>3. Indicadores Positivos: Valoración de derribo y retribución intocable</h6>
+<p>Aquí es donde el argumento bajista se cae por completo. ¿Cómo se puede ignorar un <strong>Trailing P/E de 4,89x</strong> y un <strong>Forward P/E de 5,78x</strong>? ¡Estamos hablando de múltiplos de valoración ridículamente baratos para una empresa con un <strong>ROE del 21,07%</strong>!
+A esto se suma una retribución al accionista excelente: un <strong>dividend yield del 3,82%</strong> respaldado por un <em>payout ratio</em> sumamente conservador del <strong>20,45%</strong>. Esto significa que el dividendo no solo es atractivo, sino extremadamente seguro y sostenible a largo plazo, sin poner en riesgo las inversiones de la compañía.</p>
+<h6>4. Rebatimiento de los Contraargumentos Bajistas (El &quot;Bear Case&quot;)</h6>
+<p>¿Qué suelen argumentar los bajistas? Que el RSI(14) está en 39,31, que el MACD está en terreno negativo (-0,44) y que el título cotiza por debajo de su media de 20 (29,34 EUR) y 50 sesiones (29,49 EUR).
+¡Y claro que sí! Reconocemos que a corto plazo hay una corrección y un <em>drawdown</em> del -12,75% desde máximos. Pero mirar exclusivamente el corto plazo es de inexpertos. La <strong>media móvil de 200 sesiones (<code>sma200</code>: 24,73 EUR)</strong> demuestra que la estructura alcista de fondo a largo plazo sigue intacta, acumulando una rentabilidad anualizada del <strong>79,5% en 252 sesiones</strong>. El retroceso actual no es debilidad estructural, es una <strong>magnífica oportunidad de entrada</strong> antes de que el mercado vuelva a alinear el precio con el valor intrínseco que marcan los 23 analistas del consenso.</p>
+<p>En resumen, los fundamentales son sólidos, la valoración es de derribo y el potencial de retorno es innegable. Repsol (<code>REP.MC</code>) es una compra clara.</p>
+<p><strong>Rating</strong>: BUY</p>
+<p>FINAL TRANSACTION PROPOSAL: BUY</p>
+<h3 id="s2-2">Bear Researcher</h3>
+<p>Bear Analyst: ¡Hola colega! Entiendo perfectamente tu entusiasmo al esgrimir esos múltiplos de PER aparente y presumir de la sólida generación de caja de los últimos ejercicios. Pero confesar que <code>REP.MC</code> es una &quot;ganga&quot; simplemente porque cotiza a menos de 5x beneficios es caer en la clásica trampa del valor (<em>value trap</em>) que tanto abunda en el sector de la energía integrada. Vamos a poner los pies en la tierra y a desmontar ese optimismo exultante con datos fríos y riesgos reales que estás prefiriendo barrer bajo la alfombra.</p>
+<h6>1. El espejismo del crecimiento y la erosión de los ingresos</h6>
+<p>Te agarras con fuerza a los flujos de caja y a las cifras aisladas, pero prefieres no mirar la tendencia estructural de la parte superior de la cuenta de resultados. Los ingresos totales de Repsol no hacen más que desinflarse: pasaron de unos robustos <strong>58.948 millones de EUR en 2023</strong> a <strong>57.122 millones en 2024</strong>, y cayeron aún más hasta los <strong>54.861 millones de EUR al cierre de 2025</strong>.</p>
+<p>¿Cómo puedes calificar de &quot;máquina de crecimiento&quot; a una empresa que muestra una contracción sostenida en su cifra de negocios en plena volatilidad de materias primas? Los múltiplos bajos de PER (como ese <em>Trailing P/E</em> de 4,89x o el <em>Forward P/E</em> de 5,78x) no son un regalo del mercado; son el claro reflejo de que los inversores institucionales descuentan la estacionalidad, el agotamiento del ciclo alcista de refino y los riesgos de la transición fósil. El mercado nunca se equivoca tanto tiempo sin motivo: esa aparente &quot;baratura&quot; es un descuento por riesgo plenamente justificado.</p>
+<h6>2. Vulnerabilidad técnica: La corrección no es un simple bache</h6>
+<p>Dices que el retroceso actual es una &quot;magnífica oportunidad de entrada&quot; y restas importancia al hecho de que <code>REP.MC</code> cotice a <strong>27,52 EUR</strong>, por debajo de su media móvil de 20 sesiones (<code>sma20</code>: 29,34 EUR) y de 50 sesiones (<code>sma50</code>: 29,49 EUR).</p>
+<p>Sin embargo, el gráfico habla por sí solo: el <strong>RSI(14) se sitúa en un débil 39,31</strong>, el <strong>MACD está claramente en terreno negativo (-0,448)</strong>, y el título acumula un <em>drawdown</em> del <strong>-12,75%</strong> desde sus máximos recientes, con una caída mensual del <strong>-3,57%</strong> a 21 sesiones. Agarrarse a la media de 200 sesiones (<code>sma200</code>: 24,73 EUR) como el gran salvavidas técnico es un consuelo de pobres; significa que el margen de caída hasta romper la estructura alcista de largo fondo es todavía de más de tres euros por acción en un entorno de alta volatilidad anualizada del <strong>35,71%</strong>. El impulso bajista a corto plazo es evidente y desaconseja por completo precipitarse a comprar un cuchillo cayendo.</p>
+<h6>3. La trampa macroeconómica y el lastre del coste de capital</h6>
+<p>Pretendes ignorar el contexto macro europeo argumentando que el balance de <code>REP.MC</code> es &quot;una roca&quot; gracias a una deuda neta sobre EBITDA de 0,32x. Pero olvidas un factor crucial que el mercado está sufriendo en este preciso momento: con un <strong>euríbor por encima del 3,3%</strong> en la Eurozona y un entorno de tipos restrictivos pilotado por el Banco Central Europeo, el coste de capital para financiar las ingentes inversiones (<em>CapEx</em>) exigidas por la transición energética se ha disparado.</p>
+<p>Repsol se enfrenta a la titánica y carísima tarea de reinventar su modelo de negocio hacia renovables mientras sus márgenes de refino tradicionales se normalizan a la baja. Sostener un CapEx multimillonario (que superó los 3.700 millones de EUR en 2025) en un entorno de tipos altos comprime la flexibilidad financiera futura, por mucho que hoy presuman de caja o de un dividendo con un <em>dividend yield</em> del 3,82%. Si el flujo de caja libre vuelve a sufrir contracciones cíclicas (como el preocupante saldo negativo de -141 millones de EUR que vimos en 2024), esa retribución al accionista pasará a ser una soga al cuello para la salud patrimonial de la compañía.</p>
+<h6>Conclusión: Prudencia ante el espejismo</h6>
+<p>Confiar ciegamente en un precio objetivo de consenso de analistas (31,16 EUR) es ignorar que dichos objetivos son estimaciones volátiles y no garantías de valor intrínseco. Con un momentum deteriorado, ingresos decrecientes y los desafíos colosales de la transición energética en plena restricción monetaria europea, comprar <code>REP.MC</code> ahora mismo es asumir riesgos innecesarios. Lo prudente es mantenerse al margen.</p>
+<p><strong>Rating</strong>: HOLD</p>
+<p>FINAL TRANSACTION PROPOSAL: HOLD</p>
+<h3 id="s2-3">Research Manager</h3>
+<p><strong>Recommendation</strong>: Overweight</p>
+<p><strong>Rationale</strong>: El debate entre el bando alcista y el bajista sobre REP.MC expone tensiones claras: por un lado, los toros defienden unos fundamentales excepcionales con un Trailing P/E de 4,89x, un ROE del 21,07% y una generación de caja operativa superior a los 8.000 millones de EUR, apoyados por un consenso de analistas que sitúa el precio objetivo medio en 31,16 EUR (un potencial alcista del 13,23%). Por otro lado, los osos advierten de una contracción sostenida en los ingresos totales (pasando de 58.948 millones en 2023 a 54.861 millones en 2025), un momentum técnico debilitado a corto plazo (RSI de 39,31 y MACD negativo) y los desafíos macroeconómicos del CapEx en un entorno de tipos altos con el euríbor superando el 3,3%. Al sopesar ambos lados, el argumento fundamental de extrema baratura y sólida solvencia financiera (ratio de deuda neta sobre EBITDA de 0,32x) supera los riesgos tácticos de corto plazo, inclinando la balanza hacia una postura constructiva pero prudente.</p>
+<p><strong>Strategic Actions</strong>: Para implementar la recomendación de sobreponderar REP.MC, se instruye al trader a iniciar una acumulación escalonada aprovechando la actual corrección y el descuento respecto a las medias móviles de corto plazo (sma20 en 29,34 EUR y sma50 en 29,49 EUR). Se sugiere asignar un 75% de una asignación estándar para una primera entrada en los niveles actuales de 27,52 EUR, reservando el 25% restante para promediar a la baja en caso de que la cotización busque soporte hacia la media de 200 sesiones situada en 24,73 EUR.</p>
+</section><section id="s3"><h2>III. Trading Team Plan</h2><h3 id="s3-1">Trader</h3>
+<p><strong>Action</strong>: Buy</p>
+<p><strong>Reasoning</strong>: Repsol presenta fundamentos extremadamente atractivos con un Trailing P/E de 4,89x, una sólida estructura financiera con una deuda neta sobre EBITDA de 0,32x y un dividendo sostenible del 3,82%. Aunque el RSI en 39,31 y el MACD negativo reflejan debilidad a corto plazo, la cotización se mantiene por encima de la media móvil de 200 sesiones (24,73 EUR), respaldando la tendencia alcista de largo plazo y el precio objetivo de consenso de 31,16 EUR.</p>
+<p><strong>Entry Price</strong>: 27.52</p>
+<p><strong>Stop Loss</strong>: 24.5</p>
+<p><strong>Position Sizing</strong>: 5% of portfolio</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>BUY</strong></p>
+</section><section id="s4"><h2>IV. Risk Management Team Decision</h2><h3 id="s4-1">Aggressive Analyst</h3>
+<p>Aggressive Analyst: ¡Abramos los ojos ante la realidad del mercado y dejémonos de excesos de timidez! Mientras los analistas conservadores y neutrales se inmovilizan analizando cada soplo de viento a corto plazo, aquí tenemos enfrente una oportunidad de oro con Repsol, S.A. (<code>REP.MC</code>). ¿Cómo es posible que duden de una compañía que cotiza a un ridículo <em>Trailing P/E</em> de 4,89x y un <em>Forward P/E</em> de 5,78x? Nos encontramos ante una auténtica ganga fundamentada en una estructura financiera envidiable: una ratio de deuda neta sobre EBITDA de apenas 0,32x y un colchón de caja que roza los 9.740 millones de euros frente a una deuda total muy controlada.</p>
+<p>Los partidarios de la cautela y la neutralidad suelen poner el grito en el cielo por el RSI en 39,31 y el MACD negativo, argumentando debilidad a corto plazo. ¡Exactamente ahí es donde el inversor audaz y de alto rendimiento encuentra su mayor ventaja competitiva! Las correcciones temporales y los descensos del 3,57% a 21 sesiones no son señales de alarma, sino puntos de entrada tácticos ideales antes de que el valor reconecte con su sólida tendencia alcista de largo plazo —respaldada holgadamente por una cotización que se mantiene firmemente por encima de la media móvil de 200 sesiones situada en 24,73 EUR—.</p>
+<p>Ignorar esta oportunidad por miedo a la volatilidad del 35,71% significa renunciar al crecimiento explosivo y al potencial de revalorización del 13,23% que marca el consenso de analistas con un precio objetivo medio de 31,16 EUR. Además, el argumento de la prudencia choca frontalmente contra la realidad de un dividendo sostenible del 3,82% respaldado por un <em>payout</em> conservador del 20,45%, lo que nos paga generosamente mientras esperamos el despegue alcista impulsado por el dinámico contexto macroeconómico europeo actual.</p>
+<p>No podemos dejar pasar un rendimiento sobre el capital (ROE) superior al 21% y una generación de flujo de caja libre tan sólida solo porque nos asuste un pequeño bache técnico. La verdadera gestión de riesgos no consiste en huir del riesgo, sino en aprovecharlo cuando las valoraciones son tan escandalosamente atractivas como las de <code>REP.MC</code>. ¡Es el momento de actuar con decisión, posicionarse con un 5% de la cartera y capturar este potencial alcista masivo!</p>
+<p><strong>Rating</strong>: BUY
+FINAL TRANSACTION PROPOSAL: <strong>BUY</strong></p>
+<h3 id="s4-2">Conservative Analyst</h3>
+<p>Conservative Analyst: Estimado colega analista agresivo, su entusiasmo por los múltiplos aparentemente bajos de Repsol, S.A. (<code>REP.MC</code>) obvia por completo el principio fundamental de nuestra labor: la preservación estricta del capital y la mitigación rigurosa de la volatilidad. Calificar un PER inferior a 5x como una &quot;ganga&quot; sin examinar la naturaleza cíclica del sector de petróleo y gas integrado es una invitación abierta a absorber pérdidas innecesarias.</p>
+<p>Descartar los indicadores técnicos negativos —como un RSI en 39,31 y un MACD bajista— bajo la premisa de que el bache es pasajero es un ejercicio de exceso de confianza inadmisible. Con una volatilidad anualizada del 35,71% y un retroceso mensual del 3,57% reflejado en los datos oficiales, el activo muestra una inestabilidad evidente que puede erosionar rápidamente el valor de nuestra posición. El hecho de que la cotización actual en 27,52 EUR se mantenga por encima de la media móvil de 200 sesiones (24,73 EUR) no garantiza inmunidad; de hecho, deja un margen de caída potencial superior al 10% antes de tocar dicho soporte estructural, un riesgo bajista que ningún analista prudente debería ignorar.</p>
+<p>Asimismo, apelar al potencial de revalorización del consenso de analistas hacia los 31,16 EUR ignora que dichos objetivos son estimaciones y no garantías de valor intrínseco. Comprometer un 5% de la cartera en un entorno macroeconómico europeo donde los tipos de interés se mantienen restrictivos (con el euríbor superando el 3,3%) y la demanda energética global experimenta ajustes es una exposición desproporcionada.</p>
+<p>La verdadera gestión de riesgos no consiste en ignorar las señales de debilidad técnica ni en confiar ciegamente en flujos de caja pasados frente a un CapEx intensivo que en el ejercicio anterior redujo drásticamente el flujo de caja libre. Por todo ello, ante la falta de una estabilidad técnica sólida y la elevada exposición a la volatilidad sectorial, la prudencia nos obliga a exigir una revisión exhaustiva y a rechazar cualquier entrada precipitada en este momento.</p>
+<p>Rating: REVIEW
+FINAL TRANSACTION PROPOSAL: REVIEW</p>
+<h3 id="s4-3">Neutral Analyst</h3>
+<p>Neutral Analyst: Estimados compañeros, he escuchado atentamente tanto el optimismo desbordado del analista agresivo como la rigidez defensiva del analista conservador respecto a Repsol, S.A. (<code>REP.MC</code>), y creo que ambos cometen errores de peso al extremar sus posturas.</p>
+<p>Por un lado, el analista agresivo peca de una peligrosa displicencia al minimizar los indicadores técnicos. Descartar un RSI en 39,31 y un MACD negativo argumentando que se trata de un simple bache es ignorar la inmediatez del impulso bajista. Además, calificar de &quot;ganga absoluta&quot; un PER inferior a 5x sin considerar la naturaleza altamente cíclica del sector de petróleo y gas integrado y la volatilidad anualizada del 35,71% es una invitación a asumir un riesgo de mercado innecesario. Comprar de cabeza con una asignación del 5% sin exigir confirmación técnica expone al inversor a sufrir un retroceso doloroso antes de que la tendencia de fondo se reanude.</p>
+<p>Por otro lado, el analista conservador se excede en su parálisis por análisis. Utilizar la debilidad a corto plazo y la volatilidad para vetar por completo la operación bajo un estado de &quot;revisión&quot; permanente significa ignorar una de las estructuras financieras más sólidas que podemos encontrar en el mercado europeo actual. Con una deuda neta sobre EBITDA de apenas 0,32x, un flujo de caja operativo superior a 8.000 millones de euros y una rentabilidad por dividendo sostenible del 3,82% respaldada por un payout del 20,45%, <code>REP.MC</code> no es una trampa de valor, sino una compañía extremadamente robusta. Despreciar el colchón patrimonial y el potencial de revalorización del consenso hacia los 31,16 EUR solo por miedo a un entorno de tipos con el euríbor superando el 3,3% es caer en un conservadurismo inmovilista que nos hace perder oportunidades de acumulación de calidad.</p>
+<p>La verdadera gestión de riesgos desde una perspectiva neutral no consiste en ignorar el peligro ni en huir de la oportunidad, sino en conciliar ambas realidades mediante una estrategia equilibrada y estructurada. No necesitamos rechazar la operación por completo, pero tampoco debemos lanzarnos con una entrada precipitada del 100% de la posición de golpe. Una postura verdaderamente sensata consiste en reconocer el atractivo fundamental de la compañía a estos precios (27,52 EUR), respetando al mismo tiempo la debilidad técnica a corto plazo mediante un enfoque de acumulación escalonada (dca o entradas fraccionadas) y un control estricto del riesgo con el stop-loss propuesto en 24,5 EUR, que protege nuestra cartera frente a una ruptura de la media móvil de 200 sesiones. De este modo, aprovechamos los fundamentales excepcionales sin exponernos de manera imprudente a los vaivenes del momentum bajista actual.</p>
+<p><strong>Rating</strong>: HOLD
+FINAL TRANSACTION PROPOSAL: HOLD</p>
+</section><section id="s5"><h2>V. Portfolio Manager Decision</h2><h3 id="s5-1">Portfolio Manager</h3>
+<p><strong>Rating</strong>: Overweight</p>
+<p><strong>Executive Summary</strong>: Se recomienda una postura de sobreponderar REP.MC, aprovechando el atractivo descuento actual para iniciar una acumulación escalonada. Se sugiere asignar un 75% del capital previsto a los precios actuales de 27,52 EUR y reservar el 25% restante para promediar cerca de la media móvil de 200 sesiones (24,73 EUR), gestionando el riesgo con un stop-loss en 24,5 EUR.</p>
+<p><strong>Investment Thesis</strong>: La tesis alcista prevalece al demostrarse que los riesgos técnicos a corto plazo (RSI de 39,31 y MACD negativo) representan una corrección temporal y no un fallo estructural de fondo, tal como argumenta con acierto el analista agresivo frente a la excesiva parálisis del analista conservador. Repsol, S.A. (<code>REP.MC</code>) cuenta con fundamentales excepcionales que justifican la entrada: un Trailing P/E de 4,89x, un ROE del 21,07%, una sólida ratio de deuda neta sobre EBITDA de 0,32x y un flujo de caja operativo superior a los 8.000 millones de euros, complementados por un dividendo sostenible del 3,82% y un potencial de revalorización del 13,23% hacia el precio objetivo de consenso de 31,16 EUR. La postura se vería invalidada negativamente si una ruptura confirmada perfora la media de 200 sesiones o positivamente si el valor recupera con fuerza las medias de corto plazo.</p>
+<p><strong>Price Target</strong>: 31.16</p>
+<p><strong>Time Horizon</strong>: 3-6 meses</p>
+</section>
+</main>
+<footer class="credit"><a href="https://github.com/TauricResearch/TradingAgents" rel="noopener">TradingAgents</a> powered by <a class="brand" href="https://github.com/TauricResearch" rel="noopener">Tauric Research</a></footer>
+</div>
+<a class="to-top" href="#top">Top</a>
+</body>
+</html>

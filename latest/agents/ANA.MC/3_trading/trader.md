@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: Acciona cotiza en 182.40 EUR bajo una marcada tendencia bajista y se encuentra por debajo de sus principales medias móviles (SMA20 en 204.66 EUR y SMA200 en 225.01 EUR), con un RSI en 31.76 que apunta a sobreventa pero sin señales de giro confirmadas. Aunque el PER forward de 16.21x y un potencial de consenso de analistas hasta 224.86 EUR resultan atractivos, la elevada ratio de deuda neta sobre EBITDA de 6.14x, el flujo de caja libre negativo de -722.75 millones de euros y la presión de tipos de interés altos justifican no incrementar la exposición.
+**Reasoning**: La acción se mantiene por debajo de sus medias móviles clave (SMA20, SMA50 y SMA200), lo que confirma una tendencia técnica bajista. Aunque el consenso de analistas sugiere un potencial alcista del 19,6%, el alto nivel de deuda neta (Net Debt/EBITDA de 6,14x) y el margen de beneficio neto ajustado limitan el atractivo fundamental inmediato. Se recomienda esperar a que el precio supere la resistencia técnica de la SMA50 en 208,22 EUR para confirmar un cambio de tendencia antes de considerar nuevas compras.
 
-**Entry Price**: not provided
+**Entry Price**: 208.22
 
-**Stop Loss**: not provided
+**Stop Loss**: 170.0
 
-**Position Sizing**: Mantener ponderación neutral de cartera
+**Position Sizing**: Mantener posición actual; no añadir exposición hasta ruptura técnica confirmada.
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

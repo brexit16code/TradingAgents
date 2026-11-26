@@ -1,0 +1,9 @@
+**Rating**: Hold
+
+**Executive Summary**: Se recomienda mantener una postura de espera prudente en SAB.MC sin realizar nuevas compras, aprovechando los sólidos fundamentos de rentabilidad y recompra de acciones pero respetando la fase lateral actual. La estrategia debe centrarse en observar la consolidación del precio frente al soporte de los 3,34 EUR y la media móvil de 200 sesiones (3,188 EUR) antes de comprometer nuevo capital.
+
+**Investment Thesis**: La decisión de mantener se fundamenta en un equilibrio de evidencias que neutraliza tanto el impulso alcista del analista agresivo como la extrema cautela del conservador. Por un lado, se reconocen los sólidos fundamentales expuestos por el bando alcista: un beneficio neto robusto de 1.775 millones de euros al cierre de 2025, una eficiente asignación de capital mediante recompras que han eliminado el 17% del capital desde 2023, y un PER forward atractivo de 10,44x frente a una media móvil de 200 sesiones en 3,188 EUR que respalda la tendencia estructural. Por otro lado, los argumentos prudentes y neutrales aciertan al señalar que la contracción interanual de los ingresos totales (que bajaron de 6.282 millones en 2023 a 4.882 millones en 2025), un potencial de consenso muy ajustado de apenas el 6,61% hacia los 3,713 EUR, y un RSI neutral de 42,78 con MACD negativo reflejan una fase lateral con presión vendedora que no justifica una entrada agresiva en este momento. Un cambio de perspectiva hacia una postura de compra requeriría una ruptura clara al alza del rango lateral o un retroceso controlado hacia soportes clave que ofrezca un mejor margen de seguridad.
+
+**Price Target**: 3.71325
+
+**Time Horizon**: 3-6 months

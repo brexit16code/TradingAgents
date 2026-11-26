@@ -1,0 +1,9 @@
+**Rating**: Hold
+
+**Executive Summary**: Mantener la asignación actual del 5% de la cartera en ELE.MC para capturar el dividendo de 0,50 EUR previsto para enero de 2027 sin realizar nuevas compras. La estrategia combina la solidez operativa y de flujo de caja con una disciplina de retención ante la sobrevaloración respecto al consenso y un entorno de tipos altos.
+
+**Investment Thesis**: La tesis de inversión se decanta firmemente hacia un mantenimiento equilibrado (Hold) tras sopesar los argumentos del debate. Por un lado, la postura agresiva destaca correctamente la excepcional calidad fundamental de Endesa, S.A., respaldada por un ROE del 27,21%, una sólida generación de flujo de caja libre operativo superior a los 4.000 millones de euros, una deuda neta sobre EBITDA manejable de 2,10x y una rentabilidad por dividendo del 3,7% con próximo pago en enero de 2027. Por otro lado, la postura conservadora y los matices neutrales evidencian riesgos reales que impiden una recomendación de compra: la cotización actual de 43,32 EUR supera ampliamente el precio objetivo medio de consenso de 36,89 EUR (implicando un potencial de -14,85%), operando con un PER adelantado de 17,89 y un ratio P/B de 5,65, todo ello en un contexto macroeconómico hostil con un euríbor por encima del 3,3% que compite directamente con el atractivo del dividendo. La convergencia técnica entre las medias móviles de 20 y 50 sesiones, junto con un RSI neutral de 48,14, confirma que el valor se encuentra en una fase de consolidación donde no se justifica ampliar exposición, pero su excelente generación de caja y momentum a 252 días desaconsejan reducir posiciones. Un cambio en la tesis requeriría una relajación de los tipos de interés en la Eurozona o una corrección técnica hacia soportes más profundos (como la media de 200 días en 38,88 EUR) que alinie la valoración de mercado con los fundamentales.
+
+**Price Target**: 36.89
+
+**Time Horizon**: 3-6 meses

@@ -1,0 +1,9 @@
+**Rating**: Hold
+
+**Executive Summary**: Mantener la exposición actual en UNI.MC sin realizar nuevas compras ni ventas. La estrategia se basa en retener el activo para capturar su atractiva rentabilidad por dividendo mientras el mercado supera las resistencias técnicas a corto plazo. Asignación sugerida neutral (0% de cambio), vigilando de cerca el soporte estructural en la media móvil de 200 sesiones situada en 3,019 EUR.
+
+**Investment Thesis**: La decisión de mantener se fundamenta en un equilibrio de fuerzas donde los argumentos del analista neutral y conservador prevalecen frente al optimismo desmedido del analista agresivo. Por un lado, la entidad muestra una sólida estructura de fondo con un precio anclado por encima de la media móvil de 200 sesiones (3,019 EUR), un margen neto del 32,80% y una atractiva rentabilidad por dividendo del 6,11%. Por otro lado, la valoración con un PER forward de 11,21x (con una prima frente a sus comparables), un limitado potencial de subida de consenso de apenas el 1,82% sobre el precio actual de 3,216 EUR, y un momento técnico a corto plazo desfavorable —con cotización por debajo de las medias móviles de 20 y 50 sesiones, MACD negativo y RSI en 43,67— desaconsejan incrementar la exposición o forzar una compra agresiva. La evidencia se mantiene equilibrada entre los sólidos fundamentales a largo plazo y la atonía técnica a corto plazo. La tesis cambiaría si el valor perfora de forma sostenida el soporte crítico de la SMA200 o si se produce una ruptura alcista con volumen confirmado de las resistencias de corto plazo.
+
+**Price Target**: 3.27444
+
+**Time Horizon**: 3-6 months

@@ -1,0 +1,10 @@
+
+Conservative Analyst: **Rating**: HOLD
+
+Estimado colega agresivo, entiendo perfectamente la euforia que desata un repunte del cinco por ciento y la presentación de una nueva hoja de ruta corporativa como el plan Forward2030, pero apelar al "coraje" y calificar la prudencia de tibieza es un camino directo a comprometer el capital de la firma. Ignorar los riesgos técnicos y confiar ciegamente en un potencial alcista de consenso sin valorar la realidad de los indicadores nos expone a correcciones innecesarias. 
+
+Me pides que no le busque tres pies al gato, pero los números están ahí. La volatilidad histórica anualizada de IDR.MC se sitúa en un elevado 39,49%, y aunque la compañía cuenta con una posición de caja neta favorable con un ratio de deuda neta sobre EBITDA de -1,44x y un crecimiento de ingresos del 22,7%, el aspecto técnico actual exige una extrema cautela. El valor cotiza en 56,70 EUR, manteniéndose por debajo de su media móvil de 50 sesiones, situada en 59,57 EUR, y arrastra una rentabilidad negativa a 21 días del -10,23%. El MACD sigue en terreno negativo (-2,13) y el RSI neutral en 49,17 nos indica claramente que el impulso alcista actual responde a una reacción emocional tras el anuncio estratégico, no a una tendencia consolidada. Comprar de manera precipitada sin esperar a que el precio supere con solvencia sus resistencias clave equivale a asumir un riesgo de bajista a corto plazo que un analista riguroso no puede pasar por alto.
+
+Por todo ello, defender una entrada inmediata asumiendo un stop loss en 52,5 EUR —lo que representa un margen de pérdidas considerable ante cualquier giro bajista del mercado— no es gestionar el riesgo, es tentar a la suerte. Proteger los activos de la firma exige esperar a una estabilización técnica real y a la confirmación de la ruptura de resistencias, manteniendo una postura de espera prudente en lugar de dejarse arrastrar por el entusiasmo institucional de corto plazo.
+
+FINAL TRANSACTION PROPOSAL: **HOLD**

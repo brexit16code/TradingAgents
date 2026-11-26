@@ -1,0 +1,618 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'">
+<title>ENG.MC 2026-11-26 Underweight: TradingAgents report</title>
+<style>
+:root {
+  --paper: #fbfbfa; --ink: #1c2126; --muted: #5d6670; --rule: #e2e5e8; --wash: #f2f4f5;
+  --accent: #087a59; --up: #087a59; --down: #b4372f; --level: #5d6670; --edge: #d3d8dc; --mark: #878f97;
+  --serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #131a1f; --ink: #e4e8eb; --muted: #9aa6af; --rule: #263239; --wash: #1a242a;
+    --accent: #14c290; --up: #14c290; --down: #ef6f63; --level: #9aa6af; --edge: #3d4c55; --mark: #66737c;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .masthead .logo [stroke="#363636"] { stroke: var(--muted); }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font: 17px/1.62 var(--serif); font-kerning: normal;
+}
+.page { max-width: 46rem; margin: 0 auto; padding: 3.5rem 1.5rem 6rem; }
+main h2, main h3 { scroll-margin-top: 1rem; }
+a { color: var(--accent); text-underline-offset: 0.15em; }
+h1, h2, h3, h4 { text-wrap: balance; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.masthead { padding-bottom: 1.75rem; border-bottom: 1px solid var(--rule); }
+/* The logo leads at the top left, where readers look for it, 24px tall (the usual
+   on-screen floor for a wordmark) with at least its height clear below. */
+.masthead .logo { display: block; width: fit-content; margin: 0 0 2.25rem; }
+.masthead .logo svg { display: block; height: 1.5rem; width: auto; }
+.masthead h1 {
+  margin: 0; font: 600 2.6rem/1.1 var(--sans); letter-spacing: -0.02em;
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.2em 0.5em;
+}
+.masthead .rating { font-weight: 500; }
+.rating.up { color: var(--up); } .rating.down { color: var(--down); } .rating.level { color: var(--level); }
+.rating.review { color: var(--muted); font-style: italic; }
+.masthead .date { margin: 0.55rem 0 1.5rem; font: 1rem/1.4 var(--sans); color: var(--muted); }
+.run { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: 0.45rem 1.25rem;
+  font: 0.85rem/1.5 var(--sans); }
+.run > div { display: contents; }
+.run dt { color: var(--muted); }
+.run dd { margin: 0; overflow-wrap: anywhere; }
+.run .note dd { color: var(--down); }
+.field { display: inline-block; margin: 0 0.15rem 0.15rem 0; padding: 0 0.4rem; border: 1px solid var(--edge);
+  border-radius: 4px; background: var(--wash); font: 0.8rem/1.6 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+.run .group { display: inline-block; margin-right: 0.9rem; white-space: nowrap; }
+.run .group > .name { color: var(--muted); margin-right: 0.3rem; }
+.run .then { color: var(--muted); margin: 0 0.2rem; }
+
+/* The sections: listed under the header on narrow screens. On wide ones, a
+   quiet rail centred on the left edge (numerals for the sections, short bars
+   for their agents) that opens into the full list when pointed at or focused. */
+.contents { margin: 2.25rem 0 0; font: 0.9rem/1.45 var(--sans); }
+.contents ul { margin: 0; padding: 0; list-style: none; }
+.contents > ul > li { margin: 0 0 0.75rem; }
+.contents ul ul { margin-top: 0.2rem; padding-left: 1.6rem; font-size: 0.85rem; }
+.contents ul ul li { margin: 0.1rem 0; }
+.contents a { display: flex; align-items: center; gap: 0.6rem; color: var(--muted); text-decoration: none; }
+.contents > ul > li > a { color: var(--ink); }
+.contents .num { min-width: 1.6rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.contents .bar { display: none; }
+.contents a:hover .label, .contents a:focus-visible .label { color: var(--accent); text-decoration: underline; }
+.to-top { position: fixed; right: 1rem; bottom: calc(1rem + env(safe-area-inset-bottom));
+  padding: 0.25rem 0.6rem; border: 1px solid var(--edge); border-radius: 4px; background: var(--paper);
+  color: var(--muted); font: 0.8rem/1.4 var(--sans); text-decoration: none; }
+
+@media (min-width: 60rem) {
+  .contents { position: fixed; left: 1rem; top: 50%; transform: translateY(-50%); z-index: 1;
+    max-height: 86vh; overflow-y: auto; overscroll-behavior: contain; margin: 0;
+    padding: 0.7rem 0.9rem; border: 1px solid transparent; border-radius: 6px;
+    transition: background-color 0.15s, border-color 0.15s, box-shadow 0.15s; }
+  .contents > ul > li { margin: 0 0 0.35rem; }
+  .contents ul ul { margin-top: 0; padding-left: 0; }
+  .contents ul ul li { margin: 0; }
+  /* Marks reach 3:1 contrast and rows 24px, the WCAG 2.2 floors for a control's
+     visual cue and its pointer target. */
+  .contents a { min-height: 1.5rem; }
+  .contents .num { min-width: 1.4rem; }
+  .contents .bar { display: block; flex: none; width: 1.25rem; height: 2px; margin-left: 0.2rem;
+    border-radius: 1px; background: var(--mark); }
+  .contents .label { max-width: 0; opacity: 0; overflow: hidden; white-space: nowrap;
+    transition: opacity 0.15s, max-width 0.2s; }
+  .contents:hover, .contents:focus-within { background: var(--paper); border-color: var(--rule);
+    box-shadow: 0 6px 24px rgb(0 0 0 / 0.08); }
+  .contents:hover .label, .contents:focus-within .label { max-width: 18rem; opacity: 1; }
+  .contents a:hover .bar, .contents a:focus-visible .bar { background: var(--accent); }
+  .to-top { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .contents, .contents .label { transition: none; }
+}
+
+/* The maker's credit: one quiet line at the foot. */
+.credit { margin-top: 4.5rem; padding-top: 1.25rem; border-top: 1px solid var(--rule);
+  color: var(--muted); font: 0.8rem/1.4 var(--sans); }
+.credit a { color: inherit; text-decoration: none; }
+.credit a.brand { color: var(--accent); }
+.credit a:hover, .credit a:focus-visible { text-decoration: underline; }
+
+/* Three levels of separation: the five groups, the agents within a group, and
+   breaks an agent draws inside its own text. */
+main h2 {
+  margin: 4.5rem 0 0.25rem; padding-top: 1.5rem; border-top: 2px solid var(--ink);
+  font: 600 1.45rem/1.3 var(--sans); letter-spacing: -0.01em;
+}
+main section:first-child h2 { margin-top: 3rem; }
+main h3 { margin: 2.75rem 0 0.75rem; padding-top: 1.1rem; border-top: 1px solid var(--rule);
+  font: 600 1.15rem/1.35 var(--sans); color: var(--accent); }
+main h2 + h3 { margin-top: 1.25rem; padding-top: 0; border-top: 0; }
+main h4, main h5, main h6 { margin: 1.75rem 0 0.5rem; font: 600 1rem/1.4 var(--sans); }
+main h5, main h6 { color: var(--muted); }
+main p, main ul, main ol { margin: 0 0 1rem; }
+main li { margin: 0.25rem 0; }
+main strong { font-weight: 650; }
+main blockquote { margin: 1.25rem 0; padding: 0.1rem 0 0.1rem 1rem; border-left: 3px solid var(--rule);
+  color: var(--muted); }
+main code { font: 0.88em/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  background: var(--wash); padding: 0.1em 0.3em; border-radius: 3px; }
+main pre { background: var(--wash); padding: 0.9rem 1rem; border-radius: 4px; overflow-x: auto; }
+main pre code { background: none; padding: 0; }
+main hr { width: 3rem; margin: 2rem auto; border: 0; border-top: 1px solid var(--rule); }
+
+.table { overflow-x: auto; margin: 0 0 1.25rem; }
+table { border-collapse: collapse; width: 100%; font: 0.86rem/1.45 var(--sans);
+  font-variant-numeric: tabular-nums; }
+th, td { padding: 0.45rem 0.7rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--rule); }
+th { font-weight: 600; border-bottom-color: var(--muted); }
+tbody tr:last-child td { border-bottom: 0; }
+
+@media (max-width: 34rem) {
+  body { font-size: 16px; }
+  .page { padding: 2rem 1rem 3rem; }
+  .masthead h1 { font-size: 2rem; }
+  .masthead .logo svg { height: 1.25rem; }
+  .run { grid-template-columns: 1fr; gap: 0 0; }
+  .run dd { margin-bottom: 0.45rem; }
+  .run .group { white-space: normal; }
+}
+@media print {
+  :root { --paper: #fff; --ink: #000; --muted: #444; --rule: #bbb; --accent: #000; --wash: #f2f2f2;
+    --edge: #bbb; --up: #087a59; --down: #b4372f; --level: #444; }
+  body { font-size: 11pt; }
+  .table { overflow: visible; }
+  .page { max-width: none; padding: 0; }
+  .contents, .to-top { display: none; }
+  main h2 { break-before: page; border-top: 0; margin-top: 0; }
+  main section:first-child h2 { break-before: auto; }
+  main h3, main h4 { break-after: avoid; }
+  a { color: inherit; text-decoration: none; }
+  table { break-inside: avoid; }
+}
+</style>
+</head>
+<body>
+<div class="page" id="top">
+<header class="masthead">
+<a class="logo" href="https://tauric.ai" rel="noopener" aria-label="Tauric Research"><svg width="993" height="115" viewBox="0 0 993 115" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M189.86 95.0459V37.9779H165.924V29.9259H223.74V37.9779H199.804V95.0459H189.86ZM251.026 46.4259C256.071 46.4259 260.178 47.0272 263.345 48.2299C266.514 49.4032 268.89 51.3686 270.474 54.1259C272.058 56.8832 272.85 60.6379 272.85 65.3899V95.0459H264.666L263.961 89.8979H263.434C261.644 91.7752 259.386 93.2419 256.657 94.2979C253.929 95.3246 251.025 95.8379 247.946 95.8379C244.426 95.8379 241.419 95.2952 238.925 94.2099C236.432 93.0952 234.54 91.5406 233.249 89.5459C231.959 87.5512 231.313 85.2046 231.313 82.5059C231.313 78.2526 232.897 74.9672 236.065 72.6499C239.263 70.3032 244.337 68.8219 251.29 68.2059L263.258 67.0179V64.7299C263.258 61.9139 262.774 59.7139 261.806 58.1299C260.838 56.5459 259.371 55.4312 257.406 54.7859C255.47 54.1406 252.888 53.8179 249.662 53.8179C247.432 53.8179 245.012 54.0086 242.401 54.3899C239.82 54.7712 237.341 55.3432 234.965 56.1059V48.8019C237.312 48.0392 239.908 47.4526 242.754 47.0419C245.628 46.6312 248.386 46.4259 251.026 46.4259ZM250.541 89.0619C252.888 89.0619 255.162 88.6512 257.362 87.8299C259.562 86.9792 261.527 85.7179 263.258 84.0459V72.8259L252.038 73.9259C248.136 74.3659 245.35 75.2166 243.678 76.4779C242.005 77.7099 241.169 79.4699 241.169 81.7579C241.169 84.0752 241.947 85.8792 243.501 87.1699C245.056 88.4312 247.403 89.0619 250.541 89.0619ZM313.339 95.8379C307.59 95.8379 303.087 94.2979 299.831 91.2179C296.575 88.1086 294.947 83.2686 294.947 76.6979V47.1739H304.715V76.1699C304.715 80.1886 305.624 83.0779 307.443 84.8379C309.291 86.5979 311.916 87.4779 315.319 87.4779C317.871 87.4779 320.379 86.9939 322.843 86.0259C325.336 85.0286 327.492 83.5766 329.311 81.6699V47.1739H339.079V95.0459H330.983L330.367 89.9419H329.883C327.624 91.8486 325.072 93.3152 322.227 94.3419C319.382 95.3392 316.419 95.8379 313.339 95.8379ZM362.371 47.1739H370.423L371.171 53.2899H371.743C373.474 51.2072 375.703 49.5792 378.431 48.4059C381.188 47.2326 384.063 46.6459 387.055 46.6459C388.756 46.6459 390.355 46.7926 391.851 47.0859V55.8419C390.414 55.5779 388.654 55.4459 386.571 55.4459C383.99 55.4459 381.364 55.9446 378.695 56.9419C376.026 57.9392 373.84 59.4206 372.139 61.3859V95.0459H362.371V47.1739ZM409.069 95.0459V47.1739H418.837V95.0459H409.069ZM413.953 37.8459C411.871 37.8459 410.287 37.3912 409.201 36.4819C408.145 35.5726 407.617 34.2672 407.617 32.5659C407.617 30.8352 408.145 29.5152 409.201 28.6059C410.287 27.6672 411.871 27.1979 413.953 27.1979C416.036 27.1979 417.605 27.6672 418.661 28.6059C419.747 29.5152 420.289 30.8352 420.289 32.5659C420.289 34.2672 419.747 35.5726 418.661 36.4819C417.605 37.3912 416.036 37.8459 413.953 37.8459ZM464.85 95.9259C456.607 95.9259 450.315 93.8432 445.974 89.6779C441.662 85.5126 439.506 79.3526 439.506 71.1979C439.506 63.0139 441.779 56.8392 446.326 52.6739C450.902 48.5086 457.575 46.4259 466.346 46.4259C470.716 46.4259 474.735 46.9246 478.402 47.9219V55.7099C476.378 55.2406 474.486 54.8886 472.726 54.6539C470.966 54.4192 469.118 54.3019 467.182 54.3019C461.168 54.3019 456.71 55.6512 453.806 58.3499C450.931 61.0486 449.494 65.2872 449.494 71.0659C449.494 76.8739 450.858 81.1566 453.586 83.9139C456.343 86.6712 460.42 88.0499 465.818 88.0499C467.695 88.0499 469.616 87.8886 471.582 87.5659C473.547 87.2139 475.82 86.6712 478.402 85.9379V93.7259C474.236 95.1926 469.719 95.9259 464.85 95.9259ZM574.428 95.0459L553.704 69.0859C553.176 69.1152 552.37 69.1299 551.284 69.1299C548.38 69.1299 544.978 68.9832 541.076 68.6899V95.0459H531.308V31.4659C537.967 29.9699 544.846 29.2219 551.944 29.2219C561.595 29.2219 568.752 30.8059 573.416 33.9739C578.08 37.1126 580.412 42.1286 580.412 49.0219C580.412 54.0086 579.004 58.0859 576.188 61.2539C573.402 64.4219 569.266 66.6366 563.78 67.8979L585.648 95.0459H574.428ZM541.076 61.2099C543.071 61.4152 544.816 61.5619 546.312 61.6499C547.838 61.7379 549.627 61.7819 551.68 61.7819C558.427 61.7819 563.34 60.7699 566.42 58.7459C569.5 56.6926 571.04 53.4952 571.04 49.1539C571.04 46.0739 570.395 43.6099 569.104 41.7619C567.843 39.9139 565.863 38.5792 563.164 37.7579C560.495 36.9366 556.975 36.5259 552.604 36.5259C550.404 36.5259 548.424 36.6139 546.664 36.7899C544.904 36.9659 543.042 37.2299 541.076 37.5819V61.2099ZM642.947 74.0139H608.231C608.407 77.4752 609.155 80.2766 610.475 82.4179C611.795 84.5299 613.775 86.0846 616.415 87.0819C619.055 88.0792 622.443 88.5779 626.579 88.5779C630.686 88.5779 635.233 87.9472 640.219 86.6859V93.9459C635.027 95.2659 630.026 95.9259 625.215 95.9259C616.298 95.9259 609.61 93.9166 605.151 89.8979C600.722 85.8499 598.507 79.6166 598.507 71.1979C598.507 65.9179 599.402 61.4299 601.191 57.7339C602.981 54.0379 605.562 51.2366 608.935 49.3299C612.338 47.3939 616.43 46.4259 621.211 46.4259C628.251 46.4259 633.634 48.5819 637.359 52.8939C641.085 57.1766 642.947 63.3659 642.947 71.4619V74.0139ZM621.079 52.8939C616.973 52.8939 613.834 54.1406 611.663 56.6339C609.493 59.0979 608.334 62.9259 608.187 68.1179H633.751C633.634 62.9259 632.519 59.0979 630.407 56.6339C628.295 54.1406 625.186 52.8939 621.079 52.8939ZM677.365 95.9259C671.352 95.9259 665.896 95.2219 660.997 93.8139V86.7299C666.248 88.1966 671.718 88.9299 677.409 88.9299C681.809 88.9299 684.977 88.3432 686.913 87.1699C688.849 85.9672 689.817 84.2219 689.817 81.9339C689.817 80.7019 689.597 79.6899 689.157 78.8979C688.717 78.0766 687.969 77.4019 686.913 76.8739C685.857 76.3166 684.405 75.8912 682.557 75.5979L674.065 74.2779C669.137 73.4859 665.573 71.9899 663.373 69.7899C661.202 67.5899 660.117 64.6419 660.117 60.9459C660.117 56.4579 661.965 52.9232 665.661 50.3419C669.386 47.7312 675.062 46.4259 682.689 46.4259C685.094 46.4259 687.485 46.5872 689.861 46.9099C692.266 47.2032 694.481 47.6432 696.505 48.2299V55.2699C692.046 54.0379 687.456 53.4219 682.733 53.4219C677.893 53.4219 674.476 54.0526 672.481 55.3139C670.486 56.5752 669.489 58.3206 669.489 60.5499C669.489 62.2219 670.002 63.5859 671.029 64.6419C672.056 65.6686 673.889 66.4166 676.529 66.8859L685.021 68.2059C689.92 68.9686 693.513 70.3766 695.801 72.4299C698.089 74.4832 699.233 77.4606 699.233 81.3619C699.233 84.3832 698.412 86.9792 696.769 89.1499C695.156 91.3206 692.706 92.9926 689.421 94.1659C686.165 95.3392 682.146 95.9259 677.365 95.9259ZM760.579 74.0139H725.863C726.039 77.4752 726.787 80.2766 728.107 82.4179C729.427 84.5299 731.407 86.0846 734.047 87.0819C736.687 88.0792 740.075 88.5779 744.211 88.5779C748.317 88.5779 752.864 87.9472 757.851 86.6859V93.9459C752.659 95.2659 747.657 95.9259 742.847 95.9259C733.929 95.9259 727.241 93.9166 722.783 89.8979C718.353 85.8499 716.139 79.6166 716.139 71.1979C716.139 65.9179 717.033 61.4299 718.823 57.7339C720.612 54.0379 723.193 51.2366 726.567 49.3299C729.969 47.3939 734.061 46.4259 738.843 46.4259C745.883 46.4259 751.265 48.5819 754.991 52.8939C758.716 57.1766 760.579 63.3659 760.579 71.4619V74.0139ZM738.711 52.8939C734.604 52.8939 731.465 54.1406 729.295 56.6339C727.124 59.0979 725.965 62.9259 725.819 68.1179H751.383C751.265 62.9259 750.151 59.0979 748.039 56.6339C745.927 54.1406 742.817 52.8939 738.711 52.8939ZM796.986 46.4259C802.032 46.4259 806.138 47.0272 809.306 48.2299C812.474 49.4032 814.85 51.3686 816.434 54.1259C818.018 56.8832 818.81 60.6379 818.81 65.3899V95.0459H810.626L809.922 89.8979H809.394C807.605 91.7752 805.346 93.2419 802.618 94.2979C799.89 95.3246 796.986 95.8379 793.906 95.8379C790.386 95.8379 787.38 95.2952 784.886 94.2099C782.393 93.0952 780.501 91.5406 779.21 89.5459C777.92 87.5512 777.274 85.2046 777.274 82.5059C777.274 78.2526 778.858 74.9672 782.026 72.6499C785.224 70.3032 790.298 68.8219 797.25 68.2059L809.218 67.0179V64.7299C809.218 61.9139 808.734 59.7139 807.766 58.1299C806.798 56.5459 805.332 55.4312 803.366 54.7859C801.43 54.1406 798.849 53.8179 795.622 53.8179C793.393 53.8179 790.973 54.0086 788.362 54.3899C785.781 54.7712 783.302 55.3432 780.926 56.1059V48.8019C783.273 48.0392 785.869 47.4526 788.714 47.0419C791.589 46.6312 794.346 46.4259 796.986 46.4259ZM796.502 89.0619C798.849 89.0619 801.122 88.6512 803.322 87.8299C805.522 86.9792 807.488 85.7179 809.218 84.0459V72.8259L797.998 73.9259C794.097 74.3659 791.31 75.2166 789.638 76.4779C787.966 77.7099 787.13 79.4699 787.13 81.7579C787.13 84.0752 787.908 85.8792 789.462 87.1699C791.017 88.4312 793.364 89.0619 796.502 89.0619ZM841.524 47.1739H849.576L850.324 53.2899H850.896C852.627 51.2072 854.856 49.5792 857.584 48.4059C860.341 47.2326 863.216 46.6459 866.208 46.6459C867.909 46.6459 869.508 46.7926 871.004 47.0859V55.8419C869.567 55.5779 867.807 55.4459 865.724 55.4459C863.143 55.4459 860.517 55.9446 857.848 56.9419C855.179 57.9392 852.993 59.4206 851.292 61.3859V95.0459H841.524V47.1739ZM909.164 95.9259C900.921 95.9259 894.629 93.8432 890.288 89.6779C885.976 85.5126 883.82 79.3526 883.82 71.1979C883.82 63.0139 886.093 56.8392 890.64 52.6739C895.216 48.5086 901.889 46.4259 910.66 46.4259C915.03 46.4259 919.049 46.9246 922.716 47.9219V55.7099C920.692 55.2406 918.8 54.8886 917.04 54.6539C915.28 54.4192 913.432 54.3019 911.496 54.3019C905.482 54.3019 901.024 55.6512 898.12 58.3499C895.245 61.0486 893.808 65.2872 893.808 71.0659C893.808 76.8739 895.172 81.1566 897.9 83.9139C900.657 86.6712 904.734 88.0499 910.132 88.0499C912.009 88.0499 913.93 87.8886 915.896 87.5659C917.861 87.2139 920.134 86.6712 922.716 85.9379V93.7259C918.55 95.1926 914.033 95.9259 909.164 95.9259ZM941.796 23.9419H951.564V52.2779H952.048C954.248 50.3712 956.756 48.9192 959.572 47.9219C962.417 46.9246 965.395 46.4259 968.504 46.4259C974.019 46.4259 978.375 47.9952 981.572 51.1339C984.769 54.2432 986.368 59.0686 986.368 65.6099V95.0459H976.6V66.0939C976.6 62.0459 975.661 59.1566 973.784 57.4259C971.936 55.6952 969.237 54.8299 965.688 54.8299C963.048 54.8299 960.481 55.3286 957.988 56.3259C955.524 57.2939 953.383 58.7312 951.564 60.6379V95.0459H941.796V23.9419Z" fill="#14C290"/>
+<rect x="0.205322" y="14.873" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="14.679" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="14.679" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="86.6055" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="86.6055" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="101.284" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="58.7158" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="58.7158" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="87.1592" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="87.1592" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="73.0205" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="73.0205" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="87.3262" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="87.3262" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="101.631" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="101.631" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="101.284" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="15.0187" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.2668" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.2668" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.445" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.7506" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="100.716" y="14.873" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+</svg></a>
+<h1><span class="ticker">ENG.MC</span> <span class="rating down">Underweight</span></h1>
+<p class="date">Analysis of 2026-11-26</p>
+<dl class="run"><div class="detail"><dt>Generated</dt><dd>2026-11-26 21:28</dd></div><div class="detail"><dt>Deep model</dt><dd><span class="field">google</span> <span class="field">gemini-3.5-flash-lite</span></dd></div><div class="detail"><dt>Quick model</dt><dd><span class="field">google</span> <span class="field">gemini-3.5-flash-lite</span></dd></div><div class="detail"><dt>Analysts</dt><dd><span class="field">market</span> <span class="field">news</span> <span class="field">fundamentals</span></dd></div><div class="detail"><dt>Debate rounds</dt><dd><span class="group"><span class="name">research</span><span class="field">1</span></span> <span class="group"><span class="name">risk</span><span class="field">1</span></span></dd></div><div class="detail"><dt>Data vendors</dt><dd><span class="group"><span class="name">Prices</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Indicators</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Fundamentals</span><span class="field">yfinance</span></span> <span class="group"><span class="name">News</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Macro</span><span class="field">fred</span></span> <span class="group"><span class="name">Prediction markets</span><span class="field">polymarket</span></span> <span class="group"><span class="name">get_news</span><span class="field">ibex_sample</span></span> <span class="group"><span class="name">get_global_news</span><span class="field">ibex_sample</span></span></dd></div><div class="detail"><dt>Version</dt><dd>TradingAgents 0.7.1</dd></div></dl>
+</header>
+<nav class="contents" aria-label="Sections"><ul><li><a href="#s1"><span class="num">I</span> <span class="label">Analyst Team Reports</span></a><ul><li><a href="#s1-1"><span class="bar"></span> <span class="label">Market Analyst</span></a></li><li><a href="#s1-2"><span class="bar"></span> <span class="label">News Analyst</span></a></li><li><a href="#s1-3"><span class="bar"></span> <span class="label">Fundamentals Analyst</span></a></li></ul></li><li><a href="#s2"><span class="num">II</span> <span class="label">Research Team Decision</span></a><ul><li><a href="#s2-1"><span class="bar"></span> <span class="label">Bull Researcher</span></a></li><li><a href="#s2-2"><span class="bar"></span> <span class="label">Bear Researcher</span></a></li><li><a href="#s2-3"><span class="bar"></span> <span class="label">Research Manager</span></a></li></ul></li><li><a href="#s3"><span class="num">III</span> <span class="label">Trading Team Plan</span></a><ul><li><a href="#s3-1"><span class="bar"></span> <span class="label">Trader</span></a></li></ul></li><li><a href="#s4"><span class="num">IV</span> <span class="label">Risk Management Team Decision</span></a><ul><li><a href="#s4-1"><span class="bar"></span> <span class="label">Aggressive Analyst</span></a></li><li><a href="#s4-2"><span class="bar"></span> <span class="label">Conservative Analyst</span></a></li><li><a href="#s4-3"><span class="bar"></span> <span class="label">Neutral Analyst</span></a></li></ul></li><li><a href="#s5"><span class="num">V</span> <span class="label">Portfolio Manager Decision</span></a><ul><li><a href="#s5-1"><span class="bar"></span> <span class="label">Portfolio Manager</span></a></li></ul></li></ul></nav>
+<main>
+<section id="s1"><h2>I. Analyst Team Reports</h2><h3 id="s1-1">Market Analyst</h3>
+<p><strong>Rating</strong>: HOLD<br />
+FINAL TRANSACTION PROPOSAL: Mantener la posición actual en <strong>ENG.MC</strong> a la espera de una confirmación más clara en la transición hacia proyectos de hidrógeno y la evolución de los tipos de interés.</p>
+<hr />
+<h6>Informe de Análisis Financiero y Técnico: Enagás, S.A. (<code>ENG.MC</code>)</h6>
+<h6>1. Contexto de Mercado y Datos Fundamentales</h6>
+<p>A fecha de 26 de noviembre de 2026, <strong>Enagás, S.A. (<code>ENG.MC</code>)</strong> cotiza en la Bolsa de Madrid (<code>MCE</code>) a un precio de <strong>18.12 EUR</strong>, experimentando una subida diaria del <strong>1.29%</strong> (respaldada por un tono alcista general en las bolsas europeas impulsado por el sector bancario y financiero). Su capitalización de mercado se sitúa en aproximadamente <strong>4.720 millones de EUR</strong>, con una ratio de PER histórico (<em>trailing PE</em>) de <strong>13.23x</strong> y un PER adelantado (<em>forward PE</em>) de <strong>15.96x</strong>.</p>
+<p>En el frente de la rentabilidad por dividendo, <code>ENG.MC</code> destaca con un atractivo <strong>5.59%</strong> (<em>dividend yield</em>), respaldado por una tasa de dividendo de 1.00 EUR por acción y un ratio de reparto (<em>payout ratio</em>) de alrededor del <strong>79.96%</strong>. No obstante, presenta desafíos estructurales reflejados en sus fundamentales recientes:</p>
+<ul>
+<li><strong>Crecimiento de ingresos:</strong> Tasa de crecimiento interanual de ingresos del <strong>-9.1%</strong>, con ingresos totales de <strong>960.4 millones de EUR</strong> para el ejercicio 2025 (frente a 905.5 millones en 2024).</li>
+<li><strong>Deuda y apalancamiento:</strong> La compañía registra una deuda total de <strong>3.155 millones de EUR</strong> (frente a activos totales de 6.823 millones en 2025). Su ratio de deuda neta sobre EBITDA se sitúa en un elevado <strong>6.15x</strong>, lo que limita su flexibilidad financiera a corto plazo.</li>
+<li><strong>Flujo de caja:</strong> El flujo de caja libre (<em>free cash flow</em>) reportado para 2025 se redujo a <strong>94.4 millones de EUR</strong> (por debajo de los 357.1 millones de 2024), lo que exige una gestión estricta del capital ante las inversiones futuras.</li>
+</ul>
+<h6>2. Análisis Técnico y Momentum</h6>
+<p>El comportamiento técnico de <code>ENG.MC</code> muestra una recuperada fortaleza a medio y largo plazo:</p>
+<ul>
+<li><strong>Medias Móviles:</strong> El precio de cierre (18.12 EUR) se encuentra por encima de su SMA de 20 sesiones (<strong>17.85 EUR</strong>), SMA de 50 sesiones (<strong>17.25 EUR</strong>) y SMA de 200 sesiones (<strong>16.50 EUR</strong>), lo que confirma una tendencia alcista sostenida tanto a corto como a largo plazo.</li>
+<li><strong>RSI (14):</strong> Se sitúa en <strong>62.73</strong>, indicando un sesgo alcista moderado sin llegar todavía a zonas de sobrecompra estricta (fijadas habitualmente en 70).</li>
+<li><strong>MACD:</strong> El valor del MACD es <strong>0.17</strong> con una línea de señal de <strong>0.20</strong>. Aunque el histograma muestra una ligera compresión del impulso a corto plazo, la tendencia general sigue siendo constructiva.</li>
+<li><strong>Volatilidad y Retornos:</strong> La volatilidad anualizada a 511 sesiones se sitúa en <strong>14.66%</strong>. Los retornos acumulados muestran un sólido desempeño: <strong>+2.49%</strong> a 21 sesiones, <strong>+7.54%</strong> a 63 sesiones y un notable <strong>+35.57%</strong> a 252 sesiones. El <em>drawdown</em> actual se mantiene controlado en un <strong>-1.52%</strong> desde sus máximos recientes.</li>
+</ul>
+<h6>3. Contexto Estratégico y Noticias Recientes</h6>
+<p>Las noticias recientes sobre Enagás destacan dos vectores fundamentales para su valoración futura:</p>
+<ol>
+<li><strong>Apuesta por el Hidrógeno y H2Med:</strong> Informes recientes de finales de noviembre de 2026 señalan que el proyecto H2Med avanza &quot;a velocidad de crucero&quot; posicionando a España como un <em>hub</em> estratégico para el hidrógeno verde. Sin embargo, analistas y medios (como <em>Merca2.es</em>) advierten que la compañía tendrá que esperar hasta <strong>2029</strong> para empezar a rentabilizar de forma significativa esta gran apuesta de inversión.</li>
+<li><strong>Valoraciones de Analistas:</strong> Firmas como Berenberg han elevado ligeramente el precio objetivo de <code>ENG.MC</code>, aunque mantienen cautela ante posibles correcciones bursátiles derivadas del entorno macroeconómico de tipos de interés altos (con el euríbor superando el 3.3% a finales de 2026). El consenso del mercado sitúa el precio objetivo medio en <strong>17.23 EUR</strong> (con un rango entre 13.00 EUR y 19.80 EUR y 19 opiniones analíticas), lo que implica un potencial de retorno negativo (<em>consensus upside</em> de <strong>-4.92%</strong> respecto al precio actual de 18.12 EUR debido a las recientes subidas de cotización).</li>
+</ol>
+<h6>4. Selección de Indicadores Clave</h6>
+<p>Siguiendo los criterios metodológicos, se seleccionan los siguientes indicadores complementarios para el seguimiento y gestión de riesgo de <code>ENG.MC</code>:</p>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Categoría</th>
+<th style="text-align:left">Indicador Seleccionado</th>
+<th style="text-align:left">Propósito / Uso en <code>ENG.MC</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Tendencia (Mediano Plazo)</strong></td>
+<td style="text-align:left"><code>close_50_sma</code></td>
+<td style="text-align:left">Identificar la dirección de la tendencia a medio plazo y actuar como soporte dinámico en retrocesos.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Tendencia (Largo Plazo)</strong></td>
+<td style="text-align:left"><code>close_200_sma</code></td>
+<td style="text-align:left">Confirmar el cambio estructural de largo plazo y la salud general de la tendencia alcista.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Momentum / Cruces</strong></td>
+<td style="text-align:left"><code>macd</code></td>
+<td style="text-align:left">Capturar la divergencia y convergencia del impulso alcista/bajista de los precios.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Señal de Momentum</strong></td>
+<td style="text-align:left"><code>macds</code></td>
+<td style="text-align:left">Filtrar los cruces de la línea MACD para modular entradas o tomas de beneficios tácticas.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Oscilador de Sobrecompra</strong></td>
+<td style="text-align:left"><code>rsi</code></td>
+<td style="text-align:left">Medir la fuerza del impulso para identificar condiciones de sobrecompra (&gt;70) o sobreventa (&lt;30).</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Volatilidad / Banda Superior</strong></td>
+<td style="text-align:left"><code>boll_ub</code></td>
+<td style="text-align:left">Evaluar zonas de extensión alcista y potenciales pausas en el precio sobre la banda de 2 desviaciones típicas.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Volatilidad / Banda Inferior</strong></td>
+<td style="text-align:left"><code>boll_lb</code></td>
+<td style="text-align:left">Identificar niveles dinámicos de sobreventa o soporte extremo ante correcciones del mercado.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Gestión de Riesgo</strong></td>
+<td style="text-align:left"><code>atr</code></td>
+<td style="text-align:left">Medir el rango verdadero promedio para establecer niveles de <em>stop-loss</em> adaptados a la volatilidad del valor (14.66%).</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h6>Resumen Estructurado (Tabla Clave)</h6>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Métrica / Componente</th>
+<th style="text-align:left">Dato / Valor</th>
+<th style="text-align:left">Observaciones Relevantes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Ticker e Instrumento</strong></td>
+<td style="text-align:left"><code>ENG.MC</code> (Enagás, S.A.)</td>
+<td style="text-align:left">Utilities / Utilities - Regulated Gas (Bolsa de Madrid, EUR).</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Precio de Cierre</strong></td>
+<td style="text-align:left">18.12 EUR</td>
+<td style="text-align:left">Cotización a 26 de noviembre de 2026 (+1.29% en la sesión).</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Valoración (PER)</strong></td>
+<td style="text-align:left">13.23x (Trailing) / 15.96x (Forward)</td>
+<td style="text-align:left">Valoración intermedia en comparación con la mediana sectorial (17.58x).</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Dividendo</strong></td>
+<td style="text-align:left">5.59% (Yield) / 1.00 EUR</td>
+<td style="text-align:left">Atractivo flujo de rentabilidad para el inversor por dividendo, <em>payout</em> de</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="s1-2">News Analyst</h3>
+<p><strong>Rating</strong>: HOLD<br />
+<strong>FINAL TRANSACTION PROPOSAL</strong>: REVIEW</p>
+<h6>Informe de Análisis y Estado de Situación de ENG.MC (Enagás, S.A.)</h6>
+<p>A continuación se presenta un análisis exhaustivo de la situación macroeconómica, bursátil y fundamental para <strong>ENG.MC</strong> (Enagás, S.A.), basándose estrictamente en la evidencia pregrabada y los datos de mercado a fecha de 26 de noviembre de 2026.</p>
+<hr />
+<h6>1. Resumen de Mercado y Contexto Macroeconómico</h6>
+<p>Las bolsas europeas han registrado fuertes subidas impulsadas por los sectores de banca y tecnología (con avances del Euro Stoxx 50 y el DAX superior al 2% en las últimas sesiones del 26 de noviembre de 2026). En el plano monetario europeo, destaca el nombramiento de Pablo Hernández de Cos como presidente del BCE (anunciado el 26 de noviembre de 2026), mientras que el euríbor supera el 3,3% en un entorno de tipos de interés altos, lo que encarece la financiación y condiciona las valoraciones por descuento de flujos de caja en utilities reguladas.</p>
+<h6>2. Análisis Fundamental y Valoración de ENG.MC</h6>
+<ul>
+<li><strong>Identidad y Negocio</strong>: Enagás, S.A. (<code>ENG.MC</code>) es una empresa cotizada en el mercado español (MCE), clasificada en el sector <em>Utilities / Utilities - Regulated Gas</em>.</li>
+<li><strong>Datos Bursátiles y Técnicos</strong>:
+<ul>
+<li><strong>Precio de Cierre</strong>: 18,12 EUR (2026-11-26).</li>
+<li><strong>Rentabilidades</strong>: Retorno a 21 sesiones del 2,49%; retorno a 63 sesiones del 7,54%; retorno a 252 sesiones del 35,57%. El valor muestra un comportamiento relativo positivo frente al mercado (<em>relative63_pp</em> de +12,12 pp).</li>
+<li><strong>Indicadores Técnicos</strong>: RSI de 14 sesiones en 62,73 (zona de optimismo moderado sin sobrecompra extrema); MACD en 0,167 por debajo de su línea de señal (0,200). Cotiza por encima de sus medias móviles de 20, 50 y 200 sesiones (SMA20: 17,85 EUR, SMA50: 17,25 EUR, SMA200: 16,50 EUR), lo que indica una tendencia alcista de medio y largo plazo. La volatilidad anualizada se sitúa en 14,66%.</li>
+</ul>
+</li>
+<li><strong>Datos Fundamentales y Valoración</strong>:
+<ul>
+<li><strong>Capitalización Bursátil</strong>: ~4.717 millones de EUR.</li>
+<li><strong>PER (Trailing)</strong>: 13,23x; <strong>PER (Forward)</strong>: 15,96x.</li>
+<li><strong>Múltiplo de Valoración Relativa</strong>: El <em>peer median forward PE</em> se sitúa en 17,58x, lo que arroja una ratio <em>ENG.MC</em> de 0,91x (PER relativo intermedio, cotizando ligeramente por debajo de la mediana del sector en términos de PER adelantado).</li>
+<li><strong>Deuda y Endeudamiento</strong>: Deuda total de 3.155,8 millones de EUR frente a una caja de 537,3 millones de EUR. La ratio <em>net_debt_ebitda</em> es elevada, situándose en 6,15x.</li>
+<li><strong>Dividendos</strong>: Ofrece una atractiva rentabilidad por dividendo (<em>dividend_yield_pct</em>) del 5,52% (con un <em>dividendRate</em> de 1,00 EUR y un <em>payout ratio</em> estimado del 79,96%).</li>
+<li><strong>Consenso de Analistas</strong>: El precio objetivo medio (<em>targetMeanPrice</em>) se sitúa en 17,23 EUR (con un rango entre un mínimo de 13,00 EUR y un máximo de 19,80 EUR, basado en 19 opiniones de analistas). Esto implica un potencial de retorno actual al precio de 18,12 EUR de aproximadamente -4,92% (<em>consensus_upside_pct</em>), sugiriendo que el valor ya se encuentra ajustado o ligeramente por encima del precio objetivo de consenso.</li>
+</ul>
+</li>
+</ul>
+<h6>3. Noticias Recientes y Catalizadores Clave</h6>
+<ul>
+<li><strong>Apuesta por el Hidrógeno y H2Med</strong>: Enagás avanza en sus proyectos de hidrógeno verde y el corredor H2Med a &quot;velocidad de crucero&quot;, apuntando a oportunidades estratégicas para España. No obstante, informes recientes (Merca2.es, 25 de noviembre de 2026) señalan que la compañía tendrá que esperar hasta <strong>2029</strong> para rentabilizar de manera significativa esta gran apuesta de transición energética.</li>
+<li><strong>Revisiones de Analistas</strong>: Firmas como Berenberg han elevado ligeramente el precio objetivo de Enagás, pero continúan advirtiendo de posibles correcciones bursátiles dadas las exigencias de capex y el contexto de tipos de interés (<em>Bolsamania</em>, 24 de noviembre de 2026).</li>
+<li><strong>Atractivo por Dividendo</strong>: El soporte técnico de la acción sigue respaldado por la rentabilidad por dividendo (cercana al 5,6%) y el interés inversor en valores defensivos con flujos regulados.</li>
+</ul>
+<h6>4. Datos Faltantes y Limitaciones</h6>
+<ul>
+<li>No se dispone de un desglose detallado de flujos de caja futuros a más de 3 años, ni de estimaciones internas de descuento de flujos de caja libres (DCF) más allá de los datos proporcionados por el snapshot y los estados financieros auditados a cierre de 2025.</li>
+</ul>
+<hr />
+<h6>Resumen en Tabla Organizada</h6>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Categoría</th>
+<th style="text-align:left">Métrica / Variable</th>
+<th style="text-align:left">Valor / Estado</th>
+<th style="text-align:left">Implicación para el Inversor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Precio y Tendencia</strong></td>
+<td style="text-align:left">Precio de Cierre (<code>ENG.MC</code>)</td>
+<td style="text-align:left">18,12 EUR (2026-11-26)</td>
+<td style="text-align:left">Tendencia alcista sostenida; cotiza por encima de SMA200 (16,50 EUR).</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Valoración</strong></td>
+<td style="text-align:left">PER Forward / Histórico</td>
+<td style="text-align:left">15,96x / 13,23x</td>
+<td style="text-align:left">Valoración intermedia (Ratio 0,91x frente a la mediana de peers de 17,58x).</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Consenso</strong></td>
+<td style="text-align:left">Precio Objetivo Medio</td>
+<td style="text-align:left">17,23 EUR (19 analistas)</td>
+<td style="text-align:left">Potencial de -4,92% frente al precio actual; sobre el objetivo medio.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Retorno al Accionista</strong></td>
+<td style="text-align:left">Rentabilidad por Dividendo</td>
+<td style="text-align:left">5,52% (Payout ~79,96%)</td>
+<td style="text-align:left">Atractivo flujo de caja para inversores orientados a rentas.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Salud Financiera</strong></td>
+<td style="text-align:left">Deuda Neta / EBITDA</td>
+<td style="text-align:left">6,15x</td>
+<td style="text-align:left">Apalancamiento elevado característico de infraestructuras reguladas de gas.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Catalizador Estratégico</strong></td>
+<td style="text-align:left">H2Med / Hidrógeno</td>
+<td style="text-align:left">En desarrollo</td>
+<td style="text-align:left">Oportunidad a largo plazo, pero la rentabilización comercial no llegará hasta 2029.</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="s1-3">Fundamentals Analyst</h3>
+<p><strong>Rating</strong>: REVIEW</p>
+<p><strong>FINAL TRANSACTION PROPOSAL</strong>: HOLD</p>
+<hr />
+<h6>Informe Fundamental Integral: Enagás, S.A. (<code>ENG.MC</code>)</h6>
+<h6>1. Perfil de la Compañía y Negocio Regulado</h6>
+<p>Enagás, S.A. (<code>ENG.MC</code>) cotiza en la Bolsa de Madrid (MCE) y forma parte del selectivo español ^IBEX. Está clasificada dentro del sector de <em>Utilities</em> (Servicios Públicos) y más específicamente en <em>Utilities - Regulated Gas</em> (Gas Regulado). La entidad opera como el principal gestor técnico del sistema gasista en España y transportista de gas natural, encontrándose en una fase de transformación estratégica hacia los vectores energéticos descarbonizados, con un fuerte énfasis en el desarrollo de infraestructuras de hidrógeno verde (como el proyecto H2Med, que avanza a &quot;velocidad de crucero&quot; según declaraciones recientes de la compañía, aunque con horizontes de rentabilización proyectados hacia 2029).</p>
+<h6>2. Análisis de Estados Financieros Históricos</h6>
+<p>Los datos financieros extraídos de los informes anuales recientes reflejan una reestructuración significativa de sus magnitudes operativas y patrimoniales:</p>
+<ul>
+<li><strong>Cuenta de Resultados (Income Statement):</strong>
+<ul>
+<li><em>Ingresos Totales (Total Revenue):</em> 907,57M€ (2023) $\rightarrow$ 905,55M€ (2024) $\rightarrow$ 960,40M€ (2025). Se observa una ligera recuperación de la cifra de negocios en el último ejercicio fiscal reportado (2025), tras la estabilidad mostrada en 2024.</li>
+<li><em>EBITDA:</em> Experimentó una gran volatilidad contable pasando de 810,84M€ en 2023 a un mínimo temporal de 80,65M€ en 2024 (derivado de minusvalías o ajustes extraordinarios por desinversiones), para recuperarse hasta los 762,75M€ al cierre de 2025.</li>
+<li><em>Beneficio Neto (Net Income):</em> 342,53M€ (2023) $\rightarrow$ -299,31M€ (2024, reflejando el impacto de minusvalías extraordinarias) $\rightarrow$ 339,11M€ (2025, retornando a terreno positivo y estabilizando la rentabilidad ordinaria).</li>
+</ul>
+</li>
+<li><strong>Balance de Situación (Balance Sheet):</strong>
+<ul>
+<li><em>Activos Totales:</em> Han ido disminuyendo progresivamente desde los 8.507,27M€ (2023) hasta 6.823,44M€ en 2025, consecuencia directa de la estrategia de rotación de activos y desinversiones internacionales para reducir apalancamiento.</li>
+<li><em>Deuda Total (Total Debt):</em> Se ha reducido notablemente desde los 3.806,16M€ (2023) a 3.313,73M€ (2024) y 2.822,89M€ (2025), evidenciando un esfuerzo de desendeudamiento corporativo. No obstante, las métricas agregadas actuales sitúan la Deuda Neta sobre EBITDA en torno a <strong>6.15x</strong>, un nivel todavía elevado típico de activos regulados intensivos en capital.</li>
+<li><em>Patrimonio Neto (Stockholders Equity):</em> 2.983,69M€ (2023) $\rightarrow$ 2.375,76M€ (2024) $\rightarrow$ 2.301,11M€ (2025).</li>
+</ul>
+</li>
+<li><strong>Flujos de Caja (Cash Flow):</strong>
+<ul>
+<li><em>Flujo de Caja Operativo:</em> 568,84M€ (2023) $\rightarrow$ 454,99M€ (2024) $\rightarrow$ 212,54M€ (2025).</li>
+<li><em>Gastos de Capital (CapEx):</em> -156,97M€ (2023) $\rightarrow$ -97,89M€ (2024) $\rightarrow$ -118,12M€ (2025).</li>
+<li><em>Flujo de Caja Libre (Free Cash Flow):</em> 411,87M€ (2023) $\rightarrow$ 357,10M€ (2024) $\rightarrow$ 94,42M€ (2025).</li>
+</ul>
+</li>
+</ul>
+<h6>3. Métricas Financieras y de Valoración Actuales</h6>
+<p>A fecha del análisis (26 de noviembre de 2026), con un precio por acción de <strong>18.12 EUR</strong>:</p>
+<ul>
+<li><strong>Capitalización de Mercado:</strong> 4.716,6M€</li>
+<li><strong>PER (Trailing):</strong> 13.23x / <strong>PER (Forward):</strong> 15.96x</li>
+<li><strong>Precio / Valor en Libros (P/B):</strong> 1.98x</li>
+<li><strong>EV / EBITDA:</strong> 17.13x</li>
+<li><strong>Rentabilidad por Dividendo (Dividend Yield):</strong> Atractiva tasa estimada en el <strong>5.52% - 5.59%</strong>, sustentada por un dividendo anual de 1.00 EUR por acción y un <em>payout ratio</em> del 79.96%.</li>
+<li><strong>Márgenes y Rentabilidad:</strong> Margen de beneficio neto elevado del 30.14% y un Retorno sobre el Capital Propio (ROE) del 11.88%.</li>
+</ul>
+<h6>4. Contexto Técnico y Perspectiva de Mercado</h6>
+<ul>
+<li><strong>Indicadores Técnicos:</strong> La cotización de <code>ENG.MC</code> se sitúa en <strong>18.12 EUR</strong>, mostrando fortaleza a corto plazo. Las medias móviles reflejan una tendencia alcista sostenida: SMA20 en 17.85 EUR, SMA50 en 17.25 EUR y SMA200 en 16.50 EUR. El RSI de 14 sesiones se encuentra en 62.73 (zona de optimismo moderado sin sobrecompra extrema). La rentabilidad a 252 días alcanza el +35.57%.</li>
+<li><strong>Consenso de Analistas:</strong> El precio objetivo medio de consenso se sitúa en <strong>17.23 EUR</strong> (con un rango entre 13.00 EUR y 19.80 EUR a partir de 19 opiniones analíticas), lo que implica una ligera sobrevaloración teórica a corto plazo de aproximadamente un -4.92% respecto al precio de mercado actual. Casas de análisis como Berenberg han ajustado marginalmente al alza sus valoraciones, aunque mantienen cautela ante los plazos de retorno de la inversión en hidrógeno.</li>
+</ul>
+<h6>5. Datos Faltantes y Limitaciones</h6>
+<ul>
+<li>No se dispone de un desglose detallado de transacciones de iniciados (<em>insider transactions</em>) en tiempo real para esta sesión.</li>
+<li>Las estimaciones de beneficios a futuro (<em>Forward EPS</em> de 1.135 EUR) están sujetas a la evolución regulatoria de la CNMC en los próximos períodos tarifarios.</li>
+</ul>
+<hr />
+<h6>Resumen de Datos Clave (Tabla Organizativa)</h6>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Métrica / Concepto</th>
+<th style="text-align:left">Valor / Dato</th>
+<th style="text-align:left">Observaciones</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Ticker</strong></td>
+<td style="text-align:left"><code>ENG.MC</code></td>
+<td style="text-align:left">Enagás, S.A. (MCE, EUR)</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Precio de Cierre</strong></td>
+<td style="text-align:left">18.12 EUR</td>
+<td style="text-align:left">A fecha 26 de noviembre de 2026</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Capitalización Bursátil</strong></td>
+<td style="text-align:left">4.720 M€</td>
+<td style="text-align:left">Basada en acciones en circulación</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>PER Trailing / Forward</strong></td>
+<td style="text-align:left">13.23x / 15.96x</td>
+<td style="text-align:left">Valuación relativa intermedia frente al sector</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Rentabilidad por Dividendo</strong></td>
+<td style="text-align:left">5.52% - 5</td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table></div>
+</section><section id="s2"><h2>II. Research Team Decision</h2><h3 id="s2-1">Bull Researcher</h3>
+<p>Bull Analyst: ¡Hola colega bajista! Entiendo perfectamente que mires los gráficos de <strong><code>ENG.MC</code></strong> con una ceja levantada y cierta cautela, especialmente cuando ves que el PER adelantado se sitúa en 15.96x o que las grandes apuestas por el hidrógeno verde, como el H2Med, no van a mostrar su rentabilidad a pleno rendimiento hasta finales de la década (hacia 2029). Es totalmente legítimo señalar que la ratio de deuda neta sobre EBITDA ronda los 6.15x y que el consenso de analistas marca un precio objetivo medio en 17.23 EUR, lo que a primera vista podría hacer pensar que el valor está algo estirado frente a su cotización actual de 18.12 EUR.</p>
+<p>Sin embargo, me temo que estás subestimando por completo el <strong>fuerte momentum técnico, la excepcional resiliencia del negocio regulado de Enagás y el atractivo innegable de su dividendo</strong> en un entorno macroeconómico donde los inversores buscan refugio y rentas seguras. ¡Vamos a desglosar por qué los toros tenemos las de ganar aquí!</p>
+<hr />
+<h6>1. Crecimiento, Escalabilidad y Oportunidades de Mercado: El Gigante del Hidrógeno Verde</h6>
+<p>Me argumentas que el H2Med y la transición energética son una promesa lejana, pero en el mundo de las <em>utilities</em> reguladas, <strong>los proyectos transformacionales se pagan por adelantado en términos de valoración estratégica</strong>. Que el corredor H2Med avance a &quot;velocidad de crucero&quot; en este tramo final de 2026 sitúa a España como el <em>hub</em> energético indiscutible de Europa. No estamos hablando de un proyecto especulativo, sino de infraestructura crítica respaldada por la Unión Europea.</p>
+<p>Además, si miras los números recientes, la compañía ya ha demostrado su capacidad de estabilización: los ingresos totales de 2025 cerraron en <strong>960,4 millones de EUR</strong>, revirtiendo los baches anteriores, y el beneficio neto retornó a terreno positivo con <strong>339,1 millones de EUR</strong>. La escalabilidad futura está garantizada a medida que los marcos regulatorios de la CNMC reconozcan las inversiones masivas en descarbonización.</p>
+<h6>2. Ventajas Competitivas y Posicionamiento Dominante</h6>
+<p>¿Qué rival puede replicar la red troncal de gas y la capacidad de transporte de Enagás en España? Simplemente ninguno. <strong><code>ENG.MC</code></strong> goza de una posición de monopolio natural regulado con barreras de entrada titánicas. Su margen de beneficio neto del <strong>30,14%</strong> y un ROE del <strong>11,88%</strong> demuestran que, a pesar de los recortes de activos y la rotación internacional llevada a cabo para recortar la deuda (¡que ha bajado desde los 3.800 millones de EUR en 2023 hasta los 2.822 millones al cierre de 2025!), la empresa mantiene una eficiencia operativa envidiable.</p>
+<h6>3. Indicadores Positivos y Salud Financiera en Mejora</h6>
+<p>Aquí es donde los osos os soléis equivocar al mirar solo la foto fija:</p>
+<ul>
+<li><strong>Desendeudamiento Real:</strong> Sí, la ratio de endeudamiento es alta (6.15x de deuda neta/EBITDA), pero los datos de balance muestran un esfuerzo titánico y exitoso de desapalancamiento. La deuda total se ha reducido en casi 1.000 millones de EUR en los últimos tres años. La compañía se está apretando el cinturón exactamente donde debe.</li>
+<li><strong>Fortaleza Técnica Imparable:</strong> Ignorar los gráficos es un error de bulto. <code>ENG.MC</code> cotiza a <strong>18.12 EUR</strong>, holgadamente por encima de su media móvil de 20 sesiones (17.85 EUR), de 50 sesiones (17.25 EUR) y, sobre todo, de su media de 200 sesiones (16.50 EUR). ¡La tendencia alcista a largo plazo es innegable! El RSI en 62.73 muestra un vigor saludable sin caer en excesos de burbuja, y los retornos a 252 días acumulan un rotundo <strong>+35,57%</strong>. El mercado está premiando activamente al valor.</li>
+<li><strong>El Imán del Dividendo:</strong> ¿Quién puede ignorar una rentabilidad por dividendo (<em>dividend yield</em>) del <strong>5,59%</strong> (1.00 EUR por acción)? En un escenario donde el euríbor supera el 3,3% y la volatilidad macroeconómica persiste, ofrecer un <em>payout</em> sostenible de cerca del 80% con flujos de caja respaldados por tarifas reguladas es un auténtico bálsamo para cualquier cartera institucional.</li>
+</ul>
+<h6>4. Contraargumentando a los Osos: ¿Por qué el consenso se queda corto?</h6>
+<p>Los analistas que emiten un <em>consensus upside</em> negativo (-4,92% frente al objetivo de 17.23 EUR) sufren del sesgo clásico de mirar modelos de descuento de flujos estáticos que ignoran el valor opcional del hidrógeno verde y el apetito insaciable del mercado por activos de alta rentabilidad por dividendo (<em>yield plays</em>). El rebote de las bolsas europeas a finales de noviembre de 2026, impulsado por un tono financiero favorable, demuestra que el dinero inteligente fluye hacia empresas con flujos de caja estables y protegidos contra la inflación como <code>ENG.MC</code>.</p>
+<p>En resumen, los riesgos regulatorios y de apalancamiento ya están más que descontados en su PER de 13.23x, que cotiza con descuento frente a la mediana de sus comparables sectoriales (17.58x). El suelo técnico está consolidado y los catalizadores del hidrógeno están en marcha. ¡Los toros tenemos el control de la tendencia!</p>
+<hr />
+<p><strong>Rating</strong>: HOLD<br />
+FINAL TRANSACTION PROPOSAL: Mantener la posición actual en <strong>ENG.MC</strong> aprovechando su sólida rentabilidad por dividendo y la consolidación de su tendencia técnica alcista, mientras se monitoriza la evolución de los tipos de interés y el avance de los proyectos de hidrógeno hacia 2029.</p>
+<h3 id="s2-2">Bear Researcher</h3>
+<p>Bear Analyst: ¡Hola, colega! Comprendo perfectamente tu entusiasmo cuando miras la racha alcista de <strong><code>ENG.MC</code></strong> y su ganancia acumulada del <strong>+35,57% a 252 sesiones</strong>, o cuando presumes de ese dividendo del <strong>5,59%</strong>. Es muy fácil dejarse deslumbrar por el titular facilón del &quot;hidrógeno verde&quot; y el espejismo de un valor que cotiza momentáneamente por encima de sus medias móviles (con un cierre a <strong>18.12 EUR</strong> frente a una SMA de 200 sesiones en <strong>16.50 EUR</strong>).</p>
+<p>Pero, seamos sinceros: <strong>confundir un rebote técnico y una trampa de rendimiento con solidez fundamental es un error de principiante</strong>. Estás celebrando una victoria táctica mientras ignoras un incendio estructural en el balance. ¡Vamos a desmontar punto por punto ese optimismo exagerado!</p>
+<hr />
+<h6>1. El Espejismo del Hidrógeno: Una Promesa a Tres Plazos Vista para 2029</h6>
+<p>Te agarras al clavo ardiendo del H2Med como si fuera a transformar los ingresos de la compañía mañana mismo. Sin embargo, la realidad que los propios analistas y medios especializados señalan a finales de noviembre de 2026 es terca: <strong>Enagás no verá rentabilidad real ni retornos significativos de su gran apuesta por el hidrógeno hasta, como mínimo, 2029</strong>.</p>
+<p>¿Qué significa esto en la práctica? Que la compañía se está embarcando en un ciclo de inversión masivo en un entorno de <strong>tipos de interés altos</strong> (con el euríbor superando el 3,3% a finales de 2026), lo que encarece drásticamente la financiación. Apostar por un proyecto cuyo <em>payback</em> está a tres o cuatro años vista, mientras los ingresos principales del gas natural sufren caídas estructurales interanuales (recuerda que los ingresos totales cayeron un <strong>-9.1%</strong> recientemente), no es visión estratégica; es asumir un riesgo de ejecución colosal con dinero ajeno.</p>
+<h6>2. El Peligro Silencioso: Un Apalancamiento Asfixiante y FCF Bajo Mínimos</h6>
+<p>Hablas de un &quot;esfuerzo exitoso de desendeudamiento&quot; porque la deuda absoluta ha bajado, pero te niegas a mirar el múltiplo clave: <strong>la ratio de deuda neta sobre EBITDA se sitúa en unos alarmantes 6.15x</strong>. En el sector de <em>utilities</em> reguladas, un apalancamiento superior a 6x es una soga al cuello, especialmente cuando los flujos de caja sufren contracciones drásticas.</p>
+<p>Mira los datos fríos de la caja: el flujo de caja libre (<em>free cash flow</em>) reportado para el cierre de 2025 se desplomó estrepitosamente hasta los <strong>94,4 millones de EUR</strong>, muy lejos de los robustos 357,1 millones de EUR de 2024 o los 411,8 millones de 2023. Con un FCF tan exiguo, <strong>¿de dónde sale realmente el dinero para pagar ese dividendo tan &quot;seguro&quot; del que presumías?</strong> Se está exprimiendo el balance y comprometiendo la flexibilidad financiera futura para mantener artificialmente un <em>payout</em> cercano al <strong>80%</strong> (~79.96%). Eso no es sostenibilidad, es alimentar el cortoplacismo del inversor minorista a costa de la salud patrimonial de la empresa.</p>
+<h6>3. El Consenso no se Equivoca: El Valor Está Estirado</h6>
+<p>Dices que los analistas sufren de sesgo estático al fijar un precio objetivo medio de <strong>17.23 EUR</strong> (que dibuja un potencial de retorno negativo del <strong>-4.92%</strong> respecto a los 18.12 EUR actuales). Con 19 opiniones profesionales en el mercado advirtiendo que el valor está cotizando por encima de su precio teórico justo, pretender que el &quot;dinero inteligente&quot; está comprando ciegamente a estos niveles es ignorar la realidad.</p>
+<p>Además, tu argumento del PER adelantado (<em>forward PE</em> de <strong>15.96x</strong>) choca contra la realidad de que el mercado ya está exigiendo una prima que no se corresponde con la atonía de su negocio tradicional regulado por la CNMC. Si la valoración relativa muestra un ratio de 0.91x frente a la mediana de <em>peers</em> (17.58x), no es porque sea una ganga oculta, sino porque el mercado descuenta una menor tasa de crecimiento terminal y un perfil de riesgo regulatorio elevado.</p>
+<h6>4. La Falacia del Momento Técnico</h6>
+<p>Por último, apoyarse en que el RSI está en <strong>62.73</strong> y que el precio está por encima de las medias móviles es ignorar que los valores regulados maduros son cíclicos respecto a los tipos de interés. Unas bolsas europeas boyantes impulsadas puntualmente por la banca y la tecnología a finales de noviembre de 2026 no inmunizan a <code>ENG.MC</code> frente a la presión de los costes de capital. Cuando el entusiasmo macroeconómico se enfrie y los inversores institucionales recalculen los flujos de caja reales descontados a tipos del 3%+, el suelo técnico de los 16.50 EUR (SMA de 200) volverá a ser visitado más pronto que tarde.</p>
+<p>En conclusión, los riesgos regulatorios, el desplome del flujo de caja libre, el asfixiante apalancamiento de 6.15x y la larga travesía en el desierto hasta 2029 para ver un céntimo del hidrógeno hacen que invertir hoy en <code>ENG.MC</code> a 18.12 EUR sea una apuesta defensiva con demasiadas goteras. ¡Los toros podéis celebrar el dividendo hoy, pero los osos pagaremos la factura mañana!</p>
+<hr />
+<p><strong>Rating</strong>: SELL
+FINAL TRANSACTION PROPOSAL: Reducir exposición o desinvertir tácticamente en <strong>ENG.MC</strong> ante la sobrevaloración frente al precio objetivo de consenso (17.23 EUR), la preocupante caída del flujo de caja libre a 94.4 millones de EUR y un apalancamiento excesivo (6.15x de deuda neta/EBITDA) en un entorno de tipos altos.</p>
+<h3 id="s2-3">Research Manager</h3>
+<p><strong>Recommendation</strong>: Underweight</p>
+<p><strong>Rationale</strong>: El debate deja patente una profunda división entre la narrativa alcista a corto plazo —apoyada en un buen momento técnico con cotización a 18.12 EUR por encima de sus medias móviles, un atractivo dividendo del 5.59% y el atractivo estratégico del corredor H2Med— y los fundamentos de los osos. Sin embargo, los argumentos bajistas pesan de manera decisiva: un flujo de caja libre desplomado a 94.4 millones de EUR en 2025 (frente a los más de 350 millones previos), un apalancamiento asfixiante con una deuda neta sobre EBITDA de 6.15x, un payout cercano al 80% que tensiona el balance en un entorno de tipos altos (euríbor &gt;3.3%), y un precio de cotización que ya supera el precio objetivo medio de consenso de 17.23 EUR (-4.92% de upside). La balanza se inclina claramente hacia la cautela.</p>
+<p><strong>Strategic Actions</strong>: Ejecutar una reducción progresiva de la exposición en ENG.MC para recortar la posición actual en un tercio respecto a la asignación estándar en el sector de utilities. Evitar nuevas compras ante el riesgo de reversión hacia la media móvil de 200 sesiones (16.50 EUR) y la falta de retorno tangible del hidrógeno hasta 2029.</p>
+</section><section id="s3"><h2>III. Trading Team Plan</h2><h3 id="s3-1">Trader</h3>
+<p><strong>Action</strong>: Sell</p>
+<p><strong>Reasoning</strong>: La cotización actual de ENG.MC en 18.12 EUR supera el precio objetivo medio de consenso de 17.23 EUR, lo que implica un potencial negativo del -4.92%. Además, el apalancamiento elevado con una deuda neta sobre EBITDA de 6.15x y un flujo de caja libre reducido a 94.4 millones de EUR tensionan el balance en un entorno de tipos altos, justificando recortar la posición actual.</p>
+<p><strong>Entry Price</strong>: 18.12</p>
+<p><strong>Stop Loss</strong>: 19.5</p>
+<p><strong>Position Sizing</strong>: Reducir la posición actual en un tercio respecto a la asignación estándar</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>SELL</strong></p>
+</section><section id="s4"><h2>IV. Risk Management Team Decision</h2><h3 id="s4-1">Aggressive Analyst</h3>
+<p>Aggressive Analyst: ¡Hola a todos! Escucho las dudas de la mesa, pero se están quedando atrapados en la cautela excesiva mientras el mercado nos está ofreciendo una oportunidad de oro para capitalizar el impulso alcista de Enagás.</p>
+<p>Primero, respondamos al supuesto &quot;exceso&quot; del precio respecto al objetivo de consenso de 17.23 EUR. ¡Ese es el error clásico de mirar el espejo retrovisor! El precio actual de ENG.MC en 18.12 EUR no es una señal de alarma, sino la confirmación de una ruptura técnica impecable. La acción cotiza holgadamente por encima de su media móvil de 20 sesiones en 17.85 EUR, de la de 50 sesiones en 17.25 EUR y, lo más importante, de su SMA de 200 sesiones situada en 16.50 EUR. Con un RSI de 62.73 que muestra un vigor saludable sin asfixiarse en sobrecompra y una rentabilidad a 252 días del +35.57%, el mercado está premiando la fortaleza del valor. ¿Vamos a frenar el crecimiento por atarnos ciegamente a un objetivo de consenso estático? ¡Los consensos siempre van por detrás de los rallies ganadores!</p>
+<p>Segundo, en cuanto al apalancamiento y la ratio de deuda neta sobre EBITDA de 6.15x que tanto asusta a los perfiles conservadores, debemos entender que estamos ante un gigante de infraestructuras reguladas. Las utilities intensivas en capital operan estructuralmente con apalancamientos elevados, pero Enagás ya ha demostrado un esfuerzo activo de desendeudamiento, reduciendo su deuda total desde los más de 3.800 millones en 2023 hasta los 2.822 millones a cierre de 2025. Además, ignorar el atractivo del dividendo del 5.52% con un payout del 79.96% es renunciar a un flujo de caja constante que sostiene la rentabilidad del inversor mientras el valor cabalga esta tendencia alcista.</p>
+<p>Por último, frente a quienes retrasan la fiesta hasta 2029 por el desarrollo del H2Med y el hidrógeno verde, les digo que los mercados descuentan el futuro en el presente. Que el proyecto avance a &quot;velocidad de crucero&quot; posicionando a España como el gran hub energético europeo es un catalizador fundamental que los grandes institucionales ya están comprando hoy. Recortar la posición ahora, como sugieren los analistas neutrales y conservadores, es perderse la cresta de la ola y ceder la ventaja competitiva frente al sector. ¡Hay que mantener y potenciar la exposición al riesgo para maximizar la rentabilidad!</p>
+<p><strong>Rating</strong>: BUY</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>SELL</strong></p>
+<h3 id="s4-2">Conservative Analyst</h3>
+<p>Conservative Analyst: Estimado colega agresivo, entiendo perfectamente el entusiasmo que genera ver una subida acumulada del +35.57% a 252 días y un RSI en 62.73, pero apelar a un &quot;rallie ganador&quot; ignorando los fundamentales y el contexto macroeconómico es una receta directa para la destrucción de valor. Como Analista de Riesgo Conservador, mi deber es recordar que el optimismo técnico no paga las deudas ni compensa la fragilidad del balance.</p>
+<p>Cometemos un grave error si minimizamos la ratio de deuda neta sobre EBITDA de 6.15x simplemente porque &quot;las utilities operan estructuralmente con apalancamiento&quot;. Una deuda total de 3.155 millones de EUR frente a un EBITDA de 425.7 millones de EUR en un entorno donde el euríbor supera el 3.3% y los tipos de interés se mantienen altos representa un riesgo financiero inasumible para la estabilidad de la firma. ¿De qué sirve celebrar una reducción nominal de la deuda si el flujo de caja libre se ha desplomado hasta los 94.4 millones de EUR al cierre de 2025 frente a los 357.1 millones de 2024? Esa asfixia de caja pone en extrema vulnerabilidad la sostenibilidad del dividendo a largo plazo.</p>
+<p>Además, pretender que los analistas van &quot;por detrás del espejo retrovisor&quot; al fijar un precio objetivo medio de consenso de 17.23 EUR es una falacia arriesgada. Cotizar a 18.12 EUR implica un potencial negativo de -4.92%, lo que significa que el mercado ya ha descontado con creces cualquier optimismo cortoplacista. Y respecto a la gran apuesta por el hidrógeno verde y el corredor H2Med, los informes recientes señalan claramente que Enagás no comenzará a rentabilizar estos proyectos hasta 2029. Asumir riesgos elevados hoy por una promesa a tres años vista en un entorno macroeconómico tan volátil expone a nuestra cartera a correcciones severas.</p>
+<p>Por todo ello, la decisión del trader de reducir la posición actual en un tercio es sensata, prudente y absolutamente necesaria para proteger los activos de la firma frente a una sobrevaloración evidente y un balance tensionado. La seguridad y la preservación del capital deben anteponerse siempre a las ilusiones especulativas.</p>
+<p><strong>Rating</strong>: SELL</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>SELL</strong></p>
+<h3 id="s4-3">Neutral Analyst</h3>
+<p>Neutral Analyst: Escuchando a ambos compañeros, creo que se están polarizando demasiado en los extremos. Por un lado, mi colega agresivo tiene razón en que la inercia técnica de <code>ENG.MC</code> es innegable: cotizar a 18.12 EUR por encima de las medias móviles de 20, 50 y 200 sesiones, con un RSI de 62.73 y un retorno anual superior al 35%, demuestra que el impulso alcista a corto plazo existe y que desestimarlo por completo sería ignorar la realidad del mercado. Pero peca de triunfalismo al minimizar los fundamentos; ignorar que el precio ya ha superado el objetivo de consenso de 17.23 EUR (-4.92% de potencial negativo) y calificar el apalancamiento como un simple detalle estructural es una temeridad que deja la cartera expuesta a cualquier corrección de mercado.</p>
+<p>Por otro lado, el analista conservador defiende con acierto la prudencia ante los riesgos reales del balance: una ratio de deuda neta sobre EBITDA de 6.15x y un flujo de caja libre que se redujo a 94.4 millones de EUR en un entorno de tipos altos con el euríbor sobre el 3.3% son datos que pesan como una losa, sin olvidar que el hidrógeno verde de H2Med no aportará rentabilidad tangible hasta 2029. Sin embargo, su propuesta de recortar la posición drásticamente resulta excesivamente punitiva y estática, ya que desatiende la atractiva rentabilidad por dividendo del 5.52% y el respaldo defensivo que el sector de gas regulado ofrece en las carteras diversificadas.</p>
+<p>La estrategia verdaderamente moderada y equilibrada no exige deshacerse de un tercio de la posición ni tampoco lanzarse a comprar sin red. La clave radica en una gestión táctica intermedia: en lugar de un recorte tan agresivo, lo sensato es mantener la posición actual para seguir capturando el jugoso dividendo y la tendencia técnica alcista, pero implementando un estricto stop-loss dinámico en 19.50 EUR tal como planteaba inicialmente el trader, o aprovechando niveles cercanos a la resistencia para realizar ajustes mínimos de rebalanceo si la volatilidad aprieta. No debemos dejarnos cegar ni por el optimismo técnico desmedido ni por el pánico fundamental; un enfoque ponderado permite proteger el capital sin renunciar al rendimiento.</p>
+<p><strong>Rating</strong>: HOLD</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+</section><section id="s5"><h2>V. Portfolio Manager Decision</h2><h3 id="s5-1">Portfolio Manager</h3>
+<p><strong>Rating</strong>: Underweight</p>
+<p><strong>Executive Summary</strong>: Se recomienda reducir la exposición actual en ENG.MC para recortar posiciones ante la sobrevaloración respecto al objetivo de consenso y la severa tensión en el flujo de caja libre. Evitar nuevas entradas y utilizar la actual fortaleza técnica para una salida progresiva. Horizonte temporal de 3-6 meses.</p>
+<p><strong>Investment Thesis</strong>: La decisión de subponderar se fundamenta en la contundente evidencia presentada por el analista conservador y respaldada por los datos fundamentales, que superan el impulso cortoplacista defendido por la postura agresiva. Aunque ENG.MC cotiza a 18.12 EUR por encima de sus medias móviles y ofrece un dividendo del 5.52%, los riesgos estructurales son inasumibles: el flujo de caja libre se ha contraído drásticamente a 94.4 millones de EUR a cierre de 2025, el apalancamiento neto sobre EBITDA se sitúa en un asfixiante 6.15x en un contexto de tipos altos con el euríbor por encima del 3.3%, y la cotización actual ya supera el precio objetivo medio de consenso de 17.23 EUR (-4.92% de upside). Además, los beneficios de la gran apuesta por el hidrógeno del proyecto H2Med no se materializarán hasta 2029. La tesis se revisaría al alza si se produce una mejora verificable y orgánica de la caja libre y una desmultiplicación rápida del ratio de endeudamiento.</p>
+<p><strong>Price Target</strong>: 17.23</p>
+<p><strong>Time Horizon</strong>: 3-6 meses</p>
+</section>
+</main>
+<footer class="credit"><a href="https://github.com/TauricResearch/TradingAgents" rel="noopener">TradingAgents</a> powered by <a class="brand" href="https://github.com/TauricResearch" rel="noopener">Tauric Research</a></footer>
+</div>
+<a class="to-top" href="#top">Top</a>
+</body>
+</html>

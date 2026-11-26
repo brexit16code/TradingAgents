@@ -1,0 +1,9 @@
+
+Neutral Analyst: Estimados compañeros, tras escuchar atentamente vuestros argumentos, creo que ambos extremos pecan de falta de matices. Por un lado, el Analista Agresivo confía ciegamente en un potencial de consenso del +38,67% y en un *forward P/E* de 11,95x sin calibrar adecuadamente el riesgo técnico: comprar de inmediato un activo que cotiza a 18,70 EUR por debajo de su media móvil de 200 sesiones (19,21 EUR) y que arrastra un retroceso anual del -19,06% expone a la cartera a prolongadas fases de lateralidad o caídas adicionales si la macroeconomía se tuerce. 
+
+Por otro lado, el Analista Conservador se refugia en un inmovilismo paralizante, exagerando el impacto del apalancamiento y descartando el valor de una sólida generación de caja libre superior a los 271 millones de euros y una atractiva rentabilidad por dividendo del 3,53%. Pretender ignorar la oportunidad que ofrece una valoración normalizada bajo la excusa de un euríbor superior al 3,3% es obviar que los mercados descuentan expectativas futuras, y los múltiplos ya recogen gran parte de ese estrés financiero.
+
+Como Analista de Riesgo Neutro, propongo un punto medio inteligente y sostenible que equilibre ambas posturas. En lugar de una ejecución ciega de compra o de una huida total hacia la liquidez, la estrategia óptima para `FDR.MC` pasa por una acumulación escalonada y prudente. Mantener el tamaño de posición propuesto del 5% es razonable, pero condicionado a una entrada fraccionada para mitigar el riesgo de temporización, apoyándonos en el estricto *stop loss* de 17,20 EUR para proteger el capital ante cualquier imprevisto técnico. Así, capturamos el indiscutible valor fundamental e industrial de la compañía sin exponernos desprotegidos a las debilidades del corto plazo.
+
+**Rating**: HOLD
+FINAL TRANSACTION PROPOSAL: **REVIEW**

@@ -1,0 +1,551 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'">
+<title>AMS.MC 2026-11-26 Overweight: TradingAgents report</title>
+<style>
+:root {
+  --paper: #fbfbfa; --ink: #1c2126; --muted: #5d6670; --rule: #e2e5e8; --wash: #f2f4f5;
+  --accent: #087a59; --up: #087a59; --down: #b4372f; --level: #5d6670; --edge: #d3d8dc; --mark: #878f97;
+  --serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #131a1f; --ink: #e4e8eb; --muted: #9aa6af; --rule: #263239; --wash: #1a242a;
+    --accent: #14c290; --up: #14c290; --down: #ef6f63; --level: #9aa6af; --edge: #3d4c55; --mark: #66737c;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .masthead .logo [stroke="#363636"] { stroke: var(--muted); }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font: 17px/1.62 var(--serif); font-kerning: normal;
+}
+.page { max-width: 46rem; margin: 0 auto; padding: 3.5rem 1.5rem 6rem; }
+main h2, main h3 { scroll-margin-top: 1rem; }
+a { color: var(--accent); text-underline-offset: 0.15em; }
+h1, h2, h3, h4 { text-wrap: balance; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.masthead { padding-bottom: 1.75rem; border-bottom: 1px solid var(--rule); }
+/* The logo leads at the top left, where readers look for it, 24px tall (the usual
+   on-screen floor for a wordmark) with at least its height clear below. */
+.masthead .logo { display: block; width: fit-content; margin: 0 0 2.25rem; }
+.masthead .logo svg { display: block; height: 1.5rem; width: auto; }
+.masthead h1 {
+  margin: 0; font: 600 2.6rem/1.1 var(--sans); letter-spacing: -0.02em;
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.2em 0.5em;
+}
+.masthead .rating { font-weight: 500; }
+.rating.up { color: var(--up); } .rating.down { color: var(--down); } .rating.level { color: var(--level); }
+.rating.review { color: var(--muted); font-style: italic; }
+.masthead .date { margin: 0.55rem 0 1.5rem; font: 1rem/1.4 var(--sans); color: var(--muted); }
+.run { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: 0.45rem 1.25rem;
+  font: 0.85rem/1.5 var(--sans); }
+.run > div { display: contents; }
+.run dt { color: var(--muted); }
+.run dd { margin: 0; overflow-wrap: anywhere; }
+.run .note dd { color: var(--down); }
+.field { display: inline-block; margin: 0 0.15rem 0.15rem 0; padding: 0 0.4rem; border: 1px solid var(--edge);
+  border-radius: 4px; background: var(--wash); font: 0.8rem/1.6 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+.run .group { display: inline-block; margin-right: 0.9rem; white-space: nowrap; }
+.run .group > .name { color: var(--muted); margin-right: 0.3rem; }
+.run .then { color: var(--muted); margin: 0 0.2rem; }
+
+/* The sections: listed under the header on narrow screens. On wide ones, a
+   quiet rail centred on the left edge (numerals for the sections, short bars
+   for their agents) that opens into the full list when pointed at or focused. */
+.contents { margin: 2.25rem 0 0; font: 0.9rem/1.45 var(--sans); }
+.contents ul { margin: 0; padding: 0; list-style: none; }
+.contents > ul > li { margin: 0 0 0.75rem; }
+.contents ul ul { margin-top: 0.2rem; padding-left: 1.6rem; font-size: 0.85rem; }
+.contents ul ul li { margin: 0.1rem 0; }
+.contents a { display: flex; align-items: center; gap: 0.6rem; color: var(--muted); text-decoration: none; }
+.contents > ul > li > a { color: var(--ink); }
+.contents .num { min-width: 1.6rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.contents .bar { display: none; }
+.contents a:hover .label, .contents a:focus-visible .label { color: var(--accent); text-decoration: underline; }
+.to-top { position: fixed; right: 1rem; bottom: calc(1rem + env(safe-area-inset-bottom));
+  padding: 0.25rem 0.6rem; border: 1px solid var(--edge); border-radius: 4px; background: var(--paper);
+  color: var(--muted); font: 0.8rem/1.4 var(--sans); text-decoration: none; }
+
+@media (min-width: 60rem) {
+  .contents { position: fixed; left: 1rem; top: 50%; transform: translateY(-50%); z-index: 1;
+    max-height: 86vh; overflow-y: auto; overscroll-behavior: contain; margin: 0;
+    padding: 0.7rem 0.9rem; border: 1px solid transparent; border-radius: 6px;
+    transition: background-color 0.15s, border-color 0.15s, box-shadow 0.15s; }
+  .contents > ul > li { margin: 0 0 0.35rem; }
+  .contents ul ul { margin-top: 0; padding-left: 0; }
+  .contents ul ul li { margin: 0; }
+  /* Marks reach 3:1 contrast and rows 24px, the WCAG 2.2 floors for a control's
+     visual cue and its pointer target. */
+  .contents a { min-height: 1.5rem; }
+  .contents .num { min-width: 1.4rem; }
+  .contents .bar { display: block; flex: none; width: 1.25rem; height: 2px; margin-left: 0.2rem;
+    border-radius: 1px; background: var(--mark); }
+  .contents .label { max-width: 0; opacity: 0; overflow: hidden; white-space: nowrap;
+    transition: opacity 0.15s, max-width 0.2s; }
+  .contents:hover, .contents:focus-within { background: var(--paper); border-color: var(--rule);
+    box-shadow: 0 6px 24px rgb(0 0 0 / 0.08); }
+  .contents:hover .label, .contents:focus-within .label { max-width: 18rem; opacity: 1; }
+  .contents a:hover .bar, .contents a:focus-visible .bar { background: var(--accent); }
+  .to-top { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .contents, .contents .label { transition: none; }
+}
+
+/* The maker's credit: one quiet line at the foot. */
+.credit { margin-top: 4.5rem; padding-top: 1.25rem; border-top: 1px solid var(--rule);
+  color: var(--muted); font: 0.8rem/1.4 var(--sans); }
+.credit a { color: inherit; text-decoration: none; }
+.credit a.brand { color: var(--accent); }
+.credit a:hover, .credit a:focus-visible { text-decoration: underline; }
+
+/* Three levels of separation: the five groups, the agents within a group, and
+   breaks an agent draws inside its own text. */
+main h2 {
+  margin: 4.5rem 0 0.25rem; padding-top: 1.5rem; border-top: 2px solid var(--ink);
+  font: 600 1.45rem/1.3 var(--sans); letter-spacing: -0.01em;
+}
+main section:first-child h2 { margin-top: 3rem; }
+main h3 { margin: 2.75rem 0 0.75rem; padding-top: 1.1rem; border-top: 1px solid var(--rule);
+  font: 600 1.15rem/1.35 var(--sans); color: var(--accent); }
+main h2 + h3 { margin-top: 1.25rem; padding-top: 0; border-top: 0; }
+main h4, main h5, main h6 { margin: 1.75rem 0 0.5rem; font: 600 1rem/1.4 var(--sans); }
+main h5, main h6 { color: var(--muted); }
+main p, main ul, main ol { margin: 0 0 1rem; }
+main li { margin: 0.25rem 0; }
+main strong { font-weight: 650; }
+main blockquote { margin: 1.25rem 0; padding: 0.1rem 0 0.1rem 1rem; border-left: 3px solid var(--rule);
+  color: var(--muted); }
+main code { font: 0.88em/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  background: var(--wash); padding: 0.1em 0.3em; border-radius: 3px; }
+main pre { background: var(--wash); padding: 0.9rem 1rem; border-radius: 4px; overflow-x: auto; }
+main pre code { background: none; padding: 0; }
+main hr { width: 3rem; margin: 2rem auto; border: 0; border-top: 1px solid var(--rule); }
+
+.table { overflow-x: auto; margin: 0 0 1.25rem; }
+table { border-collapse: collapse; width: 100%; font: 0.86rem/1.45 var(--sans);
+  font-variant-numeric: tabular-nums; }
+th, td { padding: 0.45rem 0.7rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--rule); }
+th { font-weight: 600; border-bottom-color: var(--muted); }
+tbody tr:last-child td { border-bottom: 0; }
+
+@media (max-width: 34rem) {
+  body { font-size: 16px; }
+  .page { padding: 2rem 1rem 3rem; }
+  .masthead h1 { font-size: 2rem; }
+  .masthead .logo svg { height: 1.25rem; }
+  .run { grid-template-columns: 1fr; gap: 0 0; }
+  .run dd { margin-bottom: 0.45rem; }
+  .run .group { white-space: normal; }
+}
+@media print {
+  :root { --paper: #fff; --ink: #000; --muted: #444; --rule: #bbb; --accent: #000; --wash: #f2f2f2;
+    --edge: #bbb; --up: #087a59; --down: #b4372f; --level: #444; }
+  body { font-size: 11pt; }
+  .table { overflow: visible; }
+  .page { max-width: none; padding: 0; }
+  .contents, .to-top { display: none; }
+  main h2 { break-before: page; border-top: 0; margin-top: 0; }
+  main section:first-child h2 { break-before: auto; }
+  main h3, main h4 { break-after: avoid; }
+  a { color: inherit; text-decoration: none; }
+  table { break-inside: avoid; }
+}
+</style>
+</head>
+<body>
+<div class="page" id="top">
+<header class="masthead">
+<a class="logo" href="https://tauric.ai" rel="noopener" aria-label="Tauric Research"><svg width="993" height="115" viewBox="0 0 993 115" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M189.86 95.0459V37.9779H165.924V29.9259H223.74V37.9779H199.804V95.0459H189.86ZM251.026 46.4259C256.071 46.4259 260.178 47.0272 263.345 48.2299C266.514 49.4032 268.89 51.3686 270.474 54.1259C272.058 56.8832 272.85 60.6379 272.85 65.3899V95.0459H264.666L263.961 89.8979H263.434C261.644 91.7752 259.386 93.2419 256.657 94.2979C253.929 95.3246 251.025 95.8379 247.946 95.8379C244.426 95.8379 241.419 95.2952 238.925 94.2099C236.432 93.0952 234.54 91.5406 233.249 89.5459C231.959 87.5512 231.313 85.2046 231.313 82.5059C231.313 78.2526 232.897 74.9672 236.065 72.6499C239.263 70.3032 244.337 68.8219 251.29 68.2059L263.258 67.0179V64.7299C263.258 61.9139 262.774 59.7139 261.806 58.1299C260.838 56.5459 259.371 55.4312 257.406 54.7859C255.47 54.1406 252.888 53.8179 249.662 53.8179C247.432 53.8179 245.012 54.0086 242.401 54.3899C239.82 54.7712 237.341 55.3432 234.965 56.1059V48.8019C237.312 48.0392 239.908 47.4526 242.754 47.0419C245.628 46.6312 248.386 46.4259 251.026 46.4259ZM250.541 89.0619C252.888 89.0619 255.162 88.6512 257.362 87.8299C259.562 86.9792 261.527 85.7179 263.258 84.0459V72.8259L252.038 73.9259C248.136 74.3659 245.35 75.2166 243.678 76.4779C242.005 77.7099 241.169 79.4699 241.169 81.7579C241.169 84.0752 241.947 85.8792 243.501 87.1699C245.056 88.4312 247.403 89.0619 250.541 89.0619ZM313.339 95.8379C307.59 95.8379 303.087 94.2979 299.831 91.2179C296.575 88.1086 294.947 83.2686 294.947 76.6979V47.1739H304.715V76.1699C304.715 80.1886 305.624 83.0779 307.443 84.8379C309.291 86.5979 311.916 87.4779 315.319 87.4779C317.871 87.4779 320.379 86.9939 322.843 86.0259C325.336 85.0286 327.492 83.5766 329.311 81.6699V47.1739H339.079V95.0459H330.983L330.367 89.9419H329.883C327.624 91.8486 325.072 93.3152 322.227 94.3419C319.382 95.3392 316.419 95.8379 313.339 95.8379ZM362.371 47.1739H370.423L371.171 53.2899H371.743C373.474 51.2072 375.703 49.5792 378.431 48.4059C381.188 47.2326 384.063 46.6459 387.055 46.6459C388.756 46.6459 390.355 46.7926 391.851 47.0859V55.8419C390.414 55.5779 388.654 55.4459 386.571 55.4459C383.99 55.4459 381.364 55.9446 378.695 56.9419C376.026 57.9392 373.84 59.4206 372.139 61.3859V95.0459H362.371V47.1739ZM409.069 95.0459V47.1739H418.837V95.0459H409.069ZM413.953 37.8459C411.871 37.8459 410.287 37.3912 409.201 36.4819C408.145 35.5726 407.617 34.2672 407.617 32.5659C407.617 30.8352 408.145 29.5152 409.201 28.6059C410.287 27.6672 411.871 27.1979 413.953 27.1979C416.036 27.1979 417.605 27.6672 418.661 28.6059C419.747 29.5152 420.289 30.8352 420.289 32.5659C420.289 34.2672 419.747 35.5726 418.661 36.4819C417.605 37.3912 416.036 37.8459 413.953 37.8459ZM464.85 95.9259C456.607 95.9259 450.315 93.8432 445.974 89.6779C441.662 85.5126 439.506 79.3526 439.506 71.1979C439.506 63.0139 441.779 56.8392 446.326 52.6739C450.902 48.5086 457.575 46.4259 466.346 46.4259C470.716 46.4259 474.735 46.9246 478.402 47.9219V55.7099C476.378 55.2406 474.486 54.8886 472.726 54.6539C470.966 54.4192 469.118 54.3019 467.182 54.3019C461.168 54.3019 456.71 55.6512 453.806 58.3499C450.931 61.0486 449.494 65.2872 449.494 71.0659C449.494 76.8739 450.858 81.1566 453.586 83.9139C456.343 86.6712 460.42 88.0499 465.818 88.0499C467.695 88.0499 469.616 87.8886 471.582 87.5659C473.547 87.2139 475.82 86.6712 478.402 85.9379V93.7259C474.236 95.1926 469.719 95.9259 464.85 95.9259ZM574.428 95.0459L553.704 69.0859C553.176 69.1152 552.37 69.1299 551.284 69.1299C548.38 69.1299 544.978 68.9832 541.076 68.6899V95.0459H531.308V31.4659C537.967 29.9699 544.846 29.2219 551.944 29.2219C561.595 29.2219 568.752 30.8059 573.416 33.9739C578.08 37.1126 580.412 42.1286 580.412 49.0219C580.412 54.0086 579.004 58.0859 576.188 61.2539C573.402 64.4219 569.266 66.6366 563.78 67.8979L585.648 95.0459H574.428ZM541.076 61.2099C543.071 61.4152 544.816 61.5619 546.312 61.6499C547.838 61.7379 549.627 61.7819 551.68 61.7819C558.427 61.7819 563.34 60.7699 566.42 58.7459C569.5 56.6926 571.04 53.4952 571.04 49.1539C571.04 46.0739 570.395 43.6099 569.104 41.7619C567.843 39.9139 565.863 38.5792 563.164 37.7579C560.495 36.9366 556.975 36.5259 552.604 36.5259C550.404 36.5259 548.424 36.6139 546.664 36.7899C544.904 36.9659 543.042 37.2299 541.076 37.5819V61.2099ZM642.947 74.0139H608.231C608.407 77.4752 609.155 80.2766 610.475 82.4179C611.795 84.5299 613.775 86.0846 616.415 87.0819C619.055 88.0792 622.443 88.5779 626.579 88.5779C630.686 88.5779 635.233 87.9472 640.219 86.6859V93.9459C635.027 95.2659 630.026 95.9259 625.215 95.9259C616.298 95.9259 609.61 93.9166 605.151 89.8979C600.722 85.8499 598.507 79.6166 598.507 71.1979C598.507 65.9179 599.402 61.4299 601.191 57.7339C602.981 54.0379 605.562 51.2366 608.935 49.3299C612.338 47.3939 616.43 46.4259 621.211 46.4259C628.251 46.4259 633.634 48.5819 637.359 52.8939C641.085 57.1766 642.947 63.3659 642.947 71.4619V74.0139ZM621.079 52.8939C616.973 52.8939 613.834 54.1406 611.663 56.6339C609.493 59.0979 608.334 62.9259 608.187 68.1179H633.751C633.634 62.9259 632.519 59.0979 630.407 56.6339C628.295 54.1406 625.186 52.8939 621.079 52.8939ZM677.365 95.9259C671.352 95.9259 665.896 95.2219 660.997 93.8139V86.7299C666.248 88.1966 671.718 88.9299 677.409 88.9299C681.809 88.9299 684.977 88.3432 686.913 87.1699C688.849 85.9672 689.817 84.2219 689.817 81.9339C689.817 80.7019 689.597 79.6899 689.157 78.8979C688.717 78.0766 687.969 77.4019 686.913 76.8739C685.857 76.3166 684.405 75.8912 682.557 75.5979L674.065 74.2779C669.137 73.4859 665.573 71.9899 663.373 69.7899C661.202 67.5899 660.117 64.6419 660.117 60.9459C660.117 56.4579 661.965 52.9232 665.661 50.3419C669.386 47.7312 675.062 46.4259 682.689 46.4259C685.094 46.4259 687.485 46.5872 689.861 46.9099C692.266 47.2032 694.481 47.6432 696.505 48.2299V55.2699C692.046 54.0379 687.456 53.4219 682.733 53.4219C677.893 53.4219 674.476 54.0526 672.481 55.3139C670.486 56.5752 669.489 58.3206 669.489 60.5499C669.489 62.2219 670.002 63.5859 671.029 64.6419C672.056 65.6686 673.889 66.4166 676.529 66.8859L685.021 68.2059C689.92 68.9686 693.513 70.3766 695.801 72.4299C698.089 74.4832 699.233 77.4606 699.233 81.3619C699.233 84.3832 698.412 86.9792 696.769 89.1499C695.156 91.3206 692.706 92.9926 689.421 94.1659C686.165 95.3392 682.146 95.9259 677.365 95.9259ZM760.579 74.0139H725.863C726.039 77.4752 726.787 80.2766 728.107 82.4179C729.427 84.5299 731.407 86.0846 734.047 87.0819C736.687 88.0792 740.075 88.5779 744.211 88.5779C748.317 88.5779 752.864 87.9472 757.851 86.6859V93.9459C752.659 95.2659 747.657 95.9259 742.847 95.9259C733.929 95.9259 727.241 93.9166 722.783 89.8979C718.353 85.8499 716.139 79.6166 716.139 71.1979C716.139 65.9179 717.033 61.4299 718.823 57.7339C720.612 54.0379 723.193 51.2366 726.567 49.3299C729.969 47.3939 734.061 46.4259 738.843 46.4259C745.883 46.4259 751.265 48.5819 754.991 52.8939C758.716 57.1766 760.579 63.3659 760.579 71.4619V74.0139ZM738.711 52.8939C734.604 52.8939 731.465 54.1406 729.295 56.6339C727.124 59.0979 725.965 62.9259 725.819 68.1179H751.383C751.265 62.9259 750.151 59.0979 748.039 56.6339C745.927 54.1406 742.817 52.8939 738.711 52.8939ZM796.986 46.4259C802.032 46.4259 806.138 47.0272 809.306 48.2299C812.474 49.4032 814.85 51.3686 816.434 54.1259C818.018 56.8832 818.81 60.6379 818.81 65.3899V95.0459H810.626L809.922 89.8979H809.394C807.605 91.7752 805.346 93.2419 802.618 94.2979C799.89 95.3246 796.986 95.8379 793.906 95.8379C790.386 95.8379 787.38 95.2952 784.886 94.2099C782.393 93.0952 780.501 91.5406 779.21 89.5459C777.92 87.5512 777.274 85.2046 777.274 82.5059C777.274 78.2526 778.858 74.9672 782.026 72.6499C785.224 70.3032 790.298 68.8219 797.25 68.2059L809.218 67.0179V64.7299C809.218 61.9139 808.734 59.7139 807.766 58.1299C806.798 56.5459 805.332 55.4312 803.366 54.7859C801.43 54.1406 798.849 53.8179 795.622 53.8179C793.393 53.8179 790.973 54.0086 788.362 54.3899C785.781 54.7712 783.302 55.3432 780.926 56.1059V48.8019C783.273 48.0392 785.869 47.4526 788.714 47.0419C791.589 46.6312 794.346 46.4259 796.986 46.4259ZM796.502 89.0619C798.849 89.0619 801.122 88.6512 803.322 87.8299C805.522 86.9792 807.488 85.7179 809.218 84.0459V72.8259L797.998 73.9259C794.097 74.3659 791.31 75.2166 789.638 76.4779C787.966 77.7099 787.13 79.4699 787.13 81.7579C787.13 84.0752 787.908 85.8792 789.462 87.1699C791.017 88.4312 793.364 89.0619 796.502 89.0619ZM841.524 47.1739H849.576L850.324 53.2899H850.896C852.627 51.2072 854.856 49.5792 857.584 48.4059C860.341 47.2326 863.216 46.6459 866.208 46.6459C867.909 46.6459 869.508 46.7926 871.004 47.0859V55.8419C869.567 55.5779 867.807 55.4459 865.724 55.4459C863.143 55.4459 860.517 55.9446 857.848 56.9419C855.179 57.9392 852.993 59.4206 851.292 61.3859V95.0459H841.524V47.1739ZM909.164 95.9259C900.921 95.9259 894.629 93.8432 890.288 89.6779C885.976 85.5126 883.82 79.3526 883.82 71.1979C883.82 63.0139 886.093 56.8392 890.64 52.6739C895.216 48.5086 901.889 46.4259 910.66 46.4259C915.03 46.4259 919.049 46.9246 922.716 47.9219V55.7099C920.692 55.2406 918.8 54.8886 917.04 54.6539C915.28 54.4192 913.432 54.3019 911.496 54.3019C905.482 54.3019 901.024 55.6512 898.12 58.3499C895.245 61.0486 893.808 65.2872 893.808 71.0659C893.808 76.8739 895.172 81.1566 897.9 83.9139C900.657 86.6712 904.734 88.0499 910.132 88.0499C912.009 88.0499 913.93 87.8886 915.896 87.5659C917.861 87.2139 920.134 86.6712 922.716 85.9379V93.7259C918.55 95.1926 914.033 95.9259 909.164 95.9259ZM941.796 23.9419H951.564V52.2779H952.048C954.248 50.3712 956.756 48.9192 959.572 47.9219C962.417 46.9246 965.395 46.4259 968.504 46.4259C974.019 46.4259 978.375 47.9952 981.572 51.1339C984.769 54.2432 986.368 59.0686 986.368 65.6099V95.0459H976.6V66.0939C976.6 62.0459 975.661 59.1566 973.784 57.4259C971.936 55.6952 969.237 54.8299 965.688 54.8299C963.048 54.8299 960.481 55.3286 957.988 56.3259C955.524 57.2939 953.383 58.7312 951.564 60.6379V95.0459H941.796V23.9419Z" fill="#14C290"/>
+<rect x="0.205322" y="14.873" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="14.679" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="14.679" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="86.6055" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="86.6055" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="101.284" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="58.7158" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="58.7158" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="87.1592" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="87.1592" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="73.0205" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="73.0205" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="87.3262" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="87.3262" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="101.631" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="101.631" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="101.284" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="15.0187" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.2668" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.2668" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.445" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.7506" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="100.716" y="14.873" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+</svg></a>
+<h1><span class="ticker">AMS.MC</span> <span class="rating up">Overweight</span></h1>
+<p class="date">Analysis of 2026-11-26</p>
+<dl class="run"><div class="detail"><dt>Generated</dt><dd>2026-11-26 21:07</dd></div><div class="detail"><dt>Deep model</dt><dd><span class="field">google</span> <span class="field">gemini-3.5-flash-lite</span></dd></div><div class="detail"><dt>Quick model</dt><dd><span class="field">google</span> <span class="field">gemini-3.5-flash-lite</span></dd></div><div class="detail"><dt>Analysts</dt><dd><span class="field">market</span> <span class="field">news</span> <span class="field">fundamentals</span></dd></div><div class="detail"><dt>Debate rounds</dt><dd><span class="group"><span class="name">research</span><span class="field">1</span></span> <span class="group"><span class="name">risk</span><span class="field">1</span></span></dd></div><div class="detail"><dt>Data vendors</dt><dd><span class="group"><span class="name">Prices</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Indicators</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Fundamentals</span><span class="field">yfinance</span></span> <span class="group"><span class="name">News</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Macro</span><span class="field">fred</span></span> <span class="group"><span class="name">Prediction markets</span><span class="field">polymarket</span></span> <span class="group"><span class="name">get_news</span><span class="field">ibex_sample</span></span> <span class="group"><span class="name">get_global_news</span><span class="field">ibex_sample</span></span></dd></div><div class="detail"><dt>Version</dt><dd>TradingAgents 0.7.1</dd></div></dl>
+</header>
+<nav class="contents" aria-label="Sections"><ul><li><a href="#s1"><span class="num">I</span> <span class="label">Analyst Team Reports</span></a><ul><li><a href="#s1-1"><span class="bar"></span> <span class="label">Market Analyst</span></a></li><li><a href="#s1-2"><span class="bar"></span> <span class="label">News Analyst</span></a></li><li><a href="#s1-3"><span class="bar"></span> <span class="label">Fundamentals Analyst</span></a></li></ul></li><li><a href="#s2"><span class="num">II</span> <span class="label">Research Team Decision</span></a><ul><li><a href="#s2-1"><span class="bar"></span> <span class="label">Bull Researcher</span></a></li><li><a href="#s2-2"><span class="bar"></span> <span class="label">Bear Researcher</span></a></li><li><a href="#s2-3"><span class="bar"></span> <span class="label">Research Manager</span></a></li></ul></li><li><a href="#s3"><span class="num">III</span> <span class="label">Trading Team Plan</span></a><ul><li><a href="#s3-1"><span class="bar"></span> <span class="label">Trader</span></a></li></ul></li><li><a href="#s4"><span class="num">IV</span> <span class="label">Risk Management Team Decision</span></a><ul><li><a href="#s4-1"><span class="bar"></span> <span class="label">Aggressive Analyst</span></a></li><li><a href="#s4-2"><span class="bar"></span> <span class="label">Conservative Analyst</span></a></li><li><a href="#s4-3"><span class="bar"></span> <span class="label">Neutral Analyst</span></a></li></ul></li><li><a href="#s5"><span class="num">V</span> <span class="label">Portfolio Manager Decision</span></a><ul><li><a href="#s5-1"><span class="bar"></span> <span class="label">Portfolio Manager</span></a></li></ul></li></ul></nav>
+<main>
+<section id="s1"><h2>I. Analyst Team Reports</h2><h3 id="s1-1">Market Analyst</h3>
+<p><strong>Rating</strong>: HOLD</p>
+<h6>Análisis Integral de Amadeus IT Group, S.A. (<code>AMS.MC</code>)</h6>
+<h6>1. Contexto de Mercado y Entorno Macroeconómico</h6>
+<p>A fecha de 26 de noviembre de 2026, el valor cotiza en la bolsa de Madrid (<code>AMS.MC</code>) bajo el ticker correspondiente en el sector de Tecnología / Servicios de Tecnologías de la Información. Las bolsas europeas muestran un comportamiento alcista impulsado por el sector financiero y tecnológico, con el Euro Stoxx 50 y el DAX alemán avanzando más de un 2% en la sesión (referencia: <em>el boletin</em>, 2026-11-26). Paralelamente, el entorno macroeconómico europeo registra un euríbor superando el 3,3% (según <em>20 Minutos</em>, 2026-11-26) y la reciente elección de Pablo Hernández de Cos como presidente del Banco Central Europeo (<em>El Constitucional</em>, 2026-11-26), lo que mantiene la atención sobre la evolución de los tipos de interés en la Eurozona para finales de 2026 y 2027 (Bankinter).</p>
+<h6>2. Acción del Precio y Datos Técnicos (<code>AMS.MC</code>)</h6>
+<p>El precio de cierre registrado para <code>AMS.MC</code> es de <strong>61,90 EUR</strong> (variación diaria de +1,51%). Las métricas técnicas clave muestran:</p>
+<ul>
+<li><strong>Medias Móviles Simples (SMA)</strong>: La SMA de 20 periodos se sitúa en 60,69 EUR, la SMA de 50 periodos en 56,75 EUR y la SMA de 200 periodos en 52,96 EUR. La cotización se encuentra por encima de todas ellas, reflejando una estructura alcista sólida a corto, medio y largo plazo.</li>
+<li><strong>RSI (14)</strong>: Se sitúa en <strong>62,74</strong>, indicando un sesgo alcista moderado sin alcanzar todavía condiciones extremas de sobrecompra (generalmente fijadas por encima de 70).</li>
+<li><strong>MACD</strong>: El indicador MACD registra un valor de 1,198 frente a su línea de señal (<code>macds</code>) de 1,431. Aunque el MACD se mantiene en terreno positivo, la línea principal se sitúa ligeramente por debajo de su señal, sugiriendo un momento de consolidación o desaceleración temporal del impulso reciente.</li>
+<li><strong>Volatilidad y Retornos</strong>: La volatilidad anualizada se ubica en el 26,05%, con un retorno a 21 sesiones del 9,79% y un retorno a 63 sesiones del 6,32%. El <em>drawdown</em> actual es leve (-2,45%).</li>
+</ul>
+<h6>3. Fundamentales y Valoración Financiera</h6>
+<p>Con una capitalización de mercado de aproximadamente <strong>26.000 millones de EUR</strong>, los datos fundamentales reflejan la solidez financiera de la compañía:</p>
+<ul>
+<li><strong>Ingresos y Beneficios</strong>: Los ingresos totales del ejercicio 2025 cerraron en 6.517 millones de EUR (frente a 6.141 millones en 2024 y 5.441 millones en 2023), con un beneficio neto de 1.335,7 millones de EUR (superando los 1.253 millones de 2024). El EBITDA de 2025 alcanzó los 2.534,7 millones de EUR.</li>
+<li><strong>Múltiplos de Valoración</strong>:
+<ul>
+<li><em>Trailing P/E</em>: 19,90x</li>
+<li><em>Forward P/E</em>: 15,83x</li>
+<li><em>EV/EBITDA</em>: 11,24x</li>
+<li><em>Price-to-Book</em>: 5,21x</li>
+</ul>
+</li>
+<li><strong>Rentabilidad y Dividendos</strong>: Presenta un rendimiento sobre el capital (ROE) elevado del 26,44% y un margen de beneficio neto del 19,86%. Ofrece una rentabilidad por dividendo (<em>dividend yield</em>) estimada en torno al <strong>2,49% - 2,53%</strong>, con un dividendo por acción de 1,54 EUR y un ratio de pago (<em>payout ratio</em>) del 49,52%.</li>
+<li><strong>Deuda</strong>: La deuda neta sobre EBITDA se sitúa en un nivel controlado de 1,03x (Deuda total de 3.500 millones de EUR frente a caja de 913 millones de EUR).</li>
+<li><strong>Consenso de Analistas</strong>: El precio objetivo medio de consenso se sitúa en <strong>71,47 EUR</strong>, con un rango que oscila entre un mínimo de 53,00 EUR y un máximo de 82,00 EUR (basado en 23 opiniones de analistas), lo que arroja un potencial de revalorización (<em>consensus upside</em>) del <strong>15,46%</strong>.</li>
+</ul>
+<h6>4. Selección de Indicadores Técnicos Recomendados</h6>
+<p>Siguiendo los criterios metodológicos, se seleccionan los siguientes 8 indicadores complementarios para el seguimiento operativo de <code>AMS.MC</code>:</p>
+<ol>
+<li><code>close_50_sma</code>: Para identificar la dirección del tendencia a medio plazo y actuar como soporte dinámico.</li>
+<li><code>close_200_sma</code>: Como referencia estructural a largo plazo para confirmar la macro-tendencia.</li>
+<li><code>close_10_ema</code>: Para capturar cambios rápidos de impulso a corto plazo.</li>
+<li><code>macd</code>: Para monitorizar la convergencia/divergencia de medias y detectar cambios de ciclo.</li>
+<li><code>macds</code>: Línea de señal para modular los cruces operativos junto con el MACD.</li>
+<li><code>rsi</code>: Para vigilar zonas de sobrecompra y sobreventa (70/30).</li>
+<li><code>boll</code>: Banda media de Bollinger (SMA 20) como referencia central de oscilación de precios.</li>
+<li><code>atr</code>: Para medir la volatilidad histórica y dimensionar correctamente los niveles de stop-loss.</li>
+</ol>
+<h6>5. Datos Faltantes y Advertencias</h6>
+<ul>
+<li>No se dispone de un desglose detallado de flujos intradía ni de carteras de inversión hipotéticas específicas, por lo que toda asignación mencionada es estrictamente teórica.</li>
+<li>Las fuentes de datos empleadas corresponden estrictamente al snapshot verificado a 2026-11-26 y a las referencias documentales adjuntas (Yahoo Finance / fuentes de noticias sindicadas).</li>
+</ul>
+<hr />
+<h6>Resumen Clave en Tabla</h6>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Concepto / Métrica</th>
+<th style="text-align:left">Valor Actual / Referencia</th>
+<th style="text-align:left">Comentario Analítico</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Ticker y Mercado</strong></td>
+<td style="text-align:left"><code>AMS.MC</code> (Bolsa de Madrid, EUR)</td>
+<td style="text-align:left">Compañía clasificada en Tecnología / IT Services.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Precio de Cierre</strong></td>
+<td style="text-align:left">61,90 EUR (26-11-2026)</td>
+<td style="text-align:left">Variación positiva diaria de +1,51%.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Tendencia (Medias)</strong></td>
+<td style="text-align:left">Por encima de SMA20, SMA50 y SMA200</td>
+<td style="text-align:left">Estructura alcista sólida en todos los horizontes temporales.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Momentum (RSI 14)</strong></td>
+<td style="text-align:left">62,74</td>
+<td style="text-align:left">Zona alcista moderada, sin sobrecompra crítica.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Valoración (P/E)</strong></td>
+<td style="text-align:left">19,90x (Trailing) / 15,83x (Forward)</td>
+<td style="text-align:left">Valuación razonable frente a su crecimiento histórico.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Dividendo</strong></td>
+<td style="text-align:left">~2,49% (1,54 EUR por acción)</td>
+<td style="text-align:left">Payout moderado (~49,52%), sostenible.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Consenso de Analistas</strong></td>
+<td style="text-align:left">71,47 EUR (Objetivo medio)</td>
+<td style="text-align:left">Potencial alcista estimado del 15,46% respecto al precio actual.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Deuda Neta / EBITDA</strong></td>
+<td style="text-align:left">1,03x</td>
+<td style="text-align:left">Estructura de endeudamiento saneada y bajo control.</td>
+</tr>
+</tbody>
+</table></div>
+<p>FINAL TRANSACTION PROPOSAL: HOLD</p>
+<h3 id="s1-2">News Analyst</h3>
+<p><strong>Rating</strong>: HOLD</p>
+<h6>Informe de Investigación y Análisis Macroeconómico - Amadeus IT Group, S.A. (<code>AMS.MC</code>)</h6>
+<h6>1. Contexto Macroeconómico y de Mercado</h6>
+<p>El análisis se sitúa a finales de noviembre de 2026. Durante la semana del 26 de noviembre de 2026, los mercados bursátiles europeos han registrado fuertes subidas impulsados principalmente por el sector bancario y tecnológico (con avances superiores al 2% en índices de referencia como el Euro Stoxx 50 y el DAX alemán). En el ámbito macroeconómico europeo, destaca el nombramiento de Pablo Hernández de Cos como presidente del Banco Central Europeo (BCE), siendo el primer español en asumir este cargo (anunciado el 26 de noviembre de 2026). Por otro lado, el Euríbor superó el umbral del 3,3%, encareciendo los costes hipotecarios y manteniendo un entorno de tipos de interés altos vigilado de cerca por los inversores.</p>
+<h6>2. Análisis Fundamental y Técnico de <code>AMS.MC</code></h6>
+<ul>
+<li><strong>Identidad y Negocio:</strong> Amadeus IT Group, S.A. (<code>AMS.MC</code>), cotizada en la Bolsa de Madrid (MCE) dentro del sector de Tecnología (Information Technology Services).</li>
+<li><strong>Precio y Datos Técnicos:</strong> A fecha de 26 de noviembre de 2026, la acción cotiza a <strong>61,90 EUR</strong>, registrando una subida diaria del 1,51%. Su RSI de 14 períodos se sitúa en 62,74 (zona neutral-alcista sin sobrecompra extrema), con medias móviles en tendencia positiva (SMA20 en 60,69 EUR, SMA50 en 56,75 EUR y SMA200 en 52,97 EUR). Presenta una volatilidad del 26,05% y un descenso desde máximos recientes (drawdown) del -2,45%.</li>
+<li><strong>Valoración y Fundamentales:</strong>
+<ul>
+<li>Capitalización bursátil: ~25.997 millones de EUR.</li>
+<li>Per Trailing (PE): 19,90x; Forward PE: 15,83x.</li>
+<li>Ratio Deuda Neta / EBITDA: 1,03x (total debt de ~3.500 millones de EUR frente a un EBITDA de ~2.500 millones de EUR).</li>
+<li>Crecimiento de ingresos del 6,4% y de beneficios del 9,8%.</li>
+<li>Rentabilidad por dividendo (<em>dividend yield</em>): ~2,49% (con un dividendo ordinario de 1,54 EUR y un <em>payout ratio</em> de 49,52%).</li>
+<li>Consenso de analistas (<em>Target Mean Price</em>): 71,47 EUR (con un precio objetivo mínimo de 53,0 EUR y máximo de 82,0 EUR, basado en 23 opiniones de analistas), lo que implica un potencial alcista (<em>consensus upside</em>) del <strong>15,46%</strong>.</li>
+</ul>
+</li>
+</ul>
+<h6>3. Evidencia de Noticias y Fuentes</h6>
+<ul>
+<li><strong>Noticias Corporativas y de Sector:</strong> Cobertura reciente en Rankia sobre la operativa de acciones de Amadeus y su política de retribución al accionista (23 de noviembre de 2026).</li>
+<li><strong>Fuentes:</strong> Datos extraídos de Yahoo Finance (<code>https://finance.yahoo.com/quote/AMS.MC/</code>), estados financieros de la compañía y resúmenes de prensa económica de El Boletín, Negocios.com y El Constitucional.</li>
+</ul>
+<h6>4. Asunciones, Método de Valoración y Datos Faltantes</h6>
+<ul>
+<li><strong>Método de Valoración:</strong> Basado en múltiplos de mercado (Forward PE de ~15,8x, EV/EBITDA de 11,24x) y consenso de analistas de Wall Street/mercado europeo (precio objetivo medio de 71,47 EUR). Los precios objetivo de los analistas constituyen estimaciones de consenso y no valores intrínsecos definitivos.</li>
+<li><strong>Datos Faltantes:</strong> No se dispone de un desglose detallado pormenorizado de los flujos de caja operativos futuros más allá de los estados históricos cerrados a diciembre de 2025, ni un porfolio de asignación de activos privado (cualquier decisión al respecto es estrictamente hipotética).</li>
+</ul>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Componente Clave</th>
+<th style="text-align:left">Métrica / Dato Actual (<code>AMS.MC</code>)</th>
+<th style="text-align:left">Observaciones / Contexto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Precio de Cierre</strong></td>
+<td style="text-align:left">61,90 EUR</td>
+<td style="text-align:left">Cotización a 26 de noviembre de 2026.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Precio Objetivo Medio</strong></td>
+<td style="text-align:left">71,47 EUR</td>
+<td style="text-align:left">Consenso de analistas (23 opiniones).</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Upside de Consenso</strong></td>
+<td style="text-align:left">+15,46%</td>
+<td style="text-align:left">Potencial estimado frente al precio actual.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Forward PE</strong></td>
+<td style="text-align:left">15,83x</td>
+<td style="text-align:left">Valoración basada en beneficios estimados futuros.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ratio Deuda Neta / EBITDA</strong></td>
+<td style="text-align:left">1,03x</td>
+<td style="text-align:left">Estructura de endeudamiento moderada y sana.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Rentabilidad por Dividendo</strong></td>
+<td style="text-align:left">~2,49%</td>
+<td style="text-align:left">Tasa de dividendo con <em>payout</em> del ~49,5%.</td>
+</tr>
+</tbody>
+</table></div>
+<p>FINAL TRANSACTION PROPOSAL: HOLD</p>
+<h3 id="s1-3">Fundamentals Analyst</h3>
+<p><strong>Rating</strong>: HOLD<br />
+FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong> (Hipótesis analítica sin ejecución de órdenes ni asignación de cartera).</p>
+<hr />
+<h6>Informe Fundamental Integral: Amadeus IT Group, S.A. (<code>AMS.MC</code>)</h6>
+<h6>1. Perfil de la Compañía y Negocio</h6>
+<ul>
+<li><strong>Identidad Resuelta</strong>: Amadeus IT Group, S.A. (<code>AMS.MC</code>)</li>
+<li><strong>Clasificación de Negocio</strong>: Tecnología / Servicios de Tecnologías de la Información (Technology / Information Technology Services).</li>
+<li><strong>Bolsa de cotización</strong>: Bolsas y Mercados Españoles (MCE - Madrid), cotizando en Euros (EUR) y benchmarked contra el índice <code>^IBEX</code>.</li>
+<li><strong>Resumen de Actividad</strong>: Amadeus opera como un proveedor global de soluciones tecnológicas para la industria del turismo y los viajes. Su modelo de negocio se divide principalmente en distribución (conectando agencias de viajes con proveedores de contenido aéreo, hotelero y de transporte) y en soluciones informáticas para aerolíneas y gestores aeroportuarios (sistemas de servicio a pasajeros o PSS).</li>
+</ul>
+<h6>2. Análisis de Estados Financieros (Histórico Reciente)</h6>
+<p>Basado en los datos suministrados correspondientes a los cierres de ejercicio plurianuales (2023, 2024 y 2025):</p>
+<ul>
+<li>
+<p><strong>Cuenta de Resultados (Income Statement)</strong>:</p>
+<ul>
+<li><strong>Ingresos Totales (Total Revenue)</strong>: Mostraron una trayectoria de crecimiento sostenido. En 2023 se situaron en 5.441,2 millones de euros, escalando en 2024 hasta los 6.141,7 millones de euros y cerrando 2025 con 6.517,0 millones de euros.</li>
+<li><strong>EBITDA</strong>: Acompañó la expansión operativa, pasando de 2.134,2 millones de euros en 2023 a 2.353,2 millones de euros en 2024 y alcanzando los 2.534,7 millones de euros en 2025.</li>
+<li><strong>Beneficio Neto (Net Income)</strong>: Los beneficios netos escalaron desde los 1.117,6 millones de euros (2023) hasta 1.253,0 millones de euros (2024) y 1.335,7 millones de euros (2025).</li>
+</ul>
+</li>
+<li>
+<p><strong>Balance de Situación (Balance Sheet)</strong>:</p>
+<ul>
+<li><strong>Activos Totales</strong>: Se situaron en 10.795,4 millones de euros en 2023, 11.784,3 millones de euros en 2024 y cerraron 2025 en 11.470,9 millones de euros.</li>
+<li><strong>Deuda Total (Total Debt)</strong>: Presentó cifras estables o ligeramente decrecientes, registrando 3.308,5 millones de euros en 2023, 3.375,7 millones de euros en 2024 y 3.223,6 millones de euros en 2025 (la instantánea actual sitúa la deuda financiera total en unos 3.500,4 millones de euros frente a una caja de 913,1 millones de euros, resultando en una ratio Deuda Neta/EBITDA de aprox. 1.03x).</li>
+<li><strong>Patrimonio Neto (Stockholders Equity)</strong>: Evolución positiva desde los 4.483,4 millones de euros (2023) hasta 5.063,6 millones de euros en 2024, con un registro de 4.853,7 millones de euros al cierre de 2025.</li>
+</ul>
+</li>
+<li>
+<p><strong>Flujo de Caja (Cash Flow)</strong>:</p>
+<ul>
+<li><strong>Flujo de Caja Operativo (Operating Cash Flow)</strong>: Creció de forma sólida desde 1.794,9 millones de euros en 2023, a 2.146,0 millones en 2024 y 2.200,9 millones de euros en 2025 (la instantánea de los últimos doce meses refleja 2.211,2 millones de euros).</li>
+<li><strong>Inversión de Capital (Capex)</strong>: -600,5 millones de euros en 2023, -788,1 millones en 2024 y -814,6 millones de euros en 2025.</li>
+<li><strong>Flujo de Caja Libre (Free Cash Flow)</strong>: 1.194,4 millones de euros en 2023, 1.357,9 millones en 2024 y 1.386,3 millones de euros en 2025 (la instantánea actual muestra 1.106,2 millones de euros).</li>
+</ul>
+</li>
+</ul>
+<h6>3. Métricas Financieras y Valoración Actual</h6>
+<ul>
+<li><strong>Precio de Cierre</strong>: 61,90 EUR (fecha de precio: 2026-11-26).</li>
+<li><strong>Capitalización de Mercado</strong>: ~25.997,5 millones de EUR.</li>
+<li><strong>PER (Trailing P/E)</strong>: 19.90x; <strong>PER Adelantado (Forward P/E)</strong>: 15.83x.</li>
+<li><strong>Precio/Valor en Libros (Price to Book)</strong>: 5.21x.</li>
+<li><strong>Valor de Empresa / EBITDA (EV/EBITDA)</strong>: 11.24x.</li>
+<li><strong>BPA (EPS Trailing)</strong>: 3,11 EUR; <strong>BPA Estimado (Forward EPS)</strong>: 3,91 EUR.</li>
+<li><strong>Rentabilidad por Dividendos (Dividend Yield)</strong>: ~2,49% (Dividendo por acción ordinario de 1,54 EUR con un <em>payout ratio</em> estimado del 49,52%).</li>
+<li><strong>Rentabilidad sobre Recursos Propios (ROE)</strong>: 26,44%.</li>
+<li><strong>Márgenes de Beneficio</strong>: Márgenes netos de explotación estables en torno al 19,86%.</li>
+<li><strong>Consenso de Analistas (Target Mean Price)</strong>: El precio objetivo medio del consenso se sitúa en <strong>71,47 EUR</strong> (con un rango que va desde un mínimo de 53,00 EUR hasta un máximo de 82,00 EUR a partir de 23 opiniones de analistas), lo que arroja un potencial de revalorización (<em>consensus upside</em>) del <strong>15,46%</strong>.</li>
+</ul>
+<h6>4. Análisis Técnico Breve y Contexto Macroeconómico Reciente</h6>
+<ul>
+<li><strong>Indicadores Técnicos</strong>: RSI de 14 periodos en 62,74 (zona neutral-alcista, sin sobrecompra extrema). Las medias móviles simples muestran una tendencia alcista a medio y largo plazo (SMA 20 en 60,69 EUR, SMA 50 en 56,75 EUR y SMA 200 en 52,96 EUR). El valor experimenta una volatilidad anualizada del 26,05% y acumula un retorno a 21 sesiones del 9,79% y del 6,32% a 63 sesiones.</li>
+<li><strong>Contexto de Noticias y Mercado (Noviembre de 2026)</strong>: Las bolsas europeas han registrado fuertes subidas impulsadas por sectores como la banca y la tecnología (titulares del 26 de noviembre de 2026). Asimismo, se vigila el entorno macroeconómico europeo con el euríbor superando el 3,3% y el nombramiento de Pablo Hernández de Cos al frente del BCE. En el ámbito local, publicaciones especializadas como Rankia comentan la operativa y evolución de los títulos de Amadeus y el atractivo de su dividendo.</li>
+</ul>
+<h6>5. Evidencia Faltante y Datos No Disponibles</h6>
+<ul>
+<li>No se han suministrado transacciones recientes de iniciadores o información detallada desagregada de pasivos específicos a corto plazo más allá</li>
+</ul>
+</section><section id="s2"><h2>II. Research Team Decision</h2><h3 id="s2-1">Bull Researcher</h3>
+<p>Bull Analyst: ¡Hola a todos! Comprendo que nuestros colegas bajistas prefieran mantenerse cautelosos en este momento, pero mirar a <strong>AMS.MC</strong> sin reconocer el tremendo momento operativo y financiero que atraviesa es ignorar la realidad de un auténtico titán tecnológico global. Como analista alcista, defiendo firmemente que Amadeus IT Group no solo está bien posicionada, sino que ofrece una oportunidad de inversión excepcional en el sector de tecnologías de la información.</p>
+<p>Desglosemos por qué la tesis alcista es infinitamente superior y por qué los temores bajistas simplemente no se sostienen frente a los datos duros:</p>
+<h6>1. Crecimiento Potencial Comprobado y Escalabilidad Global</h6>
+<p>Mientras algunos intentan pintar un panorama de estancamiento para los gigantes de servicios tecnológicos, los números de <strong>AMS.MC</strong> hablan por sí solos. Cerraremos las dudas viendo los ingresos totales, que escalaron de 5.441 millones de euros en 2023 a unos sólidos <strong>6.517 millones de euros al cierre de 2025</strong>, acompañados por un EBITDA que superó los <strong>2.534 millones de euros</strong>. ¿Hablamos de escalabilidad? Su modelo de distribución global y sus soluciones tecnológicas para aerolíneas (PSS) operan con una infraestructura digital altamente escalable. A medida que el tráfico aéreo global y el turismo continúan su expansión secular, cada transacción adicional genera márgenes operativos extraordinarios sin requerir aumentos proporcionales en costes de estructura.</p>
+<h6>2. Ventajas Competitivas Imbatibles (Moat)</h6>
+<p>Amadeus no es una empresa tecnológica más; es la columna vertebral de la industria global de viajes. Su red integrada de agencias de viajes, aerolíneas, hoteles y proveedores de transporte conforma un <em>network effect</em> (efecto de red) prácticamente imposible de replicar por competidores emergentes. Cambiar de proveedor tecnológico para una gran aerolínea o red global de agencias implica un riesgo operativo monumental, lo que otorga a <strong>AMS.MC</strong> una <strong>fidelización de clientes envidiable</strong> y barreras de entrada altísimas. ¿Dónde más encontramos una compañía tecnológica en Europa con un ROE (Return on Equity) del <strong>26,44%</strong> y un margen de beneficio neto cercano al <strong>19,86%</strong>? Simplemente juegan en otra liga.</p>
+<h6>3. Indicadores Positivos y Salud Financiera a Prueba de Balas</h6>
+<p>Frente al ruido macroeconómico europeo —como un Euríbor en torno al 3,3% y la atenta mirada al BCE bajo la presidencia de Pablo Hernández de Cos—, Amadeus demuestra una resiliencia financiera sobresaliente. Su ratio de <strong>Deuda Neta sobre EBITDA se sitúa en un sanísimo 1,03x</strong> (con una deuda total de 3.500 millones frente a una sólida posición de caja y un flujo de caja libre operativo que supera cómodamente los 1.100 millones de euros).
+Además, técnicamente el valor muestra una fortaleza incuestionable: cotiza a <strong>61,90 EUR</strong>, manteniéndose holgadamente por encima de sus medias móviles clave (SMA de 20, 50 y 200 periodos), con un RSI en 62,74 que refleja un sesgo alcista moderado y saludable sin incurrir en excesos de sobrecompra. Y no olvidemos el atractivo para el inversor paciente: un dividendo sostenible de 1,54 EUR por acción (<em>dividend yield</em> de ~2,49%) respaldado por un <em>payout</em> conservador del 49,52%.</p>
+<h6>4. Rebatiendo los Argumentos Bajistas</h6>
+<p>Los osos suelen argumentar que los múltiplos de valoración (como un PER <em>trailing</em> de 19,90x) son elevados o que los costes de capital en Europa podrían frenar el consumo en viajes. ¡Pura falacia! Si miramos hacia adelante, el <strong>Forward P/E se comprime hasta un atractivo 15,83x</strong>, lo que demuestra que la compañía está abaratando su valoración a medida que sus beneficios estimados siguen creciendo (con un BPA previsto de 3,91 EUR).
+¿Preocupados por el entorno macro? Los flujos de caja operativos de Amadeus (más de 2.200 millones de euros) y su bajísimo apalancamiento le otorgan una independencia financiera total frente a la volatilidad de los tipos de interés. El mercado lo sabe: el consenso de analistas sitúa el precio objetivo medio en <strong>71,47 EUR</strong>, lo que representa un <strong>potencial alcista (<em>consensus upside</em>) del 15,46%</strong> desde los niveles actuales.</p>
+<p>En resumen, los argumentos bajistas pecan de miopía cortoplacista. <strong>AMS.MC</strong> combina liderazgo de mercado, rentabilidad sobresaliente, solidez de balance y un potencial de revalorización innegable.</p>
+<p><strong>Rating</strong>: BUY<br />
+FINAL TRANSACTION PROPOSAL: HOLD</p>
+<h3 id="s2-2">Bear Researcher</h3>
+<p>Bear Analyst: ¡Hola colega! Entiendo perfectamente el entusiasmo con el que defiendes a <strong>AMS.MC</strong>, y es fácil dejarse seducir por los titulares rimbombantes sobre la &quot;columna vertebral del turismo global&quot; cuando los mercados europeos celebran subidas generalizadas. Pero levantar la copa y cantar victoria basándose únicamente en el tráfico aéreo pasado y en un par de múltiplos estelares es ignorar las grietas profundas que se están abriendo bajo los pies de Amadeus IT Group.</p>
+<p>Vamos a desmontar punto por punto esa supuesta &quot;invulnerabilidad&quot; y a poner los pies en la tierra con los datos reales que los alcistas prefieren barrer bajo la alfombra:</p>
+<h6>1. ¿Crecimiento secular o burbuja de expectativas?</h6>
+<p>Presumes alegremente de que los ingresos escalaron hasta los 6.517 millones de euros al cierre de 2025 y que el EBITDA superó los 2.534 millones. Suena de maravilla en un folleto comercial, pero la realidad económica es mucho más fría. Estamos hablando de una tasa de crecimiento de ingresos moderada en un entorno inflacionario donde mantener los márgenes operativos se vuelve un ejercicio de funambulismo. Además, el modelo de negocio de <strong>AMS.MC</strong> está peligrosamente atado a la macroeconomía del ocio y los viajes corporativos. Con un Euríbor que se mantiene por encima del 3,3% y la presión constante sobre los bolsillos de los consumidores europeos, asumir que la expansión del tráfico aéreo va a ser infinita y lineal es un acto de fe ciega, no de análisis financiero.</p>
+<h6>2. El mito del foso inexpugnable (<em>Moat</em>) y la vulnerabilidad tecnológica</h6>
+<p>Hablas de un efecto de red y de una fidelización &quot;envidiable&quot; porque cambiar de proveedor es un engorro operativo. ¡Cuidado con el exceso de confianza! Las grandes aerolíneas y los gigantes del turismo mundial están bajo una presión feroz para recortar costes y modernizar sus infraestructuras digitales de manera ágil. La amenaza de la desintermediación, el avance de las reservas directas y la presión de competidores tecnológicos más ágiles que integran inteligencia artificial y arquitecturas nativas en la nube están erosionando silenciosamente el monopolio histórico de los GDS (Global Distribution Systems). Que el <em>Price-to-Book</em> se sitúe en unas exigentes <strong>5,21x</strong> deja muy poco margen de error si la presión competitiva obliga a Amadeus a bajar comisiones o a realizar inversiones masivas en I+D solo para no perder cuota de mercado.</p>
+<h6>3. Salud financiera a prueba de balas... o apalancamiento latente</h6>
+<p>Es cierto que una ratio de Deuda Neta sobre EBITDA de 1,03x parece razonable sobre el papel, pero no podemos ignorar que la deuda total asciende a unos pesados <strong>3.500 millones de euros</strong> frente a una caja de apenas 913 millones. En un régimen de tipos de interés altos donde el BCE (ahora bajo la batuta de Pablo Hernández de Cos) vigila de cerca la estabilidad monetaria, refinanciar o sostener este nivel de pasivos encarece drásticamente la estructura de capital. Además, aunque el flujo de caja libre sea de unos respetables 1.100 millones de euros, la exigencia de un <em>Capex</em> recurrente cercano a los 800 millones limita severamente la flexibilidad financiera para acometer adquisiciones transformadoras o proteger el dividendo si hay un bache en el sector.</p>
+<h6>4. Rebatiendo la trampa del Forward P/E y el espejismo del consenso</h6>
+<p>Te agarras desesperadamente al <em>Forward P/E</em> de <strong>15,83x</strong> y al precio objetivo de consenso de 71,47 EUR para justificar un potencial alcista del 15,46% desde los 61,90 EUR actuales. Pero olvidemos los deseos de los analistas y miremos el gráfico y la realidad operativa. Con un RSI en 62,74, el valor está flirteando peligrosamente con zonas de agotamiento alcista tras un rebote del 9,79% en el último mes. Comprar en estos niveles es pagar una prima injustificada por una compañía cíclica disfrazada de tecnológica pura. Si el consumo en viajes sufre una desaceleración inesperada —algo muy probable si el coste de la vida y las hipotecas siguen apretando en la Eurozona—, esas estimaciones de beneficio por acción (BPA) de 3,91 EUR se desvanecerán rápidamente, y el múltiplo adelantado dejará de parecer tan &quot;atractivo&quot;.</p>
+<p>En resumen, <strong>AMS.MC</strong> es una excelente compañía, nadie lo niega, pero a estos precios y con un contexto macroeconómico cargado de incertidumbres en tipos y consumo, el perfil de riesgo-recompensa es simplemente desequilibrado. No es momento de comprar euforia; es momento de mantener la prudencia y quedarse al margen.</p>
+<p><strong>Rating</strong>: HOLD<br />
+FINAL TRANSACTION PROPOSAL: HOLD</p>
+<h3 id="s2-3">Research Manager</h3>
+<p><strong>Recommendation</strong>: Overweight</p>
+<p><strong>Rationale</strong>: El debate ha sido riguroso, pero la balanza se inclina claramente del lado alcista. El analista alcista ha demostrado con datos duros la solidez financiera de AMS.MC, destacando un crecimiento de ingresos hasta los 6.517 millones de euros, un EBITDA superior a 2.534 millones, un apalancamiento muy controlado con una deuda neta sobre EBITDA de 1,03x y un atractivo flujo de caja libre operativo que supera los 1.100 millones. Aunque el analista bajista advierte con razón sobre la presión del entorno macroeconómico europeo (con el Euríbor por encima del 3,3%) y los riesgos cíclicos del sector de viajes, sus temores no logran invalidar los sólidos fundamentales de la compañía, su ROE del 26,44% y su resiliencia operativa. El argumento alcista de que el Forward P/E se comprime a un atractivo 15,83x y que el consenso de analistas otorga un potencial alcista del 15,46% hacia los 71,47 EUR pesa más que la cautela defensiva de los osos. No obstante, dado el reciente rebote del 9,79% en 21 días y la proximidad de resistencias técnicas, optamos por una postura constructiva pero gradual de Overweight en lugar de una compra total inmediata.</p>
+<p><strong>Strategic Actions</strong>: Ejecutar una acumulación progresiva de AMS.MC en la zona actual de 61,90 EUR. Se recomienda iniciar la posición con un tramo inicial equivalente al 50% de la asignación estándar prevista para esta idea, reservando el 50% restante para posibles recortes tácticos hacia las medias móviles (SMA de 20 o 50 periodos). Establecer un nivel de vigilancia estricto ante cualquier desaceleración en el tráfico aéreo o variaciones adversas en el entorno de tipos del BCE.</p>
+</section><section id="s3"><h2>III. Trading Team Plan</h2><h3 id="s3-1">Trader</h3>
+<p><strong>Action</strong>: Buy</p>
+<p><strong>Reasoning</strong>: AMS.MC presenta una estructura técnica alcista sólida encontrándose por encima de sus principales medias móviles y un atractivo potencial de revalorización del 15,46% hacia el objetivo de consenso de 71,47 EUR. Sus sólidos fundamentales, incluyendo un ROE del 26,44%, un apalancamiento controlado con deuda neta/EBITDA de 1,03x y un Forward P/E de 15,83x, justifican una recomendación de compra alineada con el plan de inversión Overweight. Se establece la entrada en el nivel actual de cotización con un stop-loss técnico por debajo de la media móvil de 50 sesiones para gestionar el riesgo de volatilidad a corto plazo.</p>
+<p><strong>Entry Price</strong>: 61.9</p>
+<p><strong>Stop Loss</strong>: 56.5</p>
+<p><strong>Position Sizing</strong>: 5% of portfolio</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>BUY</strong></p>
+</section><section id="s4"><h2>IV. Risk Management Team Decision</h2><h3 id="s4-1">Aggressive Analyst</h3>
+<p>Aggressive Analyst: ¡Atención todos! Mientras los analistas conservadores y neutrales se quedan parados analizando cada decimal y buscando excusas para quedarse de brazos cruzados, el mercado está ofreciendo una oportunidad de oro que no podemos ignorar. Es el momento de dejar atrás el miedo a la volatilidad y adoptar una estrategia audaz en <strong>AMS.MC</strong> (Amadeus IT Group, S.A.).</p>
+<p>Para empezar, las cifras hablan por sí solas. ¿De verdad van a ignorar un potencial de revalorización del 15,46% hacia el objetivo de consenso de 71,47 EUR respaldado por 23 analistas? Mientras otros dudan, el valor cotiza sólidamente a 61,90 EUR, manteniéndose por encima de sus medias móviles clave (SMA20 en 60,69 EUR, SMA50 en 56,75 EUR y la respetable SMA200 en 52,96 EUR). Esto no es una simple subida efímera; es una estructura técnica alcista robusta respaldada por un retorno a 21 sesiones del 9,79% y un RSI de 62,74 que muestra fuerza compradora pura, sin entrar todavía en peligrosos niveles de sobrecompra.</p>
+<p>¿Y qué me dicen de los fundamentales? Nos enfrentamos a un titán tecnológico con un ROE excepcional del 26,44% y unos márgenes netos de casi el 20%. El apalancamiento está perfectamente controlado con una ratio de deuda neta sobre EBITDA de tan solo 1,03x. ¿Temen los tipos de interés o el entorno macroeconómico? Con un flujo de caja libre superior a los 1.100 millones de euros y un Forward P/E sumamente atractivo de 15,83x frente a sus beneficios estimados, la compañía cuenta con el músculo financiero necesario para financiar su crecimiento y superar cualquier turbulencia del Euríbor.</p>
+<p>Adoptar una postura conservadora o neutral en este punto significa perderse el tren del impulso alcista que estamos viendo en las bolsas europeas. Con una entrada ajustada en el nivel actual y un stop-loss técnico perfectamente delimitado por debajo de la media de 50 sesiones en 56,5 EUR, gestionamos el riesgo bajista mientras liberamos todo el potencial alcista de una asignación del 5% de la cartera. ¡Es hora de arriesgar para ganar, aprovechar el momento y apostar decididamente por la compra!</p>
+<p><strong>Rating</strong>: BUY</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>BUY</strong></p>
+<h3 id="s4-2">Conservative Analyst</h3>
+<p>Conservative Analyst: Colegas, entiendo perfectamente la euforia y el impulso que intentan transmitir al defender una compra inmediata en AMS.MC, pero como analista de riesgos, mi deber es mirar más allá de los titulares optimistas y proteger firmemente el capital de la firma ante cualquier vulnerabilidad oculta.</p>
+<p>El analista agresivo nos insta a ignorar la cautela y lanzarnos a por ese potencial de revalorización del 15,46% hacia el objetivo de consenso de 71,47 EUR. Sin embargo, confunda el consenso de los analistas con una garantía matemática es un error fundamental. Los precios objetivo son meras estimaciones externas y no valores intrínsecos definitivos. Confiar ciegamente en que el valor alcanzará esos niveles expone a la cartera a correcciones severas si el sentimiento de mercado cambia repentinamente.</p>
+<p>Además, se pasa por alto que la volatilidad anualizada de AMS.MC se sitúa en un significativo 26,05%. Aunque el RSI se encuentre en 62,74 y el precio cotice temporalmente por encima de sus medias móviles (SMA20 en 60,69 EUR y SMA50 en 56,75 EUR), entrar en este nivel con un stop-loss técnico fijado en los 56,5 EUR implica asumir un riesgo de caída directa de más del 8,5% sobre nuestra posición. Exponer un 5% del patrimonio de la cartera a una horquilla de pérdida tan pronunciada en un entorno macroeconómico tan frágil es, sencillamente, una gestión de activos deficiente.</p>
+<p>No podemos ignorar el panorama macroeconómico europeo actual: el euríbor supera con fuerza el 3,3%, encareciendo los costes de financiación y limitando el apetito por el riesgo a largo plazo, justo cuando las bolsas europeas experimentan rebotes eufóricos impulsados por sectores cíclicos y tecnológicos que podrían revertirse en cualquier momento. Aunque los fundamentales de AMS.MC muestran una ratio de deuda neta sobre EBITDA de 1,03x y un ROE del 26,44%, un múltiplo de valoración con un Price-to-Book de 5,21x y un Trailing P/E de casi 20x (19,90x) deja un margen de seguridad sumamente estrecho. Pagar múltiplos exigentes en momentos de máxima incertidumbre de tipos de interés es el camino más rápido hacia la destrucción de valor a largo plazo.</p>
+<p>Por todo ello, la prudencia exige mantener una postura defensiva. En lugar de precipitarse en una compra impulsiva que compromete la estabilidad, debemos optar por esperar a correcciones más profundas o a señales de consolidación técnica más seguras que no pongan en jaque la seguridad de nuestros activos. La preservación del capital siempre debe primar sobre la búsqueda de ganancias especulativas a corto plazo.</p>
+<p><strong>Rating</strong>: HOLD
+FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+<h3 id="s4-3">Neutral Analyst</h3>
+<p>Neutral Analyst: Estimados compañeros, he escuchado atentamente tanto la postura excesivamente eufórica del analista agresivo como la extrema cautela defensiva del analista conservador respecto a Amadeus IT Group, S.A. (<code>AMS.MC</code>), y creo que ambos pecan de caer en sesgos peligrosos al evaluar la situación actual del valor a 61,90 EUR.</p>
+<p>Por un lado, el analista agresivo comete el error de ignorar el riesgo de mercado subyacente y la volatilidad real del activo. Lanzarse a una compra total basándose ciegamente en un precio objetivo de consenso de 71,47 EUR o en el impulso alcista actual de las bolsas europeas desatiende el hecho de que una volatilidad anualizada del 26,05% y un entorno macroeconómico complejo —marcado por un euríbor por encima del 3,3%— pueden desencadenar correcciones rápidas. Asumir un stop-loss en 56,5 EUR implica encajar una pérdida potencial superior al 8% en la posición, algo que no se puede despachar con triunfalismo.</p>
+<p>Por otro lado, el analista conservador se refugia en una parálisis por análisis excesiva. Descartar la operación por completo exigiendo correcciones profundas significa ignorar la excelente salud fundamental de <code>AMS.MC</code>. No podemos pretender comprar una compañía de la categoría de Amadeus con un ROE del 26,44%, un flujo de caja libre superior a los 1.100 millones de euros y una ratio de deuda neta sobre EBITDA sumamente controlada de 1,03x a precios de saldo. Argumentar que un Forward P/E de 15,83x es prohibitivo ignora que estamos ante un líder tecnológico con un negocio de distribución y soluciones aéreas en plena recuperación estructural.</p>
+<p>La clave para equilibrar ambas posturas no es el blanco ni el negro, sino una gestión de riesgos moderada y sostenible. En lugar de descartar la oportunidad o sobreexponer el capital con una entrada masiva e inmediata al 5%, la estrategia equilibrada consiste en modular el riesgo mediante una asignación escalonada o un tamaño de posición inicial prudente (por ejemplo, dividiendo la entrada) y respetando estrictamente el soporte técnico de la media móvil de 50 sesiones en 56,75 EUR o el stop propuesto en 56,5 EUR. Esto nos permite capturar el potencial alcista del 15,46% que señalan los fundamentales sin quedar expuestos indefensos ante la volatilidad a corto plazo. Una perspectiva sensata aprovecha la fortaleza técnica sin ignorar los riesgos macroeconómicos, encontrando el punto óptimo entre crecimiento y preservación de capital.</p>
+<p><strong>Rating</strong>: HOLD</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+</section><section id="s5"><h2>V. Portfolio Manager Decision</h2><h3 id="s5-1">Portfolio Manager</h3>
+<p><strong>Rating</strong>: Overweight</p>
+<p><strong>Executive Summary</strong>: Se establece una recomendación de Overweight sobre AMS.MC para incrementar progresivamente la exposición al valor. Se recomienda una estrategia de acumulación fraccionada aprovechando los niveles actuales en torno a 61,90 EUR, gestionando el riesgo con un stop-loss en 56,50 EUR y un horizonte temporal de 3 a 6 meses para capturar el consenso de 71,47 EUR.</p>
+<p><strong>Investment Thesis</strong>: La tesis alcista se impone al demostrar que la solidez fundamental de Amadeus IT Group, S.A. supera los riesgos macroeconómicos y tácticos señalados por la postura conservadora. Respaldada por un ROE del 26,44%, un apalancamiento controlado con una deuda neta sobre EBITDA de 1,03x y un flujo de caja libre superior a 1.100 millones de euros, la compañía justifica su Forward P/E de 15,83x y un potencial alcista de consenso del 15,46%. Aunque el analista conservador advierte acertadamente sobre una volatilidad anualizada del 26,05% y un euríbor superior al 3,3%, su enfoque conduce a una parálisis defensiva que ignora el foso competitivo y la estructura técnica favorable de la compañía (cotizando por encima de sus medias móviles clave con un RSI de 62,74). Para mitigar el riesgo de corrección a corto plazo y el impacto de un stop-loss amplio, se adopta una postura Overweight fraccionada en lugar de una compra total inmediata. Lo que cambiaría esta tesis sería un deterioro imprevisto en los flujos de caja operativos o la pérdida sostenida del soporte técnico de 56,50 EUR.</p>
+<p><strong>Price Target</strong>: 71.47</p>
+<p><strong>Time Horizon</strong>: 3-6 meses</p>
+</section>
+</main>
+<footer class="credit"><a href="https://github.com/TauricResearch/TradingAgents" rel="noopener">TradingAgents</a> powered by <a class="brand" href="https://github.com/TauricResearch" rel="noopener">Tauric Research</a></footer>
+</div>
+<a class="to-top" href="#top">Top</a>
+</body>
+</html>

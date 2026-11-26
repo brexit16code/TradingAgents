@@ -1,11 +1,11 @@
-**Action**: Sell
+**Action**: Hold
 
-**Reasoning**: El plan de investigacion recomienda una postura Underweight debido al apalancamiento financiero de 5.06x Deuda Neta/EBITDA, la persistente quema de caja libre y un Forward P/E exigente de 27.62x frente a peers. Aunque tecnicamente el RSI se encuentra en sobreventa cerca de 30.76 y cotiza bajo su valor contable, los fundamentos negativos y el contexto de tipos altos justifican la reduccion de exposicion dictada por la estrategia.
+**Reasoning**: El valor cotiza en 19,02 EUR cerca de su valor contable por acción de 19,10 EUR y cuenta con un potencial alcista del 22,64% hacia el precio objetivo de consenso de 23,33 EUR. Sin embargo, su estructura técnica permanece debilitada por debajo de las medias móviles de 50 y 200 sesiones, con un MACD bajista y una ratio de deuda neta sobre EBITDA elevada superior a 5x en un contexto de tipos altos, lo que justifica mantener la posición actual sin realizar nuevas compras.
 
-**Entry Price**: 18.559999465942383
+**Entry Price**: not provided
 
-**Stop Loss**: 21.34
+**Stop Loss**: not provided
 
-**Position Sizing**: Reduccion del 50% de la exposicion actual o mantener una postura subponderada
+**Position Sizing**: Mantener la ponderación neutral existente en la cartera sin ampliaciones.
 
-FINAL TRANSACTION PROPOSAL: **SELL**
+FINAL TRANSACTION PROPOSAL: **HOLD**

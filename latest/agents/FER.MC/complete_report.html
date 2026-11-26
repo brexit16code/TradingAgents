@@ -1,0 +1,622 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'">
+<title>FER.MC 2026-11-26 Hold: TradingAgents report</title>
+<style>
+:root {
+  --paper: #fbfbfa; --ink: #1c2126; --muted: #5d6670; --rule: #e2e5e8; --wash: #f2f4f5;
+  --accent: #087a59; --up: #087a59; --down: #b4372f; --level: #5d6670; --edge: #d3d8dc; --mark: #878f97;
+  --serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #131a1f; --ink: #e4e8eb; --muted: #9aa6af; --rule: #263239; --wash: #1a242a;
+    --accent: #14c290; --up: #14c290; --down: #ef6f63; --level: #9aa6af; --edge: #3d4c55; --mark: #66737c;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .masthead .logo [stroke="#363636"] { stroke: var(--muted); }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font: 17px/1.62 var(--serif); font-kerning: normal;
+}
+.page { max-width: 46rem; margin: 0 auto; padding: 3.5rem 1.5rem 6rem; }
+main h2, main h3 { scroll-margin-top: 1rem; }
+a { color: var(--accent); text-underline-offset: 0.15em; }
+h1, h2, h3, h4 { text-wrap: balance; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.masthead { padding-bottom: 1.75rem; border-bottom: 1px solid var(--rule); }
+/* The logo leads at the top left, where readers look for it, 24px tall (the usual
+   on-screen floor for a wordmark) with at least its height clear below. */
+.masthead .logo { display: block; width: fit-content; margin: 0 0 2.25rem; }
+.masthead .logo svg { display: block; height: 1.5rem; width: auto; }
+.masthead h1 {
+  margin: 0; font: 600 2.6rem/1.1 var(--sans); letter-spacing: -0.02em;
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.2em 0.5em;
+}
+.masthead .rating { font-weight: 500; }
+.rating.up { color: var(--up); } .rating.down { color: var(--down); } .rating.level { color: var(--level); }
+.rating.review { color: var(--muted); font-style: italic; }
+.masthead .date { margin: 0.55rem 0 1.5rem; font: 1rem/1.4 var(--sans); color: var(--muted); }
+.run { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: 0.45rem 1.25rem;
+  font: 0.85rem/1.5 var(--sans); }
+.run > div { display: contents; }
+.run dt { color: var(--muted); }
+.run dd { margin: 0; overflow-wrap: anywhere; }
+.run .note dd { color: var(--down); }
+.field { display: inline-block; margin: 0 0.15rem 0.15rem 0; padding: 0 0.4rem; border: 1px solid var(--edge);
+  border-radius: 4px; background: var(--wash); font: 0.8rem/1.6 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+.run .group { display: inline-block; margin-right: 0.9rem; white-space: nowrap; }
+.run .group > .name { color: var(--muted); margin-right: 0.3rem; }
+.run .then { color: var(--muted); margin: 0 0.2rem; }
+
+/* The sections: listed under the header on narrow screens. On wide ones, a
+   quiet rail centred on the left edge (numerals for the sections, short bars
+   for their agents) that opens into the full list when pointed at or focused. */
+.contents { margin: 2.25rem 0 0; font: 0.9rem/1.45 var(--sans); }
+.contents ul { margin: 0; padding: 0; list-style: none; }
+.contents > ul > li { margin: 0 0 0.75rem; }
+.contents ul ul { margin-top: 0.2rem; padding-left: 1.6rem; font-size: 0.85rem; }
+.contents ul ul li { margin: 0.1rem 0; }
+.contents a { display: flex; align-items: center; gap: 0.6rem; color: var(--muted); text-decoration: none; }
+.contents > ul > li > a { color: var(--ink); }
+.contents .num { min-width: 1.6rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.contents .bar { display: none; }
+.contents a:hover .label, .contents a:focus-visible .label { color: var(--accent); text-decoration: underline; }
+.to-top { position: fixed; right: 1rem; bottom: calc(1rem + env(safe-area-inset-bottom));
+  padding: 0.25rem 0.6rem; border: 1px solid var(--edge); border-radius: 4px; background: var(--paper);
+  color: var(--muted); font: 0.8rem/1.4 var(--sans); text-decoration: none; }
+
+@media (min-width: 60rem) {
+  .contents { position: fixed; left: 1rem; top: 50%; transform: translateY(-50%); z-index: 1;
+    max-height: 86vh; overflow-y: auto; overscroll-behavior: contain; margin: 0;
+    padding: 0.7rem 0.9rem; border: 1px solid transparent; border-radius: 6px;
+    transition: background-color 0.15s, border-color 0.15s, box-shadow 0.15s; }
+  .contents > ul > li { margin: 0 0 0.35rem; }
+  .contents ul ul { margin-top: 0; padding-left: 0; }
+  .contents ul ul li { margin: 0; }
+  /* Marks reach 3:1 contrast and rows 24px, the WCAG 2.2 floors for a control's
+     visual cue and its pointer target. */
+  .contents a { min-height: 1.5rem; }
+  .contents .num { min-width: 1.4rem; }
+  .contents .bar { display: block; flex: none; width: 1.25rem; height: 2px; margin-left: 0.2rem;
+    border-radius: 1px; background: var(--mark); }
+  .contents .label { max-width: 0; opacity: 0; overflow: hidden; white-space: nowrap;
+    transition: opacity 0.15s, max-width 0.2s; }
+  .contents:hover, .contents:focus-within { background: var(--paper); border-color: var(--rule);
+    box-shadow: 0 6px 24px rgb(0 0 0 / 0.08); }
+  .contents:hover .label, .contents:focus-within .label { max-width: 18rem; opacity: 1; }
+  .contents a:hover .bar, .contents a:focus-visible .bar { background: var(--accent); }
+  .to-top { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .contents, .contents .label { transition: none; }
+}
+
+/* The maker's credit: one quiet line at the foot. */
+.credit { margin-top: 4.5rem; padding-top: 1.25rem; border-top: 1px solid var(--rule);
+  color: var(--muted); font: 0.8rem/1.4 var(--sans); }
+.credit a { color: inherit; text-decoration: none; }
+.credit a.brand { color: var(--accent); }
+.credit a:hover, .credit a:focus-visible { text-decoration: underline; }
+
+/* Three levels of separation: the five groups, the agents within a group, and
+   breaks an agent draws inside its own text. */
+main h2 {
+  margin: 4.5rem 0 0.25rem; padding-top: 1.5rem; border-top: 2px solid var(--ink);
+  font: 600 1.45rem/1.3 var(--sans); letter-spacing: -0.01em;
+}
+main section:first-child h2 { margin-top: 3rem; }
+main h3 { margin: 2.75rem 0 0.75rem; padding-top: 1.1rem; border-top: 1px solid var(--rule);
+  font: 600 1.15rem/1.35 var(--sans); color: var(--accent); }
+main h2 + h3 { margin-top: 1.25rem; padding-top: 0; border-top: 0; }
+main h4, main h5, main h6 { margin: 1.75rem 0 0.5rem; font: 600 1rem/1.4 var(--sans); }
+main h5, main h6 { color: var(--muted); }
+main p, main ul, main ol { margin: 0 0 1rem; }
+main li { margin: 0.25rem 0; }
+main strong { font-weight: 650; }
+main blockquote { margin: 1.25rem 0; padding: 0.1rem 0 0.1rem 1rem; border-left: 3px solid var(--rule);
+  color: var(--muted); }
+main code { font: 0.88em/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  background: var(--wash); padding: 0.1em 0.3em; border-radius: 3px; }
+main pre { background: var(--wash); padding: 0.9rem 1rem; border-radius: 4px; overflow-x: auto; }
+main pre code { background: none; padding: 0; }
+main hr { width: 3rem; margin: 2rem auto; border: 0; border-top: 1px solid var(--rule); }
+
+.table { overflow-x: auto; margin: 0 0 1.25rem; }
+table { border-collapse: collapse; width: 100%; font: 0.86rem/1.45 var(--sans);
+  font-variant-numeric: tabular-nums; }
+th, td { padding: 0.45rem 0.7rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--rule); }
+th { font-weight: 600; border-bottom-color: var(--muted); }
+tbody tr:last-child td { border-bottom: 0; }
+
+@media (max-width: 34rem) {
+  body { font-size: 16px; }
+  .page { padding: 2rem 1rem 3rem; }
+  .masthead h1 { font-size: 2rem; }
+  .masthead .logo svg { height: 1.25rem; }
+  .run { grid-template-columns: 1fr; gap: 0 0; }
+  .run dd { margin-bottom: 0.45rem; }
+  .run .group { white-space: normal; }
+}
+@media print {
+  :root { --paper: #fff; --ink: #000; --muted: #444; --rule: #bbb; --accent: #000; --wash: #f2f2f2;
+    --edge: #bbb; --up: #087a59; --down: #b4372f; --level: #444; }
+  body { font-size: 11pt; }
+  .table { overflow: visible; }
+  .page { max-width: none; padding: 0; }
+  .contents, .to-top { display: none; }
+  main h2 { break-before: page; border-top: 0; margin-top: 0; }
+  main section:first-child h2 { break-before: auto; }
+  main h3, main h4 { break-after: avoid; }
+  a { color: inherit; text-decoration: none; }
+  table { break-inside: avoid; }
+}
+</style>
+</head>
+<body>
+<div class="page" id="top">
+<header class="masthead">
+<a class="logo" href="https://tauric.ai" rel="noopener" aria-label="Tauric Research"><svg width="993" height="115" viewBox="0 0 993 115" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M189.86 95.0459V37.9779H165.924V29.9259H223.74V37.9779H199.804V95.0459H189.86ZM251.026 46.4259C256.071 46.4259 260.178 47.0272 263.345 48.2299C266.514 49.4032 268.89 51.3686 270.474 54.1259C272.058 56.8832 272.85 60.6379 272.85 65.3899V95.0459H264.666L263.961 89.8979H263.434C261.644 91.7752 259.386 93.2419 256.657 94.2979C253.929 95.3246 251.025 95.8379 247.946 95.8379C244.426 95.8379 241.419 95.2952 238.925 94.2099C236.432 93.0952 234.54 91.5406 233.249 89.5459C231.959 87.5512 231.313 85.2046 231.313 82.5059C231.313 78.2526 232.897 74.9672 236.065 72.6499C239.263 70.3032 244.337 68.8219 251.29 68.2059L263.258 67.0179V64.7299C263.258 61.9139 262.774 59.7139 261.806 58.1299C260.838 56.5459 259.371 55.4312 257.406 54.7859C255.47 54.1406 252.888 53.8179 249.662 53.8179C247.432 53.8179 245.012 54.0086 242.401 54.3899C239.82 54.7712 237.341 55.3432 234.965 56.1059V48.8019C237.312 48.0392 239.908 47.4526 242.754 47.0419C245.628 46.6312 248.386 46.4259 251.026 46.4259ZM250.541 89.0619C252.888 89.0619 255.162 88.6512 257.362 87.8299C259.562 86.9792 261.527 85.7179 263.258 84.0459V72.8259L252.038 73.9259C248.136 74.3659 245.35 75.2166 243.678 76.4779C242.005 77.7099 241.169 79.4699 241.169 81.7579C241.169 84.0752 241.947 85.8792 243.501 87.1699C245.056 88.4312 247.403 89.0619 250.541 89.0619ZM313.339 95.8379C307.59 95.8379 303.087 94.2979 299.831 91.2179C296.575 88.1086 294.947 83.2686 294.947 76.6979V47.1739H304.715V76.1699C304.715 80.1886 305.624 83.0779 307.443 84.8379C309.291 86.5979 311.916 87.4779 315.319 87.4779C317.871 87.4779 320.379 86.9939 322.843 86.0259C325.336 85.0286 327.492 83.5766 329.311 81.6699V47.1739H339.079V95.0459H330.983L330.367 89.9419H329.883C327.624 91.8486 325.072 93.3152 322.227 94.3419C319.382 95.3392 316.419 95.8379 313.339 95.8379ZM362.371 47.1739H370.423L371.171 53.2899H371.743C373.474 51.2072 375.703 49.5792 378.431 48.4059C381.188 47.2326 384.063 46.6459 387.055 46.6459C388.756 46.6459 390.355 46.7926 391.851 47.0859V55.8419C390.414 55.5779 388.654 55.4459 386.571 55.4459C383.99 55.4459 381.364 55.9446 378.695 56.9419C376.026 57.9392 373.84 59.4206 372.139 61.3859V95.0459H362.371V47.1739ZM409.069 95.0459V47.1739H418.837V95.0459H409.069ZM413.953 37.8459C411.871 37.8459 410.287 37.3912 409.201 36.4819C408.145 35.5726 407.617 34.2672 407.617 32.5659C407.617 30.8352 408.145 29.5152 409.201 28.6059C410.287 27.6672 411.871 27.1979 413.953 27.1979C416.036 27.1979 417.605 27.6672 418.661 28.6059C419.747 29.5152 420.289 30.8352 420.289 32.5659C420.289 34.2672 419.747 35.5726 418.661 36.4819C417.605 37.3912 416.036 37.8459 413.953 37.8459ZM464.85 95.9259C456.607 95.9259 450.315 93.8432 445.974 89.6779C441.662 85.5126 439.506 79.3526 439.506 71.1979C439.506 63.0139 441.779 56.8392 446.326 52.6739C450.902 48.5086 457.575 46.4259 466.346 46.4259C470.716 46.4259 474.735 46.9246 478.402 47.9219V55.7099C476.378 55.2406 474.486 54.8886 472.726 54.6539C470.966 54.4192 469.118 54.3019 467.182 54.3019C461.168 54.3019 456.71 55.6512 453.806 58.3499C450.931 61.0486 449.494 65.2872 449.494 71.0659C449.494 76.8739 450.858 81.1566 453.586 83.9139C456.343 86.6712 460.42 88.0499 465.818 88.0499C467.695 88.0499 469.616 87.8886 471.582 87.5659C473.547 87.2139 475.82 86.6712 478.402 85.9379V93.7259C474.236 95.1926 469.719 95.9259 464.85 95.9259ZM574.428 95.0459L553.704 69.0859C553.176 69.1152 552.37 69.1299 551.284 69.1299C548.38 69.1299 544.978 68.9832 541.076 68.6899V95.0459H531.308V31.4659C537.967 29.9699 544.846 29.2219 551.944 29.2219C561.595 29.2219 568.752 30.8059 573.416 33.9739C578.08 37.1126 580.412 42.1286 580.412 49.0219C580.412 54.0086 579.004 58.0859 576.188 61.2539C573.402 64.4219 569.266 66.6366 563.78 67.8979L585.648 95.0459H574.428ZM541.076 61.2099C543.071 61.4152 544.816 61.5619 546.312 61.6499C547.838 61.7379 549.627 61.7819 551.68 61.7819C558.427 61.7819 563.34 60.7699 566.42 58.7459C569.5 56.6926 571.04 53.4952 571.04 49.1539C571.04 46.0739 570.395 43.6099 569.104 41.7619C567.843 39.9139 565.863 38.5792 563.164 37.7579C560.495 36.9366 556.975 36.5259 552.604 36.5259C550.404 36.5259 548.424 36.6139 546.664 36.7899C544.904 36.9659 543.042 37.2299 541.076 37.5819V61.2099ZM642.947 74.0139H608.231C608.407 77.4752 609.155 80.2766 610.475 82.4179C611.795 84.5299 613.775 86.0846 616.415 87.0819C619.055 88.0792 622.443 88.5779 626.579 88.5779C630.686 88.5779 635.233 87.9472 640.219 86.6859V93.9459C635.027 95.2659 630.026 95.9259 625.215 95.9259C616.298 95.9259 609.61 93.9166 605.151 89.8979C600.722 85.8499 598.507 79.6166 598.507 71.1979C598.507 65.9179 599.402 61.4299 601.191 57.7339C602.981 54.0379 605.562 51.2366 608.935 49.3299C612.338 47.3939 616.43 46.4259 621.211 46.4259C628.251 46.4259 633.634 48.5819 637.359 52.8939C641.085 57.1766 642.947 63.3659 642.947 71.4619V74.0139ZM621.079 52.8939C616.973 52.8939 613.834 54.1406 611.663 56.6339C609.493 59.0979 608.334 62.9259 608.187 68.1179H633.751C633.634 62.9259 632.519 59.0979 630.407 56.6339C628.295 54.1406 625.186 52.8939 621.079 52.8939ZM677.365 95.9259C671.352 95.9259 665.896 95.2219 660.997 93.8139V86.7299C666.248 88.1966 671.718 88.9299 677.409 88.9299C681.809 88.9299 684.977 88.3432 686.913 87.1699C688.849 85.9672 689.817 84.2219 689.817 81.9339C689.817 80.7019 689.597 79.6899 689.157 78.8979C688.717 78.0766 687.969 77.4019 686.913 76.8739C685.857 76.3166 684.405 75.8912 682.557 75.5979L674.065 74.2779C669.137 73.4859 665.573 71.9899 663.373 69.7899C661.202 67.5899 660.117 64.6419 660.117 60.9459C660.117 56.4579 661.965 52.9232 665.661 50.3419C669.386 47.7312 675.062 46.4259 682.689 46.4259C685.094 46.4259 687.485 46.5872 689.861 46.9099C692.266 47.2032 694.481 47.6432 696.505 48.2299V55.2699C692.046 54.0379 687.456 53.4219 682.733 53.4219C677.893 53.4219 674.476 54.0526 672.481 55.3139C670.486 56.5752 669.489 58.3206 669.489 60.5499C669.489 62.2219 670.002 63.5859 671.029 64.6419C672.056 65.6686 673.889 66.4166 676.529 66.8859L685.021 68.2059C689.92 68.9686 693.513 70.3766 695.801 72.4299C698.089 74.4832 699.233 77.4606 699.233 81.3619C699.233 84.3832 698.412 86.9792 696.769 89.1499C695.156 91.3206 692.706 92.9926 689.421 94.1659C686.165 95.3392 682.146 95.9259 677.365 95.9259ZM760.579 74.0139H725.863C726.039 77.4752 726.787 80.2766 728.107 82.4179C729.427 84.5299 731.407 86.0846 734.047 87.0819C736.687 88.0792 740.075 88.5779 744.211 88.5779C748.317 88.5779 752.864 87.9472 757.851 86.6859V93.9459C752.659 95.2659 747.657 95.9259 742.847 95.9259C733.929 95.9259 727.241 93.9166 722.783 89.8979C718.353 85.8499 716.139 79.6166 716.139 71.1979C716.139 65.9179 717.033 61.4299 718.823 57.7339C720.612 54.0379 723.193 51.2366 726.567 49.3299C729.969 47.3939 734.061 46.4259 738.843 46.4259C745.883 46.4259 751.265 48.5819 754.991 52.8939C758.716 57.1766 760.579 63.3659 760.579 71.4619V74.0139ZM738.711 52.8939C734.604 52.8939 731.465 54.1406 729.295 56.6339C727.124 59.0979 725.965 62.9259 725.819 68.1179H751.383C751.265 62.9259 750.151 59.0979 748.039 56.6339C745.927 54.1406 742.817 52.8939 738.711 52.8939ZM796.986 46.4259C802.032 46.4259 806.138 47.0272 809.306 48.2299C812.474 49.4032 814.85 51.3686 816.434 54.1259C818.018 56.8832 818.81 60.6379 818.81 65.3899V95.0459H810.626L809.922 89.8979H809.394C807.605 91.7752 805.346 93.2419 802.618 94.2979C799.89 95.3246 796.986 95.8379 793.906 95.8379C790.386 95.8379 787.38 95.2952 784.886 94.2099C782.393 93.0952 780.501 91.5406 779.21 89.5459C777.92 87.5512 777.274 85.2046 777.274 82.5059C777.274 78.2526 778.858 74.9672 782.026 72.6499C785.224 70.3032 790.298 68.8219 797.25 68.2059L809.218 67.0179V64.7299C809.218 61.9139 808.734 59.7139 807.766 58.1299C806.798 56.5459 805.332 55.4312 803.366 54.7859C801.43 54.1406 798.849 53.8179 795.622 53.8179C793.393 53.8179 790.973 54.0086 788.362 54.3899C785.781 54.7712 783.302 55.3432 780.926 56.1059V48.8019C783.273 48.0392 785.869 47.4526 788.714 47.0419C791.589 46.6312 794.346 46.4259 796.986 46.4259ZM796.502 89.0619C798.849 89.0619 801.122 88.6512 803.322 87.8299C805.522 86.9792 807.488 85.7179 809.218 84.0459V72.8259L797.998 73.9259C794.097 74.3659 791.31 75.2166 789.638 76.4779C787.966 77.7099 787.13 79.4699 787.13 81.7579C787.13 84.0752 787.908 85.8792 789.462 87.1699C791.017 88.4312 793.364 89.0619 796.502 89.0619ZM841.524 47.1739H849.576L850.324 53.2899H850.896C852.627 51.2072 854.856 49.5792 857.584 48.4059C860.341 47.2326 863.216 46.6459 866.208 46.6459C867.909 46.6459 869.508 46.7926 871.004 47.0859V55.8419C869.567 55.5779 867.807 55.4459 865.724 55.4459C863.143 55.4459 860.517 55.9446 857.848 56.9419C855.179 57.9392 852.993 59.4206 851.292 61.3859V95.0459H841.524V47.1739ZM909.164 95.9259C900.921 95.9259 894.629 93.8432 890.288 89.6779C885.976 85.5126 883.82 79.3526 883.82 71.1979C883.82 63.0139 886.093 56.8392 890.64 52.6739C895.216 48.5086 901.889 46.4259 910.66 46.4259C915.03 46.4259 919.049 46.9246 922.716 47.9219V55.7099C920.692 55.2406 918.8 54.8886 917.04 54.6539C915.28 54.4192 913.432 54.3019 911.496 54.3019C905.482 54.3019 901.024 55.6512 898.12 58.3499C895.245 61.0486 893.808 65.2872 893.808 71.0659C893.808 76.8739 895.172 81.1566 897.9 83.9139C900.657 86.6712 904.734 88.0499 910.132 88.0499C912.009 88.0499 913.93 87.8886 915.896 87.5659C917.861 87.2139 920.134 86.6712 922.716 85.9379V93.7259C918.55 95.1926 914.033 95.9259 909.164 95.9259ZM941.796 23.9419H951.564V52.2779H952.048C954.248 50.3712 956.756 48.9192 959.572 47.9219C962.417 46.9246 965.395 46.4259 968.504 46.4259C974.019 46.4259 978.375 47.9952 981.572 51.1339C984.769 54.2432 986.368 59.0686 986.368 65.6099V95.0459H976.6V66.0939C976.6 62.0459 975.661 59.1566 973.784 57.4259C971.936 55.6952 969.237 54.8299 965.688 54.8299C963.048 54.8299 960.481 55.3286 957.988 56.3259C955.524 57.2939 953.383 58.7312 951.564 60.6379V95.0459H941.796V23.9419Z" fill="#14C290"/>
+<rect x="0.205322" y="14.873" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="14.679" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="14.679" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="86.6055" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="86.6055" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="101.284" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="58.7158" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="58.7158" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="87.1592" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="87.1592" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="73.0205" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="73.0205" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="87.3262" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="87.3262" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="101.631" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="101.631" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="101.284" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="15.0187" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.2668" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.2668" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.445" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.7506" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="100.716" y="14.873" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+</svg></a>
+<h1><span class="ticker">FER.MC</span> <span class="rating level">Hold</span></h1>
+<p class="date">Analysis of 2026-11-26</p>
+<dl class="run"><div class="detail"><dt>Generated</dt><dd>2026-11-26 21:33</dd></div><div class="detail"><dt>Deep model</dt><dd><span class="field">google</span> <span class="field">gemini-3.5-flash-lite</span></dd></div><div class="detail"><dt>Quick model</dt><dd><span class="field">google</span> <span class="field">gemini-3.5-flash-lite</span></dd></div><div class="detail"><dt>Analysts</dt><dd><span class="field">market</span> <span class="field">news</span> <span class="field">fundamentals</span></dd></div><div class="detail"><dt>Debate rounds</dt><dd><span class="group"><span class="name">research</span><span class="field">1</span></span> <span class="group"><span class="name">risk</span><span class="field">1</span></span></dd></div><div class="detail"><dt>Data vendors</dt><dd><span class="group"><span class="name">Prices</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Indicators</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Fundamentals</span><span class="field">yfinance</span></span> <span class="group"><span class="name">News</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Macro</span><span class="field">fred</span></span> <span class="group"><span class="name">Prediction markets</span><span class="field">polymarket</span></span> <span class="group"><span class="name">get_news</span><span class="field">ibex_sample</span></span> <span class="group"><span class="name">get_global_news</span><span class="field">ibex_sample</span></span></dd></div><div class="detail"><dt>Version</dt><dd>TradingAgents 0.7.1</dd></div></dl>
+</header>
+<nav class="contents" aria-label="Sections"><ul><li><a href="#s1"><span class="num">I</span> <span class="label">Analyst Team Reports</span></a><ul><li><a href="#s1-1"><span class="bar"></span> <span class="label">Market Analyst</span></a></li><li><a href="#s1-2"><span class="bar"></span> <span class="label">News Analyst</span></a></li><li><a href="#s1-3"><span class="bar"></span> <span class="label">Fundamentals Analyst</span></a></li></ul></li><li><a href="#s2"><span class="num">II</span> <span class="label">Research Team Decision</span></a><ul><li><a href="#s2-1"><span class="bar"></span> <span class="label">Bull Researcher</span></a></li><li><a href="#s2-2"><span class="bar"></span> <span class="label">Bear Researcher</span></a></li><li><a href="#s2-3"><span class="bar"></span> <span class="label">Research Manager</span></a></li></ul></li><li><a href="#s3"><span class="num">III</span> <span class="label">Trading Team Plan</span></a><ul><li><a href="#s3-1"><span class="bar"></span> <span class="label">Trader</span></a></li></ul></li><li><a href="#s4"><span class="num">IV</span> <span class="label">Risk Management Team Decision</span></a><ul><li><a href="#s4-1"><span class="bar"></span> <span class="label">Aggressive Analyst</span></a></li><li><a href="#s4-2"><span class="bar"></span> <span class="label">Conservative Analyst</span></a></li><li><a href="#s4-3"><span class="bar"></span> <span class="label">Neutral Analyst</span></a></li></ul></li><li><a href="#s5"><span class="num">V</span> <span class="label">Portfolio Manager Decision</span></a><ul><li><a href="#s5-1"><span class="bar"></span> <span class="label">Portfolio Manager</span></a></li></ul></li></ul></nav>
+<main>
+<section id="s1"><h2>I. Analyst Team Reports</h2><h3 id="s1-1">Market Analyst</h3>
+<p><strong>Rating</strong>: HOLD<br />
+FINAL TRANSACTION PROPOSAL: Mantener la posición actual en FER.MC a la espera de una consolidación de soportes o una ruptura más clara de resistencias, vigilando de cerca la evolución del apalancamiento financiero y los múltiplos de valoración.</p>
+<hr />
+<h6>Análisis Técnico y de Indicadores Seleccionados</h6>
+<p>Tomando como base la instantánea de mercado verificada para <strong>FER.MC</strong> (con fecha de precio 2026-11-26 y un precio de cierre de <strong>53.70 EUR</strong>), se han seleccionado los siguientes indicadores clave para evaluar el estado actual del valor, evitando redundancias y aportando una perspectiva complementaria (tendencia, momento, volatilidad y volumen):</p>
+<ol>
+<li><strong><code>close_50_sma</code></strong> (Media Móvil Simple de 50 sesiones): Actúa como referencia de tendencia a medio plazo. Con la cotización en 53.70 EUR y una SMA50 situada en <strong>48.79 EUR</strong>, el precio se mantiene holgadamente por encima, reflejando una estructura alcista de medio plazo.</li>
+<li><strong><code>close_200_sma</code></strong> (Media Móvil Simple de 200 sesiones): Referencia estructural a largo plazo situada en <strong>54.06 EUR</strong>. El precio cotiza ligeramente por debajo de esta media, lo que indica que a largo plazo el valor se encuentra en una fase de consolidación o recuperación tras las correcciones previas, rondando su zona de equilibrio secular.</li>
+<li><strong><code>close_10_ema</code></strong> (Media Móvil Exponencial de 10 sesiones): Captura los giros rápidos de momento a corto plazo. Permite identificar entradas tácticas en sintonía con el reciente rebote mensual del valor.</li>
+<li><strong><code>macd</code></strong> (Moving Average Convergence Divergence): Indicador de impulso y divergencias de tendencia. Presenta un valor positivo de <strong>1.485</strong>, lo que confirma la inercia compradora reciente y el tramo alcista de las últimas semanas.</li>
+<li><strong><code>macds</code></strong> (Línea de Señal del MACD): Situada en <strong>1.856</strong>. Al encontrarse ligeramente por encima de la línea MACD, sugiere una ligera desaceleración o pausa en el impulso alcista a corto plazo, requiriendo cautela ante posibles correcciones técnicas de corto recorrido.</li>
+<li><strong><code>rsi</code></strong> (Índice de Fuerza Relativa de 14 periodos): Con un valor de <strong>58.36</strong>, el RSI se sitúa en una zona neutral-alcista. No muestra señales de sobrecompra (por encima de 70) ni de sobreventa (por debajo de 30), dejando margen tanto para continuar la subida como para consolidar niveles.</li>
+<li><strong><code>atr</code></strong> (Average True Range): Mide la volatilidad absoluta del activo, reflejando una volatilidad porcentual anualizada del <strong>29.81%</strong>. Es un parámetro esencial para dimensionar el riesgo, ubicar <em>stop-losses</em> y ajustar el tamaño de posiciones hipotéticas.</li>
+<li><strong><code>vwma</code></strong> (Volume Weighted Moving Average): Integra la acción del precio con el volumen negociado, permitiendo confirmar si los movimientos alcistas recientes (como el repunte del 25% acumulado en el último mes mencionado en noticias) están respaldados por flujos institucionales sólidos.</li>
+</ol>
+<hr />
+<h6>Análisis Fundamental y Situación Financiera</h6>
+<ul>
+<li><strong>Valoración y Múltiplos</strong>: <strong>FER.MC</strong> cotiza con un ratio <strong>Trailing P/E</strong> elevado de <strong>34.42x</strong> y un <strong>Forward P/E</strong> de <strong>46.17x</strong>, reflejande expectativas de crecimiento exigentes o múltiplos superiores a la mediana de sus comparables del sector (<em>peer median forward PE</em> de 16.70x). El ratio Precio/Valor en Libros (<em>Price-to-Book</em>) se sitúa en <strong>6.77x</strong>, con un valor contable por acción de <strong>7.94 EUR</strong>.</li>
+<li><strong>Rentabilidad por Dividendo</strong>: Ofrece una rentabilidad por dividendo (<em>dividend yield</em>) del <strong>3.63%</strong> (dividendo anual de 1.95 EUR con un <em>payout ratio</em> aproximado del 71.24%).</li>
+<li><strong>Estructura de Deuda y Solvencia</strong>: La compañía registra una deuda total de aproximadamente 10.660 millones de EUR frente a una posición de caja de 3.864 millones de EUR. Su ratio de <strong>deuda neta sobre EBITDA</strong> se sitúa en <strong>4.39x</strong>, un nivel que exige un seguimiento riguroso de su generación de caja operativa (que alcanzó los 2.488 millones de EUR de flujo de caja operativo y un flujo de caja libre positivo de 889.6 millones de EUR en las métricas disponibles).</li>
+<li><strong>Consenso de Analistas</strong>: El precio objetivo medio del consenso se sitúa en <strong>59.90 EUR</strong> (con un rango entre 48.50 EUR y 80.00 EUR), lo que arroja un potencial de revalorización (<em>consensus upside</em>) del <strong>11.54%</strong> sobre el precio actual de 53.70 EUR, respaldado por 20 opiniones de analistas.</li>
+</ul>
+<hr />
+<h6>Contexto Macroeconómico y Noticias Recientes</h6>
+<ul>
+<li><strong>Entorno de Mercado</strong>: Las bolsas europeas han registrado cierres con fuertes subidas impulsadas por el sector bancario y tecnológico (como reflejan los boletines del 26 de noviembre de 2026), acompañadas por la elección de Pablo Hernández de Cos como presidente del BCE y un euríbor situado por encima del 3.3%.</li>
+<li><strong>Noticias de la Compañía</strong>: Informes recientes de medios especializados (Finanzas.com, 2026-11-20) señalan un fuerte dinamismo bursátil en <strong>FER.MC</strong>, acumulando subidas significativas en el último mes impulsadas por el interés inversor en infraestructuras y concesiones.</li>
+</ul>
+<hr />
+<h6>Resumen Estructurado en Tabla</h6>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Categoría / Métrica</th>
+<th style="text-align:left">Valor / Indicador</th>
+<th style="text-align:left">Interpretación y Perspectiva</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Precio de Cierre</strong></td>
+<td style="text-align:left">53.70 EUR (2026-11-26)</td>
+<td style="text-align:left">Cotización actual tras una revalorización mensual notable (+11.45% a 21 días).</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Tendencia (SMA 50 / 200)</strong></td>
+<td style="text-align:left">SMA50: 48.79 EUR / SMA200: 54.06 EUR</td>
+<td style="text-align:left">Estructura de medio plazo alcista; cotizando en torno a la media de largo plazo.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Momento y Cruces (MACD / RSI)</strong></td>
+<td style="text-align:left">MACD: 1.485 / RSI: 58.36</td>
+<td style="text-align:left">Impulso comprador moderado, sin señales extremas de sobrecompra.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Volatilidad y Riesgo (ATR)</strong></td>
+<td style="text-align:left">Volatilidad anualizada: 29.81%</td>
+<td style="text-align:left">Requiere gestión estricta del riesgo mediante stops adaptados al ATR.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Valoración (P/E &amp; P/B)</strong></td>
+<td style="text-align:left">Trailing P/E: 34.42x / P/B: 6.77x</td>
+<td style="text-align:left">Valoración exigente frente a la mediana de comparables (múltiplos elevados).</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Deuda y Solvencia</strong></td>
+<td style="text-align:left">Deuda Neta / EBITDA: 4.39x</td>
+<td style="text-align:left">Apalancamiento moderadamente alto que requiere monitorización de caja.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Consenso de Mercado</strong></td>
+<td style="text-align:left">Objetivo Medio: 59.90 EUR</td>
+<td style="text-align:left">Potencial de crecimiento estimado del +11.54% según el consenso de analistas.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Rating &amp; Propuesta</strong></td>
+<td style="text-align:left"><strong>HOLD</strong></td>
+<td style="text-align:left">Mantener posición; prudencia ante múltiplos altos y resistencia en la SMA200.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<p><em>Nota de cumplimiento</em>: Este análisis se basa estrictamente en la información, datos cuantitativos e indicadores provistos en la instantánea de mercado de FER.MC a fecha 26 de noviembre de 2026. No se han aplicado suposiciones</p>
+<h3 id="s1-2">News Analyst</h3>
+<p><strong>Rating</strong>: REVIEW</p>
+<h6>Informe de Investigación y Análisis de Mercado: Ferrovial N.V. (<code>FER.MC</code>)</h6>
+<h6>1. Contexto Macroeconómico y Entorno de Mercado</h6>
+<p>Las bolsas europeas han cerrado con fuertes subidas recientes impulsadas por los sectores bancario y tecnológico, destacando avances superiores al 2% en índices como el Euro Stoxx 50 y el DAX alemán (según coberturas de prensa fechadas el 26 de noviembre de 2026). En el ámbito monetario, la atención se centra en la elección de Pablo Hernández de Cos como presidente del Banco Central Europeo (BCE), siendo el primer español en presidir la institución europea, mientras que el Euríbor supera el 3,3%, encareciendo las hipotecas a las puertas de la última decisión de tipos de 2026.</p>
+<h6>2. Análisis Fundamental y Técnico de Ferrovial N.V. (<code>FER.MC</code>)</h6>
+<ul>
+<li><strong>Precio de Cotización y Datos Técnicos</strong>: A fecha de 26 de noviembre de 2026, <code>FER.MC</code> cotiza a <strong>53,70 EUR</strong>, registrando una variación diaria del +1,78%. Su RSI(14) se sitúa en 58,36 (neutral-alcista), con una media móvil de 50 sesiones (SMA50) en 48,79 EUR y la de 200 sesiones (SMA200) en 54,06 EUR. Presenta una rentabilidad a 21 días del +11,45% y acumula un drawdown del -12,77% desde máximos recientes.</li>
+<li><strong>Fundamentales y Valoración</strong>:
+<ul>
+<li>Capitalización de mercado: ~38.550 millones de EUR.</li>
+<li>Múltiplos: PER de 34,23x (con un PER forward estimado de 46,17x), Price to Book de 6,77x y EV/EBITDA de 30,05x. El ratio sectorial comparativo (<code>valuation.ratio</code>) indica un PER relativo superior de 2,76 frente a la mediana de sus pares (<code>ANA.MC</code>, <code>ACS.MC</code>, <code>AENA.MC</code>, <code>IAG.MC</code>, <code>LOG.MC</code>, <code>SCYR.MC</code>).</li>
+<li>Deuda y Solvencia: Total de deuda de ~10.657 millones de EUR (frente a un EBITDA de 1.548 millones y un ratio de Deuda Neta / EBITDA de ~4,39x). Cuenta con un efectivo total de 3.864 millones de EUR.</li>
+<li>Dividendos: Rentabilidad por dividendo (<em>dividend yield</em>) del 3,63% (dividendo anual de 1,95 EUR por acción, payout ratio de ~71%).</li>
+<li>Consenso de Analistas: Precio objetivo medio (<em>target mean price</em>) de <strong>59,90 EUR</strong>, lo que representa un potencial de revalorización (<em>consensus upside</em>) del <strong>11,54%</strong> sobre el precio actual, con un rango entre un objetivo mínimo de 48,50 EUR y máximo de 80,00 EUR (basado en 20 opiniones de analistas).</li>
+</ul>
+</li>
+<li><strong>Estados Financieros Clave (Ejercicio 2025)</strong>:
+<ul>
+<li>Ingresos Totales: 9.627 millones de EUR (crecimiento de ingresos del 5,2%).</li>
+<li>EBITDA: 1.998 millones de EUR.</li>
+<li>Beneficio Neto (<em>Net Income</em>): 888 millones de EUR.</li>
+<li>Flujo de Caja Libre (<em>Free Cash Flow</em>): 1.739 millones de EUR.</li>
+</ul>
+</li>
+</ul>
+<h6>3. Evidencias Contrarias, de Soporte y Datos Faltantes</h6>
+<ul>
+<li><strong>Evidencias de Soporte</strong>: Impulso técnico reciente (+11,45% en el último mes), fuerte generación de flujo de caja libre (1.739 millones de EUR en 2025) y un consenso de analistas positivo que sitúa el precio objetivo medio en 59,90 EUR (upside del 11,54%). Coberturas de medios apuntan a un interés inversor renovado (ej. publicaciones en Finanzas.com el 20 de noviembre de 2026).</li>
+<li><strong>Evidencias Contrarias</strong>: Valoración exigente con múltiplos elevados (PER trailing de 34,2x y EV/EBITDA superior a 30x), nivel de endeudamiento neto/EBITDA de 4,39x y un entorno de tipos de interés altos en la Eurozona (Euríbor por encima del 3,3%).</li>
+<li><strong>Datos Faltantes</strong>: Falta desglose granular en tiempo real de contratos específicos de infraestructuras adjudicados en el trimestre actual y proyecciones detalladas de tráficos aeroportuarios específicos fuera del marco general de ingresos consolidado.</li>
+</ul>
+<h6>4. Conclusión y Recomendación</h6>
+<p>Dada la sólida posición operativa y el respaldo del consenso de analistas, pero contrarrestada por los elevados múltiplos de valoración y el apalancamiento actual en un entorno de tipos altos, se emite una recomendación de <strong>REVIEW</strong> (mantener/revisar en cartera sin ejecutar acciones de compra/venta automáticas).</p>
+<hr />
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Resumen de Métricas Clave</th>
+<th style="text-align:left">Valor / Dato</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Ticker y Empresa</strong></td>
+<td style="text-align:left"><code>FER.MC</code> (Ferrovial N.V.)</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Precio Actual</strong></td>
+<td style="text-align:left">53,70 EUR (26-11-2026)</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Capitalización de Mercado</strong></td>
+<td style="text-align:left">38.554.836.992 EUR</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>PER Trailing / Forward</strong></td>
+<td style="text-align:left">34,23x / 46,17x</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>EV / EBITDA</strong></td>
+<td style="text-align:left">30,05x</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Rentabilidad por Dividendo</strong></td>
+<td style="text-align:left">3,63% (1,95 EUR/acción)</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Precio Objetivo Consenso</strong></td>
+<td style="text-align:left">59,90 EUR (+11,54% upside)</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Deuda Neta / EBITDA</strong></td>
+<td style="text-align:left">4,39x</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Flujo de Caja Libre (2025)</strong></td>
+<td style="text-align:left">1.739.000.000 EUR</td>
+</tr>
+</tbody>
+</table></div>
+<p>FINAL TRANSACTION PROPOSAL: HOLD</p>
+<h3 id="s1-3">Fundamentals Analyst</h3>
+<p><strong>Rating</strong>: REVIEW</p>
+<p><strong>ANÁLISIS FUNDAMENTAL Y TÉCNICO DE FERROVIAL N.V. (<code>FER.MC</code>)</strong></p>
+<h6>1. Perfil de la Compañía y Resumen de Negocio</h6>
+<p>Ferrovial N.V. (<code>FER.MC</code>) es una de las principales empresas globales en el sector de <strong>Industriales / Ingeniería y Construcción</strong> (<code>Industrials</code> / <code>Engineering &amp; Construction</code>), cotizando en la bolsa española (Madrid - MCE) y formando parte de selectivos de referencia como el IBEX 35 (<code>^IBEX</code>). Su modelo de negocio destaca por el desarrollo, construcción y operación de infraestructuras complejas, con un peso muy significativo en autopistas (como las autopistas gestionadas en Norteamérica) y grandes obras de transporte.</p>
+<h6>2. Datos Financieros Clave y Valoración Actual</h6>
+<p>Tomando como referencia los datos a fecha de <strong>26 de noviembre de 2026</strong>:</p>
+<ul>
+<li><strong>Precio de Cotización:</strong> 53.70 EUR (con una variación reciente del 1.78% en la sesión analizada).</li>
+<li><strong>Capitalización Bursátil:</strong> 38.550 millones de EUR (<code>marketCap</code>: 38,554,836,992.0 EUR).</li>
+<li><strong>Valoraciones de Beneficios:</strong>
+<ul>
+<li><em>Trailing P/E:</em> 34.42x</li>
+<li><em>Forward P/E:</em> 46.17x</li>
+</ul>
+</li>
+<li><strong>Múltiplos de Balance y Deuda:</strong>
+<ul>
+<li><em>Price-to-Book (P/B):</em> 6.77x</li>
+<li><em>Enterprise Value to EBITDA (EV/EBITDA):</em> 30.05x</li>
+<li><em>Deuda Total:</em> 10.657 millones de EUR (con una caja total de 3.864 millones de EUR, lo que sitúa la ratio <em>Net Debt/EBITDA</em> en aproximadamente <strong>4.39x</strong>).</li>
+</ul>
+</li>
+<li><strong>Rentabilidad y Dividendos:</strong>
+<ul>
+<li><em>Retorno sobre el Capital (ROE):</em> 11.62%</li>
+<li><em>Márgenes de Beneficio Neto:</em> 6.15%</li>
+<li><em>Dividendo:</em> Dividendo por acción de 1.95 EUR, lo que ofrece una <strong>yield por dividendo aproximada del 3.63% - 3.69%</strong>. Ratio de reparto (<em>payout ratio</em>) del 71.24%.</li>
+</ul>
+</li>
+<li><strong>Consenso de Analistas:</strong>
+<ul>
+<li>Precio objetivo medio (<em>targetMeanPrice</em>): 59.89 EUR (con un rango entre un mínimo de 48.50 EUR y un máximo de 80.00 EUR basado en 20 opiniones de analistas).</li>
+<li><em>Upside</em> de consenso estimado: <strong>+11.54%</strong> respecto al precio actual.</li>
+</ul>
+</li>
+</ul>
+<h6>3. Análisis de Estados Financieros Históricos</h6>
+<p>De acuerdo con los estados financieros consolidados:</p>
+<ul>
+<li><strong>Ingresos Totales:</strong>
+<ul>
+<li>2025: 9.627 millones de EUR</li>
+<li>2024: 9.148 millones de EUR</li>
+<li>2023: 8.515 millones de EUR
+<em>(Muestra una senda de crecimiento moderada pero sostenida en la cifra de negocio).</em></li>
+</ul>
+</li>
+<li><strong>EBITDA:</strong>
+<ul>
+<li>2025: 1.998 millones de EUR</li>
+<li>2024: 4.539 millones de EUR (incremento extraordinario en 2024 debido a desinversiones o plusvalías operativas)</li>
+<li>2023: 1.478 millones de EUR</li>
+</ul>
+</li>
+<li><strong>Beneficio Neto (Net Income):</strong>
+<ul>
+<li>2025: 888 millones de EUR</li>
+<li>2024: 3.239 millones de EUR (reflejo contable del pico extraordinario de 2024)</li>
+<li>2023: 341 millones de EUR</li>
+</ul>
+</li>
+<li><strong>Flujo de Caja:</strong>
+<ul>
+<li>Flujo de caja operativo en 2025: 1.926 millones de EUR (frente a 1.293 millones en 2024 y 1.263 millones en 2023).</li>
+<li>Flujo de caja libre (<em>Free Cash Flow</em>) en 2025: 1.739 millones de EUR (reportado también en métricas anuales recientes consolidadas en torno a los ~889 millones según formato estándar de caja disponible).</li>
+</ul>
+</li>
+</ul>
+<h6>4. Análisis Técnico y Contexto de Mercado</h6>
+<ul>
+<li><strong>Medias Móviles y Tendencia:</strong> El precio se sitúa en los 53.70 EUR, encontrándose ligeramente por encima de su media móvil de 20 sesiones (<code>sma20</code>: 53.49 EUR) y de 50 sesiones (<code>sma50</code>: 48.79 EUR), aunque plano o ligeramente por debajo de la media de 200 sesiones (<code>sma200</code>: 54.06 EUR).</li>
+<li><strong>Momentum:</strong> RSI de 14 periodos en <strong>58.36</strong> (zona neutral-alcista, sin sobrecompra ni sobreventa extrema). El indicador MACD muestra un valor de 1.48 frente a una señal de 1.86.</li>
+<li><strong>Rentabilidad Recortada a Corto Plazo:</strong> Rentabilidad a 21 sesiones de +11.45% y a 63 sesiones de +8.27%, impulsada por el rebote generalizado de las bolsas europeas a finales de noviembre de 2026 (apoyadas por el sector bancario y tecnológico y la evolución de los tipos de interés en la Eurozona con el euríbor superando el 3.3%). La volatilidad anualizada se sitúa en el <strong>29.81%</strong>, y el título registra un <em>drawdown</em> del -12.77% desde sus máximos recientes.</li>
+</ul>
+<h6>5. Evidencia de Noticias y Contexto Macroeconómico</h6>
+<ul>
+<li>Se registran noticias recientes que destacan el buen comportamiento bursátil de la compañía, con un repunte significativo de hasta el 25% en periodos mensuales recientes según publicaciones especializadas (<em>Finanzas.com</em>, 20 de noviembre de 2026).</li>
+<li>Contexto macroeconómico general de la Eurozona a finales de noviembre de 2026 caracterizado por fuertes subidas en las bolsas europeas, la elección de Pablo Hernández de Cos como presidente del BCE y un entorno de tipos de interés altos donde el euríbor ronda el 3.3%.</li>
+</ul>
+<h6>6. Datos Faltantes e Información Limitada</h6>
+<ul>
+<li>No se dispone de un desglose granular pormenorizado de transacciones de iniciados (<em>insider transactions</em>) en tiempo real dentro del paquete de datos analizado.</li>
+<li>No se cuenta con planes de asignación de cartera propios (el análisis es estrictamente hipotético e informativo).</li>
+</ul>
+<hr />
+<h6>Resumen Estructurado (Tabla Clave)</h6>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Métrica / Concepto</th>
+<th style="text-align:left">Valor / Dato</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Ticker / Instrumento</strong></td>
+<td style="text-align:left"><code>FER.MC</code> (Ferrovial N.V., MCE)</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Precio Actual</strong></td>
+<td style="text-align:left">53.70 EUR (Fecha: 2026-11-26)</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Capitalización Bursátil</strong></td>
+<td style="text-align:left">~38.555 millones de EUR</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Trailing P / Forward P/E</strong></td>
+<td style="text-align:left">34.42x / 46.17x</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>EV / EBITDA</strong></td>
+<td style="text-align:left">30.05x</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Deuda Neta / EBITDA</strong></td>
+<td style="text-align:left">~4.39x</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Dividend Yield</strong></td>
+<td style="text-align:left">~3.63% (1.95 EUR por acción)</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ingresos (2025)</strong></td>
+<td style="text-align:left">9.627 millones de EUR</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>EBITDA (2025)</strong></td>
+<td style="text-align:left">1.998 millones de EUR</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table></div>
+</section><section id="s2"><h2>II. Research Team Decision</h2><h3 id="s2-1">Bull Researcher</h3>
+<p>Bull Analyst: ¡Hola a todos! Comencemos este debate analizando el extraordinario momento y el valor estructural que presenta <strong>FER.MC</strong> (Ferrovial N.V.) en el parqué de Madrid. Mientras algunos analistas miran de soslayo las cifras de múltiplos a corto plazo o la deuda nominal, están ignorando la foto completa: estamos ante un auténtico gigante global de las infraestructuras de transporte con ventajas competitivas insuperables y un posicionamiento estratégico en Norteamérica que ningún competidor europeo puede replicar con la misma solvencia.</p>
+<p>Aquí van mis argumentos de peso para defender por qué la tesis alcista sobre <strong>FER.MC</strong> es infinitamente superior:</p>
+<h6>1. Crecimiento Potencial y Escalatividad en Mercados Clave</h6>
+<p>El oso suele asustarse con los titulares genéricos, pero la realidad operativa es arrolladora. Los ingresos de <strong>FER.MC</strong> alcanzaron los <strong>9.627 millones de EUR</strong> en 2025, respaldados por una sólida generación de caja operativa de <strong>1.926 millones de EUR</strong> y un flujo de caja libre (<em>Free Cash Flow</em>) de <strong>1.739 millones de EUR</strong>. Esto demuestra una escalabilidad envidiable. No estamos hablando de una constructora tradicional expuesta al riesgo cíclico de la obra civil pura, sino de un operador de concesiones de autopistas de categoría mundial (como las managed lanes en EE. UU.) cuyos activos generan flujos recurrentes y predecibles a largo plazo.</p>
+<h6>2. Ventajas Competitivas y Posicionamiento Dominante</h6>
+<p>¿Dónde está el foso defensivo (<em>moat</em>) de Ferrovial? Precisamente en su capacidad para diseñar, financiar, construir y operar autopistas de peaje altamente demandadas en regiones con un crecimiento demográfico y económico pujante, como Texas y Norteamérica. Las barreras de entrada en estos megaproyectos son colosales: requieren un <em>know-how</em> técnico inalcanzable para la competencia y otorgan un poder de fijación de precios frente a la inflación que protege los márgenes de la compañía de manera brillante. Su branding y su reputación como socio preferente en infraestructuras críticas le sitúan en una posición de dominio absoluto.</p>
+<h6>3. Indicadores Positivos y Salud Financiera</h6>
+<p>Frente al fantasma del apalancamiento que agitan los osos, miremos los datos fríos: la compañía cuenta con una sólida posición de caja de <strong>3.864 millones de EUR</strong> y una ratio de deuda neta sobre EBITDA de <strong>4.39x</strong>, perfectamente digerible si tenemos en cuenta la naturaleza a largo plazo de sus concesiones y su robusta capacidad de conversión de caja operativa. Además, técnicamente el valor muestra un vigor envidiable: cotiza en <strong>53.70 EUR</strong>, holgadamente por encima de su media móvil de 50 sesiones (<strong>48.79 EUR</strong>), respaldado por un MACD positivo (<strong>1.485</strong>) y un RSI en zona neutral-alcista (<strong>58.36</strong>). El mercado lo sabe, y por eso el consenso de analistas sitúa el precio objetivo medio en <strong>59.90 EUR</strong>, lo que representa un potencial de revalorización (<em>consensus upside</em>) superior al <strong>11.54%</strong>. Sin olvidar una atractiva rentabilidad por dividendo del <strong>3.63%</strong> que premia la paciencia del inversor a largo plazo.</p>
+<h6>4. Demolición de los Contraargumentos del Oso</h6>
+<ul>
+<li><strong>&quot;Los múltiplos de valoración son demasiado exigentes (PER por encima de 34x y EV/EBITDA de 30x)&quot;</strong>: ¡Craso error de perspectiva! Evaluar a un operador de concesiones de infraestructuras con la óptica de una empresa industrial o constructora convencional es un disparate analítico. Los activos concesionales de Ferrovial tienen vidas útiles de décadas, flujos protegidos contra la inflación y un valor intrínseco de reposición inmensamente superior al valor contable. Pagar un múltiplo elevado está plenamente justificado por la calidad superior y la previsibilidad de sus flujos de caja libres (que rozaron los 1.740 millones de EUR en el último ejercicio completo).</li>
+<li><strong>&quot;El entorno de tipos altos y un Euríbor por encima del 3.3% ahogan el balance&quot;</strong>: ¡Falso! La mayor parte de la deuda de <strong>FER.MC</strong> está ligada a proyectos específicos de financiación sin recurso (<em>project finance</em>) respaldados por los propios ingresos de las autopistas, desvinculados del riesgo corporativo general. Además, con una caja de casi 3.900 millones de euros, la compañía tiene un colchón de liquidez blindado para capear cualquier escenario macroeconómico europeo.</li>
+</ul>
+<p>En conclusión, los datos técnicos, el potencial de revalorización hacia los 59.90 EUR y la excelencia operativa de su división norteamericana demuestran que la fuerza compradora tiene el control absoluto de la narrativa.</p>
+<p><strong>Rating</strong>: BUY<br />
+FINAL TRANSACTION PROPOSAL: Mantener una sólida convicción compradora en <strong>FER.MC</strong> aprovechando cualquier consolidación técnica para incrementar exposición, con la vista puesta en el cumplimiento del objetivo del consenso de analistas.</p>
+<h3 id="s2-2">Bear Researcher</h3>
+<p>Bear Analyst: ¡Hola, colega! Admiro el optimismo con el que defiendes el rumbo de <strong>FER.MC</strong>, pero estás pintando un cuadro color de rosa que ignora por completo las señales de alarma que brillan en los estados financieros y en los múltiplos de valoración. Dejar de lado los riesgos macroeconómicos y el sobrecalentamiento del precio bajo la excusa de que &quot;las concesiones son especiales&quot; es un ejercicio de fe ciega, no de análisis financiero riguroso.</p>
+<p>Vamos a desmontar punto por punto esa tesis alcista tan complaciente:</p>
+<h6>1. ¿Crecimiento y escalabilidad o múltiplos desbocados?</h6>
+<p>Hablas de los <strong>9.627 millones de EUR</strong> en ingresos y de una fuerte generación de flujo de caja libre, pero olvidas mencionar el coste de esa supuesta escalabilidad. <strong>FER.MC</strong> cotiza a un <strong>Trailing P/E de 34.42x</strong> y un <strong>Forward P/E de 46.17x</strong>. ¡Un PER <em>forward</em> de más de 46 veces! Si comparamos esto con la mediana de sus comparables sectoriales (<em>peer median forward PE</em>), que ronda las <strong>16.70x</strong>, el valor multiplica esa métrica por más de 2.7 veces (<code>valuation.ratio</code> de 2.76). Estás pagando una prima astronómica y asumiendo un crecimiento perfecto que el propio consenso de analistas no respalda con locura: un <em>upside</em> del <strong>11.54%</strong> hasta los 59.90 EUR es escaso margen de seguridad para un activo con semejante compresión potencial de múltiplos si el mercado decide normalizar valoraciones.</p>
+<h6>2. El espejismo del foso defensivo (<em>moat</em>) frente al apalancamiento</h6>
+<p>Es cierto que las autopistas en Norteamérica tienen barreras de entrada, pero pretender que el balance es invulnerable es ignorar la realidad contable. La compañía arrastra una deuda total de <strong>10.657 millones de EUR</strong> frente a una caja de <strong>3.864 millones de EUR</strong>, lo que deja una <strong>deuda neta sobre EBITDA de 4.39x</strong>. Decir que un apalancamiento superior a 4x es &quot;perfectamente digerible&quot; en un entorno donde el Euríbor supera el 3.3% y los tipos de interés de la Eurozona se mantienen restrictivos es jugar con fuego. Aunque parte sea <em>project finance</em>, la presión sobre el coste del servicio de la deuda y la refinanciación a largo plazo es un lastre real para los márgenes corporativos.</p>
+<h6>3. Vulnerabilidades técnicas y complacencia de mercado</h6>
+<p>Te agarras al rebote mensual del <strong>11.45%</strong> y al RSI en 58.36 para decir que los toros mandan, pero olvidas la foto técnica completa: el precio de <strong>53.70 EUR</strong> cotiza ligeramente <em>por debajo</em> de su media móvil de 200 sesiones (<strong>54.06 EUR</strong>), lo que demuestra que a largo plazo el valor está atascado en una zona de resistencia secular, luchando por no perder fuelle. Además, la línea de señal del MACD (<strong>1.856</strong>) se encuentra por encima del propio MACD (<strong>1.485</strong>), lo que advierte claramente de una desaceleración en el impulso comprador a corto plazo. La volatilidad anualizada del <strong>29.81%</strong> y un <em>drawdown</em> del <strong>-12.77%</strong> desde máximos indican que la acción es mucho más frágil de lo que sugieres.</p>
+<h6>4. Réplica directa a tus argumentos alcistas</h6>
+<ul>
+<li><strong>Sobre justificar el PER de 34x-46x</strong>: Pretender que los múltiplos no importan porque las autopistas duran décadas es el clásico argumento de &quot;esta vez es diferente&quot; que precede a las correcciones dolorosas. Un <em>Price-to-Book</em> de <strong>6.77x</strong> significa que estás pagando casi 7 veces el valor contable de los activos. Si el crecimiento del tráfico o la economía norteamericana se desaceleran por un bache macroeconómico, esos flujos de caja &quot;predecibles&quot; sufrirán, y los múltiplos se desinflarán con fuerza.</li>
+<li><strong>Sobre la inmunidad a los tipos altos</strong>: Afirmar que el balance está blindado gracias a la caja pasa por alto que la rentabilidad por dividendo del <strong>3.63%</strong> (<em>payout</em> del 71.24%) choca frontalmente con la necesidad de retener efectivo para desapalancar la compañía. Repartir dividendos generosos mientras la deuda neta sobre EBITDA roza las 4.4 veces no es sinónimo de solidez, sino de presión por contentar al accionista a corto plazo a costa de la flexibilidad financiera.</li>
+</ul>
+<p>En definitiva, <strong>FER.MC</strong> es una gran compañía atrapada en una valoración prohibitiva y un perfil de deuda exigente. Comprar en estos niveles es asumir un riesgo de corrección desproporcionado frente al escaso 11% de potencial que ve el consenso. Hay que mantener la cautela.</p>
+<p><strong>Rating</strong>: HOLD<br />
+FINAL TRANSACTION PROPOSAL: Mantener una postura de cautela en FER.MC, evitando nuevas compras a estos múltiplos tan exigentes y vigilando de cerca la evolución del apalancamiento y la resistencia en la media de 200 sesiones.</p>
+<h3 id="s2-3">Research Manager</h3>
+<p><strong>Recommendation</strong>: Hold</p>
+<p><strong>Rationale</strong>: El debate entre el analista alcista y el bajista pone de relieve una tensión clara entre la excelente calidad operativa de FER.MC y sus exigentes métricas de valoración. El toro defiende con acierto la solidez de los ingresos de 9.627 millones de EUR en 2025, el flujo de caja operativo de 1.926 millones de EUR y el liderazgo en concesiones de autopistas de peaje en Norteamérica, apoyándose en un rendimiento técnico positivo y un potencial de revalorización del consenso del 11.54% hacia los 59.90 EUR. Sin embargo, el oso argumenta con contundencia que pagar un PER <em>forward</em> superior a 46x y un múltiplo sobre la mediana sectorial de 2.76x, sumado a una ratio de deuda neta sobre EBITDA de 4.39x en un entorno de tipos y Euríbor elevados, deja un margen de seguridad sumamente escaso. Además, técnicamente el valor cotiza ligeramente por debajo de su media móvil de 200 sesiones (54.06 EUR) y muestra desaceleración en el MACD. Ponderando ambas posturas, la excelente calidad del negocio no compensa por sí sola una valoración tan estirada y un apalancamiento superior a 4x, lo que invalida una compra decidida pero impide una recomendación bajista debido al sólido flujo de caja libre de 1.739 millones de EUR y la posición de caja de 3.864 millones de EUR. Por tanto, la balanza se inclina hacia la prudencia.</p>
+<p><strong>Strategic Actions</strong>: Mantener la actual exposición en FER.MC sin realizar nuevas compras a los niveles actuales de 53.70 EUR debido al elevado PER forward y al apalancamiento. Para cualquier asignación hipotética estándar, se aconseja un enfoque neutral ('Hold'), esperando a una corrección técnica hacia soportes más sólidos o una reducción de múltiplos antes de considerar incrementar posiciones.</p>
+</section><section id="s3"><h2>III. Trading Team Plan</h2><h3 id="s3-1">Trader</h3>
+<p><strong>Action</strong>: Hold</p>
+<p><strong>Reasoning</strong>: Ferrovial cotiza con múltiplos muy exigentes como un PER forward superior a 46x y una ratio de deuda neta sobre EBITDA de 4.39x, lo que limita el margen de seguridad pese a su sólido flujo de caja libre y un potencial alcista de consenso hasta los 59.90 EUR. Desde una perspectiva técnica, el precio se sitúa ligeramente por debajo de la media móvil de 200 sesiones (54.06 EUR) y el MACD muestra una ligera desaceleración frente a su línea de señal, aconsejando mantener la posición sin realizar nuevas compras hasta observar una consolidación más clara o un alivio en la valoración.</p>
+<p><strong>Entry Price</strong>: not provided</p>
+<p><strong>Stop Loss</strong>: not provided</p>
+<p><strong>Position Sizing</strong>: Mantener exposición actual; no se recomienda incrementar tamaño en este momento.</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+</section><section id="s4"><h2>IV. Risk Management Team Decision</h2><h3 id="s4-1">Aggressive Analyst</h3>
+<p>Aggressive Analyst: ¡Vaya manera de frenar el impulso! Entiendo perfectamente que tanto el analista conservador como el neutral miren con recelo los múltiplos de <strong>FER.MC</strong>, escandalizándose por un PER forward superior a 46x y una ratio de deuda neta sobre EBITDA de 4.39x. Pero quedarse atascados en esa foto fija es ignorar por completo el enorme potencial de crecimiento y la verdadera dimensión estratégica de esta compañía. Nos encontramos ante un gigante de infraestructuras global con una capacidad de generación de caja operativa arrolladora —1.926 millones de euros y un flujo de caja libre de hasta 1.739 millones de euros en el último ejercicio—, respaldado además por una rentabilidad por dividendo atractiva del 3.63%.</p>
+<p>¿De verdad vamos a frenar en seco una posición ganadora solo porque la media móvil de 200 sesiones está en 54.06 EUR y el precio cotiza ligeramente por debajo en 53.70 EUR? ¡Despertemos! El título acumula un impresionante repunte mensual del 11.45% a 21 días, con un RSI de 58.36 que se mueve cómodamente en terreno neutral-alcista y un MACD positivo de 1.48. Las bolsas europeas vienen registrando fuertes subidas impulsadas por el apetito institucional, y Ferrovial está perfectamente posicionada para capitalizar este optimismo, tal como reflejan las recientes alzas y el consenso de analistas que sitúa el precio objetivo medio en los 59.90 EUR, lo que representa un atractivo potencial alcista superior al 11.5%.</p>
+<p>La prudencia excesiva y el miedo a los ratios tradicionales nos hacen perder de vista la gran foto: las concesiones de infraestructuras críticas y autopistas en Norteamérica son activos de máxima calidad que justifican una prima de valoración. Agarrarse a la incertidumbre del apalancamiento sin valorar el colchón de 3.864 millones de euros en caja y el dinamismo de sus ingresos es puro inmovilismo. Por tanto, rechazo frontalmente la postura de paralizar la estrategia; el mercado premia a los audaces que saben aprovechar la inercia compradora y mantener la exposición intacta para cazar la ruptura definitiva de resistencias hacia el objetivo de los 60 euros.</p>
+<p><strong>Rating</strong>: REVIEW</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+<h3 id="s4-2">Conservative Analyst</h3>
+<p>Conservative Analyst: Comprendo perfectamente el entusiasmo del analista agresivo al destacar la potente generación de flujo de caja libre y el atractivo rebote del 11,45% a 21 días que muestra <strong>FER.MC</strong>, pero apelar al optimismo generalizado de las bolsas europeas y a las excelentes perspectivas estratégicas de sus autopistas en Norteamérica no elimina los riesgos financieros tangibles que asumimos al mantener una exposición sin margen de seguridad.</p>
+<p>Defendemos una postura de cautela absoluta porque ignorar el peso de una valoración tan exigente es exponer el patrimonio a correcciones severas. Es cierto que la compañía cuenta con un flujo de caja operativo sólido de 1.926 millones de euros y una caja de 3.864 millones, pero pretender justificar un PER forward superior a 46x y una ratio de deuda neta sobre EBITDA de 4.39x apelando únicamente a una prima de calidad es un ejercicio de exceso de confianza. En un entorno macroeconómico donde el euríbor supera el 3,3% y los costes de financiación se mantienen elevados, un apalancamiento de casi 4,4 veces el EBITDA deja a la compañía con un margen de maniobra muy ajustado frente a cualquier contratiempo operativo o económico imprevisto.</p>
+<p>Además, el analista minimiza la importancia técnica de que el precio actual de 53,70 EUR cotice ligeramente por debajo de la media móvil de 200 sesiones situada en 54,06 EUR, y que la línea de señal del MACD (1,85) se encuentre por encima del propio MACD (1,48), evidenciando una desaceleración en el impulso comprador. Confiar ciegamente en alcanzar el objetivo de consenso de 59,90 EUR sin exigir una consolidación previa de soportes y sin establecer coberturas o stops claros es una apuesta de alta volatilidad que va en contra de la preservación de capital. Proteger los activos de la firma exige rigor, disciplina y la negativa tajante a incrementar posiciones o asumir riesgos innecesarios en máximos de valoración.</p>
+<p><strong>Rating</strong>: REVIEW</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+<h3 id="s4-3">Neutral Analyst</h3>
+<p>Neutral Analyst: El debate entre ambos analistas refleja perfectamente la tensión clásica entre buscar rentabilidad y proteger el capital, pero ambos pecan de extremos en su lectura de la situación de <strong>FER.MC</strong>.</p>
+<p>Por un lado, el analista agresivo descarta con demasiada ligereza los riesgos estructurales al aferrarse ciegamente a la inercia alcista. Es cierto que <strong>FER.MC</strong> cuenta con una generación de flujo de caja operativo de 1.926 millones de euros y una posición de caja de 3.864 millones que respalda su solidez, pero calificar de &quot;simple inmovilismo&quot; la preocupación por un PER forward de 46.17x y un apalancamiento de 4.39x veces EBITDA es una temeridad. Ignorar que el precio cotiza ligeramente por debajo de la media móvil de 200 sesiones (54.06 EUR frente a los 53.70 EUR actuales) y que el MACD muestra una desaceleración frente a su línea de señal es ignorar las señales técnicas de advertencia que el mercado está emitiendo en el corto plazo.</p>
+<p>Por otro lado, el analista conservador se refugia en un exceso de cautela que roza la parálisis. Pretende tratar a <strong>FER.MC</strong> como un activo en riesgo inminente de desplome, minimizando el hecho de que el valor acumula un sólido rebote mensual del 11.45% y que el consenso de analistas sitúa su precio objetivo medio en los 59.90 EUR, lo que representa un potencial alcista del 11.54%. Agarrarse exclusivamente al entorno de tipos con un euríbor por encima del 3.3% para justificar una postura de miedo absoluto pasa por alto que la compañía opera con activos concesionales de primer orden en Norteamérica que actúan como coberturas naturales frente a la inflación y generan un flujo de caja libre recurrente de 1.739 millones de euros.</p>
+<p>Una postura verdaderamente neutral y equilibrada no consiste en comprar con euforia ni en paralizarse por completo, sino en adoptar una estrategia moderada y sostenible. La clave para <strong>FER.MC</strong> en este momento no es incrementar posiciones en máximos de valoración ni vender precipitadamente una tesis de largo plazo sólida, sino mantener la exposición actual con disciplina táctica. Debemos reconocer que la valoración es exigente y que el impulso técnico se está tomando un respiro por debajo de la media de 200 sesiones, lo que justifica no realizar nuevas compras; pero al mismo tiempo, los fundamentales operativos y el respaldo del consenso impiden adoptar una visión bajista. La solución óptima es mantener la posición actual, respetando la cautela financiera pero permitiendo que el activo respire dentro de su tendencia principal sin caer en alarmismos innecesarios.</p>
+<p>Rating: REVIEW</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+</section><section id="s5"><h2>V. Portfolio Manager Decision</h2><h3 id="s5-1">Portfolio Manager</h3>
+<p><strong>Rating</strong>: Hold</p>
+<p><strong>Executive Summary</strong>: Se recomienda mantener la posición actual en FER.MC sin realizar nuevas compras a los niveles de 53.70 EUR, ya que la excelente calidad operativa se ve compensada por múltiplos exigentes y una ligera debilidad técnica por debajo de la media móvil de 200 sesiones. Para cualquier asignación hipotética estándar, la estrategia óptima es conservar la exposición actual y esperar a una corrección más profunda o a una compresión de múltiplos.</p>
+<p><strong>Investment Thesis</strong>: La tesis de mantenimiento neutral se fundamenta en la ponderación equilibrada de los argumentos expuestos en el debate. Por un lado, el analista agresivo acierta al destacar la extraordinaria calidad operativa de Ferrovial N.V., respaldada por unos ingresos sólidos de 9.627 millones de EUR en 2025, un flujo de caja operativo de 1.926 millones de EUR y una posición de caja de 3.864 millones de EUR, además de un potencial alcista del consenso hasta los 59.90 EUR (+11.54%). Por otro lado, el analista conservador y el neutral advierten con acierto sobre los riesgos financieros y técnicos: un PER forward excesivamente elevado superior a 46x (46.17x), una ratio de deuda neta sobre EBITDA de 4.39x en un entorno de tipos y Euríbor elevados, y un precio de cotización (53.70 EUR) situado ligeramente por debajo de la media móvil de 200 sesiones (54.06 EUR), acompañado de una desaceleración en el MACD. Dado que la valoración y el apalancamiento anulan el atractivo de una compra decidida, pero la sólida generación de caja libre y las concesiones estratégicas en Norteamérica descartan una salida o reducción bajista, la postura equilibrada es mantener. Lo que cambiaría esta postura sería una corrección técnica hacia soportes sólidos que reduzca los múltiplos o una aceleración inesperada del desapalancamiento.</p>
+<p><strong>Price Target</strong>: 59.8975</p>
+<p><strong>Time Horizon</strong>: 3-6 months</p>
+</section>
+</main>
+<footer class="credit"><a href="https://github.com/TauricResearch/TradingAgents" rel="noopener">TradingAgents</a> powered by <a class="brand" href="https://github.com/TauricResearch" rel="noopener">Tauric Research</a></footer>
+</div>
+<a class="to-top" href="#top">Top</a>
+</body>
+</html>

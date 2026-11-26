@@ -1,0 +1,15 @@
+
+Conservative Analyst: Como Analista de Riesgo Conservador, debo intervenir para frenar el entusiasmo desmedido de mi compañero agresivo y recordar que la prioridad absoluta de esta firma es la preservación del capital, no la persecución precipitada de rendimientos. Calificar de "puro alarmismo" los riesgos estructurales de `IAG.MC` es una temeridad inaceptable que expone a nuestra cartera a una volatilidad innecesaria. 
+
+Es cierto que el PER *forward* de 7,12x y la ratio de deuda neta sobre EBITDA de 0,78x parecen atractivos sobre el papel, pero mi colega pasa por alto la naturaleza intrínsecamente volátil y cíclica del sector de aerolíneas. Etiquetar la valoración como un "descuento imperdible" ignora que el sector industrial aeronáutico es extremadamente sensible a factores externos incontrolables, como una subida repentina en los costes del combustible o cualquier disrupción geopolítica y del espacio aéreo. Además, pretender ignorar el impacto macroeconómico de un euríbor que se mantiene firmemente por encima del 3,3% es ignorar que el consumo discrecional en viajes de larga y media distancia se resentirá inevitablemente, erosionando los márgenes operativos que hoy se celebran.
+
+Asimismo, se confunde la agresiva política de recompra de acciones —como los más de 6,5 millones de títulos adquiridos en una semana y los ambiciosos planes de 1.500 millones de euros— con una garantía de estabilidad a largo plazo. Desde una perspectiva de prudencia corporativa, destinar recursos masivos a recompras mientras la economía europea navega en un entorno de tipos restrictivos puede mermar el colchón de liquidez ante un eventual bache macroeconómico. No podemos olvidar que el crecimiento de beneficios a corto plazo reportado se sitúa en terreno negativo (-5%), lo cual contrasta fuertemente con la euforia compradora que se nos intenta vender.
+
+En el plano técnico, aunque la cotización en 5,274 EUR se mantenga por encima de las medias móviles (SMA de 50 en 5,10 EUR y SMA de 200 en 4,87 EUR) y el RSI se mueva en un neutro 52,37, la volatilidad anualizada del 28,20% y un *drawdown* reciente del -6,88% demuestran que el activo experimenta oscilaciones bruscas que no se alinean con una política de inversión defensiva. Confiar ciegamente en un precio objetivo de consenso de 6,12 EUR para buscar un *upside* del 16,09% es olvidar que las estimaciones de los analistas son meras referencias y no valores intrínsecos garantizados.
+
+Por todo ello, exigir una entrada agresiva con un *stop loss* ajustado en 4,85 EUR dentro de una cartera que asume una posición del 1,5% expone innecesarios flancos de pérdidas si el soporte de las medias móviles cede ante un giro del mercado. Ante la falta de datos definitivos y desagregados sobre el flujo de caja libre actual y la opacidad en el ROE del ejercicio en curso, cualquier decisión de compra inmediata carece de la solidez que nuestra política de riesgo exige. 
+
+La alternativa más prudente para salvaguardar los activos de la firma es adoptar una postura de estricta revisión y espera, evitando comprometer capital en un entorno tan cíclico.
+
+**Rating**: REVIEW
+FINAL TRANSACTION PROPOSAL: **REVIEW**

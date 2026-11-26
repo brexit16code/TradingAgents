@@ -1,0 +1,8 @@
+
+Aggressive Analyst: **Rating**: REVIEW
+
+FINAL TRANSACTION PROPOSAL: **HOLD**
+
+¡Vaya por delante que mantener una posición en **ROVI.MC** con la excusa de una supuesta «debilidad técnica a corto plazo» me parece de una extrema timidez inversora! Tanto el analista conservador como el neutral están dejando escapar una oportunidad de oro por mirar demasiado el retrovisor. ¿Qué importa que el precio cotice ligeramente por debajo de la media móvil de 200 sesiones en los 64,05 EUR? Estamos hablando de una compañía con un ROE sencillamente sobresaliente del 28,71% y una eficiencia operativa brutal que genera más de 119 millones de euros en flujo de caja libre. 
+
+Los argumentos de prudencia y normalización post-pandemia están totalmente desfasados frente a la realidad del balance. Con una deuda neta sobre EBITDA insignificante de apenas 0,15x, **ROVI.MC** tiene una salud financiera de hierro. ¿De verdad os asusta un P/E forward de 19,37x en un líder farmacéutico de especialidades con una tecnología ISM de liberación prolongada con tanto potencial disruptivo? Las bolsas europeas están rebotando con fuerza y el sector salud defensivo actúa como un trampolín perfecto. El consenso de analistas marca un precio objetivo medio de 74,78 EUR, lo que se traduce en un potencial alcista directo del 16,75% que puede quedarse muy corto si la cartera de I+D acelera catalizadores. Detenerse ahora por un simple cruce de MACD o un RSI neutral en 47 es puro miedo a ganar dinero. ¡Hay que ser audaces y mantener la posición con la mira puesta en romper resistencias y capturar ese crecimiento masivo!

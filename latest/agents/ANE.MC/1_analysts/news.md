@@ -1,47 +1,36 @@
-**Rating**: REVIEW
+**Reporte de Investigación y Análisis Macroeconómico y Sectorial**
 
-**Análisis Fundamental, Técnico y Macroeconómico de Corporación Acciona Energías Renovables, S.A. (`ANE.MC`)**
+### 1. Contexto Macroeconómico Global y Sectorial (España / Eurozona)
+Durante la última semana de noviembre de 2026, los mercados bursátiles europeos han registrado fuertes repuntes impulsados principalmente por los sectores bancario y tecnológico. El Euro Stoxx 50 y el DAX alemán han avanzado más de un 2%, respaldados por un clima de optimismo en las bolsas (como reflejan las noticias del 26 de noviembre de 2026). 
 
-### 1. Resumen Ejecutivo y Estado Actual
-Corporación Acciona Energías Renovables, S.A. (`ANE.MC`) cotiza a **18.56 EUR** (al 25 de noviembre de 2026), experimentando una caída reciente del 1.07% en la sesión y mostrando debilidad técnica con un retroceso de -15.64% a 21 días y -13.99% a 63 días. Su capitalización bursátil se sitúa en aproximadamente 6.023 millones de euros. 
+No obstante, el entorno de tipos de interés se mantiene en niveles elevados. El euríbor ha superado el 3,3%, lo que encarece las hipotecas y afecta al coste de financiación de capital intensivo, un factor crítico para las empresas del sector de energías renovables. Paralelamente, se ha anunciado el nombramiento de Pablo Hernández de Cos como presidente del Banco Central Europeo (BCE), un hito relevante para la gobernanza monetaria de la eurozona.
 
-La compañía presenta múltiplos exigentes: un PER histórico de **32.56x** y un PER adelantado (*forward PE*) de **27.62x**, situándose por encima de la mediana de sus comparables del sector (*peer median forward PE*: 17.46x), lo que arroja una ratio de PER relativo de **1.58x**. No obstante, cotiza con un descuento respecto a su valor en libros con un *Price to Book* de **0.97x** (valor contable por acción de 19.10 EUR frente al precio de mercado de 18.56 EUR).
+### 2. Análisis Fundamental y Situación Financiera de `ANE.MC` (Corporación Acciona Energías Renovables, S.A.)
+Tomando como base los datos financieros y de mercado proporcionados a fecha 26 de noviembre de 2026:
+* **Precio de cotización y técnico:** `ANE.MC` cotiza a **19.02 EUR**, con una capitalización bursátil de aproximadamente **6,173 millones de EUR**. Las medias móviles muestran una tendencia bajista a medio plazo (SMA20: 20.62 EUR, SMA50: 21.28 EUR, SMA200: 21.75 EUR), encontrándose el valor un 21.95% por debajo de sus máximos recientes (drawdown). El RSI de 14 días se sitúa en 36.36, apuntando hacia zonas de sobreventa sin entrar todavía en pánico extremo.
+* **Valuación y Beneficios:** La compañía presenta un ratio *Trailing P/E* de 32.79x y un *Forward P/E* de 28.31x. Su múltiplo *Enterprise Value to EBITDA* (EV/EBITDA) se sitúa en 11.63x. En comparación con la mediana de sus pares en el sector de utilities en España (`ENG.MC`, `ELE.MC`, `IBE.MC`, `NTGY.MC`, `RED.MC`, `SLR.MC`), que registran un PER forward medio de 17.58x, `ANE.MC` cotiza con una prima relativa significativa (ratio de 1.61x sobre la mediana de sus pares).
+* **Fundamentales y Deuda:** Los ingresos totales en 2025 se situaron en 2,925 millones de EUR (frente a los 3,048 millones de EUR de 2024), con un EBITDA de 1,484 millones de EUR y un beneficio neto de 655 millones de EUR. La deuda total asciende a unos 5,411 millones de EUR (5,164 millones según balance 2025), arrojando una ratio de Deuda Neta / EBITDA de aproximadamente **5.06x**, lo cual representa una palanca financiera elevada en un contexto de tipos de interés altos.
+* **Flujos de Caja y Dividendos:** El flujo de caja libre (*Free Cash Flow*) reportado sigue siendo negativo (-408.7 millones de EUR en métricas recientes; -596 millones en el cierre de 2025), derivado del intenso esfuerzo inversor en CapEx (979 millones de EUR en 2025). Ofrece una rentabilidad por dividendo (*dividend yield*) declarada del **15.77%** (con una tasa de dividendo de 0.03 EUR y un *payout ratio* ajustado del 5.27%).
+* **Consenso de Analistas:** El precio objetivo medio de consenso de los analistas se sitúa en **23.33 EUR** (con un rango entre 17.00 EUR y 28.30 EUR basados en 19 opiniones), lo que ofrece un potencial alcista (*consensus upside*) del **22.64%** desde los niveles actuales de 19.02 EUR.
 
-### 2. Análisis Técnico e Indicadores de Momento
-- **Precio actual**: 18.56 EUR
-- **RSI (14)**: 30.76 (situándose cerca de niveles de sobreventa, reflejando una fuerte presión vendedora a corto plazo).
-- **MACD**: -0.75 (con señal en -0.45, indicando tendencia bajista vigente).
-- **Medias móviles**: Las cotizaciones se encuentran claramente por debajo de sus medias móviles clave (SMA 20: 20.73 EUR; SMA 50: 21.34 EUR; SMA 200: 21.76 EUR), confirmando la tendencia bajista de medio y largo plazo.
-- **Drawdown**: -23.84% desde máximos recientes, con una volatilidad anualizada del 36.21%.
+### 3. Evidencia Contraria y de Apoyo
+* **Apoyo:** El fuerte descuento acumulado en el precio de la acción (-21.95% de drawdown, cotizando muy por debajo de sus medias móviles de 50 y 200 sesiones) sitúa a `ANE.MC` cerca de su objetivo mínimo de analistas (17.00 EUR), con un potencial de recuperación del 22.64% hacia el precio objetivo medio (23.33 EUR). Además, el sector de renovables cuenta con vientos de fondo regulatorios a largo plazo favorables hacia la transición energética en Europa.
+* **Contraria:** La ratio de Deuda Neta/EBITDA superior a 5x y los flujos de caja libre negativos (-596 millones de EUR en 2025) exponen a la compañía a riesgos de refinanciación y presión de márgenes mientras los tipos de interés se mantengan elevados y el euríbor ronde el 3.3%. Asimismo, su valoración relativa por PER forward (28.31x) es considerablemente más alta que la mediana de sus comparables sectoriales (17.58x), lo que limita su margen de seguridad.
 
-### 3. Fundamentos y Estados Financieros
-- **Ingresos y EBITDA**: Los ingresos totales reportados para el ejercicio cerrado a diciembre de 2025 se situaron en **2.925 millones de euros** (frente a 3.048 millones en 2024), reflejando una contracción interanual de los ingresos del -34.4% en las métricas consolidadas. El EBITDA del ejercicio 2025 ascendió a **1.484 millones de euros** (superior a los 1.183 millones de 2024).
-- **Deuda y Solvencia**: La deuda total se sitúa en **5.410 millones de euros** (con una deuda neta sobre EBITDA de aproximadamente **5.06x**), lo que representa una carga financiera considerable en un entorno de tipos de interés potencialmente elevados.
-- **Flujos de Caja**: El flujo de caja libre (*free cash flow*) continúa en terreno negativo (-596 millones de euros en 2025 y -408.7 millones según datos agregados recientes), impulsado por un intenso esfuerzo inversor en Capex (-979 millones de euros en 2025).
-- **Dividendos**: Ofrece una rentabilidad por dividendo (*dividend yield*) atractiva del **16.16%** bruto según datos de cotización y estimación de tasa, respaldada por un *payout* reportado del 5.27% sobre beneficios, aunque sujeto a la política de asignación de capital del grupo matriz Acciona.
+### 4. Datos Faltantes
+No se dispone de datos pormenorizados sobre la descomposición detallada de contratos PPA (Power Purchase Agreements) a precio fijo frente a mercado libre para los próximos trimestres, ni del calendario exacto de amortización de los 5.4 mil millones de euros de deuda total más allá del cierre fiscal de 2025.
 
-### 4. Entorno Macroeconómico
-El contexto macroeconómico reciente (noviembre de 2026) muestra persistencia inflacionaria y debate sobre la senda de tipos de interés del Banco Central Europeo (BCE). Informes de entidades como S&P Global advierten sobre riesgos de subidas adicionales de tipos de interés y una inflación persistentemente alta hasta 2028, lo que incide de manera directa en los costes de financiación de las utilities intensivas en capital y energías renovables.
-
-### 5. Consenso de Analistas y Valoración
-- **Precio Objetivo Medio (*Target Mean Price*)**: 23.33 EUR
-- **Precio Objetivo Bajo**: 17.00 EUR
-- **Precio Objetivo Alto**: 28.30 EUR
-- **Número de Analistas**: 19
-- **Upside de Consenso**: **+25.68%** respecto al precio actual de 18.56 EUR.
-
-### 6. Datos Faltantes y Advertencias
-- No se dispone de datos detallados de noticias específicas de la compañía en la última semana, limitando el análisis a los estados financieros anuales de cierre a diciembre de 2025 y las métricas de mercado proporcionadas.
-- La valoración mediante múltiplos sectoriales (PER relativo de 1.58x) indica que `ANE.MC` cotiza con prima frente a sus homólogos a pesar del castigo bursátil reciente.
+### 5. Fuentes y Enlaces
+* [Yahoo Finance - ANE.MC Quote](https://finance.yahoo.com/quote/ANE.MC/)
+* [Yahoo Finance - ANE.MC Financials](https://finance.yahoo.com/quote/ANE.MC/financials/)
+* Cobertura de noticias macroeconómicas recopiladas mediante Google News RSS (24-26 de noviembre de 2026).
 
 ---
 
-| Concepto Clave | Valor / Métrica | Implicación para el Inversor |
-| :--- | :--- | :--- |
-| **Precio Actual (`ANE.MC`)** | 18.56 EUR | Descuento frente al valor contable (P/B: 0.97x) pero bajo presión técnica bajista. |
-| **RSI (14)** | 30.76 | Próximo a zona de sobreventa, sugiriendo posible agotamiento del movimiento bajista a corto plazo. |
-| **Forward PE** | 27.62x | Valuación exigente en comparación con la mediana sectorial (17.46x). |
-| **Deuda Neta / EBITDA** | ~5.06x | Nivel de apalancamiento elevado, sensible a la evolución de los tipos del BCE. |
-| **Consenso de Analistas** | 23.33 EUR (+25.68%) | Potencial alcista estimado por el consenso de mercado (19 analistas). |
+**Rating**: HOLD
 
-FINAL TRANSACTION PROPOSAL: REVIEW
+FINAL TRANSACTION PROPOSAL:
+- Ticker: ANE.MC
+- Action: HOLD
+- Allocation: Hypothetical 3% max portfolio weight (capital intensivo con alta deuda y flujos de caja libres negativos, compensado por un descuento sustancial frente al precio objetivo de consenso de los analistas de 23.33 EUR).
+- Horizon: 6 a 12 meses (esperando estabilización de tipos de interés en la Eurozona y ejecución de plan de desapalancamiento).

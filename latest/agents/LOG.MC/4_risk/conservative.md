@@ -1,0 +1,12 @@
+
+Conservative Analyst: Estimado colega analista agresivo, su entusiasmo por la reciente subida de **LOG.MC** hasta los 37,70 EUR y sus cantos de sirena sobre un ROE del 43,62% y supuestos catalizadores corporativos me parecen, como mínimo, imprudentes y peligrosos para la integridad de nuestro capital. Desestimar las advertencias sobre el riesgo de valoración bajo la excusa de que "el mercado siempre tiene la razón" es una invitación directa al desastre bursátil. 
+
+En primer lugar, calificar de "obsoleto" el precio objetivo medio del consenso de analistas situado en 34,32 EUR es ignorar que operamos con un desfase de casi un 9% de sobrevaloración actual. Comprar en máximos históricos impulsados por un fervor alcista generalizado en las bolsas europeas, sin un margen de seguridad (*margin of safety*), expone a nuestra cartera a correcciones severas e innecesarias. Olvida usted que el beneficio neto interanual se ha contraído de 308,24 millones a 282,04 millones de EUR y que el EBITDA también ha disminuido, lo que evidencia que el negocio subyacente no acompaña el vértigo de la cotización bursátil.
+
+En segundo lugar, defender un ratio Precio/Valor en Libros (*P/B*) de 7,66x y un *payout ratio* alarmantemente elevado del 95,31% simplemente porque el retorno sobre el capital es alto es una miopía defensiva imperdonable. Un dividendo del 5,59% (2,03 EUR por acción) es atractivo, sí, pero destinar casi la totalidad de los beneficios a retribuir al accionista (95,31%) deja a la compañía con un margen mínimo para autofinanciar su crecimiento o hacer frente a imprevistos en un entorno de tipos donde el euríbor supera el 3,3%. ¿Qué pasará con la sostenibilidad de ese dividendo si la contracción de los beneficios netos continúa? 
+
+Por último, apelar a rumores especulativos como el supuesto interés de Altria por Imperial Brands para justificar una compra agresiva es especulación pura, no análisis de riesgo. Basar la asignación de activos en jugadas inorgánicas ajenas a la gestión directa de la empresa es el epítome de la asunción de riesgos descontrolada. La ratio de deuda neta sobre EBITDA de 0,60x y el flujo de caja libre de más de 453 millones de EUR son métricas excelentes, pero precisamente por ser sólidas debemos protegerlas, manteniendo una postura prudente, exigiendo consolidaciones en soportes más atractivos y evitando sobreexponernos en un valor que ya ha corrido demasiado por encima de su valor intrínseco fundamental. Proteger el patrimonio es nuestra única prioridad.
+
+**Rating**: HOLD
+
+FINAL TRANSACTION PROPOSAL: **HOLD**

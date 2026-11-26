@@ -1,0 +1,18 @@
+
+Bear Analyst: ¡Hombre, por favor! Escuchar al colega alcista hablar de **SCYR.MC** como si estuviéramos ante una máquina infalible de imprimir dinero es, cuando menos, ignorar la realidad contable y los riesgos macroeconómicos que asfixian a la compañía. Adjudicarse el metro de Fortaleza por 190 millones suena muy bonito en los titulares de prensa, pero reduce los problemas estructurales de Sacyr, S.A. a una mera anécdota comercial. Vamos a poner los pies en la tierra y a repasar los datos fríos que los toros prefieren barrer bajo la alfombra.
+
+### 1. El espejismo del apalancamiento y el coste del dinero
+El colega intenta restarle importancia a la gigantesca losa de la deuda diciendo que la ratio de deuda neta sobre EBITDA de **5,41x** (con una deuda total que ronda los **9.557 millones de euros**) se soluciona con *project finance* sin recurso. ¡Vaya simplificación! Que la deuda esté fragmentada no la hace desaparecer del mapa consolidado. Con un euríbor manteniéndose por encima del **3,3%** a finales de noviembre de 2026 y un Banco Central Europeo bajo la presidencia de Pablo Hernández de Cos vigilando estrechamente la inflación, refinanciar o sostener estructuras de capital tan pesadas en un entorno de tipos altos es una soga invisible que estrangula los márgenes.
+
+### 2. Contradicciones en la rentabilidad y el beneficio neto
+Hablemos de la realidad de los estados financieros, no de proyecciones optimistas. Mientras que el colega se emociona con el Flujo de Caja Libre, olvida convenientemente que el **beneficio neto** de la compañía ha venido cayendo de forma preocupante en los últimos ejercicios cerrados: pasó de 153,2 millones de euros en 2023 a 113,4 millones en 2024, y se desplomó hasta los **85,8 millones de euros al cierre de 2025**. ¿De qué sirve presumir de caja operativa si la última línea de la cuenta de resultados se encoge año tras año?
+
+### 3. Un dividendo insostenible y un PER exigente
+¿Y qué me dices del dividendo y la valoración? Nos venden un *dividend yield* de casi el **4,87%** como un oasis de paz, pero ocultan que el *payout ratio* está disparado en un alarmante **83,83%**. Pagar casi el 84% de las ganancias en dividendos cuando el beneficio neto mengua y la deuda neta supera las 5 veces el EBITDA es una política de retribución cortoplacista que sacrifica la solidez financiera de la empresa para contentar artificialmente al accionista. 
+Además, pagar un PER *forward* de **17,59x** (y un *trailing* de más de **22,8x**) para una compañía con un margen de beneficio neto pírrico del **2,78%** no tiene ningún sentido fundamental. ¿Un potencial alcista del 29% según el consenso? Los analistas siempre van a remolque de las expectativas, pero la realidad técnica muestra a **SCYR.MC** cotizando a **4,11 €**, luchando por debajo de su media móvil de 200 sesiones (`sma200`: **4,36 €**), con el MACD debilitándose y un claro estancamiento a 63 sesiones (-3,07%).
+
+### Conclusión
+No nos dejemos cegar por el optimismo infundado de los toros. Invertir en **SCYR.MC** hoy en día significa asumir un riesgo financiero desproporcionado, con un apalancamiento peligroso, un beneficio neto en contracción y un dividendo con un *payout* excesivo en plena era de tipos de interés restrictivos. La prudencia dicta mantenerse al margen.
+
+**Rating**: UNDERPERFORM  
+FINAL TRANSACTION PROPOSAL: Evitar nuevas posiciones y reducir exposición en SCYR.MC ante los riesgos de endeudamiento y la compresión del beneficio neto.

@@ -1,0 +1,539 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'">
+<title>FDR.MC 2026-11-26 Overweight: TradingAgents report</title>
+<style>
+:root {
+  --paper: #fbfbfa; --ink: #1c2126; --muted: #5d6670; --rule: #e2e5e8; --wash: #f2f4f5;
+  --accent: #087a59; --up: #087a59; --down: #b4372f; --level: #5d6670; --edge: #d3d8dc; --mark: #878f97;
+  --serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #131a1f; --ink: #e4e8eb; --muted: #9aa6af; --rule: #263239; --wash: #1a242a;
+    --accent: #14c290; --up: #14c290; --down: #ef6f63; --level: #9aa6af; --edge: #3d4c55; --mark: #66737c;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .masthead .logo [stroke="#363636"] { stroke: var(--muted); }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font: 17px/1.62 var(--serif); font-kerning: normal;
+}
+.page { max-width: 46rem; margin: 0 auto; padding: 3.5rem 1.5rem 6rem; }
+main h2, main h3 { scroll-margin-top: 1rem; }
+a { color: var(--accent); text-underline-offset: 0.15em; }
+h1, h2, h3, h4 { text-wrap: balance; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.masthead { padding-bottom: 1.75rem; border-bottom: 1px solid var(--rule); }
+/* The logo leads at the top left, where readers look for it, 24px tall (the usual
+   on-screen floor for a wordmark) with at least its height clear below. */
+.masthead .logo { display: block; width: fit-content; margin: 0 0 2.25rem; }
+.masthead .logo svg { display: block; height: 1.5rem; width: auto; }
+.masthead h1 {
+  margin: 0; font: 600 2.6rem/1.1 var(--sans); letter-spacing: -0.02em;
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.2em 0.5em;
+}
+.masthead .rating { font-weight: 500; }
+.rating.up { color: var(--up); } .rating.down { color: var(--down); } .rating.level { color: var(--level); }
+.rating.review { color: var(--muted); font-style: italic; }
+.masthead .date { margin: 0.55rem 0 1.5rem; font: 1rem/1.4 var(--sans); color: var(--muted); }
+.run { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: 0.45rem 1.25rem;
+  font: 0.85rem/1.5 var(--sans); }
+.run > div { display: contents; }
+.run dt { color: var(--muted); }
+.run dd { margin: 0; overflow-wrap: anywhere; }
+.run .note dd { color: var(--down); }
+.field { display: inline-block; margin: 0 0.15rem 0.15rem 0; padding: 0 0.4rem; border: 1px solid var(--edge);
+  border-radius: 4px; background: var(--wash); font: 0.8rem/1.6 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+.run .group { display: inline-block; margin-right: 0.9rem; white-space: nowrap; }
+.run .group > .name { color: var(--muted); margin-right: 0.3rem; }
+.run .then { color: var(--muted); margin: 0 0.2rem; }
+
+/* The sections: listed under the header on narrow screens. On wide ones, a
+   quiet rail centred on the left edge (numerals for the sections, short bars
+   for their agents) that opens into the full list when pointed at or focused. */
+.contents { margin: 2.25rem 0 0; font: 0.9rem/1.45 var(--sans); }
+.contents ul { margin: 0; padding: 0; list-style: none; }
+.contents > ul > li { margin: 0 0 0.75rem; }
+.contents ul ul { margin-top: 0.2rem; padding-left: 1.6rem; font-size: 0.85rem; }
+.contents ul ul li { margin: 0.1rem 0; }
+.contents a { display: flex; align-items: center; gap: 0.6rem; color: var(--muted); text-decoration: none; }
+.contents > ul > li > a { color: var(--ink); }
+.contents .num { min-width: 1.6rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.contents .bar { display: none; }
+.contents a:hover .label, .contents a:focus-visible .label { color: var(--accent); text-decoration: underline; }
+.to-top { position: fixed; right: 1rem; bottom: calc(1rem + env(safe-area-inset-bottom));
+  padding: 0.25rem 0.6rem; border: 1px solid var(--edge); border-radius: 4px; background: var(--paper);
+  color: var(--muted); font: 0.8rem/1.4 var(--sans); text-decoration: none; }
+
+@media (min-width: 60rem) {
+  .contents { position: fixed; left: 1rem; top: 50%; transform: translateY(-50%); z-index: 1;
+    max-height: 86vh; overflow-y: auto; overscroll-behavior: contain; margin: 0;
+    padding: 0.7rem 0.9rem; border: 1px solid transparent; border-radius: 6px;
+    transition: background-color 0.15s, border-color 0.15s, box-shadow 0.15s; }
+  .contents > ul > li { margin: 0 0 0.35rem; }
+  .contents ul ul { margin-top: 0; padding-left: 0; }
+  .contents ul ul li { margin: 0; }
+  /* Marks reach 3:1 contrast and rows 24px, the WCAG 2.2 floors for a control's
+     visual cue and its pointer target. */
+  .contents a { min-height: 1.5rem; }
+  .contents .num { min-width: 1.4rem; }
+  .contents .bar { display: block; flex: none; width: 1.25rem; height: 2px; margin-left: 0.2rem;
+    border-radius: 1px; background: var(--mark); }
+  .contents .label { max-width: 0; opacity: 0; overflow: hidden; white-space: nowrap;
+    transition: opacity 0.15s, max-width 0.2s; }
+  .contents:hover, .contents:focus-within { background: var(--paper); border-color: var(--rule);
+    box-shadow: 0 6px 24px rgb(0 0 0 / 0.08); }
+  .contents:hover .label, .contents:focus-within .label { max-width: 18rem; opacity: 1; }
+  .contents a:hover .bar, .contents a:focus-visible .bar { background: var(--accent); }
+  .to-top { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .contents, .contents .label { transition: none; }
+}
+
+/* The maker's credit: one quiet line at the foot. */
+.credit { margin-top: 4.5rem; padding-top: 1.25rem; border-top: 1px solid var(--rule);
+  color: var(--muted); font: 0.8rem/1.4 var(--sans); }
+.credit a { color: inherit; text-decoration: none; }
+.credit a.brand { color: var(--accent); }
+.credit a:hover, .credit a:focus-visible { text-decoration: underline; }
+
+/* Three levels of separation: the five groups, the agents within a group, and
+   breaks an agent draws inside its own text. */
+main h2 {
+  margin: 4.5rem 0 0.25rem; padding-top: 1.5rem; border-top: 2px solid var(--ink);
+  font: 600 1.45rem/1.3 var(--sans); letter-spacing: -0.01em;
+}
+main section:first-child h2 { margin-top: 3rem; }
+main h3 { margin: 2.75rem 0 0.75rem; padding-top: 1.1rem; border-top: 1px solid var(--rule);
+  font: 600 1.15rem/1.35 var(--sans); color: var(--accent); }
+main h2 + h3 { margin-top: 1.25rem; padding-top: 0; border-top: 0; }
+main h4, main h5, main h6 { margin: 1.75rem 0 0.5rem; font: 600 1rem/1.4 var(--sans); }
+main h5, main h6 { color: var(--muted); }
+main p, main ul, main ol { margin: 0 0 1rem; }
+main li { margin: 0.25rem 0; }
+main strong { font-weight: 650; }
+main blockquote { margin: 1.25rem 0; padding: 0.1rem 0 0.1rem 1rem; border-left: 3px solid var(--rule);
+  color: var(--muted); }
+main code { font: 0.88em/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  background: var(--wash); padding: 0.1em 0.3em; border-radius: 3px; }
+main pre { background: var(--wash); padding: 0.9rem 1rem; border-radius: 4px; overflow-x: auto; }
+main pre code { background: none; padding: 0; }
+main hr { width: 3rem; margin: 2rem auto; border: 0; border-top: 1px solid var(--rule); }
+
+.table { overflow-x: auto; margin: 0 0 1.25rem; }
+table { border-collapse: collapse; width: 100%; font: 0.86rem/1.45 var(--sans);
+  font-variant-numeric: tabular-nums; }
+th, td { padding: 0.45rem 0.7rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--rule); }
+th { font-weight: 600; border-bottom-color: var(--muted); }
+tbody tr:last-child td { border-bottom: 0; }
+
+@media (max-width: 34rem) {
+  body { font-size: 16px; }
+  .page { padding: 2rem 1rem 3rem; }
+  .masthead h1 { font-size: 2rem; }
+  .masthead .logo svg { height: 1.25rem; }
+  .run { grid-template-columns: 1fr; gap: 0 0; }
+  .run dd { margin-bottom: 0.45rem; }
+  .run .group { white-space: normal; }
+}
+@media print {
+  :root { --paper: #fff; --ink: #000; --muted: #444; --rule: #bbb; --accent: #000; --wash: #f2f2f2;
+    --edge: #bbb; --up: #087a59; --down: #b4372f; --level: #444; }
+  body { font-size: 11pt; }
+  .table { overflow: visible; }
+  .page { max-width: none; padding: 0; }
+  .contents, .to-top { display: none; }
+  main h2 { break-before: page; border-top: 0; margin-top: 0; }
+  main section:first-child h2 { break-before: auto; }
+  main h3, main h4 { break-after: avoid; }
+  a { color: inherit; text-decoration: none; }
+  table { break-inside: avoid; }
+}
+</style>
+</head>
+<body>
+<div class="page" id="top">
+<header class="masthead">
+<a class="logo" href="https://tauric.ai" rel="noopener" aria-label="Tauric Research"><svg width="993" height="115" viewBox="0 0 993 115" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M189.86 95.0459V37.9779H165.924V29.9259H223.74V37.9779H199.804V95.0459H189.86ZM251.026 46.4259C256.071 46.4259 260.178 47.0272 263.345 48.2299C266.514 49.4032 268.89 51.3686 270.474 54.1259C272.058 56.8832 272.85 60.6379 272.85 65.3899V95.0459H264.666L263.961 89.8979H263.434C261.644 91.7752 259.386 93.2419 256.657 94.2979C253.929 95.3246 251.025 95.8379 247.946 95.8379C244.426 95.8379 241.419 95.2952 238.925 94.2099C236.432 93.0952 234.54 91.5406 233.249 89.5459C231.959 87.5512 231.313 85.2046 231.313 82.5059C231.313 78.2526 232.897 74.9672 236.065 72.6499C239.263 70.3032 244.337 68.8219 251.29 68.2059L263.258 67.0179V64.7299C263.258 61.9139 262.774 59.7139 261.806 58.1299C260.838 56.5459 259.371 55.4312 257.406 54.7859C255.47 54.1406 252.888 53.8179 249.662 53.8179C247.432 53.8179 245.012 54.0086 242.401 54.3899C239.82 54.7712 237.341 55.3432 234.965 56.1059V48.8019C237.312 48.0392 239.908 47.4526 242.754 47.0419C245.628 46.6312 248.386 46.4259 251.026 46.4259ZM250.541 89.0619C252.888 89.0619 255.162 88.6512 257.362 87.8299C259.562 86.9792 261.527 85.7179 263.258 84.0459V72.8259L252.038 73.9259C248.136 74.3659 245.35 75.2166 243.678 76.4779C242.005 77.7099 241.169 79.4699 241.169 81.7579C241.169 84.0752 241.947 85.8792 243.501 87.1699C245.056 88.4312 247.403 89.0619 250.541 89.0619ZM313.339 95.8379C307.59 95.8379 303.087 94.2979 299.831 91.2179C296.575 88.1086 294.947 83.2686 294.947 76.6979V47.1739H304.715V76.1699C304.715 80.1886 305.624 83.0779 307.443 84.8379C309.291 86.5979 311.916 87.4779 315.319 87.4779C317.871 87.4779 320.379 86.9939 322.843 86.0259C325.336 85.0286 327.492 83.5766 329.311 81.6699V47.1739H339.079V95.0459H330.983L330.367 89.9419H329.883C327.624 91.8486 325.072 93.3152 322.227 94.3419C319.382 95.3392 316.419 95.8379 313.339 95.8379ZM362.371 47.1739H370.423L371.171 53.2899H371.743C373.474 51.2072 375.703 49.5792 378.431 48.4059C381.188 47.2326 384.063 46.6459 387.055 46.6459C388.756 46.6459 390.355 46.7926 391.851 47.0859V55.8419C390.414 55.5779 388.654 55.4459 386.571 55.4459C383.99 55.4459 381.364 55.9446 378.695 56.9419C376.026 57.9392 373.84 59.4206 372.139 61.3859V95.0459H362.371V47.1739ZM409.069 95.0459V47.1739H418.837V95.0459H409.069ZM413.953 37.8459C411.871 37.8459 410.287 37.3912 409.201 36.4819C408.145 35.5726 407.617 34.2672 407.617 32.5659C407.617 30.8352 408.145 29.5152 409.201 28.6059C410.287 27.6672 411.871 27.1979 413.953 27.1979C416.036 27.1979 417.605 27.6672 418.661 28.6059C419.747 29.5152 420.289 30.8352 420.289 32.5659C420.289 34.2672 419.747 35.5726 418.661 36.4819C417.605 37.3912 416.036 37.8459 413.953 37.8459ZM464.85 95.9259C456.607 95.9259 450.315 93.8432 445.974 89.6779C441.662 85.5126 439.506 79.3526 439.506 71.1979C439.506 63.0139 441.779 56.8392 446.326 52.6739C450.902 48.5086 457.575 46.4259 466.346 46.4259C470.716 46.4259 474.735 46.9246 478.402 47.9219V55.7099C476.378 55.2406 474.486 54.8886 472.726 54.6539C470.966 54.4192 469.118 54.3019 467.182 54.3019C461.168 54.3019 456.71 55.6512 453.806 58.3499C450.931 61.0486 449.494 65.2872 449.494 71.0659C449.494 76.8739 450.858 81.1566 453.586 83.9139C456.343 86.6712 460.42 88.0499 465.818 88.0499C467.695 88.0499 469.616 87.8886 471.582 87.5659C473.547 87.2139 475.82 86.6712 478.402 85.9379V93.7259C474.236 95.1926 469.719 95.9259 464.85 95.9259ZM574.428 95.0459L553.704 69.0859C553.176 69.1152 552.37 69.1299 551.284 69.1299C548.38 69.1299 544.978 68.9832 541.076 68.6899V95.0459H531.308V31.4659C537.967 29.9699 544.846 29.2219 551.944 29.2219C561.595 29.2219 568.752 30.8059 573.416 33.9739C578.08 37.1126 580.412 42.1286 580.412 49.0219C580.412 54.0086 579.004 58.0859 576.188 61.2539C573.402 64.4219 569.266 66.6366 563.78 67.8979L585.648 95.0459H574.428ZM541.076 61.2099C543.071 61.4152 544.816 61.5619 546.312 61.6499C547.838 61.7379 549.627 61.7819 551.68 61.7819C558.427 61.7819 563.34 60.7699 566.42 58.7459C569.5 56.6926 571.04 53.4952 571.04 49.1539C571.04 46.0739 570.395 43.6099 569.104 41.7619C567.843 39.9139 565.863 38.5792 563.164 37.7579C560.495 36.9366 556.975 36.5259 552.604 36.5259C550.404 36.5259 548.424 36.6139 546.664 36.7899C544.904 36.9659 543.042 37.2299 541.076 37.5819V61.2099ZM642.947 74.0139H608.231C608.407 77.4752 609.155 80.2766 610.475 82.4179C611.795 84.5299 613.775 86.0846 616.415 87.0819C619.055 88.0792 622.443 88.5779 626.579 88.5779C630.686 88.5779 635.233 87.9472 640.219 86.6859V93.9459C635.027 95.2659 630.026 95.9259 625.215 95.9259C616.298 95.9259 609.61 93.9166 605.151 89.8979C600.722 85.8499 598.507 79.6166 598.507 71.1979C598.507 65.9179 599.402 61.4299 601.191 57.7339C602.981 54.0379 605.562 51.2366 608.935 49.3299C612.338 47.3939 616.43 46.4259 621.211 46.4259C628.251 46.4259 633.634 48.5819 637.359 52.8939C641.085 57.1766 642.947 63.3659 642.947 71.4619V74.0139ZM621.079 52.8939C616.973 52.8939 613.834 54.1406 611.663 56.6339C609.493 59.0979 608.334 62.9259 608.187 68.1179H633.751C633.634 62.9259 632.519 59.0979 630.407 56.6339C628.295 54.1406 625.186 52.8939 621.079 52.8939ZM677.365 95.9259C671.352 95.9259 665.896 95.2219 660.997 93.8139V86.7299C666.248 88.1966 671.718 88.9299 677.409 88.9299C681.809 88.9299 684.977 88.3432 686.913 87.1699C688.849 85.9672 689.817 84.2219 689.817 81.9339C689.817 80.7019 689.597 79.6899 689.157 78.8979C688.717 78.0766 687.969 77.4019 686.913 76.8739C685.857 76.3166 684.405 75.8912 682.557 75.5979L674.065 74.2779C669.137 73.4859 665.573 71.9899 663.373 69.7899C661.202 67.5899 660.117 64.6419 660.117 60.9459C660.117 56.4579 661.965 52.9232 665.661 50.3419C669.386 47.7312 675.062 46.4259 682.689 46.4259C685.094 46.4259 687.485 46.5872 689.861 46.9099C692.266 47.2032 694.481 47.6432 696.505 48.2299V55.2699C692.046 54.0379 687.456 53.4219 682.733 53.4219C677.893 53.4219 674.476 54.0526 672.481 55.3139C670.486 56.5752 669.489 58.3206 669.489 60.5499C669.489 62.2219 670.002 63.5859 671.029 64.6419C672.056 65.6686 673.889 66.4166 676.529 66.8859L685.021 68.2059C689.92 68.9686 693.513 70.3766 695.801 72.4299C698.089 74.4832 699.233 77.4606 699.233 81.3619C699.233 84.3832 698.412 86.9792 696.769 89.1499C695.156 91.3206 692.706 92.9926 689.421 94.1659C686.165 95.3392 682.146 95.9259 677.365 95.9259ZM760.579 74.0139H725.863C726.039 77.4752 726.787 80.2766 728.107 82.4179C729.427 84.5299 731.407 86.0846 734.047 87.0819C736.687 88.0792 740.075 88.5779 744.211 88.5779C748.317 88.5779 752.864 87.9472 757.851 86.6859V93.9459C752.659 95.2659 747.657 95.9259 742.847 95.9259C733.929 95.9259 727.241 93.9166 722.783 89.8979C718.353 85.8499 716.139 79.6166 716.139 71.1979C716.139 65.9179 717.033 61.4299 718.823 57.7339C720.612 54.0379 723.193 51.2366 726.567 49.3299C729.969 47.3939 734.061 46.4259 738.843 46.4259C745.883 46.4259 751.265 48.5819 754.991 52.8939C758.716 57.1766 760.579 63.3659 760.579 71.4619V74.0139ZM738.711 52.8939C734.604 52.8939 731.465 54.1406 729.295 56.6339C727.124 59.0979 725.965 62.9259 725.819 68.1179H751.383C751.265 62.9259 750.151 59.0979 748.039 56.6339C745.927 54.1406 742.817 52.8939 738.711 52.8939ZM796.986 46.4259C802.032 46.4259 806.138 47.0272 809.306 48.2299C812.474 49.4032 814.85 51.3686 816.434 54.1259C818.018 56.8832 818.81 60.6379 818.81 65.3899V95.0459H810.626L809.922 89.8979H809.394C807.605 91.7752 805.346 93.2419 802.618 94.2979C799.89 95.3246 796.986 95.8379 793.906 95.8379C790.386 95.8379 787.38 95.2952 784.886 94.2099C782.393 93.0952 780.501 91.5406 779.21 89.5459C777.92 87.5512 777.274 85.2046 777.274 82.5059C777.274 78.2526 778.858 74.9672 782.026 72.6499C785.224 70.3032 790.298 68.8219 797.25 68.2059L809.218 67.0179V64.7299C809.218 61.9139 808.734 59.7139 807.766 58.1299C806.798 56.5459 805.332 55.4312 803.366 54.7859C801.43 54.1406 798.849 53.8179 795.622 53.8179C793.393 53.8179 790.973 54.0086 788.362 54.3899C785.781 54.7712 783.302 55.3432 780.926 56.1059V48.8019C783.273 48.0392 785.869 47.4526 788.714 47.0419C791.589 46.6312 794.346 46.4259 796.986 46.4259ZM796.502 89.0619C798.849 89.0619 801.122 88.6512 803.322 87.8299C805.522 86.9792 807.488 85.7179 809.218 84.0459V72.8259L797.998 73.9259C794.097 74.3659 791.31 75.2166 789.638 76.4779C787.966 77.7099 787.13 79.4699 787.13 81.7579C787.13 84.0752 787.908 85.8792 789.462 87.1699C791.017 88.4312 793.364 89.0619 796.502 89.0619ZM841.524 47.1739H849.576L850.324 53.2899H850.896C852.627 51.2072 854.856 49.5792 857.584 48.4059C860.341 47.2326 863.216 46.6459 866.208 46.6459C867.909 46.6459 869.508 46.7926 871.004 47.0859V55.8419C869.567 55.5779 867.807 55.4459 865.724 55.4459C863.143 55.4459 860.517 55.9446 857.848 56.9419C855.179 57.9392 852.993 59.4206 851.292 61.3859V95.0459H841.524V47.1739ZM909.164 95.9259C900.921 95.9259 894.629 93.8432 890.288 89.6779C885.976 85.5126 883.82 79.3526 883.82 71.1979C883.82 63.0139 886.093 56.8392 890.64 52.6739C895.216 48.5086 901.889 46.4259 910.66 46.4259C915.03 46.4259 919.049 46.9246 922.716 47.9219V55.7099C920.692 55.2406 918.8 54.8886 917.04 54.6539C915.28 54.4192 913.432 54.3019 911.496 54.3019C905.482 54.3019 901.024 55.6512 898.12 58.3499C895.245 61.0486 893.808 65.2872 893.808 71.0659C893.808 76.8739 895.172 81.1566 897.9 83.9139C900.657 86.6712 904.734 88.0499 910.132 88.0499C912.009 88.0499 913.93 87.8886 915.896 87.5659C917.861 87.2139 920.134 86.6712 922.716 85.9379V93.7259C918.55 95.1926 914.033 95.9259 909.164 95.9259ZM941.796 23.9419H951.564V52.2779H952.048C954.248 50.3712 956.756 48.9192 959.572 47.9219C962.417 46.9246 965.395 46.4259 968.504 46.4259C974.019 46.4259 978.375 47.9952 981.572 51.1339C984.769 54.2432 986.368 59.0686 986.368 65.6099V95.0459H976.6V66.0939C976.6 62.0459 975.661 59.1566 973.784 57.4259C971.936 55.6952 969.237 54.8299 965.688 54.8299C963.048 54.8299 960.481 55.3286 957.988 56.3259C955.524 57.2939 953.383 58.7312 951.564 60.6379V95.0459H941.796V23.9419Z" fill="#14C290"/>
+<rect x="0.205322" y="14.873" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="14.679" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="14.679" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="86.6055" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="86.6055" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="101.284" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="58.7158" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="58.7158" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="87.1592" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="87.1592" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="73.0205" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="73.0205" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="87.3262" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="87.3262" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="101.631" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="101.631" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="101.284" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="15.0187" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.2668" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.2668" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.445" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.7506" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="100.716" y="14.873" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+</svg></a>
+<h1><span class="ticker">FDR.MC</span> <span class="rating up">Overweight</span></h1>
+<p class="date">Analysis of 2026-11-26</p>
+<dl class="run"><div class="detail"><dt>Generated</dt><dd>2026-11-26 21:35</dd></div><div class="detail"><dt>Deep model</dt><dd><span class="field">google</span> <span class="field">gemini-3.5-flash-lite</span></dd></div><div class="detail"><dt>Quick model</dt><dd><span class="field">google</span> <span class="field">gemini-3.5-flash-lite</span></dd></div><div class="detail"><dt>Analysts</dt><dd><span class="field">market</span> <span class="field">news</span> <span class="field">fundamentals</span></dd></div><div class="detail"><dt>Debate rounds</dt><dd><span class="group"><span class="name">research</span><span class="field">1</span></span> <span class="group"><span class="name">risk</span><span class="field">1</span></span></dd></div><div class="detail"><dt>Data vendors</dt><dd><span class="group"><span class="name">Prices</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Indicators</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Fundamentals</span><span class="field">yfinance</span></span> <span class="group"><span class="name">News</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Macro</span><span class="field">fred</span></span> <span class="group"><span class="name">Prediction markets</span><span class="field">polymarket</span></span> <span class="group"><span class="name">get_news</span><span class="field">ibex_sample</span></span> <span class="group"><span class="name">get_global_news</span><span class="field">ibex_sample</span></span></dd></div><div class="detail"><dt>Version</dt><dd>TradingAgents 0.7.1</dd></div></dl>
+</header>
+<nav class="contents" aria-label="Sections"><ul><li><a href="#s1"><span class="num">I</span> <span class="label">Analyst Team Reports</span></a><ul><li><a href="#s1-1"><span class="bar"></span> <span class="label">Market Analyst</span></a></li><li><a href="#s1-2"><span class="bar"></span> <span class="label">News Analyst</span></a></li><li><a href="#s1-3"><span class="bar"></span> <span class="label">Fundamentals Analyst</span></a></li></ul></li><li><a href="#s2"><span class="num">II</span> <span class="label">Research Team Decision</span></a><ul><li><a href="#s2-1"><span class="bar"></span> <span class="label">Bull Researcher</span></a></li><li><a href="#s2-2"><span class="bar"></span> <span class="label">Bear Researcher</span></a></li><li><a href="#s2-3"><span class="bar"></span> <span class="label">Research Manager</span></a></li></ul></li><li><a href="#s3"><span class="num">III</span> <span class="label">Trading Team Plan</span></a><ul><li><a href="#s3-1"><span class="bar"></span> <span class="label">Trader</span></a></li></ul></li><li><a href="#s4"><span class="num">IV</span> <span class="label">Risk Management Team Decision</span></a><ul><li><a href="#s4-1"><span class="bar"></span> <span class="label">Aggressive Analyst</span></a></li><li><a href="#s4-2"><span class="bar"></span> <span class="label">Conservative Analyst</span></a></li><li><a href="#s4-3"><span class="bar"></span> <span class="label">Neutral Analyst</span></a></li></ul></li><li><a href="#s5"><span class="num">V</span> <span class="label">Portfolio Manager Decision</span></a><ul><li><a href="#s5-1"><span class="bar"></span> <span class="label">Portfolio Manager</span></a></li></ul></li></ul></nav>
+<main>
+<section id="s1"><h2>I. Analyst Team Reports</h2><h3 id="s1-1">Market Analyst</h3>
+<p><strong>Análisis Técnico y Fundamental de Fluidra, S.A. (<code>FDR.MC</code>)</strong></p>
+<h6>1. Resumen de Identidad y Contexto de Mercado</h6>
+<ul>
+<li><strong>Compañía:</strong> Fluidra, S.A. (<code>FDR.MC</code>)</li>
+<li><strong>Clasificación de Negocio:</strong> Consumo Cíclico / Ocio (Consumer Cyclical / Leisure)</li>
+<li><strong>Bolsa y Divisa:</strong> Mercado de Madrid (MCE), EUR</li>
+<li><strong>Fecha de Análisis / Referencia:</strong> 26 de noviembre de 2026 (<code>2026-11-26</code>)</li>
+<li><strong>Precio de Cierre Actual (<code>close</code>):</strong> 18,70 EUR (con una variación diaria positiva del +0,86%)</li>
+<li><strong>Contexto Macroeconómico:</strong> Las bolsas europeas experimentan fuertes subidas impulsadas por el sector bancario y tecnológico, destacando avances superiores al 2% en índices de referencia como el Euro Stoxx 50 y el DAX alemán. El euríbor supera el 3,3% a las puertas de la última reunión de tipos de 2026, y se registra el nombramiento de Pablo Hernández de Cos como nuevo presidente del Banco Central Europeo. (Fuentes: <em>el boletin</em>, <em>Negocios.com</em>, <em>El Constitucional</em>).</li>
+</ul>
+<hr />
+<h6>2. Análisis de Indicadores Técnicos y Selección de Herramientas</h6>
+<p>De acuerdo con las directrices de selección de indicadores para evaluar la situación actual de <code>FDR.MC</code> (evitando redundancias y abarcando distintas categorías complementarias), se seleccionan hasta 8 indicadores clave presentes en la evidencia verificada:</p>
+<ol>
+<li><strong><code>close_50_sma</code> (Media Móvil Simple de 50 sesiones):</strong> Situada en torno a 18,29 EUR, actúa como indicador de tendencia a medio plazo y soporte dinámico. El precio actual (18,70 EUR) cotiza ligeramente por encima de esta media, sugiriendo una estabilización a medio plazo.</li>
+<li><strong><code>close_200_sma</code> (Media Móvil Simple de 200 sesiones):</strong> Situada en 19,21 EUR, sirve como referencia estructural a largo plazo. Al encontrarse el precio por debajo de esta línea, indica que la tendencia de fondo se mantiene en fase correctiva o de consolidación amplia.</li>
+<li><strong><code>macd</code> (Moving Average Convergence Divergence):</strong> Registra un valor de 0,015, mostrando una lectura neutral y un cruce muy estrecho en torno a la línea de señal.</li>
+<li><strong><code>macds</code> (Señal MACD):</strong> Con un valor de 0,136, se sitúa por encima de la línea MACD, evidenciando que el impulso alcista a muy corto plazo carece de la tracción suficiente para confirmar un cambio de tendencia definitivo.</li>
+<li><strong><code>rsi</code> (Índice de Fuerza Relativa - RSI 14):</strong> Se sitúa en <strong>49,73</strong>, reflejando un equilibrio perfecto entre compradores y vendedores (zona neutral de indecisión, exactamente en el punto medio de 50).</li>
+<li><strong><code>boll_ub</code> (Banda de Bollinger Superior) y <code>boll_lb</code> (Banda de Bollinger Inferior):</strong> Delimitan el canal de volatilidad actual. Con una volatilidad porcentual del <strong>22,45%</strong>, la cotización de <code>FDR.MC</code> se encuentra en un rango estrecho, a una distancia prudencial de sus extremos.</li>
+<li><strong><code>atr</code> (Average True Range / Volatilidad):</strong> Mide el rango promedio de movimiento, útil para la fijación estricta de niveles de <em>stop-loss</em> y dimensionamiento de posiciones dado el perfil cíclico de la compañía.</li>
+</ol>
+<hr />
+<h6>3. Análisis Fundamental y Financiero</h6>
+<ul>
+<li><strong>Capitalización de Mercado:</strong> 3.512.263.936 EUR (~3.51 mil millones de EUR).</li>
+<li><strong>Valoración (P/E y Múltiplos):</strong>
+<ul>
+<li><code>trailingPE</code> (PER histórico): <strong>21,25x</strong></li>
+<li><code>forwardPE</code> (PER estimado): <strong>11,95x</strong>, lo que refleja una expectativa de notable mejora en los beneficios por acción futuros.</li>
+<li><code>priceToBook</code> (Precio/Valor Contable): <strong>2,19x</strong> (con un valor contable por acción de 8,51 EUR).</li>
+<li><code>enterpriseToEbitda</code>: <strong>11,96x</strong>.</li>
+</ul>
+</li>
+<li><strong>Beneficios y Crecimiento:</strong>
+<ul>
+<li><code>trailingEps</code>: 0,88 EUR; <code>forwardEps</code> estimado: 1,56 EUR.</li>
+<li><code>revenueGrowth</code> (Crecimiento de ingresos): <strong>15%</strong>.</li>
+<li>Cifras de ingresos anuales recientes: 2.083 M€ (2023), 2.136 M€ (2024) y 2.221 M€ (2025). El beneficio neto auditado para 2025 ascendió a 176,02 millones de EUR (frente a los 138,06 millones de 2024).</li>
+</ul>
+</li>
+<li><strong>Deuda y Solvencia:</strong>
+<ul>
+<li>Deuda total: ~1.289 millones de EUR (con una caja total de ~135 millones de EUR).</li>
+<li>Ratio <code>net_debt_ebitda</code>: <strong>2,95x</strong>, un nivel moderado para una empresa de bienes de consumo cíclico y ocio, requiriendo monitorización en entornos de tipos de interés elevados (euríbor superior al 3,3%).</li>
+</ul>
+</li>
+<li><strong>Rentabilidad por Dividendo:</strong>
+<ul>
+<li><code>dividendYield</code>: <strong>3,53%</strong> (con un dividendo ordinario de 0,66 EUR por acción y un <em>payout ratio</em> del 70,74%).</li>
+</ul>
+</li>
+<li><strong>Consenso de Analistas:</strong>
+<ul>
+<li><code>targetMeanPrice</code>: <strong>25,93 EUR</strong> (con un precio objetivo mínimo de 19,00 EUR y máximo de 31,00 EUR basado en 15 opiniones de analistas).</li>
+<li><code>consensus_upside_pct</code>: <strong>+38,67%</strong> de potencial alcista teórico sobre el precio actual de 18,70 EUR.</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h6>4. Evidencia Contrary e Incertidumbres (Missing Data)</h6>
+<ul>
+<li><strong>Evidencia contraria:</strong> A pesar del atractivo potencial alcista de consenso (+38,67%) y la mejora prevista en el beneficio por acción (<code>forwardPE</code> de 11,95x), la acción acumula un retroceso anual (<em>return252_pct</em>) del <strong>-19,06%</strong> y cotiza por debajo de su media móvil de 200 sesiones (<code>sma200</code> de 19,21 EUR). Asimismo, el indicador RSI en 49,73 y el MACD plano reflejan ausencia de un impulso alcista consolidado a medio plazo.</li>
+<li><strong>Datos faltantes:</strong> No se dispone de una muestra actualizada de noticias específicas sobre la compañía en los últimos siete días (según los avisos de la plataforma, la muestra de titulares no cubre la empresa en la última semana, apoyándose el análisis exclusivamente en el contexto macroeconómico general y en los datos fundamentales/técnicos provistos).</li>
+</ul>
+<hr />
+<h6>5. Conclusión y Recomendación Operativa (Hipótesis)</h6>
+<p>Fluidra (<code>FDR.MC</code>) demuestra solidez en su crecimiento de ingresos y una atractiva generación de caja operativa (366,9 millones de EUR en flujos operativos y un flujo de caja libre de 221 millones de EUR), complementada por una rentabilidad por dividendo superior al 3,5%. Sin embargo, el entorno de tipos de interés altos (euríbor sobre el 3,3%) y su condición de valor cíclico exigen cautela técnica mientras no recupere de forma consistente la media móvil de 200 sesiones (19,21 EUR).</p>
+<p><strong>Rating</strong>: HOLD
+FINAL TRANSACTION PROPOSAL: Hypothetical neutral stance with a</p>
+<h3 id="s1-2">News Analyst</h3>
+<p><strong>Rating</strong>: REVIEW</p>
+<h6>Informe Macroeconómico y de Mercado para <code>FDR.MC</code> (Fluidra, S.A.)</h6>
+<h6>1. Resumen Ejecutivo y Estado Actual de la Empresa</h6>
+<p>Fluidra, S.A. (<code>FDR.MC</code>), compañía multinacional española perteneciente al sector de Consumo Cíclico (subindustria de Ocio / <em>Leisure</em>) y cotizada en la Bolsa de Madrid frente al índice de referencia ^IBEX, presenta una capitalización de mercado de 3.512,26 millones de EUR. A fecha de 26 de noviembre de 2026, las acciones de <code>FDR.MC</code> cotizan a <strong>18,70 EUR</strong>, registrando una ligera subida en la sesión del 0,86%.</p>
+<h6>2. Análisis Financiero y Fundamental</h6>
+<ul>
+<li><strong>Valoración y Múltiplos:</strong> La empresa cotiza a un ratio Precio/Beneficio (<em>Trailing P/E</em>) de 21,25x, mientras que el <em>Forward P/E</em> estimado se reduce hasta los 11,95x, respaldado por un beneficio por acción esperado (<em>Forward EPS</em>) de 1,56 EUR frente a los 0,88 EUR actuales. El ratio EV/EBITDA se sitúa en 11,96x.</li>
+<li><strong>Solvencia y Deuda:</strong> La compañía muestra una deuda neta sobre EBITDA de aproximadamente 2,95x (Deuda total de 1.289,28 millones de EUR frente a un EBITDA de 391,28 millones de EUR y un efectivo de 135,36 millones de EUR).</li>
+<li><strong>Rentabilidad y Dividendos:</strong> El rendimiento por dividendo (<em>dividend yield</em>) se sitúa en un atractivo <strong>3,53%</strong>, con un dividendo por acción de 0,66 EUR y una ratio de reparto (<em>payout ratio</em>) del 70,74%. La rentabilidad sobre recursos propios (<em>ROE</em>) es del 10,52%, con unos márgenes de beneficio neto del 7,21%.</li>
+<li><strong>Consenso de Analistas:</strong> El precio objetivo medio de consenso de los analistas se sitúa en <strong>25,93 EUR</strong> (con un rango entre 19,00 EUR y 31,00 EUR basados en 15 opiniones de analistas), lo que implica un potencial alcista teórico (<em>consensus upside</em>) del <strong>38,67%</strong>.</li>
+</ul>
+<h6>3. Situación Técnica</h6>
+<ul>
+<li><strong>Indicadores de Momento y Tendencia:</strong> El RSI de 14 sesiones se encuentra en neutralidad (49,73). El MACD muestra un valor de 0,015 frente a su línea de señal de 0,136.</li>
+<li><strong>Medias Móviles y Volatilidad:</strong> La cotización actual (18,70 EUR) opera ligeramente por debajo de su media móvil de 20 sesiones (19,09 EUR) y de su media móvil de 200 sesiones (19,21 EUR), pero ligeramente por encima de la media de 50 sesiones (18,29 EUR). La volatilidad porcentual anualizada se sitúa en el 22,45%, con un <em>drawdown</em> acumulado de -26,73%.</li>
+</ul>
+<h6>4. Contexto Macroeconómico Global (Noviembre de 2026)</h6>
+<p>Las bolsas europeas han cerrado con fuertes subidas impulsadas por la banca y la tecnología (con avances superiores al 2% en índices como el Euro Stoxx 50 y el DAX alemán). Entre los acontecimientos macroeconómicos y políticos más destacados de la semana se encuentra la elección de Pablo Hernández de Cos como nuevo presidente del Banco Central Europeo (BCE), convirtiéndose en el primer español al frente de la institución monetaria. En el ámbito de tipos de interés y deuda, el euríbor supera el 3,3% a finales de noviembre de 2026, encareciendo las condiciones hipotecarias y de financiación en un entorno de tipos altos analizado por gestoras e instituciones como Bankinter y Metagestión.</p>
+<h6>5. Evidencia Contaria, Datos Faltantes y Advertencias</h6>
+<ul>
+<li><strong>Evidencia contraria:</strong> El retorno de las acciones a 252 días refleja una contracción de -19,06%, evidenciando la presión bajista sufrida durante el último año en un entorno macroeconómico de tipos elevados que penaliza la inversión discrecional en el sector de ocio.</li>
+<li><strong>Datos Faltantes:</strong> No se dispone de la comparativa sectorial específica automatizada en la etiqueta de valoración (<code>&quot;Comparación sectorial no disponible&quot;</code>), y la muestra de noticias y titulares propios de <code>FDR.MC</code> no cubre la empresa en los últimos siete días, limitando el flujo de información corporativa directa reciente.</li>
+</ul>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Componente Clave</th>
+<th style="text-align:left">Métrica / Dato Actual</th>
+<th style="text-align:left">Implicación para <code>FDR.MC</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Precio de Cotización</strong></td>
+<td style="text-align:left">18,70 EUR (26-11-2026)</td>
+<td style="text-align:left">Neutral, operando cerca de soportes de medias móviles de largo plazo.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Valoración P/E (Forward)</strong></td>
+<td style="text-align:left">11,95x</td>
+<td style="text-align:left">Atractiva expectativa de crecimiento de beneficios (<em>Forward EPS</em> de 1,56 EUR).</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Deuda Neta / EBITDA</strong></td>
+<td style="text-align:left">2,95x</td>
+<td style="text-align:left">Apalancamiento moderado que requiere seguimiento en entornos de tipos altos.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Dividendo</strong></td>
+<td style="text-align:left">3,53% (0,66 EUR)</td>
+<td style="text-align:left">Atractivo para inversores por renta, respaldado por un <em>payout</em> del 70,7%.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Precio Objetivo Consenso</strong></td>
+<td style="text-align:left">25,93 EUR (+38,67% potencial)</td>
+<td style="text-align:left">Potencial alcista teórico alto según analistas, condicionado a la recuperación del consumo cíclico.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Contexto Macro</strong></td>
+<td style="text-align:left">Euríbor &gt; 3,3% / Elección BCE</td>
+<td style="text-align:left">Presión en costes de financiación pero fortaleza general en las bolsas europeas.</td>
+</tr>
+</tbody>
+</table></div>
+<p>FINAL TRANSACTION PROPOSAL: REVIEW</p>
+<h3 id="s1-3">Fundamentals Analyst</h3>
+<p><strong>Rating</strong>: REVIEW</p>
+<p><strong>FINAL TRANSACTION PROPOSAL:</strong></p>
+<ul>
+<li><strong>Action</strong>: HOLD (Hypothetical)</li>
+<li><strong>Ticker</strong>: FDR.MC</li>
+<li><strong>Exchange</strong>: MCE (Madrid Stock Exchange)</li>
+<li><strong>Target Allocation</strong>: Neutral / Watchlist</li>
+</ul>
+<hr />
+<h6>Informe Fundamental de Fluidra, S.A. (<code>FDR.MC</code>)</h6>
+<h6>1. Perfil de la Compañía y Contexto de Negocio</h6>
+<ul>
+<li><strong>Nombre de la Compañía</strong>: Fluidra, S.A. (<code>FDR.MC</code>)</li>
+<li><strong>Clasificación Sectorial / Industrial</strong>: Consumo Cíclico / Ocio (<em>Consumer Cyclical / Leisure</em>)</li>
+<li><strong>Moneda de cotización y financiera</strong>: EUR (€)</li>
+<li><strong>Identidad Resuelta</strong>: Líder global en el sector del equipamiento y soluciones para piscinas y bienestar.</li>
+</ul>
+<h6>2. Datos Financieros Clave y Valoración de Mercado</h6>
+<p>A fecha de la última instantánea de mercado disponible (26 de noviembre de 2026), los datos fundamentales de <code>FDR.MC</code> son los siguientes:</p>
+<ul>
+<li><strong>Precio de Cierre</strong>: 18.70 EUR</li>
+<li><strong>Capitalización de Mercado</strong>: 3.512.263.936 EUR (~3.51.000 millones EUR)</li>
+<li><strong>PER Trailing (Trailing P/E)</strong>: 21.25x</li>
+<li><strong>PER Forward (Forward P/E)</strong>: 11.95x (basado en un EPS estimado de 1.56 EUR)</li>
+<li><strong>Precio sobre Valor en Libros (Price-to-Book)</strong>: 2.20x</li>
+<li><strong>Valor de Empresa sobre EBITDA (EV/EBITDA)</strong>: 11.96x</li>
+<li><strong>Beneficio por Acción (EPS Trailing)</strong>: 0.88 EUR</li>
+<li><strong>Crecimiento de Ingresos (<em>Revenue Growth</em>)</strong>: 15.0%</li>
+<li><strong>Rentabilidad sobre Recursos Propios (ROE)</strong>: 10.52%</li>
+<li><strong>Margen de Beneficio (<em>Profit Margins</em>)</strong>: 7.21%</li>
+<li><strong>Deuda Neta / EBITDA</strong>: 2.95x (Deuda total de ~1.289 millones EUR frente a un efectivo de ~135 millones EUR y un EBITDA de ~391 millones EUR)</li>
+<li><strong>Rentabilidad por Dividendo (<em>Dividend Yield</em>)</strong>: ~3.53% (con un dividendo anual de 0.66 EUR por acción y un <em>payout ratio</em> del 70.7%)</li>
+<li><strong>Consenso de Analistas (Precio Objetivo)</strong>:
+<ul>
+<li>Precio Objetivo Medio: 25.93 EUR</li>
+<li>Rango de Estimación: Mínimo 19.00 EUR / Máximo 31.00 EUR</li>
+<li>Número de analistas: 15</li>
+<li><em>Upside</em> potencial según consenso: +38.67%</li>
+</ul>
+</li>
+</ul>
+<h6>3. Análisis de Estados Financieros Históricos</h6>
+<p>Los estados financieros consolidados muestran la evolución reciente de la compañía (cifras en EUR):</p>
+<ul>
+<li>
+<p><strong>Cuenta de Resultados (<em>Income Statement</em>)</strong>:</p>
+<ul>
+<li><strong>Ejercicio 2025</strong>: Ingresos Totales de 2.221.085.000 EUR; EBITDA de 463.453.000 EUR; Beneficio Neto de 176.026.000 EUR.</li>
+<li><strong>Ejercicio 2024</strong>: Ingresos Totales de 2.136.402.000 EUR; EBITDA de 417.616.000 EUR; Beneficio Neto de 138.068.000 EUR.</li>
+<li><strong>Ejercicio 2023</strong>: Ingresos Totales de 2.083.496.000 EUR; EBITDA de 383.517.000 EUR; Beneficio Neto de 113.827.000 EUR.</li>
+<li><em>Análisis</em>: Se observa una tendencia sólida de recuperación y crecimiento orgánico e inorgánico progresivo tanto en la cifra de negocio como en los márgenes de beneficio neto e EBITDA entre 2023 y 2025.</li>
+</ul>
+</li>
+<li>
+<p><strong>Balance de Situación (<em>Balance Sheet</em>)</strong>:</p>
+<ul>
+<li><strong>Ejercicio 2025</strong>: Activos Totales de 3.414.404.000 EUR; Deuda Total de 1.224.108.000 EUR; Patrimonio Neto (<em>Stockholders Equity</em>) de 1.591.782.000 EUR.</li>
+<li><strong>Ejercicio 2024</strong>: Activos Totales de 3.637.307.000 EUR; Deuda Total de 1.319.930.000 EUR; Patrimonio Neto de 1.647.183.000 EUR.</li>
+<li><strong>Ejercicio 2023</strong>: Activos Totales de 3.507.439.000 EUR; Deuda Total de 1.326.479.000 EUR; Patrimonio Neto de 1.567.557.000 EUR.</li>
+<li><em>Análisis</em>: La estructura de capital se mantiene relativamente estable, experimentando una reducción gradual en el volumen de deuda total en el último año fiscal.</li>
+</ul>
+</li>
+<li>
+<p><strong>Flujo de Caja (<em>Cash Flow</em>)</strong>:</p>
+<ul>
+<li><strong>Ejercicio 2025</strong>: Flujo de Caja Operativo de 342.601.000 EUR; CAPEX de -71.099.000 EUR; Flujo de Caja Libre (FCF) de 271.502.000 EUR.</li>
+<li><strong>Ejercicio 2024</strong>: Flujo de Caja Operativo de 310.602.000 EUR; CAPEX de -73.108.000 EUR; Flujo de Caja Libre de 237.494.000 EUR.</li>
+<li><strong>Ejercicio 2023</strong>: Flujo de Caja Operativo de 428.930.000 EUR; CAPEX de -64.130.000 EUR; Flujo de Caja Libre de 364.800.000 EUR.</li>
+<li><em>Análisis</em>: Capacidad constante de generación de caja positiva, lo que respalda de forma holgada la retribución al accionista vía dividendos.</li>
+</ul>
+</li>
+</ul>
+<h6>4. Indicadores Técnicos y Momento de Mercado (<code>FDR.MC</code>)</h6>
+<ul>
+<li><strong>Precio Actual</strong>: 18.70 EUR</li>
+<li><strong>RSI (14)</strong>: 49.73 (zona neutral, sin sobrecompra ni sobreventa).</li>
+<li><strong>MACD</strong>: 0.015 (señal: 0.136), reflejando una consolidación a corto plazo.</li>
+<li><strong>Medias Móviles</strong>:
+<ul>
+<li>SMA20: 19.09 EUR</li>
+<li>SMA50: 18.29 EUR</li>
+<li>SMA200: 19.21 EUR</li>
+</ul>
+</li>
+<li><strong>Volatilidad (22.45%) y Drawdown</strong>: -26.73% desde máximos recientes, indicando que el título cotiza con un descuento considerable respecto a periodos anteriores, a pesar de la fortaleza macroeconómica general de las bolsas europeas a finales de noviembre de 2026 (impulsadas por fuertes subidas en renta variable y recortes de tipos de interés previstos).</li>
+</ul>
+<h6>5. Evidencia y Datos Faltantes</h6>
+<ul>
+<li><strong>Datos Faltantes</strong>: No se dispone de datos de transacciones de iniciados (<em>insider transactions</em>) específicos para la última semana en los registros suministrados, ni de titulares de noticias comerciales directos sobre la compañía en los últimos 7 días (la muestra de noticias macroeconómicas del 26 de noviembre de 2026 cubre el tono general de los mercados europeos, pero no catalizadores operativos propios de `FDR</li>
+</ul>
+</section><section id="s2"><h2>II. Research Team Decision</h2><h3 id="s2-1">Bull Researcher</h3>
+<p>Bull Analyst: ¡Hola a todos! Entiendo perfectamente que el analista bajista (bear) esté tentado de mirar el retroceso anual del <strong>-19,06%</strong> o de preocuparse por el entorno de tipos de interés (con el euríbor por encima del 3,3%). Sin embargo, quedarse solo en esa foto fija es ignorar por completo el enorme valor estratégico y la tremenda capacidad de generación de caja que tiene <strong>Fluidra, S.A. (<code>FDR.MC</code>)</strong>. ¡Vamos a desmontar esos argumentos con datos puros y duros!</p>
+<h6>1. Crecimiento Potencial y Escalabilidad: Un <em>Forward P/E</em> de derribo</h6>
+<p>El oso suele quejarse de los múltiplos exigentes, pero miremos los números de <code>FDR.MC</code>: cotiza a un <em>Forward P/E</em> de apenas <strong>11,95x</strong>, respaldado por un beneficio por acción estimado (<em>Forward EPS</em>) de <strong>1,56 EUR</strong> (frente a los 0,88 EUR actuales). Estamos hablando de una compañía con un crecimiento de ingresos (<em>revenue growth</em>) del <strong>15%</strong> y unos ingresos anuales que han escalado de forma impecable desde los 2.083 millones de EUR en 2023 hasta los <strong>2.221 millones de EUR en 2025</strong>, acompañados por un beneficio neto auditado en 2025 de <strong>176 millones de EUR</strong>. ¿De verdad vamos a ignorar esta escalabilidad operativa?</p>
+<h6>2. Ventajas Competitivas y Posicionamiento de Mercado</h6>
+<p>Como líder global indiscutible en soluciones para piscinas y bienestar, <code>FDR.MC</code> posee una barrera de entrada formidable gracias a su red de distribución, marca y escala. Lejos de sufrir una parálisis, la empresa genera un <strong>flujo de caja libre (<em>FCF</em>) de 271,5 millones de EUR</strong> (con un flujo de caja operativo superior a los 342 millones en 2025). Esta solidez financiera le permite financiar su crecimiento orgánico, mantener un apalancamiento moderado y remunerar al inversor de manera excelente.</p>
+<h6>3. Indicadores Positivos y Respaldo del Consenso</h6>
+<p>Miremos al mercado: mientras las bolsas europeas celebran fuertes repuntes con avances superiores al 2% en índices de referencia, el consenso de analistas (basado en <strong>15 opiniones profesionales</strong>) sitúa el precio objetivo medio en <strong>25,93 EUR</strong>, lo que representa un <strong>potencial alcista teórico (<em>consensus upside</em>) del +38,67%</strong> respecto a los 18,70 EUR actuales. Además, para los inversores de valor y largo plazo, ofrece una <strong>rentabilidad por dividendo (<em>dividend yield</em>) del 3,53%</strong> (0,66 EUR por acción), respaldada por un <em>payout</em> sostenible del 70,7%.</p>
+<p>¿Que el precio cotiza ligeramente por debajo de su media móvil de 200 sesiones (19,21 EUR)? Perfectamente comprensible tras el castigo cíclico general, pero técnicamente el RSI se sitúa en un neutral <strong>49,73</strong> y el soporte de la media de 50 sesiones en 18,29 EUR está aguantando con soltura, preparando el terreno para el rebote estructural que descuenta el mercado.</p>
+<p>En resumen: las dudas del sector bajista ya están más que descontadas en el precio. Los fundamentales, la caja libre y el potencial del +38% hacia el precio objetivo respaldan firmemente una visión optimista sobre <code>FDR.MC</code>.</p>
+<p><strong>Rating</strong>: BUY
+FINAL TRANSACTION PROPOSAL: Hypothetical long-term bullish allocation in FDR.MC with a target towards consensus fair value.</p>
+<h3 id="s2-2">Bear Researcher</h3>
+<p>Bear Analyst: ¡Hola colega! Entiendo perfectamente que intentes maquillar los números con ese optimismo propio de quien solo quiere ver la botella medio llena, pero flaco favor le haces a un inversor si ignoras la realidad que destila el gráfico y el entorno macroeconómico de <strong>Fluidra, S.A. (<code>FDR.MC</code>)</strong>. Agárrate, porque vamos a poner los pies en la tierra y a desmontar ese espejismo de que el valor está &quot;de derribo&quot;.</p>
+<h6>1. ¿Valor en oferta o trampa de valor? Cuidado con el espejismo del <em>Forward P/E</em></h6>
+<p>Te agarras con fuerza a ese <em>Forward P/E</em> de <strong>11,95x</strong> como si fuera una verdad absoluta, pero olvidas un pequeño gran detalle: los beneficios estimados a futuro son eso, estimaciones que el mercado suele castigar cuando la realidad macro golpea al consumidor. Si el beneficio por acción (<em>forward EPS</em>) de 1,56 EUR no se materializa —algo muy probable en un contexto donde el euríbor supera holgadamente el 3,3%—, ese múltiplo se disparará de golpe.</p>
+<p>¿Y sabes qué dice la realidad del mercado hoy? Que <code>FDR.MC</code> acumula un doloroso retroceso anual (<em>return252_pct</em>) del <strong>-19,06%</strong> y cotiza persistentemente <strong>por debajo de su media móvil de 200 sesiones (19,21 EUR)</strong>. No estamos ante una consolidación sana previa a un cohete espacial; estamos ante una estructura técnica bajista de fondo. Que el RSI esté en un aburrido 49,73 y el MACD esté plano solo demuestra una cosa: apatía compradora y ausencia total de impulso real.</p>
+<h6>2. El peligro real de la deuda en un entorno de tipos altos</h6>
+<p>Presumes alegremente de la generación de caja y de las ventajas competitivas, pero olvidas mirar el balance con lupa. La compañía arrastra una <strong>deuda total cercana a los 1.289 millones de EUR</strong> y un ratio de <strong>deuda neta sobre EBITDA de 2,95x</strong>. Para una empresa que pertenece al sector de Consumo Cíclico y Ocio, tener casi 3 veces su EBITDA en endeudamiento neto en plena resaca de tipos altos del Banco Central Europeo (ahora bajo la batuta de Pablo Hernández de Cos) es una losa pesada.</p>
+<p>¿De verdad te parece sostenible mantener un <em>payout ratio</em> del <strong>70,74%</strong> para pagar ese dividendo del 3,53% cuando el flujo de caja libre ha sufrido altibajos significativos (cayendo desde los 364,8 millones de EUR en 2023 hasta los 271,5 millones en 2025)? Estás comprometiendo liquidez vital para saciar a inversores de corto plazo a costa de descapitalizar la flexibilidad financiera de la empresa.</p>
+<h6>3. El mito del consenso y la trampa del &quot;+38% de potencial&quot;</h6>
+<p>Siempre recurrís al comodín de los analistas y su precio objetivo medio de <strong>25,93 EUR</strong> para justificar subidas mágicas. Pero se os olvida recordar que los precios objetivo de los analistas son proyecciones consensuadas que fallan sistemáticamente cuando el ciclo de consumo discrecional se desacelera. El inversor no compra &quot;esperanzas de analista&quot;, compra riesgos reales. Y el riesgo aquí es claro: las piscinas y el equipamiento de ocio son compras aplazables. Cuando las familias europeas sufren la presión hipotecaria con un euríbor por encima del 3,3%, cambiar el liner de la piscina o instalar un sistema de depuración pasa al final de la lista de prioridades.</p>
+<p>En conclusión: <code>FDR.MC</code> no es una ganga, es un valor cíclico atrapado en una tendencia de fondo bajista, con un apalancamiento incómodo para el actual régimen de tipos y un momentum técnico inanes. No juguemos con fuego esperando un rebote milagroso.</p>
+<p><strong>Rating</strong>: UNDERPERFORM
+FINAL TRANSACTION PROPOSAL: Hypothetical underweight stance on FDR.MC, avoiding exposure due to cyclical vulnerability, technical weakness below the 200-day moving average, and restrictive interest rate headwinds.</p>
+<h3 id="s2-3">Research Manager</h3>
+<p><strong>Recommendation</strong>: Overweight</p>
+<p><strong>Rationale</strong>: El debate entre el analista alcista y el bajista expone puntos críticos muy sólidos a ambos lados. Por un lado, el bando comprador destaca con razón una valoración atractiva basada en un Forward P/E de 11,95x, un crecimiento de ingresos constante que alcanzó los 2.221 millones de EUR en 2025, y una sólida generación de caja libre de 271,5 millones de EUR, respaldada por un consenso de analistas que proyecta un precio objetivo medio de 25,93 EUR (+38,67% de potencial). Por otro lado, el bando bajista advierte con acierto sobre las vulnerabilidades cíclicas: la tendencia técnica de fondo se mantiene débil (cotizando por debajo de la media móvil de 200 sesiones de 19,21 EUR), el ratio de deuda neta sobre EBITDA se sitúa en unas nada desdeñables 2,95x, y el entorno macroeconómico con un euríbor superior al 3,3% presiona el consumo discrecional y la demanda de ocio. No obstante, al sopesar ambas posturas, el castigo acumulado del -19,06% anual ya refleja en gran medida estas presiones macroeconómicas, dejando un margen de seguridad interesante para inversores con visión de largo plazo que pueden capturar una rentabilidad por dividendo del 3,53% con un múltiplo de beneficios muy comprimido. Por lo tanto, nos inclinamos por una postura constructiva pero prudente, inclinándonos hacia una acumulación gradual.</p>
+<p><strong>Strategic Actions</strong>: Instruir al operador para establecer una posición inicial moderada en FDR.MC utilizando una escala fraccionada (por ejemplo, el 50% de la asignación hipotética estándar para este tipo de activos de consumo cíclico), dado que la tendencia técnica bajo la media de 200 sesiones aconseja no desplegar todo el capital de golpe. Se recomienda programar entradas adicionales de manera escalonada si el precio consolida el soporte en torno a la media de 50 sesiones (18,29 EUR) o muestra señales claras de ruptura alcista sobre la media de 200 sesiones. Gestionar estrictamente el riesgo ante la sensibilidad del valor al entorno de tipos de interés altos.</p>
+</section><section id="s3"><h2>III. Trading Team Plan</h2><h3 id="s3-1">Trader</h3>
+<p><strong>Action</strong>: Buy</p>
+<p><strong>Reasoning</strong>: Fluidra (FDR.MC) cotiza a 18,70 EUR con una valoración muy atractiva reflejada en un forward P/E de 11,95x y un fuerte potencial alcista estimado por el consenso de analistas (+38,67% hasta los 25,93 EUR). A pesar de las presiones técnicas por debajo de la media móvil de 200 sesiones (19,21 EUR) y un entorno de tipos altos con el euríbor sobre el 3,3%, el castigo acumulado del -19,06% anual ya descuenta gran parte de los riesgos cíclicos, ofreciendo un excelente margen de entrada para acumulación gradual respaldado por una sólida generación de caja y una rentabilidad por dividendo del 3,53%.</p>
+<p><strong>Entry Price</strong>: 18.7</p>
+<p><strong>Stop Loss</strong>: 17.2</p>
+<p><strong>Position Sizing</strong>: 5% of portfolio</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>BUY</strong></p>
+</section><section id="s4"><h2>IV. Risk Management Team Decision</h2><h3 id="s4-1">Aggressive Analyst</h3>
+<p>Aggressive Analyst: ¡No nos equivoquemos ni caigamos en la parálisis por análisis que paraliza las mejores oportunidades del mercado! Mientras otros analistas miran con lupa los riesgos a corto plazo y dudan ante las fluctuaciones del entorno macroeconómico, los inversores audaces sabemos que los grandes retornos se cosechan exactamente aquí: comprando activos punteros cuando el pesimismo temporal de los mercados ofrece un descuento inigualable.</p>
+<p>Miremos los fríos y duros datos de Fluidra (<code>FDR.MC</code>). ¿De verdad vamos a ignorar un potencial alcista de consenso del +38,67% que apunta directo a los 25,93 EUR partiendo de una cotización actual de apenas 18,70 EUR? ¡Eso es un margen de beneficio masivo sobre la mesa! Quien se detenga solo a mirar que cotiza ligeramente por debajo de la media móvil de 200 sesiones (19,21 EUR) o que el euríbor ronda el 3,3% se está perdiendo la auténtica foto completa: el castigo anual acumulado del -19,06% ya ha purgado los excesos y ha descontado con creces las presiones cíclicas. Es el momento perfecto para acumular con visión de crecimiento antes de que el mercado reconozca su verdadero valor.</p>
+<p>Además, miren la salud financiera subyacente. No estamos hablando de una startup especulativa sin ingresos; estamos ante un líder global con una sólida generación de caja operativa superior a los 342 millones de euros y un flujo de caja libre de más de 271 millones en el último ejercicio, respaldado además por una atractiva rentabilidad por dividendo del 3,53% que recompensa nuestra paciencia mientras el valor despega. Y si hablamos de múltiplos, un <em>forward P/E</em> de 11,95x frente al PER histórico de más de 21x demuestra que el crecimiento de beneficios estimado —con un <em>forward EPS</em> de 1,56 EUR— ofrece una valoración sumamente atractiva para capturar un rally de recuperación explosivo.</p>
+<p>La cautela excesiva nos condena a la medianía y a perdernos los puntos de entrada más lucrativos. Apostar por <code>FDR.MC</code> ahora con una asignación táctica controlada del 5% y un <em>stop loss</em> disciplinado en los 17,20 EUR no es una locura temeraria, es una estrategia de alta convicción respaldada por fundamentos sólidos y un potencial de revalorización fuera de lo común. ¡Es hora de arriesgar para ganar!</p>
+<p><strong>Rating</strong>: BUY</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>BUY</strong></p>
+<h3 id="s4-2">Conservative Analyst</h3>
+<p>Conservative Analyst: Estimado colega analista agresivo, su optimismo desmedido y su urgencia por lanzarse a comprar <code>FDR.MC</code> ignoran por completo los riesgos bajistas estructurales que amenazan la estabilidad de nuestro capital. No podemos permitirnos ceder ante la tentación de un supuesto potencial alcista del +38,67% basado en meras estimaciones de consenso de analistas, las cuales no son valores intrínsecos garantizados y a menudo subestiman los vientos en contra macroeconómicos reales.</p>
+<p>Usted descarta con demasiada ligereza que la acción cotice actualmente por debajo de su media móvil de 200 sesiones situada en 19,21 EUR, prefiriendo ignorar que el título arrastra un castigo anual del -19,06% y un <em>drawdown</em> del -26,73%. En gestión de riesgos, un activo que opera por debajo de su referencia de largo plazo no está necesariamente «barato»; con frecuencia, se encuentra en una tendencia correctiva prolongada que puede prolongarse indefinidamente, exponiendo a la firma a un deterioro patrimonial innecesario. Pretender que un retroceso del -19% ya ha descontado todos los riesgos cíclicos es una peligrosa presunción cuando el entorno macroeconómico sigue tensionado por un euríbor que supera el 3,3% a finales de noviembre de 2026, encareciendo la financiación y penalizando de forma directa el consumo discrecional y la inversión en el sector de ocio al que pertenece Fluidra.</p>
+<p>Asimismo, apelar a un <em>forward P/E</em> de 11,95x y a un incremento en el beneficio por acción estimado no compensa la realidad actual de sus múltiplos históricos y su nivel de apalancamiento. Con una ratio de deuda neta sobre EBITDA de 2,95x y una deuda total que roza los 1.300 millones de euros frente a los 135 millones de caja, la compañía soporta un lastre financiero considerable que se vuelve especialmente vulnerable en un escenario de tipos de interés altos. Confiar ciegamente en que las previsiones de beneficios futuros se cumplirán sin desvíos es un acto de fe
+especulativa, no un análisis de riesgos riguroso.</p>
+<p>Por todo ello, proponer una entrada con un 5% del portafolio y un <em>stop loss</em> en 17,20 EUR expone a la cartera a un riesgo de pérdida de capital perfectamente evitable. Frente a su llamada a una arriesgada acumulación, la prudencia exige adoptar una postura defensiva: preservar los activos, exigir confirmaciones técnicas claras por encima de la media de 200 sesiones y evitar comprometer liquidez en valores cíclicos atrapados en tendencias bajistas de fondo. La seguridad de nuestro capital está por encima de cualquier promesa de revalorización especulativa.</p>
+<p>Rating: HOLD
+FINAL TRANSACTION PROPOSAL: REVIEW</p>
+<h3 id="s4-3">Neutral Analyst</h3>
+<p>Neutral Analyst: Estimados compañeros, tras escuchar atentamente vuestros argumentos, creo que ambos extremos pecan de falta de matices. Por un lado, el Analista Agresivo confía ciegamente en un potencial de consenso del +38,67% y en un <em>forward P/E</em> de 11,95x sin calibrar adecuadamente el riesgo técnico: comprar de inmediato un activo que cotiza a 18,70 EUR por debajo de su media móvil de 200 sesiones (19,21 EUR) y que arrastra un retroceso anual del -19,06% expone a la cartera a prolongadas fases de lateralidad o caídas adicionales si la macroeconomía se tuerce.</p>
+<p>Por otro lado, el Analista Conservador se refugia en un inmovilismo paralizante, exagerando el impacto del apalancamiento y descartando el valor de una sólida generación de caja libre superior a los 271 millones de euros y una atractiva rentabilidad por dividendo del 3,53%. Pretender ignorar la oportunidad que ofrece una valoración normalizada bajo la excusa de un euríbor superior al 3,3% es obviar que los mercados descuentan expectativas futuras, y los múltiplos ya recogen gran parte de ese estrés financiero.</p>
+<p>Como Analista de Riesgo Neutro, propongo un punto medio inteligente y sostenible que equilibre ambas posturas. En lugar de una ejecución ciega de compra o de una huida total hacia la liquidez, la estrategia óptima para <code>FDR.MC</code> pasa por una acumulación escalonada y prudente. Mantener el tamaño de posición propuesto del 5% es razonable, pero condicionado a una entrada fraccionada para mitigar el riesgo de temporización, apoyándonos en el estricto <em>stop loss</em> de 17,20 EUR para proteger el capital ante cualquier imprevisto técnico. Así, capturamos el indiscutible valor fundamental e industrial de la compañía sin exponernos desprotegidos a las debilidades del corto plazo.</p>
+<p><strong>Rating</strong>: HOLD
+FINAL TRANSACTION PROPOSAL: <strong>REVIEW</strong></p>
+</section><section id="s5"><h2>V. Portfolio Manager Decision</h2><h3 id="s5-1">Portfolio Manager</h3>
+<p><strong>Rating</strong>: Overweight</p>
+<p><strong>Executive Summary</strong>: Iniciamos una acumulación gradual en FDR.MC con una asignación moderada del 5% del portafolio, aprovechando el atractivo Forward P/E de 11,95x y la sólida generación de flujo de caja libre (271,5M EUR). Se establece un stop loss disciplinado en 17,20 EUR y se recomienda una entrada fraccionada para gestionar la debilidad técnica bajo la media móvil de 200 sesiones (19,21 EUR).</p>
+<p><strong>Investment Thesis</strong>: La tesis se inclina decisivamente a favor del análisis constructivo y neutral tras sopesar los argumentos presentados. Por un lado, el bando comprador y el analista neutro aciertan al señalar que un castigo anual del -19,06% y una valoración normalizada (Forward P/E de 11,95x frente a un histórico superior a 21x) ya descuentan en gran medida el estrés macroeconómico derivado de un euríbor superior al 3,3% y el ratio de deuda neta sobre EBITDA de 2,95x. Además, la robusta generación de caja libre de más de 271 millones de euros y una atractiva rentabilidad por dividendo del 3,53% proporcionan un suelo defensivo sólido, respaldando un potencial alcista de consenso del 38,67% hasta los 25,93 EUR. Por otro lado, la cautela del analista conservador está justificada en el plano técnico —el valor cotiza por debajo de la SMA200 (19,21 EUR)—, lo que invalida una entrada agresiva de golpe pero no justifica la inacción o una postura bajista, ya que el mercado ya refleja dichos riesgos. Por tanto, la estrategia óptima es un enfoque de 'Overweight' mediante una acumulación fraccionada y escalonada, protegiendo el capital con un stop loss en 17,20 EUR y esperando una confirmación de ruptura por encima de las medias móviles para completar la posición.</p>
+<p><strong>Price Target</strong>: 25.932</p>
+<p><strong>Time Horizon</strong>: 3-6 meses</p>
+</section>
+</main>
+<footer class="credit"><a href="https://github.com/TauricResearch/TradingAgents" rel="noopener">TradingAgents</a> powered by <a class="brand" href="https://github.com/TauricResearch" rel="noopener">Tauric Research</a></footer>
+</div>
+<a class="to-top" href="#top">Top</a>
+</body>
+</html>

@@ -1,36 +1,40 @@
-**Rating**: REVIEW
+### Informe de Análisis: Acerinox, S.A. (ACX.MC)
+**Fecha de corte:** 26 de noviembre de 2026
 
-**Análisis de Coyuntura Macroeconómica y de Mercado (ACX.MC - Acerinox, S.A.)**
+#### 1. Situación Técnica y de Mercado
+El título **ACX.MC** cotiza a 14,64 EUR, experimentando una recuperación técnica reciente (+2,81% en la última sesión), tras haber sufrido una caída significativa en las últimas semanas (rendimiento a 21 días: -13,06%). El activo se encuentra actualmente por debajo de sus medias móviles clave (SMA20: 15,32; SMA50: 16,34), lo que sugiere una tendencia bajista a corto y medio plazo, confirmada por un RSI de 37,99 que indica una zona cercana a la sobreventa, pero sin una señal clara de reversión alcista por MACD (-0,54).
 
-### 1. Resumen Ejecutivo y Estado Actual de la Empresa
-Acerinox, S.A. (`ACX.MC`), cotizada en el mercado español (MCE) dentro del sector de Materiales Básicos / Siderurgia, presenta un precio de cierre de **14,24 EUR** (según el último registro del 25 de noviembre de 2026). La compañía se encuentra cotizando cerca de sus mínimos recientes, con un RSI de 14 sesiones en **31,29** (aproximándose a niveles de sobreventa técnica) y una rentabilidad en los últimos 21 días del **-16,73%**. Su capitalización de mercado asciende a aproximadamente 3.550 millones de EUR.
+#### 2. Fundamentales y Valoración
+La compañía muestra un panorama mixto:
+*   **Valoración:** El PER forward de 9,42x es significativamente más atractivo que el PER trailing (27,62x), lo que implica una expectativa de mejora en los beneficios (Forward EPS proyectado de 1,55 EUR frente al actual de 0,53 EUR). 
+*   **Salud Financiera:** La empresa presenta una carga de deuda neta sobre EBITDA de 3,15x, un nivel que requiere vigilancia dado el entorno de tipos de interés altos mencionados en las noticias del sector (Euríbor > 3,3%).
+*   **Dividendos:** Ofrece una rentabilidad por dividendo del 4,35%, aunque el ratio de pago (payout ratio) del 144% sugiere una presión importante sobre la generación de caja para sostener esta política, especialmente con un flujo de caja libre negativo (-155,27 M EUR en 2025).
 
-### 2. Fundamentos Financieros y Valoración
-- **Valoración y Múltiplos**: El PER histórico (*trailing PE*) se sitúa en **26,87x**, mientras que el PER adelantado (*forward PE*) desciende hasta **9,16x**, respaldado por un beneficio por acción estimado (*forward EPS*) de **1,55 EUR** frente a los **0,53 EUR** actuales. La relación precio/valor en libros (*price-to-book*) es de **1,59x** y el ratio EV/EBITDA alcanza **10,45x**.
-- **Solidez y Apalancamiento**: La deuda neta sobre EBITDA se sitúa en **3,15x** (con una deuda total de unos 2.438 millones de EUR frente a 903 millones de EUR en efectivo). 
-- **Retribución al Accionista**: Ofrece una rentabilidad por dividendo (*dividend yield*) atractiva del **4,35%** (dividendo de 0,62 EUR), aunque con un ratio de pago (*payout ratio*) elevado del **144,19%** basado en los resultados recientes.
-- **Consenso de Analistas**: El precio objetivo medio de los analistas se sitúa en **20,08 EUR**, lo que sugiere un potencial alcista (*consensus upside*) del **40,99%** sobre el precio actual de 14,24 EUR (con un rango entre 14,10 EUR y 25,50 EUR a partir de 13 opiniones analíticas).
+#### 3. Contexto Macroeconómico
+El entorno macroeconómico europeo se caracteriza por una volatilidad alta, con los índices bursátiles europeos (Euro Stoxx 50) registrando fuertes subidas (>2%) a 26 de noviembre. Sin embargo, el sector industrial al que pertenece **ACX.MC** se ve presionado por:
+*   El coste de la financiación (Euríbor al alza).
+*   La incertidumbre sobre la política monetaria, a pesar de la reciente elección de Pablo Hernández de Cos como presidente del BCE, lo cual aporta una nueva dirección institucional.
+*   El sentimiento negativo del mercado hacia el acero, evidenciado por los reportes de pérdida de soportes técnicos y la rotación de carteras (ej. Renta 4 cambiando ArcelorMittal por Acerinox, indicando una búsqueda de valor relativo dentro del sector).
 
-### 3. Contexto Macroeconómico y Noticias Recientes (Noviembre de 2026)
-- **Panorama General**: El entorno macroeconómico europeo sigue marcado por la cautela en torno a la evolución de los tipos de interés del Banco Central Europeo (BCE) y las perspectivas de inflación, con debates abiertos sobre la persistencia de precios altos (según informes recientes de S&P Global publicados entre el 23 y 24 de noviembre de 2026).
-- **Noticias Relevantes sobre ACX.MC**:
-  - *25 de noviembre de 2026*: Análisis en *CapitalMadrid* apuntan a que Acerinox continúa atenazada por las dudas del mercado.
-  - *24 de noviembre de 2026*: Informes técnicos de *MarketScreener España* señalan que el valor ha perdido soportes importantes. No obstante, en la misma fecha, *Bolsamania* reportó que Renta 4 modificó su estrategia cambiando ArcelorMittal por Acerinox, destacando el potencial del valor.
-  - *19 de noviembre de 2026*: Se dio a conocer que Acerinox Europa sienta las bases para incursionar en la fabricación de almacenamiento industrial de hidrógeno, divers
-ificando sus horizontes tecnológicos e industriales.
+#### 4. Opinión de Analistas
+Existe un consenso de 13 analistas con un precio objetivo medio de 20,08 EUR, lo que representa un potencial de revalorización del 37,14% desde los niveles actuales. No obstante, las noticias recientes sugieren que el valor está "atenazado por las dudas" y ha perdido niveles técnicos críticos recientemente.
 
-### 4. Evidencia y Datos Faltantes
-- **Datos de Soporte**: Precios de cierre, indicadores técnicos (RSI, medias móviles SMA20, SMA50, SMA200), estados financieros correspondientes a los ejercicios 2023-2025 y titulares de prensa económica recientes.
-- **Datos Faltantes**: Ausencia de un desglose detallado de los márgenes operativos por división geográfica exacta en tiempo real, así como probabilidades cuantitativas específicas de mercados de predicción para la evolución sectorial del acero en 2027.
+#### 5. Datos Faltantes
+No se dispone de proyecciones detalladas de CAPEX para 2027, ni un desglose geográfico actualizado de las ventas en el último trimestre de 2026 que permita evaluar el impacto de posibles aranceles o cambios en la demanda de acero inoxidable por región.
 
-| Indicador / Métrica Clave | Valor Actual (`ACX.MC`) | Referencia / Observación |
-| :--- | :--- | :--- |
-| **Precio de Cierre** | 14,24 EUR | Sesión del 25/11/2026 |
-| **Capitalización Bursátil** | 3.548.020.480 EUR | Datos fundamentales |
-| **PER Adelantado (*Forward PE*)** | 9,16x | Estimación de beneficios futuros |
-| **Rentabilidad por Dividendo** | 4,35% | Dividendo de 0,62 EUR |
-| **RSI (14)** | 31,29 | Zona próxima a sobreventa |
-| **Precio Objetivo Consenso** | 20,08 EUR | Potencial de subida del 40,99% |
-| **Deuda Neta / EBITDA** | 3,15x | Apalancamiento financiero |
+---
 
-FINAL TRANSACTION PROPOSAL: REVIEW
+### Tabla Resumen: ACX.MC
+
+| Indicador / Métrica | Valor / Estado |
+| :--- | :--- |
+| **Precio Actual** | 14,64 EUR |
+| **Consenso Precio Objetivo** | 20,08 EUR (+37,14%) |
+| **Rentabilidad Dividendo** | 4,35% |
+| **PER Forward** | 9,42x |
+| **Tendencia Técnica** | Bajista (bajo SMA50/SMA20) |
+| **Riesgo (Deuda/EBITDA)** | 3,15x |
+| **Sentimiento en Prensa** | Precaución / Pérdida de soportes |
+
+**Rating**: HOLD
+FINAL TRANSACTION PROPOSAL: N/A (Analytical review only).

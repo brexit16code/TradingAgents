@@ -1,0 +1,9 @@
+**Rating**: Underweight
+
+**Executive Summary**: Se instruye reducir gradualmente la exposición o mantener una postura infraponderada (Underweight) en ACS.MC, limitando cualquier asignación a un tamaño inferior al estándar (25% a 50% de una posición normal) debido al riesgo de compresión adicional y la fuerte volatilidad técnica actual. El horizonte temporal sugerido es de mediano plazo para evaluar la estabilización de los precios por debajo de las medias móviles clave.
+
+**Investment Thesis**: Tras sopesar las posturas del debate, la tesis bajista y de cautela se impone ante la evidente debilidad técnica estructural de ACS.MC, a pesar de los sólidos fundamentales presentados por el bando agresivo. Si bien la compañía cuenta con un crecimiento de ingresos del 19,4%, un flujo de caja libre superior a 2.300 millones de euros, un apalancamiento moderado de 1,02x y un ROE del 25,01%, el analista conservador y el trader aciertan al señalar los graves riesgos macro-técnicos: la cotización a 81,05 EUR se encuentra muy por debajo de su media móvil de 200 sesiones (108,16 EUR), con un MACD en -2,46, una volatilidad del 36,70% y un drawdown del -41,42%. Asimismo, los estrechos márgenes netos del 1,99% en un entorno de tipos de interés elevados en la Eurozona y un euríbor por encima del 3,3% dejan a la empresa vulnerable a la presión vendedora institucional y a la falta de momentum. Lo que cambiaría esta tesis sería una ruptura técnica confirmada por encima de las medias móviles de corto y largo plazo con una estabilización del volumen de negociación.
+
+**Price Target**: 128.94412
+
+**Time Horizon**: 3-6 meses

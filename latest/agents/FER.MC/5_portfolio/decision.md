@@ -1,0 +1,9 @@
+**Rating**: Hold
+
+**Executive Summary**: Se recomienda mantener la posición actual en FER.MC sin realizar nuevas compras a los niveles de 53.70 EUR, ya que la excelente calidad operativa se ve compensada por múltiplos exigentes y una ligera debilidad técnica por debajo de la media móvil de 200 sesiones. Para cualquier asignación hipotética estándar, la estrategia óptima es conservar la exposición actual y esperar a una corrección más profunda o a una compresión de múltiplos.
+
+**Investment Thesis**: La tesis de mantenimiento neutral se fundamenta en la ponderación equilibrada de los argumentos expuestos en el debate. Por un lado, el analista agresivo acierta al destacar la extraordinaria calidad operativa de Ferrovial N.V., respaldada por unos ingresos sólidos de 9.627 millones de EUR en 2025, un flujo de caja operativo de 1.926 millones de EUR y una posición de caja de 3.864 millones de EUR, además de un potencial alcista del consenso hasta los 59.90 EUR (+11.54%). Por otro lado, el analista conservador y el neutral advierten con acierto sobre los riesgos financieros y técnicos: un PER forward excesivamente elevado superior a 46x (46.17x), una ratio de deuda neta sobre EBITDA de 4.39x en un entorno de tipos y Euríbor elevados, y un precio de cotización (53.70 EUR) situado ligeramente por debajo de la media móvil de 200 sesiones (54.06 EUR), acompañado de una desaceleración en el MACD. Dado que la valoración y el apalancamiento anulan el atractivo de una compra decidida, pero la sólida generación de caja libre y las concesiones estratégicas en Norteamérica descartan una salida o reducción bajista, la postura equilibrada es mantener. Lo que cambiaría esta postura sería una corrección técnica hacia soportes sólidos que reduzca los múltiplos o una aceleración inesperada del desapalancamiento.
+
+**Price Target**: 59.8975
+
+**Time Horizon**: 3-6 months

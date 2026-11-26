@@ -1,0 +1,632 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'">
+<title>BKT.MC 2026-11-26 Hold: TradingAgents report</title>
+<style>
+:root {
+  --paper: #fbfbfa; --ink: #1c2126; --muted: #5d6670; --rule: #e2e5e8; --wash: #f2f4f5;
+  --accent: #087a59; --up: #087a59; --down: #b4372f; --level: #5d6670; --edge: #d3d8dc; --mark: #878f97;
+  --serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #131a1f; --ink: #e4e8eb; --muted: #9aa6af; --rule: #263239; --wash: #1a242a;
+    --accent: #14c290; --up: #14c290; --down: #ef6f63; --level: #9aa6af; --edge: #3d4c55; --mark: #66737c;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .masthead .logo [stroke="#363636"] { stroke: var(--muted); }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font: 17px/1.62 var(--serif); font-kerning: normal;
+}
+.page { max-width: 46rem; margin: 0 auto; padding: 3.5rem 1.5rem 6rem; }
+main h2, main h3 { scroll-margin-top: 1rem; }
+a { color: var(--accent); text-underline-offset: 0.15em; }
+h1, h2, h3, h4 { text-wrap: balance; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.masthead { padding-bottom: 1.75rem; border-bottom: 1px solid var(--rule); }
+/* The logo leads at the top left, where readers look for it, 24px tall (the usual
+   on-screen floor for a wordmark) with at least its height clear below. */
+.masthead .logo { display: block; width: fit-content; margin: 0 0 2.25rem; }
+.masthead .logo svg { display: block; height: 1.5rem; width: auto; }
+.masthead h1 {
+  margin: 0; font: 600 2.6rem/1.1 var(--sans); letter-spacing: -0.02em;
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.2em 0.5em;
+}
+.masthead .rating { font-weight: 500; }
+.rating.up { color: var(--up); } .rating.down { color: var(--down); } .rating.level { color: var(--level); }
+.rating.review { color: var(--muted); font-style: italic; }
+.masthead .date { margin: 0.55rem 0 1.5rem; font: 1rem/1.4 var(--sans); color: var(--muted); }
+.run { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: 0.45rem 1.25rem;
+  font: 0.85rem/1.5 var(--sans); }
+.run > div { display: contents; }
+.run dt { color: var(--muted); }
+.run dd { margin: 0; overflow-wrap: anywhere; }
+.run .note dd { color: var(--down); }
+.field { display: inline-block; margin: 0 0.15rem 0.15rem 0; padding: 0 0.4rem; border: 1px solid var(--edge);
+  border-radius: 4px; background: var(--wash); font: 0.8rem/1.6 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+.run .group { display: inline-block; margin-right: 0.9rem; white-space: nowrap; }
+.run .group > .name { color: var(--muted); margin-right: 0.3rem; }
+.run .then { color: var(--muted); margin: 0 0.2rem; }
+
+/* The sections: listed under the header on narrow screens. On wide ones, a
+   quiet rail centred on the left edge (numerals for the sections, short bars
+   for their agents) that opens into the full list when pointed at or focused. */
+.contents { margin: 2.25rem 0 0; font: 0.9rem/1.45 var(--sans); }
+.contents ul { margin: 0; padding: 0; list-style: none; }
+.contents > ul > li { margin: 0 0 0.75rem; }
+.contents ul ul { margin-top: 0.2rem; padding-left: 1.6rem; font-size: 0.85rem; }
+.contents ul ul li { margin: 0.1rem 0; }
+.contents a { display: flex; align-items: center; gap: 0.6rem; color: var(--muted); text-decoration: none; }
+.contents > ul > li > a { color: var(--ink); }
+.contents .num { min-width: 1.6rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.contents .bar { display: none; }
+.contents a:hover .label, .contents a:focus-visible .label { color: var(--accent); text-decoration: underline; }
+.to-top { position: fixed; right: 1rem; bottom: calc(1rem + env(safe-area-inset-bottom));
+  padding: 0.25rem 0.6rem; border: 1px solid var(--edge); border-radius: 4px; background: var(--paper);
+  color: var(--muted); font: 0.8rem/1.4 var(--sans); text-decoration: none; }
+
+@media (min-width: 60rem) {
+  .contents { position: fixed; left: 1rem; top: 50%; transform: translateY(-50%); z-index: 1;
+    max-height: 86vh; overflow-y: auto; overscroll-behavior: contain; margin: 0;
+    padding: 0.7rem 0.9rem; border: 1px solid transparent; border-radius: 6px;
+    transition: background-color 0.15s, border-color 0.15s, box-shadow 0.15s; }
+  .contents > ul > li { margin: 0 0 0.35rem; }
+  .contents ul ul { margin-top: 0; padding-left: 0; }
+  .contents ul ul li { margin: 0; }
+  /* Marks reach 3:1 contrast and rows 24px, the WCAG 2.2 floors for a control's
+     visual cue and its pointer target. */
+  .contents a { min-height: 1.5rem; }
+  .contents .num { min-width: 1.4rem; }
+  .contents .bar { display: block; flex: none; width: 1.25rem; height: 2px; margin-left: 0.2rem;
+    border-radius: 1px; background: var(--mark); }
+  .contents .label { max-width: 0; opacity: 0; overflow: hidden; white-space: nowrap;
+    transition: opacity 0.15s, max-width 0.2s; }
+  .contents:hover, .contents:focus-within { background: var(--paper); border-color: var(--rule);
+    box-shadow: 0 6px 24px rgb(0 0 0 / 0.08); }
+  .contents:hover .label, .contents:focus-within .label { max-width: 18rem; opacity: 1; }
+  .contents a:hover .bar, .contents a:focus-visible .bar { background: var(--accent); }
+  .to-top { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .contents, .contents .label { transition: none; }
+}
+
+/* The maker's credit: one quiet line at the foot. */
+.credit { margin-top: 4.5rem; padding-top: 1.25rem; border-top: 1px solid var(--rule);
+  color: var(--muted); font: 0.8rem/1.4 var(--sans); }
+.credit a { color: inherit; text-decoration: none; }
+.credit a.brand { color: var(--accent); }
+.credit a:hover, .credit a:focus-visible { text-decoration: underline; }
+
+/* Three levels of separation: the five groups, the agents within a group, and
+   breaks an agent draws inside its own text. */
+main h2 {
+  margin: 4.5rem 0 0.25rem; padding-top: 1.5rem; border-top: 2px solid var(--ink);
+  font: 600 1.45rem/1.3 var(--sans); letter-spacing: -0.01em;
+}
+main section:first-child h2 { margin-top: 3rem; }
+main h3 { margin: 2.75rem 0 0.75rem; padding-top: 1.1rem; border-top: 1px solid var(--rule);
+  font: 600 1.15rem/1.35 var(--sans); color: var(--accent); }
+main h2 + h3 { margin-top: 1.25rem; padding-top: 0; border-top: 0; }
+main h4, main h5, main h6 { margin: 1.75rem 0 0.5rem; font: 600 1rem/1.4 var(--sans); }
+main h5, main h6 { color: var(--muted); }
+main p, main ul, main ol { margin: 0 0 1rem; }
+main li { margin: 0.25rem 0; }
+main strong { font-weight: 650; }
+main blockquote { margin: 1.25rem 0; padding: 0.1rem 0 0.1rem 1rem; border-left: 3px solid var(--rule);
+  color: var(--muted); }
+main code { font: 0.88em/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  background: var(--wash); padding: 0.1em 0.3em; border-radius: 3px; }
+main pre { background: var(--wash); padding: 0.9rem 1rem; border-radius: 4px; overflow-x: auto; }
+main pre code { background: none; padding: 0; }
+main hr { width: 3rem; margin: 2rem auto; border: 0; border-top: 1px solid var(--rule); }
+
+.table { overflow-x: auto; margin: 0 0 1.25rem; }
+table { border-collapse: collapse; width: 100%; font: 0.86rem/1.45 var(--sans);
+  font-variant-numeric: tabular-nums; }
+th, td { padding: 0.45rem 0.7rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--rule); }
+th { font-weight: 600; border-bottom-color: var(--muted); }
+tbody tr:last-child td { border-bottom: 0; }
+
+@media (max-width: 34rem) {
+  body { font-size: 16px; }
+  .page { padding: 2rem 1rem 3rem; }
+  .masthead h1 { font-size: 2rem; }
+  .masthead .logo svg { height: 1.25rem; }
+  .run { grid-template-columns: 1fr; gap: 0 0; }
+  .run dd { margin-bottom: 0.45rem; }
+  .run .group { white-space: normal; }
+}
+@media print {
+  :root { --paper: #fff; --ink: #000; --muted: #444; --rule: #bbb; --accent: #000; --wash: #f2f2f2;
+    --edge: #bbb; --up: #087a59; --down: #b4372f; --level: #444; }
+  body { font-size: 11pt; }
+  .table { overflow: visible; }
+  .page { max-width: none; padding: 0; }
+  .contents, .to-top { display: none; }
+  main h2 { break-before: page; border-top: 0; margin-top: 0; }
+  main section:first-child h2 { break-before: auto; }
+  main h3, main h4 { break-after: avoid; }
+  a { color: inherit; text-decoration: none; }
+  table { break-inside: avoid; }
+}
+</style>
+</head>
+<body>
+<div class="page" id="top">
+<header class="masthead">
+<a class="logo" href="https://tauric.ai" rel="noopener" aria-label="Tauric Research"><svg width="993" height="115" viewBox="0 0 993 115" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M189.86 95.0459V37.9779H165.924V29.9259H223.74V37.9779H199.804V95.0459H189.86ZM251.026 46.4259C256.071 46.4259 260.178 47.0272 263.345 48.2299C266.514 49.4032 268.89 51.3686 270.474 54.1259C272.058 56.8832 272.85 60.6379 272.85 65.3899V95.0459H264.666L263.961 89.8979H263.434C261.644 91.7752 259.386 93.2419 256.657 94.2979C253.929 95.3246 251.025 95.8379 247.946 95.8379C244.426 95.8379 241.419 95.2952 238.925 94.2099C236.432 93.0952 234.54 91.5406 233.249 89.5459C231.959 87.5512 231.313 85.2046 231.313 82.5059C231.313 78.2526 232.897 74.9672 236.065 72.6499C239.263 70.3032 244.337 68.8219 251.29 68.2059L263.258 67.0179V64.7299C263.258 61.9139 262.774 59.7139 261.806 58.1299C260.838 56.5459 259.371 55.4312 257.406 54.7859C255.47 54.1406 252.888 53.8179 249.662 53.8179C247.432 53.8179 245.012 54.0086 242.401 54.3899C239.82 54.7712 237.341 55.3432 234.965 56.1059V48.8019C237.312 48.0392 239.908 47.4526 242.754 47.0419C245.628 46.6312 248.386 46.4259 251.026 46.4259ZM250.541 89.0619C252.888 89.0619 255.162 88.6512 257.362 87.8299C259.562 86.9792 261.527 85.7179 263.258 84.0459V72.8259L252.038 73.9259C248.136 74.3659 245.35 75.2166 243.678 76.4779C242.005 77.7099 241.169 79.4699 241.169 81.7579C241.169 84.0752 241.947 85.8792 243.501 87.1699C245.056 88.4312 247.403 89.0619 250.541 89.0619ZM313.339 95.8379C307.59 95.8379 303.087 94.2979 299.831 91.2179C296.575 88.1086 294.947 83.2686 294.947 76.6979V47.1739H304.715V76.1699C304.715 80.1886 305.624 83.0779 307.443 84.8379C309.291 86.5979 311.916 87.4779 315.319 87.4779C317.871 87.4779 320.379 86.9939 322.843 86.0259C325.336 85.0286 327.492 83.5766 329.311 81.6699V47.1739H339.079V95.0459H330.983L330.367 89.9419H329.883C327.624 91.8486 325.072 93.3152 322.227 94.3419C319.382 95.3392 316.419 95.8379 313.339 95.8379ZM362.371 47.1739H370.423L371.171 53.2899H371.743C373.474 51.2072 375.703 49.5792 378.431 48.4059C381.188 47.2326 384.063 46.6459 387.055 46.6459C388.756 46.6459 390.355 46.7926 391.851 47.0859V55.8419C390.414 55.5779 388.654 55.4459 386.571 55.4459C383.99 55.4459 381.364 55.9446 378.695 56.9419C376.026 57.9392 373.84 59.4206 372.139 61.3859V95.0459H362.371V47.1739ZM409.069 95.0459V47.1739H418.837V95.0459H409.069ZM413.953 37.8459C411.871 37.8459 410.287 37.3912 409.201 36.4819C408.145 35.5726 407.617 34.2672 407.617 32.5659C407.617 30.8352 408.145 29.5152 409.201 28.6059C410.287 27.6672 411.871 27.1979 413.953 27.1979C416.036 27.1979 417.605 27.6672 418.661 28.6059C419.747 29.5152 420.289 30.8352 420.289 32.5659C420.289 34.2672 419.747 35.5726 418.661 36.4819C417.605 37.3912 416.036 37.8459 413.953 37.8459ZM464.85 95.9259C456.607 95.9259 450.315 93.8432 445.974 89.6779C441.662 85.5126 439.506 79.3526 439.506 71.1979C439.506 63.0139 441.779 56.8392 446.326 52.6739C450.902 48.5086 457.575 46.4259 466.346 46.4259C470.716 46.4259 474.735 46.9246 478.402 47.9219V55.7099C476.378 55.2406 474.486 54.8886 472.726 54.6539C470.966 54.4192 469.118 54.3019 467.182 54.3019C461.168 54.3019 456.71 55.6512 453.806 58.3499C450.931 61.0486 449.494 65.2872 449.494 71.0659C449.494 76.8739 450.858 81.1566 453.586 83.9139C456.343 86.6712 460.42 88.0499 465.818 88.0499C467.695 88.0499 469.616 87.8886 471.582 87.5659C473.547 87.2139 475.82 86.6712 478.402 85.9379V93.7259C474.236 95.1926 469.719 95.9259 464.85 95.9259ZM574.428 95.0459L553.704 69.0859C553.176 69.1152 552.37 69.1299 551.284 69.1299C548.38 69.1299 544.978 68.9832 541.076 68.6899V95.0459H531.308V31.4659C537.967 29.9699 544.846 29.2219 551.944 29.2219C561.595 29.2219 568.752 30.8059 573.416 33.9739C578.08 37.1126 580.412 42.1286 580.412 49.0219C580.412 54.0086 579.004 58.0859 576.188 61.2539C573.402 64.4219 569.266 66.6366 563.78 67.8979L585.648 95.0459H574.428ZM541.076 61.2099C543.071 61.4152 544.816 61.5619 546.312 61.6499C547.838 61.7379 549.627 61.7819 551.68 61.7819C558.427 61.7819 563.34 60.7699 566.42 58.7459C569.5 56.6926 571.04 53.4952 571.04 49.1539C571.04 46.0739 570.395 43.6099 569.104 41.7619C567.843 39.9139 565.863 38.5792 563.164 37.7579C560.495 36.9366 556.975 36.5259 552.604 36.5259C550.404 36.5259 548.424 36.6139 546.664 36.7899C544.904 36.9659 543.042 37.2299 541.076 37.5819V61.2099ZM642.947 74.0139H608.231C608.407 77.4752 609.155 80.2766 610.475 82.4179C611.795 84.5299 613.775 86.0846 616.415 87.0819C619.055 88.0792 622.443 88.5779 626.579 88.5779C630.686 88.5779 635.233 87.9472 640.219 86.6859V93.9459C635.027 95.2659 630.026 95.9259 625.215 95.9259C616.298 95.9259 609.61 93.9166 605.151 89.8979C600.722 85.8499 598.507 79.6166 598.507 71.1979C598.507 65.9179 599.402 61.4299 601.191 57.7339C602.981 54.0379 605.562 51.2366 608.935 49.3299C612.338 47.3939 616.43 46.4259 621.211 46.4259C628.251 46.4259 633.634 48.5819 637.359 52.8939C641.085 57.1766 642.947 63.3659 642.947 71.4619V74.0139ZM621.079 52.8939C616.973 52.8939 613.834 54.1406 611.663 56.6339C609.493 59.0979 608.334 62.9259 608.187 68.1179H633.751C633.634 62.9259 632.519 59.0979 630.407 56.6339C628.295 54.1406 625.186 52.8939 621.079 52.8939ZM677.365 95.9259C671.352 95.9259 665.896 95.2219 660.997 93.8139V86.7299C666.248 88.1966 671.718 88.9299 677.409 88.9299C681.809 88.9299 684.977 88.3432 686.913 87.1699C688.849 85.9672 689.817 84.2219 689.817 81.9339C689.817 80.7019 689.597 79.6899 689.157 78.8979C688.717 78.0766 687.969 77.4019 686.913 76.8739C685.857 76.3166 684.405 75.8912 682.557 75.5979L674.065 74.2779C669.137 73.4859 665.573 71.9899 663.373 69.7899C661.202 67.5899 660.117 64.6419 660.117 60.9459C660.117 56.4579 661.965 52.9232 665.661 50.3419C669.386 47.7312 675.062 46.4259 682.689 46.4259C685.094 46.4259 687.485 46.5872 689.861 46.9099C692.266 47.2032 694.481 47.6432 696.505 48.2299V55.2699C692.046 54.0379 687.456 53.4219 682.733 53.4219C677.893 53.4219 674.476 54.0526 672.481 55.3139C670.486 56.5752 669.489 58.3206 669.489 60.5499C669.489 62.2219 670.002 63.5859 671.029 64.6419C672.056 65.6686 673.889 66.4166 676.529 66.8859L685.021 68.2059C689.92 68.9686 693.513 70.3766 695.801 72.4299C698.089 74.4832 699.233 77.4606 699.233 81.3619C699.233 84.3832 698.412 86.9792 696.769 89.1499C695.156 91.3206 692.706 92.9926 689.421 94.1659C686.165 95.3392 682.146 95.9259 677.365 95.9259ZM760.579 74.0139H725.863C726.039 77.4752 726.787 80.2766 728.107 82.4179C729.427 84.5299 731.407 86.0846 734.047 87.0819C736.687 88.0792 740.075 88.5779 744.211 88.5779C748.317 88.5779 752.864 87.9472 757.851 86.6859V93.9459C752.659 95.2659 747.657 95.9259 742.847 95.9259C733.929 95.9259 727.241 93.9166 722.783 89.8979C718.353 85.8499 716.139 79.6166 716.139 71.1979C716.139 65.9179 717.033 61.4299 718.823 57.7339C720.612 54.0379 723.193 51.2366 726.567 49.3299C729.969 47.3939 734.061 46.4259 738.843 46.4259C745.883 46.4259 751.265 48.5819 754.991 52.8939C758.716 57.1766 760.579 63.3659 760.579 71.4619V74.0139ZM738.711 52.8939C734.604 52.8939 731.465 54.1406 729.295 56.6339C727.124 59.0979 725.965 62.9259 725.819 68.1179H751.383C751.265 62.9259 750.151 59.0979 748.039 56.6339C745.927 54.1406 742.817 52.8939 738.711 52.8939ZM796.986 46.4259C802.032 46.4259 806.138 47.0272 809.306 48.2299C812.474 49.4032 814.85 51.3686 816.434 54.1259C818.018 56.8832 818.81 60.6379 818.81 65.3899V95.0459H810.626L809.922 89.8979H809.394C807.605 91.7752 805.346 93.2419 802.618 94.2979C799.89 95.3246 796.986 95.8379 793.906 95.8379C790.386 95.8379 787.38 95.2952 784.886 94.2099C782.393 93.0952 780.501 91.5406 779.21 89.5459C777.92 87.5512 777.274 85.2046 777.274 82.5059C777.274 78.2526 778.858 74.9672 782.026 72.6499C785.224 70.3032 790.298 68.8219 797.25 68.2059L809.218 67.0179V64.7299C809.218 61.9139 808.734 59.7139 807.766 58.1299C806.798 56.5459 805.332 55.4312 803.366 54.7859C801.43 54.1406 798.849 53.8179 795.622 53.8179C793.393 53.8179 790.973 54.0086 788.362 54.3899C785.781 54.7712 783.302 55.3432 780.926 56.1059V48.8019C783.273 48.0392 785.869 47.4526 788.714 47.0419C791.589 46.6312 794.346 46.4259 796.986 46.4259ZM796.502 89.0619C798.849 89.0619 801.122 88.6512 803.322 87.8299C805.522 86.9792 807.488 85.7179 809.218 84.0459V72.8259L797.998 73.9259C794.097 74.3659 791.31 75.2166 789.638 76.4779C787.966 77.7099 787.13 79.4699 787.13 81.7579C787.13 84.0752 787.908 85.8792 789.462 87.1699C791.017 88.4312 793.364 89.0619 796.502 89.0619ZM841.524 47.1739H849.576L850.324 53.2899H850.896C852.627 51.2072 854.856 49.5792 857.584 48.4059C860.341 47.2326 863.216 46.6459 866.208 46.6459C867.909 46.6459 869.508 46.7926 871.004 47.0859V55.8419C869.567 55.5779 867.807 55.4459 865.724 55.4459C863.143 55.4459 860.517 55.9446 857.848 56.9419C855.179 57.9392 852.993 59.4206 851.292 61.3859V95.0459H841.524V47.1739ZM909.164 95.9259C900.921 95.9259 894.629 93.8432 890.288 89.6779C885.976 85.5126 883.82 79.3526 883.82 71.1979C883.82 63.0139 886.093 56.8392 890.64 52.6739C895.216 48.5086 901.889 46.4259 910.66 46.4259C915.03 46.4259 919.049 46.9246 922.716 47.9219V55.7099C920.692 55.2406 918.8 54.8886 917.04 54.6539C915.28 54.4192 913.432 54.3019 911.496 54.3019C905.482 54.3019 901.024 55.6512 898.12 58.3499C895.245 61.0486 893.808 65.2872 893.808 71.0659C893.808 76.8739 895.172 81.1566 897.9 83.9139C900.657 86.6712 904.734 88.0499 910.132 88.0499C912.009 88.0499 913.93 87.8886 915.896 87.5659C917.861 87.2139 920.134 86.6712 922.716 85.9379V93.7259C918.55 95.1926 914.033 95.9259 909.164 95.9259ZM941.796 23.9419H951.564V52.2779H952.048C954.248 50.3712 956.756 48.9192 959.572 47.9219C962.417 46.9246 965.395 46.4259 968.504 46.4259C974.019 46.4259 978.375 47.9952 981.572 51.1339C984.769 54.2432 986.368 59.0686 986.368 65.6099V95.0459H976.6V66.0939C976.6 62.0459 975.661 59.1566 973.784 57.4259C971.936 55.6952 969.237 54.8299 965.688 54.8299C963.048 54.8299 960.481 55.3286 957.988 56.3259C955.524 57.2939 953.383 58.7312 951.564 60.6379V95.0459H941.796V23.9419Z" fill="#14C290"/>
+<rect x="0.205322" y="14.873" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="14.679" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="14.679" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="86.6055" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="86.6055" y="44.0371" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="101.284" y="29.1787" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="58.7158" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="58.7158" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="87.1592" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="87.1592" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="73.0205" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="73.0205" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="29.3579" y="87.3262" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="71.9265" y="87.3262" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="43.1211" y="101.631" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="57.2478" y="101.631" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="101.284" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+<rect x="15.0187" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="44.3771" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="59.0558" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="73.3605" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="87.6662" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="0.34" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.2668" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="101.624" y="101.971" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="43.4611" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="57.5876" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="15.0187" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="29.6979" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.2668" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.9455" y="0.34" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="72.445" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="86.7506" y="15.213" width="10.0489" height="10.0489" rx="5.02447" stroke="#363636" stroke-width="0.68"/>
+<rect x="100.716" y="14.873" width="10.7289" height="10.7289" rx="5.36447" fill="#14C290"/>
+</svg></a>
+<h1><span class="ticker">BKT.MC</span> <span class="rating level">Hold</span></h1>
+<p class="date">Analysis of 2026-11-26</p>
+<dl class="run"><div class="detail"><dt>Generated</dt><dd>2026-11-26 21:18</dd></div><div class="detail"><dt>Deep model</dt><dd><span class="field">google</span> <span class="field">gemini-3.5-flash-lite</span></dd></div><div class="detail"><dt>Quick model</dt><dd><span class="field">google</span> <span class="field">gemini-3.5-flash-lite</span></dd></div><div class="detail"><dt>Analysts</dt><dd><span class="field">market</span> <span class="field">news</span> <span class="field">fundamentals</span></dd></div><div class="detail"><dt>Debate rounds</dt><dd><span class="group"><span class="name">research</span><span class="field">1</span></span> <span class="group"><span class="name">risk</span><span class="field">1</span></span></dd></div><div class="detail"><dt>Data vendors</dt><dd><span class="group"><span class="name">Prices</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Indicators</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Fundamentals</span><span class="field">yfinance</span></span> <span class="group"><span class="name">News</span><span class="field">yfinance</span></span> <span class="group"><span class="name">Macro</span><span class="field">fred</span></span> <span class="group"><span class="name">Prediction markets</span><span class="field">polymarket</span></span> <span class="group"><span class="name">get_news</span><span class="field">ibex_sample</span></span> <span class="group"><span class="name">get_global_news</span><span class="field">ibex_sample</span></span></dd></div><div class="detail"><dt>Version</dt><dd>TradingAgents 0.7.1</dd></div></dl>
+</header>
+<nav class="contents" aria-label="Sections"><ul><li><a href="#s1"><span class="num">I</span> <span class="label">Analyst Team Reports</span></a><ul><li><a href="#s1-1"><span class="bar"></span> <span class="label">Market Analyst</span></a></li><li><a href="#s1-2"><span class="bar"></span> <span class="label">News Analyst</span></a></li><li><a href="#s1-3"><span class="bar"></span> <span class="label">Fundamentals Analyst</span></a></li></ul></li><li><a href="#s2"><span class="num">II</span> <span class="label">Research Team Decision</span></a><ul><li><a href="#s2-1"><span class="bar"></span> <span class="label">Bull Researcher</span></a></li><li><a href="#s2-2"><span class="bar"></span> <span class="label">Bear Researcher</span></a></li><li><a href="#s2-3"><span class="bar"></span> <span class="label">Research Manager</span></a></li></ul></li><li><a href="#s3"><span class="num">III</span> <span class="label">Trading Team Plan</span></a><ul><li><a href="#s3-1"><span class="bar"></span> <span class="label">Trader</span></a></li></ul></li><li><a href="#s4"><span class="num">IV</span> <span class="label">Risk Management Team Decision</span></a><ul><li><a href="#s4-1"><span class="bar"></span> <span class="label">Aggressive Analyst</span></a></li><li><a href="#s4-2"><span class="bar"></span> <span class="label">Conservative Analyst</span></a></li><li><a href="#s4-3"><span class="bar"></span> <span class="label">Neutral Analyst</span></a></li></ul></li><li><a href="#s5"><span class="num">V</span> <span class="label">Portfolio Manager Decision</span></a><ul><li><a href="#s5-1"><span class="bar"></span> <span class="label">Portfolio Manager</span></a></li></ul></li></ul></nav>
+<main>
+<section id="s1"><h2>I. Analyst Team Reports</h2><h3 id="s1-1">Market Analyst</h3>
+<p><strong>Análisis Fundamental y Técnico de Bankinter (<code>BKT.MC</code>)</strong></p>
+<p><strong>1. Resumen de Identidad y Contexto Macroeconómico</strong></p>
+<ul>
+<li><strong>Empresa y Ticker:</strong> Bankinter, S.A. (<code>BKT.MC</code>), cotizada en la Bolsa de Madrid (MCE) en Euros (EUR), sector de Servicios Financieros / Banca Regional.</li>
+<li><strong>Fecha de Análisis:</strong> 26 de noviembre de 2026.</li>
+<li><strong>Contexto de Mercado:</strong> Las bolsas europeas han cerrado con fuertes subidas impulsadas por la banca y la tecnología (con avances superiores al 2% en índices como el Euro Stoxx 50 y el DAX el 26 de noviembre de 2026, según titulares de prensa de Negocios.com y El Boletín). El euríbor se sitúa por encima del 3,3% a finales de noviembre de 2026, lo que incide en los márgenes de intermediación y en el contexto de tipos de interés altos de la Eurozona. Además, destaca recientemente el nombramiento de Pablo Hernández de Cos como presidente del BCE (anunciado el 26 de noviembre de 2026).</li>
+<li><strong>Noticias Relevantes sobre <code>BKT.MC</code>:</strong> Bankinter ha reportado resultados recientes con un beneficio neto de 901 millones de euros (mención en Rankia del 26 de noviembre de 2026), sufriendo una caída bursátil del 4% en la sesión coincidiendo con la publicación. Asimismo, la entidad tiene programado el pago de un dividendo bruto de 0,34 euros por acción para el próximo 2 de diciembre de 2026 (Radio Intereconomía, 25 de noviembre de 2026), ofreciendo una rentabilidad por dividendo estimada en torno al 4,5% - 4,6%.</li>
+</ul>
+<p><strong>2. Análisis Técnico (Datos a 26/11/2026)</strong></p>
+<ul>
+<li><strong>Precio de Cierre:</strong> 13,71 EUR.</li>
+<li><strong>Cambio Diario:</strong> +2,58% (sesión del 26/11/2026).</li>
+<li><strong>Medias Móviles:</strong>
+<ul>
+<li>SMA 20: 14,26 EUR (precio actual por debajo, indicando presión bajista a corto plazo).</li>
+<li>SMA 50: 14,98 EUR.</li>
+<li>SMA 200: 14,80 EUR.</li>
+</ul>
+</li>
+<li><strong>Indicadores de Momentum y Osciladores:</strong>
+<ul>
+<li>RSI (14): 38,46 (en zona neutral-baja, aproximándose a niveles de sobreventa sin llegar a estar extrema).</li>
+<li>MACD: -0,34 y Línea de Señal MACD: -0,28 (histograma y MACD en terreno negativo, reflejando debilidad de tendencia a medio plazo).</li>
+</ul>
+</li>
+<li><strong>Volatilidad y Drawdown:</strong>
+<ul>
+<li>Volatilidad (27,96%).</li>
+<li>Drawdown máximo respecto a periodos recientes: -19,14%.</li>
+<li>Rentabilidades pasadas: -4,16% a 21 sesiones y -17,73% a 63 sesiones, aunque mantiene un retorno positivo a 252 sesiones del +2,56%.</li>
+</ul>
+</li>
+</ul>
+<p><strong>3. Análisis Fundamental y Valoración</strong></p>
+<ul>
+<li><strong>Capitalización de Mercado:</strong> ~12.321 millones de EUR.</li>
+<li><strong>Valoraciones y Múltiplos:</strong>
+<ul>
+<li>Trailing P/E: 10,80x | Forward P/E: 9,44x.</li>
+<li>Price to Book (P/B): 1,84x (con un valor contable por acción de 7,455 EUR).</li>
+<li>Rentabilidad por Dividendo (<em>Dividend Yield</em>): 4,62% (dividendo de 0,62 EUR, payout ratio de ~48,6%).</li>
+<li>Rentabilidad sobre el Capital (<em>Return on Equity</em> - ROE): 17,64%.</li>
+<li>Márgenes: Margen de beneficio neto (<em>Profit Margins</em>) del 41,13%.</li>
+</ul>
+</li>
+<li><strong>Consenso de Analistas:</strong> El precio objetivo medio (<em>targetMeanPrice</em>) se sitúa en 16,71 EUR (con un rango entre 10,30 EUR y 22,50 EUR basado en 22 opiniones de analistas), lo que arroja un potencial de revalorización (<em>consensus_upside_pct</em>) del 21,85%.</li>
+<li><strong>Valuación Sectorial (P/E Relativo):</strong> Frente a la mediana de competidores (<em>peers</em> como <code>SAB.MC</code>, <code>SAN.MC</code>, <code>BBVA.MC</code>, <code>CABK.MC</code>, <code>UNI.MC</code>) con un forward P/E de 9,91x, el ratio de Bankinter es de 0,95x, situándose en línea o ligeramente descontado respecto a la mediana del sector bancario español.</li>
+</ul>
+<p><strong>4. Evidencia Contradictoria y Datos Faltantes</strong></p>
+<ul>
+<li><em>Evidencia de apoyo:</em> Sólidos ratios de rentabilidad (ROE superior al 17%), atractivo dividendo inmediato (0,34€ el 2 de diciembre) y un potencial de upside analítico superior al 21%.</li>
+<li><em>Evidencia contraria:</em> El precio de cotización (13,71 EUR) se encuentra por debajo de sus medias móviles clave (SMA 20, 50 y 200), y los indicadores MACD muestran un sesgo bajista tras la reciente reacción del mercado a los resultados de 901 millones.</li>
+<li><em>Datos faltantes:</em> Flujos de caja operativos y libres reportados en la instantánea presentan valores negativos o incompletos para los ejercicios recientes estándar de banca, lo que es común en entidades financieras debido a la naturaleza de su balance, requiriendo un análisis basado en márgenes de intereses, ROE y solvencia en lugar de flujos de caja industriales.</li>
+</ul>
+<p><strong>Rating</strong>: HOLD</p>
+<p>FINAL TRANSACTION PROPOSAL: Mantener posiciones actuales en <code>BKT.MC</code> a la espera de una estabilización técnica por encima de las medias móviles de medio plazo (SMA 50 en 14,98 EUR), aprovechando el atractivo retorno por dividendo (cupón próximo el 2 de diciembre) y el colchón fundamental que proporciona su ROE del 17,6% y un descuento frente al precio objetivo de consenso (16,71 EUR).</p>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Key Metric / Indicator</th>
+<th style="text-align:left">Value / Status</th>
+<th style="text-align:left">Implication</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Ticker / Exchange</strong></td>
+<td style="text-align:left"><code>BKT.MC</code> (MCE)</td>
+<td style="text-align:left">Banca Regional en España (EUR).</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Precio Actual</strong></td>
+<td style="text-align:left">13,71 EUR (26/11/2026)</td>
+<td style="text-align:left">Cotiza por debajo de SMA20 (14,26) y SMA50 (14,98).</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>RSI (14)</strong></td>
+<td style="text-align:left">38,46</td>
+<td style="text-align:left">Zona neutral-baja, sin sobreventa extrema.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>MACD / Signal</strong></td>
+<td style="text-align:left">-0,34 / -0,28</td>
+<td style="text-align:left">Momento bajista a corto/medio plazo.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Trailing P/E / Forward P/E</strong></td>
+<td style="text-align:left">10,80x / 9,44x</td>
+<td style="text-align:left">Valoración razonable frente al sector.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>ROE</strong></td>
+<td style="text-align:left">17,64%</td>
+<td style="text-align:left">Alta eficiencia y rentabilidad sobre fondos propios.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Dividend Yield</strong></td>
+<td style="text-align:left">4,62% (Payout 48,6%)</td>
+<td style="text-align:left">Atractivo para el inversor por rentas (pago 0,34€ el 02/12/2026).</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Target Mean Price</strong></td>
+<td style="text-align:left">16,71 EUR (+21,85% upside)</td>
+<td style="text-align:left">Consenso positivo de analistas (22 opiniones).</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="s1-2">News Analyst</h3>
+<p><strong>Rating</strong>: REVIEW</p>
+<h6>Informe de Análisis y Estado de Situación de Bankinter (<code>BKT.MC</code>)</h6>
+<h6>1. Contexto Macroeconómico y de Mercado</h6>
+<p>El mercado europeo de renta variable ha experimentado fuertes subidas impulsadas por el sector bancario y tecnológico (según noticias del 26 de noviembre de 2026). En el ámbito de los tipos de interés, el euríbor supera el 3,3%, lo que incide directamente en la revalorización de carteras hipotecarias y en los márgenes de intermediación de las entidades financieras de la Eurozona. Asimismo, destaca el nombramiento de Pablo Hernández de Cos como presidente del BCE, un hito de relevancia para la política monetaria europea.</p>
+<h6>2. Análisis Fundamental y Financiero de <code>BKT.MC</code></h6>
+<ul>
+<li><strong>Identidad y Negocio</strong>: Bankinter, S.A. (<code>BKT.MC</code>) cotiza en la Bolsa de Madrid dentro del sector financiero (Bancos Regionales).</li>
+<li><strong>Valor de Cotización y Datos Clave (al 26/11/2026)</strong>:
+<ul>
+<li>Precio de cierre: <strong>13,11 EUR</strong> (con un cambio diario positivo del 2,58% en la última sesión registrada).</li>
+<li>Capitalización bursátil: <strong>12.321 millones de EUR</strong>.</li>
+<li>PER histórico (Trailing P/E): <strong>10,79x</strong>; PER estimado (Forward P/E): <strong>9,43x</strong>.</li>
+<li>Precio/Valor en Libros (Price to Book): <strong>1,84x</strong> (con un valor en libros por acción de 7,455 EUR).</li>
+<li>Rentabilidad por dividendo (Dividend Yield): <strong>4,62%</strong> (dividendo bruto de 0,62 EUR, con un próximo pago de 0,34 EUR anunciado para el 2 de diciembre de 2026).</li>
+<li>Rentabilidad sobre el Patrimonio (ROE): <strong>17,64%</strong>.</li>
+<li>Margen de beneficios (Profit Margins): <strong>41,13%</strong>.</li>
+</ul>
+</li>
+<li><strong>Resultados Financieros (Cierres de ejercicio)</strong>:
+<ul>
+<li>Ingresos Totales (2025): <strong>3.128,4 millones de EUR</strong> (frente a 3.082,3 millones en 2024 y 2.913,7 millones en 2023).</li>
+<li>Beneficio Neto (2025): <strong>1.089,9 millones de EUR</strong> (frente a 953,0 millones en 2024 y 844,8 millones en 2023).</li>
+<li>Activos Totales (2025): <strong>131.018,8 millones de EUR</strong>.</li>
+<li>Patrimonio Neto (Stockholders Equity): <strong>6.411,4 millones de EUR</strong>.</li>
+</ul>
+</li>
+</ul>
+<h6>3. Análisis Técnico y de Sentimiento de Noticias</h6>
+<ul>
+<li><strong>Indicadores Técnicos</strong>:
+<ul>
+<li>RSI (14): <strong>38,45</strong> (próximo a zona de sobreventa, reflejando debilidad a corto plazo).</li>
+<li>MACD: <strong>-0,335</strong> (por debajo de su línea de señal -0,279), indicando presión bajista reciente.</li>
+<li>Medias Móviles: El precio de cotización (13,71 EUR) se encuentra por debajo de su SMA de 20 sesiones (14,25 EUR), SMA de 50 sesiones (14,97 EUR) y SMA de 200 sesiones (14,79 EUR).</li>
+<li>Drawdown: <strong>-19,14%</strong> desde máximos recientes.</li>
+</ul>
+</li>
+<li><strong>Noticias Recientes</strong>:
+<ul>
+<li>Rankia (26/11/2026): Bankinter reporta beneficios sólidos (aprox. 901 millones en el acumulado reciente o lecturas de resultados), pero sus acciones han reaccionado con correcciones bajistas cercanas al 4%, abriendo debate sobre oportunidades de entrada para el inversor orientadas al dividendo (rentabilidad superior al 4,4%-4,6%).</li>
+<li>Radio Intereconomía (25/11/2026): Anuncio del pago de dividendo a cuenta de 0,34 euros brutos por acción previsto para el 2 de diciembre de 2026.</li>
+</ul>
+</li>
+</ul>
+<h6>4. Valoración y Datos Faltantes</h6>
+<ul>
+<li><strong>Método de Valoración</strong>: Comparativa por PER adelantado (Forward P/E de 9,43x frente a la mediana de peers del sector de 9,91x, arrojando una ratio relativa de 0,95x). El consenso de analistas sitúa el precio objetivo medio en <strong>16,70 EUR</strong> (con un rango entre 10,30 EUR y 22,50 EUR, y 22 opiniones de analistas), lo que ofrece un potencial de upside estimado de <strong>21,85%</strong>.</li>
+<li><strong>Datos Faltantes</strong>: No se dispone de estimaciones detalladas de flujos de caja libre futuros normalizados para una valoración por descuento de flujos de caja (DCF) completa fuera de los datos de estados financieros y ratios estandarizados.</li>
+</ul>
+<p>FINAL TRANSACTION PROPOSAL: REVIEW</p>
+<hr />
+<h6>Resumen Estructurado (Tabla de Datos Clave)</h6>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Métrica / Concepto</th>
+<th style="text-align:left">Valor Actual (<code>BKT.MC</code>)</th>
+<th style="text-align:left">Observaciones / Fuente</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Precio de Cierre</strong></td>
+<td style="text-align:left">13,71 EUR</td>
+<td style="text-align:left">Sesión del 26-11-2026</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Capitalización Bursátil</strong></td>
+<td style="text-align:left">12.321 M EUR</td>
+<td style="text-align:left">Fundamentos de mercado</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Forward P/E</strong></td>
+<td style="text-align:left">9,43x</td>
+<td style="text-align:left">Frente a mediana de peers (9,91x)</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Precio / Valor en Libros</strong></td>
+<td style="text-align:left">1,84x</td>
+<td style="text-align:left">Valor contable por acción: 7,455 EUR</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Rentabilidad por Dividendo</strong></td>
+<td style="text-align:left">~4,62%</td>
+<td style="text-align:left">Próximo pago: 0,34 EUR brutos (02/12/2026)</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Beneficio Neto (2025)</strong></td>
+<td style="text-align:left">1.089,9 M EUR</td>
+<td style="text-align:left">Incremento constante frente a 2024 y 2023</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>RSI (14)</strong></td>
+<td style="text-align:left">38,45</td>
+<td style="text-align:left">Tono débil a corto plazo</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Consenso Precio Objetivo</strong></td>
+<td style="text-align:left">16,70 EUR</td>
+<td style="text-align:left">Upside implícito del ~21,85% (22 opiniones)</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="s1-3">Fundamentals Analyst</h3>
+<p><strong>Rating</strong>: REVIEW</p>
+<p><strong>FINAL TRANSACTION PROPOSAL:</strong> HOLD</p>
+<h4>Informe Fundamental de Bankinter, S.A. (<code>BKT.MC</code>)</h4>
+<h5>1. Perfil de la Empresa y Contexto de Mercado</h5>
+<ul>
+<li><strong>Nombre de la Compañía:</strong> Bankinter, S.A. (<code>BKT.MC</code>)</li>
+<li><strong>Socio / Sector:</strong> Servicios Financieros / Bancos Regionales (Bolsa de Madrid, MCE)</li>
+<li><strong>Moneda de cotización:</strong> EUR</li>
+<li><strong>Precio actual de cotización:</strong> 13,81 EUR (según cierre de sesión a 26 de noviembre de 2026, con un precio registrado en ficha de 13,71 EUR y un cambio diario del +2,58% en línea con las fuertes subidas del sector bancario europeo).</li>
+</ul>
+<h5>2. Análisis Financiero y Evolución Histórica (<code>BKT.MC</code>)</h5>
+<p>Tomando como base los estados financieros consolidados proporcionados correspondientes a los ejercicios cerrados:</p>
+<ul>
+<li>
+<p><strong>Evolución de Ingresos Totales (Total Revenue):</strong></p>
+<ul>
+<li>Ejercicio 2023: 2.913.716.000 EUR</li>
+<li>Ejercicio 2024: 3.082.391.000 EUR</li>
+<li>Ejercicio 2025: 3.128.426.000 EUR</li>
+<li><em>Observación:</em> Se aprecia una tendencia de crecimiento constante y gradual en los ingresos totales de la entidad.</li>
+</ul>
+</li>
+<li>
+<p><strong>Evolución del Beneficio Neto (Net Income):</strong></p>
+<ul>
+<li>Ejercicio 2023: 844.787.000 EUR</li>
+<li>Ejercicio 2024: 952.971.000 EUR</li>
+<li>Ejercicio 2025: 1.089.976.000 EUR</li>
+<li><em>Observación:</em> El beneficio neto muestra una robusta trayectoria ascendente, superando los mil millones de euros en el año fiscal 2025.</li>
+</ul>
+</li>
+<li>
+<p><strong>Balance General:</strong></p>
+<ul>
+<li><strong>Activos Totales:</strong> 113.011.642.000 EUR (2023) -&gt; 121.971.823.000 EUR (2024) -&gt; 131.018.892.000 EUR (2025).</li>
+<li><strong>Patrimonio Neto (Stockholders Equity):</strong> 5.322.940.000 EUR (2023) -&gt; 5.877.665.000 EUR (2024) -&gt; 6.411.484.000 EUR (2025).</li>
+<li><strong>Deuda Total:</strong> 9.466.693.000 EUR (2023) -&gt; 9.706.475.000 EUR (2024) -&gt; 11.940.846.000 EUR (2025). <em>(Nota metodológica: No se aplican reglas de deuda industrial/EBITDA a instituciones bancarias).</em></li>
+</ul>
+</li>
+<li>
+<p><strong>Flujos de Caja (Cash Flow):</strong></p>
+<ul>
+<li><strong>Flujo de Caja Operativo:</strong> 658.419.000 EUR (2023), 1.941.443.000 EUR (2024), y -598.882.000 EUR (2025).</li>
+<li><strong>Flujo de Caja Libre (FCF):</strong> 568.037.000 EUR (2023), 1.790.342.000 EUR (2024), y -766.619.000 EUR (2025).</li>
+</ul>
+</li>
+</ul>
+<h5>3. Valoración, Ratios y Consenso de Analistas</h5>
+<ul>
+<li><strong>Capitalización de Mercado:</strong> ~12.321.125.376 EUR</li>
+<li><strong>PER (Trailing):</strong> 10,79x</li>
+<li><strong>PER (Forward):</strong> 9,44x (frente a la mediana de peers de 9,91x, situándose en un ratio de valoración relativa de 0,95).</li>
+<li><strong>Precio / Valor en Libros (Price to Book):</strong> 1,84x (con un valor en libros por acción de 7,45 EUR).</li>
+<li><strong>Rentabilidad por Dividendo (Dividend Yield):</strong> ~4,52% - 4,62%, respaldado por un dividendo próximo a 0,62 EUR por acción. Como hito reciente, la entidad abonará un dividendo bruto de 0,34 euros por acción el próximo 2 de diciembre de 2026 (Fuente: Radio Intereconomía, 25-11-2026).</li>
+<li><strong>Rentabilidad sobre Recursos Propios (ROE):</strong> 17,64%</li>
+<li><strong>Márgenes de Beneficio (Profit Margins):</strong> 41,13%</li>
+<li><strong>Consenso de Analistas (Target Price):</strong> El precio objetivo medio fijado por el consenso es de 16,70 EUR (con un rango entre 10,30 EUR de mínimo y 22,50 EUR de máximo, basado en 22 opiniones), lo que arroja un potencial alcista (consensus upside) estimado del 21,85%.</li>
+</ul>
+<h5>4. Análisis Técnico y Contexto de Noticias Recientes</h5>
+<ul>
+<li><strong>Indicadores Técnicos:</strong> El RSI de 14 sesiones se sitúa en 38,46 (zona próxima a sobreventa moderada). El MACD se encuentra en -0,34 con señal en -0,28. La cotización se encuentra por debajo de sus medias móviles de corto y medio plazo (SMA20: 14,26 EUR; SMA50: 14,98 EUR; SMA200: 14,80 EUR), registrando un <em>drawdown</em> del -19,14% desde máximos recientes.</li>
+<li><strong>Noticias Relevantes de la Semana (Noviembre 2026):</strong>
+<ul>
+<li>Los mercados europeos han mostrado fuertes repuntes impulsados por el sector bancario (referencias del 26 de noviembre de 2026).</li>
+<li>En el plano corporativo, la presentación de resultados y la reacción de los inversores han generado cierta volatilidad a corto plazo, con descensos puntuales recientes en sesión (p.ej., publicaciones de Rankia del 26 de noviembre indicando correcciones a pesar de un beneficio neto de 901 millones en el período analizado).</li>
+<li>El entorno macroeconómico europeo sigue condicionado por los tipos de interés y la evolución del euríbor (superando el 3,3% a finales de noviembre de 2026), lo que influye directamente en el margen de intereses de la banca regional española.</li>
+</ul>
+</li>
+</ul>
+<h5>5. Datos Faltantes y Limitaciones</h5>
+<ul>
+<li>No se dispone de desglose pormenorizado de transacciones de <em>insiders</em> en la instantánea actual de datos.</li>
+<li>Los flujos de caja operativos y libres anuales muestran fluctuaciones negativas en el cierre fiscal de 2025 que los analistas deben contrastar con los estados regulatorios detallados (COREP/FINREP).</li>
+</ul>
+<hr />
+<h5>Resumen Estructurado (Tabla de Puntos Clave)</h5>
+<div class="table"><table>
+<thead>
+<tr>
+<th style="text-align:left">Concepto Clave</th>
+<th style="text-align:left">Valor / Métrica</th>
+<th style="text-align:left">Comentarios / Contexto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Ticker y Mercado</strong></td>
+<td style="text-align:left"><code>BKT.MC</code> (MCE)</td>
+<td style="text-align:left">Bankinter, S.A., cotizada en Euros.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Precio de Cierre</strong></td>
+<td style="text-align:left">13,71 EUR</td>
+<td style="text-align:left">Referencia de sesión a 26/11/2026.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>PER Operativo (Forward)</strong></td>
+<td style="text-align:left">9,44x</td>
+<td style="text-align:left">Ligeramente por debajo de la mediana del sector (9</td>
+</tr>
+</tbody>
+</table></div>
+</section><section id="s2"><h2>II. Research Team Decision</h2><h3 id="s2-1">Bull Researcher</h3>
+<p>Bull Analyst: ¡Hola a todos! Comprendo perfectamente que el oso esté intentando asustar al mercado con las recientes correcciones bursátiles y el ruido macroeconómico, pero mirar a <strong><code>BKT.MC</code></strong> con recesión en la cabeza es perderse una de las historias de eficiencia y rentabilidad más sólidas de la banca regional europea. ¡Vamos a desmantelar esos argumentos bajistas con datos duros y una visión de auténtico crecimiento!</p>
+<h6>1. Crecimiento Potencial y Escalabilidad: Resultados que Hablan por Sí Solos</h6>
+<p>Mientras los agoreros se centran en la volatilidad de corto plazo, el negocio de <strong><code>BKT.MC</code></strong> sigue demostrando una capacidad de expansión fuera de toda duda. Estamos ante una entidad que ha visto crecer sus <strong>ingresos totales de forma ininterrumpida</strong> (pasando de 2.913 millones de euros en 2023 a 3.128 millones en 2025) y, lo que es más importante, con un <strong>beneficio neto que ya supera los 1.089 millones de euros</strong> (2025).</p>
+<p>¿Qué nos dice esto? Que la escalabilidad del modelo de negocio de Bankinter, apoyado en su diversificación y su foco digital y de banca privada, funciona a pleno rendimiento incluso en un entorno de tipos altos donde el euríbor se mantiene firme por encima del 3,3%.</p>
+<h6>2. Ventajas Competitivas: Eficiencia de Clase Mundial</h6>
+<p>¿Por qué el oso grita debilidad cuando ve el PER? Analicemos los fundamentales: un <strong>ROE del 17,64%</strong> y unos <strong>márgenes de beneficio neto del 41,13%</strong> no están al alcance de cualquiera. Esto no es casualidad; responde a una ventaja competitiva diferencial en la gestión de costes y la calidad de su cartera crediticia. Mientras que la mediana de los competidores (<em>peers</em>) del sector se mueve en un Forward P/E de 9,91x, <strong><code>BKT.MC</code></strong> cotiza con un atractivo <strong>Forward P/E de 9,44x</strong>, lo que demuestra que el mercado está ofreciendo un descuento injustificado para un banco que es una auténtica máquina de generar rentabilidad sobre el capital propio.</p>
+<h6>3. Indicadores Positivos y Remuneración al Accionista</h6>
+<p>¿Hablamos de catalizadores inmediatos? ¡El inversor no tiene que esperar sentado! <strong><code>BKT.MC</code></strong> ofrece una generosa <strong>rentabilidad por dividendo de entorno al 4,5% - 4,6%</strong>, respaldada por un <em>payout</em> sostenible del 48,6%. Y para muestra un botón muy reciente: la entidad tiene programado el pago de un jugoso dividendo bruto de <strong>0,34 euros por acción para el próximo 2 de diciembre de 2026</strong> (Radio Intereconomía).</p>
+<p>Además, las valoraciones del consenso de analistas (basadas en 22 opiniones) sitúan el <strong>precio objetivo medio en 16,70 EUR</strong>, lo que dibuja un <strong>potencial alcista (<em>consensus upside</em>) superior al 21,8%</strong> desde los actuales 13,71 EUR.</p>
+<h6>4. Respondiendo al Oso: ¿Por qué la Tesis Bajista Hace Aguas?</h6>
+<p>El oso nos dirá que el precio cotiza por debajo de sus medias móviles clave (SMA 20 en 14,26 EUR y SMA 50 en 14,98 EUR), y que el MACD (-0,34) refleja debilidad tras la última caída del 4% provocada por la digestión de resultados.</p>
+<p><strong>Mi contraargumento es claro:</strong> ¡Las correcciones técnicas tras la presentación de cuentas son el pan de cada día y la gasolina perfecta para el inversor inteligente de largo plazo! El RSI en 38,45 nos muestra un valor que se está acercando peligrosamente a niveles de sobreventa inmerecidos, purgando excesos y abriendo una ventana de entrada óptima antes de que el mercado vuelva a poner la mirada en los fundamentales de la compañía. Interpretar una recogida de beneficios puntual como un cambio estructural de tendencia es ignorar que los activos de Bankinter han crecido hasta los 131.000 millones de euros y que su solvencia es blindada.</p>
+<p>No nos equivoquemos: los fundamentales mandan, el dividendo está a la vuelta de la esquina y el potencial hasta el precio objetivo de los analistas deja un margen de seguridad envidiable.</p>
+<p><strong>Rating</strong>: HOLD
+FINAL TRANSACTION PROPOSAL: Mantener posiciones en <code>BKT.MC</code> aprovechando la sólida rentabilidad por dividendo inmediata (pago el 2 de diciembre) y el colchón de un ROE del 17,6%, esperando la consolidación técnica para retomar impulsos alcistas hacia el objetivo de consenso de 16,70 EUR.</p>
+<h3 id="s2-2">Bear Researcher</h3>
+<p>Bear Analyst: ¡Vaya discurso optimista nos acaba de soltar el colega alcista! Suena muy bonito sobre el papel, hablando de &quot;máquinas de generar rentabilidad&quot; y desestimando las caídas bursátiles como meras nimiedades pasajeras. Pero agárrate bien, porque en los mercados reales, ignorar las señales técnicas, las vulnerabilidades macroeconómicas y los flujos de caja reales es el camino más rápido hacia un desastre financiero. Vamos a desmontar punto por punto este castillo de naipes sobre <strong><code>BKT.MC</code></strong>.</p>
+<h6>1. ¿Crecimiento estelar o espejismo contable? Cuidado con los flujos de caja</h6>
+<p>El toro saca pecho con los ingresos y el beneficio neto de 2025, sugiriendo que la expansión es imparable. Sin embargo, omite convenientemente una de las alertas rojas más alarmantes de los estados financieros recientes de <strong><code>BKT.MC</code></strong>: <strong>el flujo de caja operativo y el flujo de caja libre (FCF) se desplomaron a terreno profundamente negativo en el ejercicio 2025</strong>, registrando un FCF de -766,6 millones de euros (frente a los positivos 1.790 millones de 2024).</p>
+<p>Aunque en la banca el análisis tradicional difiere del industrial, un deterioro tan drástico en la caja exige máxima cautela. Celebrar un beneficio neto nominal de más de 1.000 millones mientras la generación real de efectivo sufre semejante colapso no es visión de largo plazo; es puro triunfalismo cegado por titulares.</p>
+<h6>2. ¿Descuento de valoración o trampa de valor? La realidad técnica manda</h6>
+<p>Se nos llena la boca hablando de un Forward P/E de 9,44x y de un ROE del 17,64% como si fueran un chollo imperdible frente a la mediana de los <em>peers</em> (9,91x). Pero seamos honestos: el mercado no regala nada. Si <strong><code>BKT.MC</code></strong> cotiza con descuento, es porque <strong>el precio de 13,71 EUR está atrapado bajo todas sus medias móviles clave</strong> (la SMA 20 está en 14,26 EUR, la SMA 50 en 14,98 EUR y la SMA 200 en 14,80 EUR).</p>
+<p>El colega alcista descarta el desplome del 4% tras la última presentación de resultados como una &quot;recogida de beneficios puntual&quot;. ¡Falso! Una caída de esa magnitud coincidiendo con la publicación de cuentas, unida a un MACD profundamente bajista (-0,34) y un RSI de 38,45 que no deja de languidecer, refleja una <strong>pérdida evidente de confianza institucional</strong>. No estamos ante una zona de &quot;sobreventa inmerecida&quot;, sino ante una tendencia bajista de medio plazo (-17,73% a 63 sesiones) que amenaza con perforar soportes más profundos. Comprar en este contexto es intentar coger un cuchillo cayendo.</p>
+<h6>3. El espejismo del dividendo y la trampa del euríbor alto</h6>
+<p>¿Y qué decir del dividendo del 4,5% y el jugoso pago de 0,34 euros previsto para el próximo 2 de diciembre de 2026? Es el clásico cebo para atrapar al inversor minorista mientras la acción sigue perdiendo fuelle en el parqué. Un dividendo excelente no sirve de nada si la pérdida patrimonial de capital en el valor supera con creces la rentabilidad de la retribución.</p>
+<p>Además, el toro aplaude un euríbor por encima del 3,3% como si fuera el maná eterno. Olvida que un entorno de tipos altos prolongado en la Eurozona —con un Banco Central Europeo bajo la presidencia recién estrenada de Pablo Hernández de Cos monitorizando de cerca la estabilidad— asfixiará inevitablemente la morosidad y encarecerá el coste de financiación mayorista de los bancos regionales. La fiesta del margen de intereses de intermediación tiene fecha de caducidad, y la calidad de la cartera crediticia empezará a resentirse.</p>
+<h6>Conclusión: ¿Por qué mantener la calma o arriesgarse?</h6>
+<p>Vender humo con un precio objetivo de consenso de 16,70 EUR (cuando el valor viene arrastrando un <em>drawdown</em> del -19,14%) es ignorar la realidad del mercado. Bankinter es un buen banco, sí, pero <strong><code>BKT.MC</code></strong> se encuentra en un punto crítico de vulnerabilidad técnica, con flujos de caja en negativo y un sector bancario europeo expuesto a vientos macroeconómicos en contra.</p>
+<p>No es momento de dejarse cegar por dividendos inmediatos ni por promesas de analistas que siempre van a remolque de la realidad. Hay demasiados riesgos sobre la mesa como para ignorar el daño chartista que sufre el valor.</p>
+<p><strong>Rating</strong>: REVIEW
+FINAL TRANSACTION PROPOSAL: REVIEW</p>
+<h3 id="s2-3">Research Manager</h3>
+<p><strong>Recommendation</strong>: Hold</p>
+<p><strong>Rationale</strong>: El analista alcista defiende a BKT.MC basándose en la solidez de sus fundamentales, destacando un crecimiento ininterrumpido en ingresos, un beneficio neto superior a los 1.089 millones de euros en 2025, un ROE excelente del 17,64% y un Forward P/E atractivo de 9,44x frente a la mediana de sus comparables. Además, señala el atractivo de una rentabilidad por dividendo cercana al 4,5% y un próximo pago de 0,34 euros por acción el 2 de diciembre de 2026, respaldado por un consenso de analistas que sitúa el precio objetivo medio en 16,70 EUR (un potencial alcista superior al 21%). Por su parte, el analista bajista advierte sobre el desplome del flujo de caja operativo y libre a terreno negativo en 2025 (-766,6 millones de euros), la debilidad técnica con el precio cotizando por debajo de sus medias móviles clave (SMA 20, 50 y 200), un MACD profundamente bajista (-0,34) y una tendencia bajista de medio plazo con un drawdown del -19,14%, sumado al riesgo macroeconómico de unos tipos de interés elevados y el impacto potencial en la morosidad. Al sopesar ambos argumentos, los sólidos fundamentales y la atractiva remuneración al accionista contrarrestan las alertas sobre el flujo de caja y la presión técnica actual de corto plazo. Por lo tanto, el caso se equilibra, respaldando una postura neutral de mantenimiento (Hold) a la espera de una mayor consolidación técnica.</p>
+<p><strong>Strategic Actions</strong>: Mantener la actual posición hipotética en BKT.MC sin realizar adiciones netas, con una ponderación neutral o estándar dentro de la asignación sectorial en banca regional. Instruir al operador para que supervise de cerca el soporte técnico actual y el comportamiento del valor tras el pago del dividendo del 2 de diciembre de 2026 (0,34 EUR por acción), evitando incrementar exposición hasta que las medias móviles clave muestren señales claras de reversión alcista o se confirme la estabilización de los flujos de caja.</p>
+</section><section id="s3"><h2>III. Trading Team Plan</h2><h3 id="s3-1">Trader</h3>
+<p><strong>Action</strong>: Hold</p>
+<p><strong>Reasoning</strong>: Bankinter presenta sólidos fundamentales con un ROE de 17,64% y un atractivo dividendo del 4,62%, pero cotiza por debajo de sus medias móviles clave con indicadores técnicos bajistas que aconsejan prudencia. La recomendación neutral de mantener permite capturar el próximo dividendo y evaluar una estabilización del precio antes de tomar mayor riesgo.</p>
+<p><strong>Entry Price</strong>: not provided</p>
+<p><strong>Stop Loss</strong>: not provided</p>
+<p><strong>Position Sizing</strong>: Posición estándar neutral</p>
+<p>FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+</section><section id="s4"><h2>IV. Risk Management Team Decision</h2><h3 id="s4-1">Aggressive Analyst</h3>
+<p>Aggressive Analyst: Señores, analistas conservador y neutral, con todo el respeto, su excesiva cautela les está haciendo perder una ventana de oportunidad excepcional en <code>BKT.MC</code>. Mientras ustedes se paralizan mirando las medias móviles y se asustan por una ligera corrección tras unos resultados brillantes, están ignorando por completo los fundamentales de hierro que respaldan este valor. ¿Cómo pueden ignorar un ROE del 17,64% y un margen de beneficio neto superior al 41%? Bankinter es una máquina de generar rentabilidad, y quedarse fuera o dudar simplemente porque el precio cotiza temporalmente por debajo de la SMA de 50 o 200 sesiones es un error de perspectiva de corto plazo.</p>
+<p>El analista neutral nos invita a mantener solo para &quot;cobrar el dividendo y ver qué pasa&quot;. ¡Eso es una visión mezquina del mercado! No estamos hablando de un simple refugio temporal para capturar un jugoso 4,62% de rentabilidad por dividendo o el próximo cupón de 0,34 euros que se paga este mismo 2 de diciembre de 2026; estamos hablando de una entidad cuyo Forward P/E de 9,44x cotiza con descuento frente a la mediana de sus competidores del sector. El consenso de los analistas es claro y contundente: un precio objetivo medio de 16,70 euros, lo que representa un potencial de revalorización o <em>upside</em> superior al 21,8%. ¡Un 21,8% de potencial alcista respaldado por 22 opiniones de analistas! ¿Y ustedes se quieren quedar esperando a que el precio cruce una media móvil para actuar? Para cuando se decidan, el rebote ya habrá volado, impulsado además por un sector bancario europeo que no para de mostrar fortaleza, con los principales índices marcando subidas superiores al 2% y un entorno de tipos de interés altos con el euríbor por encima del 3,3% que sostiene los márgenes de intermediación de la banca regional.</p>
+<p>Por su parte, el enfoque excesivamente conservador de esperar a que desaparezca toda volatilidad carece de ambición estratégica. El RSI en 38,46 nos muestra un nivel neutral-bajo, rozando la zona de sobreventa, lo cual no es una señal de huida, ¡es una señal inequívoca de suelo técnico y de una oportunidad de acumulación agresiva! El <em>drawdown</em> del 19% desde máximos recientes no es más que una sobreventa injustificada tras una recogida de beneficios puntual en la jornada de presentación de resultados, donde la compañía demostró un beneficio neto histórico de más de mil millones de euros en el último ejercicio completo y unos ingresos que no dejan de crecer año tras año.</p>
+<p>No podemos dejarnos intimidar por osciladores bajistas temporales como el MACD cuando los vientos de cola macroeconómicos y la propia salud financiera de la entidad gritan lo contrario. Adoptar una postura meramente defensiva o neutral es regalar alfa. Debemos asumir una posición firme y ofensiva en <code>BKT.MC</code>, aprovechando la inminente inyección de liquidez del dividendo y el tremendo descuento respecto a su valor intrínseco de consenso para maximizar el crecimiento de la cartera.</p>
+<p><strong>Rating</strong>: HOLD
+FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+<h3 id="s4-2">Conservative Analyst</h3>
+<p>Conservative Analyst: Estimado analista agresivo, su entusiasmo por los sólidos fundamentales de <code>BKT.MC</code> es comprensible, pero desestimar la realidad técnica y los riesgos de mercado actuales es una imprudencia que pone en riesgo el capital de la firma. Hablar de una &quot;oportunidad excepcional&quot; mientras el valor cotiza claramente por debajo de sus medias móviles clave —la SMA de 20 sesiones en 14,26 EUR, la SMA de 50 en 14,98 EUR y la SMA de 200 en 14,80 EUR— frente a un precio actual de 13,71 EUR, no es visión de largo plazo; es ignorar señales evidentes de debilidad estructural.</p>
+<p>Usted descarta los indicadores bajistas como el MACD (-0,34) y un RSI de 38,46 sugiriendo que estamos ante un suelo técnico inminente, pero ignora que un <em>drawdown</em> del 19,14% refleja una presión vendedora sostenida que no ha encontrado un suelo confirmado. Defender una acumulación agresiva en estas circunstancias equivale a intentar atrapar un cuchillo cayendo. Confiar ciegamente en un potencial alcista del 21,85% basado en el precio objetivo de consenso de los analistas (16,70 EUR) olvida que los objetivos de consenso son estimaciones y no garantías intrínsecas, y que el mercado puede prolongar sus correcciones mucho más de lo que nuestra tolerancia al riesgo permite.</p>
+<p>Además, aunque el dividendo del 4,62% y el próximo pago de 0,34 euros brutos por acción previsto para el 2 de diciembre de 2026 son atractivos, un dividendo nunca compensa una pérdida de capital mayor si la tendencia bajista del valor persiste. El entorno macroeconómico, con un euríbor superando el 3,3% y los vaivenes regulatorios y de tipos en la Eurozona, añade una volatilidad del 27,96% que no debemos subestimar. La sostenibilidad de nuestro patrimonio exige prudencia, disciplina y protección frente a caídas innecesarias. Mantenernos cautelosos, asegurar rentas y exigir una estabilización técnica real antes de asumir mayor exposición es la única vía responsable para preservar la seguridad de los activos de la firma.</p>
+<p><strong>Rating</strong>: HOLD
+FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+<h3 id="s4-3">Neutral Analyst</h3>
+<p>Neutral Analyst: Señores analistas, tras escuchar atentamente sus posturas, creo que ambos caen en extremos que comprometen una gestión de riesgos sensata para <code>BKT.MC</code>.</p>
+<p>Por un lado, querido analista agresivo, peca de una urgencia injustificada al tildar nuestra prudencia de &quot;visión mezquina&quot;. Descartar la debilidad técnica argumentando que los fundamentales lo tapan todo es un error de cálculo peligroso. Decir que el RSI de 38,46 y un drawdown del 19,14% son una &quot;invitación a comprar&quot; sin esperar una confirmación de suelo es ignorar que el precio está muy por debajo de la SMA de 50 y 200 sesiones. El mercado está cotizando una presión vendedora real tras la presentación de resultados, y lanzarse a comprar de manera agresiva sin gestionar el timing técnico es asumir un riesgo de bajista innecesario, por muy excelente que sea el ROE del 17,64%.</p>
+<p>Por otro lado, estimado analista conservador, su defensa a ultranza de la inacción raya en la parálisis por análisis. Pretende ignorar el atractivo fundamental de la entidad —como un Forward P/E de 9,44x, un margen neto superior al 41% y el jugoso dividendo del 4,62% con próximo cupón el 2 de diciembre— escudándose exclusivamente en que el valor cotiza bajo sus medias móviles. Afirmar que &quot;el dividendo nunca compensa una pérdida de capital&quot; es una verdad a medias si ignoramos que los flujos de caja y los beneficios netos de más de mil millones de euros demuestran una solvencia envidiable. Esperar a que desaparezca toda la volatilidad en un sector bancario europeo impulsado por vientos macroeconómicos favorables, con un euríbor por encima del 3,3%, significa que cuando finalmente quiera entrar, el tren del rebote ya habrá pasado hace semanas.</p>
+<p>La verdadera gestión de riesgos neutral no consiste en quedarse paralizados viendo cómo pasa el tiempo ni en lanzarse a ciegas a pescar en fondo revuelto. La postura moderada y sostenible consiste en mantener la posición actual para capturar la rentabilidad por dividendo y permitir que el balance actúe como colchón, mientras se exige disciplina técnica antes de expandir la exposición. No compramos más para no promediar a la baja en plena corrección, pero tampoco vendemos ni regalamos nuestra posición, porque los fundamentales del negocio son sólidos y el descuento frente al precio objetivo de consenso de 16,70 EUR ofrece un margen de seguridad razonable. Así equilibramos la ambición de crecimiento con la protección estricta del capital frente a la volatilidad.</p>
+<p><strong>Rating</strong>: HOLD
+FINAL TRANSACTION PROPOSAL: <strong>HOLD</strong></p>
+</section><section id="s5"><h2>V. Portfolio Manager Decision</h2><h3 id="s5-1">Portfolio Manager</h3>
+<p><strong>Rating</strong>: Hold</p>
+<p><strong>Executive Summary</strong>: Mantener la actual posición hipotética en BKT.MC sin realizar adiciones netas, equilibrando los sólidos fundamentales (ROE del 17,64% y un dividendo del 4,62%) con la debilidad técnica actual (cotización por debajo de las medias móviles y MACD bajista). El horizonte temporal recomendado es de 3-6 meses, supervisando de cerca el comportamiento del valor tras el pago del dividendo del 2 de diciembre de 2026.</p>
+<p><strong>Investment Thesis</strong>: La tesis de inversión se decanta por una postura neutral (Hold) tras sopesar los argumentos expuestos en el debate. Por un lado, el analista agresivo destaca con acierto los excelentes fundamentales de Bankinter, S.A.: un beneficio neto superior a los 1.089 millones de euros, un ROE del 17,64%, un Forward P/E atractivo de 9,44x frente a sus pares, una rentabilidad por dividendo del 4,62% (con próximo pago de 0,34 EUR el 2 de diciembre de 2026) y un potencial de revalorización de consenso superior al 21% hacia los 16,70 EUR. Por otro lado, los analistas conservador y neutral advierten legítimamente sobre los riesgos técnicos de corto plazo, señalando que el precio se sitúa por debajo de las medias móviles clave (SMA 20 en 14,26 EUR, SMA 50 en 14,98 EUR y SMA 200 en 14,80 EUR), acompañado de un MACD negativo (-0,34) y un drawdown del 19,14%, además de un flujo de caja operativo y libre que descendió a terreno negativo en 2025. Dado que la contundencia de los fundamentales y la atractiva remuneración al accionista contrarrestan las alertas sobre el flujo de caja y la presión técnica actual, pero sin una confirmación clara de suelo o reversión en las medias móviles, la evidencia permanece equilibrada. La tesis se invalidaría al alza si el precio supera con convicción las medias móviles principales, o a la baja si la presión vendedora perfora soportes críticos y deteriora la calidad crediticia.</p>
+<p><strong>Price Target</strong>: 16.705</p>
+<p><strong>Time Horizon</strong>: 3-6 meses</p>
+</section>
+</main>
+<footer class="credit"><a href="https://github.com/TauricResearch/TradingAgents" rel="noopener">TradingAgents</a> powered by <a class="brand" href="https://github.com/TauricResearch" rel="noopener">Tauric Research</a></footer>
+</div>
+<a class="to-top" href="#top">Top</a>
+</body>
+</html>

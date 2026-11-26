@@ -1,0 +1,11 @@
+
+Neutral Analyst: Ambos compañeros han presentado argumentos muy firmes, pero caen en extremos que no reflejan una gestión de riesgos sensata para `MRL.MC`. 
+
+Por un lado, el analista agresivo peca de un optimismo desmedido. Ignora que un descuento del 18,6% sobre el valor contable (con un *book value* de 13,94 EUR frente a los 11,35 EUR actuales) no es un regalo garantizado, sino el reflejo de un castigo estructural justificado por el entorno macroeconómico. Pretender entrar con todo basándose únicamente en un potencial alcista de consenso del 48,51% y un rebote diario aislado, mientras se ignora que el valor cotiza muy por debajo de su media móvil de 200 sesiones (13,58 EUR) y arrastra un *drawdown* del -26,64%, es una invitación a asumir una volatilidad del 27% sin la debida protección técnica.
+
+Por otro lado, el analista conservador se refugia en una parálisis excesiva. Si bien acierta al señalar que un euríbor superior al 3,3% encarece la deuda total de 5.386 millones de euros y presiona el *forward PE* hasta las 20,10x, desestima por completo la solidez operativa que la compañía ha demostrado. Con un flujo de caja libre superior a los 405 millones de euros y una rentabilidad por dividendo que ronda el 3,5%, la empresa genera suficientes recursos para soportar el ciclo de tipos. Descartar cualquier acción bajo la excusa de esperar una perfección técnica absoluta condena al inversor a perderse el punto de inflexión del valor.
+
+La verdadera vía moderada y sostenible para `MRL.MC` no es comprar de forma impulsiva ni tampoco quedarse cruzados de brazos de manera indefinida. Dado que la cartera hipotética puede gestionar su asignación de forma gradual —por ejemplo, considerando ese 5% de exposición máxima sugerido inicialmente—, la estrategia óptima consiste en adoptar una postura de acumulación fraccionada o de retención vigilante. Esto permite capturar el atractivo descuento patrimonial y el dividendo sin exponer todo el capital a la volatilidad de corto plazo, esperando a que el precio supere de manera consistente la zona de sus medias de medio plazo para completar la posición de forma segura.
+
+Rating: HOLD
+FINAL TRANSACTIONPROPOSAL: **HOLD**

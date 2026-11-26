@@ -1,0 +1,10 @@
+
+Conservative Analyst: Comprendo perfectamente el entusiasmo del analista agresivo al destacar la potente generación de flujo de caja libre y el atractivo rebote del 11,45% a 21 días que muestra **FER.MC**, pero apelar al optimismo generalizado de las bolsas europeas y a las excelentes perspectivas estratégicas de sus autopistas en Norteamérica no elimina los riesgos financieros tangibles que asumimos al mantener una exposición sin margen de seguridad. 
+
+Defendemos una postura de cautela absoluta porque ignorar el peso de una valoración tan exigente es exponer el patrimonio a correcciones severas. Es cierto que la compañía cuenta con un flujo de caja operativo sólido de 1.926 millones de euros y una caja de 3.864 millones, pero pretender justificar un PER forward superior a 46x y una ratio de deuda neta sobre EBITDA de 4.39x apelando únicamente a una prima de calidad es un ejercicio de exceso de confianza. En un entorno macroeconómico donde el euríbor supera el 3,3% y los costes de financiación se mantienen elevados, un apalancamiento de casi 4,4 veces el EBITDA deja a la compañía con un margen de maniobra muy ajustado frente a cualquier contratiempo operativo o económico imprevisto.
+
+Además, el analista minimiza la importancia técnica de que el precio actual de 53,70 EUR cotice ligeramente por debajo de la media móvil de 200 sesiones situada en 54,06 EUR, y que la línea de señal del MACD (1,85) se encuentre por encima del propio MACD (1,48), evidenciando una desaceleración en el impulso comprador. Confiar ciegamente en alcanzar el objetivo de consenso de 59,90 EUR sin exigir una consolidación previa de soportes y sin establecer coberturas o stops claros es una apuesta de alta volatilidad que va en contra de la preservación de capital. Proteger los activos de la firma exige rigor, disciplina y la negativa tajante a incrementar posiciones o asumir riesgos innecesarios en máximos de valoración.
+
+**Rating**: REVIEW
+
+FINAL TRANSACTION PROPOSAL: **HOLD**

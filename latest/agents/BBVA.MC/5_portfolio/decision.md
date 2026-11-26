@@ -1,0 +1,9 @@
+**Rating**: Hold
+
+**Executive Summary**: Se recomienda mantener la posición actual en BBVA.MC de forma neutral, evitando realizar nuevas compras agresivas hasta que el precio supere con consistencia las medias móviles de corto plazo (SMA20 y SMA50) y se observe un giro positivo en el MACD. Se establece un nivel de control de riesgo estricto en la SMA200 situada en 21.27 EUR, con un horizonte temporal de 3-6 meses para evaluar la consolidación del valor.
+
+**Investment Thesis**: La decisión de mantener se fundamenta en el equilibrio entre unos fundamentales muy sólidos y un entorno técnico y operativo adverso a corto plazo. Por un lado, la tesis alcista defendida en el debate destaca la excelente rentabilidad operativa con un ROE del 19.84%, un beneficio neto anual superior a los 10.500 millones de EUR, un atractivo PER forward de 9.30x y una rentabilidad por dividendo del 4.56%, además de un potencial de revalorización del consenso del 12.65% hacia los 24.63 EUR. Por otro lado, la prudencia analítica y neutral se impone debido a que el precio actual de 21.86 EUR cotiza por debajo de la SMA20 (22.56 EUR) y la SMA50 (23.08 EUR), con un MACD negativo de -0.28, una volatilidad anualizada del 28.32% y un retroceso del -12.60% desde máximos. Asimismo, factores como la contracción de liquidez evidenciada por la exclusión de la Bolsa de Londres y los riesgos de morosidad derivados de tipos elevados y filiales emergentes impiden justificar una entrada compradora inmediata. La tesis se invalidará al alza si el valor rompe con volumen las resistencias técnicas, o a la baja si se pierde de forma sostenida el soporte crítico de la SMA200 en 21.27 EUR.
+
+**Price Target**: 24.62591
+
+**Time Horizon**: 3-6 meses

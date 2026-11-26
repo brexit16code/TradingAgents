@@ -1,0 +1,12 @@
+
+Aggressive Analyst: ¡Hola a todos! Escucho las dudas de la mesa, pero se están quedando atrapados en la cautela excesiva mientras el mercado nos está ofreciendo una oportunidad de oro para capitalizar el impulso alcista de Enagás. 
+
+Primero, respondamos al supuesto "exceso" del precio respecto al objetivo de consenso de 17.23 EUR. ¡Ese es el error clásico de mirar el espejo retrovisor! El precio actual de ENG.MC en 18.12 EUR no es una señal de alarma, sino la confirmación de una ruptura técnica impecable. La acción cotiza holgadamente por encima de su media móvil de 20 sesiones en 17.85 EUR, de la de 50 sesiones en 17.25 EUR y, lo más importante, de su SMA de 200 sesiones situada en 16.50 EUR. Con un RSI de 62.73 que muestra un vigor saludable sin asfixiarse en sobrecompra y una rentabilidad a 252 días del +35.57%, el mercado está premiando la fortaleza del valor. ¿Vamos a frenar el crecimiento por atarnos ciegamente a un objetivo de consenso estático? ¡Los consensos siempre van por detrás de los rallies ganadores!
+
+Segundo, en cuanto al apalancamiento y la ratio de deuda neta sobre EBITDA de 6.15x que tanto asusta a los perfiles conservadores, debemos entender que estamos ante un gigante de infraestructuras reguladas. Las utilities intensivas en capital operan estructuralmente con apalancamientos elevados, pero Enagás ya ha demostrado un esfuerzo activo de desendeudamiento, reduciendo su deuda total desde los más de 3.800 millones en 2023 hasta los 2.822 millones a cierre de 2025. Además, ignorar el atractivo del dividendo del 5.52% con un payout del 79.96% es renunciar a un flujo de caja constante que sostiene la rentabilidad del inversor mientras el valor cabalga esta tendencia alcista.
+
+Por último, frente a quienes retrasan la fiesta hasta 2029 por el desarrollo del H2Med y el hidrógeno verde, les digo que los mercados descuentan el futuro en el presente. Que el proyecto avance a "velocidad de crucero" posicionando a España como el gran hub energético europeo es un catalizador fundamental que los grandes institucionales ya están comprando hoy. Recortar la posición ahora, como sugieren los analistas neutrales y conservadores, es perderse la cresta de la ola y ceder la ventaja competitiva frente al sector. ¡Hay que mantener y potenciar la exposición al riesgo para maximizar la rentabilidad!
+
+**Rating**: BUY
+
+FINAL TRANSACTION PROPOSAL: **SELL**

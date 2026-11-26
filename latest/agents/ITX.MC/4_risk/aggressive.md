@@ -1,0 +1,12 @@
+
+Aggressive Analyst: ¡Menuda falta de ambición y exceso de cautela veo en las posturas que suelen frenar a los inversores en momentos clave! Mientras los perfiles conservadores y neutrales se atrincheran detrás de las medias móviles y los múltiplos del consenso, están dejando pasar una oportunidad de oro para capitalizar el verdadero músculo operativo y la agresiva capacidad de crecimiento de Inditex. 
+
+¿Que cotiza a un PER forward de casi 25x y un EV/EBITDA de 17.89x? ¡Claro que sí! Las empresas extraordinarias que dominan sus mercados globales nunca son baratas, y pretender comprarlas a precio de saldo es ignorar por completo la calidad excepcional de su negocio. Estamos hablando de un gigante con un beneficio neto que superó los 6.220 millones de euros, una generación de flujo de caja libre apabullante de más de 6.500 millones y, lo más importante, un balance blindado con una posición de caja neta que sitúa la deuda neta sobre EBITDA en un insolente -0.43x. ¿Cómo se puede calificar de "riesgo excesivo" mantener o incrementar posiciones en una compañía que nada literalmente en efectivo y crece a un ritmo de ventas a tipo de cambio constante del 8,5%? 
+
+La prudencia excesiva y la recomendación neutral de simplemente "esperar a diciembre" ignoran olímpicamente las señales claras que nos está mandando el mercado y las grandes casas de análisis. Firmas de la talla de Bernstein acaban de respaldar al valor con fuerza, señalando que la capitalización bursátil debería apuntar hacia la ambiciosa cota de los 220.000 millones de euros, lo que representa un potencial de revalorización muy superior al estancado 4.67% que contempla el consenso cortoplacista. Si nos quedamos sentados esperando a que el RSI rompa la neutralidad o a que los múltiplos se desplomen, el tren de la verdadera creación de valor se habrá marchado.
+
+El entorno macroeconómico europeo actual, con fuertes impulsos bursátiles en la renta variable, una recuperación técnica impecable donde el valor cotiza holgadamente por encima de sus medias móviles de 50 y 200 sesiones, y un rendimiento superior acumulado frente al índice general, exige una actitud audaz. El verdadero riesgo no es comprar calidad a múltiplos exigentes; el verdadero riesgo es quedarse al margen por miedo al titular de los analistas conservadores y perderse el tramo alcista que se avecina con los próximos resultados. ¡Hay que dejar la timidez a un lado, abrazar el crecimiento y apostar con decisión por el liderazgo indiscutible de este valor!
+
+**Rating**: REVIEW
+
+FINAL TRANSACTION PROPOSAL: HOLD

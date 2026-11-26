@@ -1,0 +1,9 @@
+**Rating**: Hold
+
+**Executive Summary**: Mantener la posición actual en SLR.MC sin realizar nuevas compras ni incrementar exposición, limitando el peso a una asignación neutral o táctica reducida en cartera hipotética. El nivel de control técnico actual se sitúa en torno a los 14,08 EUR, con la resistencia clave de la SMA200 en 19,38 EUR, manteniendo un horizonte temporal de 3-6 meses mientras se evalúa la conversión del flujo de caja.
+
+**Investment Thesis**: La tesis de inversión se decanta por el mantenimiento debido al equilibrio persistente entre la atractiva valoración fundamental y los riesgos estructurales de liquidez y apalancamiento destacados en el debate. Por un lado, el bando alcista y el análisis neutral identifican un gran atractivo en el PER forward de 8,06x (frente a la mediana sectorial de 17,58x), un ROE del 18,94% y un margen neto del 47,25%, respaldado por un consenso con un precio objetivo medio de 21,43 EUR. Por otro lado, la realidad técnica y financiera expuesta por el analista conservador —con un flujo de caja libre negativo de -260,10 millones de EUR, un ratio de Deuda Neta/EBITDA de 4,42x en un entorno de tipos altos con el euríbor por encima del 3,3%, y una cotización muy por debajo de sus medias móviles clave con una volatilidad del 57,42%— neutraliza el potencial alcista a corto plazo. Lecciones previas confirman que apostar por descuentos fundamentales sin soporte técnico o con flujos de caja operativos negativos expone la cartera a un alpha desfavorable. Un cambio de postura requeriría una mejora demostrable en la generación de caja real y la superación técnica sostenida de las medias móviles.
+
+**Price Target**: 21.425
+
+**Time Horizon**: 3-6 meses

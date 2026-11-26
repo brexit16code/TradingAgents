@@ -1,0 +1,9 @@
+**Rating**: Hold
+
+**Executive Summary**: Se mantiene la recomendación de neutralidad (Hold) sobre TEF.MC sin realizar compras ni ventas, limitando la exposición dentro de la cartera hipotética. La estrategia prioriza la preservación del capital frente al elevado apalancamiento, utilizando la zona actual de 3.38 EUR como base de observación y la resistencia de la media móvil de 200 sesiones (3.58 EUR) como nivel clave a superar. El horizonte temporal sugerido es de 3 a 6 meses.
+
+**Investment Thesis**: Tras sopesar las posturas de los analistas, la evidencia sigue encontrándose en un punto de equilibrio entre atractivos fundamentales de valoración y graves riesgos estructurales de balance. El analista agresivo señala un PER forward de 8.32x, una rentabilidad por dividendo del 4.44% y un potencial alcista del consenso cercano al 12% hacia los 3.79 EUR, respaldados por flujos de caja operativos y libres positivos superiores a 1.400 millones de euros. No obstante, los analistas conservador y neutral argumentan con solidez que estas fortalezas chocan frontalmente contra una situación financiera delicada, marcada por una pérdida neta profunda de 4.318 millones de euros en 2025, un ratio de deuda neta sobre EBITDA elevado de 5.11x y un payout ratio desproporcionado de 2.5x en un entorno de tipos restrictivos con el euríbor superando el 3.3%. Desde el punto de vista técnico, la cotización por debajo de la SMA de 200 (3.58 EUR) y un RSI neutral de 48.54 confirman que no existe un impulso alcista justificado para comprometer más capital. Un cambio de tesis hacia una postura de compra requeriría una reducción tangible y sostenida de la deuda, una estabilización clara de los ingresos o una ruptura firme de la resistencia técnica en 3.58 EUR con volumen institucional; por el contrario, un deterioro en los costes de refinanciación inclinaría la balanza hacia la venta.
+
+**Price Target**: 3.79
+
+**Time Horizon**: 3-6 months
