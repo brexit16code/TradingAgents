@@ -1,11 +1,11 @@
-**Action**: Sell
+**Action**: Hold
 
-**Reasoning**: La cotización actual de ENG.MC en 18.12 EUR supera el precio objetivo medio de consenso de 17.23 EUR, lo que implica un potencial negativo del -4.92%. Además, el apalancamiento elevado con una deuda neta sobre EBITDA de 6.15x y un flujo de caja libre reducido a 94.4 millones de EUR tensionan el balance en un entorno de tipos altos, justificando recortar la posición actual.
+**Reasoning**: ENG.MC cotiza a EUR 18.31, superando las principales medias móviles y mostrando un buen rendimiento anual y una atractiva rentabilidad por dividendo del 5.5%. Sin embargo, el precio actual supera el precio objetivo medio del consenso de analistas situado en EUR 17.23 (implicando un upside negativo de -5.9%), sumado a un apalancamiento elevado con una deuda neta sobre EBITDA de 6.15x y un payout ratio cercano al 80%. Ante este balance equilibrado entre el soporte técnico y los riesgos de valoración a corto plazo, la estrategia más prudente es mantener la posición actual sin realizar nuevas entradas.
 
-**Entry Price**: 18.12
+**Entry Price**: not provided
 
-**Stop Loss**: 19.5
+**Stop Loss**: not provided
 
-**Position Sizing**: Reducir la posición actual en un tercio respecto a la asignación estándar
+**Position Sizing**: Mantener exposición actual
 
-FINAL TRANSACTION PROPOSAL: **SELL**
+FINAL TRANSACTION PROPOSAL: **HOLD**

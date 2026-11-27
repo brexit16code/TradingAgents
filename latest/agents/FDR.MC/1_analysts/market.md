@@ -1,58 +1,68 @@
-**Análisis Técnico y Fundamental de Fluidra, S.A. (`FDR.MC`)**
+**Rating**: NEUTRAL
 
-### 1. Resumen de Identidad y Contexto de Mercado
-* **Compañía:** Fluidra, S.A. (`FDR.MC`)
-* **Clasificación de Negocio:** Consumo Cíclico / Ocio (Consumer Cyclical / Leisure)
-* **Bolsa y Divisa:** Mercado de Madrid (MCE), EUR
-* **Fecha de Análisis / Referencia:** 26 de noviembre de 2026 (`2026-11-26`)
-* **Precio de Cierre Actual (`close`):** 18,70 EUR (con una variación diaria positiva del +0,86%)
-* **Contexto Macroeconómico:** Las bolsas europeas experimentan fuertes subidas impulsadas por el sector bancario y tecnológico, destacando avances superiores al 2% en índices de referencia como el Euro Stoxx 50 y el DAX alemán. El euríbor supera el 3,3% a las puertas de la última reunión de tipos de 2026, y se registra el nombramiento de Pablo Hernández de Cos como nuevo presidente del Banco Central Europeo. (Fuentes: *el boletin*, *Negocios.com*, *El Constitucional*).
+**FINAL TRANSACTION PROPOSAL**: HOLD
+
+### Informe de Análisis Financiero y Técnico de Fluidra (`FDR.MC`)
+
+#### 1. Resumen Ejecutivo e Identidad de la Compañía
+* **Instrumento:** `FDR.MC` (Fluidra, S.A.)
+* **Cotización actual:** 18.79 EUR (al cierre del 27 de noviembre de 2026, según la instantánea verificada).
+* **Clasificación sectorial:** Consumo Cíclico / Ocio (Consumer Cyclical / Leisure), cotizada en el mercado de Madrid (MCE) y referencia en el índice ^IBEX.
+* **Contexto de Mercado:** Las bolsas europeas y globales muestran un tono de rebote a finales de noviembre de 2026 (con menciones recientes de optimismo en el Dow Jones y selectivos europeos), en un entorno donde el IPC de noviembre se sitúa en el 4,1% y los analistas contemplan nuevos regímenes de riesgo y expectativas para 2027. Fluidra ha comunicado recientemente su calendario financiero para 2027 (fechas clave anunciadas el 27 de noviembre de 2026 a través de Investing.com y Bolsamania).
+
+#### 2. Análisis Fundamental y Valoración
+Los datos fundamentales más recientes de `FDR.MC` muestran una sólida posición de negocio, aunque con métricas de valoración que exigen cautela:
+* **Capitalización Bursátil:** ~3.529 millones de EUR.
+* **Ingresos (2025):** 2.221,08 millones de EUR (crecimiento interanual del 15% según el ratio general de ingresos).
+* **EBITDA (2025):** 463,45 millones de EUR (frente a 417,62 millones en 2024 y 383,52 millones en 2023).
+* **Beneficio Neto (2025):** 176,03 millones de EUR (superior a los 138,07 millones de 2024).
+* **PER (Trailing):** 21.35x; **PER Forward:** 12.01x, lo que anticipa una mejora significativa en las ganancias estimadas por acción (BPA proyectado / Forward EPS de 1.564 EUR frente al BPA actual de 0.88 EUR).
+* **Deuda y Solvencia:** Deuda total de 1.289 millones de EUR (o 1.224 millones al cierre de 2025) y una caja de 135,36 millones de EUR. El ratio Deuda Neta / EBITDA se sitúa en aproximadamente **2.95x**, un nivel moderado para una empresa industrial de consumo cíclico.
+* **Flujo de Caja:** El flujo de caja libre (*Free Cash Flow*) de 2025 alcanzó los 271,5 millones de EUR (221 millones según el consolidado general actualizado).
+* **Dividendo:** Rentabilidad por dividendo (*dividend yield*) de aproximadamente **3.51%** - **3.53%**, con un dividendo por acción de 0.66 EUR y un *payout ratio* del 70.7%.
+* **Consenso de Analistas:** El precio objetivo medio (*target mean price*) se sitúa en **25.93 EUR** (con un rango entre un mínimo de 19.00 EUR y un máximo de 31.00 EUR) basado en 15 opiniones de analistas, lo que arroja un potencial alcista de consenso (*consensus upside*) del **38.01%**.
+
+*Nota sobre datos faltantes:* No se dispone de estimaciones formales de crecimiento de beneficios a largo plazo más allá del Forward EPS proporcionado, ni de valoraciones detalladas por flujos de caja descontados propios (DCF) más allá de los múltiplos sectoriales y de consenso.
+
+#### 3. Análisis Técnico
+Basado en la instantánea técnica con fecha 27 de noviembre de 2026 para `FDR.MC`:
+* **Precio de Cierre:** 18.79 EUR (variación diaria de +0.48%).
+* **Medias Móviles:** 
+  * SMA 20: 19.09 EUR
+  * SMA 50: 18.31 EUR
+  * SMA 200: 19.18 EUR
+  * *Interpretación:* El valor cotiza ligeramente por debajo de su media de 20 y de 200 sesiones, pero por encima de la media de 50 sesiones, reflejando una fase de consolidación lateral a medio plazo.
+* **Osciladores de Momentum:**
+  * RSI (14): **51.40**, indicando una completa neutralidad (lejos de zonas de sobrecompra o sobreventa).
+  * MACD: 0.018 con línea de señal en 0.112 (el MACD se encuentra plano y ligeramente por debajo de su señal, sugiriendo ausencia de un impulso direccional fuerte a corto plazo).
+* **Volatilidad y Riesgo:**
+  * Volatilidad anualizada: **21.88%**.
+  * *Drawdown* máximo actual: **-26.38%** desde máximos recientes, lo que explica el atractivo potencial de recuperación respaldado por el consenso de analistas.
+
+#### 4. Selección de Indicadores Complementarios (Marco Analítico)
+Para un seguimiento óptimo de `FDR.MC` sin redundancias, se seleccionan los siguientes indicadores clave:
+1. `close_50_sma`: Para identificar la dirección del tendencia a medio plazo y actuar como soporte dinámico.
+2. `close_200_sma`: Como referencia estructural de largo plazo para confirmar cambios de ciclo.
+3. `rsi`: Para medir las condiciones de sobrecompra/sobreventa sin ruido excesivo.
+4. `macd`: Para capturar cambios de momento mediante cruces de líneas.
+5. `macds`: Como línea de señal para el filtro de entradas del MACD.
+6. `atr`: Para medir la volatilidad real y dimensionar adecuadamente niveles de *stop-loss*.
+7. `boll_ub`: Para delimitar la banda superior de volatilidad y posibles zonas de resistencia dinámica.
+8. `boll_lb`: Para delimitar la banda inferior de volatilidad y posibles zonas de soporte extremo.
+
+#### 5. Evidencia y Fuentes de Datos
+* **Fechas de referencia:** 27 de noviembre de 2026.
+* **Fuentes corporativas y noticias:** Comunicado del Calendario Financiero 2027 de Fluidra publicado el 27 de noviembre de 2026 en Investing.com España y Bolsamania.
+* **Datos de mercado:** Yahoo Finance / Instantánea verificada de cotización y estados financieros de `FDR.MC`.
 
 ---
 
-### 2. Análisis de Indicadores Técnicos y Selección de Herramientas
-De acuerdo con las directrices de selección de indicadores para evaluar la situación actual de `FDR.MC` (evitando redundancias y abarcando distintas categorías complementarias), se seleccionan hasta 8 indicadores clave presentes en la evidencia verificada:
+### Resumen Estructurado (Tabla Clave)
 
-1. **`close_50_sma` (Media Móvil Simple de 50 sesiones):** Situada en torno a 18,29 EUR, actúa como indicador de tendencia a medio plazo y soporte dinámico. El precio actual (18,70 EUR) cotiza ligeramente por encima de esta media, sugiriendo una estabilización a medio plazo.
-2. **`close_200_sma` (Media Móvil Simple de 200 sesiones):** Situada en 19,21 EUR, sirve como referencia estructural a largo plazo. Al encontrarse el precio por debajo de esta línea, indica que la tendencia de fondo se mantiene en fase correctiva o de consolidación amplia.
-3. **`macd` (Moving Average Convergence Divergence):** Registra un valor de 0,015, mostrando una lectura neutral y un cruce muy estrecho en torno a la línea de señal.
-4. **`macds` (Señal MACD):** Con un valor de 0,136, se sitúa por encima de la línea MACD, evidenciando que el impulso alcista a muy corto plazo carece de la tracción suficiente para confirmar un cambio de tendencia definitivo.
-5. **`rsi` (Índice de Fuerza Relativa - RSI 14):** Se sitúa en **49,73**, reflejando un equilibrio perfecto entre compradores y vendedores (zona neutral de indecisión, exactamente en el punto medio de 50).
-6. **`boll_ub` (Banda de Bollinger Superior) y `boll_lb` (Banda de Bollinger Inferior):** Delimitan el canal de volatilidad actual. Con una volatilidad porcentual del **22,45%**, la cotización de `FDR.MC` se encuentra en un rango estrecho, a una distancia prudencial de sus extremos.
-7. **`atr` (Average True Range / Volatilidad):** Mide el rango promedio de movimiento, útil para la fijación estricta de niveles de *stop-loss* y dimensionamiento de posiciones dado el perfil cíclico de la compañía.
-
----
-
-### 3. Análisis Fundamental y Financiero
-* **Capitalización de Mercado:** 3.512.263.936 EUR (~3.51 mil millones de EUR).
-* **Valoración (P/E y Múltiplos):** 
-  * `trailingPE` (PER histórico): **21,25x**
-  * `forwardPE` (PER estimado): **11,95x**, lo que refleja una expectativa de notable mejora en los beneficios por acción futuros.
-  * `priceToBook` (Precio/Valor Contable): **2,19x** (con un valor contable por acción de 8,51 EUR).
-  * `enterpriseToEbitda`: **11,96x**.
-* **Beneficios y Crecimiento:**
-  * `trailingEps`: 0,88 EUR; `forwardEps` estimado: 1,56 EUR.
-  * `revenueGrowth` (Crecimiento de ingresos): **15%**.
-  * Cifras de ingresos anuales recientes: 2.083 M€ (2023), 2.136 M€ (2024) y 2.221 M€ (2025). El beneficio neto auditado para 2025 ascendió a 176,02 millones de EUR (frente a los 138,06 millones de 2024).
-* **Deuda y Solvencia:**
-  * Deuda total: ~1.289 millones de EUR (con una caja total de ~135 millones de EUR).
-  * Ratio `net_debt_ebitda`: **2,95x**, un nivel moderado para una empresa de bienes de consumo cíclico y ocio, requiriendo monitorización en entornos de tipos de interés elevados (euríbor superior al 3,3%).
-* **Rentabilidad por Dividendo:**
-  * `dividendYield`: **3,53%** (con un dividendo ordinario de 0,66 EUR por acción y un *payout ratio* del 70,74%).
-* **Consenso de Analistas:**
-  * `targetMeanPrice`: **25,93 EUR** (con un precio objetivo mínimo de 19,00 EUR y máximo de 31,00 EUR basado en 15 opiniones de analistas).
-  * `consensus_upside_pct`: **+38,67%** de potencial alcista teórico sobre el precio actual de 18,70 EUR.
-
----
-
-### 4. Evidencia Contrary e Incertidumbres (Missing Data)
-* **Evidencia contraria:** A pesar del atractivo potencial alcista de consenso (+38,67%) y la mejora prevista en el beneficio por acción (`forwardPE` de 11,95x), la acción acumula un retroceso anual (*return252_pct*) del **-19,06%** y cotiza por debajo de su media móvil de 200 sesiones (`sma200` de 19,21 EUR). Asimismo, el indicador RSI en 49,73 y el MACD plano reflejan ausencia de un impulso alcista consolidado a medio plazo.
-* **Datos faltantes:** No se dispone de una muestra actualizada de noticias específicas sobre la compañía en los últimos siete días (según los avisos de la plataforma, la muestra de titulares no cubre la empresa en la última semana, apoyándose el análisis exclusivamente en el contexto macroeconómico general y en los datos fundamentales/técnicos provistos).
-
----
-
-### 5. Conclusión y Recomendación Operativa (Hipótesis)
-Fluidra (`FDR.MC`) demuestra solidez en su crecimiento de ingresos y una atractiva generación de caja operativa (366,9 millones de EUR en flujos operativos y un flujo de caja libre de 221 millones de EUR), complementada por una rentabilidad por dividendo superior al 3,5%. Sin embargo, el entorno de tipos de interés altos (euríbor sobre el 3,3%) y su condición de valor cíclico exigen cautela técnica mientras no recupere de forma consistente la media móvil de 200 sesiones (19,21 EUR).
-
-**Rating**: HOLD
-FINAL TRANSACTION PROPOSAL: Hypothetical neutral stance with a
+| Categoría | Métrica / Indicador | Valor / Estado | Implicación Analítica |
+| :--- | :--- | :--- | :--- |
+| **Precio y Mercado** | Cotización Actual (`FDR.MC`) | 18.79 EUR | Ligera recuperación diaria (+0.48%) en entorno europeo favorable. |
+| **Valoración** | PER Forward / Trailing | 12.01x / 21.35x | Descuento significativo en múltiplos futuros por aumento esperado de beneficios. |
+| **Consenso** | Precio Objetivo Medio | 25.93 EUR | Potencial teórico alcista de +38.01% según 15 analistas. |
+| **Dividendos** | Rentabilidad por Dividendo | 3.51% (0.66 EUR) | Atractivo flujo de retorno al accionista con payout del 70.7%. |
+| **Tendencia** | SMA 50 / SMA 200

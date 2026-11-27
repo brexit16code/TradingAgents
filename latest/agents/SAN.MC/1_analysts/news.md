@@ -1,46 +1,53 @@
-**Rating**: HOLD  
+**Rating**: REVIEW
 
-**FINAL TRANSACTION PROPOSAL**: NO TRADE  
+Informe integral de análisis y macroeconomía sobre **SAN.MC** (Banco Santander, S.A.), basado en la información e instantáneas de datos recopiladas a fecha 27 de noviembre de 2026.
 
-### Informe de Investigación y Análisis Macroeconómico de Banco Santander, S.A. (`SAN.MC`)
+### 1. Resumen de la Situación Actual y Contexto de Mercado
+El Banco Santander (**SAN.MC**), cotizado en la bolsa de Madrid (MCE) dentro del sector de Servicios Financieros y Banca Diversificada, muestra un momento técnico y fundamental dinámico al cierre de noviembre de 2026. Con una capitalización bursátil de aproximadamente 157.050 millones de euros, la entidad se sitúa en un entorno macroeconómico europeo marcado por rebotes bursátiles generalizados en la renta variable, impulsados fuertemente por el sector bancario y tecnológico, a pesar de señales de desaceleración en economías clave de la eurozona como Francia.
 
-#### 1. Resumen de la Situación Actual y Contexto de Mercado
-A fecha de 26 de noviembre de 2026, las acciones de **Banco Santander, S.A.** (`SAN.MC`) cotizan a **10,44 EUR**, registrando una sólida sesión alcista diaria del **4,11%** (impulsada por el buen tono general del sector bancario y tecnológico europeo, según fuentes de *el boletin* del 26-11-2026). No obstante, el valor se encuentra inmerso en una fase de corrección de medio plazo, acumulando un descenso del **16,57%** en los últimos 63 días y situándose un **18,42%** por debajo de sus máximos recientes (drawdown). 
+En el plano corporativo y bursátil recentísimo, **SAN.MC** ha sido protagonista de titulares destacados:
+* Durante la sesión del 27 de noviembre de 2026, las acciones de **SAN.MC** experimentaron una subida significativa de más del 4%, perforando resistencias técnicas clave (según informes de MarketScreener y XTB) y situándose a la cabeza de las ganancias del selectivo Ibex 35, que superó los 19.300 puntos.
+* Se anunció que Santander UK Group amortizará sus bonos con vencimiento en 2028, reflejando la gestión activa de pasivos de la entidad.
+* En el ámbito organizativo, se ha destacado la dirección de la banca de inversión del Santander en Europa bajo nuevos liderazgos (Felipe Portillo).
 
-Técnicamente, el valor muestra señales mixtas: el RSI de 14 sesiones se sitúa en **42,34** (zona neutral, ligeramente escorada hacia la debilidad) y el MACD permanece en terreno negativo (`-0,276`), cotizando por debajo de su línea de señal (`-0,257`). Asimismo, la cotización se sitúa por debajo de sus medias móviles clave de corto y medio plazo (SMA20 en 10,68 EUR, SMA50 en 11,39 EUR y SMA200 en 11,14 EUR), lo que refleja la presión vendedora experimentada en las últimas semanas.
+### 2. Análisis Fundamental y Valuation
+Los datos financieros y de valoración para **SAN.MC** muestran los siguientes métricas clave:
+* **Precio de cierre**: 10,90 EUR (con fecha de precio 27/11/2026).
+* **PER (Trailing)**: 11,98x | **PER Forward**: 8,75x.
+* **Precio sobre Valor en Libros (Price-to-Book)**: ~1,39x (sobre un valor contable por acción de 7,87 EUR).
+* **Beneficio por Acción (BPA / EPS)**: 0,91 EUR (trailing) y 1,24 EUR (forward estimado).
+* **Dividendos**: Ofrece una rentabilidad por dividendo (*dividend yield*) estimada en torno al 2,29% - 2,43%, con una tasa de pago (*payout ratio*) cercana al 25,4%.
+* **Rentabilidad sobre el Patrimonio (ROE)**: 13,06%, demostrando la eficiencia y rentabilidad operativa de la franquicia diversificada.
+* **Consenso de Analistas**: El precio objetivo medio (*target mean price*) se sitúa en 13,70 EUR, con un rango que oscila entre un precio mínimo de 11,30 EUR y un máximo de 15,05 EUR (basado en 21 opiniones de analistas), lo que representa una potencial revalorización alcista (*consensus upside*) del **25,7%**.
 
-#### 2. Fundamentos Financieros y Valoración
-Los datos fundamentales extraídos de los estados financieros de **Banco Santander, S.A.** muestran un perfil financiero robusto:
-* **Capitalización de Mercado:** ~150.400 millones de EUR.
-* **PER (Trailing):** 11,73x | **PER (Forward):** 8,38x, lo que anticipa un incremento en los beneficios por acción (BPA proyectado de 1,25 EUR frente a los 0,89 EUR actuales).
-* **Ratio Precio/Valor en Libros (P/B):** 1,33x (con un valor contable por acción de 7,87 EUR).
-* **Rentabilidad por Dividendos (Dividend Yield):** Alrededor del **2,39% - 2,53%**, respaldado por una política de retribución prudente (payout ratio del 25,42%).
-* **Consenso de Analistas:** El precio objetivo medio de los analistas (*targetMeanPrice*) se sitúa en **13,70 EUR** (con un rango entre 11,30 EUR y 15,05 EUR aportado por 21 analistas), lo que representa un **potencial de revalorización (consensus upside) del 31,26%** desde el nivel actual de 10,44 EUR.
+### 3. Análisis Técnico
+* **Cotización actual**: 10,90 EUR.
+* **Medias Móviles**: El precio se encuentra ligeramente por encima de su SMA20 (10,72 EUR), pero por debajo de su SMA50 (11,37 EUR) y SMA200 (11,15 EUR), lo que indica una fase de consolidación a medio plazo tras la reciente corrección estacional (el rendimiento a 63 días muestra una caída del -12,3%, compensada en parte por el rebote mensual del +3,7%).
+* **Indicadores de Momento**: El RSI de 14 períodos se sitúa en 50,48, denotando una postura neutral de mercado (sin sobrecompra ni sobreventa). El MACD (-0,229) se encuentra muy próximo a su línea de señal (-0,251), sugiriendo estabilización en el impulso comprador.
+* **Volatilidad y Drawdown**: La volatilidad de 30 días se registra en 34,84%, y la acción experimenta un retroceso desde máximos (*drawdown*) del -14,8%.
 
-En términos de valoración relativa (`valuation`), el PER forward de `SAN.MC` se sitúa en una ratio de **0,845** respecto a la mediana del sector (peer median forward PE de 9,91x), lo que indica que cotiza con un descuento moderado frente a sus comparables directos en el mercado español (`SAB.MC`, `BKT.MC`, `BBVA.MC`, `CABK.MC`, `UNI.MC`).
+### 4. Entorno Macroeconómico y Datos Cuestionables
+El contexto macroeconómico europeo de finales de noviembre de 2026 muestra:
+* Una desaceleración notable pero con soportes firmes en la actividad económica (por ejemplo, el IPC de noviembre en la región se modera al 4,1%, según fuentes de Rankia).
+* Un apetito por el riesgo renovado en las bolsas, donde firmas como Ostrum AM prevén subidas adicionales del 10% para los mercados europeos de cara a 2027, a pesar de los riesgos regulatorios y macroestructurales vigentes.
 
-#### 3. Entorno Macroeconómico y Noticias Recientes
-El contexto europeo y doméstico durante la última semana de noviembre de 2026 muestra los siguientes vectores clave:
-* **Tipos de Interés y Euríbor:** El euríbor supera el **3,3%** de cara a la recta final de 2026 (*20 Minutos*, 26-11-2026), en un entorno de tipos altos donde entidades como Banco Santander navegan con márgenes de intereses estables, aunque monitorizando de cerca el impacto en la morosidad y en la demanda hipotecaria.
-* **Gobernanza del BCE:** La reciente elección de Pablo Hernández de Cos como presidente del BCE (*El Constitucional*, 26-11-2026) marca un hito institucional relevante para la supervisión bancaria europea.
-* **Sentimiento Bursátil:** Tras sesiones de recogida de beneficios a principios de semana (caídas en el Ibex 35 el 25 de noviembre), las bolsas europeas han cerrado con fuertes subidas el 26 de noviembre impulsadas por el sector financiero, destacando a `SAN.MC` entre los valores líderes del rebote en el selectivo español (*Yahoo Finanzas* / *el boletin*, 26-11-2026).
-
-#### 4. Evidencia, Supuestos y Datos Faltantes
-* **Evidencia de Soporte:** Datos de cotización oficiales y estados financieros consolidados actualizados a cierre de 2025/2026.
-* **Evidencia Contraria:** Tendencia bajista a 63 sesiones (-16,56%), cotización por debajo de las medias móviles de 20, 50 y 200 sesiones, y debilidad técnica a corto plazo (MACD negativo).
-* **Datos Faltantes:** No se dispone de desglose pormenorizado en tiempo real de la calidad crediticia de última hora (NPLs) ni de las guías cuantitativas precisas para el conjunto del ejercicio 2027 más allá del consenso general. Dado que no se aporta un porfolio de inversión, cualquier consideración sobre asignación de activos es estrictamente hipotética.
+### 5. Datos Faltantes y Limitaciones
+* **Flujos de Caja Operativos y Libres**: Los estados financieros muestran cifras de flujo de caja operativo negativas para los ejercicios 2024 y 2025 (-14.835 millones y -24.155 millones de euros respectivamente), lo cual requiere cautela y una lectura especializada propia de la contabilidad bancaria consolidada (donde partidas de capital circulante y variaciones en activos/pasivos de intermediación financiera distorsionan los flujos operativos estándar comparados con empresas industriales).
+* No se dispone de estimaciones o carteras de inversión hipotéticas preasignadas (se recuerda que cualquier discusión sobre asignación es estrictamente hipotética).
 
 ---
 
-### Resumen de Datos Clave
+### Resumen Estructurado (Tabla Clave)
 
-| Concepto / Métrica | Valor / Dato | Fuente / Referencia |
+| Concepto / Métrica | Valor / Dato | Comentario Analítico |
 | :--- | :--- | :--- |
-| **Ticker e Instrumento** | `SAN.MC` (Banco Santander, S.A.) | Yahoo Finance / MCE |
-| **Precio de Cierre (26/11/2026)** | 10,44 EUR | `SAN.MC` Snapshot |
-| **Variación Sesión** | +4,11% | `SAN.MC` Technical Snapshot |
-| **PER Forward** | 8,38x | `SAN.MC` Fundamentals |
-| **Precio Objetivo Consenso** | 13,70 EUR (+31,26% potencial) | `SAN.MC` Analyst Estimates |
-| **RSI (14)** | 42,34 (Neutral / Débil) | `SAN.MC` Technical Snapshot |
-| **Media Móvil 200 Sesiones (SMA200)** | 11,14 EUR | `SAN.MC` Technical Snapshot |
-| **Entorno Tipos / Euríbor** | Euríbor > 3,3% | *20 Minutos* (26-11-2026) |
+| **Ticker y Mercado** | `SAN.MC` (MCE) | Banco Santander, S.A., Banco Diversificado (EUR). |
+| **Precio Actual** | 10,90 EUR (27/11/2026) | Impulsado por un repunte superior al 4% en la sesión semanal. |
+| **PER Forward / Trailing** | 8,75x / 11,98x | Valuación atractiva frente al beneficio estimado a futuro. |
+| **Price-to-Book (P/B)** | 1,39x | Valor contable por acción de 7,87 EUR. |
+| **Consenso Objetivo** | 13,70 EUR | Upside potencial de ~25,7% según el consenso de 21 analistas. |
+| **Dividend Yield** | ~2,29% - 2,43% | Rentabilidad por dividendo con un payout moderado (~25,4%). |
+| **Indicadores Técnicos** | RSI(14): 50,48 / SMA20: 10,72 | Momento neutral-alcista tras superar resistencias recientes. |
+| **Noticias Relevantes** | Amortización de bonos 2028 | Demuestra gestión activa de pasivos en Santander UK. |
+
+FINAL TRANSACTION PROPOSAL: REVIEW

@@ -1,69 +1,36 @@
-**Rating**: REVIEW
+### Informe de Análisis Fundamental: ArcelorMittal (MTS.MC)
 
-**FINAL TRANSACTION PROPOSAL:**
-- **Action**: HOLD
-- **Ticker**: MTS.MC
-- **Instrument Name**: ArcelorMittal S.A.
-- **Exchange**: MCE (Madrid)
-- **Currency**: EUR
-- **Current Price**: €51.98 (as of 2026-11-26)
-- **Target Mean Price**: €59.10
-- **Consensus Upside**: +13.70%
+**Fecha de análisis:** 27 de noviembre de 2026
+**Instrumento:** ArcelorMittal (MTS.MC)
 
----
+#### 1. Perfil y Situación de Mercado
+ArcelorMittal, clasificada en el sector de materiales básicos (acero), cotiza en la bolsa de Madrid (MCE). Con una capitalización de mercado de aproximadamente 40.920 millones de EUR, la compañía ha mostrado una volatilidad significativa (40,38%) en las últimas 511 sesiones. La acción cotiza actualmente a 54,42 EUR, situándose ligeramente por debajo de su media móvil de 20 días (54,88 EUR) y de 50 días (56,26 EUR), lo que refleja una presión correctiva reciente tras haber acumulado una subida del 47,3% en los últimos 252 días.
 
-### **Informe Fundamental y de Mercado: ArcelorMittal S.A. (`MTS.MC`)**
+#### 2. Análisis Financiero
+*   **Resultados Recientes:** Los estados financieros muestran una estabilidad moderada. Los ingresos pasaron de 68.275 millones en 2023 a 61.352 millones en 2025. El EBITDA ha mostrado una recuperación significativa, pasando de 4.650 millones (2023) a 7.124 millones (2025).
+*   **Rentabilidad y Valoración:** La compañía presenta un PER *forward* atractivo de 9,84x, frente a un PER *trailing* de 46,12x, lo que sugiere una expectativa de crecimiento de beneficios (*forward EPS* de 5,53 EUR frente a 1,18 EUR actuales). La relación precio-valor contable (P/B) de 0,85 indica que la acción cotiza por debajo de su valor en libros (63,98 EUR), sugiriendo un posible descuento.
+*   **Deuda y Flujo de Caja:** La deuda neta/EBITDA es de 2,08x, una métrica saludable para una empresa industrial de este calibre. Sin embargo, el flujo de caja libre (FCF) muestra debilidad, situándose en 471 millones de EUR en 2025, tras fuertes inversiones en CAPEX (4.337 millones de EUR).
 
-#### **1. Perfil de la Compañía y Contexto de Negocio**
-ArcelorMittal S.A. (`MTS.MC`) es el líder mundial en la producción de acero y minería, clasificado dentro del sector de Materiales Básicos e Industria del Acero. Cotiza en la bolsa de Madrid (MCE) y forma parte del selectivo español ^IBEX. Su moneda funcional reportada es el USD, mientras que su cotización se efectúa en EUR.
+#### 3. Sentimiento y Noticias (Datos al 27/11/2026)
+El sentimiento en las últimas 72 horas ha sido mixto. Mientras que a principios de semana la acción lideró subidas en el IBEX 35 (23/11 y 26/11), hubo reportes de ventas (24/11) que provocaron caídas en el selectivo. Es relevante destacar el informe de *Bolsamania* (24/11) sobre la recomendación de *Renta 4* de cambiar MTS.MC por Acerinox, lo cual representa una visión contraria a la de *Citi* (22/11), que ve un potencial de subida del 34% fundamentado en expectativas de mejora en el precio del acero para 2027.
 
-#### **2. Análisis de Estados Financieros y Historial Reciente**
-Basado en los datos suministrados correspondientes a los cierres anuales recientes:
+#### 4. Riesgos y Observaciones
+*   **Datos faltantes:** No se dispone del *guidance* específico de deuda a largo plazo detallado más allá de las cifras de 2025, ni se cuenta con datos desglosados de *earnings growth* para el año en curso, lo que limita la precisión de las proyecciones de crecimiento orgánico.
+*   **Consenso:** El precio objetivo medio es de 59,10 EUR, con un *upside* del 8,6% respecto al precio actual.
 
-* **Cuenta de Resultados (Ingresos y EBITDA):**
-  * **2025:** Ingresos Totales de €61.352.000.000 ($61.35B), Beneficio Neto de €3.152.000.000 y EBITDA de €7.124.000.000.
-  * **2024:** Ingresos Totales de €62.441.000.000, Beneficio Neto de €1.339.000.000 y EBITDA de €6.057.000.000.
-  * **2023:** Ingresos Totales de €68.275.000.000, Beneficio Neto de €919.000.000 y EBITDA de €4.650.000.000.
-  * *Análisis:* Se observa una recuperación progresiva en la rentabilidad neta y el EBITDA entre 2023 y 2025, a pesar de una ligera contracción en los ingresos absolutos en 2025 frente a 2024.
+#### 5. Conclusión para Operadores
+MTS.MC se encuentra en una zona de soporte técnico interesante cercana a sus medias móviles. La valoración fundamental sugiere que, si se cumplen las proyecciones de *forward EPS*, la acción podría estar infravalorada. Se recomienda monitorear la capacidad de la empresa para generar FCF positivo de manera más consistente, dado que el CAPEX intensivo sigue drenando gran parte del flujo operativo.
 
-* **Balance General (Activos, Deuda y Patrimonio):**
-  * **2025:** Activos Totales de €97.703.000.000, Deuda Total de €13.410.000.000 y Patrimonio Neto (Stockholders Equity) de €54.466.000.000.
-  * **2024:** Activos Totales de €89.385.000.000, Deuda Total de €11.563.000.000 y Patrimonio Neto de €49.223.000.000.
-  * **2023:** Activos Totales de €93.917.000.000, Deuda Total de €10.681.000.000 y Patrimonio Neto de €53.961.000.000.
+**Rating**: HOLD
 
-* **Flujo de Caja (Cash Flow):**
-  * **2025:** Flujo de Caja Operativo de €4.808.000.000, Capex de -€4.337.000.000, y un Flujo de Caja Libre (FCF) de €471.000.000.
-  * **2024:** FCF de €447.000.000.
-  * **2023:** FCF de €3.032.000.000.
-  * *Análisis:* El fuerte gasto de capital (Capex) sostenido por encima de los €4.300M anuales reduce significativamente el flujo de caja libre disponible a corto plazo.
+| Métrica | Valor / Detalle |
+| :--- | :--- |
+| Precio Actual | 54,42 EUR |
+| Precio Objetivo (Consenso) | 59,10 EUR |
+| Forward P/E | 9,84x |
+| P/B Ratio | 0,85x |
+| Dividend Yield | 1,01% |
+| Net Debt/EBITDA | 2,08x |
+| Sentimiento Reciente | Mixto (Volatilidad alta) |
 
-#### **3. Métricas Financieras y de Valoración Clave**
-* **Capitalización de Mercado:** €39.085.580.288
-* **PER (Trailing):** 44.05x | **PER (Forward):** 9.40x
-* **Precio a Valor en Libros (P/B):** 0.81x (indica cotización por debajo de su valor contable, reflejando cautela del mercado).
-* **EV/EBITDA:** 10.09x
-* **Deuda Neta / EBITDA:** ~2.08x (nivel de apalancamiento moderado y manejable para el sector industrial cíclico).
-* **Rentabilidad por Dividendo (Dividend Yield):** ~1.06% (Dividendo anual de €0.55 por acción, con un ratio de payout del 52.89%).
-* **Margen de Beneficio Neto:** 1.64% (estrecho margen operativo típico de industrias pesadas intensivas en capital).
-* **Rentabilidad sobre Recursos Propios (ROE):** 1.83%
-
-#### **4. Análisis Técnico y de Mercado Actual**
-* **Precio de Cierre (2026-11-26):** €51.98 (+2.93% en la última sesión).
-* **Medias Móviles:** SMA20 en €54.83, SMA50 en €56.44 y SMA200 en €55.76. La cotización se sitúa actualmente por debajo de sus principales medias móviles, denotando debilidad a medio plazo.
-* **Indicadores de Momento:** RSI (14) en 41.82 (zona neutral-bajista) y MACD negativo (-1.27), aunque experimentando un rebote reciente en consonancia con la recuperación general de las bolsas europeas impulsadas por la tecnología y la banca.
-* **Volatilidad y Retornos:** Volatilidad anualizada del 39.13%, con una corrección acumulada en 63 sesiones de -18.70% y un descenso desde máximos (drawdown) del -22.87%.
-
-#### **5. Noticias y Sentimiento Reciente (Noviembre 2026)**
-* Las fuentes de noticias señalan volatilidad en el Ibex 35 ligada al comportamiento de valores como `MTS.MC` (ej. titulares del 23-26 de noviembre de 2026 en *Estrategias de Inversión*, *el boletin* y *Yahoo*).
-* Informes de analistas externos (como Citi) apuntan a potenciales mejoras de resultados de cara a 2027 impulsadas por la expectativa de subidas en los precios del acero, estimando potenciales alcistas elevados (hasta un 34% según proyecciones de Citi publicadas en *Merca2.es* el 22/11/2026). En contraste, firmas como Renta 4 han rotado posiciones sectoriales hacia alternativas como Acerinox (24/11/2026).
-
-#### **6. Datos Faltantes y Advertencias**
-* No se dispone de transacciones recientes detalladas de insiders en el lote de datos analizado.
-* Las estimaciones de precios objetivos de los analistas cubiertos son limitadas en número de opiniones (2 analistas en la muestra recopilada), con un precio objetivo medio de €59.10 (rango entre €52.70 y €65.50).
-
----
-
-### **Tabla Resumen de Puntos Clave**
-
-| Categoría | Métrica / Indicador | Valor / Detalle |
-| :--- |
+FINAL TRANSACTION PROPOSAL: No trade execution suggested. Monitor price action around the 54.00 EUR support level; potential accumulation if bullish momentum on steel prices confirms analyst expectations for 2027.

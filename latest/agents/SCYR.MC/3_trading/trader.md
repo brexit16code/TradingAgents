@@ -1,11 +1,11 @@
-**Action**: Hold
+**Action**: Buy
 
-**Reasoning**: La evidencia técnica y fundamental para SCYR.MC se encuentra equilibrada, con un soporte y cotización actual alrededor de 4,11 € oscilando entre la SMA50 y la SMA20, pero lastrada por una deuda neta sobre EBITDA elevada (5,41x) y una caída en el beneficio neto en 2025. Aunque el consenso de analistas apunta a un precio objetivo medio de 5,33 € y la empresa mantiene una sólida cartera de adjudicaciones internacionales, los riesgos financieros en un entorno de tipos altos justifican mantener la posición a la espera de una mayor claridad en la tendencia y una reducción del apalancamiento.
+**Reasoning**: Sacyr muestra una sólida generación de caja libre y un modelo concesional resiliente que respalda su rentabilidad por dividendo del 4,76%, superando los temores sobre el beneficio neto contable y el apalancamiento. Con un potencial de revalorización superior al 26% frente al precio objetivo de consenso y cotizando por encima de su SMA50, se justifica una posición compradora de acumulación gradual. El nivel técnico actual ofrece un punto de entrada atractivo condicionado a una gestión estricta del riesgo.
 
-**Entry Price**: not provided
+**Entry Price**: 4.204
 
-**Stop Loss**: not provided
+**Stop Loss**: 3.85
 
-**Position Sizing**: Mantener exposición neutral o estándar en cartera
+**Position Sizing**: 3% de la cartera
 
-FINAL TRANSACTION PROPOSAL: **HOLD**
+FINAL TRANSACTION PROPOSAL: **BUY**

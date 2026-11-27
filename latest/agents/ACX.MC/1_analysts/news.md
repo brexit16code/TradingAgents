@@ -1,40 +1,37 @@
-### Informe de Análisis: Acerinox, S.A. (ACX.MC)
-**Fecha de corte:** 26 de noviembre de 2026
+A continuación se presenta un informe detallado sobre la situación de **Acerinox, S.A. (`ACX.MC`)** basado en la evidencia proporcionada a fecha de 27 de noviembre de 2026.
 
-#### 1. Situación Técnica y de Mercado
-El título **ACX.MC** cotiza a 14,64 EUR, experimentando una recuperación técnica reciente (+2,81% en la última sesión), tras haber sufrido una caída significativa en las últimas semanas (rendimiento a 21 días: -13,06%). El activo se encuentra actualmente por debajo de sus medias móviles clave (SMA20: 15,32; SMA50: 16,34), lo que sugiere una tendencia bajista a corto y medio plazo, confirmada por un RSI de 37,99 que indica una zona cercana a la sobreventa, pero sin una señal clara de reversión alcista por MACD (-0,54).
+### Informe de Análisis: Acerinox (ACX.MC)
 
-#### 2. Fundamentales y Valoración
-La compañía muestra un panorama mixto:
-*   **Valoración:** El PER forward de 9,42x es significativamente más atractivo que el PER trailing (27,62x), lo que implica una expectativa de mejora en los beneficios (Forward EPS proyectado de 1,55 EUR frente al actual de 0,53 EUR). 
-*   **Salud Financiera:** La empresa presenta una carga de deuda neta sobre EBITDA de 3,15x, un nivel que requiere vigilancia dado el entorno de tipos de interés altos mencionados en las noticias del sector (Euríbor > 3,3%).
-*   **Dividendos:** Ofrece una rentabilidad por dividendo del 4,35%, aunque el ratio de pago (payout ratio) del 144% sugiere una presión importante sobre la generación de caja para sostener esta política, especialmente con un flujo de caja libre negativo (-155,27 M EUR en 2025).
+#### 1. Situación Fundamental y Valuación
+La compañía presenta una dicotomía importante entre su rentabilidad pasada reciente y sus perspectivas a futuro. Con un **Forward PE de 9,57x** frente a un **Trailing PE de 28,07x**, el mercado está descontando una recuperación significativa en los beneficios por acción (Forward EPS: 1,55 € vs. Trailing EPS: 0,53 €). 
 
-#### 3. Contexto Macroeconómico
-El entorno macroeconómico europeo se caracteriza por una volatilidad alta, con los índices bursátiles europeos (Euro Stoxx 50) registrando fuertes subidas (>2%) a 26 de noviembre. Sin embargo, el sector industrial al que pertenece **ACX.MC** se ve presionado por:
-*   El coste de la financiación (Euríbor al alza).
-*   La incertidumbre sobre la política monetaria, a pesar de la reciente elección de Pablo Hernández de Cos como presidente del BCE, lo cual aporta una nueva dirección institucional.
-*   El sentimiento negativo del mercado hacia el acero, evidenciado por los reportes de pérdida de soportes técnicos y la rotación de carteras (ej. Renta 4 cambiando ArcelorMittal por Acerinox, indicando una búsqueda de valor relativo dentro del sector).
+*   **Rentabilidad y Deuda:** La compañía opera con márgenes estrechos (profit margin 1,96%) y un ratio de deuda neta/EBITDA de **3,15x**, lo cual es elevado para un entorno de volatilidad sectorial. El FCF es negativo (-155,27M € en la última lectura), lo que subraya la presión sobre su flujo de caja a pesar del rendimiento por dividendo del 4,23%.
+*   **Consenso:** El precio objetivo medio es de **20,08 €**, lo que sugiere un potencial de revalorización del **34,93%** según los analistas, situándose significativamente por encima del precio actual de 14,88 €.
 
-#### 4. Opinión de Analistas
-Existe un consenso de 13 analistas con un precio objetivo medio de 20,08 EUR, lo que representa un potencial de revalorización del 37,14% desde los niveles actuales. No obstante, las noticias recientes sugieren que el valor está "atenazado por las dudas" y ha perdido niveles técnicos críticos recientemente.
+#### 2. Análisis Técnico
+La acción muestra una tendencia bajista de corto plazo (caída del 12,47% en 21 días).
+*   **Soportes y Resistencias:** Cotiza por debajo de sus medias móviles de 20, 50 y 200 días (15,26 €, 16,30 € y 15,44 € respectivamente), lo que confirma una estructura técnica débil.
+*   **Indicadores:** El RSI en **41,68** sugiere que el valor no está en territorio de sobreventa extrema pero muestra debilidad. El MACD sigue en terreno negativo, indicando que el impulso vendedor domina.
 
-#### 5. Datos Faltantes
-No se dispone de proyecciones detalladas de CAPEX para 2027, ni un desglose geográfico actualizado de las ventas en el último trimestre de 2026 que permita evaluar el impacto de posibles aranceles o cambios en la demanda de acero inoxidable por región.
+#### 3. Contexto Corporativo y Noticias Recientes
+El evento más relevante es la reciente entrada de **Arconas**, que ha alcanzado el 5% del accionariado, convirtiéndose en el tercer mayor accionista (fuente: *Bolsamania*, 2026-11-27). Este movimiento podría estar dando soporte al valor tras las caídas recientes. Sin embargo, analistas como *Renta 4* han rotado sus carteras desde ArcelorMittal hacia Acerinox, lo que indica un interés estratégico en el sector a pesar de los desafíos operativos señalados por *CapitalMadrid* (2026-11-25).
 
----
+#### 4. Macroeconomía
+El entorno macro es mixto. Mientras que las bolsas europeas muestran un rebote impulsado por la tecnología y la banca, la economía real muestra signos de fatiga (frenazo en la economía francesa, *Negocios.com*). El descenso del IPC al 4,1% (Rankia, 2026-11-27) es una señal positiva para la moderación de la inflación, pero la volatilidad sectorial sigue siendo un factor de riesgo alto para empresas cíclicas como Acerinox.
 
-### Tabla Resumen: ACX.MC
+### Resumen de Datos Clave
 
-| Indicador / Métrica | Valor / Estado |
+| Indicador | Valor / Dato |
 | :--- | :--- |
-| **Precio Actual** | 14,64 EUR |
-| **Consenso Precio Objetivo** | 20,08 EUR (+37,14%) |
-| **Rentabilidad Dividendo** | 4,35% |
-| **PER Forward** | 9,42x |
-| **Tendencia Técnica** | Bajista (bajo SMA50/SMA20) |
-| **Riesgo (Deuda/EBITDA)** | 3,15x |
-| **Sentimiento en Prensa** | Precaución / Pérdida de soportes |
+| **Precio Actual** | 14,88 € |
+| **Consenso Analistas** | 20,08 € (+34,93%) |
+| **Dividend Yield** | 4,23% |
+| **Net Debt/EBITDA** | 3,15x |
+| **RSI (14 días)** | 41,68 |
+| **Tendencia técnica** | Bajista (SMA 20, 50, 200) |
 
-**Rating**: HOLD
-FINAL TRANSACTION PROPOSAL: N/A (Analytical review only).
+**Missing Data:** No se dispone de un desglose detallado del impacto de las tensiones geopolíticas específicas en el suministro de níquel o cromo ni proyecciones de gasto de capital (CAPEX) para 2027 más allá de los datos históricos. La comparación sectorial específica (valuation) no está disponible en la fuente.
+
+**Rating**: HOLD (Debido a la debilidad técnica, pese a la valoración atractiva por consenso y el respaldo institucional de Arconas).
+
+FINAL TRANSACTION PROPOSAL: None.

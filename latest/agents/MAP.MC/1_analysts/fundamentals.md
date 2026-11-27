@@ -1,71 +1,87 @@
-**Rating**: REVIEW
-
-**FINAL TRANSACTION PROPOSAL:** HOLD
-
----
-
-### Informe Fundamental Integral: Mapfre, S.A. (`MAP.MC`)
-
-#### 1. Perfil de la Compañía y Contexto de Negocio
-* **Identidad:** Mapfre, S.A. (`MAP.MC`), compañía multinacional española dedicada al sector de Servicios Financieros y Seguros Diversificados (*Insurance - Diversified*), cotizada en la Bolsa de Madrid (MCE) y componente del selectivo de referencia ^IBEX.
-* **Fecha de referencia y datos de mercado:** A 26 de noviembre de 2026, la acción cotiza a **4,002 EUR** (con un cierre previo registrado de 4,002 EUR, variando un +0,55% en la sesión). Su capitalización bursátil se sitúa en aproximadamente **12.283,42 millones de EUR**.
-* **Entorno macroeconómico reciente:** El mercado europeo y español atraviesa un periodo de volatilidad moderada con expectativas de tipos de interés (mantenidos por el Banco Central Europeo tras el nombramiento de Pablo Hernández de Cos y un euríbor que supera el 3,3% a finales de noviembre de 2026). Las bolsas europeas muestran un tono alcista impulsado por el sector bancario y tecnológico.
+**Rating**: HOLD  
+FINAL TRANSACTION PROPOSAL: None (Read-only fundamental research report)
 
 ---
 
-#### 2. Análisis Financiero y Evolución Histórica
-Los datos financieros extraídos de los estados contables anuales reflejan la siguiente progresión en el grupo:
+### Informe Fundamental y Análisis para Traders: Mapfre, S.A. (`MAP.MC`)
 
-* **Ingresos (Total Revenue):**
-  * Ejercicio 2023: 25.639.600.000 EUR
-  * Ejercicio 2024: 25.833.400.000 EUR
-  * Ejercicio 2025: **26.355.100.000 EUR** (demostrando un crecimiento de los ingresos interanuales del orden del 4,31%).
-* **Beneficio Neto (Net Income):**
-  * Ejercicio 2023: 677.200.000 EUR
-  * Ejercicio 2024: 967.500.000 EUR
-  * Ejercicio 2025: **1.132.600.000 EUR**, lo que evidencia una senda sólida de recuperación y expansión de la rentabilidad neta.
-* **Balance General:**
-  * **Activos Totales:** 58.512.700.000 EUR (2025), frente a los 56.706.800.000 EUR de 2024 y 54.947.100.000 EUR de 2023.
-  * **Patrimonio Neto (*Stockholders Equity*):** 9.409.900.000 EUR (2025), superando los 8.888.700.000 EUR (2024) y los 8.466.600.000 EUR (2023).
-  * **Deuda Total (*Total Debt*):** 2.980.000.000 EUR al cierre de 2025 (2.906.700.000 EUR según datos de métricas recientes). *(Nota metodológica: No se aplican reglas de deuda industrial/EBITDA a aseguradoras)*.
-* **Flujo de Caja:**
-  * El flujo de caja libre (*Free Cash Flow*) se situó en **1.423.800.000 EUR** para el ejercicio 2025 (comparado con 1.211.600.000 EUR en 2024 y 1.398.800.000 EUR en 2023), con gastos de capital (*CapEx*) contenidos en -217.000.000 EUR en 2025.
+Este informe recopila y analiza la información fundamental disponible sobre **Mapfre, S.A. (`MAP.MC`)**, asegurando un diagnóstico completo de su situación financiera, perfil de negocio, rendimiento bursátil reciente y valoraciones de mercado.
 
 ---
 
-#### 3. Valoración, Fundamentales y Retorno para el Accionista
-* **Múltiplos de Valoración:**
-  * **PER histórico (*Trailing P/E*):** 10,53x
-  * **PER estimado (*Forward P/E*):** 9,47x (con un beneficio por acción estimado *Forward EPS* de 0,4225 EUR frente a los 0,38 EUR del *Trailing EPS*).
-  * **Precio sobre Valor en Libros (*Price to Book*):** 1,30x (con un valor contable por acción de 3,077 EUR).
-  * **Rentabilidad sobre Recursos Propios (*ROE*):** Sólida, en el **18,37%**.
-  * **Márgenes de Beneficio:** Margen de beneficio neto del **3,94%**.
-* **Remuneración al Accionista (Dividendos):**
-  * Ofrece una atractiva **rentabilidad por dividendo (*Dividend Yield*) del 4,75% al 4,79%**, con un dividendo anual de 0,19 EUR y un *payout ratio* del 47,42%. 
-  * Se han registrado noticias recientes de mercado (noviembre de 2026) que señalan fechas clave de cupón y atractivo por dividendo para los inversores de corto plazo.
+### 1. Perfil de la Compañía y Negocio
+* **Nombre:** Mapfre, S.A. (`MAP.MC`)
+* **Sector:** Servicios Financieros (*Financial Services*)
+* **Industria:** Seguros Diversificados (*Insurance - Diversified*)
+* **Bolsa de cotización:** Mercado Continuo Español (MCE), cotizada en Euros (EUR).
+* **Descripción del negocio:** Mapfre es una multinacional española dedicada al sector del seguro y reaseguro, con una presencia global muy destacada en Europa y Latinoamérica, ofreciendo seguros de no vida, vida, servicios de asistencia y reaseguro global.
 
 ---
 
-#### 4. Análisis Técnico y Perspectiva de Mercado
-* **Indicadores Técnicos:**
-  * **Precio actual:** 4,002 EUR.
-  * **RSI (14):** 41,58 (zona neutral, ligeramente sesgada a la baja).
-  * **MACD:** -0,044 (línea de señal en -0,032), denotando un momento correctivo a corto plazo.
-  * **Medias Móviles:** SMA20 en 4,08 EUR, SMA50 en 4,16 EUR y SMA200 en 4,07 EUR. La cotización se encuentra ligeramente por debajo de sus medias de corto y medio plazo, experimentando un *drawdown* del -10,61% desde máximos recientes.
-  * **Retornos:** Retorno a 21 sesiones del -2,03% y a 63 sesiones del -8,69%.
-* **Consenso de Analistas y Riesgos:**
-  * El precio objetivo medio de consenso (*Target Mean Price*) facilitado por los analistas se sitúa en **4,35 EUR**, con un rango que va desde un objetivo mínimo (*Target Low*) de 3,80 EUR hasta un máximo (*Target High*) de 5,00 EUR (basado en 10 opiniones de analistas). Esto ofrece un **potencial de revalorización de consenso (*Consensus Upside*) del 8,63%**.
-  * No obstante, entidades como Barclays han manifestado cautela reciente advirtiendo sobre ciertos riesgos de negocio en el sector y escenarios de presión que han enfriado temporalmente la euforia sobre el valor.
+### 2. Datos Clave de Mercado y Valoración (Fundamentals)
+A fecha de **27 de noviembre de 2026**, los indicadores fundamentales y de mercado de `MAP.MC` son los siguientes:
+* **Precio de cierre:** 4,054 EUR
+* **Capitalización de mercado:** ~12.443 millones de EUR
+* **PER (*Trailing P/E*):** 10,67x
+* **PER Adelantado (*Forward P/E*):** 9,59x
+* **Precio sobre Valor en Libros (*Price-to-Book*):** 1,32x
+* **Beneficio por Acción Histórico (*Trailing EPS*):** 0,38 EUR
+* **Beneficio por Acción Previsto (*Forward EPS*):** 0,42 EUR
+* **Rentabilidad por Dividendo (*Dividend Yield*):** ~4,76% (con un dividendo ordinario de 0,19 EUR por acción y un *payout ratio* del 47,42%).
+* **Rentabilidad sobre el Capital (*Return on Equity* - ROE):** 18,38%
+* **Precio objetivo de consenso (*Target Mean Price*):** 4,35 EUR (con un rango entre un mínimo de 3,80 EUR y un máximo de 5,00 EUR, analizado por 10 analistas).
+* **Potencial alcista según consenso (*Consensus Upside*):** ~7,24% sobre el precio actual de 4,05 EUR.
 
 ---
 
-#### 5. Datos Faltantes y Advertencias
-* **Datos faltantes:** No se dispone en el conjunto de datos de los flujos de caja operativos específicos desglosados para los trimestres más recientes del año en curso (2026), ni comparativas sectoriales detalladas de múltiplos fuera de las métricas agregadas.
-* **Advertencias:** Las noticias y notas de prensa reflejan análisis externos (como notas de Barclays o comentarios técnicos de MarketScreener y El Economista) que son muestras informativas y no instrucciones operativas. El analista objetivo debe considerar los riesgos regulatorios y macroeconómicos del sector asegurador global.
+### 3. Análisis de Estados Financieros Históricos
+
+#### A. Cuenta de Resultados (*Income Statement*)
+Los ingresos totales y el beneficio neto de los últimos tres ejercicios fiscales muestran una tendencia de crecimiento constante:
+* **Ejercicio 2023:** Ingresos Totales = 25.639,6 millones de EUR | Beneficio Neto = 677,2 millones de EUR.
+* **Ejercicio 2024:** Ingresos Totales = 25.833,4 millones de EUR | Beneficio Neto = 967,5 millones de EUR.
+* **Ejercicio 2025:** Ingresos Totales = 26.355,1 millones de EUR | Beneficio Neto = 1.132,6 millones de EUR.
+
+#### B. Balance de Situación (*Balance Sheet*)
+* **Activos Totales:** Han evolucionado positivamente desde los 54.947,1 millones de EUR (2023) hasta alcanzar los 58.512,7 millones de EUR en el cierre de 2025.
+* **Patrimonio Neto (*Stockholders Equity*):** Ha crecido de forma sólida desde 8.466,6 millones de EUR (2023) hasta 9.409,9 millones de EUR (2025).
+* **Deuda Total:** Se sitúa en torno a los 2.980 millones de EUR al cierre de 2025 (muy similar a los 3.052,4 millones de EUR de 2023). *Nota metodológica:* No se deben aplicar reglas de deuda industrial/EBITDA a aseguradoras o bancos debido a la naturaleza de su pasivo técnico y de reservas.
+
+#### C. Flujo de Caja (*Cash Flow*)
+* **Flujo de Caja Libre (*Free Cash Flow*):** Registró 1.398,8 millones de EUR en 2023, 1.211,6 millones de EUR en 2024 y 1.423,8 millones de EUR en 2025, respaldando de forma saludable la retribución al accionista vía dividendos.
 
 ---
 
-#### Tabla Resumen de Puntos Clave
+### 4. Indicadores Técnicos y Contexto de Mercado
+* **Medias Móviles:** 
+  * SMA20: 4,09 EUR
+  * SMA50: 4,16 EUR
+  * SMA200: 4,08 EUR
+* **RSI (14 períodos):** 46,07 (zona neutral, sin sobreventa ni sobrecompra).
+* **MACD:** -0,041 (señal en -0,034), indicando un tono de consolidación a corto plazo.
+* **Volatilidad (anualizada):** 23,91%
+* **Rendimiento reciente:** Retorno a 21 sesiones del +3,10%, pero acumula una caída del -7,30% en los últimos 63 días.
 
-| Métrica / Concepto | Valor / Dato | Comentario / Implicación |
-| :--- | :--- | :---
+---
+
+### 5. Noticias Recientes y Sentimiento (Noviembre de 2026)
+* **Dividendo:** A finales de noviembre de 2026 (fechas en torno al 23-26 de noviembre), Mapfre ha acaparado la atención de los mercados debido a la fecha clave para capturar el atractivo dividendo de la compañía, cuya rentabilidad por dividendo ronda el 4,68%-4,76%. (Fuente: *El Economista* / *Rankia*, 23-26 de noviembre de 2026).
+* **Revisión de analistas:** Informes recientes de casas de análisis como Barclays han adoptado una postura más prudente ("enfrían" el valor), señalando un potencial de caída a corto plazo frente a ciertos precios objetivos y advirtiendo sobre riesgos específicos del negocio asegurador global (Fuente: *Merca2.es*, 23 de noviembre de 2026).
+* **Macroeconomía:** Las bolsas europeas y españolas muestran un tono de rebote generalizado a finales de noviembre de 2026, con descensos de la inflación en la Eurozona (IPC en noviembre de 2026 al 4,1%) y un comportamiento positivo generalizado de la renta variable europea.
+
+---
+
+### 6. Datos Faltantes o Limitaciones
+* No se dispone de un desglose detallado de transacciones de *insiders* para este periodo en la instantánea analizada.
+* La valoración comparativa sectorial automatizada no está disponible en la fuente primaria (*"Comparación sectorial no disponible"*). 
+
+---
+
+### 7. Resumen en Tabla Organizada
+
+| Categoría | Métrica / Indicador | Valor / Detalle | Fuente o Contexto |
+| :--- | :--- | :--- | :--- |
+| **Identidad** | Empresa / Ticker | Mapfre, S.A. (`MAP.MC`) | MCE, Sector Financiero / Seguros |
+| **Precio y Valoración** | Precio de Cierre | 4,054 EUR | Cierre bursátil del 27/11/2026 |
+| **Valoración** | PER (*Trailing / Forward*) | 10,67x / 9,59x | Datos fundamentales actualizados |
+| **Valoración** | Precio sobre Valor en Libros | 1,32x | *

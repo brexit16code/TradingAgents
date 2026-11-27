@@ -1,47 +1,51 @@
 **Rating**: REVIEW
 
-Análisis detallado de **LOG.MC** (Logista Integral, S.A.), cotizada en la Bolsa de Madrid (MCE) dentro del sector industrial (Integrated Freight & Logistics), con base en los datos y evidencias provistos al 26 de noviembre de 2026.
+### Informe de Análisis y Estado Actual de la Empresa
 
-### 1. Resumen Ejecutivo y Datos de Mercado
-* **Precio de cierre actual**: 37,70 EUR (sesión del 26/11/2026), experimentando una subida diaria del 3,74% en consonancia con el fuerte rebote de las bolsas europeas impulsadas por la banca y la tecnología.
-* **Capitalización bursátil**: ~4.983 millones de EUR.
-* **Valoraciones clave**: 
-  * PER Histórico (Trailing P/E): 17,70x.
-  * PER Adelantado (Forward P/E): 15,04x.
-  * Ratio Precio/Valor en Libros (P/B): 7,66x.
-  * EV/EBITDA: 12,38x.
-  * Rentabilidad por dividendo (Dividend Yield): 5,59% (con un dividendo de 2,03 EUR y un ratio de pago o payout del 95,31%).
-* **Consenso de analistas**: El precio objetivo medio es de 34,32 EUR (basado en 11 opiniones), con un rango de 26,70 EUR a 40,00 EUR. Actualmente, el precio de mercado cotiza por encima del objetivo medio, arrojando un potencial implícito negativo (*consensus_upside_pct*) de aproximadamente -8,96%.
+A continuación se presenta un análisis exhaustivo de **LOG.MC** (Logista Integral, S.A.), cotizada en el mercado español (MCE) dentro del sector industrial (Integrated Freight & Logistics), basado estrictamente en la evidencia precargada y los datos financieros y de mercado disponibles a fecha de **27 de noviembre de 2026**.
 
-### 2. Fundamentos Financieros y Estados Contables
-* **Ingresos y Resultados (Periodo finalizado el 30/09/2026)**:
-  * Ingresos Totales (*Total Revenue*): 13.837 millones de EUR (frente a 12.985 millones en 2024). Muestra un crecimiento interanual de los ingresos del 2,0%.
-  * EBITDA: 568,19 millones de EUR (en comparación con los 592,99 millones de 2024).
-  * Beneficio Neto (*Net Income*): 282,04 millones de EUR (frente a 308,24 millones en 2024).
-* **Solvencia y Flujo de Caja**:
-  * Deuda Total: 309,25 millones de EUR (o 328,57 millones según métricas de balance consolidado), frente a un efectivo de 82,94 millones de EUR.
-  * Deuda Neta / EBITDA: 0,60x, lo que refleja un perfil de apalancamiento muy bajo y saludable.
-  * Flujo de Caja Operativo (*Operating Cash Flow*): 510,14 millones de EUR.
-  * Flujo de Caja Libre (*Free Cash Flow*): 453,97 millones de EUR (a fecha de cierre de septiembre de 2026), lo que permite sostener de forma holgada su atractiva política de retribución al accionista.
-  * Rentabilidad sobre el Capital (ROE): 43,62%, denotando una gran eficiencia en el uso de los recursos propios.
+#### 1. Resumen de la Situación Financiera y Fundamental
+* **Capitalización de Mercado:** 5.162,47 millones de EUR.
+* **Precio de Cierre (27/11/2026):** 39,06 EUR (con una rentabilidad a 1 año de aproximadamente el 40,22%).
+* **Valoraciones y Múltiplos:**
+  * **Trailing P/E:** 18,34x | **Forward P/E:** 15,46x.
+  * **Price to Book (P/B):** 7,94x (sobre un valor contable por acción de 4,92 EUR).
+  * **EV/EBITDA:** 12,82x.
+  * **Ratio PER relativo intermedio:** 0,93x frente a la mediana de comparables del sector/índice (`ANA.MC`, `ACS.MC`, `AENA.MC`, `FER.MC`, `IAG.MC`, `SCYR.MC`), lo que sitúa a la compañía ligeramente por debajo de la media sectorial en valoración relativa de forward P/E (mediana de pares de 16,64x).
+* **Solvencia y Deuda:**
+  * Deuda total de 309,25 millones de EUR (a 30/09/2026) y efectivo de aproximadamente 82,94 millones de EUR.
+  * Ratio **Net Debt / EBITDA**: 0,60x, lo que indica un balance sólido y un apalancamiento moderado y muy manejable para una empresa industrial/logística.
+* **Rentabilidad por Dividendo:**
+  * Ofrece una atractiva rentabilidad por dividendo (*dividend yield*) del **5,20% - 5,38%**, con un dividendo por acción de 2,03 EUR, aunque con un *payout ratio* elevado del 95,31%.
+* **Datos de Analistas y Consenso:**
+  * Precio objetivo medio de consenso (*targetMeanPrice*): **34,32 EUR** (con un rango entre 26,70 EUR y 40,00 EUR basado en 11 opiniones de analistas). 
+  * Esto implica un potencial de retorno respecto al precio actual de mercado de **-12,13%** (*consensus upside*), sugiriendo que la cotización actual ha superado las expectativas medias recientes de los analistas tras el fuerte rebote bursátil.
 
-### 3. Entorno Macroeconómico y Noticias Recientes
-* **Contexto macro en Europa**: Las bolsas europeas experimentaron un fuerte repunte a finales de noviembre de 2026, respaldadas por un clima de optimismo en renta variable y la elección de Pablo Hernández de Cos como nuevo presidente del Banco Central Europeo (BCE). El euríbor supera actualmente el 3,3%, situando los tipos de interés en un entorno de vigilancia estricta para el endeudamiento y las hipotecas en la Eurozona.
-* **Catalizadores y Noticias Sectoriales recientes (Noviembre 2026)**:
-  * Se han reportado movimientos corporativos potenciales de gran calado en el sector tabaquero e industrial: *Altria* estudia lanzar una oferta de adquisición sobre *Imperial Brands* (matriz histórica ligada a Altadis y clave en la estructura de negocio de Logista). Esto ha generado un foco de atención inmediato por parte de analistas y plataformas de inversión (como Rankia y Cinco Días) para evaluar el impacto que tendría sobre los accionistas de **LOG.MC**.
-  * Desde el punto de vista técnico, los indicadores muestran una tendencia alcista a corto plazo (RSI de 60,81; cotizando por encima de sus medias móviles de 20, 50 y 200 sesiones), respaldada por el buen momento general de las bolsas europeas.
+#### 2. Comportamiento Técnico
+* **Tendencia:** El valor muestra un momento alcista muy fuerte a corto y medio plazo. La media móvil de 20 sesiones (SMA20) se sitúa en 37,01 EUR, la de 50 sesiones en 36,31 EUR, y la de 200 sesiones en 33,93 EUR, lo que confirma una estructura alcista sostenida.
+* **Osciladores:** El RSI de 14 períodos se encuentra en **69,95**, rozando la zona de sobrecompra, acompañado de un MACD positivo (0,31) por encima de su línea de señal (0,23).
+* **Volatilidad y Drawdown:** La volatilidad anualizada se sitúa en el 18,43% con un *drawdown* del 0,0% en la muestra reciente, destacando el retorno positivo del 7,96% en los últimos 21 días.
 
-### 4. Evidencia contradictoria y Datos faltantes
-* **Evidencia contradictoria**: Mientras que los fundamentales de **LOG.MC** muestran un balance sólido, un bajo endeudamiento (Net Debt/EBITDA de 0,60x) y una atractiva rentabilidad por dividendo cercana al 5,6%, el precio actual de mercado (37,70 EUR) supera el precio objetivo medio del consenso de analistas (34,32 EUR), lo que limita el margen de revalorización fundamental a corto plazo según las estimaciones actuales. Además, la dependencia de operaciones corporativas externas (como el interés de Altria por Imperial Brands) añade volatilidad especulativa.
-* **Datos faltantes**: No se dispone de un desglose trimestral completo e independiente para el ejercicio fiscal 2025 completo en los extractos suministrados (algunos campos aparecen nulos por estacionalidad de presentación anual cerrada a septiembre), y no se cuenta con un portafolio de inversión provisto. Por consiguiente, se clasifica la recomendación general bajo el estricto mandato de cautela.
+#### 3. Contexto Macroeconómico y Noticias Relevantes del Sector
+* **Entorno Macro Europeo y Local:** A finales de noviembre de 2026, los mercados bursátiles europeos y la tecnología prolongan un fuerte rebote (el Euro Stoxx 50 y DAX avanzan con fuerza, y el IPC de noviembre en España se modera al 4,1%). Los analistas prevén subidas adicionales en las bolsas europeas para el próximo año a pesar de los riesgos vigentes.
+* **Catalizadores Corporativos e Hitos de M&A (Noticias Clave de la Semana):**
+  * Han surgido noticias de relevancia corporativa que afectan indirectamente al valor: **Altria estudia lanzar una oferta para comprar Imperial Brands** (propietaria de Altadis y accionista/vínculo histórico clave en la cadena de distribución de Logista). Rankia y Cinco Días han analizado las implicaciones directas de esta potencial operación corporativa para los accionistas de Logista, dado el peso de la distribución de tabaco y productos afines en su modelo de negocio.
+
+#### 4. Evidencia y Datos Faltantes / Limitaciones
+* No se dispone de las estimaciones detalladas de flujo de caja libre a 5 años o desglose pormenorizado por segmentos geográficos fuera del reporte anual estándar consolidado a septiembre de 2026.
+* Las valoraciones de analistas son estimaciones de consenso y no deben interpretarse como un valor intrínseco fundamental definitivo.
+
+---
 
 FINAL TRANSACTION PROPOSAL: REVIEW
 
-| Componente Clave | Métrica / Dato Actual | Implicación para el Inversor |
+| Concepto Clave | Valor / Dato | Evidencia / Fuente |
 | :--- | :--- | :--- |
-| **Precio y Tendencia** | 37,70 EUR (+3,74% diario) | Impulsado por el rebote europeo general; RSI en 60,81 (fortaleza moderada). |
-| **Valoración (PER)** | 15,04x (Forward) / 17,70x (Trailing) | Valuación razonable dentro de su sector industrial y de distribución. |
-| **Dividend Yield** | 5,59% (Payout: 95,31%) | Atractivo flujo de caja libre (454M EUR) que respalda la retribución al accionista. |
-| **Solvencia** | Deuda Neta / EBITDA de 0,60x | Estructura financiera muy sólida, bajo riesgo de apalancamiento. |
-| **Consenso de Mercado** | Objetivo medio: 34,32 EUR (-8,96% de potencial) | El precio actual cotiza por encima de la valoración media de los analistas. |
-| **Noticias Relevantes** | Oferta potencial de Altria sobre Imperial Brands | Factor especulativo y de seguimiento crítico para la evolución de la compañía. |
+| **Ticker y Mercado** | `LOG.MC` (MCE, España) | Datos precargados (27/11/2026) |
+| **Precio de Cierre** | 39,06 EUR | Yahoo Finance / Datos de mercado |
+| **Capitalización Bursátil** | ~5.162 millones de EUR | Balances y métricas financieras |
+| **Forward P/E** | 15,46x | Fundamentales de Logista |
+| **Net Debt / EBITDA** | 0,60x | Balance y EBITDA a sept. 2026 |
+| **Rentabilidad por Dividendo** | 5,20% - 5,38% | Datos de dividendos y cotización |
+| **Precio Objetivo de Consenso** | 34,32 EUR (Upside: -12,13%) | Consenso de 11 analistas |
+| **Noticia Destacada (M&A)** | Interés de Altria en Imperial Brands | Cinco Días / Rankia (26/11/2026) |

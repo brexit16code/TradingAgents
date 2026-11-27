@@ -1,9 +1,17 @@
 **Rating**: Hold
 
-**Executive Summary**: Mantener la posición actual sin realizar compras ni ventas. Se debe proteger el capital con un stop-loss en 13,50 EUR y evitar cualquier incremento en la exposición hasta que el precio supere la resistencia de la media móvil de 20 días en 15,32 EUR. La estrategia se basa en la preservación del capital ante la debilidad técnica y los riesgos estructurales de flujo de caja.
+**Executive Summary**: La recomendación es mantener una postura neutral de **Hold**. Tras analizar el debate, he determinado que la evidencia fundamental y técnica sigue bloqueada en un punto muerto que no justifica ni la compra agresiva ni la salida forzada. El inversor debe conservar las tenencias actuales sin ampliar exposición, priorizando la preservación de capital frente a la alta volatilidad (30,27%) y la fragilidad operativa reflejada en el flujo de caja. No debe realizarse ninguna compra nueva hasta que el precio supere la resistencia técnica de la media móvil de 200 sesiones (SMA200) ubicada en 15,44 EUR.
 
-**Investment Thesis**: La tesis neutral se impone debido al conflicto crítico entre una valoración fundamental atractiva (Forward PER de 9,42x y un potencial de revalorización del 37,14% según el consenso) y un deterioro financiero y técnico evidente. Aunque el analista agresivo destaca el valor cíclico, el analista conservador fundamenta correctamente su cautela en un flujo de caja libre negativo de -155,27 M EUR y un payout ratio insostenible del 144%, que en un entorno de tipos de interés altos presiona la flexibilidad financiera. La evidencia técnica, con ACX.MC cotizando por debajo de sus medias móviles de 20, 50 y 200 días y un RSI de 37,99, confirma una falta de momentum alcista que invalida compras prematuras. Un cambio a una postura de 'Overweight' o 'Buy' requeriría evidencia tangible de una generación de caja operativa positiva que cubra los dividendos y una ruptura consolidada de la resistencia en 15,32 EUR.
+**Investment Thesis**: La tesis de **Hold** se fundamenta en un equilibrio de riesgos que neutraliza la tentación alcista:
 
-**Price Target**: 20.08
+*   **Evidencia a favor (Agresiva)**: Existe una infravaloración teórica considerable con un Forward PE de 9,57x, muy por debajo del histórico, y un upside según consenso del 34,9%. La reciente entrada de Arconas al 5% en el accionariado otorga un respaldo institucional que sugiere que el mercado podría estar sobre-reaccionando a la baja.
+*   **Evidencia en contra (Conservadora)**: La estructura financiera es deficiente. Un *payout ratio* del 144% y un flujo de caja libre negativo (-155,27 M EUR) ponen en entredicho la sostenibilidad del dividendo, y el ratio de deuda neta sobre EBITDA (3,15x) limita la flexibilidad operativa de Acerinox, S.A. en un sector cíclico como el acero.
+*   **Análisis técnico**: La ruptura actual por debajo de la SMA50 (16,30 EUR) y la SMA200 (15,44 EUR) confirma un momento bajista que invalida la entrada a precios actuales.
 
-**Time Horizon**: 3-6 meses
+**Factores de cambio**:
+1.  **Activación de Compra**: Modificaría mi posición a 'Buy' si se confirma un cierre sostenido por encima de los 15,44 EUR (SMA200) acompañado de un incremento en el volumen, lo que señalaría un retorno del interés institucional.
+2.  **Activación de Venta**: Modificaría mi posición a 'Sell' si el precio perfora con convicción el soporte de 14,10 EUR (target bajo del consenso), lo que indicaría un deterioro técnico profundo e invalidaría la tesis de soporte de valor.
+
+**Datos faltantes**: Los estados financieros proporcionados no incluyen una previsión de flujo de caja para 2027, lo que dificulta validar si el capex actual se traducirá en una mejora del FCF en el futuro próximo. Asimismo, no hay detalles sobre los términos del apalancamiento de la deuda a corto plazo frente a los tipos de interés vigentes, lo cual es vital para evaluar la sostenibilidad del 3,15x deuda/EBITDA.
+
+FINAL TRANSACTION PROPOSAL: **HOLD**

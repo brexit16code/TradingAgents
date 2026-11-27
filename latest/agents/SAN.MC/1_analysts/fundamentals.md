@@ -1,62 +1,67 @@
 **Rating**: REVIEW
 
-**FINAL TRANSACTION PROPOSAL:**
-- Ticker: SAN.MC
-- Instrument: Banco Santander, S.A.
-- Action: HOLD / REVIEW (Read-only research report)
-- Hypothesis Allocation: Hypothetical 0% (Insufficient data / Review status)
+**FINAL TRANSACTION PROPOSAL:** HOLD
 
----
+***
 
 ### Informe Fundamental Integral: Banco Santander, S.A. (`SAN.MC`)
 
-#### 1. Perfil de la Empresa y Contexto de Negocio
-- **Compañía:** Banco Santander, S.A. (`SAN.MC`)
-- **Clasificación Sectorial:** Financial Services / Banks - Diversified
-- **Mercado Bursátil:** Bolsas y Mercados Españoles (MCE), cotizado en Euros (EUR), integrante del selectivo benchmark ^IBEX.
-- **Resumen de Negocio:** Banco Santander es uno de los mayores grupos bancarios diversificados a nivel internacional, con una fuerte presencia minorista y comercial en Europa (España, Reino Unido) y América (Latinoamérica y EE. UU.).
+Fecha de análisis: 27 de noviembre de 2026  
+Cotización de referencia: 10,90 EUR (`SAN.MC`, Mercado MCE, EUR)
 
-#### 2. Datos Financieros Clave y Valoración (Snapshot a 26 de noviembre de 2026)
-- **Precio de Cierre:** 10.44 EUR (con una variación en la última sesión de +4.11%, impulsada por el rebote generalizado del sector bancario y tecnológico europeo).
-- **Capitalización Bursátil:** ~150.398 millones de EUR.
-- **Rango de Análisis Técnico / Precio:** 
-  - RSI (14): 42.34 (neutral, ligeramente sesgado a la baja desde niveles anteriores).
-  - MACD: -0.276 (señal: -0.257), reflejando presión bajista de corto plazo a pesar del rebote diario.
-  - Medias móviles: SMA20 en 10.68 EUR, SMA50 en 11.39 EUR, SMA200 en 11.14 EUR. El precio actual (10.44 EUR) se sitúa por debajo de sus medias de referencia, con un *drawdown* del -18.42% desde sus máximos recientes.
-- **Valoración Fundamental:**
-  - **Trailing P/E:** 11.73x
-  - **Forward P/E:** 8.38x
-  - **Precio/Valor en Libros (P/B):** 1.33x (sobre un valor contable por acción de 7.87 EUR).
-  - **Beneficio por Acción (EPS):** 0.89 EUR (Trailing) / 1.245 EUR (Forward estimado).
-  - **Rentabilidad por Dividendo (Dividend Yield):** ~2.39% - 2.53%, con un *dividend rate* de 0.25 EUR y un *payout ratio* de 25.42%.
-  - **Rentabilidad sobre el Capital (ROE):** 13.06%
-  - **Márgenes:** Margen de beneficios netos del 32.58%.
+---
 
-#### 3. Análisis de Estados Financieros (Historial Anual)
-A partir de los estados financieros suministrados (cifras en EUR):
-- **Cuenta de Resultados (Income Statement):**
-  - *2025:* Ingresos Totales de 60.023 millones de EUR; Beneficio Neto de 14.101 millones de EUR.
-  - *2024:* Ingresos Totales de 60.305 millones de EUR; Beneficio Neto de 12.574 millones de EUR.
-  - *2023:* Ingresos Totales de 56.687 millones de EUR; Beneficio Neto de 11.076 millones de EUR.
-  *(Observación: Los ingresos se han mantenido relativamente estables en torno a los 60.000 millones, mientras que el beneficio neto muestra una trayectoria de crecimiento constante entre 2023 y 2025).*
-- **Balance de Situación (Balance Sheet):**
-  - *2025:* Activos Totales de 1.867.515 millones de EUR; Deuda Total de 326.212 millones de EUR; Fondos Propios (*Stockholders Equity*) de 103.170 millones de EUR.
-  - *2024:* Activos Totales de 1.837.081 millones de EUR; Deuda Total de 327.723 millones de EUR; Fondos Propios de 98.601 millones de EUR.
-  - *2023:* Activos Totales de 1.797.062 millones de EUR; Deuda Total de 310.979 millones de EUR; Fondos Propios de 95.423 millones de EUR.
-- **Flujos de Caja (Cash Flow):**
-  - *2025:* Flujo de Caja Operativo de -14.835 millones de EUR; Capex de -7.659 millones de EUR; FCF de -22.494 millones de EUR.
-  - *2024:* Flujo de Caja Operativo de -24.155 millones de EUR; Capex de -10.598 millones de EUR; FCF de -34.753 millones de EUR.
-  - *2023:* Flujo de Caja Operativo de +5.015 millones de EUR; Capex de -13.643 millones de EUR; FCF de -8.628 millones de EUR.
-  *(Nota metodológica: Las métricas tradicionales de flujo de caja libre y operativo en entidades bancarias y diversificadas como `SAN.MC` reflejan la dinámica de balance e inversión en activos financieros/operativos propios de la industria bancaria y no deben interpretarse bajo los mismos criterios que las empresas industriales).*
+#### 1. Perfil de la Compañía y Contexto de Negocio
+**Banco Santander, S.A.** (`SAN.MC`) es una de las entidades financieras diversificadas más grandes a nivel global, operando bajo el sector de Servicios Financieros y la industria de Bancos Diversificados. Con una capitalización bursátil aproximada de **157.052 millones de EUR**, el banco mantiene una presencia minorista y mayorista muy robusta en Europa (con especial peso en España y Reino Unido) y en América Latina.
 
-#### 4. Consenso de Analistas y Perspectivas de Mercado
-- **Precio Objetivo Medio (Target Mean Price):** 13.70 EUR (con un rango entre un objetivo mínimo de 11.30 EUR y un máximo de 15.05 EUR, basado en las opiniones de 21 analistas).
-- **Potencial de Consenso (Consensus Upside):** 31.26% respecto al precio de cotización actual (10.44 EUR).
-- **Noticias y Contexto Macro Reciente (Noviembre de 2026):**
-  - El valor se ha visto impulsado en las últimas sesiones junto con el sector europeo gracias a fuertes rebotes en la banca y la tecnología (referencias de cierre a 26 de noviembre de 2026).
-  - Se destaca la elección de Pablo Hernández de Cos como presidente del BCE (anunciado el 26 de noviembre de 2026) y un entorno donde el euríbor supera el 3.3%, marcando la dinámica de tipos de interés en la Eurozona.
-  - Informes de prensa especializada (*Expansión*, *Estrategias de Inversión*) destacan que, a pesar de la corrección sufrida desde máximos recientes, el valor cuenta con un potencial estimado superior al 30% según los consensos de mercado.
+En los últimos días de noviembre de 2026, la actualidad corporativa de `SAN.MC` ha estado marcada por varios hitos operativos y de mercado:
+* **Comportamiento Bursátil Reciente:** El valor ha experimentado repuntes significativos, impulsado por el optimismo generalizado en las bolsas europeas y el sector bancario. Recientemente, `SAN.MC` perforó resistencias técnicas clave (sesión del 27 de noviembre de 2026), situándose a la cabeza de subidas en el selectivo Ibex 35 y acumulando un incremento diario superior al 4% (cercano al 4,42% en la última sesión registrada).
+* **Gestión de Pasivos y Deuda:** Se ha anunciado la amortización de bonos por parte de Santander UK Group con vencimiento en 2028 (MarketScreener España, 27 de noviembre de 2026), lo que refleja una gestión activa de la estructura de capital y pasivos de la filial británica.
+* **Movimientos Corporativos:** Nombramientos estratégicos como el de Felipe Portillo al frente de la banca de inversión de Santander en Europa (roams.es, 27 de noviembre de 2026).
 
-#### 5. Evidencia Contradictoria y Factores de Riesgo
-- **Datos y Métricas Faltantes / Limitaciones:** No se dispone en la instantánea de datos desglosados de transacciones de *insiders* recientes, ni ratios sectoriales específicos de morosidad (NPL) en tiempo real más allá de los agregados. No se aplican reglas industriales de deuda/EBITDA ni múltiplos de PER industrial por tratarse de una entidad financiera (*banks - diversified*).
-- **Riesgos Técnicos:** El indicador MACD sigue en territorio negativo (-0.276) y la cotización se mantiene por debajo de la media móvil de 20, 50 y 200 sesiones, lo
+---
+
+#### 2. Análisis de Estados Financieros Históricos
+*Nota metodológica: De acuerdo con las normas de análisis financiero, no se aplican reglas de deuda industrial/EBITDA ni ratios de PER industrial a entidades bancarias.*
+
+##### A. Cuenta de Resultados (`income_stmt`)
+Evolución de los ingresos totales y el beneficio neto de los últimos ejercicios disponibles:
+* **Ejercicio 2025:** Total Revenue de **60.023 millones de EUR**; Net Income de **14.101 millones de EUR**.
+* **Ejercicio 2024:** Total Revenue de **60.305 millones de EUR**; Net Income de **12.574 millones de EUR**.
+* **Ejercicio 2023:** Total Revenue de **56.687 millones de EUR**; Net Income de **11.076 millones de EUR**.
+
+*Análisis:* Se observa una trayectoria ascendente sólida en la generación de beneficios netos (pasando de 11.076M€ en 2023 a 14.101M€ en 2025), lo que demuestra una mejora en la eficiencia operativa, el margen de intermediación y la contención de costes, a pesar de una ligera estabilización en los ingresos totales brutos en 2025 frente a 2024.
+
+##### B. Balance de Situación (`balance_sheet`)
+Estructura patrimonial y de activos:
+* **Ejercicio 2025:** Total Assets de **1.867.515 millones de EUR**; Total Debt de **326.212 millones de EUR**; Stockholders Equity (Patrimonio Neto) de **103.170 millones de EUR**.
+* **Ejercicio 2024:** Total Assets de **1.837.081 millones de EUR**; Total Debt de **327.723 millones de EUR**; Stockholders Equity de **98.601 millones de EUR**.
+* **Ejercicio 2023:** Total Assets de **1.797.062 millones de EUR**; Total Debt de **310.979 millones de EUR**; Stockholders Equity de **95.423 millones de EUR**.
+
+*Análisis:* El balance muestra una expansión constante del volumen de activos totales (acercándose a los 1,87 billones de euros) acompañada de un fortalecimiento progresivo de los fondos propios (superando los 103.000 millones de euros al cierre de 2025), lo que refuerza la solvencia y la capacidad de absorción de riesgos de la entidad.
+
+##### C. Flujos de Caja (`cashflow`)
+* **Ejercicio 2025:** Operating Cash Flow de **-14.835 millones de EUR**; Capital Expenditure de **-7.659 millones de EUR**; Free Cash Flow de **-22.494 millones de EUR**.
+* **Ejercicio 2024:** Operating Cash Flow de **-24.155 millones de EUR**; Capital Expenditure de **-10.598 millones de EUR**; Free Cash Flow de **-34.753 millones de EUR**.
+* **Ejercicio 2023:** Operating Cash Flow de **5.015 millones de EUR**; Capital Expenditure de **-13.643 millones de EUR**; Free Cash Flow de **-8.628 millones de EUR**.
+
+*Nota sobre datos de flujo de caja:* Las cifras de flujos de caja operativos y libres reportadas bajo los extractos estándar para entidades financieras reflejan dinámicas contables complejas de capital circulante e inversión en balance bancario que difieren sustancialmente de las empresas industriales, debiendo interpretarse en conjunto con los ratios de capital regulatorio (CET1) y la cuenta de resultados.
+
+---
+
+#### 3. Ratios Financieros y de Valoración Clave
+* **Capitalización Bursátil:** 157.052,99 millones de EUR.
+* **PER (Trailing PE):** 11,98x.
+* **PER Estimado (Forward PE):** 8,74x (basado en un EPS estimado forward de 1,25 EUR frente a un EPS trailing de 0,91 EUR).
+* **Precio / Valor en Libros (Price to Book):** 1,38x (con un valor contable por acción de 7,87 EUR).
+* **Rentabilidad por Dividendo (Dividend Yield):** En torno al **2,29% - 2,43%**, con un dividendo por acción (dividendRate) de 0,25 EUR y un ratio de pay-out del 25,42%.
+* **Rentabilidad sobre Recursos Propios (ROE):** 13,06%.
+* **Márgenes:** Margen de beneficios (Profit Margins) muy elevado, del **32,58%**.
+* **Consenso de Analistas (Target Mean Price):** El precio objetivo medio del consenso de analistas (basado en 21 opiniones) se sitúa en **13,70 EUR** (con un rango que va desde un objetivo mínimo de 11,30 EUR hasta un máximo de 15,05 EUR). Esto representa un potencial alcista (consensus upside) aproximado del **25,70%** frente al precio actual de 10,90 EUR.
+
+---
+
+#### 4. Perspectiva Técnica y Momentum de Mercado
+* **Precio de Cierre:** 10,90 EUR (27 de noviembre de 2026).
+* **RSI (14):** 50,48, lo que denota una zona de neutralidad estricta tras el reciente impulso alcista.
+* **Medias Móviles:** SMA 20 en 10,72 EUR; SMA 50 en 11,37 EUR; SMA 

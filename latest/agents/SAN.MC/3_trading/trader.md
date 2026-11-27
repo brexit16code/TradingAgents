@@ -1,11 +1,11 @@
-**Action**: Hold
+**Action**: Buy
 
-**Reasoning**: A pesar de que los fundamentales muestran un atractivo PER adelantado de 8,38x y un potencial analítico superior al 31%, la estructura técnica de SAN.MC se mantiene débil con el precio cotizando por debajo de sus medias móviles de 50 y 200 sesiones y un MACD negativo. La divergencia entre la sólida valoración y la tendencia bajista de corto plazo justifica mantener y esperar a la superación de resistencias antes de reasignar capital.
+**Reasoning**: Banco Santander muestra fundamentales robustos con un Forward P/E atractivo de 8,75x, un ROE del 13,06% y un potencial alcista del consenso hasta los 13,70 EUR. Aunque cotiza por debajo de sus medias móviles de 50 y 200 sesiones, la reciente ruptura de resistencias y el rebote técnico con un volumen de subidas superior al 4% justifican una entrada táctica y gradual aprovechando la coyuntura actual.
 
-**Entry Price**: not provided
+**Entry Price**: 10.9
 
-**Stop Loss**: not provided
+**Stop Loss**: 10.15
 
-**Position Sizing**: Mantener exposición actual sin ampliaciones hasta confirmación técnica
+**Position Sizing**: 5% of portfolio
 
-FINAL TRANSACTION PROPOSAL: **HOLD**
+FINAL TRANSACTION PROPOSAL: **BUY**

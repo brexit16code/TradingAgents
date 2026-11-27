@@ -1,48 +1,65 @@
-**Análisis Técnico y Fundamental de Cellnex Telecom, S.A. (`CLNX.MC`)**
+**Rating**: REVIEW
 
-### 1. Contexto de Mercado y Estado Actual
-El presente informe analiza la evolución de **Cellnex Telecom, S.A. (`CLNX.MC`)**, compañía cotizada en la Bolsa de Madrid (MCE) y clasificada bajo el sector inmobiliario/servicios inmobiliarios (`Real Estate Services`), cotizando en Euros (EUR) y formando parte de índices de referencia como el IBEX 35 (`^IBEX`). A fecha de 26 de noviembre de 2026, el valor de cierre de la acción se sitúa en **25,50 EUR**, registrando una variación positiva del **+0,59%** en la sesión reciente.
+# Informe de Análisis Técnico y Fundamental: Cellnex Telecom, S.A. (`CLNX.MC`)
 
-El contexto macroeconómico europeo de finales de noviembre de 2026 viene marcado por fuertes rebotes en las bolsas europeas impulsados por el sector bancario y tecnológico, tras nombramientos clave en el Banco Central Europeo (como Pablo Hernández de Cos como presidente del BCE) y unos tipos de interés y euríbor elevados que siguen tensionando la financiación corporativa.
-
-### 2. Análisis de Indicadores Técnicos Clave (Selección de Indicadores)
-Para evaluar el comportamiento bursátil de `CLNX.MC`, se seleccionan los siguientes 8 indicadores técnicos complementarios y no redundantes disponibles en el ecosistema analítico:
-1. **`close_50_sma`**: Media móvil simple de 50 sesiones (situada en **25,07 EUR**), actúa como referencia de tendencia a medio plazo. El precio actual (25,50 EUR) cotiza ligeramente por encima de esta media, sugiriendo un soporte dinámico cercano.
-2. **`close_200_sma`**: Media móvil simple de 200 sesiones (**26,85 EUR**), benchmark clave a largo plazo para confirmar la estructura general de mercado.
-3. **`close_10_ema`**: Media móvil exponencial rápida de 10 sesiones para capturar giros dinámicos de corto plazo en el precio.
-4. **`macd`**: Indicador de convergencia/divergencia de medias móviles (valor de **-0,047**), que refleja la atonía de impulso tendencial a corto plazo.
-5. **`macds`**: Línea de señal del MACD (**0,110**), que se encuentra por encima de la línea MACD, denotando presión bajista leve o consolidación.
-6. **`rsi`**: Índice de Fuerza Relativa a 14 periodos, situado en **48,33**. Este valor neutral (cerca de la zona media de 50) indica ausencia de condiciones extremas de sobrecompra o sobreventa, mostrando un equilibrio temporal entre compradores y vendedores.
-7. **`atr`**: Rango Verdadero Medio para medir la volatilidad histórica reciente (volatilidad porcentual anualizada del **28,34%** y *drawdown* actual del **-20,30%** respecto a máximos).
-8. **`boll`**: Banda media de Bollinger (equivalente a la SMA de 20 sesiones en **26,05 EUR**), que sirve de referencia central de volatilidad junto a sus bandas superior e inferior.
-
-### 3. Análisis Fundamental y Financiero
-De acuerdo con los estados financieros y estimaciones recientes integradas:
-* **Capitalización de Mercado**: 16.715.203.584,00 EUR.
-* **Ingresos y Rentabilidad**: En el ejercicio cerrado a 31 de diciembre de 2025 (`2025-12-31`), Cellnex registró unos ingresos totales de **4.120.257.000,00 EUR** (frente a 4.070.205.000,00 EUR en 2024), con un EBITDA de **2.988.078.000,00 EUR** y un resultado neto negativo de **-360.776.000,00 EUR**. 
-* **Estructura de Deuda**: La deuda total asciende a **22.126.999.552,00 EUR** (con un total de deuda en balance de 21.88,9 mil millones en 2025), y un ratio de deuda neta sobre EBITDA (`net_debt_ebitda`) estimado en **7,96x**, lo que refleja un apalancamiento elevado característico de la industria de infraestructuras de torres de telecomunicaciones.
-* **Flujos de Caja**: El flujo de caja operativo en 2025 se situó en **2.286.046.000,00 EUR**, con unas inversiones de capital (*CapEx*) de **-1.760.224.000,00 EUR**, resultando en un flujo de caja libre (*Free Cash Flow*) positivo de **525.822.000,00 EUR** (una mejora sustancial frente a los 276,2 millones de 2024 y negativo en 2023).
-* **Dividendos**: Ofrece una política de dividendo con una rentabilidad por dividendo (*dividend yield*) del **2,97%** (un dividendo por acción de 0,75 EUR y ratio de reparto *payout ratio* del 16,04%).
-* **Consenso de Analistas**: El precio objetivo medio de consenso de los analistas se sitúa en **34,18 EUR** (con un rango entre un mínimo de 21,00 EUR y un máximo de 45,80 EUR cubierto por 23 opiniones de analistas), lo que implica un potencial de revalorización teórico (*consensus upside*) del **34,03%**.
-
-### 4. Evidencia y Fuentes de Datos
-* **Fechas y Cotización**: Datos extraídos directamente de la instantánea de mercado de `CLNX.MC` fechada el **2026-11-26**.
-* **Noticias y Contexto**: Menciones de análisis fundamental en Bolsamania y ExtraETF con fecha de noviembre de 2026. Entorno macroeconómico europeo reportado por El Boletín y Negocios.com (`2026-11-26`).
-* **Datos Faltantes**: Cifras exactas detalladas de flujo de caja operativo y libre desglosadas por trimestre para el ejercicio en curso no completas en la muestra parcial; se emplean los estados anuales auditados hasta 2025.
-
-### 5. Conclusión y Recomendación Hipotélica
-Cellnex Telecom (`CLNX.MC`) cotiza en un rango de consolidación a medio camino entre su media móvil de 50 sesiones (25,07 EUR) y la de 200 sesiones (26,85 EUR). El RSI en 48,33 y un MACD neutral sugieren paciencia operativa, a la espera de una ruptura clara de soportes o resistencias dinámicas. El elevado apalancamiento (net debt/EBITDA superior a 7x) sigue siendo un factor crítico a vigilar en entornos de tipos de interés altos, a pesar de la mejora constante en la generación de flujo de caja libre y un potencial analítico de consenso superior al 34%.
-
-**Rating**: HOLD
-
-FINAL TRANSACTION PROPOSAL:
-* **Hypothetical Action**: Mantener / Posicionamiento neutral de vigilancia (*Hold*).
-* **Target Price (Consensus)**: 34.18 EUR.
-* **Stop-Loss / Risk Management Guidance**: Establecer niveles de protección dinámicos basados en ATR y soporte en la media de 50 sesiones (aprox. 25,00 EUR).
+## 1. Contexto de Mercado y Datos Clave
+- **Ticker y Empresa**: `CLNX.MC` (Cellnex Telecom, S.A., cotizada en MCE, sector Real Estate / Real Estate Services).
+- **Precio de Cierre (27 de noviembre de 2026)**: 25.60 EUR (variación diaria del +0.39%).
+- **Rango de Operativa Reciente y Tendencia**: RSI(14) en 49.54 (zona neutral), MACD en -0.0435 con línea de señal en 0.0789. La volatilidad de 51 sesiones se sitúa en 27.54%.
+- **Medias Móviles**: SMA20 en 26.03 EUR, SMA50 en 25.08 EUR y SMA200 en 26.83 EUR. El precio actual se encuentra ligeramente por debajo de la SMA200 y la SMA20, pero por encima de la SMA50, lo que denota una fase de consolidación a medio plazo dentro de un rango lateral-bajista a largo plazo.
+- ** drawdown actual**: -19.98% respecto a máximos recientes.
 
 ---
 
-### Resumen en Tabla de Puntos Clave
+## 2. Análisis Fundamental y Financiero
+Basado en los estados financieros y métricas fundamentales proporcionadas:
+- **Capitalización de Mercado**: 16.780 millones de EUR.
+- **Ingresos y Rentabilidad**: Los ingresos totales alcanzaron los 4.120 millones de EUR al cierre del ejercicio 2025, frente a los 4.070 millones de 2024. Sin embargo, el resultado neto permanece en terreno negativo con -360,78 millones de EUR en 2025 (frente a -28,04 millones en 2024). 
+- **Deuda y Apalancamiento**: La deuda total asciende a 22.126 millones de EUR (21.889 millones según balance 2025), con un EBITDA de 2.591 millones de EUR, situando la ratio de deuda neta sobre EBITDA en niveles elevados (7.96x). 
+- **Flujo de Caja**: El flujo de caja operativo en 2025 fue de 2.286 millones de EUR, con inversiones de capital (CapEx) de 1.760 millones, resultando en un flujo de caja libre (FCF) positivo de 525,8 millones de EUR (una mejora considerable frente a los 276 millones de 2024 y los -126 millones de 2023).
+- **Valoración y Dividendos**: Dividend Yield estimado en torno al 2.93% (dividendo por acción de 0.75 EUR con un *payout ratio* del 16.04%). El precio sobre valor contable (*Price to Book*) es de 1.30, con un valor contable por acción de 19.71 EUR. El precio objetivo medio de los analistas (*targetMeanPrice*) se sitúa en 34.18 EUR (con un rango entre 21.00 EUR y 45.80 EUR y 23 opiniones de analistas), lo que implica un potencial de revalorización (*consensus upside*) del 33.51%.
 
-| Categoría | Indicador / Métrica | Valor Actual / Referencia | Implicación Analítica |
+---
+
+## 3. Selección de Indicadores Técnicos Complementarios
+Para un análisis riguroso y sin redundancias de `CLNX.MC`, se seleccionan los siguientes 8 indicadores recomendados por su diversidad y complementariedad:
+1. `close_50_sma`: Para identificar la dirección de la tendencia a medio plazo y actuar como soporte dinámico.
+2. `close_200_sma`: Para confirmar la tendencia macro a largo plazo.
+3. `close_10_ema`: Para capturar cambios rápidos de impulso a corto plazo.
+4. `macd`: Para evaluar la divergencia/convergencia de la tendencia mediante medias exponenciales.
+5. `macds`: Línea de señal del MACD para filtrar cruces operativos.
+6. `rsi`: Para vigilar zonas de sobrecompra o sobreventa (actualmente neutral en ~49.5).
+7. `boll_ub`: Banda de Bollinger superior para identificar posibles zonas de resistencia o ruptura superior.
+8. `boll_lb`: Banda de Bollinger inferior para identificar potenciales soportes o condiciones de sobreventa.
+
+---
+
+## 4. Evidencia de Noticias y Contexto Macroeconómico
+Las fuentes de noticias adjuntas (fechadas el 27 de noviembre de 2026) señalan un tono de optimismo generalizado en las bolsas europeas y tecnológicas con fuertes rebotes semanales, a pesar de la desaceleración económica en Francia y una inflación en España situada en el 4,1% en noviembre de 2026. No existen noticias corporativas específicas de última hora sobre `CLNX.MC` en la muestra de los últimos 7 días.
+
+---
+
+## 5. Datos Faltantes y Advertencias
+- **Datos faltantes**: No se dispone de datos detallados sobre el flujo de caja operativo ni flujo de caja libre correspondientes al último trimestre suelto de 2026 fuera de los cierres anuales auditados hasta 2025, ni estimaciones detalladas de ganancias futuras libres de ruido contable.
+- **Advertencias**: La compañía mantiene un nivel de endeudamiento elevado (deuda neta/EBITDA superior a 7x) y beneficios netos negativos recurrentes, a pesar de generar un flujo de caja libre positivo creciente. El ratio *Trailing P/E* no es aplicable debido a las pérdidas netas.
+
+---
+
+## 6. Conclusión y Recomendación
+A pesar de que el consenso de analistas otorga un precio objetivo medio de 34.18 EUR (implicando un potencial superior al 33%), la frágil estructura de beneficios netos, la alta carga de deuda y la neutralidad técnica actual (cotizando en torno a 25.60 EUR, atrapada entre su SMA50 de 25.08 y su SMA200 de 26.83) aconsejan prudencia. 
+
+FINAL TRANSACTION PROPOSAL: REVIEW
+
+---
+
+### Resumen de Puntos Clave
+
+| Categoría | Métrica / Indicador | Valor / Estado | Implicación Operativa |
 | :--- | :--- | :--- | :--- |
+| **Precio y Tendencia** | Cierre `CLNX.MC` | 25.60 EUR | Consolidación lateral, cotizando por debajo de la SMA200 (26.83 EUR). |
+| **Impulso / Momentum** | RSI (14) | 49.54 | Zona neutral; sin señales extremas de sobrecompra o sobreventa. |
+| **Tendencia Largo Plazo**| SMA 200 | 26.83 EUR | Actúa como resistencia dinámica de referencia a largo plazo. |
+| **Fundamentales** | Deuda Total / EBITDA | Deuda: ~22.100M EUR / EBITDA: ~2.590M EUR | Apalancamiento financiero elevado (Ratio Deuda Neta/EBITDA en ~7.96x). |
+| **Flujo de Caja** | Free Cash Flow (2025) | 525.8 Millones EUR | Mejora notable en la generación de caja libre respecto a ejercicios anteriores. |
+| **Valoración** | Precio Objetivo Medio | 34.18 EUR | Potencial alcista de consenso del 33.51% según analistas. |
+| **Riesgo** | Drawdown / Volatilidad | -19.98% / 27.54% | Volatilidad moderada-alta con corrección significativa desde máximos. |

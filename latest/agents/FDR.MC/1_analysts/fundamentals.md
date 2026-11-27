@@ -1,71 +1,104 @@
 **Rating**: REVIEW
 
-**FINAL TRANSACTION PROPOSAL:**
-* **Action**: HOLD (Hypothetical)
-* **Ticker**: FDR.MC
-* **Exchange**: MCE (Madrid Stock Exchange)
-* **Target Allocation**: Neutral / Watchlist
+**FINAL TRANSACTION PROPOSAL**: HOLD
 
 ---
 
-### Informe Fundamental de Fluidra, S.A. (`FDR.MC`)
+### Informe Fundamental Integral: Fluidra, S.A. (`FDR.MC`)
 
-#### 1. Perfil de la Compañía y Contexto de Negocio
-* **Nombre de la Compañía**: Fluidra, S.A. (`FDR.MC`)
-* **Clasificación Sectorial / Industrial**: Consumo Cíclico / Ocio (*Consumer Cyclical / Leisure*)
-* **Moneda de cotización y financiera**: EUR (€)
-* **Identidad Resuelta**: Líder global en el sector del equipamiento y soluciones para piscinas y bienestar.
+Fecha del informe: 27 de noviembre de 2026.
+Bolsa de cotización: Bolsas y Mercados Españoles (MCE), índice de referencia `^IBEX`.
+Sector: Consumo Cíclico / Ocio (*Consumer Cyclical / Leisure*).
 
-#### 2. Datos Financieros Clave y Valoración de Mercado
-A fecha de la última instantánea de mercado disponible (26 de noviembre de 2026), los datos fundamentales de `FDR.MC` son los siguientes:
-* **Precio de Cierre**: 18.70 EUR
-* **Capitalización de Mercado**: 3.512.263.936 EUR (~3.51.000 millones EUR)
-* **PER Trailing (Trailing P/E)**: 21.25x
-* **PER Forward (Forward P/E)**: 11.95x (basado en un EPS estimado de 1.56 EUR)
-* **Precio sobre Valor en Libros (Price-to-Book)**: 2.20x
-* **Valor de Empresa sobre EBITDA (EV/EBITDA)**: 11.96x
-* **Beneficio por Acción (EPS Trailing)**: 0.88 EUR
-* **Crecimiento de Ingresos (*Revenue Growth*)**: 15.0%
-* **Rentabilidad sobre Recursos Propios (ROE)**: 10.52%
-* **Margen de Beneficio (*Profit Margins*)**: 7.21%
-* **Deuda Neta / EBITDA**: 2.95x (Deuda total de ~1.289 millones EUR frente a un efectivo de ~135 millones EUR y un EBITDA de ~391 millones EUR)
-* **Rentabilidad por Dividendo (*Dividend Yield*)**: ~3.53% (con un dividendo anual de 0.66 EUR por acción y un *payout ratio* del 70.7%)
-* **Consenso de Analistas (Precio Objetivo)**: 
-  * Precio Objetivo Medio: 25.93 EUR
-  * Rango de Estimación: Mínimo 19.00 EUR / Máximo 31.00 EUR
-  * Número de analistas: 15
-  * *Upside* potencial según consenso: +38.67%
+---
 
-#### 3. Análisis de Estados Financieros Históricos
-Los estados financieros consolidados muestran la evolución reciente de la compañía (cifras en EUR):
+### 1. Perfil de la Empresa y Resumen de Negocio
 
-* **Cuenta de Resultados (*Income Statement*)**:
-  * **Ejercicio 2025**: Ingresos Totales de 2.221.085.000 EUR; EBITDA de 463.453.000 EUR; Beneficio Neto de 176.026.000 EUR.
-  * **Ejercicio 2024**: Ingresos Totales de 2.136.402.000 EUR; EBITDA de 417.616.000 EUR; Beneficio Neto de 138.068.000 EUR.
-  * **Ejercicio 2023**: Ingresos Totales de 2.083.496.000 EUR; EBITDA de 383.517.000 EUR; Beneficio Neto de 113.827.000 EUR.
-  * *Análisis*: Se observa una tendencia sólida de recuperación y crecimiento orgánico e inorgánico progresivo tanto en la cifra de negocio como en los márgenes de beneficio neto e EBITDA entre 2023 y 2025.
+Fluidra, S.A. (`FDR.MC`) es una multinacional española líder global en el sector del desarrollo de aplicaciones para piscinas y wellness. Su modelo de negocio abarca la fabricación y distribución de una amplia gama de productos para piscinas residenciales y comerciales, incluyendo sistemas de filtración, bombas, iluminación, productos químicos, calefacción y elementos de diseño lúdico. 
 
-* **Balance de Situación (*Balance Sheet*)**:
-  * **Ejercicio 2025**: Activos Totales de 3.414.404.000 EUR; Deuda Total de 1.224.108.000 EUR; Patrimonio Neto (*Stockholders Equity*) de 1.591.782.000 EUR.
-  * **Ejercicio 2024**: Activos Totales de 3.637.307.000 EUR; Deuda Total de 1.319.930.000 EUR; Patrimonio Neto de 1.647.183.000 EUR.
-  * **Ejercicio 2023**: Activos Totales de 3.507.439.000 EUR; Deuda Total de 1.326.479.000 EUR; Patrimonio Neto de 1.567.557.000 EUR.
-  * *Análisis*: La estructura de capital se mantiene relativamente estable, experimentando una reducción gradual en el volumen de deuda total en el último año fiscal.
+Al encontrarse en el sector de consumo cíclico, los resultados financieros de la compañía tienden a correlacionarse estrechamente con la confianza del consumidor, el mercado inmobiliario (construcción de nuevas viviendas con piscina) y la actividad de reformas (*aftermarket*).
 
-* **Flujo de Caja (*Cash Flow*)**:
-  * **Ejercicio 2025**: Flujo de Caja Operativo de 342.601.000 EUR; CAPEX de -71.099.000 EUR; Flujo de Caja Libre (FCF) de 271.502.000 EUR.
-  * **Ejercicio 2024**: Flujo de Caja Operativo de 310.602.000 EUR; CAPEX de -73.108.000 EUR; Flujo de Caja Libre de 237.494.000 EUR.
-  * **Ejercicio 2023**: Flujo de Caja Operativo de 428.930.000 EUR; CAPEX de -64.130.000 EUR; Flujo de Caja Libre de 364.800.000 EUR.
-  * *Análisis*: Capacidad constante de generación de caja positiva, lo que respalda de forma holgada la retribución al accionista vía dividendos.
+---
 
-#### 4. Indicadores Técnicos y Momento de Mercado (`FDR.MC`)
-* **Precio Actual**: 18.70 EUR
-* **RSI (14)**: 49.73 (zona neutral, sin sobrecompra ni sobreventa).
-* **MACD**: 0.015 (señal: 0.136), reflejando una consolidación a corto plazo.
-* **Medias Móviles**: 
-  * SMA20: 19.09 EUR
-  * SMA50: 18.29 EUR
-  * SMA200: 19.21 EUR
-* **Volatilidad (22.45%) y Drawdown**: -26.73% desde máximos recientes, indicando que el título cotiza con un descuento considerable respecto a periodos anteriores, a pesar de la fortaleza macroeconómica general de las bolsas europeas a finales de noviembre de 2026 (impulsadas por fuertes subidas en renta variable y recortes de tipos de interés previstos).
+### 2. Análisis Financiero y Datos Fundamentales
 
-#### 5. Evidencia y Datos Faltantes
-* **Datos Faltantes**: No se dispone de datos de transacciones de iniciados (*insider transactions*) específicos para la última semana en los registros suministrados, ni de titulares de noticias comerciales directos sobre la compañía en los últimos 7 días (la muestra de noticias macroeconómicas del 26 de noviembre de 2026 cubre el tono general de los mercados europeos, pero no catalizadores operativos propios de `FDR
+A partir de los datos proporcionados con fecha de instantánea 27 de noviembre de 2026, la situación financiera de Fluidra se compone de las siguientes métricas clave:
+
+*   **Capitalización Bursátil**: 3.529.168.128 EUR (aprox. 3.530 millones de EUR).
+*   **Precio de Cotización**: 18,79 EUR por acción (`FDR.MC`).
+*   **Valor en Libros por Acción (*Book Value*)**: 8,514 EUR.
+*   **Ratio Precio/Valor en Libros (*Price-to-Book*)**: 2,21x.
+*   **PER Trailing (*Trailing P/E*)**: 21,35x (basado en un beneficio por acción histórico de 0,88 EUR).
+*   **PER Adelantado (*Forward P/E*)**: 12,01x (estimando un beneficio por acción adelantado de 1,564 EUR).
+*   **EV/EBITDA**: 12,04x.
+*   **Crecimiento de Ingresos**: 15,0% anual.
+*   **Rentabilidad sobre el Patrimonio (*ROE*)**: 10,52%.
+*   **Margen de Beneficio Neto**: 7,21%.
+*   **Deuda Total**: 1.289.284.992 EUR (frente a 135.363.008 EUR de efectivo total).
+*   **Deuda Neta / EBITDA**: 2,95x.
+*   **Rentabilidad por Dividendo (*Dividend Yield*)**: 3,51% a 3,53% (con un dividendo anual de 0,66 EUR y un ratio de reparto (*payout*) del 70,7%).
+
+#### Consenso de Analistas:
+*   **Precio Objetivo Medio (*Target Mean Price*)**: 25,93 EUR.
+*   **Precio Objetivo Mínimo**: 19,00 EUR.
+*   **Precio Objetivo Máximo**: 31,00 EUR.
+*   **Número de Opiniones de Analistas**: 15.
+*   **Potencial de Subida Consenso (*Consensus Upside*)**: +38,01% respecto al precio de cotización actual (18,79 EUR).
+
+---
+
+### 3. Historial Financiero (Estados Financieros Anuales)
+
+Los datos de los últimos ejercicios fiscales muestran la evolución del negocio de Fluidra:
+
+*   **Ingresos Totales**:
+    *   2023: 2.083.496.000 EUR
+    *   2024: 2.136.402.000 EUR
+    *   2025: 2.221.085.000 EUR
+*   **EBITDA**:
+    *   2023: 383.517.000 EUR
+    *   2024: 417.616.000 EUR
+    *   2025: 463.453.000 EUR
+*   **Beneficio Neto (*Net Income*)**:
+    *   2023: 113.827.000 EUR
+    *   2024: 138.068.000 EUR
+    *   2025: 176.026.000 EUR
+*   **Flujo de Caja Operativo (*Operating Cash Flow*)**:
+    *   2023: 428.930.000 EUR
+    *   2024: 310.602.000 EUR
+    *   2025: 342.601.000 EUR
+*   **Flujo de Caja Libre (*Free Cash Flow*)**:
+    *   2023: 364.800.000 EUR
+    *   2024: 237.494.000 EUR
+    *   2025: 271.502.000 EUR
+
+La trayectoria refleja una recuperación y crecimiento sostenido tanto en la cifra de negocio como en la generación de beneficios netos desde 2023 hasta el cierre del ejercicio 2025.
+
+---
+
+### 4. Aspectos Técnicos y Noticias Recientes
+
+*   **Indicadores Técnicos**:
+    *   Cierre reciente: 18,79 EUR.
+    *   RSI (14): 51,40 (neutral).
+    *   MACD: 0,018 (con señal en 0,112).
+    *   Medias Móviles: SMA20 en 19,09 EUR, SMA50 en 18,31 EUR y SMA200 en 19,18 EUR. La acción se encuentra operando en un rango lateral consolidando alrededor de sus medias de largo plazo.
+    *   Volatilidad (21,88%) y una caída acumulada desde máximos (*drawdown*) del -26,38%.
+*   **Eventos Recientes**:
+    *   Con fecha **27 de noviembre de 2026**, Fluidra ha comunicado su calendario financiero oficial para el año 2027, destacando cuatro fechas clave de presentación de resultados corporativos a lo largo del ejercicio, según fuentes de *Investing.com España* y *Bolsamania* (URLs referenciadas en el suministro de noticias).
+    *   El contexto macroeconómico general de la bolsa europea muestra un tono de rebote y optimismo en los mercados de renta variable durante finales de noviembre de 2026, aunque persisten datos mixtos sobre la evolución de la economía en la eurozona (por ejemplo, ralentización en Francia e índices de IPC moderándose).
+
+---
+
+### 5. Datos Faltantes y Limitaciones
+
+*   No se dispone de los estados intermedios detallados del Q3 de 2026, limitándose la información cuantitativa a los cierres anuales auditados hasta 2025 y a las estimaciones de consenso adelantadas.
+*   No se suministraron transacciones de iniciados (*insider transactions*) recientes para este periodo específico, por lo que no es posible evaluar compras o ventas recientes de directivos.
+*   Cualquier asignación de cartera mencionada es estrictamente hipotética; no se gestiona ninguna cartera real.
+
+---
+
+### 6. Tabla Resumen de Puntos Clave
+
+| Métrica / Concepto | Valor / Estado | Comentario Analítico |
+| :--- | :--- | :---

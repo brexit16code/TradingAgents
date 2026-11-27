@@ -1,65 +1,79 @@
-**Rating**: REVIEW
+**Laboratorios Farmaceuticos Rovi, S.A. (`ROVI.MC`) - Informe Fundamental y de Análisis Bursátil**
 
-**FINAL TRANSACTION PROPOSAL**: HOLD
-
----
-
-### Informe Fundamental Integral: Laboratorios Farmaceuticos Rovi, S.A. (`ROVI.MC`)
-
-#### 1. Perfil de la Compañía y Contexto de Mercado
-* **Identidad Resuelta**: Laboratorios Farmaceuticos Rovi, S.A. (`ROVI.MC`), cotizada en la Bolsa de Madrid (MCE) y ponderada frente al índice de referencia `^IBEX`.
-* **Sector y Negocio**: Healthcare / Drug Manufacturers - Specialty & Generic. La compañía opera especialidades farmacéuticas y servicios de fabricación a terceros (CMO), destacando en plataformas de liberación prolongada de medicamentos (como la tecnología ISM) y su papel estratégico como socio de fabricación para vacunas y productos biológicos.
-* **Precio de Cierre (2026-11-26)**: 64.05 EUR
-* **Capitalización de Mercado**: 3,275,717,376 EUR (~3.28 mil millones de EUR)
-* **Moneda de Denominación**: EUR
+**Rating**: HOLD  
+FINAL TRANSACTION PROPOSAL: REVIEW  
 
 ---
 
-#### 2. Análisis Financiero y Evolución Histórica (Estados Financieros)
-Los datos financieros extraídos de los estados contables anuales reflejan la transición de la compañía tras el pico de ingresos extraordinarios asociados a la pandemia de COVID-19:
-
-* **Cuenta de Resultados (Ingresos, EBITDA y Beneficio Neto)**:
-  * **Ejercicio 2023**: Ingresos Totales de 829,509,000 EUR; EBITDA de 245,406,000 EUR; Beneficio Neto de 170,335,000 EUR.
-  * **Ejercicio 2024**: Ingresos Totales de 763,749,000 EUR; EBITDA de 207,693,000 EUR; Beneficio Neto de 136,881,000 EUR.
-  * **Ejercicio 2025**: Ingresos Totales de 743,483,000 EUR; EBITDA de 216,201,000 EUR; Beneficio Neto de 140,442,000 EUR.
-  * *Observación*: Se percibe una estabilización en los ingresos tras la normalización post-COVID, mostrando una ligera recuperación del beneficio neto en 2025 hasta los 140.4 millones de euros. El crecimiento de ingresos reportado en métricas de 12 meses es del 26.4%, sujeto a variaciones de perímetro o contratos específicos.
-
-* **Balance de Situación**:
-  * **Activos Totales**: 799,884,000 EUR (2023) $\rightarrow$ 832,022,000 EUR (2024) $\rightarrow$ 955,691,000 EUR (2025).
-  * **Patrimonio Neto (Stockholders Equity)**: 539,387,000 EUR (2023) $\rightarrow$ 572,028,000 EUR (2024) $\rightarrow$ 664,415,000 EUR (2025).
-  * **Deuda Total**: 65,427,000 EUR (2023) $\rightarrow$ 114,410,000 EUR (2024) $\rightarrow$ 121,724,000 EUR (2025). 
-  * *Solvencia y Liquidez*: Con una deuda total actual de aproximadamente 100.94 millones de EUR y una posición de caja de 70.92 millones de EUR, la deuda neta sobre EBITDA se sitúa en un muy saludable 0.15x, demostrando un balance extremadamente sólido.
-
-* **Flujo de Caja (Cash Flow)**:
-  * **Flujo de Caja Operativo**: 113,247,000 EUR (2023) $\rightarrow$ 138,278,000 EUR (2024) $\rightarrow$ 187,078,000 EUR (2025).
-  * **Gastos de Capital (CapEx)**: -55,187,000 EUR (2023) $\rightarrow$ -62,219,000 EUR (2024) $\rightarrow$ -67,813,000 EUR (2025).
-  * **Flujo de Caja Libre (Free Cash Flow)**: 58,060,000 EUR (2023) $\rightarrow$ 76,059,000 EUR (2024) $\rightarrow$ 119,265,000 EUR (2025).
-  * *Análisis FCF*: La capacidad de generación de caja libre ha mostrado una trayectoria marcadamente ascendente en los últimos tres años, superando los 119 millones de euros en 2025.
+### 1. Perfil de la Compañía y Negocio
+Laboratorios Farmacéuticos Rovi, S.A. (`ROVI.MC`) es una empresa farmacéutica española líder clasificada dentro del sector de Salud (Healthcare) y la industria de fabricantes de medicamentos especializados y genéricos (*Drug Manufacturers - Specialty & Generic*). Cotiza en la Bolsa de Madrid (MCE) bajo el ticker `ROVI.MC` y forma parte del índice de referencia bursátil español ^IBEX. Su modelo de negocio integra actividades de investigación, desarrollo, fabricación y comercialización tanto de especialidades farmacéuticas propias como bajo licencia, destacando globalmente por su tecnología de inyectables de liberación prolongada (como su plataforma *ISM®*) y por sus capacidades de fabricación a terceros (CDMO).
 
 ---
 
-#### 3. Valoración y Métricas Clave de Mercado
-* **PER Trailing (Trailing P/E)**: 15.93x
-* **PER Forward (Forward P/E)**: 19.37x (basado en un EPS estimado de 3.31 EUR frente a los 4.02 EUR históricos).
-* **Precio / Valor en Libros (Price to Book)**: 4.20x
-* **EV / EBITDA**: 17.06x
-* **Rentabilidad por Dividendo (Dividend Yield)**: ~1.49% (con un dividendo por acción de 0.96 EUR y un ratio de reparto / payout ratio del 25.8%).
-* **Rentabilidad sobre el Capital (ROE)**: 28.71%, lo que evidencia una eficiencia notable en la asignación del capital y generación de valor para los accionistas.
-* **Consenso de Analistas**: 
-  * Precio objetivo medio (*Target Mean Price*): 74.78 EUR.
-  * Precio objetivo mínimo: 67.00 EUR.
-  * Precio objetivo máximo: 89.00 EUR.
-  * Número de analistas: 9.
-  * Potencial alcista implícito (*Consensus Upside*): ~16.75% respecto al precio de cotización actual de 64.05 EUR.
+### 2. Análisis Financiero Fundamental (Datos Históricos y Actuales)
+
+A partir de los estados financieros suministrados (con cierres fiscales anuales recientes), se observa la evolución de sus magnitudes clave:
+
+*   **Capitalización Bursátil**: 3.252.702.720 EUR (~3.25 mil millones de EUR).
+*   **Valor en Bolsa (Precio de Cierre)**: 63,60 EUR (a fecha 27 de noviembre de 2026).
+*   **Resultados de Ingresos y Beneficios**:
+    *   *Ejercicio 2023*: Ingresos totales de 829.509.000 EUR, EBITDA de 245.406.000 EUR y Beneficio Neto de 170.335.000 EUR.
+    *   *Ejercicio 2024*: Ingresos totales de 763.749.000 EUR, EBITDA de 207.693.000 EUR y Beneficio Neto de 136.881.000 EUR.
+    *   *Ejercicio 2025*: Ingresos totales de 743.483.000 EUR, EBITDA de 216.201.000 EUR y Beneficio Neto de 140.442.000 EUR.
+*   **Métricas de Valoración**:
+    *   *Trailing P/E*: 15,59x (con un beneficio por acción histórico *Trailing EPS* de 4,08 EUR).
+    *   *Forward P/E*: 19,31x (estimando un beneficio por acción adelantado *Forward EPS* de 3,29 EUR).
+    *   *Price to Book (P/B)*: 4,17x (con un valor contable por acción de 15,25 EUR y un patrimonio neto de 664,4 millones de EUR al cierre de 2025).
+    *   *Enterprise Value to EBITDA (EV/EBITDA)*: 16,99x.
+*   **Generación de Caja y Solvencia**:
+    *   *Flujo de Caja Operativo (2025)*: 187.078.000 EUR (Frente a 138.278.000 EUR en 2024).
+    *   *Gasto de Capital / Capex (2025)*: -67.813.000 EUR.
+    *   *Flujo de Caja Libre / Free Cash Flow (2025)*: 119.265.000 EUR.
+    *   *Deuda Total*: 100.946.000 EUR (Deuda en balance 2025: 121.724.000 EUR) frente a una caja total de 70.916.000 EUR.
+    *   *Ratio Deuda Neta / EBITDA*: 0,15x, lo que refleja una estructura de capital muy sólida y conservadora con un apalancamiento mínimo.
+*   **Rentabilidad y Dividendos**:
+    *   *Return on Equity (ROE)*: 28,71%, lo que evidencia una alta eficiencia en la generación de retornos para los accionistas.
+    *   *Margen de Beneficio Neto*: 24,81%.
+    *   *Dividend Yield*: 1,51% (con una tasa de dividendo anual de 0,96 EUR por acción y un *payout ratio* moderado del 25,83%).
 
 ---
 
-#### 4. Análisis Técnico y Entorno Macroeconómico Reciente
-* **Indicadores Técnicos**:
-  * **RSI (14)**: 47.06 (zona neutral, sin sobreventa ni sobrecompra).
-  * **MACD**: 0.75 (con línea de señal en 1.55).
-  * **Medias Móviles**: SMA20 en 66.61 EUR, SMA50 en 62.01 EUR y SMA200 en 64.80 EUR. La acción cotiza ligeramente por debajo de su media de 200 sesiones, con una volatilidad del 27.4% y un retroceso máximo (*drawdown*) de -23.83%.
-* **Contexto Macroeconómico Reciente (Noviembre de 2026)**:
-  * Las bolsas europeas experimentan fuertes repuntes impulsadas por el sector bancario y tecnológico, coincidiendo con la elección de Pablo Hernández de Cos como presidente del BCE y un entorno donde el euríbor supera el 3.3%. Aunque el sector salud defensivo puede comportarse de manera independiente al ciclo financiero, el tono general del mercado europeo es de optimismo a finales de noviembre de 2026.
-* **Noticias y Divulgación**:
-  * Cobertura analítica reciente registrada a través de portales especializados como Bolsamania (
+### 3. Análisis Técnico y Comportamiento Bursátil
+
+*   **Precio Actual**: 63,60 EUR.
+*   **Medias Móviles**: SMA20 ubicada en 66,66 EUR, SMA50 en 62,13 EUR y SMA200 en 64,74 EUR. El valor se encuentra cotizando cerca de su media de 200 sesiones, mostrando consolidación a corto plazo.
+*   **Indicadores de Momento**:
+    *   RSI(14) en 45,44, reflejando una zona neutral sin signos evidentes de sobrecompra o sobreventa.
+    *   MACD en 0,53 con su línea de señal en 1,34.
+*   **Volatilidad y Drawdown**: Volatilidad del 27,36%. La acción experimenta un retroceso (*drawdown*) del -24,36% desde sus máximos recientes.
+*   **Rendimiento**: Retorno a 21 sesiones del 3,33%, a 63 sesiones del 6,00% y a 252 sesiones (anual) del 9,31%. Supera a su índice de referencia a 63 sesiones con un diferencial positivo (*relative63_pp*) de +8,21 pp.
+
+---
+
+### 4. Consenso de Analistas y Perspectivas
+
+*   **Precio Objetivo Medio (Consenso)**: 74,78 EUR.
+*   **Rango de Objetivos**: Mínimo de 67,00 EUR y Máximo de 89,00 EUR.
+*   **Número de Opiniones**: 9 analistas cubren el valor.
+*   **Potencial Teórico de Revalorización (*Consensus Upside*)**: 17,58%.
+
+---
+
+### 5. Datos Faltantes y Advertencias
+
+*   **Datos Faltantes**: No se dispone de un desglose detallado diario de transacciones de iniciados (*insider transactions*) en el bloque de datos suministrado para esta sesión, ni métricas pormenorizadas sobre el crecimiento estimado de beneficios a largo plazo más allá del consenso general.
+*   **Advertencias**: La muestra de noticias específicas para ROVI.MC en los últimos 7 días directos es limitada (respaldada por titulares macroeconómicos generales del mercado europeo y español del 26 y 27 de noviembre de 2026). Los objetivos de analistas recopilados son estimaciones de consenso y no sustituyen una valoración intrínseca formal.
+
+---
+
+### 6. Resumen en Tabla Clave
+
+| Concepto Clave | Valor / Métrica |
+| :--- | :--- |
+| **Ticker** | `ROVI.MC` |
+| **Bolsa / Divisa** | MCE (Madrid) / EUR |
+| **Precio de Cierre** | 63,60 EUR |
+| **Capitalización Bursátil** | 3.252.702.720 EUR |
+| **PER (Trailing / Forward)** | 15,59x / 19,31x |
+| **EV / EBITDA** | 16,99x |
+| **ROE (Rentabilidad sobre Recursos Propios)** | 28,

@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: Puig Brands muestra fundamentales robustos y una clara tendencia alcista respaldada por el soporte de la SMA 50 en 19,04 EUR y SMA 200 en 17,19 EUR. No obstante, el RSI de 70,10 sitúa al valor en zona de sobrecompra técnica y el limitado potencial de revalorización respecto al precio objetivo de consenso (21,88 EUR) aconseja prudencia y mantener la posición existente.
+**Reasoning**: La cotizacion de PUIG.MC se encuentra en 21,02 EUR, muy cerca del precio objetivo medio de consenso de 21,89 EUR, lo que deja un margen de revalorizacion muy estrecho (aproximadamente un 4,13%). Adicionalmente, el RSI de 14 se situa en 70,92, reflejando condiciones de sobrecompra tecnica tras el fuerte impulso alcista impulsado por revisiones de analistas como la de JP Morgan. Aunque los fundamentales son solidos con una generacion de flujo de caja libre creciente y un balance saneado, el perfil de riesgo-recompensa actual desaconseja nuevas compras netas hasta presenciar una consolidacion o un retroceso hacia la media movil de 20 sesiones en 20,12 EUR.
 
 **Entry Price**: not provided
 
-**Stop Loss**: not provided
+**Stop Loss**: 19.13
 
-**Position Sizing**: 5% of portfolio
+**Position Sizing**: 5% de la cartera hipotetica
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

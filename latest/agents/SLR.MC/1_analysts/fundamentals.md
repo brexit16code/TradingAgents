@@ -1,73 +1,67 @@
 **Rating**: REVIEW
 
-FINAL TRANSACTION PROPOSAL: HOLD
+# Informe Fundamental de Solaria Energía y Medio Ambiente, S.A. (`SLR.MC`)
+
+Este informe recopila y analiza la información fundamental, financiera, operativa y de mercado reciente de **Solaria Energía y Medio Ambiente, S.A. (`SLR.MC`)**, cotizada en el mercado continuo español (Bolsa de Madrid), con el objetivo de dotar a los traders e inversores de una perspectiva exhaustiva y basada estrictamente en los datos suministrados.
 
 ---
 
-### **Informe Fundamental de Solaria Energía y Medio Ambiente, S.A. (`SLR.MC`)**
+## 1. Perfil de la Compañía y Negocio
+* **Identidad Resuelta**: Solaria Energía y Medio Ambiente, S.A.
+* **Ticker / Bolsa**: `SLR.MC` (MCE - Madrid)
+* **Sector / Industria**: Utilities / Utilities - Renovable
+* **Capitalización de Mercado**: 1.877.933.952 EUR (~1.880 millones de EUR)
+* **Moneda de Denominación**: EUR
 
-Presentamos a continuación un análisis exhaustivo de la información fundamental, financiera y de mercado de **Solaria Energía y Medio Ambiente, S.A. (`SLR.MC`)**, cotizada en el mercado continuo español (BME) y perteneciente al sector de *Utilities* (energías renovables), con base en los datos disponibles al cierre de noviembre de 2026.
+Solaria opera como un productor independiente de energía renovable (IPP), centrado principalmente en la tecnología fotovoltaica. Recientemente, la compañía ha intensificado su apuesta estratégica hacia el desarrollo de **centros de datos** (*data centers*), diversificando sus vías de negocio tradicionales de generación eléctrica limpia (*Fuente de noticias OCU, 26-11-2026*).
 
----
+---.
 
-### **1. Perfil de la Compañía y Contexto de Mercado**
-* **Ticker:** `SLR.MC`
-* **Empresa:** Solaria Energía y Medio Ambiente, S.A.
-* **Sector / Industria:** *Utilities* / *Utilities - Renewable*
-* **Bolsa / Divisa:** MCE (Madrid) / EUR
-* **Capitalización Bursátil:** ~1.853,58 millones de EUR
-* **Precio de Cierre (26/11/2026):** 14,08 EUR
-* **Rango de Análisis Técnico:** 
-  * RSI (14): 42,83 (zona neutral/ligeramente bajista)
-  * Drawdown histórico reciente: -45,32% desde máximos
-  * SMA20: 15,13 EUR | SMA50: 15,54 EUR | SMA200: 19,38 EUR (tendencia de medio-largo plazo bajista)
+## 2. Análisis Financiero Reciente y Histórico
 
----
+Los datos contables e históricos extraídos de los estados financieros muestran la evolución de la compañía:
 
-### **2. Análisis Financiero y Evolución de Resultados**
+### A. Cuenta de Resultados (`income_stmt`)
+* **Ejercicio 2025**:
+  * Total Revenue (Ingresos Totales): 197.443.000 EUR (frente a 176.906.000 EUR en 2024 y 191.322.000 EUR en 2023).
+  * EBITDA: 266.732.000 EUR (mejora significativa respecto a los 201.895.000 EUR de 2024 y 201.316.000 EUR de 2023).
+  * Net Income (Beneficio Neto): 137.390.000 EUR (muestra un incremento relevante en comparación con los 88.614.000 EUR de 2024 y 107.514.000 EUR de 2023).
+* **Crecimiento de Ingresos**: Se registra una tasa interanual de ingresos (`revenueGrowth`) de -3,9% según los datos consolidados recientes, a pesar del repunte en el beneficio neto.
 
-Basado en los estados financieros auditados y reportados para los ejercicios cerrados a 31 de diciembre de 2023, 2024 y 2025:
+### B. Balance de Situación (`balance_sheet`)
+* **Activos Totales**: 2.443.464.000 EUR (2025), creciendo de forma sostenida desde los 1.968.642.000 EUR (2024) y 1.648.922.000 EUR (2023).
+* **Deuda Total (`totalDebt`)**: 1.508.758.000 EUR al cierre de 2025 (y 1.547.000.064 EUR en métricas de mercado actuales).
+* **Patrimonio Neto (*Stockholders Equity*)**: 704.207.000 EUR (2025), frente a 613.886.000 EUR (2024).
+* **Apalancamiento**: Ratio de Deuda Neta a EBITDA (`net_debt_ebitda`) en torno a **4,42x**, lo cual refleja una estructura de capital intensiva en deuda típica de desarrolladores de infraestructuras renovables en fase de expansión.
 
-* **Cuenta de Resultados (Ingresos y Beneficios):**
-  * *Total Revenue (Ingresos Totales):* 
-    * 2023: 191,32 M€
-    * 2024: 176,91 M€
-    * 2025: 197,44 M€ (evidencia una recuperación y crecimiento interanual del +11,6% respecto a 2024).
-  * *EBITDA:*
-    * 2023: 201,32 M€
-    * 2024: 201,90 M€
-    * 2025: 266,73 M€ (fuerte incremento operativo, reflejando economías de escala y entrada en operación de nuevos parques).
-  * *Net Income (Beneficio Neto):*
-    * 2023: 107,51 M€
-    * 2024: 88,61 M€
-    * 2025: 137,39 M€ (repunte muy positivo de la rentabilidad neta).
-
-* **Balance de Situación (Solvencia y Estructura de Capital):**
-  * *Total Assets (Activos Totales):* 1.648,92 M€ (2023) $\rightarrow$ 1.968,64 M€ (2024) $\rightarrow$ 2.443,46 M€ (2025). Crecimiento agresivo en activos debido al despliegue de infraestructura renovable.
-  * *Total Debt (Deuda Total):* 1.060,05 M€ (2023) $\rightarrow$ 1.147,43 M€ (2024) $\rightarrow$ 1.508,76 M€ (2025). 
-  * *Stockholders Equity (Patrimonio Neto):* 522,92 M€ (2023) $\rightarrow$ 613,89 M€ (2024) $\rightarrow$ 704,21 M€ (2025).
-  * *Ratio de endeudamiento y apalancamiento:* La deuda neta sobre EBITDA se sitúa en torno a **4,42x**, un nivel elevado típico del sector intensivo en capital, pero que pone a prueba su capacidad de expansión (según notas de prensa recientes, la deuda sigue siendo un factor de vigilancia estricta por parte del mercado).
-
-* **Flujos de Caja (Cash Flow):**
-  * *Operating Cash Flow (Flujo de Caja Operativo):* 98,08 M€ (2023) $\rightarrow$ 115,32 M€ (2024) $\rightarrow$ 138,16 M€ (2025).
-  * *Capital Expenditure (CapEx):* -328,61 M€ (2023) $\rightarrow$ -187,39 M€ (2024) $\rightarrow$ -398,26 M€ (2025).
-  * *Free Cash Flow (Flujo de Caja Libre):* FCF negativo sostenido (-230,53 M€ en 2023; -72,07 M€ en 2024; -260,10 M€ en 2025), impulsado por las fuertes inversiones en desarrollo de capacidad instalada.
+### C. Flujo de Caja (`cashflow`)
+* **Flujo de Caja Operativo (*Operating Cash Flow*)**: 138.164.000 EUR en 2025 (superando los 115.319.000 EUR de 2024).
+* **Inversión de Capital (*Capital Expenditure / Capex*)**: -398.262.000 EUR en 2025 (muy superior a los -187.385.000 EUR de 2024).
+* **Flujo de Caja Libre (*Free Cash Flow*)**: Negativo en -260.098.000 EUR para 2025, impulsado por el fuerte esfuerzo inversor en capex de la compañía.
 
 ---
 
-### **3. Valoración y Múltiplos de Mercado**
+## 3. Valoración y Métricas de Mercado
 
-* **PER (Trailing P/E):** ~7,65x (atractivo en comparación con la media histórica y de sus comparables).
-* **PER Estimado (Forward P/E):** ~8,07x (con un BPA estimado de 1,75 EUR frente a los 1,84 EUR actuales).
-* **Precio / Valor en Libros (P/B):** 1,69x (Valor contable por acción de 8,32 EUR).
-* **EV / EBITDA:** 9,78x.
-* **Valoración Relativa sectorial:** El ratio del PER de Solaria frente a la mediana de sus *peers* en España (`ANE.MC`, `ENG.MC`, `ELE.MC`, `IBE.MC`, `NTGY.MC`, `RED.MC`) se sitúa en **0,46x**, lo que indica que cotiza con un descuento relevante (PER relativo inferior).
-* **Consenso de Analistas:** El precio objetivo medio (*targetMeanPrice*) se sitúa en **21,425 EUR** (con un rango entre 13,00 EUR y 28,00 EUR), lo que arroja un potencial de revalorización (*consensus_upside_pct*) del **+52,17%** basado en 16 opiniones de analistas. No obstante, cabe recordar que los precios objetivos de los analistas son estimaciones de consenso y no valores intrínsecos garantizados.
-* **Política de Dividendos:** Solaria mantiene una política de **0,0% de dividendo por acción** (*dividendYield* y *dividendRate* nulos), reinvirtiendo el 100% del beneficio en el crecimiento de su cartera de proyectos.
+* **PER Histórico (*Trailing P/E*)**: 7,97x
+* **PER Previsto (*Forward P/E*)**: 8,17x
+* **Precio sobre Valor en Libros (*Price to Book*)**: 1,71x
+* **Valor de Empresa sobre EBITDA (*EV/EBITDA*)**: 10,20x
+* **Beneficio por Acción (EPS)**: Trailing EPS de 1,79 EUR; Forward EPS de 1,75 EUR.
+* **Rentabilidad por Dividendo**: 0,0% (la compañía no distribuye dividendo actualmente; `payoutRatio` del 0%).
+* **Rentabilidad sobre Recursos Propios (*ROE*)**: 18,94%
+* **Márgenes de Beneficio (*Profit Margins*)**: 47,25%
+
+### Comparativa Sectorial y Precios Objetivo de Analistas
+* **Valoración Relativa**: El PER forward de Solaria se sitúa por debajo de la mediana de sus comparcriptores en el sector eléctrico/renovable en España (ratio de PER relativo de aproximadamente 0,46 frente a la mediana peer de 17,69x).
+* **Consenso de Analistas**: El precio objetivo medio (*targetMeanPrice*) se sitúa en **21,425 EUR**, con un rango que oscila desde un mínimo (*targetLowPrice*) de 13,00 EUR hasta un máximo (*targetHighPrice*) de 28,00 EUR (basado en la cobertura de 16 analistas). Esto arroja un potencial alcista de consenso (*consensus_upside_pct*) de aprox. **50,19%** sobre el precio de cotización actual.
 
 ---
 
-### **4. Noticias y Coyuntura Reciente (Noviembre de 2026)**
-* **Resultados de 9 Meses y del 3T 2026:** Publicados recientemente (mediados/finales de noviembre de 2026), han mostrado sólidos avances operativos, aunque el mercado mantiene dudas sobre la absorción de los costes de financiación y la ejecución de proyectos internacionales (como las dudas planteadas en torno a su proyecto en Uruguay y su reciente recepción en plazas como Londres).
-* **Oportunidades Estratégicas:** Se analiza con interés el impacto regulatorio de decretos sobre centros de datos en España (*Data Centers*), los cuales podrían suponer una demanda cautiva y un catalizador para la firma de contratos PPA a largo plazo.
-* **Entorno Macroeconómico:** Las bolsas europeas
+## 4. Noticias Recientes y Contexto de Mercado (Noviembre de 2026)
+
+Durante la última semana de noviembre de 2026, la actualidad en torno a `SLR.MC` ha estado marcada por hitos operativos y revisiones de casas de análisis:
+1. **Resultados y Comportamiento Bursátil**: Solaria presentó sus resultados correspondientes a los primeros nueve meses / cierre de ejercicio, mostrando un sólido desempeño operativo que impulsó las acciones cerca de un 3,5% (*Traders Union, 26-11-2026*).
+2. **Revisiones de Analistas**: Renta 4 actualizó su visión sobre la compañía, recortando ligeramente su precio objetivo a **18,20 EUR** pero mejorando su recomendación de inversión gracias al atractivo potencial alcista fundamentado en su cotización actual (*Bolsamania, 26-11-2026*).
+3. **Estrategia en Centros de Datos**: El mercado sigue monitorizando de cerca la diversificación de Solaria hacia el sector de los centros de datos como catalizador de crecimiento a largo plazo, aunque persisten ciertos debates en foros especializados sobre cómo su nivel de endeudamiento pone a prueba su ritmo de expansión (*Prensa Mercosur / OCU, 25/26-11-2026*).
+4. **Contexto Macro**: El mercado europeo y español (`^IBEX`) ha mostrado un tono general de rebote técnico a finales de noviembre de 2026, con descensos de la inflación en

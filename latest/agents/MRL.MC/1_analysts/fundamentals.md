@@ -1,63 +1,54 @@
-**Rating**: REVIEW
+**Análisis Fundamental Integral de MERLIN Properties SOCIMI, S.A. (`MRL.MC`)**
 
-**FINAL TRANSACTION PROPOSAL**: REVIEW
+### 1. Perfil de la Empresa y Resumen de Negocio
+**MERLIN Properties SOCIMI, S.A. (`MRL.MC`)** es la mayor socimi cotizada en España, especializada en la adquisición, gestión y puesta en valor de activos inmobiliarios terciarios de alta calidad en la Península Ibérica (principalmente oficinas, centros comerciales, parques logísticos y centros de datos). Su modelo de negocio se basa en la generación de flujos de caja estables a través de rentas de alquiler a largo plazo y la creación de valor mediante una gestión activa de su cartera.
 
-### Informe Fundamental Integral: MERLIN Properties SOCIMI, S.A. (`MRL.MC`)
+### 2. Análisis Financiero y Estructura Patrimonial
+Con base en los estados financieros y métricas proporcionadas correspondientes al cierre fiscal de 2025:
+- **Capitalización de Mercado:** 7.300,17 millones de EUR.
+- **Valor en Libros y Valoración de Activos (NAV):** El valor contable por acción (*bookValue*) se sitúa en **13,94 EUR**, mientras que el precio de cotización actual (a fecha 27 de noviembre de 2026) es de **11,79 EUR**. Esto refleja un descuento sobre el valor liquidativo con un ratio Precio/Valor en Libros (*Price-to-Book*) de **0,85x**, lo que indica que cotiza con un descuento aproximado del 15% frente a su patrimonio neto contable.
+- **Ingresos y Resultados (2025):** 
+  - La cifra de ingresos totales (*Total Revenue*) alcanzó los **538,96 millones de EUR**, mostrando un crecimiento constante frente a los 494,57 millones de EUR de 2024 y los 464,78 millones de EUR de 2023.
+  - El beneficio neto (*Net Income*) registró un salto notable hasta los **786,13 millones de EUR** en 2025 (frente a los 283,76 millones de EUR de 2024 y la pérdida de -83,50 millones de EUR en 2023), impulsado por la revalorización de activos y la solidez operativa.
+  - El EBITDA se situó en **954,23 millones de EUR** al cierre de 2025.
+- **Estructura de Capital y Deuda:**
+  - El total de activos (*Total Assets*) asciende a **14.268,72 millones de EUR**.
+  - La deuda total (*Total Debt*) se sitúa en **5.062,26 millones de EUR** (con un valor en los datos de instantánea de la API de ~5.386 millones de EUR de pasivo financiero bruto y 1.476 millones de EUR en efectivo). 
+  - El patrimonio neto (*Stockholders Equity*) es de **8.074,43 millones de EUR**, lo que demuestra una sólida solvencia patrimonial con un apalancamiento controlado (*Loan-to-Value* moderado dentro de los estándares de los REITs de oficinas y logísticos).
+- **Flujos de Caja:**
+  - El flujo de caja operativo (*Operating Cash Flow*) para 2025 fue de **415,60 millones de EUR** (superando los 316,78 millones de EUR de 2024).
+  - El flujo de caja libre (*Free Cash Flow*) se situó en **405,03 millones de EUR**, respaldando la capacidad de la compañía para remunerar al accionista.
 
-#### 1. Perfil de la Empresa y Contexto de Negocio
-* **Identidad Resuelta**: MERLIN Properties SOCIMI, S.A. (`MRL.MC`) es una de las principales compañías inmobiliarias cotizadas en la bolsa española (MCE), operando bajo el régimen fiscal de SOCIMI (similar a los REITs internacionales). Su actividad principal se centra en el sector de oficinas, además de contar con exposición significativa a centros de datos, centros comerciales y logística.
-* **Clasificación de Negocio**: *Real Estate / REIT - Office*
-* **Divisa de Presentación**: EUR
-* **Fecha de Análisis**: 26 de noviembre de 2026
+### 3. Política de Dividendos y Retribución al Accionista
+- **Rentabilidad por Dividendo (*Dividend Yield*):** Ofrece un atractivo rendimiento por dividendo estimado en torno al **3,39% - 3,52%**, con un dividendo por acción (*dividendRate*) de **0,40 EUR** y un ratio de pago (*payout ratio*) conservador del **14,83%**, lo que garantiza la sostenibilidad del pago a los accionistas cumpliendo con el régimen fiscal especial de las SOCIMI.
 
-#### 2. Análisis Financiero y Estados Financieros
-A partir de la información financiera histórica y anual suministrada, se destacan las siguientes magnitudes:
-* **Cuenta de Resultados (Ingresos y Beneficios)**:
-  * *Ingresos Totales*: 
-    * 2023: 464.779.000 EUR
-    * 2024: 494.572.000 EUR
-    * 2025: 538.963.000 EUR (Se observa una tendencia de crecimiento constante en la cifra de negocio).
-  * *EBITDA*: 
-    * 2023: 36.599.000 EUR
-    * 2024: 430.518.000 EUR
-    * 2025: 954.226.000 EUR
-  * *Beneficio Neto (Net Income)*: 
-    * 2023: -83.497.000 EUR (Pérdidas influenciadas probablemente por valoraciones de activos o deterioro)
-    * 2024: 283.759.000 EUR
-    * 2025: 786.129.000 EUR
-* **Balance de Situación**:
-  * *Activos Totales*: Crecimiento sostenido desde 12.065.411.000 EUR en 2023 hasta 14.268.718.000 EUR al cierre de 2025.
-  * *Deuda Total*: 4.523.912.000 EUR (2023), 4.922.456.000 EUR (2024) y 5.062.260.000 EUR en 2025 (los datos agregados del snapshot reflejan una deuda total actualizada aproximada de 5.386.004.992 EUR).
-  * *Patrimonio Neto (Stockholders Equity)*: 6.539.038.000 EUR (2023), 7.500.980.000 EUR (2024) y 8.074.432.000 EUR (2025).
-* **Flujos de Caja**:
-  * *Flujo de Caja Operativo*: 227.965.000 EUR (2023), 316.784.000 EUR (2024) y 415.600.000 EUR (2025).
-  * *Flujo de Caja Libre (FCF)*: 225.958.000 EUR (2023), 297.304.000 EUR (2024) y 405.028.000 EUR (2025).
+### 4. Datos Técnicos y Situación de Mercado
+- **Cotización Actual:** 11,79 EUR (sesión del 27/11/2026).
+- **Rangos y Medias Móviles:** 
+  - SMA 20: 11,35 EUR | SMA 50: 11,56 EUR | SMA 200: 13,57 EUR. El valor se encuentra recuperándose por encima de sus medias de corto plazo, aunque todavía por debajo de la media de 200 sesiones.
+  - RSI (14): 58,28 (impulso neutral-alcista).
+  - Volatilidad (anualizada): 28,46%.
+  - Drawdown máximo: -23,80%.
+- **Consenso de Analistas:** 
+  - Número de opiniones analistas: 21.
+  - Precio objetivo medio (*Target Mean Price*): **16,86 EUR** (con un rango que va desde un precio objetivo bajo de 13,60 EUR hasta un precio objetivo alto de 20,85 EUR).
+  - *Consensus Upside:* **+42,97%** de potencial alcista estimado por el consenso de mercado.
 
-#### 3. Valoración y Datos Bursátiles Clave
-* **Precio de Cierre (26/11/2026)**: 11,35 EUR
-* **Capitalización Bursátil**: ~7.027.725.312 EUR
-* **Valor en Libros (Book Value per share)**: 13,94 EUR (con un Price-to-Book de ~0,81, lo que indica que cotiza con descuento respecto a su valor contable neto de activos o NAV).
-* **PER (Trailing)**: 7,83x (influenciado por el fuerte beneficio neto de 2025); **PER Forward**: 20,10x.
-* **Rentabilidad por Dividendo (Dividend Yield)**: ~3,52% - 3,64% (con un dividendo de 0,40 EUR).
-* **Consenso de Analistas**: El precio objetivo medio (*targetMeanPrice*) se sitúa en 16,86 EUR (con un rango entre 13,60 EUR y 20,85 EUR), lo que arroja un potencial de revalorización (*consensus upside*) estimado en el 48,51% basado en las opiniones de 21 analistas.
+### 5. Noticias Recientes y Desarrollos Estratégicos (Semana del 23 al 27 de noviembre de 2026)
+- **Centros de Datos y Regulación:** Han surgido análisis y coberturas de mercado (como los informes de Bankinter y Jefferies publicados entre el 23 y el 25 de noviembre de 2026) que abordan la incertidumbre en torno al negocio de centros de datos de la compañía. No obstante, firmas como Jefferies han señalado que la incertidumbre regulatoria se vislumbra despejada tras el real decreto de centros de datos en España, lo que elimina un obstáculo clave para el desarrollo de esta línea de negocio estratégica de `MRL.MC`.
+- **Apoyo Interno (*Insider Buying*):** Se reportó que el CEO de MERLIN Properties realizó una compra de 10.000 acciones de la compañía, enviando una señal clara de confianza en el valor y en el atractivo de la cotización actual frente a sus fundamentales (Yahoo Finanzas, 24/11/2026).
 
-#### 4. Indicadores Técnicos y Contexto Macroeconómico Reciente
-* **Técnico**: La acción cotiza a 11,35 EUR, por debajo de su media móvil de 200 sesiones (13,58 EUR), reflejando una corrección a medio plazo (drawdown del -26,64%). El RSI de 14 días se encuentra neutral en 49,55.
-* **Macroeconomía**: Las noticias recientes de finales de noviembre de 2026 apuntan a fuertes subidas en las bolsas europeas impulsadas por la banca y la tecnología, en un entorno donde el euríbor supera el 3,3% y se debate la senda de tipos de interés del Banco Central Europeo (liderado recientemente en las noticias por nombramientos como el de Pablo Hernández de Cos al frente del BCE).
-
-#### 5. Evidencia Contaria y de Apoyo / Datos Faltantes
-* **Evidencia de Apoyo**: Sólido incremento en los ingresos y flujos de caja operativos a lo largo de los ejercicios 2023-2025. Descuento atractivo frente al valor en libros (P/B < 1) y un potencial de upside analítico superior al 48%.
-* **Evidencia Contaria**: El entorno de tipos de interés elevados (euríbor por encima del 3,3%) incrementa los costos de financiación para el sector inmobiliario y de oficinas, presionando las valoraciones y la rentabilidad exigida a los activos. Además, cotiza por debajo de sus medias móviles de largo plazo.
-* **Datos Faltantes**: No se dispone de un desglose detallado de transacciones de insiders (*insider transactions*) recientes en el snapshot actual, ni de ratios específicos de cobertura de intereses o desglose pormenorizado de la ocupación por activos específicos fuera de los estados financieros generales suministrados.
+### 6. Datos Faltantes y Limitaciones
+- No se dispone de ratios sectoriales exactos de comparación directa en la instantánea de valoración (*Comparación sectorial no disponible*).
+- Las previsiones a futuro (*Forward EPS* de 0,56 EUR y *Forward PE* de 20,88x) contrastan con los sólidos beneficios netos históricos recientes de 2025 (EPS de 1,45 EUR), lo que sugiere estimaciones conservadoras o ajustes contables futuros previstos por los analistas en el beneficio neto.
 
 ---
 
 ### Resumen de Puntos Clave
 
-| Concepto / Métrica | Valor / Dato | Implicación para el inversor |
-| :--- | :--- | :--- |
-| **Precio de Cotización** | 11,35 EUR (26-11-2026) | Descuento frente al valor contable y medias históricas. |
-| **Valor Contable por Acción** | 13,94 EUR | El Price-to-Book de 0,81x sugiere infravaloración patrimonial. |
-| **Ingresos Totales (2025)** | 538.963.000 EUR | Crecimiento continuado respecto a ejercicios anteriores. |
-| **Flujo de Caja Libre (2025)** | 405.028.000 EUR | Mejora en la generación de caja líquida libre de capex. |
-| **
+| Categoría | Métrica / Indicador | Valor Actual / Referencia | Implicación para el inversor |
+| :--- | :--- | :--- | :--- |
+| **Valoración** | Precio de Cotización | 11,79 EUR (27/11/2026) | Descuento del ~15% frente al valor en libros. |
+| **Valoración** | Valor Contable (*Book Value*) | 13,94 EUR | Activo neto superior a la cotización bursátil (P/B 0,85x). |
+| **Rentabilidad** | Dividend Yield | ~3,39% - 3,52% | Retribución atractiva y sostenible (*payout* del 14,83%). |
+| **Resultados** | Ingresos Totales (2025) | 538,96 Millones de EUR | Crecimiento

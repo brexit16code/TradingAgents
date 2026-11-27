@@ -1,78 +1,72 @@
 **Rating**: HOLD  
-FINAL TRANSACTION PROPOSAL: Mantener posición actual (HOLD) a la espera de confirmar rupturas de resistencia o una consolidación de soportes más atractiva.
+FINAL TRANSACTION PROPOSAL: Mantener posiciones existentes; no se recomienda abrir nuevas compras agresivas debido a una valoración cercana al consenso de analistas y a que cotiza con un PER adelantado de ~15.45x, a pesar de la sólida rentabilidad por dividendo (superior al 5%) y el buen momento técnico reciente.
 
 ---
 
-### Informe de Análisis Financiero y Técnico para `LOG.MC` (Logista Integral, S.A.)
+### Análisis Financiero, Fundamental y Técnico de Logista Integral, S.A. (`LOG.MC`)
 
-#### 1. Resumen de Identidad y Contexto Macroeconómico
-* **Instrumento analizado:** `LOG.MC` (Logista Integral, S.A., cotizada en el Mercado Continuo Español - MCE, sector Industrials / Integrated Freight & Logistics, denominación en EUR).
-* **Fecha de referencia / análisis:** 26 de noviembre de 2026 (`now`).
-* **Contexto macro y sectorial:** Las bolsas europeas cierran con fuertes subidas impulsadas por la banca y la tecnología (con avances superiores al 2% en índices como el Euro Stoxx 50 y el DAX). En el ámbito monetario, el euríbor supera el 3,3%, afectando a las condiciones de financiación, y se destaca la reciente elección de Pablo Hernández de Cos como presidente del BCE. Asimismo, en el radar corporativo del sector tabacalero y de distribución logística destacan noticias recientes sobre el interés de Altria por Imperial Brands (propietaria de Altadis y accionista de referencia histórica o vinculada al perímetro de Logista, según coberturas de Rankia y Cinco Días del 26 de noviembre de 2026).
-
----
-
-#### 2. Análisis Técnico y Dinámica de Precios (`LOG.MC`)
-* **Precio de cierre actual:** 37,70 EUR (sesión del 26/11/2026), experimentando una variación diaria positiva del +3,74% (`change_pct`: 3,742%).
-* **Medias Móviles:**
-  * SMA 20: 36,88 EUR
-  * SMA 50: 36,24 EUR
-  * SMA 200: 33,90 EUR
-  * *Interpretación:* La cotización se sitúa por encima de sus medias móviles clave de 20, 50 y 200 sesiones, lo que confirma una tendencia alcista primaria y secundaria sólida a medio y largo plazo.
-* **Momentum y Osciladores:**
-  * RSI (14 periodos): 60,81 (zona neutral-alcista, sin rebasar todavía el umbral de sobrecompra en 70).
-  * MACD: 0,1525 y Línea de Señal (MACD Signal): 0,2049. El indicador muestra un tono constructivo aunque ligeramente por debajo de su señal inmediata en este punto de lectura exacta.
-* **Volatilidad y Drawdown:**
-  * Volatilidad anualizada: 17,06%.
-  * Drawdown actual: -0,26%, reflejando que el valor cotiza prácticamente en máximos recientes.
-  * Rentabilidades históricas: +3,86% a 21 sesiones, +4,37% a 63 sesiones y +35,71% a 252 sesiones.
+#### 1. Identidad y Contexto de Mercado
+* **Compañía**: Logista Integral, S.A. (`LOG.MC`, cotizada en Bolsas y Mercados Españoles - MCE, sector Industrial / Integrated Freight & Logistics).
+* **Fecha de análisis y referencia temporal**: 27 de noviembre de 2026.
+* **Entorno macroeconómico**: Las bolsas europeas y globales experimentan un fuerte rebote a finales de noviembre de 2026 (con el Dow registrando su mejor semana desde 2022 y perspectivas optimistas de Ostrum AM para 2027), a pesar de la moderación de la inflación en la Eurozona y los retos macro en economías como la francesa. En este contexto, el sector de distribución y logística integrado muestra resiliencia. Asimismo, han trascendido noticias corporativas relevantes en el sector tabaquero e industrial de referencia (como el interés de Altria en Imperial Brands, antigua matriz y accionista de referencia vinculada históricamente al negocio de Logista a través de Altadis), lo cual mantiene la atención de los inversores en el valor.
 
 ---
 
-#### 3. Fundamentos y Valoración Financiera
-* **Capitalización de mercado:** ~4.982,7 millones de EUR.
-* **Valoración por Múltiplos:**
-  * PER trailing (últimos 12 meses): 17,70x.
-  * PER forward (estimado): 15,04x.
-  * EV/EBITDA: 12,38x.
-  * Ratio Price-to-Book (Precio/Valor en Libros): 7,66x.
-* **Cuentas y Balances (Cierre año fiscal a 30-09-2026):**
-  * Ingresos Totales (Total Revenue): 13.837,02 millones de EUR (frente a 12.985,53 millones en 2024).
-  * EBITDA: 568,19 millones de EUR (comparado con 592,99 millones en 2024).
-  * Beneficio Neto (Net Income): 282,04 millones de EUR (frente a 308,24 millones en 2024).
-  * Flujo de caja operativo (Operating Cash Flow): 510,14 millones de EUR.
-  * Flujo de caja libre (Free Cash Flow): 453,97 millones de EUR (periodo 2026).
-  * Deuda Total: 309,26 millones de EUR; Efectivo total: 82,94 millones de EUR (Ratio Deuda Neta / EBITDA aproximado de 0,60x, lo que muestra una sólida salud financiera).
-* **Dividendos:**
-  * Rentabilidad por dividendo (*Dividend Yield*): 5,38% - 5,59% (con un dividendo por acción de 2,03 EUR y un ratio de pago o *payout* elevado del 95,31%).
-* **Consenso de Analistas:**
-  * Precio objetivo medio (*Target Mean Price*): 34,32 EUR (con un rango bajo de 26,70 EUR y alto de 40,00 EUR a partir de 11 opiniones de analistas).
-  * Upside de consenso: -8,96% respecto al precio actual de 37,70 EUR, lo que indica que el precio de mercado ha superado ligeramente la media de las valoraciones de consenso vigentes y aconseja cautela a corto plazo.
+#### 2. Situación Financiera y Fundamental
+Con base en los estados financieros cerrados al periodo de septiembre de 2026:
+* **Capitalización Bursátil**: 5.160 millones de EUR.
+* **Ingresos Totales (TTM)**: 13.837 millones de EUR a cierre de septiembre de 2026 (frente a 12.985 millones en 2024), mostrando un crecimiento interanual de los ingresos del orden del 2%.
+* **EBITDA**: 568,19 millones de EUR (periodo finalizado en septiembre de 2026).
+* **Beneficio Neto (Net Income)**: 282,03 millones de EUR, ligeramente por debajo de los 308,23 millones registrados en 2024, reflejando cierta presión en márgenes operativos.
+* **Métricas de Valoración y Rentabilidad**:
+  * **PER Histórico (Trailing P/E)**: 18.34x.
+  * **PER Adelantado (Forward P/E)**: 15.45x (con un BPA estimado de 2.53 EUR frente a los 2.13 EUR actuales).
+  * **Ratio Precio/Valor en Libros (P/B)**: 7.94x.
+  * **Enterprise Value to EBITDA (EV/EBITDA)**: 12.82x.
+  * **Rentabilidad sobre Recursos Propios (ROE)**: Excepcionalmente sólida en el 43.62%.
+  * **Deuda Neta / EBITDA**: Muy prudente, situada en aproximadamente 0.60x (Deuda total de ~308-328 millones de EUR frente a una caja de ~83 millones y un EBITDA superior a 400-500 millones).
+* **Política de Retribución al Accionista**:
+  * **Rentabilidad por Dividendo (Dividend Yield)**: Atractiva, situada en el **5.38%** (dividendo anual por acción de 2.03 EUR).
+  * **Ratio de Payout**: Elevado, del 95.31%, lo que indica que gran parte del beneficio neto se distribuye vía dividendos, limitando la retención para crecimiento orgánico masivo pero satisfaciendo al inversor orientado a rentas.
+* **Consenso de Analistas**:
+  * Precio objetivo medio (`targetMeanPrice`): **34.32 EUR** (con un rango entre un mínimo de 26.70 EUR y un máximo de 40.00 EUR, basado en 11 opiniones de analistas).
+  * *Discrepancia clave*: Con el precio actual de mercado situado en **39.06 EUR** (a 27 de noviembre de 2026), el valor cotiza **por encima** del precio objetivo medio del consenso, lo que arroja una rentabilidad potencial implícita negativa o de ajuste (`consensus_upside_pct` de **-12.13%**), sugiriendo que la cotización ha corrido con fuerza y descontado gran parte de las bondades a corto plazo.
 
 ---
 
-#### 4. Selección de Indicadores Técnicos Complementarios (Modelo de Asignación)
-De acuerdo con la directriz de seleccionar hasta 8 indicadores sin redundancias para estructurar la estrategia operativa, se proponen los siguientes parámetros clave:
-1. `close_50_sma`: Para validar la tendencia de medio plazo y soporte dinámico.
-2. `close_200_sma`: Para la confirmación estructural de largo plazo.
-3. `close_10_ema`: Para capturar sensibilidad rápida ante giros de corto plazo.
-4. `macd`: Para medir divergencias e impulsos de convergencia/divergencia de medias.
-5. `rsi`: Para vigilar zonas de sobrecompra (70) y sobreventa (30) sin duplicar osciladores estocásticos.
-6. `boll`: Banda media de Bollinger (SMA de 20) como referencia de precios centrales.
-7. `boll_ub`: Banda superior de Bollinger para delimitar zonas potenciales de sobrecompra y ruptura alcista.
-8. `atr`: Para medir la volatilidad histórica y dimensionar correctamente la gestión de riesgo (stop-loss).
+#### 3. Análisis Técnico y Dinámica de Precios
+Según la instantánea de mercado verificada a 27 de noviembre de 2026 para `LOG.MC`:
+* **Precio de Cierre**: 39.06 EUR.
+* **Variación en la sesión**: +3.61%.
+* **RSI (14)**: 69.95, situándose muy cerca de la zona de sobrecompra (70), lo que advierte sobre una posible fatiga compradora a muy corto plazo o la necesidad de una consolidación lateral.
+* **MACD**: 0.313 (con línea de señal en 0.226), mostrando un histograma positivo y confirmando el impulso alcista vigente.
+* **Medias Móviles**:
+  * SMA de 20 sesiones (`sma20`): 37.01 EUR.
+  * SMA de 50 sesiones (`sma50`): 36.31 EUR.
+  * SMA de 200 sesiones (`sma200`): 33.94 EUR.
+  * *Lectura de tendencia*: Alineación alcista perfecta (Precio > SMA20 > SMA50 > SMA200), confirmando una tendencia primaria claramente alcista a medio y largo plazo.
+* **Rentabilidades Históricas**:
+  * A 21 sesiones: +7.96%.
+  * A 63 sesiones: +8.68% (con un rendimiento relativo frente al índice de referencia `^IBEX` superior en 10.89 puntos porcentuales).
+  * A 252 sesiones (anual): +40.22%, reflejo de un ejercicio bursátil extraordinariamente positivo para la compañía.
+* **Volatilidad y Riesgo**:
+  * Volatilidad anualizada del 18.43%.
+  * Reducción de 0% en el indicador de *drawdown* actual (la acción cotiza en máximos recientes).
 
 ---
 
-#### 5. Evidencia Faltante y Limitaciones
-* No se dispone de la segmentación detallada por líneas de negocio geográficas en el informe resumido actual ni de las minutas completas de la última junta de accionistas más allá de las métricas anuales cerradas a septiembre de 2026.
-* Las valoraciones de analistas (Consensus Target Mean) se basan en estimaciones previas que se sitúan por debajo de la cotización actual (34,32 EUR frente a 37,70 EUR), lo que refleja un desajuste temporal entre las revisiones de los analistas y el reciente impulso alcista de la acción.
+#### 4. Selección de Indicadores Complementarios (Conforme a Criterios del Sistema)
+Para supervisar la evolución de `LOG.MC` sin redundancias, se seleccionan los siguientes 8 indicadores técnicos clave:
+1. `close_50_sma`: Para identificar la dirección del soporte dinámico a medio plazo.
+2. `close_200_sma`: Para confirmar el sesgo estructural alcista a largo plazo.
+3. `close_10_ema`: Para capturar giros rápidos de momentum a corto plazo en un entorno volátil.
+4. `macd`: Para evaluar la divergencia y convergencia del impulso general.
+5. `macds`: Línea de señal para modular entradas y salidas cruzadas.
+6. `rsi`: Para vigilar el umbral crítico de sobrecompra (próximo a 70).
+7. `boll_ub`: Banda superior de Bollinger para detectar zonas de extensión de precio y posibles pausas.
+8. `atr`: Para medir la volatilidad real y dimensionar adecuadamente la gestión de riesgo/stops.
 
 ---
 
-#### Tabla Resumen Clave
-
-| Métrica / Parámetro | Valor / Dato `LOG.MC` | Comentario / Implicación |
-| :--- | :--- | :--- |
-| **Precio de Cierre** | 37,70 EUR | Fuerte revalorización diaria (+3,74%) a 26/11/2026. |
-| **Tendencia (SMAs)** | Por encima de SMA20, 50 y 200 | Estructura alcista sólida en
+#### 5. Datos Faltantes y Advertencias
+* **Datos faltantes**: No se dispone de un desglose pormenorizado diario de volúmenes institucionales en directo más allá de los agregados y ratios provistos en la instant

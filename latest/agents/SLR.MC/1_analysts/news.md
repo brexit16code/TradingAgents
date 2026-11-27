@@ -1,55 +1,32 @@
 **Rating**: REVIEW
 
-**FINAL TRANSACTION PROPOSAL**: HOLD
+Análisis financiero, macroeconómico y de mercado para **SLR.MC** (Solaria Energía y Medio Ambiente, S.A.), con fecha de referencia a 27 de noviembre de 2026.
 
 ---
 
-### Informe de Investigación y Análisis de Solaria Energía y Medio Ambiente, S.A. (`SLR.MC`)
+### 1. Contexto Macroquinético y de Mercado Global
+A finales de noviembre de 2026, los mercados europeos y tecnológicos prolongan un importante rebote bursátil (impulsados por fuertes subidas en la banca y la tecnología, con el Euro Stoxx 50 y el DAX avanzado más de un 2%). En España, el IPC de noviembre de 2026 se sitúa en el 4,1%, marcando un contexto inflacionario persistente que afecta a los costes de financiación y los retornos de inversión en activos intensivos en capital. 
 
-#### 1. Resumen de la Identidad y Datos Clave
-* **Ticker / Instrumento**: `SLR.MC` (Bolsa de Madrid, EUR).
-* **Sector y Negocio**: Utilities / Energías Renovables.
-* **Precio de Cierre (26 de noviembre de 2026)**: 14,08 EUR.
-* **Capitalización de Mercado**: 1.853,58 millones de EUR.
-* **Valoración relativa**: PER forward de 8,07x frente a la mediana del sector de 17,58x (ratio de 0,46x), indicando un descuento aparente en múltiplo de beneficios.
-* **Consenso de Analistas**: Precio objetivo medio de 21,43 EUR (con un rango entre 13,00 EUR y 28,00 EUR), lo que implica un potencial alcista (upside) del 52,17% basado en 16 opiniones de analistas.
+### 2. Fundamentos y Situación Financiera de **SLR.MC**
+- **Precio y Datos Técnicos**: Cierre a 14,265 EUR por acción (2026-11-27). Presenta una rentabilidad de 52 semanas en retroceso (Drawdown de -44,6%, RSI de 44,47 y cotizando por debajo de sus medias móviles de 20, 50 y 200 sesiones).
+- **Valoración y Múltiplos**: 
+  - Capitalización bursátil: ~1.877 millones de EUR.
+  - PER histórico (Trailing PE): ~7,97x; PER estimado (Forward PE): ~8,17x.
+  - Relación frente a peers del sector utilities en MCE: cotiza a un descuento notable (*PER relativo inferior*, ratio de 0,46 frente a la mediana del sector de 17,69x).
+- **Balance y Deuda**: 
+  - Deuda Total: ~1.547 millones de EUR (Deuda Neta / EBITDA de aproximadamente 4,42x).
+  - Patrimonio Neto (*Stockholders Equity*): ~704 millones de EUR (cierre 2025).
+- **Resultados Recientes**: En los últimos periodos reportados, Solaria ha mostrado un incremento de ingresos y beneficios sólidos (Ingresos de 197,4M EUR y Net Income de 137,3M EUR a cierre de 2025; EBITDA de 266,7M EUR). No obstante, la intensidad de capital se refleja en flujos de caja libre negativos debido a un elevado *Capex* (-398,2M EUR en 2025).
 
----
+### 3. Noticias y Sentimiento Reciente (Noviembre 2026)
+- **Resultados y Calificación de Analistas**: Recientemente (26 de noviembre de 2026), Solaria presentó sólidos resultados operativos de nueve meses, lo que provocó repuntes bursátiles cercanos al 3,5%. 
+- **Revisiones de Expertos**: Renta 4 recortó el precio objetivo de Solaria a 18,20 EUR (el consenso general de analistas sitúa el *target mean price* en 21,425 EUR, con un *upside* potencial estimado de más del 50%), mejorando al mismo tiempo su recomendación/consejo debido al atractivo potencial alcista de la acción tras las caídas acumuladas.
+- **Diversificación Estratégica**: Solaria continúa reforzando su apuesta por los centros de datos (*data centers*), diversificando su negocio tradicional fotovoltaico hacia infraestructuras tecnológicas de alta demanda energética.
+- **Riesgos**: Distintas publicaciones señalan que el elevado nivel de deuda y las necesidades de financiación ponen a prueba su ritmo de expansión.
 
-#### 2. Análisis Financiero y Fundamental
-* **Resultados e Ingresos**: Los estados financieros muestran una evolución positiva en los ingresos totales, pasando de 176,91 millones de EUR en 2024 a 197,44 millones de EUR al cierre del ejercicio 2025. El beneficio neto se situó en 137,39 millones de EUR en 2025 (frente a 88,61 millones de EUR en 2024). El EBITDA alcanzó los 266,73 millones de EUR en 2025.
-* **Endeudamiento y Balance**: La deuda total asciende a 1.508,76 millones de EUR al cierre de 2025 (con una cifra en datos consolidados de ~1.547 millones de EUR), frente a unos activos totales de 2.443,46 millones de EUR. El apalancamiento neto medido como Deuda Neta/EBITDA se sitúa en torno a 4,42x.
-* **Flujos de Caja**: Se observa una inversión intensa en CapEx (-398,26 millones de EUR en 2025), lo que resulta en un flujo de caja libre (Free Cash Flow) negativo de -260,10 millones de EUR en dicho ejercicio. Esto resalta que la compañía continúa en una fase expansiva intensiva en capital.
-
----
-
-#### 3. Contexto Macro y Noticias Recientes (Noviembre de 2026)
-* **Entorno Bursátil y Macroeconómico**: Las bolsas europeas han cerrado con fuertes subidas a finales de noviembre de 2026 (impulsadas por banca y tecnología, con el Euro Stoxx 50 y el DAX avanzando más de un 2%). En el ámbito de tipos de interés, el euríbor supera el 3,3%, situando un entorno de costes de financiación elevados que impactan de forma directa en sectores intensivos en capital como las renovables.
-* **Noticias y Catalizadores de `SLR.MC`**:
-  * *Resultados a nueve meses*: Solaria ha presentado informes sólidos de nueve meses (noviembre de 2026), lo que genera debate sobre si `SLR.MC` puede mantener su impulso alcista o si las dudas sobre su deuda pondrán a prueba su expansión internacional y proyectos específicos (como los interrogantes en su proyecto en Uruguay y su recepción en mercados como Londres).
-  * *Centros de datos*: Existen expectativas y análisis en torno a la regulación y decretos de centros de datos en España y el posicionamiento estratégico que busca Solaria para capturar demanda energética de estas infraestructuras.
-
----
-
-#### 4. Evidencia Contraria y de Apoyo / Factores de Riesgo
-* **Apoyo**: 
-  * Valoración por múltiplos atractiva (PER forward de ~8,07x frente al sector).
-  * Sólidos márgenes operativos y crecimiento en ingresos y beneficios netos en el ejercicio 2025.
-  * Potencial de consenso de analistas muy elevado (+52%).
-* **Contraria / Riesgos**:
-  * Flujos de caja libres negativos recurrentes debido al elevado CapEx de expansión.
-  * Deuda neta sobre EBITDA de 4,42x en un entorno macroeconómico de tipos altos (euríbor superior al 3,3%).
-  * Corrección técnica significativa en el medio plazo (caída de -16,98% a 63 sesiones y -45,32% desde máximos/drawdown).
-
----
-
-#### 5. Datos Faltantes
-* No se dispone de estimaciones detalladas de desinversiones de activos a corto plazo ni de la asignación exacta de capital por proyectos geográficos específicos más allá de los titulares de prensa.
-
-| Aspecto Clave | Detalle / Métrica para `SLR.MC` | Fuente / Referencia Temporal |
-| :--- | :--- | :--- |
-| **Precio Actual** | 14,08 EUR | Snapshot técnico (26/11/2026) |
-| **Valoración (PER fwd)** | 8,07x (Mediana sectorial: 17,58x) | Fundamentos / Múltiplos (2026) |
-| **Deuda / EBITDA** | 4,42x | Fundamentos `SLR.MC` (2026) |
-| **Objetivo de Consenso** | 21,43 EUR (+52,17% upside) | Consenso de analistas (16 opiniones) |
-| **Entorno Macroeconómico** | Euríbor > 3,3%; Bolsas europeas al alza | Titulares macro (26/11/2026) |
+### 4. Evidencia y Fuentes Consultadas
+- **Cotización y datos fundamentales**: Yahoo Finance / Snapshot interno (`SLR.MC`, consultado el 2026-11-27).
+- **Titulares de prensa y análisis de mercado**:
+  - *Traders Union* (2026-11-26): "Las acciones de Solaria suben cerca de un 3,5% tras unos sólidos resultados..." [Google RSS](https://news.google.com/rss/articles/CBMikgFBVV95cUxPRWxwR2VzcUh5TzUtVDh1ZUlBTFFNZHFlMDdmMDhTTGRvRVBtR3htdUFMU2dKMFRXa2hEV2ZidlhIX3Vqc3JXNmFWQmtBUERpQ2hBam5PalAzRXBabThTTkstTmgyQWVFOVJjOTZpZGpjWlFyTndueW9qNUdRNW9tNWxFdzRma195YXFWVkJMWUtvQQ?oc=5)
+  - *Bolsamania* (2026-11-26): "Renta 4 recorta el precio objetivo de Solaria a 18,20 euros y mejora su recomendación" [Google RSS](https://news.google.com/rss/articles/CBMi8wFBVV95cUxOLUx1T1BRLWZ6aXFOWVJ5UUQtcnRqdC13R0hpN0RrQy10eERGMEYtUE50cTNzWnZHbGZwYWRfbTFmVFBEVnZwUWlkMkdtVUtFbXdNZjZRaWNJVUdRNDZ5ZG9WU19ZVVhUdzhZRVNVdV9CRTVLNE90WWRoSVk4Q1k5aWp6TTJZaDJRUDhCN1Z1ZXYzM0YwRVUyUHhiekFJMkFWdmxCRTBpRFAzbU1xUUxyYTJpYnV1QjhWMXE4UDRpYThUTzBqek5LMEVUUjF1YWw1b2FlZ0FDV3pmWVhzczd6NTc2c2FjZFg0NlBmZzBjemdBNE3SAfMBQVVfeXFMTi1MdU9QUS1memlxTllSeVFELXJ0anQtd0dIaTdEa0MtdHhERjBGLVBOdHEzc1p2R2xmcGFkX20xZlRQRFZ2cFFpZDJHbVVLRW13TWY2UWljSVVHUTQ2eWRvVlNfWVVYVHc4WUVTVXVfQkU1SzRPdFlkaElZOENZOWlqek0yWWgyUVA4QjdWdWV2MzNGMEVVMlB4YnpBSTJBVnZsQkUwaURQM21NcVFMcmEyaWJ1dUI4VjFxOFA0aWE4VE8wanpOSzBFVFIxdWFsNW9hZWdBQ1d6ZllYc3M3ejU3NnNhY2RYNDZQZmcwY3pnQTRN?oc=5)
+  - *OCU* (2026-11-26): "Solaria refuerza su apuesta por los centros de datos" [Google RSS](https://news.google.com/rss/articles/CBMipgFBVV95cUxOa2RFU3Y5TUVGN3AtYWtxSXhSUzg0S0oxQ0JDSHQycllhQWI3eU1hWUhKNFZFdW9KMTZXcmhDUGlicjZlbHlXRGNDUkV1RW80N2t5N1R1UGNlcU91M09zcE9jc2Jfek56MG9rY0FQUVhNWGhVajduMG5FMVduaGZkWG5qUk5yMXNyejFydDh2bjVabmdsQWNCcEVTRC0wVnJRU

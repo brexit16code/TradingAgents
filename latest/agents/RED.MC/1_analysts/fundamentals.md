@@ -6,53 +6,64 @@
 
 ### Informe Fundamental Integral: Redeia Corporación, S.A. (`RED.MC`)
 
-#### 1. Perfil de la Compañía y Negocio
-* **Identidad Resuelta**: Redeia Corporación, S.A. (`RED.MC`) opera en el sector de **Utilities (Servicios Públicos)**, específicamente bajo la subcategoría de **Utilities - Regulated Electric** (Electricidad regulada).
-* **Bolsa y Divisa**: Negociada en las Bolsas Españolas (Madrid - MCE) bajo el ticker `RED.MC`, cotizada en Euros (EUR) y benchmarkizado con el índice general ibérico `^IBEX`.
-* **Negocio Principal**: Actúa como el operador del sistema eléctrico español (Red Eléctrica de España) y gestor de infraestructuras de transporte de electricidad y telecomunicaciones (Reintel, Hispasat). Su modelo de negocio se caracteriza por flujos de caja estables pero condicionados por marcos regulatorios estrictos (como los topes de inversión y tasas de retribución fijadas por organismos como la CNMC).
+#### 1. Perfil de la Compañía y Contexto de Negocio
+Redeia Corporación, S.A. (`RED.MC`) es el operador global de infraestructuras esenciales y operador del sistema eléctrico (TOS) en España, cotizada en la bolsa de Madrid (MCE) dentro del selectivo IBEX 35 (`^IBEX`). Su modelo de negocio se centra en actividades reguladas de transporte de energía eléctrica y gestión de redes a través de su filial principal Red Eléctrica, complementado con diversificación en telecomunicaciones por satélite y fibra óptica. 
 
-#### 2. Situación Financiera y Datos Fundamentales
-A partir de los datos proporcionados y la instantánea financiera más reciente (`2026-11-26`), la estructura fundamental de `RED.MC` presenta los siguientes indicadores clave:
-* **Capitalización de Mercado**: 9.129.962.496 EUR (~9.13 mil millones de EUR).
-* **Valoración (PER / P/E)**: 
-  * *Trailing P/E*: 18.0x
-  * *Forward P/E*: 17.58x (con un ratio frente a la mediana de pares del sector de 1.0, calificado como "PER relativo intermedio").
-* **Precio a Valor en Libros (Price-to-Book)**: 1.54x (sobre un *Book Value* por acción de 10.97 EUR).
-* **Valor de Empresa a EBITDA (EV/EBITDA)**: 13.02x.
-* **Deuda y Apalancamiento**:
-  * *Deuda Total*: 5.982.499.840 EUR (registrada en 6.144 millones a cierre de ejercicio 2025).
-  * *Efectivo Total*: 381.700.000 EUR.
-  * *Deuda Neta / EBITDA*: 4.96x, lo que evidencia un apalancamiento elevado típico de utilities con grandes inversiones en redes de transporte.
-* **Rentabilidad y Márgenes**:
-  * *Retorno sobre el Capital (ROE)*: 9.78%.
-  * *Márgenes de Beneficio (Profit Margins)*: 29.99%, destacando una fuerte conversión de ingresos netos sobre ventas totales.
-  * *Crecimiento de Ingresos (Revenue Growth)*: 9.2%.
-* **Dividendos**:
-  * *Dividendo Anual (Dividend Rate)*: 0.80 EUR por acción.
-  * *Rentabilidad por Dividendo (Dividend Yield)*: 4.73% - 4.76%, un atractivo pilar para los inversores de renta, aunque respaldado por un *payout ratio* elevado del 85.3%.
+Al encontrarse en el sector de **Utilities (Utilities - Regulated Electric)**, sus flujos de caja y retornos están estrechamente vinculados a marcos regulatorios y retribuciones fijadas por los organismos reguladores nacionales, como la Comisión Nacional de los Mercados y la Competencia (CNMC).
 
-#### 3. Historial Financiero Reciente (Estados Financieros)
-* **Cuenta de Resultados (Income Statement)**:
-  * *2023*: Ingresos Totales de 1.818.791.000 EUR | EBITDA de 1.442.909.000 EUR | Beneficio Neto de 689.640.000 EUR.
-  * *2024*: Ingresos Totales de 1.594.204.000 EUR | EBITDA de 1.280.896.000 EUR | Beneficio Neto de 368.438.000 EUR.
-  * *2025*: Ingresos Totales de 1.659.517.000 EUR | EBITDA de 1.305.522.000 EUR | Beneficio Neto de 505.643.000 EUR.
-* **Balance General (Balance Sheet)**:
-  * *Activos Totales*: 14.484M EUR (2023) -> 15.090M EUR (2024) -> 15.345M EUR (2025).
-  * *Patrimonio Neto (Stockholders Equity)*: 5.408M EUR (2023) -> 5.153M EUR (2024) -> 5.248M EUR (2025).
-* **Flujo de Caja (Cash Flow)**:
-  * *Flujo de Caja Operativo*: 382.7M EUR (2023) -> 955.6M EUR (2024) -> 1.013.1M EUR (2025).
-  * *CapEx (Inversiones de Capital)*: -877.5M EUR (2023) -> -1.078.6M EUR (2024) -> -1.407.0M EUR (2025).
-  * *Flujo de Caja Libre (FCF)*: -494.8M EUR (2023) -> -123.0M EUR (2024) -> -393.8M EUR (2025). *Nota*: Los fuertes requerimientos de inversión en activos regulados han mantenido el FCF en terreno negativo en los últimos ejercicios, cubriéndose con financiación externa y deuda.
+#### 2. Análisis de Estados Financieros y Historial Reciente
+Los datos financieros consolidados e historiales extraídos reflejan la siguiente evolución:
 
-#### 4. Análisis Técnico y Valoración de Analistas
-* **Cotización actual**: 16.92 EUR (con fecha de precio 2026-11-26).
-* **Indicadores Técnicos**:
-  * *RSI (14)*: 78.38, situándose en zona de sobrecompra a corto plazo.
-  * *MACD*: 0.41 (con línea de señal en 0.33, mostrando impulso alcista).
-  * *Medias Móviles*: La cotización se encuentra holgadamente por encima de su SMA20 (15.98 EUR), SMA50 (15.33 EUR) y SMA200 (14.89 EUR), lo que confirma una tendencia alcista robusta en los últimos meses (+10.73% en los últimos 21 y 63 sesiones).
-* **Consenso de Analistas**:
-  * *Precio Objetivo Medio (Target Mean)*: 16.435 EUR (Rango: Mínimo 13.50 EUR / Máximo 19.40 EUR por 22 opiniones de analistas).
-  * *Upside Consensus*: -2.86% frente al precio de cierre actual (16.92 EUR), sugiriendo que la cotización ha superado ligeramente el valor razonable medio estimado por el consenso tras el reciente rally técnico.
+*   **Cuenta de Resultados (Ingresos, EBITDA y Beneficio Neto):**
+    *   *Año 2025:* Total Revenue de 1.659,5M€; EBITDA de 1.305,5M€; Net Income de 505,6M€.
+    *   *Año 2024:* Total Revenue de 1.594,2M€; EBITDA de 1.280,9M€; Net Income de 368,4M€.
+    *   *Año 2023:* Total Revenue de 1.818,8M€; EBITDA de 1.442,9M€; Net Income de 689,6M€.
+    *   *Tendencia:* Se observa una recuperación de los ingresos y del beneficio neto en 2025 tras la contracción experimentada en 2024, aunque sin alcanzar todavía los máximos de 2023.
 
-#### 5. Noticias y Contexto Regulatorio Reciente (Noviembre de 2026)
-* **Retribución y Regulación**: A finales de noviembre de 2026, la CNMC ha sometido a consulta la retribución de Redeia como operador del sistema eléctrico para 2027 ([Merca2.es](https://news.google.com/rss/articles/CBMijAFBVV95cUxQVUJFUXFOM3d3U2xJWUIyZ1VRMzBFajhyckw2Z1VsTHhDSWRhVk83Rk1HRlVlckt2T3JucFIt
+*   **Balance de Situación:**
+    *   *Año 2025:* Total Assets de 15.345,3M€; Total Debt de 6.144,4M€; Stockholders Equity de 5.248,1M€.
+    *   *Año 2024:* Total Assets de 15.090,2M€; Total Debt de 6.416,9M€; Stockholders Equity de 5.154,0M€.
+    *   *Endeudamiento:* La deuda total se mantiene en niveles estables alrededor de los 6.000M€ (la métrica de deuda neta sobre EBITDA se sitúa en torno a 4.96x, propia de utilities con uso intensivo de capital e infraestructuras reguladas).
+
+*   **Flujos de Caja (Cash Flow):**
+    *   *Año 2025:* Operating Cash Flow de 1.013,2M€; Capital Expenditure (CapEx) de -1.407,1M€; Free Cash Flow negativo de -393,9M€ debido al fuerte esfuerzo inversor en infraestructuras y redes.
+    *   *Año 2024:* Operating Cash Flow de 955,6M€; CapEx de -1.078,6M€; Free Cash Flow negativo de -130,0M€ aprox.
+
+#### 3. Valoración y Datos Bursátiles Actuales (`RED.MC`)
+*   **Precio de Cotización (a 27 de noviembre de 2026):** 17,05 EUR.
+*   **Capitalización Bursátil:** ~9.200M€.
+*   **Múltiplos de Valoración:** 
+    *   *Trailing P/E:* 18.14x
+    *   *Forward P/E:* 17.69x
+    *   *Price to Book (P/B):* 1.55x
+    *   *EV/EBITDA:* 13.07x
+*   **Retribución al Accionista (Dividendos):**
+    *   *Dividend Yield:* ~4.69% - 4.73% (Dividend Rate de 0,80 EUR por acción).
+    *   *Payout Ratio:* Elevado, en torno al 85,3%.
+*   **Consenso de Analistas:** 
+    *   Precio objetivo medio (*Target Mean Price*): 16.44 EUR (con un rango entre 13,50 EUR y 19,40 EUR basado en 22 opiniones de analistas). Esto sitúa el precio actual ligeramente por encima del consenso medio, implicando una rentabilidad esperada negativa de aproximadamente un -3.6% frente al objetivo de consenso.
+
+#### 4. Indicadores Técnicos y Momento de Mercado
+*   **RSI (14):** 79.82, lo que denota una situación de **sobrecompra técnica** significativa en el corto plazo.
+*   **Medias Móviles:** La cotización (17.05 EUR) se encuentra holgadamente por encima de su SMA20 (16.06 EUR), SMA50 (15.37 EUR) y SMA200 (14.90 EUR), confirmando una tendencia alcista robusta en los últimos meses (retornos a 21 y 63 sesiones de +11.29% y +13.36% respectivamente).
+*   **Volatilidad:** 14.16% (moderada/baja, característica de valores defensivos).
+
+#### 5. Noticias y Eventos Recientes (Noviembre de 2026)
+*   La compañía ha acaparado atención en los últimos días tras la apertura por parte de la **CNMC de la consulta pública relativa a la retribución de Redeia como operador del sistema eléctrico para el ejercicio 2027** (noticia publicada el 25 de noviembre de 2026 en Merca2.es), un hito regulatorio clave para determinar sus ingresos futuros.
+*   Asimismo, Redeia ha destacado en la resistencia del Ibex 35 tras las correcciones mensuales del mercado (Traders Union, 27 de noviembre de 2026).
+
+#### 6. Conclusión y Perspectivas para Traders
+Redeia muestra fundamentales sólidos propios de una utility regulada con flujos de caja operativos estables superando los 1.000 millones de euros y una rentabilidad por dividendo atractiva cercana al 4.7%. Sin embargo, cotiza ligeramente por encima del precio objetivo medio de consenso de los analistas (16.44 EUR frente a los 17.05 EUR actuales) y presenta un RSI de casi 80, lo que aconseja prudencia ante posibles correcciones técnicas de corto plazo tras su reciente rally alcista.
+
+---
+
+### Resumen de Datos Clave
+
+| Concepto / Métrica | Valor (`RED.MC`) | Notas / Referencia Temporal |
+| :--- | :--- | :--- |
+| **Precio Actual** | 17.05 EUR | Cierre al 27-11-2026 |
+| **Capitalización Bursátil** | ~9.200 M€ | Datos fundamentales actualizados |
+| **PER (Trailing / Forward)** | 18.14x / 17.69x | Valoraciones sectoriales estándar |
+| **Dividend Yield** | ~4.69% - 4.73% | Payout ratio elevado (~85.3%) |
+| **RSI (14)** | 79.82 | Zona de sobrecompra técnica a corto plazo |
+| **Media Móvil 200 sesiones** | 14.90 EUR | Tendencia alcista de medio/

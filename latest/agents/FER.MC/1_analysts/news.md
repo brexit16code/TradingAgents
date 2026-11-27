@@ -1,44 +1,28 @@
 **Rating**: REVIEW
 
-### Informe de Investigación y Análisis de Mercado: Ferrovial N.V. (`FER.MC`)
+Análisis financiero y macroeconómico de **FER.MC** (Ferrovial N.V.), con cotización en EUR (Bolsa de Madrid, índice de referencia ^IBEX), basado en los datos proporcionados con fecha de corte a 27 de noviembre de 2026.
 
-#### 1. Contexto Macroeconómico y Entorno de Mercado
-Las bolsas europeas han cerrado con fuertes subidas recientes impulsadas por los sectores bancario y tecnológico, destacando avances superiores al 2% en índices como el Euro Stoxx 50 y el DAX alemán (según coberturas de prensa fechadas el 26 de noviembre de 2026). En el ámbito monetario, la atención se centra en la elección de Pablo Hernández de Cos como presidente del Banco Central Europeo (BCE), siendo el primer español en presidir la institución europea, mientras que el Euríbor supera el 3,3%, encareciendo las hipotecas a las puertas de la última decisión de tipos de 2026. 
+---
 
-#### 2. Análisis Fundamental y Técnico de Ferrovial N.V. (`FER.MC`)
-* **Precio de Cotización y Datos Técnicos**: A fecha de 26 de noviembre de 2026, `FER.MC` cotiza a **53,70 EUR**, registrando una variación diaria del +1,78%. Su RSI(14) se sitúa en 58,36 (neutral-alcista), con una media móvil de 50 sesiones (SMA50) en 48,79 EUR y la de 200 sesiones (SMA200) en 54,06 EUR. Presenta una rentabilidad a 21 días del +11,45% y acumula un drawdown del -12,77% desde máximos recientes.
-* **Fundamentales y Valoración**: 
-  * Capitalización de mercado: ~38.550 millones de EUR.
-  * Múltiplos: PER de 34,23x (con un PER forward estimado de 46,17x), Price to Book de 6,77x y EV/EBITDA de 30,05x. El ratio sectorial comparativo (`valuation.ratio`) indica un PER relativo superior de 2,76 frente a la mediana de sus pares (`ANA.MC`, `ACS.MC`, `AENA.MC`, `IAG.MC`, `LOG.MC`, `SCYR.MC`).
-  * Deuda y Solvencia: Total de deuda de ~10.657 millones de EUR (frente a un EBITDA de 1.548 millones y un ratio de Deuda Neta / EBITDA de ~4,39x). Cuenta con un efectivo total de 3.864 millones de EUR.
-  * Dividendos: Rentabilidad por dividendo (*dividend yield*) del 3,63% (dividendo anual de 1,95 EUR por acción, payout ratio de ~71%).
-  * Consenso de Analistas: Precio objetivo medio (*target mean price*) de **59,90 EUR**, lo que representa un potencial de revalorización (*consensus upside*) del **11,54%** sobre el precio actual, con un rango entre un objetivo mínimo de 48,50 EUR y máximo de 80,00 EUR (basado en 20 opiniones de analistas).
-* **Estados Financieros Clave (Ejercicio 2025)**:
-  * Ingresos Totales: 9.627 millones de EUR (crecimiento de ingresos del 5,2%).
-  * EBITDA: 1.998 millones de EUR.
-  * Beneficio Neto (*Net Income*): 888 millones de EUR.
-  * Flujo de Caja Libre (*Free Cash Flow*): 1.739 millones de EUR.
+### 1. Resumen de Mercado y Contexto Macroeconómico
+Durante la última semana de noviembre de 2026, los mercados europeos y globales han mostrado un fuerte tono de rebote e impulso alcista, impulsados principalmente por el sector tecnológico y bancario, a pesar de las señales de desaceleración económica en países como Francia (según titulares macroeconómicos del 26 y 27 de noviembre de 2026). La inflación en la Eurozona ha moderado parte de su presión inflacionaria (por ejemplo, el IPC de noviembre de 2026 descendiendo al 4,1%), mientras que las perspectivas de gestoras como Ostrum AM apuntan a ganancias adicionales en las bolsas europeas de cara a 2027, bajo un nuevo régimen de riesgos.
 
-#### 3. Evidencias Contrarias, de Soporte y Datos Faltantes
-* **Evidencias de Soporte**: Impulso técnico reciente (+11,45% en el último mes), fuerte generación de flujo de caja libre (1.739 millones de EUR en 2025) y un consenso de analistas positivo que sitúa el precio objetivo medio en 59,90 EUR (upside del 11,54%). Coberturas de medios apuntan a un interés inversor renovado (ej. publicaciones en Finanzas.com el 20 de noviembre de 2026).
-* **Evidencias Contrarias**: Valoración exigente con múltiplos elevados (PER trailing de 34,2x y EV/EBITDA superior a 30x), nivel de endeudamiento neto/EBITDA de 4,39x y un entorno de tipos de interés altos en la Eurozona (Euríbor por encima del 3,3%).
-* **Datos Faltantes**: Falta desglose granular en tiempo real de contratos específicos de infraestructuras adjudicados en el trimestre actual y proyecciones detalladas de tráficos aeroportuarios específicos fuera del marco general de ingresos consolidado.
+### 2. Análisis Fundamental y Técnico de Ferrovial (`FER.MC`)
+* **Datos de Precio y Comportamiento Técnico**: 
+  - Precio de cierre a 27/11/2026: **54,88 EUR** (+2,20% en la sesión).
+  - Medias móviles: SMA20 en 53,74 EUR, SMA50 en 48,94 EUR y SMA200 en 54,04 EUR. La acción se sitúa ligeramente por encima de su media de 200 sesiones, mostrando un RSI de 14 períodos en 62,71 (zona neutral-alcista) y una volatilidad anualizada del 30,04%.
+  - Rendimientos recientes: +9,73% a 21 días y +11,36% a 63 días, con una rentabilidad interanual a 252 sesiones de plano a ligeramente positiva (+0,22%).
+* **Fundamentales y Valoración**:
+  - Capitalización bursátil: ~39.400 millones de EUR.
+  - Perfiles de valoración exigentes: Un *Trailing P/E* de 35,18x y un *Forward P/E* de 47,22x, con un ratio Precio/Valor en Libros (P/B) de 6,92x. El EV/EBITDA se sitúa en 30,49x.
+  - Deuda y Caja: Deuda total de aproximadamente 10.657 millones de EUR (con una Deuda Neta sobre EBITDA de 4,39x) y efectivo disponible de 3.864 millones de EUR.
+  - Dividendos: Ofrece una rentabilidad por dividendo (*dividend yield*) estimada en torno al 3,55% - 3,63% con un *payout ratio* de ~71,2%.
+  - Consenso de Analistas: El precio objetivo medio de los analistas (*targetMeanPrice*) se sitúa en **59,90 EUR** (con un rango entre un mínimo de 48,50 EUR y un máximo de 80,00 EUR basándose en 20 opiniones), lo que representa un potencial de revalorización (*consensus upside*) del **9,14%** frente al precio actual de 54,88 EUR.
 
-#### 4. Conclusión y Recomendación
-Dada la sólida posición operativa y el respaldo del consenso de analistas, pero contrarrestada por los elevados múltiplos de valoración y el apalancamiento actual en un entorno de tipos altos, se emite una recomendación de **REVIEW** (mantener/revisar en cartera sin ejecutar acciones de compra/venta automáticas).
-
-***
-
-| Resumen de Métricas Clave | Valor / Dato |
-| :--- | :--- |
-| **Ticker y Empresa** | `FER.MC` (Ferrovial N.V.) |
-| **Precio Actual** | 53,70 EUR (26-11-2026) |
-| **Capitalización de Mercado** | 38.554.836.992 EUR |
-| **PER Trailing / Forward** | 34,23x / 46,17x |
-| **EV / EBITDA** | 30,05x |
-| **Rentabilidad por Dividendo** | 3,63% (1,95 EUR/acción) |
-| **Precio Objetivo Consenso** | 59,90 EUR (+11,54% upside) |
-| **Deuda Neta / EBITDA** | 4,39x |
-| **Flujo de Caja Libre (2025)** | 1.739.000.000 EUR |
-
-FINAL TRANSACTION PROPOSAL: HOLD
+### 3. Evidencia y Fuentes Citadas
+* **Precios y Datos Financieros**: Extraídos de Yahoo Finance (`FER.MC`), con fecha de recuperación 27 de noviembre de 2026.
+* **Titulares Macroeconómicos Recientes**: 
+  - *Merca2.es* (27/11/2026): "Bolsas y tecnología prolongan el rebote..." (URL: https://news.google.com/rss/articles/CBMiekFVX3lxTE5DV3dBOEVLQUhYWVRNbU00dDhQMXJzc2dCdTNfaVJnTnp5R2phR2psVm9QU2V2Vl9tTnlRRUhlNmJwaWRmRlE0Vl90UEg4cjBCNmw5djhsVWs0NGRqbWs2WTBybkRMYWd2Z3Qyb1dEaktOeDZBZTl0Vmp3?oc=5)
+  - *Rankia* (27/11/2026): "IPC noviembre 2026 baja al 4,1%..." (URL: https://news.google.com/rss/articles/CBMikgFBVV95cUxPZ0EzUzJRbjZTS3lLQWladlBEcHo5UmpQaUV1YnkxRU94UjVFVU5XRFFSWklXNHhHODJ4aVQwNUViTTlLeTdVWVlEbTdCN1kzUmZWaEN5VEJxTy02akhlT041M2dycnRsZWpuUmljSDU0cHBGV3NacGZPZWROWm5HNkZKZ1NZdFZvb2NOSTNNT3o3Zw?oc=5)
+  - *Negocios.com* (27/11/2026): "Las bolsas europeas se disparan pese al frenazo de la economía francesa" (URL: https://news.google.com/rss/articles/CBMitgFBVV95cUxNNmxKanRQYkRlc1AzNnZWWU5HNlFuNGhwVllCR1h2ZDB6emE3Wl9oX2hQaE5jcHIyQ2tMTzJkOGptN3dmNTZraXJmallLUjN6ckh5ZV9HdzRPTTROSkZyOTVDVnpBYV91WENUSTJ3bjNLdExKbFBfTVpCU295VTNYaDBDcXdyVXQ3X2VrU2lYOWpqU19hREpPbXZDaGhNRWFxYlFYWk1JY1BwRnpCQm5FNktpOGRlQdIBuwFBVV95cUxQTnpTV1V1UlRDWDRyR3hPem1yeUVDWnZDVmxMOU81SjhDbW1qXzZhWkN6U3c3R0toUXhTZWFoYm00Y2pkZk5WT2E4ajVpT2Z2U0Y4YWQwdWVUNVFiRXhSaTFwSTlpRWxnLWV5RXJyWnBzMERuSmwtWWd2RWlTbU1vdjl4RklUVkp1NVlNdXo2LURjNFpGbE81cXFfOFVfZEVCa3E4bEZiYzhzTWN3QmFtTEtONVN3ejNSbS0w?oc=5)
+  - *Bolsamania* (27/11/2026): "Ostrum AM ve subidas del 10% en las bolsas europeas en 2027..." (URL: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQejJmZEhzd1d0Sk9IUXlYTlBwYTdLUF95VkVFQjlzU3Z4ckxQVWdvQVZoR01zd0ZRYTllNjhQYlBMcHAzQTRvZUlfRG9wdGlPcndLb0FabVNjaDQ1c2tuNEpMVWdWanVab0tiYUpKQld5UVVlaFBsUG5kM3R1MmNtQWhySFFSTmlkSS03TG1

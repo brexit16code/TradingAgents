@@ -1,70 +1,83 @@
 **Rating**: HOLD  
-FINAL TRANSACTION PROPOSAL: Mantener posición a la espera de confirmación de soporte y reducción de volatilidad.
-
-### Informe de Análisis Técnico y Fundamental: ACS, Actividades de Construcción y Servicios, S.A. (`ACS.MC`)
-
-Fecha de análisis: 26 de noviembre de 2026  
-Bolsa de cotización: Madrid (MCE) / Divisa: EUR / Benchmark: ^IBEX  
+FINAL TRANSACTION PROPOSAL: Mantener posición sin realizar nuevas compras especulativas hasta confirmar la superación de las medias móviles clave y estabilización de la volatilidad.
 
 ---
 
-### 1. Resumen Ejecutivo y Entorno de Mercado
-Las acciones de `ACS.MC` cotizan a **81,05 EUR** (cierre al 26/11/2026), registrando una subida diaria del **1,89%** en línea con el fuerte rebote generalizado de las bolsas europeas impulsado por la banca y la tecnología (como recogen los titulares de la sesión del 26 de noviembre de 2026: *"Las bolsas europeas cierran con fuertes subidas impulsadas por la banca y la tecnología"*). No obstante, el título se encuentra bajo presión a medio plazo, acumulando una caída del **11,08%** en los últimos 21 días y un **-20,62%** en los últimos 63 días, reflejando el castigo previo experimentado en el selectivo español IBEX 35 (mencionado en noticias recientes de noviembre de 2026 sobre la prueba de los 19.000 puntos del índice).
+### Informe Técnico y Fundamental de `ACS.MC` (Actividades de Construcción y Servicios, S.A.)
+
+#### 1. Resumen de Identidad y Contexto de Mercado
+* **Ticker:** `ACS.MC` (Bolsa de Madrid, cotización en EUR).
+* **Sector / Industria:** Industrials / Engineering & Construction.
+* **Fecha de Análisis:** 27 de noviembre de 2026.
+* **Precio de Cierre Actual:** 82.85 EUR (según la instantánea verificada de fecha 2026-11-27).
+* **Contexto Macroeconómico:** Las bolsas europeas y globales experimentan un tono de rebote generalizado a finales de noviembre de 2026 (por ejemplo, con menciones a la evolución de la tecnología y el sector bancario, y un IPC de noviembre situándose en el 4,1%), aunque el valor concreto de `ACS.MC` muestra presión reciente a corto plazo (-10,09% en 21 sesiones y -18,61% en 63 sesiones).
 
 ---
 
-### 2. Análisis Fundamental y Valoración
-Basándonos en los datos financieros más recientes proporcionados por la instantánea oficial (`retrieved_at`: 2026-11-26):
-
-* **Capitalización Bursátil**: 21.058.805.760 EUR (~21.060 M€).
-* **Cuenta de Resultados (Ejercicio 2025)**: 
-  * Ingresos Totales (`Total Revenue`): 49.847.681.000 EUR (frente a 41.633 M€ en 2024 y 35.738 M€ en 2023, mostrando un crecimiento sostenido de los ingresos).
-  * EBITDA: 3.387.885.000 EUR (con un EBITDA a nivel de instantánea de 2.458.636.032 EUR).
-  * Beneficio Neto (`Net Income`): 950.340.000 EUR (por encima de los 827,58 M€ de 2024 y 780,12 M€ de 2023).
-* **Múltiplos de Valoración**:
-  * **PER Trailing (`trailingPE`)**: 16,64x.
-  * **PER Forward (`forwardPE`)**: 16,08x.
-  * **Precio/Valor en Libros (`priceToBook`)**: 3,73x (con un valor contable por acción de 21,70 EUR).
-  * **EV/EBITDA**: 9,57x.
-  * **Ratio sectorial de PER relativo (`valuation.ratio`)**: 0,96 (PER relativo intermedio frente a comparables como `ANA.MC`, `AENA.MC`, `FER.MC`, `IAG.MC`, `LOG.MC`, `SCYR.MC`).
-* **Deuda y Solvencia**:
-  * Deuda Total: 14.428.000.256 EUR (Balance 2025 Total Debt: 15.333.768.000 EUR).
-  * Efectivo Total (`totalCash`): 11.918.000.128 EUR.
-  * Deuda Neta / EBITDA (`net_debt_ebitda`): **1,02x**, lo cual muestra un perfil de apalancamiento moderado y muy saneado para una compañía del sector industrial y de infraestructuras.
-* **Flujo de Caja**:
-  * Flujo de caja operativo (`Operating Cash Flow`): 3.220.761.088 EUR (ejercicio 2025: 3.046.761.000 EUR).
-  * Flujo de caja libre (`Free Cash Flow`): 1.300.349.312 EUR (ejercicio 2025: 2.303.003.000 EUR).
-* **Dividendos**:
-  * Rentabilidad por dividendo (`dividendYield`): **2,92%** (dividendo anual de 2,32 EUR por acción con un `payoutRatio` del 57,13%).
-* **Consenso de Analistas**:
-  * Precio objetivo medio (`targetMeanPrice`): **128,94 EUR**.
-  * Precio objetivo mínimo: 99,75 EUR / Precio objetivo máximo: 153,10 EUR.
-  * Número de analistas: 17.
-  * Upside de consenso (`consensus_upside_pct`): **+59,09%** respecto al precio actual de 81,05 EUR.
+#### 2. Análisis Técnico y Dinámica de Precios
+* **Niveles Clave y Medias Móviles:** 
+  * Cierre actual: 82.85 EUR.
+  * SMA20: 87.43 EUR.
+  * SMA50: 90.03 EUR.
+  * SMA200: 108.08 EUR.
+  * *Observación:* La cotización se encuentra por debajo de todas sus medias móviles principales (SMA20, SMA50 y SMA200), lo que confirma una tendencia bajista a medio y largo plazo. El retroceso máximo desde máximos recientes sitúa el *drawdown* en torno al -40,12%.
+* **Indicadores de Momento y Volatilidad:**
+  * **RSI (14):** Se sitúa en 40.74, reflejando debilidad en el impulso comprador, acercándose a zonas de neutralidad-debilidad sin llegar todavía a niveles de sobreventa extrema (30).
+  * **MACD:** Muestra valores negativos (`macd`: -2.47; `macd_signal`: -1.77), lo que corrobora la presión vendedora persistente en el corto plazo.
+  * **Volatilidad:** Registra un nivel anualizado del 37.06%, lo que indica un rango de oscilación elevado y exige precaución en la gestión del riesgo.
 
 ---
 
-### 3. Análisis Técnico
-* **Precio actual**: 81,05 EUR (sesión del 26/11/2026).
-* **Medias Móviles**:
-  * SMA 20: 87,82 EUR (el precio cotiza por debajo, señal de corrección a corto plazo).
-  * SMA 50: 90,24 EUR.
-  * SMA 200: 108,16 EUR (tendencia alcista de largo plazo perforada a la baja en el movimiento correctivo reciente).
-* **Osciladores e Indicadores de Momento**:
-  * **RSI (14)**: **36,55** (situado en zona neutral-baja, aproximándose a niveles de sobreventa pero sin estresarse aún por debajo de 30).
-  * **MACD**: **-2,46** con línea de señal en **-1,59**, indicando que el momento bajista sigue activo, aunque el histograma y la pendiente deben monitorizarse de cerca tras la sesión alcista del día.
-* **Volatilidad y Drawdown**:
-  * Volatilidad anualizada: **36,70%** (nivel elevado, acorde con correcciones bruscas recientes).
-  * Drawdown máximo desde máximos: **-41,42%** (el valor ha experimentado un retroceso severo desde sus cotas más altas).
+#### 3. Análisis Fundamental y Financiero
+* **Capitalización de Mercado:** ~21.530 millones de EUR.
+* **Valoraciones y Múltiplos:**
+  * **Trailing P/E:** 17.01x
+  * **Forward P/E:** 16.44x
+  * **Price to Book (P/B):** 3.82x
+  * **EV/EBITDA:** 9.73x
+* **Crecimiento y Rentabilidad:**
+  * Los ingresos del ejercicio 2025 ascendieron a 49.848 millones de EUR (frente a los 41.633 millones de 2024), mostrando un crecimiento interanual sólido de los ingresos (+19,4%).
+  * El Beneficio Neto correspondiente a 2025 se situó en 950,34 millones de EUR (superior a los 827,58 millones de 2024).
+  * Rentabilidad sobre recursos propios (**ROE**): 25,01%, reflejando una sólida eficiencia operativa.
+* **Deuda y Flujo de Caja:**
+  * Deuda total: ~14.428 millones de EUR (frente a un efectivo de ~11.918 millones de EUR). La ratio Deuda Neta / EBITDA se sitúa en un saludable 1.02x.
+  * Flujo de caja libre (**FCF**): 1.300 millones de EUR en el agregado reciente, con un flujo de caja operativo de 3.221 millones de EUR.
+* **Dividendos:**
+  * Rentabilidad por dividendo (*Dividend Yield*): 2,80% - 2,87%, con un *payout ratio* del 57,13% y un dividendo por acción de 2.32 EUR.
+* **Consenso de Analistas:**
+  * Precio objetivo medio (*Target Mean Price*): 128.94 EUR (con un rango entre un mínimo de 99.75 EUR y un máximo de 153.10 EUR), lo que representa un potencial alcista de consenso (*consensus upside*) del 55,64% basado en 17 opiniones de analistas.
 
 ---
 
-### 4. Selección de Indicadores Complementarios Recomendados
-De acuerdo con la estrategia analítica requerida para evaluar el mercado actual de `ACS.MC` sin redundancias, se seleccionan los siguientes 8 indicadores técnicos clave:
+#### 4. Evidencia y Fuentes de Datos
+* **Fuentes de Cotización y Fundamentales:** Datos extraídos de la instantánea verificada de Yahoo Finance para `ACS.MC` con fecha de retención `2026-11-27`.
+* **Noticias Relevantes:** 
+  * *La Vanguardia* (2026-11-21): "Los centros de datos llenan la cartera de ACS", destacando el dinamismo comercial en infraestructuras digitales.
+  * *Yahoo / Agencias* (2026-11-25): Comportamiento del Ibex 35 condicionado por valores pesados en sesiones bajistas.
+* **Datos Faltantes / Limitaciones:** No se dispone del detalle desagregado por segmentos de negocio más allá de los estados financieros consolidados anuales (2023-2025). No se asumen datos macroeconómicos no provistos explícitamente en el contexto.
 
-1. `close_50_sma`: Media móvil simple de 50 sesiones, ideal para identificar la tendencia a medio plazo y actuar como referencia dinámica de resistencia tras la reciente caída.
-2. `close_200_sma`: Media móvil simple de 200 sesiones, imprescindible para contrastar la estructura de largo plazo y el impacto de la corrección actual frente al ciclo general.
-3. `close_10_ema`: EMA rápida de 10 sesiones, útil para capturar cambios rápidos de impulso y micro-rebotar en contextos de alta volatilidad diaria.
-4. `macd`: Indicador de convergencia/divergencia de medias móviles para medir la fuerza de la tendencia principal y detectar giros de ciclo.
-5. `macds`: Línea de señal del MACD, necesaria para filtrar falsos cruces en periodos de corrección bajista.
-6. `rsi`: Índice de Fuerza Relativa (14 periodos), indispensable para vigilar la proximidad a zonas de sobreventa (<30) o sobrecompra (>
+---
+
+#### 5. Selección de Indicadores Técnicos Recomendados
+De acuerdo con las directrices de optimización analítica (evitando redundancias y seleccionando hasta 8 herramientas complementarias):
+1. `close_50_sma`: Para identificar la dirección de la tendencia a medio plazo.
+2. `close_200_sma`: Como referencia estructural de largo plazo.
+3. `close_10_ema`: Para capturar giros rápidos de impulso a corto plazo.
+4. `macd`: Para evaluar la divergencia y convergencia de las medias móviles ponderadas.
+5. `rsi`: Para vigilar el índice de fuerza relativa y descartar extremos de sobreventa o sobrecompra.
+6. `boll`: Banda media de Bollinger (SMA 20) como referencia de soporte y resistencia dinámica.
+7. `atr`: Para medir la volatilidad histórica reciente y dimensionar adecuadamente niveles de *stop-loss*.
+8. `vwma`: Para integrar el volumen de contratación en la confirmación de la tendencia del precio.
+
+---
+
+#### Tabla Resumen Clave
+
+| Concepto / Métrica | Valor Actual / Dato | Comentario Analítico |
+| :--- | :--- | :--- |
+| **Precio de Cierre** | 82.85 EUR | Por debajo de SMA20 (87.43) y SMA50 (90.03). |
+| **RSI (14)** | 40.74 | Zona neutral-debilidad, sin sobreventa profunda. |
+| **Volatilidad Anualizada** | 37.06% | Elevada, requiere gestión estricta del riesgo. |
+| **PER (Trailing / Forward)** | 17.01x / 16.44x | Valoración razonable frente a su media histórica y sector. |
+| **Ingresos (2025)** | 49.850 M€ | Sólido incremento interanual (+19.4%). |
+| **Deuda Neta / EBITDA** | 1.02

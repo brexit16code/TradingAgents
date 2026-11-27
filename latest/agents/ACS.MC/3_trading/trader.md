@@ -1,11 +1,11 @@
-**Action**: Sell
+**Action**: Buy
 
-**Reasoning**: A pesar de la sólida generación de flujo de caja libre y un apalancamiento moderado de 1,02x, la debilidad técnica estructural de ACS.MC es evidente al cotizar a 81,05 EUR por debajo de su media móvil de 200 sesiones (108,16 EUR), con un drawdown del 41,42% y márgenes netos muy estrechos de apenas el 1,99% en un entorno de tipos elevados. Estos factores bajistas justifican una recomendación de venta para reducir exposición de acuerdo con la directriz de infraponderación (Underweight).
+**Reasoning**: A pesar de la debilidad técnica a corto plazo y de cotizar por debajo de sus medias móviles clave, los sólidos fundamentales de ACS.MC, respaldados por un incremento de ingresos del 19,4%, un ROE del 25% y un flujo de caja libre robusto, justifican una acumulación gradual aprovechando el descuento frente al precio objetivo de consenso. La relación riesgo-recompensa es atractiva para construir una posición con sobreponderación (Overweight), gestionando la volatilidad histórica mediante un estricto control de stop-loss.
 
-**Entry Price**: 81.05
+**Entry Price**: 82.85
 
-**Stop Loss**: 90.24
+**Stop Loss**: 74.5
 
-**Position Sizing**: 25% to 50% of a standard position size
+**Position Sizing**: 3% of portfolio
 
-FINAL TRANSACTION PROPOSAL: **SELL**
+FINAL TRANSACTION PROPOSAL: **BUY**

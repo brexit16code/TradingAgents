@@ -1,32 +1,34 @@
-Este informe presenta un análisis fundamental de **Acciona, S.A. (ANA.MC)** basado en los datos financieros y de mercado disponibles a fecha de 26 de noviembre de 2026.
+Este informe analiza la situación fundamental de **Acciona, S.A. (ANA.MC)**, una compañía líder en el sector de Ingeniería y Construcción en España, basándose en la información financiera disponible a fecha del 27 de noviembre de 2026.
 
-### Perfil de la Compañía y Contexto de Mercado
-Acciona, S.A. es un grupo industrial español líder en el sector de **Ingeniería y Construcción**, con una presencia significativa en energías renovables (a través de su participación en Nordex). La compañía opera en un entorno macroeconómico complejo, caracterizado por un Euríbor superando el 3,3% y un entorno de tipos de interés altos que impacta tanto en la financiación de proyectos como en la valoración de sus activos intensivos en capital.
+### Perfil y Situación Actual
+Acciona se encuentra en un momento crítico y de alta volatilidad. La empresa está evaluando alternativas estratégicas para su filial energética, incluyendo la posibilidad de integrar la unidad tras no haber encontrado un comprador satisfactorio para la misma (*Expansión*, 26/11/2026). Esta incertidumbre sobre su brazo energético ha impactado negativamente en el sentimiento del mercado, aunque el valor muestra signos de intentar un rebote tras las recientes caídas.
 
 ### Análisis Financiero
-*   **Desempeño reciente:** A pesar de una corrección técnica del -32,4% desde sus máximos, la acción ha mostrado una recuperación reciente (+3,07% en la última sesión). Sin embargo, se mantiene por debajo de sus medias móviles de 20, 50 y 200 días, lo que sugiere una tendencia bajista de medio y largo plazo.
-*   **Resultados y Rentabilidad:** El EBITDA ha mostrado un crecimiento saludable, pasando de 2.426 millones (2023) a 3.446 millones (2025). No obstante, el beneficio neto reportado en 2025 (803 millones) refleja márgenes estrechos (1,64%).
-*   **Solvencia y Deuda:** Este es el punto crítico para los inversores. Con una deuda total de ~14.574 millones de euros y un ratio **Net Debt/EBITDA de 6,14x**, el apalancamiento es elevado. El informe de *Expansión* (20/11/2026) destaca que Acciona es uno de los grupos del IBEX con mayores presiones de deuda en el contexto actual.
-*   **Flujo de Caja:** El flujo de caja libre (FCF) mostró una mejora significativa en 2025 (379 millones frente a los -492 millones de 2024), gracias a una moderación en el gasto de capital (CapEx), que descendió a 1.769 millones.
+*   **Resultados:** La compañía ha experimentado un crecimiento constante en ingresos, pasando de 17.021 millones de EUR en 2023 a 20.236 millones de EUR en 2025. Sin embargo, los márgenes de beneficio neto son estrechos (1,64%).
+*   **Deuda y Solvencia:** Existe una presión significativa sobre el balance. La deuda total asciende a 14.574 millones de EUR, con un ratio de **Net Debt/EBITDA de 6,14x**, lo que refleja una estructura de capital altamente apalancada.
+*   **Flujo de Caja:** A pesar de un flujo de caja operativo positivo (2.148 millones en 2025), el flujo de caja libre es negativo (-722 millones), lastrado por inversiones de capital (Capex) intensivas.
+*   **Valoración:** La acción cotiza a un Forward PE de 16,64x, lo cual es moderado frente a su trayectoria histórica. El consenso de analistas sitúa el precio objetivo medio en 224,86 EUR, lo que implica un potencial de revalorización del 20,05% respecto al cierre de 187,30 EUR.
 
-### Perspectivas e Insights
-*   **Argumentos a favor:** El consenso de analistas mantiene un precio objetivo medio de 224,86 EUR, lo que implica una **potencial de revalorización (upside) del 19,6%** respecto al cierre de 188,0 EUR. La reciente mejora en las previsiones de beneficio por acción (BPA) impulsada por Nordex, según *Yahoo Finance* (24/11/2026), es un catalizador positivo.
-*   **Argumentos en contra:** La alta sensibilidad a los tipos de interés, los márgenes operativos reducidos y la elevada deuda neta representan riesgos significativos si el ciclo de tipos altos se extiende más allá de lo previsto en 2027.
+### Factores a Considerar para Traders
+1.  **Sentimiento Técnico:** El RSI de 14 días (37,51) sugiere que el valor no está en terreno de sobreventa extrema, pero el cruce bajista del MACD (-6,92 vs -4,78) indica una tendencia bajista de corto plazo aún presente.
+2.  **Riesgo de Ejecución:** La posible integración de Acciona Energía tras el fracaso de la venta introduce incertidumbre operativa. El mercado reaccionará al anuncio formal sobre cómo se llevará a cabo este proceso.
+3.  **Dividendos:** Con una rentabilidad por dividendo del 3,06% y un ratio de pago (payout) elevado (1,66), la sostenibilidad del dividendo depende de una mejora en la generación de flujo de caja libre.
+4.  **Soporte/Resistencia:** La acción se sitúa por debajo de sus medias móviles de 20, 50 y 200 sesiones, lo que confirma una estructura técnica de medio plazo bajista.
 
-### Resumen de Datos
-| Métrica | Valor / Dato |
+### Resumen de Datos Clave
+
+| Métrica | Valor |
 | :--- | :--- |
-| Precio Actual | 188,0 EUR |
-| Capitalización Bursátil | 10.002 millones EUR |
-| Forward PE (2027) | 16,70 |
-| Deuda Neta / EBITDA | 6,14x |
-| Dividend Yield | 3,15% |
-| Consenso Upside | +19,6% |
-| RSI (14 días) | 37,97 (Zona neutral/sobreventa) |
+| **Precio Actual** | 187,30 EUR |
+| **Capitalización Bursátil** | 9.965 M EUR |
+| **Forward PE** | 16,64x |
+| **Rentabilidad por Dividendo** | 3,06% |
+| **Net Debt/EBITDA** | 6,14x |
+| **Consenso Precio Objetivo** | 224,86 EUR |
+| **Potencial de Upside** | +20,05% |
+
+**Nota sobre datos faltantes:** No se dispone de datos detallados sobre transacciones internas (insiders) recientes ni desgloses específicos del Capex proyectado para 2027, lo cual es relevante para evaluar la futura reducción de la deuda.
 
 **Rating**: HOLD
 
-FINAL TRANSACTION PROPOSAL: Mantener posiciones actuales. La acción presenta un descuento frente al valor objetivo del consenso, pero los fundamentales requieren cautela debido al elevado apalancamiento. Se recomienda supervisar la evolución de los costes financieros en los próximos trimestres.
-
-***
-*Nota: La información proporcionada se basa exclusivamente en los datos suministrados. No se dispone de detalles sobre la composición accionarial ni transacciones de insiders recientes.*
+FINAL TRANSACTION PROPOSAL: No execute; monitor news regarding the restructuring of the energy subsidiary and wait for a technical breakout above the 20-day SMA (approx. 202.90 EUR) to consider a long entry.

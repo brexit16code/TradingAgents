@@ -1,11 +1,11 @@
-**Action**: Hold
+**Action**: Sell
 
-**Reasoning**: Endesa, S.A. cotiza a 43.32 EUR, manteniendo una sólida generación de caja operativa y un atractivo rendimiento por dividendo con próximo pago en enero de 2027, lo que justifica no vender. Sin embargo, el precio actual supera el precio objetivo medio del consenso de analistas situado en 36.89 EUR y presenta un menor beneficio neto interanual junto con un entorno de tipos elevados, lo que neutraliza los argumentos para incrementar la exposición mediante nuevas compras. Por lo tanto, la recomendación equilibrada es mantener una postura neutral de espera sin ejecutar nuevas transacciones.
+**Reasoning**: Endesa (ELE.MC) cotiza actualmente a 43,74 EUR, lo que representa una prima del 15,67% por encima del precio objetivo medio de consenso de los analistas situado en 36,89 EUR, tras un rally anual del 47,39% y un PER adelantado exigente de 18,07x. Aunque los fundamentales operativos y la generación de flujo de caja son sólidos, la valoración actual descuenta en exceso las buenas noticias y supera ampliamente los niveles de soporte a corto plazo, justificando la ejecución de una recomendación de venta enmarcada en la postura de infraponderación.
 
-**Entry Price**: not provided
+**Entry Price**: 43.74
 
-**Stop Loss**: not provided
+**Stop Loss**: 46.5
 
-**Position Sizing**: 5% of portfolio
+**Position Sizing**: 3% of portfolio
 
-FINAL TRANSACTION PROPOSAL: **HOLD**
+FINAL TRANSACTION PROPOSAL: **SELL**

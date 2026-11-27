@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: AENA.MC muestra una salud financiera robusta con un ratio deuda/EBITDA de 1,38x, pero cotiza actualmente por encima del precio objetivo de consenso de 27,48 EUR. La incertidumbre regulatoria derivada del recurso de Air Europa y un momentum técnico que muestra signos de enfriamiento (MACD por debajo de la señal) desaconsejan nuevas compras a corto plazo, sugiriendo esperar una consolidación o resolución del conflicto antes de aumentar la exposición.
+**Reasoning**: AENA.MC muestra una estructura técnica alcista con el precio cotizando por encima de las medias móviles clave, lo que refleja fortaleza. Sin embargo, el activo cotiza por encima del precio objetivo medio del consenso y presenta incertidumbres legales con Air Europa, limitando el potencial alcista a corto plazo con un ratio riesgo/beneficio desfavorable. Se recomienda mantener para beneficiarse de la tendencia vigente, pero evitando nuevas compras hasta que el precio se ajuste hacia niveles de soporte más atractivos.
 
-**Entry Price**: 25.78
+**Entry Price**: 26.83
 
-**Stop Loss**: 24.5
+**Stop Loss**: 25.79
 
-**Position Sizing**: Mantener posición actual; no añadir exposición
+**Position Sizing**: Mantener posición actual
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

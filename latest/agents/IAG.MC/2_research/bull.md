@@ -1,21 +1,35 @@
 
-Bull Analyst: **Rating**: BUY  
-FINAL TRANSACTION PROPOSAL: Hypothetically accumulate IAG.MC targeting the consensus objective while leveraging active buybacks and stellar cash flow.
+Bull Analyst: **Rating**: HOLD  
 
-¡Hola a todos! Qué bueno abrir este debate, porque es el momento perfecto para poner sobre la mesa la realidad aplastante de **IAG.MC**. Mientras algunos analistas prefieren mirar el vaso medio vacío fijándose en los típicos riesgos del sector aeronáutico, los datos fundamentales y operativos nos gritan otra cosa: **IAG.MC** está demostrando una fortaleza financiera y una disciplina de capital envidiables que el mercado todavía no ha descontado por completo. 
+FINAL TRANSACTION PROPOSAL: Mantener posición actual con cobertura y stops dinámicos basados en soporte técnico cercano a 5,10 EUR, evaluando recogida parcial si se acerca al objetivo de consenso de analistas (6,12 EUR).
 
-Vamos a desmontar esos miedos injustificados y a ver por qué la tesis alcista es infinitamente más sólida:
+---
 
-### 1. ¿Miedo al endeudamiento o a la ciclicidad? Miremos los números reales
-Los osos suelen asustar con el fantasma de la deuda en las aerolíneas. Pero, ¿qué dicen los datos de **IAG.MC**? La deuda neta sobre EBITDA se sitúa en un comodísimo **0,78x** (con una deuda total de 13.867 millones de euros frente a una caja total de 9.175 millones). ¡Hablamos de un balance saneado y desapalancado de forma magistral! Además, la compañía generó un flujo de caja operativo masivo de **6.588 millones de euros** y un flujo de caja libre (*FCF*) de **3.146 millones de euros** al cierre de 2025. ¿De verdad me van a decir que una empresa con esta capacidad de conversión de caja y un EBITDA de casi 8.000 millones está en riesgo por un euríbor al 3,3%? ¡Al contrario! La demanda de viajes sigue mostrando una resiliencia formidable.
+¡Hola a todos! Es un placer abrir este debate sobre **IAG.MC** (*International Consolidated Airlines Group S.A.*). Mientras los más cautos o bajistas suelen mirar a la industria de las aerolíneas con recelo debido a su tradicional ciclicidad, hoy quiero demostrarles con datos duros, fundamentales sólidos y un rendimiento bursátil envidiable que `IAG.MC` se encuentra en una liga completamente diferente. No estamos ante la típica aerolínea endeudada y vulnerable, sino ante un gigante de la aviación global con una escalabilidad y rentabilidad asombrosas. 
 
-### 2. Una valoración escandalosamente atractiva (PER Forward de 7,12x)
-Mientras que la mediana de los comparables del sector industrial y de infraestructuras cotiza a un PER forward exigente de **16,70x**, ¡**IAG.MC** cotiza a un ridículo **7,12x** (*forward PE*) y un *trailing PE* de 8,11x! Estamos comprando una máquina de generar beneficios netos —que alcanzaron los **3.342 millones de euros** en 2025— con un descuento del 57% frente a la media de sus pares. El consenso de analistas sitúa el precio objetivo medio en **6,12 EUR**, lo que ofrece un **potencial de revalorización (*upside*) del 16,09%** desde los 5,274 EUR actuales, con techos de analistas en los 7,00 EUR. 
+Vamos a desglosar por qué el bando alcista tiene argumentos de sobra para defender la inversión en este valor:
 
-### 3. Catalizadores inmediatos: Recompras masivas de acciones
-Aquí es donde la teoría se convierte en dinero contante y sonante para el accionista. ¡No estamos esperando a ver qué pasa! **IAG.MC** acaba de acelerar su programa de recompra sumando más de **6,5 millones de acciones en una sola semana**, y ya prepara nuevos tramos por valor de **1.500 millones de euros** (*Finanzas.com*). Esta política de retribución agresiva reduce el número de títulos en circulación, dispara el beneficio por acción (BPA) y actúa como un suelo clarísimo para la cotización. 
+### 1. Crecimiento Potencial y Escala Financiera que Desafía los Mitos
+El mayor error de los bajistas es ignorar la brutal capacidad de generación de ingresos y flujo de caja de `IAG.MC`. Si miramos los estados financieros, los ingresos totales escalaron hasta los **33.213 millones de euros** al cierre del ejercicio 2025 (superando los 32.100 millones de 2024 y los 29.453 millones de 2023). ¿Y qué hay del beneficio neto? ¡**3.342 millones de euros** en 2025! 
 
-### 4. Soporte técnico impecable y momento neutral
-A nivel técnico, la acción cotiza holgadamente por encima de su media móvil de 50 sesiones (5,10 EUR) y de la de 200 sesiones (4,87 EUR), confirmando una estructura alcista muy sana. Con un RSI de **52,37** (totalmente neutral, sin atisbos de sobrecompra) y una rentabilidad acumulada del 18,76% a 252 sesiones, el valor tiene vía libre para seguir escalando impulsado por el optimismo de las bolsas europeas y la excelente salud corporativa.
+Además, la compañía genera flujos de caja operativos masivos (6.588 millones de euros) y un flujo de caja libre (*Free Cash Flow*) de **3.146 millones de euros**. Esta no es una empresa sobreviviendo mes a mes; es una máquina de flujo de caja libre que escala con maestría gracias a su potente combinación de marcas líderes (Iberia, British Airways, Vueling y Aer Lingus) que dominan los codiciados corredores del Atlántico Norte y Europa-Latinoamérica.
 
-En resumen: ignorar el potencial de **IAG.MC** basándose en tópicos del pasado es perderse una de las mejores oportunidades de valor y generación de caja en la bolsa europea. ¡Los fundamentales mandan, y los toros tenemos las de ganar!
+### 2. Ventajas Competitivas Imbatibles y Posicionamiento de Mercado
+¿Por qué `IAG.MC` resiste mejor que nadie los embates del sector? Por su modelo de negocio descentralizado y el poderío de sus hubs en Madrid y Londres. Iberia, por ejemplo, destaca por ser una de las aerolíneas más rentables y eficientes de Europa, con un posicionamiento estratégico inigualable hacia el mercado latinoamericano que ningún competidor *low cost* puede replicar fácilmente debido a las barreras de entrada del largo radio. 
+
+A esto se le suma una disciplina de capital ejemplar: la directiva está acelerando programas de recompra de acciones —destacando la adquisición de más de 6,5 millones de títulos en una sola semana de noviembre de 2026—, lo que demuestra una confianza absoluta en el valor intrínseco de la compañía y reduce de manera inteligente el número de acciones en circulación, incrementando el beneficio por acción (*EPS*).
+
+### 3. Indicadores Positivos: Valoración de Chollo y Solidez de Balance
+Aquí es donde el argumento bajista se queda completamente sin munición. ¿Cómo se puede ignorar una valoración tan atractiva? 
+- Cotiza a un **Forward P/E de apenas 7.18x** (y un *Trailing P/E* de 8.18x), muy por debajo de la mediana de sus pares comparables de infraestructuras e industria (cuyo PER de referencia supera las 16x).
+- Su ratio **EV/EBITDA está en unos bajísimos 4.69x**.
+- ¿Preocupados por la deuda? El fantasma del endeudamiento post-pandemia ya es historia: la deuda neta sobre EBITDA se sitúa en un comodísimo **0.78x**, respaldada por una formidable posición de caja total de **9.175 millones de euros** frente a una deuda total de 13.867 millones.
+
+Los indicadores técnicos respaldan esta salud fundamental: con un precio de cierre en **5.32 EUR**, la acción se mantiene holgadamente por encima de su media móvil de 50 sesiones (SMA50 en 5.11 EUR) y de su media de 200 sesiones (SMA87/4.87 EUR), con un RSI neutral en 54.23 que deja mucho margen para seguir subiendo. No en vano, el precio objetivo medio de consenso de los analistas se sitúa en **6.12 EUR**, lo que otorga un jugoso **potencial alcista (*consensus upside*) del 15.13%**.
+
+### Desmontando al Oso: ¿Por qué el argumento bajista falla?
+Los analistas bajistas suelen argumentar que la presión inflacionaria, el coste del combustible o un posible enfriamiento macroeconómico en Europa arruinarán los márgenes de las aerolíneas. 
+
+* **La réplica:** ¡Miren los márgenes y la realidad de los datos! Con un margen de beneficio (*profit margins*) del **8.59%** y un EBITDA récord de casi 8.000 millones de euros en 2025, `IAG.MC` ha demostrado una gran flexibilidad para trasladar costes a las tarifas sin mermar la demanda de pasajeros, la cual sigue mostrando una resiliencia estructural admirable tras la pandemia. Además, con un balance saneado (ratio de endeudamiento inferior a 1x EBITDA), la compañía es totalmente inmune a los riesgos de refinanciación que ahogan a competidores más débiles.
+
+En resumen, amigos del mercado: mientras los osos se pierden en temores teóricos del pasado, los toros de `IAG.MC` disfrutamos de una caja robusta, recompras agresivas de acciones, múltiplos de valoración ridículamente baratos y una tendencia técnica alcista impecable. ¡Hay cuerda para rato!

@@ -1,36 +1,37 @@
-**Rating**: HOLD  
+**Rating**: REVIEW
 
-### Informe de Investigación y Análisis Macroeconómico - Amadeus IT Group, S.A. (`AMS.MC`)
+### Informe de Análisis Macroeconómico y de Mercado para `AMS.MC`
 
-#### 1. Contexto Macroeconómico y de Mercado
-El análisis se sitúa a finales de noviembre de 2026. Durante la semana del 26 de noviembre de 2026, los mercados bursátiles europeos han registrado fuertes subidas impulsados principalmente por el sector bancario y tecnológico (con avances superiores al 2% en índices de referencia como el Euro Stoxx 50 y el DAX alemán). En el ámbito macroeconómico europeo, destaca el nombramiento de Pablo Hernández de Cos como presidente del Banco Central Europeo (BCE), siendo el primer español en asumir este cargo (anunciado el 26 de noviembre de 2026). Por otro lado, el Euríbor superó el umbral del 3,3%, encareciendo los costes hipotecarios y manteniendo un entorno de tipos de interés altos vigilado de cerca por los inversores.
+#### 1. Resumen Ejecutivo y Entorno Macroeconómico Global (Noviembre 2026)
+El análisis actual se enmarca en un contexto de rebote generalizado de las bolsas europeas y tecnológicas a finales de noviembre de 2026, a pesar de señales de desaceleración económica en ciertas economías clave como Francia y la moderación del IPC en noviembre de 2026 (descendiendo al 4,1%, según referencias de Rankia del 27/11/2026). Las bolsas europeas y tecnológicas han prolongado las subidas semanales, firmando los mejores registros desde 2022 para algunos índices globales y avanzando con fuerza impulsadas por tecnología y banca. 
 
-#### 2. Análisis Fundamental y Técnico de `AMS.MC`
-- **Identidad y Negocio:** Amadeus IT Group, S.A. (`AMS.MC`), cotizada en la Bolsa de Madrid (MCE) dentro del sector de Tecnología (Information Technology Services).
-- **Precio y Datos Técnicos:** A fecha de 26 de noviembre de 2026, la acción cotiza a **61,90 EUR**, registrando una subida diaria del 1,51%. Su RSI de 14 períodos se sitúa en 62,74 (zona neutral-alcista sin sobrecompra extrema), con medias móviles en tendencia positiva (SMA20 en 60,69 EUR, SMA50 en 56,75 EUR y SMA200 en 52,97 EUR). Presenta una volatilidad del 26,05% y un descenso desde máximos recientes (drawdown) del -2,45%.
-- **Valoración y Fundamentales:**
-  - Capitalización bursátil: ~25.997 millones de EUR.
-  - Per Trailing (PE): 19,90x; Forward PE: 15,83x.
-  - Ratio Deuda Neta / EBITDA: 1,03x (total debt de ~3.500 millones de EUR frente a un EBITDA de ~2.500 millones de EUR).
-  - Crecimiento de ingresos del 6,4% y de beneficios del 9,8%.
-  - Rentabilidad por dividendo (*dividend yield*): ~2,49% (con un dividendo ordinario de 1,54 EUR y un *payout ratio* de 49,52%).
-  - Consenso de analistas (*Target Mean Price*): 71,47 EUR (con un precio objetivo mínimo de 53,0 EUR y máximo de 82,0 EUR, basado en 23 opiniones de analistas), lo que implica un potencial alcista (*consensus upside*) del **15,46%**.
+Para `AMS.MC` (Amadeus IT Group, S.A.), cotizada en el mercado continuo de Madrid (`MCE`) dentro del sector de Tecnología y Servicios de Tecnologías de la Información, este entorno de optimismo bursátil coincide con una sólida posición técnica y fundamental.
 
-#### 3. Evidencia de Noticias y Fuentes
-- **Noticias Corporativas y de Sector:** Cobertura reciente en Rankia sobre la operativa de acciones de Amadeus y su política de retribución al accionista (23 de noviembre de 2026). 
-- **Fuentes:** Datos extraídos de Yahoo Finance (`https://finance.yahoo.com/quote/AMS.MC/`), estados financieros de la compañía y resúmenes de prensa económica de El Boletín, Negocios.com y El Constitucional.
+#### 2. Análisis Fundamental y Financiero de `AMS.MC`
+Con los datos financieros más recientes correspondientes al cierre fiscal y las estimaciones actualizadas al 27/11/2026:
+* **Capitalización de Mercado**: ~26.360 millones de EUR.
+* **Precio de Cierre**: 62,76 EUR (con fecha 27/11/2026), experimentando una variación diaria positiva del +1,39%.
+* **Valoración y Beneficios**: Presenta un PER histórico (*trailing P/E*) de 20,18x y un PER adelantado (*forward P/E*) de 16,04x. El beneficio por acción (*EPS*) estimado a futuro es de 3,91 EUR frente a los 3,11 EUR históricos.
+* **Crecimiento e Ingresos**: Los ingresos totales alcanzaron los 6.517 millones de EUR en el ejercicio cerrado a diciembre de 2025, superando los 6.141 millones de 2024. El EBITDA se sitúa en 2.534,7 millones de EUR para 2025.
+* **Solvencia y Deuda**: La deuda neta sobre EBITDA se mantiene en un nivel moderado y manejable de aproximadamente 1,03x (Deuda total de ~3.224 millones de EUR frente a un efectivo de ~913 millones de EUR en el balance más reciente).
+* **Flujo de Caja y Dividendos**: El flujo de caja libre (*free cash flow*) asciende a 1.386 millones de EUR (ejercicio 2025), apoyando una rentabilidad por dividendo (*dividend yield*) estimada en el rango del 2,45% - 2,49%, con una ratio de pago (*payout ratio*) cercana al 49,5%.
 
-#### 4. Asunciones, Método de Valoración y Datos Faltantes
-- **Método de Valoración:** Basado en múltiplos de mercado (Forward PE de ~15,8x, EV/EBITDA de 11,24x) y consenso de analistas de Wall Street/mercado europeo (precio objetivo medio de 71,47 EUR). Los precios objetivo de los analistas constituyen estimaciones de consenso y no valores intrínsecos definitivos.
-- **Datos Faltantes:** No se dispone de un desglose detallado pormenorizado de los flujos de caja operativos futuros más allá de los estados históricos cerrados a diciembre de 2025, ni un porfolio de asignación de activos privado (cualquier decisión al respecto es estrictamente hipotética).
+#### 3. Situación Técnica
+* **Indicadores de Momento y Tendencia**: El valor cotiza en 62,76 EUR, superando holgadamente sus medias móviles clave (SMA20 en 60,99 EUR, SMA50 en 56,90 EUR y SMA200 en 53,05 EUR), lo que confirma una tendencia alcista clara en el medio y largo plazo.
+* **RSI y Osciladores**: El RSI de 14 sesiones se sitúa en 65,98, reflejando un tono alcista robusto sin entrar de lleno en zona de sobrecompra extrema. El MACD se encuentra en 1,26 con su línea de señal en 1,40.
+* **Rentabilidad Reciente**: Registra una rentabilidad a 21 sesiones del +9,72% y a 63 sesiones del +11,87%, superando al índice de referencia (`^IBEX`) en rendimiento relativo a 63 días en 14,08 puntos porcentuales.
+* **Consenso de Analistas**: El precio objetivo medio de consenso (*targetMeanPrice*) se ubica en 71,47 EUR, con un rango que va desde un mínimo de 53,00 EUR hasta un máximo de 82,00 EUR (basado en 23 opiniones de analistas), lo que implica un potencial alcista estimado (*consensus upside*) del 13,88% desde los niveles actuales.
 
-| Componente Clave | Métrica / Dato Actual (`AMS.MC`) | Observaciones / Contexto |
+#### 4. Evidencia y Datos Faltantes
+* **Evidencia de Soporte**: Datos bursátiles y financieros exactos extraídos de la instantánea de `AMS.MC` con fecha 27/11/2026. Titulares macroeconómicos y sectoriales de la prensa financiera española (Merca2.es, Bankinter, Rankia, Negocios.com, Bolsamania, El Boletín) comprendidos entre el 26 y el 27 de noviembre de 2026.
+* **Datos Faltantes**: No se dispone de un desglose detallado en tiempo real de las operaciones intradía posteriores al cierre del 27 de/11/2026 ni de las actas completas de la próxima junta directiva. No se ha suministrado cartera de inversión previa (toda asignación hipotética debe ser evaluada individualmente).
+
+| Componente de Análisis | Estado / Métrica Clave (`AMS.MC`) | Observaciones Relevantes |
 | :--- | :--- | :--- |
-| **Precio de Cierre** | 61,90 EUR | Cotización a 26 de noviembre de 2026. |
-| **Precio Objetivo Medio** | 71,47 EUR | Consenso de analistas (23 opiniones). |
-| **Upside de Consenso** | +15,46% | Potencial estimado frente al precio actual. |
-| **Forward PE** | 15,83x | Valoración basada en beneficios estimados futuros. |
-| **Ratio Deuda Neta / EBITDA** | 1,03x | Estructura de endeudamiento moderada y sana. |
-| **Rentabilidad por Dividendo** | ~2,49% | Tasa de dividendo con *payout* del ~49,5%. |
+| **Precio Actual** | 62,76 EUR (27/11/2026) | Variación diaria de +1,39%; por encima de SMA20, SMA50 y SMA200. |
+| **Valoración (PER)** | 20,18x (Trailing) / 16,04x (Forward) | Mejora en la eficiencia de beneficios esperados para los próximos periodos. |
+| **Solvencia y Deuda** | Deuda Neta / EBITDA ~1.03x | Estructura financiera sólida con pasivos controlados. |
+| **Consenso de Mercado** | 71,47 EUR (Precio Objetivo Medio) | Potencial alcista estimado de ~13,88% con 23 analistas cubriendo el valor. |
+| **Entorno Macroeconómico** | Rebote bursátil europeo / IPC noviembre al 4,1% | Contexto favorable para activos de riesgo y tecnología a finales de noviembre de 2026. |
 
-FINAL TRANSACTION PROPOSAL: HOLD
+FINAL TRANSACTION PROPOSAL: REVIEW

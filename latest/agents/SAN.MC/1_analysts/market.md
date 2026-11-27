@@ -1,43 +1,27 @@
 **Rating**: HOLD  
-FINAL TRANSACTION PROPOSAL: Mantener posición en cartera o buscar correcciones hacia soportes clave antes de considerar nuevas entradas en firme, dado el sesgo técnico neutral/bajista a corto plazo respaldado por el RSI y el MACD, compensado por sólidos fundamentales y un elevado potencial de revalorización según consenso.
+FINAL TRANSACTION PROPOSAL: Mantener posición sin ejecutar nuevas operaciones de compra o venta en SAN.MC, a la espera de una ruptura técnica más clara o de una confirmación fundamental en los próximos trimestres.
 
 ---
 
-### Informe de Análisis Financiero y Técnico: Banco Santander, S.A. (`SAN.MC`)
+### Informe Técnico y Fundamental Detallado: Banco Santander, S.A. (`SAN.MC`)
 
-#### 1. Contexto de Mercado y Estado Actual
-A fecha de 26 de noviembre de 2026, las acciones de **Banco Santander, S.A.** (`SAN.MC`) cotizan a un precio de cierre de **10,44 EUR**, registrando un movimiento diario positivo del **4,11%** en la sesión, apoyado por un contexto macroeconómico europeo favorable donde la banca continental y la tecnología han impulsado fuertes rebotes en las bolsas europeas (según fuentes como *el boletin* y *Negocios.com* de noviembre de 2026). No obstante, el comportamiento de las últimas semanas refleja correcciones notables: un descenso del **0,68%** a 21 sesiones y una caída del **16,57%** a 63 sesiones, situando la rentabilidad acumulada a 252 sesiones en un **+15,05%** y un *drawdown* de **-18,42%** desde sus máximos recientes.
+#### 1. Contexto de Mercado y Evolución Reciente
+A fecha de 27 de noviembre de 2026, las acciones de **Banco Santander, S.A.** (`SAN.MC`), cotizadas en la Bolsa de Madrid dentro del índice de referencia `^IBEX`, registran un precio de cierre de **10,90 EUR** (con una subida diaria del **4,43%** impulsada por el rebote generalizado del sector bancario y tecnológico en Europa). El valor muestra una capitalización bursátil aproximada de **157.052 millones de euros**. 
 
-#### 2. Análisis Técnico e Indicadores Seleccionados
-Para evaluar la estructura de mercado de `SAN.MC` de manera complementaria y sin redundancias, se han seleccionado los siguientes indicadores clave:
-* **`close_50_sma`** (Media Móvil Simple de 50 sesiones): Situada en **11,39 EUR**, actúa como resistencia dinámica de medio plazo, encontrándose el precio actual por debajo de la misma.
-* **`close_200_sma`** (Media Móvil Simple de 200 sesiones): Ubicada en **11,14 EUR**, confirma que el valor cotiza actualmente bajo su gran referencia de largo plazo, reflejando el castigo acumulado en el trimestre.
-* **`close_10_ema`** (Media Móvil Exponencial de 10 sesiones): Captura el pulso rápido de la cotización, encontrándose por debajo de las medias principales dada la reciente presión vendedora.
-* **`macd`** y **`macds`** (Línea MACD y su Señal): El valor de la línea MACD es de **-0,28** y la señal (`macds`) se sitúa en **-0,26**. Ambos se mantienen en territorio negativo, lo que denota que el impulso tendencial a corto plazo sigue siendo bajista a pesar de la subida puntual de la última sesión.
-* **`rsi`** (Índice de Fuerza Relativa de 14 periodos): Se encuentra en un nivel de **42,34**, lo que indica una situación neutral, ligeramente inclinada hacia la debilidad (por debajo de la zona media de 50), sin alcanzar niveles de sobreventa extrema (<30) ni de sobrecompra (>70).
-* **`atr`** (Rango Verdadero Medio): La volatilidad porcentual de la acción se sitúa en el **33,57%**, lo que exige dimensionar adecuadamente las posiciones y establecer stop-losses holgados.
 
-#### 3. Fundamentales y Valoración
-* **Capitalización Bursátil**: 150.397 millones de EUR.
-* **PER (Trailing / Forward)**: El PER histórico se sitúa en **11,73x**, mientras que el PER adelantado (*Forward PE*) baja atractivamente hasta **8,38x**, situándose por debajo de la mediana sectorial de pares comparables en España (ratio de valoración relativa PER de **0,85** frente a una mediana de pares de **9,91x**).
-* **Valor en Libros y Solvencia**: El beneficio por acción (*Trailing EPS*) es de **0,89 EUR** y el *Forward EPS* estimado alcanza los **1,25 EUR**. El valor contable por acción (*Book Value*) es de **7,87 EUR**, con un Precio/Valor en Libros (*Price-to-Book*) de **1,33x**.
-* **Rentabilidad y Dividendos**: Presenta una rentabilidad sobre recursos propios (*ROE*) del **13,06%**, márgenes de beneficio neto elevados del **32,58%** y una tasa de dividendo por acción de **0,25 EUR**, con una rentabilidad por dividendo (*Dividend Yield*) aproximada del **2,39%** a **2,53%**.
-* **Consenso de Analistas**: Según el panel de 21 analistas recopilado, el precio objetivo medio (*targetMeanPrice*) se sitúa en **13,70 EUR** (con un rango que va desde un mínimo de **11,30 EUR** hasta un máximo de **15,05 EUR**), lo que arroja un potencial alcista de consenso (*consensus_upside_pct*) del **31,26%**.
+Recientemente, la atención del mercado se ha centrado en noticias corporativas y macroeconómicas relevantes, tales como la perforación de resistencias técnicas destacadas en sesión de viernes ([MarketScreener España, 27-11-2026](https://news.google.com/rss/articles/CBMixgFBVV95cUxNUUkyYUVPQ0JDbDEwbFlZNzNKTjQwaEMyOGZDclNnSHNvTmdVQXNjOVkxYi1Ndks4Wm14OVh2Y3VMM3g0aWcyQUtseXJkaG9uR0ZqNVFtTGVWSVRzdFFMRk40Z3c3RHBMNFlaVnlJZmZrc2hzT25BdUFEbkEtX09oakxIQkJ0RjJqYkhqb0g3U1pZNUNHRFl5WktTZkZjZEp0SldSUUhVU0ZqaWFNdVpxdGR6blozNWlLLW50cXFsYWx1TjlDNlE?oc=5)) y la amortización de bonos por parte de Santander UK con vencimiento en 2028 ([MarketScreener España, 27-11-2026](https://news.google.com/rss/articles/CBMiugFBVV95cUxPZFZYUktuYXRwRTNuOHlMTUdtUXR1RlpQSERydTUzcDU3NlBsLWF5UUhadFB1Q1ExNFEwU2VUcmMyV3B4VjBYZy1LVzdBNWlXUDVTbHp1a1dMeGtQbk1LaC1HOS1KTU5GRU5sXzFxWGcxeHBuSXVUOHp3ZUgwZXhqSHEwNVY0MjlwWUJfUG5CMWtZejBYRnhNMU9zR0dSTzRpNm1VNUJ3ODdVeDVCNzh0MTA4cTQtNC1lOXc?oc=5)). A nivel macro, la inflación de noviembre de 2026 en el entorno europeo y las perspectivas de Ostrum AM sobre los riesgos y rentabilidades de la bolsa europea marcan el compás operativo ([Rankia, 27-11-2026](https://news.google.com/rss/articles/CBMikgFBVV95cUxPZ0EzUzJRbjZTS3lLQWladlBEcHo5UmpQaUV1YnkxRU94UjVFVU5XRFFSWklXNHhHODJ4aVQwNUViTTlLeTdVWVlEbTdCN1kzUmZWaEN5VEJxTy02akhlT041M2dycnRsZWpuUmljSDU0cHBGV3NacGZPZWROWm5HNkZKZ1NZdFZvb2NOSTNNT3o3Zw?oc=5); [Bolsamania, 27-11-2026](https://news.google.com/rss/articles/CBMi0wFBVV95cUxQejJmZEhzd1d0Sk9IUXlYTlBwYTdLUF95VkVFQjlzU3Z4ckxQVWdvQVZoR01zd0ZRYTllNjhQYlBMcHAzQTRvZUlfRG9wdGlPcndLb0FabVNjaDQ1c2tuNEpMVWdWanVab0tiYUpKQld5UVVlaFBsUG5kM3R1MmNtQWhySFFSTmlkSS03TG1QcUNZa3d0NXJIWXNoOUxUMDZ4THhSbmFUdTJLeWFwblp6d1FoQzdfT1JSbFQ3MzhQLTZ2OG53Y1VmUU55WE5vZ1dENnZ3?oc=5)).
 
-#### 4. Evidencias Contrarias, Soporte y Datos Faltantes
-* **Evidencia Contraria**: Si bien los fundamentales muestran un ratio *Forward PE* atractivo y un potencial analítico superior al 31%, la tendencia técnica pura muestra a `SAN.MC` cotizando por debajo de su SMA de 50 y de 200 sesiones, con un MACD en negativo y un RSI estancado en la zona de 42. Comprar de forma agresiva sin esperar la superación de las medias móviles o la confirmación de giro en los osciladores conlleva riesgo de trampa alcista (*bull trap*).
-* **Datos Faltantes**: No se dispone de estimaciones detalladas de los flujos de caja libres futuros normalizados ni del desglose pormenorizado de la morosidad (*NPL ratio*) en esta instantánea concreta, por lo que la valoración se apoya en los múltiplos de beneficios y el consenso de mercado.
+#### 2. Análisis Técnico y de Indicadores
+El análisis técnico de `SAN.MC` arroja señales mixtas que aconsejan prudencia:
+* **Tendencia y Medias Móviles**: El precio actual (10,90 EUR) se sitúa por encima de su media móvil simple de 20 sesiones (`sma20`: 10,72 EUR), lo que denota fortaleza a corto plazo. Sin embargo, cotiza por debajo de la media de 50 sesiones (`sma50`: 11,37 EUR) y de la media de 200 sesiones (`sma200`: 11,15 EUR), reflejando que la tendencia de medio-largo plazo sigue sujeta a corrección desde máximos previos.
+* **Momentum y Osciladores**: El **RSI (14)** se encuentra en un nivel neutral de **50,48**, indicando ausencia de sobrecompra o sobreventa extrema. Por su parte, el indicador **MACD** registra un valor de **-0,23** frente a su línea de señal (`macd_signal`) de **-0,25**. Aunque el MACD se mantiene en terreno negativo, la línea de MACD cruza ligeramente por encima de su señal, respaldando el rebote técnico reciente pero sin configurar todavía un cambio de ciclo alcista definitivo.
+* **Volatilidad y Retornos**: La volatilidad anualizada se sitúa en un moderado **34,84%**, con un *drawdown* máximo reciente del **-14,81%**. El rendimiento a 252 sesiones es positivo (**+18,41%**), aunque a 63 sesiones experimenta una contracción del **-12,32%** (con un comportamiento relativo desfavorable frente al índice de **-10,11 pp**).
 
----
+#### 3. Análisis Fundamental y Valoración
+* **Múltiplos de Valoración**: `SAN.MC` cotiza a un **Trailing P/E** de **11,98x** y un **Forward P/E** más atractivo de **8,75x**, apoyado en un beneficio por acción estimado (*Forward EPS*) de 1,25 EUR frente al beneficio histórico (*Trailing EPS*) de 0,91 EUR. El ratio *Price-to-Book* (P/B) se sitúa en **1,39x**, sobre un valor en libros por acción de 7,87 EUR.
+* **Rentabilidad y Solvencia**: Presenta un *Return on Equity* (**ROE**) del **13,06%** y unos márgenes de beneficio neto elevados (**32,58%**), impulsados por unos ingresos totales de 60.023 millones de euros y un beneficio neto de 14.101 millones de euros correspondientes al ejercicio cerrado de 2025. 
+* **Política de Retribución al Accionista**: Ofrece una rentabilidad por dividendo (*dividend yield*) estimada en torno al **2,29% - 2,43%**, con un dividendo por acción de 0,25 EUR y un *payout ratio* comedido del **25,42%**, lo que deja margen para la sostenibilidad y futuros incrementos o recompra de acciones.
+* **Consenso de Analistas**: El precio objetivo medio fijado por el consenso de analistas (*target mean price*) se ubica en **13,70 EUR** (con un rango entre un mínimo de 11,30 EUR y un máximo de 15,05 EUR a partir de 21 opiniones), lo que arroja un potencial alcista estimado (*consensus upside*) del **25,70%**.
 
-### Tabla Resumen de Indicadores y Métricas Clave (`SAN.MC`)
-
-| Categoría / Métrica | Valor / Nivel Actual | Interpretación Operativa |
-| :--- | :--- | :--- |
-| **Precio de Cierre** | 10,44 EUR (2026-11-26) | Rebote diario del +4,11% en sesión alcista europea. |
-| **RSI (14)** | 42,34 | Neutral con sesgo débil; alejado de extremos. |
-| **MACD / Señal** | -0,28 / -0,26 | Impulso de tendencia bajista vigente a pesar del rebote. |
-| **SMA 50 / SMA 200** | 11,39 EUR / 11,14 EUR | Resistencias dinámicas clave de medio y largo plazo. |
-| **Volatilidad (ATR/Vol)** | 33,57% | Volatilidad anualizada moderada-alta que requiere gestión de riesgo. |
-| **PER Forward** | 8,38x | Atractivo en comparación con la mediana de peers (9,91x). |
-| **Precio Objetivo Consenso**| 13,70 EUR | Potencial de revalorización estimado del +31,26%. |
+#### 4. Evidencia y Datos Faltantes
+* **Datos Utilizados**: Cotización de cierre, datos fundamentales (PER, P/B, ROE, BPA, capitalización), estados financieros anuales (2023-2025) y noticias de mercado correspondientes

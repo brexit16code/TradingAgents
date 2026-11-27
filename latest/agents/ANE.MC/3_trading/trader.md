@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: El valor cotiza en 19,02 EUR cerca de su valor contable por acción de 19,10 EUR y cuenta con un potencial alcista del 22,64% hacia el precio objetivo de consenso de 23,33 EUR. Sin embargo, su estructura técnica permanece debilitada por debajo de las medias móviles de 50 y 200 sesiones, con un MACD bajista y una ratio de deuda neta sobre EBITDA elevada superior a 5x en un contexto de tipos altos, lo que justifica mantener la posición actual sin realizar nuevas compras.
+**Reasoning**: La recomendación de mantenimiento se fundamenta en la contraposición entre un valor contable atractivo (P/B de 1.04x y precio de cierre en 19.79 EUR frente al valor en libros de 19.10 EUR) y un potencial de consenso alcista del 17.87%, frente a riesgos operativos considerables como un flujo de caja libre negativo de -408.7 millones de euros, una ratio de Deuda Neta/EBITDA elevada de 5.06x y una cotización que permanece por debajo de sus principales medias móviles (SMA20, SMA50 y SMA200). Se aconseja no incrementar exposición hasta observar una mejora tangible en la generación de caja y una reducción del apalancamiento.
 
 **Entry Price**: not provided
 
-**Stop Loss**: not provided
+**Stop Loss**: 17.0
 
-**Position Sizing**: Mantener la ponderación neutral existente en la cartera sin ampliaciones.
+**Position Sizing**: Mantener ponderación estándar actual en cartera
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

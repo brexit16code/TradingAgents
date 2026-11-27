@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: Bankinter presenta sólidos fundamentales con un ROE de 17,64% y un atractivo dividendo del 4,62%, pero cotiza por debajo de sus medias móviles clave con indicadores técnicos bajistas que aconsejan prudencia. La recomendación neutral de mantener permite capturar el próximo dividendo y evaluar una estabilización del precio antes de tomar mayor riesgo.
+**Reasoning**: La cotizacion actual de BKT.MC en 13.96 EUR se encuentra por debajo de sus medias moviles de 20, 50 y 200 sesiones, con un MACD bajista y una volatilidad del 28.28%, lo que contrarresta el atractivo fundamental del PER forward de 9.61x y el dividendo del 4.4%. Mantener la posicion actual permite capturar el pago de 0.3378 EUR previsto para el 2 de diciembre de 2026 sin incrementar la exposicion al riesgo mientras persista la estructura tecnica correctiva.
 
 **Entry Price**: not provided
 
-**Stop Loss**: not provided
+**Stop Loss**: 12.5
 
-**Position Sizing**: Posición estándar neutral
+**Position Sizing**: 3% of portfolio
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

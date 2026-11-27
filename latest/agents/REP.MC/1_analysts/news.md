@@ -1,42 +1,42 @@
-**Reporte de Investigación Macroeconómica y de Noticias - REP.MC**
+**Rating**: HOLD  
+FINAL TRANSACTION PROPOSAL: REVIEW  
 
-### 1. Resumen de Mercado y Contexto Macroeconómico
-Durante la semana analizada hasta el 26 de noviembre de 2026, los mercados bursátiles europeos han registrado un comportamiento positivo con fuertes subidas impulsadas por el sector bancario y tecnológico. El Euro Stoxx 50 y el DAX alemán avanzaron más de un 2%, respaldados por un contexto en el que se destaca el nombramiento de Pablo Hernández de Cos como presidente del Banco Central Europeo (BCE), siendo el primer español al frente del organismo. Por otro lado, el Euríbor continúa cotizando por encima del 3,3%, lo que mantiene un entorno de tipos de interés restrictivos que impacta en el coste de financiación de hogares y empresas.
+### Informe de Investigación y Análisis Macroeconómico y Sectorial: Repsol, S.A. (`REP.MC`)
 
-### 2. Análisis Fundamental y Situación Financiera de Repsol (`REP.MC`)
-* **Cotización actual:** 27,52 EUR (al 26/11/2026).
-* **Capitalización bursátil:** Aprox. 28.998 millones de EUR.
-* **Valoración:** Presenta múltiplos muy atractivos, con un *trailing P/E* de 4,89x y un *forward P/E* de 5,78x. Su EV/EBITDA se sitúa en 3,36x, reflejando una sólida generación de caja operativa (8.015 millones de EUR de flujo de caja operativo y un flujo de caja libre de 1.770 millones de EUR en los datos disponibles).
-* **Endeudamiento:** La deuda neta sobre EBITDA se mantiene baja, en torno a 0,32x (con una deuda total de 13.170 millones frente a una caja de 9.736 millones de EUR).
-* **Retribución al accionista:** Ofrece una rentabilidad por dividendo (*dividend yield*) del 3,82%, con un ratio de pago (*payout ratio*) conservador cercano al 20,45%.
-* **Consenso de Analistas:** El precio objetivo medio fijado por el consenso de analistas se sitúa en 31,16 EUR, lo que implica un potencial alcista (*consensus upside*) aproximado del 13,23% desde los niveles actuales de 27,52 EUR (rango de analistas entre 23,70 EUR y 38,00 EUR con 23 opiniones).
+#### 1. Resumen Ejecutivo y Estado Actual
+A fecha de 27 de noviembre de 2026, la cotización de **Repsol, S.A. (`REP.MC`)** se sitúa en **27.80 EUR**, registrando una capitalización bursátil aproximada de 29.293 millones de euros. El valor opera en el sector de Energía (Oil & Gas Integrado) cotizando en la Bolsa de Madrid (`MCE`) y referenciado al selectivo ibérico (`^IBEX`). 
 
-### 3. Análisis Técnico
-* **Precio:** 27,52 EUR.
-* **Medias Móviles:** La cotización se sitúa por debajo de su SMA20 (29,34 EUR) y SMA50 (29,48 EUR), pero se mantiene por encima de la SMA200 (24,73 EUR), lo que indica una corrección a corto plazo dentro de una tendencia alcista estructural de medio-largo plazo (+79,5% en los últimos 252 días).
-* **Indicadores de Momento:** RSI(14) en 39,31 (zona neutral tirando a sobreventa leve) y MACD negativo (-0,44), lo que sugiere cautela en el corto plazo a la espera de consolidar soportes tras el reciente retroceso mensual (-3,57% a 21 sesiones).
+El análisis técnico muestra que la acción cotiza por debajo de sus medias móviles de corto plazo (SMA20 en 29.19 EUR y SMA50 en 29.45 EUR), aunque se mantiene por encima de su media de largo plazo (SMA200 en 24.79 EUR). El RSI de 14 periodos se encuentra en 41.63, indicando una fase neutral sin sobreventa ni sobrecompra extrema, con una volatilidad anualizada del 35.35% y un nivel de *drawdown* del -11.86% respecto a sus referencias recientes.
 
-### 4. Evidencia y Fuentes de Noticias
-* **Titular macroeconómico:** "Las bolsas europeas cierran con fuertes subidas impulsadas por la banca y la tecnología" (26/11/2026, *el boletin*).
-* **Titular corporativo:** "Análisis de los últimos resultados de Repsol - Bankinter" (20/11/2026, *Bankinter*).
-* *Nota sobre datos faltantes:* No se han suministrado carteras de inversión hipotéticas, por lo que cualquier alusión a dimensionamiento de posiciones es estrictamente conceptual.
+#### 2. Fundamentos Financieros y Valoración
+Los datos fundamentales correspondientes al cierre de los ejercicios fiscales indican una sólida generación de caja y múltiplos de valoración atractivos:
+* **PER (Trailing):** 4.94x | **PER (Forward):** 5.78x
+* **EV/EBITDA:** 3.38x
+* **Valor en Libros (Book Value):** 23.108 EUR (Ratio Precio/Valor en Libros de 1.20x)
+* **Deuda Neta / EBITDA:** 0.32x (Deuda total de 13.170 millones de euros frente a una caja de 9.736 millones de euros, mostrando un balance saneado).
+* **Dividend Yield:** 3.82% (con un dividendo de 1.05 EUR por acción y un *payout ratio* conservador del 20.45%).
+* **Rentabilidad sobre Recursos Propios (ROE):** 21.07%
+
+En cuanto a las estimaciones de los analistas de mercado, el precio objetivo medio de consenso se sitúa en **31.16 EUR** (con un rango entre un mínimo de 23.70 EUR y un máximo de 38.00 EUR a partir de 23 opiniones de analistas), lo que representa un potencial alcista (*consensus upside*) del **12.09%**.
+
+#### 3. Contexto Macroeconómico y Noticias Recientes
+El entorno macroeconómico de finales de noviembre de 2026 está marcado por un contexto de rebotes en las bolsas europeas y tecnológicas a pesar de los riesgos inflacionarios y de crecimiento en la eurozona. Entre los datos clave destacan:
+* **IPC de noviembre de 2026:** Situado en el 4.1% (según datos publicados por Rankia el 27 de noviembre de 2026), lo que mantiene la presión sobre el poder adquisitivo y las decisiones de política monetaria en Europa.
+* **Comportamiento bursátil regional:** Las bolsas europeas han registrado fuertes subidas impulsadas por los sectores bancario y tecnológico, con perspectivas optimistas para el próximo año según firmas como Ostrum AM, que proyectan subidas adicionales en 2027 a pesar de un nuevo régimen de riesgos.
+* **Noticias específicas de `REP.MC`:** La compañía mantiene su política de retribución al accionista con anuncios recientes sobre dividendos comunicados a través de canales oficiales corporativos.
+
+#### 4. Evidencia Contaria, de Apoyo y Datos Faltantes
+* **Evidencia de apoyo:** Sólidos flujos de caja operativos (8.015 millones de euros en el último periodo de flujo de caja acumulado), múltiplos de valoración muy bajos (EV/EBITDA de 3.38x) y una baja ratio de endeudamiento neto sobre EBITDA (0.32x), respaldados por un potencial alcista de consenso superior al 12%.
+* **Evidencia contraria:** Descenso reciente en los retornos a corto plazo (retorno a 21 días de -5.47%) y cotización actual por debajo de las medias móviles de 20 y 50 sesiones, reflejando cautela en el sentimiento de mercado a corto plazo.
+* **Datos faltantes:** No se dispone en este momento de detalles granulares sobre la segmentación exacta de los márgenes downstream y upstream para el trimestre en curso más allá de las cifras anuales consolidadas aportadas por los estados financieros.
 
 ---
 
-### Tabla Resumen de Datos Clave
-
-| Métrica / Indicador | Valor / Detalle | Fuente / Referencia |
+| Componente del Análisis | Detalle / Métrica Clave (`REP.MC`) | Fuente y Referencia Temporal |
 | :--- | :--- | :--- |
-| Ticker analizado | `REP.MC` (Repsol, S.A., MCE, EUR) | Contexto institucional / Yahoo Finance |
-| Precio de cierre | 27,52 EUR (26/11/2026) | Datos técnicos provistos |
-| Capitalización de mercado | ~28.998 millones de EUR | Fundamentos provistos |
-| P/E Trailing / Forward | 4,89x / 5,78x | Fundamentos provistos |
-| EV / EBITDA | 3,36x | Fundamentos provistos |
-| Deuda Neta / EBITDA | 0,32x | Fundamentos provistos |
-| Dividend Yield | 3,82% | Fundamentos provistos |
-| Objetivo de consenso (Mean) | 31,16 EUR (+13,23% potencial) | Fundamentos provistos (23 opiniones) |
-| Entorno macro europeo | Bolsas al alza (+2%), Euríbor >3,3% | Titulares macro (26/11/2026) |
-
-**Rating**: REVIEW
-
-FINAL TRANSACTION PROPOSAL: HOLD
+| **Precio de Cotización** | 27.80 EUR | Yahoo Finance / Cierre al 2026-11-27 |
+| **Capitalización Bursátil** | ~29.293 Millones EUR | Yahoo Finance (2026-11-27) |
+| **PER / EV/EBITDA** | 4.94x (Trailing) / 3.38x | Yahoo Finance (2026-11-27) |
+| **Precio Objetivo Consenso** | 31.16 EUR (+12.09% upside) | Consenso de 23 analistas (2026-11-27) |
+| **Deuda Neta / EBITDA** | 0.32x | Estados financieros / Yahoo Finance |
+| **Contexto Inflacionario** | IPC Eurozona / España nov 2026: 4.1% | Rankia (2026-11-27) |

@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: ArcelorMittal muestra un atractivo PER forward de 9,40x y un potencial de revalorización del 13,70% hacia los 59,10 EUR según el consenso, lo que respalda la tesis fundamental a medio plazo. Sin embargo, el análisis técnico refleja debilidad con el precio en 51,98 EUR cotizando por debajo de las medias móviles y una volatilidad elevada del 39,13%. Por tanto, se adopta una postura prudente de espera hasta que la cotización confirme una estabilización de soporte.
+**Reasoning**: La acción presenta una divergencia técnica marcada, cotizando por debajo de sus medias móviles clave (SMA 20 y 200) y con un momentum negativo (MACD bajista). Aunque el Forward PE de 9.84 y el potencial de retorno del 8.6% sugieren valor, el flujo de caja libre negativo y la alta volatilidad (40.38%) justifican una postura de espera para evitar riesgos innecesarios antes de una confirmación técnica.
 
-**Entry Price**: not provided
+**Entry Price**: 56.0
 
-**Stop Loss**: 45.0
+**Stop Loss**: 52.7
 
-**Position Sizing**: 3% of portfolio
+**Position Sizing**: 0.5x de una asignación estándar
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

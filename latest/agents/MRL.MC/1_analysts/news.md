@@ -1,66 +1,74 @@
-**Rating**: REVIEW
+**Rating**: HOLD  
+**FINAL TRANSACTION PROPOSAL**: REVIEW
 
-**ANÁLISIS DE MERCADO Y MACROECONOMÍA - MRL.MC (MERLIN PROPERTIES SOCIMI, S.A.)**
+### Informe de Análisis y Estado Actual (MRL.MC - MERLIN Properties SOCIMI, S.A.)
 
-### 1. Resumen Ejecutivo e Identidad del Instrumento
-- **Ticker / Instrumento**: `MRL.MC` (MERLIN Properties SOCIMI, S.A.)
-- **Bolsa / Divisa**: Mercado Continuo Español (MCE) / EUR
-- **Sector / Negocio**: Real Estate / REIT - Office
-- **Fecha de Referencia**: 26 de noviembre de 2026
-- **Precio de Cierre Actual**: 11.35 EUR (a 26 de noviembre de 2026)
-- **Capitalización de Mercado**: ~7.030 millones de EUR
+A continuación se presenta un análisis detallado y exhaustivo de la situación macroeconómica y bursátil para la socimi española **MERLIN Properties SOCIMI, S.A.** (`MRL.MC`), con base en los datos y evidencias del snapshot provisto con fecha de referencia de 27 de noviembre de 2026.
 
 ---
 
-### 2. Contexto Macroeconómico Reciente (Fin de Noviembre de 2026)
-Durante la última semana de noviembre de 2026, los mercados europeos han experimentado fuertes subidas impulsados por la banca y la tecnología, con el Euro Stoxx 50 y el DAX registrando avances superiores al 2% (fuentes: *Negocios.com* y *El Boletín*, 26 de noviembre de 2026). En el ámbito monetario e institucional, destaca la elección de Pablo Hernández de Cos como presidente del BCE, convirtiéndose en el primer español al frente del banco central europeo (*El Constitucional*, 26 de noviembre de 2026). 
+### 1. Contexto Macroeconómico y Sentimiento de Mercado
 
-Por otro lado, los tipos de interés de referencia y el euríbor continúan marcando la pauta para el sector inmobiliario y de renta fija: el euríbor supera el 3,3% a las puertas de la última reunión de tipos del año (*20 Minutos*, 26 de noviembre de 2026), lo que encarece la financiación y mantiene un entorno restrictivo para las valoraciones de activos inmobiliarios y la operativa de los REITs.
+A finales de noviembre de 2026, los mercados bursátiles europeos y globales muestran un tono de rebote e impulso alcista, impulsados especialmente por los sectores bancario y tecnológico ("Bolsas y tecnología prolongan el rebote: el Dow firma su mejor semana desde 2022", Merca2.es, 27/11/2026). 
 
----
-
-### 3. Análisis Fundamental y Financiero de `MRL.MC`
-Tomando como base los estados financieros más recientes y las métricas de valoración de `MRL.MC`:
-- **Resultados e Ingresos**: La compañía reportó ingresos totales de 538,96 millones de EUR al cierre del ejercicio 2025 (frente a 494,57 millones en 2024), con un beneficio neto de 786,13 millones de EUR (superando significativamente los 283,76 millones de 2024). El EBITDA de 2025 se situó en 954,23 millones de EUR.
-- **Balance y Endeudamiento**: La compañía cuenta con un total de activos de 14.268,7 millones de EUR a cierre de 2025, respaldados por un patrimonio neto (*Stockholders Equity*) de 8.074,4 millones de EUR. La deuda total asciende a 5.062,3 millones de EUR (datos de balance a 31/12/2025). Con las métricas operativas actuales, la deuda neta y las ratios de cobertura reflejan un apalancamiento moderado propio de la estructura de capital de un gran REIT patrimonialista en Europa.
-- **Valoración y Precio**: 
-  - *Trailing P/E*: 7.83x (influenciado positivamente por el beneficio neto de 2025).
-  - *Forward P/E*: 20.10x.
-  - *Price-to-Book*: 0.81x (cotiza con un descuento cercano al 19% sobre su valor contable, cuyo *Book Value* por acción es de 13.94 EUR, frente al precio de mercado de 11.35 EUR).
-  - *Dividend Yield*: 3.52% (con una tasa de dividendo de 0.40 EUR).
-- **Consenso de Analistas**: El precio objetivo medio de los analistas (*targetMeanPrice*) se sitúa en 16.86 EUR (con un rango entre un mínimo de 13.60 EUR y un máximo de 20.85 EUR, cubierto por 21 opiniones de analistas), lo que arroja un potencial de revalorización (*consensus upside*) del 48,51% respecto al precio de cotización de 11.35 EUR.
+* **Inflación y Tipos:** La publicación de los datos de IPC de noviembre de 2026 en el entorno europeo/nacional muestra una moderación al **4,1%** (Rankia, 27/11/2026), lo que sigue planteando desafíos para el poder adquisitivo de los ahorradores, aunque las previsiones de entidades como Ostrum AM apuntan a subidas adicionales del 10% en las bolsas europeas de cara a 2027 a pesar de un nuevo régimen de riesgos (Bolsamania, 27/11/2026).
+* **Entorno Inmobiliario y Sectorial:** El sector de oficinas y reits se ve influido por la evolución de los tipos de interés y cuestiones regulatorias específicas.
 
 ---
 
-### 4. Análisis Técnico y Dinámica de Precios
-- **Precio de Cierre**: 11.35 EUR.
-- **Variación y Momentum**: Registra una ganancia diaria del 3,37% el 26 de noviembre de 2026. Sin embargo, en el corto/medio plazo muestra debilidad: rentabilidad a 63 sesiones del -13,78% y a 252 sesiones del -8,93%. El *drawdown* actual desde máximos es del -26,64%.
-- **Medias Móviles**: 
-  - SMA20: 11.32 EUR (el precio se sitúa ligeramente por encima de la media de 20 sesiones).
-  - SMA50: 11.56 EUR.
-  - SMA200: 13.58 EUR (la tendencia de largo plazo continúa marcada por una presión bajista o de consolidación por debajo de la media de 200 ruedas).
-- **Indicadores Técnicos**: RSI de 14 periodos en 49.55 (zona estrictamente neutral, sin señales de sobreventa ni sobrecompra). MACD en -0.134 con señal en -0.137, mostrando una ligera convergencia neutral. Volatilidad del 27,26%.
+### 2. Análisis Fundamental y Situación Financiera de `MRL.MC`
+
+* **Valor de Cotización y Datos Clave:**
+  * **Precio de cierre (`MRL.MC`):** 11,79 EUR (al 27/11/2026).
+  * **Capitalización de Mercado:** ~7.300 millones de EUR.
+  * **PER TTM:** 8,13x; **PER Forward:** 20,88x.
+  * **Precio sobre Valor en Libros (Price-to-Book):** 0,85x (con un valor contable por acción de 13,94 EUR), lo que indica que cotiza con un descuento moderado sobre su valor patrimonial neto (NAV).
+  * **Dividend Yield:** 3,52% (con un dividendo ordinario por acción de 0,40 EUR).
+* **Estados Financieros Recientes (Cierre 2025):**
+  * **Ingresos Totales (2025):** 538,96 millones de EUR (frente a 494,57 millones en 2024).
+  * **EBITDA (2025):** 954,23 millones de EUR.
+  * **Beneficio Neto (2025):** 786,13 millones de EUR (recuperándose fuertemente frente a los 283,76 millones de 2024).
+  * **Deuda Total (2025):** 5.062 millones de EUR (con un total de activos de 14.268 millones de EUR).
+  * **Flujo de Caja Libre (2025):** 405,03 millones de EUR.
+* **Consenso de Analistas:** 
+  * El precio objetivo medio (target mean price) se sitúa en **16,86 EUR** (con un rango entre 13,60 EUR y 20,85 EUR basado en 21 opiniones de analistas), lo que arroja un potencial de revalorización (*consensus upside*) del **42,97%**.
 
 ---
 
-### 5. Datos Faltantes y Limitaciones
-- No se dispone de flujos de caja operativos o de inversión detallados y normalizados más allá de los extractos anuales reportados (la sección de flujos operativos y de caja libre muestra campos nulos en algunas métricas automatizadas recientes, aunque se registran 405 millones de FCF en 2025).
-- No se han integrado escenarios hipotéticos de asignación de cartera al no haberse proporcionado una cartera inicial de inversión.
+### 3. Noticias Recientes y Catalizadores Específicos
+
+Las noticias recientes sobre `MRL.MC` durante la última semana de noviembre de 2026 se centran en los siguientes puntos clave:
+1. **Centros de Datos e Incertidumbre Regulatoria:** Bankinter destaca un aumento de la incertidumbre en torno a los centros de datos (25/11/2026). Sin embargo, medios como Demócrata señalan que Jefferies ve despejada la incertidumbre regulatoria para Merlin tras la aprobación de decretos relacionados con esta línea estratégica clave de crecimiento (23/11/2026).
+2. **Apuesta Interna (Insider Buying):** El consejero delegado (CEO) de MERLIN Properties realizó una compra de 10.000 acciones, transmitiendo una señal de apoyo y confianza en el valor en un momento de cotización deprimida frente a su NAV (Yahoo Finanzas, 24/11/2026).
 
 ---
 
-### 6. Tabla Resumen de Puntos Clave
+### 4. Datos Técnicos
 
-| Categoría | Métrica / Indicador | Valor / Estado | Implicación para el Análisis |
-| :--- | :--- | :--- | :--- |
-| **Mercado** | Ticker / Bolsa | `MRL.MC` (Madrid) | Acceso a renta variable española (EUR). |
-| **Precio** | Cierre (26/11/2026) | 11.35 EUR | Rebote diario del 3.37% impulsado por tono general europeo. |
-| **Valoración** | Precio / Valor Contable | 0.81x | Descuento del ~19% sobre el *Book Value* (13.94 EUR). |
-| **Consenso** | Objetivo de Analistas | 16.86 EUR (Upside: 48.5%) | Potencial teórico elevado según el consenso de 21 analistas. |
-| **Dividendos** | Rentabilidad por Dividendo | ~3.52% | Retorno por dividendo estable para inversores en renta. |
-| **Macro** | Euríbor / Tipos BCE | > 3.3% (Euríbor) | Entorno de financiación aún restrictivo para el sector REIT. |
-| **Técnico** | RSI (14) / SMA200 | 49.55 / 13.58 EUR | Neutralidad a corto plazo; cotiza por debajo de la media de 200. |
+* **RSI (14):** 58,28 (zona neutral con sesgo ligeramente alcista).
+* **MACD:** -0.079 (señal: -0.125), mostrando una ligera convergencia positiva en el corto plazo.
+* **Medias Móviles:** SMA20 en 11,35 EUR y SMA50 en 11,56 EUR (ambas superadas por el precio actual de 11,79 EUR), mientras que la SMA200 se mantiene significativamente más alta en 13,57 EUR, reflejando una tendencia bajista de medio-largo plazo todavía por revertir.
+* **Drawdown:** -23,80% desde máximos recientes.
 
 ---
 
-FINAL TRANSACTION PROPOSAL: REVIEW
+### 5. Supuestos, Limitaciones y Datos Faltantes
+
+* **Valuación:** No se aplican reglas de deuda industrial/EBITDA ni PER industrial al tratarse de un REIT. La valoración principal se apoya en el descuento sobre el valor contable (P/B de 0,85x) y el consenso de analistas (con objetivo medio de 16,86 EUR).
+* **Datos Faltantes:** Faltan métricas detalladas en tiempo real de EPRA Net Tangible Assets (NTA) actualizadas al cierre del tercer trimestre de 2026 en el set resumido, por lo que se debe auditar el informe trimestral oficial antes de tomar decisiones definitivas de asignación.
+
+---
+
+### Tabla Resumen
+
+| Concepto / Métrica | Valor Actual / Dato Clave | Evidencia / Fuente |
+| :--- | :--- | :--- |
+| **Ticker y Empresa** | `MRL.MC` (MERLIN Properties SOCIMI, S.A.) | Contexto de mercado / Snapshot |
+| **Precio de Cierre** | 11,79 EUR (al 27/11/2026) | Snapshot técnico |
+| **Capitalización Bursátil** | 7.300,17 millones de EUR | Snapshot fundamental |
+| **Precio / Valor Contable** | 0,85x (Valor en libros: 13,94 EUR) | Snapshot fundamental |
+| **Ingresos Totales (2025)** | 538,96 millones de EUR | Estados financieros (Income Statement) |
+| **Beneficio Neto (2025)** | 786,13 millones de EUR | Estados financieros (Income Statement) |
+| **Dividendo Yield** | 3,52% (Payout ratio: ~14,8%) | Snapshot fundamental |
+| **Precio Objetivo Consenso** | 16,86 EUR (Upside: +42,97%) | Snapshot fundamental (21 analistas) |
+| **Noticia Destacada** | Compra de 10.000 acciones por el CEO y debate regulatorio sobre Centros de Datos | Yahoo Finanzas / Demócrata / Bankinter (Nov 2026) |

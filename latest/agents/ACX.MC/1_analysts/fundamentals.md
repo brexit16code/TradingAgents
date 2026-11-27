@@ -1,34 +1,36 @@
-El siguiente informe presenta un análisis fundamental de **Acerinox, S.A. (ACX.MC)**, basado en la información proporcionada con fecha de corte al 26 de noviembre de 2026.
+Este informe presenta un análisis fundamental de **Acerinox, S.A. (ACX.MC)** con base en los datos financieros y de mercado actualizados al 27 de noviembre de 2026.
 
-### Perfil y Estado Actual
-Acerinox es una compañía del sector de materiales básicos (acero) que cotiza en la bolsa de Madrid. Actualmente, la acción presenta un contexto técnico delicado: el precio de cierre es de 14,64 EUR, situándose por debajo de sus medias móviles de 20, 50 y 200 sesiones, lo que refleja una tendencia bajista a medio plazo. La volatilidad (30,06%) y el RSI (38) sugieren una zona de cautela donde el valor ha perdido soportes clave, según informes de mercado recientes (MarketScreener, 24/11/2026).
+### Perfil y Situación Fundamental
+Acerinox es una compañía del sector de materiales básicos (acero). A fecha de hoy, la empresa cotiza a **14,88 EUR**. Su valoración actual presenta una dicotomía importante: un PER histórico elevado (28,07x), pero un PER forward de 9,57x, lo que sugiere que el mercado anticipa una mejora significativa en la rentabilidad futura (EPS forward de 1,55 EUR frente al actual de 0,53 EUR).
 
 ### Análisis Financiero
-*   **Rentabilidad y Valoración:** La compañía presenta un PER forward de 9,42x, significativamente menor que su PER trailing (27,62x), lo que sugiere una expectativa de mejora en los beneficios futuros (Forward EPS proyectado de 1,55 EUR frente a los 0,53 EUR actuales). Sin embargo, el ROE es bajo (4,54%) y los márgenes de beneficio neto son estrechos (1,96%).
-*   **Balance y Deuda:** La deuda total asciende a aproximadamente 2.440 millones de EUR frente a un efectivo de 903 millones de EUR, resultando en un ratio de deuda neta/EBITDA de 3,15x. Este nivel de apalancamiento es un factor de seguimiento crítico en un entorno de tipos de interés altos, donde el Euríbor supera el 3,3% (20 Minutos, 26/11/2026).
-*   **Flujo de Caja:** Existe una discrepancia notable en la generación de caja. Aunque el flujo operativo fue positivo en 2025 (455M EUR), el flujo de caja libre (FCF) es negativo (-155,27M EUR) debido a un CAPEX elevado. La política de dividendos parece agresiva, con una rentabilidad del 4,35% pero un ratio de pago (payout) superior a 1 (1,44), lo cual podría presionar la liquidez a futuro si los beneficios no se recuperan según las previsiones.
+*   **Balance y Solvencia:** El ratio de deuda neta sobre EBITDA se sitúa en 3,15x, un nivel que exige seguimiento. La empresa mantiene una posición de efectivo de 903 millones EUR frente a una deuda total de 2,44 mil millones EUR. El valor contable por acción es de 8,94 EUR, lo que arroja un ratio Precio/Valor Contable de 1,66x.
+*   **Rentabilidad:** Los resultados de 2025 mostraron una presión significativa con un ingreso neto de -40,07 millones EUR, contrastando con el desempeño positivo de 2023 y 2024. El flujo de caja operativo ha mostrado volatilidad (455M en 2025 vs 293M en 2024), y el flujo de caja libre fue negativo en 2025 (-155M EUR) debido a gastos de capital (CAPEX) de 309M EUR.
+*   **Dividendos:** La empresa mantiene una política de retorno al accionista con una rentabilidad por dividendo del 4,17% y un dividendo anual de 0,62 EUR, aunque el ratio de pago (payout) de 1,44 es elevado, lo que refleja que el dividendo se está pagando por encima de las ganancias actuales.
 
-### Perspectivas y Riesgos
-El consenso de analistas mantiene un precio objetivo medio de 20,08 EUR, lo que implica un potencial de revalorización del 37,14% desde los niveles actuales. Recientemente, Renta 4 ha mostrado interés en el valor al incluirlo en sus recomendaciones frente a ArcelorMittal (Bolsamania, 24/11/2026). No obstante, la compañía atraviesa un momento de incertidumbre ("atenazado por las dudas", CapitalMadrid, 25/11/2026) derivado del entorno macroeconómico europeo.
+### Eventos Recientes y Sentimiento del Mercado
+*   **Noticias clave:** Destaca la reciente entrada de **Arconas**, que ha alcanzado un 5% del capital, convirtiéndose en el tercer mayor accionista (Bolsamania, 27/11/2026).
+*   **Análisis técnico/Sentimiento:** La acción ha perdido soportes técnicos en la última semana, y el sentimiento reciente se ha visto afectado por dudas en el sector. Sin embargo, analistas (como Renta 4, según Bolsamania 24/11/2026) han mostrado preferencia por ACX.MC frente a otros competidores como ArcelorMittal.
 
-### Datos Faltantes
-*   No se dispone de desglose por segmentos geográficos o de producto más allá del clasificador industrial "Basic Materials".
-*   No hay datos de transacciones de "insiders" en el conjunto de datos proporcionado.
-*   Los datos de comparación sectorial detallada (valuation) están marcados como "no disponibles".
+### Riesgos y Consideraciones
+*   **Contrario:** El ratio de endeudamiento y la reciente pérdida de soportes técnicos sugieren una alta volatilidad. El flujo de caja libre negativo reciente es un punto de atención crítica para la sostenibilidad del dividendo.
+*   **Apoyo:** El consenso de analistas sitúa un precio objetivo medio en 20,08 EUR, lo que implica un potencial alcista del 34,9% respecto al precio actual.
 
-### Conclusión para Inversores
-Acerinox muestra una valoración atractiva por múltiplos forward (PER 9,42x) y un dividendo considerable, pero la ejecución operativa y la carga de deuda en un entorno de tipos elevados requieren cautela. La acción se encuentra cerca del objetivo mínimo de los analistas (14,10 EUR), lo que podría indicar una zona de soporte técnico o, alternativamente, una señal de deterioro fundamental si el precio perfora dicho nivel.
+### Conclusión para el Trader
+El título se encuentra en una zona técnica delicada (RSI de 41,68, indicando debilidad sin llegar a sobreventa extrema). La entrada de un accionista relevante como Arconas podría actuar como soporte institucional. El mercado parece estar descontando una recuperación en los márgenes de beneficio (bajada del PER forward). La falta de información detallada sobre la estructura de deuda a largo plazo y la capacidad de revertir el FCF negativo en 2026 sigue siendo un vacío importante en el análisis de flujo de caja.
 
-**Rating**: HOLD
+**Rating**: REVIEW
 
+### Tabla Resumen
 | Indicador | Valor |
 | :--- | :--- |
-| Precio Actual | 14,64 EUR |
-| Market Cap | 3.647M EUR |
-| Forward PER | 9,42x |
-| Dividend Yield | 4,35% |
+| Precio Actual | 14,88 EUR |
+| Capitalización de Mercado | 3.707 M EUR |
+| PER Forward | 9,57x |
+| Dividend Yield | 4,17% |
+| Precio Objetivo (Consenso) | 20,08 EUR |
+| Upside Consenso | 34,93% |
 | Deuda Neta / EBITDA | 3,15x |
-| Consenso Upside | +37,14% |
-| SMA 200 (Media 200 días) | 15,43 EUR |
+| RSI (14 días) | 41,68 |
 
-FINAL TRANSACTION PROPOSAL: Neutral - Watch for stabilization above 15.00 EUR before considering long positions, given the breach of key support levels.
+FINAL TRANSACTION PROPOSAL: No trade initiated. Holding for stabilization after recent technical support break.

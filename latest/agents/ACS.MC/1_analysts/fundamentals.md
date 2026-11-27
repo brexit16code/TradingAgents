@@ -1,88 +1,65 @@
-**Rating**: REVIEW
-
-**FINAL TRANSACTION PROPOSAL**: HOLD
-
-# Informe Fundamental y de Mercado: ACS, Actividades de Construcción y Servicios, S.A. (`ACS.MC`)
-
-**Fecha del informe:** 27 de noviembre de 2026  
-**Ticker:** `ACS.MC` (Bolsa de Madrid, EUR)  
-**Índice de referencia:** `^IBEX`
+**Company Name:** ACS, Actividades de Construcción y Servicios, S.A.  
+**Ticker:** ACS.MC  
+**Exchange:** MCE (Bolsa de Madrid)  
+**Business Classification:** Industrials / Engineering & Construction  
+**Currency:** EUR  
 
 ---
 
-## 1. Perfil de la Compañía y Contexto de Negocio
-**ACS, Actividades de Construcción y Servicios, S.A.** (`ACS.MC`) opera dentro del sector industrial, específicamente en el segmento de **Ingeniería y Construcción** (*Engineering & Construction*). Como uno de los grupos de infraestructuras más grandes a nivel global, su actividad abarca el desarrollo de grandes proyectos de obra civil, concesiones e infraestructuras avanzadas. 
+### **Informe Fundamental y de Mercado: ACS.MC**
 
-Recientemente, la cartera de pedidos de la compañía se ha visto impulsada por segmentos de alta demanda tecnológica y estructural, destacando el desarrollo y construcción de **centros de datos** (*data centers*), según noticias recientes del sector en noviembre de 2026 (*La Vanguardia*, 21 de noviembre de 2026).
+#### **1. Perfil de la Compañía y Contexto de Negocio**
+ACS, Actividades de Construcción y Servicios, S.A. (`ACS.MC`) opera como un grupo líder global en el sector de ingeniería, construcción y concesiones de infraestructuras. Con sede en Madrid y cotizando en la Bolsa de Madrid dentro del selectivo español ^IBEX, la compañía destaca por su sólida diversificación geográfica (con fuerte presencia en Norteamérica a través de sus filiales como Turner y CIMIC) y su incursión estratégica en sectores de alto crecimiento como los centros de datos (según noticias recientes de noviembre de 2026, los centros de datos están engrosando significativamente su cartera de pedidos).
 
----
+#### **2. Análisis Técnico y Comportamiento Bursátil recientes**
+A fecha de 27 de noviembre de 2026, el precio de cierre de la acción es de **82.85 EUR**, registrando un rebote diario del **+2.22%**, en consonancia con la recuperación general de las bolsas europeas y de tecnología. 
+* **Indicadores Técnicos:**
+  * **RSI (14):** 40.74 (zona neutral, ligeramente sesgada hacia sobreventa).
+  * **MACD:** -2.47 (con línea de señal en -1.77), reflejando una presión bajista a medio plazo.
+  * **Medias Móviles:** El precio se encuentra por debajo de su SMA20 (87.43 EUR), SMA50 (90.03 EUR) y SMA200 (108.08 EUR).
+  * **Volatilidad (37.06%) y Drawdown:** La acción sufre un retroceso del **-40.12%** desde sus máximos, con un rendimiento a 21 sesiones de -10.09% y a 63 sesiones de -18.61%, mostrando un comportamiento relativo desfavorable frente al mercado (-16.44 pp frente al índice a 63 sesiones).
 
-## 2. Análisis de Estados Financieros e 히storial Financiero
-Tomando como base los datos financieros reportados por la compañía en los últimos ejercicios anuales:
+#### **3. Análisis Financiero y Fundamental**
+Tomando como base los datos financieros provistos (cierre fiscal de 2025):
+* **Capitalización Bursátil:** 21.526 millones de EUR.
+* **Ingresos y Crecimiento:** Los ingresos totales alcanzaron los **49.847,68 millones de EUR** al cierre del ejercicio 2025, frente a los 41.633,12 millones de 2024 y 35.737,76 millones de 2023, mostrando un sólido crecimiento interanual de los ingresos del **19.4%**.
+* **Beneficios y Márgenes:** 
+  * El beneficio neto de 2025 se situó en **950,34 millones de EUR** (por encima de los 827,58 millones de 2024).
+  * El EBITDA de 2025 ascendió a **3.387,89 millones de EUR**.
+  * Márgenes ajustados: Margen de beneficio neto estimado en torno al 1.99%, característico de los márgenes netos estrechos del sector de gran contratación en construcción.
+  * Rentabilidad sobre recursos propios (**ROE**): **25.01%**, lo que demuestra una alta eficiencia en la generación de retornos para los accionistas.
+* **Valoración y Múltiplos:**
+  * **Trailing P/E:** 17.01x
+  * **Forward P/E:** 16.44x (con un EPS proyectado de 5.04 EUR).
+  * **Price to Book (P/B):** 3.82x (sobre un valor contable por acción de 21.70 EUR).
+  * **EV/EBITDA:** 9.73x.
+  * El ratio de PER relativo frente a sus pares se sitúa en **0.988**, indicando una valoración en línea con la mediana del sector (peer median forward PE de 16.64x).
+* **Solvencia y Deuda:**
+  * Deuda total de 15.333 millones de EUR (con una caja/efectivo de 11.918 millones de EUR a nivel de grupo, resultando en una deuda neta sobre EBITDA muy controlada de **1.02x**).
+* **Flujo de Caja:**
+  * Flujo de caja operativo sólido de **3.046,76 millones de EUR** en 2025.
+  * Inversión en CapEx de 743,76 millones de EUR, generando un flujo de caja libre (**FCF**) robusto de **2.303 millones de EUR**.
+* **Retribución al Accionista:**
+  * Ofrece una rentabilidad por dividendo (**dividend yield**) de **2.87%** (tasa de dividendo de 2.32 EUR por acción), con un ratio de pago (*payout*) del 57.13%.
 
-### Cuenta de Resultados (*Income Statement*)
-* **Ingresos Totales (Total Revenue):** 
-  * Ejercicio 2023: 35.737.759.000 EUR
-  * Ejercicio 2024: 41.633.120.000 EUR
-  * Ejercicio 2025: 49.847.681.000 EUR  
-  *(Muestra una sólida tendencia de crecimiento interanual en la cifra de negocios).*
-* **EBITDA:**
-  * Ejercicio 2023: 2.258.248.000 EUR
-  * Ejercicio 2024: 2.578.843.000 EUR
-  * Ejercicio 2025: 3.387.885.000 EUR
-* **Beneficio Neto (Net Income):**
-  * Ejercicio 2023: 780.123.000 EUR
-  * Ejercicio 2024: 827.580.000 EUR
-  * Ejercicio 2025: 950.340.000 EUR
+#### **4. Consenso de Analistas y Perspectivas**
+* **Precio Objetivo Medio:** 128.94 EUR (con un rango entre un mínimo de 99.75 EUR y un máximo de 153.10 EUR según 17 opiniones de analistas).
+* **Potencial de Revalorización (Consensuado):** El precio objetivo de consenso implica un potencial alcista (*consensus upside*) del **55.64%** respecto al precio actual de 82.85 EUR.
 
-### Balance de Situación (*Balance Sheet*)
-* **Activos Totales:** 45.189.213.000 EUR (al cierre de 2025).
-* **Deuda Total:** 15.333.768.000 EUR (al cierre de 2025), frente a niveles de 14.204.703.000 EUR en 2024 y 10.392.009.000 EUR en 2023.
-* **Patrimonio Neto (Stockholders Equity):** 4.815.316.000 EUR (2025), manteniendo estabilidad frente a 4.714.213.000 EUR (2024).
-
-### Flujo de Caja (*Cash Flow*)
-* **Flujo de Caja Operativo (Operating Cash Flow):** 3.046.761.000 EUR (2025), superior a los 2.792.874.000 EUR de 2024.
-* **Gastos de Capital (Capital Expenditure):** -743.758.000 EUR (2025).
-* **Flujo de Caja Libre (Free Cash Flow):** 2.303.003.000 EUR (2025), consolidando una fuerte generación de caja respecto a los 2.132.023.000 EUR de 2024 y 1.006.805.000 EUR de 2023.
-
----
-
-## 3. Fundamentales Clave y Valoración
-A fecha de la instantánea de mercado (26 de noviembre de 2026):
-* **Precio de Cotización:** 81,05 EUR (`ACS.MC`)
-* **Capitalización Bursátil:** ~21.058.805.760 EUR
-* **PER (Trailing PE):** 16.64x | **PER Adelantado (Forward PE):** 16.08x
-* **Ratio Precio/Valor Contable (Price-to-Book):** 3.73x
-* **EV/EBITDA:** 9.57x
-* **Beneficio por Acción (EPS):** 4,87 EUR (Trailing) / 5,04 EUR (Forward)
-* **Crecimiento de Ingresos (Revenue Growth):** +19,4%
-* **Crecimiento de Beneficios (Earnings Growth):** +35,5%
-* **Rentabilidad sobre Recursos Propios (ROE):** 25,01%
-* **Márgenes de Beneficio:** Margen neto comprimido en torno al 1,995% (típico del sector de gran contratación y alta rotación en ingeniería).
-* **Deuda Neta / EBITDA:** 1,02x (nivel de apalancamiento moderado y manejable).
-* **Dividend Yield:** 2,86% a 2,92% (con un dividendo anual de 2,32 EUR y un ratio de reparto/payout del 57,13%).
-* **Consenso de Analistas (Target Price):** Precio objetivo medio de 128,94 EUR (con un rango entre un mínimo de 99,75 EUR y un máximo de 153,10 EUR, basado en 17 opiniones de analistas), lo que arroja un potencial alcista de consenso (*consensus upside*) del 59,09%.
-* **Ratio de Valoración por Peers:** PER relativo intermedio frente a sus comparables del sector, con un ratio de 0,96x frente a la mediana del grupo.
+#### **5. Evidencia y Fuentes de Datos**
+* **Fechas y Datos Financieros:** Datos extraídos de la instantánea y estados contables cerrados a 31-12-2025, proporcionados por Yahoo Finance y la plataforma de datos corporativos.
+* **Noticias Recientes del Entorno (Noviembre de 2026):** Destaca la acumulación de centros de datos en la cartera de contratos de la compañía (*La Vanguardia*, 21/11/2026) y la volatilidad macroeconómica ligada a la evolución de los índices bursátiles europeos e inflación (*Rankia*, *Bolsamania*, 27/11/2026).
+* **Datos Faltantes:** No se dispone en esta instantánea de las transacciones exactas de iniciadores/insiders detalladas del último mes, ni de la distribución pormenorizada de los contratos internacionales de contratos menores fuera de los anuncios generales en prensa.
 
 ---
 
-## 4. Datos Técnicos y Comportamiento Bursátil
-* **RSI (14):** 36,54 (zona próxima a sobreventa, indicando debilidad a corto plazo).
-* **MACD:** -2,45 (con señal en -1,59), reflejando presión bajista tendencial a corto plazo.
-* **Medias Móviles:** Cotiza por debajo de su SMA de 20 sesiones (87,82 EUR), SMA de 50 sesiones (90,24 EUR) y SMA de 200 sesiones (108,16 EUR).
-* **Rentabilidad Histórica:** 
-  * Retorno a 21 sesiones: -11,08%
-  * Retorno a 63 sesiones: -20,62% (relativo al índice con -16,03 pp de infra-rendimiento)
-  * Retorno a 252 sesiones: +6,51%
-* **Drawdown:** -41,42% desde máximos recientes.
-* **Volatilidad (anualizada):** 36,70%
+### **Resumen Estructurado (Claves Fundamentales)**
 
----
-*Nota sobre datos faltantes:* No se han suministrado transacciones de iniciados (*insider transactions*) recientes en la base de datos precargada, por lo que este vector no se incluye en la valoración.
-
----
-
-## 5. Resumen de Puntos Clave
-
-| Categoría | Métrica / Indicador | Valor / Detalle |
-| :--- | :---
+| Métrica / Concepto Clave | Valor Actual / Estimado | Evidencia / Comentarios |
+| :--- | :--- | :--- |
+| **Precio de Cotización** | 82.85 EUR | Cierre a 27/11/2026 (`ACS.MC`) |
+| **Capitalización Bursátil** | 21.526 Millones EUR | Datos fundamentales actualizados |
+| **Ingresos Totales (2025)** | 49.847,68 Millones EUR | Incremento interanual del 19.4% |
+| **Beneficio Neto (2025)** | 950,34 Millones EUR | Frente a 827,58 millones en 2024 |
+| **EBITDA (2025)** | 3.387,89 Millones EUR | Margen y caja operativa robustos |
+| **PER / Forward P/E** | 17.01x / 16.

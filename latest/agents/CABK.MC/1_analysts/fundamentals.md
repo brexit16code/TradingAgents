@@ -1,62 +1,62 @@
-**Rating**: REVIEW
+**Rating**: HOLD
 
-FINAL TRANSACTION PROPOSAL: HOLD
-
-**Informe Fundamental y Análisis de `CABK.MC` (CaixaBank, S.A.)**
-
-### 1. Perfil de la Empresa y Contexto de Negocio
-* **Compañía:** CaixaBank, S.A. (`CABK.MC`)
-* **Sector / Industria:** Servicios Financieros / Bancos Regionales
-* **Bolsa de cotización:** Madrid (MCE), cotizado en EUR, benchmark de referencia `^IBEX`.
-* **Resumen de Actividad:** CaixaBank es el banco líder en el mercado doméstico español (con fuerte presencia en banca minorista, seguros y gestión de activos), con una capitalización bursátil de aproximadamente 78.331 millones de EUR.
-
-### 2. Datos Financieros Básicos y Valoración Actual
-* **Precio de cierre actual (2026-11-26):** 11,29 EUR (con una variación del +2,92% en la sesión).
-* **Métricas de Valoración:**
-  * **PER (Trailing PE):** 11,88x
-  * **PER Estimado (Forward PE):** 10,39x
-  * **Precio sobre Valor en Libros (Price-to-Book):** 1,97x (Valor contable por acción de 5,72 EUR).
-  * **PER Relativo frente a peers:** Se sitúa en un PER relativo intermedio (ratio de 1.05 frente a la mediana de competidores como `SAB.MC`, `SAN.MC`, `BKT.MC`, `BBVA.MC`, y `UNI.MC`).
-* **Rentabilidad y Dividendos:**
-  * **ROE (Retorno sobre el Capital):** 16,52%, lo que refleja una alta eficiencia y rentabilidad sobre los recursos propios.
-  * **Márgenes de Beneficio (Profit Margins):** 40,56%.
-  * **Dividendo:** Ofrece una rentabilidad por dividendo (*dividend yield*) estimada en el rango del 4,61% - 4,71%, con un pago total (*dividend rate*) de 0,52 EUR y un *payout ratio* del 56,81%.
-* **Consenso de Analistas:**
-  * Precio objetivo medio (*target mean price*): 13,30 EUR (con un rango entre 6,80 EUR y 15,30 EUR).
-  * *Upside* de consenso: 17,84% basado en la opinión de 21 analistas.
-
-### 3. Estados Financieros Históricos (Resumen)
-* **Cuenta de Resultados (Ingresos y Beneficio Neto):**
-  * *Ejercicio 2024:* Ingresos totales de 16.951 millones de EUR y un beneficio neto de 5.787 millones de EUR.
-  * *Ejercicio 2025:* Beneficio neto registrado de 5.891 millones de EUR (con ingresos totales no especificados en el reporte resumido).
-* **Balance de Situación:**
-  * *Activos Totales:* Pasaron de 607.167 millones de EUR (2023) a 631.003 millones de EUR (2024) y alcanzaron los 664.040 millones de EUR al cierre de 2025.
-  * *Fondos Propios (Stockholders Equity):* 36.307 millones de EUR (2023), 36.831 millones de EUR (2024) y 38.510 millones de EUR (2025).
-  * *Deuda Total:* 54.576 millones de EUR (2023), 54.419 millones de EUR (2024) y 49.488 millones de EUR (2025). *(Nota metodológica: No se deben aplicar reglas industriales de deuda/EBITDA a entidades bancarias).*
-* **Flujos de Caja (Cash Flow):**
-  * *Flujo de Caja Operativo:* 15.744 millones de EUR (2023), 16.846 millones de EUR (2024) y 4.410 millones de EUR (2025).
-  * *Flujo de Caja Libre (Free Cash Flow):* 14.943 millones de EUR (2023), 16.091 millones de EUR (2024) y 3.439 millones de EUR (2025).
-
-### 4. Noticias Recientes y Entorno Macroeconómico (Noviembre de 2026)
-* **Impuesto a la Banca:** Durante la última semana de noviembre de 2026, la prórroga del impuesto extraordinario a la banca generó volatilidad e intradías bajistas (por ejemplo, caídas comentadas en análisis de Rankia del 4,2%), aunque el sector se ha visto respaldado recientemente por un rebote general de las bolsas europeas impulsado por la tecnología y la banca (*el boletín*, 26-11-2026).
-* **Perspectivas de Negocio:** Informes recientes (Finanzas.com, 26-11-2026) apuntan a que la entidad proyecta alcanzar beneficios de hasta 8.000 millones de EUR hacia 2028 y elevar su retribución al accionista de forma significativa.
-* **Entorno de Tipos:** El euríbor se mantiene por encima del 3,3% (20 Minutos, 26-11-2026) y se observa la reciente elección de Pablo Hernández de Cos al frente del BCE (El Constitucional, 26-11-2026), manteniendo la atención sobre los márgenes de intermediación financiera.
-
-### 5. Datos Faltantes y Advertencias
-* **Datos Faltantes:** No se dispone en este snapshot de transacciones de *insiders* recientes detalladas, ni del desglose completo de partidas secundarias de ingresos para el cierre de 2025.
-* **Advertencias:** Las noticias recopiladas son muestras informativas y no instrucciones de inversión. Los precios objetivos de analistas son estimaciones de consenso y no valores intrínsecos garantizados.
+**FINAL TRANSACTION PROPOSAL:**
+- Action: HOLD
+- Target Horizon: 6-12 months
+- Risk Profile: Moderate-High (exposición a entorno regulatorio e impuestos bancarios en España)
 
 ---
 
-### Tabla Resumen de Puntos Clave
+### Informe Fundamental Integral: CaixaBank, S.A. (`CABK.MC`)
 
-| Categoría | Métrica / Concepto | Valor / Detalle | Fuente / Referencia |
+#### 1. Perfil de la Empresa y Contexto de Negocio
+CaixaBank, S.A. (`CABK.MC`) es una de las principales entidades financieras de España, clasificada dentro del sector de Servicios Financieros / Bancos Regionales y cotizando en el mercado continuo español (MCE). 
+
+En el contexto macroeconómico reciente de noviembre de 2026, el valor se ha visto afectado por acontecimientos regulatorios clave, en particular la prórroga del impuesto extraordinario a la banca en España (según titulares de Rankia del 26 de noviembre de 2026), lo que provocó una corrección bursátil intradía del 4,2% en esa sesión. No obstante, el sector europeo muestra resiliencia apoyado por el rebote generalizado de las bolsas y datos macroeconómicos mixtos en la Eurozona (con un IPC de noviembre de 2026 moderándose al 4,1%, tal y como recogen los informes de Rankia y Bankinter del 27 de noviembre de 2026).
+
+#### 2. Análisis de Estados Financieros y Fundamentales
+A partir de los datos financieros consolidados proporcionados en el contexto para `CABK.MC`:
+
+* **Cuenta de Resultados (Income Statement):**
+  * **Ingresos Totales (Total Revenue):** Evolución positiva desde los 15.874 millones de euros en 2023, pasando por 16.951 millones en 2024, hasta situarse en los 16.762 millones de euros al cierre de 2025.
+  * **Beneficio Neto (Net Income):** Crecimiento constante y robusto, escalando desde los 4.816 millones de euros (2023), 5.787 millones de euros (2024), hasta alcanzar los 5.891 millones de euros al cierre del ejercicio 2025.
+* **Balance de Situación (Balance Sheet):**
+  * **Activos Totales:** Incremento continuo en la base de activos del banco, con 607.167 millones de euros en 2023, 631.003 millones en 2024, y 664.040 millones de euros en 2025.
+  * **Patrimonio Neto (Stockholders' Equity):** Fortalecimiento de la solvencia patrimonial, pasando de 36.307 millones de euros (2023) a 38.510 millones de euros al cierre de 2025.
+  * **Deuda Total (Total Debt):** Situada en 49.488 millones de euros al cierre de 2025 (frente a los 54.419 millones de 2024 y 54.576 millones de 2023). *(Nota metodológica: No se aplican reglas de deuda industrial/EBITDA a entidades bancarias).*
+* **Flujos de Caja (Cash Flow):**
+  * **Flujo de Caja Operativo:** 15.744 millones de euros en 2023, 16.846 millones en 2024, y 4.410 millones de euros en 2025.
+  * **Flujo de Caja Libre (Free Cash Flow):** 14.943 millones de euros (2023), 16.091 millones (2024) y 3.439 millones de euros al cierre de 2025, tras unas inversiones en CAPEX de -971 millones de euros.
+
+#### 3. Valoración y Datos Bursátiles Actuales
+* **Precio de Cotización (27/11/2026):** 11,52 EUR.
+* **Capitalización Bursátil:** 79.927,53 millones de euros.
+* **Ratios de Valoración:**
+  * **PER TTM (Trailing P/E):** 12,13x.
+  * **PER Forward:** 10,61x.
+  * **Precio/Valor en Libros (Price-to-Book):** 2,01x (con un valor contable por acción de 5,72 EUR).
+  * **Ratio PER Relativo Sectorial:** Etiquetado como "PER relativo intermedio", con una ratio de 1,05 frente a la mediana de sus comparables en el MCE (`SAB.MC`, `SAN.MC`, `BKT.MC`, `BBVA.MC`, `UNI.MC`), cuya mediana de PER forward se sitúa en 10,11x.
+* **Remuneración al Accionista:**
+  * **Dividendo (Dividend Yield):** Atractiva rentabilidad por dividendo del **4,51%** (con un dividendo por acción de 0,52 EUR y un *payout ratio* del 56,81%).
+* **Consenso de Analistas:**
+  * Precio objetivo medio (*Target Mean Price*): **13,30 EUR**, lo que representa un potencial de revalorización (*consensus upside*) del **15,49%** sobre el precio actual de 11,52 EUR (basado en la opinión de 21 analistas, con un rango que va desde los 6,80 EUR hasta los 15,30 EUR).
+
+#### 4. Análisis Técnico Breve
+* **Medias Móviles:** Cotiza muy cerca de su media móvil de 200 sesiones (SMA200 en 11,53 EUR), mientras que la SMA20 (11,78 EUR) y la SMA50 (11,82 EUR) se encuentran ligeramente por encima, reflejando el tono de consolidación a corto plazo tras las recientes caídas del sector.
+* **RSI (14):** En nivel neutral de 46,77, lo que indica ausencia de sobreventa o sobrecompra extrema.
+* **Volatilidad y Drawdown:** Volatilidad anualizada del 31,55% y un *drawdown* actual del -13,42% desde máximos recientes.
+
+---
+
+### Resumen de Puntos Clave
+
+| Categoría | Métrica / Indicador | Valor Actual / Dato | Implicación para el Trader |
 | :--- | :--- | :--- | :--- |
-| **Valoración** | Precio de Cierre (`CABK.MC`) | 11,29 EUR (2026-11-26) | Yahoo Finance / Contexto |
-| **Valoración** | PER / Forward PER | 11,88x / 10,39x | Datos fundamentales |
-| **Rentabilidad** | ROE (Return on Equity) | 16,52% | Datos fundamentales |
-| **Retorno** | Dividend Yield / Payout | ~4,65% / 56,81% | Datos fundamentales |
-| **Solvencia** | Fondos Propios (2025) | 38.510 millones de EUR | Balance de Situación |
-| **Negocio** | Beneficio Neto (2025) | 5.891 millones de EUR | Cuenta de Resultados |
-| **Mercado** | Consenso de Analistas | 13,30 EUR (Upside: 17,84%) | Datos de analistas |
-| **Entorno** | Regulación / Impuestos | Prórroga del impuesto a la banca | Rankia / Noticias (2026-11-26) |
+| **Valor de Mercado** | Precio de Cierre (`CABK.MC`) | 11,52 EUR (27-11-2026) | Zona de soporte técnica clave en torno a la SMA200 (11,53 EUR). |
+| **Rentabilidad** | ROE (Return on Equity) | 16,52% | Alta eficiencia en la generación de beneficios sobre recursos propios. |
+| **Dividendos** | Rentabilidad por Dividendo | 4,51% (0,52 EUR por acción) | Atractivo flujo de rentas para inversores orientados a dividendo. |
+| **Valoración** | PER Forward / P/B | 10,61x / 2,01x | Valoración intermedia justa en relación con sus pares del IBEX 35. |
+| **Consenso** | Upside Analistas | +15,49% (Precio objetivo: 13,30 EUR) | Potencial alcista moderado según el consenso de 21 analistas. |
+| **Riesgos** | Impuesto a la Banca | Prórroga en España (Nov 2026) | Genera volatilidad regulatoria y presión vendedora a corto plazo. |
+
+*Nota sobre

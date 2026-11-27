@@ -1,10 +1,10 @@
 **Action**: Buy
 
-**Reasoning**: La valoracion fundamental muestra un atractivo PER forward de 10,43x y un fuerte incremento del flujo de caja libre hasta los 624 millones de euros, respaldando la recomendacion Overweight del comite de investigacion. Tecnicamente, el valor cotiza en 11,40 EUR por encima de su SMA 50 (10,45 EUR) y SMA 200 (9,69 EUR), con un RSI moderado en 62,48 que permite continuar el impulso alcista hacia el objetivo de consenso de 15,25 EUR.
+**Reasoning**: El valor muestra un sólido impulso técnico por encima de sus medias móviles clave (SMA 20 en 11,30 EUR y SMA 50 en 10,50 EUR) y un RSI de 65,67 que refleja fortaleza compradora. A nivel fundamental, la recuperación de los ingresos y un forward P/E atractivo de 10,56x justifican la entrada, a pesar de los riesgos derivados de su elevada deuda neta sobre EBITDA.
 
-**Entry Price**: 11.4
+**Entry Price**: 11.55
 
-**Stop Loss**: 10.3
+**Stop Loss**: 10.45
 
 **Position Sizing**: 3% of portfolio
 

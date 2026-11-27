@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La cotizacion actual de IBE.MC en 23,03 EUR se encuentra por encima del precio objetivo medio del consenso de analistas situado en 21,69 EUR, lo que implica un potencial negativo del -5,82%. Aunque los fundamentales operativos son robustos y cuenta con catalizadores positivos como la adquisicion de Caruna y un fuerte impulso tecnico por encima de sus medias moviles, los multiplos de valoracion se encuentran estirados con un P/E historico de 31,12x y un PER relativo superior a sus comparables. Esta situacion de equilibrio entre el excelente momentum tecnico y la exigente valoracion aconseja adoptar una postura neutral de espera, evitando abrir nuevas posiciones alcistas en este nivel.
+**Reasoning**: Iberdrola cotiza actualmente a 23,21 EUR por encima de sus principales medias móviles (SMA20 en 22,86 EUR y SMA50 en 21,86 EUR) respaldada por una sólida posición en redes y fundamentales estables, pero su valoración exige cautela ya que supera el precio objetivo medio del consenso de 21,69 EUR y registra un PER adelantado de 20,84x. Dado que los catalizadores positivos a corto plazo están descontados y la relación riesgo-recompensa no ofrece un margen de seguridad claro, se adopta una postura de mantenimiento.
 
 **Entry Price**: not provided
 
-**Stop Loss**: not provided
+**Stop Loss**: 21.86
 
-**Position Sizing**: 0% of portfolio
+**Position Sizing**: Mantener posición actual neutral; no se recomiendan nuevas compras hasta correcciones hacia la media móvil de 50 sesiones.
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

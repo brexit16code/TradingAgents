@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La acción se mantiene por debajo de sus medias móviles clave (SMA20, SMA50 y SMA200), lo que confirma una tendencia técnica bajista. Aunque el consenso de analistas sugiere un potencial alcista del 19,6%, el alto nivel de deuda neta (Net Debt/EBITDA de 6,14x) y el margen de beneficio neto ajustado limitan el atractivo fundamental inmediato. Se recomienda esperar a que el precio supere la resistencia técnica de la SMA50 en 208,22 EUR para confirmar un cambio de tendencia antes de considerar nuevas compras.
+**Reasoning**: La estructura técnica de ANA.MC es débil, con el precio cotizando por debajo de las medias móviles de 50 y 200 días y un momentum negativo. La incertidumbre sobre la integración de la filial de energía y una ratio de apalancamiento elevada de 6.14x presentan riesgos fundamentales significativos que superan el potencial de recuperación a corto plazo. Es prudente esperar a una señal de reversión técnica y una mayor claridad sobre la estabilidad del flujo de caja operativo antes de comprometer capital.
 
-**Entry Price**: 208.22
+**Entry Price**: not provided
 
-**Stop Loss**: 170.0
+**Stop Loss**: not provided
 
-**Position Sizing**: Mantener posición actual; no añadir exposición hasta ruptura técnica confirmada.
+**Position Sizing**: not provided
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

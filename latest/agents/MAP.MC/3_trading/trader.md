@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La cotizacion de MAP.MC se encuentra en 4.002 EUR, ligeramente por debajo de sus medias moviles clave y registrando un retroceso tecnico a corto plazo con un RSI neutral de 41.58. Aunque los fundamentales muestran una solidez notable con un RoE del 18.37% y un atractivo dividendo del 4.79%, la divergencia con las alertas recientes de analistas y la falta de un giro alcista confirmado aconsejan mantener la posicion actual y esperar una senal tecnica mas clara.
+**Reasoning**: El valor MAP.MC se encuentra cotizando en un rango lateral muy próximo a sus medias móviles clave (SMA20 y SMA200 en torno a 4,05-4,08 EUR), con un RSI neutral de 46,07 y un MACD ligeramente negativo que refleja falta de impulso alcista a corto plazo. Aunque los fundamentales muestran una sólida generación de beneficios y un atractivo dividendo cercano al 4,76%, el potencial de subida hacia el precio objetivo de consenso es limitado y existen advertencias analíticas recientes en el sector. Por tanto, se aconseja mantener la posición actual sin realizar nuevas entradas hasta que se supere con claridad la resistencia o se acerque a soportes estructurales.
 
 **Entry Price**: not provided
 
-**Stop Loss**: not provided
+**Stop Loss**: 3.75
 
-**Position Sizing**: Mantener ponderacion actual en cartera hipotetica
+**Position Sizing**: Mantener tamaño de posición actual sin incrementar exposición
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

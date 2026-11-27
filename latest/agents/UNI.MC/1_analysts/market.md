@@ -1,50 +1,78 @@
 **Rating**: HOLD  
-FINAL TRANSACTION PROPOSAL: Neutral stance on `UNI.MC` with a Hold recommendation based on consensus upside and current valuation metrics.
+FINAL TRANSACTION PROPOSAL: Mantener posición a la espera de confirmación de ruptura de soportes/resistencias clave y mayor claridad en los múltiplos de valoración sectoriales.
 
-### Informe de Análisis Financiero y Técnico para `UNI.MC` (Unicaja Banco, S.A.)
+---
+
+### Informe de Análisis Financiero y Técnico: Unicaja Banco, S.A. (`UNI.MC`)
 
 #### 1. Resumen de Identidad y Contexto de Mercado
-El instrumento analizado es **`UNI.MC`** (Unicaja Banco, S.A.), cotizado en la Bolsa de Madrid (MCE) y perteneciente al sector financiero (Bancos Regionales). La moneda de denominación y financiera es el Euro (EUR). La fecha de referencia actual es el **26 de noviembre de 2026**.
+- **Instrumento / Ticker**: `UNI.MC` (Unicaja Banco, S.A.)
+- **Bolsa / Sector**: Madrid Stock Exchange (MCE) / Financial Services (Regional Banks)
+- **Moneda**: EUR
+- **Fecha de Análisis**: 27 de noviembre de 2026
+- **Precio de Cierre Actual**: `3.286 EUR` (Variación en la última sesión: `+2.18%`)
 
-El contexto macroeconómico europeo de finales de noviembre de 2026 muestra fuertes subidas en las bolsas europeas impulsadas por el sector bancario y tecnológico. Destaca el nombramiento de Pablo Hernández de Cos como presidente del BCE, mientras que el euríbor supera el 3,3%, encareciendo las hipotecas en un entorno de tipos de interés altos.
+El contexto macroeconómico reciente muestra un tono positivo generalizado en las bolsas europeas y españolas. Durante la semana del 27 de noviembre de 2026, los índices de renta variable prolongan su rebote impulsados por el sector bancario y tecnológico. Específicamente, en el caso de `UNI.MC`, los informes de noticias señalan un repunte superior al 4% en sesiones recientes gracias al incremento de la actividad de contratación digital y a resultados operativos alentadores (fuente: *Traders Union*, 27 de noviembre de 2026).
 
 ---
 
 #### 2. Análisis Fundamental y Valoración
-Basándose en los datos fundamentales provistos en el snapshot con fecha de recuperación 26 de noviembre de 2026:
-* **Capitalización de Mercado**: 8.263.744.000 EUR (~8.26 mil millones de EUR).
-* **PER (Trailing)**: 12,37x | **PER (Forward)**: 11,21x.
-* **Beneficio por Acción (EPS)**: 0,26 EUR (Trailing) y 0,287 EUR (Forward).
-* **Precio sobre Valor en Libros (P/B)**: 1,30x (con un valor contable por acción de 2,465 EUR).
-* **Rentabilidad por Dividendo (Dividend Yield)**: 6,11% (con un dividendo anual de 0,19 EUR y un *payout ratio* de 72,87%).
-* **Rentabilidad sobre el Patrimonio (ROE)**: 10,12%.
-* **Márgenes de Beneficio**: Margen de beneficio neto del 32,80%.
-* **Crecimiento de Ingresos**: 6,80% interanual.
-* **Consenso de Analistas**: Precio objetivo medio (*target mean price*) de 3,274 EUR, con un precio mínimo de 3,00 EUR y un máximo de 3,90 EUR, basado en las opiniones de 18 analistas. La *consensus upside percentage* es de **1,82%** respecto al precio actual de cierre de 3,216 EUR.
-* **Valoración Relativa**: El informe señala un PER relativo intermedio frente a comparables (*peers*: `SAB.MC`, `SAN.MC`, `BKT.MC`, `BBVA.MC`, `CABK.MC`, `UNI.MC`), con una ratio frente a la mediana de *peers* de 1,13x.
+Los datos fundamentales disponibles para `UNI.MC` reflejan los siguientes parámetros clave:
+- **Capitalización de Mercado**: 8.443.613.696 EUR (~8.440 M€)
+- **PER Trailing**: 12.17x | **PER Forward**: 11.52x
+- **Precio sobre Valor en Libros (P/B)**: 1.33x (sobre un valor contable por acción de `2.465 EUR`).
+- **Beneficio por Acción (EPS)**: Trailing `0.27 EUR`, Forward `0.285 EUR`.
+- **Rentabilidad por Dividendo (Dividend Yield)**: ~5.78% - 5.94% (con un dividendo ordinario de `0.19 EUR` y un *payout ratio* de `72.87%`).
+- **ROE (Return on Equity)**: 10.12%
+- **Márgenes de Beneficio**: Márgenes netos elevados en torno al 32.8%.
+- **Valoración Relativa**: El *peer median forward PE* se sitúa en 10.11x, lo que otorga un ratio de valoración relativa de 1.14x frente a sus comparables (SAB.MC, SAN.MC, BKT.MC, BBVA.MC, CABK.MC), indicando que cotiza con una ligera prima frente a la mediana sectorial.
+- **Consenso de Analistas**: El precio objetivo medio (*target mean price*) del consenso de analistas (sobre 18 opiniones) es de `3.274 EUR`, prácticamente en línea con la cotización actual (`3.286 EUR`), con un rango que va desde un mínimo de `3.00 EUR` hasta un máximo de `3.90 EUR`, sugiriendo un potencial alcista estimado (*consensus upside*) neutral del `-0.35%`.
 
 ---
 
 #### 3. Análisis Técnico
-De acuerdo con los datos técnicos y el precio de cierre de la sesión del **26 de noviembre de 2026**:
-* **Precio de Cierre**: 3,216 EUR (con una variación diaria positiva del 2,94%).
-* **RSI (14)**: 43,67, situándose en una zona neutral (ligeramente bajista pero alejado de niveles extremos de sobrecompra o sobreventa).
-* **MACD**: -0,0226 y línea de señal MACD en -0,0004, reflejando un sesgo de impulso bajista a corto plazo.
-* **Medias Móviles**: 
-  * SMA 20: 3,321 EUR
-  * SMA 50: 3,331 EUR
-  * SMA 200: 3,019 EUR (el precio actual se mantiene por encima de la media de largo plazo de 200 sesiones, confirmando la estructura alcista estructural de fondo).
-* **Volatilidad y Drawdown**: Volatilidad del 25,65% y un *drawdown* actual del -11,31%.
-* **Rentabilidades Históricas**: Retorno a 21 sesiones de -0,06%, a 63 sesiones de -6,75% (con un rendimiento relativo de -2,16 puntos porcentuales frente al índice de referencia `^IBEX`) y a 252 sesiones de +34,52%.
+Basado en la instantánea técnica con fecha de cierre a 27 de noviembre de 2026:
+- **Precio de Cierre**: `3.286 EUR`
+- **RSI (14)**: `48.93` (zona neutral, sin sobreventa ni sobrecompra clara).
+- **MACD**: `-0.0203` | **Señal MACD**: `-0.0044` (el histograma muestra un sesgo bajista de corto plazo, aunque mitigado por la reciente sesión alcista).
+- **Medias Móviles Simples (SMA)**:
+  - SMA 20: `3.326 EUR`
+  - SMA 50: `3.326 EUR`
+  - SMA 200: `3.023 EUR` (la cotización se mantiene cómodamente por encima de la media de largo plazo, validando la tendencia alcista estructural a 1 año, con un retorno a 252 sesiones del `+34.79%`).
+- **Volatilidad (259 sesiones)**: `25.97%`
+- **Drawdown Actual**: `-9.38%` desde máximos recientes.
 
 ---
 
-#### 4. Evidencia de Noticias y Citas Relevantes
-* **Rankia (2026-11-23)**: Publicación sobre acciones de Unicaja y análisis de conveniencia de inversión. URL: `https://news.google.com/rss/articles/CBMiqgFBVV95cUxObVVXdlVmWXFkWTRFenBjT1VJX3BZSlZaSklkOW1Cb2VYakp5NXFOc3ZqSlozQk9iUGxnMUppcTJWdUtkaXFLc25nSl9CVzJyaGJ0NnBjSFl2V0RDSE1pN0Noa0NfQUlhSWI1SFpYRUdGZmczTFc0bHF2LVZfTnlfczRvX3AwLWlzYVFyZnhUY2c5dlB3TlR4cl9ybWlvc0FuLVdyTDFROVl5Zw?oc=5`
-* **Demócrata (2026-11-20)**: Declaraciones del presidente de Unicaja destacando el potencial del banco y su puesta en valor por parte del mercado. URL: `https://news.google.com/rss/articles/CBMi0gFBVV95cUxPa0NfVUR3OEhnVEpwV2VTcHJTUFNVRTRGdzhvMmlRM1VlMkJvalZTMFJRUzg2VDZzdWNiYkcxNmpFLTFNcmh3ZUY1cWg5ek41bW1yYVRhNnhITWFKbmRvYWxzN3RsM0ZNczY0dnVqWGprTU5VUTE4ZXZCZHVMaXBFVmFnVEg2ZTVTZzNRZGp4dEs0dGRsV3JFSmktWjl2T0gzeG5wc3oxVVM4YjQxcGh1OFBjR3hWcWZkclM4Y081WmRfTjJNaEZQWjNjZ1M5cTRYOFHSAdcBQVVfeXFMTl93MVpOMHdHb3dDMzhjQU5maWZQRW9pUVhrektsdFF1Qkp2bE8xRi1oMjVSODUyR3p3Z25nRjlVcWRVME4wVDl4SEdaR0VmY3BNNjlIcUwzYVpsTkhxdGg2NjJOTUs4SVJKQlVxYVR2a0xYZVR6WHU5V29MREs1dW1sd25wR19yQWNLOXJJNDdVOW5KaFkzdmtFMWpaRTN5MXF2eDVhSWlxREJOVGZwZEo3NlFEYUZZanJsRmZvblhrY202ZE0zQXEyMXlYMzU1bHZrUTVtWGM?oc=5`
+#### 4. Selección de Indicadores Técnicos Complementarios
+Siguiendo los criterios de selección de indicadores no redundantes para una estrategia de cobertura o seguimiento en banca regional, se eligen los siguientes 8 parámetros:
+
+1. `close_50_sma`: Media móvil de 50 periodos para identificar la tendencia a medio plazo y actuar como referencia dinámica de soporte/resistencia.
+2. `close_200_sma`: Media móvil de 200 periodos para confirmar la estructura de tendencia a largo plazo.
+3. `close_10_ema`: Media móvil exponencial rápida para capturar giros rápidos de impulso en sesiones volátiles.
+4. `macd`: Línea principal del MACD para evaluar la divergencia de medias y cambios de tendencia.
+5. `macds`: Línea de señal del MACD para filtrar cruces operativos.
+6. `rsi`: Índice de Fuerza Relativa (14 periodos) para supervisar niveles de sobrecompra/sobreventa sin saturar las señales con otros osciladores similares.
+7. `atr`: Rango Verdadero Promedio para medir la volatilidad actual y dimensionar adecuadamente la gestión de riesgo y stops.
+8. `vwma`: Media móvil ponderada por volumen para confirmar la validez de los movimientos de precios apoyados en la contratación digital y bursátil reciente.
 
 ---
 
-#### 5. Selección de Indicadores Técnicos Complementarios (Directrices de Configuración)
-Para un seguimiento óptimo y sin redundancias de `UNI.MC` bajo las condiciones actuales de mercado, se recomiendan los siguientes 8 indicadores:
-1. `close_200_sma` (Confirmación de tendencia a largo plazo por encima de 3,019 EUR).
+#### 5. Datos Faltantes y Limitaciones
+- No se dispone de datos detallados de flujo de caja libre operativos normalizados para entidades financieras (los estados de flujos de caja estándar de banca suelen arrojar cifras distorsionadas por la operativa de pasivo/activo financiero; se recuerda que no deben aplicarse múltiplos industriales de deuda/EBITDA a entidades bancarias).
+- Faltan previsiones de beneficios más allá del horizonte forward inmediato proporcionado por el consenso.
+
+---
+
+#### 6. Tabla Resumen Clave
+
+| Categoría | Métrica / Indicador | Valor / Estado | Implicación Analítica |
+| :--- | :--- | :--- | :--- |
+| **Precio y Mercado** | Cierre Actual (`UNI.MC`) | 3.286 EUR | Rebote reciente del +2.18% impulsado por optimismo sectorial europeo. |
+| **Valoración** | Forward P/E | 11.52x | Ligeramente por encima de la mediana de comparables (10.11x). |
+| **Valoración** | P/B Ratio | 1.33x | Prima moderada sobre el valor contable tangible/neto por acción. |
+| **Rentabilidad** | Dividend Yield | 5.78% - 5.94% | Atractivo retorno por dividendo, respaldado por un payout del 72.8%. |
+| **Consenso** | Target Mean Price | 3.274 EUR | Consenso neutral alineado estrechamente con el precio de mercado actual. |
+| **Tendencia** | SMA 200 / SMA 50 | 3.023 EUR / 3.326 EUR | Precio consolidando por encima de la SMA de 200; testeando la SMA 50. |
+| **Momentum** | RSI (14) | 48.93 | Zona estrictamente neutral; sin señales extremas de giro inmediato. |
+| **Riesgo** | Volatilidad / Drawdown | 25.97% /

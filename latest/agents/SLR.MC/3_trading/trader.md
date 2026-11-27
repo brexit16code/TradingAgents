@@ -1,11 +1,11 @@
-**Action**: Hold
+**Action**: Sell
 
-**Reasoning**: Solaria presenta una notable divergencia entre su atractivo PER de 7,65x y un potencial alcista del 52% según el consenso, frente a un endeudamiento elevado con ratio Deuda Neta/EBITDA de 4,42x y un flujo de caja libre negativo de -260 millones de EUR. Técnicamente, la cotización a 14,08 EUR se sitúa muy por debajo de sus medias móviles clave con una alta volatilidad del 57,42%, justificando mantener la posición actual sin incrementar exposición hasta que la liquidez y el apalancamiento mejoren de forma sostenible.
+**Reasoning**: La recomendación de infraponderación (Underweight) dictada en el plan de inversión se traduce en una acción de venta para reducir o eliminar la exposición, fundamentada en la divergencia de riesgos fundamentales y técnicos. Aunque los múltiplos de valoración superficiales (PER de ~7,97x) y el potencial de consenso son atractivos, el flujo de caja libre negativo de -260 millones de euros, una deuda neta sobre EBITDA de 4,42x y la tendencia técnica bajista con un drawdown del -44,6% por debajo de las medias de 50 y 200 sesiones invalidan un caso de compra en este momento.
 
-**Entry Price**: not provided
+**Entry Price**: 14.265
 
-**Stop Loss**: not provided
+**Stop Loss**: 16.5
 
-**Position Sizing**: Mantenimiento táctico con un peso neutral o reducido en cartera hipotética
+**Position Sizing**: 3% of portfolio
 
-FINAL TRANSACTION PROPOSAL: **HOLD**
+FINAL TRANSACTION PROPOSAL: **SELL**

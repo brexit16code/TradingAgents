@@ -1,51 +1,85 @@
-**Rating**: HOLD  
-FINAL TRANSACTION PROPOSAL: Mantener la posición actual en **ENG.MC** a la espera de una confirmación más clara en la transición hacia proyectos de hidrógeno y la evolución de los tipos de interés.
+**Rating**: NEUTRAL
+
+**FINAL TRANSACTION PROPOSAL:**
+- **Action**: HOLD / WATCHLIST
+- **Entry Price**: N/A (Current price is EUR 18.31, close to consensus target of EUR 17.23, implying a negative consensus upside of -5.9%).
+- **Stop-Loss**: N/A
+- **Take-Profit**: N/A
 
 ---
 
-### Informe de Análisis Financiero y Técnico: Enagás, S.A. (`ENG.MC`)
+### Informe de Análisis Financiero y Técnico para `ENG.MC` (Enagás, S.A.)
 
-#### 1. Contexto de Mercado y Datos Fundamentales
-A fecha de 26 de noviembre de 2026, **Enagás, S.A. (`ENG.MC`)** cotiza en la Bolsa de Madrid (`MCE`) a un precio de **18.12 EUR**, experimentando una subida diaria del **1.29%** (respaldada por un tono alcista general en las bolsas europeas impulsado por el sector bancario y financiero). Su capitalización de mercado se sitúa en aproximadamente **4.720 millones de EUR**, con una ratio de PER histórico (*trailing PE*) de **13.23x** y un PER adelantado (*forward PE*) de **15.96x**. 
-
-En el frente de la rentabilidad por dividendo, `ENG.MC` destaca con un atractivo **5.59%** (*dividend yield*), respaldado por una tasa de dividendo de 1.00 EUR por acción y un ratio de reparto (*payout ratio*) de alrededor del **79.96%**. No obstante, presenta desafíos estructurales reflejados en sus fundamentales recientes:
-* **Crecimiento de ingresos:** Tasa de crecimiento interanual de ingresos del **-9.1%**, con ingresos totales de **960.4 millones de EUR** para el ejercicio 2025 (frente a 905.5 millones en 2024).
-* **Deuda y apalancamiento:** La compañía registra una deuda total de **3.155 millones de EUR** (frente a activos totales de 6.823 millones en 2025). Su ratio de deuda neta sobre EBITDA se sitúa en un elevado **6.15x**, lo que limita su flexibilidad financiera a corto plazo.
-* **Flujo de caja:** El flujo de caja libre (*free cash flow*) reportado para 2025 se redujo a **94.4 millones de EUR** (por debajo de los 357.1 millones de 2024), lo que exige una gestión estricta del capital ante las inversiones futuras.
-
-#### 2. Análisis Técnico y Momentum
-El comportamiento técnico de `ENG.MC` muestra una recuperada fortaleza a medio y largo plazo:
-* **Medias Móviles:** El precio de cierre (18.12 EUR) se encuentra por encima de su SMA de 20 sesiones (**17.85 EUR**), SMA de 50 sesiones (**17.25 EUR**) y SMA de 200 sesiones (**16.50 EUR**), lo que confirma una tendencia alcista sostenida tanto a corto como a largo plazo.
-* **RSI (14):** Se sitúa en **62.73**, indicando un sesgo alcista moderado sin llegar todavía a zonas de sobrecompra estricta (fijadas habitualmente en 70).
-* **MACD:** El valor del MACD es **0.17** con una línea de señal de **0.20**. Aunque el histograma muestra una ligera compresión del impulso a corto plazo, la tendencia general sigue siendo constructiva.
-* **Volatilidad y Retornos:** La volatilidad anualizada a 511 sesiones se sitúa en **14.66%**. Los retornos acumulados muestran un sólido desempeño: **+2.49%** a 21 sesiones, **+7.54%** a 63 sesiones y un notable **+35.57%** a 252 sesiones. El *drawdown* actual se mantiene controlado en un **-1.52%** desde sus máximos recientes.
-
-#### 3. Contexto Estratégico y Noticias Recientes
-Las noticias recientes sobre Enagás destacan dos vectores fundamentales para su valoración futura:
-1. **Apuesta por el Hidrógeno y H2Med:** Informes recientes de finales de noviembre de 2026 señalan que el proyecto H2Med avanza "a velocidad de crucero" posicionando a España como un *hub* estratégico para el hidrógeno verde. Sin embargo, analistas y medios (como *Merca2.es*) advierten que la compañía tendrá que esperar hasta **2029** para empezar a rentabilizar de forma significativa esta gran apuesta de inversión.
-2. **Valoraciones de Analistas:** Firmas como Berenberg han elevado ligeramente el precio objetivo de `ENG.MC`, aunque mantienen cautela ante posibles correcciones bursátiles derivadas del entorno macroeconómico de tipos de interés altos (con el euríbor superando el 3.3% a finales de 2026). El consenso del mercado sitúa el precio objetivo medio en **17.23 EUR** (con un rango entre 13.00 EUR y 19.80 EUR y 19 opiniones analíticas), lo que implica un potencial de retorno negativo (*consensus upside* de **-4.92%** respecto al precio actual de 18.12 EUR debido a las recientes subidas de cotización).
-
-#### 4. Selección de Indicadores Clave
-Siguiendo los criterios metodológicos, se seleccionan los siguientes indicadores complementarios para el seguimiento y gestión de riesgo de `ENG.MC`:
-
-| Categoría | Indicador Seleccionado | Propósito / Uso en `ENG.MC` |
-| :--- | :--- | :--- |
-| **Tendencia (Mediano Plazo)** | `close_50_sma` | Identificar la dirección de la tendencia a medio plazo y actuar como soporte dinámico en retrocesos. |
-| **Tendencia (Largo Plazo)** | `close_200_sma` | Confirmar el cambio estructural de largo plazo y la salud general de la tendencia alcista. |
-| **Momentum / Cruces** | `macd` | Capturar la divergencia y convergencia del impulso alcista/bajista de los precios. |
-| **Señal de Momentum** | `macds` | Filtrar los cruces de la línea MACD para modular entradas o tomas de beneficios tácticas. |
-| **Oscilador de Sobrecompra** | `rsi` | Medir la fuerza del impulso para identificar condiciones de sobrecompra (>70) o sobreventa (<30). |
-| **Volatilidad / Banda Superior** | `boll_ub` | Evaluar zonas de extensión alcista y potenciales pausas en el precio sobre la banda de 2 desviaciones típicas. |
-| **Volatilidad / Banda Inferior** | `boll_lb` | Identificar niveles dinámicos de sobreventa o soporte extremo ante correcciones del mercado. |
-| **Gestión de Riesgo** | `atr` | Medir el rango verdadero promedio para establecer niveles de *stop-loss* adaptados a la volatilidad del valor (14.66%). |
+#### 1. Resumen Ejecutivo e Identidad del Instrumento
+- **Instrumento analizado**: `ENG.MC` (Enagás, S.A.)
+- **Sector y Negocio**: Utilities / Utilities - Regulated Gas
+- **Mercado y Divisa**: Bolsa de Madrid (MCE), expresado en EUR.
+- **Fecha de Análisis**: 27 de noviembre de 2026.
+- **Contexto de Mercado**: Las bolsas europeas y globales se encuentran experimentando un rebote técnico sostenido a finales de noviembre de 2026 (por ejemplo, el IPC de noviembre en España baja al 4.1% según datos recientes de Rankia, y las bolsas prolongan el tono alcista general). En este entorno, `ENG.MC` muestra un comportamiento técnico positivo a corto y medio plazo, respaldado por un dividendo atractivo, aunque limitado por valoraciones fundamentales y horizontes regulatorios a largo plazo (como su apuesta por el hidrógeno verde hacia 2029).
 
 ---
 
-### Resumen Estructurado (Tabla Clave)
+#### 2. Análisis Técnico (Snapshot verificado a 27/11/2026)
+- **Precio de Cierre**: EUR 18.31
+- **Medias Móviles**:
+  - **SMA 20**: EUR 17.88
+  - **SMA 50**: EUR 17.28
+  - **SMA 200**: EUR 16.52
+  - *Interpretación técnica*: El precio cotiza por encima de todas sus medias móviles principales (SMA 20, 50 y 200), lo que confirma una estructura alcista de corto, medio y largo plazo bien consolidada.
+- **RSI (14)**: 66.36. Se sitúa en zona de fortaleza alcista, acercándose de forma moderada al territorio de sobrecompra (70), lo que sugiere que el impulso comprador sigue vigente pero debe vigilarse ante posibles correcciones técnicas o consolidaciones de corto plazo.
+- **MACD y Señal**: 
+  - MACD: 0.1908
+  - Señal MACD: 0.1985
+  - *Interpretación*: Las líneas se encuentran prácticamente cruzadas en niveles neutros-positivos, indicando una desaceleración temporal del impulso alcista inmediato tras las subidas previas.
+- **Rentabilidades y Volatilidad**:
+  - Rentabilidad a 21 sesiones (1 mes): +3.80%
+  - Rentabilidad a 63 sesiones (3 meses): +10.10% (superando al índice de referencia con un diferencial relativo de +12.31 pp frente al ^IBEX).
+  - Rentabilidad a 252 sesiones (1 año): +36.18%
+  - Volatilidad (14 periodos): 14.49%
+  - Drawdown actual: -0.49% (muy cerca de sus máximos recientes).
 
-| Métrica / Componente | Dato / Valor | Observaciones Relevantes |
+---
+
+#### 3. Análisis Fundamental y Valoración
+- **Capitalización de Mercado**: EUR 4,766,056,960 (aprox. 4.77 mil millones de EUR).
+- **Múltiplos de Valoración**:
+  - Trailing P/E: 13.36x
+  - Forward P/E: 16.13x
+  - Price to Book (P/B): 2.00x
+  - EV / EBITDA: 17.27x
+- **Dividendos**:
+  - Dividend Yield: 5.46% – 5.52% (con una tasa de dividendo anual de EUR 1.00 por acción).
+  - Ratio de Payout: 79.96%
+- **Estados Financieros Clave (Ejercicio 2025)**:
+  - Ingresos Totales: EUR 960.40M (frente a EUR 905.55M en 2024 y EUR 907.57M en 2023).
+  - EBITDA: EUR 762.75M (recuperándose fuertemente tras el bache contable de 2024 donde registró EUR 80.65M).
+  - Beneficio Neto (Net Income): EUR 339.11M (remontando la pérdida neta de -EUR 299.31M sufrida en 2024).
+  - Deuda Total: EUR 3,155,800,064 (Deuda Neta/EBITDA de 6.15x).
+  - Flujo de Caja Libre (Free Cash Flow): EUR 192.77M (último dato reportado en métricas de resumen) / EUR 94.42M según estados de flujo de caja de 2025.
+- **Consenso de Analistas y Precios Objetivo**:
+  - Número de opiniones de analistas: 19
+  - Precio Objetivo Medio (Target Mean Price): EUR 17.23
+  - Precio Objetivo Bajo: EUR 13.00 | Precio Objetivo Alto: EUR 19.80
+  - Upside del Consenso: **-5.90%** (el precio actual de mercado a EUR 18.31 cotiza por encima de la media de los analistas, lo que explica las recomendaciones prudentes de firmas como Berenberg, que aun elevando ligeramente sus estimaciones siguen viendo riesgos de corrección en bolsa).
+
+---
+
+#### 4. Contexto de Noticias y Opinión de Mercado (Noviembre 2026)
+- **Apuesta por el Hidrógeno Verde**: Se reporta que Enagás tendrá que esperar hasta el año 2029 para comenzar a rentabilizar de forma sustancial su gran apuesta estratégica por el hidrógeno verde (Merca2.es, 25 de noviembre de 2026). Esto justifica un perfil de inversión a largo plazo, manteniendo la cautela en el corto plazo debido a los plazos de maduración de los proyectos.
+- **Atractivo Técnico y Dividendo**: Informes de Estrategias de Inversión (23 de noviembre de 2026) destacan la recuperación técnica del valor impulsada por la combinación del atractivo del dividendo (en torno al 5.5%-5.7%) y los avances en infraestructuras de hidrógeno.
+- **Recomendaciones de Bancos de Inversión**: Bankinter mantiene un seguimiento estrecho de la compañía, mientras que Berenberg ha elevado ligeramente su precio objetivo pero mantiene una perspectiva prudente ante posibles correcciones tras el fuerte rally bursátil acumulado del 36.18% anual.
+
+---
+
+#### 5. Datos Faltantes y Limitaciones
+- No se dispone de estimaciones de crecimiento de beneficios (*earnings growth*) normalizadas a futuro debido a la transición en los modelos regulatorios de gas y la asimilación contable de desinversiones pasadas.
+- No se han suministrado carteras de inversión hipotéticas, por lo que cualquier alusión a asignación de activos es estrictamente teórica.
+
+---
+
+#### 6. Tabla Resumen de Indicadores Clave
+
+| Categoría / Indicador | Valor / Métrica | Interpretación Analítica para `ENG.MC` |
 | :--- | :--- | :--- |
-| **Ticker e Instrumento** | `ENG.MC` (Enagás, S.A.) | Utilities / Utilities - Regulated Gas (Bolsa de Madrid, EUR). |
-| **Precio de Cierre** | 18.12 EUR | Cotización a 26 de noviembre de 2026 (+1.29% en la sesión). |
-| **Valoración (PER)** | 13.23x (Trailing) / 15.96x (Forward) | Valoración intermedia en comparación con la mediana sectorial (17.58x). |
-| **Dividendo** | 5.59% (Yield) / 1.00 EUR | Atractivo flujo de rentabilidad para el inversor por dividendo, *payout* de
+| **Precio Actual** | EUR 18.31 | Cotización al cierre del 27/11/2026. |
+| **Tendencia (SMA 50 / 200)** | EUR 1

@@ -1,11 +1,11 @@
-**Action**: Buy
+**Action**: Hold
 
-**Reasoning**: La recomendación de sobreponderar en el plan de inversión y los sólidos fundamentos de Banco de Sabadell respaldan una entrada compradora, compensando la compresión de ingresos con recompras de acciones y un sólido beneficio neto. Aunque la cotización muestra una fase lateral reciente y un RSI neutral de 42,78, el precio actual de 3,483 EUR se mantiene holgadamente por encima de la media móvil de 200 sesiones y cuenta con un potencial de revalorización hacia el objetivo de consenso de 3,713 EUR.
+**Reasoning**: La cotización de SAB.MC en 3,561 EUR se encuentra consolidando en una zona neutral, atrapada entre la presión vendedora a corto plazo por debajo de la SMA50 (3,593 EUR) y el soporte estructural en la media de 200 sesiones (3,192 EUR). Aunque el programa de recompras y el BPA proyectado apoyan los fundamentales, el escaso potencial de subida frente al precio objetivo de consenso (3,713 EUR) y el estancamiento técnico desaconsejan incrementar la exposición en este momento.
 
-**Entry Price**: 3.483
+**Entry Price**: not provided
 
-**Stop Loss**: 3.188
+**Stop Loss**: 3.19
 
-**Position Sizing**: 5% of portfolio
+**Position Sizing**: Mantener asignación actual sin nuevas compras
 
-FINAL TRANSACTION PROPOSAL: **BUY**
+FINAL TRANSACTION PROPOSAL: **HOLD**

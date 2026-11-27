@@ -1,53 +1,42 @@
-**Rating**: REVIEW
+**Rating**: HOLD  
+FINAL TRANSACTION PROPOSAL: NO ACTION (REVIEW)
 
-### Informe de Análisis y Estado de Situación de Bankinter (`BKT.MC`)
+### Informe de Análisis y Estado Macro y Sectorial para Bankinter (`BKT.MC`)
 
-#### 1. Contexto Macroeconómico y de Mercado
-El mercado europeo de renta variable ha experimentado fuertes subidas impulsadas por el sector bancario y tecnológico (según noticias del 26 de noviembre de 2026). En el ámbito de los tipos de interés, el euríbor supera el 3,3%, lo que incide directamente en la revalorización de carteras hipotecarias y en los márgenes de intermediación de las entidades financieras de la Eurozona. Asimismo, destaca el nombramiento de Pablo Hernández de Cos como presidente del BCE, un hito de relevancia para la política monetaria europea.
+#### 1. Resumen Ejecutivo y Estado Actual
+A fecha de 27 de noviembre de 2026, las acciones de **Bankinter, S.A. (`BKT.MC`)** cotizan a un precio de **13,96 EUR**, registrando un cambio diario positivo del **1,82%**. El valor se encuentra dentro de un contexto técnico y fundamental particular, marcado por una corrección reciente en su cotización de mediano plazo (retroceso de un -16% a 63 días y un *drawdown* del -17,66% desde máximos recientes), pero respaldado por sólidos fundamentos bancarios y una atractiva retribución al accionista mediante dividendos.
 
-#### 2. Análisis Fundamental y Financiero de `BKT.MC`
-*   **Identidad y Negocio**: Bankinter, S.A. (`BKT.MC`) cotiza en la Bolsa de Madrid dentro del sector financiero (Bancos Regionales).
-*   **Valor de Cotización y Datos Clave (al 26/11/2026)**:
-    *   Precio de cierre: **13,11 EUR** (con un cambio diario positivo del 2,58% en la última sesión registrada).
-    *   Capitalización bursátil: **12.321 millones de EUR**.
-    *   PER histórico (Trailing P/E): **10,79x**; PER estimado (Forward P/E): **9,43x**.
-    *   Precio/Valor en Libros (Price to Book): **1,84x** (con un valor en libros por acción de 7,455 EUR).
-    *   Rentabilidad por dividendo (Dividend Yield): **4,62%** (dividendo bruto de 0,62 EUR, con un próximo pago de 0,34 EUR anunciado para el 2 de diciembre de 2026).
-    *   Rentabilidad sobre el Patrimonio (ROE): **17,64%**.
-    *   Margen de beneficios (Profit Margins): **41,13%**.
-*   **Resultados Financieros (Cierres de ejercicio)**:
-    *   Ingresos Totales (2025): **3.128,4 millones de EUR** (frente a 3.082,3 millones en 2024 y 2.913,7 millones en 2023).
-    *   Beneficio Neto (2025): **1.089,9 millones de EUR** (frente a 953,0 millones en 2024 y 844,8 millones en 2023).
-    *   Activos Totales (2025): **131.018,8 millones de EUR**.
-    *   Patrimonio Neto (Stockholders Equity): **6.411,4 millones de EUR**.
+#### 2. Entorno Macroeconómico y Sectorial
+El panorama macroeconómico global y europeo de finales de noviembre de 2026 muestra señales de rebote en los mercados de renta variable (impulsados fuertemente por los sectores bancario y tecnológico en Europa), a pesar de las presiones inflacionarias moderadas en la Eurozona (con un IPC en noviembre de 2026 situándose en el 4,1% según fuentes del sector como *Rankia*) y las advertencias sobre riesgos por parte de entidades como Ostrum AM. La banca regional europea continúa operando en un entorno de tipos de interés normalizados, donde la capacidad de defensa del margen de intereses y la eficiencia operativa son claves.
 
-#### 3. Análisis Técnico y de Sentimiento de Noticias
-*   **Indicadores Técnicos**:
-    *   RSI (14): **38,45** (próximo a zona de sobreventa, reflejando debilidad a corto plazo).
-    *   MACD: **-0,335** (por debajo de su línea de señal -0,279), indicando presión bajista reciente.
-    *   Medias Móviles: El precio de cotización (13,71 EUR) se encuentra por debajo de su SMA de 20 sesiones (14,25 EUR), SMA de 50 sesiones (14,97 EUR) y SMA de 200 sesiones (14,79 EUR).
-    *   Drawdown: **-19,14%** desde máximos recientes.
-*   **Noticias Recientes**:
-    *   Rankia (26/11/2026): Bankinter reporta beneficios sólidos (aprox. 901 millones en el acumulado reciente o lecturas de resultados), pero sus acciones han reaccionado con correcciones bajistas cercanas al 4%, abriendo debate sobre oportunidades de entrada para el inversor orientadas al dividendo (rentabilidad superior al 4,4%-4,6%).
-    *   Radio Intereconomía (25/11/2026): Anuncio del pago de dividendo a cuenta de 0,34 euros brutos por acción previsto para el 2 de diciembre de 2026.
+#### 3. Análisis Fundamental de `BKT.MC`
+* **Valor de Mercado y Valoración:** La capitalización bursátil de Bankinter se sitúa en aproximadamente **12.550 millones de EUR**. Su PER histórico (*trailing*) se ubica en **10,99x**, mientras que el PER adelantado (*forward*) es de **9,61x**, lo que sitúa su valoración en una línea intermedia en relación con sus pares comparables del sector en la bolsa española (SAB.MC, SAN.MC, BBVA.MC, CABK.MC, UNI.MC). Su ratio Precio/Valor en Libros (*Price-to-Book*) es de **1,87x** sobre un valor contable por acción de **7,45 EUR**.
+* **Rentabilidad:** Destaca un sólido Retorno sobre el Capital (*Return on Equity*, ROE) del **17,64%** y márgenes de beneficio netos elevados del **41,13%**.
+* **Dividendo:** Bankinter mantiene su atractivo tradicional de retribución. Recientemente se ha anunciado el pago de un dividendo bruto de **0,3378 EUR por acción** programado para el **2 de diciembre de 2026** (lo que supone un incremento aproximado del 12% respecto a distribuciones anteriores), consolidando una rentabilidad por dividendo anual estimada de alrededor del **4,4% - 4,5%** con un *payout ratio* controlado del **48,64%**.
+* **Consenso de Analistas:** El precio objetivo medio de los analistas que cubren el valor se sitúa en **16,71 EUR** (con un rango que va desde un mínimo de 10,30 EUR hasta un máximo de 22,50 EUR basados en 22 opiniones), lo que representa un potencial de revalorización (*consensus upside*) del **19,66%**.
 
-#### 4. Valoración y Datos Faltantes
-*   **Método de Valoración**: Comparativa por PER adelantado (Forward P/E de 9,43x frente a la mediana de peers del sector de 9,91x, arrojando una ratio relativa de 0,95x). El consenso de analistas sitúa el precio objetivo medio en **16,70 EUR** (con un rango entre 10,30 EUR y 22,50 EUR, y 22 opiniones de analistas), lo que ofrece un potencial de upside estimado de **21,85%**.
-*   **Datos Faltantes**: No se dispone de estimaciones detalladas de flujos de caja libre futuros normalizados para una valoración por descuento de flujos de caja (DCF) completa fuera de los datos de estados financieros y ratios estandarizados.
+#### 4. Análisis Técnico
+* **Precio de Cierre:** 13,96 EUR.
+* **Medias Móviles:** La cotización se encuentra por debajo de sus medias móviles clave de corto y mediano plazo (SMA 20 en 14,26 EUR, SMA 50 en 14,93 EUR y SMA 200 en 14,80 EUR), reflejando la fase de corrección técnica antes mencionada.
+* **Indicadores de Moméntum:** El RSI de 14 periodos se sitúa en **43,33**, en zona neutral tirando ligeramente a bajista, mientras que el MACD permanece en terreno negativo (-0,315), indicando que el impulso alcista a corto plazo aún necesita consolidación.
+* **Volatilidad:** La volatilidad porcentual anualizada se sitúa en el **28,28%**.
 
-FINAL TRANSACTION PROPOSAL: REVIEW
+#### 5. Evidencia de Noticias Recientes (Noviembre de 2026)
+* *26 de noviembre de 2026:* Análisis de resultados publicados en portales especializados como *Rankia* reflejan reacciones mixtas a corto plazo en el precio de la acción, a pesar de la sólida marcha de los beneficios netos (con cifras que superan los 900 millones de euros en el ejercicio).
+* *25 de noviembre de 2026:* Amplia cobertura en medios financieros (*Expansión*, *Bolsamania*, *Finect*, *TradingView*) sobre los últimos días para acceder al cobro del dividendo fijado para el próximo 2 de diciembre de 2026 por un importe bruto de 0,338 euros por acción.
+
+#### 6. Datos Faltantes y Limitaciones
+No se dispone de estimaciones directas de flujos de caja libre ni flujos operativos normalizados recientes para este ejercicio en las métricas estándar de banca, lo cual es habitual y metodológicamente coherente debido a la naturaleza del negocio bancario (donde los ratios tradicionales industriales como Deuda Neta/EBITDA o EV/EBITDA no son aplicables ni informativos). Tampoco se dispone de un desglose detallado de probabilidades de mercado de predicción externas específicas para la entidad.
 
 ---
 
-### Resumen Estructurado (Tabla de Datos Clave)
+### Resumen de Puntos Clave
 
-| Métrica / Concepto | Valor Actual (`BKT.MC`) | Observaciones / Fuente |
-| :--- | :--- | :--- |
-| **Precio de Cierre** | 13,71 EUR | Sesión del 26-11-2026 |
-| **Capitalización Bursátil** | 12.321 M EUR | Fundamentos de mercado |
-| **Forward P/E** | 9,43x | Frente a mediana de peers (9,91x) |
-| **Precio / Valor en Libros** | 1,84x | Valor contable por acción: 7,455 EUR |
-| **Rentabilidad por Dividendo** | ~4,62% | Próximo pago: 0,34 EUR brutos (02/12/2026) |
-| **Beneficio Neto (2025)** | 1.089,9 M EUR | Incremento constante frente a 2024 y 2023 |
-| **RSI (14)** | 38,45 | Tono débil a corto plazo |
-| **Consenso Precio Objetivo** | 16,70 EUR | Upside implícito del ~21,85% (22 opiniones) |
+| Categoría | Métrica / Indicador | Valor / Detalle Actual | Implicación para el Inversor |
+| :--- | :--- | :--- | :--- |
+| **Precio y Mercado** | Precio de Cierre (`BKT.MC`) | 13,96 EUR (al 27/11/2026) | Corrección de corto plazo (-16% a 3 meses); oportunidad táctica potencial. |
+| **Valoración** | Forward PE / Trailing PE | 9,61x / 10,99x | Valoración razonable frente a la mediana de sus pares del sector bancario español. |
+| **Rentabilidad** | ROE y Márgenes | ROE: 17,64%; Margen neto: 41,13% | Alta eficiencia y rentabilidad sobre los recursos propios de la entidad. |
+| **Dividendo** | Dividendo por acción / Yield | 0,3378 EUR (Pago: 02/12/2026); Yield ~4,44% | Atractivo flujo de caja para inversores por dividendo en el corto plazo. |
+| **Técnico** | Medias Móviles y RSI | SMA50: 14,93 EUR; RSI14: 43,33 | Señales técnicas neutrales/bajistas a corto plazo, cotizando por debajo de medias clave. |
+| **Consenso** | Precio Objetivo Medio | 16,705 EUR (22 analistas) | Potencial alcista estimado del consenso (*upside*) de casi el 20%. |

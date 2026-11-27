@@ -1,42 +1,65 @@
-**Rating**: HOLD  
-FINAL TRANSACTION PROPOSAL: NO ACTION (Read-only research)
+**Rating**: REVIEW
 
-### Informe de Análisis y Estado Actual para Endesa, S.A. (`ELE.MC`)
+### Informe de Investigación y Análisis Macroeconómico - Endesa, S.A. (`ELE.MC`)
 
-#### 1. Panorama Macroeconómico y de Mercado
-Durante la semana del 26 de noviembre de 2026, los mercados bursátiles europeos han registrado fuertes subidas impulsados por los sectores de banca y tecnología (con avances del Euro Stoxx 50 y DAX superando el 2% según fuentes como *Negocios.com* y *El Boletín*). En el ámbito de política monetaria y tipos de interés, destaca el nombramiento de Pablo Hernández de Cos como presidente del Banco Central Europeo (BCE), siendo el primer español al frente de la institución europea (*El Constitucional*, 26 de noviembre de 2026). Por otro lado, el euríbor se sitúa por encima del 3,3%, encareciendo las hipotecas a las puertas de la última decisión de tipos del año (*20 Minutos*, 26 de noviembre de 2026), mientras que analistas de entidades como Bankinter y Metagestión evalúan la asignación de valor en un entorno de tipos elevados.
-
-#### 2. Fundamentales y Situación Financiera de Endesa (`ELE.MC`)
-* **Identidad y Negocio:** Endesa, S.A. opera en el sector de *Utilities* (Utilities - Regulated Electric) cotizando en la Bolsa de Madrid (`ELE.MC`).
-* **Valor de Mercado y Cotización:** Con fecha de referencia del 26 de noviembre de 2026, la acción cierra a **43,32 EUR**, experimentando una subida diaria del 1,31%. Su capitalización de mercado asciende a aproximadamente **43.955 millones de EUR**.
-* **Métricas de Valoración y Rentabilidad:**
-  * PER Histórico (*Trailing P/E*): 18,20x (con un BPA diluido de 2,38 EUR).
-  * PER Adelantado (*Forward P/E*): 17,89x (BPA estimado en 2,42 EUR).
-  * Ratio Precio/Valor en Libros (*Price-to-Book*): 5,65x (con un valor contable por acción de 7,67 EUR).
-  * EV/EBITDA: ~9,99x.
-  * Rentabilidad sobre el Patrimonio Neto (ROE): 27,21%.
-* **Estructura de Capital y Deuda:** La compañía muestra una Deuda Total de 11.905 millones de EUR frente a un EBITDA de 5.636 millones de EUR, situando la ratio de Deuda Neta a EBITDA en **2,10x**, lo cual denota un apalancamiento moderado y saludable para una utility regulada.
-* **Flujo de Caja y Dividendos:** El flujo de caja operativo se sitúa en 4.081 millones de EUR, con un flujo de caja libre (*Free Cash Flow*) de 1.440 millones de EUR. La rentabilidad por dividendo (*Dividend Yield*) se ubica en el **3,65%** (dividendo anual de 1,58 EUR). Recientes hechos relevantes comunicados en noviembre de 2026 confirman un dividendo a cuenta de **0,50 euros brutos por acción** pagadero el **12 de enero de 2027** (*Rankia*, *Finect*, *Estrategias de Inversión*).
-
-#### 3. Análisis Técnico
-* **Medias Móviles:** El precio de 43,32 EUR se encuentra ligeramente por debajo de su SMA20 (43,98 EUR), pero por encima de su SMA50 (43,10 EUR) y claramente por encima de su SMA200 (38,88 EUR), lo que refleja una tendencia alcista a medio-largo plazo.
-* **Indicadores de Momento:** El RSI de 14 períodos se sitúa en **48,14** (zona neutral). El MACD (-0,055) se sitúa ligeramente por debajo de su línea de señal (0,184).
-* **Volatilidad y Retornos:** La volatilidad porcentual a 1 años es del 19,71%. El retorno a 252 sesiones alcanza el **46,87%**, superando al índice de referencia (`^IBEX`) con un *relative63_pp* de +7,48 puntos porcentuales en 63 sesiones.
-
-#### 4. Evidencia Cruzada y Divergencias de Valoración
-* **Consenso de Analistas:** El precio objetivo medio de los analistas (*targetMeanPrice*) se sitúa en **36,89 EUR** (con un rango entre un mínimo de 26,20 EUR y un máximo de 44,30 EUR según 23 opiniones de analistas). Esto implica un potencial de retorno negativo respecto al precio actual de mercado (-14,85%), sugiriendo que la cotización actual a 43,32 EUR se encuentra por encima del valor intrínseco medio estimado por el consenso.
-* **Datos Faltantes:** No se dispone de estimaciones de crecimiento a 5 años desglosadas por segmentos de transición energética o proyecciones detalladas de capex más allá del horizonte histórico disponible en los estados financieros cerrados a diciembre de 2025.
+**Fecha de análisis:** 27 de noviembre de 2026  
+**Entorno de mercado:** Acciones cotizadas en la Bolsa de Madrid (MCE), denominadas en EUR, bajo el ticker `ELE.MC` (Endesa, S.A., sector: *Utilities / Utilities - Regulated Electric*).
 
 ---
 
-### Resumen de Puntos Clave
+### 1. Contexto Macroeconómico Global y Sectorial
+Durante la última semana de noviembre de 2026, los mercados bursátiles europeos y globales han prolongado su tono alcista, impulsados principalmente por el sector tecnológico y bancario, a pesar de las señales de desaceleración económica en economías clave como la francesa. 
+* **Inflación en la Eurozona:** Se ha reportado que el IPC de noviembre de 2026 se moderó hasta el 4,1% (según datos publicados por fuentes financieras como Rankia el 27 de noviembre de 2026). Este nivel inflacionario sigue exigiendo cautela en las políticas de rentabilidad real de los ahorradores y en los costes de capital del sector de servicios públicos (*utilities*).
+* **Perspectivas del Mercado:** Instituciones como Ostrum AM estiman subidas adicionales del orden del 10% en las bolsas europeas para el año 2027, aunque bajo un régimen de riesgos renovado.
 
-| Categoría | Métrica / Dato Clave | Evidencia / Valor Actual |
+---
+
+### 2. Análisis Fundamental y Situación Financiera de Endesa (`ELE.MC`)
+Tomando como base los datos financieros e informes recientes:
+* **Capitalización Bursátil:** 44.380,84 millones de EUR.
+* **Métricas de Valoración:** 
+  * PER Histórico (*Trailing P/E*): 18.38x
+  * PER Adelantado (*Forward P/E*): 18.07x
+  * Ratio frente a peers: Se sitúa en un PER relativo intermedio con un ratio de 1.02 frente a la mediana de sus comparables (`ANE.MC`, `ENG.MC`, `IBE.MC`, `NTGY.MC`, `RED.MC`, `SLR.MC`).
+* **Ingresos y Rentabilidad:** Los ingresos totales alcanzaron los 21.020 millones de EUR al cierre del ejercicio 2025, con un beneficio neto de 2.198 millones de EUR y un EBITDA de 5.314 millones de EUR. Presenta una sólida rentabilidad sobre el capital propio (*Return on Equity* - ROE) del 27,21% y márgenes de beneficio neto de entorno al 10,9%.
+* **Endalbe y Solvencia:** La deuda total se sitúa en 11.905 millones de EUR (con una deuda neta sobre EBITDA de aproximadamente 2.10x), lo cual refleja una estructura de apalancamiento razonable y estable para una empresa de servicios públicos regulados.
+* **Consenso de Analistas:** El precio objetivo medio de consenso (*Target Mean Price*) se sitúa en **36,89 EUR** (con un rango entre un mínimo de 26,20 EUR y un máximo de 44,30 EUR según 23 opiniones de analistas). Con la cotización actual a **43,74 EUR** (cierre del 27 de noviembre de 2026), esto implica un potencial de retorno respecto al consenso (*consensus upside*) de aproximadamente **-15,67%**, advirtiendo que la acción cotiza actualmente por encima de la media de los analistas.
+
+---
+
+### 3. Análisis Técnico
+* **Precio de Cierre (27/11/2026):** 43,74 EUR (variación diaria de +0,97%).
+* **Medias Móviles:** El precio se encuentra ligeramente por debajo de su SMA de 20 sesiones (43,98 EUR), pero por encima de su SMA de 50 sesiones (43,13 EUR) y muy por encima de su SMA de 200 sesiones (38,95 EUR), lo que confirma una tendencia alcista estructural a mediano y largo plazo.
+* **Indicadores Técnicos:** RSI de 14 períodos en 51,71 (zona neutral, sin sobrecompra ni sobreventa). MACD ligeramente negativo (-0.03) con línea de señal en 0.14, sugiriendo una fase de consolidación a corto plazo tras el fuerte rendimiento a 1 año (+47,39%).
+* **Volatilidad:** Volatilidad del período del 19,79% y un *drawdown* actual del -4,89% desde sus máximos recientes.
+
+---
+
+### 4. Eventos Corporativos Recientes y Dividendos
+Según las noticias publicadas entre el 24 y el 25 de noviembre de 2026 (por medios como Finect, Estrategias de Inversión, Bolsamania y Valencia Plaza):
+* Endesa ha anunciado el pago de un **dividendo a cuenta de 0,50 euros brutos por acción**.
+* **Fechas Clave:** El abono de este dividendo se hará efectivo el próximo **12 de enero de 2027**. Esto mantiene el atractivo por dividendo de la compañía, que cuenta con una rentabilidad por dividendo (*dividend yield*) estimada en torno al 3,61% - 3,66%.
+
+---
+
+### 5. Datos Faltantes y Limitaciones
+* No se dispone de un desglose detallado de los flujos de caja proyectados más allá del cierre anual 2025 (FCP reportado en 2.207 millones de EUR en 2025).
+* Las opiniones de consenso de analistas muestran un precio objetivo medio inferior al precio actual de mercado, lo que requiere prudencia ante posibles valoraciones estiradas por el rally reciente.
+
+---
+
+### Resumen en Tabla
+
+| Componente | Detalle / Métrica Clave | Fuente / Referencia |
 | :--- | :--- | :--- |
-| **Precio y Mercado** | Cotización de cierre (`ELE.MC`) | 43,32 EUR (+1,31% el 26-11-2026) |
-| **Valoración** | PER Adelantado (*Forward P/E*) | 17,89x (vs mediana de pares de 17,58x) |
-| **Consenso** | Precio objetivo medio de analistas | 36,89 EUR (Consenso de upside: -14,85%) |
-| **Dividendos** | Próximo dividendo a cuenta | 0,50 EUR por acción (Pago: 12-01-2027) |
-| **Endeudamiento** | Ratio Deuda Neta / EBITDA | 2,10x (Deuda total de ~11.905 M€) |
-| **Técnico** | SMA200 y RSI14 | SMA200 en 38,88 EUR; RSI de 48,14 |
-| **Macroentorno** | Tipos y Deuda Europea | Euríbor >3,3% a finales de noviembre de 2026 |
+| **Ticker y Empresa** | `ELE.MC` (Endesa, S.A.) | Registro MCE / Datos suministrados |
+| **Precio Actual** | 43,74 EUR (al 27/11/2026) | Yahoo Finance / Snapshot |
+| **PER Adelantado** | 18.07x (Ratio sectorial: 1.02) | Datos Fundamentales |
+| **Precio Objetivo Consenso**| 36,89 EUR (Upside: -15,67%) | Consenso de 23 analistas |
+| **Dividendo Reciente** | 0,50 EUR por acción (Pago: 12/01/2027) | Comunicados de prensa (24-25 Nov 2026) |
+| **Tendencia Técnica** | Alcista a largo plazo (por encima de SMA200 de 38,95 EUR) | Indicadores técnicos |
+| **Contexto Macro** | IPC Noviembre Zona Euro al 4,1%; bolsas al alza | Noticias macroeconómicas (27/11/2026) |
+
+**Rating**: REVIEW
+
+FINAL TRANSACTION PROPOSAL: No transaction or portfolio allocation executed. Read-only research report.

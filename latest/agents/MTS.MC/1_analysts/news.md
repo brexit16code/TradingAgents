@@ -1,56 +1,32 @@
-**Rating**: REVIEW
+### Informe de Análisis: ArcelorMittal (MTS.MC)
 
-### Informe de Investigación y Análisis de Mercado: ArcelorMittal S.A. (`MTS.MC`)
+**Fecha:** 27 de noviembre de 2026
 
-#### 1. Resumen Ejecutivo y Datos de Mercado
-* **Ticker:** `MTS.MC` (ArcelorMittal S.A., Basic Materials / Steel, cotizada en Madrid / EUR)
-* **Precio de Cierre (26/11/2026):** €51.98 (+2.93% en la sesión)
-* **Capitalización de Mercado:** €39,085,580,288
-* **PER Histórico (Trailing P/E):** 44.05x | **PER Adelantado (Forward P/E):** 9.40x
-* **Valor en Libros por Acción:** €63.98 (Price-to-Book: 0.81x)
-* **Rentabilidad por Dividendo:** ~1.06% (Dividendo anual: €0.55)
-* **Objetivo de Analistas (Consenso):** Media de €59.10 (Rango: €52.70 - €65.50; Upside del 13.7%)
+#### Resumen Ejecutivo y Entorno Macroeconómico
+El mercado bursátil muestra un fuerte sentimiento positivo al cierre de esta semana, con los índices europeos (Euro Stoxx 50 y DAX) registrando avances superiores al 2% (26 de noviembre, Negocios.com). Este optimismo es respaldado por el dato de inflación en España, que ha descendido al 4,1% en noviembre de 2026 (Rankia, 27 de noviembre), lo que podría aliviar parcialmente las presiones sobre el consumo. A pesar de los riesgos estructurales, analistas como Ostrum AM proyectan subidas del 10% en bolsas europeas para 2027.
 
----
+#### Análisis de ArcelorMittal (MTS.MC)
+ArcelorMittal ha exhibido una volatilidad considerable, moviéndose en correlación con el sentimiento general del IBEX 35. 
+*   **Desempeño reciente:** Tras una caída el 24 de noviembre (el boletin), la acción recuperó terreno el 26 de noviembre al liderar el rebote del índice. La acción cerró el 27 de noviembre en 54,42 EUR.
+*   **Fundamentos:** La compañía presenta una valoración atractiva por múltiplos (Forward P/E de 9,84x) frente a un P/E histórico (trailing) de 46,12x, sugiriendo una mejora esperada en los resultados operativos. Sin embargo, el FCF (Free Cash Flow) reportado en 2025 es de 471 millones de EUR, frente a los 3.032 millones de 2023, reflejando un entorno de gasto de capital intensivo (CapEx de 4.337 millones en 2025).
+*   **Opinión de Analistas:** El precio objetivo medio es de 59,10 EUR, con una horquilla entre 52,70 EUR y 65,50 EUR. Un informe de Citi citado por Merca2.es (22 de noviembre) es notable, señalando un potencial de hasta el 34% derivado de la subida de precios del acero en 2027. No obstante, Renta 4 ha rotado su posición, prefiriendo Acerinox sobre MTS (Bolsamania, 24 de noviembre).
 
-#### 2. Análisis Técnico
-* **Medias Móviles:** El precio actual (€51.98) se encuentra por debajo de su SMA20 (€54.83), SMA50 (€56.44) y SMA200 (€55.76), lo que denota una estructura correctiva de corto y mediano plazo.
-* **Indicadores de Momento:** RSI(14) en 41.82 (zona neutral-bajista sin sobreventa extrema). MACD en -1.27 con señal en -0.82, reflejando presión bajista reciente pero con indicios de estabilización tras el rebote diario del 2.93%.
-* **Volatilidad y Drawdown:** Volatilidad anualizada del 39.13% y un retroceso máximo (*drawdown*) desde máximos del -22.87%. El retorno a 252 sesiones muestra una ganancia del 40.33%, aunque los rendimientos a 21 y 63 sesiones son negativos (-2.63% y -18.70% respectivamente).
+#### Factores de Riesgo y Evidencia Contraria
+*   **Volatilidad y Deuda:** Con un ratio de Deuda Neta/EBITDA de 2,08x y una volatilidad del 40,38%, la acción sigue siendo de alto riesgo. La divergencia técnica es evidente: mientras que el RSI(14) está en 48,96 (zona neutral), el MACD (-1,11) se mantiene por debajo de su señal, indicando una tendencia bajista de corto plazo que aún no ha revertido totalmente.
+*   **Falta de Datos:** No se dispone de las previsiones específicas de crecimiento de beneficios (earningsGrowth), lo que limita la capacidad de proyectar la sostenibilidad del dividendo (yield actual del 1,01%).
 
----
+#### Conclusión
+ArcelorMittal actúa como un termómetro industrial del IBEX 35. Mientras el sector acoja las expectativas de recuperación económica de 2027, el valor presenta un recorrido alcista técnico hacia los 59 EUR, siempre que el soporte de los 54 EUR se mantenga.
 
-#### 3. Fundamentos y Estados Financieros
-* **Ingresos y EBITDA:** Los ingresos anuales se situaron en €61.35 mil millones en el ejercicio 2025 (vs. €62.44 mil millones en 2024), con un EBITDA de €7.12 mil millones (recuperándose desde los €6.05 mil millones de 2024).
-* **Beneficio Neto:** Alcanzó los €3.15 mil millones en 2025, un incremento significativo frente a los €1.34 mil millones de 2024.
-* **Solvencia y Deuda:** Deuda total de €13.41 mil millones a cierre de 2025, con caja y equivalentes por valor de €3.19 mil millones (Ratio Deuda Neta / EBITDA de aproximadamente 2.08x).
-* **Flujo de Caja:** Flujo de caja operativo de €4.81 mil millones en 2025 y un gasto de capital (CapEx) elevado de €4.34 mil millones, arrojando un flujo de caja libre (*free cash flow*) positivo pero ajustado de €471 millones.
+| Indicador / Punto Clave | Valor / Estado | Fuente |
+| :--- | :--- | :--- |
+| Precio de Cierre | 54,42 EUR | Snapshot 27-nov-26 |
+| Precio Objetivo Medio | 59,10 EUR | Consenso (2 opiniones) |
+| RSI (14) | 48,96 | Técnico |
+| Dividend Yield | 1,01% | Fundamentals |
+| Inflación (España) | 4,1% | Rankia (27-nov) |
+| Tendencia Macroeconómica | Positiva / Recuperación | Merca2.es (27-nov) |
 
----
+**Rating**: HOLD (basado en la alta volatilidad y la falta de consenso analítico profundo con solo 2 opiniones).
 
-#### 4. Contexto Macroeconómico y Noticias Recientes (Noviembre 2026)
-* **Entorno Bursátil Europeo:** Las bolsas europeas han mostrado fuertes repuntes a finales de noviembre de 2026, impulsadas por el sector bancario, tecnológico y repuntes en índices como el Euro Stoxx 50 y el DAX, acompañados por la elección de Pablo Hernández de Cos como presidente del BCE.
-* **Noticias Sectoriales de `MTS.MC`:** 
-  * A finales de noviembre de 2026, ArcelorMittal ha figurado entre los valores líderes en las sesiones alcistas del Ibex 35 junto a entidades como Santander y Solaria.
-  * Informes de entidades como Citi y comentarios de mercado destacan el potencial alcista en el sector siderúrgico ante expectativas de mejora en los precios del acero de cara a 2027 (con estimaciones de potencial de hasta el 34% según Citi). No obstante, firmas como Renta 4 han rotado tácticamente posiciones sectoriales en el mercado español.
-
----
-
-#### 5. Datos Faltantes y Limitaciones
-* No se dispone de la totalidad de las opiniones analíticas desagregadas más allá de las 2 estimaciones de consenso integradas (`targetMeanPrice: 59.1`).
-* La valoración comparativa sectorial automatizada no arrojó métricas relativas adicionales directas en el panel de datos.
-
----
-
-#### 6. Tabla Resumen de Métricas y Puntos Clave
-
-| Categoría | Métrica / Indicador | Valor Actual / Referencia | Implicación Analítica |
-| :--- | :--- | :--- | :--- |
-| **Valoración** | Forward P/E | 9.40x | Valuación atractiva orientada a la recuperación de beneficios en 2027. |
-| **Valoración** | Price-to-Book | 0.81x | Cotiza con descuento respecto a su valor contable (€63.98/acc). |
-| **Técnico** | RSI(14) | 41.82 | Zona neutral, sin señales claras de sobreventa o sobrecompra inminente. |
-| **Técnico** | Tendencia (SMA50 / SMA200) | €56.44 / €55.76 | Precio de cotización (€51.98) por debajo de medias principales; sesgo correctivo a medio plazo. |
-| **Deuda** | Net Debt / EBITDA | ~2.08x | Apalancamiento manejable y en línea con estándares cíclicos de la industria. |
-| **Consenso** | Upside Analistas | 13.69% (Media: €59.10) | Potencial moderado alcista según el consenso actual de analistas. |
-
-FINAL TRANSACTION PROPOSAL: REVIEW
+FINAL TRANSACTION PROPOSAL: Mantener posiciones actuales esperando confirmación de cruce alcista en el MACD por encima de 0, antes de considerar incrementar la exposición sectorial en materiales básicos.

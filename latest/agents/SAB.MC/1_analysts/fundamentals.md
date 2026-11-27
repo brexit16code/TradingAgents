@@ -1,76 +1,59 @@
-**Rating**: HOLD  
-FINAL TRANSACTION PROPOSAL: HYPOTHETICAL HOLD  
+**Rating**: REVIEW
 
----
+**FINAL TRANSACTION PROPOSAL:** HOLD
+
+***
 
 ### Informe Fundamental Integral: Banco de Sabadell, S.A. (`SAB.MC`)
 
-Fecha de análisis y corte de datos: 26 de noviembre de 2026.  
-Divisa: EUR.  
+#### 1. Perfil de la Compañía y Contexto de Negocio
+Banco de Sabadell, S.A. (`SAB.MC`) cotiza en la Bolsa de Madrid (MCE) y forma parte del sector de Servicios Financieros (*Financial Services / Banks - Diversified*), operando bajo el índice de referencia `^IBEX`. A fecha de 27 de noviembre de 2026, la capitalización de mercado de la entidad asciende a aproximadamente 16.651,60 millones de euros, con un precio por acción de 3,561 EUR.
 
----
+#### 2. Análisis Financiero y Historial de Resultados
+Los datos fundamentales e históricos extraídos de los estados financieros facilitados muestran la siguiente evolución:
 
-#### 1. Perfil de la Compañía y Contexto de Mercado
-- **Nombre y ticker**: Banco de Sabadell, S.A. (`SAB.MC`), cotizado en la Bolsa de Madrid (MCE).
-- **Sector y Subsector**: Financial Services / Banks - Diversified.
-- **Capitalización de mercado**: 16.286,87 millones de euros (`marketCap`: 16.286.865.408 EUR).
-- **Precio actual de cotización**: 3,483 EUR (al cierre del 26 de noviembre de 2026), registrando una subida diaria del 2,74%, alineada con el rebote generalizado del sector bancario y tecnológico europeo (*el boletin*, 26 de noviembre de 2026).
-- **Indicadores Técnicos clave**:
-  - RSI (14): 42,78 (neutral, con sesgo ligeramente bajista).
-  - Medias móviles: SMA20 en 3,61 EUR, SMA50 en 3,59 EUR y SMA200 en 3,18 EUR. La cotización se encuentra en una fase de consolidación lateral o corrección a corto plazo frente a sus medias de corto plazo, aunque mantiene una tendencia positiva a largo plazo (*Traders Union*, 26 de noviembre de 2026).
-  - Volatilidad (26,31%), drawdown actual de -7,54% respecto a máximos recientes.
+*   **Cuenta de Resultados (Ingresos y Beneficio Neto):**
+    *   Ejercicio 2023: Total Revenue de 6.282,44 millones de EUR; Net Income de 1.332,18 millones de EUR.
+    *   Ejercicio 2024: Total Revenue de 5.141,26 millones de EUR; Net Income de 1.826,81 millones de EUR.
+    *   Ejercicio 2025: Total Revenue de 4.882,89 millones de EUR; Net Income de 1.775,41 millones de EUR.
+    *   *Tendencia:* Se observa una contracción en los ingresos totales (-15,1% de crecimiento de ingresos reportado en los fundamentales recientes), compensada parcialmente por una gestión eficiente de márgenes que sitúa el beneficio neto en niveles estables en torno a los 1.775 millones de EUR al cierre de 2025.
+*   **Balance de Situación:**
+    *   Activos Totales: 235.173M EUR (2023) -> 239.598M EUR (2024) -> 245.392M EUR (2025).
+    *   Deuda Total: 30.112M EUR (2023) -> 32.367M EUR (2024) -> 22.534M EUR (2025, con un total de deuda actual registrado en 26.039M EUR).
+    *   Patrimonio Neto (*Stockholders Equity*): 13.845M EUR (2023) -> 14.998M EUR (2024) -> 14.047M EUR (2025). El valor contable por acción (*book value*) se sitúa en 2,559 EUR, arrojando una ratio Precio/Valor Contable (*Price to Book*) de 1,39x.
+*   **Flujos de Caja:**
+    *   El flujo de caja operativo de 2025 se situó en 1.677,98 millones de EUR, con un gasto de capital (*CapEx*) de 610,80 millones de EUR, resultando en un flujo de caja libre (*Free Cash Flow*) positivo de 1.067,18 millones de EUR (frente a cifras negativas en periodos anteriores vinculadas a movimientos estructurales o de financiación de balance).
 
----
+#### 3. Valoración y Métricas de Mercado
+*   **Múltiplos de Valoración:**
+    *   PER histórico (*Trailing P/E*): 14,24x.
+    *   PER estimado a futuro (*Forward P/E*): 10,67x (con un EPS proyectado de 0,333 EUR frente a los 0,25 EUR actuales).
+    *   Ratio P/E relativo frente a peers (*peer median forward PE* de 10,11x): 1,06x, lo que indica una valoración en línea con la mediana del sector bancario español.
+*   **Rentabilidad por Dividendo:**
+    *   Ofrece un dividendo por acción de 0,07 EUR, con una rentabilidad por dividendo (*dividend yield*) aproximada del 1,97% - 2,01% y un *payout ratio* conservador del 28,51%.
+*   **Consenso de Analistas:**
+    *   Precio objetivo medio de consenso (*target mean price*): 3,713 EUR (con un rango entre un mínimo de 2,30 EUR y un máximo de 4,50 EUR, basado en 20 opiniones de analistas). Esto implica un potencial de revalorización (*consensus upside*) del 4,28% desde el precio de cierre de 3,561 EUR.
 
-#### 2. Análisis Financiero Fundamental (Estados Financieros y Ratios)
+#### 4. Análisis Técnico y Dinámica Reciente
+*   **Indicadores Técnicos:** Cotiza cerca de sus medias móviles (SMA20 en 3,617 EUR, SMA50 en 3,593 EUR y una sólida SMA200 en 3,192 EUR). El RSI de 14 periodos se encuentra en 48,20 (zona neutral), mientras que el MACD (-0,018) y su señal muestran una ligera presión bajista a corto plazo tras movimientos laterales recientes y caídas puntuales del 3% comentadas por fuentes de mercado (*Traders Union*, 25-26 de noviembre de 2026).
+*   **Catalizadores y Noticias Recientes:** 
+    *   La entidad ha mejorado su beneficio por acción en más de un 20% gracias a programas de recompra de acciones (*buybacks*) que han reducido cerca de un 17% su capital desde 2023 (*El Español*, 26 de noviembre de 2026).
+    *   Se mantiene la atención en el calendario de retribución al accionista y el comportamiento del sector financiero europeo, que ha mostrado impulsos alcistas generales recientes apoyados por el sector bancario y tecnológico (*El Boletín*, 26 de noviembre de 2026).
 
-##### A. Cuenta de Resultados (Ingresos y Beneficio Neto)
-Histórico anual extraído de los estados financieros:
-- **Ejercicio 2025**: Total Revenue de 4.882,89 millones de euros; Net Income de 1.775,41 millones de euros.
-- **Ejercicio 2024**: Total Revenue de 5.141,26 millones de euros; Net Income de 1.826,81 millones de euros.
-- **Ejercicio 2023**: Total Revenue de 6.282,44 millones de euros; Net Income de 1.332,18 millones de euros.
-- *Tendencia*: Los ingresos muestran una contracción interanual (-15,1% de crecimiento de ingresos reportado en los fundamentales actuales), compensada parcialmente por márgenes de beneficio netos elevados (profit margins de 41,57%). El beneficio neto se ha mantenido robusto por encima de los 1.700 millones de euros en los dos últimos ejercicios.
+#### 5. Evidencia Contraria, Riesgos y Datos Faltantes
+*   **Evidencia Contraria:** La tasa de crecimiento de ingresos muestra un descenso interanual del 15,1%, lo que advierte sobre presiones en los márgenes de intermediación en un entorno de tipos cambiantes. Asimismo, el potencial de subida según el consenso de analistas es moderado (+4,27%).
+*   **Datos Faltantes:** No se dispone en el informe de transacciones de inversores internos (*insider transactions*) detalladas para el periodo exacto de la última semana, ni desgloses específicos de morosidad (NPL) en el snapshot operativo inmediato.
 
-##### B. Balance de Situación
-- **Activos Totales**: 245.392,39 millones de euros (cierre 2025), frente a 239.597,93 millones en 2024 y 235.172,96 millones en 2023.
-- **Deuda Total**: 22.534,81 millones de euros (2025), experimentando una reducción significativa desde los 32.366,98 millones de 2024.
-- **Patrimonio Neto (Stockholders Equity)**: 14.047,10 millones de euros (2025).
+***
 
-##### C. Flujo de Caja (Cash Flow)
-- **Flujo de Caja Operativo (2025)**: 1.677,98 millones de euros.
-- **Gastos de Capital / CapEx (2025)**: -610,80 millones de euros.
-- **Free Cash Flow (2025)**: 1.067,18 millones de euros (recuperándose de las cifras negativas reportadas en años anteriores debido a ajustes metodológicos contables en partidas operativas de pasivos/activos financieros).
+### Resumen en Tabla de Puntos Clave
 
----
-
-#### 3. Ratios de Valoración y Consenso de Analistas
-- **PER (Trailing PE)**: 13,93x.
-- **PER Adelantado (Forward PE)**: 10,44x (con un EPS estimado de 0,33 EUR frente al EPS histórico de 0,25 EUR).
-- **Precio/Valor en Libros (Price to Book)**: 1,36x (con un valor en libros por acción de 2,559 EUR).
-- **Rentabilidad por Dividendo (Dividend Yield)**: 2,01% a 2,06% (dividendo anual por acción de 0,07 EUR, ratio de reparto o payout ratio del 28,51%).
-- **Valoración Relativa sectorial**: `SAB.MC` cotiza con una ratio de PER adelantado frente a su mediana de pares (*SAN.MC, BKT.MC, BBVA.MC, CABK.MC, UNI.MC*) de 1,05x (mediana de PER adelantado de pares en 9,91x), catalogándose como un PER relativo intermedio.
-- **Precio Objetivo Consenso**: 
-  - Media: 3,71 EUR (`targetMeanPrice`).
-  - Mínimo: 2,30 EUR (`targetLowPrice`).
-  - Máximo: 4,50 EUR (`targetHighPrice`).
-  - Número de analistas encuestados: 20.
-  - **Potencial alcista de consenso (Upside)**: +6,61% sobre el precio actual de 3,483 EUR.
-
----
-
-#### 4. Eventos Recientes y Noticias Relevantes (Noviembre 2026)
-1. **Recompras de acciones y Beneficio por Acción (BPA)**: Según informes recientes de prensa económica (*El Español*, 26 de noviembre de 2026), Banco Sabadell ha mejorado su beneficio por acción en más de un 20% tras haber recomprado aproximadamente un 17% de su capital social desde 2023, lo que incrementa el valor para el accionista.
-2. **Entorno Macroeconómico de Tipos**: El euríbor se sitúa por encima del 3,3% en el tramo final de 2026 (*20 Minutos*, 26 de noviembre de 2026), lo que mantiene un entorno operativo condicionado por la evolución de los tipos de interés del Banco Central Europeo (BCE), cuya presidencia ha recaído recientemente en el español Pablo Hernández de Cos (*El Constitucional*, 26 de noviembre de 2026).
-3. **Análisis Técnico y Presión Vendedora**: Informes técnicos señalan una cotización lateral con cierta presión vendedora en los entornos de soporte de 3,34 EUR a 3,48 EUR, a la espera de catalizadores adicionales que rompan el rango de consolidación (*Traders Union*, 26 de noviembre y 24 de noviembre de 2026).
-
----
-
-#### 5. Datos Faltantes e Incertidumbres
-- No se dispone de datos detallados sobre transacciones recientes de iniciados (*insider transactions*) en la instantánea actual.
-- Los flujos de caja operativos de 2023 y 2024 reflejan magnitudes negativas masivas asociadas a la naturaleza de los estados de flujos de caja consolidados en entidades bancarias (movimientos en depósitos de clientes y activos financieros intermediados), por lo que el análisis de liquidez en banca debe ponderarse mediante ratios de solvencia y capital regulatorio (CET1) que no figuran desglosados en el balance estándar resumido.
-
----
-
-#### 6. Resumen en Tabla Organizada
-
-| M
+| Métrica / Concepto | Valor / Dato | Observaciones |
+| :--- | :--- | :--- |
+| **Ticker y Bolsa** | `SAB.MC` (MCE) | Banco de Sabadell, S.A. (España) |
+| **Precio de Cierre** | 3,561 EUR | Fecha de referencia: 27 de noviembre de 2026 |
+| **Capitalización Bursátil** | 16.651,60 M EUR | Datos fundamentales extraídos de Yahoo Finance |
+| **PER Histórico / Forward** | 14,24x / 10,67x | Mejora del BPA esperada a futuro |
+| **Precio / Valor Contable (P/B)** | 1,39x | Valor contable (*book value*): 2,559 EUR |
+| **Beneficio Neto (2025)** | 1.775,41 M EUR | Estabilidad en la generación de beneficios |
+| **Dividendo (Yield)** | ~1,97% | *Payout ratio* conservador

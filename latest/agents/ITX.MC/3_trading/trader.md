@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: ITX.MC presenta unos fundamentales excelentes con un balance muy sólido y caja neta positiva, pero cotiza a múltiplos exigentes (PER forward de casi 25x y EV/EBITDA de 17.89x) que limitan el potencial alcista a corto plazo según el consenso. La estructura técnica se mantiene por encima de las medias móviles de 50 y 200 sesiones, con un RSI neutral de 54.45 que aconseja mantener posiciones sin incrementar el riesgo actual a la espera de los próximos resultados de diciembre.
+**Reasoning**: La cotizacion actual de ITX.MC se situa en 58.64 EUR, consolidando posiciones de manera neutral cerca de su media movil de 20 sesiones (58.91 EUR) y a pocos dias de la presentacion de resultados del 2 de diciembre de 2026. A pesar de la excelente calidad fundamental, el ratio Forward P/E de 24.78x y el potencial de consenso limitado al 4.63% (objetivo en 61.36 EUR) reflejan una valoracion exigente que justifica mantener la asignacion actual sin incrementar exposicion hasta la revelacion de nuevos datos operativos.
 
 **Entry Price**: not provided
 
-**Stop Loss**: not provided
+**Stop Loss**: 53.78
 
-**Position Sizing**: Posición neutral de mantenimiento
+**Position Sizing**: Mantener ponderacion neutral actual
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

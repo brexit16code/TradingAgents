@@ -1,28 +1,70 @@
 **Rating**: REVIEW
 
-### Informe de Mercado y Análisis Macroeconómico para `SAB.MC` (Banco de Sabadell, S.A.)
+**FINAL TRANSACTION PROPOSAL**: HOLD
 
-#### 1. Resumen de Mercado y Contexto Macroeconómico
-A fecha de 26 de noviembre de 2026, los mercados bursátiles europeos experimentan fuertes subidas impulsados principalmente por los sectores bancario y tecnológico. Las noticias macroeconómicas recientes destacan el nombramiento de Pablo Hernández de Cos como presidente del Banco Central Europeo (BCE), el primer español al frente de la institución monetaria. Por otro lado, el euríbor se mantiene por encima del 3,3%, lo que encarece las hipotecas a las puertas de la última decisión sobre tipos de interés de 2026. En este contexto de tipos de interés altos, gestoras como Metagestión encuentran valor en entidades como `SAB.MC`.
+---
 
-#### 2. Análisis Fundamental y Técnico de `SAB.MC`
-* **Cotización y Datos Técnicos**: La acción de `SAB.MC` cotiza a **3,483 EUR** (al cierre del 26/11/2026), registrando una ganancia diaria del 2,74%. Presenta un RSI de 14 periodos en 42,78 (neutral) y un volumen de volatilidad del 26,31%. Las medias móviles muestran una SMA de 20 periodos en 3,61 EUR y una SMA de 50 periodos en 3,59 EUR, encontrándose ligeramente por debajo de sus resistencias de corto plazo, con soporte técnico clave vigilado en torno a los 3,34 EUR.
-* **Fundamentales**: `SAB.MC` cuenta con una capitalización bursátil de aproximadamente 16.290 millones de euros. Su PER histórico (trailing PE) se sitúa en 13,93x, mientras que el PER forward estimado desciende a 10,44x. Destaca un ratio de Precio/Valor en Libros (P/B) de 1,36x y un rendimiento por dividendo (*dividend yield*) del 2,01% (con un dividendo ordinario de 0,07 EUR y un *payout ratio* del 28,51%).
-* **Estrategia Corporativa**: Informes recientes publicados por *El Español* señalan que Banco Sabadell ha mejorado su beneficio por acción (BPA) en más de un 20% tras haber recomprado cerca de un 17% de su capital social desde 2023, lo que ha incrementado el valor para el accionista. Asimismo, analistas como los de Bolsamania monitorizan de cerca su evolución en el sector y su posición estratégica.
+### Informe de Análisis y Estado Macro-Financiero para `SAB.MC` (Banco de Sabadell, S.A.)
 
-#### 3. Evidencia Contraria, Riesgos y Datos Faltantes
-* **Evidencias Contrarias / Riesgos**: Análisis técnicos recientes (como los de *Traders Union*) advierten sobre una persistente presión vendedora que genera una cotización lateral con sesgo débil cerca de los soportes de 3,34 EUR. Asimismo, el descenso en la cifra interanual de ingresos totales (que pasaron de 6.282 millones en 2023 a 4.882 millones en 2025 según los estados financieros) supone un factor de riesgo en la generación de margen de intermediación si el euríbor experimenta correcciones futuras.
-* **Datos Faltantes**: No se dispone de la totalidad de las métricas de flujo de caja libre ajustado a la operativa estrictamente bancaria de los últimos trimestres de 2026, ni de proyecciones detalladas de mora para el cierre del ejercicio.
+#### 1. Resumen de la Compañía y Datos de Mercado (`SAB.MC`)
+* **Ticker y Empresa**: `SAB.MC` (Banco de Sabadell, S.A.), clasificado dentro de Servicios Financieros (Bancos Diversificados) y cotizando en la Bolsa de Madrid (MCE) en EUR bajo el índice de referencia `^IBEX`.
+* **Precio de Cierre (27 de noviembre de 2026)**: 3,561 EUR (variación diaria de +2,24%).
+* **Valor de Mercado (Market Cap)**: ~16.650 millones de EUR.
+* **Métricas de Valoración y Rentabilidad**:
+  * PER Histórico (*Trailing P/E*): 14,24x.
+  * PER Adelantado (*Forward P/E*): 10,67x (con un EPS proyectado de 0,33 EUR frente a los 0,25 EUR precedentes).
+  * Precio sobre Valor en Libros (*Price-to-Book*): 1,39x (Valor contable por acción de 2,56 EUR).
+  * Rentabilidad por Dividendos (*Dividend Yield*): ~1,97% a 2,01% (dividendo de 0,07 EUR, *payout ratio* de 28,51%).
+  * Rentabilidad sobre el Capital (*Return on Equity* - ROE): 8,90%.
+  * Márgenes: Márgenes de beneficio neto elevados de 41,57%.
+* **Situación Técnica**:
+  * RSI (14 sesiones): 48,20 (zona neutral).
+  * Medias Móviles: Cotiza ligeramente por debajo de su SMA20 (3,62 EUR) y SMA50 (3,59 EUR), pero se mantiene por encima de su SMA200 (3,19 EUR).
+  * Volatilidad anualizada: 26,66%. Retroceso reciente (*drawdown*) desde máximos de -5,47%. Rendimiento a 252 sesiones del +33,15%.
 
-#### 4. Tabla Resumen de Puntos Clave
+---
 
-| Categoría | Indicador / Métrica | Valor Actual / Observación | Fuente / Fecha |
+#### 2. Fundamentos Financieros y Estados Contables
+* **Cuenta de Resultados**:
+  * Ingresos Totales (*Total Revenue*): 4.883 millones de EUR al cierre de 2025 (infer
+iores a los 5.141 millones de 2024 y 6.282 millones de 2023).
+  * Beneficio Neto (*Net Income*): 1.775 millones de EUR en 2025 (leve descenso desde los 1.826 millones de 2024, pero superior a los 1.332 millones de 2023).
+* **Balance**:
+  * Activos Totales: 245.392 millones de EUR (2025).
+  * Deuda Total: 22.535 millones de EUR (2025), reducida significativamente desde los 32.367 millones de 2024.
+  * Patrimonio Neto (*Stockholders Equity*): 14.047 millones de EUR.
+* **Flujo de Caja**:
+  * Flujo de Caja Operativo (*Operating Cash Flow*): 1.678 millones de EUR en 2025 (recuperándose tras flujos negativos reportados en 2023-2024 debido a reclasificaciones de partidas de balance).
+  * Flujo de Caja Libre (*Free Cash Flow*): 1.067 millones de EUR en 2025 tras inversiones de capital (CapEx) de 611 millones de EUR.
+
+---
+
+#### 3. Contexto Macroeconómico y Noticias Recientes (Noviembre de 2026)
+* **Tendencias Bursátiles Globales**: Las bolsas europeas y globales han prolongado un fuerte rebote técnico a finales de noviembre de 2026, impulsadas especialmente por los sectores bancario y tecnológico (por ejemplo, el Dow Jones firmando su mejor semana desde 2022 y mercados europeos cerrando con fuertes subidas el 26 y 27 de noviembre de 2026).
+* **Inflación y Entorno de Tipos**: El IPC de noviembre de 2026 en el ámbito de referencia europeo/regional ha descendido al 4,1%, marcando un punto de atención sobre la pérdida de poder adquisitivo de los ahorros y calibrando las expectativas de futuras actuaciones de los bancos centrales.
+* **Catalizadores Específicos de `SAB.MC`**:
+  * En las noticias de la última semana de noviembre de 2026 destacan análisis sobre su calendario de dividendos de 2026, así como informes corporativos que señalan una mejora del beneficio por acción (BPA) superior al 20% impulsada por agresivos programas de recompra de acciones (que alcanzan un 17% del capital desde 2023).
+  * Análisis técnicos recientes apuntan a una fase de cotización lateral con cierta presión vendedora cerca del soporte de 3,34 EUR, mientras que el consenso de analistas sitúa el precio objetivo medio en torno a 3,71 EUR (con un rango entre 2,30 EUR y 4,50 EUR basados en 20 opiniones de analistas, arrojando un potencial alcista de consenso del ~4,28%).
+
+---
+
+#### 4. Evidencia Contaria y Datos Faltantes
+* **Evidencia Contaria / Riesgos**: 
+  * Los ingresos totales de la entidad han mostrado una tendencia a la baja en los últimos ejercicios (de 6.282 millones en 2023 a 4.883 millones en 2025), lo que plantea interrogantes sobre la sostenibilidad de la expansión del margen de intereses en un escenario de posibles recortes de tipos futuros.
+  * El ratio P/B de 1,39x sitúa a `SAB.MC` cotizando por encima de su valor contable tangible básico, reflejando que gran parte de las expectativas optimistas generadas por las recompras de acciones y la retribución al accionista ya se encuentran descontadas en precio.
+* **Datos Faltantes**: 
+  * No se dispone de un desglose en tiempo real de los flujos de caja operativos trimestrales detallados para los periodos posteriores al cierre fiscal de 2025, ni se han suministrado carteras de inversión hipotéticas del inversor.
+
+---
+
+#### 5. Tabla Resumen de Puntos Clave
+
+| Categoría | Métrica / Dato Clave | Valor / Estado | Fuente y Fecha |
 | :--- | :--- | :--- | :--- |
-| **Precio y Mercado** | Cotización de cierre (`SAB.MC`) | 3,483 EUR (+2,74%) | Yahoo Finance / 2026-11-26 |
-| **Técnico** | RSI(14) y SMA50 | 42,78 (Neutral) / 3,59 EUR | Datos técnicos internos / 2026-11-26 |
-| **Valoración** | Forward PE / Trailing PE | 10,44x / 13,93x | Fundamentales `SAB.MC` / 2026-11-26 |
-| **Retorno** | Dividend Yield / Payout Ratio | ~2,01% / 28,51% | Fundamentales `SAB.MC` / 2026-11-26 |
-| **Macro / Sector** | Euríbor / Contexto BCE | Superior al 3,3% / Pablo Hernández de Cos nuevo Pte. BCE | 20 Minutos / El Constitucional (2026-11-26) |
-| **Corporativo** | Recompra de acciones y BPA | Mejora del BPA >20% tras recompra de 17% del capital | El Español (2026-11-26) |
-
-FINAL TRANSACTION PROPOSAL: REVIEW
+| **Precio y Mercado** | Precio de cierre actual | 3,561 EUR (+2,24%) | Yahoo Finance / `SAB.MC` (2026-11-27) |
+| **Valoración** | Forward P/E y P/B | 10,67x / 1,39x | Yahoo Finance / `SAB.MC` (2026-11-27) |
+| **Consenso Analistas** | Precio objetivo medio (Target Mean) | 3,713 EUR (Upside: ~4,28%) | Yahoo Finance / `SAB.MC` (2026-11-27) |
+| **Fundamentales** | Beneficio Neto (2025) | 1.775,4 millones de EUR | Estados Financieros / `SAB.MC` (2025-12-31) |
+| **Solvencia / Deuda** | Deuda Total | 22.534,8 millones de EUR | Estados Financieros / `SAB.MC` (2025-12-31) |
+| **Técnico** | RSI (14) / SMA200 | 48,20 / 3,19 EUR | Indicadores Técnicos / `SAB.MC` (2026-11-27) |
+| **Macro / Noticias** | Rebote bursátil y banca europea | Jornadas alcistas a 27 nov 2026 | Merca2.es / Negocios.com (2026-11-27) |

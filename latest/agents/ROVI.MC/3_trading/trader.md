@@ -1,11 +1,11 @@
 **Action**: Hold
 
-**Reasoning**: La recomendacion de mantener se fundamenta en la divergencia entre unos fundamentales excepcionales de balance con baja deuda neta y un ROE del 28,71%, y la debilidad tecnica a corto plazo donde el precio cotiza ligeramente por debajo de su media movil de 200 sesiones. Aunque el consenso de analistas muestra un potencial alcista del 16,75% hacia los 74,78 EUR, la normalizacion post-pandemia de los ingresos y un P/E forward de 19,37x aconsejan prudencia y no incrementar la exposicion en este momento.
+**Reasoning**: ROVI.MC presenta fundamentales excepcionales con un ROE del 28.71% y una baja deuda neta, pero su impulso técnico es neutral y cotiza por debajo de su media de 200 sesiones (64.74 EUR) frente a su precio actual de 63.60 EUR. La contracción de ingresos y el Forward P/E de 19.31x justifican mantener la posición actual a la espera de una ruptura de soporte o resistencia más clara.
 
 **Entry Price**: not provided
 
-**Stop Loss**: 62.01
+**Stop Loss**: 58.0
 
-**Position Sizing**: Mantenimiento de la posicion actual sin ampliaciones adicionales.
+**Position Sizing**: 5% de la cartera
 
 FINAL TRANSACTION PROPOSAL: **HOLD**

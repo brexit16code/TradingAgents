@@ -1,53 +1,66 @@
-**Análisis Financiero y Técnico de IAG.MC (International Consolidated Airlines Group S.A.)**
+**Rating**: HOLD  
+FINAL TRANSACTION PROPOSAL: Mantener posición actual con cobertura y stops dinámicos basados en soporte técnico cercano a 5,10 EUR, evaluando recogida parcial si se acerca al objetivo de consenso de analistas (6,12 EUR).
 
-### 1. Contexto de Mercado y Estado Actual
-A fecha de 26 de noviembre de 2026, la cotización de **IAG.MC** en la Bolsa de Madrid se sitúa en **5,274 EUR**, registrando un avance diario del **1,26%**. El entorno macroeconómico europeo muestra un tono optimista, impulsado por fuertes subidas en las bolsas europeas y la selección de Pablo Hernández de Cos como presidente del BCE, mientras que el euríbor se mantiene por encima del 3,3%. 
+### Informe de Análisis Financiero y Técnico para `IAG.MC`
 
-El valor presenta un comportamiento técnico positivo a medio y largo plazo, apoyado por importantes operaciones corporativas como la aceleración de su programa de recompra de acciones (más de 6,5 millones de títulos en una semana) y planes de recompras adicionales por valor de 1.500 millones de euros, según informan medios especializados como *Estrategias de Inversión* y *Finanzas.com*.
-
-### 2. Análisis Fundamental y Valoración
-Basándonos en los datos financieros proporcionados en el snapshot del emisor:
-* **Capitalización de Mercado:** 22.788 millones de EUR.
-* **PER (Trailing):** 8,11x; **PER Forward:** 7,12x, lo que refleja una valoración atractiva en comparación con la media de sus homólogos del sector industrial/aerolíneas (*peer median forward PE* de 16,70x, ratio de 0,43).
-* **Ingresos y Beneficios:** Los ingresos de 2025 alcanzaron los 33.213 millones de EUR, con un beneficio neto de 3.342 millones de EUR y un EBITDA de 7.951 millones de EUR, demostrando una sólida recuperación post-pandemia y una excelente generación de caja operativa (6.588 millones de EUR en 2025 y un flujo de caja libre de 3.146 millones de EUR).
-* **Endeudamiento:** La deuda total asciende a 13.867 millones de EUR (frente a un total de activos de 42.849 millones de EUR), con una ratio de *Net Debt / EBITDA* muy controlada de **0,78x**.
-* **Retorno por Dividendo:** Ofrece una rentabilidad por dividendo de aproximadamente el **1,90%** (con un *dividend rate* de 0,10 EUR y un *payout ratio* conservador del 15,19%).
-* **Consenso de Analistas:** El precio objetivo medio fijado por el consenso es de **6,12 EUR** (con un rango entre 5,30 EUR y 7,00 EUR basado en 11 opiniones de analistas), lo que implica un **potencial de revalorización (upside) del 16,09%** frente al precio actual de 5,274 EUR.
-
-### 3. Análisis Técnico y Dinámica de Precios
-* **Medias Móviles:** El precio cotiza por encima de sus medias móviles clave. La SMA de 20 sesiones se sitúa en 5,276 EUR, la SMA de 50 en 5,100 EUR y la SMA de 200 en 4,868 EUR, confirmando una clara tendencia alcista a medio y largo plazo.
-* **RSI (14):** Se encuentra en un nivel neutral de **52,37**, lo que indica que el valor no está ni sobrecomprado ni sobrevendido, dejando margen para continuar el movimiento alcista.
-* **MACD:** El indicador MACD registra un valor de 0,073 y la línea de señal (*macd_signal*) se sitúa en 0,092, mostrando una ligera moderación en el impulso de corto plazo tras las recientes subidas, pero manteniéndose en terreno constructivo.
-* **Volatilidad y Retornos:** La volatilidad anualizada se sitúa en el **28,20%**, con un rendimiento acumulado a 21 sesiones del **9,35%** y a 252 sesiones del **18,76%**. El *drawdown* actual es de -6,88% respecto a máximos recientes.
-
-### 4. Indicadores Seleccionados para el Seguimiento Operativo
-De acuerdo con la estrategia de selección de indicadores técnicos complementarios y sin redundancias, se han identificado los siguientes 8 parámetros clave para monitorizar a **IAG.MC**:
-1. `close_50_sma`: Para identificar la dirección de la tendencia a medio plazo y servir como soporte dinámico.
-2. `close_200_sma`: Como referencia estructural a largo plazo para confirmar la salud general del activo.
-3. `close_10_ema`: Para capturar con rapidez los cambios de impulso a corto plazo y puntos de entrada tácticos.
-4. `macd`: Para evaluar el momentum general mediante la diferencia entre medias móviles exponenciales.
-5. `macds`: Línea de señal del MACD para filtrar cruces y gatillos operativos.
-6. `rsi`: Para vigilar el índice de fuerza relativa y descartar zonas extremas de sobrecompra o sobreventa.
-7. `atr`: Para medir la volatilidad histórica reciente y dimensionar adecuadamente la gestión del riesgo y stops.
-8. `vwma`: Para contrastar la acción del precio integrando de forma ponderada el volumen de contratación institucional.
-
-### 5. Evidencia Contaria, Riesgos y Datos Faltantes
-* **Evidencia Contraria / Riesgos:** El sector de aerolíneas es altamente cíclico y vulnerable a perturbaciones macroeconómicas, costes del combustible (petróleo) e interrupciones operativas (espacio aéreo o tensiones geopolíticas). Además, el incremento del euríbor sobre el 3,3% puede ralentizar el consumo discrecional en viajes a medio plazo.
-* **Datos Faltantes:** El *Return on Equity* (ROE) actual aparece como no disponible (*null*) en los snapshots automatizados, y las cifras de flujo de caja operativo y libre correspondientes al ejercicio completo más reciente no están desagregadas por completo en el bloque de ratios simplificados, debiendo contrastarse directamente con los estados contables oficiales publicados por la compañía.
+Se presenta un análisis exhaustivo y matizado de la evolución bursátil, fundamentos financieros y situación técnica de **International Consolidated Airlines Group S.A. (`IAG.MC`)** cotizada en el mercado español (MCE), con fecha de referencia a 27 de noviembre de 2026.
 
 ---
 
-### Resumen Clave (Tabla Markdown)
+### 1. Contexto de Mercado y Evidencia Reciente
+Las bolsas europeas han registrado jornadas de fuertes subidas impulsadas por sectores como banca y tecnología, con el índice Euro Stoxx 50 y DAX registrando avances destacados y un tono general optimista pese a la atonía de ciertas economías continentales (como la francesa). En este contexto macroeconómico, `IAG.MC` exhibe fortaleza en bolsa, apuntando hacia una capitalización bursátil cercana a los 25.000 millones de euros (el snapshot actual sitúa su *market cap* en aproximadamente 22.980 millones de euros). 
 
-| Categoría | Métrica / Indicador | Valor Actual / Referencia | Implicación Analítica |
-| :--- | :--- | :--- | :--- |
-| **Precio y Mercado** | Precio de Cierre (`IAG.MC`) | 5,274 EUR (26/11/2026) | Tendencia alcista respaldada por recompras corporativas. |
-| **Valoración** | PER Forward / Trailing | 7,12x / 8,11x | Atractiva frente a la mediana de comparables (16,70x). |
-| **Consenso** | Target Mean Price | 6,12 EUR | Potencial de subida estimado del **16,09%**. |
-| **Solvencia** | Net Debt / EBITDA | 0,78x | Estructura de balance sólida y desapalancada. |
-| **Tendencia** | SMA 50 / SMA 200 | 5,100 EUR / 4,868 EUR | Configuración alcista estructural a medio y largo plazo. |
-| **Momentum** | RSI (14) / MACD | 52,37 / 0,073 | Zona de equilibrio técnico; sin sobrecompra inmediata. |
-| **Volatilidad** | Volatilidad Anualizada / ATR | 28,20% | Nivel de oscilación moderado propio del sector de aerolíneas. |
+Además, la compañía ha intensificado su programa de retribución y gestión de capital, destacando noticias recientes sobre la recompra acelerada de acciones (superando los 6,5 millones de títulos adquiridos en una sola semana de noviembre de 2026), lo que refuerza el valor para el accionista en consonancia con un ratio de dividendo y flujos de caja operativos sólidos.
 
-**Rating**: BUY
-FINAL TRANSACTION PROPOSAL: Hypothetically accumulate **IAG.MC** taking advantage of its solid cash generation, discounted forward PER relative to sector peers, active share buyback programs, and a consensus upside of 1
+---
+
+### 2. Análisis Fundamental y Valoración
+Basado en los estados financieros y datos fundamentales suministrados:
+* **Capitalización Bursátil:** 22.978.252.800 EUR.
+* **Múltiplos de Valoración:** Cuenta con un *Trailing P/E* de 8.18x y un *Forward P/E* de 7.18x, lo que denota una valoración moderadamente atractiva en comparación con la mediana histórica del sector o índices generales (el ratio frente a peers se sitúa en torno a 0.43 según el análisis relativo sectorial). El *Enterprise Value to EBITDA* (EV/EBITDA) se sitúa en un bajo 4.69x.
+* **Crecimiento e Ingresos:** En el ejercicio cerrado a 31-12-2025, los ingresos totales ascendieron a 33.213 millones de euros (por encima de los 32.100 millones de 2024 y 29.453 millones de 2023), con un beneficio neto de 3.342 millones de euros (comparado con 2.732 millones en 2024).
+* **Solidez y Deuda:** La deuda total se sitúa en 13.867 millones de euros (frente a 14.267 millones al cierre de 2025), compensada por una sólida posición de caja total de 9.175 millones de euros, arrojando una ratio de deuda neta sobre EBITDA contenida en 0.78x.
+* **Consenso de Analistas:** El precio objetivo medio (*targetMeanPrice*) se sitúa en **6.12 EUR** (con un rango entre un mínimo de 5.30 EUR y un máximo de 7.00 EUR analizado por 11 opiniones), lo que ofrece un potencial de revalorización (*consensus_upside_pct*) del **15.13%** desde el precio de cierre actual de **5.32 EUR**.
+
+---
+
+### 3. Análisis Técnico
+De acuerdo con los datos de precios e indicadores técnicos a fecha de 27 de noviembre de 2026:
+* **Precio de Cierre:** 5.318 EUR (variación diaria de +0.83%).
+* **Medias Móviles:** El precio cotiza por encima de sus principales referencias de corto, medio y largo plazo. La SMA de 20 sesiones se encuentra en 5.30 EUR, la SMA de 50 sesiones en 5.11 EUR, y la SMA de 200 sesiones en 4.87 EUR. Esto confirma una tendencia alcista estructural a medio y largo plazo.
+* **Momentum y Osciladores:** El RSI de 14 períodos se sitúa en 54.23, indicando una zona neutral-alcista sin señales inmediatas de sobrecompra. El indicador MACD registra un valor de 0.07 con su línea de señal en 0.09, reflejando cierta consolidación tras el reciente rebote.
+* **Volatilidad y Rentabilidad:** La volatilidad porcentual anualizada se sitúa en el 28.05%, con un *drawdown* contenido del -6.11%. La rentabilidad a 21 sesiones es del +8.31% y a 252 sesiones del +21.19%, superando al índice de referencia (*relative63_pp* de +9.97 pp frente al ^IBEX).
+
+---
+
+### 4. Selección de Indicadores Técnicos Complementarios
+Siguiendo la metodología requerida para la categoría, los indicadores seleccionados para complementar el seguimiento operativo de `IAG.MC` son:
+1. `close_50_sma`: Permite identificar la dirección del soporte dinámico a medio plazo.
+2. `close_200_sma`: Confirma la tendencia macro a largo plazo del valor en el MCE.
+3. `close_10_ema`: Captura con rapidez los cambios de impulso a corto plazo y posibles entradas tácticas.
+4. `macd`: Evalúa el cruce de líneas para detectar cambios de momentum a mediano plazo.
+5. `macds`: Actúa como la media suavizada para filtrar señales falsas del MACD.
+6. `rsi`: Mide los umbrales de sobrecompra/sobreventa (70/30) para prevenir giros bruscos.
+7. `boll`: Utiliza la banda media (SMA de 20) como referencia dinámica de oscilación de precios.
+8. `atr`: Mide el rango verdadero promedio para establecer stops dinámicos y dimensionar el riesgo de volatilidad.
+
+---
+
+### 5. Datos Faltantes y Limitaciones
+* No se dispone de estimaciones formales actualizadas de flujos de caja operativos y de libre disposición futuros desagregados más allá del cierre contable de 2025.
+* Las métricas de *Return on Equity* (ROE) no se encuentran calculadas explícitamente en el snapshot actual debido a variaciones en la base de datos de fondos propios intermedios.
+
+---
+
+### 6. Tabla Resumen de Puntos Clave
+
+| Categoría / Métrica | Valor / Dato | Implicación Operativa |
+| :--- | :--- | :--- |
+| **Precio Actual** | 5.32 EUR (27-11-2026) | Cotización firme, respetando medias móviles principales. |
+| **Media Móvil (SMA 50)** | 5.11 EUR | Soporte técnico dinámico clave a medio plazo. |
+| **Media Móvil (SMA 200)** | 4.87 EUR | Suelo estructural de largo plazo; tendencia alcista confirmada. |
+| **RSI (14)** | 54.23 | Zona de equilibrio sin síntomas de sobrecompra inminente. |
+| **PER Adelantado (Forward P/E)** | 7.18x | Valoración atractiva en relación con la generación de beneficios estimados. |
+| **Deuda Neta / EBITDA** | 0.78x | Estructura financiera sana y capacidad de desapalancamiento. |
+| **Precio Objetivo Consenso** | 6.12 EUR | Margen de revalorización estimado en +15.13% por analistas. |
+| **Re

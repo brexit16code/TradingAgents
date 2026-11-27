@@ -1,8 +1,8 @@
 # Trading Analysis Report: NTGY.MC
 
-- Analysis date: 2026-11-26
+- Analysis date: 2026-11-27
 - Rating: Hold
-- Generated: 2026-11-26 22:01:39
+- Generated: 2026-11-27 21:49:32
 - TradingAgents 0.7.1: google, deep gemini-3.5-flash-lite, quick gemini-3.5-flash-lite
 - Analysts: market, news, fundamentals; research debate rounds 1, risk debate rounds 1
 - Data vendors: core_stock_apis yfinance, technical_indicators yfinance, fundamental_data yfinance, news_data yfinance, macro_data fred, prediction_markets polymarket, get_news ibex_sample, get_global_news ibex_sample
@@ -11,234 +11,224 @@
 
 ### Market Analyst
 **Rating**: HOLD  
-**FINAL TRANSACTION PROPOSAL**: Maintain position / Hold (Neutral stance based on stable regulated utility performance, solid dividend yield, and balanced technical momentum).
 
----
+### Análisis Detallizado y Nuanced de la Tendencia para `NTGY.MC` (Naturgy Energy Group, S.A.)
 
-### Análisis Técnico y Fundamental de Naturgy Energy Group, S.A. (`NTGY.MC`)
+A fecha de 27 de noviembre de 2026, el valor de cotización para **NTGY.MC** se sitúa en **30.38 EUR** (según el cierre exacto verificado en el snapshot del mercado). A continuación se expone un desglose técnico, fundamental y de valoración basado estrictamente en las evidencias adjuntas.
 
-El presente informe detalla la situación financiera, bursátil y técnica de **Naturgy Energy Group, S.A.** (`NTGY.MC`), cotizada en las Bolsas Españolas (MCE) dentro del sector de Utilities (Utilities - Regulated Gas), utilizando exclusivamente la información verificada disponible con fecha 26 de noviembre de 2026.
+#### 1. Contexto Técnico y de Tendencia
+- **Medias Móviles:** El precio actual de `NTGY.MC` (30.38 EUR) se encuentra por encima de su media móvil de 20 sesiones (`sma20`: 29.97 EUR), de 50 sesiones (`sma50`: 29.56 EUR) y de 200 sesiones (`sma4`: 27.46 EUR). Esta disposición alcista en múltiples horizontes temporales confirma una tendencia de fondo positiva a medio y largo plazo.
+- **RSI (14):** Se encuentra en un nivel moderado de **56.91**, lo que indica un sesgo comprador pero sin entrar en zonas de sobrecompra (>70). Esto deja margen para la continuación del movimiento alcista sin señales inmediatas de agotamiento técnico.
+- **MACD:** El indicador MACD registra un valor de **0.167** frente a una línea de señal (`macd_signal`) de **0.189**. Aunque la línea MACD se encuentra ligeramente por debajo de su señal, la diferencia es estrecha, sugiriendo una fase de consolidación a corto plazo dentro del canal alcista general.
+- **Retornos y Volatilidad:** La volatilidad anualizada a 14 sesiones se sitúa en el **16.15%**, lo cual es moderado para el sector de servicios públicos (*Utilities*). Los rendimientos recientes reflejan un comportamiento positivo con un retorno a 21 sesiones del **4.07%**, a 63 sesiones del **5.06%** y un retorno anualizado a 252 sesiones del **19.69%**.
 
-#### 1. Contexto de Mercado y Entorno Macroeconómico
-Las bolsas europeas han registrado fuertes subidas impulsadas por el sector bancario y tecnológico en noviembre de 2026, con avances notables en índices como el Euro Stoxx 50 y el DAX alemán superiores al 2% (según fuentes de *el boletin* y *Negocios.com* del 26 de noviembre de 2026). Asimismo, el entorno macroeconómico destaca por el nombramiento de Pablo Hernández de Cos como presidente del BCE (*El Constitucional*, 26/11/2026) y un euríbor que supera el 3,3% a las puertas de la última subida de tipos de interés del año (*20 Minutos*, 26/11/2026). En este escenario de tipos elevados y búsqueda de rentabilidad por dividendo, las utilities reguladas como `NTGY.MC` actúan como valores defensivos de refugio.
+#### 2. Fundamentos y Valoración
+- **Capitalización y Múltiplos:** Naturgy (`NTGY.MC`) cuenta con una capitalización de mercado de aproximadamente **28.14 mil millones de EUR**. Su PER histórico (*trailing PE*) es de **14.06**, alineado con su PER adelantado (*forward PE*) de **14.06**. El ratio EV/EBITDA se sitúa en **8.25**, lo que refleja una valoración razonable dentro del segmento de gas regulado en Europa.
+- **Dividendos:** Uno de los atractivos principales de `NTGY.MC` es su política de retribución al accionista. Presenta una rentabilidad por dividendo (*dividend yield*) del **7.80%** (con un dividendo por acción de 2.37 EUR y un *payout ratio* estimado del **75.92%**), apoyado por un flujo de caja operativo sólido y una deuda neta sobre EBITDA contenida en **2.42x**.
+- **Consenso de Analistas:** El precio objetivo medio de consenso (*targetMeanPrice*) se sitúa en **31.33 EUR** (con un rango que va desde un mínimo de 24.30 EUR hasta un máximo de 35.50 EUR, basado en la opinión de 18 analistas). Frente al precio actual de 30.38 EUR, el potencial alcista de consenso (*consensus_upside_pct*) es modesto, concretamente de un **3.13%**, lo que limita el atractivo de nuevas entradas agresivas a corto plazo.
 
-#### 2. Análisis Técnico y de Indicadores
-Con fecha de precio del 26 de noviembre de 2026, el valor cotiza a un precio de cierre de **30,14 EUR**, experimentando una variación diaria positiva del **0,74%**. 
-
-* **Tendencia y Medias Móviles**: El precio se sitúa ligeramente por encima de su media móvil de 20 sesiones (`sma20`: 29,90 EUR), de su media de 50 sesiones (`sma50`: 29,53 EUR) y de su media de largo plazo de 200 sesiones (`sma200`: 27,44 EUR). Esto confirma una estructura alcista sostenida a medio y largo plazo. La rentabilidad acumulada a 252 sesiones es del **20,89%**, mostrando un comportamiento relativo positivo frente al mercado general.
-* **Momentum y Osciladores**: El Índice de Fuerza Relativa de 14 períodos (`rsi14`) se encuentra en **53,80**, lo que indica una zona de equilibrio neutral (ni sobrecompra ni sobreventa). El indicador MACD registra un valor de **0,15** frente a su línea de señal (`macd_signal`) de **0,19**, sugiriendo una fase de consolidación a corto plazo tras los recientes avances.
-* **Volatilidad y Drawdown**: La volatilidad porcentual a 511 sesiones se sitúa en el **16,08%**, reflejando el carácter defensivo y estable típico del sector regulado. El retroceso máximo desde máximos recientes (`drawdown_pct`) es de **-2,84%**, lo que evidencia una baja presión vendedora.
-
-#### 3. Fundamentos Financieros y Valoración
-* **Capitalización Bursátil**: 27.921.502.208 EUR (~27.920 millones de euros).
-* **Múltiplos de Valoración**: 
-  * PER histórico (`trailingPE`) de **13,95x** y PER forward de **13,95x**. 
-  * Ratio frente al PER de comparable sectorial (`peer_median_forward_pe`: 17,58x) de **0,79**, lo que indica que `NTGY.MC` cotiza con descuento relativo frente a sus pares del sector (como ANE.MC, ENG.MC, ELE.MC, IBE.MC, RED.MC, SLR.MC).
-  * EV/EBITDA de **8,22x**.
-* **Rentabilidad por Dividendo**: Uno de los atractivos principales de la compañía es su generosa política de retribución al accionista, con una rentabilidad por dividendo (`dividendYield`) del **7,92%** (dividendo anual de 2,37 EUR por acción) y un ratio de reparto (`payoutRatio`) del **75,92%**.
-* **Solvencia y Deuda**: La deuda total asciende a 17.313 millones de euros, con un ratio de endeudamiento neto sobre EBITDA (`net_debt_ebitda`) moderado de **2,42x**. La tesorería total se sitúa en 4.841 millones de euros.
-* **Consenso de Analistas**: El precio objetivo medio de consenso (`targetMeanPrice`) es de **31,33 EUR** (con un rango entre un mínimo de 24,30 EUR y un máximo de 35,50 EUR según 18 opiniones de analistas), lo que arroja un potencial alcista de consenso (`consensus_upside_pct`) del **3,96%**.
-
-#### 4. Datos Faltantes e Incertidumbres
-* No se dispone de las estimaciones detalladas de flujo de caja operativo (`operatingCashflow`) ni de flujo de caja libre (`freeCashflow`) actualizados para el último ejercicio completo en los datos resumidos, aunque las cuentas anuales de 2025 muestran unos ingresos totales de 19.455 millones de euros y un beneficio neto de 2.023 millones de euros (frente a los 1.901 millones de euros de 2024).
-* Cualquier análisis de asignación de cartera debe considerarse estrictamente hipotético, ya que no se ha suministrado ninguna cartera de inversión previa.
-
----
-
-### Tabla Resumen Clave
-
-| Métrica / Indicador | Valor | Interpretación / Contexto |
-| :--- | :--- | :--- |
-| **Precio de Cierre** (`close`) | 30,14 EUR | Cotización a 26 de noviembre de 2026. |
-| **Variación Diaria** (`change_pct`) | +0,74% | Ligero tono positivo en la sesión. |
-| **RSI (14)** (`rsi14`) | 53,80 | Zona neutral; equilibrio entre compradores y vendedores. |
-| **MACD / Señal** | 0,15 / 0,19 | Ligera compresión de impulso a corto plazo. |
-| **Media Móvil 200** (`sma200`) | 27,44 EUR | Soporte estructural de largo plazo superado. |
-| **PER Operativo** (`forwardPE`) | 13,95x | Atractivo en comparación con la mediana del sector (17,58x). |
-| **Rentabilidad por Dividendo** | 7,92% | Retorno por dividendo muy elevado, clave para perfiles de rentę. |
-| **Deuda Neta / EBITDA** | 2,42x | Nivel de apalancamiento financiero bajo control. |
-| **Precio Objetivo Consenso** | 31,33 EUR | Potencial alcista moderado cercano al +3,96%. |
-| **Bandas de Valoración / Ratio** | 0,79 | Descuento frente al PER mediano de pares comparables. |
-
-*Fuentes consultadas y datos de soporte:*  
-- Datos de mercado y fundamentales obtenidos del snapshot verificado de `NTGY.MC` con fecha de referencia 2026-11-26.  
-- Cobertura de noticias macroeconómicas y sectoriales: *el boletin*, *Negocios.com*, *El Constitucional*, *20 Minutos* y *Rankia* (noviembre de 2026).
-
-### News Analyst
-**Rating**: HOLD  
-**FINAL TRANSACTION PROPOSAL:** REVIEW
-
-### Informe de Análisis de Mercado y Macroeconómico para Naturgy Energy Group, S.A. (`NTGY.MC`)
-
-#### 1. Contexto Macroeconómico Global y Sectorial
-A finales de noviembre de 2026, los mercados europeos experimentan fuertes subidas impulsadas por los sectores bancario y tecnológico, destacando avances superiores al 2% en índices como el Euro Stoxx 50 y el DAX alemán (según los boletines fechados el 26 de noviembre de 2026). En el ámbito monetario y político europeo, destaca la elección de Pablo Hernández de Cos como presidente del Banco Central Europeo (BCE), convirtiéndose en el primer español al frente de la institución monetaria europea (anunciado el 26 de noviembre de 2026). 
-
-Asimismo, el euríbor supera el 3,3%, encareciendo los costes financieros a las puertas de la última reunión de tipos del año, mientras que entidades como Bankinter y gestoras locales analizan el impacto de un entorno de tipos elevados en la valoración de activos de renta fija y renta variable.
-
-#### 2. Análisis Fundamental y Técnico de `NTGY.MC`
-Naturgy Energy Group, S.A. (`NTGY.MC`) cotiza a **30,14 EUR** a fecha de 26 de noviembre de 2026. Sus métricas fundamentales y técnicas clave son las siguientes:
-
-* **Valor de Mercado y Valoración:** Capitalización bursátil de aprox. 27.921 millones de EUR. El PER histórico (*trailing PE*) se sitúa en 13.95x y el PER adelantado (*forward PE*) en 13.95x, lo que representa un descuento frente al PER adelantado mediano de sus pares comparables en el sector (ratio de 0.79x).
-* **Dividendos:** Ofrece una atractiva rentabilidad por dividendo (*dividend yield*) del **7,92%** (dividendo anual de 2,37 EUR por acción), con un ratio de pago (*payout ratio*) del 75,92%.
-* **Solvencia y Endeudamiento:** Presenta una deuda total de aproximadamente 16.747 millones de EUR (según los estados financieros cerrados a 31 de diciembre de 2025) y una ratio de deuda neta sobre EBITDA de **2,42x**, lo cual muestra una estructura de balance controlada para una empresa de servicios públicos regulados de gas.
-* **Técnico:** La acción muestra una tendencia moderadamente alcista con un RSI de 14 periodos en 53,80 (zona neutral), cotizando por encima de sus medias móviles de 20 sesiones (29,90 EUR), 50 sesiones (29,53 EUR) y 200 sesiones (27,44 EUR). La volatilidad anualizada se sitúa en el 16,08% y la rentabilidad a 252 días alcanza el 20,89%.
-* **Consenso de Analistas:** El precio objetivo medio de consenso se sitúa en **31,33 EUR** (con un rango entre 24,30 EUR y 35,50 EUR basado en 18 opiniones de analistas), lo que arroja un potencial de revalorización (*consensus upside*) moderado del **3,96%**.
-
-#### 3. Evidencia Contraria y de Apoyo
-* **Apoyo:** Sólida generación de caja operativa (4.525 millones de EUR al cierre del ejercicio 2025), un flujo de caja libre (*free cash flow*) positivo de 2.376 millones de EUR y una rentabilidad por dividendo muy atractiva (~7,9%). El PER relativo es inferior al de sus comparables del sector ibérico (`ANE.MC`, `ENG.MC`, `ELE.MC`, `IBE.MC`, etc.).
-* **Contraria:** El potencial alcista hasta el precio objetivo de consenso es estrecho (~3,96%). Además, el contexto de tipos de interés con un euríbor por encima del 3,3% y la persistencia de costes de financiación elevados pueden limitar expansiones adicionales múltiples en el sector de utilities reguladas.
+#### 3. Evidencia Macroeconómica y Noticias Recientes
+- Las bolsas europeas han mostrado un tono general de rebote a finales de noviembre de 2026 (impulsadas por tecnología y banca, según fuentes de Merca2.es y Negocios.com de los días 26 y 27 de noviembre de 2026).
+- En cuanto a noticias corporativas específicas de `NTGY.MC`, los flujos informativos recientes son de carácter menor y local (como incidentes operativos relacionados con robo de transformadores en otras geografías, reportados por medios como Diario de Cuyo el 26 de noviembre de 2026), sin impacto material en los fundamentales del grupo.
 
 #### 4. Datos Faltantes y Limitaciones
-* No se dispone de flujos de caja operativos ni libres detallados actualizados para los trimestres posteriores a 2025 en los snapshots automáticos.
-* La cartera de inversión del usuario es hipotética y no se han incorporado restricciones de asignación de activos específicas.
+No se dispone de estimaciones formales de crecimiento de beneficios (*earningsGrowth* nulo en la fuente de datos) ni de flujos de caja libre detallados para los trimestres más recientes de 2026, por lo que las proyecciones de valoración deben tomarse con prudencia, apoyándose en los múltiplos históricos y el consenso de analistas.
 
 ---
 
-### Resumen Estructurado
+### Resumen Clave (Tabla Organizativa)
 
-| Concepto Clave | Valor / Detalle | Fuente / Referencia |
+| Categoría | Métrica / Indicador | Valor Actual / Referencia | Implicación para el Trading |
+| :--- | :--- | :--- | :--- |
+| **Precio y Tendencia** | Cotización Actual (`close`) | 30.38 EUR (27-11-2026) | Por encima de SMA20, SMA50 y SMA200 (Tendencia alcista confirmada). |
+| **Momento** | RSI (14) | 56.91 | Zona neutral-alcista; sin sobrecompra, pero vigilando resistencia. |
+| **Momento** | MACD / Señal | 0.167 / 0.189 | Ligera compresión de corto plazo; consolidación lateral probable. |
+| **Volatilidad y Riesgo** | Volatilidad (14d) / Drawdown | 16.15% / -2.06% | Volatilidad moderada, drawdown técnico mínimo. |
+| **Valoración** | Trailing / Forward PE | 14.06 / 14.06 | Múltiplos atractivos en comparación con la mediana sectorial de pares. |
+| **Retribución** | Dividend Yield | 7.80% (2.37 EUR) | Atractivo flujo de rentabilidad por dividendo para carteras de renta. |
+| **Consenso** | Target Mean Price | 31.33 EUR | Upside limitado al **3.13%** frente al precio de mercado actual. |
+
+FINAL TRANSACTION PROPOSAL: HOLD
+
+### News Analyst
+**Rating**: HOLD
+
+### Informe de Análisis y Estado Macroeconómico para `NTGY.MC`
+
+#### 1. Resumen de la Situación y Datos de Mercado (`NTGY.MC`)
+A fecha de 27 de noviembre de 2026, la acción de Naturgy Energy Group, S.A. (`NTGY.MC`) cotiza a **30.38 EUR**, registrando una rentabilidad por dividendo atractiva del **7.80%** (con un dividendo por acción de 2.37 EUR y un ratio de pago o *payout* de aprox. 75.9%). Su capitalización bursátil asciende a aproximadamente 28.140 millones de euros.
+
+* **Indicadores Técnicos:**
+  * La cotización se sitúa por encima de sus medias móviles clave (SMA20: 29.97 EUR, SMA50: 29.56 EUR y SMA200: 27.46 EUR), lo que refleja una tendencia alcista a medio y largo plazo.
+  * El RSI de 14 sesiones se encuentra en **56.91**, indicando una zona neutral con sesgo positivo, sin señales claras de sobrecompra o sobreventa.
+  * La volatilidad a 511 sesiones se sitúa en el **16.15%**, y el valor muestra una rentabilidad a 12 meses (*return252_pct*) del **19.69%**.
+
+* **Valoración y Fundamentales:**
+  * El PER histórico (*trailing PE*) es de **14.06x** y el PER estimado (*forward PE*) de **14.06x**, operando con un descuento relativo frente a la mediana de sus comparables del sector (*peer median forward PE* de 17.69x, ratio de 0.79).
+  * La deuda neta sobre EBITDA se sitúa en un nivel prudente y manejable de **2.42x** (con una deuda total de 16.750 millones de EUR a cierre de 2025 y un EBITDA anual de 5.543 millones de EUR).
+  * El precio objetivo medio de consenso de los analistas (*targetMeanPrice*) se sitúa en **31.33 EUR**, ofreciendo un potencial de revalorización (*consensus upside*) moderado del **3.13%** sobre el precio actual de 30.38 EUR.
+
+#### 2. Contexto Macroeconómico y Bursátil (Noviembre de 2026)
+Las bolsas europeas y globales han protagonizado un marcado rebote a finales de noviembre de 2026. Según los flujos de noticias de la semana:
+* Las bolsas europeas han cerrado con fuertes subidas impulsadas por los sectores bancario y tecnológico, registrando el Dow Jones su mejor semana desde 2022.
+* En el plano inflacionario, el IPC de noviembre de 2026 ha mostrado una moderación hasta el **4.1%**, lo que alivia las presiones sobre los costes de financiación y aporta estabilidad a los activos regulados del sector utilities.
+* Las previsiones de gestoras como Ostrum AM apuntan a potenciales subidas del 10% en las bolsas europeas para 2027, a pesar de un nuevo régimen de riesgos macroeconómicos.
+
+#### 3. Evidencia y Datos Conflictivos / Faltantes
+* **A Favor (Supporting Evidence):** Rentabilidad por dividendo muy sólida (~7.8%), valoración atractiva por PER en comparación con la mediana de sus peers, deuda neta/EBITDA controlada en 2.42x y tendencia técnica alcista sostenida por encima de la SMA200.
+* **En Contra / Contrario (Contrary Evidence):** El potencial alcista basado en el precio objetivo de consenso de los analistas (3.13%) es estrecho, limitando el margen de ganancia de capital a corto plazo tras las recientes alzas.
+* **Datos Faltantes:** No se dispone en la muestra de estimaciones detalladas de flujo de caja libre operativo desglosado para los próximos ejercicios más allá de los estados históricos cerrados en 2025 (donde el FCF fue de 2.376 millones de EUR).
+
+---
+
+| Concepto / Métrica | Valor Actual / Dato | Implicación para el Inor / Trader |
 | :--- | :--- | :--- |
-| **Ticker / Instrumento** | `NTGY.MC` (Naturgy Energy Group, S.A.) | Cotización MCE a 2026-11-26 |
-| **Precio de Cierre** | 30,14 EUR | Yahoo Finance / Snapshot oficial |
-| **PER Adelantado (*Forward PE*)** | 13,95x | Snapshot fundamental `NTGY.MC` |
-| **Rentabilidad por Dividendo** | 7,92% (2,37 EUR por acción) | Snapshot fundamental `NTGY.MC` |
-| **Ratio Deuda Neta / EBITDA** | 2,42x | Snapshot fundamental `NTGY.MC` |
-| **Precio Objetivo de Consenso** | 31,33 EUR (Upside: +3,96%) | 18 analistas (Snapshot fundamental) |
-| **Noticia Sectorial / Macro** | Euríbor > 3,3%; Fuertes subidas en bolsas europeas | Boletines y 20 Minutos (2026-11-26) |
-| **Noticia Específica** | Artículo sobre dividendos y cómo comprar en España | Rankia (2026-11-23) |
+| **Precio de Cotización** | 30.38 EUR (27-Nov-2026) | Tendencia alcista superando SMA20 y SMA50. |
+| **Rentabilidad por Dividendo** | 7.80% (2.37 EUR) | Atractiva para estrategias de renta e ingresos pasivos. |
+| **PER Operativo** | ~14.06x (Forward/Trailing) | Descuento frente a la mediana del sector (17.69x). |
+| **Deuda Neta / EBITDA** | 2.42x | Perfil de apalancamiento financiero equilibrado y seguro. |
+| **Consenso de Analistas** | 31.33 EUR (Upside: ~3.13%) | Escaso margen de revalorización adicional a corto plazo. |
+| **RSI (14)** | 56.91 | Zona neutral, sin agotamiento comprador inmediato. |
+
+---
+
+FINAL TRANSACTION PROPOSAL: HOLD
 
 ### Fundamentals Analyst
-**Rating**: REVIEW
+**Rating**: HOLD  
+FINAL TRANSACTION PROPOSAL: HOLD
 
-**FINAL TRANSACTION PROPOSAL:** HOLD
-
-***
+---
 
 ### Informe Fundamental Integral: Naturgy Energy Group, S.A. (`NTGY.MC`)
 
-Fecha del informe: 26 de noviembre de 2026.
-Bolsa de cotización: Madrid (MCE), cotizado en EUR.
-Índice de referencia: `^IBEX`.
+#### 1. Perfil de la Empresa y Datos de Mercado
+* **Nombre de la Compañía:** Naturgy Energy Group, S.A.
+* **Ticker:** `NTGY.MC` (Bolsa de Madrid, cotizada en Euros - EUR)
+* **Sector:** Utilities (Servicios Públicos)
+* **Industria:** Utilities - Regulated Gas (Gas Regulado)
+* **Precio de Cotización Actual (27/11/2026):** €30.38
+* **Capitalización de Mercado:** ~€28.140 millones
+* **Rango de Precio Objetivo de Analistas:** Mínimo €24.30 | Medio €31.33 | Máximo €35.50 (Basado en 18 opiniones de analistas, con un potencial alcista del consenso *upside_pct* de ~3.13%).
+
+#### 2. Análisis Financiero e Historial de Resultados
+Los datos financieros extraídos de los estados contables reflejan la evolución reciente de Naturgy Energy Group, S.A. (`NTGY.MC`):
+
+* **Cuenta de Resultados (Income Statement):**
+  * **Ingresos Totales (Total Revenue):** €22,617 millones (2023) $\rightarrow$ €19,267 millones (2024) $\rightarrow$ €19,455 millones (2025). Se observa una contracción en 2024 respecto a 2023, seguida de una ligera recuperación en 2025 (+14.1% de crecimiento de ingresos reportado en métricas de fundamentales).
+  * **EBITDA:** €5,192 millones (2023) $\rightarrow$ €5,471 millones (2024) $\rightarrow$ €5,543 millones (2025). Muestra una trayectoria de crecimiento constante en el flujo operativo bruto (el EBITDA de los últimos doce meses registrado en snapshots se sitúa en €5,161 millones).
+  * **Beneficio Neto (Net Income):** €1,986 millones (2023) $\rightarrow$ €1,901 millones (2024) $\rightarrow$ €2,023 millones (2025), consolidando un suelo de beneficios cercano a los €2,000 millones anuales.
+
+* **Balance de Situación (Balance Sheet):**
+  * **Activos Totales:** €37,893 millones (2023) $\rightarrow$ €40,836 millones (2024) $\rightarrow$ €39,101 millones (2025).
+  * **Deuda Total:** €15,955 millones (2023) $\rightarrow$ €17,978 millones (2024) $\rightarrow$ €16,747 millones (2025) (la cifra de deuda total actual en snapshot asciende a €17,313 millones con un apalancamiento de Deuda Neta/EBITDA estimado en 2.42x).
+  * **Patrimonio Neto (Stockholders Equity):** €9,448 millones (2023) $\rightarrow$ €9,478 millones (2024) $\rightarrow$ €9,342 millones (2025). El valor contable por acción (*book value*) se sitúa en €9.08, arrojando un ratio Precio/Valor en Libros (*Price-to-Book*) de 3.35x.
+
+* **Flujo de Caja (Cash Flow):**
+  * **Flujo de Caja Operativo (Operating Cash Flow):** €4,857 millones (2023) $\rightarrow$ €3,992 millones (2024) $\rightarrow$ €4,525 millones (2025).
+  * **Inversión de Capital (CapEx):** -€2,424 millones (2023) $\rightarrow$ -€2,197 millones (2024) $\rightarrow$ -€2,149 millones (2025).
+  * **Flujo de Caja Libre (Free Cash Flow):** €2,433 millones (2023) $\rightarrow$ €1,795 millones (2024) $\rightarrow$ €2,376 millones (2025).
+
+#### 3. Valoración y Múltiplos
+* **PER (Trailing P/E):** 14.06x | **PER Adelantado (Forward P/E):** 14.06x.
+* **EV/EBITDA:** 8.26x, lo cual denota una valoración moderada en comparación con la media de sus homólogos en el sector (*peer median forward PE* de 17.69x, situando el ratio relativo de PER de `NTGY.MC` en 0.79x, es decir, cotiza con descuento frente a sus comparables sectoriales).
+* **Rentabilidad por Dividendo (*Dividend Yield*):** Atractiva rentabilidad del **7.80%** (con un *dividend rate* de €2.37 y un *payout ratio* del 75.92%), un pilar fundamental para la retribución al accionista.
+* **Rentabilidad sobre Recursos Propios (ROE):** Sólido 23.70% y márgenes de beneficio neto (*profit margins*) del 10.44%.
+
+#### 4. Indicadores Técnicos y Contexto de Mercado
+* **Precio de cierre:** €30.379 (27/11/2026).
+* **Medias Móviles:** SMA 20 en €29.97, SMA 50 en €29.56 y SMA 200 en €27.46. La cotización se encuentra por encima de todas las medias móviles principales, reflejando una tendencia alcista a medio y largo plazo.
+* **RSI (14):** 56.91 (neutral-alcista, sin señales inmediatas de sobrecompra).
+* **Volatilidad (16.15%)** y un *drawdown* contenido del -2.06%. El rendimiento a 252 sesiones muestra una revalorización del 19.69%.
+* **Contexto macroeconómico:** Las bolsas europeas experimentan un tono de rebote generalizado a finales de noviembre de 2026 (impulsadas por tecnología y banca, según fuentes como Merca2.es y Negocios.com), mientras la inflación en la Eurozona muestra moderación (IPC de noviembre al 4.1%).
+
+#### 5. Evidencia y Datos Faltantes (Missing Data)
+* *Datos faltantes:* No se han suministrado transacciones recientes de iniciados (*insider transactions*) en el snapshot actual, ni detalles pormenorizados de flujos de caja operativos trimestrales más allá de los cierres anuales auditados (2023-2025). Tampoco se dispone de cartera o asignación de capital hipotética previa.
+* *Fuentes y URLs de referencia:* Datos extraídos de los endpoints oficiales de Yahoo Finance (`https://finance.yahoo.com/quote/NTGY.MC/` y sección financiera) y noticias recopiladas mediante Google RSS con fecha de corte al 27/11/2026.
 
 ---
 
-#### 1. Perfil de la Empresa y Contexto de Negocio
-Naturgy Energy Group, S.A. (`NTGY.MC`) opera dentro del sector de **Utilities**, específicamente focalizada en **Utilities - Regulated Gas**. Su modelo de negocio combina actividades reguladas de transporte y distribución de gas con la generación y comercialización de electricidad y gas natural, lo que le otorga un perfil defensivo clásico dentro del mercado ibérico y europeo.
+### Tabla Resumen de Puntos Clave
 
-#### 2. Análisis Financiero y Datos Fundamentales
-A partir de la instantánea de datos financieros recuperada (`retrieved_at`: 26-11-2026), se detallan las métricas clave de la compañía:
-
-*   **Capitalización de Mercado:** 27.921.502.208,00 EUR (~27.92 mil millones de euros).
-*   **Precio de Cotización Actual:** 30,14 EUR (con una rentabilidad en los últimos 252 sesiones del +20,89%).
-*   **Valoración (PER y Múltiplos):**
-    *   *Trailing P/E:* 13,95x
-    *   *Forward P/E:* 13,95x
-    *   *PER Relativo:* El ratio de PER relativo frente a la mediana de sus pares (listados como `ANE.MC`, `ENG.MC`, `ELE.MC`, `IBE.MC`, `NTGY.MC`, `RED.MC`, `SLR.MC`) se sitúa en 0,79x, lo que indica que cotiza con descuento relativo frente a la mediana del sector (mediana forward PE de pares: ~17,58x).
-    *   *Enterprise Value to EBITDA (EV/EBITDA):* 8,22x.
-    *   *Precio a Valor en Libros (Price-to-Book):* 3,32x (Book Value por acción de 9,08 EUR).
-*   **Rentabilidad y Márgenes:**
-    *   *Retorno sobre el Capital (ROE):* 23,70%, mostrando una sólida eficiencia en la generación de valor para los accionistas.
-    *   *Márgenes de Beneficio (Profit Margins):* 10,44%.
-    *   *Crecimiento de Ingresos (Revenue Growth):* +14,1%.
-*   **Estructura de Deuda y Solvencia:**
-    *   *Deuda Total:* 17.312.999.424 EUR (a fecha de balance reciente de 2025: 16.747.000.000 EUR frente a los 17.978.000.000 EUR de 2024, reflejando un esfuerzo de desapalancamiento).
-    *   *Efectivo Total:* 4.840.999.360 EUR.
-    *   *Ratio Deuda Neta / EBITDA:* 2,42x, un nivel de apalancamiento razonable y manejable para una utility regulada.
-*   **Política de Dividendos:**
-    *   *Dividend Yield:* 7,86% – 7,92% (con un dividendo anual de 2,37 EUR por acción).
-    *   *Payout Ratio:* ~75,92%, lo que sustenta una retribución al accionista muy atractiva, aunque limita la retención de beneficios para reinversión agresiva.
-
-#### 3. Historial Financiero (Estados Financieros Anuales)
-*   **Cuenta de Resultados (Income Statement):**
-    *   *2025:* Ingresos Totales de 19.455.000.000 EUR; EBITDA de 5.543.000.000 EUR; Beneficio Neto (Net Income) de 2.023.000.000 EUR.
-    *   *2024:* Ingresos Totales de 19.267.000.000 EUR; EBITDA de 5.471.000.000 EUR; Beneficio Neto de 1.901.000.000 EUR.
-    *   *2023:* Ingresos Totales de 22.617.000.000 EUR; EBITDA de 5.192.000.000 EUR; Beneficio Neto de 1.986.000.000 EUR.
-*   **Flujo de Caja (Cash Flow):**
-    *   *2025:* Flujo de Caja Operativo de 4.525.000.000 EUR; Capex de -2.149.000.000 EUR; Flujo de Caja Libre (Free Cash Flow) de 2.376.000.000 EUR.
-    *   *2024:* Flujo de Caja Operativo de 3.992.000.000 EUR; Capex de -2.197.000.000 EUR; Flujo de Caja Libre de 1.795.000.000 EUR.
-    *   *2023:* Flujo de Caja Operativo de 4.857.000.000 EUR; Cape generador de -2.424.000.000 EUR; Flujo de Caja Libre de 2.433.000.000 EUR.
-
-#### 4. Análisis Técnico y Consenso de Analistas
-*   **Indicadores Técnicos:**
-    *   *RSI (14):* 53,80 (neutral, sin señales de sobrecompra ni sobreventa).
-    *   *MACD:* 0,15 (con línea de señal en 0,19).
-    *   *Medias Móviles:* El precio (30,14 EUR) cotiza por encima de su SMA20 (29,90 EUR), SMA50 (29,53 EUR) y SMA200 (27,44 EUR), lo que confirma una tendencia alcista de medio y largo plazo.
-    *   *Volatilidad (16,08%)* y *Drawdown (-2,84%)*.
-*   **Consenso de Mercado:**
-    *   *Precio Objetivo Medio (Target Mean Price):* 31,33 EUR (con un rango entre un objetivo mínimo de 24,30 EUR y un máximo de 35,50 EUR, basado en 18 opiniones de analistas).
-    *   *Upside Consenso:* +3,96% respecto al precio de cotización actual.
-
-#### 5. Evidencia Externa y Noticias Recientes (Semana del 24-26 de noviembre de 2026)
-*   El contexto macroeconómico europeo muestra fuertes subidas en las bolsas impulsadas por la banca y la tecnología (el boletin, 26-11-2026), mientras que los tipos de interés de la eurozona y el euríbor se mantienen en cotas elevadas (superando el 3,3%, según 20 Minutos). Esto afecta a la valoración de los flujos descontados de las utilities, aunque Naturgy se beneficia de su sólida caja y atractivo dividendo (Rankia, 23-11-2026).
-*   No se han reportado transacciones
+| Categoría | Métrica / Indicador | Valor / Detalle | Implicación para el Trader |
+| :--- | :--- | :--- | :--- |
+| **Precio y Valoración** | Precio de Cierre (`NTGY.MC`) | €30.38 (27/11/202
 
 ## II. Research Team Decision
 
 ### Bull Researcher
 
-Bull Analyst: **Rating**: HOLD  
-**FINAL TRANSACTION PROPOSAL**: Maintain position / Hold
+Bull Analyst: ¡Hola! Es un placer debatir sobre este valor. Entiendo que los osos puedan estar mirando con cautela el panorama general de las *utilities*, pero analizando frío y tendido los datos sobre **NTGY.MC**, la perspectiva alcista no solo es sólida, sino que se sostiene sobre fundamentales envidiables que el mercado empieza a reconocer con esa tendencia por encima de todas las medias móviles clave (SMA20, SMA50 y SMA200). 
 
-¡Hola a todos! Es un placer abrir este debate sobre **`NTGY.MC`** (Naturgy Energy Group, S.A.). Mientras algunos analistas se muestran excesivamente cautelosos con el sector de *utilities* en un entorno de tipos elevados —con el euríbor por encima del 3,3%—, los datos fundamentales y técnicos de `NTGY.MC` demuestran que estamos ante un activo defensivo de primer orden con un atractivo de valoración indudable. 
+Vamos a desmontar las dudas paso a paso y ver por qué los toros llevamos la batuta aquí:
 
-A continuación, destaco por qué la tesis alcista es mucho más sólida de lo que los osos sugieren:
+### 1. Crecimiento, Escalabilidad y Oportunidad de Mercado
+Me dirijo directamente a la principal preocupación de los críticos: el supuesto estancamiento del sector. ¡Miren los números! **NTGY.MC** no está estancada; cerró 2025 consolidando unos ingresos de 19.455 millones de euros y un EBITDA robusto de 5.543 millones de euros (muy por encima de los niveles de 2023). ¿Y qué me dicen del beneficio neto? Sostener un suelo cercano a los 2.000 millones de euros anuales (2.023 millones en 2025) demuestra una resiliencia operativa y una escalabilidad fantástica en su negocio de gas regulado y transición energética. 
 
-### 1. Valoración Atractiva con Descuento Sectorial (PER Relativo)
-El argumento bajista suele centrarse en que las *utilities* tradicionales carecen de crecimiento explosivo. Sin embargo, ignora la ventaja de precio actual de `NTGY.MC`. Con un **PER *forward* de 13,95x**, la compañía cotiza con un **descuento claro frente a la mediana de sus comparables del sector**, cuyo PER adelantado se sitúa en **17,58x** (arrojando un ratio de PER relativo de 0,79). ¿Por qué pagar múltiplos inflados en otras compañías cuando tenemos un líder ibérico regulado generando valor a un coste mucho más razonable?
+Además, frente a un entorno macroeconómico donde la inflación europea se modera (el IPC de noviembre de 2026 baja al 4,1%), la presión sobre los costes operativos se relaja, dando vía libre a que los flujos de caja libre sigan escalando (2.376 millones de euros en 2025).
 
-### 2. Rentabilidad por Dividendo Excepcional y Sostenible
-En un momento macroeconómico donde los inversores buscan refugio ante la volatilidad bursátil y la presión inflacionaria, la retribución al accionista de `NTGY.MC` es un pilar inquebrantable. Ofrece una **rentabilidad por dividendo (*dividend yield*) del 7,92%** (2,37 EUR por acción), respaldada por un flujo de caja libre muy saludable que alcanzó los **2.376 millones de euros al cierre de 2025** (con un flujo de caja operativo de 4.525 millones de euros). El *payout ratio* del 75,92% está perfectamente calibrado para sostener esta generosa política sin poner en riesgo la solidez del balance.
+### 2. Ventajas Competitivas Innegables
+¿Por qué elegir **NTGY.MC** frente a otros gigantes del sector? 
+- **Valoración Atractiva (Descuento Sectorial):** Cotiza a un PER (*forward PE*) de apenas **14.06x**, lo que representa un descuento clarísimo frente a la mediana de sus comparables europeos, que se sitúa en unos carísimos 17.69x (un ratio relativo de 0.79). ¡Estamos comprando calidad con descuento!
+- **Retribución al Accionista Imbatible:** Una rentabilidad por dividendo (*dividend yield*) del **7.80%** (2.37 EUR por acción) es, sencillamente, un bálsamo para cualquier cartera, respaldada por un *payout ratio* razonable del 75.92% y una deuda neta/EBITDA muy controlada en **2.42x**. Ningún oso puede ignorar un retorno por dividendo de casi el 8% en un momento de estabilización de tipos.
 
-### 3. Fortaleza Financiera y Desapalancamiento
-Frente a los temores sobre la carga de deuda en un escenario de tipos altos, los números de Naturgy hablan por sí solos. La compañía ha demostrado disciplina financiera reduciendo su deuda total a 16.747 millones de euros (frente a los 17.978 millones previos), manteniendo un ratio de **deuda neta sobre EBITDA de 2,42x**. Esto refleja un balance saneado, muy manejable para una empresa con flujos de caja tan previsibles. Además, el ROE se sitúa en un brillante **23,70%**, evidenciando una eficiencia superior en la asignación de capital.
+### 3. Respondiendo a los Contraargumentos (Bajistas)
+Los detractores suelen argumentar que el potencial alcista basado en el precio objetivo de consenso (3.33 EUR de *target mean price* frente a los 30.38 EUR actuales, arrojando un *upside* de apenas el 3.13%) limita el recorrido. 
+- *Mi réplica:* ¡El consenso de los analistas siempre va por detrás de la realidad del mercado en valores defensivos de alta calidad! La cotización ya está rompiendo resistencias técnicas, con un RSI en zona neutral-alcista de **56.91** (cero síntomas de sobrecompra) y apoyada por el fuerte rebote de las bolsas europeas a finales de noviembre de 2026. Apostar en contra de un valor con una rentabilidad sobre recursos propios (**ROE**) sobresaliente del **23.70%** y un margen neto del **10.44%** es ignorar la fortaleza del balance de la compañía.
 
-### 4. Respaldo Técnico y Momento de Mercado
-Desde una perspectiva técnica, `NTGY.MC` cotiza a **30,14 EUR**, manteniéndose cómodamente por encima de sus medias móviles clave: la de 20 sesiones (29,90 EUR), la de 50 sesiones (29,53 EUR) y, sobre todo, la de 200 sesiones (27,44 EUR). Con un RSI en 53,80 (totalmente neutral) y un *drawdown* mínimo de apenas -2,84%, el valor muestra una estabilidad envidiable frente a las fluctuaciones del mercado general.
+En resumen, los fundamentales abalan el momento técnico: **NTGY.MC** ofrece valor, seguridad, un dividendo de categoría y un margen de seguridad por múltiplos que los osos simplemente no saben pricing. 
 
-En conclusión, los osos pueden preocuparse por el ritmo del crecimiento macroeconómico, pero `NTGY.MC` ofrece una combinación imbatible de **defensividad, un dividendo cercano al 8%, múltiplos atractivos y un balance bajo control**. No hay razones para infravalorar este valor; al contrario, la recomendación de mantener y conservar posiciones es totalmente sólida. ¡Abro el turno para debatir estos puntos!
+**Rating**: HOLD  
+FINAL TRANSACTION PROPOSAL: HOLD
 
 ### Bear Researcher
 
-Bear Analyst: **Rating**: REVIEW  
-**FINAL TRANSACTION PROPOSAL**: REVIEW
+Bear Analyst: ¡Hola colega! Comprendo perfectamente tu optimismo y esa fascinación que os entra a los toros cuando veis un dividendo que roza el 8% y un PER aparente de 14 veces en **NTGY.MC**. Suena a chollo en papel, de acuerdo. Pero seamos sinceros: mirar los números sin el contexto regulatorio, estratégico y macroeconómico adecuado es la receta perfecta para quedarse atrapado en una trampa de valor (*value trap*). 
 
-¡Hola colega! Entiendo perfectamente el atractivo superficial de colgarse del dividendo del ~8% de **`NTGY.MC`** y presumir de un PER forward de 13,95x frente a la mediana del sector en 17,58x. Suena idílico para cualquier inversor buscando refugio. Pero vamos a desinflar ese optimismo excesivo con un poco de rigor financiero y una dosis de realidad macroeconómica, porque ese supuesto "descuento" esconde trampas estructurales muy peligrosas.
+Vamos a desmontar punto por punto esa tesis alegre que defiendes, porque la realidad de **NTGY.MC** está llena de sombras que el mercado tarde o temprano va a tener que descontar.
 
-Aquí te enumero por qué tu tesis alcista cojea gravemente y por qué deberíamos mantenernos extremadamente cautelosos con este valor:
+---
 
-### 1. ¿Descuento sectorial o trampa de valor (Value Trap)?
-Te agarras con fuerza a ese PER de 13,95x argumentando que es una ganga en comparación con el 17,58x de los pares. Pero en el mercado, las cosas rara vez cotizan baratas por casualidad. Ese descuento refleja un estancamiento operativo crónico y la falta crónica de catalizadores de crecimiento orgánico. Mientras otras *utilities* están reconfigurando sus carteras hacia energías renovables con fuerte apoyo institucional y visibilidad de crecimiento a largo plazo, `NTGY.MC` sigue anclada en un negocio de gas regulado maduro y expuesto a constantes vaivenes regulatorios e incertidumbres geopolíticas sobre el suministro. No es una ganga; es un activo que el mercado penaliza por su escaso dinamismo estratégico.
+### 1. El espejismo del crecimiento y la trampa del consenso
+Te agarras con fuerza a los ingresos de 2025 (19.455 millones de euros) y a ese beneficio neto de 2.023 millones, presentándolo como una demostración de "escalabilidad fantástica". ¡Cuidado con la memoria selectiva! Olvidas mencionar que en 2023 los ingresos ascendían a **22.617 millones de euros**. Venimos de una contracción interanual de la cifra de negocio en 2024 de la que apenas se ha recuperado una fracción. ¿Eso lo llamas escalabilidad? Yo lo llamo estancamiento con alta volatilidad en los mercados energéticos globales.
 
-### 2. El espejismo del Dividendo al 8% en un entorno de tipos altos
-Presumes de una rentabilidad por dividendo del 7,92% (2,37 EUR por acción) respaldada por un *payout* del 75,92%. Pero hagamos cuentas de verdad: destinar tres cuartas partes de los beneficios a retribuir al accionista en un momento en que el euríbor supera el 3,3% y el coste de la deuda sigue tensionado es, sencillamente, hipotecar el futuro de la compañía. ¿Qué margen real le queda a la empresa para acomodar el capex necesario en transición energética o para capear un shock imprevisto sin erosionar el balance? Estás exprimiendo la vaca lechera hasta dejarla exhausta, comprometiendo la flexibilidad financiera a cambio de un dividendo cortoplacista.
+Y me hace gracia que descartes el consenso de los analistas diciendo que "siempre van por detrás". Mira los datos fríos: con el precio de cotización actual en **30.38 EUR** y un precio objetivo medio (*targetMeanPrice*) de **31.33 EUR**, el potencial alcista (*consensus upside*) es de **un minúsculo 3.13%**. Cuando el mercado entero —formado por 18 analistas revisando el valor— te dice que el recorrido al alza es inferior al margen de error de una sesión bursátil, no puedes pretender que nos lancemos a comprar a ciegas basándonos en esperanzas técnicas. El RSI está en 56.91, tranquilo, sí, pero sin catalizadores reales de crecimiento, lo único que tenemos es un valor lateral con sesgo de agotamiento.
 
-### 3. Deuda y flujos de caja bajo presión macroeconómica
-Aunque intentes dorar la píldora diciendo que la deuda neta sobre EBITDA está en 2,42x (con una deuda total que ronda los 17.310 millones de euros), la realidad es que cualquier fluctuación en los precios del gas o recortes en las retribuciones reguladas impactan de inmediato en la capacidad de generación de caja. Los flujos de caja libres han mostrado una volatilidad evidente en los últimos ejercicios (pasando de más de 2.400 millones en 2023 a 1.795 millones en 2024, para luego repuntar a 2.376 millones en 2025). Con un entorno macroeconómico europeo donde el coste de refinanciación no va a volver a los mínimos de la década pasada, esa masa de deuda deja de ser un trámite menor y se convierte en un lastre estructural para el beneficio neto.
+### 2. Vulnerabilidades competitivas y un dividendo bajo presión
+Presumes de una rentabilidad por dividendo del **7.80%** (2.37 EUR por acción) como si fuera un manantial inagotable. Pero analicemos la fontanería financiera:
+- **El Payout y la Caja:** Estás distribuyendo un **75.92%** de los beneficios en dividendos. Con un flujo de caja libre (*Free Cash Flow*) que ha oscilado erráticamente (pasando de 2.433 millones en 2023 a 1.795 millones en 2024, para recuperarse de aquella manera a 2.376 millones en 2025), comprometer semejante proporción de caja limita de forma drástica la capacidad de **NTGY.MC** para invertir en la auténtica transición energética. Mientras los competidores europeos se transforman agresivamente hacia renovables, Naturgy sigue atada a las cadenas del gas regulado.
+- **La losa de la deuda:** Aunque una ratio de Deuda Neta/EBITDA de **2.42x** (con una deuda total que ronda los 17.310 millones de euros) pueda parecer manejable hoy, en un régimen de riesgos macroeconómicos cambiante y con tipos de interés que no van a volver a los suelos del pasado, refinanciar esta masa de pasivo va a comerse una parte significativa de la rentabilidad operativa. 
 
-### 4. ¿Potencial alcista agotado? Un consenso mediocre
-No podemos ignorar la señal más evidente que nos da el propio mercado: el precio objetivo medio de consenso se sitúa en **31,33 EUR**, lo que deja un **potencial alcista pírrico de apenas el 3,96%** frente a los 30,14 EUR actuales. El propio mercado ya le ha puesto un techo a la cotización. Apostar por un recorrido tan escaso asumiendo los riesgos regulatorios, de endeudamiento y de falta de crecimiento no tiene ningún sentido matemático ni de gestión de riesgos.
+### 3. Respondiento al espejismo técnico del toro
+Hablas de que cotiza con descuento frente a la mediana de sus comparables europeos (PER de 14.06x frente a 17.69x). Pero en el sector *utility*, **el descuento rara vez es gratuito**. Si el mercado premia a otras compañías con múltiplos más elevados, es porque valoran una mayor visibilidad en crecimiento limpio, menor exposición a la volatilidad geopolítica del gas y una gobernanza corporativa mucho más clara y libre de los culebrones accionariales e institucionales que han plagado a **NTGY.MC** en los últimos años. 
 
-En definitiva, `NTGY.MC` es un título cómodo para quienes solo miran el retrovisor del dividendo, pero ignorar los vientos en contra macroeconómicos, el escaso margen hasta el precio objetivo y la asfixia de destinar el 76% del beneficio al dividendo es jugar con fuego. ¡Mantener posiciones aquí es sinónimo de perderse el verdadero crecimiento que ofrece el resto del mercado europeo!
+Apostar por un ROE del 23.70% está muy bien en teoría, pero si el beneficio neto está anclado en un rango plano de 2.000 millones sin palancas reales de expansión orgánica, lo único que tienes es una vaca lechera desdentada a punto de secarse.
+
+### Conclusión Bajista
+No estamos ante un desastre inminente, pero **NTGY.MC** ofrece un perfil de riesgo-recompensa totalmente desfavorable a estos precios de 30.38 EUR. Con un *upside* ridículo del 3.13%, presiones estructurales en su modelo de gas y una falta absoluta de catalizadores de crecimiento más allá de exprimir el dividendo, el suelo técnico actual es una invitación a tomar beneficios o, como mínimo, a mantenernos al margen y buscar valor en otro sitio. Mi recomendación es clara: **HOLD** defensivo, rozando la salida.
+
+**Rating**: HOLD  
+FINAL TRANSACTION PROPOSAL: HOLD
 
 ### Research Manager
 **Recommendation**: Hold
 
-**Rationale**: El debate entre el analista alcista y el bajista ha puesto de manifiesto argumentos de gran peso a ambos lados. Por un lado, la tesis alcista defiende con solidez la atractiva valoración de NTGY.MC con un PER forward de 13,95x (frente a la mediana sectorial de 17,58x), una generosa rentabilidad por dividendo del 7,92% respaldada por un flujo de caja libre de 2.376 millones de euros, un balance controlado con una deuda neta sobre EBITDA de 2,42x y un soporte técnico cómodo por encima de sus medias móviles clave (cotizando a 30,14 EUR). Por otro lado, la postura bajista advierte con acierto sobre los riesgos estructurales: un potencial alcista pírrico de apenas el 3,96% frente al precio objetivo de consenso de 31,33 EUR, un elevado *payout* del 75,92% en un entorno de tipos y euríbor elevados (>3,3%), y las dudas sobre el crecimiento orgánico a largo plazo frente a otras *utilities*. Poniendo ambos argumentos en la balanza, el limitado potencial de revalorización al precio actual neutraliza el atractivo del dividendo y los múltiplos, impidiendo una convicción clara para comprar o vender. Por tanto, la evidencia equilibrada justifica adoptar una postura prudente de mantenimiento.
+**Rationale**: El debate entre el analista alcista y el bajista pone de manifiesto un claro punto de equilibrio en NTGY.MC. Por un lado, los toros defienden con acierto la solidez fundamental de la compañía: un EBITDA superior a los 5.500 millones de euros, un beneficio neto estabilizado en torno a los 2.000 millones, un atractivo PER *forward* de 14.06x con descuento frente al sector (mediana de comparables en 17.69x) y una excelente rentabilidad por dividendo cercana al 7.80% (2.37 EUR por acción), respaldada por una ratio de deuda neta sobre EBITDA contenida en 2.42x. Por otro lado, los osos argumentan con solidez que el crecimiento de los ingresos muestra altibajos respecto a 2023, que el potencial alcista frente al precio objetivo de consenso es mínimo (+3.13% sobre los 30.38 EUR actuales) y que la elevada tasa de distribución de beneficios (*payout* del 75.92%) limita la flexibilidad para la transición energética. Tras sopesar ambos lados, el argumento bajista sobre la falta de catalizadores de crecimiento y un recorrido de consenso prácticamente agotado neutraliza el atractivo del jugoso dividendo y la valoración por múltiplos, justificando plenamente una postura neutral de mantenimiento sin forzar una dirección alcista ni bajista.
 
-**Strategic Actions**: Mantener la asignación actual de la cartera para NTGY.MC de forma neutral (ponderación estándar). No incrementar exposición dado el escaso recorrido alcista (3,96% hasta el consenso de 31,33 EUR) ni ejecutar recortes drásticos mientras el dividendo del ~7,9% y el soporte de la media de 200 sesiones (27,44 EUR) sigan sosteniendo la cotización en 30,14 EUR. Monitorear de cerca la evolución del coste de la deuda y cualquier actualización regulatoritaria en el sector de gas regulado.
+**Strategic Actions**: Mantener la asignación actual en la cartera de manera neutral (peso estándar). No se recomienda incrementar exposición debido al escaso margen alcista frente al consenso (3.13%) ni reducir posiciones de forma precipitada, dado que el sólido dividendo del 7.80% y los soportes técnicos (cotización por encima de la SMA20, SMA50 y SMA200 con un RSI en 56.91) otorgan estabilidad a corto plazo. Vigilar de cerca la evolución del flujo de caja libre y cualquier novedad sobre la estrategia de transición energética o la gobernanza corporativa antes de plantear un cambio de rumbo.
 
 ## III. Trading Team Plan
 
 ### Trader
 **Action**: Hold
 
-**Reasoning**: Naturgy cotiza a 30,14 EUR con un PER atractivo de 13,95x frente al sector y una sólida rentabilidad por dividendo del 7,92%, apoyada por un balance controlado con deuda neta sobre EBITDA de 2,42x y soporte técnico sobre su media móvil de 200 sesiones (27,44 EUR). Sin embargo, el limitado potencial alcista hasta el precio objetivo de consenso de 31,33 EUR (+3,96%) y el entorno de tipos de interés altos neutralizan la urgencia de ampliar o deshacer posiciones. Por consiguiente, se recomienda mantener la posición actual de manera neutral a la espera de un punto de entrada más favorable o variaciones fundamentales significativas.
+**Reasoning**: Naturgy Energy Group, S.A. (NTGY.MC) cotiza a 30.38 EUR, manteniéndose por encima de sus medias móviles clave (SMA20, SMA50 y SMA200) y mostrando un RSI neutral-alcista de 56.91 junto a una atractiva rentabilidad por dividendo del 7.80%. Sin embargo, el potencial alcista frente al precio objetivo de consenso (31.33 EUR) es de apenas un 3.13%, limitando los catalizadores a corto plazo y justificando mantener la posición actual sin realizar nuevas compras.
 
 **Entry Price**: not provided
 
-**Stop Loss**: 27.44
+**Stop Loss**: not provided
 
-**Position Sizing**: Mantener asignación actual de cartera
+**Position Sizing**: Manejar según ponderación estándar de cartera existente; no añadir nueva exposición.
 
 FINAL TRANSACTION PROPOSAL: **HOLD**
 
@@ -246,56 +236,52 @@ FINAL TRANSACTION PROPOSAL: **HOLD**
 
 ### Aggressive Analyst
 
-Aggressive Analyst: **Rating**: HOLD
+Aggressive Analyst: ¡Basta ya de timidez y de buscar excusas para quedarse de brazos cruzados! Mientras el analista conservador y el neutral se inmovilizan analizando milimétricamente un potencial alcista de consenso del 3.13% sobre el papel, están ignorando por completo la verdadera fuerza de fuego que tiene **NTGY.MC**. ¿Qué nos dicen los datos duros? Cotiza a 30.38 EUR, manteniéndose firmemente por encima de todas sus medias móviles clave (SMA20 en 29.97, SMA50 en 29.56 y, sobre todo, una sólida SMA200 en 27.46 EUR). ¡Estamos ante una tendencia alcista estructural incontestable! 
+
+El analista neutral se escuda en que el upside es estrecho, pero ignora que con un RSI de 56.91 tenemos un momento perfectamente equilibrado, sin rastro de sobrecompra, listo para romper resistencias apoyado por un entorno macroeconómico donde las bolsas europeas están rebotando con fuerza y la inflación se modera al 4.1%. ¿Y qué decir de la joya de la corona? ¡Una rentabilidad por dividendo del 7.80% respaldada por un flujo de caja operativo brutal de más de 4.500 millones de euros y un PER adelantado de apenas 14.06x que cotiza con descuento frente a la mediana de sus pares (17.69x)! 
+
+La prudencia excesiva de mis compañeros nos ciega ante la oportunidad de capitalizar este momento de mercado. Mantener la posición sin añadir exposición es dejar dinero sobre la mesa; necesitamos agresividad para maximizar el crecimiento de la cartera aprovechando esta sólida generación de caja y su atractiva valoración relativa. ¡A por todas!
+
+**Rating**: HOLD
 FINAL TRANSACTION PROPOSAL: **HOLD**
-
-¡Paren ya con esa sobredosis de timidez y parálisis por análisis! Mientras los prudentes y los neutrales se quedan paralizados mirando el retrovisor y discutiendo si el potencial alcista de consenso hasta los 31,33 EUR es de apenas un 4%, están ignorando por completo la verdadera fuerza impulsora que hace de `NTGY.MC` una oportunidad estelar para generar valor dinámico. 
-
-Me vienen con que el entorno de tipos de interés altos y un euríbor por encima del 3,3% frenan la urgencia de actuar, o que deberíamos esperar a correcciones más profundas. ¡Menuda excusa para perderse el tren! ¿Acaso no están viendo los números? Estamos hablando de un gigante de los servicios públicos regulados que cotiza a un PER *forward* sumamente atractivo de 13,95x, con un descuento abrumador del 21% frente a la mediana de sus comparables sectoriales que se sitúa en 17,58x. ¡La valoración relativa es una auténtica ganga para los inversores con visión de crecimiento y captura de valor!
-
-¿Y qué me dicen del dividendo? Una rentabilidad por dividendo del 7,92% (2,37 EUR por acción) no es simplemente un refugio defensivo: es un flujo de caja contante y sonante que alimenta cualquier estrategia de acumulación agresiva mientras el mercado europeo registra fuertes rebotes superiores al 2% impulsados por el optimismo generalizado. Con un apalancamiento financiero perfectamente controlado (una ratio de deuda neta sobre EBITDA de tan solo 2,42x) y un flujo de caja libre que rozó los 2.380 millones de euros al cierre del ejercicio, el balance de Naturgy es una roca. No está sobreendeudada; tiene pólvora seca para seguir optimizando su estructura de capital sin sudar tinta.
-
-Técnicamente, los neutrales se escudan en que el RSI está en un plano 53,80 y que el MACD muestra compresión. ¡Por favor! ¡Eso es una consolidación de libro justo por encima de la media móvil de 200 sesiones situada en los 27,44 EUR y de la SMA de 20 y 50 sesiones! La tendencia alcista a medio y largo plazo está intacta, y un retroceso máximo (*drawdown*) de apenas el -2,84% demuestra que el valor es un toro indomable que apenas sufre presión vendedora. 
-
-Esperar a que caiga más o quedarse cruzado de brazos es de mediocres. Aunque nuestra recomendación actual de retención aconseje mantener la asignación actual de cartera, mi enfoque agresivo exige no perder de vista la enorme opcionalidad alcista que ofrece este descuento sectorial y esta retribución al accionista de primer nivel. No se queden atrás esperando el momento "perfecto" mientras el mercado premia a los audaces.
 
 ### Conservative Analyst
 
-Conservative Analyst: **Rating**: HOLD  
+Conservative Analyst: Compañeros, la euforia y la urgencia por incrementar la exposición que propone el analista agresivo pasan por alto los principios fundamentales de la gestión prudente del riesgo. Es muy fácil dejarse deslumbrar por titulares de rebotes macroeconómicos de última hora o por un dividendo aparente del 7.80% (respaldado por un *payout* del 75.92%), pero como analista de riesgos conservador mi deber es mirar más allá de la superficie y proteger el capital de la firma ante desvíos innecesarios.
+
+El analista agresivo descarta con ligereza el escaso margen de revalorización que ofrece el valor. Los datos de consenso son tozudos: con un precio actual de 30.38 EUR y un precio objetivo medio de 31.33 EUR, el potencial alcista (*consensus upside*) es de apenas un 3.13%. Comprometer nuevo capital en un activo que ya se encuentra prácticamente en su valor objetivo de consenso expone a la cartera a un riesgo asimétrico desfavorable. Comprar ahora significa asumir todo el riesgo de compresión o corrección técnica a cambio de migajas en ganancia de capital. 
+
+Asimismo, se argumenta que el RSI de 56.91 y la cotización por encima de las medias móviles (SMA20 en 29.97 EUR, SMA50 en 29.56 EUR y SMA200 en 27.46 EUR) justifican una expansión agresiva de la posición. Sin embargo, olvidar que el MACD (0.167) se encuentra por debajo de su línea de señal (0.189) es ignorar una clara señal de pérdida de impulso a corto plazo y consolidación lateral. Añadir exposición en este exacto momento técnico, justo cuando el valor acumula un retorno de casi el 20% a 252 sesiones (19.69%), es sinónimo de comprar en la parte alta del tramo actual sin un catalizador fundamental que justifique una ruptura inmediata.
+
+Por último, aunque la deuda neta sobre EBITDA se sitúa en un aceptable 2.42x y el flujo de caja operativo de 4,525 millones de euros a cierre de 2025 es sólido, no debemos pasar por alto que nos enfrentamos a un entorno macroeconómico frágil y volátil a pesar de los rebotes bursátiles puntuales de finales de noviembre de 2026. Forzar una nueva entrada o incrementar la exposición en **NTGY.MC** cuando el margen de seguridad es prácticamente inexistente vulnera nuestro mandato principal de minimizar la volatilidad y preservar el capital. 
+
+Por todo ello, la única decisión sensata y rigurosa para proteger los intereses de la firma es mantener la postura actual de cautela y rechazar rotundamente cualquier tentación de sobreexposición.
+
+**Rating**: HOLD
 FINAL TRANSACTION PROPOSAL: **HOLD**
-
-Colega agresivo, entiendo perfectamente la tentación de dejarse llevar por los cantos de sirena de ese jugoso descuento del veintiuno por ciento frente a la mediana sectorial y por la atractiva rentabilidad por dividendo del 7,92 por ciento en `NTGY.MC`. Sin embargo, calificar de "parálisis por análisis" lo que es una rigurosas gestión del riesgo y prudencia corporativa es un error imperdonable que pone en peligro el capital de la firma. 
-
-Vendes la idea de que este PER forward de 13,95x es una "ganga estelar", pero olvidas deliberadamente el contexto macroeconómico que tenemos encima. Con un euríbor que ya supera el 3,3 por ciento en este mes de noviembre de 2026 y unos tipos de interés en la eurozona que se niegan a dar tregua, los costes de refinanciación de la deuda son una amenaza real y latente. Aunque presumes de que la ratio de deuda neta sobre EBITDA de 2,42x está controlada y que la empresa cuenta con 17.313 millones de euros de deuda total, cualquier contracción adicional en los múltiplos de valoración del sector de *utilities* debido a la presión de los tipos fijos y de los bonos soberanos podría evaporar ese supuesto "descuento" en cuestión de sesiones. La complacencia con el apalancamiento es el primer paso hacia una pérdida patrimonial severa.
-
-Además, te ciegas con el potencial alcista. El consenso de analistas sitúa el precio objetivo medio en 31,33 EUR, lo que arroja un margen de revalorización pírrico del 3,96 por ciento desde los actuales 30,14 EUR. Asumir riesgos innecesarios o incrementar posiciones de manera agresiva por un potencial inferior al cuatro por ciento es una asimetría de riesgo y retorno pésima. Estás arriesgando el capital principal de la firma por migajas al alza, ignorando que el título ya acumula una rentabilidad a 252 sesiones del 20,89 por ciento y se encuentra cerca de sus resistencias operativas.
-
-Tampoco podemos ignorar el comportamiento técnico. Dices que la consolidación con un RSI en 53,80 y un MACD comprimido es una señal de fortaleza incuestionable, pero desde una óptica conservadora, esto refleja agotamiento de impulso tras un avance sostenido. Si el valor pierde la zona de soporte clave de la media móvil de 200 sesiones en 27,44 EUR —marcada además como nuestro estricto nivel de stop loss—, la corrección puede acelerarse con fuerza, atrapando a los inversores imprudentes que compraron arriba buscando emociones fuertes. 
-
-Por todo ello, mantener una postura neutral y conservar la asignación actual sin sobreexponer nuestros activos es la única decisión sensata. La misión de un analista de riesgos no es correr detrás de cada rebote bursátil impulsado por el optimismo coyuntural de la banca y la tecnología, sino blindar el patrimonio frente a giros inesperados del mercado. Menos euforia y más protección de capital.
 
 ### Neutral Analyst
 
-Neutral Analyst: **Rating**: HOLD  
+Neutral Analyst: Escuchando a ambos lados, veo puntos muy válidos, pero también exageraciones claras que debemos matizar desde una perspectiva neutral. 
+
+Por un lado, el analista agresivo se deja llevar por la euforia del rebote macroeconómico y los sólidos fundamentales de Naturgy (`NTGY.MC`), ignorando convenientemente que el potencial alcista según el consenso de los analistas es de apenas un 3.13% sobre el precio actual de 30.38 EUR (con un objetivo medio de 31.33 EUR). Pretender añadir nueva exposición con un margen tan estrecho es asumir un riesgo innecesario de comprar justo en la zona de resistencia del consenso, desatendiendo además la leve señal de compresión que muestra el MACD (0.167 frente a una señal de 0.189). 
+
+Por otro lado, el analista conservador se muestra excesivamente alarmista al sugerir que mantener o gestionar la posición actual bajo una ponderación estándar representa un peligro inminente. Olvida que la compañía cuenta con una sólida tendencia técnica por encima de todas sus medias móviles clave (SMA20 en 29.97 EUR, SMA50 en 29.56 EUR y SMA200 en 27.46 EUR), un RSI perfectamente equilibrado en 56.91 que no denota sobrecompra, y una atractiva rentabilidad por dividendo del 7.80% respaldada por un flujo de caja operativo superior a los 4.500 millones de euros y una ratio de deuda neta sobre EBITDA contenida en 2.42x. Catalogar esto como un escenario de alto riesgo es pasar por alto la resiliencia estructural del valor dentro del sector de utilities.
+
+La estrategia sensata y verdaderamente equilibrada no es comprar de forma desbocada ni tampoco entrar en pánico defensivo. La decisión de mantener (*Hold*) sin incrementar la exposición actual es la única postura que nos permite capturar el jugoso dividendo del 7.80% y mantenernos en una tendencia alcista sana, mientras evitamos sobrepagar en un momento donde el recorrido por precio objetivo a corto plazo es limitado. Es una aproximación pragmática: dejamos que el activo trabaje para la cartera sin forzar nuevas compras que desequilibrarían nuestra gestión del riesgo.
+
+**Rating**: HOLD
 FINAL TRANSACTION PROPOSAL: **HOLD**
-
-A ver, compañeros, creo que ambos extremos pecan de parcialidad y se dejan llevar por sus propios sesgos. Analicemos con cabeza fría los argumentos que acaban de exponer sobre Naturgy Energy Group, S.A. (`NTGY.MC`).
-
-Por un lado, mi estimado colega agresivo ve una "ganga estelar" en ese PER forward de 13,95x frente a la mediana sectorial de 17,58x y en una rentabilidad por dividendo del 7,92%. Tienes razón en que los fundamentales operativos son sólidos, que la generación de caja libre rozó los 2.380 millones de euros y que una ratio de deuda neta sobre EBITDA de 2,42x no es alarmante para una utility regulada. Sin embargo, pecas de un optimismo ciego al restar importancia al contexto macroeconómico. Ignoras que el euríbor está por encima del 3,3% en este cierre de noviembre de 2026 y que los costes de financiación son una realidad que no se puede barrer bajo la alfombra. Defender una ampliación de posiciones o una actitud arriesgada cuando el potencial alcista de consenso hasta los 31,33 EUR es de apenas un pírrico 3,96% supone aceptar una asimetría de riesgo y rentabilidad bastante pobre a corto plazo. El mercado ya ha reconocido parte del valor, y acumular con tanta euforia en estos niveles es buscarse problemas innecesarios.
-
-Por otro lado, querido analista conservador, te vas al extremo opuesto cayendo en una parálisis defensiva casi paralizante. Exageras el peligro de los tipos de interés como si la empresa estuviera al borde de la quiebra técnica, cuando su estructura de pasivos está perfectamente gestionada dentro de su sector y su flujo operativo cubre holgadamente sus compromisos. Calificar de "migajas" el dividendo del 7,92% es ignorar por completo que, en un entorno de tipos altos y alta volatilidad, un retorno por dividendo de esta magnitud es precisamente el ancla de estabilidad que cualquier cartera diversificada necesita. Además, pintar la consolidación técnica —con un RSI de 53,80 y el precio respetando holgadamente las medias móviles de 20, 50 y 200 sesiones (situada esta última en los sólidos 27,44 EUR)— como un "agotamiento inminente" es un análisis sesgado. No hay indicios de una presión vendedora desbocada; el valor muestra una correlación de baja volatilidad (16,08%) y un retroceso máximo (*drawdown*) insignificante del -2,84%.
-
-La postura moderada y verdaderamente equilibrada nos exige rechazar tanto la temeridad del operador agresivo como el alarmismo del conservador. No necesitamos comprar de forma agresiva arriesgándonos a un recorrido limitado al alza, pero tampoco debemos vaciar nuestra posición ni entrar en pánico por los tipos de interés. La solución racional es mantener la asignación actual de cartera (HOLD), disfrutando de ese jugoso flujo de caja por dividendo mientras el valor consolida su tendencia por encima de la media de 200 sesiones. Vigilaremos de cerca el nivel de stop loss técnico en los 27,44 EUR para blindar el capital ante cualquier giro macroeconómico inesperado, pero sin perder la exposición a un activo defensivo de primera línea. Esa es la verdadera gestión de riesgos: equilibrio, paciencia y objetividad.
 
 ## V. Portfolio Manager Decision
 
 ### Portfolio Manager
 **Rating**: Hold
 
-**Executive Summary**: Mantener la asignación actual de cartera para NTGY.MC de forma neutral, sin incrementar exposición ni ejecutar recortes. La estrategia se basa en conservar la posición para capturar la atractiva rentabilidad por dividendo del 7,92% mientras el precio se mantenga por encima del soporte de la media móvil de 200 sesiones (27,44 EUR), evitando nuevas compras debido al limitado potencial alcista de apenas un 3,96% hasta el precio objetivo de consenso de 31,33 EUR.
+**Executive Summary**: Mantener la exposición actual en NTGY.MC sin realizar nuevas compras ni reducciones. La estrategia se basa en conservar la posición para capturar la atractiva rentabilidad por dividendo del 7.80%, evitando sobreasignar capital dado que el precio actual de 30.38 EUR se encuentra muy cerca del precio objetivo de consenso de 31.33 EUR, dejando un potencial de revalorización limitado al 3.13%. Horizonte temporal de 3-6 meses.
 
-**Investment Thesis**: Tras sopesar el debate de los analistas, se adopta una postura de mantenimiento (Hold) al persistir un equilibrio de fuerzas en el mercado. Por un lado, la tesis alcista resalta la solidez fundamental de Naturgy Energy Group, S.A. (`NTGY.MC`), cotizando a un PER forward de 13,95x frente a la mediana sectorial de 17,58x, un flujo de caja libre cercano a los 2.380 millones de EUR, un apalancamiento controlado con una ratio de deuda neta sobre EBITDA de 2,42x y un soporte técnico sólido por encima de su media móvil de 200 sesiones (27,44 EUR) con una volatilidad reducida del 16,08%. Por otro lado, la postura conservadora advierte correctamente sobre las restricciones macroeconómicas, como un euríbor superior al 3,3% en noviembre de 2026 que eleva los costes de refinanciación, y un margen de revalorización pírrico del 3,96% respecto al objetivo del consenso (31,33 EUR) que limita el atractivo de nuevas entradas agresivas. Dado que los argumentos de solidez operativa y retorno por dividendo neutralizan la necesidad de venta, pero la escasez de recorrido al alza desaconseja ampliar posiciones, la evidencia se mantiene equilibrada. Un cambio en la tesis hacia la compra requeriría una corrección técnica que amplíe el margen de seguridad o una mejora sustancial en los catalizadores de crecimiento orgánico.
+**Investment Thesis**: Tras sopesar los argumentos del debate, la postura neutral sigue siendo la más sólida y equilibrada. Por un lado, los toros aciertan al destacar la solidez técnica (cotización holgada por encima de las medias móviles SMA20 en 29.97 EUR, SMA50 en 29.56 EUR y SMA200 en 27.46 EUR, junto a un RSI equilibrado en 56.91) y fundamentales robustos, como un EBITDA superior a 5.500 millones de euros, una ratio de deuda neta sobre EBITDA contenida en 2.42x y un PER forward de 14.06x que cotiza con descuento frente a la mediana de sus comparables (17.69x). Por otro lado, los osos y la postura neutral argumentan con acierto que el margen alcista frente al objetivo de consenso de los analistas es de apenas un 3.13%, un factor que sumado a la leve pérdida de impulso en el MACD (0.167 frente a la señal de 0.189) desaconseja totalmente incrementar la exposición en este momento. La evidencia demuestra que los fundamentales y el soporte técnico impiden una venta, pero la escasez de recorrido a corto plazo frena cualquier impulso comprador. Un cambio en la tesis requeriría una corrección de precios significativa que amplíe el margen de seguridad o una ruptura técnica clara con volumen por encima de la resistencia del consenso.
 
-**Price Target**: 31.33222
+**Price Target**: 31.33
 
 **Time Horizon**: 3-6 meses

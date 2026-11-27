@@ -1,76 +1,71 @@
-**
-Rating**: HOLD
+**Rating**: HOLD  
+**FINAL TRANSACTION PROPOSAL**: HOLD (Hipotético)
 
-### Informe de Análisis Técnico y Fundamental: PUIG.MC (Puig Brands, S.A.)
+### Informe de Análisis Financiero y Técnico para `PUIG.MC` (Puig Brands, S.A.)
 
-#### 1. Resumen de Identidad y Contexto Macroeconómico
-* **Ticker y Empresa**: `PUIG.MC` (Puig Brands, S.A.), clasificada en el sector *Consumer Defensive* y la industria de productos para el hogar y cuidado personal (*Household & Personal Products*), cotizando en la Bolsa de Madrid (MCE) en Euros (EUR).
-* **Fecha de Análisis**: 26 de noviembre de 2026.
-* **Contexto de Mercado**: Las bolsas europeas registran fuertes subidas impulsadas por sectores como la banca y la tecnología (con avances del Euro Stoxx 50 y el DAX superior al 2% a 26 de noviembre de 2026). El entorno de tipos en la Eurozona muestra un euríbor superando el 3,3% hacia finales de 2026 y cambios institucionales relevantes como la elección de Pablo Hernández de Cos como presidente del BCE. En el ámbito corporativo específico de `PUIG.MC`, la acción ha recibido valoraciones alcistas notables por parte de firmas de análisis como JP Morgan (con mejoras de valoración del orden del 50%), dinamizando su volumen de contratación y cotización reciente.
-
----
-
-#### 2. Análisis Técnico (Basado en el Snapshot Verificado)
-* **Precio de Cierre**: 20,94 EUR (con fecha de precio 2026-11-26 y una variación positiva del sesión de +2,05%).
-* **Medias Móviles**: 
-  * SMA 20: 20,03 EUR
-  * SMA 50: 19,04 EUR
-  * SMA 200: 17,19 EUR
-  * *Observación*: El precio se encuentra claramente por encima de todas sus medias móviles principales (SMA 20, SMA 50 y SMA 200), lo que confirma una estructura alcista sólida tanto a corto, medio como a largo plazo.
-* **Indicadores de Momento y Osciladores**:
-  * **RSI (14)**: 70,10. Se sitúa exactamente en el umbral crítico de sobrecompra (70). Esto advierte de un fuerte impulso alcista reciente (retorno a 21 sesiones del +12,16% y retorno a 252 sesiones del +46,37%), pero también sugiere precaución ante posibles pausas o tomas de beneficios a corto plazo.
-  * **MACD**: 0,374 frente a una línea de señal (*macd_signal*) de 0,365, mostrando un cruce alcista positivo, aunque con histograma estrecho, reflejando continuidad en el impulso comprador tras las revisiones al alza de analistas (como las noticias de JP Morgan).
-* **Volatilidad y Riesgo**:
-  * **Volatilidad (22,17%)** y un *drawdown* actual del 0,0% (máximos recientes). 
-  * Ratio de endeudamiento y solvencia operativa reflejados en un Net Debt / EBITDA de 1,63x, situándose en niveles moderados y manejables para una compañía de gran consumo defensivo.
+#### 1. Resumen de Identidad y Contexto de Mercado
+* **Ticker:** `PUIG.MC`
+* **Empresa:** Puig Brands, S.A.
+* **Sector / Industria:** Consumer Defensive / Household & Personal Products
+* **Bolsa / Divisa:** MCE (Madrid) / EUR
+* **Fecha de Análisis:** 27 de noviembre de 2026 (según fecha actual de referencia y snapshot verificado).
 
 ---
 
-#### 3. Análisis Fundamental y Valuation
-* **Capitalización de Mercado**: ~11.800 millones de EUR (11.795.337.216 EUR).
-* **Valoración y Múltiplos**:
-  * *Trailing P/E*: 20,33x
-  * *Forward P/E*: 17,41x
-  * *Price to Book (P/B)*: 2,93x
-  * *EV/EBITDA*: 13,50x
-* **Cuentas y Rendimiento (Cierre 2025)**:
-  * Ingresos totales (2025): 5.042,03 millones de EUR (frente a 4.789,78 millones en 2024 y 4.304,07 millones en 2023). Muestra un crecimiento sostenido de la cifra de negocio.
-  * Beneficio neto (2025): 593,70 millones de EUR (frente a 530,65 millones en 2024).
-  * EBITDA (2025): 1.117,20 millones de EUR.
-  * Flujo de caja libre (*Free Cash Flow* 2025): 660,56 millones de EUR (superior a los 548,77 millones de 2024).
-* **Consenso de Analistas**:
-  * Precio objetivo medio (*targetMeanPrice*): 21,8875 EUR (con un rango entre un mínimo de 17,0 EUR y un máximo de 25,9 EUR, basado en 16 opiniones de analistas).
-  * *Upside* de consenso: +4,52% respecto al precio actual de 20,94 EUR.
-  * Dividendo: Rentabilidad por dividendo (*dividend_yield_pct*) del ~2,01% (dividendo anual de 0,42 EUR, con un *payout ratio* del 41,07%).
+#### 2. Análisis Técnico
+El precio de cierre verificado para `PUIG.MC` al 27 de noviembre de 2026 es de **21,02 EUR**, mostrando un cambio positivo del **+0,38%** en la sesión. El valor se encuentra experimentando un momento alcista destacado a corto y medio plazo, respaldado por noticias recientes de mercado (notablemente revisiones al alza de valoraciones por parte de analistas como JP Morgan).
+
+* **Medias Móviles:**
+  * **SMA 20:** 20,12 EUR (el precio cotiza por encima de la media de corto plazo, evidenciando impulso).
+  * **SMA 50:** 19,13 EUR.
+  * **SMA 200:** 17,22 EUR. La cotización se sitúa holgadamente por encima de su media de largo plazo, confirmando una estructura de tendencia alcista consolidada.
+* **RSI (14):** Se encuentra en **70,92**, situándose en el límite superior de la zona de sobrecompra tradicional. Esto sugiere un fuerte impulso comprador reciente, aunque advierte de posibles riesgos de consolidación o corrección a muy corto plazo si el indicador no logra romper de forma sostenida.
+* **MACD y Señal:** MACD en **0,41** y línea de señal en **0,37**, con un histograma positivo (`macd > macds`), lo que confirma la continuidad del momento alcista.
+* **Volatilidad y Retornos:** La volatilidad porcentual se sitúa en **22,14%**, con un rendimiento a 21 sesiones del **+11,22%** y a 252 sesiones del **+48,86%**. El *drawdown* actual es del **0,0%**, lo que indica que el valor cotiza en máximos recientes o muy cerca de ellos.
 
 ---
 
-#### 4. Selección de Indicadores Técnicos Complementarios Recomendados
-De acuerdo con la estrategia de selección de indicadores óptimos y no redundantes para evaluar este contexto de tendencia alcista en zona de sobrecompra:
-1. `close_50_sma`: Para identificar la dirección de la tendencia a medio plazo y actuar como soporte dinámico.
-2. `close_200_sma`: Como referencia estructural a largo plazo para confirmar el ciclo alcista principal.
-3. `close_10_ema`: Para capturar giros rápidos de impulso a corto plazo ante la cercanía de niveles de sobrecompra.
-4. `macd`: Para vigilar la divergencia y la fuerza del impulso de tendencia tras las noticias corporativas recientes.
-5. `macds`: Línea de señal para confirmar entradas o salidas tácticas basadas en cruces.
-6. `rsi`: Esencial en este escenario para vigilar el nivel de 70,10 y detectar posibles divergencias de sobrecompra.
-7. `boll`: Banda media (SMA de 20) como referencia de equilibrio estacional de precios.
-8. `atr`: Para dimensionar el riesgo de volatilidad y establecer niveles adecuados de *stop-loss*.
+#### 3. Análisis Fundamental y Financiero
+Basado en los estados financieros y datos fundamentales consolidados:
+* **Capitalización de Mercado:** ~11.840 millones de EUR.
+* **Valoraciones y Múltiplos:** 
+  * *Trailing P/E:* 20,41x
+  * *Forward P/E:* 17,48x
+  * *EV/EBITDA:* 13,74x
+  * *Price-to-Book:* 2,94x
+* **Cuentas Anuales (Cierre 2025):**
+  * **Ingresos Totales:** 5.042,03 millones de EUR (frente a 4.789,78 millones en 2024).
+  * **EBITDA:** 1.117,20 millones de EUR (crecimiento sostenido desde los 979,81 millones en 2024).
+  * **Beneficio Neto (Net Income):** 593,70 millones de EUR (superior a los 530,65 millones de 2024).
+* **Solvencia y Flujo de Caja:**
+  * Deuda total de 1.429,59 millones de EUR (con una ratio de deuda neta sobre EBITDA de **1,63x**, nivel moderado y saludable).
+  * Flujo de caja libre (*Free Cash Flow*) correspondiente a 2025 de **660,56 millones de EUR**, mostrando gran capacidad de generación de caja operativa.
+* **Consenso de Analistas:** El precio objetivo medio (*targetMeanPrice*) se sitúa en **21,89 EUR** (con un rango bajo de 17,00 EUR y alto de 25,90 EUR a partir de 16 opiniones de analistas). Con el precio actual de 21,02 EUR, el potencial alcista implícito (*consensus_upside_pct*) es de aproximadamente **+4,13%**.
 
 ---
 
-#### 5. Datos Faltantes y Advertencias
-* No se dispone de un desglose detallado por segmentos geográficos o marcas individuales en el snapshot actual más allá de los estados financieros consolidados anuales (ingresos, EBITDA, deuda y flujos de caja). 
-* Las recomendaciones y precios objetivos de analistas son estimaciones de consenso y no constituyen valoraciones intrínsecas garantizadas. 
-* Cualquier alusión a asignación de cartera es estrictamente hipotética.
+#### 4. Evidencia Externa y Noticias Recientes
+El comportamiento alcista reciente de `PUIG.MC` ha estado impulsado por revisiones de analistas de gran repercusión en el mercado español e internacional:
+* *Bolsamania / MarketScreener (25-26 de noviembre de 2026):* "Puig sube en bolsa: JP Morgan mejora su valoración un 50%". Esta noticia ha actuado como catalizador principal para la ruptura de resistencias previas y el acercamiento a los objetivos del consenso.
 
 ---
 
-#### 6. Tabla Resumen Clave
+#### 5. Datos Faltantes y Limitaciones
+* No se dispone de un desglose detallado diario de flujos institucionales intradía más allá de las métricas agregadas de volumen y volatilidad del snapshot.
+* La valoración comparativa sectorial automatizada no arrojó métricas comparativas directas en el campo `valuation.label`, por lo que el análisis se fundamenta en los múltiplos absolutos y históricos de la compañía.
 
-| Métrica / Indicador | Valor Actual / Referencia | Implicación para el Inversor |
-| :--- | :--- | :--- |
-| **Precio de Cierre (`PUIG.MC`)** | 20,94 EUR (+2,05%) | Sólido impulso alcista respaldado por revisiones de analistas (JP Morgan). |
-| **RSI (14)** | 70,10 | Condición de sobrecompra técnica; sugiere cautela ante posibles correcciones de corto plazo. |
-| **Media Móvil (SMA 50)** | 19,04 EUR | Soporte estructural a medio plazo situado considerablemente por debajo del precio. |
-| **Media Móvil (SMA 200)** | 17,19 EUR | Confirma la tendencia alcista secular de fondo. |
-| **Forward P/E** | 17,41x | Valuación moderada
+---
+
+#### 6. Tabla Resumen de Puntos Clave
+
+| Categoría | Métrica / Indicador | Valor / Estado | Implicación para el Inversor |
+| :--- | :--- | :--- | :--- |
+| **Precio y Tendencia** | Precio de Cierre (`close`) | 21,02 EUR | Cotización en máximos recientes, tendencia alcista confirmada. |
+| **Medias Móviles** | SMA 50 / SMA 200 | 19,13 EUR / 17,22 EUR | Estructura alcista sólida a medio y largo plazo. |
+| **Momento Técnico** | RSI (14) | 70,92 | Zona de sobrecompra; precaución ante posibles pausas de mercado. |
+| **Momento Técnico** | MACD vs Señal | 0,41 vs 0,37 | Impulso comprador activo y favorable. |
+| **Fundamental** | Ingresos / Beneficio Neto (2025) | 5.042M€ / 593,7M€ | Crecimiento constante de la cifra de negocio y rentabilidad. |
+| **Valoración** | Forward P/E / EV/EBITDA | 17,48x / 13,74x | Valoración razonable acorde al sector defensivo de marcas de lujo/personal. |
+| **Consenso** | Objetivo de Analistas (*Target*) | 21,89 EUR (+4,13%) | Potencial alcista estrecho tras las recientes subidas impulsadas por JP Morgan. |
+
+*Nota de exención: Esta investigación es estrictamente informativa y de carácter hipotético. No constituye una recomendación formal de ejecución de compraventa.*

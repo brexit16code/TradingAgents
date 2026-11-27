@@ -1,11 +1,11 @@
 **Action**: Buy
 
-**Reasoning**: IAG.MC muestra una sólida valoración fundamental con un PER forward de 7,12x frente al sector, un balance robusto con una ratio de deuda neta sobre EBITDA de 0,78x y una fuerte generación de caja respaldada por recompras activas de acciones. La cotización actual de 5,274 EUR se sitúa por encima de sus medias móviles de 50 y 200 sesiones con un RSI neutral de 52,37, ofreciendo un atractivo potencial alcista hacia el precio objetivo de consenso de 6,12 EUR.
+**Reasoning**: IAG.MC muestra sólidos fundamentos con un Forward P/E de 7.18x, un apalancamiento contenido (deuda neta sobre EBITDA de 0.78x) y recompras activas de acciones que respaldan la cotización actual de 5.32 EUR. Técnicamente, el valor cotiza por encima de sus medias móviles clave (SMA 50 en 5.11 EUR y SMA 200 en 4.87 EUR), manteniendo un potencial de revalorización del 15.13% hacia el precio objetivo de consenso de 6.12 EUR.
 
-**Entry Price**: 5.274
+**Entry Price**: 5.32
 
-**Stop Loss**: 4.85
+**Stop Loss**: 4.87
 
-**Position Sizing**: 1.5% de la cartera
+**Position Sizing**: 75% de una asignacion estandar para renta variable
 
 FINAL TRANSACTION PROPOSAL: **BUY**

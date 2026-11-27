@@ -1,40 +1,46 @@
-**Rating**: HOLD
+**Rating**: REVIEW
 
-**Informe de Análisis y Coyuntura Macroeconómica para Cellnex Telecom, S.A. (`CLNX.MC`)**
+**Análisis Macroeconómico y de Mercado para `CLNX.MC` (Cellnex Telecom, S.A.)**
 
-### 1. Resumen Ejecutivo y Estado Actual de `CLNX.MC`
-Cellnex Telecom, S.A. (`CLNX.MC`) cotiza a 25.50 EUR a fecha de 26 de noviembre de 2026, con una capitalización de mercado de aproximadamente 16.715 millones de euros. La acción muestra un rendimiento reciente moderado (subida del 2,12% a 21 sesiones, aunque acumula una corrección del 3,70% a 63 sesiones y una caída del 20,30% desde sus máximos recientes/drawdown). La compañía opera bajo la clasificación sectorial de Inmobiliaria / Servicios Inmobiliarios en la bolsa española (MCE), cotizando en euros con un dividendo estimado por acción de 0.75 EUR (rendimiento por dividendo del ~2.94%). 
+### 1. Resumen y Contexto Macroeconómico Actual
+A fecha de 27 de noviembre de 2026, los mercados europeos y globales experimentan un tono de recuperación y rebote prolongado en renta variable (con menciones destacadas al mejor comportamiento semanal del Dow Jones desde 2022 y avances notables en el Euro Stoxx 50 y DAX). A nivel de precios al consumo, la inflación en la Eurozona/entorno muestra moderación (por ejemplo, el IPC de noviembre de 2026 se sitúa en el 4,1%, según referencias de Rankia), en un contexto donde las agencias y analistas prevén subidas adicionales en las bolsas europeas de cara a 2027, conviviendo no obstante con un nuevo régimen de riesgos macroeconómicos.
 
-### 2. Análisis Fundamental y Financiero
-Basado en los estados financieros y métricas proporcionadas:
-* **Ingresos y Rentabilidad:** Los ingresos totales alcanzaron los 4.120 millones de euros al cierre del ejercicio 2025, frente a los 4.070 millones en 2024 y 3.804 millones en 2023, mostrando un crecimiento constante de la cifra de negocio (crecimiento de ingresos del 30,1% reportado en métricas consolidadas). No obstante, el resultado neto permanece en terreno negativo (-360,78 millones de euros en 2025, frente a -28,04 millones en 2024), lastrado por una estructura de costes financieros y amortizaciones elevados.
-* **Deuda y Apalancamiento:** La deuda total asciende a 22.127 millones de euros (con una deuda neta/EBITDA de aproximadamente 7.96x sobre un EBITDA de 2.591 millones). 
-* **Flujo de Caja:** El flujo de caja operativo en 2025 se situó en 2.286 millones de euros, con unas inversiones de capital (CapEx) de 1.760 millones, resultando en un flujo de caja libre (FCF) positivo de 525,8 millones de euros, mejorando considerablemente frente a los -126 millones de 2023 y los 276 millones de 2024.
-* **Valoración y Consenso:** El ratio Precio/Valor en Libros (P/B) se sitúa en 1.29x, con un EV/EBITDA de 14.45x. El precio objetivo medio de los analistas se sitúa en 34.18 EUR (con un rango entre 21.00 EUR y 45.80 EUR), lo que implica un potencial alcista (consensus upside) estimado del 34,03% sobre el precio de cotización actual de 25.50 EUR, respaldado por 23 opiniones de analistas.
+### 2. Fundamentos y Estado Financiero de `CLNX.MC`
+Cellnex Telecom, S.A. cotiza en la Bolsa de Madrid (`MCE`) dentro del sector inmobiliario/servicios inmobiliarios (infraestructura de telecomunicaciones).
+* **Precio de cierre actual**: 25,60 EUR (al 27/11/2026), con una rentabilidad de los últimos 252 días del 5,57% y un *drawdown* de -19,98% respecto a máximos.
+* **Capitalización de mercado**: ~16.781 millones de EUR.
+* **Valoración y Múltiplos**: 
+  * Ratio Precio/Libro (P/B): ~1,30 (sobre un *Book Value* por acción de 19,715 EUR).
+  * EV/EBITDA: 14,48x.
+  * Deuda Total: ~22.127 millones de EUR (con un efectivo de ~1.503 millones de EUR). El ratio de deuda neta sobre EBITDA se sitúa en niveles elevados, concretamente en **7,96x**.
+  * Rentabilidad por dividendo (*Dividend Yield*): ~2,93% (dividendo anual de 0,75 EUR).
+* **Resultados Históricos (Estados Financieros)**:
+  * **Ingresos Totales**: 4.120,26 millones de EUR en el ejercicio 2025 (frente a 4.070,21 millones en 2024 y 3.804,08 millones en 2023), mostrando un crecimiento de ingresos interanual del orden del 30,1% (*revenue growth*).
+  * **EBITDA**: 2.988,08 millones de EUR en 2025 (2.723,87 millones en 2024; 2.940,86 millones en 2023).
+  * **Beneficio Neto (Net Income)**: Se mantiene en terreno negativo con -360,78 millones de EUR al cierre de 2025 (-28,04 millones en 2024 y -297,22 millones en 2023). 
+  * **Flujo de Caja Libre (FCF)**: Muestra una recuperación progresiva hasta los 525,82 millones de EUR en 2025, tras los 276,24 millones en 2024 y cifras negativas en 2023 (-126,00 millones de EUR).
 
-### 3. Contexto Macroeconómico y Entorno de Mercado (Noviembre 2026)
-El análisis macroeconómico de finales de noviembre de 2026 destaca los siguientes hitos relevantes:
-* **Tipos de Interés y Bancos Centrales:** Las bolsas europeas han cerrado con fuertes subidas impulsadas por el sector bancario y tecnológico (ej. Euro Stoxx 50 y DAX avanzando más de un 2% el 26 de noviembre de 2026). En el ámbito institucional, Pablo Hernández de Cos ha sido elegido presidente del Banco Central Europeo (BCE), convirtiéndose en el primer español al frente de la entidad. Paralelamente, el euríbor supera el 3,3%, encareciendo las hipotecas y reflejando un entorno de tipos de interés restrictivos que impacta directamente en el coste del servicio de la ingente deuda de empresas intensivas en capital como `CLNX.MC`.
-* **Titulares de Prensa Relevantes:** 
-  * *Bolsamania* (2026-11-20): Noticias sobre análisis fundamental de Cellnex.
-  * *extraETF* (2026-11-20): Actualización de cotización, dividendos y noticias (ISIN: ES0105066007).
-  * *20 Minutos* (2026-11-26): El euríbor supera el 3,3% a las puertas de la última subida de tipos de 2026.
+### 3. Consenso de Analistas y Perspectivas
+* **Precio Objetivo Medio (Target Mean Price)**: 34,18 EUR, lo que representa un potencial de revalorización (*consensus upside*) del **33,51%** respecto al precio actual de 25,60 EUR, basado en la opinión de 23 analistas.
+* **Rango de Objetivos**: Mínimo de 21,00 EUR y máximo de 45,80 EUR.
 
-### 4. Evidencia Contradictoria y Factores de Riesgo
-* **Apoyo (Supporting Evidence):** Mejora secuencial del flujo de caja libre positivo (525M€ en 2025), incremento de ingresos operativos y un potencial de revalorización hasta el precio objetivo de consenso de 34.18 EUR (+34%).
-* **Contrario (Contrary Evidence):** Elevada carga de endeudamiento (deuda total superior a 22.000 millones de euros y ratio de endeudamiento neto/EBITDA cercano a 8x), en un contexto donde el euríbor se mantiene elevado sobre el 3,3%, lo que encarece la refinanciación. Pérdidas netas recurrentes a nivel contable (-360M€ en 2025).
-* **Datos Faltantes:** No se dispone de ratios detallados de cobertura de intereses a corto plazo ni de estimaciones desagregadas de desapalancamiento trimestral posterior a noviembre de 2026.
+### 4. Evidencia y Datos Faltantes
+* **Fuentes consultadas**: Yahoo Finance (`CLNX.MC` quote y financials), recopilación de noticias macroeconómicas con fecha 26-27 de noviembre de 2026.
+* **Datos faltantes / Lagunas**: La muestra de noticias específicas sobre la compañía de los últimos siete días no arroja comunicados corporativos (*warnings*: "La muestra de titulares no cubre esta empresa en los últimos siete días"). Faltan detalles cualitativos recientes sobre operaciones corporativas concretas de venta de activos o desapalancamiento en curso durante este cierre de mes.
 
-### Tabla Resumen
+---
 
-| Concepto / Métrica | Valor Actual / Dato Clave | Implicación para `CLNX.MC` |
+### Tabla Resumen de Puntos Clave
+
+| Categoría | Métrica / Dato Clave | Observación / Valor |
 | :--- | :--- | :--- |
-| **Precio de Cotización** | 25.50 EUR (al 26-11-2026) | Corrección del -20,3% desde máximos del periodo |
-| **Capitalización Bursátil** | ~16.715 millones EUR | Escala grande dentro del sector inmobiliario/infraestructuras |
-| **EBITDA** | 2.591 millones EUR | Base operativa sólida para el servicio de activos |
-| **Deuda Total / Neta / EBITDA** | Deuda Total: ~22.126 M€ / Net Debt/EBITDA: ~7.96x | Riesgo de apalancamiento elevado en entorno de tipos altos |
-| **Flujo de Caja Libre (2025)** | 525,8 millones EUR | Mejora notable frente a ejercicios anteriores |
-| **Precio Objetivo de Consenso** | 34.18 EUR (Upside: ~34.03%) | Potencial alcista según el panel de analistas (23 opiniones) |
-| **Entorno de Tipos (Euríbor)** | Supera el 3,3% (Nov 2026) | Presión sobre el coste financiero de la deuda |
+| **Identificación** | Ticker y Empresa | `CLNX.MC` (Cellnex Telecom, S.A.), Mercado MCE |
+| **Precio y Valor de Mercado** | Cotización actual y Market Cap | 25,60 EUR / Capitalización: ~16.781 Millones EUR |
+| **Valoración Bursátil** | P/B, EV/EBITDA, Dividend Yield | P/B: 1,30x / EV/EBITDA: 14,49x / Div. Yield: ~2,93% |
+| **Solvencia y Deuda** | Deuda Total / Apalancamiento | Deuda Total: ~22.127 Millones EUR; Deuda Neta/EBITDA: 7,96x |
+| **Rentabilidad Financiera** | Ingresos y EBITDA (2025) | Ingresos: 4.120M EUR (+30,1% a/a); EBITDA: 2.988M EUR |
+| **Flujos de Caja** | Free Cash Flow (2025) | 525,82 Millones EUR (en mejora frente a años previos) |
+| **Consenso de Analistas** | Target Mean y Upside | 34,18 EUR de precio medio objetivo (+33,51% de potencial) |
+| **Contexto Macroeconómico** | Entorno general (Nov 2026) | Rebote de bolsas europeas e internacionales; IPC Eurozona al 4,1% |
 
-FINAL TRANSACTION PROPOSAL: HOLD
+FINAL TRANSACTION PROPOSAL: REVIEW
